@@ -83,7 +83,7 @@ const ruleChecks = [
   ['JSON is the only source', 'Rule 4'],
   ['Regenerate after', 'Rule 5'],
   ['Templates hold structure', 'Rule 6'],
-  ['Only modify data', 'Rule 7'],
+  ['Only modify', 'Rule 7'],
 ];
 for (const [keyword, rule] of ruleChecks) {
   check(skillContent.includes(keyword), `SKILL.md includes "${rule}: ${keyword}"`);
@@ -109,6 +109,20 @@ for (const cp of checkpoints) {
 // 10. Project memory exists
 const memoryPath = path.join(__dirname, '..', 'data', '.project-memory', 'seo-optimization-project.md');
 check(fs.existsSync(memoryPath), 'Project memory file exists');
+
+// 11. Test data readiness
+const testBrands = [['allegro', 'allegro'], ['xilinx', 'xilinx'], ['3peak', '3peak']];
+for (const [label, brand] of testBrands) {
+  const dir = path.join(__dirname, '..', 'data', brand);
+  const n = REQUIRED_FILES.filter(f => fs.existsSync(path.join(dir, f))).length;
+  check(n >= 4, `Test brand ${label}: data/${brand}/ has ${n}/5 files`);
+}
+
+// 12. Real data schema spot-check
+const bp = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', '3peak', 'brand.json'), 'utf-8'));
+check(bp.seoTitle, 'brand.json schema: has seoTitle');
+check(bp.seoDescription, 'brand.json schema: has seoDescription');
+check(bp.name, 'brand.json schema: has name');
 
 // Summary
 console.log('\n========================================');
