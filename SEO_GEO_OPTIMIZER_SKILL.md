@@ -14,7 +14,7 @@ description: >
 
 Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
-**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js` (validation runner), `scripts/brand-data-check.js` (data audit). Run `npm run check:brands` before starting a new brand to check which brands need optimization.
+**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js` (validation runner), `scripts/brand-data-check.js` (data audit), `scripts/seo-readiness-report.js` (SEO state scan). Run `node scripts/seo-readiness-report.js` to see all brands' current SEO element presence.
 
 ---
 
@@ -34,7 +34,7 @@ Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one 
 
 ## Quick Start
 
-Before starting any brand: run `npm run check:brands` to see which brands need optimization and their current data completeness. What the user says → what to do:
+Before starting any brand: run `node scripts/seo-readiness-report.js` for current SEO state, `npm run check:brands` for data completeness. What the user says → what to do:
 
 | User says | Execute |
 |-----------|---------|
@@ -46,6 +46,8 @@ Before starting any brand: run `npm run check:brands` to see which brands need o
 | Unclear | **Step 1** preview → ask user |
 
 Partial execution: still update memory. Pick up where you left off next time.
+
+Before starting: run `npm run check:brands` for data completeness, `node scripts/seo-readiness-report.js` for current SEO state across all brands.
 
 ### Error Handling
 
