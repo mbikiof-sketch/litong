@@ -14,7 +14,7 @@ description: >
 
 Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
-**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js` (validation runner).
+**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js` (validation runner), `scripts/brand-data-check.js` (data audit). Run `npm run check:brands` before starting a new brand to check which brands need optimization.
 
 ---
 
@@ -34,7 +34,7 @@ Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one 
 
 ## Quick Start
 
-What the user says → what to do:
+Before starting any brand: run `npm run check:brands` to see which brands need optimization and their current data completeness. What the user says → what to do:
 
 | User says | Execute |
 |-----------|---------|
@@ -72,7 +72,7 @@ Partial execution: still update memory. Pick up where you left off next time.
 > **OUTPUT**: Updated memory file with brand summary
 > **SKILLS**: `memory-management`
 
-**Action**: Read all 5 data files (`brand.json`, `products.json`, `solutions.json`, `support.json`, `news.json`). Update `seo-optimization-project.md` with brand info, progress, keywords. Verify alphabetical order against previous brand.
+**Action**: Run `npm run check:brands -- --json | grep "\"brand\""` for a quick compliance overview. Then read all 5 data files (`brand.json`, `products.json`, `solutions.json`, `support.json`, `news.json`). Update `seo-optimization-project.md` with brand info, progress, keywords. Verify alphabetical order against previous brand.
 
 > **⏸ 检查点 CP1**: Show user brand summary → "已读取 [brand] 数据（[N] 个产品，[N] 篇文章）。确认继续？"
 
