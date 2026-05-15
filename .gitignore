@@ -1,3 +1,13 @@
 output/  
+output-*/
 node_modules/  
 .DS_Store  
+
+# Generated artifacts
+*-result.json
+*-report.json
+schema.json
+*_report_*.md
+data/*/*_report_*.md
+data/.project-memory/*.md
+
