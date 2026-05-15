@@ -1,0 +1,84 @@
+[
+  {
+    "mpn": "TC101",
+    "name": "TC101 Precision Sensor",
+    "category": "Sensors",
+    "description": "High-precision digital sensor for industrial automation applications. Features 16-bit resolution and I2C/SPI interface.",
+    "longDescription": "The TC101 is a high-precision digital sensor designed for industrial automation. It offers 16-bit resolution with configurable I2C and SPI interfaces, making it suitable for a wide range of measurement and control applications.",
+    "specifications": {
+      "Resolution": "16-bit",
+      "Interface": "I2C, SPI",
+      "Supply Voltage": "3.3V",
+      "Operating Temp": "-40°C to +125°C",
+      "Package": "QFN-20"
+    },
+    "seo": {
+      "seoTitle": "TC101 Precision Sensor | _testdata Distributor",
+      "seoDescription": "TC101 high-precision 16-bit digital sensor from _testdata. I2C/SPI interface, QFN-20 package. Industrial grade -40°C to +125°C."
+    },
+    "faqs": [
+      {"question": "What is the resolution of TC101?", "answer": "TC101 provides 16-bit resolution for high-precision measurements."},
+      {"question": "What interfaces does TC101 support?", "answer": "TC101 supports both I2C and SPI interfaces, configurable via pin selection."}
+    ],
+    "alternative_parts": ["TC102", "TC103"],
+    "compatible_parts": ["TC101A", "TC101B"]
+  },
+  {
+    "mpn": "TC102",
+    "name": "TC102 Low-Noise Amplifier",
+    "category": "Amplifiers",
+    "description": "Low-noise operational amplifier with 10MHz bandwidth and rail-to-rail output.",
+    "longDescription": "The TC102 is a low-noise operational amplifier offering 10MHz bandwidth with rail-to-rail input and output. Ideal for precision signal conditioning in automotive and industrial applications.",
+    "specifications": {
+      "Bandwidth": "10MHz",
+      "Supply Voltage": "2.7V to 5.5V",
+      "Input Offset": "100µV max",
+      "Noise": "8nV/√Hz",
+      "Package": "SOIC-8, MSOP-8"
+    },
+    "seo": {
+      "seoTitle": "TC102 Low-Noise Op Amp | _testdata Distributor",
+      "seoDescription": "TC102 10MHz rail-to-rail low-noise op amp from _testdata. 2.7V-5.5V supply, 100µV offset. SOIC-8/MSOP-8 packages."
+    },
+    "faqs": [
+      {"question": "What is the bandwidth of TC102?", "answer": "TC102 has a 10MHz gain-bandwidth product."},
+      {"question": "Is TC102 suitable for automotive?", "answer": "Yes, TC102 is qualified for automotive applications with AEC-Q100 certification."}
+    ]
+  },
+  {
+    "mpn": "TC103",
+    "name": "TC103 ADC Converter",
+    "category": "Converters",
+    "description": "12-bit successive approximation ADC with 1MSPS sampling rate and 8-channel multiplexer.",
+    "longDescription": "The TC103 is a 12-bit successive approximation register (SAR) ADC with 1MSPS sampling rate. It features an 8-channel multiplexer, internal reference, and SPI interface for easy integration.",
+    "specifications": {
+      "Resolution": "12-bit",
+      "Sampling Rate": "1MSPS",
+      "Channels": "8 (single-ended)",
+      "Interface": "SPI",
+      "Package": "TSSOP-16"
+    },
+    "seo": {
+      "seoTitle": "TC103 12-bit ADC Converter | _testdata Distributor",
+      "seoDescription": "TC103 12-bit SAR ADC from _testdata. 1MSPS, 8-channel, SPI interface. TSSOP-16 package. Order from authorized distributor."
+    }
+  },
+  {
+    "mpn": "TC104",
+    "name": "TC104 Motor Controller",
+    "category": "Controllers",
+    "description": "BLDC motor controller with FOC algorithm support, 48V/10A rated output.",
+    "longDescription": "The TC104 is an advanced BLDC motor controller supporting field-oriented control (FOC). Rated for 48V/10A output with integrated gate drivers and protection features including over-current, over-temperature, and under-voltage lockout.",
+    "specifications": {
+      "Type": "BLDC Controller",
+      "Voltage": "48V max",
+      "Current": "10A continuous",
+      "Control": "FOC, Trapezoidal",
+      "Package": "QFN-48"
+    },
+    "seo": {
+      "seoTitle": "TC104 BLDC Motor Controller | _testdata Distributor",
+      "seoDescription": "TC104 BLDC motor controller from _testdata. 48V/10A, FOC support, integrated gate drivers. QFN-48 package. Distributor pricing available."
+    }
+  }
+]

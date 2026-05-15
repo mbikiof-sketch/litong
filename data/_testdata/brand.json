@@ -1,0 +1,23 @@
+{
+  "name": "_testdata",
+  "displayName": "Test Brand Inc.",
+  "ChineseName": "测试品牌",
+  "description": "Permanent test fixture for SEO/GEO integration testing. Validates data pipeline, HTML generation, and SEO element correctness.",
+  "longDescription": "This is a synthetic brand used exclusively for automated testing of the website generator and SEO/GEO optimization skill. It provides predictable, stable data that all tests can reference without modifying real brand data.",
+  "foundedYear": 2020,
+  "headquarters": "Test City, Test Country",
+  "employees": "500-1000",
+  "website": "https://www.core-distributor.com/_testdata/",
+  "logo": "test-logo.svg",
+  "certifications": ["ISO 9001", "ISO 14001", "IATF 16949"],
+  "coreProducts": ["TC101 Sensor", "TC102 Amplifier", "TC103 Converter", "TC104 Controller"],
+  "industries": ["Automotive", "Industrial", "Consumer Electronics", "Telecommunications"],
+  "seoTitle": "_testdata Distributor | Authorized Supplier | Test Brand Inc.",
+  "seoDescription": "Authorized _testdata distributor offering sensors, amplifiers, converters, and controllers. Technical support and fast delivery available. Contact us for volume pricing.",
+  "seoKeywords": "_testdata distributor, test brand distributor, authorized _testdata supplier",
+  "faqs": [
+    {"question": "Is _testdata a real brand?", "answer": "No, _testdata is a synthetic fixture used for automated integration testing of the website generator and SEO tools."},
+    {"question": "Can I use _testdata in production?", "answer": "No. This brand exists only for testing. All data is synthetic and should not be referenced in production environments."},
+    {"question": "How is _testdata maintained?", "answer": "The _testdata fixture is maintained alongside the integration test suite. It is updated when new fields or data structures are added to the brand schema."}
+  ]
+}
