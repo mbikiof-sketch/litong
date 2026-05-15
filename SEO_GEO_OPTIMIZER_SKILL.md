@@ -14,7 +14,7 @@ description: >
 
 Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
-**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js`, `scripts/brand-data-check.js`, `scripts/seo-readiness-report.js`, `scripts/test-integration.js`, `scripts/audit.js` (master runner). Run `npm run audit` for a comprehensive health check.
+**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js`, `scripts/brand-data-check.js`, `scripts/seo-readiness-report.js`, `scripts/test-integration.js`, `scripts/audit.js`, `scripts/add-jsonld-schema.js`. Run `npm run audit` for health check. Run `npm run schema -- --all` to generate JSON-LD schemas for all brands.
 
 ---
 
@@ -149,7 +149,7 @@ curl -s "https://www.core-distributor.com/sitemap.xml" | grep -oP '<loc>[^<]+</l
 **Action**: Load all 3 skills.
 - CORE-EEAT: 6 dims × 100 pts. Veto items → block.
 - CITE: 4 dims × 100 pts. Grade A/B/C/D.
-- Entity: verify Organization, Product, BreadcrumbList, TechArticle, NewsArticle schemas.
+- Entity: verify Organization, Product, BreadcrumbList, TechArticle, NewsArticle schemas. Run `npm run schema -- [brand]` to auto-generate schema.json from brand data (or `npm run schema -- --all` for all brands). Check that schema.json is being read by the template engine during HTML generation.
 
 ---
 

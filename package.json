@@ -14,6 +14,7 @@
     "test:integration": "node scripts/test-integration.js",
     "check:brands": "node scripts/brand-data-check.js",
     "audit": "node scripts/audit.js",
+    "schema": "node scripts/add-jsonld-schema.js",
     "fix:data": "node scripts/validate-and-fix-brand-data.js",
     "fix:chinese": "node scripts/fix-chinese-content.js",
     "fix:params": "node scripts/auto-fix-all-brand-parameters.js",
