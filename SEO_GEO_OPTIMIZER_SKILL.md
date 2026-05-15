@@ -1,20 +1,13 @@
 ---
 name: seo-geo-optimizer
 description: >
-  Full 7-step SEO/GEO optimization workflow for BeiLuo electronic components
-  distributor website (core-distributor.com). Optimizes brand subdirectory pages
-  alphabetically one brand at a time. Triggers when user mentions: 优化品牌,
-  SEO/GEO优化, SEO audit, 审计品牌, 优化网站, ranking drop, traffic drop,
-  content optimization, 新增品牌, or any request related to improving search
-  engine visibility for electronic component distributor sites. Integrates 12
-  SEO/GEO sub-skills: keyword-research, serp-analysis, competitor-analysis,
-  content-gap-analysis, content-quality-auditor, domain-authority-auditor,
-  entity-optimizer, meta-tags-optimizer, technical-seo-checker,
-  internal-linking-optimizer, content-refresher, memory-management. Use this
-  skill whenever a user asks about brand SEO, GEO optimization, search ranking
-  improvement, or content quality auditing for brand subdirectory sites — even
-  if they don't explicitly use the word "SEO". Also triggers on Chinese terms:
-  SEO优化, GEO优化, 搜索引擎优化, 关键词研究, 竞品分析.
+  7-step SEO/GEO workflow for BeiLuo distributor (core-distributor.com).
+  DEFAULT for ANY brand task: content, data, optimization, audit.
+  Triggers: 优化品牌, SEO/GEO优化, 审计, 新增品牌, 产品数据, 品牌内容,
+  ranking/traffic drop, SEO audit, content quality, 关键词, 竞品, SERP,
+  brand check, data fix. Integrates 12 SEO/GEO sub-skills.
+  Also "brand", "distributor", "代理商", "电子元器件". Chinese: SEO优化,
+  GEO优化, 关键词研究, 竞品分析, 产品检查, 数据修复, 内容审核.
 ---
 
 # BeiLuo SEO/GEO Optimizer
