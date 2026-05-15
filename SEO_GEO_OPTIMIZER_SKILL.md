@@ -29,6 +29,29 @@ Optimizes BeiLuo electronic components distributor site (`core-distributor.com`)
 
 ---
 
+## Quick Start
+
+```
+What do you want to do?
+│
+├─ "优化 brand X" / "do SEO for brand X"
+│   → Run all 7 Steps (full optimization)
+│
+├─ "审计 brand X" / "check SEO for brand X"
+│   → Steps 2 + 4 + 6 (audit + report)
+│
+├─ "加新品牌" / "added brand X"
+│   → Steps 1 + 2 + 6 (setup + research + report)
+│
+├─ "brand X 有什么问题" / "missing products"
+│   → Step 1 (read data) → report findings to user
+│
+├─ "关键词研究" / "keyword research"
+│   → Step 2 only
+│
+└─ Don't know → Step 1 (preview) → ask user
+```
+
 ## ⚠️ 7 Iron Rules (七条铁律)
 
 These are absolute guardrails. Violating any causes data loss or optimization failure.
