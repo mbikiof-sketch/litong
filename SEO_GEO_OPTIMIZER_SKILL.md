@@ -1,13 +1,13 @@
 ---
 name: seo-geo-optimizer
 description: >
-  7-step SEO/GEO workflow for BeiLuo distributor (core-distributor.com).
+  7-step SEO/GEO workflow for BeiLuo (core-distributor.com).
   DEFAULT for ANY brand task: content, data, optimization, audit.
-  Triggers: 优化品牌, SEO/GEO优化, 审计, 新增品牌, 产品数据, 品牌内容,
-  ranking/traffic drop, SEO audit, content quality, 关键词, 竞品, SERP,
+  Triggers: 优化品牌, SEO/GEO, 审计, 新增品牌, 产品数据, ranking/traffic
+  drop, SEO audit, content quality, 关键词, 竞品, SERP, schema, sitemap,
   brand check, data fix. Integrates 12 SEO/GEO sub-skills.
   Also "brand", "distributor", "代理商", "电子元器件". Chinese: SEO优化,
-  GEO优化, 关键词研究, 竞品分析, 产品检查, 数据修复, 内容审核.
+  GEO优化, 关键词研究, 竞品分析, 产品检查, 数据修复, 结构化数据.
 ---
 
 # BeiLuo SEO/GEO Optimizer
@@ -56,6 +56,10 @@ Partial execution: still update memory. Pick up where you left off next time.
 | Build script fails | Show error output, stop, ask user to fix |
 | Brand already done | Show previous scores → ask "重新优化还是跳过？" |
 | User skips ahead out of order | Warn "当前应该优化 [expected_brand]。确认跳过？" — record skip in memory |
+| Live site unreachable (timeout/5xx) | Note: "live site unreachable, using local data only". Continue with file-based audit. Flag for user. |
+| Memory file doesn't exist | Create it with header row and HOT brand entry |
+| JSON has unexpected fields/structure | Validate JSON.parse() first. If structure wrong, flag and skip that file |
+| No product categories found | Note: "brand has no product categories — likely new/empty brand" |
 
 ---
 
