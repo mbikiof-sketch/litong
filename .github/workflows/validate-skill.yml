@@ -1,0 +1,30 @@
+name: Validate SEO/GEO Optimizer Skill
+
+on:
+  push:
+    paths:
+      - 'SEO_GEO_OPTIMIZER_SKILL.md'
+      - 'references/*.md'
+      - 'references/*.json'
+      - 'scripts/validate-skill.js'
+  pull_request:
+    paths:
+      - 'SEO_GEO_OPTIMIZER_SKILL.md'
+      - 'references/*'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: node scripts/validate-skill.js
+      - run: |
+          echo "### Skill Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          node scripts/validate-skill.js >> $GITHUB_STEP_SUMMARY 2>&1
+          echo '```' >> $GITHUB_STEP_SUMMARY
