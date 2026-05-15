@@ -26,6 +26,7 @@ Optimizes BeiLuo electronic components distributor site (`core-distributor.com`)
 
 **Bundled resources** (alongside this SKILL.md):
 - `references/test-prompts.json` — 3 test prompts used for validation. Run these after making changes to verify behavior.
+- `references/checklist.md` — SEO/GEO audit checklist. Read during Step 3.2 (On-Page SEO) and Step 4 (Quality Audits) to ensure no checks are missed.
 
 ---
 
@@ -242,7 +243,7 @@ Check these exact JSON paths for SEO fields:
 
 If any `seo` field is missing or empty, flag as HIGH priority. Template defaults (e.g., "Brand | core-distributor.com") mean the JSON data is not being properly passed.
 
-Validate against these exact patterns:
+Read `references/checklist.md` and check off each item. Validate against these exact patterns:
 
 | Element | Rule | Example |
 |---------|------|---------|
