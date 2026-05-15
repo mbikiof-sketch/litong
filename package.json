@@ -11,6 +11,7 @@
     "validate:brand": "node scripts/validate-brand-data.js --brand",
     "validate:all": "node scripts/validate-brand-data.js --all",
     "validate:skill": "node scripts/validate-skill.js",
+    "test:integration": "node scripts/test-integration.js",
     "check:brands": "node scripts/brand-data-check.js",
     "fix:data": "node scripts/validate-and-fix-brand-data.js",
     "fix:chinese": "node scripts/fix-chinese-content.js",
