@@ -12,419 +12,195 @@ description: >
 
 # BeiLuo SEO/GEO Optimizer
 
-## Overview
+Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
-Optimizes BeiLuo electronic components distributor site (`core-distributor.com`) brand subdirectory pages (`/[brand]/`) one brand at a time, alphabetically. 100+ brands total.
+**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist).
 
-**Brand subdirectory structure**: `core-distributor.com/[brand]/` (e.g., `core-distributor.com/3peak/`)
+---
 
-**Data source**: `data/[brand]/*.json` (brand.json, products.json, solutions.json, support.json, news.json)
+## 7 Iron Rules (七条铁律)
 
-**Output**: regenerated into `output/[brand]/` via build scripts.
-
-**Working directory**: `C:\Users\ymlt\Desktop\3`
-
-**Bundled resources** (alongside this SKILL.md):
-- `references/test-prompts.json` — 3 test prompts used for validation. Run these after making changes to verify behavior.
-- `references/checklist.md` — SEO/GEO audit checklist. Read during Step 3.2 (On-Page SEO) and Step 4 (Quality Audits) to ensure no checks are missed.
+| # | Rule | Violation consequence |
+|---|------|---------------------|
+| 1 | **One brand at a time**, alphabetical order | Data corruption across brands |
+| 2 | **Update memory after EVERY step** | Lost optimization state |
+| 3 | **Save intermediate results** to `.project-memory/` | Cannot roll back |
+| 4 | **JSON is the only source** — never hand-edit `output/` | Changes lost on rebuild |
+| 5 | **Regenerate after every JSON change** via `node scripts/generate.js --brand [brand]` | Stale output |
+| 6 | **Templates hold structure + styles only** | Duplicate maintenance |
+| 7 | **Only modify `data/`** — `output/` is a build artifact | Irrecoverable data loss |
 
 ---
 
 ## Quick Start
 
-```
-What do you want to do?
-│
-├─ "优化 brand X" / "do SEO for brand X"
-│   → Run all 7 Steps (full optimization)
-│
-├─ "审计 brand X" / "check SEO for brand X"
-│   → Steps 2 + 4 + 6 (audit + report)
-│
-├─ "加新品牌" / "added brand X"
-│   → Steps 1 + 2 + 6 (setup + research + report)
-│
-├─ "brand X 有什么问题" / "missing products"
-│   → Step 1 (read data) → report findings to user
-│
-├─ "关键词研究" / "keyword research"
-│   → Step 2 only
-│
-└─ Don't know → Step 1 (preview) → ask user
-```
+What the user says → what to do:
 
-## ⚠️ 7 Iron Rules (七条铁律)
+| User says | Execute |
+|-----------|---------|
+| "优化 brand X" / "do SEO for brand X" | **Steps 1→7** (full optimization) |
+| "审计 brand X" / "check SEO for brand X" | **Steps 2 + 4 + 6** (audit + report) |
+| "加新品牌 brand X" / "added brand X" | **Steps 1 + 2 + 6** (setup + research + report) |
+| "brand X 有什么问题" / "missing products" | **Step 1** (read data → report) |
+| "关键词研究" / "keyword research only" | **Step 2** only |
+| Unclear | **Step 1** preview → ask user |
 
-These are absolute guardrails. Violating any causes data loss or optimization failure.
+Partial execution: still update memory. Pick up where you left off next time.
 
-### Rule 1: One Brand at a Time — No Parallel
-- ✅ Optimize one brand, finish all 7 steps, then start next
-- ✅ Alphabetical order (3peak → adi → aipu → allegro → ...)
-- ❌ Never optimize multiple brands in parallel
-- ❌ Never skip brands
+### Error Handling
 
-### Rule 2: Update Memory After Every Step
-- ✅ Update `data/.project-memory/seo-optimization-project.md` after EACH step
-- ✅ Save intermediate results to `data/.project-memory/[brand]_step[N]_[date].md`
-- ❌ Never batch-update memory
-
-### Rule 3: Save Intermediate Results
-- Naming: `[brand]_step[N]_[action]_[YYYY-MM-DD].md`, Location: `data/.project-memory/`
-- Never overwrite unconfirmed results; never delete intermediate files
-
-### Rule 4: JSON Data Integrity — Never Modify HTML Directly
-- ✅ Only modify `data/[brand]/*.json` source files
-- ✅ Use scripts to regenerate `output/[brand]/`
-- ❌ Never edit `output/[brand]/` files directly
-
-### Rule 5: Regenerate After Every JSON Change
-- ✅ After any JSON edit, `node scripts/generate.js --brand [brand]`
-- ✅ Verify output is correct after generation
-- ❌ Never update output incrementally or manually
-
-### Rule 6: Templates vs Data Separation
-- ✅ Templates hold structure + styles only; all dynamic content comes from JSON
-- ❌ Never hardcode brand data in templates
-
-### Rule 7: Single Data Source — Only Modify data/
-- ✅ `data/` is the ONLY entry point for changes
-- ✅ `output/` is a read-only build artifact (delete + regenerate anytime)
-- ❌ Never directly edit anything in `output/`
-
----
-
-## Checkpoint Protocol
-
-Insert user confirmation BEFORE these actions:
-
-| Checkpoint | When | Question to ask user |
-|------------|------|---------------------|
-| CP1: Confirm scope | After Step 1 (data read complete) | "已读取 [brand] 数据（[N] 个产品，[N] 篇支持文章）。确认继续优化？" |
-| CP2: Confirm changes | Before modifying any JSON file | "将修改以下字段：[list fields]. 确认执行？" |
-| CP3: Confirm destructive | Before Step 7 (delete output/) | "将删除 `output/[brand]/` 并重新生成。确认？" |
-| CP4: Confirm commit | Before git commit | "将提交以下文件：[list]. 确认提交？" |
-
-If user says "no" / "stop" at any checkpoint: save current state to memory, exit cleanly, and report what's been done.
-
-## Error Handling
-
-| Scenario | What to do |
-|----------|-----------|
-| `data/[brand]/` directory not found | Warn: "品牌 [brand] 数据目录不存在。跳过该品牌。" |
-| `data/[brand]/brand.json` missing or invalid JSON | Warn + skip brand. Log to memory file. |
-| Build script fails (`node scripts/generate.js ...` returns non-zero) | Show error output, stop, ask user to fix. Do NOT cover up errors. |
-| Brand already fully optimized (all 7 steps done) | Show previous scores and ask: "重新优化还是跳过？" |
-| User asks about a brand not in alphabetical order (e.g., skip ahead) | Warn: "当前应该优化 [expected_brand]。确认跳过？" Record skip reason in memory. |
-
----
-
-## Request Type Detection
-
-Before starting, detect what the user actually wants. Don't always run all 7 steps:
-
-| User intent | Steps to execute |
-|-------------|-----------------|
-| "优化品牌"/"do SEO for brand X" (full) | Steps 1→7 |
-| "审计"/"audit"/"check SEO" (audit only) | Steps 2 (research) + 4 (cross-cutting audit) + 6 (report) |
-| "关键词研究" (keyword research only) | Step 2 only |
-| "内容质量检查" (content quality check) | Step 4.1 only |
-| "just Step 1"/"先看看数据" (preview only) | Step 1 only |
-| Unclear / user hasn't specified | Ask: "Just audit or full optimization?" |
-
-When doing partial execution: still update memory for the steps you ran. When the user later asks for more, pick up where you left off.
+| Scenario | Response |
+|----------|----------|
+| `data/[brand]/` not found | Warn "品牌 [brand] 数据目录不存在。跳过该品牌。" |
+| `brand.json` missing/invalid | Warn + skip + log to memory |
+| Build script fails | Show error output, stop, ask user to fix |
+| Brand already done | Show previous scores → ask "重新优化还是跳过？" |
+| User skips ahead out of order | Warn "当前应该优化 [expected_brand]。确认跳过？" — record skip in memory |
 
 ---
 
 ## 7-Step Workflow
 
-Execute steps **sequentially**. Each step must complete before the next begins.
-
----
+> Execute **sequentially**. PAUSE at each step's checkpoint for user confirmation before continuing.
 
 ### Step 1: Memory Management — Initialize Project Memory
-
-> **INPUT**: `data/[brand]/*.json` files + `data/.project-memory/seo-optimization-project.md`
+> **INPUT**: `data/[brand]/*.json` + `data/.project-memory/seo-optimization-project.md`
 > **OUTPUT**: Updated memory file with brand summary
 > **SKILLS**: `memory-management`
 
-#### 1.1 Read brand data (MANDATORY first action)
-```bash
-cat data/[brand]/brand.json
-cat data/[brand]/products.json
-cat data/[brand]/support.json    # if exists
-cat data/[brand]/solutions.json   # if exists
-cat data/[brand]/news.json         # if exists
-```
+**Action**: Read all 5 data files (`brand.json`, `products.json`, `solutions.json`, `support.json`, `news.json`). Update `seo-optimization-project.md` with brand info, progress, keywords. Verify alphabetical order against previous brand.
 
-#### 1.2 Update project memory file
-Location: `data/.project-memory/seo-optimization-project.md`
+> **⏸ 检查点 CP1**: Show user brand summary → "已读取 [brand] 数据（[N] 个产品，[N] 篇文章）。确认继续？"
 
-Update the active brand section with exact format:
+**Memory update format**:
 ```markdown
 ## Active Brand: [brand]
 - Progress: Step 1 ✅, Step 2-7 ⬜
-- Brand: [name] — [Chinese name]
-- Founded: [year], HQ: [location], Employees: [N]
-- Core products: [category1], [category2], ...
-- Key JSON fields: `brand.json` (N lines), `products.json` (N products, N categories), `solutions.json` (N solutions), `support.json` (N articles), `news.json` (N items)
-- Target keywords: `[brand] distributor`, `[brand] [product]`, ...
-- Application industries: [list]
+- Data: `brand.json` (N lines), `products.json` (N products), `solutions.json` (N), `support.json` (N), `news.json` (N)
+- Keywords: `[brand] distributor`, `[brand] [product]`, ...
 ```
-
-#### 1.3 Read current project state
-Check the memory file to confirm previous brand is fully complete and this brand is next in alphabetical order. Verify the alphabetical sequence explicitly (e.g., `aipu < xilinx`).
 
 ---
 
 ### Step 2: Research — Load SEO/GEO Analysis Skills
-
-> **INPUT**: Brand data from Step 1 + live site at `core-distributor.com/[brand]/`
-> **OUTPUT**: `[brand]_step2_research_[date].md` with keyword matrix, SERP analysis, competitor gap map
+> **INPUT**: Brand data from Step 1 + live `core-distributor.com/[brand]/`
+> **OUTPUT**: `[brand]_step2_research_[date].md`
 > **SKILLS**: `keyword-research`, `serp-analysis`, `competitor-analysis`, `content-gap-analysis`
 
-Load ALL of these skills via the `skill()` tool:
-1. `keyword-research`
-2. `serp-analysis`
-3. `competitor-analysis`
-4. `content-gap-analysis`
+**Action**: Load all 4 skills. Build 4-layer keyword matrix (`[brand] + distributor`). Analyze SERP features, competitors (DigiKey/Mouser/Arrow + domestic), and content gaps. Save report.
 
-#### 2.1 Keyword Research
-Core keyword formula: `[brand] + distributor`
-
-Build 4-layer keyword matrix:
-
+**Keyword matrix**:
 | Layer | Intent | Example |
 |-------|--------|---------|
-| L1: Core variants | Transactional | `3peak distributor`, `3peak distributor china` |
-| L2: Product + brand | Transactional | `3peak op amp distributor` |
-| L3: Selection + support | Informational | `3peak selection guide` |
-| L4: Long-tail | Mixed | `3peak automotive grade distributor` |
+| L1 Core | Transactional | `3peak distributor`, `3peak distributor china` |
+| L2 Product+brand | Transactional | `3peak op amp distributor` |
+| L3 Selection+support | Informational | `3peak selection guide` |
+| L4 Long-tail | Mixed | `3peak automotive grade distributor` |
 
-Map keywords to pages: Core → brand homepage, Product → product category pages, Selection → selection guide pages, Long-tail → support/blog pages.
+Map: L1→homepage, L2→product pages, L3→support, L4→blog.
 
-#### 2.2 SERP Analysis
-Analyze target SERP features: Featured Snippets, People Also Ask, video/image results, competitor page patterns, AI Overviews opportunities.
-
-#### 2.3 Competitor Analysis
-Identify and analyze: large distributors (DigiKey, Mouser, Arrow), domestic distributors, other authorized agents, OEM official sites.
-
-#### 2.4 Content Gap Analysis
-Check for missing: product comparison tables, application case studies, selection guides/decision trees, reference designs, video tutorials, technical blogs, FAQ pages, download center.
-
-#### 2.5 Save Research Report
-`data/.project-memory/[brand]_step2_research_[YYYY-MM-DD].md`
+> **⏸ 检查点 CP2**: Show research findings → "已找到 [N] 个关键词，[N] 个内容缺口。确认继续优化？"
 
 ---
 
 ### Step 3: Optimize — Execute Optimizations
-
-> **INPUT**: Research report from Step 2 + `data/[brand]/*.json`
+> **INPUT**: Research report + `data/[brand]/*.json`
 > **OUTPUT**: Modified JSON files + `[brand]_step3_optimize_[date].md`
 > **SKILLS**: `meta-tags-optimizer`, `technical-seo-checker`, `internal-linking-optimizer`, `content-refresher`
 
-Load ALL of these skills via the `skill()` tool:
-1. `meta-tags-optimizer`
-2. `technical-seo-checker`
-3. `internal-linking-optimizer`
-4. `content-refresher`
+**Action**: Load all 4 skills. Use `references/checklist.md` for verification.
 
-#### 3.1 Read data sources
-Re-read data files to get current state.
+**JSON SEO fields to check**:
+| File | Path |
+|------|------|
+| `products.json[].seo` | `seoTitle`, `seoDescription` |
+| `solutions.json[].seo` | `seoTitle`, `seoDescription` |
+| `support.json[].seo` | `seoTitle`, `seoDescription` |
+| `brand.json.seo` | `seoTitle`, `seoDescription` |
 
-#### 3.2 On-Page SEO
-Check these exact JSON paths for SEO fields:
+Missing/empty → HIGH priority.
 
-| File | JSON path | Field meaning |
-|------|-----------|---------------|
-| `products.json[].seo` | `seoTitle`, `seoDescription` | Product page title/desc |
-| `solutions.json[].seo` | `seoTitle`, `seoDescription` | Solution page title/desc |
-| `support.json[].seo` | `seoTitle`, `seoDescription` | Support article title/desc |
-| `brand.json.seo` | `seoTitle`, `seoDescription` | Brand homepage title/desc |
+**On-Page rules**: Title 50-60 chars + `[brand] distributor`. Meta desc 150-160 chars + CTA. H1 unique. Canonical `https://www.core-distributor.com/[brand]/`. Keyword density 1-2%.
 
-If any `seo` field is missing or empty, flag as HIGH priority. Template defaults (e.g., "Brand | core-distributor.com") mean the JSON data is not being properly passed.
-
-Read `references/checklist.md` and check off each item. Validate against these exact patterns:
-
-| Element | Rule | Example |
-|---------|------|---------|
-| Title | 50-60 chars, includes `[brand] distributor` | `"3peak Distributor | Authorized Supplier | High-Performance Analog ICs"` (58 chars) |
-| Meta description | 150-160 chars, includes CTA | `"Authorized 3peak distributor offering op-amps, ADCs/DACs, and power management ICs. Technical support and fast delivery available. Contact us for volume pricing."` (155 chars) |
-| H1 | Exactly one, matches brand name | `<h1>3peak</h1>` |
-| Canonical URL | `https://www.core-distributor.com/[brand]/` | `https://www.core-distributor.com/3peak/` |
-| Keyword density | 1-2% in body text | `"3peak distributor"` appears 3-5x per 300 words |
-
-#### 3.3 Technical SEO
-Check: robots.txt, XML sitemap, no 404s, proper redirects, Core Web Vitals, responsive design, HTTPS, SSL.
-
-**Security check — critical**: Check if `data/.project-memory/` or any other internal directory is publicly accessible on the live site (this is a common issue with Cloudflare Pages static deployments). If exposed, flag as CRITICAL priority. Also check sitemap.xml for internal-only URLs. To verify:
+**Technical + Security**:
 ```bash
-# Check for exposed internal files (if HTTP 200, they're publicly accessible)
-curl -sI "https://www.core-distributor.com/.project-memory/seo-optimization-project.md"
-curl -sI "https://www.core-distributor.com/data/3peak/brand.json"
-curl -sI "https://www.core-distributor.com/config/brand-templates.json"
-
-# Check robots.txt for AI crawler permissions
-curl -s "https://www.core-distributor.com/robots.txt" | grep -E "(Disallow|ClaudeBot|GPTBot|Google-Extended|CCBot)"
-
-# Check what the sitemap exposes
+curl -sI "https://www.core-distributor.com/.project-memory/seo-optimization-project.md"  # HTTP 200 = CRITICAL
+curl -s "https://www.core-distributor.com/robots.txt" | grep -E "(Disallow|ClaudeBot|GPTBot)"
 curl -s "https://www.core-distributor.com/sitemap.xml" | grep -oP '<loc>[^<]+</loc>' | head -20
 ```
 
-#### 3.4 Internal Linking
-Architecture:
-```
-Home → /[brand]/ → /products/ → product detail
-                 → /solutions/ → solution detail
-                 → /support/ → support detail
-```
-Ensure breadcrumbs, related product recommendations, category navigation, footer links, contextual links.
+**Internal linking**: `Home → /[brand]/ → /products/ → product detail` with breadcrumbs, recommendations.
 
-#### 3.5 Content Refresh
-Review: technical specs, application cases, selection guidance, comparison tables, FAQ quality.
-
-**All modifications go through JSON files only** — then regenerate.
-
-Save report: `data/.project-memory/[brand]_step3_optimize_[YYYY-MM-DD].md`
+> **⏸ 检查点 CP3 (before JSON edit)**: "将修改 [list fields]。确认执行？" → after user OK, edit JSON files, then regenerate.
 
 ---
 
 ### Step 4: Cross-cutting — Quality Audits
-
-> **INPUT**: Optimized JSON files from Step 3 + live site
+> **INPUT**: Optimized JSON + live site
 > **OUTPUT**: `[brand]_step4_audit_[date].md` with CORE-EEAT, CITE, entity scores
 > **SKILLS**: `content-quality-auditor`, `domain-authority-auditor`, `entity-optimizer`
 
-Load ALL via `skill()`:
-1. `content-quality-auditor` — CORE-EEAT 80-item audit
-2. `domain-authority-auditor` — CITE 40-item audit
-3. `entity-optimizer` — entity/KG optimization
-
-#### 4.1 Content Quality (CORE-EEAT)
-6 dimensions: Content (20), Optimization (20), Readability (20), Engagement (10), Authority (10), Trust (10). Total: 100. Identify veto items.
-
-#### 4.2 Domain Authority (CITE)
-4 dimensions: Citations (25), Influence (25), Trust Signals (25), Engagement (25). Total: 100. Grades: A (90-100), B (70-89), C (50-69), D (<50).
-
-#### 4.3 Entity Optimization
-Brand/product/organization entity consistency. Add/verify Schema.org structured data (Organization, Product, BreadcrumbList, TechArticle, NewsArticle).
-
-Save report: `data/.project-memory/[brand]_step4_audit_[YYYY-MM-DD].md`
+**Action**: Load all 3 skills.
+- CORE-EEAT: 6 dims × 100 pts. Veto items → block.
+- CITE: 4 dims × 100 pts. Grade A/B/C/D.
+- Entity: verify Organization, Product, BreadcrumbList, TechArticle, NewsArticle schemas.
 
 ---
 
 ### Step 5: Memory Management — Update
-
-> **INPUT**: All reports from Steps 2-4 + scores
-> **OUTPUT**: Updated `seo-optimization-project.md` with brand moved to ARCHIVE, next brand set to HOT
+> **INPUT**: Reports from Steps 2-4
+> **OUTPUT**: Updated `seo-optimization-project.md` (brand→ARCHIVE, next→HOT)
 > **SKILLS**: `memory-management`
 
-Update `data/.project-memory/seo-optimization-project.md`:
-- Record all findings from Steps 2-4
-- Update optimization progress
-- Log issues fixed and remaining
-- Record score changes (CORE-EEAT, CITE before/after)
-- Move this brand to WARM/ARCHIVE, set next brand as HOT
+Record scores (CORE-EEAT/CITE before→after), issues fixed, remaining items, "what to watch" for next brand.
 
 ---
 
 ### Step 6: Generate Optimization Report
-
 > **INPUT**: All step reports + score deltas
-> **OUTPUT**: `[brand]_final_report_[date].md` (comprehensive final report)
-> **SKILLS**: none needed (compilation task)
+> **OUTPUT**: `[brand]_final_report_[date].md`
 
-Save to: `data/.project-memory/[brand]_final_report_[YYYY-MM-DD].md`
-
-**Exact report template**:
+Template:
 ```markdown
-# [Brand] SEO/GEO Optimization Report
 ## Executive Summary
-- Brand: [name], Date: [date], Score: before → after
-
+- Brand, Date, Scores: before → after
 ## Pre-Optimization State
-- Technical SEO: [summary of findings]
-- CORE-EEAT: [score]/100
-- CITE Domain Authority: [score]/100
-
+- Technical SEO, CORE-EEAT: N/100, CITE: N/100
 ## Operations Performed
-### Step 1: Memory
-- [brief]
-### Step 2: Research
-- Keywords identified: [N] (L1: [N], L2: [N], L3: [N], L4: [N])
-- Content gaps: [N]
-### Step 3: Optimize
-- Titles fixed: [N], Meta descriptions fixed: [N]
-- Technical issues fixed: [N]
-### Step 4: Audit
-- CORE-EEAT: [score] → [score]
-- CITE: [score] → [score]
-
-## Post-Optimization State
-- Technical SEO: [summary]
-- CORE-EEAT: [score]/100 (Δ[+/-N])
-- CITE: [score]/100 (Δ[+/-N])
-
+- Step 1-4: briefs
+## Post-Optimization State with deltas
 ## Top 5 Improvements
-1. [change] → [impact]
-2. ...
-
-## Recommended Follow-Ups
-1. P1: [action]
-2. P2: [action]
-
-## Keyword List
-| Keyword | Layer | Priority |
-|---------|-------|----------|
-| [kw] | L1 | ⭐⭐⭐ |
-
-## Appendix
-- Files modified: [list]
-- Reports saved: [list]
+## Recommended Follow-Ups (P1, P2)
+## Keyword List with priorities
+## Appendix: files modified
 ```
 
 ---
 
 ### Step 7: Generate Output Site
+> **INPUT**: Modified `data/[brand]/*.json`
+> **OUTPUT**: Regenerated `output/[brand]/` + updated `sitemap.xml`
 
-> **INPUT**: Modified `data/[brand]/*.json` files
-> **OUTPUT**: Regenerated `output/[brand]/` HTML files + updated `sitemap.xml`
-> **SKILLS**: none needed (execution step)
+1. `git diff --name-only` — confirm only `data/` files changed
+2. `rm -rf output/[brand]/`
+3. `node scripts/generate.js --brand [brand]` (or `npm run build` for full)
+4. Validate: `ls output/[brand]/index.html`, `grep "<title>" output/[brand]/index.html`
+5. `node scripts/generate-sitemap.js`
+6. Commit only if user asks
 
-**CRITICAL — never simulate. Either do it or say why you can't.**
+> **⏸ 检查点 CP4 (before Step 7)**: "将删除 `output/[brand]/` 并重新生成。确认？"
+> **⏸ 检查点 CP5 (before commit)**: "将提交 [list files]。确认？"
 
-1. **Verify**: run `git diff --name-only` — confirm only `data/[brand]/*.json` files changed, NOT `output/` files.
-2. **Delete old output**: `rm -rf output/[brand]/`
-3. **Regenerate**, in priority order:
-   ```bash
-   # Full build (recommended):
-   npm run build
-   # Single brand (faster during iteration):
-   node scripts/generate.js --brand [brand]
-   # Generate + serve for preview:
-   npm run build && npm run serve
-   ```
-4. **Validate**:
-   ```bash
-   ls output/[brand]/index.html          # brand page exists
-   grep "<title>" output/[brand]/index.html  # title present
-   grep "json\+ld" output/[brand]/index.html # schema present
-   ```
-5. **Update sitemap**: `node scripts/generate-sitemap.js`
-6. **Commit**: only if user asks
-
-**If you cannot run the build (e.g., in a test/simulation context), you MUST say so explicitly: "Did not run `node scripts/generate.js --brand [brand]` because [reason]. To execute, run this command in the project root."** Never just pretend to run it.
+**Never simulate.** Either run or say: "Did not run `node scripts/generate.js --brand [brand]` because [reason]."
 
 ---
 
-## File Locations Summary
+## File Locations
 
 | Item | Path |
 |------|------|
 | Project memory | `data/.project-memory/seo-optimization-project.md` |
-| Step 2 report | `data/.project-memory/[brand]_step2_research_[date].md` |
-| Step 3 report | `data/.project-memory/[brand]_step3_optimize_[date].md` |
-| Step 4 report | `data/.project-memory/[brand]_step4_audit_[date].md` |
+| Step 2/3/4 reports | `data/.project-memory/[brand]_step[N]_[action]_[date].md` |
 | Final report | `data/.project-memory/[brand]_final_report_[date].md` |
-| Brand data | `data/[brand]/brand.json` |
-| Product data | `data/[brand]/products.json` |
-| Built output | `output/[brand]/` (auto-generated, never hand-edit) |
+| Brand data | `data/[brand]/*.json` |
+| Built output | `output/[brand]/` (never hand-edit) |
