@@ -154,7 +154,17 @@ cat data/[brand]/news.json         # if exists
 #### 1.2 Update project memory file
 Location: `data/.project-memory/seo-optimization-project.md`
 
-Update the active brand section with brand info, core product categories, target keywords, application industries, certifications, and set progress.
+Update the active brand section with exact format:
+```markdown
+## Active Brand: [brand]
+- Progress: Step 1 ✅, Step 2-7 ⬜
+- Brand: [name] — [Chinese name]
+- Founded: [year], HQ: [location], Employees: [N]
+- Core products: [category1], [category2], ...
+- Key JSON fields: `brand.json` (N lines), `products.json` (N products, N categories), `solutions.json` (N solutions), `support.json` (N articles), `news.json` (N items)
+- Target keywords: `[brand] distributor`, `[brand] [product]`, ...
+- Application industries: [list]
+```
 
 #### 1.3 Read current project state
 Check the memory file to confirm previous brand is fully complete and this brand is next in alphabetical order. Verify the alphabetical sequence explicitly (e.g., `aipu < xilinx`).
@@ -209,7 +219,18 @@ Load ALL of these skills via the `skill()` tool:
 Re-read data files to get current state.
 
 #### 3.2 On-Page SEO
-Per page, validate against these exact patterns:
+Check these exact JSON paths for SEO fields:
+
+| File | JSON path | Field meaning |
+|------|-----------|---------------|
+| `products.json[].seo` | `seoTitle`, `seoDescription` | Product page title/desc |
+| `solutions.json[].seo` | `seoTitle`, `seoDescription` | Solution page title/desc |
+| `support.json[].seo` | `seoTitle`, `seoDescription` | Support article title/desc |
+| `brand.json.seo` | `seoTitle`, `seoDescription` | Brand homepage title/desc |
+
+If any `seo` field is missing or empty, flag as HIGH priority. Template defaults (e.g., "Brand | core-distributor.com") mean the JSON data is not being properly passed.
+
+Validate against these exact patterns:
 
 | Element | Rule | Example |
 |---------|------|---------|
@@ -224,10 +245,16 @@ Check: robots.txt, XML sitemap, no 404s, proper redirects, Core Web Vitals, resp
 
 **Security check — critical**: Check if `data/.project-memory/` or any other internal directory is publicly accessible on the live site (this is a common issue with Cloudflare Pages static deployments). If exposed, flag as CRITICAL priority. Also check sitemap.xml for internal-only URLs. To verify:
 ```bash
-curl -sI https://www.core-distributor.com/.project-memory/seo-optimization-project.md | head -5
-# If HTTP 200 → CRITICAL: publicly exposed
-curl -s https://www.core-distributor.com/robots.txt | grep -i "disallow"
-# Check for AI crawler blocks (ClaudeBot, GPTBot, Google-Extended)
+# Check for exposed internal files (if HTTP 200, they're publicly accessible)
+curl -sI "https://www.core-distributor.com/.project-memory/seo-optimization-project.md"
+curl -sI "https://www.core-distributor.com/data/3peak/brand.json"
+curl -sI "https://www.core-distributor.com/config/brand-templates.json"
+
+# Check robots.txt for AI crawler permissions
+curl -s "https://www.core-distributor.com/robots.txt" | grep -E "(Disallow|ClaudeBot|GPTBot|Google-Extended|CCBot)"
+
+# Check what the sitemap exposes
+curl -s "https://www.core-distributor.com/sitemap.xml" | grep -oP '<loc>[^<]+</loc>' | head -20
 ```
 
 #### 3.4 Internal Linking
