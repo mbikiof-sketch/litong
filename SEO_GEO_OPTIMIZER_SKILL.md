@@ -14,7 +14,7 @@ description: >
 
 Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
-**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist).
+**Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js` (validation runner).
 
 ---
 
