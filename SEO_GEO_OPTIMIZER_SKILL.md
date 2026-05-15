@@ -142,6 +142,10 @@ Execute steps **sequentially**. Each step must complete before the next begins.
 
 ### Step 1: Memory Management — Initialize Project Memory
 
+> **INPUT**: `data/[brand]/*.json` files + `data/.project-memory/seo-optimization-project.md`
+> **OUTPUT**: Updated memory file with brand summary
+> **SKILLS**: `memory-management`
+
 #### 1.1 Read brand data (MANDATORY first action)
 ```bash
 cat data/[brand]/brand.json
@@ -172,6 +176,10 @@ Check the memory file to confirm previous brand is fully complete and this brand
 ---
 
 ### Step 2: Research — Load SEO/GEO Analysis Skills
+
+> **INPUT**: Brand data from Step 1 + live site at `core-distributor.com/[brand]/`
+> **OUTPUT**: `[brand]_step2_research_[date].md` with keyword matrix, SERP analysis, competitor gap map
+> **SKILLS**: `keyword-research`, `serp-analysis`, `competitor-analysis`, `content-gap-analysis`
 
 Load ALL of these skills via the `skill()` tool:
 1. `keyword-research`
@@ -208,6 +216,10 @@ Check for missing: product comparison tables, application case studies, selectio
 ---
 
 ### Step 3: Optimize — Execute Optimizations
+
+> **INPUT**: Research report from Step 2 + `data/[brand]/*.json`
+> **OUTPUT**: Modified JSON files + `[brand]_step3_optimize_[date].md`
+> **SKILLS**: `meta-tags-optimizer`, `technical-seo-checker`, `internal-linking-optimizer`, `content-refresher`
 
 Load ALL of these skills via the `skill()` tool:
 1. `meta-tags-optimizer`
@@ -277,6 +289,10 @@ Save report: `data/.project-memory/[brand]_step3_optimize_[YYYY-MM-DD].md`
 
 ### Step 4: Cross-cutting — Quality Audits
 
+> **INPUT**: Optimized JSON files from Step 3 + live site
+> **OUTPUT**: `[brand]_step4_audit_[date].md` with CORE-EEAT, CITE, entity scores
+> **SKILLS**: `content-quality-auditor`, `domain-authority-auditor`, `entity-optimizer`
+
 Load ALL via `skill()`:
 1. `content-quality-auditor` — CORE-EEAT 80-item audit
 2. `domain-authority-auditor` — CITE 40-item audit
@@ -297,6 +313,10 @@ Save report: `data/.project-memory/[brand]_step4_audit_[YYYY-MM-DD].md`
 
 ### Step 5: Memory Management — Update
 
+> **INPUT**: All reports from Steps 2-4 + scores
+> **OUTPUT**: Updated `seo-optimization-project.md` with brand moved to ARCHIVE, next brand set to HOT
+> **SKILLS**: `memory-management`
+
 Update `data/.project-memory/seo-optimization-project.md`:
 - Record all findings from Steps 2-4
 - Update optimization progress
@@ -307,6 +327,10 @@ Update `data/.project-memory/seo-optimization-project.md`:
 ---
 
 ### Step 6: Generate Optimization Report
+
+> **INPUT**: All step reports + score deltas
+> **OUTPUT**: `[brand]_final_report_[date].md` (comprehensive final report)
+> **SKILLS**: none needed (compilation task)
 
 Save to: `data/.project-memory/[brand]_final_report_[YYYY-MM-DD].md`
 
@@ -360,6 +384,10 @@ Save to: `data/.project-memory/[brand]_final_report_[YYYY-MM-DD].md`
 ---
 
 ### Step 7: Generate Output Site
+
+> **INPUT**: Modified `data/[brand]/*.json` files
+> **OUTPUT**: Regenerated `output/[brand]/` HTML files + updated `sitemap.xml`
+> **SKILLS**: none needed (execution step)
 
 **CRITICAL — never simulate. Either do it or say why you can't.**
 
