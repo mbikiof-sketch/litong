@@ -31,6 +31,9 @@ Optimizes BeiLuo electronic components distributor site (`core-distributor.com`)
 
 **Working directory**: `C:\Users\ymlt\Desktop\3`
 
+**Bundled resources** (alongside this SKILL.md):
+- `references/test-prompts.json` — 3 test prompts used for validation. Run these after making changes to verify behavior.
+
 ---
 
 ## ⚠️ 7 Iron Rules (七条铁律)

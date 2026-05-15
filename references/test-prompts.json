@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "帮我做一个 allegro 品牌的 SEO/GEO 优化，先跑 Step 1 看看数据情况。读 data/allegro/brand.json 和 data/allegro/products.json",
+    "expected": "Agent 读取品牌数据，初始化项目记忆，检查品牌顺序，按铁律单步执行"
+  },
+  {
+    "id": 2,
+    "prompt": "我们刚加完 xilinx 品牌，需要做 SEO 优化。跑一遍完整 7 步流程，从 memory 初始化到生成 output。先读 data/xilinx/ 下的所有数据文件",
+    "expected": "完整 7 步流程执行，加载子 Skill，输出报告到 .project-memory/，实际运行生成脚本"
+  },
+  {
+    "id": 3,
+    "prompt": "Check the SEO health of 3peak brand at core-distributor.com/3peak/ — I want to know what's wrong and what we should fix. Do keyword research too",
+    "expected": "执行审计流程，检查 on-page SEO、live site、关键词研究，给出结构化报告"
+  }
+]
