@@ -204,7 +204,7 @@
       "faqs": [
         {
           "question": "Which Chemi-Con series should I select?",
-          "answer": "Select KMQ series for highest reliability applications, KZE for general purpose, LXS for snap-in high power, AKM for automotive. Consider operating conditions and reliability requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Select KMQ series for highest reliability applications, KZE for general purpose, LXS for snap-in high power, AKM for automotive. Consider operating conditions and reliability requirements. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact FAE for series selection guidance.",
           "keywords": [
             "series selection",
@@ -214,7 +214,7 @@
         },
         {
           "question": "What is the price difference between series?",
-          "answer": "KMQ series is premium priced 20-30% above KZE. LXS snap-in series is priced based on capacitance and voltage. AKM automotive series includes qualification costs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "KMQ series is premium priced 20-30% above KZE. LXS snap-in series is priced based on capacitance and voltage. AKM automotive series includes qualification costs. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Request quotation for specific part numbers.",
           "keywords": [
             "pricing",
@@ -224,7 +224,7 @@
         },
         {
           "question": "Are all Chemi-Con series RoHS compliant?",
-          "answer": "Yes, all current Chemi-Con series are RoHS compliant. Legacy parts may require verification. Contact sales for specific part compliance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, all current Chemi-Con series are RoHS compliant. Legacy parts may require verification. Contact sales for specific part compliance. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify compliance documentation for your specific parts.",
           "keywords": [
             "RoHS",
@@ -234,7 +234,7 @@
         },
         {
           "question": "What is the lead time difference between series?",
-          "answer": "Popular KMQ and KZE series typically have shorter lead times. Specialized high-voltage or custom parts may have longer lead times. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Popular KMQ and KZE series typically have shorter lead times. Specialized high-voltage or custom parts may have longer lead times. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact sales for current lead times.",
           "keywords": [
             "lead time",
@@ -244,7 +244,7 @@
         },
         {
           "question": "Can I cross-reference competitors to Chemi-Con?",
-          "answer": "Yes, our FAE team can provide cross-references from major competitors to Chemi-Con equivalents. Provide competitor part numbers for cross-reference. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, our FAE team can provide cross-references from major competitors to Chemi-Con equivalents. Provide competitor part numbers for cross-reference. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact FAE with competitor part numbers for cross-reference.",
           "keywords": [
             "cross reference",
@@ -254,7 +254,7 @@
         },
         {
           "question": "What documentation is available?",
-          "answer": "Datasheets, application notes, reliability data, and SPICE models are available. PPAP documentation available for automotive parts. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Datasheets, application notes, reliability data, and SPICE models are available. PPAP documentation available for automotive parts. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Download from website or contact sales.",
           "keywords": [
             "documentation",
@@ -264,7 +264,7 @@
         },
         {
           "question": "How do I request samples?",
-          "answer": "Contact our sales team with part numbers and quantities needed. Samples typically ship within 1-2 business days for stock items. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Contact our sales team with part numbers and quantities needed. Samples typically ship within 1-2 business days for stock items. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Submit sample request to sales team.",
           "keywords": [
             "samples",
@@ -274,7 +274,7 @@
         },
         {
           "question": "What is the minimum order quantity?",
-          "answer": "Standard MOQ is 1000 pieces for radial, 500 for snap-in. Smaller quantities may be available from stock. Contact sales for specific MOQ. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Standard MOQ is 1000 pieces for radial, 500 for snap-in. Smaller quantities may be available from stock. Contact sales for specific MOQ. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact sales for MOQ and pricing.",
           "keywords": [
             "MOQ",
@@ -430,7 +430,7 @@
       "faqs": [
         {
           "question": "How do I calculate ripple current?",
-          "answer": "Ripple current depends on topology. For buck converters, Iripple = Vout×(Vin-Vout)/(Vin×f×L). Use RMS values for capacitor rating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Ripple current depends on topology. For buck converters, Iripple = Vout×(Vin-Vout)/(Vin×f×L). Use RMS values for capacitor rating. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use appropriate formula for your topology.",
           "keywords": [
             "ripple current",
@@ -440,7 +440,7 @@
         },
         {
           "question": "What is ESR frequency dependence?",
-          "answer": "ESR varies with frequency, typically lowest at 100-120Hz and increasing at higher frequencies. Check datasheet for frequency characteristics. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "ESR varies with frequency, typically lowest at 100-120Hz and increasing at higher frequencies. Check datasheet for frequency characteristics. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use ESR value at your operating frequency.",
           "keywords": [
             "ESR",
@@ -450,7 +450,7 @@
         },
         {
           "question": "How do I calculate self-heating?",
-          "answer": "Temperature Rise = I² × ESR × Rth. Typical thermal resistance is 20-40°C/W for radial capacitors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Temperature Rise = I² × ESR × Rth. Typical thermal resistance is 20-40°C/W for radial capacitors. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate self-heating and verify total temperature.",
           "keywords": [
             "self-heating",
@@ -460,7 +460,7 @@
         },
         {
           "question": "What thermal resistance should I use?",
-          "answer": "Small radial: 30-40°C/W, Medium: 25-35°C/W, Large snap-in: 15-25°C/W. Decreases with forced airflow. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Small radial: 30-40°C/W, Medium: 25-35°C/W, Large snap-in: 15-25°C/W. Decreases with forced airflow. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use manufacturer's data or typical values.",
           "keywords": [
             "thermal resistance",
@@ -470,7 +470,7 @@
         },
         {
           "question": "How can I reduce capacitor temperature?",
-          "answer": "Use lower ESR capacitors, parallel connection, improve airflow, add heatsinking, or reduce ripple current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use lower ESR capacitors, parallel connection, improve airflow, add heatsinking, or reduce ripple current. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Implement multiple strategies for maximum reduction.",
           "keywords": [
             "temperature reduction",
@@ -480,7 +480,7 @@
         },
         {
           "question": "What is the relationship between ripple current and lifetime?",
-          "answer": "Higher ripple current increases temperature, reducing lifetime per Arrhenius relationship. Every 10°C increase halves lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Higher ripple current increases temperature, reducing lifetime per Arrhenius relationship. Every 10°C increase halves lifetime. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Minimize ripple current and temperature for maximum lifetime.",
           "keywords": [
             "lifetime",
@@ -490,7 +490,7 @@
         },
         {
           "question": "Should I measure or calculate ripple current?",
-          "answer": "Both! Calculate during design, measure for verification. Compare measured vs calculated to validate design. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Both! Calculate during design, measure for verification. Compare measured vs calculated to validate design. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate for design, measure for verification.",
           "keywords": [
             "measurement",
@@ -500,7 +500,7 @@
         },
         {
           "question": "How does frequency affect ripple current capability?",
-          "answer": "Ripple current ratings are at 100-120Hz. At higher frequencies, effective capability may be reduced due to increased ESR. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Ripple current ratings are at 100-120Hz. At higher frequencies, effective capability may be reduced due to increased ESR. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "For high-frequency, use low-ESR capacitors.",
           "keywords": [
             "frequency",
@@ -677,7 +677,7 @@
       "faqs": [
         {
           "question": "What is AEC-Q200?",
-          "answer": "AEC-Q200 is the global standard for automotive passive components. It defines rigorous testing including temperature cycling, vibration, and shock. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "AEC-Q200 is the global standard for automotive passive components. It defines rigorous testing including temperature cycling, vibration, and shock. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always use AEC-Q200 qualified capacitors for automotive.",
           "keywords": [
             "AEC-Q200",
@@ -687,7 +687,7 @@
         },
         {
           "question": "What derating is required?",
-          "answer": "50% voltage derating is recommended for automotive to handle load dumps and transients. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "50% voltage derating is recommended for automotive to handle load dumps and transients. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Apply 50% voltage derating for automotive.",
           "keywords": [
             "derating",
@@ -697,7 +697,7 @@
         },
         {
           "question": "What temperature rating?",
-          "answer": "Use 125°C for most applications, 150°C for extreme under-hood locations. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use 125°C for most applications, 150°C for extreme under-hood locations. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select temperature rating based on location.",
           "keywords": [
             "temperature",
@@ -707,7 +707,7 @@
         },
         {
           "question": "What documentation is needed?",
-          "answer": "PPAP documentation including design records, test reports, PFMEA, control plan, and ongoing reliability data. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "PPAP documentation including design records, test reports, PFMEA, control plan, and ongoing reliability data. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact sales for PPAP documentation.",
           "keywords": [
             "PPAP",
@@ -717,7 +717,7 @@
         },
         {
           "question": "How do automotive differ from industrial?",
-          "answer": "Automotive capacitors have AEC-Q200 qualification, enhanced construction, extended temperature ratings, and stricter quality controls. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Automotive capacitors have AEC-Q200 qualification, enhanced construction, extended temperature ratings, and stricter quality controls. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use automotive-grade for vehicle applications.",
           "keywords": [
             "automotive",
@@ -727,7 +727,7 @@
         },
         {
           "question": "What lifetime in automotive?",
-          "answer": "With proper design, 15+ year operational life matching vehicle lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "With proper design, 15+ year operational life matching vehicle lifetime. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Design for vehicle lifetime.",
           "keywords": [
             "lifetime",
@@ -737,7 +737,7 @@
         },
         {
           "question": "What are common automotive requirements?",
-          "answer": "AEC-Q200, extended temperature, vibration resistance, humidity resistance, and complete documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "AEC-Q200, extended temperature, vibration resistance, humidity resistance, and complete documentation. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify all requirements with customer.",
           "keywords": [
             "requirements",
@@ -747,7 +747,7 @@
         },
         {
           "question": "How to handle load dump?",
-          "answer": "Use 50% voltage derating to provide margin for load dump transients up to 100V in 12V systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use 50% voltage derating to provide margin for load dump transients up to 100V in 12V systems. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use conservative derating for load dump.",
           "keywords": [
             "load dump",
@@ -771,7 +771,7 @@
         "### Common Failure Modes",
         "",
         "**Open Circuit**:",
-        "- Symptom: Circuit non-functional, no capacitance",
+        "- Symptom: Circuit non-functional without capacitance",
         "- Cause: Overvoltage, reverse voltage, internal connection failure",
         "- Detection: Capacitance measurement shows near zero",
         "",
@@ -924,7 +924,7 @@
       "faqs": [
         {
           "question": "What are common failure causes?",
-          "answer": "Insufficient voltage derating, excessive temperature, inadequate ripple margin, reverse voltage, and physical damage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Insufficient voltage derating, excessive temperature, inadequate ripple margin, reverse voltage, and physical damage. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Investigate all potential causes systematically.",
           "keywords": [
             "failure",
@@ -934,7 +934,7 @@
         },
         {
           "question": "How do I test capacitor health?",
-          "answer": "Measure capacitance (within ±20%), ESR (near datasheet value), leakage current (very low), and inspect for physical damage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Measure capacitance (within ±20%), ESR (near datasheet value), leakage current (very low), and inspect for physical damage. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Measure capacitance and ESR to assess health.",
           "keywords": [
             "testing",
@@ -944,7 +944,7 @@
         },
         {
           "question": "What are signs of failure?",
-          "answer": "Increased ripple voltage, reduced hold-up time, increased ESR, decreased capacitance, physical venting or bulging. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Increased ripple voltage, reduced hold-up time, increased ESR, decreased capacitance, physical venting or bulging. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Monitor for electrical and physical signs.",
           "keywords": [
             "signs",
@@ -954,7 +954,7 @@
         },
         {
           "question": "How do I measure temperature?",
-          "answer": "Use thermocouple on case, infrared thermometer, or thermal imaging. Measure under worst-case conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use thermocouple on case, infrared thermometer, or thermal imaging. Measure under worst-case conditions. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use thermocouple or thermal imaging.",
           "keywords": [
             "temperature",
@@ -964,7 +964,7 @@
         },
         {
           "question": "What to do when capacitor fails?",
-          "answer": "Document conditions, measure voltage/current/temperature, test capacitor, identify root cause, implement corrective actions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Document conditions, measure voltage/current/temperature, test capacitor, identify root cause, implement corrective actions. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always identify root cause before replacing.",
           "keywords": [
             "failure",
@@ -974,7 +974,7 @@
         },
         {
           "question": "How to prevent failures?",
-          "answer": "Proper derating, thermal management, ripple margin, correct polarity, transient protection, and regular monitoring. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Proper derating, thermal management, ripple margin, correct polarity, transient protection, and regular monitoring. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Implement proper derating and thermal management.",
           "keywords": [
             "prevention",
@@ -984,7 +984,7 @@
         },
         {
           "question": "When should capacitors be replaced?",
-          "answer": "When capacitance <80%, ESR increases 2x+, physical damage visible, or circuit performance degrades. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "When capacitance <80%, ESR increases 2x+, physical damage visible, or circuit performance degrades. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Replace capacitors showing degradation signs.",
           "keywords": [
             "replacement",
@@ -994,7 +994,7 @@
         },
         {
           "question": "What tools are needed?",
-          "answer": "LCR meter for capacitance/ESR, oscilloscope for ripple, current probe, thermocouple/thermal camera, multimeter. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "LCR meter for capacitance/ESR, oscilloscope for ripple, current probe, thermocouple/thermal camera, multimeter. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Invest in proper measurement tools.",
           "keywords": [
             "tools",
@@ -1233,7 +1233,7 @@
         },
         {
           "question": "What lifetime should I design for?",
-          "answer": "Design for 2-3x the required service life to account for variations. For 10-year product life, design for 20,000-30,000 hours minimum. Consider end-of-life parameter degradation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Design for 2-3x the required service life to account for variations. For 10-year product life, design for 20,000-30,000 hours minimum. Consider end-of-life parameter degradation. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use 2-3x safety margin on required lifetime.",
           "keywords": [
             "design lifetime",
@@ -1253,7 +1253,7 @@
         },
         {
           "question": "What is end-of-life criteria?",
-          "answer": "Typical end-of-life criteria: capacitance decrease to 80% of initial value, or ESR increase to 200% of initial value. Design system to function within specifications at these degraded values. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Typical end-of-life criteria: capacitance decrease to 80% of initial value, or ESR increase to 200% of initial value. Design system to function within specifications at these degraded values. For detailed specifications and application support on chemi-con products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify system operation at end-of-life parameters.",
           "keywords": [
             "end-of-life",

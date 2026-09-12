@@ -712,7 +712,7 @@ const newsData = {
       tags: ["renewable energy", "solar", "wind power", "energy storage"]
     },
     {
-      id: "litong-chemi-con-partnership",
+      id: "BeiLuo-chemi-con-partnership",
       title: "LiTong Electronics Strengthens Chemi-Con Partnership",
       summary: "Enhanced distribution agreement provides expanded inventory and technical support.",
       content: "LiTong Electronics is pleased to announce an enhanced distribution partnership with Chemi-Con Corporation. The expanded agreement includes increased local inventory of high-demand series, dedicated FAE support, and improved lead times for Asian markets. Customers will benefit from faster delivery of Chemi-Con's premium capacitors and comprehensive application engineering support.",

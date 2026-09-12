@@ -4,11 +4,17 @@
       "id": "microchip-expands-iot-portfolio",
       "title": "Microchip Expands IoT Portfolio with New Low-Power Wireless Solutions",
       "summary": "Microchip announces new WiFi 6 and Bluetooth 5.3 modules targeting battery-powered IoT applications with industry-leading low power consumption.",
-      "content": "Microchip Technology has announced significant expansion of its wireless connectivity portfolio with new modules targeting the rapidly growing IoT market. The new offerings include WiFi 6 modules with target wake time (TWT) support and Bluetooth 5.3 modules with advanced audio capabilities.\n\n## Key Product Announcements\n\n### WFI32E01 WiFi 6 Module\n- IEEE 802.11ax compliance with 20MHz channel support\n- Target Wake Time (TWT) for extended battery life\n- Integrated TCP/IP stack and TLS 1.3 security\n- Industrial temperature range (-40°C to +85°C)\n\n### BM83 Bluetooth 5.3 Module\n- LE Audio support with Auracast broadcast audio\n- Multi-stream audio capability\n- Integrated antenna for compact designs\n- Ultra-low power consumption in standby mode\n\n## Market Impact\n\nThese new modules address critical requirements for next-generation IoT devices including smart home sensors, industrial monitoring systems, and wearable devices. The WiFi 6 TWT feature can extend battery life by up to 40% compared to previous generation WiFi modules.\n\n## Development Support\n\nMicrochip provides comprehensive development support including:\n- Wireless IoT design guide and application notes\n- Pre-certified modules reducing time-to-market\n- MPLAB Harmony wireless software framework\n- Reference designs for common IoT applications\n\nBeiLuo Electronics, as an authorized Microchip distributor, offers immediate availability of samples and evaluation kits for these new wireless modules.",
+      "content": "Microchip Technology has announced significant expansion of its wireless connectivity portfolio with new modules targeting the rapidly growing IoT market. The new offerings include WiFi 6 modules with target wake time (TWT) support and Bluetooth 5.3 modules with advanced audio capabilities.\n\n## Key Product Announcements\n\n### WFI32E01 WiFi 6 Module\n- IEEE 802.11ax compliance with 20MHz channel support\n- Target Wake Time (TWT) for extended battery life\n- Integrated TCP/IP stack and TLS 1.3 security\n- Industrial temperature range (-40°C to +85°C)\n\n### BM83 Bluetooth 5.3 Module\n- LE Audio support with Auracast broadcast audio\n- Multi-stream audio capability\n- Integrated antenna for compact designs\n- Ultra-low power consumption in standby mode\n\n## Market Impact\n\nthese new modules address critical requirements for next-generation IoT devices including smart home sensors, industrial monitoring systems, and wearable devices. The WiFi 6 TWT feature can extend battery life by up to 40% compared to previous generation WiFi modules.\n\n## Development Support\n\nmicrochip provides comprehensive development support including:\n- Wireless IoT design guide and application notes\n- Pre-certified modules reducing time-to-market\n- MPLAB Harmony wireless software framework\n- Reference designs for common IoT applications\n\nBeiLuo Electronics, as an authorized Microchip distributor, offers immediate availability of samples and evaluation kits for these new wireless modules.",
       "category": "product",
       "publishDate": "2024-03-20",
       "author": "Microchip Marketing Team",
-      "tags": ["IoT", "WiFi 6", "Bluetooth 5.3", "wireless modules", "low power"],
+      "tags": [
+        "IoT",
+        "WiFi 6",
+        "Bluetooth 5.3",
+        "wireless modules",
+        "low power"
+      ],
       "views": 3250,
       "featured": true,
       "coverImage": "/images/microchip/news/iot-wireless-expansion.jpg"
@@ -17,11 +23,16 @@
       "id": "microchip-acquires-advanced-power",
       "title": "Microchip Strengthens Power Management Portfolio with Strategic Acquisition",
       "summary": "Microchip acquires Advanced Power Electronics Corp to expand its power management and analog solutions for industrial and automotive markets.",
-      "content": "Microchip Technology has completed the acquisition of Advanced Power Electronics Corp (APEC), a leading provider of power MOSFETs and power management ICs. This acquisition significantly strengthens Microchip's position in the power management market.\n\n## Acquisition Details\n\nThe acquisition brings APEC's extensive portfolio of:\n- Low-voltage and high-voltage power MOSFETs\n- DC-DC converters and controllers\n- LED drivers and lighting solutions\n- Motor driver ICs\n\n## Strategic Benefits\n\n### Product Portfolio Expansion\nThe combined company now offers comprehensive power solutions from discrete components to complex power management systems. This enables Microchip to provide complete system solutions for industrial automation, automotive, and consumer applications.\n\n### Manufacturing Synergies\nAPEC's manufacturing facilities in Asia will complement Microchip's existing operations, providing increased capacity and geographic diversification for power products.\n\n### Market Opportunities\nThe acquisition positions Microchip to capitalize on growing demand for:\n- Electric vehicle power electronics\n- Renewable energy systems\n- Industrial motor drives\n- Data center power solutions\n\n## Customer Impact\n\nExisting Microchip customers will benefit from expanded power management options that integrate seamlessly with Microchip's microcontroller and analog portfolios. BeiLuo Electronics will provide full support for the expanded product line including technical consultation and supply chain services.",
+      "content": "Microchip Technology has completed the acquisition of Advanced Power Electronics Corp (APEC), a leading provider of power MOSFETs and power management ICs. This acquisition significantly strengthens Microchip's position in the power management market.\n\n## Acquisition Details\n\nthe acquisition brings APEC's extensive portfolio of:\n- Low-voltage and high-voltage power MOSFETs\n- DC-DC converters and controllers\n- LED drivers and lighting solutions\n- Motor driver ICs\n\n## Strategic Benefits\n\n### Product Portfolio Expansion\nthe combined company now offers comprehensive power solutions from discrete components to complex power management systems. This enables Microchip to provide complete system solutions for industrial automation, automotive, and consumer applications.\n\n### Manufacturing Synergies\nAPEC's manufacturing facilities in Asia will complement Microchip's existing operations, providing increased capacity and geographic diversification for power products.\n\n### Market Opportunities\nthe acquisition positions Microchip to capitalize on growing demand for:\n- Electric vehicle power electronics\n- Renewable energy systems\n- Industrial motor drives\n- Data center power solutions\n\n## Customer Impact\n\nexisting Microchip customers will benefit from expanded power management options that integrate seamlessly with Microchip's microcontroller and analog portfolios. BeiLuo Electronics will provide full support for the expanded product line including technical consultation and supply chain services.",
       "category": "company",
       "publishDate": "2024-02-15",
       "author": "Microchip Corporate Communications",
-      "tags": ["acquisition", "power management", "MOSFET", "strategic growth"],
+      "tags": [
+        "acquisition",
+        "power management",
+        "MOSFET",
+        "strategic growth"
+      ],
       "views": 2890,
       "featured": true,
       "coverImage": "/images/microchip/news/apec-acquisition.jpg"
@@ -30,11 +41,17 @@
       "id": "microchip-announces-pic18-q41",
       "title": "Microchip Introduces PIC18-Q41 Family with Advanced Analog and Security Features",
       "summary": "New PIC18-Q41 microcontrollers feature integrated operational amplifiers, 12-bit ADC with computation, and hardware security modules for IoT applications.",
-      "content": "Microchip has launched the PIC18-Q41 family of 8-bit microcontrollers, bringing advanced analog capabilities and security features to cost-sensitive embedded applications.\n\n## Key Features\n\n### Advanced Analog Integration\n- Up to three operational amplifiers with programmable gain\n- 12-bit ADC with integrated computation engine\n- 10-bit DAC for analog output\n- Zero-cross detect for TRIAC control\n\n### Security Features\n- Hardware cryptographic accelerator (AES, SHA)\n- Secure boot with root of trust\n- Code protection with encrypted firmware\n- True random number generator\n\n### Core Specifications\n- Up to 128KB Flash memory\n- Up to 8KB RAM\n- 64MHz maximum operation\n- Extended temperature range (-40°C to +125°C)\n\n## Target Applications\n\nThe PIC18-Q41 family is optimized for:\n- Smart home appliances\n- Industrial sensors and controls\n- Medical devices\n- Security systems\n- Motor control applications\n\n## Development Tools\n\nMicrochip provides comprehensive support including:\n- Curiosity Nano evaluation board (EV88G34A)\n- MPLAB X IDE with MCC support\n- Application libraries for analog signal conditioning\n- Security configuration tools\n\nSamples and production quantities are available now through authorized distributor BeiLuo Electronics.",
+      "content": "Microchip has launched the PIC18-Q41 family of 8-bit microcontrollers, bringing advanced analog capabilities and security features to cost-sensitive embedded applications.\n\n## Key Features\n\n### Advanced Analog Integration\n- Up to three operational amplifiers with programmable gain\n- 12-bit ADC with integrated computation engine\n- 10-bit DAC for analog output\n- Zero-cross detect for TRIAC control\n\n### Security Features\n- Hardware cryptographic accelerator (AES, SHA)\n- Secure boot with root of trust\n- Code protection with encrypted firmware\n- True random number generator\n\n### Core Specifications\n- Up to 128KB Flash memory\n- Up to 8KB RAM\n- 64MHz maximum operation\n- Extended temperature range (-40°C to +125°C)\n\n## Target Applications\n\nthe PIC18-Q41 family is optimized for:\n- Smart home appliances\n- Industrial sensors and controls\n- Medical devices\n- Security systems\n- Motor control applications\n\n## Development Tools\n\nmicrochip provides comprehensive support including:\n- Curiosity Nano evaluation board (EV88G34A)\n- MPLAB X IDE with MCC support\n- Application libraries for analog signal conditioning\n- Security configuration tools\n\nSamples and production quantities are available now through authorized distributor BeiLuo Electronics.",
       "category": "product",
       "publishDate": "2024-01-25",
       "author": "Microchip Product Marketing",
-      "tags": ["PIC18", "microcontroller", "analog", "security", "IoT"],
+      "tags": [
+        "PIC18",
+        "microcontroller",
+        "analog",
+        "security",
+        "IoT"
+      ],
       "views": 4120,
       "featured": false,
       "coverImage": "/images/microchip/news/pic18-q41-launch.jpg"
@@ -43,11 +60,16 @@
       "id": "microchip-fy2024-results",
       "title": "Microchip Reports Record Revenue in Fiscal Year 2024",
       "summary": "Microchip announces record annual revenue of $8.44 billion, up 8.5% year-over-year, driven by strength in industrial and automotive markets.",
-      "content": "Microchip Technology has reported financial results for fiscal year 2024, achieving record revenue of $8.44 billion, representing 8.5% growth compared to fiscal year 2023.\n\n## Financial Highlights\n\n### Revenue by End Market\n- Industrial: $3.2 billion (38% of total)\n- Automotive: $2.1 billion (25% of total)\n- Consumer: $1.5 billion (18% of total)\n- Data Center & Computing: $1.0 billion (12% of total)\n- Communications: $0.64 billion (7% of total)\n\n### Profitability Metrics\n- Non-GAAP gross margin: 67.8%\n- Non-GAAP operating margin: 44.2%\n- Free cash flow: $2.8 billion\n- Dividend increase: 8.3%\n\n## Business Segment Performance\n\n### Microcontroller Business\nRevenue grew 12% year-over-year driven by strong demand for 32-bit SAM and PIC32 products in IoT and industrial applications.\n\n### Analog Business\nAnalog revenue increased 6% with particular strength in power management and interface products for automotive applications.\n\n### FPGA Business\nFPGA revenue grew 15% reflecting continued adoption of PolarFire products in communications and industrial markets.\n\n## Outlook\n\nMicrochip provided guidance for fiscal year 2025 expecting revenue growth of 4-8%, with continued strength in industrial and automotive markets offsetting softness in consumer markets.\n\n## Shareholder Returns\n\nMicrochip returned $2.1 billion to shareholders through dividends and share repurchases during fiscal year 2024, demonstrating commitment to shareholder value.",
+      "content": "Microchip Technology has reported financial results for fiscal year 2024, achieving record revenue of $8.44 billion, representing 8.5% growth compared to fiscal year 2023.\n\n## Financial Highlights\n\n### Revenue by End Market\n- Industrial: $3.2 billion (38% of total)\n- Automotive: $2.1 billion (25% of total)\n- Consumer: $1.5 billion (18% of total)\n- Data Center & Computing: $1.0 billion (12% of total)\n- Communications: $0.64 billion (7% of total)\n\n### Profitability Metrics\n- Non-GAAP gross margin: 67.8%\n- Non-GAAP operating margin: 44.2%\n- Free cash flow: $2.8 billion\n- Dividend increase: 8.3%\n\n## Business Segment Performance\n\n### Microcontroller Business\nrevenue grew 12% year-over-year driven by strong demand for 32-bit SAM and PIC32 products in IoT and industrial applications.\n\n### Analog Business\nanalog revenue increased 6% with particular strength in power management and interface products for automotive applications.\n\n### FPGA Business\nFPGA revenue grew 15% reflecting continued adoption of PolarFire products in communications and industrial markets.\n\n## Outlook\n\nmicrochip provided guidance for fiscal year 2025 expecting revenue growth of 4-8%, with continued strength in industrial and automotive markets offsetting softness in consumer markets.\n\n## Shareholder Returns\n\nmicrochip returned $2.1 billion to shareholders through dividends and share repurchases during fiscal year 2024.",
       "category": "company",
       "publishDate": "2024-05-10",
       "author": "Microchip Investor Relations",
-      "tags": ["financial results", "revenue", "annual report", "FY2024"],
+      "tags": [
+        "financial results",
+        "revenue",
+        "annual report",
+        "FY2024"
+      ],
       "views": 5680,
       "featured": false,
       "coverImage": "/images/microchip/news/fy2024-results.jpg"
@@ -56,11 +78,17 @@
       "id": "microchip-functional-safety",
       "title": "Microchip Achieves ISO 26262 ASIL-D Certification for dsPIC33C Digital Signal Controllers",
       "summary": "Microchip's dsPIC33C family receives highest automotive functional safety certification, enabling safety-critical applications up to ASIL-D.",
-      "content": "Microchip Technology has achieved ISO 26262 ASIL-D certification for its dsPIC33C Digital Signal Controller family, the highest level of automotive functional safety certification.\n\n## Certification Details\n\n### Scope of Certification\n- dsPIC33CK64MP105/106\n- dsPIC33CK128MP205/206\n- dsPIC33CK256MP305/306\n- All family variants with dual-core lockstep\n\n### Safety Features\n- Dual-core lockstep operation\n- ECC memory protection\n- Clock monitoring with fail-safe\n- Voltage monitoring and brown-out detection\n- Comprehensive self-test capabilities\n\n## Development Support\n\n### Safety Documentation\n- Safety manual with FMEDA analysis\n- Diagnostic coverage analysis\n- Safety application notes\n- Certified software libraries\n\n### Tools and Software\n- MPLAB X IDE with code coverage\n- Functional safety certified compilers\n- Safety-certified RTOS ports\n- Example safety applications\n\n## Target Applications\n\nThe ASIL-D certification enables use in safety-critical automotive systems:\n- Electric power steering\n- Brake-by-wire systems\n- Battery management systems\n- ADAS processing units\n- Domain controllers\n\n## Market Significance\n\nThis certification positions Microchip as a leading supplier of functional safety solutions for the automotive industry. The dsPIC33C family offers a cost-effective alternative to traditional lockstep microcontrollers while providing equivalent safety integrity levels.\n\nBeiLuo Electronics provides full technical support for functional safety applications including safety manual access and design consultation.",
+      "content": "Microchip Technology has achieved ISO 26262 ASIL-D certification for its dsPIC33C Digital Signal Controller family, the highest level of automotive functional safety certification.\n\n## Certification Details\n\n### Scope of Certification\n- dsPIC33CK64MP105/106\n- dsPIC33CK128MP205/206\n- dsPIC33CK256MP305/306\n- All family variants with dual-core lockstep\n\n### Safety Features\n- Dual-core lockstep operation\n- ECC memory protection\n- Clock monitoring with fail-safe\n- Voltage monitoring and brown-out detection\n- Comprehensive self-test capabilities\n\n## Development Support\n\n### Safety Documentation\n- Safety manual with FMEDA analysis\n- Diagnostic coverage analysis\n- Safety application notes\n- Certified software libraries\n\n### Tools and Software\n- MPLAB X IDE with code coverage\n- Functional safety certified compilers\n- Safety-certified RTOS ports\n- Example safety applications\n\n## Target Applications\n\nthe ASIL-D certification enables use in safety-critical automotive systems:\n- Electric power steering\n- Brake-by-wire systems\n- Battery management systems\n- ADAS processing units\n- Domain controllers\n\n## Market Significance\n\nthis certification positions Microchip as a leading supplier of functional safety solutions for the automotive industry. The dsPIC33C family offers a cost-effective alternative to traditional lockstep microcontrollers while providing equivalent safety integrity levels.\n\nBeiLuo Electronics provides full technical support for functional safety applications including safety manual access and design consultation.",
       "category": "product",
       "publishDate": "2024-04-05",
       "author": "Microchip Automotive Division",
-      "tags": ["functional safety", "ISO 26262", "ASIL-D", "automotive", "dsPIC33C"],
+      "tags": [
+        "functional safety",
+        "ISO 26262",
+        "ASIL-D",
+        "automotive",
+        "dsPIC33C"
+      ],
       "views": 3780,
       "featured": true,
       "coverImage": "/images/microchip/news/asil-d-certification.jpg"
@@ -69,11 +97,17 @@
       "id": "microchip-polarfire-risc-v",
       "title": "Microchip Expands PolarFire FPGA Portfolio with RISC-V Soft Core Ecosystem",
       "summary": "New Mi-V RISC-V ecosystem for PolarFire FPGAs enables high-performance embedded processing with industry-leading power efficiency.",
-      "content": "Microchip has significantly expanded its RISC-V offering with the introduction of the Mi-V ecosystem for PolarFire FPGAs, providing developers with a comprehensive suite of tools and IP for RISC-V based designs.\n\n## Mi-V Ecosystem Components\n\n### RISC-V Cores\n- Mi-V RV32IMAC - 5-stage pipeline, up to 250MHz\n- Mi-V RV64GC - 64-bit application processor\n- Mi-V Vector - SIMD extensions for DSP\n- Custom instruction extension support\n\n### Development Tools\n- SoftConsole IDE based on Eclipse\n- Renode simulation framework\n- Libero SoC design suite integration\n- FreeRTOS and Zephyr RTOS ports\n\n### IP and Peripherals\n- CoreLocal Interrupt Controller (CLINT)\n- Platform-Level Interrupt Controller (PLIC)\n- DDR4 memory controller\n- High-speed serial interfaces\n\n## PolarFire FPGA Advantages\n\n### Power Efficiency\nPolarFire FPGAs consume up to 50% less power than competing SRAM-based FPGAs, making them ideal for power-constrained edge computing applications.\n\n### Security Features\n- DPA-resistant crypto accelerators\n- Physically Unclonable Function (PUF)\n- Anti-tamper detection\n- Secure boot with root of trust\n\n## Target Applications\n\nThe Mi-V ecosystem enables:\n- Edge AI and machine learning inference\n- Industrial automation controllers\n- Communications infrastructure\n- Aerospace and defense systems\n- Smart network interface cards\n\n## Development Hardware\n\nMicrochip offers multiple development platforms:\n- PolarFire SoC Icicle Kit - $499\n- PolarFire Evaluation Kit - $1,299\n- Mi-V Vector Processor Demo Platform\n\nAll development kits include Libero SoC Gold license and comprehensive documentation.",
+      "content": "Microchip has significantly expanded its RISC-V offering with the introduction of the Mi-V ecosystem for PolarFire FPGAs, providing developers with a comprehensive suite of tools and IP for RISC-V based designs.\n\n## Mi-V Ecosystem Components\n\n### RISC-V Cores\n- Mi-V RV32IMAC - 5-stage pipeline, up to 250MHz\n- Mi-V RV64GC - 64-bit application processor\n- Mi-V Vector - SIMD extensions for DSP\n- Custom instruction extension support\n\n### Development Tools\n- SoftConsole IDE based on Eclipse\n- Renode simulation framework\n- Libero SoC design suite integration\n- FreeRTOS and Zephyr RTOS ports\n\n### IP and Peripherals\n- CoreLocal Interrupt Controller (CLINT)\n- Platform-Level Interrupt Controller (PLIC)\n- DDR4 memory controller\n- High-speed serial interfaces\n\n## PolarFire FPGA Advantages\n\n### Power Efficiency\npolarFire FPGAs consume up to 50% less power than competing SRAM-based FPGAs, making them ideal for power-constrained edge computing applications.\n\n### Security Features\n- DPA-resistant crypto accelerators\n- Physically Unclonable Function (PUF)\n- Anti-tamper detection\n- Secure boot with root of trust\n\n## Target Applications\n\nthe Mi-V ecosystem enables:\n- Edge AI and machine learning inference\n- Industrial automation controllers\n- Communications infrastructure\n- Aerospace and defense systems\n- Smart network interface cards\n\n## Development Hardware\n\nmicrochip offers multiple development platforms:\n- PolarFire SoC Icicle Kit - $499\n- PolarFire Evaluation Kit - $1,299\n- Mi-V Vector Processor Demo Platform\n\nAll development kits include Libero SoC Gold license and comprehensive documentation.",
       "category": "product",
       "publishDate": "2024-03-08",
       "author": "Microchip FPGA Division",
-      "tags": ["FPGA", "RISC-V", "PolarFire", "Mi-V", "edge computing"],
+      "tags": [
+        "FPGA",
+        "RISC-V",
+        "PolarFire",
+        "Mi-V",
+        "edge computing"
+      ],
       "views": 2950,
       "featured": false,
       "coverImage": "/images/microchip/news/polarfire-riscv.jpg"

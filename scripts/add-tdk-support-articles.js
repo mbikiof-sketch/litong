@@ -19,7 +19,7 @@ const newArticles = [
     author: {
       name: "David Park",
       title: "Senior FAE - Power Systems",
-      email: "d.park@litong.com",
+      email: "d.park@BeiLuo.com",
       image: "/assets/team/david-park.jpg"
     },
     publishedDate: "2024-02-01",
@@ -122,7 +122,7 @@ const newArticles = [
     author: {
       name: "Jennifer Liu",
       title: "Senior FAE - Renewable Energy",
-      email: "j.liu@litong.com",
+      email: "j.liu@BeiLuo.com",
       image: "/assets/team/jennifer-liu.jpg"
     },
     publishedDate: "2024-02-15",
@@ -225,7 +225,7 @@ const newArticles = [
     author: {
       name: "Lisa Wang",
       title: "FAE Manager - Power Applications",
-      email: "l.wang@litong.com",
+      email: "l.wang@BeiLuo.com",
       image: "/assets/team/lisa-wang.jpg"
     },
     publishedDate: "2024-03-01",

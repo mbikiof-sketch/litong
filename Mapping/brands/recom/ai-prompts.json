@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for recom distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for recom Recom DC-DC converter, Recom AC-DC power supply, Recom switching regulator. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: Recom vs Traco Power comparison vs Best DC-DC converter brands vs European power supply manufacturers. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for recom USB interface chips covering Recom DC-DC converter, Recom AC-DC power supply, Recom switching regulator, Recom LED driver."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What makes Recom power supplies reliable?; What is the difference between isolated and non-isolated converters?; How do I select the right Recom DC-DC converter?; What are the key features of Recom LED drivers?; What certifications do Recom power supplies have?; Does Recom offer medical grade power supplies?; What is Recom's warranty period?; How to mount Recom DIN rail power supplies?; What is the efficiency of Recom converters?; Does Recom provide technical support?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for recom distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for recom distributor with Product and Organization types."
+    }
+  ]
+}

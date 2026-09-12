@@ -1,0 +1,15 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-05-15T06:19:23+08:00	baseline	seo-geo-optimizer	-	77.4	baseline	-	初始评估: Frontmatter 6.4/8, Workflow 13.5/15, Boundary 7/10, Checkpoint 3.5/7, Specificity 12/15, Resources 3/5, Architecture 12/15, TestPerf 20/25	dry_run
+2026-05-15T06:22:21+08:00	7c15401	seo-geo-optimizer	77.4	82.2	keep	检查点设计+边界条件	新增Checkpoint Protocol(4个检查点CP1-CP4)和Error Handling表(5种异常场景)	dry_run
+2026-05-15T09:12:02+08:00	63a8202	seo-geo-optimizer	82.2	83.2	keep	资源整合度	新增 references/test-prompts.json 捆绑测试文件；Overview中引用说明	dry_run
+2026-05-15T10:12:46+08:00	8778598	seo-geo-optimizer	83.2	84.7	keep	指令具体性	新增On-Page表格(5项精确格式)、安全检测curl命令、Step6报告模板、Step7命令优先级+验证	dry_run
+2026-05-15T11:08:40+08:00	e5d87b9	seo-geo-optimizer	84.7	85.5	keep	frontmatter质量	描述精简至1008字符,新增pushy触发词(brand/distributor/代理商),覆盖更多中英文场景	dry_run
+2026-05-15T11:25:36+08:00	8065e88	seo-geo-optimizer	85.5	88.0	keep	实测表现	子agent实测3品牌: with-skill 94% vs without 69% pass rate, delta +25%. 结构化流程/记忆管理/检查点优势明显	full_test
+2026-05-15T12:01:27+08:00	8ba57f5	seo-geo-optimizer	88.0	89.5	keep	指令具体性	新增JSON字段路径映射表+精确curl安全检测命令(3种检查)+记忆更新格式模板	full_test
+2026-05-15T12:20:46+08:00	f3bcdcd	seo-geo-optimizer	89.5	91.0	keep	工作流清晰度	每步新增INPUT/OUTPUT/SKILLS标准化头部,输入/输出/依赖一目了然	full_test
+2026-05-15T13:42:05+08:00	c0223ac	seo-geo-optimizer	91.0	91.5	keep	资源整合度	新增 references/checklist.md 详细审计清单(6类22项),Step3.2引用说明	full_test
+2026-05-15T13:49:36+08:00	aa406d0	seo-geo-optimizer	91.5	96.7	keep	探索性重写(全部维度)	Phase 2.5: 430→200行,7铁律→表格,Quick Start+Error Handling合并,5个CP嵌入对应步骤	full_test
+2026-05-15T13:57:40+08:00	aa406d0	seo-geo-optimizer	96.7	99.2	keep	重写验证	子agent验证: 结构8.5/10,检查点CP1-CP5正确触发,铁律合规,相比旧版有提升.实测表现10/10	full_test
+2026-05-15T13:59:48+08:00	1694ca5	seo-geo-optimizer	99.2	100.0	keep	边界条件+Frontmatter	新增4异常场景(网络超时/内存缺失/JSON结构异常/空分类),描述追加schema/sitemap触发词	dry_run
+2026-05-15T14:09:28+08:00	93ecb38fa272bc41adfd92271ad72ebb10e5fa01	seo-geo-optimizer	100.0	100.0	keep	自动化验证	validate-skill.js: 82 checks/82 pass, e2e data validation + test prompt readiness	automated

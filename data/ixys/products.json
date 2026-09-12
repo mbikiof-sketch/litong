@@ -635,7 +635,7 @@
           "faeReview": {
             "author": "Michael Chen",
             "title": "Senior FAE - Power Electronics",
-            "content": "The IXFH24N100 is an excellent choice for high-voltage applications requiring 1000V capability. I've used this MOSFET in PFC circuits and offline power supplies with excellent results. The 1000V rating provides adequate margin for universal input (85-265VAC) applications with PFC. While the Rds(on) of 385mΩ seems high compared to lower voltage devices, it's actually very competitive for 1000V rating. The avalanche capability is particularly important in high-voltage applications where energy stored in inductances is significant. For PFC applications, this device can handle 500-600W with proper heatsinking. I recommend using 15V gate drive and proper snubbers to minimize switching losses.",
+            "content": "The IXFH24N100 is an excellent choice for high-voltage applications requiring 1000V capability. I've used this MOSFET in PFC circuits and offline power supplies with excellent results. The 1000V rating provides adequate margin for universal input (85-265VAC) applications with PFC. While the Rds(on) of 385mΩ seems high compared to lower voltage devices, it's very competitive for 1000V rating. The avalanche capability is particularly important in high-voltage applications where energy stored in inductances is significant. For PFC applications, this device can handle 500-600W with proper heatsinking. I recommend using 15V gate drive and proper snubbers to minimize switching losses.",
             "highlight": "Excellent 1000V MOSFET for high-voltage power supplies and PFC applications"
           },
           "alternativeParts": [
@@ -996,7 +996,7 @@
           "faeReview": {
             "author": "Steven Park",
             "title": "Senior FAE - High Power Systems",
-            "content": "The MIXA150PD1200TS is designed for the most demanding industrial applications. I've deployed these in large extruder drives (40kW), cement mill drives, and grid-scale solar inverters. The 150A rating with 0.20°C/W thermal resistance provides excellent power handling. While Vce(sat) is slightly higher at 1.95V, the overall efficiency remains excellent due to optimized chip design. The module requires careful thermal design - liquid cooling may be preferred for continuous 150A operation. Switching frequency should be limited to 3-5kHz to manage losses. This module represents IXYS's capability in high-power IGBT technology.",
+            "content": "The MIXA150PD1200TS is designed for the most demanding industrial applications. I've deployed these in large extruder drives (40kW), cement mill drives, and grid-scale solar inverters. The 150A rating with 0.20°C/W thermal resistance provides excellent power handling. While Vce(sat) is slightly higher at 1.95V, the overall efficiency remains excellent due to optimized chip design. The module requires careful thermal design - liquid cooling may be preferred for continuous 150A operation. Switching frequency should be limited to 3-5kHz to manage losses. This module is IXYS's capability in high-power IGBT technology.",
             "highlight": "Ultra-high current 150A module for heavy industrial power applications"
           },
           "companionParts": [

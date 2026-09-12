@@ -20,7 +20,12 @@
       "summary": "ECEC announces significant expansion of AEC-Q200 qualified crystal resonator production to meet growing demand from automotive electronics manufacturers.",
       "content": "ECEC, a leading manufacturer of frequency control products, today announced the expansion of its automotive-grade crystal resonator production capacity. The expansion includes new automated production lines and enhanced testing capabilities to meet the growing demand from automotive electronics manufacturers.\n\nThe expanded facility will focus on producing AEC-Q200 qualified crystal resonators in various package sizes including 2.0x1.6mm, 3.2x2.5mm, and 5.0x3.2mm SMD packages. These products are essential for automotive applications including infotainment systems, ADAS, and electronic control units.\n\n\"The automotive electronics market is experiencing rapid growth, particularly in areas like electric vehicles and autonomous driving systems,\" said the Production Director at ECEC. \"This expansion ensures we can meet our customers' increasing demand for high-reliability timing components.\"\n\nThe new production lines feature advanced automation and quality control systems, ensuring consistent product quality and traceability required for automotive applications. Initial production has already begun, with full capacity expected by Q2 2025.",
       "image": "/images/news/ecec-automotive-expansion.jpg",
-      "tags": ["automotive", "AEC-Q200", "expansion", "crystal resonator"],
+      "tags": [
+        "automotive",
+        "AEC-Q200",
+        "expansion",
+        "crystal resonator"
+      ],
       "seo": {
         "title": "ECEC Expands Automotive-Grade Crystal Production | ECEC News",
         "description": "ECEC announces expansion of AEC-Q200 qualified crystal resonator production capacity to meet growing automotive electronics demand."
@@ -41,7 +46,13 @@
       "summary": "New MEMS oscillator series offers high reliability, wide temperature range operation, and programmable frequencies for demanding industrial applications.",
       "content": "ECEC has introduced a new series of MEMS-based oscillators designed specifically for industrial applications. The new series combines high reliability with excellent shock and vibration resistance, making them ideal for factory automation, process control, and industrial networking equipment.\n\nThe MEMS oscillator series features:\n\n- Operating temperature range: -40°C to +105°C\n- Frequency stability: ±25ppm over temperature\n- Shock resistance: 50,000g\n- Programmable frequencies from 1MHz to 200MHz\n- Compact 2.5x2.0mm and 3.2x2.5mm packages\n- Low power consumption: 2.5mA typical\n\n\"MEMS technology offers significant advantages for industrial applications,\" explained the Product Manager. \"The exceptional shock resistance and long-term reliability make these oscillators perfect for harsh industrial environments where traditional quartz devices might fail.\"\n\nThe new series is available for sampling now, with production volumes available in January 2025. ECEC provides comprehensive technical support including application notes and reference designs to help customers integrate these oscillators into their designs.",
       "image": "/images/news/ecec-mems-oscillator-launch.jpg",
-      "tags": ["MEMS", "oscillator", "industrial", "new product", "programmable"],
+      "tags": [
+        "MEMS",
+        "oscillator",
+        "industrial",
+        "new product",
+        "programmable"
+      ],
       "seo": {
         "title": "ECEC Launches MEMS Oscillator Series | Industrial Timing Solutions",
         "description": "ECEC introduces new MEMS oscillator series with high reliability, wide temperature range, and programmable frequencies for industrial applications."
@@ -59,13 +70,18 @@
       "updatedAt": "2024-10-20",
       "readTime": "3 min",
       "featured": false,
-      "summary": "ECEC successfully achieves IATF 16949 certification, demonstrating commitment to quality management systems for the automotive industry.",
+      "summary": "ECEC successfully achieves IATF 16949 certification.",
       "content": "ECEC is pleased to announce that it has successfully achieved IATF 16949:2016 certification, the international standard for quality management systems in the automotive industry. This certification recognizes ECEC's commitment to maintaining the highest quality standards in the design and manufacture of timing components for automotive applications.\n\nThe IATF 16949 certification audit covered all aspects of ECEC's operations including product design, manufacturing processes, quality control, and supply chain management. The certification validates that ECEC's quality management system meets the stringent requirements of the global automotive industry.\n\n\"Achieving IATF 16949 certification is a significant milestone for ECEC,\" said the Quality Director. \"It demonstrates our dedication to quality and our capability to meet the demanding requirements of automotive customers worldwide.\"\n\nThis certification complements ECEC's existing ISO 9001 certification and AEC-Q200 product qualifications, further strengthening the company's position as a trusted supplier to the automotive electronics industry.",
       "image": "/images/news/ecec-iatf-certification.jpg",
-      "tags": ["certification", "IATF 16949", "automotive", "quality"],
+      "tags": [
+        "certification",
+        "IATF 16949",
+        "automotive",
+        "quality"
+      ],
       "seo": {
         "title": "ECEC Achieves IATF 16949 Certification | Quality Management",
-        "description": "ECEC achieves IATF 16949 certification for automotive quality management systems, reinforcing commitment to automotive industry standards."
+        "description": "ECEC achieves IATF 16949 certification for automotive quality management systems."
       }
     },
     {
@@ -83,7 +99,13 @@
       "summary": "New TCXO series delivers industry-leading phase noise performance for 5G base stations, small cells, and high-speed communication equipment.",
       "content": "ECEC has introduced a new series of ultra-low jitter Temperature Compensated Crystal Oscillators (TCXOs) optimized for 5G infrastructure and high-speed communication applications. The new TCXOs deliver exceptional phase noise performance that meets the stringent requirements of 5G NR systems.\n\nKey features of the new TCXO series include:\n\n- Phase noise: -150 dBc/Hz at 1kHz offset\n- Frequency stability: ±0.5ppm over -40°C to +85°C\n- Available frequencies: 19.2MHz, 26MHz, 38.4MHz, 52MHz\n- Supply voltage: 1.8V, 2.5V, or 3.3V\n- Package: 2.0x1.6mm, 2.5x2.0mm, and 3.2x2.5mm\n- Output: Clipped sine wave or CMOS\n\n\"5G systems require extremely stable frequency references with very low phase noise,\" said the RF Product Manager. \"Our new TCXO series delivers the performance needed for 5G base stations, small cells, and mmWave applications while maintaining competitive pricing.\"\n\nThe new TCXOs are sampling now and will be available in production quantities in Q4 2024. ECEC provides comprehensive characterization data and application support for 5G system designers.",
       "image": "/images/news/ecec-ultra-low-jitter-tcxo.jpg",
-      "tags": ["TCXO", "5G", "low jitter", "phase noise", "communication"],
+      "tags": [
+        "TCXO",
+        "5G",
+        "low jitter",
+        "phase noise",
+        "communication"
+      ],
       "seo": {
         "title": "ECEC Ultra-Low Jitter TCXO for 5G | High-Speed Communication",
         "description": "ECEC introduces ultra-low jitter TCXO series optimized for 5G infrastructure and high-speed communication applications."
@@ -104,7 +126,12 @@
       "summary": "Strategic partnership aims to provide optimized timing solutions and reference designs for embedded system developers.",
       "content": "ECEC has announced a strategic partnership with a leading microcontroller manufacturer to provide optimized timing solutions for embedded system developers. The partnership focuses on developing reference designs and application notes that simplify crystal selection and integration with popular MCU platforms.\n\nAs part of the partnership, ECEC and the MCU manufacturer will:\n\n- Develop validated reference designs for common MCU clock configurations\n- Create application notes covering crystal selection, PCB layout, and troubleshooting\n- Provide sample code for clock configuration and power management\n- Offer joint technical support for timing-related design challenges\n- Collaborate on new product development for emerging applications\n\n\"This partnership brings together ECEC's expertise in frequency control with the MCU manufacturer's deep knowledge of embedded systems,\" said the Business Development Director. \"Together, we can help developers achieve optimal performance and reliability in their designs.\"\n\nThe first joint reference designs are available now, covering popular MCU families used in IoT, industrial control, and consumer electronics applications.",
       "image": "/images/news/ecec-mcu-partnership.jpg",
-      "tags": ["partnership", "MCU", "reference design", "embedded systems"],
+      "tags": [
+        "partnership",
+        "MCU",
+        "reference design",
+        "embedded systems"
+      ],
       "seo": {
         "title": "ECEC Partners with MCU Manufacturer | Timing Solutions Partnership",
         "description": "ECEC announces strategic partnership with leading MCU manufacturer to provide optimized timing solutions and reference designs."
@@ -125,7 +152,13 @@
       "summary": "New 1.2x1.0mm 32.768kHz tuning fork crystal enables smaller wearable and IoT device designs with excellent stability.",
       "content": "ECEC has introduced an ultra-miniature 32.768kHz tuning fork crystal in a 1.2x1.0mm package, the smallest size available for this frequency. The new crystal is specifically designed for space-constrained applications such as smartwatches, fitness trackers, and other wearable devices.\n\nDespite its compact size, the new crystal delivers excellent performance:\n\n- Package size: 1.2 x 1.0 x 0.35mm\n- Frequency tolerance: ±20ppm at 25°C\n- Load capacitance: 6pF or 12.5pF options\n- Equivalent series resistance: 70kΩ max\n- Drive level: 0.5µW typical, 1.0µW max\n- Aging: ±3ppm per year max\n\n\"Wearable devices demand ever-smaller components without compromising performance,\" said the Product Manager. \"Our new 1.2x1.0mm crystal delivers the same reliability and accuracy as larger packages in a footprint ideal for the latest wearable designs.\"\n\nThe ultra-miniature crystal is available now in production quantities. ECEC also offers compatible load capacitors and application guidance for optimal circuit design.",
       "image": "/images/news/ecec-miniature-32khz-crystal.jpg",
-      "tags": ["32.768kHz", "tuning fork", "wearable", "miniature", "IoT"],
+      "tags": [
+        "32.768kHz",
+        "tuning fork",
+        "wearable",
+        "miniature",
+        "IoT"
+      ],
       "seo": {
         "title": "ECEC Ultra-Miniature 32.768kHz Crystal | Wearable Device Timing",
         "description": "ECEC unveils 1.2x1.0mm 32.768kHz tuning fork crystal for wearable and IoT devices, enabling smaller designs with excellent stability."
@@ -144,9 +177,15 @@
       "readTime": "4 min",
       "featured": false,
       "summary": "State-of-the-art R&D facility will focus on developing advanced timing solutions including MEMS oscillators, high-frequency crystals, and precision OCXOs.",
-      "content": "ECEC has officially opened a new research and development center dedicated to next-generation timing technologies. The facility represents a significant investment in the company's future and underscores its commitment to innovation in frequency control products.\n\nThe new R&D center features:\n\n- Advanced MEMS design and characterization laboratory\n- High-frequency crystal development and testing facilities\n- Precision OCXO design center\n- Environmental testing chambers (-60°C to +200°C)\n- Vibration and shock testing equipment\n- Phase noise and jitter measurement systems\n\n\"This R&D center positions ECEC at the forefront of timing technology innovation,\" said the CTO. \"Our research teams will focus on developing products that meet the evolving needs of 5G, automotive electronics, IoT, and aerospace applications.\"\n\nThe R&D center will employ over 50 engineers and scientists working on advanced projects including:\n\n- Next-generation MEMS oscillators with improved phase noise\n- High-frequency crystals for 5G mmWave applications\n- Miniaturized OCXOs for portable precision timing\n- Ultra-low power timing solutions for IoT devices\n- Automotive timing components for autonomous vehicles\n\nThe facility is fully operational and already contributing to ECEC's product development pipeline.",
+      "content": "ECEC has officially opened a new research and development center dedicated to next-generation timing technologies. The facility is significant investment in the company's future and show its commitment to innovation in frequency control products.\n\nThe new R&D center features:\n\n- Advanced MEMS design and characterization laboratory\n- High-frequency crystal development and testing facilities\n- Precision OCXO design center\n- Environmental testing chambers (-60°C to +200°C)\n- Vibration and shock testing equipment\n- Phase noise and jitter measurement systems\n\n\"This R&D center positions ECEC at the forefront of timing technology innovation,\" said the CTO. \"Our research teams will focus on developing products that meet the evolving needs of 5G, automotive electronics, IoT, and aerospace applications.\"\n\nThe R&D center will employ over 50 engineers and scientists working on advanced projects including:\n\n- Next-generation MEMS oscillators with improved phase noise\n- High-frequency crystals for 5G mmWave applications\n- Miniaturized OCXOs for portable precision timing\n- Ultra-low power timing solutions for IoT devices\n- Automotive timing components for autonomous vehicles\n\nThe facility is fully operational and already contributing to ECEC's product development pipeline.",
       "image": "/images/news/ecec-rd-center-opening.jpg",
-      "tags": ["R&D", "innovation", "MEMS", "OCXO", "expansion"],
+      "tags": [
+        "R&D",
+        "innovation",
+        "MEMS",
+        "OCXO",
+        "expansion"
+      ],
       "seo": {
         "title": "ECEC Opens New R&D Center | Next-Generation Timing Technology",
         "description": "ECEC opens state-of-the-art R&D center focused on developing advanced timing solutions including MEMS oscillators and precision OCXOs."
@@ -165,9 +204,14 @@
       "readTime": "5 min",
       "featured": false,
       "summary": "Annual sustainability report details ECEC's progress in reducing environmental impact, improving energy efficiency, and promoting responsible manufacturing.",
-      "content": "ECEC has published its 2024 Sustainability Report, detailing the company's progress in environmental stewardship, social responsibility, and corporate governance. The report highlights significant achievements in reducing the environmental impact of manufacturing operations.\n\nKey highlights from the 2024 report include:\n\n**Environmental Achievements:**\n- 25% reduction in energy consumption per unit produced\n- 40% of electricity sourced from renewable sources\n- 30% reduction in water usage through recycling initiatives\n- Zero waste to landfill certification achieved at main facility\n- 95% of packaging materials now recyclable or biodegradable\n\n**Product Sustainability:**\n- Full RoHS and REACH compliance across all product lines\n- Halogen-free materials adopted for new product designs\n- Extended product lifecycle through improved reliability\n- Reduced material usage through miniaturization programs\n\n**Social Responsibility:**\n- Enhanced employee health and safety programs\n- Expanded technical training and career development\n- Community engagement programs in manufacturing locations\n- Supplier sustainability assessments implemented\n\n\"Sustainability is integral to our business strategy,\" said the CEO. \"We are committed to minimizing our environmental footprint while delivering high-quality timing solutions to our customers worldwide.\"\n\nThe full sustainability report is available on ECEC's website, providing detailed information on the company's environmental performance and future sustainability goals.",
+      "content": "ECEC has published its 2024 Sustainability Report, detailing the company's progress in environmental stewardship, social responsibility, and corporate governance. The report highlights significant achievements in reducing the environmental impact of manufacturing operations.\n\nKey highlights from the 2024 report include:\n\nenvironmental achievements: - 25% reduction in energy consumption per unit produced\n- 40% of electricity sourced from renewable sources\n- 30% reduction in water usage through recycling initiatives\n- Zero waste to landfill certification achieved at main facility\n- 95% of packaging materials now recyclable or biodegradable\n\nproduct sustainability: - Full RoHS and REACH compliance across all product lines\n- Halogen-free materials adopted for new product designs\n- Extended product lifecycle through improved reliability\n- Reduced material usage through miniaturization programs\n\nsocial responsibility: - Enhanced employee health and safety programs\n- Expanded technical training and career development\n- Community engagement programs in manufacturing locations\n- Supplier sustainability assessments implemented\n\n\"Sustainability is integral to our business strategy,\" said the CEO. \"We are committed to minimizing our environmental footprint while delivering high-quality timing solutions to our customers worldwide.\"\n\nThe full sustainability report is available on ECEC's website, providing detailed information on the company's environmental performance and future sustainability goals.",
       "image": "/images/news/ecec-sustainability-report-2024.jpg",
-      "tags": ["sustainability", "environment", "ESG", "green manufacturing"],
+      "tags": [
+        "sustainability",
+        "environment",
+        "ESG",
+        "green manufacturing"
+      ],
       "seo": {
         "title": "ECEC 2024 Sustainability Report | Environmental Progress",
         "description": "ECEC releases 2024 sustainability report highlighting progress in reducing environmental impact and promoting responsible manufacturing practices."
@@ -210,7 +254,13 @@
     "title": "ECEC News & Updates | Latest Product Announcements",
     "titleCn": "ECEC 新闻动态 | 最新产品发布",
     "description": "Stay updated with the latest news from ECEC including product launches, company updates, certifications, and industry partnerships.",
-    "keywords": ["ECEC news", "ECEC updates", "crystal resonator news", "oscillator launch", "timing component announcements"],
+    "keywords": [
+      "ECEC news",
+      "ECEC updates",
+      "crystal resonator news",
+      "oscillator launch",
+      "timing component announcements"
+    ],
     "schema": {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

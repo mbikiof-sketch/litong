@@ -277,16 +277,16 @@
           "question": "What is the typical development timeline for a custom motor drive?",
           "answer": "Using ST's motor control solution significantly reduces development time: Hardware design and prototyping typically takes 4-6 weeks using reference design as starting point; Software development takes 6-8 weeks using STM32 Motor Control Workbench for FOC code generation; Testing and validation takes 4-6 weeks including thermal testing and protection verification; Certification (if required) takes 4-8 weeks depending on standards. Total time from concept to production is typically 4-6 months compared to 12-18 months for ground-up development.",
           "decisionGuide": "Contact our FAE team for detailed project planning and timeline estimation for your specific requirements.",
-      "keywords": [
-        "development timeline",
-        "motor drive design",
-        "time to market"
-      ]
-    }
-  ],
-  "title": "Industrial Control Solution 1",
-  "slug": "motor-control-solution",
-  "longDescription": "The Industrial Control Solution 1 from st represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of st components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions."
+          "keywords": [
+            "development timeline",
+            "motor drive design",
+            "time to market"
+          ]
+        }
+      ],
+      "title": "Industrial Control Solution 1",
+      "slug": "motor-control-solution",
+      "longDescription": "The Industrial Control Solution 1 from st is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of st components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions."
     },
     {
       "id": "industrial-automation-solution",
@@ -413,13 +413,22 @@
           "question": "What motor types can this solution control?",
           "answer": "The Industrial Automation Solution supports: AC induction motors (scalar and vector control); Permanent Magnet Synchronous Motors (PMSM); Brushless DC motors (BLDC); Switched reluctance motors. The STM32G474 includes advanced motor control peripherals including HRTIM for precise PWM generation, ADCs for current sensing, and Cordic accelerator for fast trigonometric calculations needed for Field-Oriented Control (FOC).",
           "decisionGuide": "Contact BeiLuo for motor-specific control algorithm recommendations.",
-          "keywords": ["motor control", "PMSM", "BLDC", "FOC"]
+          "keywords": [
+            "motor control",
+            "PMSM",
+            "BLDC",
+            "FOC"
+          ]
         },
         {
           "question": "How do I handle thermal management for the power stage?",
           "answer": "Thermal management guidelines: Calculate total losses (conduction + switching) for each MOSFET; Ensure heatsink thermal resistance keeps junction temperature below 125°C at maximum ambient; Use thermal interface material with good conductivity; Implement temperature monitoring with NTC thermistors; Consider forced air cooling for continuous high-power operation; Use thermal vias in PCB to spread heat. The STW78N65M5 has Rth(j-c) of 0.35°C/W, allowing good thermal performance with proper heatsinking.",
           "decisionGuide": "Perform thermal calculations early in design. BeiLuo can assist with thermal modeling.",
-          "keywords": ["thermal management", "heatsink", "power dissipation"]
+          "keywords": [
+            "thermal management",
+            "heatsink",
+            "power dissipation"
+          ]
         }
       ],
       "name": "Industrial Automation Control Solution"
@@ -560,7 +569,7 @@
             "Wireless Connectivity"
           ]
         },
-        "insight": "IoT sensor nodes represent one of the most challenging design problems in electronics - achieving multi-year battery life while providing useful data and reliable connectivity. Through my experience supporting dozens of IoT deployments, I've learned that success requires optimization at every level. The STM32L4 is exceptional for this application, with its sub-uA standby currents and fast wake-up times. But the real key is in the system architecture - using the sensor hub capability to batch data, implementing smart duty cycling, and leveraging edge processing to reduce transmission overhead. ST's MEMS sensors are ideal for IoT with their built-in FIFOs and autonomous features that can wake the MCU only when significant events occur. For wireless, LoRa is the clear choice for industrial applications requiring long range and penetration through obstacles. The trade-off is lower data rates, but for typical sensor applications reporting every few minutes, it's perfect. One often overlooked aspect is the power supply design - using a high-efficiency LDO rather than a switching regulator can actually improve battery life in these ultra-low-power applications due to the quiescent current savings.",
+        "insight": "IoT sensor nodes is one of the most challenging design problems in electronics - achieving multi-year battery life while providing useful data and reliable connectivity. Through my experience supporting dozens of IoT deployments, I've learned that success requires optimization at every level. The STM32L4 is exceptional for this application, with its sub-uA standby currents and fast wake-up times. But the real key is in the system architecture - using the sensor hub capability to batch data, implementing smart duty cycling, and leveraging edge processing to reduce transmission overhead. ST's MEMS sensors are ideal for IoT with their built-in FIFOs and autonomous features that can wake the MCU only when significant events occur. For wireless, LoRa is the clear choice for industrial applications requiring long range and penetration through obstacles. The trade-off is lower data rates, but for typical sensor applications reporting every few minutes, it's perfect. One often overlooked aspect is the power supply design - using a high-efficiency LDO rather than a switching regulator can improve battery life in these ultra-low-power applications due to the quiescent current savings.",
         "logic": "The IoT sensor node design follows a power-first methodology: First, establish the power budget by calculating energy consumption for each operating mode - sleep, sensor reading, processing, and transmission. The goal is to maximize time in sleep mode while meeting application requirements. Second, select components based on both active and sleep currents - the STM32L4 excels here with 130nA shutdown mode and fast wake-up. Third, implement aggressive duty cycling where the node sleeps between readings, using the RTC for periodic wake-up or sensor interrupts for event-driven wake-up. Fourth, use the sensor FIFO to batch multiple readings, allowing the MCU to stay asleep longer and reducing the overhead of wake-up/sleep transitions. Fifth, implement edge processing to reduce data transmission - for example, only transmit when sensor values change significantly rather than on a fixed schedule. Sixth, optimize the wireless protocol - use confirmed transmission only for critical data, leverage adaptive data rates, and implement efficient encoding. The result is an average current in the single-digit microamps, enabling multi-year battery life.",
         "keyTakeaways": [
           "STM32L4's sub-uA sleep modes and fast wake-up are essential for long battery life",
@@ -661,7 +670,7 @@
       ],
       "title": "Automotive Electronics Solution 2",
       "slug": "iot-sensor-solution",
-      "longDescription": "The Automotive Electronics Solution 2 from st represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of st components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions."
+      "longDescription": "The Automotive Electronics Solution 2 from st is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of st components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions."
     }
   ]
 }

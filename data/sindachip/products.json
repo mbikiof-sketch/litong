@@ -108,7 +108,7 @@
       "faqs": [
         {
           "question": "What is input offset voltage and why is it important?",
-          "answer": "Input offset voltage is the differential DC voltage required between the op-amp's input terminals to make the output zero. It represents the inherent input imbalance of the op-amp and directly affects precision in measurement applications. For high-gain circuits or precision sensor interfaces, low offset voltage is critical to minimize output errors.",
+          "answer": "Input offset voltage is the differential DC voltage required between the op-amp's input terminals to make the output zero. It is the inherent input imbalance of the op-amp and directly affects precision in measurement applications. For high-gain circuits or precision sensor interfaces, low offset voltage is critical to minimize output errors.",
           "decisionGuide": "For precision applications, select op-amps with offset <1mV. For general-purpose circuits, offset of 1-5mV is typically acceptable.",
           "keywords": [
             "input offset voltage",
@@ -253,7 +253,7 @@
           "faqs": [
             {
               "question": "What is the typical input offset voltage of SGM8551?",
-              "answer": "The SGM8551 features a typical input offset voltage of 5μV at 25°C, with a maximum of 20μV over the full temperature range. This ultra-low offset is achieved through chopper-stabilized architecture. This ultra-low offset is achieved through chopper-stabilized architecture that continuously corrects offset errors. In production testing, most units actually measure below 2μV offset, making this op-amp suitable for precision measurement.",
+              "answer": "The SGM8551 features a typical input offset voltage of 5μV at 25°C, with a maximum of 20μV over the full temperature range. This ultra-low offset is achieved through chopper-stabilized architecture. This ultra-low offset is achieved through chopper-stabilized architecture that continuously corrects offset errors. In production testing, most units measure below 2μV offset, making this op-amp suitable for precision measurement.",
               "decisionGuide": "For applications requiring offset below 10μV, SGM8551 is an excellent choice.",
               "keywords": [
                 "SGM8551 offset voltage",
@@ -1201,7 +1201,12 @@
         "Switching Current",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Switch Current",
+        "LED Current",
+        "Channel Current",
+        "Dimming Resolution",
+        "Interface"
       ],
       "applications": [
         "General Lighting",
@@ -1295,7 +1300,12 @@
             "Switching Current": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switch Current": "N/A",
+            "LED Current": "N/A",
+            "Channel Current": "N/A",
+            "Dimming Resolution": "N/A",
+            "Interface": "N/A"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -1442,7 +1452,12 @@
             "LED Voltage": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switch Current": "N/A",
+            "LED Current": "N/A",
+            "Channel Current": "N/A",
+            "Dimming Resolution": "N/A",
+            "Interface": "N/A"
           },
           "features": [
             "Boost topology for high-voltage LED strings",
@@ -1579,18 +1594,22 @@
           ],
           "specifications": {
             "Input Voltage": "2.7V to 24V",
-            "Output Voltage": "Up to 40V",
+            "Output Voltage": "N/A",
             "Switch Current": "1.5A",
             "LED Current": "Up to 1A",
             "Switching Frequency": "1.2MHz",
             "Efficiency": "Up to 92%",
             "Dimming": "PWM up to 20kHz",
             "Package": "QFN-16 (4mm x 4mm)",
-            "Output Voltage": "N/A",
             "Switching Current": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Output Current": "N/A",
+            "LED Voltage": "N/A",
+            "Channel Current": "N/A",
+            "Dimming Resolution": "N/A",
+            "Interface": "N/A"
           },
           "features": [
             "Buck-boost topology for flexible input/output",
@@ -1667,18 +1686,22 @@
           ],
           "specifications": {
             "Input Voltage": "4.5V to 24V",
-            "Output Voltage": "Up to 40V per channel",
+            "Output Voltage": "N/A",
             "Channel Current": "500mA per channel",
             "Dimming Resolution": "12-bit (4096 levels)",
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 95%",
             "Interface": "I2C with 4 addresses",
             "Package": "QFN-20 (4mm x 4mm)",
-            "Output Voltage": "N/A",
             "Switching Current": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Output Current": "N/A",
+            "LED Voltage": "N/A",
+            "Dimming": "N/A",
+            "Switch Current": "N/A",
+            "LED Current": "N/A"
           },
           "features": [
             "3 independent RGB channels",
@@ -1772,7 +1795,9 @@
         "Thermal Shutdown",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Efficiency",
+        "Switching Frequency"
       ],
       "applications": [
         "Battery Chargers",
@@ -1869,7 +1894,9 @@
             "Thermal Shutdown": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Complete linear charger for single-cell Li-ion",
@@ -2020,7 +2047,9 @@
             "Charge Accuracy": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Low 60mΩ on-resistance at 5V",
@@ -2168,7 +2197,12 @@
             "Package": "QFN-16 (3mm x 3mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Output Current": "N/A",
+            "On-Resistance": "N/A",
+            "Slew Rate": "N/A",
+            "Current Limit": "N/A",
+            "Thermal Shutdown": "N/A"
           },
           "features": [
             "High-efficiency switching charger up to 95%",
@@ -2255,7 +2289,14 @@
             "Package": "WLCSP-8 (1.5mm x 1.5mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Battery Voltage": "N/A",
+            "Charge Current": "N/A",
+            "Trickle Charge": "N/A",
+            "Standby Current": "N/A",
+            "Charge Accuracy": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Dual independent channels",

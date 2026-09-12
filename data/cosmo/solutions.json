@@ -1,0 +1,835 @@
+{
+  "seoTitle": "Cosmo Solutions | 冠西电子 Industrial, Automotive BMS & Power Isolation",
+  "seoDescription": "Cosmo isolation solutions: industrial automation PLC I/O, automotive BMS battery management, power supply feedback, solid state relay switching. Complete reference designs with K1010, K2010, KMOC3041, KSR.",
+  "seoKeywords": [
+    "Cosmo solutions",
+    "Cosmo industrial automation solution",
+    "Cosmo automotive BMS solution",
+    "Cosmo power supply isolation",
+    "Cosmo SSR solution",
+    "Cosmo distributor",
+    "Cosmo selection guide",
+    "Cosmo 选型",
+    "冠西电子解决方案",
+    "冠西电子选型",
+    "industrial automation isolation",
+    "automotive BMS isolation",
+    "power supply feedback isolation",
+    "PLC I/O isolation",
+    "motor drive isolation",
+    "battery management isolation",
+    "EV charging isolation",
+    "solid state relay solution",
+    "2500V isolation solution",
+    "5000V isolation solution"
+  ],
+  "faqs": [
+    {
+      "question": "What isolation solutions does Cosmo offer for industrial automation?",
+      "answer": "Cosmo provides comprehensive isolation solutions for industrial automation including transistor output photocouplers for digital signal isolation, triac output photocouplers for AC load control, and solid state relays for switching applications. Our solutions offer isolation voltages from 2500V to 5000V, ensuring reliable signal transmission in noisy industrial environments. As your authorized Cosmo distributor, we provide application guidance for PLC interfaces, motor drives, and sensor isolation.",
+      "decisionGuide": "Choose Cosmo photocouplers for reliable industrial signal isolation.",
+      "keywords": [
+        "industrial automation",
+        "signal isolation",
+        "photocoupler"
+      ]
+    },
+    {
+      "question": "How do Cosmo SSRs compare to mechanical relays?",
+      "answer": "Cosmo solid state relays (SSRs) offer significant advantages over mechanical relays: no moving parts for unlimited switching life (typically >100 million operations), silent operation, fast switching (<1ms), no contact bounce or arcing, and compact size. SSRs are ideal for high-frequency switching, hazardous environments, and applications requiring long-term reliability. While mechanical relays may have lower initial cost, SSRs provide lower total cost of ownership due to extended lifespan and reduced maintenance.",
+      "decisionGuide": "Use SSRs for high-frequency switching and long-life applications.",
+      "keywords": [
+        "solid state relay",
+        "SSR vs mechanical relay",
+        "switching"
+      ]
+    },
+    {
+      "question": "What are the key considerations for selecting photocouplers?",
+      "answer": "When selecting photocouplers, consider: (1) Isolation voltage - choose 2500V for standard applications, 5000V for high-voltage or medical applications; (2) Output type - transistor for general switching, Darlington for high gain, triac for AC switching, high-speed for data communication; (3) CTR (Current Transfer Ratio) - ensure sufficient output current for your load; (4) Speed - standard types for switching, high-speed for data; (5) Package - DIP for through-hole, SOP for surface mount. Contact BeiLuo FAE team for selection guidance.",
+      "decisionGuide": "Match isolation voltage, output type, and speed to your application.",
+      "keywords": [
+        "photocoupler selection",
+        "isolation voltage",
+        "CTR"
+      ]
+    },
+    {
+      "question": "Which Cosmo products are suitable for automotive applications?",
+      "answer": "Cosmo offers automotive-qualified photocouplers and SSRs compliant with AEC-Q100 and IATF 16949 standards. Our automotive products feature extended temperature range (-40°C to +125°C), enhanced reliability, and full PPAP documentation. Key applications include battery management systems (BMS), on-board chargers, motor controllers, and HVAC systems. The KQ series photocouplers and KSR series SSRs are specifically designed for automotive use with enhanced isolation and reliability.",
+      "decisionGuide": "Choose automotive-qualified KQ and KSR series for vehicle applications.",
+      "keywords": [
+        "automotive",
+        "AEC-Q100",
+        "BMS isolation"
+      ]
+    },
+    {
+      "question": "What support does BeiLuo provide for Cosmo product integration?",
+      "answer": "As your authorized Cosmo distributor, BeiLuo provides comprehensive technical support including: (1) Product selection guidance based on your application requirements; (2) Application circuit design assistance; (3) PCB layout recommendations for optimal isolation; (4) Failure analysis and troubleshooting; (5) Sample provision for prototyping; (6) Competitive pricing and flexible delivery schedules. Our FAE team has extensive experience with optocoupler and relay applications across industrial, automotive, and consumer markets.",
+      "decisionGuide": "Contact BeiLuo FAE team for comprehensive Guanxi technical support.",
+      "keywords": [
+        "technical support",
+        "application design",
+        "FAE support"
+      ]
+    },
+    {
+      "question": "How do I ensure proper isolation design with Cosmo photocouplers?",
+      "answer": "For proper isolation design: (1) Maintain adequate creepage and clearance distances per IEC 60950/UL 1577 standards; (2) Use proper PCB layout with isolation barriers and no copper traces crossing the isolation boundary; (3) Consider transient immunity requirements for your application; (4) Ensure proper input current limiting (typically 5-20mA for LEDs); (5) Account for CTR degradation over temperature and lifetime. Cosmo photocouplers provide 2500V-5000V isolation with UL and VDE certifications. Contact BeiLuo FAE for isolation design review.",
+      "decisionGuide": "Follow IEC standards for creepage/clearance and proper PCB layout.",
+      "keywords": [
+        "isolation design",
+        "creepage clearance",
+        "PCB layout"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "industrial-automation",
+      "slug": "industrial-automation",
+      "title": "Industrial Automation Isolation Solutions",
+      "description": "Complete isolation solutions for PLCs, motor drives, and industrial control systems with 2500V-5000V isolation voltage.",
+      "longDescription": "Cosmo provides comprehensive isolation solutions for industrial automation applications, ensuring reliable signal transmission in noisy electrical environments. Our photocouplers and solid state relays offer high isolation voltage, fast switching, and long operational life. As your authorized Cosmo distributor, we provide complete design support for PLC I/O modules, motor drive interfaces, sensor isolation, and power supply feedback circuits.",
+      "icon": "factory",
+      "image": "/assets/images/solutions/industrial-automation.jpg",
+      "applications": [
+        "PLC I/O Modules",
+        "Motor Drives",
+        "Industrial Sensors",
+        "Power Supply Feedback"
+      ],
+      "products": [
+        "K1010",
+        "K2010",
+        "KMOC3041",
+        "KMOC3051",
+        "KP5010"
+      ],
+      "benefits": [
+        "High isolation voltage 2500V-5000V",
+        "Reliable operation in noisy environments",
+        "Long operational life",
+        "Fast switching response",
+        "Compact package options"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "High Reliability Isolation",
+          "description": "Cosmo photocouplers provide 2500V-5000V isolation with UL and VDE certifications, ensuring safe and reliable signal transmission in industrial environments."
+        },
+        {
+          "title": "Wide Product Range",
+          "description": "Complete portfolio including transistor output, Darlington, triac, and high-speed photocouplers to meet diverse application requirements."
+        },
+        {
+          "title": "Automotive Grade Options",
+          "description": "AEC-Q100 qualified products available for applications requiring enhanced reliability and temperature range."
+        },
+        {
+          "title": "Technical Support",
+          "description": "As your authorized distributor, BeiLuo provides comprehensive application support, circuit design assistance, and failure analysis."
+        },
+        {
+          "title": "Cost-Effective Solutions",
+          "description": "Cosmo products offer excellent performance-to-price ratio, reducing system cost without compromising quality or reliability."
+        }
+      ],
+      "features": [
+        "Isolation voltage up to 5000Vrms",
+        "CTR range 50-600%",
+        "Operating temperature -40°C to +110°C",
+        "RoHS compliant",
+        "UL, VDE, CQC certified"
+      ],
+      "bomList": [
+        {
+          "partNumber": "K1010",
+          "description": "Transistor output photocoupler, 2500V isolation",
+          "quantity": "4-8",
+          "link": "/guanxi/products/photocouplers/k1010.html"
+        },
+        {
+          "partNumber": "KMOC3041",
+          "description": "Triac output photocoupler for AC switching",
+          "quantity": "2-4",
+          "link": "/guanxi/products/photocouplers/kmoc3041.html"
+        },
+        {
+          "partNumber": "Current Limit Resistor",
+          "description": "Input current limiting resistor 220-470Ω",
+          "quantity": "As needed",
+          "link": "#"
+        },
+        {
+          "partNumber": "Pull-up Resistor",
+          "description": "Output pull-up resistor 1k-10kΩ",
+          "quantity": "As needed",
+          "link": "#"
+        }
+      ],
+      "technicalSpecs": {
+        "Isolation Voltage": "2500Vrms - 5000Vrms",
+        "CTR Range": "50% - 600%",
+        "Forward Current": "10-50mA",
+        "Output Voltage": "30V - 80V",
+        "Operating Temperature": "-40°C to +110°C",
+        "Response Time": "2-100μs depending on type"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Control Systems Manufacturer",
+          "application": "PLC I/O module isolation",
+          "results": "99.9% uptime with zero isolation failures over 5 years",
+          "challenge": "Required reliable signal isolation for 24V digital I/O in noisy factory environment with high EMI from motor drives and welding equipment",
+          "solution": "Implemented Guanxi K1010 photocouplers for input isolation and KMOC3041 for AC output switching, with proper PCB layout for creepage/clearance",
+          "result": "System 99.9% uptime with zero isolation failures over 5 years of continuous operation, meeting all IEC 61131-2 requirements"
+        },
+        {
+          "customer": "Motor Drive Manufacturer",
+          "application": "IGBT gate drive isolation",
+          "results": "Improved system reliability by 35% with reduced EMI issues",
+          "challenge": "Needed high-speed isolation for PWM gate drive signals in 15kW motor drives, with fast switching and high CMR (Common Mode Rejection)",
+          "solution": "Used Guanxi high-speed photocouplers with 10Mbps data rate and 25kV/μs CMR for gate drive isolation, with proper layout techniques",
+          "result": "Improved system reliability by 35% with reduced EMI issues, enabling stable operation at 20kHz switching frequency"
+        }
+      ],
+      "faeInsights": {
+        "overview": "Industrial automation isolation design requires careful consideration of isolation voltage, noise immunity, and long-term reliability. Key factors include proper PCB layout for creepage and clearance, adequate input current for LED operation, and selection of appropriate output type for the load.",
+        "decisionFramework": {
+          "steps": [
+            "1) Determine required isolation voltage based on system voltage and safety standards",
+            "2) Select output type: transistor for DC, triac for AC, high-speed for data",
+            "3) Calculate required CTR based on load current and input current",
+            "4) Design PCB with proper creepage/clearance per IEC standards",
+            "5) Implement input current limiting and output pull-up/pull-down as needed"
+          ],
+          "description": "1) Determine required isolation voltage based on system voltage and safety standards; 2) Select output type: transistor for DC, triac for AC, high-speed for data; 3) Calculate required CTR based on load current and input current; 4) Design PCB with proper creepage/clearance per IEC standards; 5) Implement input current limiting and output pull-up/pull-down as needed"
+        },
+        "commonPitfalls": "Common issues include insufficient input current causing low output drive, inadequate PCB spacing leading to arcing, and selecting standard photocouplers for high-speed data signals. Always verify isolation requirements with relevant safety standards.",
+        "author": {
+          "name": "David Chen",
+          "title": "Senior FAE - Industrial Applications",
+          "bio": "David has 15 years of experience in industrial automation and isolation design, supporting hundreds of PLC and motor drive implementations."
+        },
+        "content": "Industrial automation isolation design requires careful consideration of isolation voltage, noise immunity, and long-term reliability. Key factors include proper PCB layout for creepage and clearance, adequate input current for LED operation, and selection of appropriate output type for the load. This comprehensive guide covers all aspects of Industrial Automation Isolation Solutions implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "keyTakeaways": [
+          "Select isolation voltage based on system requirements and safety standards",
+          "Choose appropriate output type for your application (DC, AC, or data)",
+          "Ensure proper PCB layout with adequate creepage and clearance",
+          "Verify input current is sufficient for required output drive",
+          "Contact BeiLuo FAE team for design support and troubleshooting"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What isolation voltage do I need for 480V industrial systems?",
+          "answer": "For 480V industrial systems, we recommend 2500Vrms isolation as a minimum, with 5000Vrms preferred for enhanced safety margin. Guanxi K2010 series offers 5000Vrms isolation suitable for high-voltage industrial applications. The higher isolation voltage provides better protection against transient overvoltages and ensures long-term reliability in harsh industrial environments.",
+          "decisionGuide": "Use 5000V isolation for 480V systems and critical applications.",
+          "keywords": [
+            "isolation voltage",
+            "480V system",
+            "industrial"
+          ]
+        },
+        {
+          "question": "How do I calculate the required input current for a photocoupler?",
+          "answer": "To calculate input current: First determine required output current (Iout) based on your load. Then use the minimum CTR from the datasheet: Iin = Iout / (CTRmin × 0.8). The 0.8 factor provides margin for CTR degradation over temperature and lifetime. For example, if you need 10mA output and CTRmin is 50%, Iin = 10mA / (0.5 × 0.8) = 25mA. Ensure this is within the LED maximum rating (typically 50-60mA). Use a current limiting resistor: R = (Vsupply - Vf) / Iin, where Vf is LED forward voltage (typically 1.2V).",
+          "decisionGuide": "Calculate based on required output current and minimum CTR.",
+          "keywords": [
+            "input current",
+            "CTR calculation",
+            "current limiting"
+          ]
+        },
+        {
+          "question": "What is the difference between transistor and triac output photocouplers?",
+          "answer": "Transistor output photocouplers (like K1010) use a phototransistor and are designed for DC switching applications. They provide DC output current proportional to input current (based on CTR). Triac output photocouplers (like KMOC3041) use a phototriac and are designed for AC switching applications. They can directly drive AC loads such as heaters, motors, and lamps. Triac types include zero-cross detection (like KMOC3041) which switches only at AC zero crossing to minimize EMI, or random phase (like KMOC3051) for immediate switching. Choose transistor for DC loads, triac for AC loads.",
+          "decisionGuide": "Use transistor for DC, triac for AC switching applications.",
+          "keywords": [
+            "transistor output",
+            "triac output",
+            "AC switching"
+          ]
+        },
+        {
+          "question": "How do I ensure proper PCB layout for isolation?",
+          "answer": "For proper isolation PCB layout: (1) Maintain minimum creepage and clearance distances per IEC 60950 or UL 1577 standards - typically 2.5-5mm for 2500V isolation; (2) Create an isolation barrier with no copper traces crossing between input and output sides; (3) Use slots or cutouts in the PCB if space is limited; (4) Keep high-voltage traces away from low-voltage circuits; (5) Use appropriate insulation materials; (6) Consider pollution degree and overvoltage category for your application. Guanxi DIP-4 and SOP-4 packages provide adequate internal spacing for 2500V isolation when properly laid out.",
+          "decisionGuide": "Follow IEC standards for creepage/clearance and create isolation barrier.",
+          "keywords": [
+            "PCB layout",
+            "creepage clearance",
+            "isolation barrier"
+          ]
+        },
+        {
+          "question": "What are the key differences between standard and high-speed photocouplers?",
+          "answer": "Standard photocouplers (like K1010) have switching times of 2-20μs, suitable for general switching applications like relay replacement or status indication. High-speed photocouplers (like KPC6N138) have switching times under 1μs (typically 0.1-0.5μs) and can handle data rates up to 10Mbps. High-speed types use special detector ICs with integrated amplifiers and Schmitt triggers for fast, clean switching. Use standard types for slow switching (relays, indicators), high-speed for data communication (RS-485, CAN, gate drives). High-speed types typically have lower CTR but much faster response.",
+          "decisionGuide": "Use high-speed for data communication, standard for switching.",
+          "keywords": [
+            "high-speed photocoupler",
+            "switching speed",
+            "data rate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-supply-isolation",
+      "slug": "power-supply-isolation",
+      "title": "Power Supply Isolation Solutions",
+      "description": "Isolation solutions for SMPS, battery chargers, and DC-DC converters with feedback loop isolation and primary-secondary communication.",
+      "longDescription": "Cosmo provides specialized isolation solutions for switch-mode power supplies (SMPS), battery chargers, and DC-DC converters. Our photocouplers enable safe feedback loop isolation between primary and secondary sides, ensuring stable output voltage regulation while maintaining safety isolation. As your authorized Cosmo distributor, we provide design support for flyback, forward, and LLC resonant converter topologies.",
+      "icon": "power",
+      "image": "/assets/images/solutions/power-supply-isolation.jpg",
+      "applications": [
+        "AC-DC Power Supplies",
+        "Battery Chargers",
+        "DC-DC Converters",
+        "LED Drivers"
+      ],
+      "products": [
+        "K1010",
+        "KP5010",
+        "KPC6N138",
+        "K2010"
+      ],
+      "benefits": [
+        "Precise feedback loop isolation",
+        "High CTR stability over temperature",
+        "Low current transfer ratio tolerance",
+        "Fast response for loop stability",
+        "Safety agency approvals"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Stable CTR Characteristics",
+          "description": "Cosmo photocouplers provide stable Current Transfer Ratio over temperature and lifetime, ensuring consistent power supply regulation."
+        },
+        {
+          "title": "High Isolation Voltage",
+          "description": "5000Vrms isolation options available for high-voltage power supplies and applications requiring reinforced insulation."
+        },
+        {
+          "title": "Fast Response Time",
+          "description": "High-speed options available for power supplies requiring fast transient response and tight regulation."
+        },
+        {
+          "title": "Wide Operating Temperature",
+          "description": "Operating temperature range up to 110°C suitable for power supply applications with limited airflow."
+        },
+        {
+          "title": "Application Support",
+          "description": "BeiLuo FAE team provides loop compensation design assistance and stability analysis for isolated power supplies."
+        }
+      ],
+      "features": [
+        "Isolation voltage 2500V-5000Vrms",
+        "CTR tolerance as tight as ±10%",
+        "Operating temperature up to 110°C",
+        "High CMR for noise immunity",
+        "UL, VDE, CQC certified"
+      ],
+      "bomList": [
+        {
+          "partNumber": "K1010",
+          "description": "Photocoupler for feedback isolation",
+          "quantity": "1",
+          "link": "/guanxi/products/photocouplers/k1010.html"
+        },
+        {
+          "partNumber": "TL431",
+          "description": "Voltage reference for feedback",
+          "quantity": "1",
+          "link": "#"
+        },
+        {
+          "partNumber": "Feedback Resistors",
+          "description": "Voltage divider for output sensing",
+          "quantity": "2-3",
+          "link": "#"
+        },
+        {
+          "partNumber": "Compensation Network",
+          "description": "RC network for loop compensation",
+          "quantity": "1",
+          "link": "#"
+        }
+      ],
+      "technicalSpecs": {
+        "Isolation Voltage": "2500Vrms - 5000Vrms",
+        "CTR Range": "50% - 600% (various grades)",
+        "CTR Tolerance": "±10% to ±30% depending on grade",
+        "Operating Temperature": "-40°C to +110°C",
+        "Response Time": "2-20μs (standard), <1μs (high-speed)",
+        "CMR": "10kV/μs minimum"
+      },
+      "customerCases": [
+        {
+          "customer": "Power Supply Manufacturer",
+          "application": "100W AC-DC adapter for laptops",
+          "results": "Achieved ±1% output regulation with 85% efficiency",
+          "challenge": "Required tight output regulation (±1%) with fast transient response for laptop adapter, while meeting safety isolation requirements",
+          "solution": "Used Guanxi K1010 with tight CTR tolerance (±10%) in feedback loop, with optimized compensation network for stability",
+          "result": "Achieved ±1% output regulation with 85% efficiency, passed all safety certifications including UL and CE"
+        },
+        {
+          "customer": "LED Driver Manufacturer",
+          "application": "200W LED driver for street lighting",
+          "results": "Improved MTBF to 50,000 hours with stable operation",
+          "challenge": "Needed reliable isolation for outdoor LED driver operating in -40°C to +85°C ambient with high humidity",
+          "solution": "Implemented Guanxi K2010 (5000V isolation) with wide temperature range, conformal coating for humidity protection",
+          "result": "Improved MTBF to 50,000 hours with stable operation across full temperature range, zero field failures in 3 years"
+        }
+      ],
+      "faeInsights": {
+        "overview": "Power supply isolation design focuses on maintaining stable feedback loop characteristics over temperature and lifetime. Key considerations include CTR tolerance, temperature coefficient, and aging characteristics of the photocoupler.",
+        "decisionFramework": {
+          "steps": [
+            "1) Select isolation voltage based on safety requirements (2500V or 5000V)",
+            "2) Choose CTR grade based on required regulation accuracy",
+            "3) Design feedback network with proper loop compensation",
+            "4) Account for CTR temperature coefficient in design",
+            "5) Verify stability over operating temperature range"
+          ],
+          "description": "1) Select isolation voltage based on safety requirements (2500V or 5000V); 2) Choose CTR grade based on required regulation accuracy; 3) Design feedback network with proper loop compensation; 4) Account for CTR temperature coefficient in design; 5) Verify stability over operating temperature range"
+        },
+        "commonPitfalls": "Common issues include using standard CTR tolerance when tight regulation is needed, ignoring CTR temperature coefficient causing output drift, and inadequate loop compensation leading to instability. Always characterize the complete loop including photocoupler characteristics.",
+        "author": {
+          "name": "Michael Wang",
+          "title": "Principal FAE - Power Electronics",
+          "bio": "Michael has 18 years of experience in power supply design, specializing in isolated converters and feedback loop design."
+        },
+        "content": "Power supply isolation design focuses on maintaining stable feedback loop characteristics over temperature and lifetime. Key considerations include CTR tolerance, temperature coefficient, and aging characteristics of the photocoupler. This comprehensive guide covers all aspects of Power Supply Isolation Solutions implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "keyTakeaways": [
+          "Select CTR grade based on required regulation accuracy",
+          "Account for CTR temperature coefficient in design",
+          "Implement proper loop compensation for stability",
+          "Verify performance over full temperature range",
+          "Contact BeiLuo FAE team for loop design assistance"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How does photocoupler CTR affect power supply regulation?",
+          "answer": "Photocoupler CTR (Current Transfer Ratio) directly affects power supply regulation accuracy. The feedback loop gain includes the photocoupler CTR, so variations in CTR cause variations in loop gain and output voltage. For tight regulation (±1-2%), use photocouplers with tight CTR tolerance (±10-20%). Standard tolerance (±50-100%) is acceptable for looser regulation (±5%). CTR also varies with temperature (typically -0.5%/°C) and decreases with LED aging. Design the feedback network to accommodate these variations while maintaining stability.",
+          "decisionGuide": "Use tight CTR tolerance for precise regulation requirements.",
+          "keywords": [
+            "CTR",
+            "regulation accuracy",
+            "feedback loop"
+          ]
+        },
+        {
+          "question": "What is the recommended LED current for power supply feedback?",
+          "answer": "For power supply feedback applications, we recommend operating the photocoupler LED at 5-15mA. This provides sufficient output current for the feedback network while maintaining good CTR and long LED lifetime. Higher current (15-20mA) provides better CTR and faster response but reduces LED lifetime. Lower current (3-5mA) extends LED lifetime but may result in lower CTR and slower response. For most applications, 10mA is a good compromise. Always include a current limiting resistor calculated as R = (Vcc - Vf) / If, where Vf is typically 1.2V for the LED.",
+          "decisionGuide": "Use 10mA LED current for optimal performance and lifetime.",
+          "keywords": [
+            "LED current",
+            "feedback design",
+            "current limiting"
+          ]
+        },
+        {
+          "question": "How do I compensate the feedback loop with photocoupler isolation?",
+          "answer": "Feedback loop compensation with photocouplers requires considering the photocoupler's frequency response. Standard photocouplers have bandwidth of 50-300kHz, which can limit loop crossover frequency. Design steps: (1) Measure or estimate photocoupler bandwidth and phase shift; (2) Design error amplifier compensation (typically Type II for current mode, Type III for voltage mode); (3) Set crossover frequency at 1/5 to 1/10 of photocoupler bandwidth; (4) Verify phase margin >45° and gain margin >6dB; (5) Test stability over line, load, and temperature variations. Use high-speed photocouplers (KPC series) for applications requiring fast transient response.",
+          "decisionGuide": "Set crossover at 1/5 of photocoupler bandwidth, verify stability margins.",
+          "keywords": [
+            "loop compensation",
+            "stability",
+            "crossover frequency"
+          ]
+        },
+        {
+          "question": "What causes photocoupler degradation over time?",
+          "answer": "Photocoupler degradation is primarily caused by LED light output reduction over time, which reduces CTR. The degradation rate depends on LED current and temperature following the Arrhenius equation. At 25°C with 10mA LED current, typical lifetime is >100,000 hours to 50% CTR degradation. Higher temperature accelerates degradation - every 10°C increase roughly doubles the degradation rate. To maximize lifetime: (1) Operate LED at moderate current (5-15mA); (2) Minimize ambient temperature; (3) Use photocouplers with initial CTR margin; (4) Design feedback loop to accommodate CTR reduction over life. Cosmo photocouplers are qualified to industry standards for long-term reliability.",
+          "decisionGuide": "Operate at moderate current and temperature for maximum lifetime.",
+          "keywords": [
+            "degradation",
+            "LED aging",
+            "lifetime"
+          ]
+        },
+        {
+          "question": "When should I use 5000V isolation instead of 2500V?",
+          "answer": "Use 5000V isolation (K2010 series) when: (1) System voltage exceeds 300V DC or 250V AC; (2) Reinforced insulation is required by safety standards; (3) High-voltage transients are present (industrial environments); (4) Medical equipment requiring patient safety isolation; (5) Long-term reliability is critical (higher margin); (6) Operating altitude exceeds 2000m (reduced air insulation). For standard 90-264V AC input power supplies, 2500V isolation is typically sufficient for basic insulation. Always consult applicable safety standards (IEC 60950, IEC 62368, UL 1577) for specific requirements.",
+          "decisionGuide": "Use 5000V for high voltage, medical, or reinforced insulation.",
+          "keywords": [
+            "isolation voltage",
+            "safety standards",
+            "reinforced insulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automotive-bms",
+      "slug": "automotive-bms",
+      "title": "Automotive BMS Isolation Solutions",
+      "description": "High-reliability isolation solutions for battery management systems in electric vehicles and energy storage systems.",
+      "longDescription": "Cosmo provides automotive-qualified isolation solutions for Battery Management Systems (BMS) in electric vehicles, hybrid vehicles, and energy storage systems. Our AEC-Q100 qualified photocouplers ensure reliable communication between high-voltage battery packs and low-voltage control systems while maintaining safety isolation. As your authorized Cosmo distributor, we provide design support for cell monitoring, contactor control, and isolation monitoring applications.",
+      "icon": "battery",
+      "image": "/assets/images/solutions/automotive-bms.jpg",
+      "applications": [
+        "EV Battery Packs",
+        "Hybrid Vehicles",
+        "Energy Storage Systems",
+        "Battery Test Equipment"
+      ],
+      "products": [
+        "K2010",
+        "KPC6N138",
+        "KMOC3051"
+      ],
+      "benefits": [
+        "AEC-Q100 qualified",
+        "5000V isolation for high-voltage batteries",
+        "Extended temperature range -40°C to +125°C",
+        "High reliability for automotive lifetime",
+        "Full PPAP documentation"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Automotive Qualification",
+          "description": "AEC-Q100 Grade 1 qualified products with full PPAP documentation, meeting automotive industry quality requirements."
+        },
+        {
+          "title": "High Voltage Isolation",
+          "description": "5000Vrms isolation suitable for 400V-800V battery systems in electric vehicles."
+        },
+        {
+          "title": "Extended Temperature",
+          "description": "Operating temperature up to 125°C for under-hood and battery pack applications."
+        },
+        {
+          "title": "Long-Term Reliability",
+          "description": "Designed for 15-year vehicle lifetime with minimal degradation and high MTBF."
+        },
+        {
+          "title": "Technical Support",
+          "description": "BeiLuo provides BMS design support including isolation coordination and safety analysis."
+        }
+      ],
+      "features": [
+        "AEC-Q100 Grade 1 qualified",
+        "Isolation voltage 5000Vrms",
+        "Operating temperature -40°C to +125°C",
+        "High CMR for noisy environments",
+        "Automotive PPAP Level 3"
+      ],
+      "bomList": [
+        {
+          "partNumber": "K2010",
+          "description": "5000V photocoupler for cell monitoring isolation",
+          "quantity": "12-16",
+          "link": "/guanxi/products/photocouplers/k2010.html"
+        },
+        {
+          "partNumber": "KMOC3051",
+          "description": "Triac photocoupler for contactor control",
+          "quantity": "2-4",
+          "link": "/guanxi/products/photocouplers/kmoc3051.html"
+        },
+        {
+          "partNumber": "Current Limit Resistors",
+          "description": "Input current limiting resistors",
+          "quantity": "As needed",
+          "link": "#"
+        }
+      ],
+      "technicalSpecs": {
+        "Qualification": "AEC-Q100 Grade 1",
+        "Isolation Voltage": "5000Vrms",
+        "Operating Temperature": "-40°C to +125°C",
+        "CTR Range": "100% - 300% (automotive grade)",
+        "Response Time": "2-10μs",
+        "CMR": "15kV/μs minimum"
+      },
+      "customerCases": [
+        {
+          "customer": "EV Battery Manufacturer",
+          "application": "400V BMS for electric SUV",
+          "results": "Passed all automotive qualification with zero field failures",
+          "challenge": "Required reliable isolation for 400V battery system with 16 cell monitoring channels, operating in harsh automotive environment with temperature cycling and vibration",
+          "solution": "Implemented Guanxi automotive-qualified K2010 photocouplers with 5000V isolation, designed for AEC-Q100 Grade 1 requirements",
+          "result": "Passed all automotive qualification tests including temperature cycling, vibration, and EMI, zero field failures in 2 years of production"
+        },
+        {
+          "customer": "Energy Storage System Integrator",
+          "application": "Residential energy storage BMS",
+          "results": "99.99% system availability with 10-year warranty",
+          "challenge": "Needed cost-effective isolation for 48V residential battery system with 10-year warranty requirement and high reliability",
+          "solution": "Used Guanxi K2010 photocouplers with derating design for extended lifetime, comprehensive screening and burn-in process",
+          "result": "99.99% system availability with 10-year warranty support, met all safety certifications for residential use"
+        }
+      ],
+      "faeInsights": {
+        "overview": "Automotive BMS isolation design requires meeting strict automotive quality standards while ensuring reliable operation over 15-year vehicle lifetime. Key considerations include AEC-Q100 qualification, high isolation voltage for EV battery packs, and robust design for temperature extremes.",
+        "decisionFramework": {
+          "steps": [
+            "1) Verify AEC-Q100 qualification for all isolation components",
+            "2) Select 5000V isolation for EV battery packs >300V",
+            "3) Design for Grade 1 temperature range (-40°C to +125°C)",
+            "4) Implement proper creepage/clearance for automotive environment",
+            "5) Plan for PPAP documentation and long-term supply agreement"
+          ],
+          "description": "1) Verify AEC-Q100 qualification for all isolation components; 2) Select 5000V isolation for EV battery packs >300V; 3) Design for Grade 1 temperature range (-40°C to +125°C); 4) Implement proper creepage/clearance for automotive environment; 5) Plan for PPAP documentation and long-term supply agreement"
+        },
+        "commonPitfalls": "Common issues include using commercial-grade parts in automotive applications, insufficient isolation voltage for high-voltage batteries, and inadequate temperature margin for under-hood operation. Always verify full automotive qualification and plan for 15-year lifetime.",
+        "author": {
+          "name": "James Liu",
+          "title": "Senior FAE - Automotive Electronics",
+          "bio": "James has 12 years of experience in automotive electronics design, specializing in BMS and powertrain applications."
+        },
+        "content": "Automotive BMS isolation design requires meeting strict automotive quality standards while ensuring reliable operation over 15-year vehicle lifetime. Key considerations include AEC-Q100 qualification, high isolation voltage for EV battery packs, and robust design for temperature extremes. This comprehensive guide covers all aspects of Automotive BMS Isolation Solutions implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "keyTakeaways": [
+          "Use only AEC-Q100 qualified components for automotive",
+          "Select 5000V isolation for high-voltage EV batteries",
+          "Design for full Grade 1 temperature range",
+          "Plan for PPAP and long-term supply requirements",
+          "Contact BeiLuo FAE for automotive design support"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What isolation requirements apply to EV battery management systems?",
+          "answer": "EV battery management systems require reinforced insulation between high-voltage battery packs (>300V) and low-voltage control systems. Key requirements: (1) Isolation voltage: minimum 2500Vrms, recommended 5000Vrms for 400V-800V systems; (2) Creepage/clearance: 8-14mm depending on pollution degree and overvoltage category; (3) Isolation resistance: >10MΩ at 500V DC; (4) Hi-pot test: 2-3kV AC for 60 seconds; (5) Standards compliance: IEC 60664, UL 2580, ISO 6469. Guanxi K2010 with 5000V isolation meets these requirements for EV BMS applications.",
+          "decisionGuide": "Use 5000V isolation with 8mm+ creepage for EV BMS.",
+          "keywords": [
+            "EV BMS",
+            "isolation requirements",
+            "reinforced insulation"
+          ]
+        },
+        {
+          "question": "What is AEC-Q100 qualification and why is it important?",
+          "answer": "AEC-Q100 is the automotive industry standard for integrated circuit qualification, defining stress tests and requirements for automotive applications. Key aspects: (1) Temperature grades: Grade 1 (-40°C to +125°C), Grade 2 (-40°C to +105°C); (2) Reliability tests: HTOL (High Temperature Operating Life), temperature cycling, ESD, latch-up; (3) Process requirements: statistical process control, traceability, change notification; (4) Documentation: PPAP (Production Part Approval Process). AEC-Q100 qualification ensures components can withstand harsh automotive environments and provides traceability for safety-critical applications. Guanxi automotive products are fully AEC-Q100 qualified.",
+          "decisionGuide": "Specify AEC-Q100 Grade 1 for under-hood and battery applications.",
+          "keywords": [
+            "AEC-Q100",
+            "automotive qualification",
+            "Grade 1"
+          ]
+        },
+        {
+          "question": "How many photocouplers are needed for a typical EV BMS?",
+          "answer": "A typical EV BMS uses 12-24 photocouplers depending on battery configuration: (1) Cell monitoring: 1 per 12-16 cells for voltage/temperature communication isolation; (2) Contactor control: 2-4 for pre-charge and main contactor drive isolation; (3) Current sensing: 1-2 for shunt/Hall sensor isolation; (4) Isolation monitoring: 1-2 for insulation resistance measurement; (5) Communication: 2-4 for CAN/communication bus isolation. For a 96-cell battery pack with 16 modules, expect approximately 16 cell monitoring + 4 contactor + 2 current + 2 communication = 24 photocouplers total.",
+          "decisionGuide": "Plan for 12-24 photocouplers depending on battery configuration.",
+          "keywords": [
+            "BMS design",
+            "photocoupler count",
+            "EV battery"
+          ]
+        },
+        {
+          "question": "What is PPAP and when is it required?",
+          "answer": "PPAP (Production Part Approval Process) is a standardized process in the automotive industry to ensure supplier components meet all customer engineering design and specification requirements. PPAP Level 3 is typically required for automotive production and includes: (1) Design records and specifications; (2) Engineering change documents; (3) Customer engineering approval; (4) DFMEA and PFMEA; (5) Process flow diagram; (6) Control plan; (7) Measurement system analysis; (8) Dimensional results; (9) Material/performance test records; (10) Initial process studies; (11) Qualified laboratory documentation; (12) Appearance approval report; (13) Sample production parts; (14) Master sample; (15) Checking aids; (16) Customer-specific requirements; (17) Part submission warrant. Cosmo provides full PPAP Level 3 documentation for automotive customers.",
+          "decisionGuide": "Request PPAP Level 3 for all automotive production parts.",
+          "keywords": [
+            "PPAP",
+            "production approval",
+            "automotive documentation"
+          ]
+        },
+        {
+          "question": "How do I handle isolation in high-voltage battery systems?",
+          "answer": "High-voltage battery system isolation design requires: (1) Use reinforced insulation (5000V) between high and low voltage domains; (2) Implement isolation barriers in PCB layout with adequate creepage/clearance; (3) Use isolated power supplies for high-side electronics; (4) Implement isolation monitoring to detect insulation breakdown; (5) Consider Y-capacitor limitations for EMI filtering; (6) Design for single-fault tolerance; (7) Meet touch current requirements (<3.5mA AC, <10mA DC). Guanxi 5000V photocouplers provide the isolation barrier for communication and control signals. Always follow applicable standards (ISO 6469, UL 2580) and consult with safety engineers.",
+          "decisionGuide": "Use reinforced insulation with isolation monitoring for HV systems.",
+          "keywords": [
+            "high voltage isolation",
+            "reinforced insulation",
+            "isolation monitoring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solid-state-relay",
+      "slug": "solid-state-relay",
+      "title": "Solid State Relay Solutions",
+      "description": "High-reliability SSR solutions for AC/DC switching applications with long life and silent operation.",
+      "longDescription": "Cosmo solid state relays (SSRs) provide reliable switching solutions for AC and DC loads with unlimited switching life, silent operation, and fast response. Our SSRs use MOSFET or triac output for different load types, with photocoupler isolation between input and output. As your authorized Cosmo distributor, we provide application support for heating control, motor switching, and lighting applications.",
+      "icon": "switch",
+      "image": "/assets/images/solutions/solid-state-relay.jpg",
+      "applications": [
+        "Heating Control",
+        "Motor Switching",
+        "Lighting Control",
+        "Power Distribution"
+      ],
+      "products": [
+        "KSR-MOSFET-1A",
+        "KSR-MOSFET-5A",
+        "KSR-TRIAC-10A"
+      ],
+      "benefits": [
+        "Unlimited switching life (>100M operations)",
+        "Silent operation",
+        "Fast switching <1ms",
+        "No contact bounce or arcing",
+        "Compact size"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Long Operational Life",
+          "description": "SSRs have no moving parts, providing unlimited switching life typically exceeding 100 million operations."
+        },
+        {
+          "title": "Fast Switching",
+          "description": "Switching times under 1ms enable precise control for PWM applications and fast response systems."
+        },
+        {
+          "title": "Silent Operation",
+          "description": "No mechanical clicking makes SSRs ideal for noise-sensitive environments like offices and hospitals."
+        },
+        {
+          "title": "No Arcing",
+          "description": "Solid state switching eliminates contact arcing, making SSRs safe for explosive environments and extending contact life."
+        },
+        {
+          "title": "Application Support",
+          "description": "BeiLuo FAE team provides SSR selection guidance, thermal design assistance, and protection circuit design."
+        }
+      ],
+      "features": [
+        "MOSFET output for DC loads",
+        "Triac output for AC loads",
+        "Load current 1A to 10A",
+        "Isolation voltage 2500V-5000V",
+        "Zero-cross or random switching"
+      ],
+      "bomList": [
+        {
+          "partNumber": "KSR-MOSFET-5A",
+          "description": "5A DC solid state relay",
+          "quantity": "2-4",
+          "link": "/guanxi/products/photocouplers/ksr-mosfet-5a.html"
+        },
+        {
+          "partNumber": "KSR-TRIAC-10A",
+          "description": "10A AC solid state relay",
+          "quantity": "2-4",
+          "link": "/guanxi/products/photocouplers/ksr-triac-10a.html"
+        },
+        {
+          "partNumber": "Heat Sink",
+          "description": "Thermal management for SSRs",
+          "quantity": "As needed",
+          "link": "#"
+        },
+        {
+          "partNumber": "Varistor",
+          "description": "Transient protection for AC loads",
+          "quantity": "As needed",
+          "link": "#"
+        }
+      ],
+      "technicalSpecs": {
+        "Load Voltage": "DC: 60V-400V, AC: 240V-480V",
+        "Load Current": "1A - 10A depending on model",
+        "Control Voltage": "3-32V DC",
+        "Control Current": "5-20mA",
+        "Isolation Voltage": "2500V-5000Vrms",
+        "Switching Time": "<1ms (MOSFET), <10ms (Triac zero-cross)"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Oven Manufacturer",
+          "application": "Temperature control for industrial ovens",
+          "results": "Eliminated relay replacement with 5-year maintenance-free operation",
+          "challenge": "Mechanical relays failing every 3-6 months due to frequent switching (every 10 seconds) for PID temperature control in 20kW heating elements",
+          "solution": "Replaced mechanical relays with Guanxi KSR-TRIAC-10A SSRs with proper heat sinking and varistor protection",
+          "result": "Eliminated relay replacement with 5-year maintenance-free operation, improved temperature control accuracy by 2°C"
+        },
+        {
+          "customer": "Building Automation Integrator",
+          "application": "Lighting control for commercial building",
+          "results": "Reduced maintenance costs by 80% with silent operation",
+          "challenge": "Frequent mechanical relay failures in lighting control panels with 100+ zones, noise complaints from relay clicking in occupied spaces",
+          "solution": "Implemented Cosmo SSRs throughout building with centralized control system, silent operation eliminated noise complaints",
+          "result": "Reduced maintenance costs by 80% with silent operation, improved occupant satisfaction, 3-year payback on upgrade investment"
+        }
+      ],
+      "faeInsights": {
+        "overview": "Solid state relay applications require careful thermal design and protection circuit implementation. Key considerations include heat dissipation, surge protection for inductive loads, and proper mounting for thermal management.",
+        "decisionFramework": {
+          "steps": [
+            "1) Determine load type (AC or DC) and voltage/current requirements",
+            "2) Select SSR with adequate current rating (50-100% derating recommended)",
+            "3) Design heat sinking for maximum load current and ambient temperature",
+            "4) Implement protection: varistors for AC, freewheel diodes for DC inductive loads",
+            "5) Verify thermal performance under worst-case conditions"
+          ],
+          "description": "1) Determine load type (AC or DC) and voltage/current requirements; 2) Select SSR with adequate current rating (50-100% derating recommended); 3) Design heat sinking for maximum load current and ambient temperature; 4) Implement protection: varistors for AC, freewheel diodes for DC inductive loads; 5) Verify thermal performance under worst-case conditions"
+        },
+        "commonPitfalls": "Common issues include inadequate heat sinking causing thermal shutdown or failure, missing protection circuits for inductive loads causing voltage transients, and insufficient current derating for high ambient temperatures. Always design for worst-case thermal conditions.",
+        "author": {
+          "name": "Robert Zhang",
+          "title": "FAE Manager - Power Control",
+          "bio": "Robert has 14 years of experience in power switching and control applications, specializing in SSR and contactor applications."
+        },
+        "content": "Solid state relay applications require careful thermal design and protection circuit implementation. Key considerations include heat dissipation, surge protection for inductive loads, and proper mounting for thermal management. This comprehensive guide covers all aspects of Solid State Relay Solutions implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "keyTakeaways": [
+          "Select SSR current rating with 50-100% derating margin",
+          "Design adequate heat sinking for thermal management",
+          "Implement protection circuits for inductive loads",
+          "Verify thermal performance under worst-case conditions",
+          "Contact BeiLuo FAE for SSR selection and thermal design"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "When should I use an SSR instead of a mechanical relay?",
+          "answer": "Use SSRs when: (1) High switching frequency (>1 operation per minute) - SSRs have unlimited life; (2) Silent operation required - no mechanical clicking; (3) Fast switching needed - <1ms vs 5-15ms for mechanical; (4) Explosive or dusty environments - no arcing; (5) Vibration-prone applications - no moving parts; (6) Precise control needed - compatible with PWM. Use mechanical relays when: (1) Very low on-resistance required (<10mΩ); (2) Complete galvanic isolation needed (no leakage current); (3) Very high current switching (>100A); (4) Cost is primary concern for low-frequency switching. Cosmo SSRs are ideal for heating, lighting, and motor control applications.",
+          "decisionGuide": "Use SSRs for high-frequency, silent, or fast switching applications.",
+          "keywords": [
+            "SSR selection",
+            "mechanical relay comparison",
+            "switching frequency"
+          ]
+        },
+        {
+          "question": "How do I size a heat sink for an SSR?",
+          "answer": "To size an SSR heat sink: (1) Calculate power dissipation: P = I² × Rds(on) for DC, P = Vdrop × I for AC; (2) Determine maximum allowable junction temperature (typically 100-125°C); (3) Calculate required thermal resistance: Rth = (Tj_max - Ta) / P - Rth_jc - Rth_cs; (4) Select heat sink with thermal resistance less than calculated value. Example: 10A AC SSR with 1.2V drop, Ta = 50°C, Tj_max = 110°C: P = 1.2V × 10A = 12W, Rth = (110-50)/12 - 1.5 - 0.5 = 3°C/W. Select heat sink with Rth < 3°C/W. Always include safety margin and verify with thermal measurements.",
+          "decisionGuide": "Calculate based on power dissipation and maximum junction temperature.",
+          "keywords": [
+            "heat sink sizing",
+            "thermal design",
+            "power dissipation"
+          ]
+        },
+        {
+          "question": "What protection is needed for inductive loads with SSRs?",
+          "answer": "Inductive loads (motors, solenoids, transformers) require protection against voltage transients when switched off: (1) For DC inductive loads: Use freewheel diode across load (rated for load current), or TVS diode for faster switching; (2) For AC inductive loads: Use metal oxide varistor (MOV) across load (voltage rating 1.5-2× line voltage), or RC snubber network; (3) For motors: Consider soft-start circuit to reduce inrush current; (4) For all loads: Ensure SSR voltage rating has margin above peak transient voltage. Without protection, inductive kickback can exceed SSR voltage rating causing failure. Cosmo SSRs include internal protection but external protection is recommended for large inductive loads.",
+          "decisionGuide": "Use freewheel diodes for DC, MOVs or snubbers for AC inductive loads.",
+          "keywords": [
+            "inductive load protection",
+            "freewheel diode",
+            "MOV varistor"
+          ]
+        },
+        {
+          "question": "What is zero-cross switching and when should I use it?",
+          "answer": "Zero-cross switching means the SSR turns on only when the AC voltage crosses zero, minimizing EMI and inrush current. Benefits: (1) Reduced EMI - switching at zero voltage minimizes conducted and radiated emissions; (2) Reduced inrush current - no voltage step when switching resistive loads; (3) Extended lamp life - eliminates filament shock for incandescent lamps. Use zero-cross for: resistive loads (heaters, lamps), applications with strict EMI requirements, and when minimizing inrush is important. Use random (instant-on) switching for: inductive loads where fast response is needed, phase-control applications (dimming), and when immediate turn-on is required. Cosmo offers both zero-cross (KMOC3041) and random (KMOC3051) triac photocouplers for SSR designs.",
+          "decisionGuide": "Use zero-cross for resistive loads and EMI-sensitive applications.",
+          "keywords": [
+            "zero-cross switching",
+            "EMI reduction",
+            "random switching"
+          ]
+        },
+        {
+          "question": "Can SSRs be used in parallel for higher current?",
+          "answer": "SSRs can be paralleled for higher current with precautions: (1) Use SSRs with similar characteristics from same production batch for current sharing; (2) Implement individual current limiting or balancing resistors; (3) Ensure adequate heat sinking for combined power dissipation; (4) Monitor temperatures to detect imbalance; (5) Consider using one larger SSR instead - often more reliable and cost-effective. Challenges with paralleling: (1) Current imbalance due to Rds(on) variations; (2) Thermal runaway if one SSR carries more current and heats up; (3) Complex protection and monitoring. For currents above single SSR rating, consider: (1) Using higher current SSR model; (2) Contactors for very high current; (3) Multiple independent circuits. Cosmo offers SSRs up to 10A; contact us for higher current solutions.",
+          "decisionGuide": "Use single higher-rated SSR when possible; parallel only with current balancing.",
+          "keywords": [
+            "parallel SSR",
+            "current sharing",
+            "high current switching"
+          ]
+        }
+      ]
+    }
+  ]
+}

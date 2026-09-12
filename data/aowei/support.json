@@ -97,7 +97,7 @@
       "title": "Supercapacitor Basics and Selection Guide",
       "category": "Technical Guide",
       "shortDescription": "Comprehensive introduction to supercapacitor technology, operating principles, and selection criteria for various applications.",
-      "content": "## Introduction to Supercapacitors\n\nSupercapacitors, also known as ultracapacitors or electric double-layer capacitors (EDLC), are energy storage devices that bridge the gap between traditional capacitors and batteries. They offer unique advantages including extremely high power density, rapid charge/discharge capability, and exceptional cycle life.\n\n## How Supercapacitors Work\n\nSupercapacitors store energy through the electrostatic separation of charges at the interface between an electrode and an electrolyte. Unlike batteries that store energy through chemical reactions, supercapacitors store energy physically.\n\n## Key Parameters\n\n### Capacitance (Farads)\nCapacitance determines the amount of energy stored. The energy stored is calculated using: E = 1/2 * C * V^2\n\n### Equivalent Series Resistance (ESR)\nESR represents the internal resistance and affects power delivery capability and efficiency.\n\n### Voltage Rating\nStandard EDLC cells are rated at 2.7V. Higher voltages require series connection with appropriate balancing.\n\n## Conclusion\n\nSupercapacitors offer unique advantages for applications requiring high power, rapid response, and long cycle life. Contact our FAE team for assistance with your specific application.",
+      "content": "## Introduction to Supercapacitors\n\nSupercapacitors, also known as ultracapacitors or electric double-layer capacitors (EDLC), are energy storage devices that bridge the gap between traditional capacitors and batteries. They offer unique advantages including extremely high power density, rapid charge/discharge capability, and exceptional cycle life.\n\n## How Supercapacitors Work\n\nsupercapacitors store energy through the electrostatic separation of charges at the interface between an electrode and an electrolyte. Unlike batteries that store energy through chemical reactions, supercapacitors store energy physically.\n\n## Key Parameters\n\n### Capacitance (Farads)\nCapacitance determines the amount of energy stored. The energy stored is calculated using: E = 1/2 * C * V^2\n\n### Equivalent Series Resistance (ESR)\nESR is the internal resistance and affects power delivery capability and efficiency.\n\n### Voltage Rating\nstandard EDLC cells are rated at 2.7V. Higher voltages require series connection with appropriate balancing.\n\n## Conclusion\n\nsupercapacitors offer unique advantages for applications requiring high power, rapid response, and long cycle life. Contact our FAE team for assistance with your specific application.",
       "tags": [
         "basics",
         "selection",
@@ -160,7 +160,7 @@
         },
         {
           "question": "How long do supercapacitors last?",
-          "answer": "Supercapacitors typically last 10-15 years in normal applications with 500,000 to 1,000,000 charge/discharge cycles. Calendar life depends on operating voltage and temperature. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Supercapacitors typically last 10-15 years in normal applications with 500,000 to 1,000,000 charge/discharge cycles. Calendar life depends on operating voltage and temperature. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "For maximum lifetime, operate at 80% of rated voltage and below 45°C.",
           "keywords": [
             "supercapacitor lifetime",
@@ -179,7 +179,7 @@
         },
         {
           "question": "What is ESR and why is it important?",
-          "answer": "ESR (Equivalent Series Resistance) is the internal resistance of a supercapacitor. It affects power delivery, efficiency, and self-heating. Lower ESR enables higher power output. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "ESR (Equivalent Series Resistance) is the internal resistance of a supercapacitor. It affects power delivery, efficiency, and self-heating. Lower ESR enables higher power output. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "For high-current applications, prioritize low ESR over higher capacitance.",
           "keywords": [
             "ESR",
@@ -189,7 +189,7 @@
         },
         {
           "question": "How do I calculate the energy storage of a supercapacitor?",
-          "answer": "Use the formula E = 1/2 * C * V^2 where E is energy in Joules, C is capacitance in Farads, and V is voltage in Volts. For usable energy, calculate down to your minimum operating voltage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use the formula E = 1/2 * C * V^2 where E is energy in Joules, C is capacitance in Farads, and V is voltage in Volts. For usable energy, calculate down to your minimum operating voltage. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use our online energy calculator or contact our FAE team for detailed sizing calculations.",
           "keywords": [
             "energy calculation",
@@ -233,7 +233,7 @@
       "title": "Supercapacitor Module System Design Guide",
       "category": "Design Guide",
       "shortDescription": "Comprehensive guide for designing supercapacitor module systems including balancing, thermal management, and safety considerations.",
-      "content": "## Module Design Fundamentals\n\nSupercapacitor modules combine multiple cells in series and parallel configurations to achieve required voltage and capacitance ratings. This guide covers essential design considerations for reliable module systems.\n\n## Cell Balancing\n\nActive balancing is essential for series-connected supercapacitors to prevent overvoltage on individual cells. Aowei modules incorporate sophisticated balancing circuits that maintain voltage equilibrium across all cells.\n\n## Thermal Management\n\nProper thermal design ensures consistent performance and long lifetime. Consider heat dissipation from ESR losses and environmental temperature extremes.\n\n## Safety Considerations\n\nInclude appropriate overvoltage protection, thermal monitoring, and fault detection in your module design.",
+      "content": "## Module Design Fundamentals\n\nsupercapacitor modules combine multiple cells in series and parallel configurations to achieve required voltage and capacitance ratings. This guide covers essential design considerations for reliable module systems.\n\n## Cell Balancing\n\nactive balancing is essential for series-connected supercapacitors to prevent overvoltage on individual cells. Aowei modules incorporate sophisticated balancing circuits that maintain voltage equilibrium across all cells.\n\n## Thermal Management\n\nproper thermal design ensures consistent performance and long lifetime. Consider heat dissipation from ESR losses and environmental temperature extremes.\n\n## Safety Considerations\n\ninclude appropriate overvoltage protection, thermal monitoring, and fault detection in your module design.",
       "tags": [
         "module design",
         "balancing",
@@ -296,7 +296,7 @@
         },
         {
           "question": "What is the difference between active and passive balancing?",
-          "answer": "Passive balancing uses resistors to dissipate excess energy from higher-voltage cells. Active balancing transfers energy between cells, improving efficiency and reducing heat generation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Passive balancing uses resistors to dissipate excess energy from higher-voltage cells. Active balancing transfers energy between cells, improving efficiency and reducing heat generation. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use active balancing for high-cycle applications and where efficiency is critical.",
           "keywords": [
             "active balancing",
@@ -316,7 +316,7 @@
         },
         {
           "question": "What safety protections should be included in module design?",
-          "answer": "Essential protections include overvoltage protection, undervoltage protection, overcurrent protection, and overtemperature protection. Consider adding cell-level monitoring for critical applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Essential protections include overvoltage protection, undervoltage protection, overcurrent protection, and overtemperature protection. Consider adding cell-level monitoring for critical applications. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Implement all basic protections plus application-specific safety features.",
           "keywords": [
             "safety protection",
@@ -326,7 +326,7 @@
         },
         {
           "question": "How do I select the right module voltage rating?",
-          "answer": "Select a module with a voltage rating at least 20% higher than your maximum operating voltage. This provides margin for transients and ensures long-term reliability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Select a module with a voltage rating at least 20% higher than your maximum operating voltage. This provides margin for transients and ensures long-term reliability. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate maximum operating voltage and add 20-30% safety margin.",
           "keywords": [
             "voltage rating",
@@ -372,7 +372,7 @@
       "shortDescription": "Explore how supercapacitors are transforming automotive systems from start-stop to regenerative braking and emergency power.",
       "content": [
         "This technical reference document provides detailed information about aowei product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -438,7 +438,7 @@
         },
         {
           "question": "How do supercapacitors improve start-stop system performance?",
-          "answer": "Supercapacitors provide the high burst power needed for engine restart without stressing the battery. They also capture regenerative braking energy more efficiently than batteries alone. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Supercapacitors provide the high burst power needed for engine restart without stressing the battery. They also capture regenerative braking energy more efficiently than batteries alone. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Size supercapacitors based on restart power requirements and braking energy capture.",
           "keywords": [
             "start-stop",
@@ -448,7 +448,7 @@
         },
         {
           "question": "What temperature range do automotive supercapacitors need?",
-          "answer": "Automotive applications typically require -40°C to +65°C operating range. Aowei supercapacitors are qualified for this range with appropriate derating at temperature extremes. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Automotive applications typically require -40°C to +65°C operating range. Aowei supercapacitors are qualified for this range with appropriate derating at temperature extremes. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify temperature requirements for your specific application and location.",
           "keywords": [
             "temperature range",
@@ -458,7 +458,7 @@
         },
         {
           "question": "Are Aowei supercapacitors qualified for automotive use?",
-          "answer": "Yes, Aowei supercapacitors carry IATF 16949 certification for automotive quality management and are tested to automotive reliability standards including AEC-Q200 where applicable. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, Aowei supercapacitors carry IATF 16949 certification for automotive quality management and are tested to automotive reliability standards including AEC-Q200 where applicable. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Request automotive qualification documentation for your specific application.",
           "keywords": [
             "IATF 16949",
@@ -468,7 +468,7 @@
         },
         {
           "question": "How do supercapacitors handle automotive vibration requirements?",
-          "answer": "Aowei supercapacitors are designed and tested to meet automotive vibration standards. Cylindrical cells with welded terminals offer the best vibration resistance for severe environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Aowei supercapacitors are designed and tested to meet automotive vibration standards. Cylindrical cells with welded terminals offer the best vibration resistance for severe environments. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select cylindrical cells for high-vibration applications.",
           "keywords": [
             "vibration resistance",
@@ -514,7 +514,7 @@
       "shortDescription": "Deep dive into supercapacitor lifetime factors, prediction methods, and strategies for maximizing operational life.",
       "content": [
         "This technical reference document provides detailed information about aowei product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -570,7 +570,7 @@
       "faqs": [
         {
           "question": "What is the typical lifetime of a supercapacitor?",
-          "answer": "Under normal operating conditions (rated voltage, room temperature), supercapacitors typically last 10-15 years with minimal degradation. High-temperature or high-voltage operation reduces lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Under normal operating conditions (rated voltage, room temperature), supercapacitors typically last 10-15 years with minimal degradation. High-temperature or high-voltage operation reduces lifetime. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use voltage derating and thermal management to maximize lifetime.",
           "keywords": [
             "lifetime",
@@ -590,7 +590,7 @@
         },
         {
           "question": "What is voltage derating and why is it important?",
-          "answer": "Voltage derating means operating at less than the rated voltage. Operating at 80% of rated voltage can extend lifetime by 2-3x. This is one of the most effective methods for maximizing calendar life. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Voltage derating means operating at less than the rated voltage. Operating at 80% of rated voltage can extend lifetime by 2-3x. This is one of the most effective methods for maximizing calendar life. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Apply 20% voltage derating where system requirements allow.",
           "keywords": [
             "voltage derating",
@@ -610,7 +610,7 @@
         },
         {
           "question": "How do I predict supercapacitor end-of-life?",
-          "answer": "End-of-life is typically defined as 80% of initial capacitance or 200% of initial ESR. Use Arrhenius modeling for calendar life prediction and cycle count tracking for cycle life prediction. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "End-of-life is typically defined as 80% of initial capacitance or 200% of initial ESR. Use Arrhenius modeling for calendar life prediction and cycle count tracking for cycle life prediction. For detailed specifications and application support on aowei products, refer to the datasheet or contact our team.",
           "decisionGuide": "Implement capacitance monitoring for predictive maintenance.",
           "keywords": [
             "end-of-life",

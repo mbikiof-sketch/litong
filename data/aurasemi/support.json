@@ -87,7 +87,7 @@
       "title": "Aurasemi Clock Chip Selection Guide",
       "category": "Product Selection",
       "summary": "Comprehensive guide to selecting the right Aurasemi clock generator, jitter attenuator, or clock buffer for your application.",
-      "content": "Selecting the right clock chip is crucial for system performance. This guide walks through the Aurasemi clock portfolio and provides selection criteria based on application requirements.\n\n## Clock Chip Types\n\n### Clock Generators\nBest for: Creating multiple clock frequencies from a single reference\n- Output frequencies: 1MHz to 2.1GHz\n- RMS jitter: <100fs to <500fs\n- Outputs: 2 to 10 differential pairs\n\n### Jitter Attenuators\nBest for: Cleaning noisy clock signals\n- Input jitter tolerance: Up to 10ps\n- Output jitter: <100fs typical\n- Loop bandwidth: Configurable\n\n### Clock Buffers\nBest for: Distributing clocks to multiple loads\n- Additive jitter: <50fs\n- Fanout: 1:2 to 1:12\n- Output types: LVDS/LVPECL/HCSL\n\n## Key Selection Parameters\n\n1. Output frequency range\n2. Jitter requirements (RMS and phase noise)\n3. Number of outputs needed\n4. Output type (LVDS/LVPECL/HCSL/CMOS)\n5. Supply voltage\n6. Temperature range\n7. Special features (SSC, hitless switching)\n\nContact LiTong's application engineering team for personalized selection assistance.",
+      "content": "Selecting the right clock chip is crucial for system performance. This guide walks through the Aurasemi clock portfolio and provides selection criteria based on application requirements.\n\n## Clock Chip Types\n\n### Clock Generators\nbest for: Creating multiple clock frequencies from a single reference\n- Output frequencies: 1MHz to 2.1GHz\n- RMS jitter: <100fs to <500fs\n- Outputs: 2 to 10 differential pairs\n\n### Jitter Attenuators\nbest for: Cleaning noisy clock signals\n- Input jitter tolerance: Up to 10ps\n- Output jitter: <100fs typical\n- Loop bandwidth: Configurable\n\n### Clock Buffers\nbest for: Distributing clocks to multiple loads\n- Additive jitter: <50fs\n- Fanout: 1:2 to 1:12\n- Output types: LVDS/LVPECL/HCSL\n\n## Key Selection Parameters\n\n1. Output frequency range\n2. Jitter requirements (RMS and phase noise)\n3. Number of outputs needed\n4. Output type (LVDS/LVPECL/HCSL/CMOS)\n5. Supply voltage\n6. Temperature range\n7. Special features (SSC, hitless switching)\n\nContact LiTong's application engineering team for personalized selection assistance.",
       "tags": [
         "Clock Selection",
         "Product Guide",
@@ -179,7 +179,7 @@
       "faqs": [
         {
           "question": "Where can I find more information about this topic?",
-          "answer": "Additional information is available in the related articles and product datasheets. Contact LiTong FAE team for personalized support. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional information is available in the related articles and product datasheets. Contact LiTong FAE team for personalized support. For detailed specifications and application support on aurasemi products, refer to the datasheet or contact our team.",
           "decisionGuide": "Explore related articles or contact FAE for detailed assistance.",
           "keywords": [
             "additional information",
@@ -315,7 +315,7 @@
       "faqs": [
         {
           "question": "Where can I find more information about this topic?",
-          "answer": "Additional information is available in the related articles and product datasheets. Contact LiTong FAE team for personalized support. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional information is available in the related articles and product datasheets. Contact LiTong FAE team for personalized support. For detailed specifications and application support on aurasemi products, refer to the datasheet or contact our team.",
           "decisionGuide": "Explore related articles or contact FAE for detailed assistance.",
           "keywords": [
             "additional information",
@@ -374,7 +374,7 @@
       "summary": "Comprehensive PCB layout guidelines for Aurasemi clock generators and buffers, covering differential routing, impedance control, power supply filtering, and EMI considerations.",
       "content": [
         "This technical reference document provides detailed information about aurasemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -490,7 +490,7 @@
       "summary": "Comprehensive guide to selecting the right Aurasemi wireless transceiver for your application, covering frequency bands, range considerations, protocol support, and regulatory compliance.",
       "content": [
         "This technical reference document provides detailed information about aurasemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -597,7 +597,7 @@
       "summary": "Comprehensive FAQ and troubleshooting guide for Aurasemi clock, power, sensor, and wireless products. Common issues and solutions.",
       "content": [
         "This technical reference document provides detailed information about aurasemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -648,7 +648,7 @@
         },
         {
           "question": "What is the minimum order quantity?",
-          "answer": "Standard MOQ is 1,000 pieces for production orders. Samples (5-10 pieces) are available for evaluation. Contact LiTong sales for specific volume pricing and flexible ordering arrangements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Standard MOQ is 1,000 pieces for production orders. Samples (5-10 pieces) are available for evaluation. Contact LiTong sales for specific volume pricing and flexible ordering arrangements. For detailed specifications and application support on aurasemi products, refer to the datasheet or contact our team.",
           "decisionGuide": "MOQ 1,000 pieces; samples available for evaluation.",
           "keywords": [
             "MOQ",
@@ -658,7 +658,7 @@
         },
         {
           "question": "How do I verify product authenticity?",
-          "answer": "Purchase only from authorized distributors like LiTong. Verify packaging, part markings, and lot codes. Contact Aurasemi or LiTong if you have any concerns about product authenticity. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Purchase only from authorized distributors like LiTong. Verify packaging, part markings, and lot codes. Contact Aurasemi or LiTong if you have any concerns about product authenticity. For detailed specifications and application support on aurasemi products, refer to the datasheet or contact our team.",
           "decisionGuide": "Purchase from authorized distributors; verify markings.",
           "keywords": [
             "authenticity",

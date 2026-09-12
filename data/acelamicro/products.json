@@ -50,7 +50,7 @@
     },
     {
       "question": "Are AcelaMicro products qualified for automotive applications?",
-      "answer": "Yes, many AcelaMicro products are AEC-Q100 qualified for automotive applications. These products undergo rigorous qualification testing including temperature cycling, high-temperature operating life (HTOL), and ESD testing. Automotive-grade products are available in data converters, power management, and interface categories. AcelaMicro holds IATF 16949 certification, demonstrating commitment to automotive quality standards. Our automotive products are used in EV battery management, motor control, ADAS sensors, and body electronics applications.",
+      "answer": "Yes, many AcelaMicro products are AEC-Q100 qualified for automotive applications. These products undergo rigorous qualification testing including temperature cycling, high-temperature operating life (HTOL), and ESD testing. Automotive-grade products are available in data converters, power management, and interface categories. AcelaMicro holds IATF 16949 certification. Our automotive products are used in EV battery management, motor control, ADAS sensors, and body electronics applications.",
       "decisionGuide": "Look for AEC-Q100 qualification in product specifications for automotive applications. Contact us for PPAP documentation support.",
       "keywords": [
         "automotive qualification",
@@ -515,7 +515,7 @@
             },
             {
               "question": "How do I calculate the noise-free resolution for my specific application?",
-              "answer": "Noise-free resolution represents the number of bits that are stable (not toggling due to noise). To calculate: 1) Determine your peak-to-peak noise from the datasheet table based on your selected data rate and PGA gain. For example, at 10 SPS with 1x gain, peak-to-peak noise is approximately 2.5 μV. 2) Calculate the full-scale input range: for a 2.5V reference with 1x gain, FS = 5V (differential +/- 2.5V). 3) Calculate noise-free counts: FS / noise = 5V / 2.5μV = 2,000,000 counts. 4) Convert to bits: log2(2,000,000) = 20.9 bits. 5) Round down to get noise-free resolution: 20 bits. Higher PGA gains reduce the input range proportionally but can improve noise-free resolution for small signals by utilizing more of the ADC's dynamic range.",
+              "answer": "Noise-free resolution is the number of bits that are stable (not toggling due to noise). To calculate: 1) Determine your peak-to-peak noise from the datasheet table based on your selected data rate and PGA gain. For example, at 10 SPS with 1x gain, peak-to-peak noise is approximately 2.5 μV. 2) Calculate the full-scale input range: for a 2.5V reference with 1x gain, FS = 5V (differential +/- 2.5V). 3) Calculate noise-free counts: FS / noise = 5V / 2.5μV = 2,000,000 counts. 4) Convert to bits: log2(2,000,000) = 20.9 bits. 5) Round down to get noise-free resolution: 20 bits. Higher PGA gains reduce the input range proportionally but can improve noise-free resolution for small signals by utilizing more of the ADC's dynamic range.",
               "decisionGuide": "Use the highest PGA gain that accommodates your signal range to maximize noise-free resolution for small signals.",
               "keywords": [
                 "noise-free resolution",

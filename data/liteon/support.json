@@ -1,0 +1,648 @@
+{
+  "seoTitle": "Lite-On Technical Support | Selection Guides & Application Notes | BeiLuo",
+  "seoDescription": "Lite-On technical resources including LED selection guides, optocoupler application notes, and design support. Expert FAE assistance from BeiLuo Electronics.",
+  "faqs": [
+    {
+      "question": "What technical resources are available for Lite-On products?",
+      "answer": "BeiLuo Electronics provides comprehensive technical resources for Lite-On products: (1) Product datasheets with detailed specifications, (2) Application notes for common use cases, (3) Selection guides for product families, (4) Reference designs and evaluation kits, (5) Design calculators and simulation tools. All resources are available through our website or by contacting FAE.",
+      "decisionGuide": "Start with datasheets and selection guides. Use application notes for implementation guidance. Contact FAE for specific questions.",
+      "keywords": [
+        "technical resources",
+        "datasheets",
+        "application notes",
+        "selection guides"
+      ]
+    },
+    {
+      "question": "How do I get design support from BeiLuo Electronics?",
+      "answer": "Design support is available through multiple channels: (1) Online technical documentation and FAQs, (2) Email support for technical questions, (3) Phone support for urgent issues, (4) On-site FAE visits for complex projects, (5) Design review services for critical applications. Our FAE team has extensive experience with Lite-On products.",
+      "decisionGuide": "Use online resources for general questions. Contact FAE early in design phase for complex projects. Schedule design review before production.",
+      "keywords": [
+        "design support",
+        "FAE",
+        "design review",
+        "technical assistance"
+      ]
+    },
+    {
+      "question": "What training is available for Lite-On products?",
+      "answer": "BeiLuo Electronics offers various training options: (1) Online webinars covering product families and applications, (2) In-person technical seminars at customer sites, (3) Product training at BeiLuo offices, (4) Custom training programs for specific customer needs, (5) Video tutorials and recorded sessions. Training can be tailored to your team's experience level.",
+      "decisionGuide": "Attend webinars for product overviews. Request custom training for deep dives. Schedule training early in project timeline.",
+      "keywords": [
+        "training",
+        "webinars",
+        "seminars",
+        "product training"
+      ]
+    },
+    {
+      "question": "How can I request samples and evaluation kits?",
+      "answer": "Samples and evaluation kits can be requested through: (1) Online sample request form on BeiLuo website, (2) Contacting your local sales representative, (3) Email to samples@beiluo.com, (4) Phone request for urgent needs. Most samples ship within 1-3 business days from stock. Evaluation kits may require 1-2 weeks lead time.",
+      "decisionGuide": "Request samples early in design phase. Order evaluation kits for comprehensive testing. Contact sales for high-volume sample needs.",
+      "keywords": [
+        "samples",
+        "evaluation kits",
+        "sample request",
+        "prototyping"
+      ]
+    },
+    {
+      "question": "What is the process for failure analysis?",
+      "answer": "Failure analysis process includes: (1) Initial failure report submission with detailed description, (2) Sample return for laboratory analysis, (3) Root cause investigation by FAE team, (4) Detailed failure analysis report with findings, (5) Corrective action recommendations. The process typically takes 2-4 weeks depending on complexity.",
+      "decisionGuide": "Document failure conditions thoroughly. Preserve failed samples for analysis. Contact FAE immediately for critical failures.",
+      "keywords": [
+        "failure analysis",
+        "root cause",
+        "FAE support",
+        "quality"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "led-selection-guide",
+      "title": "LED Selection Guide for Industrial Applications",
+      "slug": "led-selection-guide",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Optoelectronics",
+        "email": "michael.chen@beiluo.com"
+      },
+      "publishDate": "2026-04-15",
+      "summary": "Comprehensive guide for selecting Lite-On LEDs for industrial and automotive applications. Covers color selection, thermal management, and drive circuit design.",
+      "tags": [
+        "LED",
+        "Selection Guide",
+        "Industrial",
+        "Automotive",
+        "Thermal Management"
+      ],
+      "relatedArticles": [
+        "optocoupler-selection-guide",
+        "power-management-design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Introduction to LED Selection",
+          "content": "Selecting the right LED for your application requires understanding key parameters including color, brightness, package, and thermal characteristics. This guide provides practical advice for industrial and automotive LED selection."
+        },
+        {
+          "heading": "Color and Wavelength Selection",
+          "content": "Color selection depends on application requirements. Red (625nm) is ideal for warning indicators, green (570nm) for power indicators, and blue (470nm) for modern consumer electronics. White LEDs are available in various color temperatures from warm white (3000K) to cool white (6500K)."
+        },
+        {
+          "heading": "Brightness and Viewing Angle",
+          "content": "Luminous intensity (mcd) and viewing angle determine LED visibility. Standard 0603 LEDs provide 30-90 mcd suitable for indoor applications. High-power LEDs deliver 100+ lumens for illumination applications. Wider viewing angles (120-140°) ensure visibility from multiple directions."
+        },
+        {
+          "heading": "Thermal Management",
+          "content": "Thermal management is critical for LED reliability. High-power LEDs require metal-core PCBs, thermal interface materials, and adequate heat sinking. Junction temperature must be kept below 125°C for long lifetime. Calculate thermal resistance from junction to ambient."
+        },
+        {
+          "heading": "Drive Circuit Design",
+          "content": "LEDs require constant current drive for stable operation. Use current limiting resistors for simple applications or dedicated LED drivers for high-power applications. Calculate resistor value: R = (Vsupply - Vf) / If. consider PWM dimming for brightness control."
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "LED selection prioritizes application requirements: color for indication, brightness for visibility, thermal performance for reliability. Balance cost and performance based on application criticality.",
+        "keyConsiderations": "Automotive applications require AEC-Q101 certification. High-temperature environments need proper derating. Color binning affects visual uniformity in multi-LED designs.",
+        "recommendation": "Start with standard products for prototyping. Specify tight binning for production if visual uniformity is critical. Always include thermal management in your design."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Control Manufacturer",
+          "challenge": "Needed consistent LED color across multiple product lines",
+          "solution": "Implemented tight binning specification with Lite-On LTST-C series",
+          "result": "Visual uniformity, reduced customer complaints by 90%",
+          "feedback": "Tight binning was worth the small cost premium for our application"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between mcd and lumens?",
+          "answer": "Millicandela (mcd) measures luminous intensity in a specific direction, used for indicator LEDs. Lumens (lm) measure total luminous flux, used for illumination LEDs. A 20mA indicator LED might emit 50 mcd, while a 1W power LED emits 100+ lumens.",
+          "decisionGuide": "Use mcd for indicator applications. Use lumens for lighting applications.",
+          "keywords": [
+            "mcd",
+            "lumens",
+            "luminous intensity",
+            "luminous flux"
+          ]
+        },
+        {
+          "question": "How do I calculate LED lifetime?",
+          "answer": "LED lifetime (L70) is the time until brightness degrades to 70% of initial value. Lifetime depends on junction temperature and drive current. At 25°C junction temperature, lifetime can exceed 100,000 hours. Every 10°C increase roughly halves the lifetime.",
+          "decisionGuide": "Design for lowest practical junction temperature. Use derating for high-temperature environments.",
+          "keywords": [
+            "LED lifetime",
+            "L70",
+            "junction temperature",
+            "derating"
+          ]
+        },
+        {
+          "question": "What is LED binning and why does it matter?",
+          "answer": "Binning sorts LEDs by forward voltage, luminous intensity, and color coordinates. Tight binning ensures consistent appearance in multi-LED designs. Standard binning is sufficient for most indicator applications. Tight binning is recommended for display backlighting and automotive lighting.",
+          "decisionGuide": "Use standard binning for indicators. Specify tight binning for applications requiring visual uniformity.",
+          "keywords": [
+            "binning",
+            "color consistency",
+            "visual uniformity",
+            "tight binning"
+          ]
+        },
+        {
+          "question": "Can I use LEDs in outdoor applications?",
+          "answer": "Yes, but consider: Higher brightness for daylight visibility, proper sealing for moisture protection, UV-resistant encapsulation, wider operating temperature range, and appropriate thermal management. Lite-On offers automotive-grade LEDs suitable for outdoor use.",
+          "decisionGuide": "Select high-brightness LEDs for outdoor use. verify environmental ratings. implement proper thermal design.",
+          "keywords": [
+            "outdoor",
+            "daylight visibility",
+            "moisture protection",
+            "automotive grade"
+          ]
+        },
+        {
+          "question": "What is the typical lead time for LED samples?",
+          "answer": "Standard lead time is 4-6 weeks for production quantities. BeiLuo Electronics maintains stock for popular LED types, enabling 1-3 day delivery for samples. Custom binning or special configurations may require additional lead time.",
+          "decisionGuide": "Check BeiLuo stock for immediate sampling needs. Plan 4-6 weeks for production orders.",
+          "keywords": [
+            "lead time",
+            "samples",
+            "stock",
+            "production"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optocoupler-selection-guide",
+      "title": "Optocoupler Selection and Application Guide",
+      "slug": "optocoupler-selection-guide",
+      "author": {
+        "name": "David Wang",
+        "title": "Senior FAE - Isolation Products",
+        "email": "david.wang@beiluo.com"
+      },
+      "publishDate": "2026-04-10",
+      "summary": "Guide for selecting and applying Lite-On optocouplers in industrial and automotive systems. Covers isolation requirements, CTR selection, and PCB layout.",
+      "tags": [
+        "Optocoupler",
+        "Isolation",
+        "Industrial",
+        "Safety",
+        "PCB Layout"
+      ],
+      "relatedArticles": [
+        "led-selection-guide",
+        "industrial-design-guidelines"
+      ],
+      "contentSections": [
+        {
+          "heading": "Understanding Optocoupler Basics",
+          "content": "Optocouplers provide galvanic isolation between circuits while transmitting signals. They consist of an LED emitter and photodetector (phototransistor or photodiode) in a single package. Isolation voltage ranges from 2500V to 8000V depending on type."
+        },
+        {
+          "heading": "Isolation Requirements",
+          "content": "Isolation requirements depend on application safety standards. basic insulation typically requires 2500Vrms. Reinforced insulation requires 5000Vrms. Medical and industrial applications may have specific requirements. always consult relevant safety standards."
+        },
+        {
+          "heading": "CTR and Current Transfer Ratio",
+          "content": "CTR is relates to output current to input current, expressed as percentage. Standard CTR ranges from 50-600%. Higher CTR reduces LED drive current requirements. Design for worst-case CTR to ensure reliable operation across temperature and aging."
+        },
+        {
+          "heading": "Speed and Response Time",
+          "content": "Phototransistor optocouplers have moderate speed (2-10μs) suitable for slow signals. Logic gate optocouplers offer faster switching (0.5-4μs) for digital applications. High-speed optocouplers (optical-isolated gate drivers) achieve sub-microsecond response for power electronics."
+        },
+        {
+          "heading": "PCB Layout Guidelines",
+          "content": "Proper PCB layout is critical for achieving rated isolation: Maintain creepage and clearance distances, avoid vias in isolation barrier, keep input/output traces separated, use appropriate slotting for high voltage. Follow datasheet recommendations for specific packages."
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Optocoupler selection balances isolation voltage, speed, CTR, and cost. Lite-On offers comprehensive portfolio from economical phototransistor types to high-speed logic gate types.",
+        "keyConsiderations": "Layout is as important as component selection for achieving isolation ratings. CTR degrades with temperature and LED aging - design with margin.",
+        "recommendation": "Use standard phototransistor types for cost-sensitive applications. Select logic gate types for digital signals. Ensure proper PCB layout for safety certification."
+      },
+      "customerCases": [
+        {
+          "customer": "Motor Drive Manufacturer",
+          "challenge": "Needed reliable isolation for IGBT gate drive in harsh environment",
+          "solution": "Implemented Lite-On high-speed optocouplers with proper layout",
+          "result": "Zero failures in 5 years of field operation",
+          "feedback": "Excellent CMR performance and reliable operation"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between basic and reinforced insulation?",
+          "answer": "Basic insulation provides single layer of protection (2500Vrms typical). Reinforced insulation provides equivalent of double protection (5000Vrms) and is required for accessible circuits. Medical applications often require 2xMOPP (Means of Patient Protection) equivalent to reinforced.",
+          "decisionGuide": "Determine required insulation level from safety standards for your application. When in doubt, use reinforced insulation.",
+          "keywords": [
+            "basic insulation",
+            "reinforced insulation",
+            "MOPP",
+            "safety standards"
+          ]
+        },
+        {
+          "question": "How do I calculate the LED drive current?",
+          "answer": "LED drive current depends on required output current and minimum CTR. formula: If = (Io / CTRmin) × Safety Margin. Typical safety margin is 1.5-2x. For 10mA output with 100% minimum CTR: If = (10mA / 100%) × 1.5 = 15mA. check datasheet for absolute maximum ratings.",
+          "decisionGuide": "Design for worst-case CTR at high temperature. include 50-100% margin for aging. stay below absolute maximum LED current.",
+          "keywords": [
+            "LED current",
+            "CTR",
+            "drive current calculation",
+            "safety margin"
+          ]
+        },
+        {
+          "question": "What affects optocoupler lifetime?",
+          "answer": "Optocoupler lifetime is primarily limited by LED degradation. Higher LED current and temperature accelerate aging. Operating at 50% of rated current can extend lifetime significantly. Output phototransistor degradation is typically negligible compared to LED.",
+          "decisionGuide": "Derate LED current for long lifetime. keep junction temperature low. conservative design achieves 20+ year lifetime.",
+          "keywords": [
+            "lifetime",
+            "LED degradation",
+            "aging",
+            "derating"
+          ]
+        },
+        {
+          "question": "How do I improve Common Mode Rejection (CMR)?",
+          "answer": "CMR is affected by capacitive coupling across the isolation barrier. Improvements include: Shielded optocouplers, proper PCB layout with guard rings, twisted pair wiring for I/O cables, and filters on input/output. High-speed optocouplers typically have better CMR.",
+          "decisionGuide": "Use shielded optocouplers for noisy environments. implement recommended layout practices. test CMR in actual system.",
+          "keywords": [
+            "CMR",
+            "common mode rejection",
+            "noise immunity",
+            "shielding"
+          ]
+        },
+        {
+          "question": "What certifications do Lite-On optocouplers have?",
+          "answer": "Lite-On optocouplers carry major safety certifications: UL1577 (USA), VDE0884 (Germany), CQC (China), and CB scheme (international). These certifications cover isolation voltage, creepage/clearance, and safety requirements. Certificates available upon request.",
+          "decisionGuide": "Verify certifications meet your market requirements. request certificates for your quality files. check certification updates periodically.",
+          "keywords": [
+            "certifications",
+            "UL",
+            "VDE",
+            "CQC",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-management-design",
+      "title": "Power Management Design Guidelines",
+      "slug": "power-management-design",
+      "author": {
+        "name": "Robert Liu",
+        "title": "Senior FAE - Power Products",
+        "email": "robert.liu@beiluo.com"
+      },
+      "publishDate": "2026-04-05",
+      "summary": "Design guidelines for Lite-On power management products including AC-DC and DC-DC converters. Covers thermal design, EMC, and protection features.",
+      "tags": [
+        "Power Management",
+        "AC-DC",
+        "DC-DC",
+        "Thermal Design",
+        "EMC"
+      ],
+      "relatedArticles": [
+        "led-selection-guide",
+        "optocoupler-selection-guide"
+      ],
+      "contentSections": [
+        {
+          "heading": "Power Supply Selection",
+          "content": "Power supply selection considers output voltage/current, input voltage range, efficiency, size, and safety requirements. Lite-On offers solutions from 5W to 150W with various form factors. Modular designs offer faster time-to-market compared to discrete designs."
+        },
+        {
+          "heading": "Thermal Design Considerations",
+          "content": "Thermal design is critical for reliability. Calculate power dissipation: Pd = Pin - Pout = Pout × (1/η - 1). For 90% efficiency at 50W output: Pd = 50W × (1/0.9 - 1) = 5.6W. Ensure adequate heat sinking or airflow to keep internal temperatures within ratings."
+        },
+        {
+          "heading": "Input and Output Filtering",
+          "content": "Input filtering reduces conducted EMI and protects against input transients. Output filtering reduces ripple and noise. Follow manufacturer recommendations for capacitor types and values. Ceramic capacitors for high frequency, electrolytic for bulk storage."
+        },
+        {
+          "heading": "Protection Features",
+          "content": "Modern power supplies include comprehensive protection: Over-voltage protection (OVP) prevents output overvoltage, Over-current protection (OCP) limits output current, Over-temperature protection (OTP) prevents thermal damage, Short-circuit protection (SCP) handles output shorts."
+        },
+        {
+          "heading": "EMC Compliance",
+          "content": "EMC compliance requires attention to both conducted and radiated emissions. Input filtering, proper PCB layout, shielding, and snubber circuits all contribute to EMC performance. Lite-On power modules are designed and tested for standard EMC requirements."
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Power supply design balances efficiency, size, cost, and reliability. Integrated modules offer best time-to-market for standard requirements. Custom designs may be justified for high volumes or special requirements.",
+        "keyConsiderations": "Thermal design is often the limiting factor. Plan for worst-case conditions including high ambient temperature and low airflow. Protection features must be coordinated with system-level protection.",
+        "recommendation": "Use integrated power modules for fastest development. follow manufacturer layout guidelines. plan for EMC testing early in design process."
+      },
+      "customerCases": [
+        {
+          "customer": "Medical Device Manufacturer",
+          "challenge": "Needed compact, efficient power supply with medical safety ratings",
+          "solution": "Implemented Lite-On medical-grade power module with custom thermal design",
+          "result": "Met all safety requirements, 40% size reduction vs previous design",
+          "feedback": "Excellent support during certification process"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I calculate power dissipation?",
+          "answer": "Power dissipation is the difference between input and output power. Formula: Pd = Pout × (1/η - 1), where η is efficiency. For example, 100W output at 90% efficiency: Pd = 100W × (1/0.9 - 1) = 11.1W. This heat must be dissipated through convection, conduction, or radiation.",
+          "decisionGuide": "Calculate dissipation at full load and worst-case conditions. Design thermal solution with safety margin. Consider parallel operation for high-power applications.",
+          "keywords": [
+            "power dissipation",
+            "efficiency",
+            "thermal design",
+            "heat sinking"
+          ]
+        },
+        {
+          "question": "What is the difference between linear and switching regulators?",
+          "answer": "Linear regulators are simple, low noise, but inefficient (dissipate excess voltage as heat). Switching regulators are efficient (80-95%) but more complex with higher noise. Linear suits low drop-out, noise-sensitive applications. Switching is preferred for high efficiency and large voltage differences.",
+          "decisionGuide": "Use linear for low current, low dropout, noise-sensitive applications. Use switching for high efficiency, high current, or large voltage conversion ratios.",
+          "keywords": [
+            "linear regulator",
+            "switching regulator",
+            "efficiency",
+            "noise"
+          ]
+        },
+        {
+          "question": "How do I reduce EMI in power supply design?",
+          "answer": "EMI reduction techniques: Proper input filtering with X and Y capacitors, snubber circuits on switching nodes, proper PCB layout with minimized loop areas, shielding for sensitive applications, soft-start to reduce inrush current, spread spectrum for clocked converters.",
+          "decisionGuide": "Follow manufacturer reference designs. add filtering as needed for your specific requirements. plan for EMC testing and potential iterations.",
+          "keywords": [
+            "EMI",
+            "filtering",
+            "snubber",
+            "PCB layout",
+            "shielding"
+          ]
+        },
+        {
+          "question": "What is hold-up time and why does it matter?",
+          "answer": "Hold-up time is how long output voltage remains within regulation after input power is lost. Important for systems needing time to save data or switch to backup power. Typical hold-up is 10-20ms at full load. Increasing input capacitance extends hold-up time.",
+          "decisionGuide": "Determine hold-up requirements from system specifications. size input capacitance accordingly. consider backup power for longer outages.",
+          "keywords": [
+            "hold-up time",
+            "input capacitance",
+            "backup power",
+            "ride-through"
+          ]
+        },
+        {
+          "question": "Can I parallel power supplies for higher current?",
+          "answer": "Parallel operation requires power supplies designed for current sharing. Simply connecting outputs in parallel usually results in uneven current distribution. Some Lite-On modules support parallel operation with proper configuration. Contact FAE for parallel operation guidance.",
+          "decisionGuide": "Use single higher-power supply when possible. For parallel operation, select units designed for current sharing. Implement proper monitoring and protection.",
+          "keywords": [
+            "parallel operation",
+            "current sharing",
+            "high current",
+            "redundancy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensor-interface-design",
+      "title": "Optical Sensor Interface Design Guide",
+      "slug": "sensor-interface-design",
+      "author": {
+        "name": "Jennifer Zhang",
+        "title": "Senior FAE - Sensor Products",
+        "email": "jennifer.zhang@beiluo.com"
+      },
+      "publishDate": "2026-03-28",
+      "summary": "Design guide for interfacing Lite-On optical sensors including proximity, ambient light, and gesture sensors. Covers I2C communication, optical design, and power optimization.",
+      "tags": [
+        "Optical Sensor",
+        "Proximity",
+        "Ambient Light",
+        "I2C",
+        "Low Power"
+      ],
+      "relatedArticles": [
+        "smart-sensing-iot",
+        "power-management-design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Sensor Selection Overview",
+          "content": "Lite-On offers comprehensive optical sensor portfolio: Proximity sensors for object detection, Ambient light sensors for automatic brightness control, Gesture sensors for touchless interfaces, and integrated multi-function sensors. Selection depends on detection range, accuracy, and power requirements."
+        },
+        {
+          "heading": "I2C Interface Implementation",
+          "content": "Lite-On optical sensors use standard I2C interface at 100-400kHz. Implementation requires pull-up resistors (4.7-10kΩ) on SDA and SCL lines. Multiple sensors can share the same bus with different addresses. Interrupt pin enables event-driven operation for power savings."
+        },
+        {
+          "heading": "Optical Design Considerations",
+          "content": "Optical design significantly affects sensor performance. window material must transmit IR for proximity sensors. Minimize air gap between sensor and window. prevent light leakage between transmitter and receiver. consider dust and moisture protection in mechanical design."
+        },
+        {
+          "heading": "Power Optimization Techniques",
+          "content": "Power optimization strategies: Use interrupt mode instead of polling, implement adaptive measurement rates, use standby mode when inactive, optimize LED current for proximity measurement, and disable unused sensor functions. Battery-powered applications can achieve sub-100μA average current."
+        },
+        {
+          "heading": "Calibration and Compensation",
+          "content": "Factory calibration provides baseline accuracy. Application-specific calibration may be needed for: Proximity offset compensation, Ambient light lux calculation, Gesture recognition tuning. Store calibration data in non-volatile memory for consistent operation."
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Sensor selection balances detection range, power consumption, and integration complexity. Integrated multi-function sensors reduce BOM but may have trade-offs in performance.",
+        "keyConsiderations": "Mechanical design is as important as electrical design for optical sensors. Window material, air gap, and light isolation significantly affect performance.",
+        "recommendation": "Prototype with evaluation kits early to validate mechanical design. Implement proper optical isolation. Use interrupt-driven operation for battery applications."
+      },
+      "customerCases": [
+        {
+          "customer": "Smartphone Manufacturer",
+          "challenge": "Needed ultra-low power proximity sensing for ear-detect feature",
+          "solution": "Implemented LTR-659PS with optimized measurement timing",
+          "result": "Achieved <50μA average current, extended battery life by 2 hours",
+          "feedback": "Excellent power efficiency and reliable detection"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between VCSEL and LED-based proximity sensors?",
+          "answer": "VCSEL (Vertical Cavity Surface Emitting Laser) provides collimated, high-power IR beam enabling longer detection range (up to 100mm) and better sunlight immunity. LED-based sensors are more economical with shorter range (30-60mm) and suitable for most consumer applications.",
+          "decisionGuide": "Use VCSEL for long-range or outdoor applications. Use LED-based for cost-sensitive, short-range applications.",
+          "keywords": [
+            "VCSEL",
+            "LED",
+            "proximity range",
+            "sunlight immunity"
+          ]
+        },
+        {
+          "question": "How do I calculate lux from ALS readings?",
+          "answer": "Lux calculation uses factory calibration coefficients stored in sensor registers. Formula: Lux = (ALS_Data × Calibration_Factor) / Integration_Time. Different light sources (incandescent, fluorescent, LED) may require different correction factors. Lite-On sensors include automatic light source detection.",
+          "decisionGuide": "Use sensor's built-in lux calculation when available. implement light source correction for highest accuracy. Calibrate against reference lux meter if needed.",
+          "keywords": [
+            "lux calculation",
+            "ALS",
+            "calibration",
+            "light source"
+          ]
+        },
+        {
+          "question": "What affects proximity detection accuracy?",
+          "answer": "Accuracy factors include: Target reflectivity (dark objects reduce range), Ambient IR (sunlight can interfere), Air gap and window material, Crosstalk between TX and RX, Temperature effects on LED output. Proper calibration compensates for many of these factors.",
+          "decisionGuide": "Characterize performance with actual target materials. implement calibration for production units. consider worst-case ambient light conditions.",
+          "keywords": [
+            "proximity accuracy",
+            "reflectivity",
+            "crosstalk",
+            "calibration"
+          ]
+        },
+        {
+          "question": "How can I minimize power consumption?",
+          "answer": "Power minimization strategies: Use lowest acceptable measurement rate, implement interrupt-driven operation, use standby mode between measurements, reduce LED current if range permits, disable unused sensor channels, and optimize I2C communication (burst reads, minimize transactions).",
+          "decisionGuide": "Profile power consumption in actual use case. optimize measurement timing for application requirements. Consider trade-offs between response time and power.",
+          "keywords": [
+            "power consumption",
+            "low power",
+            "interrupt",
+            "standby mode"
+          ]
+        },
+        {
+          "question": "What window materials work best?",
+          "answer": "Ideal window materials transmit IR (>850nm) with minimal attenuation: Clear acrylic (PMMA) is economical and works well, Glass with anti-reflective coating for premium applications, Special IR-transmissive plastics for specific requirements. Avoid tinted or UV-filtering materials that block IR.",
+          "decisionGuide": "Test window material IR transmission. minimize thickness while maintaining mechanical strength. consider surface treatments to reduce reflections.",
+          "keywords": [
+            "window material",
+            "IR transmission",
+            "acrylic",
+            "PMMA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automotive-design-guidelines",
+      "title": "Automotive Design Guidelines for Lite-On Products",
+      "slug": "automotive-design-guidelines",
+      "author": {
+        "name": "Thomas Huang",
+        "title": "Principal FAE - Automotive",
+        "email": "thomas.huang@beiluo.com"
+      },
+      "publishDate": "2026-03-20",
+      "summary": "Comprehensive design guidelines for using Lite-On AEC-Q qualified products in automotive applications. Covers qualification, reliability, and system design considerations.",
+      "tags": [
+        "Automotive",
+        "AEC-Q",
+        "Reliability",
+        "Design Guidelines",
+        "Qualification"
+      ],
+      "relatedArticles": [
+        "led-selection-guide",
+        "optocoupler-selection-guide",
+        "power-management-design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Automotive Qualification Overview",
+          "content": "Automotive electronics require AEC-Q qualification: AEC-Q100 for integrated circuits, AEC-Q101 for discrete semiconductors, AEC-Q200 for passive components. These standards define stress tests including temperature cycling, high temperature operation, and mechanical stress. Lite-On offers extensive AEC-Q qualified product portfolio."
+        },
+        {
+          "heading": "Temperature and Environmental Considerations",
+          "content": "Automotive temperature grades: Grade 0 (-40 to +150°C) for under-hood, Grade 1 (-40 to +125°C) for cabin interior, Grade 2 (-40 to +105°C) for less critical areas. Design must account for worst-case temperatures including self-heating. Thermal management is critical for LED and power applications."
+        },
+        {
+          "heading": "Electrical Environment",
+          "content": "Automotive electrical environment is harsh: Load dump transients up to 79V, Jump start conditions (24V), Reverse polarity protection required, ESD protection essential. Components must survive these conditions without damage. Protection circuits add cost but prevent field failures."
+        },
+        {
+          "heading": "Reliability and Lifetime Requirements",
+          "content": "Automotive reliability requirements typically exceed consumer products: 15-year vehicle lifetime, Zero defect expectations for safety-critical systems, PPAP (Production Part Approval Process) required, Traceability for quality tracking. Design margin and derating are essential practices."
+        },
+        {
+          "heading": "Design for Manufacturing",
+          "content": "Automotive manufacturing requires: Robust designs tolerant of process variation, Comprehensive testing including 100% screening where required, Long-term supply agreements, Change control and notification procedures. Early engagement with manufacturing ensures smooth production ramp."
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Automotive design prioritizes reliability and safety over cost. AEC-Q qualification is mandatory. Design margin and derating are essential for long-term reliability.",
+        "keyConsiderations": "Automotive electrical environment is much harsher than consumer. Protection circuits are not optional. Thermal design must account for worst-case conditions including blocked airflow.",
+        "recommendation": "Engage BeiLuo automotive FAE early in design. plan for PPAP and qualification timeline. design with margin - automotive lifetime is 15+ years."
+      },
+      "customerCases": [
+        {
+          "customer": "Tier 1 Automotive Lighting Supplier",
+          "challenge": "Needed AEC-Q101 qualified LEDs for new headlamp program with 15-year lifetime",
+          "solution": "Implemented Lite-On automotive LED portfolio with comprehensive thermal design",
+          "result": "Passed all OEM qualification tests, zero PPM in first year",
+          "feedback": "Excellent quality and support throughout program lifecycle"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between AEC-Q100 and AEC-Q101?",
+          "answer": "AEC-Q100 applies to integrated circuits (ICs) with specific test requirements for complex devices. AEC-Q101 applies to discrete semiconductors (diodes, transistors, LEDs, optocouplers) with different test methods appropriate for simpler devices. Both ensure automotive-grade reliability but use different test sequences.",
+          "decisionGuide": "Verify correct qualification for each component type. aEC-Q101 for LEDs and optocouplers. aEC-Q100 for ICs. Check qualification documents carefully.",
+          "keywords": [
+            "AEC-Q100",
+            "AEC-Q101",
+            "qualification",
+            "IC",
+            "discrete"
+          ]
+        },
+        {
+          "question": "What temperature grade do I need?",
+          "answer": "Temperature grade depends on location: Grade 0 (-40 to +150°C) for engine compartment and exterior lighting, Grade 1 (-40 to +125°C) for cabin interior and most body electronics, Grade 2 (-40 to +105°C) for less critical interior locations. When in doubt, use higher grade.",
+          "decisionGuide": "Analyze worst-case temperature including self-heating. use Grade 0 for under-hood. grade 1 is sufficient for most cabin applications.",
+          "keywords": [
+            "temperature grade",
+            "Grade 0",
+            "Grade 1",
+            "thermal analysis"
+          ]
+        },
+        {
+          "question": "What is PPAP and when is it required?",
+          "answer": "PPAP (Production Part Approval Process) is a standardized approval process for automotive suppliers. It includes documentation of design, testing, process capability, and quality systems. Required for all new production parts and significant changes. Has 5 levels from simple self-certification to full submission with samples.",
+          "decisionGuide": "Confirm PPAP level required with your customer. start documentation early. plan 4-8 weeks for complete PPAP submission.",
+          "keywords": [
+            "PPAP",
+            "production approval",
+            "quality documentation",
+            "automotive"
+          ]
+        },
+        {
+          "question": "How do I handle automotive electrical transients?",
+          "answer": "Automotive transients require protection: Load dump (ISO 7637-2 Pulse 5a/b) - use TVS diodes or suppressors, Jump start (24V) - verify component ratings, Reverse polarity - use series diode or MOSFET protection, ESD - use protection diodes on all external interfaces. Protection adds cost but prevents field failures.",
+          "decisionGuide": "Implement comprehensive transient protection. follow ISO 7637-2 for pulse definitions. test with actual transient generator.",
+          "keywords": [
+            "load dump",
+            "transient protection",
+            "ISO 7637",
+            "TVS diode"
+          ]
+        },
+        {
+          "question": "What documentation is required for automotive?",
+          "answer": "Automotive typically requires: Material composition and RoHS/REACH compliance, Process flow and control plan, DFMEA and PFMEA, Dimensional and performance test results, Reliability test data, Traceability records. Maintain complete documentation for product lifetime plus required retention period.",
+          "decisionGuide": "Establish documentation system early. Use PPAP as checklist. Maintain records for required retention period (typically 15+ years).",
+          "keywords": [
+            "documentation",
+            "FMEA",
+            "control plan",
+            "traceability",
+            "compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

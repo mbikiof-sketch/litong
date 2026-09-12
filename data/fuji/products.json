@@ -431,7 +431,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on fuji 2MBI600VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -440,7 +440,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on fuji 2MBI600VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -449,7 +449,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on fuji 2MBI600VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -458,7 +458,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on fuji 2MBI600VN-120-50, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -467,7 +467,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on fuji 2MBI600VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -559,7 +559,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on fuji 2MBI450VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -568,7 +568,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on fuji 2MBI450VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -577,7 +577,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on fuji 2MBI450VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -586,7 +586,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on fuji 2MBI450VN-120-50, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -595,7 +595,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on fuji 2MBI450VN-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -627,7 +627,13 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "VCES",
+        "IC",
+        "VCE(sat)",
+        "Eon",
+        "Eoff",
+        "Tj(max)"
       ],
       "applications": [
         "Welding machines",
@@ -766,7 +772,13 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCES": "N/A",
+            "IC": "N/A",
+            "VCE(sat)": "N/A",
+            "Eon": "N/A",
+            "Eoff": "N/A",
+            "Tj(max)": "N/A"
           },
           "name": "Discrete IGBTs FGA40N65SMD"
         },
@@ -894,7 +906,13 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCES": "N/A",
+            "IC": "N/A",
+            "VCE(sat)": "N/A",
+            "Eon": "N/A",
+            "Eoff": "N/A",
+            "Tj(max)": "N/A"
           },
           "name": "Discrete IGBTs FGW50N65HD"
         },
@@ -914,7 +932,10 @@
             "Eon": "8.5mJ typical",
             "Eoff": "12.0mJ typical",
             "Tj(max)": "175°C",
-            "Package": "Package 2 (62mm)"
+            "Package": "Package 2 (62mm)",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "200A current capability",
@@ -989,7 +1010,10 @@
             "Eon": "13.0mJ typical",
             "Eoff": "18.0mJ typical",
             "Tj(max)": "175°C",
-            "Package": "Package 2 (62mm)"
+            "Package": "Package 2 (62mm)",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "300A high current",
@@ -1080,7 +1104,12 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "VCES",
+        "IC",
+        "VCC",
+        "Protection",
+        "Isolation"
       ],
       "applications": [
         "Home appliances",
@@ -1219,7 +1248,12 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCES": "N/A",
+            "IC": "N/A",
+            "VCC": "N/A",
+            "Protection": "N/A",
+            "Isolation": "N/A"
           },
           "name": "IPM Modules 7MBP50RA120"
         },
@@ -1347,7 +1381,12 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCES": "N/A",
+            "IC": "N/A",
+            "VCC": "N/A",
+            "Protection": "N/A",
+            "Isolation": "N/A"
           },
           "name": "IPM Modules 7MBP25RSB120"
         },
@@ -1366,7 +1405,10 @@
             "VCC": "13.5-16.5V",
             "Protection": "UVLO, OCP, Tj monitoring",
             "Isolation": "2500Vrms",
-            "Package": "DIP-24"
+            "Package": "DIP-24",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "50A IGBT integrated",
@@ -1439,7 +1481,10 @@
             "VCC": "13.5-16.5V",
             "Protection": "UVLO, OCP, Tj monitoring",
             "Isolation": "2500Vrms",
-            "Package": "DIP-24"
+            "Package": "DIP-24",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "75A high current",
@@ -1505,7 +1550,7 @@
       "name": "SiC MOSFETs",
       "fullName": "Fuji SiC MOSFETs",
       "description": "Fuji Silicon Carbide MOSFETs for next-generation high-efficiency, high-frequency power systems.",
-      "longDescription": "Fuji Electric's Silicon Carbide (SiC) MOSFETs represent the next generation of power semiconductor technology. With zero reverse recovery charge, low switching losses, and high-temperature operation capability, SiC MOSFETs enable unprecedented efficiency and power density. Fuji's SiC portfolio includes discrete devices and modules for EV chargers, solar inverters, and high-frequency power supplies. As an authorized distributor, we provide comprehensive SiC MOSFETs selection guidance (选型指导) and technical support.",
+      "longDescription": "Fuji Electric's Silicon Carbide (SiC) MOSFETs is the next generation of power semiconductor technology. With zero reverse recovery charge, low switching losses, and high-temperature operation capability, SiC MOSFETs enable unprecedented efficiency and power density. Fuji's SiC portfolio includes discrete devices and modules for EV chargers, solar inverters, and high-frequency power supplies. As an authorized distributor, we provide comprehensive SiC MOSFETs selection guidance (选型指导) and technical support.",
       "series": [
         {
           "name": "Discrete SiC MOSFETs",
@@ -1886,7 +1931,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on fuji 2FMB600XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1895,7 +1940,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on fuji 2FMB600XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1904,7 +1949,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on fuji 2FMB600XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1913,7 +1958,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on fuji 2FMB600XNA-120-50, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1922,7 +1967,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on fuji 2FMB600XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2014,7 +2059,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on fuji 2FMB450XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -2023,7 +2068,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on fuji 2FMB450XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -2032,7 +2077,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on fuji 2FMB450XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -2041,7 +2086,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on fuji 2FMB450XNA-120-50, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -2050,7 +2095,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on fuji 2FMB450XNA-120-50, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

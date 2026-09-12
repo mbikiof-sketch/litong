@@ -73,7 +73,7 @@
       "name": "MM32F Series",
       "slug": "mm32f-series",
       "description": "High-performance ARM Cortex-M3/M4 MCUs with rich peripherals, USB, Ethernet, and advanced analog features for industrial and consumer applications.",
-      "longDescription": "The MM32F Series represents MindMotion's high-performance MCU lineup based on ARM Cortex-M3 and Cortex-M4F cores. These MCUs deliver exceptional processing power with frequencies up to 168MHz, making them ideal for demanding applications requiring complex algorithms, rich user interfaces, and high-speed communication. The series features comprehensive peripheral sets including multiple UART, SPI, I2C interfaces, USB 2.0 OTG, Ethernet MAC, and advanced analog peripherals such as 12-bit ADCs, DACs, and comparators. Memory options range from 64KB to 512KB Flash and 20KB to 128KB SRAM. Security features include hardware encryption engines and tamper detection. The MM32F Series is perfect for industrial automation, HMI displays, medical devices, and complex consumer electronics. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance, development support, and technical services for MM32F series MCUs.",
+      "longDescription": "The MM32F Series is MindMotion's high-performance MCU lineup based on ARM Cortex-M3 and Cortex-M4F cores. These MCUs deliver exceptional processing power with frequencies up to 168MHz, making them ideal for demanding applications requiring complex algorithms, rich user interfaces, and high-speed communication. The series features comprehensive peripheral sets including multiple UART, SPI, I2C interfaces, USB 2.0 OTG, Ethernet MAC, and advanced analog peripherals such as 12-bit ADCs, DACs, and comparators. Memory options range from 64KB to 512KB Flash and 20KB to 128KB SRAM. Security features include hardware encryption engines and tamper detection. The MM32F Series is perfect for industrial automation, HMI displays, medical devices, and complex consumer electronics. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance, development support, and technical services for MM32F series MCUs.",
       "parameters": [
         "Core",
         "Frequency",
@@ -589,7 +589,7 @@
       "name": "MM32L Series",
       "slug": "mm32l-series",
       "description": "Ultra-low-power ARM Cortex-M0+ MCUs optimized for battery-powered applications with multiple low-power modes and wake-up sources.",
-      "longDescription": "The MM32L Series represents MindMotion's ultra-low-power MCU lineup based on ARM Cortex-M0+ cores. These MCUs are specifically designed for battery-powered and energy-harvesting applications where power consumption is critical. The series features multiple low-power modes including Sleep, Deep-sleep, and Standby modes with sub-microamp current consumption. Wake-up sources include external interrupts, RTC, and various peripheral events. Despite the focus on low power, the MM32L Series does not compromise on features, offering rich peripheral sets including multiple UART, SPI, I2C interfaces, 12-bit ADC, and LCD drivers in some variants. Memory options range from 32KB to 128KB Flash and 4KB to 16KB SRAM. The MCUs operate from 1.8V to 3.6V and include brown-out reset and programmable voltage detector. Applications include portable medical devices, wireless sensors, smart meters, and battery-powered IoT devices. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for ultra-low-power MCU designs.",
+      "longDescription": "The MM32L Series is MindMotion's ultra-low-power MCU lineup based on ARM Cortex-M0+ cores. These MCUs are specifically designed for battery-powered and energy-harvesting applications where power consumption is critical. The series features multiple low-power modes including Sleep, Deep-sleep, and Standby modes with sub-microamp current consumption. Wake-up sources include external interrupts, RTC, and various peripheral events. Despite the focus on low power, the MM32L Series does not compromise on features, offering rich peripheral sets including multiple UART, SPI, I2C interfaces, 12-bit ADC, and LCD drivers in some variants. Memory options range from 32KB to 128KB Flash and 4KB to 16KB SRAM. The MCUs operate from 1.8V to 3.6V and include brown-out reset and programmable voltage detector. Applications include portable medical devices, wireless sensors, smart meters, and battery-powered IoT devices. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for ultra-low-power MCU designs.",
       "parameters": [
         "Core",
         "Frequency",
@@ -1017,7 +1017,8 @@
             "Package": "QFN-32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "LCD Segments": "N/A"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1073,7 +1074,8 @@
             "Package": "LQFP-64",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "LCD Segments": "N/A"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1117,7 +1119,7 @@
       "name": "MM32SPIN Series",
       "slug": "mm32spin-series",
       "description": "Motor control dedicated MCUs with integrated gate drivers, advanced PWM, and specialized peripherals for BLDC and PMSM motor control applications.",
-      "longDescription": "The MM32SPIN Series represents MindMotion's specialized motor control MCU lineup designed specifically for brushless DC (BLDC) and permanent magnet synchronous motor (PMSM) control applications. These MCUs integrate motor control optimized peripherals including advanced PWM timers with dead-time insertion, integrated gate drivers for direct MOSFET/IGBT driving, and analog comparators for over-current protection. The series features ARM Cortex-M0+ or Cortex-M3 cores with frequencies up to 96MHz, providing sufficient processing power for sensorless field-oriented control (FOC) algorithms. Key features include hardware cordic for trigonometric calculations, fast ADC sampling synchronized with PWM for current measurement, and break inputs for emergency stop functionality. The integrated gate drivers reduce external component count and simplify PCB layout. Applications include appliance motor control, power tools, fans and pumps, drones, and industrial motor drives. As an authorized MindMotion distributor, LiTong provides comprehensive motor control application support including FOC algorithm guidance and system design services. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for your application needs.",
+      "longDescription": "The MM32SPIN Series is MindMotion's specialized motor control MCU lineup designed specifically for brushless DC (BLDC) and permanent magnet synchronous motor (PMSM) control applications. These MCUs integrate motor control optimized peripherals including advanced PWM timers with dead-time insertion, integrated gate drivers for direct MOSFET/IGBT driving, and analog comparators for over-current protection. The series features ARM Cortex-M0+ or Cortex-M3 cores with frequencies up to 96MHz, providing sufficient processing power for sensorless field-oriented control (FOC) algorithms. Key features include hardware cordic for trigonometric calculations, fast ADC sampling synchronized with PWM for current measurement, and break inputs for emergency stop functionality. The integrated gate drivers reduce external component count and simplify PCB layout. Applications include appliance motor control, power tools, fans and pumps, drones, and industrial motor drives. As an authorized MindMotion distributor, LiTong provides comprehensive motor control application support including FOC algorithm guidance and system design services. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for your application needs.",
       "parameters": [
         "Core",
         "Frequency",
@@ -1129,7 +1131,8 @@
         "Hardware Cordic",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "PWM"
       ],
       "series": [
         {
@@ -1236,7 +1239,8 @@
             "Hardware Cordic": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "PWM": "N/A"
           },
           "features": [
             "ARM Cortex-M0+ up to 72MHz",
@@ -1390,7 +1394,8 @@
             "Gate Drivers": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "PWM": "N/A"
           },
           "features": [
             "ARM Cortex-M3 up to 96MHz",
@@ -1548,7 +1553,10 @@
             "Package": "TSSOP-28",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Gate Drivers": "N/A",
+            "PWM Resolution": "N/A",
+            "Hardware Cordic": "N/A"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1604,7 +1612,10 @@
             "Package": "LQFP-48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Gate Drivers": "N/A",
+            "PWM Resolution": "N/A",
+            "Hardware Cordic": "N/A"
           },
           "features": [
             "ARM Cortex-M3 up to 96MHz",
@@ -1649,7 +1660,7 @@
       "name": "MM32W Series",
       "slug": "mm32w-series",
       "description": "Wireless connectivity MCUs with integrated BLE 5.0 for IoT and smart device applications requiring wireless communication.",
-      "longDescription": "The MM32W Series represents MindMotion's wireless MCU lineup integrating Bluetooth Low Energy (BLE) 5.0 connectivity with ARM Cortex-M0+ processing cores. These MCUs enable wireless IoT applications without the need for separate wireless modules, reducing BOM cost and PCB space. The integrated BLE 5.0 radio supports 2Mbps high-speed mode, long-range mode, and extended advertising for flexible wireless communication. The series features ultra-low power consumption with sub-microamp standby current and efficient radio operation, enabling battery-powered wireless devices with years of operation. Memory options range from 64KB to 256KB Flash and 8KB to 32KB SRAM. Rich peripherals include multiple UART, SPI, I2C interfaces, 12-bit ADC, and capacitive touch sensing. The MM32W Series is ideal for smart home devices, wearable electronics, wireless sensors, and IoT endpoints requiring wireless connectivity. As an authorized MindMotion distributor, LiTong provides wireless application support including BLE protocol guidance and RF design services. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for your application needs.",
+      "longDescription": "The MM32W Series is MindMotion's wireless MCU lineup integrating Bluetooth Low Energy (BLE) 5.0 connectivity with ARM Cortex-M0+ processing cores. These MCUs enable wireless IoT applications without the need for separate wireless modules, reducing BOM cost and PCB space. The integrated BLE 5.0 radio supports 2Mbps high-speed mode, long-range mode, and extended advertising for flexible wireless communication. The series features ultra-low power consumption with sub-microamp standby current and efficient radio operation, enabling battery-powered wireless devices with years of operation. Memory options range from 64KB to 256KB Flash and 8KB to 32KB SRAM. Rich peripherals include multiple UART, SPI, I2C interfaces, 12-bit ADC, and capacitive touch sensing. The MM32W Series is ideal for smart home devices, wearable electronics, wireless sensors, and IoT endpoints requiring wireless connectivity. As an authorized MindMotion distributor, LiTong provides wireless application support including BLE protocol guidance and RF design services. As an authorized MindMotion distributor, LiTong provides comprehensive product selection guidance and technical support for your application needs.",
       "parameters": [
         "Core",
         "Frequency",
@@ -1874,7 +1885,7 @@
             },
             {
               "question": "What antenna options are available?",
-              "answer": "MM32W073PF supports various antenna configurations: (1) PCB antenna - Printed circuit board trace antenna, lowest cost but requires careful PCB layout and tuning. Reference designs available from MindMotion. (2) Chip antenna - Compact ceramic chip antenna (e.g., 2450AT18A100), easy to implement with minimal PCB space. Requires matching network. (3) External antenna - U.FL or SMA connector for external antenna, best performance and flexibility. Requires antenna matching circuit. (4) Ceramic antenna - Low-profile ceramic antenna suitable for space-constrained designs. The RF output is single-ended 50Ω nominal impedance. A matching network (typically PI network with two capacitors and one inductor) is required between RF pin and antenna. The matching network tunes out parasitic capacitance and provides impedance transformation. For FCC/CE certification, antenna matching should be optimized for the specific antenna and PCB layout used.",
+              "answer": "MM32W073PF supports various antenna configurations: (1) PCB antenna - Printed circuit board trace antenna, lowest cost but requires careful PCB layout and tuning. Reference designs available from MindMotion. (2) Chip antenna - Compact ceramic chip antenna (e.g., 2450AT18A100), easy to implement with minimal PCB space. Requires matching network. (3) External antenna - U. FL or SMA connector for external antenna, best performance and flexibility. Requires antenna matching circuit. (4) Ceramic antenna - Low-profile ceramic antenna suitable for space-constrained designs. The RF output is single-ended 50Ω nominal impedance. A matching network (typically PI network with two capacitors and one inductor) is required between RF pin and antenna. The matching network tunes out parasitic capacitance and provides impedance transformation. For FCC/CE certification, antenna matching should be optimized for the specific antenna and PCB layout used.",
               "decisionGuide": "Contact LiTong for antenna selection and RF matching network design.",
               "keywords": [
                 "BLE antenna",

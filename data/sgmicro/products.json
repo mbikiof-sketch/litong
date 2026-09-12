@@ -297,7 +297,7 @@
             },
             {
               "question": "What types of sensors work well with the SGM8551?",
-              "answer": "The SGM8551 is ideal for amplifying low-level sensor signals due to its ultra-low offset voltage. Excellent applications include: thermocouples (type K, J, T) producing microvolt-level signals, strain gauges in bridge configurations, pressure sensors with mV outputs, current sense resistors for low-side and high-side sensing, and photodiode transimpedance amplifiers. The low offset ensures that the amplified signal accurately represents the sensor output without introducing significant DC error.",
+              "answer": "The SGM8551 is ideal for amplifying low-level sensor signals due to its ultra-low offset voltage. Excellent applications include: thermocouples (type K, J, T) producing microvolt-level signals, strain gauges in bridge configurations, pressure sensors with mV outputs, current sense resistors for low-side and high-side sensing, and photodiode transimpedance amplifiers. The low offset ensures that the amplified signal accurately is the sensor output without introducing significant DC error.",
               "decisionGuide": "The SGM8551 is recommended for any sensor application where microvolt-level accuracy is required. Contact us for specific sensor interface recommendations.",
               "keywords": [
                 "SGM8551 sensor amplifier",
@@ -1294,7 +1294,7 @@
           "faeReview": {
             "author": "Kevin Li",
             "title": "Principal FAE - Battery Systems",
-            "content": "The SGM41511 represents SGMICRO's advanced battery charging technology. The integrated power path is a game-changer for mobile devices - it allows the system to power up instantly when connected to a charger, even with a deeply discharged battery. The switching architecture provides 93% efficiency at 2A charge current, significantly reducing thermal stress compared to linear chargers. I particularly appreciate the I2C interface which enables dynamic charge current adjustment based on system load and thermal conditions. For high-end consumer electronics, this charger delivers performance comparable to premium international brands at a competitive price point.",
+            "content": "The SGM41511 is SGMICRO's advanced battery charging technology. The integrated power path is a game-changer for mobile devices - it allows the system to power up instantly when connected to a charger, even with a deeply discharged battery. The switching architecture provides 93% efficiency at 2A charge current, significantly reducing thermal stress compared to linear chargers. I particularly appreciate the I2C interface which enables dynamic charge current adjustment based on system load and thermal conditions. For high-end consumer electronics, this charger delivers performance comparable to premium international brands at a competitive price point.",
             "highlight": "Advanced switching charger with power path for high-performance mobile devices"
           },
           "alternativeParts": [
@@ -1499,7 +1499,8 @@
         "Protection Features",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Switching Frequency"
       ],
       "applications": [
         "Industrial Automation",
@@ -1596,7 +1597,8 @@
             "Package": "TSSOP-16, QFN-4x4-24",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Dual H-bridge configuration",
@@ -1736,7 +1738,8 @@
             "Package": "QFN-5x5-28, TSSOP-28",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Up to 1/32 microstepping resolution",
@@ -1874,7 +1877,9 @@
             "Output Current": "N/A",
             "Switching Frequency": "Up to 100kHz",
             "Protection Features": "UVLO, OCP, Fault reporting",
-            "Temperature Range": "-40C to +125C"
+            "Temperature Range": "-40C to +125C",
+            "Supply Voltage": "N/A",
+            "Control Interface": "N/A"
           },
           "features": [
             "600V high-voltage operation",
@@ -1915,7 +1920,9 @@
             "Output Current": "N/A",
             "Switching Frequency": "N/A",
             "Protection Features": "N/A",
-            "Temperature Range": "-40C to +125C"
+            "Temperature Range": "-40C to +125C",
+            "Supply Voltage": "N/A",
+            "Control Interface": "N/A"
           },
           "features": [
             "Wide common-mode range: 2.9V to 60V",

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= brand.displayName %> | Core Distributor | BeiLuo</title>
+  <title><%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= brand.description %>">
   <meta name="keywords" content="<%= brand.name %>, distributor, <%= brand.coreProducts.map(function(p) { return typeof p === 'string' ? p : p.name; }).join(', ') %>">
   <meta name="robots" content="index, follow">
   <meta name="author" content="BeiLuo">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="<%= brand.displayName %> | BeiLuo">
+  <meta property="og:title" content="<%= brand.displayName %> Distributor | BeiLuo">
   <meta property="og:description" content="<%= brand.description %>">
   <meta property="og:type" content="website">
   
@@ -181,6 +181,27 @@
       }
     }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://ic-distributor.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "<%= brand.displayName %>",
+      "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/"
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <!-- 导航栏 -->
@@ -515,11 +536,22 @@
               'Jintide Server Platform': 'jintide-server'
             };
           %>
-          <% brand.coreProducts.forEach(function(product) { %>
-            <% var productName = typeof product === 'string' ? product : product.name; %>
-            <% var productDesc = typeof product === 'string' ? '' : product.description; %>
-            <% var fileName = productFileMap[productName] || productName.toLowerCase().replace(/\s+/g, '-'); %>
-            <a href="/<%= brand.name.toLowerCase() %>/products/<%= fileName %>.html" class="product-category">
+          <%
+            // 优先使用 products.categories，如果不存在则回退到 brand.coreProducts
+            var productCategories = (typeof products !== 'undefined' && products && products.categories && products.categories.length > 0)
+              ? products.categories
+              : brand.coreProducts.map(function(p) {
+                  var name = typeof p === 'string' ? p : p.name;
+                  var desc = typeof p === 'string' ? '' : p.description;
+                  return { name: name, description: desc, slug: name.toLowerCase().replace(/\s+/g, '-') };
+                });
+          %>
+          <% productCategories.forEach(function(category) { %>
+            <% var categoryName = category.name || category; %>
+            <% var categoryDesc = category.description || category.shortDescription || ''; %>
+            <% var categorySlug = category.slug || categoryName.toLowerCase().replace(/\s+/g, '-'); %>
+            <% var fileName = productFileMap[categoryName] || categorySlug; %>
+            <a href="/<%= brand.name.toLowerCase() %>/products/<%= fileName %>/" class="product-category">
               <div class="category-icon">
                 <svg viewBox="0 0 80 80" fill="currentColor">
                   <rect x="15" y="25" width="50" height="30" rx="4" fill="#0072ce" opacity="0.2"/>
@@ -532,8 +564,8 @@
                   <rect x="62" y="43" width="8" height="4" fill="#666"/>
                 </svg>
               </div>
-              <h3><%= productName %></h3>
-              <p><%= productDesc %></p>
+              <h3><%= categoryName %></h3>
+              <p><%= categoryDesc %></p>
             </a>
           <% }); %>
         </div>
@@ -548,7 +580,7 @@
         <div class="solutions-grid">
           <% if (solutions && solutions.solutions && solutions.solutions.length > 0) { %>
             <% solutions.solutions.forEach(function(solution, index) { %>
-              <a href="/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>.html" class="solution-card">
+              <a href="/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>" class="solution-card">
                 <div class="solution-icon">
                   <% if (index % 4 === 0) { %>
                     <svg viewBox="0 0 80 80" fill="currentColor">
@@ -685,7 +717,7 @@
         <div class="support-grid">
           <% if (support && support.articles && support.articles.length > 0) { %>
             <% support.articles.slice(0, 4).forEach(function(article) { %>
-              <a href="/<%= brand.name.toLowerCase() %>/support/<%= article.id %>.html" class="support-card">
+              <a href="/<%= brand.name.toLowerCase() %>/support/<%= article.id %>" class="support-card">
                 <div class="support-category"><%= article.category || 'Technical Article' %></div>
                 <h3><%= article.title %></h3>
                 <p><%= article.summary || article.desc %></p>

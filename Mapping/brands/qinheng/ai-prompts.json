@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for qinheng distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for qinheng CH340 USB UART, CH341 SPI I2C, CH32 RISC-V MCU. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is CH340 vs CH340 vs CP2102 vs best USB UART chip. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for qinheng USB interface chips covering CH340 USB UART, CH341 SPI I2C, CH32 RISC-V MCU, CH32V307 distributor."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What is CH340?; How to install CH340 driver?; CH340 vs CP2102 differences; CH32 series comparison; USB to UART selection tips"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for qinheng distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for qinheng distributor with Product and Organization types."
+    }
+  ]
+}

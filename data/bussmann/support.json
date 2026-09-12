@@ -226,7 +226,7 @@
         },
         {
           "question": "How do I size fuses for motor protection?",
-          "answer": "Size motor fuses at 125-175% of motor full-load current (FLA). For example, a 10HP motor at 230V has 28A FLA, use 35A or 40A fuse. Always verify with NEC requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Size motor fuses at 125-175% of motor full-load current (FLA). For example, a 10HP motor at 230V has 28A FLA, use 35A or 40A fuse. Always verify with NEC requirements. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Size at 125-175% of FLA. Consult NEC for specific requirements.",
           "keywords": [
             "motor fuse sizing",
@@ -236,7 +236,7 @@
         },
         {
           "question": "What breaking capacity do I need?",
-          "answer": "Breaking capacity must exceed maximum prospective fault current. Calculate based on transformer kVA and impedance. Most industrial facilities need 100kA minimum, larger systems need 200kA or more. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Breaking capacity must exceed maximum prospective fault current. Calculate based on transformer kVA and impedance. Most industrial facilities need 100kA minimum, larger systems need 200kA or more. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate fault current and add 25% margin.",
           "keywords": [
             "breaking capacity",
@@ -245,7 +245,7 @@
         },
         {
           "question": "Can Class J fuses replace Class RK fuses?",
-          "answer": "Class J can replace Class RK only with compatible fuse block/holder. Class J fuses are smaller and require Class J mounting. Never substitute higher ampere rating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Class J can replace Class RK only with compatible fuse block/holder. Class J fuses are smaller and require Class J mounting. Never substitute higher ampere rating. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify holder compatibility. Consult electrician for proper replacement.",
           "keywords": [
             "fuse replacement",
@@ -255,7 +255,7 @@
         },
         {
           "question": "What standards do Bussmann fuses meet?",
-          "answer": "Bussmann fuses meet UL, CSA, and IEC standards. Class J meets UL 248-8, Class RK meets UL 248-12. All fuses are tested to rigorous safety standards. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Bussmann fuses meet UL, CSA, and IEC standards. Class J meets UL 248-8, Class RK meets UL 248-12. All fuses are tested to rigorous safety standards. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify required certifications for your application.",
           "keywords": [
             "UL",
@@ -367,7 +367,7 @@
       "faqs": [
         {
           "question": "What is I2t coordination?",
-          "answer": "I2t coordination ensures fuse clearing I2t is less than semiconductor withstand I2t. Calculate fuse clearing I2t from curves. Select fuse with 20% margin below semiconductor rating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "I2t coordination ensures fuse clearing I2t is less than semiconductor withstand I2t. Calculate fuse clearing I2t from curves. Select fuse with 20% margin below semiconductor rating. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Ensure fuse I2t < 0.8 x semiconductor withstand I2t.",
           "keywords": [
             "I2t",
@@ -377,7 +377,7 @@
         },
         {
           "question": "Why do semiconductors need special fuses?",
-          "answer": "Semiconductors are damaged by overcurrent much faster than wires. Standard fuses open too slowly to protect IGBTs. Semiconductor fuses clear in under 1ms to prevent thermal damage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Semiconductors are damaged by overcurrent much faster than wires. Standard fuses open too slowly to protect IGBTs. Semiconductor fuses clear in under 1ms to prevent thermal damage. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always use high-speed semiconductor fuses for IGBT protection.",
           "keywords": [
             "high-speed",
@@ -396,7 +396,7 @@
         },
         {
           "question": "What voltage rating do I need for 690V systems?",
-          "answer": "For 690V AC systems, select 700V or higher rated fuses. For DC systems, consider 1000V rated fuses for margin. Always include voltage margin for transients. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "For 690V AC systems, select 700V or higher rated fuses. For DC systems, consider 1000V rated fuses for margin. Always include voltage margin for transients. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select fuse voltage at least 20% above maximum circuit voltage.",
           "keywords": [
             "voltage rating",
@@ -406,7 +406,7 @@
         },
         {
           "question": "Can I use semiconductor fuses for general protection?",
-          "answer": "While possible, semiconductor fuses are optimized for fast clearing and may nuisance open on inrush. For general circuits, use Class J or RK fuses which are more economical. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "While possible, semiconductor fuses are optimized for fast clearing and may nuisance open on inrush. For general circuits, use Class J or RK fuses which are more economical. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use semiconductor fuses only for semiconductor protection.",
           "keywords": [
             "application",
@@ -511,7 +511,7 @@
       "faqs": [
         {
           "question": "What voltage is needed for EV battery fuses?",
-          "answer": "For 400V systems use 500V fuses. For 800V systems use 1000V fuses. Always select rating 20% above nominal DC voltage for margin. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "For 400V systems use 500V fuses. For 800V systems use 1000V fuses. Always select rating 20% above nominal DC voltage for margin. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select voltage 20% above nominal system voltage.",
           "keywords": [
             "EV voltage",
@@ -520,7 +520,7 @@
         },
         {
           "question": "What is AEC-Q200 qualification?",
-          "answer": "AEC-Q200 is the automotive standard for passive component reliability. It includes tests for temperature cycling, vibration, humidity, and thermal shock. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "AEC-Q200 is the automotive standard for passive component reliability. It includes tests for temperature cycling, vibration, humidity, and thermal shock. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always verify AEC-Q200 for automotive applications.",
           "keywords": [
             "AEC-Q200",
@@ -530,7 +530,7 @@
         },
         {
           "question": "How do I calculate breaking capacity for EV batteries?",
-          "answer": "Battery fault current = Voltage / (Internal Resistance + Circuit Resistance). Large packs can deliver 20-50kA. Select breaking capacity 25% above calculated fault current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Battery fault current = Voltage / (Internal Resistance + Circuit Resistance). Large packs can deliver 20-50kA. Select breaking capacity 25% above calculated fault current. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate fault current and add 25% margin.",
           "keywords": [
             "breaking capacity",
@@ -539,7 +539,7 @@
         },
         {
           "question": "What mounting torque should I use?",
-          "answer": "EV fuse bolt terminals typically require 25-30 Nm for M10 bolts and 12-15 Nm for M8 bolts. Use calibrated torque wrench. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "EV fuse bolt terminals typically require 25-30 Nm for M10 bolts and 12-15 Nm for M8 bolts. Use calibrated torque wrench. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use specified torque values and verify after thermal cycling.",
           "keywords": [
             "torque",
@@ -548,7 +548,7 @@
         },
         {
           "question": "How do EV fuses coordinate with BMS?",
-          "answer": "BMS handles moderate overcurrents via contactors. Fuses protect against high-current faults BMS cannot clear. Coordinate fuse time-current curve with BMS trip characteristics. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "BMS handles moderate overcurrents via contactors. Fuses protect against high-current faults BMS cannot clear. Coordinate fuse time-current curve with BMS trip characteristics. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Coordinate fuse with BMS protection curves.",
           "keywords": [
             "BMS",
@@ -654,7 +654,7 @@
       "faqs": [
         {
           "question": "What is gPV certification?",
-          "answer": "gPV per IEC 60269-7 is required for PV fuses. It indicates testing for DC interruption at PV voltages up to 1500V and ability to clear low overcurrents typical of PV faults. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "gPV per IEC 60269-7 is required for PV fuses. It indicates testing for DC interruption at PV voltages up to 1500V and ability to clear low overcurrents typical of PV faults. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always use gPV-certified fuses for PV applications.",
           "keywords": [
             "gPV",
@@ -664,7 +664,7 @@
         },
         {
           "question": "How do I size solar string fuses?",
-          "answer": "Per NEC 690.9, size fuses at 1.56 x module Isc. Example: 10A Isc needs minimum 15.6A fuse, use 15A or 20A standard rating. This accounts for increased current at low temperatures. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Per NEC 690.9, size fuses at 1.56 x module Isc. Example: 10A Isc needs minimum 15.6A fuse, use 15A or 20A standard rating. This accounts for increased current at low temperatures. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Size at 1.56x string Isc. Round up to nearest standard rating.",
           "keywords": [
             "sizing",
@@ -674,7 +674,7 @@
         },
         {
           "question": "What voltage rating do I need?",
-          "answer": "Match fuse voltage to system maximum voltage including Voc at lowest temperature. For 1000V systems, use 1000V fuses. For 1500V systems, use 1500V fuses. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Match fuse voltage to system maximum voltage including Voc at lowest temperature. For 1000V systems, use 1000V fuses. For 1500V systems, use 1500V fuses. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate maximum system voltage and select fuse rating above this value.",
           "keywords": [
             "voltage rating",
@@ -683,7 +683,7 @@
         },
         {
           "question": "Can I use standard fuses for solar?",
-          "answer": "No. Standard AC fuses are not tested for DC interruption at PV voltages and may fail to clear faults safely. Always use gPV-certified fuses. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "No. Standard AC fuses are not tested for DC interruption at PV voltages and may fail to clear faults safely. Always use gPV-certified fuses. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Always use gPV-certified fuses for solar. Never use standard AC fuses.",
           "keywords": [
             "gPV",
@@ -693,7 +693,7 @@
         },
         {
           "question": "What is the difference between 1000V and 1500V fuses?",
-          "answer": "1500V fuses have enhanced insulation for higher voltages. 1500V systems allow longer strings, reducing cabling costs. Both must be gPV certified. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "1500V fuses have enhanced insulation for higher voltages. 1500V systems allow longer strings, reducing cabling costs. Both must be gPV certified. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Match fuse voltage to system design. Use 1500V for utility-scale systems.",
           "keywords": [
             "1000V",
@@ -862,7 +862,7 @@
         },
         {
           "question": "How often should coordination be reviewed?",
-          "answer": "Review coordination whenever system changes are made, such as adding new loads, upgrading transformers, or modifying protection devices. Annual review is recommended for critical systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Review coordination whenever system changes are made, such as adding new loads, upgrading transformers, or modifying protection devices. Annual review is recommended for critical systems. For detailed specifications and application support on bussmann products, refer to the datasheet or contact our team.",
           "decisionGuide": "Review coordination after system changes and annually for critical systems.",
           "keywords": [
             "coordination review",

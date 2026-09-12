@@ -101,11 +101,11 @@
           "customerName": "DesignCompany",
           "industry": "Design",
           "application": "100W LEDDriver",
-          "problem": "BrandMOSFET,  Force",
+          "problem": "BrandMOSFET, Force",
           "diagnosis": "Application CR Micro MOSFET Requirement",
           "solution": "CR Micro CSJ20N65A, OptimizeDriver",
-          "results": "35%, Efficiency 91% ,  ReliabilityTest",
-          "lessons": ", CR Micro MOSFET Brand",
+          "results": "35%, Efficiency 91%, ReliabilityTest",
+          "lessons": "CR Micro MOSFET Brand",
           "challenge": "Design complexity and component selection",
           "feedback": "Excellent performance and reliable operation achieved"
         }
@@ -173,7 +173,7 @@
       "id": "how-to-select-crmicro-igbt",
       "title": "How to Select CR Micro IGBTs for Motor Drive Applications",
       "summary": "Comprehensive guide for selecting CR Micro IGBTs in motor drive and power conversion applications, including voltage, current, and switching considerations.",
-      "content": "# How to Select CR Micro IGBTs\n\n## Introduction\n\nCR Micro IGBTs offer cost-effective solutions for motor drives and power conversion. This guide covers selection criteria and application considerations.\n\n## Voltage Rating Selection\n\n- **600V IGBTs**: Single-phase and three-phase motor drives up to 380VAC\n- **1200V IGBTs**: High-voltage applications, renewable energy systems\n\n## Current Rating\n\nCalculate based on motor power, overload requirements, and thermal constraints.\n\n## Switching Characteristics\n\nConsider switching frequency, losses, and EMI requirements.\n\n## Application Examples\n\n1. Washing machine drives - 600V, 10-30A\n2. Industrial servo drives - 600V/1200V, 50-100A\n3. Solar inverters - 1200V, 50-200A\n\n## Conclusion\n\nCR Micro IGBTs provide reliable performance for cost-sensitive applications.",
+      "content": "# How to Select CR Micro IGBTs\n\n## Introduction\n\nCR Micro IGBTs offer cost-effective solutions for motor drives and power conversion. This guide covers selection criteria and application considerations.\n\n## Voltage Rating Selection\n\n- **600V IGBTs**: Single-phase and three-phase motor drives up to 380VAC\n- **1200V IGBTs**: High-voltage applications, renewable energy systems\n\n## Current Rating\n\ncalculate based on motor power, overload requirements, and thermal constraints.\n\n## Switching Characteristics\n\nconsider switching frequency, losses, and EMI requirements.\n\n## Application Examples\n\n1. Washing machine drives - 600V, 10-30A\n2. Industrial servo drives - 600V/1200V, 50-100A\n3. Solar inverters - 1200V, 50-200A\n\n## Conclusion\n\nCR Micro IGBTs provide reliable performance for cost-sensitive applications.",
       "category": "Technical Guide",
       "tags": [
         "CR Micro",
@@ -237,9 +237,9 @@
           "industry": "家电制造",
           "application": "Driver",
           "problem": "Low CostReliable IGBT",
-          "diagnosis": "Power Frequency , CR Micro IGBT Requirement",
+          "diagnosis": "Power Frequency, CR Micro IGBT Requirement",
           "solution": "CR Micro CRG40T60AN3H, OptimizeDriver",
-          "results": "30%,  ,  ReliabilityTest",
+          "results": "30%,, ReliabilityTest",
           "lessons": "CR Micro IGBT Application",
           "challenge": "Design complexity and component selection",
           "feedback": "Excellent performance and reliable operation achieved"
@@ -371,10 +371,10 @@
           "customerName": "LED",
           "industry": "LED",
           "application": "60W Driver",
-          "problem": "Driver ,  Certify",
+          "problem": "Driver, Certify",
           "diagnosis": "CR Micro Requirement",
           "solution": "CSJ20N65A CR6850DesignflybackDriver",
-          "results": "Efficiency92%,  28%,  CECertify",
+          "results": "Efficiency92%, 28%, CECertify",
           "lessons": "CR Micro LED Marketing Yes Force",
           "challenge": "Design complexity and component selection",
           "feedback": "Excellent performance and reliable operation achieved"
@@ -509,7 +509,7 @@
           "problem": "Low CostESD",
           "diagnosis": "CR Micro ESD IEC 61000-4-2Requirement",
           "solution": "CR Micro ESD",
-          "results": "8kV Test,  40%",
+          "results": "8kV Test, 40%",
           "lessons": "CR Micro",
           "challenge": "Design complexity and component selection",
           "feedback": "Excellent performance and reliable operation achieved"

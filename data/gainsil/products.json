@@ -77,7 +77,11 @@
         "Noise Density",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Bandwidth",
+        "Supply Current",
+        "Input Offset",
+        "Output"
       ],
       "applications": [
         "Sensor Signal Conditioning",
@@ -166,7 +170,11 @@
             "Package": "SOT23-5, SOP-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Bandwidth": "N/A",
+            "Supply Current": "N/A",
+            "Input Offset": "N/A",
+            "Output": "N/A"
           },
           "features": [
             "Ultra-low 50μV maximum input offset voltage",
@@ -342,7 +350,11 @@
             "Package": "SOT23-5, MSOP-8, SOP-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Bandwidth": "N/A",
+            "Supply Current": "N/A",
+            "Input Offset": "N/A",
+            "Output": "N/A"
           },
           "features": [
             "Low 200μV maximum input offset voltage",
@@ -506,7 +518,16 @@
             "Supply Current": "200μA per amp",
             "Input Offset": "2mV max",
             "Output": "Rail-to-rail",
-            "Package": "SOIC-8, MSOP-8"
+            "Package": "SOIC-8, MSOP-8",
+            "GBW": "N/A",
+            "Offset Voltage": "N/A",
+            "Offset Drift": "N/A",
+            "Quiescent Current": "N/A",
+            "Input Bias Current": "N/A",
+            "Noise Density": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Low power 200μA",
@@ -580,7 +601,16 @@
             "Supply Current": "800μA total",
             "Input Offset": "2mV max",
             "Output": "Rail-to-rail",
-            "Package": "SOIC-14, TSSOP-14"
+            "Package": "SOIC-14, TSSOP-14",
+            "GBW": "N/A",
+            "Offset Voltage": "N/A",
+            "Offset Drift": "N/A",
+            "Quiescent Current": "N/A",
+            "Input Bias Current": "N/A",
+            "Noise Density": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Quad amplifiers",
@@ -663,7 +693,11 @@
         "Output Type",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Supply Current",
+        "Input Offset",
+        "Hysteresis",
+        "Output"
       ],
       "applications": [
         "Window Comparators",
@@ -750,7 +784,11 @@
             "Package": "SOT23-5",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Current": "N/A",
+            "Input Offset": "N/A",
+            "Hysteresis": "N/A",
+            "Output": "N/A"
           },
           "features": [
             "Ultra-fast 40ns propagation delay",
@@ -917,7 +955,11 @@
             "Package": "MSOP-8, SOP-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Current": "N/A",
+            "Input Offset": "N/A",
+            "Hysteresis": "N/A",
+            "Output": "N/A"
           },
           "features": [
             "Dual independent comparators",
@@ -1081,7 +1123,14 @@
             "Input Offset": "5mV max",
             "Hysteresis": "Internal 4mV",
             "Output": "Open-collector",
-            "Package": "SOIC-8, MSOP-8"
+            "Package": "SOIC-8, MSOP-8",
+            "Input Offset Voltage": "N/A",
+            "Quiescent Current": "N/A",
+            "Input Bias Current": "N/A",
+            "Output Type": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Low power 100μA",
@@ -1155,7 +1204,14 @@
             "Input Offset": "5mV max",
             "Hysteresis": "Internal 4mV",
             "Output": "Open-collector",
-            "Package": "SOIC-14, TSSOP-14"
+            "Package": "SOIC-14, TSSOP-14",
+            "Input Offset Voltage": "N/A",
+            "Quiescent Current": "N/A",
+            "Input Bias Current": "N/A",
+            "Output Type": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Quad comparators",
@@ -1239,7 +1295,10 @@
         "Quiescent Current",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Off-Isolation",
+        "Crosstalk",
+        "THD"
       ],
       "applications": [
         "Signal Routing",
@@ -1327,7 +1386,10 @@
             "Package": "SOT23-6, SC70-6",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Off-Isolation": "N/A",
+            "Crosstalk": "N/A",
+            "THD": "N/A"
           },
           "features": [
             "Ultra-low 0.5Ω on-resistance",
@@ -1495,7 +1557,10 @@
             "Package": "SC70-5, SOT23-5",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Off-Isolation": "N/A",
+            "Crosstalk": "N/A",
+            "THD": "N/A"
           },
           "features": [
             "Ultra-low voltage operation down to 1.8V",
@@ -1659,7 +1724,14 @@
             "Off-Isolation": "65dB @ 1MHz",
             "Crosstalk": "-60dB",
             "Charge Injection": "10pC",
-            "Package": "SC70-6"
+            "Package": "SC70-6",
+            "On-Resistance Flatness": "N/A",
+            "Leakage Current": "N/A",
+            "Quiescent Current": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "THD": "N/A"
           },
           "features": [
             "Low on-resistance 2.5Ω",
@@ -1732,7 +1804,14 @@
             "THD": "-90dB",
             "Off-Isolation": "70dB @ 1MHz",
             "Charge Injection": "8pC",
-            "Package": "SC70-6, SOT23-6"
+            "Package": "SC70-6, SOT23-6",
+            "On-Resistance Flatness": "N/A",
+            "Leakage Current": "N/A",
+            "Quiescent Current": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Crosstalk": "N/A"
           },
           "features": [
             "Ultra-low 1.5Ω resistance",
@@ -1813,7 +1892,9 @@
         "Dynamic Impedance",
         "Temperature Range",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Reference Voltage",
+        "Temp Coefficient"
       ],
       "applications": [
         "ADC Reference",
@@ -1841,7 +1922,7 @@
         },
         {
           "question": "How do I calculate temperature drift error?",
-          "answer": "Temperature drift error is calculated by multiplying the drift coefficient (ppm/°C) by the temperature range (°C) and the reference voltage. Error (V) = Vref × (Drift/1,000,000) × ΔT. For example, a 2.5V reference with 20ppm/°C drift over 100°C range has error: 2.5V × (20/1,000,000) × 100 = 5mV. This represents 0.2% error from drift alone. Add initial accuracy error (±0.5% = ±12.5mV) for total error budget. For precision applications, choose lowest drift available (10ppm/°C or better). Consider your operating temperature range - industrial (-40°C to +85°C) has 125°C range; automotive (-40°C to +125°C) has 165°C range. Drift is not always linear - some references have specified drift over different temperature ranges.",
+          "answer": "Temperature drift error is calculated by multiplying the drift coefficient (ppm/°C) by the temperature range (°C) and the reference voltage. Error (V) = Vref × (Drift/1,000,000) × ΔT. For example, a 2.5V reference with 20ppm/°C drift over 100°C range has error: 2.5V × (20/1,000,000) × 100 = 5mV. This is 0.2% error from drift alone. Add initial accuracy error (±0.5% = ±12.5mV) for total error budget. For precision applications, choose lowest drift available (10ppm/°C or better). Consider your operating temperature range - industrial (-40°C to +85°C) has 125°C range; automotive (-40°C to +125°C) has 165°C range. Drift is not always linear - some references have specified drift over different temperature ranges.",
           "decisionGuide": "Calculate total error including initial accuracy and drift over your temperature range. Choose lowest drift that meets your accuracy budget.",
           "keywords": [
             "temperature drift calculation",
@@ -1899,7 +1980,9 @@
             "Temperature Range": "-40°C to +125°C",
             "Package": "SOT23-3, TO-92",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Reference Voltage": "N/A",
+            "Temp Coefficient": "N/A"
           },
           "features": [
             "Precision 2.5V reference voltage",
@@ -2065,7 +2148,9 @@
             "Temperature Range": "-40°C to +125°C",
             "Package": "SOT23-3, SC70-3",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Reference Voltage": "N/A",
+            "Temp Coefficient": "N/A"
           },
           "features": [
             "Low 1.25V reference voltage",
@@ -2173,7 +2258,7 @@
             },
             {
               "question": "What is the temperature coefficient and how does it affect accuracy?",
-              "answer": "The temperature coefficient (tempco) of 30ppm/°C means the reference voltage changes by 30 parts per million for each degree Celsius temperature change. For GS432's 1.25V output over 100°C range: Error = 1.25V × (30/1,000,000) × 100 = 3.75mV. This represents 0.3% error from drift alone. Combined with 1% initial accuracy, total error could be ±1.3% over temperature. For better accuracy, you can calibrate at a known temperature or use software compensation if temperature is monitored. The 30ppm specification is maximum - typical devices perform better. For applications requiring highest accuracy over temperature, consider references with lower tempco (10-20ppm/°C) or implement temperature compensation in your system.",
+              "answer": "The temperature coefficient (tempco) of 30ppm/°C means the reference voltage changes by 30 parts per million for each degree Celsius temperature change. For GS432's 1.25V output over 100°C range: Error = 1.25V × (30/1,000,000) × 100 = 3.75mV. This is 0.3% error from drift alone. Combined with 1% initial accuracy, total error could be ±1.3% over temperature. For better accuracy, you can calibrate at a known temperature or use software compensation if temperature is monitored. The 30ppm specification is maximum - typical devices perform better. For applications requiring highest accuracy over temperature, consider references with lower tempco (10-20ppm/°C) or implement temperature compensation in your system.",
               "decisionGuide": "Calculate total error including initial accuracy and tempco over your temperature range. Consider calibration for highest accuracy.",
               "keywords": [
                 "temperature coefficient",
@@ -2228,7 +2313,12 @@
             "Temp Coefficient": "20ppm/°C",
             "Operating Current": "1mA to 100mA",
             "Dynamic Impedance": "0.2Ω typical",
-            "Package": "SOT23-3, SC70-3"
+            "Package": "SOT23-3, SC70-3",
+            "Output Voltage": "N/A",
+            "Temperature Drift": "N/A",
+            "Temperature Range": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "0.5% accuracy",
@@ -2300,7 +2390,12 @@
             "Temp Coefficient": "20ppm/°C",
             "Operating Current": "1mA to 100mA",
             "Dynamic Impedance": "0.2Ω typical",
-            "Package": "SOT23-3, SC70-3"
+            "Package": "SOT23-3, SC70-3",
+            "Output Voltage": "N/A",
+            "Temperature Drift": "N/A",
+            "Temperature Range": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "1.24V output",

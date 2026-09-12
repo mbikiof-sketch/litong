@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for rohm distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for rohm Rohm SiC MOSFET, Rohm SiC Schottky diode, Rohm IGBT. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: Rohm vs Infineon SiC comparison vs Rohm SiC MOSFET specifications vs Best SiC power devices for EV vs ROHM半导体 SiC功率器件. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for rohm USB interface chips covering Rohm SiC MOSFET, Rohm SiC Schottky diode, Rohm IGBT, Rohm power module."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What makes Rohm SiC MOSFETs different from competitors?; What is the difference between Rohm SiC generations?; How does Rohm achieve industry-leading Rds(on)?; What are the benefits of Rohm's integrated power solution?; What is Rohm's market share in SiC devices?; How does Rohm's 8-inch SiC wafer help cost reduction?; What automotive applications use Rohm SiC?; What is the difference between SiC MOSFET and SiC SBD?; How to select Rohm SiC for 800V EV systems?; What reference designs does Rohm provide?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for rohm distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for rohm distributor with Product and Organization types."
+    }
+  ]
+}

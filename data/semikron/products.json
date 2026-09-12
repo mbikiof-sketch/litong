@@ -295,8 +295,7 @@
         "Collector-Emitter Saturation Voltage",
         "Switching Frequency",
         "Isolation Voltage",
-        "Operating Temperature",
-        "Package"
+        "Operating Temperature"
       ],
       "applications": [
         "Industrial motor drives",
@@ -507,7 +506,7 @@
           ],
           "faeReview": {
             "author": "Senior FAE",
-            "content": "The SKiiP 1813GB123 represents the latest in IPM technology. The 181A rating with advanced Trenchgate 4 provides excellent performance for high-power drives. The enhanced protection features and diagnostics make this ideal for critical applications. For 30-37kW drives requiring high reliability, this is the recommended solution.",
+            "content": "The SKiiP 1813GB123 is the latest in IPM technology. The 181A rating with advanced Trenchgate 4 provides excellent performance for high-power drives. The enhanced protection features and diagnostics make this ideal for critical applications. For 30-37kW drives requiring high reliability, this is the recommended solution.",
             "highlight": "181A advanced IPM, enhanced protection"
           },
           "alternativeParts": [
@@ -561,8 +560,7 @@
         "Switching Frequency",
         "Isolation Voltage",
         "Protection",
-        "Operating Temperature",
-        "Package"
+        "Operating Temperature"
       ],
       "applications": [
         "Motor drives",
@@ -639,7 +637,8 @@
             "Protection": "Desat, Active Clamp",
             "Switching Frequency": "Up to 50kHz",
             "Operating Temperature": "-40°C to +85°C",
-            "Dimensions": "58mm x 42mm"
+            "Dimensions": "58mm x 42mm",
+            "Features": "N/A"
           },
           "features": [
             "Dual-channel driver",
@@ -697,7 +696,8 @@
             "Protection": "Desat, Soft SD, Clamp",
             "Switching Frequency": "Up to 50kHz",
             "Operating Temperature": "-40°C to +85°C",
-            "Dimensions": "78mm x 58mm"
+            "Dimensions": "78mm x 58mm",
+            "Features": "N/A"
           },
           "features": [
             "High-current 15A driver",
@@ -749,7 +749,9 @@
             "Protection": "Basic UVLO",
             "Switching Frequency": "Up to 100kHz",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SIP"
+            "Package": "SIP",
+            "Dimensions": "N/A",
+            "Features": "N/A"
           },
           "features": [
             "Compact SIP package",
@@ -800,7 +802,8 @@
             "Protection": "Advanced full protection",
             "Switching Frequency": "Up to 20kHz",
             "Operating Temperature": "-40°C to +85°C",
-            "Features": "Series connection support"
+            "Features": "Series connection support",
+            "Dimensions": "N/A"
           },
           "features": [
             "30A ultra-high current",
@@ -825,7 +828,9 @@
         "Isolation Voltage",
         "Protection",
         "Switching Frequency",
-        "Operating Temperature"
+        "Operating Temperature",
+        "Dimensions",
+        "Features"
       ],
       "applications": [
         "IGBT control",
@@ -1085,8 +1090,7 @@
         "Forward Voltage",
         "Recovery Time",
         "Isolation Voltage",
-        "Operating Temperature",
-        "Package"
+        "Operating Temperature"
       ],
       "applications": [
         "Rectifiers",

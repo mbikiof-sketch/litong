@@ -89,7 +89,7 @@
           "application": "Modular Machine Controller",
           "problem": "The customer was selecting an EtherCAT controller for their new machine platform. They initially planned to use FCE1100 for cost reasons but were concerned about cabling complexity in their modular machine design.",
           "diagnosis": "Analysis of their machine topology revealed that a pure daisy-chain would require long cable runs between distant modules. A branched topology would reduce cable length by 40% but required 3-port capability.",
-          "solution": "We recommended FCE1353 for its 3-port capability. The integrated PHYs actually reduced total BOM cost compared to FCE1100 with external PHYs. The customer implemented a T-junction topology that optimized cable routing.",
+          "solution": "We recommended FCE1353 for its 3-port capability. The integrated PHYs reduced total BOM cost compared to FCE1100 with external PHYs. The customer implemented a T-junction topology that optimized cable routing.",
           "results": "Cable cost reduced by 35%, installation time decreased by 30%, and the cleaner wiring improved machine reliability. The customer standardized on FCE1353 for their entire product line.",
           "feedback": "Customer reported positive experience and successful implementation.",
           "challenge": "The customer was selecting an EtherCAT controller for their new machine platform. They initially planned to use FCE1100 for cost reasons but were concerned about cabling complexity in their modular machine design."

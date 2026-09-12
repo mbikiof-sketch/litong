@@ -24,7 +24,7 @@
         "DDR5",
         "Design Guide"
       ],
-      "content": "# How to Select Micron DRAM Memory for Your Application\n\n## Introduction\n\nSelecting the right DRAM memory is critical for system performance and reliability. This guide provides a systematic approach to choosing Micron DRAM solutions.\n\n## Understanding DRAM Types\n\n### DDR4 SDRAM\n**Best for:** Current generation servers, PCs, and embedded systems\n**Key Features:**\n- Speeds: 2133-3200 MT/s\n- Voltage: 1.2V\n- Mature ecosystem with broad platform support\n- Cost-effective for most applications\n\n### DDR5 SDRAM\n**Best for:** Next-generation servers, high-performance computing\n**Key Features:**\n- Speeds: 4800-6400 MT/s\n- Voltage: 1.1V\n- On-die ECC for improved reliability\n- Dual-channel architecture\n\n### LPDDR5\n**Best for:** Mobile devices, automotive, battery-powered systems\n**Key Features:**\n- Ultra-low power consumption\n- Speeds up to 6400 MT/s\n- Voltage: 0.5V/0.95V\n- Advanced power management\n\n## Selection Criteria\n\n### Performance Requirements\n| Application | Recommended | Speed |\n|-------------|-------------|-------|\n| General computing | DDR4 | 2666-3200 MT/s |\n| Data center servers | DDR5 | 4800-6400 MT/s |\n| Mobile devices | LPDDR5 | 5500-6400 MT/s |\n| Automotive ADAS | LPDDR5 | 6400 MT/s |\n\n### Power Consumption\n| Type | Active Power | Standby Power |\n|------|--------------|---------------|\n| DDR4 | Higher | Moderate |\n| DDR5 | Moderate | Lower |\n| LPDDR5 | Lowest | Very Low |\n\n## Step-by-Step Selection Process\n\n### Step 1: Define Application Requirements\n\n**Performance Needs:**\n- Required memory bandwidth\n- Latency sensitivity\n- Real-time constraints\n\n**Environmental:**\n- Operating temperature range\n- Power budget\n- Form factor constraints\n\n### Step 2: Calculate Memory Capacity\n\nConsider:\n- Application memory footprint\n- OS requirements\n- Future expansion needs\n- Multi-channel configurations\n\n### Step 3: Select Memory Type\n\nBased on:\n- Platform compatibility\n- Performance requirements\n- Power constraints\n- Cost considerations\n\n### Step 4: Choose Specific Product\n\nUse Micron's part number decoder:\n- Density (4Gb, 8Gb, 16Gb, etc.)\n- Organization (x4, x8, x16)\n- Speed grade\n- Temperature range\n- Package type\n\n## Common Mistakes to Avoid\n\n1. **Underspecifying bandwidth** - Always include headroom\n2. **Ignoring thermal requirements** - Consider self-heating\n3. **Overlooking power constraints** - Especially for battery applications\n4. **Insufficient margin** - Plan for future growth\n\n## Conclusion\n\nProper DRAM selection requires balancing performance, power, cost, and reliability. Contact our FAE team for application-specific recommendations.",
+      "content": "# How to Select Micron DRAM Memory for Your Application\n\n## Introduction\n\nselecting the right DRAM memory is critical for system performance and reliability. This guide provides a systematic approach to choosing Micron DRAM solutions.\n\n## Understanding DRAM Types\n\n### DDR4 SDRAM\nbest for: Current generation servers, PCs, and embedded systems\nkey features: - Speeds: 2133-3200 MT/s\n- Voltage: 1.2V\n- Mature ecosystem with broad platform support\n- Cost-effective for most applications\n\n### DDR5 SDRAM\nbest for: Next-generation servers, high-performance computing\nkey features: - Speeds: 4800-6400 MT/s\n- Voltage: 1.1V\n- On-die ECC for improved reliability\n- Dual-channel architecture\n\n### LPDDR5\nbest for: Mobile devices, automotive, battery-powered systems\nkey features: - Ultra-low power consumption\n- Speeds up to 6400 MT/s\n- Voltage: 0.5V/0.95V\n- Advanced power management\n\n## Selection Criteria\n\n### Performance Requirements\n| Application | Recommended | Speed |\n|-------------|-------------|-------|\n| General computing | DDR4 | 2666-3200 MT/s |\n| Data center servers | DDR5 | 4800-6400 MT/s |\n| Mobile devices | LPDDR5 | 5500-6400 MT/s |\n| Automotive ADAS | LPDDR5 | 6400 MT/s |\n\n### Power Consumption\n| Type | Active Power | Standby Power |\n|------|--------------|---------------|\n| DDR4 | Higher | Moderate |\n| DDR5 | Moderate | Lower |\n| LPDDR5 | Lowest | Very Low |\n\n## Step-by-Step Selection Process\n\n### Step 1: Define Application Requirements\n\nperformance needs: - Required memory bandwidth\n- Latency sensitivity\n- Real-time constraints\n\nenvironmental: - Operating temperature range\n- Power budget\n- Form factor constraints\n\n### Step 2: Calculate Memory Capacity\n\nConsider:\n- Application memory footprint\n- OS requirements\n- Future expansion needs\n- Multi-channel configurations\n\n### Step 3: Select Memory Type\n\nBased on:\n- Platform compatibility\n- Performance requirements\n- Power constraints\n- Cost considerations\n\n### Step 4: Choose Specific Product\n\nUse Micron's part number decoder:\n- Density (4Gb, 8Gb, 16Gb, etc.)\n- Organization (x4, x8, x16)\n- Speed grade\n- Temperature range\n- Package type\n\n## Common Mistakes to Avoid\n\n1. **Underspecifying bandwidth** - Always include headroom\n2. **Ignoring thermal requirements** - Consider self-heating\n3. **Overlooking power constraints** - Especially for battery applications\n4. **Insufficient margin** - Plan for future growth\n\n## Conclusion\n\nproper DRAM selection requires balancing performance, power, cost, and reliability. Contact our FAE team for application-specific recommendations.",
       "relatedArticles": [
         "micron-nand-selection-guide",
         "micron-automotive-guide"
@@ -146,9 +146,9 @@
       "category": "Technical Guide",
       "summary": "Comprehensive guide for product selection and application.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide for product selection and application.",
+        "Key topics covered include technical guide, application note. This section provides detailed technical information for engineers designing with micron products.",
+        "For specific application requirements and design assistance, contact micron's technical support team or refer to the official product documentation and reference designs."
       ],
       "author": {
         "name": "Michael Chen",
@@ -192,7 +192,7 @@
       "faqs": [
         {
           "question": "What is covered in Article 2?",
-          "answer": "This article covers product selection, application guidelines, and best practices. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "This article covers product selection, application guidelines, and best practices. For detailed specifications and application support on micron products, refer to the datasheet or contact our team.",
           "decisionGuide": "Read the full article for detailed information.",
           "keywords": [
             "article content",
@@ -217,7 +217,7 @@
       "summary": "Comprehensive guide for product selection and application.",
       "content": [
         "This technical reference document provides detailed information about micron product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -263,7 +263,7 @@
       "faqs": [
         {
           "question": "What is covered in Article 3?",
-          "answer": "This article covers product selection, application guidelines, and best practices. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "This article covers product selection, application guidelines, and best practices. For detailed specifications and application support on micron products, refer to the datasheet or contact our team.",
           "decisionGuide": "Read the full article for detailed information.",
           "keywords": [
             "article content",

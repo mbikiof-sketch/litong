@@ -73,7 +73,7 @@
       "faqs": [
         {
           "question": "What programming languages are supported?",
-          "answer": "USC Designer supports both Verilog (IEEE 1364) and VHDL (IEEE 1076) languages. SystemVerilog is partially supported for synthesis. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "USC Designer supports both Verilog (IEEE 1364) and VHDL (IEEE 1076) languages. SystemVerilog is partially supported for synthesis. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use Verilog for simpler designs; VHDL for large teams requiring strict type checking.",
           "keywords": [
             "Verilog",
@@ -84,7 +84,7 @@
         },
         {
           "question": "Can I import designs from Xilinx or Intel tools?",
-          "answer": "HDL source code can be imported directly. However, vendor-specific IP cores and constraints will need to be adapted for UNISOC architecture. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "HDL source code can be imported directly. However, vendor-specific IP cores and constraints will need to be adapted for UNISOC architecture. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Plan for IP migration effort when porting designs from other FPGA vendors.",
           "keywords": [
             "migration",
@@ -95,7 +95,7 @@
         },
         {
           "question": "Is there a free license available?",
-          "answer": "Yes, a free license is available for evaluation and small designs. The free license has limitations on device size and features. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, a free license is available for evaluation and small designs. The free license has limitations on device size and features. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with free license for evaluation; purchase full license for production development.",
           "keywords": [
             "license",
@@ -105,7 +105,7 @@
         },
         {
           "question": "What simulation tool is included?",
-          "answer": "USC Designer includes an integrated simulator based on ModelSim technology. It supports both functional and timing simulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "USC Designer includes an integrated simulator based on ModelSim technology. It supports both functional and timing simulation. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use functional simulation for initial verification; timing simulation for final validation.",
           "keywords": [
             "simulation",
@@ -115,7 +115,7 @@
         },
         {
           "question": "How do I debug my FPGA design?",
-          "answer": "Use the integrated SignalTap logic analyzer for real-time debugging. It allows probing internal signals without additional hardware. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use the integrated SignalTap logic analyzer for real-time debugging. It allows probing internal signals without additional hardware. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Plan debug signal selection early in design; use SignalTap for hardware debug.",
           "keywords": [
             "debug",
@@ -195,7 +195,7 @@
       "faqs": [
         {
           "question": "What is the maximum clock frequency for USC9002?",
-          "answer": "USC9002 can support internal clocks up to 200 MHz depending on design complexity and timing constraints. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "USC9002 can support internal clocks up to 200 MHz depending on design complexity and timing constraints. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with conservative frequency targets; increase after successful timing closure.",
           "keywords": [
             "clock frequency",
@@ -205,7 +205,7 @@
         },
         {
           "question": "How do I set multi-cycle paths?",
-          "answer": "Use set_multicycle_path constraints in your SDC file for paths that require more than one clock cycle. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use set_multicycle_path constraints in your SDC file for paths that require more than one clock cycle. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Identify and constrain multi-cycle paths to avoid over-constraining the design.",
           "keywords": [
             "multi-cycle",
@@ -215,7 +215,7 @@
         },
         {
           "question": "What causes high logic levels in critical paths?",
-          "answer": "Long chains of combinational logic between registers create high logic levels. Break these with pipeline stages. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Long chains of combinational logic between registers create high logic levels. Break these with pipeline stages. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Review HDL code for long arithmetic chains; insert pipeline registers where appropriate.",
           "keywords": [
             "logic levels",
@@ -225,7 +225,7 @@
         },
         {
           "question": "Can I use timing-driven synthesis?",
-          "answer": "Yes, enable timing-driven synthesis in the project settings to prioritize timing optimization during synthesis. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, enable timing-driven synthesis in the project settings to prioritize timing optimization during synthesis. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Enable timing-driven synthesis for performance-critical designs.",
           "keywords": [
             "timing-driven",
@@ -235,7 +235,7 @@
         },
         {
           "question": "How do I analyze clock domain crossings?",
-          "answer": "Use the Clock Domain Crossing (CDC) report in the Timing Analyzer to identify and verify all CDC paths. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use the Clock Domain Crossing (CDC) report in the Timing Analyzer to identify and verify all CDC paths. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Review all CDC reports; ensure proper synchronization circuits are in place.",
           "keywords": [
             "CDC",
@@ -289,7 +289,7 @@
         }
       ],
       "faeInsights": {
-        "content": "Power optimization should start early in the design process, not as an afterthought. When I work with customers on battery-powered designs, the first thing I check is the clock architecture. Often, designs have unnecessary clock activity in idle modules. Implement a hierarchical clock enable scheme - this gives you control over power at different levels of granularity. For I/Os, don't just use the default drive strength. Calculate what you actually need based on trace length and load. The power estimator tool is quite accurate - use it throughout your design to track power consumption and identify hotspots. Remember that every mA counts in battery applications.",
+        "content": "Power optimization should start early in the design process, not as an afterthought. When I work with customers on battery-powered designs, the first thing I check is the clock architecture. Often, designs have unnecessary clock activity in idle modules. Implement a hierarchical clock enable scheme - this gives you control over power at different levels of granularity. For I/Os, don't just use the default drive strength. Calculate what you need based on trace length and load. The power estimator tool is quite accurate - use it throughout your design to track power consumption and identify hotspots. Remember that every mA counts in battery applications.",
         "author": {
           "name": "Technical FAE",
           "title": "Support Engineer",
@@ -315,7 +315,7 @@
       "faqs": [
         {
           "question": "What is the static power consumption of USC9001?",
-          "answer": "USC9001 static power is approximately 10-15mW at room temperature, increasing slightly at higher temperatures. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "USC9001 static power is approximately 10-15mW at room temperature, increasing slightly at higher temperatures. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Consider static power for always-on applications; use power gating if possible for sleep modes.",
           "keywords": [
             "static power",
@@ -325,7 +325,7 @@
         },
         {
           "question": "How accurate is the power estimator tool?",
-          "answer": "The power estimator is typically within 15-20% of actual measured power when provided with accurate activity factors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "The power estimator is typically within 15-20% of actual measured power when provided with accurate activity factors. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use power estimator for design comparisons; measure actual power for final validation.",
           "keywords": [
             "power estimator",
@@ -335,7 +335,7 @@
         },
         {
           "question": "Can I use dynamic voltage scaling?",
-          "answer": "USC9001/9002 support a limited voltage range. Significant voltage scaling is not recommended as it may affect reliability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "USC9001/9002 support a limited voltage range. Significant voltage scaling is not recommended as it may affect reliability. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use clock gating and power gating instead of voltage scaling for power management.",
           "keywords": [
             "voltage scaling",
@@ -344,7 +344,7 @@
         },
         {
           "question": "What is the impact of temperature on power?",
-          "answer": "Static power increases significantly with temperature (roughly doubles every 10°C). Dynamic power is less temperature-dependent. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Static power increases significantly with temperature (roughly doubles every 10°C). Dynamic power is less temperature-dependent. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Design thermal management for worst-case ambient temperature and power consumption.",
           "keywords": [
             "temperature",
@@ -354,7 +354,7 @@
         },
         {
           "question": "How do I measure actual FPGA power?",
-          "answer": "Use a current sense resistor or power monitor IC in the FPGA power supply rail. Measure during different operating modes. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use a current sense resistor or power monitor IC in the FPGA power supply rail. Measure during different operating modes. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Include power measurement capability in your design for validation and field monitoring.",
           "keywords": [
             "power measurement",
@@ -435,7 +435,7 @@
       "faqs": [
         {
           "question": "What is the maximum CAN baud rate supported?",
-          "answer": "The FPGA-based CAN controller supports baud rates up to 1 Mbps, compliant with CAN 2.0B specification. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "The FPGA-based CAN controller supports baud rates up to 1 Mbps, compliant with CAN 2.0B specification. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select baud rate based on bus length and number of nodes; 500 kbps is common for industrial applications.",
           "keywords": [
             "CAN",
@@ -445,7 +445,7 @@
         },
         {
           "question": "Can multiple protocols run simultaneously?",
-          "answer": "Yes, multiple protocol controllers can be instantiated in the same FPGA, subject to available logic resources. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, multiple protocol controllers can be instantiated in the same FPGA, subject to available logic resources. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Evaluate resource utilization when combining multiple protocols in one device.",
           "keywords": [
             "multi-protocol",
@@ -454,7 +454,7 @@
         },
         {
           "question": "Is EtherCAT conformance tested?",
-          "answer": "The reference EtherCAT slave implementation has passed ETG conformance testing. Custom implementations should undergo similar testing. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "The reference EtherCAT slave implementation has passed ETG conformance testing. Custom implementations should undergo similar testing. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use certified reference designs; plan conformance testing for custom implementations.",
           "keywords": [
             "EtherCAT",
@@ -464,7 +464,7 @@
         },
         {
           "question": "What transceivers are recommended?",
-          "answer": "For CAN, use isolated transceivers like TI ISO1050 or Analog Devices ADM3050. For EtherCAT, use standard Ethernet PHYs with IEEE 1588 support. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "For CAN, use isolated transceivers like TI ISO1050 or Analog Devices ADM3050. For EtherCAT, use standard Ethernet PHYs with IEEE 1588 support. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select transceivers based on isolation requirements, temperature range, and EMC specifications.",
           "keywords": [
             "transceiver",
@@ -474,7 +474,7 @@
         },
         {
           "question": "Are protocol stacks provided?",
-          "answer": "Reference implementations include basic protocol stacks. For full-featured stacks, third-party or open-source options can be ported. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Reference implementations include basic protocol stacks. For full-featured stacks, third-party or open-source options can be ported. For detailed specifications and application support on unisoc products, refer to the datasheet or contact our team.",
           "decisionGuide": "Evaluate reference stack functionality; consider third-party stacks for complex requirements.",
           "keywords": [
             "protocol stack",

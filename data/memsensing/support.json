@@ -249,7 +249,7 @@
           "industry": "Automotive",
           "application": "Engine Management System",
           "problem": "The customer was experiencing accuracy issues with their fuel pressure measurement system, with errors exceeding ±2% at high temperatures, causing engine control problems.",
-          "diagnosis": "Our FAE team analyzed the application and determined the sensor was operating at the edge of its temperature compensation range, causing drift at extreme temperatures. Additionally, the PCB layout was creating thermal gradients across the sensor.",
+          "diagnosis": "Our FAE team analyzed the application and determined the sensor was operating at the edge of its temperature compensation range, causing drift at extreme temperatures. the PCB layout was creating thermal gradients across the sensor.",
           "solution": "We recommended switching to the MSP-400KPA-A with its wider temperature compensation range and better thermal characteristics. Our FAE also provided PCB layout recommendations to minimize thermal gradients.",
           "results": "After implementing the recommended sensor and layout changes, accuracy improved to within ±0.8% across the full temperature range. The customer successfully qualified the system and ramped to production with zero temperature-related field failures."
         }
@@ -307,7 +307,12 @@
         }
       ],
       "slug": "pressure-sensor-selection-guide",
-      "tags": ["pressure sensor", "selection guide", "automotive", "industrial"]
+      "tags": [
+        "pressure sensor",
+        "selection guide",
+        "automotive",
+        "industrial"
+      ]
     },
     {
       "id": "mems-microphone-selection-guide",
@@ -518,7 +523,7 @@
         {
           "question": "What is the difference between top-port and bottom-port microphones?",
           "answer": "Top-port microphones have the acoustic port on the top of the package, directing sound entry upward. Bottom-port microphones have the port on the bottom, directing sound through the PCB. Top-port advantages: Easier acoustic seal to product housing, more flexible placement, better for thin designs. Bottom-port advantages: PCB acts as acoustic barrier, often easier manufacturing, better for designs with internal air cavity. The choice depends on your product's mechanical design and acoustic requirements. Both types offer equivalent electrical performance.",
-          "decisionGuide": "Choose top-port for easier sealing and flexible placement. Select bottom-port when PCB can serve as acoustic barrier or for specific mechanical constraints.",
+          "decisionGuide": "Choose top-port for easier sealing and flexible placement. Select bottom-port when PCB can is acoustic barrier or for specific mechanical constraints.",
           "keywords": [
             "top port",
             "bottom port",
@@ -547,7 +552,12 @@
         }
       ],
       "slug": "mems-microphone-selection-guide",
-      "tags": ["MEMS microphone", "selection guide", "consumer", "automotive"]
+      "tags": [
+        "MEMS microphone",
+        "selection guide",
+        "consumer",
+        "automotive"
+      ]
     },
     {
       "id": "accelerometer-selection-guide",
@@ -775,7 +785,12 @@
         }
       ],
       "slug": "accelerometer-selection-guide",
-      "tags": ["accelerometer", "selection guide", "motion sensing", "automotive"]
+      "tags": [
+        "accelerometer",
+        "selection guide",
+        "motion sensing",
+        "automotive"
+      ]
     },
     {
       "id": "automotive-sensor-integration",
@@ -975,7 +990,12 @@
         }
       ],
       "slug": "automotive-sensor-integration",
-      "tags": ["automotive", "sensor integration", "EMC", "functional safety"]
+      "tags": [
+        "automotive",
+        "sensor integration",
+        "EMC",
+        "functional safety"
+      ]
     }
   ]
 }

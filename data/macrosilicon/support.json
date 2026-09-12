@@ -22,7 +22,7 @@
     },
     {
       "question": "How do I get started with MacroSilicon USB capture chips?",
-      "answer": "Getting started with MacroSilicon USB capture chips is straightforward: 1) Request an evaluation kit from BeiLuo. 2) Connect HDMI source to the capture device. 3) Connect USB to your PC. 4) The device appears as a webcam - no drivers needed. 5) Use with OBS, Zoom, or any UVC-compatible software. BeiLuo provides quick start guides and reference designs to accelerate your development.",
+      "answer": "Getting started with MacroSilicon USB capture chips is straightforward: 1) Request an evaluation kit from BeiLuo. 2) Connect HDMI source to the capture device. 3) Connect USB to your PC. 4) The device appears as a webcam - No drivers is needed. 5) Use with OBS, Zoom, or any UVC-compatible software. BeiLuo provides quick start guides and reference designs to accelerate your development.",
       "decisionGuide": "Start with evaluation kit. UVC compliance means immediate plug-and-play operation.",
       "keywords": [
         "getting started",
@@ -74,7 +74,7 @@
       "summary": "Comprehensive guide to selecting the right MacroSilicon USB video capture chip for your streaming, recording, or conferencing application.",
       "content": [
         "This technical reference document provides detailed information about macrosilicon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -203,7 +203,7 @@
       "summary": "Complete design guide for implementing HDMI to MIPI DSI converters using MacroSilicon MS9332 for smartphone and tablet display applications.",
       "content": [
         "This technical reference document provides detailed information about macrosilicon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -463,7 +463,7 @@
       "summary": "Comprehensive guide for developing applications with MacroSilicon MS8100 multimedia SoC platform including SDK setup and system integration.",
       "content": [
         "This technical reference document provides detailed information about macrosilicon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

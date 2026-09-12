@@ -4,49 +4,81 @@
   "logo": "/assets/brands/loongson/logo.svg",
   "tagline": "Independent CPU Architecture for China's Digital Infrastructure",
   "description": "Loongson Technology is a leading Chinese CPU design company developing processors based on the proprietary LoongArch instruction set architecture. With complete independent intellectual property rights, Loongson processors power applications from embedded systems to high-performance servers.",
-  "longDescription": "Loongson Technology Corporation Limited, founded in 2008 and headquartered in Beijing, China, is a premier CPU design company focused on developing general-purpose and embedded processors based on the proprietary LoongArch instruction set architecture. As one of the few companies worldwide with complete independent CPU IP rights, Loongson has developed a comprehensive processor portfolio spanning from low-power embedded chips to high-performance server processors. The company's LoongArch architecture represents a significant milestone in China's semiconductor industry, providing an alternative to x86 and ARM architectures with full software ecosystem support. Loongson processors are widely deployed in government, education, enterprise, and consumer markets, supporting operating systems including Loongnix, Kylin, and UOS. With advanced manufacturing partnerships and continuous R&D investment, Loongson is driving the localization of China's computing infrastructure. As an authorized Loongson distributor, we provide comprehensive technical support, development tools, and reliable supply chain services for customers developing Loongson-based solutions. Contact us for the Loongson processor selection guide and distributor pricing.",
+  "longDescription": "Loongson Technology Corporation Limited, founded in 2008 and headquartered in Beijing, China, is a premier CPU design company focused on developing general-purpose and embedded processors based on the proprietary LoongArch instruction set architecture. As one of the few companies worldwide with complete independent CPU IP rights, Loongson has developed a comprehensive processor portfolio spanning from low-power embedded chips to high-performance server processors. The company's LoongArch architecture is significant milestone in China's semiconductor industry, providing an alternative to x86 and ARM architectures with full software ecosystem support. Loongson processors are widely deployed in government, education, enterprise, and consumer markets, supporting operating systems including Loongnix, Kylin, and UOS. With advanced manufacturing partnerships and continuous R&D investment, Loongson is driving the localization of China's computing infrastructure. As an authorized Loongson distributor, we provide comprehensive technical support, development tools, and reliable supply chain services for customers developing Loongson-based solutions. Contact us for the Loongson processor selection guide and distributor pricing.",
   "coreProducts": [
     {
       "name": "Desktop and Server Processors",
       "description": "High-performance Loongson 3 series processors for desktop computers, workstations, and servers with multi-core configurations and advanced cache architectures.",
-      "keywords": ["Loongson 3 distributor", "Loongson CPU selection", "Loongson server processor"]
+      "keywords": [
+        "Loongson 3 distributor",
+        "Loongson CPU selection",
+        "Loongson server processor"
+      ]
     },
     {
       "name": "Embedded Processors",
       "description": "Low-power Loongson 1 and 2 series processors for industrial control, network communication, and embedded computing applications.",
-      "keywords": ["Loongson 1 distributor", "Loongson embedded CPU selection", "Loongson 2K processor"]
+      "keywords": [
+        "Loongson 1 distributor",
+        "Loongson embedded CPU selection",
+        "Loongson 2K processor"
+      ]
     },
     {
       "name": "Development Boards and Modules",
       "description": "Complete development platforms including evaluation boards, COM modules, and system-on-module solutions for rapid product development.",
-      "keywords": ["Loongson development board distributor", "Loongson module selection", "Loongson evaluation kit"]
+      "keywords": [
+        "Loongson development board distributor",
+        "Loongson module selection",
+        "Loongson evaluation kit"
+      ]
     },
     {
       "name": "Chipsets and Bridge Chips",
       "description": "Companion chipsets and bridge chips providing comprehensive system solutions including memory controllers, PCIe bridges, and I/O expansion.",
-      "keywords": ["Loongson chipset distributor", "Loongson bridge chip selection", "Loongson 7A chipset"]
+      "keywords": [
+        "Loongson chipset distributor",
+        "Loongson bridge chip selection",
+        "Loongson 7A chipset"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Government and Public Sector",
       "description": "Secure computing solutions for government agencies, public institutions, and critical infrastructure requiring domestic processor technology.",
-      "keywords": ["Loongson government sector", "domestic CPU distributor", "secure computing Loongson"]
+      "keywords": [
+        "Loongson government sector",
+        "domestic CPU distributor",
+        "secure computing Loongson"
+      ]
     },
     {
       "name": "Education and Research",
       "description": "Computing platforms for educational institutions, research laboratories, and academic computing environments.",
-      "keywords": ["Loongson education", "Loongson research platform distributor", "academic computing Loongson"]
+      "keywords": [
+        "Loongson education",
+        "Loongson research platform distributor",
+        "academic computing Loongson"
+      ]
     },
     {
       "name": "Industrial Automation",
       "description": "Reliable embedded processors for industrial control systems, factory automation, and mission-critical applications.",
-      "keywords": ["Loongson industrial control", "Loongson embedded distributor", "industrial CPU selection"]
+      "keywords": [
+        "Loongson industrial control",
+        "Loongson embedded distributor",
+        "industrial CPU selection"
+      ]
     },
     {
       "name": "Network and Communication",
       "description": "High-performance processors for network equipment, communication infrastructure, and data center applications.",
-      "keywords": ["Loongson network equipment", "Loongson communication processor distributor", "network CPU selection"]
+      "keywords": [
+        "Loongson network equipment",
+        "Loongson communication processor distributor",
+        "network CPU selection"
+      ]
     }
   ],
   "certifications": [
@@ -90,43 +122,72 @@
       "question": "Is LiTong an authorized distributor of Loongson Technology?",
       "answer": "Yes, LiTong Electronics is an authorized distributor of Loongson Technology products. We maintain a direct partnership with Loongson and provide genuine processors, development boards, and technical support with full manufacturer warranty. Our authorization covers the complete Loongson product portfolio including the Loongson 3 series for desktop and server applications, Loongson 2 series for embedded systems, and Loongson 1 series for low-power applications. Customers can verify our distributor status through official channels and access comprehensive technical documentation and support services through our partnership.",
       "decisionGuide": "Contact our sales team to verify distributor credentials and discuss your Loongson-based project requirements. We can provide official authorization documentation and support resources.",
-      "keywords": ["Loongson authorized distributor", "Loongson genuine products", "Loongson distributor verification"]
+      "keywords": [
+        "Loongson authorized distributor",
+        "Loongson genuine products",
+        "Loongson distributor verification"
+      ]
     },
     {
       "question": "What is LoongArch architecture and how does it differ from x86 and ARM?",
       "answer": "LoongArch is Loongson's proprietary instruction set architecture (ISA) developed independently with full intellectual property rights. Unlike x86 (Intel/AMD) and ARM which require licensing fees and are controlled by foreign entities, LoongArch is completely independent and royalty-free. LoongArch is a RISC-style architecture optimized for both performance and power efficiency, featuring modern design elements like variable-length instructions and extensive SIMD support. The architecture supports binary translation for running x86 and ARM applications through Loongson's LAT (Loongson Architecture Translator) technology. From a technical perspective, LoongArch offers competitive performance-per-watt metrics compared to established architectures while providing China with strategic independence in CPU technology. The ecosystem includes Linux-based operating systems (Loongnix, Kylin, UOS) and growing application support.",
       "decisionGuide": "For organizations seeking CPU technology independence or domestic processor solutions, Loongson with LoongArch provides a viable alternative. Contact us for architecture details and migration support.",
-      "keywords": ["LoongArch architecture", "Loongson vs x86", "Loongson vs ARM", "LoongArch ISA"]
+      "keywords": [
+        "LoongArch architecture",
+        "Loongson vs x86",
+        "Loongson vs ARM",
+        "LoongArch ISA"
+      ]
     },
     {
       "question": "What are the key advantages of using Loongson processors?",
       "answer": "Loongson processors offer several strategic and technical advantages. First, complete IP independence ensures supply chain security and eliminates dependency on foreign technology. Second, competitive performance-per-watt metrics make Loongson suitable for various applications from embedded to server-class computing. Third, comprehensive software ecosystem support including domestic operating systems (Kylin, UOS) and mainstream Linux distributions. Fourth, strong government and institutional support driving ecosystem development and application compatibility. Fifth, cost-competitive pricing compared to imported alternatives. Sixth, localized technical support and rapid response to customer requirements. Seventh, compliance with Chinese security and cryptography standards for sensitive applications. These advantages make Loongson particularly attractive for government, education, and enterprise customers prioritizing technology independence.",
       "decisionGuide": "Evaluate Loongson for applications requiring domestic technology, supply chain security, or compliance with localization requirements. Request a technical consultation to assess suitability for your specific use case.",
-      "keywords": ["Loongson advantages", "Loongson benefits", "why choose Loongson"]
+      "keywords": [
+        "Loongson advantages",
+        "Loongson benefits",
+        "why choose Loongson"
+      ]
     },
     {
       "question": "What software ecosystem support is available for Loongson processors?",
       "answer": "Loongson processors are supported by a comprehensive and growing software ecosystem. Operating systems include Loongnix (Loongson's official Linux distribution), Kylin OS, UnionTech UOS, and various community Linux distributions. The ecosystem supports major programming languages, development tools, and middleware. Application compatibility is achieved through binary translation (LAT) for running x86 applications, though native LoongArch applications deliver optimal performance. Major domestic software vendors have ported their applications to LoongArch, including office suites, databases, and industry-specific software. For developers, Loongson provides complete toolchain support including GCC, LLVM, and debugging tools. The company actively contributes to open-source projects and maintains strong relationships with the Linux community. Cloud and container technologies including Docker and Kubernetes are supported for server deployments.",
       "decisionGuide": "For software development or deployment on Loongson, we can provide ecosystem guidance and compatibility assessment. Contact our technical team for specific software support inquiries.",
-      "keywords": ["Loongson software ecosystem", "Loongson OS support", "LoongArch software compatibility"]
+      "keywords": [
+        "Loongson software ecosystem",
+        "Loongson OS support",
+        "LoongArch software compatibility"
+      ]
     },
     {
       "question": "What Loongson processor should I choose for my application?",
       "answer": "Loongson offers processors optimized for different application domains. For high-performance desktop and server applications, the Loongson 3 series (3A5000, 3C5000) provides multi-core processing with advanced cache hierarchies and high memory bandwidth. For industrial control and network equipment, the Loongson 2K series (2K1000, 2K2000) offers excellent performance-per-watt with integrated peripherals. For low-power embedded applications, the Loongson 1 series (1C101, 1C102) provides cost-effective single-core solutions. When selecting a processor, consider factors including compute requirements, power budget, peripheral needs, and software ecosystem requirements. For server applications, prioritize core count and memory bandwidth. For embedded systems, focus on power consumption and integrated features. Our FAE team can provide detailed selection guidance based on your specific application requirements.",
       "decisionGuide": "Use our processor selection guide or contact our FAE team for personalized recommendations based on your application requirements and performance targets.",
-      "keywords": ["Loongson processor selection", "choose Loongson CPU", "Loongson product guide"]
+      "keywords": [
+        "Loongson processor selection",
+        "choose Loongson CPU",
+        "Loongson product guide"
+      ]
     },
     {
       "question": "What development support does LiTong provide for Loongson products?",
-      "answer": "LiTong provides comprehensive development support for Loongson-based designs. Our services include processor selection consultation, development board and evaluation kit supply, reference design guidance, and BSP (Board Support Package) support. We offer technical documentation, application notes, and design guidelines to accelerate product development. Our FAE team can assist with hardware design reviews, signal integrity analysis, and thermal management recommendations. For software development, we provide toolchain setup support, debugging assistance, and optimization guidance. We can facilitate direct technical communication with Loongson's engineering team for complex requirements. Additionally, we offer training sessions on Loongson architecture and development practices. For volume production customers, we provide supply chain planning and long-term availability commitments.",
+      "answer": "LiTong provides comprehensive development support for Loongson-based designs. Our services include processor selection consultation, development board and evaluation kit supply, reference design guidance, and BSP (Board Support Package) support. We offer technical documentation, application notes, and design guidelines to accelerate product development. Our FAE team can assist with hardware design reviews, signal integrity analysis, and thermal management recommendations. For software development, we provide toolchain setup support, debugging assistance, and optimization guidance. We can facilitate direct technical communication with Loongson's engineering team for complex requirements. we offer training sessions on Loongson architecture and development practices. For volume production customers, we provide supply chain planning and long-term availability commitments.",
       "decisionGuide": "Leverage our Loongson expertise for your development projects. Schedule a technical consultation or design review with our FAE team.",
-      "keywords": ["Loongson development support", "Loongson FAE support", "Loongson technical support"]
+      "keywords": [
+        "Loongson development support",
+        "Loongson FAE support",
+        "Loongson technical support"
+      ]
     },
     {
       "question": "What is the typical lead time and availability for Loongson processors?",
       "answer": "Lead times for Loongson processors vary based on product type and order volume. Standard desktop and embedded processors typically have 8-12 week lead times for production orders. High-volume server processors may require longer lead times due to manufacturing complexity. Loongson maintains stable manufacturing partnerships with domestic and international foundries to ensure supply continuity. As an authorized distributor, LiTong maintains safety stock of popular Loongson products for immediate availability on select items. For strategic customers with predictable demand, we can establish frame orders or VMI arrangements to ensure stable supply. Loongson provides long-term availability commitments for industrial and embedded products, typically 5-7 years or longer. We recommend customers provide rolling forecasts for better supply planning and early engagement for new projects.",
       "decisionGuide": "Contact our sales team for current lead times and inventory availability. For strategic projects, discuss long-term supply agreements and forecast planning.",
-      "keywords": ["Loongson lead time", "Loongson availability", "Loongson delivery schedule"]
+      "keywords": [
+        "Loongson lead time",
+        "Loongson availability",
+        "Loongson delivery schedule"
+      ]
     }
   ]
 }

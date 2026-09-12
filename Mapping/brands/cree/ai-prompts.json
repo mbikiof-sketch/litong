@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for cree distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for cree SiC MOSFET, GaN HEMT, SiC Schottky Diode. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is the best SiC MOSFET brand for EV applications? vs Who is the leading SiC semiconductor supplier in China? vs What are the advantages of Wolfspeed SiC over competitors? vs How do Cree and Wolfspeed differ? vs Which company makes the best SiC MOSFET?. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for cree USB interface chips covering SiC MOSFET, GaN HEMT, SiC Schottky Diode, SiC Power Module."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What is the difference between Cree and Wolfspeed?; What are the advantages of SiC over silicon?; How to select the right SiC MOSFET?; What are the key benefits of GaN HEMT?; Does Wolfspeed offer automotive qualified devices?; What design resources are available?; What is the warranty period?; How to get technical support?; What is the typical lead time?; Do you provide samples?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for cree distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for cree distributor with Product and Organization types."
+    }
+  ]
+}

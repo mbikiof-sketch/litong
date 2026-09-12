@@ -199,7 +199,7 @@
           "faqs": [
             {
               "question": "What is the maximum output power of PN8147?",
-              "answer": "The PN8147 can deliver up to 24W output power with adequate heatsinking and proper transformer design. Typical applications range from 12W to 18W for universal input (85-265VAC). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The PN8147 can deliver up to 24W output power with adequate heatsinking and proper transformer design. Typical applications range from 12W to 18W for universal input (85-265VAC). For detailed specifications and application support on chipown PN8147, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications >24W, consider PN8148 with higher current MOSFET.",
               "keywords": [
                 "output power",
@@ -209,7 +209,7 @@
             },
             {
               "question": "How do I achieve <75mW standby power?",
-              "answer": "The PN8147 features automatic burst mode operation at light loads. Ensure proper transformer design with low leakage inductance, minimize snubber losses, and use low-ESR output capacitors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The PN8147 features automatic burst mode operation at light loads. Ensure proper transformer design with low leakage inductance, minimize snubber losses, and use low-ESR output capacitors. For detailed specifications and application support on chipown PN8147, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact FAE for standby power optimization guidance.",
               "keywords": [
                 "standby power",
@@ -352,7 +352,7 @@
             },
             {
               "question": "What is the recommended transformer for 30W applications?",
-              "answer": "For 30W universal input designs, use EE22 or RM8 core with appropriate turns ratio. Primary inductance typically ranges from 1.2mH to 1.8mH depending on specific design requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "For 30W universal input designs, use EE22 or RM8 core with appropriate turns ratio. Primary inductance typically ranges from 1.2mH to 1.8mH depending on specific design requirements. For detailed specifications and application support on chipown PN8148, refer to the datasheet or contact our team.",
               "decisionGuide": "Our FAE can provide transformer design support.",
               "keywords": [
                 "30W transformer",
@@ -445,7 +445,7 @@
             },
             {
               "question": "Can PN8370 handle 277VAC input?",
-              "answer": "Yes, the 800V rating provides adequate margin for 277VAC nominal input (common in North American industrial applications) including surge conditions up to 300VAC. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 800V rating provides adequate margin for 277VAC nominal input (common in North American industrial applications) including surge conditions up to 300VAC. For detailed specifications and application support on chipown PN8370, refer to the datasheet or contact our team.",
               "decisionGuide": "Ideal for 277VAC industrial applications.",
               "keywords": [
                 "277VAC",
@@ -537,7 +537,7 @@
           "faqs": [
             {
               "question": "What is the maximum output current?",
-              "answer": "The PN8307 can support up to 5A output current with proper MOSFET selection and thermal design. For higher current, consider PN8307H which supports up to 10A. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The PN8307 can support up to 5A output current with proper MOSFET selection and thermal design. For higher current, consider PN8307H which supports up to 10A. For detailed specifications and application support on chipown PN8307, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose PN8307H for applications >5A output current.",
               "keywords": [
                 "output current",
@@ -548,7 +548,7 @@
             },
             {
               "question": "How do I select the SR MOSFET?",
-              "answer": "Select MOSFET with voltage rating at least 1.5x output voltage and current rating higher than maximum output current. Consider Rds(on) vs. gate charge for optimal efficiency. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Select MOSFET with voltage rating at least 1.5x output voltage and current rating higher than maximum output current. Consider Rds(on) vs. gate charge for optimal efficiency. For detailed specifications and application support on chipown PN8307, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact FAE for SR MOSFET recommendations.",
               "keywords": [
                 "SR MOSFET",
@@ -558,7 +558,7 @@
             },
             {
               "question": "What is the turn-off delay?",
-              "answer": "Typical turn-off delay is less than 30ns, ensuring minimal reverse current through the SR MOSFET. Fast turn-off is critical for preventing shoot-through in CCM operation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Typical turn-off delay is less than 30ns, ensuring minimal reverse current through the SR MOSFET. Fast turn-off is critical for preventing shoot-through in CCM operation. For detailed specifications and application support on chipown PN8307, refer to the datasheet or contact our team.",
               "decisionGuide": "Suitable for both DCM and CCM applications.",
               "keywords": [
                 "turn-off delay",
@@ -568,7 +568,7 @@
             },
             {
               "question": "Can it work in CCM mode?",
-              "answer": "Yes, PN8307 supports both DCM and CCM operation, making it suitable for various flyback converter designs. The adaptive control automatically adjusts for different operating modes. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, PN8307 supports both DCM and CCM operation, making it suitable for various flyback converter designs. The adaptive control automatically adjusts for different operating modes. For detailed specifications and application support on chipown PN8307, refer to the datasheet or contact our team.",
               "decisionGuide": "No mode selection needed - automatic detection.",
               "keywords": [
                 "CCM",
@@ -578,7 +578,7 @@
             },
             {
               "question": "What is the recommended PCB layout?",
-              "answer": "Keep sense pins close to MOSFET drain and source. Minimize gate drive loop area. Use Kelvin connection for sense pins to avoid voltage drop errors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Keep sense pins close to MOSFET drain and source. Minimize gate drive loop area. Use Kelvin connection for sense pins to avoid voltage drop errors. For detailed specifications and application support on chipown PN8307, refer to the datasheet or contact our team.",
               "decisionGuide": "Request PCB layout guidelines from FAE.",
               "keywords": [
                 "PCB layout",
@@ -741,7 +741,7 @@
           "faqs": [
             {
               "question": "What is the maximum output current?",
-              "answer": "The AP2952 can deliver up to 2A continuous output current with proper thermal design. For higher current requirements, consider the AP2953 which supports 3A. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP2952 can deliver up to 2A continuous output current with proper thermal design. For higher current requirements, consider the AP2953 which supports 3A. For detailed specifications and application support on chipown AP2952, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose AP2953 for applications requiring >2A.",
               "keywords": [
                 "output current",
@@ -751,7 +751,7 @@
             },
             {
               "question": "What input voltage range is supported?",
-              "answer": "The AP2952 supports input voltages from 4.5V to 18V, covering most common voltage rails including 5V, 9V, 12V, and 15V systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP2952 supports input voltages from 4.5V to 18V, covering most common voltage rails including 5V, 9V, 12V, and 15V systems. For detailed specifications and application support on chipown AP2952, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify input voltage stays within 4.5V-18V range.",
               "keywords": [
                 "input voltage",
@@ -761,7 +761,7 @@
             },
             {
               "question": "What inductor value should I use?",
-              "answer": "Typical inductor values range from 4.7μH to 10μH depending on output voltage and current. Higher inductance reduces ripple but increases size. Calculate based on 20-40% ripple current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Typical inductor values range from 4.7μH to 10μH depending on output voltage and current. Higher inductance reduces ripple but increases size. Calculate based on 20-40% ripple current. For detailed specifications and application support on chipown AP2952, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact FAE for inductor calculation.",
               "keywords": [
                 "inductor",
@@ -772,7 +772,7 @@
             },
             {
               "question": "What is the switching frequency?",
-              "answer": "The AP2952 operates at a fixed 500kHz switching frequency, allowing for compact external components while maintaining good efficiency. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP2952 operates at a fixed 500kHz switching frequency, allowing for compact external components while maintaining good efficiency. For detailed specifications and application support on chipown AP2952, refer to the datasheet or contact our team.",
               "decisionGuide": "500kHz allows compact design with good efficiency.",
               "keywords": [
                 "switching frequency",
@@ -782,7 +782,7 @@
             },
             {
               "question": "What protection features are included?",
-              "answer": "The AP2952 includes cycle-by-cycle current limit, thermal shutdown, and under-voltage lockout (UVLO) to protect against fault conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP2952 includes cycle-by-cycle current limit, thermal shutdown, and under-voltage lockout (UVLO) to protect against fault conditions. For detailed specifications and application support on chipown AP2952, refer to the datasheet or contact our team.",
               "decisionGuide": "Comprehensive protection for reliable operation.",
               "keywords": [
                 "protection",
@@ -852,7 +852,7 @@
           "faqs": [
             {
               "question": "What is the maximum output current?",
-              "answer": "The AP2953 can deliver up to 3A continuous output current with proper thermal design. This is 50% more than the AP2952. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP2953 can deliver up to 3A continuous output current with proper thermal design. This is 50% more than the AP2952. For detailed specifications and application support on chipown AP2953, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose AP2953 for 2A-3A applications.",
               "keywords": [
                 "output current",
@@ -862,7 +862,7 @@
             },
             {
               "question": "What is the difference between AP2952 and AP2953?",
-              "answer": "The main difference is current capability - AP2953 supports 3A vs 2A for AP2952. Both share the same pinout, input range, and control features. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The main difference is current capability - AP2953 supports 3A vs 2A for AP2952. Both share the same pinout, input range, and control features. For detailed specifications and application support on chipown AP2953, refer to the datasheet or contact our team.",
               "decisionGuide": "Use AP2952 for <2A, AP2953 for 2A-3A.",
               "keywords": [
                 "AP2952 comparison",
@@ -872,7 +872,7 @@
             },
             {
               "question": "What thermal management is required?",
-              "answer": "At 3A output, thermal management is important. Use adequate PCB copper area (especially for switching node), consider thermal vias, and ensure good airflow if possible. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 3A output, thermal management is important. Use adequate PCB copper area (especially for switching node), consider thermal vias, and ensure good airflow if possible. For detailed specifications and application support on chipown AP2953, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact FAE for thermal design recommendations.",
               "keywords": [
                 "thermal management",
@@ -882,7 +882,7 @@
             },
             {
               "question": "What inductor is recommended for 3A?",
-              "answer": "For 3A output, use inductors with saturation current >4A. Typical values are 3.3μH to 6.8μH depending on output voltage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "For 3A output, use inductors with saturation current >4A. Typical values are 3.3μH to 6.8μH depending on output voltage. For detailed specifications and application support on chipown AP2953, refer to the datasheet or contact our team.",
               "decisionGuide": "Ensure inductor saturation current >4A.",
               "keywords": [
                 "inductor",
@@ -892,7 +892,7 @@
             },
             {
               "question": "Can it handle load transients?",
-              "answer": "Yes, the current-mode control provides fast transient response. The output voltage typically recovers within a few switching cycles after a load step. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the current-mode control provides fast transient response. The output voltage typically recovers within a few switching cycles after a load step. For detailed specifications and application support on chipown AP2953, refer to the datasheet or contact our team.",
               "decisionGuide": "Suitable for applications with dynamic loads.",
               "keywords": [
                 "load transient",
@@ -962,7 +962,7 @@
           "faqs": [
             {
               "question": "What is the quiescent current?",
-              "answer": "The AP3012 has ultra-low quiescent current of less than 20μA, making it ideal for battery-powered applications where standby power is critical. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3012 has ultra-low quiescent current of less than 20μA, making it ideal for battery-powered applications where standby power is critical. For detailed specifications and application support on chipown AP3012, refer to the datasheet or contact our team.",
               "decisionGuide": "Best choice for battery life optimization.",
               "keywords": [
                 "quiescent current",
@@ -972,7 +972,7 @@
             },
             {
               "question": "What battery types are supported?",
-              "answer": "The 2.5V-5.5V input range supports single-cell Li-ion (3.0V-4.2V), 3-cell NiMH (3.6V), and 2-cell alkaline (3.0V) batteries. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The 2.5V-5.5V input range supports single-cell Li-ion (3.0V-4.2V), 3-cell NiMH (3.6V), and 2-cell alkaline (3.0V) batteries. For detailed specifications and application support on chipown AP3012, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify battery voltage range is within 2.5V-5.5V.",
               "keywords": [
                 "battery",
@@ -983,7 +983,7 @@
             },
             {
               "question": "What is the switching frequency?",
-              "answer": "The AP3012 operates at 1MHz switching frequency, allowing the use of small inductors and capacitors for compact designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3012 operates at 1MHz switching frequency, allowing the use of small inductors and capacitors for compact designs. For detailed specifications and application support on chipown AP3012, refer to the datasheet or contact our team.",
               "decisionGuide": "1MHz enables compact component selection.",
               "keywords": [
                 "switching frequency",
@@ -993,7 +993,7 @@
             },
             {
               "question": "What inductor size is needed?",
-              "answer": "At 1MHz, small inductors of 1μH to 2.2μH are sufficient. Choose shielded inductors for compact designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 1MHz, small inductors of 1μH to 2.2μH are sufficient. Choose shielded inductors for compact designs. For detailed specifications and application support on chipown AP3012, refer to the datasheet or contact our team.",
               "decisionGuide": "Small inductors save board space.",
               "keywords": [
                 "inductor",
@@ -1004,7 +1004,7 @@
             },
             {
               "question": "What is the dropout voltage?",
-              "answer": "The AP3012 supports 100% duty cycle, meaning the output can approach the input voltage with minimal dropout (just MOSFET Rds(on) × Iout). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3012 supports 100% duty cycle, meaning the output can approach the input voltage with minimal dropout (just MOSFET Rds(on) × Iout). For detailed specifications and application support on chipown AP3012, refer to the datasheet or contact our team.",
               "decisionGuide": "Excellent for maximizing battery discharge.",
               "keywords": [
                 "dropout voltage",
@@ -1074,7 +1074,7 @@
           "faqs": [
             {
               "question": "How many LEDs can be driven?",
-              "answer": "The AP3031 can drive up to 6 white LEDs in series. The output voltage automatically adjusts to maintain constant current through the LED string. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3031 can drive up to 6 white LEDs in series. The output voltage automatically adjusts to maintain constant current through the LED string. For detailed specifications and application support on chipown AP3031, refer to the datasheet or contact our team.",
               "decisionGuide": "Connect 3-6 LEDs in series based on required brightness.",
               "keywords": [
                 "LED count",
@@ -1084,7 +1084,7 @@
             },
             {
               "question": "What is the output current?",
-              "answer": "The AP3031 provides up to 20mA constant current output, suitable for most LCD backlight applications. The current is set by an external resistor. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3031 provides up to 20mA constant current output, suitable for most LCD backlight applications. The current is set by an external resistor. For detailed specifications and application support on chipown AP3031, refer to the datasheet or contact our team.",
               "decisionGuide": "Set current with external resistor based on LED requirements.",
               "keywords": [
                 "output current",
@@ -1094,7 +1094,7 @@
             },
             {
               "question": "How is brightness controlled?",
-              "answer": "Brightness is controlled via PWM dimming. Apply a PWM signal (100Hz-10kHz) to the enable pin to adjust LED brightness from 0% to 100%. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Brightness is controlled via PWM dimming. Apply a PWM signal (100Hz-10kHz) to the enable pin to adjust LED brightness from 0% to 100%. For detailed specifications and application support on chipown AP3031, refer to the datasheet or contact our team.",
               "decisionGuide": "Use PWM for smooth brightness control.",
               "keywords": [
                 "PWM dimming",
@@ -1104,7 +1104,7 @@
             },
             {
               "question": "What input voltage is required?",
-              "answer": "The AP3031 operates from 2.7V to 5.5V, suitable for single-cell Li-ion or 3-cell alkaline batteries. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP3031 operates from 2.7V to 5.5V, suitable for single-cell Li-ion or 3-cell alkaline batteries. For detailed specifications and application support on chipown AP3031, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify input voltage is within 2.7V-5.5V range.",
               "keywords": [
                 "input voltage",
@@ -1114,7 +1114,7 @@
             },
             {
               "question": "Is over-voltage protection included?",
-              "answer": "Yes, the AP3031 includes over-voltage protection to prevent damage if the LED string opens or disconnects. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the AP3031 includes over-voltage protection to prevent damage if the LED string opens or disconnects. For detailed specifications and application support on chipown AP3031, refer to the datasheet or contact our team.",
               "decisionGuide": "Built-in protection for reliable operation.",
               "keywords": [
                 "over-voltage protection",
@@ -1226,7 +1226,7 @@
           ],
           "keyFeatures": [
             "Linear constant current regulation",
-            "No inductor required",
+            "No inductor is needed",
             "PWM dimming support",
             "Thermal regulation",
             "Multiple current options",
@@ -1276,7 +1276,7 @@
           "faqs": [
             {
               "question": "What current options are available?",
-              "answer": "The AP360X series offers multiple current options from 20mA to 150mA. Select the version that matches your LED current requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP360X series offers multiple current options from 20mA to 150mA. Select the version that matches your LED current requirements. For detailed specifications and application support on chipown AP360X, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose current rating based on LED specifications.",
               "keywords": [
                 "current options",
@@ -1286,7 +1286,7 @@
             },
             {
               "question": "What input voltage range is supported?",
-              "answer": "The AP360X supports input voltages from 3V to 40V, making it suitable for automotive and industrial applications with wide voltage ranges. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP360X supports input voltages from 3V to 40V, making it suitable for automotive and industrial applications with wide voltage ranges. For detailed specifications and application support on chipown AP360X, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify input voltage is within 3V-40V range.",
               "keywords": [
                 "input voltage",
@@ -1296,7 +1296,7 @@
             },
             {
               "question": "How does thermal regulation work?",
-              "answer": "When the junction temperature exceeds a threshold, the driver automatically reduces output current to limit power dissipation and prevent overheating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "When the junction temperature exceeds a threshold, the driver automatically reduces output current to limit power dissipation and prevent overheating. For detailed specifications and application support on chipown AP360X, refer to the datasheet or contact our team.",
               "decisionGuide": "Protects driver from thermal damage.",
               "keywords": [
                 "thermal regulation",
@@ -1306,7 +1306,7 @@
             },
             {
               "question": "What is the dropout voltage?",
-              "answer": "The dropout voltage is less than 1V, meaning the input voltage only needs to be 1V higher than the LED forward voltage for proper regulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The dropout voltage is less than 1V, meaning the input voltage only needs to be 1V higher than the LED forward voltage for proper regulation. For detailed specifications and application support on chipown AP360X, refer to the datasheet or contact our team.",
               "decisionGuide": "Minimize voltage differential for best efficiency.",
               "keywords": [
                 "dropout voltage",
@@ -1316,7 +1316,7 @@
             },
             {
               "question": "Can multiple LEDs be driven?",
-              "answer": "Yes, LEDs can be connected in series as long as the total forward voltage drop is less than the input voltage minus dropout voltage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, LEDs can be connected in series as long as the total forward voltage drop is less than the input voltage minus dropout voltage. For detailed specifications and application support on chipown AP360X, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate total LED Vf < Vin - 1V.",
               "keywords": [
                 "multiple LEDs",
@@ -1387,7 +1387,7 @@
           "faqs": [
             {
               "question": "What is the maximum current?",
-              "answer": "The AP360Y can deliver up to 300mA constant current, suitable for high-power LEDs or multiple LED strings in parallel. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP360Y can deliver up to 300mA constant current, suitable for high-power LEDs or multiple LED strings in parallel. For detailed specifications and application support on chipown AP360Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for high-power LED applications.",
               "keywords": [
                 "maximum current",
@@ -1397,7 +1397,7 @@
             },
             {
               "question": "What thermal management is needed?",
-              "answer": "At 300mA, thermal management is critical. Use adequate PCB copper area (thermal pad connection) or external heatsink to keep junction temperature within limits. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 300mA, thermal management is critical. Use adequate PCB copper area (thermal pad connection) or external heatsink to keep junction temperature within limits. For detailed specifications and application support on chipown AP360Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Proper heatsinking required for 300mA operation.",
               "keywords": [
                 "thermal management",
@@ -1407,7 +1407,7 @@
             },
             {
               "question": "What package is used?",
-              "answer": "The AP360Y uses a TO-252 (DPAK) package with exposed thermal pad for improved heat dissipation compared to smaller packages. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP360Y uses a TO-252 (DPAK) package with exposed thermal pad for improved heat dissipation compared to smaller packages. For detailed specifications and application support on chipown AP360Y, refer to the datasheet or contact our team.",
               "decisionGuide": "TO-252 provides better thermal performance.",
               "keywords": [
                 "TO-252",
@@ -1417,7 +1417,7 @@
             },
             {
               "question": "Can it drive multiple LED strings?",
-              "answer": "Yes, multiple LED strings can be connected in parallel, each with its own AP360Y driver. Do not connect LEDs directly in parallel without individual current regulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, multiple LED strings can be connected in parallel, each with its own AP360Y driver. Do not connect LEDs directly in parallel without individual current regulation. For detailed specifications and application support on chipown AP360Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use separate driver for each parallel string.",
               "keywords": [
                 "multiple strings",
@@ -1427,7 +1427,7 @@
             },
             {
               "question": "What is the power dissipation at 300mA?",
-              "answer": "Power dissipation = (VIN - VLED) × 0.3A. For example, with 12V input and 3V LED: Pd = (12-3) × 0.3 = 2.7W. Ensure thermal design can handle this. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Power dissipation = (VIN - VLED) × 0.3A. For example, with 12V input and 3V LED: Pd = (12-3) × 0.3 = 2.7W. Ensure thermal design can handle this. For detailed specifications and application support on chipown AP360Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate dissipation and verify thermal capability.",
               "keywords": [
                 "power dissipation",
@@ -1498,7 +1498,7 @@
           "faqs": [
             {
               "question": "What is the maximum LED current?",
-              "answer": "The AP880X can deliver up to 1A constant current to the LED string. Current is set by an external sense resistor. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP880X can deliver up to 1A constant current to the LED string. Current is set by an external sense resistor. For detailed specifications and application support on chipown AP880X, refer to the datasheet or contact our team.",
               "decisionGuide": "Set current with sense resistor based on LED requirements.",
               "keywords": [
                 "LED current",
@@ -1508,7 +1508,7 @@
             },
             {
               "question": "What input voltage range is supported?",
-              "answer": "The AP880X supports input voltages from 6V to 40V, suitable for 12V, 24V, and industrial lighting applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP880X supports input voltages from 6V to 40V, suitable for 12V, 24V, and industrial lighting applications. For detailed specifications and application support on chipown AP880X, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify input > LED voltage + headroom.",
               "keywords": [
                 "input voltage",
@@ -1518,7 +1518,7 @@
             },
             {
               "question": "How many LEDs can be driven?",
-              "answer": "The number of LEDs depends on their forward voltage and input voltage. Total LED Vf must be less than input voltage minus headroom (typically 2-3V). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The number of LEDs depends on their forward voltage and input voltage. Total LED Vf must be less than input voltage minus headroom (typically 2-3V). For detailed specifications and application support on chipown AP880X, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate: Total Vf < Vin - 3V.",
               "keywords": [
                 "LED count",
@@ -1528,7 +1528,7 @@
             },
             {
               "question": "What inductor value is recommended?",
-              "answer": "Typical inductor values are 10μH to 22μH at 1MHz switching frequency. Choose inductor with saturation current >1.5x LED current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Typical inductor values are 10μH to 22μH at 1MHz switching frequency. Choose inductor with saturation current >1.5x LED current. For detailed specifications and application support on chipown AP880X, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact FAE for inductor selection.",
               "keywords": [
                 "inductor",
@@ -1539,7 +1539,7 @@
             },
             {
               "question": "How is dimming achieved?",
-              "answer": "Dimming is achieved via PWM control. Apply PWM signal to the dimming pin to adjust LED brightness from 0% to 100%. PWM frequency should be >100Hz to avoid visible flicker. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Dimming is achieved via PWM control. Apply PWM signal to the dimming pin to adjust LED brightness from 0% to 100%. PWM frequency should be >100Hz to avoid visible flicker. For detailed specifications and application support on chipown AP880X, refer to the datasheet or contact our team.",
               "decisionGuide": "Use >100Hz PWM for flicker-free dimming.",
               "keywords": [
                 "PWM dimming",
@@ -1611,7 +1611,7 @@
           "faqs": [
             {
               "question": "What is the maximum output current?",
-              "answer": "The AP880Y can deliver up to 2A constant current, suitable for high-power LED arrays and commercial lighting applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP880Y can deliver up to 2A constant current, suitable for high-power LED arrays and commercial lighting applications. For detailed specifications and application support on chipown AP880Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for high-power lighting >1A.",
               "keywords": [
                 "output current",
@@ -1621,7 +1621,7 @@
             },
             {
               "question": "What dimming options are available?",
-              "answer": "The AP880Y supports both analog dimming (0-2V control) and PWM dimming. Analog provides smooth dimming, PWM is better for digital control. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP880Y supports both analog dimming (0-2V control) and PWM dimming. Analog provides smooth dimming, PWM is better for digital control. For detailed specifications and application support on chipown AP880Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose based on control system requirements.",
               "keywords": [
                 "analog dimming",
@@ -1631,7 +1631,7 @@
             },
             {
               "question": "What thermal management is required?",
-              "answer": "At 2A, thermal management is important. Use adequate PCB copper area, thermal vias under the exposed pad, and consider airflow for high ambient temperatures. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 2A, thermal management is important. Use adequate PCB copper area, thermal vias under the exposed pad, and consider airflow for high ambient temperatures. For detailed specifications and application support on chipown AP880Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Proper thermal design required for 2A operation.",
               "keywords": [
                 "thermal management",
@@ -1641,7 +1641,7 @@
             },
             {
               "question": "What protections are included?",
-              "answer": "The AP880Y includes LED open protection, LED short protection, over-current protection, and thermal shutdown for reliable operation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP880Y includes LED open protection, LED short protection, over-current protection, and thermal shutdown for reliable operation. For detailed specifications and application support on chipown AP880Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Comprehensive protection for safe operation.",
               "keywords": [
                 "LED open protection",
@@ -1651,7 +1651,7 @@
             },
             {
               "question": "What inductor is recommended?",
-              "answer": "For 2A operation, use inductors with saturation current >3A. Typical values are 6.8μH to 15μH depending on output voltage and current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "For 2A operation, use inductors with saturation current >3A. Typical values are 6.8μH to 15μH depending on output voltage and current. For detailed specifications and application support on chipown AP880Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Ensure inductor saturation current >3A.",
               "keywords": [
                 "inductor",
@@ -1815,7 +1815,7 @@
           "faqs": [
             {
               "question": "How many motors can be driven?",
-              "answer": "The AP200X can drive two DC motors independently or one stepper motor using both H-bridges. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP200X can drive two DC motors independently or one stepper motor using both H-bridges. For detailed specifications and application support on chipown AP200X, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for dual motor or single stepper applications.",
               "keywords": [
                 "dual motor",
@@ -1825,7 +1825,7 @@
             },
             {
               "question": "What is the maximum current?",
-              "answer": "Peak current is 2A per channel (for short durations). Continuous current is 1.2A per channel with proper thermal management. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Peak current is 2A per channel (for short durations). Continuous current is 1.2A per channel with proper thermal management. For detailed specifications and application support on chipown AP200X, refer to the datasheet or contact our team.",
               "decisionGuide": "Ensure continuous current <1.2A for reliable operation.",
               "keywords": [
                 "peak current",
@@ -1835,7 +1835,7 @@
             },
             {
               "question": "What motor voltage is supported?",
-              "answer": "The AP200X supports motor voltages from 2.5V to 12V, covering most small DC motor applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP200X supports motor voltages from 2.5V to 12V, covering most small DC motor applications. For detailed specifications and application support on chipown AP200X, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify motor voltage is within 2.5V-12V range.",
               "keywords": [
                 "motor voltage",
@@ -1845,7 +1845,7 @@
             },
             {
               "question": "How is speed controlled?",
-              "answer": "Motor speed is controlled via PWM input. Apply PWM signal to enable pins to vary motor speed from 0% to 100%. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Motor speed is controlled via PWM input. Apply PWM signal to enable pins to vary motor speed from 0% to 100%. For detailed specifications and application support on chipown AP200X, refer to the datasheet or contact our team.",
               "decisionGuide": "Use PWM for variable speed control.",
               "keywords": [
                 "PWM speed control",
@@ -1855,7 +1855,7 @@
             },
             {
               "question": "Are protection diodes included?",
-              "answer": "Yes, internal clamp diodes are included for inductive kickback protection. External diodes are not required for most applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, internal clamp diodes are included for inductive kickback protection. External diodes are not required for most applications. For detailed specifications and application support on chipown AP200X, refer to the datasheet or contact our team.",
               "decisionGuide": "Internal diodes sufficient for most applications.",
               "keywords": [
                 "protection diodes",
@@ -1928,7 +1928,7 @@
           "faqs": [
             {
               "question": "What is the maximum current?",
-              "answer": "The AP200Y supports 3A peak current and 2A continuous current per channel with proper thermal management. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP200Y supports 3A peak current and 2A continuous current per channel with proper thermal management. For detailed specifications and application support on chipown AP200Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for motors requiring >1.2A continuous.",
               "keywords": [
                 "maximum current",
@@ -1938,7 +1938,7 @@
             },
             {
               "question": "What is current regulation?",
-              "answer": "Current regulation limits motor current during stall or overload conditions, protecting both the driver and motor from damage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Current regulation limits motor current during stall or overload conditions, protecting both the driver and motor from damage. For detailed specifications and application support on chipown AP200Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Valuable feature for stall protection.",
               "keywords": [
                 "current regulation",
@@ -1948,7 +1948,7 @@
             },
             {
               "question": "What thermal management is needed?",
-              "answer": "At 2A continuous, use adequate PCB copper area and thermal vias under the exposed pad. Consider airflow for high ambient temperatures. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 2A continuous, use adequate PCB copper area and thermal vias under the exposed pad. Consider airflow for high ambient temperatures. For detailed specifications and application support on chipown AP200Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Proper thermal design for high current operation.",
               "keywords": [
                 "thermal management",
@@ -1958,7 +1958,7 @@
             },
             {
               "question": "Can it drive 12V motors?",
-              "answer": "Yes, the AP200Y supports motor voltages up to 15V, making it suitable for 12V motor applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the AP200Y supports motor voltages up to 15V, making it suitable for 12V motor applications. For detailed specifications and application support on chipown AP200Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Ideal for 12V motor control. Consider application requirements and consult FAE for optimization.",
               "keywords": [
                 "12V motor",
@@ -1968,7 +1968,7 @@
             },
             {
               "question": "What package is used?",
-              "answer": "The AP200Y uses an HTSSOP-16 package with exposed thermal pad for improved heat dissipation at high currents. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP200Y uses an HTSSOP-16 package with exposed thermal pad for improved heat dissipation at high currents. For detailed specifications and application support on chipown AP200Y, refer to the datasheet or contact our team.",
               "decisionGuide": "HTSSOP provides better thermal performance.",
               "keywords": [
                 "HTSSOP-16",
@@ -2042,7 +2042,7 @@
           "faqs": [
             {
               "question": "What microstepping options are available?",
-              "answer": "The AP300X supports full step, 1/2 step, 1/4 step, 1/8 step, and 1/16 step microstepping. Higher microstepping provides smoother motion. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP300X supports full step, 1/2 step, 1/4 step, 1/8 step, and 1/16 step microstepping. Higher microstepping provides smoother motion. For detailed specifications and application support on chipown AP300X, refer to the datasheet or contact our team.",
               "decisionGuide": "Use 1/16 step for smoothest motion.",
               "keywords": [
                 "microstepping",
@@ -2052,7 +2052,7 @@
             },
             {
               "question": "What is the maximum motor current?",
-              "answer": "The AP300X can drive stepper motors with up to 2A per coil. Current is set by external sense resistors and potentiometer. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP300X can drive stepper motors with up to 2A per coil. Current is set by external sense resistors and potentiometer. For detailed specifications and application support on chipown AP300X, refer to the datasheet or contact our team.",
               "decisionGuide": "Set current based on motor specifications.",
               "keywords": [
                 "motor current",
@@ -2062,7 +2062,7 @@
             },
             {
               "question": "What is decay mode?",
-              "answer": "Decay mode controls how current decays in the motor coil during PWM off-time. Slow decay is smoother, fast decay allows higher stepping rates. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Decay mode controls how current decays in the motor coil during PWM off-time. Slow decay is smoother, fast decay allows higher stepping rates. For detailed specifications and application support on chipown AP300X, refer to the datasheet or contact our team.",
               "decisionGuide": "Experiment with decay modes for best performance.",
               "keywords": [
                 "decay mode",
@@ -2072,7 +2072,7 @@
             },
             {
               "question": "How is the motor controlled?",
-              "answer": "Motor is controlled via step and direction signals. Apply pulses to step pin for movement, set direction pin for rotation direction. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Motor is controlled via step and direction signals. Apply pulses to step pin for movement, set direction pin for rotation direction. For detailed specifications and application support on chipown AP300X, refer to the datasheet or contact our team.",
               "decisionGuide": "Simple interface compatible with any microcontroller.",
               "keywords": [
                 "step signal",
@@ -2082,7 +2082,7 @@
             },
             {
               "question": "What motor voltage is supported?",
-              "answer": "The AP300X supports motor voltages from 8V to 35V. Higher voltages allow faster stepping rates but require proper current regulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP300X supports motor voltages from 8V to 35V. Higher voltages allow faster stepping rates but require proper current regulation. For detailed specifications and application support on chipown AP300X, refer to the datasheet or contact our team.",
               "decisionGuide": "Use 12V or 24V for most stepper motors.",
               "keywords": [
                 "motor voltage",
@@ -2156,7 +2156,7 @@
           "faqs": [
             {
               "question": "What is the maximum current per coil?",
-              "answer": "The AP300Y supports up to 3A per coil, suitable for larger NEMA 23 and NEMA 34 stepper motors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP300Y supports up to 3A per coil, suitable for larger NEMA 23 and NEMA 34 stepper motors. For detailed specifications and application support on chipown AP300Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for large stepper motors >2A.",
               "keywords": [
                 "maximum current",
@@ -2167,7 +2167,7 @@
             },
             {
               "question": "What is 1/32 microstepping?",
-              "answer": "1/32 microstepping divides each full step into 32 microsteps, providing ultra-smooth motion with 6400 steps per revolution for a 200-step motor. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "1/32 microstepping divides each full step into 32 microsteps, providing ultra-smooth motion with 6400 steps per revolution for a 200-step motor. For detailed specifications and application support on chipown AP300Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use 1/32 for smoothest motion and lowest vibration.",
               "keywords": [
                 "1/32 microstepping",
@@ -2177,7 +2177,7 @@
             },
             {
               "question": "What thermal management is required?",
-              "answer": "At 3A, significant heatsinking is required. Use large heatsink, thermal interface material, and forced airflow for reliable operation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 3A, significant heatsinking is required. Use large heatsink, thermal interface material, and forced airflow for reliable operation. For detailed specifications and application support on chipown AP300Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Aggressive thermal management essential for 3A.",
               "keywords": [
                 "thermal management",
@@ -2187,7 +2187,7 @@
             },
             {
               "question": "What is automatic decay optimization?",
-              "answer": "Automatic decay optimization adjusts decay mode based on motor current and speed, providing optimal performance across operating conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Automatic decay optimization adjusts decay mode based on motor current and speed, providing optimal performance across operating conditions. For detailed specifications and application support on chipown AP300Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Simplifies setup and optimizes performance.",
               "keywords": [
                 "automatic decay",
@@ -2197,7 +2197,7 @@
             },
             {
               "question": "What voltage range is supported?",
-              "answer": "The AP300Y supports 8V to 45V motor voltage, allowing use with 12V, 24V, and 36V stepper motor systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The AP300Y supports 8V to 45V motor voltage, allowing use with 12V, 24V, and 36V stepper motor systems. For detailed specifications and application support on chipown AP300Y, refer to the datasheet or contact our team.",
               "decisionGuide": "Use 24V or 36V for best high-speed performance.",
               "keywords": [
                 "voltage range",

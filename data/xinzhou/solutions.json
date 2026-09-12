@@ -1,0 +1,236 @@
+{
+  "seoTitle": "Xinzhou Power Solutions | Battery | Industrial | IoT | BeiLuo",
+  "seoDescription": "Complete power management solutions from Xinzhou for battery-powered devices, industrial systems, and IoT applications.",
+  "seoKeywords": [
+    "Xinzhou solutions",
+    "power solutions",
+    "battery solution",
+    "industrial power"
+  ],
+  "faqs": [
+    {
+      "question": "What complete solutions does Xinzhou offer?",
+      "answer": "Xinzhou provides comprehensive power management solutions for: (1) Battery-Powered Devices: Complete power solutions including charging, regulation, and battery management. (2) Industrial Systems: Robust power solutions with wide input range and high reliability. (3) IoT Applications: Ultra-low power solutions maximizing battery life. Each solution includes optimized IC selection, reference designs, and technical support.",
+      "decisionGuide": "Select the solution matching your application area.",
+      "keywords": [
+        "Xinzhou solutions",
+        "power solutions",
+        "complete solutions"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "battery-powered-device-solution",
+      "title": "Battery-Powered Device Power Solution",
+      "slug": "battery-powered-device-solution",
+      "description": "Complete power solution for portable and battery-operated devices.",
+      "longDescription": "The Battery-Powered Device Power Solution provides a complete power management system for portable electronics. This solution combines high-efficiency DC-DC conversion, low-noise LDO regulation, and intelligent battery charging to maximize battery life and system performance.",
+      "image": "/assets/images/solutions/xinzhou/battery-device.jpg",
+      "applications": [
+        "Smartphones",
+        "Tablets",
+        "Wearables",
+        "Portable Medical",
+        "IoT Devices"
+      ],
+      "benefits": [
+        {
+          "title": "Extended Battery Life",
+          "description": "Ultra-low quiescent current and high efficiency"
+        },
+        {
+          "title": "Fast Charging",
+          "description": "High-efficiency switch-mode charging up to 2A"
+        },
+        {
+          "title": "Compact Design",
+          "description": "High integration reduces PCB area"
+        }
+      ],
+      "coreAdvantages": [
+        {
+          "title": "High Efficiency",
+          "description": "Up to 96% efficiency minimizes power loss"
+        },
+        {
+          "title": "Low Power",
+          "description": "1μA quiescent current extends standby time"
+        },
+        {
+          "title": "Complete Integration",
+          "description": "Single-chip battery management solution"
+        }
+      ],
+      "bomList": [
+        {
+          "partNumber": "XZ5002",
+          "quantity": 1,
+          "description": "2A Switch-Mode Charger",
+          "link": "/xinzhou/products/battery-chargers/xz5002.html"
+        },
+        {
+          "partNumber": "XZ3102",
+          "quantity": 1,
+          "description": "Ultra-Low Power LDO",
+          "link": "/xinzhou/products/ldo-regulators/xz3102.html"
+        },
+        {
+          "partNumber": "XZ7102",
+          "quantity": 1,
+          "description": "Battery Management Module",
+          "link": "/xinzhou/products/power-modules/xz7102.html"
+        }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "4.5V - 13.5V",
+        "Charge Current": "Up to 2A",
+        "System Current": "Up to 3A"
+      },
+      "customerCases": [
+        {
+          "customer": "Wearable Device Maker",
+          "industry": "Consumer",
+          "application": "Smart Watch",
+          "challenge": "Battery life",
+          "solution": "Low power solution",
+          "result": "7-day battery life"
+        }
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "David Wang",
+          "title": "Senior FAE - Power",
+          "experience": "10 years",
+          "expertise": [
+            "Battery Management",
+            "Low Power Design"
+          ]
+        },
+        "content": "Battery-powered devices require careful power management to achieve optimal battery life. The combination of high-efficiency charging and ultra-low power regulation is key.",
+        "keyTakeaways": [
+          "Minimize quiescent current",
+          "Use high-efficiency charging",
+          "Optimize power sequencing"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How do I maximize battery life?",
+          "answer": "Use ultra-low power LDOs and efficient DC-DC converters with proper power sequencing.",
+          "decisionGuide": "Select components based on quiescent current and efficiency.",
+          "keywords": [
+            "battery life",
+            "low power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-power-solution",
+      "title": "Industrial Power System Solution",
+      "slug": "industrial-power-solution",
+      "description": "Robust power solution for industrial control and automation systems.",
+      "longDescription": "The Industrial Power System Solution provides reliable power management for industrial applications. This solution features wide input voltage range, high current capability, and comprehensive protection for operation in harsh industrial environments.",
+      "image": "/assets/images/solutions/xinzhou/industrial-power.jpg",
+      "applications": [
+        "Factory Automation",
+        "Process Control",
+        "Test Equipment",
+        "Robotics",
+        "Motor Drives"
+      ],
+      "benefits": [
+        {
+          "title": "Wide Input Range",
+          "description": "4.5V to 36V input accommodates various sources"
+        },
+        {
+          "title": "High Reliability",
+          "description": "Comprehensive protection and thermal management"
+        },
+        {
+          "title": "High Current",
+          "description": "Up to 3A output for demanding loads"
+        }
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Industrial Grade",
+          "description": "Designed for harsh environments"
+        },
+        {
+          "title": "Robust Protection",
+          "description": "OVP, OCP, OTP, and short-circuit protection"
+        },
+        {
+          "title": "High Efficiency",
+          "description": "Synchronous rectification up to 96%"
+        }
+      ],
+      "bomList": [
+        {
+          "partNumber": "XZ1002",
+          "quantity": 2,
+          "description": "3A Buck Converter",
+          "link": "/xinzhou/products/dcdc-converters/xz1002.html"
+        },
+        {
+          "partNumber": "XZ3001",
+          "quantity": 1,
+          "description": "Low Noise LDO",
+          "link": "/xinzhou/products/ldo-regulators/xz3001.html"
+        },
+        {
+          "partNumber": "XZ7001",
+          "quantity": 1,
+          "description": "Multi-Output PMIC",
+          "link": "/xinzhou/products/power-modules/xz7001.html"
+        }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "4.5V - 36V",
+        "Output Current": "Up to 6A total",
+        "Temperature": "-40°C to +85°C"
+      },
+      "customerCases": [
+        {
+          "customer": "Automation Company",
+          "industry": "Industrial",
+          "application": "PLC System",
+          "challenge": "Reliable power",
+          "solution": "Industrial power solution",
+          "result": "99.9% uptime"
+        }
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "David Wang",
+          "title": "Senior FAE - Industrial",
+          "experience": "10 years",
+          "expertise": [
+            "Industrial Power",
+            "Reliability Design"
+          ]
+        },
+        "content": "Industrial applications require power solutions that can handle wide input variations and provide reliable operation. Protection features and thermal management are critical.",
+        "keyTakeaways": [
+          "Design for wide input range",
+          "Implement comprehensive protection",
+          "Consider thermal management"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What makes a power solution industrial grade?",
+          "answer": "Wide input range, comprehensive protection, and operation over extended temperature range.",
+          "decisionGuide": "Verify industrial temperature rating and protection features.",
+          "keywords": [
+            "industrial grade",
+            "reliability"
+          ]
+        }
+      ]
+    }
+  ]
+}

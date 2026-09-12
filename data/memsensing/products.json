@@ -2261,7 +2261,7 @@
         {
           "partNumber": "MSM-P1000-420",
           "name": "High-Pressure Industrial Transmitter",
-          "shortDescription": "High-pressure transmitter with 0-1MPa range, 4-20mA output, IP67 rating, and robust stainless steel construction for ...",
+          "shortDescription": "High-pressure transmitter with 0-1MPa range, 4-20mA output, IP67 rating, and robust stainless steel construction for...",
           "descriptionParagraphs": [
             "The MSM-P1000-420 extends the pressure measurement capability to 1MPa (1000kPa) for high-pressure industrial applications. It combines reliable MEMS sensing with industrial-grade signal conditioning.",
             "The 4-20mA output and IP67 enclosure provide reliable operation in harsh industrial environments. The ±0.5% accuracy ensures precise pressure measurement for critical process control.",
@@ -2528,8 +2528,7 @@
           "faqs": [
             {
               "question": "What is the advantage of 0-10V vs 4-20mA for HVAC?",
-              "answer": "0-10V and 4-20mA each have advantages for HVAC applications: 0-10V advantages: 1) Direct compatibility with most BMS analog inputs; 2) Simpler troubleshooting with voltmeter; 3) No loop resistance calculations needed; 4) Common in building automation. 4-20mA advantages: 1) Better noise immunity for long cable runs; 2) Two-wire connection saves wiring cost; 3) Live zero (4mA) allows open-circuit detection; 4) Standard in industrial applications. For HVAC with typical cable runs under 100 feet, 0-10V works well and is more common in BMS. For longer runs or high-noise environments, 4-20mA is preferred."
-              ,
+              "answer": "0-10V and 4-20mA each have advantages for HVAC applications: 0-10V advantages: 1) Direct compatibility with most BMS analog inputs; 2) Simpler troubleshooting with voltmeter; 3) No loop resistance calculations needed; 4) Common in building automation. 4-20mA advantages: 1) Better noise immunity for long cable runs; 2) Two-wire connection saves wiring cost; 3) Live zero (4mA) allows open-circuit detection; 4) Standard in industrial applications. For HVAC with typical cable runs under 100 feet, 0-10V works well and is more common in BMS. For longer runs or high-noise environments, 4-20mA is preferred.",
               "decisionGuide": "Use 0-10V for standard HVAC/BMS applications. Select 4-20mA for long cable runs or industrial environments.",
               "keywords": [
                 "0-10V vs 4-20mA",
@@ -2539,8 +2538,7 @@
             },
             {
               "question": "How do I wire the 0-10V transmitter to a BMS?",
-              "answer": "Wiring the MSM-P400-010 to a BMS controller: 1) Connect +24VDC supply to transmitter +V (red wire); 2) Connect supply common to transmitter -V (black wire); 3) Connect transmitter signal output (white wire) to BMS analog input +; 4) Connect BMS analog input - to supply common. The transmitter requires 3 wires: power+, power-, and signal. Use 18-22 AWG shielded cable for best noise immunity. The BMS analog input should have high impedance (>10k ohm) to avoid loading the transmitter. Most modern BMS controllers have 0-10V inputs with >100k ohm impedance. Verify input range configuration in BMS (0-10V = 0-400kPa)."
-              ,
+              "answer": "Wiring the MSM-P400-010 to a BMS controller: 1) Connect +24VDC supply to transmitter +V (red wire); 2) Connect supply common to transmitter -V (black wire); 3) Connect transmitter signal output (white wire) to BMS analog input +; 4) Connect BMS analog input - to supply common. The transmitter requires 3 wires: power+, power-, and signal. Use 18-22 AWG shielded cable for best noise immunity. The BMS analog input should have high impedance (>10k ohm) to avoid loading the transmitter. Most modern BMS controllers have 0-10V inputs with >100k ohm impedance. Verify input range configuration in BMS (0-10V = 0-400kPa).",
               "decisionGuide": "Use 3-wire connection: power+, power-, signal. Verify BMS input impedance and range configuration.",
               "keywords": [
                 "0-10V wiring",
@@ -2550,8 +2548,7 @@
             },
             {
               "question": "Is IP65 sufficient for HVAC mechanical rooms?",
-              "answer": "Yes, IP65 is sufficient for most HVAC mechanical room applications: 1) IP65 is dust-tight and protected against water jets from any direction; 2) HVAC mechanical rooms are typically dry environments with occasional condensation; 3) IP65 handles cleaning and maintenance activities; 4) IP67 (immersion protection) is typically not needed unless flooding risk exists. For outdoor HVAC equipment or areas with washdown requirements, IP67 may be preferred. For clean, indoor environments, IP65 provides adequate protection at lower cost. The transmitter's electronics are protected from dust and moisture, ensuring long-term reliability in HVAC applications."
-              ,
+              "answer": "Yes, IP65 is sufficient for most HVAC mechanical room applications: 1) IP65 is dust-tight and protected against water jets from any direction; 2) HVAC mechanical rooms are typically dry environments with occasional condensation; 3) IP65 handles cleaning and maintenance activities; 4) IP67 (immersion protection) is typically not needed unless flooding risk exists. For outdoor HVAC equipment or areas with washdown requirements, IP67 may be preferred. For clean, indoor environments, IP65 provides adequate protection at lower cost. The transmitter's electronics are protected from dust and moisture, ensuring long-term reliability in HVAC applications.",
               "decisionGuide": "IP65 is sufficient for most HVAC applications. Use IP67 only for outdoor or washdown environments.",
               "keywords": [
                 "IP65 rating",
@@ -2561,8 +2558,7 @@
             },
             {
               "question": "Can this transmitter measure air pressure?",
-              "answer": "Yes, the MSM-P400-010 can measure air and gas pressures in HVAC applications. The 0-400kPa range covers typical HVAC air pressures: 1) Duct static pressure: typically 0.5-2.5 kPa (2-10 inH2O); 2) Fan discharge pressure: typically 1-5 kPa; 3) Filter differential pressure: typically 0.1-1 kPa. For accurate air pressure measurement: 1) Mount transmitter at measurement point to avoid tubing errors; 2) Use appropriate pressure pickup in duct; 3) For differential pressure, connect high side to upstream, low side to downstream; 4) Ensure no condensation enters transmitter. The stainless steel construction is compatible with air and common HVAC gases. For very low air pressures (<1kPa), consider the MSM-P100-010 with 0-100kPa range for better resolution."
-              ,
+              "answer": "Yes, the MSM-P400-010 can measure air and gas pressures in HVAC applications. The 0-400kPa range covers typical HVAC air pressures: 1) Duct static pressure: typically 0.5-2.5 kPa (2-10 inH2O); 2) Fan discharge pressure: typically 1-5 kPa; 3) Filter differential pressure: typically 0.1-1 kPa. For accurate air pressure measurement: 1) Mount transmitter at measurement point to avoid tubing errors; 2) Use appropriate pressure pickup in duct; 3) For differential pressure, connect high side to upstream, low side to downstream; 4) Ensure no condensation enters transmitter. The stainless steel construction is compatible with air and common HVAC gases. For very low air pressures (<1kPa), consider the MSM-P100-010 with 0-100kPa range for better resolution.",
               "decisionGuide": "Suitable for HVAC air pressure measurement. Use low-pressure version (MSM-P100-010) for very low pressure applications.",
               "keywords": [
                 "air pressure",
@@ -2572,8 +2568,7 @@
             },
             {
               "question": "What is the power consumption of the transmitter?",
-              "answer": "The MSM-P400-010 consumes approximately 15mA at 24VDC (360mW typical). Power consumption varies slightly with supply voltage: 1) At 12V: ~20mA (240mW); 2) At 24V: ~15mA (360mW); 3) At 30V: ~12mA (360mW). The power consumption is primarily for the internal signal conditioning electronics and voltage reference. This is typical for 0-10V pressure transmitters. For BMS applications, the power consumption is negligible compared to other equipment. The transmitter can be powered from standard 24VDC power supplies common in building automation. Ensure the power supply has adequate capacity for all connected devices."
-              ,
+              "answer": "The MSM-P400-010 consumes approximately 15mA at 24VDC (360mW typical). Power consumption varies slightly with supply voltage: 1) At 12V: ~20mA (240mW); 2) At 24V: ~15mA (360mW); 3) At 30V: ~12mA (360mW). The power consumption is primarily for the internal signal conditioning electronics and voltage reference. This is typical for 0-10V pressure transmitters. For BMS applications, the power consumption is negligible compared to other equipment. The transmitter can be powered from standard 24VDC power supplies common in building automation. Ensure the power supply has adequate capacity for all connected devices.",
               "decisionGuide": "Typical 360mW power consumption. Standard 24VDC BMS power supplies are adequate.",
               "keywords": [
                 "power consumption",
@@ -2625,8 +2620,7 @@
           "faeReview": {
             "author": "Michael Wang",
             "title": "FAE - Building Automation",
-            "content": "The MSM-P100-010 is essential for low-pressure air applications where standard transmitters don't provide adequate resolution. In clean room and laboratory applications, we're often measuring pressures in the 0.1-2 kPa range - the 0-100kPa range gives us 4x better resolution than 0-400kPa models. I've used these in pharmaceutical clean rooms, hospital isolation rooms, and laboratory fume hoods with excellent results. The 0-10V output connects directly to BMS controllers. The accuracy is excellent for these critical applications where maintaining proper pressure differentials is essential for safety and contamination control. The G1/4 connection works with standard pneumatic fittings used in air systems. I recommend this transmitter whenever measuring air pressures below 50kPa - the improved resolution provides better control and monitoring. The stainless steel construction is compatible with clean room environments."
-              ,
+            "content": "The MSM-P100-010 is essential for low-pressure air applications where standard transmitters don't provide adequate resolution. In clean room and laboratory applications, we're often measuring pressures in the 0.1-2 kPa range - the 0-100kPa range gives us 4x better resolution than 0-400kPa models. I've used these in pharmaceutical clean rooms, hospital isolation rooms, and laboratory fume hoods with excellent results. The 0-10V output connects directly to BMS controllers. The accuracy is excellent for these critical applications where maintaining proper pressure differentials is essential for safety and contamination control. The G1/4 connection works with standard pneumatic fittings used in air systems. I recommend this transmitter whenever measuring air pressures below 50kPa - the improved resolution provides better control and monitoring. The stainless steel construction is compatible with clean room environments.",
             "highlight": "Optimized low-pressure range with 4x better resolution for air applications"
           },
           "alternativeParts": [
@@ -2693,8 +2687,7 @@
           "faqs": [
             {
               "question": "Why choose 0-100kPa over 0-400kPa for air applications?",
-              "answer": "The 0-100kPa range provides better resolution for low-pressure air applications: 1) 4x better resolution - 100kPa/10000 counts = 0.01kPa (0.1 mbar) vs 0.04kPa; 2) Better accuracy at low pressures - same ±0.5% FS means ±0.5kPa error vs ±2kPa; 3) Better signal-to-noise ratio for small pressure changes; 4) Typical HVAC air pressures are 0.5-5kPa - using only 1-5% of 0-400kPa range wastes resolution. For example, measuring 2kPa duct pressure: 0-100kPa uses 2% of range with good resolution; 0-400kPa uses only 0.5% with poor resolution. The 0-100kPa transmitter provides more precise measurement and control for air systems."
-              ,
+              "answer": "The 0-100kPa range provides better resolution for low-pressure air applications: 1) 4x better resolution - 100kPa/10000 counts = 0.01kPa (0.1 mbar) vs 0.04kPa; 2) Better accuracy at low pressures - same ±0.5% FS means ±0.5kPa error vs ±2kPa; 3) Better signal-to-noise ratio for small pressure changes; 4) Typical HVAC air pressures are 0.5-5kPa - using only 1-5% of 0-400kPa range wastes resolution. For example, measuring 2kPa duct pressure: 0-100kPa uses 2% of range with good resolution; 0-400kPa uses only 0.5% with poor resolution. The 0-100kPa transmitter provides more precise measurement and control for air systems.",
               "decisionGuide": "Use 0-100kPa for air pressure <50kPa. Use 0-400kPa for water or higher-pressure applications.",
               "keywords": [
                 "range selection",
@@ -2704,8 +2697,7 @@
             },
             {
               "question": "What clean room applications is this suitable for?",
-              "answer": "The MSM-P100-010 is suitable for various clean room pressure monitoring: 1) Room differential pressure - monitoring positive/negative pressure vs adjacent spaces; 2) Filter monitoring - measuring pressure drop across HEPA filters; 3) Airflow measurement - converting velocity pressure to airflow rate; 4) Fume hood face velocity - monitoring static pressure for safety; 5) Isolation room pressure - ensuring proper containment. The ±0.5% accuracy ensures reliable pressure differentials for contamination control. The stainless steel construction meets clean room material requirements. The 0-10V output integrates with clean room monitoring systems. Typical clean room differentials are 10-50 Pa (0.01-0.05kPa) - the transmitter's resolution can detect these small pressures."
-              ,
+              "answer": "The MSM-P100-010 is suitable for various clean room pressure monitoring: 1) Room differential pressure - monitoring positive/negative pressure vs adjacent spaces; 2) Filter monitoring - measuring pressure drop across HEPA filters; 3) Airflow measurement - converting velocity pressure to airflow rate; 4) Fume hood face velocity - monitoring static pressure for safety; 5) Isolation room pressure - ensuring proper containment. The ±0.5% accuracy ensures reliable pressure differentials for contamination control. The stainless steel construction meets clean room material requirements. The 0-10V output integrates with clean room monitoring systems. Typical clean room differentials are 10-50 Pa (0.01-0.05kPa) - the transmitter's resolution can detect these small pressures.",
               "decisionGuide": "Suitable for all clean room pressure monitoring. Resolution adequate for typical 10-50 Pa differentials.",
               "keywords": [
                 "clean room",
@@ -2715,8 +2707,7 @@
             },
             {
               "question": "How do I measure differential pressure with this transmitter?",
-              "answer": "To measure differential pressure with the MSM-P100-010: 1) Use two transmitters - one upstream, one downstream; 2) Connect both to BMS and calculate differential in software; 3) Or use a differential pressure transmitter with dual ports. For filter monitoring: 1) Mount one transmitter upstream of filter; 2) Mount second transmitter downstream; 3) Differential = Upstream - Downstream; 4) Set alarm when differential exceeds limit (indicating dirty filter). For room differential: 1) One transmitter in clean room; 2) One in adjacent area; 3) Monitor difference for proper pressure cascade. The 0-100kPa range is suitable for most HVAC differential pressures (typically <10kPa). For very low differentials (<1kPa), the resolution is adequate for reliable measurement."
-              ,
+              "answer": "To measure differential pressure with the MSM-P100-010: 1) Use two transmitters - one upstream, one downstream; 2) Connect both to BMS and calculate differential in software; 3) Or use a differential pressure transmitter with dual ports. For filter monitoring: 1) Mount one transmitter upstream of filter; 2) Mount second transmitter downstream; 3) Differential = Upstream - Downstream; 4) Set alarm when differential exceeds limit (indicating dirty filter). For room differential: 1) One transmitter in clean room; 2) One in adjacent area; 3) Monitor difference for proper pressure cascade. The 0-100kPa range is suitable for most HVAC differential pressures (typically <10kPa). For very low differentials (<1kPa), the resolution is adequate for reliable measurement.",
               "decisionGuide": "Use two transmitters for differential measurement. Calculate differential in BMS or use dedicated differential transmitter.",
               "keywords": [
                 "differential pressure",
@@ -2726,8 +2717,7 @@
             },
             {
               "question": "Can this transmitter be used for water applications?",
-              "answer": "The MSM-P100-010 can be used for low-pressure water applications, but with limitations: 1) 0-100kPa = 0-10m water column - suitable for very low water pressures only; 2) Most water applications (pumps, hydronics) require 0-400kPa or higher; 3) The transmitter is compatible with water - stainless steel construction resists corrosion. For water applications: 1) Verify pressure range is adequate (add 50% safety margin); 2) Install with isolation valve for maintenance; 3) Mount below pipe to avoid air pockets; 4) Use for: open tank level (10m max), very low-pressure water systems, drip irrigation. For typical HVAC water systems, use MSM-P400-010 or MSM-P400-420 instead. The 0-100kPa range is primarily designed for air and very low-pressure fluids."
-              ,
+              "answer": "The MSM-P100-010 can be used for low-pressure water applications, but with limitations: 1) 0-100kPa = 0-10m water column - suitable for very low water pressures only; 2) Most water applications (pumps, hydronics) require 0-400kPa or higher; 3) The transmitter is compatible with water - stainless steel construction resists corrosion. For water applications: 1) Verify pressure range is adequate (add 50% safety margin); 2) Install with isolation valve for maintenance; 3) Mount below pipe to avoid air pockets; 4) Use for: open tank level (10m max), very low-pressure water systems, drip irrigation. For typical HVAC water systems, use MSM-P400-010 or MSM-P400-420 instead. The 0-100kPa range is primarily designed for air and very low-pressure fluids.",
               "decisionGuide": "Use for water only if pressure <50kPa. For typical water applications, select higher-range models.",
               "keywords": [
                 "water pressure",
@@ -2737,8 +2727,7 @@
             },
             {
               "question": "What is the minimum measurable pressure?",
-              "answer": "The MSM-P100-010 can reliably measure pressures down to approximately 0.1kPa (100 Pa, 0.4 inH2O): 1) Theoretical resolution: 100kPa / 10000 ADC counts = 0.01kPa per count; 2) Practical minimum: ~10 counts = 0.1kPa with reasonable accuracy; 3) Below 0.1kPa, noise and offset errors become significant; 4) Zero offset drift may affect very low measurements. For reference: 1) 0.1kPa ≈ 0.4 inches water column; 2) Typical duct velocity pressure: 0.1-0.5kPa; 3) Clean room differential: 0.01-0.05kPa (may be at limit). For pressures below 0.1kPa, consider specialized low-pressure transmitters or differential pressure sensors designed for very low ranges. The transmitter can indicate pressures below 0.1kPa but accuracy is not guaranteed."
-              ,
+              "answer": "The MSM-P100-010 can reliably measure pressures down to approximately 0.1kPa (100 Pa, 0.4 inH2O): 1) Theoretical resolution: 100kPa / 10000 ADC counts = 0.01kPa per count; 2) Practical minimum: ~10 counts = 0.1kPa with reasonable accuracy; 3) Below 0.1kPa, noise and offset errors become significant; 4) Zero offset drift may affect very low measurements. For reference: 1) 0.1kPa ≈ 0.4 inches water column; 2) Typical duct velocity pressure: 0.1-0.5kPa; 3) Clean room differential: 0.01-0.05kPa (may be at limit). For pressures below 0.1kPa, consider specialized low-pressure transmitters or differential pressure sensors designed for very low ranges. The transmitter can indicate pressures below 0.1kPa but accuracy is not guaranteed.",
               "decisionGuide": "Reliable measurement down to 0.1kPa. Below this, accuracy degrades. Consider specialized sensors for very low pressures.",
               "keywords": [
                 "minimum pressure",

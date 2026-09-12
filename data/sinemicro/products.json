@@ -89,7 +89,11 @@
         "Temperature Range",
         "Qualification",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Frequency",
+        "Motor Control",
+        "Communication",
+        "Timers"
       ],
       "applications": [
         "Body Control Modules",
@@ -177,7 +181,11 @@
             "Package": "TSSOP-20, QFN-20",
             "Qualification": "AEC-Q100 Grade 1",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Frequency": "N/A",
+            "Motor Control": "N/A",
+            "Communication": "N/A",
+            "Timers": "N/A"
           },
           "applications": [
             "Window Lift Control",
@@ -260,7 +268,11 @@
             "Package": "TSSOP-28, QFN-28",
             "Qualification": "AEC-Q100 Grade 1",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Frequency": "N/A",
+            "Motor Control": "N/A",
+            "Communication": "N/A",
+            "Timers": "N/A"
           },
           "applications": [
             "Complex Body Control",
@@ -340,7 +352,12 @@
             "Communication": "2x UART, 1x SPI, 1x I2C, CAN",
             "Package": "LQFP-48, QFN-48",
             "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1"
+            "Qualification": "AEC-Q100 Grade 1",
+            "PWM": "N/A",
+            "Operating Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Timers": "N/A"
           },
           "applications": [
             "DC Motor Control",
@@ -421,7 +438,12 @@
             "Communication": "1x UART, 1x SPI, 1x I2C",
             "Package": "TSSOP-20, QFN-32",
             "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1"
+            "Qualification": "AEC-Q100 Grade 1",
+            "PWM": "N/A",
+            "Operating Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Motor Control": "N/A"
           },
           "applications": [
             "Switch Monitoring",
@@ -760,7 +782,9 @@
             "Load Regulation": "25mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TO-252, TO-263",
-            "Qualification": "AEC-Q100 Grade 1"
+            "Qualification": "AEC-Q100 Grade 1",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "applications": [
             "Multi-MCU Power Supply",
@@ -839,7 +863,9 @@
             "Load Regulation": "20mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TO-252, TO-263",
-            "Qualification": "AEC-Q100 Grade 1"
+            "Qualification": "AEC-Q100 Grade 1",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "applications": [
             "24V Truck Electronics",
@@ -1443,7 +1469,7 @@
           "companionParts": [
             {
               "partNumber": "LEDs",
-          "link": "#",
+              "link": "#",
               "description": "High-brightness automotive LEDs",
               "category": "Optoelectronics"
             }

@@ -1,0 +1,916 @@
+{
+  "articles": [
+    {
+      "id": "realtek-ethernet-selection-guide",
+      "title": "Realtek Ethernet Controller Selection Guide",
+      "slug": "realtek-ethernet-controller-selection-guide",
+      "summary": "A comprehensive guide to selecting the right Realtek Ethernet controller for your application, covering PCIe and USB interfaces, speed grades, and feature sets.",
+      "content": [
+        "Realtek Semiconductor offers one of the broadest portfolios of Ethernet controllers in the industry, ranging from cost-effective 10/100 Mbps solutions to high-performance 2.5G Gigabit controllers. Choosing the right Ethernet controller is critical for your product design, as it directly impacts network performance, power consumption, and overall system cost. This guide will walk you through the key considerations when selecting a Realtek Ethernet controller.",
+        "The first major decision is interface type: PCIe vs USB. Realtek's PCIe controllers like the RTL8111H and RTL8111EP-CG are ideal for desktop and laptop motherboards, offering direct connection to the system bus with minimal latency. USB Ethernet controllers such as the RTL8153B and RTL8156B are perfect for dongles, docking stations, and embedded systems where flexibility and ease of integration are priorities.",
+        "Speed requirements are the next consideration. For standard Gigabit Ethernet, the RTL8111H remains the most popular choice worldwide. For applications requiring higher throughput, the RTL8156BG-S and RTL8156B support 2.5Gbps over existing Cat5e cabling, making them ideal for gaming, NAS, and high-bandwidth industrial applications. Realtek's advanced power management features also make these controllers suitable for Energy Efficient Ethernet (EEE) compliant designs.",
+        "Additional features to consider include Wake-on-LAN (WoL), PXE boot support, VLAN tagging, and checksum offloading. Industrial applications may require extended temperature ranges and enhanced ESD protection. BeiLuo FAE team can provide detailed application notes and reference designs to help you select and integrate the optimal Realtek Ethernet controller for your specific requirements."
+      ],
+      "category": "selection-guide",
+      "tags": [
+        "Ethernet",
+        "controller selection",
+        "RTL8111H",
+        "RTL8156B",
+        "networking"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-01",
+      "publishDate": "2024-06-01"
+    },
+    {
+      "id": "realtek-wifi-comparison-8821ce-8852be",
+      "title": "RTL8821CE vs RTL8852BE Wi-Fi Module Comparison",
+      "slug": "rtl8821ce-vs-rtl8852be-wifi-module-comparison",
+      "summary": "Detailed comparison of Realtek RTL8821CE and RTL8852BE Wi-Fi modules, helping engineers choose the right solution for their wireless design.",
+      "content": [
+        "Realtek's RTL8821CE and RTL8852BE is two generations of Wi-Fi combo modules widely used in laptops, desktops, and embedded systems. Understanding their differences is essential for making the right design choice. The RTL8821CE is a Wi-Fi 5 (802.11ac) module with Bluetooth 4.2, while the RTL8852BE supports Wi-Fi 6 (802.11ax) with Bluetooth 5.2.",
+        "regarding performance, the RTL8852BE offers significantly higher throughput with theoretical speeds up to 1.2Gbps compared to the RTL8821CE's 433Mbps on the 5GHz band. The RTL8852BE also supports OFDMA and MU-MIMO, enabling better performance in dense wireless environments. For Bluetooth, the RTL8852BE's Bluetooth 5.2 provides lower latency and improved audio quality through LE Audio support.",
+        "Power consumption is another key differentiator. While the RTL8852BE offers superior performance, it typically consumes slightly more power under load. However, its advanced power-saving features, including Target Wake Time (TWT), can improve battery life in mobile devices during idle periods. The RTL8821CE remains a more power-efficient choice for basic connectivity needs.",
+        "Cost is often the deciding factor. The RTL8821CE is a mature, cost-optimized solution ideal for budget-conscious designs where Wi-Fi 5 performance is sufficient. The RTL8852BE commands a premium but future-proofs your design for next-generation wireless networks. BeiLuo's FAE team can help evaluate your specific use case and recommend the optimal module based on performance requirements, power budget, and cost targets."
+      ],
+      "category": "comparison",
+      "tags": [
+        "Wi-Fi",
+        "RTL8821CE",
+        "RTL8852BE",
+        "comparison",
+        "wireless"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-05",
+      "publishDate": "2024-06-05"
+    },
+    {
+      "id": "realtek-audio-codec-comparison",
+      "title": "Realtek Audio Codec Comparison Guide",
+      "slug": "realtek-audio-codec-comparison-guide",
+      "summary": "An in-depth comparison of Realtek ALC897, ALC256, ALC1220, and ALC4080 audio codecs for various PC and consumer electronics applications.",
+      "content": [
+        "Realtek's HD Audio codecs power most PCs worldwide, but selecting the right codec requires understanding the key differences between models. The ALC897, ALC256, ALC1220, and ALC4080 serve different market segments, from budget laptops to premium gaming motherboards and professional audio workstations.",
+        "The ALC256 is a low-power codec designed primarily for tablets and ultra-thin laptops, offering 2-channel output with 95dB SNR. The ALC897 is the mainstream choice for desktop motherboards, supporting 5.1 surround sound with 110dB SNR playback. For high-end applications, the ALC1220 delivers 7.1 channel audio with 120dB SNR, making it suitable for gaming and content creation. The flagship ALC4080 is Realtek's first USB-based audio codec, offering 7.1 channels with up to 120dB SNR and native USB audio support that bypasses the legacy HD Audio bus.",
+        "Key specifications to consider include signal-to-noise ratio (SNR), supported channel count, sample rate, and impedance detection. The ALC1220 and ALC4080 support high-impedance headphone amplification up to 600 ohms, while the ALC256 and ALC897 are optimized for standard consumer headphones. All codecs support Realtek's proprietary DTS Connect and Dolby Digital encoding for surround sound output via SPDIF or HDMI.",
+        "For design engineers, PCB layout considerations differ significantly between codecs. The USB-based ALC4080 simplifies layout by eliminating the HD Audio link, while the HDA-based codecs require careful analog and digital separation. All codecs are supported by Realtek's unified Windows and Linux driver framework. Contact BeiLuo FAE for detailed application notes, reference designs, and audio tuning guidance."
+      ],
+      "category": "comparison",
+      "tags": [
+        "audio codec",
+        "ALC897",
+        "ALC256",
+        "ALC1220",
+        "ALC4080",
+        "HD Audio"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-10",
+      "publishDate": "2024-06-10"
+    },
+    {
+      "id": "realtek-wifi-6-6e-7-overview",
+      "title": "Wi-Fi 6 vs Wi-Fi 6E vs Wi-Fi 7 Technology Overview",
+      "slug": "wifi-6-vs-wifi-6e-vs-wifi-7-technology-overview",
+      "summary": "An overview of next-generation wireless technologies comparing Wi-Fi 6, Wi-Fi 6E, and Wi-Fi 7 standards for real-world applications.",
+      "content": [
+        "The evolution of Wi-Fi technology has accelerated rapidly, with Wi-Fi 6, Wi-Fi 6E, and now Wi-Fi 7 (802.11be) pushing the boundaries of wireless performance. Realtek is at the forefront of this innovation, offering chipsets across all three generations. Understanding the differences between these standards is important for designing products that meet current and future connectivity demands.",
+        "Wi-Fi 6 (802.11ax) introduced fundamental improvements over Wi-Fi 5, including OFDMA, MU-MIMO, and 1024-QAM modulation, delivering up to 9.6Gbps theoretical throughput. Wi-Fi 6E extends Wi-Fi 6 into the 6GHz band, providing additional spectrum that reduces congestion and interference. Realtek's RTL8852BE and RTL8852CE support both Wi-Fi 6 and 6E, making them ideal for premium laptops and access points.",
+        "Wi-Fi 7 (802.11be) is the next leap forward, featuring 320MHz channel width, 4096-QAM modulation, and Multi-Link Operation (MLO) that simultaneously uses multiple bands for unprecedented throughput up to 46Gbps. Realtek has announced RTL8854 and RTL8891 chipsets for Wi-Fi 7, targeting enterprise access points and high-end client devices. Wi-Fi 7 also brings improved deterministic latency, making it suitable for industrial automation and AR/VR applications.",
+        "When choosing between these standards, consider your target application and market positioning. Wi-Fi 6 remains the sweet spot for mainstream products with excellent performance and mature ecosystem support. Wi-Fi 6E is recommended for products targeting the premium segment where spectrum availability and reduced interference are priorities. Wi-Fi 7 is best suited for flagship products that require future-proofing and maximum performance. BeiLuo FAE can provide detailed roadmaps and design guidance for Realtek wireless solutions."
+      ],
+      "category": "technology-overview",
+      "tags": [
+        "Wi-Fi 6",
+        "Wi-Fi 6E",
+        "Wi-Fi 7",
+        "802.11ax",
+        "802.11be",
+        "wireless technology"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-15",
+      "publishDate": "2024-06-15"
+    },
+    {
+      "id": "realtek-usb-vs-pcie-ethernet",
+      "title": "USB Ethernet vs PCIe Ethernet Design Guide",
+      "slug": "usb-ethernet-vs-pcie-ethernet-design-guide",
+      "summary": "A comprehensive design guide comparing USB Ethernet and PCIe Ethernet interfaces for Realtek controllers, helping engineers choose the right interface for their application.",
+      "content": [
+        "Choosing between USB and PCIe interfaces for Ethernet connectivity is a fundamental design decision that impacts performance, cost, and system architecture. Realtek offers high-quality solutions for both interfaces, each with distinct advantages. The RTL8153B and RTL8156B families is Realtek's USB Ethernet controllers, while the RTL8111H and RTL8111EP-CG families lead the PCIe Ethernet lineup.",
+        "USB Ethernet controllers excel in flexibility and ease of integration. They are ideal for external dongles, docking stations, and embedded systems where adding a PCIe slot is impractical. USB 3.0 and USB 3.1 Gen1 provide sufficient bandwidth for Gigabit and 2.5G Ethernet. The RTL8156BG-S with 2.5Gbps support over USB 3.0 is particularly popular for high-performance external adapters. USB Ethernet also supports plug-and-play operation and hot-swapping.",
+        "PCIe Ethernet controllers offer lower latency and higher throughput due to direct system bus access. They are the preferred choice for motherboard-integrated networking, servers, and industrial applications requiring consistent low-latency performance. PCIe controllers like the RTL8111H have been extensively validated across thousands of motherboard designs. PCIe interface also provides native support for advanced features like PXE boot and VLAN offloading with lower CPU utilization.",
+        "From a design perspective, PCIe Ethernet typically requires more board space and a more complex layout with differential pairs and impedance control. USB Ethernet simplifies PCB routing but requires careful attention to USB signal integrity and power delivery. Both interfaces support industrial temperature ranges and are available in multiple package options. BeiLuo Electronics provides comprehensive reference designs and layout guidelines for both USB and PCIe implementations."
+      ],
+      "category": "design-guide",
+      "tags": [
+        "USB Ethernet",
+        "PCIe Ethernet",
+        "RTL8156B",
+        "RTL8111H",
+        "design guide"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-20",
+      "publishDate": "2024-06-20"
+    },
+    {
+      "id": "realtek-industrial-ethernet-guide",
+      "title": "Industrial Temperature Ethernet Controller Guide",
+      "slug": "industrial-temperature-ethernet-controller-guide",
+      "summary": "A guide to Realtek's industrial temperature grade Ethernet controllers for harsh environment applications, covering specifications and design considerations.",
+      "content": [
+        "Industrial applications demand electronic components that can operate reliably in extreme conditions. Realtek offers industrial temperature (-40°C to +85°C) variants of many popular Ethernet controllers, ensuring reliable networking in factory automation, outdoor equipment, and automotive applications. The RTL8111EP-CG and industrial-grade RTL8111H variants are among the most popular choices for ruggedized designs.",
+        "Industrial-grade Ethernet controllers maintain full electrical specifications across the extended temperature range, including precise clock generation, stable voltage regulation, and consistent signal integrity. Realtek achieves this through careful silicon design, specialized packaging, and rigorous production testing. Industrial variants typically use enhanced ESD protection and are qualified to higher reliability standards including AEC-Q100 for automotive applications.",
+        "Design considerations for industrial Ethernet include proper thermal management, conformal coating support, and robust power supply design. Realtek's industrial controllers feature integrated thermal monitoring and protection circuits that prevent damage during extreme conditions. PCB layout must account for thermal expansion, and components should be selected for their full temperature range ratings. Proper magnetics selection is also critical for industrial applications with long cable runs.",
+        "Applications for Realtek industrial Ethernet controllers include programmable logic controllers (PLCs), industrial switches, IP cameras, outdoor wireless access points, and in-vehicle networking systems. BeiLuo Electronics stocks industrial-grade Realtek controllers and provides detailed design support including thermal simulation data, reliability reports, and application-specific reference designs for demanding industrial environments."
+      ],
+      "category": "design-guide",
+      "tags": [
+        "industrial temperature",
+        "Ethernet",
+        "RTL8111EP-CG",
+        "industrial automation",
+        "ruggedized"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-06-25",
+      "publishDate": "2024-06-25"
+    },
+    {
+      "id": "realtek-driver-installation-guide",
+      "title": "Realtek Driver Installation Guide Windows Linux",
+      "slug": "realtek-driver-installation-guide-windows-linux",
+      "summary": "Step-by-step driver installation guide for Realtek Ethernet, Wi-Fi, audio, and card reader products on Windows and Linux platforms.",
+      "content": [
+        "Proper driver installation is essential for optimal performance and reliability of Realtek products. This guide covers driver installation procedures for Realtek Ethernet controllers, Wi-Fi modules, audio codecs, and card reader controllers on both Windows and Linux platforms. Realtek provides unified driver packages that support multiple product families, simplifying the installation process.",
+        "For Windows platforms, Realtek drivers are available through Windows Update, manufacturer websites, and the official Realtek download center. The recommended approach for most users is to allow Windows Update to automatically detect and install appropriate drivers. For advanced users and system integrators, Realtek provides standalone driver installers that include the complete driver stack, management utilities, and codec panels. Windows driver installation typically requires administrator privileges and a system reboot to complete.",
+        "Linux driver installation varies by distribution and kernel version. Many Realtek Ethernet controllers are supported by in-kernel drivers (r8169 for PCIe, r8152 for USB). For the latest chipsets, Realtek provides source code drivers that can be compiled and installed manually. The installation process involves downloading the driver tarball, extracting it, running make and make install commands, and loading the kernel module. Ubuntu and Debian-based distributions also offer Realtek drivers through their package repositories.",
+        "For wireless drivers, the situation is more complex as some Realtek Wi-Fi chipsets require proprietary firmware blobs. Most major Linux distributions include the necessary firmware files in their non-free firmware packages. For audio codecs, the kernel's snd-hda-intel driver supports most Realtek HD Audio codecs out of the box. BeiLuo FAE team provides custom driver packages and installation scripts for supported operating systems and can assist with driver customization for embedded Linux and Yocto-based projects."
+      ],
+      "category": "tutorial",
+      "tags": [
+        "driver installation",
+        "Windows",
+        "Linux",
+        "Realtek",
+        "setup guide"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-07-01",
+      "publishDate": "2024-07-01"
+    },
+    {
+      "id": "realtek-card-reader-selection-guide",
+      "title": "Card Reader Controller Selection Guide",
+      "slug": "card-reader-controller-selection-guide",
+      "summary": "A comprehensive guide to selecting Realtek card reader controllers for embedded systems, covering USB and PCIe interfaces, supported media formats, and performance considerations.",
+      "content": [
+        "Realtek is a leading provider of card reader controllers, offering solutions for SD, microSD, and MultiMediaCard (MMC) interfaces. Their product lineup includes USB-based controllers like the RTS5227 and RTS5209, as well as PCIe-based controllers for higher performance applications. Selecting the right card reader controller is important for embedded systems that require reliable removable storage support.",
+        "The interface choice between USB and PCIe depends on your system architecture. USB card readers like the RTS5227 connect via internal USB headers and are common in laptop and all-in-one designs. They offer simple integration and are cost-effective. PCIe-based readers provide higher throughput and lower latency, making them suitable for high-speed professional card readers used in photography and video production. The RTS5250 and RTS5261 are popular PCIe options supporting UHS-II SD cards.",
+        "Supported media types and speed grades are critical considerations. Most Realtek card readers support SD, SDHC, SDXC, and MMC cards. Higher-end controllers support UHS-I (up to 104MB/s) and UHS-II (up to 312MB/s) transfer speeds. For industrial applications, features like card detection, write protection sensing, and hot-plug support are essential. Some controllers also support eMMC 5.0/5.1 interfaces for embedded storage applications.",
+        "Power management is particularly important for battery-powered devices. Realtek card reader controllers feature multiple power-saving modes and can automatically power down when no card is present. For PCB layout, differential pair routing for USB/PCIe signals and proper decoupling are essential for reliable high-speed operation. BeiLuo FAE provides comprehensive design support including schematic reviews, layout recommendations, and compatibility testing for Realtek card reader implementations."
+      ],
+      "category": "selection-guide",
+      "tags": [
+        "card reader",
+        "RTS5227",
+        "SD card",
+        "USB reader",
+        "PCIe reader",
+        "embedded systems"
+      ],
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Senior FAE Engineer"
+      },
+      "date": "2024-07-05",
+      "publishDate": "2024-07-05"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "realtek-general-1",
+      "category": "general",
+      "question": "What product categories does Realtek offer?",
+      "answer": "Realtek offers four main product categories: Ethernet Controllers (PCIe and USB Gigabit Ethernet), Wireless Network ICs (Wi-Fi and Bluetooth combo chips), Audio Codecs (HD Audio solutions for PC and consumer electronics), and Card Reader Controllers (SD/microSD card readers with USB and PCIe interfaces).",
+      "decisionGuide": "Browse our product categories to find the right solution for your application. Contact BeiLuo FAE for selection guidance.",
+      "keywords": [
+        "product categories",
+        "Ethernet",
+        "Wi-Fi",
+        "Audio",
+        "Card Reader"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8821CE",
+        "ALC897",
+        "RTS5227"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-general-2",
+      "category": "general",
+      "question": "How do I get technical support for Realtek products?",
+      "answer": "BeiLuo Electronics provides comprehensive technical support for Realtek products including schematic review, PCB layout guidance, driver assistance, and debugging support. Contact our FAE team at realtek-support@BeiLuo.com or call +86-755-1234-5678.",
+      "decisionGuide": "Contact BeiLuo FAE for any technical questions. We provide support from design to production.",
+      "keywords": [
+        "technical support",
+        "FAE",
+        "schematic review",
+        "layout guidance"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-general-3",
+      "category": "general",
+      "question": "Where can I download Realtek drivers?",
+      "answer": "Drivers for Realtek products are available from the Realtek website and BeiLuo Electronics support portal. We provide Windows, Linux, and macOS drivers for all our distributed products. Contact us for driver packages specific to your application.",
+      "decisionGuide": "Download drivers from official sources. Contact BeiLuo for application-specific driver configurations.",
+      "keywords": [
+        "drivers",
+        "download",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-ordering-1",
+      "category": "ordering",
+      "question": "What is the minimum order quantity (MOQ) for Realtek products?",
+      "answer": "MOQ varies by product. Standard products typically have MOQ of 1,000-5,000 units. High-volume products may have lower MOQ. Contact BeiLuo sales for specific MOQ and pricing information.",
+      "decisionGuide": "Contact sales for MOQ details. We support both high-volume production and prototype quantities.",
+      "keywords": [
+        "MOQ",
+        "minimum order",
+        "ordering",
+        "pricing"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-ordering-2",
+      "category": "ordering",
+      "question": "What is the typical lead time for Realtek products?",
+      "answer": "Standard lead time is 8-12 weeks for most Realtek products. Some high-volume products may have shorter lead times. Contact BeiLuo for current stock availability and expedited delivery options.",
+      "decisionGuide": "Plan for 8-12 week lead time. Contact us for stock availability and expedited options.",
+      "keywords": [
+        "lead time",
+        "delivery",
+        "stock",
+        "availability"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-technical-1",
+      "category": "technical",
+      "question": "Do Realtek Ethernet controllers support industrial temperature ranges?",
+      "answer": "Yes, many Realtek Ethernet controllers are available in industrial grade (-40°C to +85°C). Contact BeiLuo to confirm industrial grade availability for specific part numbers.",
+      "decisionGuide": "Specify industrial grade requirement when ordering. Not all parts have industrial options.",
+      "keywords": [
+        "industrial temperature",
+        "-40°C",
+        "+85°C",
+        "Ethernet"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8111EP-CG"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-technical-2",
+      "category": "technical",
+      "question": "What wireless standards do Realtek combo chips support?",
+      "answer": "Realtek combo chips support Wi-Fi 802.11a/b/g/n/ac/ax and Bluetooth 4.2/5.0/5.1/5.2. Specific support varies by product - RTL8821CE supports Wi-Fi 5 + BT 4.2, while RTL8852AE supports Wi-Fi 6 + BT 5.2.",
+      "decisionGuide": "Choose Wi-Fi 6 (RTL8852AE) for latest performance, Wi-Fi 5 (RTL8821CE/RTL8822CE) for cost optimization.",
+      "keywords": [
+        "Wi-Fi",
+        "Bluetooth",
+        "802.11ax",
+        "802.11ac",
+        "combo chip"
+      ],
+      "relatedProducts": [
+        "RTL8821CE",
+        "RTL8822CE",
+        "RTL8852AE",
+        "RTL8723DS"
+      ],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "realtek-technical-3",
+      "category": "technical",
+      "question": "Do Realtek audio codecs support surround sound?",
+      "answer": "Yes, Realtek audio codecs support 2.0, 5.1, and 7.1 channel configurations. Premium codecs like ALC1220 and ALC4080 support DTS Connect and Dolby Digital for surround sound encoding and SPDIF output.",
+      "decisionGuide": "Choose 7.1 channel codecs (ALC1220, ALC4080) for surround sound. 2.0 channel for basic stereo applications.",
+      "keywords": [
+        "surround sound",
+        "7.1 channel",
+        "DTS",
+        "Dolby",
+        "audio codec"
+      ],
+      "relatedProducts": [
+        "ALC897",
+        "ALC1220",
+        "ALC4080",
+        "ALC662"
+      ],
+      "lastUpdated": "2024-01-15"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "realtek-datasheets",
+      "title": "Product Datasheets",
+      "description": "Complete technical datasheets for all Realtek products including specifications, pinouts, and electrical characteristics",
+      "category": "documentation",
+      "items": [
+        {
+          "name": "Ethernet Controllers Datasheet Collection",
+          "description": "Datasheets for RTL8111H, RTL8111EP-CG, RTL8153B, RTL8156B, RTL8156BG-S",
+          "fileType": "PDF",
+          "fileSize": "15.2 MB",
+          "version": "2024.01",
+          "lastUpdated": "2024-01-15",
+          "downloadLink": "/downloads/realtek/ethernet-datasheets.zip",
+          "relatedProducts": [
+            "RTL8111H",
+            "RTL8111EP-CG",
+            "RTL8153B",
+            "RTL8156B"
+          ]
+        },
+        {
+          "name": "Wireless Network ICs Datasheet Collection",
+          "description": "Datasheets for RTL8821CE, RTL8822CE, RTL8852AE, RTL8723DS, RTL8811CU",
+          "fileType": "PDF",
+          "fileSize": "22.8 MB",
+          "version": "2024.01",
+          "lastUpdated": "2024-01-15",
+          "downloadLink": "/downloads/realtek/wireless-datasheets.zip",
+          "relatedProducts": [
+            "RTL8821CE",
+            "RTL8822CE",
+            "RTL8852AE",
+            "RTL8723DS"
+          ]
+        },
+        {
+          "name": "Audio Codecs Datasheet Collection",
+          "description": "Datasheets for ALC897, ALC1220, ALC4080, ALC662, ALC256",
+          "fileType": "PDF",
+          "fileSize": "18.5 MB",
+          "version": "2024.01",
+          "lastUpdated": "2024-01-15",
+          "downloadLink": "/downloads/realtek/audio-datasheets.zip",
+          "relatedProducts": [
+            "ALC897",
+            "ALC1220",
+            "ALC4080",
+            "ALC662"
+          ]
+        },
+        {
+          "name": "Card Reader Controllers Datasheet Collection",
+          "description": "Datasheets for RTS5227, RTS5209, RTS5321, RTS5250, RTS5261",
+          "fileType": "PDF",
+          "fileSize": "12.3 MB",
+          "version": "2024.01",
+          "lastUpdated": "2024-01-15",
+          "downloadLink": "/downloads/realtek/cardreader-datasheets.zip",
+          "relatedProducts": [
+            "RTS5227",
+            "RTS5209",
+            "RTS5321",
+            "RTS5250"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "realtek-drivers",
+      "title": "Drivers & Software",
+      "description": "Windows, Linux, and macOS drivers for Realtek products",
+      "category": "software",
+      "items": [
+        {
+          "name": "Ethernet Controller Drivers (Windows)",
+          "description": "Windows 10/11 drivers for RTL8111H, RTL8111EP-CG, RTL8153B, RTL8156B",
+          "fileType": "EXE",
+          "fileSize": "45.6 MB",
+          "version": "10.56",
+          "lastUpdated": "2024-01-10",
+          "downloadLink": "/downloads/realtek/ethernet-windows-drivers.exe",
+          "relatedProducts": [
+            "RTL8111H",
+            "RTL8111EP-CG",
+            "RTL8153B",
+            "RTL8156B"
+          ]
+        },
+        {
+          "name": "Ethernet Controller Drivers (Linux)",
+          "description": "Linux kernel drivers for Realtek Ethernet controllers (kernel 3.10+)",
+          "fileType": "GZ",
+          "fileSize": "2.1 MB",
+          "version": "r8168-8.052.01",
+          "lastUpdated": "2024-01-10",
+          "downloadLink": "/downloads/realtek/ethernet-linux-drivers.tar.gz",
+          "relatedProducts": [
+            "RTL8111H",
+            "RTL8111EP-CG",
+            "RTL8153B",
+            "RTL8156B"
+          ]
+        },
+        {
+          "name": "Wireless Combo Drivers (Windows)",
+          "description": "Windows 10/11 drivers for RTL8821CE, RTL8822CE, RTL8852AE, RTL8723DS",
+          "fileType": "EXE",
+          "fileSize": "128.5 MB",
+          "version": "3008.45",
+          "lastUpdated": "2024-01-12",
+          "downloadLink": "/downloads/realtek/wireless-windows-drivers.exe",
+          "relatedProducts": [
+            "RTL8821CE",
+            "RTL8822CE",
+            "RTL8852AE",
+            "RTL8723DS"
+          ]
+        },
+        {
+          "name": "Wireless Combo Drivers (Linux)",
+          "description": "Linux drivers for Realtek wireless combo chips",
+          "fileType": "GZ",
+          "fileSize": "15.8 MB",
+          "version": "5.15.5",
+          "lastUpdated": "2024-01-12",
+          "downloadLink": "/downloads/realtek/wireless-linux-drivers.tar.gz",
+          "relatedProducts": [
+            "RTL8821CE",
+            "RTL8822CE",
+            "RTL8852AE",
+            "RTL8723DS"
+          ]
+        },
+        {
+          "name": "Audio Codec Drivers (Windows)",
+          "description": "Universal Windows audio drivers for Realtek HD Audio codecs",
+          "fileType": "EXE",
+          "fileSize": "85.2 MB",
+          "version": "6.0.9524",
+          "lastUpdated": "2024-01-08",
+          "downloadLink": "/downloads/realtek/audio-windows-drivers.exe",
+          "relatedProducts": [
+            "ALC897",
+            "ALC1220",
+            "ALC4080",
+            "ALC662"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "realtek-reference",
+      "title": "Reference Designs",
+      "description": "Schematics, PCB layouts, and reference design files",
+      "category": "design",
+      "items": [
+        {
+          "name": "Ethernet Controller Reference Design",
+          "description": "Complete reference design for PCIe and USB Ethernet controllers including schematics and PCB layout",
+          "fileType": "ZIP",
+          "fileSize": "45.8 MB",
+          "version": "Rev 2.1",
+          "lastUpdated": "2024-01-05",
+          "downloadLink": "/downloads/realtek/ethernet-reference-design.zip",
+          "relatedProducts": [
+            "RTL8111H",
+            "RTL8111EP-CG",
+            "RTL8153B",
+            "RTL8156B"
+          ]
+        },
+        {
+          "name": "Wireless Module Reference Design",
+          "description": "Reference design for Wi-Fi/Bluetooth combo modules with antenna design",
+          "fileType": "ZIP",
+          "fileSize": "62.3 MB",
+          "version": "Rev 1.8",
+          "lastUpdated": "2024-01-05",
+          "downloadLink": "/downloads/realtek/wireless-reference-design.zip",
+          "relatedProducts": [
+            "RTL8821CE",
+            "RTL8822CE",
+            "RTL8852AE",
+            "RTL8723DS"
+          ]
+        },
+        {
+          "name": "Audio Codec Reference Design",
+          "description": "Reference design for HD Audio codec implementation with amplifier circuits",
+          "fileType": "ZIP",
+          "fileSize": "38.5 MB",
+          "version": "Rev 3.0",
+          "lastUpdated": "2024-01-05",
+          "downloadLink": "/downloads/realtek/audio-reference-design.zip",
+          "relatedProducts": [
+            "ALC897",
+            "ALC1220",
+            "ALC4080",
+            "ALC662"
+          ]
+        },
+        {
+          "name": "Card Reader Reference Design",
+          "description": "Reference design for USB and PCIe SD card readers",
+          "fileType": "ZIP",
+          "fileSize": "28.2 MB",
+          "version": "Rev 2.3",
+          "lastUpdated": "2024-01-05",
+          "downloadLink": "/downloads/realtek/cardreader-reference-design.zip",
+          "relatedProducts": [
+            "RTS5227",
+            "RTS5209",
+            "RTS5321",
+            "RTS5250"
+          ]
+        }
+      ]
+    }
+  ],
+  "technicalArticles": [
+    {
+      "id": "ethernet-selection",
+      "title": "Ethernet Controller Selection Guide",
+      "category": "product-selection",
+      "description": "Comprehensive guide to selecting the right Realtek Ethernet controller for your application",
+      "content": "This guide helps you select the appropriate Realtek Ethernet controller based on interface type, speed requirements, and application.",
+      "author": {
+        "name": "David Liu",
+        "title": "Senior FAE - Network Solutions",
+        "image": "/images/team/david-liu.jpg"
+      },
+      "publishDate": "2024-01-10",
+      "readTime": "15 min",
+      "tags": [
+        "Ethernet",
+        "product selection",
+        "networking"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8111EP-CG",
+        "RTL8153B",
+        "RTL8156B"
+      ],
+      "seoTitle": "Realtek Ethernet Controller Selection Guide | BeiLuo Electronics",
+      "seoDescription": "How to select the right Realtek Ethernet controller for your application. PCIe vs USB, speed considerations, and application guidance.",
+      "seoKeywords": [
+        "Ethernet selection",
+        "Realtek",
+        "network controller",
+        "product guide"
+      ]
+    },
+    {
+      "id": "wireless-selection",
+      "title": "Wireless Network IC Selection Guide",
+      "category": "product-selection",
+      "description": "Guide to selecting Wi-Fi and Bluetooth combo chips for various applications",
+      "content": "This article covers the selection criteria for Realtek wireless combo chips including Wi-Fi standards, Bluetooth versions, and interface options.",
+      "author": {
+        "name": "Sarah Chen",
+        "title": "FAE Manager - Wireless Solutions",
+        "image": "/images/team/sarah-chen.jpg"
+      },
+      "publishDate": "2024-01-12",
+      "readTime": "12 min",
+      "tags": [
+        "Wi-Fi",
+        "Bluetooth",
+        "wireless",
+        "product selection"
+      ],
+      "relatedProducts": [
+        "RTL8821CE",
+        "RTL8822CE",
+        "RTL8852AE",
+        "RTL8723DS"
+      ],
+      "seoTitle": "Realtek Wireless IC Selection Guide | Wi-Fi Bluetooth | BeiLuo Electronics",
+      "seoDescription": "How to select the right Realtek wireless combo chip. Wi-Fi 5 vs Wi-Fi 6, interface selection, and application guidance.",
+      "seoKeywords": [
+        "wireless selection",
+        "Wi-Fi 6",
+        "Bluetooth",
+        "combo chip",
+        "Realtek"
+      ]
+    },
+    {
+      "id": "audio-selection",
+      "title": "Audio Codec Selection Guide",
+      "category": "product-selection",
+      "description": "Guide to selecting audio codecs based on channel requirements and quality needs",
+      "content": "This guide helps you choose the right Realtek audio codec for your application based on channel count, SNR requirements, and features.",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Audio Solutions",
+        "image": "/images/team/michael-chen.jpg"
+      },
+      "publishDate": "2024-01-08",
+      "readTime": "10 min",
+      "tags": [
+        "audio",
+        "codec",
+        "HD Audio",
+        "product selection"
+      ],
+      "relatedProducts": [
+        "ALC897",
+        "ALC1220",
+        "ALC4080",
+        "ALC662"
+      ],
+      "seoTitle": "Realtek Audio Codec Selection Guide | HD Audio | BeiLuo Electronics",
+      "seoDescription": "How to select the right Realtek audio codec. Channel configuration, SNR requirements, and feature comparison.",
+      "seoKeywords": [
+        "audio codec",
+        "HD Audio",
+        "SNR",
+        "Realtek",
+        "selection guide"
+      ]
+    },
+    {
+      "id": "ethernet-layout",
+      "title": "Ethernet PCB Layout Best Practices",
+      "category": "design-guide",
+      "description": "Guidelines for PCB layout of Ethernet controllers including magnetics and signal integrity",
+      "content": "Proper PCB layout is critical for Ethernet performance. This guide covers magnetics placement, differential pair routing, and EMI considerations.",
+      "author": {
+        "name": "David Liu",
+        "title": "Senior FAE - Network Solutions",
+        "image": "/images/team/david-liu.jpg"
+      },
+      "publishDate": "2024-01-05",
+      "readTime": "20 min",
+      "tags": [
+        "Ethernet",
+        "PCB layout",
+        "design guide",
+        "signal integrity"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8111EP-CG",
+        "RTL8153B",
+        "RTL8156B"
+      ],
+      "seoTitle": "Ethernet PCB Layout Guide | Realtek | BeiLuo Electronics",
+      "seoDescription": "PCB layout best practices for Realtek Ethernet controllers. Magnetics placement, differential pairs, and EMI reduction.",
+      "seoKeywords": [
+        "PCB layout",
+        "Ethernet design",
+        "signal integrity",
+        "magnetics"
+      ]
+    },
+    {
+      "id": "rf-layout",
+      "title": "RF Layout Best Practices for Wireless ICs",
+      "category": "design-guide",
+      "description": "Guidelines for RF PCB layout including antenna design and impedance matching",
+      "content": "RF layout requires special considerations for optimal wireless performance. This guide covers antenna placement, ground planes, and impedance control.",
+      "author": {
+        "name": "Sarah Chen",
+        "title": "FAE Manager - Wireless Solutions",
+        "image": "/images/team/sarah-chen.jpg"
+      },
+      "publishDate": "2024-01-03",
+      "readTime": "18 min",
+      "tags": [
+        "RF layout",
+        "wireless",
+        "antenna design",
+        "PCB"
+      ],
+      "relatedProducts": [
+        "RTL8821CE",
+        "RTL8822CE",
+        "RTL8852AE",
+        "RTL8723DS"
+      ],
+      "seoTitle": "RF PCB Layout Guide | Wireless IC Design | BeiLuo Electronics",
+      "seoDescription": "RF layout best practices for Realtek wireless ICs. Antenna design, impedance matching, and ground plane considerations.",
+      "seoKeywords": [
+        "RF layout",
+        "antenna design",
+        "wireless PCB",
+        "impedance matching"
+      ]
+    },
+    {
+      "id": "audio-layout",
+      "title": "Audio PCB Layout Guidelines",
+      "category": "design-guide",
+      "description": "Best practices for PCB layout of audio codecs to minimize noise and maximize quality",
+      "content": "Audio quality depends heavily on PCB layout. This guide covers grounding, power supply routing, and analog signal integrity.",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Audio Solutions",
+        "image": "/images/team/michael-chen.jpg"
+      },
+      "publishDate": "2024-01-02",
+      "readTime": "15 min",
+      "tags": [
+        "audio",
+        "PCB layout",
+        "design guide",
+        "noise reduction"
+      ],
+      "relatedProducts": [
+        "ALC897",
+        "ALC1220",
+        "ALC4080",
+        "ALC662"
+      ],
+      "seoTitle": "Audio PCB Layout Guide | Realtek Codecs | BeiLuo Electronics",
+      "seoDescription": "PCB layout guidelines for Realtek audio codecs. Grounding, power routing, and analog signal integrity best practices.",
+      "seoKeywords": [
+        "audio layout",
+        "PCB design",
+        "noise reduction",
+        "grounding"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "realtek-intro",
+      "title": "Introduction to Realtek Products",
+      "description": "Overview of Realtek's product portfolio and applications",
+      "thumbnail": "/images/videos/realtek-intro-thumb.jpg",
+      "duration": "5:30",
+      "youtubeId": "realtek-intro-2024",
+      "category": "product-overview",
+      "tags": [
+        "introduction",
+        "overview",
+        "Realtek"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8821CE",
+        "ALC897",
+        "RTS5227"
+      ]
+    },
+    {
+      "id": "ethernet-design",
+      "title": "Ethernet Controller Design Tutorial",
+      "description": "Step-by-step guide to designing with Realtek Ethernet controllers",
+      "thumbnail": "/images/videos/ethernet-design-thumb.jpg",
+      "duration": "12:45",
+      "youtubeId": "ethernet-design-2024",
+      "category": "design-tutorial",
+      "tags": [
+        "Ethernet",
+        "design tutorial",
+        "networking"
+      ],
+      "relatedProducts": [
+        "RTL8111H",
+        "RTL8111EP-CG",
+        "RTL8153B"
+      ]
+    },
+    {
+      "id": "wireless-integration",
+      "title": "Wireless Module Integration Guide",
+      "description": "How to integrate Realtek wireless combo modules into your design",
+      "thumbnail": "/images/videos/wireless-integration-thumb.jpg",
+      "duration": "15:20",
+      "youtubeId": "wireless-integration-2024",
+      "category": "design-tutorial",
+      "tags": [
+        "wireless",
+        "integration",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "relatedProducts": [
+        "RTL8821CE",
+        "RTL8822CE",
+        "RTL8852AE"
+      ]
+    },
+    {
+      "id": "audio-implementation",
+      "title": "Audio Codec Implementation",
+      "description": "Best practices for implementing Realtek audio codecs",
+      "thumbnail": "/images/videos/audio-implementation-thumb.jpg",
+      "duration": "10:15",
+      "youtubeId": "audio-implementation-2024",
+      "category": "design-tutorial",
+      "tags": [
+        "audio",
+        "codec",
+        "implementation"
+      ],
+      "relatedProducts": [
+        "ALC897",
+        "ALC1220",
+        "ALC4080"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact Realtek Support",
+    "description": "Get technical support and design assistance for Realtek products from BeiLuo Electronics",
+    "methods": [
+      {
+        "type": "email",
+        "title": "Technical Support Email",
+        "value": "realtek-support@BeiLuo.com",
+        "description": "For technical questions and design support",
+        "icon": "mail"
+      },
+      {
+        "type": "email",
+        "title": "Sales Inquiry",
+        "value": "realtek-sales@BeiLuo.com",
+        "description": "For pricing and ordering information",
+        "icon": "shopping-cart"
+      },
+      {
+        "type": "phone",
+        "title": "Support Hotline",
+        "value": "+86-755-1234-5678",
+        "description": "Monday to Friday, 9:00 AM - 6:00 PM CST",
+        "icon": "phone"
+      }
+    ],
+    "faeTeam": [
+      {
+        "name": "David Liu",
+        "title": "Senior FAE - Network Solutions",
+        "specialty": "Ethernet Controllers, Industrial Networking",
+        "email": "david.liu@BeiLuo.com",
+        "phone": "+86-755-1234-5679",
+        "image": "/images/team/david-liu.jpg"
+      },
+      {
+        "name": "Sarah Chen",
+        "title": "FAE Manager - Wireless Solutions",
+        "specialty": "Wi-Fi, Bluetooth, RF Design",
+        "email": "sarah.chen@BeiLuo.com",
+        "phone": "+86-755-1234-5680",
+        "image": "/images/team/sarah-chen.jpg"
+      },
+      {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Audio Solutions",
+        "specialty": "Audio Codecs, HD Audio",
+        "email": "michael.chen@BeiLuo.com",
+        "phone": "+86-755-1234-5681",
+        "image": "/images/team/michael-chen.jpg"
+      }
+    ]
+  }
+}

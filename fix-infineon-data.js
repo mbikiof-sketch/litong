@@ -381,7 +381,7 @@ const realSupportArticle5 = {
   author: {
     name: "Dr. Thomas Mueller",
     title: "Principal FAE - Power",
-    email: "thomas.mueller@litong.com"
+    email: "thomas.mueller@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

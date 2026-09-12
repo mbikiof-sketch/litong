@@ -106,7 +106,11 @@
         "USB",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Frequency",
+        "SRAM",
+        "LCD Driver",
+        "GPIO"
       ],
       "applications": [
         "IoT Sensors",
@@ -266,7 +270,11 @@
             "USB": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "SRAM": "N/A",
+            "LCD Driver": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "128KB Flash, 16KB RAM",
@@ -369,7 +377,11 @@
             "Package": "LQFP64",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "SRAM": "N/A",
+            "LCD Driver": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "256KB Flash, 32KB RAM",
@@ -476,7 +488,13 @@
             "ADC": "12-bit, 16 channels",
             "LCD Driver": "4x40 segments",
             "GPIO": "Up to 56",
-            "Package": "LQFP64/QFN48"
+            "Package": "LQFP64/QFN48",
+            "RAM": "N/A",
+            "LCD": "N/A",
+            "USB": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "0.9uA ultra-low standby current",
@@ -555,7 +573,13 @@
             "ADC": "12-bit, 16 channels",
             "LCD Driver": "4x36 segments",
             "GPIO": "Up to 52",
-            "Package": "LQFP64"
+            "Package": "LQFP64",
+            "RAM": "N/A",
+            "LCD": "N/A",
+            "USB": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "0.7uA ultra-low standby",
@@ -639,7 +663,14 @@
         "CAN-FD",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Frequency",
+        "SRAM",
+        "Ethernet",
+        "USB",
+        "CAN",
+        "Timers",
+        "GPIO"
       ],
       "applications": [
         "Industrial Control",
@@ -800,7 +831,14 @@
             "CAN-FD": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "SRAM": "N/A",
+            "Ethernet": "N/A",
+            "USB": "N/A",
+            "CAN": "N/A",
+            "Timers": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "240MHz Cortex-M4 with FPU",
@@ -881,7 +919,7 @@
             },
             {
               "question": "Can HC32F4A0 run Linux?",
-              "answer": "HC32F4A0 Linux support: (1) Core - Cortex-M4 is microcontroller core, not application processor; (2) Memory - 512KB Flash, 96KB RAM insufficient for Linux; (3) MMU - no memory management unit required for Linux; (4) Alternative - run RTOS like FreeRTOS, RT-Thread, or Azure RTOS; (5) Options - for Linux, consider Cortex-A series MPUs like i.MX6 or Allwinner. The HC32F4A0 is designed for real-time control applications with RTOS, not for running Linux. Use appropriate RTOS for embedded control, networking, and industrial applications.",
+              "answer": "HC32F4A0 Linux support: (1) Core - Cortex-M4 is microcontroller core, not application processor; (2) Memory - 512KB Flash, 96KB RAM insufficient for Linux; (3) MMU - no memory management unit required for Linux; (4) Alternative - run RTOS like FreeRTOS, RT-Thread, or Azure RTOS; (5) Options - for Linux, consider Cortex-A series MPUs like i. MX6 or Allwinner. The HC32F4A0 is designed for real-time control applications with RTOS, not for running Linux. Use appropriate RTOS for embedded control, networking, and industrial applications.",
               "decisionGuide": "Cannot run Linux. Use RTOS like FreeRTOS or RT-Thread instead.",
               "keywords": [
                 "Linux support",
@@ -913,7 +951,14 @@
             "Package": "LQFP64",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "SRAM": "N/A",
+            "Ethernet": "N/A",
+            "USB": "N/A",
+            "CAN": "N/A",
+            "Timers": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "200MHz Cortex-M4 with FPU",
@@ -1021,7 +1066,16 @@
             "USB": "USB OTG FS",
             "CAN": "2x CAN 2.0B",
             "Timers": "Advanced motor control",
-            "Package": "LQFP100/LQFP64"
+            "Package": "LQFP100/LQFP64",
+            "RAM": "N/A",
+            "Clock": "N/A",
+            "FPU": "N/A",
+            "Motor Control": "N/A",
+            "CAN-FD": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "240MHz Cortex-M4 with FPU",
@@ -1101,7 +1155,16 @@
             "Ethernet": "10/100 MAC",
             "ADC": "3x 12-bit, 24 channels",
             "Timers": "Advanced motor control",
-            "Package": "LQFP48/QFN48"
+            "Package": "LQFP48/QFN48",
+            "RAM": "N/A",
+            "Clock": "N/A",
+            "FPU": "N/A",
+            "Motor Control": "N/A",
+            "CAN-FD": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "CAN": "N/A"
           },
           "features": [
             "168MHz Cortex-M4 with FPU",

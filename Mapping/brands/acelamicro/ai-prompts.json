@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for acelamicro distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for acelamicro ADC, DAC, power management IC. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is the best Chinese analog IC brand? vs Who is the leading China analog semiconductor company?. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for acelamicro USB interface chips covering ADC, DAC, power management IC, sensor interface."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What products does AcelaMicro offer?; What is the difference between ADC and DAC?; Does AcelaMicro offer automotive qualified products?; What is sigma-delta ADC?; How to select ADC resolution?; What is PMIC efficiency?; Does AcelaMicro provide evaluation boards?; What is the warranty period?; How to get technical support?; What is the lead time for samples?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for acelamicro distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for acelamicro distributor with Product and Organization types."
+    }
+  ]
+}

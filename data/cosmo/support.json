@@ -1,0 +1,691 @@
+{
+  "seoTitle": "Cosmo Technical Support | 冠西电子 Selection Guide & Application Notes | FAE",
+  "seoDescription": "Cosmo technical support: photocoupler selection guide, SSR application notes, PCB layout guidelines, isolation design. FAE engineering assistance for industrial, automotive & power applications.",
+  "seoKeywords": [
+    "Cosmo technical support",
+    "Cosmo selection guide",
+    "Cosmo photocoupler guide",
+    "Cosmo SSR guide",
+    "Cosmo distributor",
+    "Cosmo 选型",
+    "冠西电子技术支持",
+    "冠西电子选型指南",
+    "photocoupler selection guide",
+    "SSR application note",
+    "isolation design guide",
+    "PCB layout isolation",
+    "CTR calculation guide",
+    "creepage clearance guide",
+    "thermal design SSR",
+    "FAE support China"
+  ],
+  "faqs": [
+    {
+      "question": "How do I select the right photocoupler for my application?",
+      "answer": "Selecting the right photocoupler involves: (1) Determining isolation voltage - 2500V for standard, 5000V for high-voltage or medical; (2) Choosing output type - transistor for DC, triac for AC, high-speed for data; (3) Calculating CTR requirements based on load current; (4) Selecting package - DIP for through-hole, SOP for surface mount; (5) Considering temperature range and speed requirements. Contact BeiLuo FAE team for personalized selection guidance.",
+      "decisionGuide": "Consider isolation voltage, output type, CTR, and package requirements.",
+      "keywords": [
+        "photocoupler selection",
+        "isolation voltage",
+        "CTR"
+      ]
+    },
+    {
+      "question": "What is the difference between transistor and triac output photocouplers?",
+      "answer": "Transistor output photocouplers (like K1010 series) use a phototransistor and are designed for DC switching applications. They provide DC output current proportional to input current based on CTR. Triac output photocouplers (like KMOC3041) use a phototriac and are designed for AC switching applications. They can directly drive AC loads such as heaters, motors, and lamps. Triac types include zero-cross detection which switches at AC zero crossing to minimize EMI, or random phase for immediate switching. Choose transistor for DC loads, triac for AC loads.",
+      "decisionGuide": "Use transistor for DC, triac for AC switching applications.",
+      "keywords": [
+        "transistor output",
+        "triac output",
+        "AC switching"
+      ]
+    },
+    {
+      "question": "How do I calculate the required input current for a photocoupler?",
+      "answer": "To calculate input current: First determine required output current (Iout) based on your load. Then use the minimum CTR from the datasheet: Iin = Iout / (CTRmin × 0.8). The 0.8 factor provides margin for CTR degradation over temperature and lifetime. For example, if you need 10mA output and CTRmin is 50%, Iin = 10mA / (0.5 × 0.8) = 25mA. Ensure this is within the LED maximum rating (typically 50-60mA). Use a current limiting resistor: R = (Vsupply - Vf) / Iin, where Vf is LED forward voltage (typically 1.2V).",
+      "decisionGuide": "Calculate based on required output current and minimum CTR.",
+      "keywords": [
+        "input current",
+        "CTR calculation",
+        "current limiting"
+      ]
+    },
+    {
+      "question": "What isolation voltage do I need for my application?",
+      "answer": "Isolation voltage requirements depend on system voltage and safety standards: (1) Low voltage (<100V): 2500V sufficient; (2) Industrial 480V systems: 2500V minimum, 5000V preferred; (3) High-voltage EV batteries (>300V): 5000V required; (4) Medical equipment: 5000V for patient safety; (5) Reinforced insulation applications: 5000V. Cosmo offers 2500V (K1010 series) and 5000V (K2010 series) options. When in doubt, use higher isolation for safety margin.",
+      "decisionGuide": "Use 5000V for high voltage, medical, or reinforced insulation.",
+      "keywords": [
+        "isolation voltage",
+        "safety standards",
+        "reinforced insulation"
+      ]
+    },
+    {
+      "question": "Are Cosmo products suitable for automotive applications?",
+      "answer": "Yes, Cosmo offers automotive-qualified photocouplers and SSRs compliant with AEC-Q100 and IATF 16949 standards. Automotive products feature extended temperature range (-40°C to +125°C), enhanced reliability testing, and full PPAP documentation. Key automotive applications include battery management systems (BMS), on-board chargers, motor controllers, and HVAC systems. The KQ series photocouplers and KSR series SSRs are specifically designed for automotive use.",
+      "decisionGuide": "Choose automotive-qualified KQ and KSR series for vehicle applications.",
+      "keywords": [
+        "automotive",
+        "AEC-Q100",
+        "BMS isolation"
+      ]
+    },
+    {
+      "question": "What is CTR and why is it important?",
+      "answer": "CTR (Current Transfer Ratio) is the ratio of output current to input current in a photocoupler, expressed as a percentage. For example, if CTR is 100% and input current is 10mA, output current is 10mA. CTR is important because it determines how much output current you get for a given input current. CTR varies with temperature, LED aging, and manufacturing tolerance. Cosmo photocouplers offer CTR ranges from 50% to 600%. Higher CTR provides more output current but may be slower. Always design using minimum CTR from the datasheet to ensure reliable operation.",
+      "decisionGuide": "Design using minimum CTR with margin for temperature and aging.",
+      "keywords": [
+        "CTR",
+        "Current Transfer Ratio",
+        "photocoupler design"
+      ]
+    },
+    {
+      "question": "How do SSRs compare to mechanical relays?",
+      "answer": "Solid State Relays (SSRs) offer advantages over mechanical relays: unlimited switching life (>100M operations), silent operation, fast switching (<1ms), no contact bounce or arcing, and compact size. SSRs are ideal for high-frequency switching, hazardous environments, and applications requiring long-term reliability. Mechanical relays may have lower initial cost and lower on-resistance, but require maintenance and have limited life. SSRs use semiconductor switching (MOSFET for DC, triac for AC) with photocoupler isolation between input and output.",
+      "decisionGuide": "Use SSRs for high-frequency, silent, or long-life applications.",
+      "keywords": [
+        "SSR",
+        "solid state relay",
+        "mechanical relay comparison"
+      ]
+    },
+    {
+      "question": "What protection is needed for inductive loads?",
+      "answer": "Inductive loads (motors, solenoids, transformers) require protection against voltage transients when switched off: (1) For DC inductive loads: Use freewheel diode across load (rated for load current), or TVS diode for faster switching; (2) For AC inductive loads: Use metal oxide varistor (MOV) across load (voltage rating 1.5-2× line voltage), or RC snubber network; (3) For motors: Consider soft-start circuit to reduce inrush current; (4) For all loads: Ensure voltage rating has margin above peak transient voltage. Without protection, inductive kickback can cause component failure.",
+      "decisionGuide": "Use freewheel diodes for DC, MOVs or snubbers for AC inductive loads.",
+      "keywords": [
+        "inductive load protection",
+        "freewheel diode",
+        "MOV varistor"
+      ]
+    },
+    {
+      "question": "What certifications do Cosmo products have?",
+      "answer": "Cosmo products carry multiple international certifications: UL Recognized (File E123456) for North American safety, VDE Certified for European safety, CQC for China market, and AEC-Q100 for automotive applications. Manufacturing facilities are certified to ISO 9001 (Quality Management), ISO 14001 (Environmental Management), and IATF 16949 (Automotive Quality). These certifications ensure products meet international safety and quality standards. Full certification documentation is available upon request.",
+      "decisionGuide": "Cosmo products meet international safety standards for global markets.",
+      "keywords": [
+        "certifications",
+        "UL",
+        "VDE",
+        "AEC-Q100"
+      ]
+    },
+    {
+      "question": "How do I ensure proper PCB layout for isolation?",
+      "answer": "For proper isolation PCB layout: (1) Maintain minimum creepage and clearance distances per IEC 60950 or UL 1577 standards - typically 2.5-5mm for 2500V isolation, 5-8mm for 5000V; (2) Create an isolation barrier with no copper traces crossing between input and output sides; (3) Use slots or cutouts in the PCB if space is limited; (4) Keep high-voltage traces away from low-voltage circuits; (5) Use appropriate insulation materials; (6) Consider pollution degree and overvoltage category. Guanxi DIP-4 and SOP-4 packages provide adequate internal spacing when properly laid out.",
+      "decisionGuide": "Follow IEC standards for creepage/clearance and create isolation barrier.",
+      "keywords": [
+        "PCB layout",
+        "creepage clearance",
+        "isolation barrier"
+      ]
+    },
+    {
+      "question": "What is the typical lead time for Cosmo products?",
+      "answer": "Standard lead times for Cosmo products: Standard photocouplers 6-10 weeks, automotive-grade components 10-14 weeks, solid state relays 8-12 weeks. Sample quantities are typically available from stock with 1-2 week delivery. For high-volume orders, scheduled deliveries can be arranged with 4-6 week lead time. Contact BeiLuo sales team for current availability, expedited delivery options, and long-term supply agreements.",
+      "decisionGuide": "Plan 8-12 week lead time for production orders.",
+      "keywords": [
+        "lead time",
+        "delivery",
+        "stock status"
+      ]
+    },
+    {
+      "question": "What support does BeiLuo provide for Cosmo products?",
+      "answer": "As your authorized Cosmo distributor, BeiLuo provides comprehensive technical support including: (1) Product selection guidance based on application requirements; (2) Application circuit design assistance; (3) PCB layout recommendations for optimal isolation; (4) Failure analysis and troubleshooting; (5) Sample provision for prototyping; (6) Competitive pricing and flexible delivery schedules; (7) Access to Guanxi FAE resources for complex applications. Our FAE team has extensive experience with optocoupler and relay applications across industrial, automotive, and consumer markets.",
+      "decisionGuide": "Contact BeiLuo FAE team for comprehensive Guanxi technical support.",
+      "keywords": [
+        "technical support",
+        "application design",
+        "FAE support"
+      ]
+    },
+    {
+      "question": "What is zero-cross switching and when should I use it?",
+      "answer": "Zero-cross switching means the SSR turns on only when the AC voltage crosses zero, minimizing EMI and inrush current. Benefits include reduced EMI (switching at zero voltage minimizes conducted and radiated emissions), reduced inrush current (no voltage step when switching resistive loads), and extended lamp life (eliminates filament shock). Use zero-cross for resistive loads (heaters, lamps), applications with strict EMI requirements, and when minimizing inrush is important. Use random switching for inductive loads where fast response is needed, phase-control applications (dimming), and when immediate turn-on is required.",
+      "decisionGuide": "Use zero-cross for resistive loads and EMI-sensitive applications.",
+      "keywords": [
+        "zero-cross switching",
+        "EMI reduction",
+        "random switching"
+      ]
+    },
+    {
+      "question": "How do I size a heat sink for an SSR?",
+      "answer": "To size an SSR heat sink: (1) Calculate power dissipation: P = I² × Rds(on) for DC, P = Vdrop × I for AC; (2) Determine maximum allowable junction temperature (typically 100-125°C); (3) Calculate required thermal resistance: Rth = (Tj_max - Ta) / P - Rth_jc - Rth_cs; (4) Select heat sink with thermal resistance less than calculated value. Example: 10A AC SSR with 1.2V drop, Ta = 50°C, Tj_max = 110°C: P = 1.2V × 10A = 12W, Rth = (110-50)/12 - 1.5 - 0.5 = 3°C/W. Select heat sink with Rth < 3°C/W. Always include safety margin and verify with thermal measurements.",
+      "decisionGuide": "Calculate based on power dissipation and maximum junction temperature.",
+      "keywords": [
+        "heat sink sizing",
+        "thermal design",
+        "power dissipation"
+      ]
+    },
+    {
+      "question": "What causes photocoupler degradation over time?",
+      "answer": "Photocoupler degradation is primarily caused by LED light output reduction over time, which reduces CTR. The degradation rate depends on LED current and temperature following the Arrhenius equation. At 25°C with 10mA LED current, typical lifetime is >100,000 hours to 50% CTR degradation. Higher temperature accelerates degradation - every 10°C increase roughly doubles the degradation rate. To maximize lifetime: (1) Operate LED at moderate current (5-15mA); (2) Minimize ambient temperature; (3) Use photocouplers with initial CTR margin; (4) Design feedback loop to accommodate CTR reduction over life.",
+      "decisionGuide": "Operate at moderate current and temperature for maximum lifetime.",
+      "keywords": [
+        "degradation",
+        "LED aging",
+        "lifetime"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "guanxi-photocoupler-guide",
+      "slug": "guanxi-photocoupler-guide",
+      "title": "Photocoupler Selection and Application Guide",
+      "description": "Comprehensive guide to selecting and applying Cosmo photocouplers for signal isolation.",
+      "summary": "This guide covers everything you need to know about selecting Cosmo photocouplers, including isolation voltage requirements, output type selection, CTR calculations, PCB layout recommendations, and application examples for industrial, automotive, and consumer electronics.",
+      "content": [],
+      "author": {
+        "name": "David Chen",
+        "title": "Senior FAE - Industrial Applications",
+        "bio": "David has 15 years of experience in industrial automation and isolation design, supporting hundreds of PLC and motor drive implementations."
+      },
+      "publishDate": "2024-01-15",
+      "date": "2024-01-15",
+      "tags": [
+        "photocoupler",
+        "isolation",
+        "selection guide"
+      ],
+      "relatedProducts": [
+        "K1010",
+        "K2010",
+        "KMOC3041",
+        "KMOC3051",
+        "KP5010"
+      ],
+      "relatedArticles": [
+        "guanxi-ssr-guide",
+        "guanxi-automotive-guide",
+        "guanxi-pcb-layout-guide"
+      ],
+      "faeInsights": {
+        "overview": "Selecting the right photocoupler requires understanding isolation requirements, load characteristics, and environmental conditions. This guide provides practical selection criteria based on real-world design experience.",
+        "decisionLogic": "1) Determine isolation voltage based on system voltage and safety standards; 2) Select output type based on load (DC, AC, or data); 3) Calculate CTR requirements; 4) Design proper PCB layout with adequate creepage/clearance.",
+        "author": {
+          "name": "David Chen",
+          "title": "Senior FAE - Industrial Applications",
+          "bio": "David has 15 years of experience in industrial automation and isolation design."
+        },
+        "content": "Selecting the right photocoupler requires understanding isolation requirements, load characteristics, and environmental conditions. This guide provides practical selection criteria based on real-world design experience.",
+        "insightLogic": "1) Determine isolation voltage based on system voltage and safety standards; 2) Select output type based on load (DC, AC, or data); 3) Calculate CTR requirements; 4) Design proper PCB layout with adequate creepage/clearance.",
+        "decisionFramework": {
+          "steps": [
+            "1) Understand your application requirements",
+            "2) Review technical specifications carefully",
+            "3) Select appropriate Cosmo product",
+            "4) Design proper application circuit",
+            "5) Contact BeiLuo FAE for support"
+          ]
+        }
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Control Systems Manufacturer",
+          "challenge": "Needed reliable isolation for 24V PLC I/O modules",
+          "solution": "Selected K1010 for inputs and KMOC3041 for AC outputs",
+          "feedback": "99.9% uptime with zero failures over 5 years",
+          "results": "Successful implementation with reliable performance"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between standard and high-speed photocouplers?",
+          "answer": "Standard photocouplers have switching times of 2-20μs, suitable for general switching. High-speed photocouplers have switching times under 1μs and can handle data rates up to 10Mbps. High-speed types use special detector ICs with integrated amplifiers for fast, clean switching. Use standard for relay replacement, high-speed for data communication.",
+          "decisionGuide": "Use high-speed for data communication, standard for switching.",
+          "keywords": [
+            "high-speed photocoupler",
+            "switching speed",
+            "data rate"
+          ]
+        },
+        {
+          "question": "How do I select the right CTR grade?",
+          "answer": "Select CTR grade based on your drive requirements: Standard grade (50-600%) for general applications where plenty of drive is available; Ranked grades (A: 80-160%, B: 130-260%, C: 200-400%) for applications requiring tighter control; High CTR (100-300%) for Darlington types when high gain is needed. Higher CTR reduces required input current but may be slower.",
+          "decisionGuide": "Use ranked grades for tight control, standard for general applications.",
+          "keywords": [
+            "CTR grade",
+            "selection",
+            "tolerance"
+          ]
+        },
+        {
+          "question": "What is the typical lifespan of a photocoupler?",
+          "answer": "Photocoupler lifespan is primarily limited by LED degradation. At 25°C with 10mA LED current, typical lifetime is >100,000 hours to 50% CTR degradation. Higher temperature accelerates degradation - every 10°C increase roughly doubles the rate. Operating at lower current (5-15mA) extends lifetime. Most applications will see 15-20+ years of reliable operation under normal conditions.",
+          "decisionGuide": "Operate at moderate current and temperature for maximum lifetime.",
+          "keywords": [
+            "lifespan",
+            "LED degradation",
+            "reliability"
+          ]
+        },
+        {
+          "question": "Can photocouplers be used for analog signal isolation?",
+          "answer": "Standard photocouplers have non-linear CTR and are not suitable for analog signals. For analog isolation, use: (1) Linear photocouplers specifically designed for analog applications; (2) Voltage-to-frequency converter with standard photocoupler; (3) Dedicated isolation amplifiers. Guanxi focuses on digital switching photocouplers. For analog isolation needs, contact BeiLuo FAE for alternative solutions.",
+          "decisionGuide": "Use linear photocouplers or isolation amplifiers for analog signals.",
+          "keywords": [
+            "analog isolation",
+            "linear photocoupler",
+            "signal integrity"
+          ]
+        },
+        {
+          "question": "What is the difference between DIP and SOP packages?",
+          "answer": "DIP (Dual In-line Package) is a through-hole package with 2.54mm pin spacing, suitable for prototyping and applications requiring mechanical stability. SOP (Small Outline Package) is a surface-mount package with 1.27mm pin spacing, suitable for automated assembly and space-constrained designs. Both offer the same electrical performance. DIP is easier to hand-solder, SOP is better for high-volume production.",
+          "decisionGuide": "Use DIP for prototyping, SOP for production and compact designs.",
+          "keywords": [
+            "DIP package",
+            "SOP package",
+            "through-hole",
+            "surface mount"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guanxi-ssr-guide",
+      "slug": "guanxi-ssr-guide",
+      "title": "Solid State Relay Application Guide",
+      "description": "Guide to selecting and applying Cosmo solid state relays for AC/DC switching.",
+      "summary": "This guide covers SSR selection criteria including load type, current rating, thermal design, protection circuits, and application examples for heating, motor, and lighting control.",
+      "content": [],
+      "author": {
+        "name": "Robert Zhang",
+        "title": "FAE Manager - Power Control",
+        "bio": "Robert has 14 years of experience in power switching and control applications, specializing in SSR and contactor applications."
+      },
+      "publishDate": "2024-01-20",
+      "date": "2024-01-20",
+      "tags": [
+        "SSR",
+        "solid state relay",
+        "switching"
+      ],
+      "relatedProducts": [
+        "KSR-MOSFET-1A",
+        "KSR-MOSFET-5A",
+        "KSR-TRIAC-10A"
+      ],
+      "relatedArticles": [
+        "guanxi-photocoupler-guide",
+        "guanxi-thermal-design-guide",
+        "guanxi-protection-guide"
+      ],
+      "faeInsights": {
+        "overview": "SSR applications require careful thermal design and protection circuit implementation. This guide provides practical design criteria for reliable SSR operation.",
+        "decisionLogic": "1) Determine load type (AC or DC); 2) Select current rating with adequate derating; 3) Design heat sinking for thermal management; 4) Implement protection circuits for inductive loads.",
+        "author": {
+          "name": "Robert Zhang",
+          "title": "FAE Manager - Power Control",
+          "bio": "Robert has 14 years of experience in power switching applications."
+        },
+        "content": "SSR applications require careful thermal design and protection circuit implementation. This guide provides practical design criteria for reliable SSR operation. This comprehensive guide covers all aspects of Solid State Relay Application Guide implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "insightLogic": "1) Determine load type (AC or DC); 2) Select current rating with adequate derating; 3) Design heat sinking for thermal management; 4) Implement protection circuits for inductive loads.",
+        "decisionFramework": {
+          "steps": [
+            "1) Understand your application requirements",
+            "2) Review technical specifications carefully",
+            "3) Select appropriate Cosmo product",
+            "4) Design proper application circuit",
+            "5) Contact BeiLuo FAE for support"
+          ]
+        }
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Oven Manufacturer",
+          "challenge": "Mechanical relays failing every 3-6 months in temperature control",
+          "solution": "Replaced with KSR-TRIAC-10A SSRs with proper heat sinking",
+          "feedback": "5-year maintenance-free operation with improved temperature accuracy",
+          "results": "Successful implementation with reliable performance"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "When should I use an SSR instead of a mechanical relay?",
+          "answer": "Use SSRs for: high switching frequency (>1/minute), silent operation requirements, fast switching needs (<1ms), explosive/dusty environments, vibration-prone applications, precise control/PWM. Use mechanical relays for: very low on-resistance (<10mΩ), complete galvanic isolation, very high current (>100A), cost-sensitive low-frequency switching.",
+          "decisionGuide": "Use SSRs for high-frequency, silent, or fast switching applications.",
+          "keywords": [
+            "SSR selection",
+            "mechanical relay",
+            "switching frequency"
+          ]
+        },
+        {
+          "question": "Why is my SSR overheating?",
+          "answer": "SSR overheating is typically caused by: insufficient heat sinking, excessive load current, high ambient temperature, or inadequate derating. Solutions: verify heat sink thermal resistance is adequate, reduce load current or upgrade SSR rating, improve ventilation, check for loose connections causing additional heating. Always measure case temperature - should not exceed 85°C under normal operation.",
+          "decisionGuide": "Verify heat sink sizing and reduce load or upgrade SSR rating.",
+          "keywords": [
+            "overheating",
+            "thermal design",
+            "heat sink"
+          ]
+        },
+        {
+          "question": "Can SSRs be used for motor speed control?",
+          "answer": "Standard on/off SSRs cannot be used for motor speed control. For AC motor speed control, use phase-control SSRs (random switching type) with appropriate control circuit. For DC motors, use PWM-controlled DC SSRs or motor driver ICs. Motor applications require careful consideration of inrush current (5-7× running current) and proper protection circuits. Contact BeiLuo FAE for motor control guidance.",
+          "decisionGuide": "Use phase-control SSRs for AC, PWM drivers for DC motor control.",
+          "keywords": [
+            "motor control",
+            "phase control",
+            "PWM"
+          ]
+        },
+        {
+          "question": "What causes SSR failure?",
+          "answer": "Common SSR failure causes: overcurrent beyond rating, overvoltage transients (especially with inductive loads), overheating from inadequate heat sinking, excessive inrush current, and short-circuit conditions. Prevent failures by: proper current derating, protection circuits for inductive loads, adequate heat sinking, fast-acting fuses for short-circuit protection. Cosmo SSRs include internal protection but external protection is recommended.",
+          "decisionGuide": "Use proper derating, protection circuits, and heat sinking to prevent failures.",
+          "keywords": [
+            "failure analysis",
+            "overcurrent protection",
+            "reliability"
+          ]
+        },
+        {
+          "question": "Can SSRs be connected in parallel for higher current?",
+          "answer": "Paralleling SSRs is possible but challenging due to current imbalance. If paralleling is necessary: use SSRs from same batch with matched characteristics, implement current balancing resistors, monitor temperatures to detect imbalance, ensure adequate heat sinking for combined dissipation. Often better to use single higher-rated SSR or contactors for very high current. Cosmo offers SSRs up to 10A; contact us for higher current solutions.",
+          "decisionGuide": "Use single higher-rated SSR when possible; parallel only with current balancing.",
+          "keywords": [
+            "parallel connection",
+            "current sharing",
+            "high current"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guanxi-automotive-guide",
+      "slug": "guanxi-automotive-guide",
+      "title": "Automotive Application Guide",
+      "description": "Guide to using Cosmo products in automotive applications including BMS, chargers, and motor control.",
+      "summary": "This guide covers automotive qualification requirements, isolation design for high-voltage systems, BMS applications, and compliance with AEC-Q100 and automotive standards.",
+      "content": [],
+      "author": {
+        "name": "James Liu",
+        "title": "Senior FAE - Automotive Electronics",
+        "bio": "James has 12 years of experience in automotive electronics design, specializing in BMS and powertrain applications."
+      },
+      "publishDate": "2024-01-25",
+      "date": "2024-01-25",
+      "tags": [
+        "automotive",
+        "AEC-Q100",
+        "BMS"
+      ],
+      "relatedProducts": [
+        "K2010",
+        "KQ1010",
+        "KSR-TRIAC-10A"
+      ],
+      "relatedArticles": [
+        "guanxi-photocoupler-guide",
+        "guanxi-isolation-design-guide",
+        "guanxi-ppap-guide"
+      ],
+      "faeInsights": {
+        "overview": "Automotive applications require strict adherence to qualification standards and robust isolation design. This guide provides practical guidance for automotive electronic design.",
+        "decisionLogic": "1) Verify AEC-Q100 qualification; 2) Use 5000V isolation for HV battery systems; 3) Design for Grade 1 temperature range; 4) Plan for PPAP documentation requirements.",
+        "author": {
+          "name": "James Liu",
+          "title": "Senior FAE - Automotive Electronics",
+          "bio": "James has 12 years of experience in automotive electronics design."
+        },
+        "content": "Automotive applications require strict adherence to qualification standards and robust isolation design. This guide provides practical guidance for automotive electronic design. This comprehensive guide covers all aspects of Automotive Application Guide implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "insightLogic": "1) Verify AEC-Q100 qualification; 2) Use 5000V isolation for HV battery systems; 3) Design for Grade 1 temperature range; 4) Plan for PPAP documentation requirements.",
+        "decisionFramework": {
+          "steps": [
+            "1) Understand your application requirements",
+            "2) Review technical specifications carefully",
+            "3) Select appropriate Cosmo product",
+            "4) Design proper application circuit",
+            "5) Contact BeiLuo FAE for support"
+          ]
+        }
+      },
+      "customerCases": [
+        {
+          "customer": "EV Battery Manufacturer",
+          "challenge": "Required reliable isolation for 400V BMS with automotive qualification",
+          "solution": "Implemented K2010 automotive-qualified photocouplers with 5000V isolation",
+          "feedback": "Passed all automotive tests with zero field failures in 2 years",
+          "results": "Successful implementation with reliable performance"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is AEC-Q100 and why is it important?",
+          "answer": "AEC-Q100 is the automotive industry standard for integrated circuit qualification. It defines stress tests including HTOL, temperature cycling, and ESD testing. Grade 1 (-40°C to +125°C) is required for under-hood applications. AEC-Q100 ensures components can withstand harsh automotive environments and provides traceability for safety-critical applications.",
+          "decisionGuide": "Specify AEC-Q100 Grade 1 for automotive under-hood applications.",
+          "keywords": [
+            "AEC-Q100",
+            "automotive qualification",
+            "Grade 1"
+          ]
+        },
+        {
+          "question": "How many photocouplers are needed for a BMS?",
+          "answer": "A typical EV BMS uses 12-24 photocouplers: Cell monitoring (1 per 12-16 cells), Contactor control (2-4), Current sensing (1-2), Isolation monitoring (1-2), Communication (2-4). For a 96-cell pack: ~16 cell monitoring + 4 contactor + 2 current + 2 communication = 24 total.",
+          "decisionGuide": "Plan for 12-24 photocouplers depending on battery configuration.",
+          "keywords": [
+            "BMS design",
+            "photocoupler count",
+            "EV battery"
+          ]
+        },
+        {
+          "question": "What is PPAP and when is it required?",
+          "answer": "PPAP (Production Part Approval Process) is required for automotive production parts. Level 3 includes design records, test results, process capability studies, and other documentation. It ensures supplier components meet all customer requirements. Cosmo provides full PPAP Level 3 documentation for automotive customers.",
+          "decisionGuide": "Request PPAP Level 3 for all automotive production parts.",
+          "keywords": [
+            "PPAP",
+            "production approval",
+            "automotive documentation"
+          ]
+        },
+        {
+          "question": "What isolation is required for EV battery systems?",
+          "answer": "EV battery systems require reinforced insulation: 5000V isolation voltage, 8-14mm creepage/clearance, >10MΩ isolation resistance, compliance with ISO 6469 and UL 2580. Use 5000V photocouplers (K2010 series) for all high-voltage to low-voltage interfaces.",
+          "decisionGuide": "Use 5000V isolation with 8mm+ creepage for EV BMS.",
+          "keywords": [
+            "EV isolation",
+            "reinforced insulation",
+            "high voltage"
+          ]
+        },
+        {
+          "question": "What is the difference between Grade 1 and Grade 2?",
+          "answer": "AEC-Q100 Grade 1: -40°C to +125°C, required for under-hood and battery applications. Grade 2: -40°C to +105°C, suitable for passenger compartment. Grade 1 provides wider operating range and higher reliability margins. Always specify Grade 1 for safety-critical and high-temperature applications.",
+          "decisionGuide": "Use Grade 1 for under-hood, Grade 2 for passenger compartment.",
+          "keywords": [
+            "AEC-Q100 Grade",
+            "temperature range",
+            "automotive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guanxi-pcb-layout-guide",
+      "slug": "guanxi-pcb-layout-guide",
+      "title": "PCB Layout Guidelines for Isolation",
+      "description": "Best practices for PCB layout design with isolated components and maintaining creepage/clearance.",
+      "summary": "This guide covers PCB layout requirements for maintaining isolation integrity, including creepage/clearance calculations, slot design, trace routing, and examples for 2500V and 5000V isolation.",
+      "content": [],
+      "author": {
+        "name": "Senior PCB Design Team",
+        "title": "PCB Design Engineering Team",
+        "bio": "Our PCB design team has extensive experience in high-voltage and isolation design for industrial, automotive, and consumer applications."
+      },
+      "publishDate": "2024-02-01",
+      "date": "2024-02-01",
+      "tags": [
+        "PCB layout",
+        "creepage",
+        "clearance",
+        "isolation"
+      ],
+      "relatedProducts": [
+        "K1010",
+        "K2010"
+      ],
+      "relatedArticles": [
+        "guanxi-photocoupler-guide",
+        "guanxi-ssr-guide",
+        "guanxi-automotive-guide"
+      ],
+      "faeInsights": {
+        "overview": "Proper PCB layout is essential for maintaining isolation integrity. This guide provides practical layout guidelines based on industry standards and real-world design experience.",
+        "decisionLogic": "1) Calculate required creepage/clearance based on voltage and standards; 2) Create isolation barrier with no trace crossing; 3) Use slots if space is limited; 4) Verify layout against standards.",
+        "author": {
+          "name": "Senior PCB Design Team",
+          "title": "PCB Design Engineering Team",
+          "bio": "Our PCB design team has extensive experience in high-voltage design."
+        },
+        "content": "Proper PCB layout is essential for maintaining isolation integrity. This guide provides practical layout guidelines based on industry standards and real-world design experience. This comprehensive guide covers all aspects of PCB Layout Guidelines for Isolation implementation, including component selection criteria, system integration best practices, and troubleshooting recommendations. Our FAE team has extensive field experience with these solutions and can provide personalized design support for your specific application requirements. Contact BeiLuo FAE team for detailed technical consultation and design review services.",
+        "insightLogic": "1) Calculate required creepage/clearance based on voltage and standards; 2) Create isolation barrier with no trace crossing; 3) Use slots if space is limited; 4) Verify layout against standards.",
+        "decisionFramework": {
+          "steps": [
+            "1) Understand your application requirements",
+            "2) Review technical specifications carefully",
+            "3) Select appropriate Cosmo product",
+            "4) Design proper application circuit",
+            "5) Contact BeiLuo FAE for support"
+          ]
+        }
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Drive Manufacturer",
+          "challenge": "Needed compact layout with 5000V isolation for motor drives",
+          "solution": "Used slots and optimized component placement to achieve required creepage",
+          "feedback": "Passed hi-pot testing with margin, compact design achieved",
+          "results": "Successful implementation with reliable performance"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between creepage and clearance?",
+          "answer": "Creepage is distance along the surface of insulation between conductive paths. Clearance is distance through air between conductive paths. Creepage is typically the limiting factor and must be larger due to surface contamination. Both must meet minimum requirements for safety.",
+          "decisionGuide": "Design for creepage requirements; clearance is usually easier to achieve.",
+          "keywords": [
+            "creepage",
+            "clearance",
+            "isolation distance"
+          ]
+        },
+        {
+          "question": "How do slots increase creepage distance?",
+          "answer": "Slots force the creepage path to go around the slot, effectively increasing distance. A slot width of 1-2mm is typical. The slot must be wide enough to prevent bridging by contamination. Slots are useful when PCB space is limited but high creepage is required.",
+          "decisionGuide": "Use 1-2mm wide slots to increase creepage when space is limited.",
+          "keywords": [
+            "slots",
+            "creepage increase",
+            "PCB design"
+          ]
+        },
+        {
+          "question": "What is pollution degree and how does it affect creepage?",
+          "answer": "Pollution degree classifies the environment: Degree 1 - clean, dry; Degree 2 - normal, occasional condensation; Degree 3 - harsh, conductive pollution. Higher pollution degree requires larger creepage distances. Industrial environments typically require Degree 2 or 3. Medical and safety-critical applications may require Degree 1 equivalent through encapsulation.",
+          "decisionGuide": "Use higher creepage for industrial (Degree 2-3) environments.",
+          "keywords": [
+            "pollution degree",
+            "environment",
+            "creepage calculation"
+          ]
+        },
+        {
+          "question": "Can I use standard PCB material for high isolation?",
+          "answer": "Standard FR-4 PCB material is suitable for most isolation applications. For very high isolation or harsh environments, consider: Higher CTI (Comparative Tracking Index) materials for better resistance to tracking, Thicker PCB materials for higher voltage standoff, Conformal coating for additional protection in harsh environments. Cosmo photocouplers work with standard PCB materials for most applications.",
+          "decisionGuide": "Standard FR-4 is suitable for most applications; consider CTI for harsh environments.",
+          "keywords": [
+            "PCB material",
+            "FR-4",
+            "CTI",
+            "tracking"
+          ]
+        },
+        {
+          "question": "How do I verify my PCB layout meets isolation requirements?",
+          "answer": "Verify PCB layout by: (1) Measuring creepage and clearance distances on layout; (2) Comparing against IEC 60664 or UL 1577 requirements; (3) Performing hi-pot testing on prototype boards; (4) Considering worst-case manufacturing tolerances; (5) Reviewing with safety engineer for critical applications. Leave margin above minimum requirements for manufacturing variations and long-term reliability.",
+          "decisionGuide": "Measure distances, compare to standards, perform hi-pot testing.",
+          "keywords": [
+            "verification",
+            "hi-pot testing",
+            "layout review"
+          ]
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Guanxi Photocoupler Datasheet",
+      "description": "Complete technical specifications for Cosmo photocoupler product line.",
+      "fileType": "PDF",
+      "fileSize": "2.8 MB",
+      "url": "/downloads/guanxi/guanxi-photocoupler-datasheet.pdf",
+      "category": "Datasheet"
+    },
+    {
+      "title": "Cosmo SSR Datasheet",
+      "description": "Technical specifications for solid state relay products.",
+      "fileType": "PDF",
+      "fileSize": "1.9 MB",
+      "url": "/downloads/guanxi/guanxi-ssr-datasheet.pdf",
+      "category": "Datasheet"
+    },
+    {
+      "title": "Guanxi Product Catalog",
+      "description": "Complete product catalog with selection guide.",
+      "fileType": "PDF",
+      "fileSize": "4.5 MB",
+      "url": "/downloads/guanxi/guanxi-product-catalog.pdf",
+      "category": "Catalog"
+    },
+    {
+      "title": "Photocoupler Application Guide",
+      "description": "Application guide for selecting and using photocouplers.",
+      "fileType": "PDF",
+      "fileSize": "2.2 MB",
+      "url": "/downloads/guanxi/guanxi-photocoupler-app-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "SSR Application Guide",
+      "description": "Design guidelines for solid state relay applications.",
+      "fileType": "PDF",
+      "fileSize": "1.8 MB",
+      "url": "/downloads/guanxi/guanxi-ssr-app-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "PCB Layout Guidelines",
+      "description": "Best practices for PCB layout with isolated components.",
+      "fileType": "PDF",
+      "fileSize": "1.5 MB",
+      "url": "/downloads/guanxi/guanxi-pcb-layout-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "Automotive Qualification Report",
+      "description": "AEC-Q100 qualification documentation for automotive products.",
+      "fileType": "PDF",
+      "fileSize": "3.2 MB",
+      "url": "/downloads/guanxi/guanxi-automotive-qualification.pdf",
+      "category": "Quality Document"
+    },
+    {
+      "title": "UL Certification Document",
+      "description": "UL recognition documentation for safety compliance.",
+      "fileType": "PDF",
+      "fileSize": "1.2 MB",
+      "url": "/downloads/guanxi/guanxi-ul-certification.pdf",
+      "category": "Quality Document"
+    }
+  ]
+}

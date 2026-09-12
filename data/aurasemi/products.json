@@ -2347,7 +2347,7 @@
         },
         {
           "question": "What antenna options are available?",
-          "answer": "The AU7040 supports various antenna types: (1) Whip antenna - quarter-wave monopole (17cm at 433MHz, 8.5cm at 915MHz); (2) Helical antenna - compact form factor with reduced efficiency; (3) PCB antenna - cost-effective, requires careful design; (4) Dipole antenna - balanced design with good performance; (5) External antenna - via U.FL or SMA connector. The integrated balun provides single-ended 50Ω interface. For best performance, match antenna to operating frequency and follow reference designs. Consider antenna diversity for critical applications requiring high reliability.",
+          "answer": "The AU7040 supports various antenna types: (1) Whip antenna - quarter-wave monopole (17cm at 433MHz, 8.5cm at 915MHz); (2) Helical antenna - compact form factor with reduced efficiency; (3) PCB antenna - cost-effective, requires careful design; (4) Dipole antenna - balanced design with good performance; (5) External antenna - via U. FL or SMA connector. The integrated balun provides single-ended 50Ω interface. For best performance, match antenna to operating frequency and follow reference designs. Consider antenna diversity for critical applications requiring high reliability.",
           "decisionGuide": "Use whip antenna for best range; PCB antenna for cost-sensitive designs.",
           "keywords": [
             "antenna selection",
@@ -2456,7 +2456,7 @@
           "faqs": [
             {
               "question": "What antenna options work with AU7040?",
-              "answer": "The AU7040 supports various antenna types: (1) Whip antenna - simple monopole for basic applications; (2) PCB antenna - cost-effective for space-constrained designs; (3) Helical antenna - compact form factor with good performance; (4) Dipole antenna - balanced design for better performance; (5) External antenna - via U.FL connector for flexibility. The integrated balun provides single-ended 50Ω interface. For best range, use a quarter-wave whip antenna (17cm for 433MHz, 8.5cm for 915MHz) with proper ground plane. PCB antennas require careful design following reference layouts.",
+              "answer": "The AU7040 supports various antenna types: (1) Whip antenna - simple monopole for basic applications; (2) PCB antenna - cost-effective for space-constrained designs; (3) Helical antenna - compact form factor with good performance; (4) Dipole antenna - balanced design for better performance; (5) External antenna - via U. FL connector for flexibility. The integrated balun provides single-ended 50Ω interface. For best range, use a quarter-wave whip antenna (17cm for 433MHz, 8.5cm for 915MHz) with proper ground plane. PCB antennas require careful design following reference layouts.",
               "decisionGuide": "Use whip antenna for best range, PCB antenna for cost-sensitive designs.",
               "keywords": [
                 "antenna selection",

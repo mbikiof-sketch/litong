@@ -521,7 +521,9 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 6x8mm"
+            "Package": "WSON8 6x8mm",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "256Mb ultra-high density",
@@ -601,7 +603,9 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP8 / WSON8"
+            "Package": "SOP8 / WSON8",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "1.8V low-voltage operation",
@@ -683,7 +687,8 @@
         "Temperature Range",
         "Max Clock",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "ECC"
       ],
       "longDescription": "GigaDevice NAND Flash products offer reliable high-density storage solutions for data-intensive embedded applications. The SLC NAND portfolio provides densities from 1Gb to 8Gb with industry-standard interfaces and robust error correction support. Key features include: 1) SLC architecture for superior endurance (100K P/E cycles) and data retention, 2) Standard parallel and SPI interfaces for flexible system integration, 3) Built-in ECC engines or external ECC support options, 4) Wide operating temperature ranges for industrial applications, 5) Cost-effective pricing for high-volume deployments. These products are ideal for data logging, media storage, file systems, and boot code storage in industrial control, networking equipment, consumer electronics, and automotive systems. As an authorized GigaDevice distributor, we provide comprehensive technical support and selection guidance for NAND Flash integration including ECC implementation, file system optimization, and density selection for your specific application requirements.",
       "image": "/assets/brands/gigadevice/nand-flash.jpg",
@@ -810,7 +815,8 @@
             "Package": "TSOP48",
             "Max Clock": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "ECC": "N/A"
           },
           "features": [
             "1Gb SLC NAND Flash technology",
@@ -974,7 +980,8 @@
             "Temperature Range": "-40°C to +85°C",
             "Package": "WSON8 6x8mm",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "ECC": "N/A"
           },
           "features": [
             "1Gb SLC NAND Flash technology",
@@ -1130,7 +1137,14 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "10 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 8x6mm"
+            "Package": "WSON8 8x6mm",
+            "Organization": "N/A",
+            "Supply Voltage": "N/A",
+            "Read Speed": "N/A",
+            "Program Time": "N/A",
+            "Erase Time": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "1Gb high-density storage",
@@ -1208,7 +1222,14 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "10 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 8x6mm"
+            "Package": "WSON8 8x6mm",
+            "Organization": "N/A",
+            "Supply Voltage": "N/A",
+            "Read Speed": "N/A",
+            "Program Time": "N/A",
+            "Erase Time": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "2Gb large-capacity storage",
@@ -1288,7 +1309,14 @@
         "DAC",
         "Voltage Rating",
         "Current Rating",
-        "Status"
+        "Status",
+        "Frequency",
+        "Flash",
+        "USB",
+        "Ethernet",
+        "Temperature",
+        "Active Current",
+        "Standby Current"
       ],
       "longDescription": "GigaDevice GD32 series microcontrollers are based on ARM Cortex-M3, Cortex-M4, Cortex-M23, and Cortex-M33 cores, offering a comprehensive portfolio of 32-bit MCUs for embedded applications. The GD32 family provides pin-to-pin and code compatibility with STM32 in many cases, while delivering significant cost advantages and better supply availability. Key features include: 1) Wide performance range from 72MHz Cortex-M3 to 240MHz Cortex-M4 with DSP and FPU, 2) Rich peripheral sets including USB, CAN, Ethernet, ADCs, DACs, and multiple timers, 3) Memory options from 16KB to 3MB Flash and 4KB to 256KB SRAM, 4) Multiple package options from QFN32 to LQFP176 and BGA, 5) Excellent ecosystem support with SDK, evaluation boards, and third-party tools. The GD32 series is ideal for industrial control, consumer electronics, automotive applications, IoT devices, and any embedded system requiring reliable processing at competitive pricing. As an authorized GigaDevice distributor, we provide comprehensive MCU selection guidance, migration support from STM32, and technical assistance for GD32 integration including peripheral configuration and optimization.",
       "image": "/assets/brands/gigadevice/mcu.jpg",
@@ -1425,7 +1453,14 @@
             "DAC": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Frequency": "N/A",
+            "Flash": "N/A",
+            "USB": "N/A",
+            "Ethernet": "N/A",
+            "Temperature": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "ARM Cortex-M3 core at 72MHz",
@@ -1583,7 +1618,14 @@
             "Package": "LQFP100",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Frequency": "N/A",
+            "Flash": "N/A",
+            "USB": "N/A",
+            "Ethernet": "N/A",
+            "Temperature": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "ARM Cortex-M4 core at 240MHz with FPU",
@@ -1735,7 +1777,18 @@
             "ADC": "3x 12-bit, 16 channels",
             "Timers": "Advanced motor control timers",
             "Temperature": "-40°C to +85°C",
-            "Package": "LQFP100"
+            "Package": "LQFP100",
+            "Max Frequency": "N/A",
+            "Flash Memory": "N/A",
+            "Communication": "N/A",
+            "Operating Voltage": "N/A",
+            "Temperature Range": "N/A",
+            "DAC": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Status": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "240MHz Cortex-M4 with FPU",
@@ -1814,7 +1867,18 @@
             "Standby Current": "2uA with RTC",
             "ADC": "1x 12-bit, 10 channels",
             "Temperature": "-40°C to +85°C",
-            "Package": "LQFP48"
+            "Package": "LQFP48",
+            "Max Frequency": "N/A",
+            "Flash Memory": "N/A",
+            "Timers": "N/A",
+            "Communication": "N/A",
+            "Operating Voltage": "N/A",
+            "Temperature Range": "N/A",
+            "DAC": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Status": "N/A",
+            "Ethernet": "N/A"
           },
           "features": [
             "72MHz Cortex-M23 core",
@@ -1903,7 +1967,18 @@
         "Debug",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Core",
+        "Debugger",
+        "Touch",
+        "Connectivity",
+        "Debug Protocols",
+        "Max Clock",
+        "Target Voltage",
+        "Protection",
+        "LED Indicators",
+        "Connectors",
+        "Compatibility"
       ],
       "longDescription": "GigaDevice provides comprehensive development tools and evaluation kits to accelerate product development and reduce time-to-market. Our development ecosystem includes: 1) GD-Link debugger/programmer for Flash programming and debugging, 2) Evaluation boards for NOR Flash, NAND Flash, and each MCU series with comprehensive examples, 3) Software SDK with HAL and LL drivers for all product families, 4) Application notes and reference designs for common use cases. As an authorized GigaDevice distributor, we provide development tool selection guidance, evaluation kit availability, and technical assistance for tool setup and debugging. These tools enable rapid prototyping, firmware development, and system validation for GigaDevice-based designs. Contact our FAE team for tool selection recommendations based on your specific development requirements.",
       "image": "/assets/brands/gigadevice/development-tools.jpg",
@@ -1993,7 +2068,7 @@
         },
         {
           "question": "What reference designs are available from GigaDevice?",
-          "answer": "GigaDevice provides various reference designs to accelerate product development: 1) Motor control reference designs with FOC algorithms for PMSM/BLDC motors, 2) IoT gateway designs with Ethernet and wireless connectivity, 3) Industrial control designs with PLC functionality, 4) Power supply designs with digital control, 5) HMI designs with display interfaces. Reference designs include complete schematics, PCB layouts, BOM, and firmware source code. The designs are tested and validated for production use. Motor control designs demonstrate sensorless FOC with current sensing. IoT gateway designs show protocol conversion and cloud connectivity. Industrial designs include EMC optimization and isolation. Our reference designs serve as starting points for custom designs. As an authorized distributor, we provide reference design support and can customize designs for specific requirements. Contact our FAE team for reference design access and application guidance.",
+          "answer": "GigaDevice provides various reference designs to accelerate product development: 1) Motor control reference designs with FOC algorithms for PMSM/BLDC motors, 2) IoT gateway designs with Ethernet and wireless connectivity, 3) Industrial control designs with PLC functionality, 4) Power supply designs with digital control, 5) HMI designs with display interfaces. Reference designs include complete schematics, PCB layouts, BOM, and firmware source code. The designs are tested and validated for production use. Motor control designs demonstrate sensorless FOC with current sensing. IoT gateway designs show protocol conversion and cloud connectivity. Industrial designs include EMC optimization and isolation. Our reference designs is starting points for custom designs. As an authorized distributor, we provide reference design support and can customize designs for specific requirements. Contact our FAE team for reference design access and application guidance.",
           "decisionGuide": "Use reference designs as starting points for your application. Modify to meet specific requirements. Contact FAE for reference design support.",
           "keywords": [
             "reference design",
@@ -2035,7 +2110,18 @@
             "Debug": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Core": "N/A",
+            "Debugger": "N/A",
+            "Touch": "N/A",
+            "Connectivity": "N/A",
+            "Debug Protocols": "N/A",
+            "Max Clock": "N/A",
+            "Target Voltage": "N/A",
+            "Protection": "N/A",
+            "LED Indicators": "N/A",
+            "Connectors": "N/A",
+            "Compatibility": "N/A"
           },
           "features": [
             "JTAG and SWD interface support",
@@ -2170,7 +2256,7 @@
           "descriptionParagraphs": [
             "The GD32F407Z-EVAL is a comprehensive evaluation board designed for the GD32F407 series high-performance microcontrollers. This board provides full access to all MCU peripherals and includes various external components for comprehensive evaluation.",
             "Key features include 10/100Mbps Ethernet PHY for network application development, USB OTG HS/FS interfaces, 3.2-inch TFT-LCD display with touch panel, SD card interface for storage expansion, and multiple expansion headers for custom circuitry. The board also includes EEPROM, SPI Flash, and various sensors for demonstration purposes.",
-            "The evaluation board comes with comprehensive example code covering all peripherals and common applications. It serves as an excellent platform for learning GD32 development, rapid prototyping, and proof-of-concept demonstrations. The board is fully compatible with GD-Link debugger and supports all major IDEs including Keil MDK and IAR."
+            "The evaluation board comes with comprehensive example code covering all peripherals and common applications. It is an excellent platform for learning GD32 development, rapid prototyping, and proof-of-concept demonstrations. The board is fully compatible with GD-Link debugger and supports all major IDEs including Keil MDK and IAR."
           ],
           "image": "/assets/products/gigadevice/gd32f407-eval.jpg",
           "specifications": {
@@ -2195,7 +2281,18 @@
             "Dimensions": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Core": "N/A",
+            "Debugger": "N/A",
+            "Touch": "N/A",
+            "Connectivity": "N/A",
+            "Debug Protocols": "N/A",
+            "Max Clock": "N/A",
+            "Target Voltage": "N/A",
+            "Protection": "N/A",
+            "LED Indicators": "N/A",
+            "Connectors": "N/A",
+            "Compatibility": "N/A"
           },
           "features": [
             "GD32F407ZGT6 high-performance MCU",
@@ -2277,7 +2374,7 @@
           "faqs": [
             {
               "question": "What is included with the GD32F407Z-EVAL board?",
-              "answer": "The GD32F407Z-EVAL evaluation board package includes: 1) GD32F407Z-EVAL board with GD32F407ZGT6 MCU, 2) USB cables for power and debugging, 3) Ethernet cable for network testing, 4) Comprehensive documentation including schematics and user manual, 5) Example code package with projects for all peripherals, 6) Quick start guide for immediate evaluation. The board comes pre-programmed with a demonstration firmware showcasing LCD, touch, Ethernet, and USB capabilities. All source code is provided for reference and modification. The documentation includes detailed pin assignments and jumper settings. Example projects are provided for Keil MDK and IAR EWARM. Additional resources are available on the GigaDevice website.",
+              "answer": "The GD32F407Z-EVAL evaluation board package includes: 1) GD32F407Z-EVAL board with GD32F407ZGT6 MCU, 2) USB cables for power and debugging, 3) Ethernet cable for network testing, 4) Comprehensive documentation including schematics and user manual, 5) Example code package with projects for all peripherals, 6) Quick start guide for immediate evaluation. The board comes pre-programmed with a demonstration firmware show LCD, touch, Ethernet, and USB capabilities. All source code is provided for reference and modification. The documentation includes detailed pin assignments and jumper settings. Example projects are provided for Keil MDK and IAR EWARM. Additional resources are available on the GigaDevice website.",
               "decisionGuide": "The EVAL board includes everything needed for immediate evaluation. Order GD-Link separately for debugging capabilities.",
               "keywords": [
                 "evaluation kit contents",
@@ -2347,7 +2444,30 @@
             "Touch": "Resistive touch panel",
             "Connectivity": "USB, UART, SPI, I2C, CAN",
             "Power": "USB or external 5V",
-            "Package": "Evaluation Board"
+            "Package": "Evaluation Board",
+            "Interface": "N/A",
+            "Target Interface": "N/A",
+            "Supported MCUs": "N/A",
+            "Debug Features": "N/A",
+            "Programming": "N/A",
+            "IDE Support": "N/A",
+            "Dimensions": "N/A",
+            "Ethernet": "N/A",
+            "USB": "N/A",
+            "Storage": "N/A",
+            "Sensors": "N/A",
+            "Expansion": "N/A",
+            "Debug": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Debug Protocols": "N/A",
+            "Max Clock": "N/A",
+            "Target Voltage": "N/A",
+            "Protection": "N/A",
+            "LED Indicators": "N/A",
+            "Connectors": "N/A",
+            "Compatibility": "N/A"
           },
           "features": [
             "GD32F303VCT6 MCU",
@@ -2426,13 +2546,37 @@
             "Connectors": "20-pin JTAG, 10-pin SWD",
             "Compatibility": "All GD32 series",
             "IDE Support": "Keil, IAR, Eclipse",
-            "Package": "Standalone Tool"
+            "Package": "Standalone Tool",
+            "Target Interface": "N/A",
+            "Supported MCUs": "N/A",
+            "Debug Features": "N/A",
+            "Programming": "N/A",
+            "Power": "N/A",
+            "Dimensions": "N/A",
+            "MCU": "N/A",
+            "Frequency": "N/A",
+            "Flash": "N/A",
+            "SRAM": "N/A",
+            "Ethernet": "N/A",
+            "USB": "N/A",
+            "Display": "N/A",
+            "Storage": "N/A",
+            "Sensors": "N/A",
+            "Expansion": "N/A",
+            "Debug": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Core": "N/A",
+            "Debugger": "N/A",
+            "Touch": "N/A",
+            "Connectivity": "N/A"
           },
           "features": [
             "JTAG and SWD support",
             "High-speed USB 2.0",
             "1.8V-5V target voltage",
-            " galvanic isolation",
+            "galvanic isolation",
             "All GD32 series support",
             "Multi-IDE compatibility"
           ],

@@ -20,7 +20,7 @@
       "image": "/solutions/live-streaming.jpg",
       "features": [
         "HDMI input up to 4K30 (MS2131) or 1080p60 (MS2130)",
-        "USB 3.0 UVC compliant - no drivers needed",
+        "USB 3.0 UVC compliant - No drivers is needed",
         "Hardware MJPEG encoding reduces CPU load",
         "Low latency <80ms for real-time streaming",
         "Compatible with OBS, XSplit, Zoom, Teams",
@@ -137,7 +137,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Based on extensive experience supporting customers with Professional Live Streaming System, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "This live streaming solution leverages MacroSilicon's proven capture technology to deliver professional-grade streaming performance. The decision logic focuses on balancing quality, latency, and cost.\n\nKey considerations: Optimized for target applications; Integrated design reduces BOM cost; Comprehensive technical support available.\n\nCommon pitfalls to avoid: Using USB 2.0 for 1080p60 (bandwidth insufficient); Not verifying streaming software UVC support; Inadequate HDMI cable quality causing signal issues; Overlooking thermal design in compact enclosures.",
         "keyTakeaways": [
           "Optimized for target applications",
           "Integrated design reduces BOM cost",
@@ -344,7 +344,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Based on extensive experience supporting customers with Enterprise Video Conferencing Platform, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "This video conferencing solution provides enterprise-grade video input for professional conferencing applications. The focus is on reliability, compatibility, and ease of use.\n\nKey considerations: Optimized for target applications; Integrated design reduces BOM cost; Comprehensive technical support available.\n\nCommon pitfalls to avoid: Not testing with target conferencing platform; Inadequate USB routing causing signal issues; Forgetting audio integration requirements; Insufficient cooling in enclosed installations.",
         "keyTakeaways": [
           "Optimized for target applications",
           "Integrated design reduces BOM cost",
@@ -515,7 +515,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Based on extensive experience supporting customers with Smart Display and Kiosk Solution, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "This smart display solution leverages the MS8100 SoC's high integration to create cost-effective, feature-rich display systems. The decision logic focuses on reducing system complexity while delivering advanced multimedia capabilities.\n\nKey considerations: Optimized for target applications; Integrated design reduces BOM cost; Comprehensive technical support available.\n\nCommon pitfalls to avoid: Insufficient thermal design for continuous operation; Underestimating memory requirements for 4K content; Not planning for software updates in field; Inadequate power supply design for peak loads.",
         "keyTakeaways": [
           "Optimized for target applications",
           "Integrated design reduces BOM cost",

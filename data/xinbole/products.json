@@ -906,7 +906,7 @@
         },
         {
           "question": "What is input offset voltage and why does it matter?",
-          "answer": "Input offset voltage is the differential voltage required at the op-amp inputs to produce zero output. It represents the input-referred DC error. In precision applications, offset voltage directly affects accuracy. For example, a 1mV offset in a gain-of-100 amplifier creates 100mV output error. Precision op-amps have offsets from microvolts to millivolts. General-purpose op-amps may have offsets of several millivolts. For DC precision, select op-amps with low offset voltage and low drift.",
+          "answer": "Input offset voltage is the differential voltage required at the op-amp inputs to produce zero output. It is the input-referred DC error. In precision applications, offset voltage directly affects accuracy. For example, a 1mV offset in a gain-of-100 amplifier creates 100mV output error. Precision op-amps have offsets from microvolts to millivolts. General-purpose op-amps may have offsets of several millivolts. For DC precision, select op-amps with low offset voltage and low drift.",
           "decisionGuide": "Select low offset op-amps for precision DC applications. Consider offset drift over temperature.",
           "keywords": [
             "offset voltage",
@@ -1086,7 +1086,7 @@
             },
             {
               "question": "Is XB-OP07A suitable for thermocouple amplification?",
-              "answer": "Yes, XB-OP07A is excellent for thermocouple amplification due to its low offset voltage and drift. Thermocouples produce small voltages (tens of microvolts per degree) requiring precision amplification. The XB-OP07A's 50μV offset represents only a few degrees error for most thermocouple types. Use cold junction compensation and proper filtering for accurate temperature measurement. The low drift ensures stable readings over temperature changes.",
+              "answer": "Yes, XB-OP07A is excellent for thermocouple amplification due to its low offset voltage and drift. Thermocouples produce small voltages (tens of microvolts per degree) requiring precision amplification. The XB-OP07A's 50μV offset is only a few degrees error for most thermocouple types. Use cold junction compensation and proper filtering for accurate temperature measurement. The low drift ensures stable readings over temperature changes.",
               "decisionGuide": "XB-OP07A excellent for thermocouple applications. Add cold junction compensation.",
               "keywords": [
                 "thermocouple",

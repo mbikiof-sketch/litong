@@ -330,7 +330,7 @@ const realSupportArticle5 = {
   author: {
     name: "Wang Jun",
     title: "Senior FAE - Motor Control",
-    email: "wang.jun@litong.com"
+    email: "wang.jun@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

@@ -10,7 +10,7 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "p",
     "r",
     "o",
@@ -19,8 +19,8 @@
     "c",
     "t",
     "s",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -29,13 +29,13 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "I",
     "G",
     "B",
     "T",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -44,15 +44,15 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "M",
     "O",
     "S",
     "F",
     "E",
     "T",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -61,12 +61,12 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "M",
     "C",
     "U",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -75,15 +75,15 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "s",
     "e",
     "n",
     "s",
     "o",
     "r",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -92,7 +92,7 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "d",
     "i",
     "s",
@@ -104,12 +104,12 @@
     "t",
     "o",
     "r",
-    ",",
-    " ",
+    "",
+    "",
     "b",
     "u",
     "y",
-    " ",
+    "",
     "I",
     "n",
     "f",
@@ -118,8 +118,8 @@
     "e",
     "o",
     "n",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -128,14 +128,14 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "p",
     "r",
     "i",
     "c",
     "e",
-    ",",
-    " ",
+    "",
+    "",
     "I",
     "n",
     "f",
@@ -144,7 +144,7 @@
     "e",
     "o",
     "n",
-    " ",
+    "",
     "s",
     "t",
     "o",
@@ -322,7 +322,13 @@
         "Voltage Rating",
         "Current Rating",
         "Temperature Range",
-        "Status"
+        "Status",
+        "Core",
+        "Flash",
+        "SRAM",
+        "Safety",
+        "Security",
+        "Temperature"
       ],
       "applications": [
         "Automotive",
@@ -418,7 +424,7 @@
           "faqs": [
             {
               "question": "What are the main application scenarios for TC399XX2048F300SBDKXQ1?",
-              "answer": "TC399XX2048F300SBDKXQ1 is designed for . Its ARM core at 300MHz provides excellent processing power for real-time control and signal processing tasks. With 16MB Flash and 2MB + 1MB PST RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
+              "answer": "TC399XX2048F300SBDKXQ1 is designed for. Its ARM core at 300MHz provides excellent processing power for real-time control and signal processing tasks. With 16MB Flash and 2MB + 1MB PST RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
               "decisionGuide": "Contact our FAE team to discuss your specific application requirements and get recommendations on peripheral configuration.",
               "keywords": [
                 "TC399XX2048F300SBDKXQ1 applications",
@@ -428,7 +434,7 @@
             },
             {
               "question": "How does TC399XX2048F300SBDKXQ1 compare to other microcontrollers in the same class?",
-              "answer": "Compared to competitors, TC399XX2048F300SBDKXQ1 offers superior price-performance ratio with its ARM core running at 300MHz. The comprehensive peripheral set including 6x TriCore 1.8 processor cores @ 300MHz, 2x independent safety cores for ASIL-D, 16MB embedded flash with ECC provides flexibility for various applications. Infineon Technologies's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The 16MB Flash provides generous space for firmware, while the 2MB + 1MB PST RAM supports complex buffer requirements. Additionally, Infineon Technologies's long-term availability commitment ensures production continuity.",
+              "answer": "Compared to competitors, TC399XX2048F300SBDKXQ1 offers superior price-performance ratio with its ARM core running at 300MHz. The comprehensive peripheral set including 6x TriCore 1.8 processor cores @ 300MHz, 2x independent safety cores for ASIL-D, 16MB embedded flash with ECC provides flexibility for various applications. Infineon Technologies's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The 16MB Flash provides generous space for firmware, while the 2MB + 1MB PST RAM supports complex buffer requirements. Infineon Technologies's long-term availability commitment ensures production continuity.",
               "decisionGuide": "Request a detailed comparison report or schedule a technical consultation to evaluate TC399XX2048F300SBDKXQ1 for your project.",
               "keywords": [
                 "TC399XX2048F300SBDKXQ1 comparison",
@@ -482,7 +488,13 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Core": "N/A",
+            "Flash": "N/A",
+            "SRAM": "N/A",
+            "Safety": "N/A",
+            "Security": "N/A",
+            "Temperature": "N/A"
           },
           "name": "MCU Microcontrollers TC399XX2048F300SBDKXQ1",
           "Temperature Range": "-40°C to +125°C"
@@ -571,7 +583,7 @@
           "faqs": [
             {
               "question": "What are the main application scenarios for XMC4700F144K2048ABXQ1?",
-              "answer": "XMC4700F144K2048ABXQ1 is designed for . Its ARM core at 144MHz provides excellent processing power for real-time control and signal processing tasks. With 2MB Flash and 352KB RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
+              "answer": "XMC4700F144K2048ABXQ1 is designed for. Its ARM core at 144MHz provides excellent processing power for real-time control and signal processing tasks. With 2MB Flash and 352KB RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
               "decisionGuide": "Contact our FAE team to discuss your specific application requirements and get recommendations on peripheral configuration.",
               "keywords": [
                 "XMC4700F144K2048ABXQ1 applications",
@@ -581,7 +593,7 @@
             },
             {
               "question": "How does XMC4700F144K2048ABXQ1 compare to other microcontrollers in the same class?",
-              "answer": "Compared to competitors, XMC4700F144K2048ABXQ1 offers superior price-performance ratio with its ARM core running at 144MHz. The comprehensive peripheral set including ARM Cortex-M4F @ 144MHz with FPU, 2MB flash, 352KB SRAM, Multiple 12-bit ADCs (4Msps) provides flexibility for various applications. Infineon Technologies's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The 2MB Flash provides generous space for firmware, while the 352KB RAM supports complex buffer requirements. Additionally, Infineon Technologies's long-term availability commitment ensures production continuity.",
+              "answer": "Compared to competitors, XMC4700F144K2048ABXQ1 offers superior price-performance ratio with its ARM core running at 144MHz. The comprehensive peripheral set including ARM Cortex-M4F @ 144MHz with FPU, 2MB flash, 352KB SRAM, Multiple 12-bit ADCs (4Msps) provides flexibility for various applications. Infineon Technologies's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The 2MB Flash provides generous space for firmware, while the 352KB RAM supports complex buffer requirements. Infineon Technologies's long-term availability commitment ensures production continuity.",
               "decisionGuide": "Request a detailed comparison report or schedule a technical consultation to evaluate XMC4700F144K2048ABXQ1 for your project.",
               "keywords": [
                 "XMC4700F144K2048ABXQ1 comparison",
@@ -635,7 +647,13 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Core": "N/A",
+            "Flash": "N/A",
+            "SRAM": "N/A",
+            "Safety": "N/A",
+            "Security": "N/A",
+            "Temperature": "N/A"
           },
           "name": "MCU Microcontrollers XMC4700F144K2048ABXQ1",
           "Temperature Range": "-40°C to +85°C"
@@ -656,7 +674,11 @@
             "Safety": "ASIL-D",
             "Security": "Hardware Security Module",
             "Package": "BGA-516",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Status": "N/A"
           },
           "features": [
             "Six TriCore CPUs at 300MHz",
@@ -732,7 +754,11 @@
             "Safety": "ASIL-D",
             "Security": "Hardware Security Module",
             "Package": "BGA-516",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Status": "N/A"
           },
           "features": [
             "Six TriCore CPUs at 300MHz",
@@ -854,7 +880,13 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "VCE",
+        "IC",
+        "VCE(sat)",
+        "Switching Frequency",
+        "Isolation",
+        "Temperature"
       ],
       "applications": [
         "Motor Drive",
@@ -944,7 +976,7 @@
         },
         {
           "question": "What is the difference between IGBT4 and IGBT5 technology?",
-          "answer": "IGBT4 and IGBT5 represent different generations of Infineon IGBT technology: IGBT4 (Current Generation) - Trench/field-stop technology offering excellent trade-off between conduction and switching losses, widely used in industrial drives and renewable energy, proven reliability with millions of units in the field. IGBT5 (Latest Generation) - Advanced trench-gate field-stop technology with optimized cell design, lower Vce(sat) for reduced conduction losses, improved switching softness reducing EMI, higher power density enabling smaller packages. Selection Guidance - IGBT4 offers proven performance and broad availability for most applications; IGBT5 provides best-in-class efficiency for new designs where maximum performance is required. Both technologies are available in EconoDUAL and PrimePACK packages. Check the part number suffix to identify the technology generation.",
+          "answer": "IGBT4 and IGBT5 is different generations of Infineon IGBT technology: IGBT4 (Current Generation) - Trench/field-stop technology offering excellent trade-off between conduction and switching losses, widely used in industrial drives and renewable energy, proven reliability with millions of units in the field. IGBT5 (Latest Generation) - Advanced trench-gate field-stop technology with optimized cell design, lower Vce(sat) for reduced conduction losses, improved switching softness reducing EMI, higher power density enabling smaller packages. Selection Guidance - IGBT4 offers proven performance and broad availability for most applications; IGBT5 provides best-in-class efficiency for new designs where maximum performance is required. Both technologies are available in EconoDUAL and PrimePACK packages. Check the part number suffix to identify the technology generation.",
           "decisionGuide": "Compare IGBT4 and IGBT5 models in the table to evaluate the performance benefits for your specific application requirements.",
           "keywords": [
             "IGBT4 vs IGBT5",
@@ -1119,7 +1151,13 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCE": "N/A",
+            "IC": "N/A",
+            "VCE(sat)": "N/A",
+            "Switching Frequency": "N/A",
+            "Isolation": "N/A",
+            "Temperature": "N/A"
           },
           "name": "IGBT Modules FF300R12ME4_B11",
           "Voltage Rating": "1200V",
@@ -1271,7 +1309,13 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCE": "N/A",
+            "IC": "N/A",
+            "VCE(sat)": "N/A",
+            "Switching Frequency": "N/A",
+            "Isolation": "N/A",
+            "Temperature": "N/A"
           },
           "name": "IGBT Modules FF600R12ME4_B11",
           "Voltage Rating": "1200V",
@@ -1311,7 +1355,7 @@
           "descriptionParagraphs": [
             "The Infineon IKW40N120H3 is a high-voltage discrete IGBT from the IHV (Industrial High Voltage) seri.",
             "This TO-247 packaged device provides 1200V blocking voltage and 40A continuous current capability in.",
-            "Featuring Infineon's advanced high-voltage IGBT technology, the IKW40N120H3 delivers low conduction ."
+            "Featuring Infineon's advanced high-voltage IGBT technology, the IKW40N120H3 delivers low conduction."
           ],
           "faeReview": {
             "author": "Michael Wang",
@@ -1423,7 +1467,13 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VCE": "N/A",
+            "IC": "N/A",
+            "VCE(sat)": "N/A",
+            "Switching Frequency": "N/A",
+            "Isolation": "N/A",
+            "Temperature": "N/A"
           },
           "name": "IGBT Modules IKW40N120H3",
           "Voltage Rating": "1200V",
@@ -1446,7 +1496,10 @@
             "Switching Frequency": "Up to 20kHz",
             "Isolation": "6000Vrms",
             "Package": "EconoDUAL™ 3",
-            "Temperature": "-40°C to +150°C"
+            "Temperature": "-40°C to +150°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "1200V 600A rating",
@@ -1561,7 +1614,15 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "VDS",
+        "RDS(on)",
+        "ID",
+        "Qg",
+        "Qgd",
+        "VGS(th)",
+        "Technology",
+        "Temperature"
       ],
       "applications": [
         "Power Supply",
@@ -1665,7 +1726,7 @@
             },
             {
               "question": "How does BSC028N04LS G compare to competing MOSFETs?",
-              "answer": "BSC028N04LS G stands out with its low RDS(on) of 2.8mΩ, which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of  enables efficient high-frequency switching. Infineon Technologies's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Additionally, Infineon Technologies's manufacturing quality and long-term availability commitment provide supply chain security.",
+              "answer": "BSC028N04LS G stands out with its low RDS(on) of 2.8mΩ, which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of enables efficient high-frequency switching. Infineon Technologies's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Infineon Technologies's manufacturing quality and long-term availability commitment provide supply chain security.",
               "decisionGuide": "Request a detailed comparison report including efficiency calculations for your specific operating conditions.",
               "keywords": [
                 "BSC028N04LS G comparison",
@@ -1718,7 +1779,15 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VDS": "N/A",
+            "RDS(on)": "N/A",
+            "ID": "N/A",
+            "Qg": "N/A",
+            "Qgd": "N/A",
+            "VGS(th)": "N/A",
+            "Technology": "N/A",
+            "Temperature": "N/A"
           },
           "name": "MOSFETs BSC028N04LS G",
           "Voltage Rating": "40V",
@@ -1758,7 +1827,7 @@
           "descriptionParagraphs": [
             "The Infineon IMW120R040M1H is a 1200V silicon carbide (SiC) MOSFET from the CoolSiC family, designed.",
             "This device leverages Infineon's advanced SiC technology to deliver exceptional performance compared.",
-            "With an on-resistance of only 40mΩ at 1200V rating, the IMW120R040M1H enables ultra-high efficiency ."
+            "With an on-resistance of only 40mΩ at 1200V rating, the IMW120R040M1H enables ultra-high efficiency."
           ],
           "faeReview": {
             "author": "David Liu",
@@ -1817,7 +1886,7 @@
             },
             {
               "question": "How does IMW120R040M1H compare to competing MOSFETs?",
-              "answer": "IMW120R040M1H stands out with its low RDS(on) of 40mΩ, which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of  enables efficient high-frequency switching. Infineon Technologies's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Additionally, Infineon Technologies's manufacturing quality and long-term availability commitment provide supply chain security.",
+              "answer": "IMW120R040M1H stands out with its low RDS(on) of 40mΩ, which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of enables efficient high-frequency switching. Infineon Technologies's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Infineon Technologies's manufacturing quality and long-term availability commitment provide supply chain security.",
               "decisionGuide": "Request a detailed comparison report including efficiency calculations for your specific operating conditions.",
               "keywords": [
                 "IMW120R040M1H comparison",
@@ -1870,7 +1939,15 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "VDS": "N/A",
+            "RDS(on)": "N/A",
+            "ID": "N/A",
+            "Qg": "N/A",
+            "Qgd": "N/A",
+            "VGS(th)": "N/A",
+            "Technology": "N/A",
+            "Temperature": "N/A"
           },
           "name": "MOSFETs IMW120R040M1H",
           "Voltage Rating": "1200V",
@@ -1895,7 +1972,10 @@
             "VGS(th)": "2.5V - 3.5V",
             "Package": "TO-263 (D²PAK)",
             "Technology": "OptiMOS™ 5",
-            "Temperature": "-55°C to +175°C"
+            "Temperature": "-55°C to +175°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Ultra-low 1.7mΩ on-resistance",
@@ -1973,7 +2053,10 @@
             "VGS(th)": "2.0V - 3.0V",
             "Package": "TO-263 (D²PAK)",
             "Technology": "OptiMOS™",
-            "Temperature": "-55°C to +175°C"
+            "Temperature": "-55°C to +175°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Ultra-low 1.4mΩ on-resistance",
@@ -2049,7 +2132,7 @@
       "name": "Sensors",
       "fullName": "Infineon XENSIV Sensors | Hall, Pressure, Radar, Current",
       "description": "XENSIV sensor portfolio for current, pressure, humidity, and radar sensing. Precision sensing for IoT and industrial applications.",
-      "longDescription": "Infineon's XENSIV sensor portfolio represents one of the industry's most comprehensive collections of sensors for automotive, industrial, and consumer applications. The portfolio includes Hall effect sensors for current and position sensing, MEMS pressure sensors, radar sensors for motion detection and level sensing, humidity sensors, and IMU (inertial measurement unit) sensors.\n\nThe TLE499x family of programmable linear Hall sensors provides precise magnetic field measurement for current sensing, position detection, and speed sensing applications. These sensors feature temperature compensation, programmable sensitivity, and robust EMC performance. The DPS3xx family of MEMS pressure sensors delivers high-accuracy barometric pressure measurement for weather stations, GPS enhancement, and indoor navigation.\n\nThe XENSIV portfolio also includes 60GHz radar sensors for presence detection, motion sensing, and level measurement; humidity sensors for HVAC and environmental monitoring; and XMC-based current sensor ICs for accurate AC/DC current measurement in industrial and automotive applications. All sensors are manufactured in ISO-certified facilities and qualified according to automotive and industrial standards. As an authorized distributor, we provide comprehensive Sensors selection guidance (选型指导) and technical support.",
+      "longDescription": "Infineon's XENSIV sensor portfolio is one of the industry's most comprehensive collections of sensors for automotive, industrial, and consumer applications. The portfolio includes Hall effect sensors for current and position sensing, MEMS pressure sensors, radar sensors for motion detection and level sensing, humidity sensors, and IMU (inertial measurement unit) sensors.\n\nThe TLE499x family of programmable linear Hall sensors provides precise magnetic field measurement for current sensing, position detection, and speed sensing applications. These sensors feature temperature compensation, programmable sensitivity, and robust EMC performance. The DPS3xx family of MEMS pressure sensors delivers high-accuracy barometric pressure measurement for weather stations, GPS enhancement, and indoor navigation.\n\nThe XENSIV portfolio also includes 60GHz radar sensors for presence detection, motion sensing, and level measurement; humidity sensors for HVAC and environmental monitoring; and XMC-based current sensor ICs for accurate AC/DC current measurement in industrial and automotive applications. All sensors are manufactured in ISO-certified facilities and qualified according to automotive and industrial standards. As an authorized distributor, we provide comprehensive Sensors selection guidance (选型指导) and technical support.",
       "icon": "sensor-icon.svg",
       "series": [
         {
@@ -2274,7 +2357,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SENSOR-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on infineon TLE4998P, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -2283,7 +2366,7 @@
             },
             {
               "question": "What applications is SENSOR-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on infineon TLE4998P, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -2292,7 +2375,7 @@
             },
             {
               "question": "What is the temperature range of SENSOR-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on infineon TLE4998P, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -2301,7 +2384,7 @@
             },
             {
               "question": "What package options are available for SENSOR-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on infineon TLE4998P, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -2310,7 +2393,7 @@
             },
             {
               "question": "What is the lead time for SENSOR-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on infineon TLE4998P, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2402,7 +2485,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SENSOR-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on infineon TLE5012B, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -2411,7 +2494,7 @@
             },
             {
               "question": "What applications is SENSOR-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on infineon TLE5012B, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -2420,7 +2503,7 @@
             },
             {
               "question": "What is the temperature range of SENSOR-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on infineon TLE5012B, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -2429,7 +2512,7 @@
             },
             {
               "question": "What package options are available for SENSOR-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on infineon TLE5012B, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -2438,7 +2521,7 @@
             },
             {
               "question": "What is the lead time for SENSOR-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on infineon TLE5012B, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2506,7 +2589,15 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Isolation",
+        "Output Current",
+        "Propagation Delay",
+        "CMTI",
+        "VCC2",
+        "Protection",
+        "Certification",
+        "Temperature"
       ],
       "applications": [
         "Motor Drive",
@@ -2554,7 +2645,15 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Isolation": "N/A",
+            "Output Current": "N/A",
+            "Propagation Delay": "N/A",
+            "CMTI": "N/A",
+            "VCC2": "N/A",
+            "Protection": "N/A",
+            "Certification": "N/A",
+            "Temperature": "N/A"
           },
           "name": "Gate Drivers INFINEON-GA001"
         },
@@ -2594,7 +2693,15 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Isolation": "N/A",
+            "Output Current": "N/A",
+            "Propagation Delay": "N/A",
+            "CMTI": "N/A",
+            "VCC2": "N/A",
+            "Protection": "N/A",
+            "Certification": "N/A",
+            "Temperature": "N/A"
           },
           "name": "Gate Drivers INFINEON-GA002"
         },
@@ -2616,7 +2723,10 @@
             "Protection": "DESAT, UVLO",
             "Package": "DSO-8",
             "Certification": "UL 1577, IEC 60747-17",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "1200V reinforced isolation",
@@ -2694,7 +2804,10 @@
             "Protection": "UVLO",
             "Package": "DSO-8",
             "Certification": "UL 1577, IEC 60747-17",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "1200V reinforced isolation",

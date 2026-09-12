@@ -1,0 +1,185 @@
+{
+  "brand": "vishay",
+  "categories": [
+    {
+      "id": "resistors",
+      "name": "Resistors",
+      "description": "Vishay offers the industry's broadest range of resistor products including thick film, thin film, metal film, wirewound, and current sense resistors for various applications.",
+      "icon": "resistor",
+      "products": [
+        {
+          "partNumber": "CRCW060310K0FKEA",
+          "name": "CRCW Series Thick Film Resistor",
+          "shortDescription": "10kΩ 0.1W 0603 thick film chip resistor with 1% tolerance.",
+          "descriptionParagraphs": [
+            "The CRCW060310K0FKEA is a high-quality thick film chip resistor from Vishay's popular CRCW series.",
+            "Features 10kΩ resistance with 1% precision tolerance in compact 0603 package.",
+            "Ideal for general purpose applications requiring reliable performance and cost-effectiveness."
+          ],
+          "specifications": {
+            "Resistance": "10kΩ",
+            "Tolerance": "±1%",
+            "Power Rating": "0.1W (1/10W)",
+            "Package": "0603 (1608 Metric)",
+            "Temperature Coefficient": "±100 ppm/°C",
+            "Operating Temperature": "-55°C to +155°C",
+            "Voltage Rating": "75V",
+            "Technology": "Thick Film"
+          },
+          "features": [
+            "AEC-Q200 qualified for automotive applications",
+            "Excellent long-term stability",
+            "Low cost with high reliability",
+            "RoHS compliant and lead-free",
+            "Available on 7\" or 13\" reels"
+          ],
+          "applications": [
+            "Automotive electronics",
+            "Consumer electronics",
+            "Industrial controls",
+            "Telecommunications",
+            "Medical devices"
+          ],
+          "faeReview": {
+            "author": "David Chen",
+            "title": "Senior FAE - Passive Components",
+            "content": "The CRCW060310K0FKEA is our go-to resistor for general-purpose applications. The 1% tolerance and AEC-Q200 qualification make it versatile enough for both consumer and automotive designs. I've used this part in countless projects and it consistently delivers reliable performance. The price-to-performance ratio is excellent, and the wide availability helps with supply chain management.",
+            "highlight": "Excellent general-purpose resistor with AEC-Q200 qualification"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "CRCW080510K0FKEA",
+              "brand": "Vishay",
+              "specifications": {
+                "resistance": "10kΩ",
+                "tolerance": "±1%",
+                "power": "0.125W",
+                "package": "0805"
+              },
+              "comparison": "Higher power handling in larger package",
+              "reason": "For applications requiring 0.125W power rating",
+              "useCase": "Use when more power dissipation is needed",
+              "link": "#"
+            },
+            {
+              "partNumber": "TNPW060310K0BEEA",
+              "brand": "Vishay",
+              "specifications": {
+                "resistance": "10kΩ",
+                "tolerance": "±0.1%",
+                "power": "0.1W",
+                "package": "0603"
+              },
+              "comparison": "Higher precision with ±0.1% tolerance",
+              "reason": "For precision applications requiring tight tolerance",
+              "useCase": "Use for measurement and precision circuits",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "CRCW06034K70FKEA",
+              "link": "#",
+              "description": "4.7kΩ 1% 0603 resistor for voltage divider applications",
+              "category": "Resistors"
+            },
+            {
+              "partNumber": "CRCW06031K00FKEA",
+              "link": "#",
+              "description": "1kΩ 1% 0603 resistor for pull-up/pull-down applications",
+              "category": "Resistors"
+            },
+            {
+              "partNumber": "CRCW0603100KFKEA",
+              "link": "#",
+              "description": "100kΩ 1% 0603 resistor for high-impedance applications",
+              "category": "Resistors"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the power rating and temperature range for the CRCW060310K0FKEA?",
+              "answer": "The CRCW060310K0FKEA has a power rating of 0.1W (1/10W) and can operate over a wide temperature range from -55°C to +155°C. This makes it suitable for both consumer and industrial applications where environmental conditions may vary. The resistor maintains stable performance across this entire temperature range, with a temperature coefficient of ±100 ppm/°C ensuring minimal resistance drift with temperature changes.",
+              "decisionGuide": "For applications requiring higher power dissipation, consider the 0805 or 1206 package sizes in the same CRCW series. For more precise tolerance requirements, 0.5% or 0.1% tolerance options are available.",
+              "keywords": [
+                "power rating",
+                "temperature range",
+                "CRCW specifications"
+              ]
+            },
+            {
+              "question": "How do I calculate the maximum operating voltage for this resistor?",
+              "answer": "The maximum operating voltage for the CRCW060310K0FKEA is determined by two factors: the rated voltage of 75V and the power dissipation limit. You can calculate the maximum voltage using Ohm's Law: V = √(P × R). For this 10kΩ resistor with 0.1W rating, the maximum voltage is √(0.1 × 10000) = 31.6V. Therefore, the practical maximum operating voltage is limited by power dissipation to approximately 31.6V, which is well below the 75V rated voltage. Always ensure both voltage and power ratings are not exceeded in your application.",
+              "decisionGuide": "For high-voltage applications, verify that both the calculated voltage from power dissipation and the rated voltage are not exceeded. Consider using higher resistance values or larger package sizes for high-voltage designs.",
+              "keywords": [
+                "maximum voltage",
+                "power dissipation",
+                "Ohm's Law"
+              ]
+            },
+            {
+              "question": "How does the CRCW series compare to other Vishay resistor series?",
+              "answer": "The CRCW series offers an excellent balance of cost, performance, and reliability compared to other Vishay resistor lines. Compared to the TNPW thin film series, CRCW provides lower cost with slightly lower precision, making it ideal for general-purpose applications. Against the Dale wirewound series, CRCW offers much smaller size and lower cost but with lower power handling. The CRCW series is AEC-Q200 qualified like many Vishay automotive resistors, ensuring reliability. For high-precision applications requiring 0.1% tolerance or better, the TNPW or foil resistors would be more appropriate. The CRCW series is the workhorse choice for most standard applications.",
+              "decisionGuide": "Choose CRCW for cost-sensitive general-purpose applications. For high precision, consider TNPW thin film. For high power, consider Dale wirewound or larger CRCW packages.",
+              "keywords": [
+                "CRCW comparison",
+                "resistor selection",
+                "Vishay series"
+              ]
+            },
+            {
+              "question": "What are the recommended applications for the CRCW060310K0FKEA?",
+              "answer": "The CRCW060310K0FKEA is ideally suited for a wide range of applications including automotive electronics (ECUs, sensors, lighting), consumer electronics (smartphones, tablets, wearables), industrial controls (PLCs, motor drives), telecommunications (base stations, routers), and medical devices. Its AEC-Q200 qualification makes it particularly suitable for automotive applications where reliability is critical. The compact 0603 size enables high-density PCB designs while the 1% tolerance provides adequate precision for most voltage divider, pull-up/pull-down, and current limiting applications. The resistor's excellent long-term stability ensures consistent performance over the product lifetime.",
+              "decisionGuide": "This resistor is ideal for general-purpose applications requiring 10kΩ resistance with 1% tolerance. For specific application requirements, contact our FAE team for resistor selection guidance.",
+              "keywords": [
+                "applications",
+                "automotive electronics",
+                "consumer electronics"
+              ]
+            },
+            {
+              "question": "What is the typical lead time and MOQ for the CRCW060310K0FKEA?",
+              "answer": "Standard lead time for CRCW060310K0FKEA is 8-10 weeks from Vishay manufacturing. BeiLuo Electronics maintains safety stock for popular CRCW series values, enabling 1-3 day delivery for sample quantities (1-100 pieces). Standard MOQ is 5,000 pieces with price breaks at 10,000, 25,000, and 100,000 pieces. Volume discounts range from 10% to 30% off standard pricing depending on quantity. For high-volume production (500,000+ pieces annually), we can arrange quarterly scheduled deliveries with 6-week lead time and preferential pricing. Emergency air freight options are available to reduce lead time to 3-4 weeks.",
+              "decisionGuide": "Plan for 8-week lead time for production orders. For immediate prototyping needs, check our local stock availability. For high-volume projects, contact our sales team for volume pricing and scheduled delivery programs.",
+              "keywords": [
+                "lead time",
+                "MOQ",
+                "pricing",
+                "delivery schedule"
+              ]
+            },
+            {
+              "question": "What is the temperature coefficient and how does it affect circuit performance?",
+              "answer": "The CRCW060310K0FKEA has a temperature coefficient of ±100 ppm/°C, which means the resistance value changes by ±0.01% for every 1°C change in temperature. Over the full operating range of -55°C to +155°C (210°C span), the maximum resistance change would be approximately ±2.1%. This level of stability is adequate for most general-purpose applications. For precision applications such as measurement circuits or reference dividers, lower TCR options like the TNPW series (±25 ppm/°C) may be more appropriate. In high-temperature environments, consider the actual operating temperature range and calculate the expected resistance drift to ensure circuit performance remains within specifications.",
+              "decisionGuide": "For applications requiring better temperature stability, consider TNPW thin film resistors with ±25 ppm/°C TCR. For most general-purpose applications, the CRCW ±100 ppm/°C is sufficient.",
+              "keywords": [
+                "temperature coefficient",
+                "TCR",
+                "resistance drift"
+              ]
+            },
+            {
+              "question": "Can I use multiple CRCW resistors in series or parallel for custom values?",
+              "answer": "Yes, multiple CRCW resistors can be connected in series or parallel to achieve custom resistance values or higher power ratings. For series connections, simply add the resistance values: R_total = R1 + R2 +. For parallel connections, use 1/R_total = 1/R1 + 1/R2 +. For example, two 10kΩ resistors in parallel give 5kΩ, while two in series give 20kΩ. When paralleling resistors for higher power, two identical resistors can handle approximately twice the power of a single resistor. However, ensure proper PCB layout with adequate copper area for heat dissipation. For series connections to achieve higher voltage ratings, the total voltage rating is relates to individual ratings, but power dissipation in each resistor must still be calculated and not exceeded. Always verify the power dissipation in each resistor and ensure adequate thermal management for reliable operation.",
+              "decisionGuide": "For custom resistance values, use series or parallel combinations. For higher power requirements, parallel multiple resistors or use larger package sizes. Contact our FAE team for complex resistor network designs.",
+              "keywords": [
+                "series parallel",
+                "resistor network",
+                "custom values"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        "Resistance",
+        "Tolerance",
+        "Power Rating",
+        "Temperature Coefficient",
+        "Operating Temperature",
+        "Voltage Rating",
+        "Technology"
+      ]
+    }
+  ]
+}

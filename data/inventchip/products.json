@@ -371,7 +371,7 @@
           "faeReview": {
             "author": "Li Wei",
             "title": "Senior FAE - Automotive",
-            "content": "The IV2D12030T3 with Gen2 trench technology represents InventChip's latest advancement. The 30mΩ Rds(on) hits a sweet spot for many EV applications. The improved trench technology provides better performance than planar devices at a competitive price. This is becoming a popular choice for next-generation EV inverter designs.",
+            "content": "The IV2D12030T3 with Gen2 trench technology is InventChip's latest advancement. The 30mΩ Rds(on) hits a sweet spot for many EV applications. The improved trench technology provides better performance than planar devices at a competitive price. This is becoming a popular choice for next-generation EV inverter designs.",
             "highlight": "Gen2 trench technology for improved performance"
           },
           "alternativeParts": [
@@ -412,6 +412,16 @@
             }
           ]
         }
+      ],
+      "parameters": [
+        "Voltage Rating",
+        "Current Rating",
+        "Rds(on)",
+        "Temperature Range",
+        "Qg",
+        "Ciss",
+        "Coss",
+        "Crss"
       ]
     },
     {
@@ -508,6 +518,13 @@
             }
           ]
         }
+      ],
+      "parameters": [
+        "Configuration",
+        "Voltage Rating",
+        "Rds(on)",
+        "Current Rating",
+        "Temperature Range"
       ]
     }
   ]

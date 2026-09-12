@@ -19,7 +19,7 @@ const newArticles = [
     author: {
       name: "James Wilson",
       title: "Applications Engineer",
-      email: "j.wilson@litong.com",
+      email: "j.wilson@BeiLuo.com",
       image: "/assets/team/james-wilson.jpg"
     },
     publishedDate: "2024-02-10",
@@ -122,7 +122,7 @@ const newArticles = [
     author: {
       name: "Dr. Sarah Kim",
       title: "Automotive Applications Specialist",
-      email: "s.kim@litong.com",
+      email: "s.kim@BeiLuo.com",
       image: "/assets/team/sarah-kim.jpg"
     },
     publishedDate: "2024-02-25",
@@ -225,7 +225,7 @@ const newArticles = [
     author: {
       name: "Dr. Robert Zhang",
       title: "Reliability Engineer",
-      email: "r.zhang@litong.com",
+      email: "r.zhang@BeiLuo.com",
       image: "/assets/team/robert-zhang.jpg"
     },
     publishedDate: "2024-03-05",

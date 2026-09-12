@@ -288,7 +288,7 @@
             },
             {
               "question": "What is the ESR of the SR-1000uF-25V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
               "decisionGuide": "For applications requiring lower ESR, consider our low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -447,7 +447,7 @@
             },
             {
               "question": "What is the ESR of the SR-470uF-50V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
               "decisionGuide": "For applications requiring lower ESR, consider our low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -857,8 +857,9 @@
         "Voltage Rating",
         "Temperature Rating",
         "Ripple Current",
+        "Temperature Range",
         "Lifetime",
-        "AEC-Q200"
+        "Qualification"
       ],
       "applications": [
         "Automotive electronics",

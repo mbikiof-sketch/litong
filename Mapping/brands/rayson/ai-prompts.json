@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for rayson distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for rayson DDR3 SDRAM 2GB, DDR4 SDRAM 8GB, DDR5 SDRAM 16GB. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is eMMC storage vs DDR4 vs DDR5 difference vs best memory chip for embedded systems vs how to choose memory for embedded system. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for rayson USB interface chips covering DDR3 SDRAM 2GB, DDR4 SDRAM 8GB, DDR5 SDRAM 16GB, LPDDR4X mobile memory."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What is eMMC storage?; DDR4 vs DDR5 what are the differences?; How to choose memory for embedded systems?; What is the difference between LPDDR and DDR?; Which NAND Flash type is best for industrial use?; What temperature grades are available for memory?; How to calculate memory bandwidth?; How does eMMC wear leveling work?; What is AEC-Q100 qualification?; How to select memory for automotive applications?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for rayson distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for rayson distributor with Product and Organization types."
+    }
+  ]
+}

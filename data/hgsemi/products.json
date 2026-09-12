@@ -88,7 +88,9 @@
         "Efficiency",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Temperature"
       ],
       "series": [
         {
@@ -215,7 +217,9 @@
             "Efficiency": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "Ultra-low quiescent current of 2μA extends battery life",
@@ -370,7 +374,9 @@
             "PSRR": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "High efficiency up to 95% reduces heat dissipation",
@@ -533,7 +539,13 @@
             "Load Regulation": "0.2%/A",
             "PSRR": "70dB @ 1kHz",
             "Package": "SOT-23-5",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Input Voltage Range": "N/A",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Ultra-low dropout voltage",
@@ -611,7 +623,14 @@
             "Load Regulation": "0.5%/A",
             "PSRR": "60dB @ 1kHz",
             "Package": "SOT-223 / TO-252",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Input Voltage Range": "N/A",
+            "Output Voltage": "N/A",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "1A output current capability",
@@ -692,7 +711,14 @@
         "Supply Current per Amp",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Supply Voltage",
+        "Gain Bandwidth",
+        "Input Offset",
+        "Input Bias",
+        "Supply Current",
+        "Output Swing",
+        "Temperature"
       ],
       "series": [
         {
@@ -818,7 +844,14 @@
             "Supply Current per Amp": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Voltage": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Input Offset": "N/A",
+            "Input Bias": "N/A",
+            "Supply Current": "N/A",
+            "Output Swing": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "Low cost general purpose dual op-amp",
@@ -985,7 +1018,14 @@
             "PSRR": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Voltage": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Input Offset": "N/A",
+            "Input Bias": "N/A",
+            "Supply Current": "N/A",
+            "Output Swing": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "Ultra-low power consumption: 40μA per amplifier",
@@ -1153,7 +1193,17 @@
             "Output Swing": "Rail-to-rail",
             "CMRR": "65dB",
             "Package": "SOP-8 / MSOP-8",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Gain Bandwidth Product": "N/A",
+            "Input Offset Voltage": "N/A",
+            "Input Bias Current": "N/A",
+            "Supply Voltage Range": "N/A",
+            "Output Voltage Swing": "N/A",
+            "PSRR": "N/A",
+            "Supply Current per Amp": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Rail-to-rail output",
@@ -1232,7 +1282,17 @@
             "Output Swing": "Rail-to-rail",
             "CMRR": "65dB",
             "Package": "SOP-14 / TSSOP-14",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Gain Bandwidth Product": "N/A",
+            "Input Offset Voltage": "N/A",
+            "Input Bias Current": "N/A",
+            "Supply Voltage Range": "N/A",
+            "Output Voltage Swing": "N/A",
+            "PSRR": "N/A",
+            "Supply Current per Amp": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Quad amplifier configuration",
@@ -1317,7 +1377,12 @@
         "Shutdown Current",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Protocol",
+        "Node Capacity",
+        "Common Mode",
+        "Driver Output",
+        "Temperature"
       ],
       "series": [
         {
@@ -1447,7 +1512,12 @@
             "Shutdown Current": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Protocol": "N/A",
+            "Node Capacity": "N/A",
+            "Common Mode": "N/A",
+            "Driver Output": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "High data rate up to 20Mbps",
@@ -1619,7 +1689,12 @@
             "Receiver Input Impedance": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Protocol": "N/A",
+            "Node Capacity": "N/A",
+            "Common Mode": "N/A",
+            "Driver Output": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "Single 3.0V to 5.5V supply operation",
@@ -1795,7 +1870,19 @@
             "Shutdown Current": "1μA",
             "Driver Output": "±1.5V (min)",
             "Package": "SOP-8",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Common Mode Range": "N/A",
+            "Differential Output": "N/A",
+            "Supply Current": "N/A",
+            "Receiver Sensitivity": "N/A",
+            "Receiver Input Impedance": "N/A",
+            "Supply Voltage Range": "N/A",
+            "Drivers": "N/A",
+            "Receivers": "N/A",
+            "Output Swing": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "5Mbps data rate",
@@ -1874,7 +1961,19 @@
             "Shutdown Current": "1μA",
             "Driver Output": "±1.5V (min)",
             "Package": "SOP-8",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Common Mode Range": "N/A",
+            "Differential Output": "N/A",
+            "Supply Current": "N/A",
+            "Receiver Sensitivity": "N/A",
+            "Receiver Input Impedance": "N/A",
+            "Supply Voltage Range": "N/A",
+            "Drivers": "N/A",
+            "Receivers": "N/A",
+            "Output Swing": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "20Mbps high-speed",
@@ -1954,7 +2053,16 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Technology",
+        "Supply Voltage",
+        "Clock Frequency",
+        "Output Drive",
+        "Input Current",
+        "Output Type",
+        "ESD Protection",
+        "Temperature",
+        "Input Voltage"
       ],
       "series": [
         {
@@ -2079,7 +2187,16 @@
             "Package": "SOP-14, DIP-14, TSSOP-14",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Technology": "N/A",
+            "Supply Voltage": "N/A",
+            "Clock Frequency": "N/A",
+            "Output Drive": "N/A",
+            "Input Current": "N/A",
+            "Output Type": "N/A",
+            "ESD Protection": "N/A",
+            "Temperature": "N/A",
+            "Input Voltage": "N/A"
           },
           "features": [
             "Pin-compatible with 74HC00",
@@ -2245,7 +2362,16 @@
             "Package": "SOP-14, DIP-14, TSSOP-14",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Technology": "N/A",
+            "Supply Voltage": "N/A",
+            "Clock Frequency": "N/A",
+            "Output Drive": "N/A",
+            "Input Current": "N/A",
+            "Output Type": "N/A",
+            "ESD Protection": "N/A",
+            "Temperature": "N/A",
+            "Input Voltage": "N/A"
           },
           "features": [
             "Pin-compatible with 74HC04",
@@ -2423,7 +2549,18 @@
             "Output Type": "3-state",
             "ESD Protection": "2kV HBM",
             "Package": "SOP-16 / TSSOP-16",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Logic Function": "N/A",
+            "Supply Voltage Range": "N/A",
+            "Input High Voltage": "N/A",
+            "Input Low Voltage": "N/A",
+            "Output Drive Current": "N/A",
+            "Power Dissipation": "N/A",
+            "Operating Temperature": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A"
           },
           "features": [
             "8-bit shift register",
@@ -2502,7 +2639,18 @@
             "Power Dissipation": "0.5mW per gate",
             "ESD Protection": "2kV HBM",
             "Package": "SOP-14 / TSSOP-14",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Supply Voltage Range": "N/A",
+            "Input High Voltage": "N/A",
+            "Input Low Voltage": "N/A",
+            "Output Drive Current": "N/A",
+            "Operating Temperature": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Clock Frequency": "N/A",
+            "Input Current": "N/A",
+            "Output Type": "N/A"
           },
           "features": [
             "Six independent inverters",

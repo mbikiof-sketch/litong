@@ -163,7 +163,7 @@
       "summary": "Comprehensive guide for product selection and application.",
       "content": [
         "This technical reference document provides detailed information about mersen product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -291,7 +291,11 @@
           "question": "What is the difference between gG and aM fuses?",
           "answer": "gG (general purpose) fuses provide full-range protection against overloads and short-circuits. aM (motor) fuses provide short-circuit protection only and must be used with overload relays. gG fuses operate at lower overcurrents (1.6x rating), while aM fuses allow motor starting currents (4-8x rating).",
           "decisionGuide": "Use gG for general circuits. Use aM for motor circuits with separate overload protection.",
-          "keywords": ["gG fuse", "aM fuse", "motor protection"]
+          "keywords": [
+            "gG fuse",
+            "aM fuse",
+            "motor protection"
+          ]
         }
       ],
       "slug": "industrial-fuse-selection"
@@ -358,7 +362,11 @@
           "question": "How often should SPDs be replaced?",
           "answer": "SPDs should be replaced when: 1) Visual indicator shows failure; 2) After major surge events; 3) Every 5-10 years depending on exposure. MOVs degrade over time from repeated surges even without complete failure.",
           "decisionGuide": "Replace when indicator shows failure or every 5-10 years. Monitor status regularly.",
-          "keywords": ["SPD maintenance", "surge protector replacement", "MOV degradation"]
+          "keywords": [
+            "SPD maintenance",
+            "surge protector replacement",
+            "MOV degradation"
+          ]
         }
       ],
       "slug": "surge-protection-selection"

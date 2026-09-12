@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products by Tag: <%= tag %> | <%= brand.displayName %></title>
+  <title>Products by Tag: <%= tag %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="All <%= brand.name %> products tagged with <%= tag %>.">
   
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -37,6 +37,8 @@
     @media (max-width: 1023px) { .products-grid { grid-template-columns: repeat(3, 1fr); } }
     @media (max-width: 767px) { .products-grid { grid-template-columns: repeat(2, 1fr); } }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/tags/<%= tag %>">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->
@@ -53,7 +55,7 @@
         
         <div class="products-grid">
           <% taggedProducts.forEach(function(product) { %>
-            <a href="/<%= brand.name.toLowerCase() %>/products/<%= product.partNumber.toLowerCase() %>.html" class="product-card">
+            <a href="/<%= brand.name.toLowerCase() %>/products/<%= product.partNumber.toLowerCase() %>" class="product-card">
               <h3><%= product.partNumber %></h3>
               <p><%= product.description.substring(0, 100) %>...</p>
               <div class="product-tags">

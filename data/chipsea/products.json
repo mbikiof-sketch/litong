@@ -207,7 +207,7 @@
                 "PGA Gain": "1x to 128x",
                 "Interface": "SPI"
               },
-              "comparison": "CS1231=><CS1232: , suitable for direct replacement.",
+              "comparison": "CS1231=><CS1232:, suitable for direct replacement.",
               "reason": "Higher maximum data rate with SPI interface for faster applications",
               "useCase": "Applications requiring faster sampling rates or preferring SPI interface",
               "link": "/chipsea/products/adc-converters/cs1232.html"
@@ -221,7 +221,7 @@
                 "PGA Gain": "1x to 128x",
                 "Interface": "SPI"
               },
-              "comparison": "CS1231=><ADS1232: , suitable for direct replacement.",
+              "comparison": "CS1231=><ADS1232:, suitable for direct replacement.",
               "reason": "Alternative from major supplier with established track record",
               "useCase": "Applications requiring dual-source qualification or specific TI support",
               "link": "#"
@@ -356,7 +356,7 @@
                 "Interface": "I2C",
                 "Max Data Rate": "640SPS"
               },
-              "comparison": "CS1232=><CS1231: , suitable for direct replacement.",
+              "comparison": "CS1232=><CS1231:, suitable for direct replacement.",
               "reason": "Lower noise with I2C interface for less demanding speed requirements",
               "useCase": "Applications where lowest noise is priority and I2C is preferred",
               "link": "/chipsea/products/adc-converters/cs1231.html"
@@ -367,7 +367,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS1232=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS1232=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -885,7 +885,7 @@
                 "Output Current": "2A max",
                 "Switching Frequency": "1MHz"
               },
-              "comparison": "CS5080=><CS5081: , suitable for direct replacement.",
+              "comparison": "CS5080=><CS5081:, suitable for direct replacement.",
               "reason": "Higher current capability for more demanding applications",
               "useCase": "Applications requiring 1.5-2A output current",
               "link": "/chipsea/products/dc-dc-converters/cs5081.html"
@@ -896,7 +896,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS5080=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS5080=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -1027,7 +1027,7 @@
               "specifications": {
                 "Output Current": "1A max"
               },
-              "comparison": "CS5081=><CS5080: , suitable for direct replacement.",
+              "comparison": "CS5081=><CS5080:, suitable for direct replacement.",
               "reason": "Lower quiescent current for battery life optimization",
               "useCase": "Applications with 1A or less current requirement",
               "link": "/chipsea/products/dc-dc-converters/cs5080.html"
@@ -1038,7 +1038,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS5081=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS5081=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -1245,7 +1245,7 @@
           "faeReview": {
             "author": "Jennifer Liu",
             "title": "FAE Manager - Consumer Electronics",
-            "content": "The CS5180 is my standard recommendation for single-cell Li-ion charging in low-cost portable devices. The linear architecture is simple and reliable - no inductor needed, minimal EMI concerns. The 500mA charge current is perfect for small batteries (500-1000mAh) typical in Bluetooth headsets and small IoT devices. The automatic charge profile implementation is reliable, and the charge status output makes user interface design easy. I've used this part in dozens of designs with excellent results. The temperature monitoring is a nice safety feature. For larger batteries or faster charging, consider the CS5280 switch-mode charger.",
+            "content": "The CS5180 is my standard recommendation for single-cell Li-ion charging in low-cost portable devices. The linear architecture is simple and reliable - No inductor is needed, minimal EMI concerns. The 500mA charge current is perfect for small batteries (500-1000mAh) typical in Bluetooth headsets and small IoT devices. The automatic charge profile implementation is reliable, and the charge status output makes user interface design easy. I've used this part in dozens of designs with excellent results. The temperature monitoring is a nice safety feature. For larger batteries or faster charging, consider the CS5280 switch-mode charger.",
             "highlight": "Simple, reliable linear charger for small Li-ion batteries"
           },
           "alternativeParts": [
@@ -1256,7 +1256,7 @@
                 "Charge Current": "Up to 2A",
                 "Topology": "Switch-mode"
               },
-              "comparison": "CS5180=><CS5280: , suitable for direct replacement.",
+              "comparison": "CS5180=><CS5280:, suitable for direct replacement.",
               "reason": "Higher current and efficiency for larger batteries",
               "useCase": "Applications requiring >500mA charge current",
               "link": "/chipsea/products/battery-chargers/cs5280.html"
@@ -1267,7 +1267,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS5180=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS5180=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -1400,7 +1400,7 @@
                 "Topology": "Linear",
                 "Efficiency": "70-80%"
               },
-              "comparison": "CS5280=><CS5180: , suitable for direct replacement.",
+              "comparison": "CS5280=><CS5180:, suitable for direct replacement.",
               "reason": "Simpler, lower cost solution for small batteries",
               "useCase": "Applications with <500mA charge current requirements",
               "link": "/chipsea/products/battery-chargers/cs5180.html"
@@ -1411,7 +1411,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS5280=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS5280=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -1625,7 +1625,7 @@
                 "Bandwidth": "3MHz",
                 "Noise": "Lower noise"
               },
-              "comparison": "CS6001=><CS6011: , suitable for direct replacement.",
+              "comparison": "CS6001=><CS6011:, suitable for direct replacement.",
               "reason": "Lower cost with wider bandwidth for less demanding DC applications",
               "useCase": "Applications where 50uV offset is acceptable and wider bandwidth is beneficial",
               "link": "/chipsea/products/operational-amplifiers/cs6011.html"
@@ -1636,7 +1636,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS6001=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS6001=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"
@@ -1766,7 +1766,7 @@
                 "Offset Voltage": "5uV max",
                 "Bandwidth": "1.5MHz"
               },
-              "comparison": "CS6011=><CS6001: , suitable for direct replacement.",
+              "comparison": "CS6011=><CS6001:, suitable for direct replacement.",
               "reason": "Better DC precision with zero-drift architecture",
               "useCase": "Applications requiring maximum DC precision",
               "link": "/chipsea/products/operational-amplifiers/cs6001.html"
@@ -1777,7 +1777,7 @@
               "specifications": {
                 "Parameter": "Similar"
               },
-              "comparison": "CS6011=><Alternative Part: , suitable for direct replacement.",
+              "comparison": "CS6011=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
               "link": "#"

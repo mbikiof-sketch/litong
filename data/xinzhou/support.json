@@ -1,0 +1,144 @@
+{
+  "seoTitle": "Xinzhou Technical Support | Power IC Selection | BeiLuo",
+  "seoDescription": "Technical support resources for Xinzhou power management ICs including selection guides, application notes, and design resources.",
+  "seoKeywords": [
+    "Xinzhou support",
+    "power IC guide",
+    "selection guide",
+    "application support"
+  ],
+  "faqs": [
+    {
+      "question": "What technical resources are available for Xinzhou power management ICs?",
+      "answer": "Available resources include datasheets, application notes, reference designs, and evaluation boards. Contact BeiLuo FAE for additional support.",
+      "decisionGuide": "Start with datasheets and selection guides.",
+      "keywords": [
+        "technical resources",
+        "documentation",
+        "support"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "dcdc-selection-guide",
+      "title": "DC-DC Converter Selection Guide",
+      "category": "Selection Guide",
+      "slug": "dcdc-selection-guide",
+      "author": {
+        "name": "David Wang",
+        "title": "Senior FAE - Power Management",
+        "experience": "10 years",
+        "expertise": [
+          "DC-DC Design",
+          "Power Systems"
+        ]
+      },
+      "publishDate": "2024-01-15",
+      "lastUpdated": "2024-01-15",
+      "summary": "Comprehensive guide for selecting DC-DC converters for various applications.",
+      "content": [
+        "DC-DC converter selection requires consideration of input/output voltage, current, efficiency, and package constraints.."
+      ],
+      "tags": [
+        "DC-DC",
+        "converter",
+        "selection",
+        "guide"
+      ],
+      "relatedArticles": [
+        "ldo-selection-guide",
+        "thermal-design-guide"
+      ],
+      "faeInsights": {
+        "content": "Proper DC-DC selection is critical for system efficiency.",
+        "keyTakeaways": [
+          "Match voltage and current",
+          "Consider efficiency",
+          "Check thermal requirements"
+        ]
+      },
+      "customerCases": [
+        {
+          "customerName": "Industrial Co",
+          "industry": "Industrial",
+          "application": "Power Supply",
+          "problem": "Poor efficiency",
+          "solution": "Proper DC-DC selection",
+          "results": "15% efficiency improvement"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I select a DC-DC converter?",
+          "answer": "Consider voltage, current, efficiency, and thermal requirements.",
+          "decisionGuide": "Follow selection criteria.",
+          "keywords": [
+            "DC-DC selection",
+            "guide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ldo-selection-guide",
+      "title": "LDO Regulator Selection Guide",
+      "category": "Selection Guide",
+      "slug": "ldo-selection-guide",
+      "author": {
+        "name": "David Wang",
+        "title": "Senior FAE - Power Management",
+        "experience": "10 years",
+        "expertise": [
+          "LDO Design",
+          "Analog Power"
+        ]
+      },
+      "publishDate": "2024-01-20",
+      "lastUpdated": "2024-01-20",
+      "summary": "Guide for selecting LDO regulators based on noise, dropout, and PSRR requirements.",
+      "content": [
+        "LDO selection requires understanding of noise requirements, dropout voltage, PSRR, and power dissipation.."
+      ],
+      "tags": [
+        "LDO",
+        "regulator",
+        "selection",
+        "guide"
+      ],
+      "relatedArticles": [
+        "dcdc-selection-guide",
+        "thermal-design-guide"
+      ],
+      "faeInsights": {
+        "content": "LDO selection balances noise performance with power dissipation.",
+        "keyTakeaways": [
+          "Check PSRR requirements",
+          "Calculate power dissipation",
+          "Consider thermal constraints"
+        ]
+      },
+      "customerCases": [
+        {
+          "customerName": "RF Co",
+          "industry": "Telecom",
+          "application": "RF Power",
+          "problem": "Noise issues",
+          "solution": "High PSRR LDO",
+          "results": "Clean power supply"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "When should I use an LDO vs DC-DC?",
+          "answer": "Use LDO for noise-sensitive apps with small voltage drop; use DC-DC for high efficiency with large drops.",
+          "decisionGuide": "Evaluate noise vs efficiency trade-offs.",
+          "keywords": [
+            "LDO selection",
+            "DC-DC comparison"
+          ]
+        }
+      ]
+    }
+  ]
+}

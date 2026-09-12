@@ -515,7 +515,7 @@
         },
         {
           "question": "Can multiple transmitters be powered from the same power supply?",
-          "answer": "Yes, multiple 4-20mA transmitters can share a common power supply provided it has adequate capacity: 1) Calculate total current requirement: Each transmitter draws up to 20mA (actually ~25mA at 24V including overhead); 2) Add margin for startup and safety (typically 20%); 3) Example: 10 transmitters × 25mA = 250mA; With 20% margin = 300mA minimum supply capacity; 4) Use a 24VDC, 1A supply for this example. Important considerations: 1) Each transmitter needs its own current loop to the PLC; 2) Common power supply is fine, but loops must be independent; 3) Use proper wire sizing for total current; 4) Consider voltage drop in power distribution wiring.",
+          "answer": "Yes, multiple 4-20mA transmitters can share a common power supply provided it has adequate capacity: 1) Calculate total current requirement: Each transmitter draws up to 20mA (~25mA at 24V including overhead); 2) Add margin for startup and safety (typically 20%); 3) Example: 10 transmitters × 25mA = 250mA; With 20% margin = 300mA minimum supply capacity; 4) Use a 24VDC, 1A supply for this example. Important considerations: 1) Each transmitter needs its own current loop to the PLC; 2) Common power supply is fine, but loops must be independent; 3) Use proper wire sizing for total current; 4) Consider voltage drop in power distribution wiring.",
           "decisionGuide": "Calculate total current requirement with margin and size power supply accordingly. Each transmitter needs independent current loop to PLC.",
           "keywords": [
             "multiple transmitters",

@@ -183,7 +183,7 @@
         },
         {
           "question": "What additional resources are available?",
-          "answer": "Additional resources include application notes, reference designs, firmware examples, and training materials. Contact LiTong FAEs for access to comprehensive technical resources. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional resources include application notes, reference designs, firmware examples, and training materials. Contact LiTong FAEs for access to comprehensive technical resources. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong for comprehensive technical resources.",
           "keywords": [
             "resources",
@@ -193,7 +193,7 @@
         },
         {
           "question": "Where can I get additional technical resources?",
-          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong for comprehensive technical resources.",
           "keywords": [
             "resources",
@@ -203,7 +203,7 @@
         },
         {
           "question": "Does LiTong provide training on Eastsoft products?",
-          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong to schedule product training.",
           "keywords": [
             "training",
@@ -263,7 +263,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about eastsoft product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -307,7 +307,7 @@
         },
         {
           "question": "What development tools are recommended?",
-          "answer": "For 8-bit MCUs, use Keil C51 or SDCC. For 32-bit ARM MCUs, use Keil MDK, IAR, or GCC-based tools. Eastsoft provides libraries and examples for all supported toolchains. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "For 8-bit MCUs, use Keil C51 or SDCC. For 32-bit ARM MCUs, use Keil MDK, IAR, or GCC-based tools. Eastsoft provides libraries and examples for all supported toolchains. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Standard development tools supported with provided libraries.",
           "keywords": [
             "development tools",
@@ -317,7 +317,7 @@
         },
         {
           "question": "Where can I get additional technical resources?",
-          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong for comprehensive technical resources.",
           "keywords": [
             "resources",
@@ -327,7 +327,7 @@
         },
         {
           "question": "Does LiTong provide training on Eastsoft products?",
-          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong to schedule product training.",
           "keywords": [
             "training",
@@ -387,7 +387,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about eastsoft product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -411,7 +411,7 @@
       "faqs": [
         {
           "question": "What is the typical range for 433MHz vs 2.4GHz?",
-          "answer": "433MHz typically achieves 100-500m range while 2.4GHz achieves 10-50m under similar conditions. The lower frequency provides better propagation and penetration. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "433MHz typically achieves 100-500m range while 2.4GHz achieves 10-50m under similar conditions. The lower frequency provides better propagation and penetration. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Choose 433MHz for range, 2.4GHz for data rate.",
           "keywords": [
             "RF range",
@@ -442,7 +442,7 @@
         },
         {
           "question": "Where can I get additional technical resources?",
-          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong for comprehensive technical resources.",
           "keywords": [
             "resources",
@@ -452,7 +452,7 @@
         },
         {
           "question": "Does LiTong provide training on Eastsoft products?",
-          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong to schedule product training.",
           "keywords": [
             "training",
@@ -536,7 +536,7 @@
       "faqs": [
         {
           "question": "What accuracy class should I target?",
-          "answer": "Class 0.5S is the most common requirement for residential meters. Class 1.0 may be acceptable for some applications. Commercial and industrial meters may require Class 0.2S or higher. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Class 0.5S is the most common requirement for residential meters. Class 1.0 may be acceptable for some applications. Commercial and industrial meters may require Class 0.2S or higher. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Class 0.5S typical for residential, higher for commercial/industrial.",
           "keywords": [
             "accuracy class",
@@ -546,7 +546,7 @@
         },
         {
           "question": "How do I ensure PLC communication reliability?",
-          "answer": "Follow Eastsoft reference designs for coupling circuits and PCB layout. Use proper isolation and filtering. Conduct thorough testing under various line conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Follow Eastsoft reference designs for coupling circuits and PCB layout. Use proper isolation and filtering. Conduct thorough testing under various line conditions. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Follow reference designs and conduct thorough testing.",
           "keywords": [
             "PLC reliability",
@@ -556,7 +556,7 @@
         },
         {
           "question": "What certification tests are required?",
-          "answer": "Utility certification typically includes accuracy testing, communication testing, environmental testing, and EMC testing. Specific tests vary by utility and region. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Utility certification typically includes accuracy testing, communication testing, environmental testing, and EMC testing. Specific tests vary by utility and region. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact target utility for specific certification requirements.",
           "keywords": [
             "certification",
@@ -566,7 +566,7 @@
         },
         {
           "question": "Where can I get additional technical resources?",
-          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Additional technical resources including datasheets, application notes, and reference designs are available from LiTong. Contact our FAE team for access to comprehensive technical documentation. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong for comprehensive technical resources.",
           "keywords": [
             "resources",
@@ -576,7 +576,7 @@
         },
         {
           "question": "Does LiTong provide training on Eastsoft products?",
-          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, LiTong provides technical training on Eastsoft products including hands-on workshops and online training sessions. Contact us to schedule training for your engineering team. For detailed specifications and application support on eastsoft products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact LiTong to schedule product training.",
           "keywords": [
             "training",

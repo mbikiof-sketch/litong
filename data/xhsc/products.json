@@ -301,7 +301,7 @@
             },
             {
               "question": "What communication interfaces are available on XHSC-M3F103C8T6?",
-              "answer": "The XHSC-M3F103C8T6 provides rich communication interfaces: 3x USARTs supporting synchronous and asynchronous modes up to 4.5Mbps, 2x SPI interfaces up to 18MHz for external peripherals and flash, 2x I2C interfaces supporting standard and fast modes (400kHz), and 1x CAN 2.0B interface for industrial networking. Additionally, it includes a USB 2.0 full-speed device interface for PC connectivity. These interfaces make the MCU suitable for applications requiring multiple communication channels such as industrial gateways, protocol converters, and distributed control systems.",
+              "answer": "The XHSC-M3F103C8T6 provides rich communication interfaces: 3x USARTs supporting synchronous and asynchronous modes up to 4.5Mbps, 2x SPI interfaces up to 18MHz for external peripherals and flash, 2x I2C interfaces supporting standard and fast modes (400kHz), and 1x CAN 2.0B interface for industrial networking. it includes a USB 2.0 full-speed device interface for PC connectivity. These interfaces make the MCU suitable for applications requiring multiple communication channels such as industrial gateways, protocol converters, and distributed control systems.",
               "decisionGuide": "The rich peripheral set supports most industrial communication requirements. Contact our FAE team for specific protocol implementation guidance.",
               "keywords": [
                 "USART",
@@ -461,7 +461,7 @@
           "faqs": [
             {
               "question": "What is the main advantage of XHSC-M0F030K8T6 over competitors?",
-              "answer": "The main advantage of XHSC-M0F030K8T6 is its exceptional cost-effectiveness while maintaining quality and performance. Compared to similar Cortex-M0 MCUs from other brands, XHSC offers 64KB Flash and 8KB SRAM at a significantly lower price point. The MCU also features excellent power efficiency with multiple low-power modes, making it ideal for battery-powered applications. Additionally, XHSC provides strong local technical support through authorized distributors like LiTong, ensuring fast response times for design questions and technical issues.",
+              "answer": "The main advantage of XHSC-M0F030K8T6 is its exceptional cost-effectiveness while maintaining quality and performance. Compared to similar Cortex-M0 MCUs from other brands, XHSC offers 64KB Flash and 8KB SRAM at a significantly lower price point. The MCU also features excellent power efficiency with multiple low-power modes, making it ideal for battery-powered applications. XHSC provides strong local technical support through authorized distributors like LiTong, ensuring fast response times for design questions and technical issues.",
               "decisionGuide": "Choose XHSC-M0F030K8T6 for cost-sensitive applications where 64KB Flash and 8KB SRAM meet your requirements.",
               "keywords": [
                 "cost-effective MCU",
@@ -568,7 +568,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for MCU-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -577,7 +577,7 @@
             },
             {
               "question": "What applications is MCU-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -586,7 +586,7 @@
             },
             {
               "question": "What is the temperature range of MCU-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -595,7 +595,7 @@
             },
             {
               "question": "What package options are available for MCU-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -604,7 +604,7 @@
             },
             {
               "question": "What is the lead time for MCU-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -658,7 +658,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for MCU-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -667,7 +667,7 @@
             },
             {
               "question": "What applications is MCU-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -676,7 +676,7 @@
             },
             {
               "question": "What is the temperature range of MCU-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -685,7 +685,7 @@
             },
             {
               "question": "What package options are available for MCU-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -694,7 +694,7 @@
             },
             {
               "question": "What is the lead time for MCU-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1065,7 +1065,7 @@
         },
         {
           "question": "What is the difference between sensorless and sensored motor control?",
-          "answer": "Sensorless and sensored motor control represent two different approaches to determining rotor position: 1) Sensored Control - Uses Hall effect sensors or encoders to directly measure rotor position. Advantages include reliable startup, precise position control, and operation at very low speeds. Disadvantages include additional wiring, sensor cost, and potential sensor failure. 2) Sensorless Control - Estimates rotor position by monitoring back-EMF or motor currents. Advantages include lower cost, reduced wiring, and higher reliability. Disadvantages include potential startup issues and reduced performance at very low speeds. XHSC offers ICs supporting both approaches, with some products supporting seamless transition from sensored to sensorless operation for optimal performance.",
+          "answer": "Sensorless and sensored motor control is two different approaches to determining rotor position: 1) Sensored Control - Uses Hall effect sensors or encoders to directly measure rotor position. Advantages include reliable startup, precise position control, and operation at very low speeds. Disadvantages include additional wiring, sensor cost, and potential sensor failure. 2) Sensorless Control - Estimates rotor position by monitoring back-EMF or motor currents. Advantages include lower cost, reduced wiring, and higher reliability. Disadvantages include potential startup issues and reduced performance at very low speeds. XHSC offers ICs supporting both approaches, with some products supporting seamless transition from sensored to sensorless operation for optimal performance.",
           "decisionGuide": "Use sensored control for applications requiring precise positioning or low-speed operation. Use sensorless for cost-sensitive applications with moderate speed ranges.",
           "keywords": [
             "sensorless control",

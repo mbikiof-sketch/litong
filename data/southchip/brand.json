@@ -11,44 +11,82 @@
     {
       "name": "Battery Charger ICs",
       "description": "High-efficiency linear and switching battery chargers supporting various battery chemistries with fast charging capabilities and comprehensive protection features.",
-      "keywords": ["battery charger", "charging IC", "Li-ion charger", "fast charging"]
+      "keywords": [
+        "battery charger",
+        "charging IC",
+        "Li-ion charger",
+        "fast charging"
+      ]
     },
     {
       "name": "Fuel Gauge ICs",
       "description": "Accurate battery fuel gauge solutions with impedance tracking technology for precise state-of-charge and state-of-health monitoring.",
-      "keywords": ["fuel gauge", "battery monitor", "SOC", "SOH"]
+      "keywords": [
+        "fuel gauge",
+        "battery monitor",
+        "SOC",
+        "SOH"
+      ]
     },
     {
       "name": "DC-DC Converters",
       "description": "High-efficiency buck, boost, and buck-boost converters with wide input voltage range and excellent load transient response.",
-      "keywords": ["DC-DC converter", "buck converter", "boost converter", "power management"]
+      "keywords": [
+        "DC-DC converter",
+        "buck converter",
+        "boost converter",
+        "power management"
+      ]
     },
     {
       "name": "Power Path Management",
       "description": "Intelligent power path management ICs for seamless power switching between battery and adapter with priority control.",
-      "keywords": ["power path", "power mux", "load switch", "power management"]
+      "keywords": [
+        "power path",
+        "power mux",
+        "load switch",
+        "power management"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Consumer Electronics",
       "description": "Smartphones, tablets, power banks, TWS earbuds, and portable devices requiring efficient battery management and charging solutions.",
-      "keywords": ["consumer electronics", "smartphone", "tablet", "power bank"]
+      "keywords": [
+        "consumer electronics",
+        "smartphone",
+        "tablet",
+        "power bank"
+      ]
     },
     {
       "name": "Industrial Equipment",
       "description": "Industrial controllers, instrumentation, and portable equipment requiring reliable power management in harsh environments.",
-      "keywords": ["industrial", "instrumentation", "portable equipment"]
+      "keywords": [
+        "industrial",
+        "instrumentation",
+        "portable equipment"
+      ]
     },
     {
       "name": "Automotive Electronics",
       "description": "Automotive infotainment, telematics, and portable electronics requiring AEC-Q100 qualified power management ICs.",
-      "keywords": ["automotive", "infotainment", "telematics"]
+      "keywords": [
+        "automotive",
+        "infotainment",
+        "telematics"
+      ]
     },
     {
       "name": "IoT and Wearables",
       "description": "IoT sensors, wearable devices, and smart home products requiring ultra-low power consumption and small form factors.",
-      "keywords": ["IoT", "wearable", "smart home", "low power"]
+      "keywords": [
+        "IoT",
+        "wearable",
+        "smart home",
+        "low power"
+      ]
     }
   ],
   "certifications": [
@@ -80,43 +118,77 @@
       "question": "What makes SouthChip battery management solutions competitive?",
       "answer": "SouthChip battery management solutions offer several competitive advantages: (1) High integration - Single-chip solutions reduce BOM cost and PCB space compared to discrete implementations. (2) High efficiency - Advanced switching chargers achieve up to 95% efficiency, minimizing heat generation and enabling fast charging. (3) Comprehensive protection - Built-in over-voltage, over-current, over-temperature, and short-circuit protection ensures safe operation. (4) Small form factor - WLCSP and QFN packages enable compact designs for space-constrained applications. (5) Flexible charging - Support for various battery chemistries and configurations including single-cell and multi-cell applications. (6) Accurate fuel gauging - Impedance tracking technology provides accurate SOC and SOH monitoring. (7) Cost-effective - Competitive pricing compared to international brands while maintaining high quality. LiTong can provide detailed comparison analysis and application guidance.",
       "decisionGuide": "Contact LiTong for a detailed comparison between SouthChip and alternative battery management solutions.",
-      "keywords": ["SouthChip advantages", "battery management comparison", "charging IC features"]
+      "keywords": [
+        "SouthChip advantages",
+        "battery management comparison",
+        "charging IC features"
+      ]
     },
     {
       "question": "How do I select the right SouthChip battery charger for my application?",
       "answer": "Selecting the right SouthChip battery charger involves evaluating several factors: (1) Battery chemistry - SouthChip supports Li-ion, Li-polymer, and LiFePO4 batteries. Verify compatibility with your battery type. (2) Cell configuration - Single-cell (3.7V nominal) or multi-cell (2-4 series) applications require different charger ICs. (3) Charge current - Determine maximum charge current based on battery capacity and charging time requirements. SouthChip offers chargers from 100mA to 5A. (4) Input voltage - Match charger input voltage range to your power source (USB 5V, adapter 9-12V, etc.). (5) Topology - Linear chargers for low current (<500mA) and cost-sensitive applications; switching chargers for high current and high efficiency requirements. (6) Features - Consider need for power path management, USB OTG support, or JEITA compliance. (7) Package - Select appropriate package based on thermal requirements and PCB space. LiTong FAEs can help analyze your requirements and recommend the optimal charger IC.",
       "decisionGuide": "Provide your battery specifications and charging requirements to LiTong for personalized charger IC recommendations.",
-      "keywords": ["battery charger selection", "charging IC selection", "charger IC guide"]
+      "keywords": [
+        "battery charger selection",
+        "charging IC selection",
+        "charger IC guide"
+      ]
     },
     {
       "question": "What is the difference between linear and switching battery chargers?",
-      "answer": "Linear and switching battery chargers have different characteristics suitable for different applications: (1) Linear chargers - Simple design with no inductor required. Lower cost and smaller solution size. Lower efficiency (efficiency = Vbat/Vin), resulting in more heat generation at high charge currents. Best for low charge currents (<500mA) and small battery capacities. (2) Switching chargers - Higher efficiency (up to 95%) with less heat generation. Can deliver high charge currents from limited input power. More complex design requiring inductor and more external components. Higher cost but better for high charge currents (>1A) and large batteries. (3) Selection guide - Use linear chargers for: low current charging, cost-sensitive applications, small batteries (<1000mAh), and when heat is not a concern. Use switching chargers for: high current fast charging, large batteries (>2000mAh), limited input power budgets, and thermally constrained designs. SouthChip offers both types with the SC series for linear and SC8 series for switching chargers.",
+      "answer": "Linear and switching battery chargers have different characteristics suitable for different applications: (1) Linear chargers - Simple design with No inductor is needed. Lower cost and smaller solution size. Lower efficiency (efficiency = Vbat/Vin), resulting in more heat generation at high charge currents. Best for low charge currents (<500mA) and small battery capacities. (2) Switching chargers - Higher efficiency (up to 95%) with less heat generation. Can deliver high charge currents from limited input power. More complex design requiring inductor and more external components. Higher cost but better for high charge currents (>1A) and large batteries. (3) Selection guide - Use linear chargers for: low current charging, cost-sensitive applications, small batteries (<1000mAh), and when heat is not a concern. Use switching chargers for: high current fast charging, large batteries (>2000mAh), limited input power budgets, and thermally constrained designs. SouthChip offers both types with the SC series for linear and SC8 series for switching chargers.",
       "decisionGuide": "Contact LiTong for charger topology selection based on your specific application requirements.",
-      "keywords": ["linear charger", "switching charger", "charger topology", "efficiency comparison"]
+      "keywords": [
+        "linear charger",
+        "switching charger",
+        "charger topology",
+        "efficiency comparison"
+      ]
     },
     {
       "question": "How accurate is SouthChip fuel gauge technology?",
       "answer": "SouthChip fuel gauge ICs provide highly accurate battery monitoring: (1) Measurement accuracy - Voltage measurement accuracy within ±5mV, current measurement within ±1% after calibration. (2) SOC accuracy - State-of-charge accuracy typically within 3-5% under steady-state conditions. (3) Impedance tracking - Advanced algorithms track battery impedance changes due to aging and temperature, maintaining accuracy throughout battery life. (4) Temperature compensation - Automatic compensation for temperature effects on battery characteristics. (5) Calibration - Factory calibration plus runtime auto-calibration ensures long-term accuracy. (6) Reported parameters - SOC, SOH, remaining capacity, time-to-empty, time-to-full, cycle count, and battery temperature. (7) Factors affecting accuracy - Battery chemistry consistency, temperature extremes, and high-rate discharge can impact accuracy. For most consumer electronics applications, SouthChip fuel gauges provide sufficient accuracy for reliable battery monitoring and user experience.",
       "decisionGuide": "Contact LiTong for fuel gauge accuracy analysis and calibration guidance for your application.",
-      "keywords": ["fuel gauge accuracy", "SOC accuracy", "battery monitoring", "impedance tracking"]
+      "keywords": [
+        "fuel gauge accuracy",
+        "SOC accuracy",
+        "battery monitoring",
+        "impedance tracking"
+      ]
     },
     {
       "question": "Does SouthChip support USB Power Delivery (PD) charging?",
       "answer": "Yes, SouthChip offers USB Power Delivery (PD) compatible charging solutions: (1) PD sink controllers - ICs that negotiate power contracts with PD sources and provide appropriate voltage for battery charging. Support for PD 3.0 with PPS (Programmable Power Supply) for precise voltage control. (2) Buck chargers with PD input - Switching chargers that accept 9V, 12V, or higher PD voltages and efficiently charge single-cell or multi-cell batteries. (3) Integrated solutions - Some SouthChip ICs combine PD protocol handling with battery charging in a single chip. (4) Fast charging support - PD enables high-power charging (up to 100W with PD 3.0) for rapid battery charging. (5) Application examples - Smartphones, tablets, power banks, and laptops using USB-C PD charging. SouthChip PD solutions support various PDO (Power Data Object) profiles and can negotiate optimal charging voltage based on battery state. LiTong can provide reference designs and application guidance for USB PD charging implementations.",
       "decisionGuide": "Contact LiTong for USB PD charging solution selection and design guidance.",
-      "keywords": ["USB PD", "Power Delivery", "USB-C charging", "fast charging"]
+      "keywords": [
+        "USB PD",
+        "Power Delivery",
+        "USB-C charging",
+        "fast charging"
+      ]
     },
     {
       "question": "What protection features do SouthChip battery management ICs provide?",
       "answer": "SouthChip battery management ICs include comprehensive protection features: (1) Over-voltage protection (OVP) - Protects against input over-voltage and battery over-voltage conditions. (2) Over-current protection (OCP) - Limits charge and discharge currents to safe levels. (3) Over-temperature protection (OTP) - Monitors die temperature and reduces current or shuts down if overheating. (4) Short-circuit protection - Fast response to output short-circuit conditions. (5) Reverse polarity protection - Prevents damage from reverse battery connection (on select models). (6) Thermal regulation - Automatically reduces charge current to maintain safe operating temperature. (7) Safety timer - Terminates charging if not completed within expected time window. (8) JEITA compliance - Temperature-dependent charging for battery safety (on select models). These protections ensure safe and reliable battery operation under various fault conditions. SouthChip ICs are designed to fail-safe, protecting both the battery and the system.",
       "decisionGuide": "Contact LiTong for protection feature details and safety system design guidance.",
-      "keywords": ["battery protection", "OVP", "OCP", "OTP", "safety features"]
+      "keywords": [
+        "battery protection",
+        "OVP",
+        "OCP",
+        "OTP",
+        "safety features"
+      ]
     },
     {
       "question": "What technical support does LiTong provide for SouthChip products?",
       "answer": "LiTong provides comprehensive technical support for SouthChip power management ICs: (1) Product selection - Expert guidance on choosing the right battery charger, fuel gauge, or DC-DC converter based on your application requirements. (2) Design review - Schematic and PCB layout review to ensure optimal performance and thermal management. (3) Reference designs - Access to proven reference designs and application circuits. (4) Software/firmware support - Assistance with fuel gauge algorithm integration and host communication. (5) Troubleshooting - Technical issue resolution and debugging assistance. (6) Thermal analysis - Guidance on thermal design and heat dissipation for high-power applications. (7) Evaluation support - Evaluation board setup and testing guidance. (8) Supply chain support - Inventory management and long-term supply planning. Our FAE team has extensive experience with battery management applications and can provide fast, professional support for your design challenges.",
       "decisionGuide": "Contact LiTong FAEs for any SouthChip technical support needs.",
-      "keywords": ["technical support", "design review", "FAE support", "reference design"]
+      "keywords": [
+        "technical support",
+        "design review",
+        "FAE support",
+        "reference design"
+      ]
     }
   ]
 }

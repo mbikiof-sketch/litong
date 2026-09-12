@@ -1045,15 +1045,15 @@
             },
             {
               "question": "What is the maximum data rate per lane?",
-              "answer": "Each MIPI D-PHY lane supports up to 2.5 Gbps, providing 10 Gbps total bandwidth across 4 lanes. This supports high-definition video applications including 1080p at high frame rates. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "Each MIPI D-PHY lane supports up to 2.5 Gbps, providing 10 Gbps total bandwidth across 4 lanes. This supports high-definition video applications including 1080p at high frame rates. For detailed specifications and application support on lattice LCE4X-40, refer to the datasheet or contact our team."
             },
             {
               "question": "What video interfaces are supported?",
-              "answer": "The device supports MIPI CSI-2 for camera input, MIPI DSI for display output, and bridging to HDMI for connection to standard displays. This flexibility enables various video system configurations. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The device supports MIPI CSI-2 for camera input, MIPI DSI for display output, and bridging to HDMI for connection to standard displays. This flexibility enables various video system configurations. For detailed specifications and application support on lattice LCE4X-40, refer to the datasheet or contact our team."
             },
             {
               "question": "Is this suitable for 4K video?",
-              "answer": "The LCE4X-40 is optimized for HD (1080p) video applications. For 4K video, the LCE4X-100 with 8 MIPI lanes is recommended to provide sufficient bandwidth. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The LCE4X-40 is optimized for HD (1080p) video applications. For 4K video, the LCE4X-100 with 8 MIPI lanes is recommended to provide sufficient bandwidth. For detailed specifications and application support on lattice LCE4X-40, refer to the datasheet or contact our team."
             },
             {
               "question": "What development tools are used?",
@@ -1169,7 +1169,7 @@
         },
         {
           "question": "Are reference designs provided?",
-          "answer": "Yes, Lattice development kits include comprehensive reference designs demonstrating key features and typical applications. These designs serve as starting points for customer development and illustrate best practices for FPGA implementation."
+          "answer": "Yes, Lattice development kits include comprehensive reference designs demonstrating key features and typical applications. These designs is starting points for customer development and illustrate best practices for FPGA implementation."
         }
       ],
       "products": [
@@ -1211,23 +1211,23 @@
           "faqs": [
             {
               "question": "What FPGA is included on the board?",
-              "answer": "The CertusPro-NX Evaluation Board includes the LFD2NX-40 FPGA with 39K logic cells, providing a capable platform for evaluation and development of CertusPro-NX applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The CertusPro-NX Evaluation Board includes the LFD2NX-40 FPGA with 39K logic cells, providing a capable platform for evaluation and development of CertusPro-NX applications. For detailed specifications and application support on lattice CertusPro-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "What memory is available?",
-              "answer": "The board includes 1GB of DDR3 memory connected to the FPGA, enabling evaluation of high-performance memory interfaces and data buffering applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The board includes 1GB of DDR3 memory connected to the FPGA, enabling evaluation of high-performance memory interfaces and data buffering applications. For detailed specifications and application support on lattice CertusPro-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "How do I program the FPGA?",
-              "answer": "The board includes a USB programming interface that connects directly to the FPGA JTAG port. Programming is done through Lattice Radiant software using the included USB cable. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The board includes a USB programming interface that connects directly to the FPGA JTAG port. Programming is done through Lattice Radiant software using the included USB cable. For detailed specifications and application support on lattice CertusPro-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "What expansion options are available?",
-              "answer": "The board provides multiple expansion connectors including PMOD and Arduino-compatible headers, enabling connection of various sensors, displays, and other peripherals for application development. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The board provides multiple expansion connectors including PMOD and Arduino-compatible headers, enabling connection of various sensors, displays, and other peripherals for application development. For detailed specifications and application support on lattice CertusPro-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "Are example designs provided?",
-              "answer": "Yes, the evaluation board includes comprehensive example designs demonstrating key features such as memory interfaces, I/O usage, and basic applications. These serve as starting points for custom development."
+              "answer": "Yes, the evaluation board includes comprehensive example designs demonstrating key features such as memory interfaces, I/O usage, and basic applications. These is starting points for custom development."
             }
           ],
           "faeReview": {
@@ -1294,15 +1294,15 @@
           "faqs": [
             {
               "question": "What FPGA is included?",
-              "answer": "The CrossLink-NX Evaluation Board includes the LCE4X-100 FPGA with 96K logic cells and 8 MIPI D-PHY lanes, providing comprehensive MIPI connectivity for smart vision applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The CrossLink-NX Evaluation Board includes the LCE4X-100 FPGA with 96K logic cells and 8 MIPI D-PHY lanes, providing comprehensive MIPI connectivity for smart vision applications. For detailed specifications and application support on lattice CrossLink-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "How many cameras can be connected?",
-              "answer": "The board supports dual MIPI CSI-2 camera inputs, enabling evaluation of multi-camera aggregation and stereo vision applications. Additional cameras can be supported with expansion boards. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The board supports dual MIPI CSI-2 camera inputs, enabling evaluation of multi-camera aggregation and stereo vision applications. Additional cameras can be supported with expansion boards. For detailed specifications and application support on lattice CrossLink-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "What display outputs are available?",
-              "answer": "The board includes HDMI output for connecting to standard displays, enabling evaluation of video pipeline processing and display interface applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The board includes HDMI output for connecting to standard displays, enabling evaluation of video pipeline processing and display interface applications. For detailed specifications and application support on lattice CrossLink-NX-EVB, refer to the datasheet or contact our team."
             },
             {
               "question": "Are camera modules included?",

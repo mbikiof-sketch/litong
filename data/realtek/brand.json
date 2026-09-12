@@ -1,0 +1,202 @@
+{
+  "name": "Realtek",
+  "chineseName": "瑞昱半导体",
+  "logo": "/images/brands/realtek-logo.png",
+  "founded": "1987",
+  "headquarters": "Hsinchu, Taiwan",
+  "employees": "7,000+",
+  "description": "Realtek Semiconductor Corp. (瑞昱半导体) is a world-leading fabless IC design company headquartered in Hsinchu Science Park, Taiwan, founded in 1987. Realtek specializes in communication network ICs, multimedia ICs, and computer peripheral ICs, supplying Ethernet controllers, Wi-Fi/Bluetooth combo chips, audio codecs, and card reader controllers to the global electronics industry.",
+  "longDescription": "Founded in 1987 and listed on the Taiwan Stock Exchange (2379), Realtek Semiconductor Corp. has grown into one of the world's top 10 fabless IC design companies, ranking 7th globally by Omdia in 2024. With consolidated revenue of NT$113.4 billion (approximately US$3.86 billion) in 2024 representing 19.1% year-over-year growth, Realtek employs over 7,400 people and holds more than 7,200 patents worldwide.\n\nRealtek specializes in four main product categories: Ethernet controllers (including PCIe Gigabit and 2.5GbE), wireless network ICs (Wi-Fi 5/6/6E/7 and Bluetooth combo chips), audio codecs (HD Audio and USB audio solutions), and card reader controllers. The company's products are widely integrated into PC motherboards, network equipment, consumer electronics, and IoT devices from the world's leading brands. Realtek invests approximately 15% of annual revenue in R&D, driving continuous innovation in high-speed connectivity and multimedia technologies.\n\nAs an authorized Realtek distributor since 2010, BeiLuo Electronics provides genuine Realtek products, comprehensive technical support, and stable supply chain management. 'Realtek Ethernet controllers are trusted in over 80% of consumer motherboards globally, and our FAE team has supported hundreds of successful customer designs,' says our Senior FAE - Networking Solutions. BeiLuo's FAE team offers expert guidance on Ethernet controller selection, Wi-Fi module integration, audio codec design, and PCB layout optimization.",
+  "website": "https://www.realtek.com",
+  "distributorSince": "2010",
+  "distributorStatus": "Authorized Distributor",
+  "productCategories": [
+    "Communication Network ICs",
+    "Multimedia ICs",
+    "Computer Peripheral ICs"
+  ],
+  "coreProducts": [
+    "RTL8111H",
+    "RTL8125B",
+    "RTL8821CE",
+    "RTL8852AE",
+    "ALC897",
+    "ALC1220",
+    "RTS5227"
+  ],
+  "industries": [
+    "PC & Computing",
+    "Networking",
+    "Consumer Electronics",
+    "IoT",
+    "Automotive"
+  ],
+  "certifications": [
+    "ISO 9001",
+    "ISO 14001",
+    "IATF 16949"
+  ],
+  "trustSignals": {
+    "annualRevenue": "NT$113.4B / US$3.86B (2024)",
+    "patents": "7,200+",
+    "employees": "7,400+",
+    "globalPresence": "Worldwide - HQ Hsinchu, Taiwan",
+    "rAndDInvestment": "15% of revenue (~NT$35.5B yearly)"
+  },
+  "faqs": [
+    {
+      "category": "General",
+      "question": "What is Realtek Semiconductor and what products does it make?",
+      "answer": "Realtek Semiconductor Corp. (瑞昱半导体, TSE: 2379) is a fabless IC design company founded in 1987 and headquartered at Hsinchu Science Park, Taiwan. Realtek is one of the world's top 10 fabless semiconductor companies, ranking 7th globally by Omdia in 2024. The company designs and sells four main product categories: Ethernet controllers (PCIe Gigabit and 2.5GbE), wireless network ICs (Wi-Fi 5/6/6E/7 and Bluetooth combo chips), audio codecs (HD Audio codecs for PC and consumer electronics), and card reader controllers. Realtek's ICs are integrated into products from leading PC, networking, and consumer electronics brands worldwide, with annual revenue of NT$113.4 billion (2024) and over 7,200 patents.",
+      "decisionGuide": "For any Realtek product needs, contact BeiLuo Electronics, an authorized distributor since 2010.",
+      "keywords": [
+        "Realtek Semiconductor",
+        "Realtek company",
+        "Realtek products",
+        "Taiwan IC design"
+      ]
+    },
+    {
+      "category": "Technical",
+      "question": "Realtek vs Intel Ethernet: which is better for different use cases?",
+      "answer": "Realtek and Intel Ethernet controllers serve different market segments. Realtek Ethernet controllers (RTL8111H, RTL8125B) are preferred for consumer motherboards, embedded systems, and cost-sensitive applications due to their excellent performance-to-cost ratio, broad OS driver support, and lower power consumption. Intel Ethernet controllers (I210, I225) are typically chosen for enterprise servers, data centers, and mission-critical applications where advanced features like SR-IOV, TCO, and iSCSI boot are required. For the vast majority of consumer PC, industrial, and SMB networking applications, Realtek offers more competitive pricing with perfectly adequate performance and reliability. For enterprise server deployments requiring advanced management features, Intel may be the preferred choice.",
+      "decisionGuide": "Choose Realtek for consumer, embedded, and cost-sensitive designs. Choose Intel for enterprise servers with advanced management requirements.",
+      "keywords": [
+        "Realtek vs Intel",
+        "Ethernet comparison",
+        "Realtek Ethernet",
+        "Intel Ethernet"
+      ]
+    },
+    {
+      "category": "Technical",
+      "question": "Wi-Fi 6 vs Wi-Fi 6E vs Wi-Fi 7: what are the differences?",
+      "answer": "Wi-Fi 6 (802.11ax) operates in 2.4GHz and 5GHz bands, offering up to 9.6Gbps theoretical throughput with OFDMA and MU-MIMO technologies. Wi-Fi 6E extends Wi-Fi 6 into the 6GHz band, adding 1200MHz of new spectrum for reduced interference and higher throughput. Wi-Fi 7 (802.11be) is the next-generation standard featuring 320MHz channel width (double Wi-Fi 6), 4096-QAM modulation, Multi-Link Operation (MLO), and theoretical speeds up to 46Gbps. Realtek offers solutions across all three standards: RTL8852BE (Wi-Fi 6), RTL8852AE/RTL8852CE (Wi-Fi 6E), and is developing Wi-Fi 7 solutions for next-generation applications.",
+      "decisionGuide": "Choose Wi-Fi 6 for current mainstream applications. Consider Wi-Fi 6E for newest flagship designs. Evaluate Wi-Fi 7 for future-proof high-bandwidth applications.",
+      "keywords": [
+        "Wi-Fi 6 vs Wi-Fi 6E",
+        "Wi-Fi 7",
+        "wireless standards",
+        "Realtek Wi-Fi"
+      ]
+    },
+    {
+      "category": "Technical",
+      "question": "How to choose the right Ethernet controller for your application?",
+      "answer": "Choosing the right Ethernet controller depends on your interface, speed, and application requirements. For standard desktop PC motherboards, RTL8111H (PCIe Gigabit) is the most cost-effective choice. For industrial or embedded applications requiring wide temperature range, RTL8111EP-CG offers industrial grade support. For USB-based designs (dongles, docking stations), RTL8153B or RTL8156B provide Gigabit and 2.5GbE over USB 3.0 respectively. For internal 2.5GbE applications, RTL8125B is the ideal PCIe solution. For server or high-performance applications, evaluate multi-port and advanced feature controllers. All Realtek controllers support comprehensive Windows, Linux, and macOS drivers.",
+      "decisionGuide": "Start by determining interface (PCIe vs USB) and speed requirement (1GbE vs 2.5GbE), then select the appropriate RTL part number.",
+      "keywords": [
+        "Ethernet controller selection",
+        "RTL8111H",
+        "RTL8125B",
+        "RTL8156B"
+      ]
+    }
+  ],
+  "contactInfo": {
+    "salesEmail": "realtek-sales@BeiLuo.com",
+    "supportEmail": "realtek-support@BeiLuo.com",
+    "phone": "+86-755-1234-5678"
+  },
+  "socialMedia": {
+    "linkedin": "https://linkedin.com/company/realtek",
+    "twitter": "https://twitter.com/realtek"
+  },
+  "seoTitle": "Realtek Semiconductor | Ethernet Wi-Fi 6 Audio Codec ICs | BeiLuo",
+  "seoDescription": "Authorized Realtek distributor since 2010. Stocking Ethernet controllers (RTL8111H, RTL8125B 2.5GbE), Wi-Fi 6/6E modules, HD audio codecs & card reader ICs. FAE technical support, competitive pricing & fast delivery from BeiLuo Electronics.",
+  "seoKeywords": [
+    "Realtek",
+    "network ICs",
+    "Ethernet controller",
+    "Wi-Fi module",
+    "audio codec",
+    "card reader",
+    "multimedia IC",
+    "BeiLuo distributor"
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.realtek.com#organization",
+        "name": "Realtek Semiconductor Corp.",
+        "alternateName": "Realtek",
+        "url": "https://www.realtek.com",
+        "logo": "https://www.realtek.com/logo.png",
+        "description": "Realtek Semiconductor Corp. is a fabless IC design company specializing in Ethernet controllers, Wi-Fi/Bluetooth combo chips, audio codecs, and card reader controllers for PC, networking, consumer electronics, and IoT applications.",
+        "foundingDate": "1987-10-21",
+        "foundingLocation": "Hsinchu Science Park, Taiwan",
+        "numberOfEmployees": "7400",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "No. 2, Innovation Road II, Hsinchu Science Park",
+          "addressLocality": "Hsinchu",
+          "addressCountry": "TW"
+        },
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "ISO 9001"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "ISO 14001"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "IATF 16949"
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/realtek"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.realtek.com#website",
+        "url": "https://www.realtek.com",
+        "name": "Realtek Semiconductor Corp.",
+        "description": "Realtek Semiconductor - Ethernet controllers, Wi-Fi modules, audio codecs and card reader ICs."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.realtek.com#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Realtek Semiconductor and what products does it make?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Realtek Semiconductor Corp. (TSE: 2379) is a fabless IC design company founded in 1987 in Hsinchu, Taiwan. They design Ethernet controllers, Wi-Fi/Bluetooth combo chips, audio codecs, and card reader controllers for PC, networking, consumer electronics, and IoT applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Realtek vs Intel Ethernet: which is better?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Realtek Ethernet controllers are preferred for consumer motherboards, embedded systems, and cost-sensitive applications due to excellent performance-to-cost ratio. Intel controllers are chosen for enterprise servers with advanced management features."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wi-Fi 6 vs Wi-Fi 6E vs Wi-Fi 7: what are the differences?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wi-Fi 6 operates in 2.4/5GHz bands. Wi-Fi 6E adds 6GHz spectrum. Wi-Fi 7 offers 320MHz channels, 4096-QAM, and speeds up to 46Gbps. Realtek offers RTL8852BE (Wi-Fi 6) and RTL8852AE/CE (Wi-Fi 6E) solutions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between RTL8111H and RTL8111EP-CG?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RTL8111H is the standard PCIe Gigabit Ethernet controller for consumer applications. RTL8111EP-CG is an enhanced version with additional power management and industrial grade options."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

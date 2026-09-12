@@ -91,7 +91,14 @@
         "mtbf",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Output Voltage",
+        "Output Current",
+        "Output Power",
+        "Efficiency",
+        "Isolation Voltage",
+        "Operating Temperature"
       ],
       "selectionGuide": {
         "title": "How to Select P-Duke DC-DC Converters",
@@ -197,7 +204,14 @@
             "mtbf": "1,200,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation Voltage": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "7W output power with 12V at 580mA",
@@ -388,7 +402,14 @@
             "mtbf": "1,500,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation Voltage": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "4W output power with 5V at 800mA",
@@ -565,7 +586,19 @@
             "Efficiency": "85%",
             "Isolation Voltage": "1600V DC",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SIP-7"
+            "Package": "SIP-7",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Wide 4:1 input range 18-75V",
@@ -604,7 +637,19 @@
             "Efficiency": "87%",
             "Isolation Voltage": "1600V DC",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "DIP-16"
+            "Package": "DIP-16",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Wide 4:1 input range 9-36V",
@@ -662,7 +707,13 @@
         "mtbf",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Output Voltage",
+        "Output Current",
+        "Output Power",
+        "Efficiency",
+        "Operating Temperature"
       ],
       "selectionGuide": {
         "title": "How to Select P-Duke AC-DC Power Modules",
@@ -770,7 +821,13 @@
             "mtbf": "300,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "60W output power with 24V at 2.5A",
@@ -960,7 +1017,13 @@
             "mtbf": "300,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "60W output power with 12V at 5A",
@@ -1119,7 +1182,19 @@
             "Output Power": "30W",
             "Efficiency": "88%",
             "Operating Temperature": "-40°C to +70°C",
-            "Package": "Encapsulated Module"
+            "Package": "Encapsulated Module",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "standbyPower": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Universal 85-264VAC input",
@@ -1157,7 +1232,19 @@
             "Output Power": "90W",
             "Efficiency": "90%",
             "Operating Temperature": "-40°C to +70°C",
-            "Package": "Chassis Mount"
+            "Package": "Chassis Mount",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "standbyPower": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Universal 85-264VAC input",
@@ -1215,7 +1302,15 @@
         "mtbf",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Output Voltage",
+        "Output Current",
+        "Output Power",
+        "Efficiency",
+        "Isolation",
+        "Operating Temperature",
+        "Certifications"
       ],
       "selectionGuide": {
         "title": "How to Select Railway Power Supplies",
@@ -1321,7 +1416,15 @@
             "mtbf": "800,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation": "N/A",
+            "Operating Temperature": "N/A",
+            "Certifications": "N/A"
           },
           "features": [
             "40W output power with 24V at 1.67A",
@@ -1492,7 +1595,15 @@
             "mtbf": "900,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation": "N/A",
+            "Operating Temperature": "N/A",
+            "Certifications": "N/A"
           },
           "features": [
             "20W output power with 12V at 1.67A",
@@ -1652,7 +1763,19 @@
             "Isolation": "4000V DC",
             "Operating Temperature": "-40°C to +105°C",
             "Package": "DIP-16",
-            "Certifications": "EN 50155, EN 61373, EN 45545-2 HL3"
+            "Certifications": "EN 50155, EN 61373, EN 45545-2 HL3",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "20W output power with 5V at 4A",
@@ -1692,7 +1815,19 @@
             "Isolation": "4000V DC",
             "Operating Temperature": "-40°C to +105°C",
             "Package": "DIP-24",
-            "Certifications": "EN 50155, EN 61373, EN 45545-2 HL3"
+            "Certifications": "EN 50155, EN 61373, EN 45545-2 HL3",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "60W output power with 24V at 2.5A",
@@ -1751,7 +1886,16 @@
         "mtbf",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Output Voltage",
+        "Output Current",
+        "Output Power",
+        "Efficiency",
+        "Isolation",
+        "Leakage Current",
+        "Operating Temperature",
+        "Certifications"
       ],
       "selectionGuide": {
         "title": "How to Select Medical Power Modules",
@@ -1858,7 +2002,16 @@
             "mtbf": "1,800,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation": "N/A",
+            "Leakage Current": "N/A",
+            "Operating Temperature": "N/A",
+            "Certifications": "N/A"
           },
           "features": [
             "10W output power with 5V at 2A",
@@ -2030,7 +2183,16 @@
             "mtbf": "1,600,000 hours",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Output Power": "N/A",
+            "Efficiency": "N/A",
+            "Isolation": "N/A",
+            "Leakage Current": "N/A",
+            "Operating Temperature": "N/A",
+            "Certifications": "N/A"
           },
           "features": [
             "20W output power with 12V at 1.67A",
@@ -2153,7 +2315,7 @@
             },
             {
               "question": "What is the isolation capacitance?",
-              "answer": "The MPS20-24S12 has low isolation capacitance for minimal leakage current: Isolation capacitance is typically 25pF; This low capacitance contributes to the ultra-low leakage current; Capacitance is measured between input and output; The low capacitance is achieved through transformer design. Isolation capacitance affects: Leakage current (higher capacitance = higher leakage); Common-mode noise coupling; EMI performance; High-frequency isolation. The 25pF capacitance is very low for a 20W converter, reflecting the careful transformer design for medical applications. For comparison, typical industrial converters may have 100-500pF isolation capacitance. The low capacitance is one factor that enables the <2uA patient leakage current specification.",
+              "answer": "The MPS20-24S12 has low isolation capacitance for minimal leakage current: Isolation capacitance is typically 25pF; This low capacitance contributes to the ultra-low leakage current; Capacitance is measured between input and output; The low capacitance is achieved through transformer design. Isolation capacitance affects: Leakage current (higher capacitance = higher leakage); Common-mode noise coupling; EMI performance; High-frequency isolation. The 25pF capacitance is very low for a 20W converter. For comparison, typical industrial converters may have 100-500pF isolation capacitance. The low capacitance is one factor that enables the <2uA patient leakage current specification.",
               "decisionGuide": "For applications sensitive to capacitive coupling, the low isolation capacitance minimizes leakage and noise coupling.",
               "keywords": [
                 "isolation capacitance",
@@ -2191,7 +2353,20 @@
             "Leakage Current": "< 2uA",
             "Operating Temperature": "-40°C to +85°C",
             "Package": "SIP-7",
-            "Certifications": "IEC 60601-1, 2xMOPP"
+            "Certifications": "IEC 60601-1, 2xMOPP",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "leakageCurrent": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "10W output power with 12V at 0.83A",
@@ -2232,7 +2407,20 @@
             "Leakage Current": "< 2uA",
             "Operating Temperature": "-40°C to +85°C",
             "Package": "Encapsulated",
-            "Certifications": "IEC 60601-1, 2xMOPP"
+            "Certifications": "IEC 60601-1, 2xMOPP",
+            "outputPower": "N/A",
+            "inputVoltage": "N/A",
+            "outputVoltage": "N/A",
+            "outputCurrent": "N/A",
+            "efficiency": "N/A",
+            "isolation": "N/A",
+            "leakageCurrent": "N/A",
+            "operatingTemperature": "N/A",
+            "package": "N/A",
+            "mtbf": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "40W output power with 12V at 3.33A",

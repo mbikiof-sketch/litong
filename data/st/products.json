@@ -112,7 +112,7 @@
         },
         {
           "question": "What development tools are available for STM32?",
-          "answer": "ST provides comprehensive development ecosystem including STM32CubeMX for graphical configuration, STM32CubeIDE for integrated development, STM32CubeProgrammer for device programming, and extensive HAL/LL libraries. Third-party support includes Keil MDK, IAR Embedded Workbench, and various RTOS options. Development boards like Nucleo and Discovery series provide affordable evaluation platforms. ST also offers STM32Cube.AI for machine learning applications.",
+          "answer": "ST provides comprehensive development ecosystem including STM32CubeMX for graphical configuration, STM32CubeIDE for integrated development, STM32CubeProgrammer for device programming, and extensive HAL/LL libraries. Third-party support includes Keil MDK, IAR Embedded Workbench, and various RTOS options. Development boards like Nucleo and Discovery series provide affordable evaluation platforms. ST also offers STM32Cube. AI for machine learning applications.",
           "decisionGuide": "Download free STM32Cube tools from ST or contact us for development kit recommendations.",
           "keywords": [
             "STM32 development tools",
@@ -319,7 +319,7 @@
           "name": "High-Performance ARM Cortex-M7 MCU",
           "shortDescription": "High-performance STM32H7 MCU with 480MHz Cortex-M7 core, 2MB Flash, 1MB RAM, and advanced peripherals for demanding e...",
           "descriptionParagraphs": [
-            "The STM32H743VIT6 represents the highest performance MCU in STM32 family with ARM Cortex-M7 core running at 480 MHz.",
+            "The STM32H743VIT6 is the highest performance MCU in STM32 family with ARM Cortex-M7 core running at 480 MHz.",
             "Featuring 2MB Flash and 1MB SRAM including 864KB TCM for critical code and data, it delivers exceptional real-time performance.",
             "Advanced features include dual-bank Flash for live firmware updates, extensive security features, and rich connectivity options for next-generation IoT devices."
           ],
@@ -1040,7 +1040,7 @@
             },
             {
               "question": "How does MDmesh M2 technology compare to competitors?",
-              "answer": "ST's MDmesh M2 super-junction technology offers competitive performance with excellent reliability. Compared to competitors' similar generation devices, MDmesh M2 provides comparable Rds(on) × Qg figure of merit with proven ruggedness. ST's technology features stable threshold voltage over temperature and excellent body diode characteristics. The M2 generation represents a mature, well-characterized technology with extensive field experience. Newer MDmesh M5 and M6 generations offer improved performance for new designs.",
+              "answer": "ST's MDmesh M2 super-junction technology offers competitive performance with excellent reliability. Compared to competitors' similar generation devices, MDmesh M2 provides comparable Rds(on) × Qg figure of merit with proven ruggedness. ST's technology features stable threshold voltage over temperature and excellent body diode characteristics. The M2 generation is mature, well-characterized technology with extensive field experience. Newer MDmesh M5 and M6 generations offer improved performance for new designs.",
               "decisionGuide": "MDmesh M2 offers proven reliability. Consider M5/M6 for new designs requiring highest efficiency.",
               "keywords": [
                 "MDmesh technology",
@@ -1086,7 +1086,7 @@
           "faeReview": {
             "author": "James Liu",
             "title": "Principal FAE - Wide Bandgap Semiconductors",
-            "content": "The SCTW90N65G2V represents the state-of-the-art in SiC power technology. In my experience with EV charger designs, this device enables 98%+ efficiency that simply isn't achievable with silicon MOSFETs or IGBTs. The ability to switch at 100kHz+ allows dramatic reduction in magnetic component size. I've seen customers reduce heatsink volume by 50% compared to IGBT solutions. The body diode characteristics are excellent with no reverse recovery, eliminating the need for external freewheeling diodes in many applications. While the initial cost is higher than silicon, the system-level savings in cooling and magnetics often justify the investment. ST's 25+ years of SiC experience shows in the device reliability.",
+            "content": "The SCTW90N65G2V is the state-of-the-art in SiC power technology. In my experience with EV charger designs, this device enables 98%+ efficiency that simply isn't achievable with silicon MOSFETs or IGBTs. The ability to switch at 100kHz+ allows dramatic reduction in magnetic component size. I've seen customers reduce heatsink volume by 50% compared to IGBT solutions. The body diode characteristics are excellent with no reverse recovery, eliminating the need for external freewheeling diodes in many applications. While the initial cost is higher than silicon, the system-level savings in cooling and magnetics often justify the investment. ST's 25+ years of SiC experience shows in the device reliability.",
             "highlight": "Revolutionary efficiency for next-generation power systems"
           },
           "alternativeParts": [
@@ -1244,7 +1244,7 @@
           "faeReview": {
             "author": "Robert Kim",
             "title": "Senior FAE - Power Electronics",
-            "content": "The STW69N65M5 represents the next generation of ST's MDmesh technology. The M5 generation offers noticeable improvements in Rds(on) and switching characteristics compared to M2. In my experience, this device is excellent for high-power applications where every milliohm matters. The 69A current rating makes it suitable for 3-5kW power supplies and inverters. The switching losses are well-controlled despite the higher current rating. I've used this in several server power supply designs with excellent thermal performance. The TO-247 package is standard and easy to work with. For new designs requiring 650V, this is my preferred choice over the older M2 generation.",
+            "content": "The STW69N65M5 is the next generation of ST's MDmesh technology. The M5 generation offers noticeable improvements in Rds(on) and switching characteristics compared to M2. In my experience, this device is excellent for high-power applications where every milliohm matters. The 69A current rating makes it suitable for 3-5kW power supplies and inverters. The switching losses are well-controlled despite the higher current rating. I've used this in several server power supply designs with excellent thermal performance. The TO-247 package is standard and easy to work with. For new designs requiring 650V, this is my preferred choice over the older M2 generation.",
             "highlight": "Next-generation MDmesh M5 with improved efficiency"
           },
           "alternativeParts": [
@@ -1294,13 +1294,21 @@
               "question": "What is the difference between MDmesh M5 and M2?",
               "answer": "MDmesh M5 is the 5th generation of ST's super-junction technology, offering improvements over M2: Lower Rds(on) for same die size; Improved switching characteristics with lower Qg; Better body diode performance; Enhanced ruggedness and reliability. The M5 technology enables higher efficiency and power density in power conversion applications.",
               "decisionGuide": "Use M5 for new designs. M2 remains viable for cost-sensitive applications.",
-              "keywords": ["MDmesh M5", "super-junction", "MOSFET technology"]
+              "keywords": [
+                "MDmesh M5",
+                "super-junction",
+                "MOSFET technology"
+              ]
             },
             {
               "question": "What is the maximum power dissipation?",
               "answer": "The STW69N65M5 has maximum power dissipation of 375W at Tc = 25°C, derating to 150W at Tc = 100°C. Actual power handling depends on thermal design. With typical Rds(on) of 55mΩ at 30A, conduction losses are approximately 50W. Proper heatsinking is essential for high-current operation.",
               "decisionGuide": "Calculate losses and verify thermal design for your application.",
-              "keywords": ["power dissipation", "thermal design", "heatsink"]
+              "keywords": [
+                "power dissipation",
+                "thermal design",
+                "heatsink"
+              ]
             }
           ]
         },
@@ -1390,13 +1398,21 @@
               "question": "What applications benefit from 78A current rating?",
               "answer": "The 78A rating enables: High-power SMPS (5-10kW); Industrial motor drives (5-10HP); EV charging modules (7-11kW); Solar inverters (5-10kW); Welding equipment. The high current capability reduces the need for paralleling devices in many applications, simplifying design and improving reliability.",
               "decisionGuide": "Consider this device for 5-10kW applications to avoid device paralleling.",
-              "keywords": ["high current", "power rating", "applications"]
+              "keywords": [
+                "high current",
+                "power rating",
+                "applications"
+              ]
             },
             {
               "question": "How does this compare to using two 40A MOSFETs in parallel?",
               "answer": "Using a single 78A device vs two 40A devices: Simpler gate drive (single device); No current sharing concerns; Lower total Rds(on) due to larger die; Better thermal performance (single junction); Potentially lower cost than two devices with associated components. The single device approach is generally preferred unless redundancy is required.",
               "decisionGuide": "Use single high-current device unless redundancy or thermal distribution requires paralleling.",
-              "keywords": ["parallel MOSFETs", "current sharing", "high current"]
+              "keywords": [
+                "parallel MOSFETs",
+                "current sharing",
+                "high current"
+              ]
             }
           ]
         }
@@ -1429,7 +1445,14 @@
         "PSRR",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Offset Voltage",
+        "Supply Current",
+        "Reference Voltage",
+        "Output Voltage Range",
+        "Initial Accuracy",
+        "Temperature Coefficient",
+        "Cathode Current Range"
       ],
       "applications": [
         "Sensor Signal Conditioning",
@@ -1521,7 +1544,14 @@
             "PSRR": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Offset Voltage": "N/A",
+            "Supply Current": "N/A",
+            "Reference Voltage": "N/A",
+            "Output Voltage Range": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Cathode Current Range": "N/A"
           },
           "features": [
             "Rail-to-rail input and output",
@@ -1635,7 +1665,7 @@
             },
             {
               "question": "What is the power consumption of TSV994A?",
-              "answer": "The TSV994A consumes 660uA typical per amplifier at 5V supply (3.3mW total for quad). At 3.3V, consumption is approximately 435uA per amplifier. This represents excellent power efficiency for the 20MHz bandwidth offered. The device includes shutdown capability (when available in specific packages) reducing current to <1uA. For always-on battery-powered applications, this low quiescent current extends battery life significantly compared to higher-performance op-amps that may consume several mA.",
+              "answer": "The TSV994A consumes 660uA typical per amplifier at 5V supply (3.3mW total for quad). At 3.3V, consumption is approximately 435uA per amplifier. This is excellent power efficiency for the 20MHz bandwidth offered. The device includes shutdown capability (when available in specific packages) reducing current to <1uA. For always-on battery-powered applications, this low quiescent current extends battery life significantly compared to higher-performance op-amps that may consume several mA.",
               "decisionGuide": "Calculate total system power budget including all four amplifiers for battery life estimation.",
               "keywords": [
                 "TSV994A power consumption",
@@ -1698,7 +1728,14 @@
             "Quiescent Current": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Offset Voltage": "N/A",
+            "Supply Current": "N/A",
+            "Reference Voltage": "N/A",
+            "Output Voltage Range": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Cathode Current Range": "N/A"
           },
           "features": [
             "Ultra-low output noise: 6uVrms",
@@ -1860,7 +1897,19 @@
             "Package": "SO-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C"
+            "Temperature Range": "0°C to +70°C",
+            "Input Offset": "N/A",
+            "Quiescent Current": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Dropout Voltage": "N/A",
+            "Output Noise": "N/A",
+            "PSRR": "N/A",
+            "Reference Voltage": "N/A",
+            "Output Voltage Range": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Cathode Current Range": "N/A"
           },
           "features": [
             "Wide supply voltage range: 3V to 32V",
@@ -1929,13 +1978,21 @@
               "question": "What is the difference between LM358 and LM324?",
               "answer": "The LM358 is a dual op-amp (2 amplifiers) while LM324 is a quad op-amp (4 amplifiers). Both share similar electrical characteristics: 1.1MHz GBW, 0.6V/μs slew rate, and wide supply range. Choose LM358 for 1-2 channel needs and LM324 for 3-4 channels to optimize board space and cost. Both are unity-gain stable and work with single or dual supplies.",
               "decisionGuide": "Use LM358 for 1-2 channels, LM324 for 3-4 channels.",
-              "keywords": ["LM358 vs LM324", "dual op-amp", "quad op-amp"]
+              "keywords": [
+                "LM358 vs LM324",
+                "dual op-amp",
+                "quad op-amp"
+              ]
             },
             {
               "question": "Is LM358 suitable for precision applications?",
               "answer": "The LM358 has 2mV typical input offset voltage and 1.1MHz GBW, making it unsuitable for high-precision applications. For precision needs, consider: TSZ121 (8μV offset) for precision DC; TSV994A (20MHz) for high-speed; OP07 (75μV) for general precision. The LM358 is best for non-critical buffering, simple filters, and cost-sensitive consumer applications.",
               "decisionGuide": "Choose precision op-amps for <1mV offset requirements. LM358 is for general-purpose use.",
-              "keywords": ["precision op-amp", "input offset", "accuracy"]
+              "keywords": [
+                "precision op-amp",
+                "input offset",
+                "accuracy"
+              ]
             }
           ]
         },
@@ -1957,7 +2014,19 @@
             "Package": "SOT-23-3",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Supply Voltage": "N/A",
+            "GBW": "N/A",
+            "Slew Rate": "N/A",
+            "Input Offset": "N/A",
+            "Quiescent Current": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Dropout Voltage": "N/A",
+            "Output Noise": "N/A",
+            "PSRR": "N/A",
+            "Input Offset Voltage": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "Adjustable output: 2.5V to 36V",
@@ -2025,13 +2094,22 @@
               "question": "How do I calculate resistor values for TL431?",
               "answer": "The TL431 output voltage is set by Vout = Vref × (1 + R1/R2), where Vref = 2.5V. For example, for 5V output: R1/R2 = (5/2.5) - 1 = 1. Use R2 = 10kΩ, R1 = 10kΩ. Consider reference input current (2-4μA) when using high-value resistors. For best accuracy, use 1% tolerance resistors and keep divider current >100× reference current.",
               "decisionGuide": "Use low-value resistors (10kΩ range) for best accuracy. Verify with calculation.",
-              "keywords": ["TL431 resistor calculation", "voltage setting", "divider"]
+              "keywords": [
+                "TL431 resistor calculation",
+                "voltage setting",
+                "divider"
+              ]
             },
             {
               "question": "What is the difference between TL431A and TL431C?",
               "answer": "The TL431A offers 0.5% initial accuracy while TL431C offers 1% accuracy. Both have same temperature coefficient and electrical characteristics. Choose A grade for higher precision applications (power supplies requiring tight regulation) and C grade for general applications where 1% is sufficient. The price difference is typically 10-20%.",
               "decisionGuide": "Use A grade for precision power supplies. C grade is sufficient for most applications.",
-              "keywords": ["TL431 accuracy", "A grade", "C grade", "precision"]
+              "keywords": [
+                "TL431 accuracy",
+                "A grade",
+                "C grade",
+                "precision"
+              ]
             }
           ]
         }
@@ -2066,7 +2144,14 @@
         "Current (Low)",
         "Current (High)",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Humidity Range",
+        "Humidity Accuracy",
+        "Temperature Accuracy",
+        "Interface",
+        "Measurement Range",
+        "Sensitivity",
+        "Operating Current"
       ],
       "applications": [
         "Wearables",
@@ -2138,7 +2223,7 @@
         {
           "partNumber": "LSM6DS3",
           "name": "6-Axis Inertial Measurement Unit",
-          "shortDescription": "Ultra-low-power 6-axis IMU combining 3D accelerometer and 3D gyroscope with embedded sensor hub and machine learning ...",
+          "shortDescription": "Ultra-low-power 6-axis IMU combining 3D accelerometer and 3D gyroscope with embedded sensor hub and machine learning...",
           "descriptionParagraphs": [
             "The LSM6DS3 is a system-in-package featuring a 3D digital accelerometer and 3D digital gyroscope with ultra-low power consumption.",
             "With high-performance mode at 1.25mA and accelerometer-only mode at 130uA, it enables year-long battery life in wearable devices.",
@@ -2160,7 +2245,14 @@
             "Current (Low)": "N/A",
             "Current (High)": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Humidity Range": "N/A",
+            "Humidity Accuracy": "N/A",
+            "Temperature Accuracy": "N/A",
+            "Interface": "N/A",
+            "Measurement Range": "N/A",
+            "Sensitivity": "N/A",
+            "Operating Current": "N/A"
           },
           "features": [
             "Ultra-low power consumption",
@@ -2340,7 +2432,14 @@
             "Current (Combo)": "N/A",
             "Current (Accel Only)": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Humidity Range": "N/A",
+            "Humidity Accuracy": "N/A",
+            "Temperature Accuracy": "N/A",
+            "Interface": "N/A",
+            "Measurement Range": "N/A",
+            "Sensitivity": "N/A",
+            "Operating Current": "N/A"
           },
           "features": [
             "260-1260 hPa absolute pressure range",
@@ -2500,7 +2599,21 @@
             "Package": "HLGA-6L (2x2mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +120°C"
+            "Accelerometer Range": "N/A",
+            "Gyroscope Range": "N/A",
+            "Accelerometer ODR": "N/A",
+            "Gyroscope ODR": "N/A",
+            "Current (Combo)": "N/A",
+            "Current (Accel Only)": "N/A",
+            "Pressure Range": "N/A",
+            "Pressure Resolution": "N/A",
+            "Absolute Accuracy": "N/A",
+            "ODR Range": "N/A",
+            "Current (Low)": "N/A",
+            "Current (High)": "N/A",
+            "Measurement Range": "N/A",
+            "Sensitivity": "N/A",
+            "Operating Current": "N/A"
           },
           "features": [
             "0-100% RH measurement range",
@@ -2569,13 +2682,21 @@
               "question": "What is the recommended operating range for HTS221?",
               "answer": "Recommended operating conditions: Humidity: 0-100% RH (non-condensing); Temperature: -40°C to +120°C; Best accuracy in 20-80% RH range. Avoid condensation as it can damage the sensor. For high-humidity environments, consider protective filtering. The sensor can survive brief exposure to condensation but continuous operation in condensing conditions will degrade performance.",
               "decisionGuide": "Use protective filter in high-humidity or dusty environments.",
-              "keywords": ["operating range", "humidity limits", "condensation"]
+              "keywords": [
+                "operating range",
+                "humidity limits",
+                "condensation"
+              ]
             },
             {
               "question": "How often should the sensor be calibrated?",
               "answer": "The HTS221 includes factory calibration stored in internal memory. For most applications, no additional calibration is required. However, for critical applications: Verify calibration annually; Re-calibrate if exposed to contaminants; Check against reference standards periodically. The internal calibration engine applies temperature compensation automatically. Long-term drift is typically <0.5% RH per year under normal conditions.",
               "decisionGuide": "Factory calibration sufficient for most applications. Annual verification for critical use.",
-              "keywords": ["calibration", "accuracy drift", "factory calibration"]
+              "keywords": [
+                "calibration",
+                "accuracy drift",
+                "factory calibration"
+              ]
             }
           ]
         },
@@ -2597,7 +2718,21 @@
             "Package": "LGA-16 (3x3mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Accelerometer Range": "N/A",
+            "Gyroscope Range": "N/A",
+            "Accelerometer ODR": "N/A",
+            "Gyroscope ODR": "N/A",
+            "Current (Combo)": "N/A",
+            "Current (Accel Only)": "N/A",
+            "Pressure Range": "N/A",
+            "Pressure Resolution": "N/A",
+            "Absolute Accuracy": "N/A",
+            "Current (Low)": "N/A",
+            "Current (High)": "N/A",
+            "Humidity Range": "N/A",
+            "Humidity Accuracy": "N/A",
+            "Temperature Accuracy": "N/A"
           },
           "features": [
             "Ultra low-power consumption: 2μA",
@@ -2667,13 +2802,22 @@
               "question": "What is the power consumption in different modes?",
               "answer": "Power consumption by mode: Normal mode: ~10μA at 10Hz ODR; Low-power mode: ~2μA at 10Hz ODR; Power-down mode: ~0.5μA. The low-power mode reduces resolution to 8-bit but maintains functionality for motion detection. For always-on applications, use low-power mode. For high-resolution sampling, use normal mode. The embedded features (free-fall, motion detection) work in both modes.",
               "decisionGuide": "Use low-power mode for always-on motion detection. Use normal mode for high-resolution data acquisition.",
-              "keywords": ["power consumption", "low power mode", "battery life"]
+              "keywords": [
+                "power consumption",
+                "low power mode",
+                "battery life"
+              ]
             },
             {
               "question": "How does the embedded motion detection work?",
               "answer": "The LIS3DH includes hardware motion detection: Free-fall detection: Triggers when acceleration < threshold on all axes; Motion detection: Triggers when acceleration change exceeds threshold; Click detection: Detects single and double taps. These features operate autonomously without host MCU intervention. Configure thresholds and duration via registers. The INT pin signals events to wake the host MCU. This enables significant power savings by keeping the host in sleep mode until motion events occur.",
               "decisionGuide": "Use embedded features to minimize host MCU wake time and extend battery life.",
-              "keywords": ["motion detection", "free-fall", "click detection", "interrupt"]
+              "keywords": [
+                "motion detection",
+                "free-fall",
+                "click detection",
+                "interrupt"
+              ]
             }
           ]
         }

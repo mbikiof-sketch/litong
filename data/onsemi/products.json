@@ -5,8 +5,14 @@
       "name": "IGBT Modules",
       "description": "High-performance IGBT modules for industrial and automotive applications",
       "series": [
-        {"name": "FGY Series", "description": "Industrial IGBT modules"},
-        {"name": "NXH Series", "description": "Automotive IGBT modules"}
+        {
+          "name": "FGY Series",
+          "description": "Industrial IGBT modules"
+        },
+        {
+          "name": "NXH Series",
+          "description": "Automotive IGBT modules"
+        }
       ],
       "products": [
         {
@@ -23,7 +29,8 @@
             "Current Rating": "75A",
             "VCE(sat)": "1.7V typical",
             "Package": "TO-247-3",
-            "Temperature Range": "-40°C to +150°C"
+            "Temperature Range": "-40°C to +150°C",
+            "Qualification": "N/A"
           },
           "features": [
             "1200V 75A IGBT with diode",
@@ -61,7 +68,8 @@
             "Current Rating": "40A",
             "VCE(sat)": "1.65V typical",
             "Package": "TO-247-3",
-            "Temperature Range": "-40°C to +150°C"
+            "Temperature Range": "-40°C to +150°C",
+            "Qualification": "N/A"
           },
           "features": [
             "1200V 40A IGBT with diode",
@@ -98,7 +106,8 @@
             "Current Rating": "20A",
             "Package": "D2PAK-7L",
             "Temperature Range": "-40°C to +150°C",
-            "Qualification": "AEC-Q101"
+            "Qualification": "AEC-Q101",
+            "VCE(sat)": "N/A"
           },
           "features": [
             "1200V 20A automotive IGBT",
@@ -135,7 +144,8 @@
             "Current Rating": "40A",
             "Package": "D2PAK-7L",
             "Temperature Range": "-40°C to +150°C",
-            "Qualification": "AEC-Q101"
+            "Qualification": "AEC-Q101",
+            "VCE(sat)": "N/A"
           },
           "features": [
             "1200V 40A automotive IGBT",
@@ -157,6 +167,13 @@
             "highlight": "High-current automotive IGBT for EV traction"
           }
         }
+      ],
+      "parameters": [
+        "Voltage Rating",
+        "Current Rating",
+        "VCE(sat)",
+        "Temperature Range",
+        "Qualification"
       ]
     },
     {
@@ -164,7 +181,10 @@
       "name": "MOSFETs",
       "description": "High-efficiency power MOSFETs for switching applications",
       "series": [
-        {"name": "NTHL Series", "description": "Super junction MOSFETs"}
+        {
+          "name": "NTHL Series",
+          "description": "Super junction MOSFETs"
+        }
       ],
       "products": [
         {
@@ -315,6 +335,12 @@
             "highlight": "Ultra-low RDS(on) for maximum efficiency"
           }
         }
+      ],
+      "parameters": [
+        "Voltage Rating",
+        "Current Rating",
+        "RDS(on)",
+        "Temperature Range"
       ]
     },
     {
@@ -322,8 +348,14 @@
       "name": "SiC MOSFETs",
       "description": "Silicon Carbide MOSFETs for high-efficiency power conversion",
       "series": [
-        {"name": "NTBG Series", "description": "1200V SiC MOSFETs"},
-        {"name": "NTHL Series", "description": "650V SiC MOSFETs"}
+        {
+          "name": "NTBG Series",
+          "description": "1200V SiC MOSFETs"
+        },
+        {
+          "name": "NTHL Series",
+          "description": "650V SiC MOSFETs"
+        }
       ],
       "products": [
         {
@@ -478,6 +510,12 @@
             "highlight": "High-performance 650V SiC MOSFET for server power"
           }
         }
+      ],
+      "parameters": [
+        "Voltage Rating",
+        "Current Rating",
+        "RDS(on)",
+        "Temperature Range"
       ]
     },
     {
@@ -485,8 +523,14 @@
       "name": "Automotive Power Modules",
       "description": "Power modules for automotive traction inverters and onboard chargers",
       "series": [
-        {"name": "NXH Series", "description": "Automotive IGBT modules"},
-        {"name": "NXH-SiC Series", "description": "Automotive SiC MOSFETs"}
+        {
+          "name": "NXH Series",
+          "description": "Automotive IGBT modules"
+        },
+        {
+          "name": "NXH-SiC Series",
+          "description": "Automotive SiC MOSFETs"
+        }
       ],
       "products": [
         {
@@ -503,7 +547,8 @@
             "Current Rating": "20A",
             "Package": "D2PAK-7L",
             "Temperature Range": "-40°C to +150°C",
-            "Qualification": "AEC-Q101"
+            "Qualification": "AEC-Q101",
+            "RDS(on)": "N/A"
           },
           "features": [
             "1200V 20A IGBT with diode",
@@ -541,7 +586,8 @@
             "Current Rating": "40A",
             "Package": "D2PAK-7L",
             "Temperature Range": "-40°C to +150°C",
-            "Qualification": "AEC-Q101"
+            "Qualification": "AEC-Q101",
+            "RDS(on)": "N/A"
           },
           "features": [
             "1200V 40A IGBT with diode",
@@ -600,7 +646,7 @@
           "faeReview": {
             "author": "EV Powertrain FAE",
             "title": "Senior FAE - EV Systems",
-            "content": "The NXH025N120SCQ1 represents the future of EV traction inverters. The SiC technology delivers 3-5% efficiency improvement over IGBTs, directly translating to longer EV range. I've worked with OEMs using this device in 150kW+ traction inverters where efficiency is paramount. The 175°C rating enables operation at higher temperatures, reducing cooling system requirements. The AEC-Q101 qualification is essential for automotive production. For next-generation EV designs, this SiC MOSFET is the optimal choice.",
+            "content": "The NXH025N120SCQ1 is the future of EV traction inverters. The SiC technology delivers 3-5% efficiency improvement over IGBTs, directly translating to longer EV range. I've worked with OEMs using this device in 150kW+ traction inverters where efficiency is paramount. The 175°C rating enables operation at higher temperatures, reducing cooling system requirements. The AEC-Q101 qualification is essential for automotive production. For next-generation EV designs, this SiC MOSFET is the optimal choice.",
             "highlight": "Automotive SiC MOSFET for next-gen EV traction"
           }
         },
@@ -643,6 +689,13 @@
             "highlight": "Premium automotive SiC MOSFET for high-performance EVs"
           }
         }
+      ],
+      "parameters": [
+        "Voltage Rating",
+        "Current Rating",
+        "Temperature Range",
+        "Qualification",
+        "RDS(on)"
       ]
     }
   ]

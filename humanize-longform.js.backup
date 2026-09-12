@@ -1,0 +1,570 @@
+const fs = require('fs');
+const path = require('path');
+
+const DATA_DIR = path.resolve(__dirname, 'data');
+
+// Fields that contain long-form content (articles, FAE insights, FAQ answers, customer cases)
+const LONGFORM_FIELD_PATHS = [
+  /\.content$/i,
+  /\.faeInsights/i,
+  /\.customerCases/i,
+  /\.(insight|logic|insightLogic)$/i,
+  /\.faqs\[\d+\]\.(answer|decisionGuide)$/i,
+  /\.articles\[\d+\]\.faqs\[\d+\]\.(answer|decisionGuide)$/i,
+];
+
+function isLongformPath(path) {
+  return LONGFORM_FIELD_PATHS.some(p => p.test(path));
+}
+
+// Section 1: Undue emphasis on significance/legacy
+function fixSignificanceEmphasis(text) {
+  return text
+    .replace(/\bstands?\s+as\s+a\s+(testament|reminder)\b/gi, 'is one')
+    .replace(/\bis\s+a\s+(vital|significant|crucial|pivotal|key)\s+(role|moment|factor)\b/gi, 'is an important')
+    .replace(/\b(underscores|highlights)\s+its\s+(importance|significance)\b/gi, 'shows its value')
+    .replace(/\b(?:this|that)\s+is\s+a\s+(key\s+)?turning\s+point\b/gi, 'this is a turning point')
+    .replace(/\b(indelible|lasting|enduring)\s+mark\b/gi, 'lasting impact')
+    .replace(/\bsetting\s+the\s+stage\s+for\b/gi, 'paving the way for');
+}
+
+// Section 3: Superficial -ing analyses (enhanced version)
+function fixSuperficialIng(text) {
+  let r = text;
+  // Remove leading/trailing -ing clauses at sentence level
+  r = r.replace(/,\s+(highlighting|underscoring|emphasizing|showcasing|reflecting|symbolizing|contributing to|encompassing|demonstrating|illustrating|reinforcing)\s+[^,.]*\.\s*/gi, '. ');
+  r = r.replace(/,\s+(highlighting|underscoring|emphasizing|showcasing|reflecting|symbolizing|demonstrating|illustrating)\s+[^,.]*$/gi, '.');
+  // Remove -ing openers that add fake depth
+  r = r.replace(/^(Highlighting|Underscoring|Emphasizing|Showcasing|Reflecting|Symbolizing|Demonstrating|Illustrating)\s+[^,.]*,\s+/gi, '');
+  return r;
+}
+
+// Section 6: "Despite challenges" formula
+function fixChallengesSection(text) {
+  return text
+    .replace(/\bDespite\s+(its|these|this)\s+[^,.]*,\s+[^.]*\b(?:faces|encounters|experiences)\s+(?:several\s+)?challenges\b/gi, (m) => {
+      // Extract the actual challenges after the formula
+      const challengesMatch = m.match(/(?:including|such as|like)\s+(.+)/i);
+      if (challengesMatch) return challengesMatch[1].charAt(0).toUpperCase() + challengesMatch[1].slice(1);
+      return m.replace(/Despite\s+(its|these|this)\s+[^,.]*,\s+/i, '').replace(/faces\s+(several\s+)?challenges[.,]?\s*/i, 'has challenges');
+    })
+    .replace(/\bDespite\s+these\s+challenges[^,.]*,/gi, 'However,')
+    .replace(/\bChallenges\s+and\s+(Future\s+)?(Outlook|Legacy)\b/gi, 'Challenges');
+}
+
+// Section 11: Elegant variation (synonym cycling)
+function fixElegantVariation(text) {
+  let r = text;
+  // Detect repeated subject with different descriptors in nearby sentences
+  // Simple approach: collapse obvious synonym chains
+  const synonymChain = /\b(The\s+)?(\w+)\s+(faces|has|is|was|will)\s+[^.]*\.\s+(The\s+)?(\w+)\s+(faces|has|is|was|will)\s+[^.]*\.\s+(The\s+)?(\w+)\s+(faces|has|is|was|will)\s+[^.]*\./gi;
+  r = r.replace(synonymChain, (m) => {
+    const sentences = m.split('.').filter(s => s.trim());
+    if (sentences.length < 2) return m;
+    return sentences.map(s => s.trim()).join('. ') + '.';
+  });
+  return r;
+}
+
+// Section 12: False ranges
+function fixFalseRanges(text) {
+  return text
+    // Remove false "from X to Y" constructions where X and Y aren't on a meaningful scale
+    .replace(/\bfrom\s+the\s+\w+\s+of\s+[^,.]+\s+to\s+the\s+\w+\s+of\s+[^,.]+\b/gi, (m) => {
+      // If it's a bonafide range (years, prices, sizes), keep it
+      if (/\b(from\s+\d{4})\s+(to\s+\d{4})\b/i.test(m)) return m;
+      if (/\b(from\s+\$?[\d,.]+)\s+(to\s+\$?[\d,.]+)\b/i.test(m)) return m;
+      // Otherwise, simplify
+      return m.replace(/\bfrom\s+the\s+/, 'the ').replace(/\s+to\s+the\s+/, ' and the ');
+    });
+}
+
+// Section 13: Passive voice / subjectless fragments
+function fixPassiveVoice(text) {
+  return text
+    .replace(/\bNo\s+(\w+)\s+(needed|required)\b/gi, 'No $1 is needed')
+    .replace(/\bThe\s+results?\s+are\s+preserved\s+automatically\b/gi, 'The results are automatically preserved')
+    .replace(/\bis\s+designed\s+to\b/gi, 'is meant to')
+    .replace(/\bcan\s+be\s+used\s+to\b/gi, 'can')
+    .replace(/\bare\s+able\s+to\s+be\b/gi, 'can be');
+}
+
+// Section 16: Inline-header vertical lists
+function fixInlineHeaderLists(text) {
+  return text
+    .replace(/- \*\*([^:*]+):\*\*\s+/gi, (m, header) => {
+      return `- ${header.toLowerCase()}: `;
+    })
+    .replace(/\*\*([^:*]+):\*\*\s+/gi, (m, header) => {
+      return `${header.toLowerCase()}: `;
+    });
+}
+
+// Section 17: Title case in headings
+function fixTitleCase(text) {
+  // Fix title-cased headings (not all-caps acronyms)
+  return text.replace(/^(#{1,6}\s+)([A-Z][a-z]+\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/gm, (m, prefix, heading) => {
+    const smallWords = ['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'by', 'with', 'of', 'in'];
+    const words = heading.split(' ');
+    const fixed = words.map((w, i) => {
+      if (i === 0) return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+      if (smallWords.includes(w.toLowerCase())) return w.toLowerCase();
+      return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+    });
+    return prefix + fixed.join(' ');
+  });
+}
+
+// Section 18: Emojis in content
+function removeEmojis(text) {
+  return text.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}]/gu, '');
+}
+
+// Section 22: Sycophantic/servile tone
+function fixSycophanticTone(text) {
+  return text
+    .replace(/\bGreat question!\s*/gi, '')
+    .replace(/\bExcellent question!\s*/gi, '')
+    .replace(/\bThat's an excellent (point|question)\b[.!]*\s*/gi, '')
+    .replace(/\bYou're absolutely right!\s*/gi, '')
+    .replace(/\bThat's a great (point|question)\b[.!]*\s*/gi, '');
+}
+
+// Section 26: Predicate-position hyphenated compounds
+function fixHyphenatedCompounds(text) {
+  let r = text;
+  const compounds = [
+    ['cross-functional', 'cross functional'],
+    ['client-facing', 'client facing'],
+    ['data-driven', 'data driven'],
+    ['decision-making', 'decision making'],
+    ['high-quality', 'high quality'],
+    ['real-time', 'real time'],
+    ['long-term', 'long term'],
+    ['end-to-end', 'end to end'],
+    ['well-known', 'well known'],
+  ];
+  for (const [hyphenated, plain] of compounds) {
+    // Only change predicate position: "the report is high-quality" -> "the report is high quality"
+    const predPattern = new RegExp(`\\b(is|are|was|were|become|becomes|became|seems?|appears?)\\s+${hyphenated}\\b`, 'gi');
+    r = r.replace(predPattern, (m) => m.replace(hyphenated, plain));
+  }
+  return r;
+}
+
+// Section 27: Persuasive authority tropes
+function fixPersuasiveAuthority(text) {
+  return text
+    .replace(/\bthe\s+real\s+question\s+is\b/gi, 'the question is')
+    .replace(/\bat its core\b/gi, '')
+    .replace(/\bin reality\b/gi, '')
+    .replace(/\bwhat really matters\b/gi, 'what matters')
+    .replace(/\bthe (deeper|real|heart)\s+(issue|matter|problem)\b/gi, 'the issue')
+    .replace(/\bthe heart of the matter\b/gi, 'the matter');
+}
+
+// Section 29: Fragmented headers (heading followed by restatement)
+function fixFragmentedHeaders(text) {
+  // Detect ## header followed by a single-line paragraph that restates it
+  return text.replace(/^(#{2,6}\s+)(.+)\n\n\1\s*(?:is|are|was|were|refers?\s+to|means?)\s+.+\./gim, (m, prefix, heading) => {
+    const lines = m.split('\n');
+    // Keep the header, remove the restating paragraph
+    return lines[0];
+  });
+}
+
+// Section 31: Staccato drama (short punchline fragments)
+function fixStaccatoDrama(text) {
+  let r = text;
+  // Detect 3+ consecutive short sentences (under 40 chars) that are dramatic
+  const paragraphs = r.split(/\n\n+/);
+  for (let i = 0; i < paragraphs.length; i++) {
+    const sentences = paragraphs[i].split(/(?<=[.!?])\s+/);
+    const shortCount = sentences.filter(s => s.length < 60 && s.length > 0).length;
+    if (shortCount >= 3 && sentences.length >= 3 && shortCount / sentences.length > 0.5) {
+      // Merge them into fewer sentences
+      const merged = [];
+      for (let j = 0; j < sentences.length; j++) {
+        if (j > 0 && sentences[j].length < 60 && merged[merged.length - 1].length < 100) {
+          merged[merged.length - 1] += ' ' + sentences[j].charAt(0).toLowerCase() + sentences[j].slice(1);
+        } else {
+          merged.push(sentences[j]);
+        }
+      }
+      paragraphs[i] = merged.join(' ');
+    }
+  }
+  return paragraphs.join('\n\n');
+}
+
+// Section 32: Aphorisms ("X is the Y of Z")
+function fixAphorisms(text) {
+  return text
+    .replace(/\b\w+\s+is\s+the\s+\w+\s+of\s+\w+\b/gi, (m) => {
+      // "Symmetry is the language of trust" -> keep the concept, remove the formula
+      return m.replace(/\s+the\s+\w+\s+of\s+/, ' relates to ');
+    });
+}
+
+// Section 33: Conversational rhetorical openers
+function fixRhetoricalOpeners(text) {
+  return text
+    .replace(/^(Honestly\?\s*)/gmi, '')
+    .replace(/^(Look,\s*)/gmi, '')
+    .replace(/^(Here's the thing\s*)/gmi, '')
+    .replace(/^(The thing is\s*)/gmi, '')
+    .replace(/^(Let's be honest\s*)/gmi, '')
+    .replace(/^(Real talk\s*)/gmi, '');
+}
+
+// Section 25: Generic positive conclusions (enhanced)
+function fixGenericConclusions(text) {
+  const conclusionPatterns = [
+    /\bthe\s+future\s+(looks|is)\s+(bright|promising|exciting)\s+(for\s+[^.]*\.?)/gi,
+    /\bexciting\s+times\s+(lie|are)\s+ahead\b[^.]*\.?/gi,
+    /\b(?:this|that)\s+represents?\s+a\s+major\s+step\s+(?:in\s+the\s+right\s+direction|forward)\b[^.]*\.?/gi,
+    /\b(?:this|that)\s+is\s+a\s+major\s+step\s+(?:in\s+the\s+right\s+direction|forward)\b[^.]*\.?/gi,
+    /\ba\s+bright\s+future\s+(?:ahead|lies|awaits)\b[^.]*\.?/gi,
+    /\bcontinued\s+(?:growth|success|innovation|excellence)\s+in\s+the\s+years?\s+to\s+come\b[^.]*\.?/gi,
+  ];
+  let r = text;
+  for (const pattern of conclusionPatterns) {
+    r = r.replace(pattern, '');
+  }
+  return r;
+}
+
+// Section 34: Generic customer case result templates
+function fixCustomerCaseResults(text) {
+  let r = text;
+  // Remove "Achieved" opener from all sentences in result text (keep the metrics)
+  r = r.replace(/\bAchieved\s+(?=[A-Z0-9])/gi, '');
+  // Capitalize first letter if needed
+  if (r.length > 0) r = r.charAt(0).toUpperCase() + r.slice(1);
+  // Remove template challenge/feedback placeholders
+  r = r
+    .replace(/^The customer needed a power solution with better efficiency and thermal performance\.?\s*/gi, '')
+    .replace(/^The customer was satisfied with the performance improvement\.?\s*/gi, '');
+  return r;
+}
+
+// Section 35-38: Fixed template rewrite (context-aware, uses brand/product data)
+const FAE_PURE_TEMPLATE_P1 = /^Based on extensive experience supporting customers with .+?[,.] this solution addresses critical design challenges through proven architecture/;
+const FAE_PURE_TEMPLATE_P2 = /^Our field experience shows that proper implementation of this solution delivers significant improvements/;
+const FAE_PURE_TEMPLATE_P3 = /^I recommend working closely with our FAE team during the design phase/;
+const FAQ_FOOTER = / For more detailed information and application guidance, please consult the product datasheet or contact our technical support team\.?\s*/gi;
+const CONTACT_FOOTER = /Contact our technical support team to [^.!]+\.\s*/gi;
+const DATA_PENDING = /^\[Data Pending\][^.]*\.\s*/gm;
+
+function hasMixedCase(str) {
+  return /[a-z]/.test(str) && /[A-Z]/.test(str);
+}
+
+function detectBrandCategory(desc) {
+  desc = (desc || '').toLowerCase();
+  if (/capacitor|aluminum electrolytic|mlcc|tantalum/.test(desc)) return 'passive';
+  if (/resistor|inductor|ferrite|transformer/.test(desc)) return 'passive';
+  if (/connector|interconnect/.test(desc)) return 'connector';
+  if (/power\s+(module|supply|converter|management|ic|device|mosfet|igbt)/.test(desc)) return 'power';
+  if (/sensor|current sensor|magnetic sensor/.test(desc)) return 'sensor';
+  if (/mcu|microcontroller|microcontroller/.test(desc)) return 'mcu';
+  if (/memory|dram|flash|eeprom|storage/.test(desc)) return 'memory';
+  if (/fpga|logic|cpld/.test(desc)) return 'fpga';
+  if (/analog|amplifier|adc|dac|data converter|op amp/.test(desc)) return 'analog';
+  if (/driver|motor\s+driver|gate\s+driver|led\s+driver/.test(desc)) return 'driver';
+  if (/switch|relay|fuse|circuit\s+protection/.test(desc)) return 'protection';
+  if (/module|power\s+module|communication\s+module/.test(desc)) return 'module';
+  if (/diode|rectifier|thyristor/.test(desc)) return 'discrete';
+  if (/wireless|bluetooth|wi-fi|cellular|iot/.test(desc)) return 'wireless';
+  return 'general';
+}
+
+function buildFaeContent(fi, solutionTitle, brandName) {
+  // Assemble from sibling fields
+  const parts = [];
+  if (fi.summary && fi.summary.length > 20 && !fi.summary.includes('Based on extensive')) {
+    parts.push(fi.summary);
+  } else if (fi.recommendation && fi.recommendation.length > 20 && !fi.recommendation.includes('Based on extensive')) {
+    parts.push(fi.recommendation);
+  } else if (fi.keyConsiderations) {
+    const kc = Array.isArray(fi.keyConsiderations) ? fi.keyConsiderations.join(' ') : fi.keyConsiderations;
+    if (kc.length > 20) parts.push(kc);
+  }
+  if (fi.keyTakeaways && Array.isArray(fi.keyTakeaways) && fi.keyTakeaways.length > 0) {
+    parts.push('Key considerations: ' + fi.keyTakeaways.join('; ') + '.');
+  }
+  if (fi.commonPitfalls && Array.isArray(fi.commonPitfalls) && fi.commonPitfalls.length > 0) {
+    parts.push('Common pitfalls to avoid: ' + fi.commonPitfalls.join('; ') + '.');
+  }
+  if (parts.length === 0 && solutionTitle) {
+    parts.push(`${brandName}'s ${solutionTitle} provides a proven solution for this application. For detailed design guidance, please contact our application team.`);
+  }
+  return parts.join('\n\n');
+}
+
+function rewriteBrandContent(data, brandName) {
+  let changes = 0;
+
+  // 1. FAE Insights: replace pure template with sibling-field content
+  const solutions = data.solutions;
+  if (Array.isArray(solutions)) {
+    for (const s of solutions) {
+      const fi = s.faeInsights;
+      if (!fi || typeof fi.content !== 'string') continue;
+      const original = fi.content;
+      let r = original;
+      const isPure = FAE_PURE_TEMPLATE_P1.test(r) || FAE_PURE_TEMPLATE_P2.test(r) || FAE_PURE_TEMPLATE_P3.test(r);
+      if (isPure) {
+        const rebuilt = buildFaeContent(fi, s.title || s.slug, brandName);
+        if (rebuilt && rebuilt !== original) {
+          fi.content = rebuilt;
+          changes++;
+        }
+      }
+    }
+  }
+
+  // 2. FAQ footer: replace with brand-specific version
+  for (const art of (data.articles || [])) {
+    for (const faq of (art.faqs || [])) {
+      if (typeof faq.answer === 'string' && FAQ_FOOTER.test(faq.answer)) {
+        FAQ_FOOTER.lastIndex = 0;
+        faq.answer = faq.answer.replace(FAQ_FOOTER, ` For detailed specifications and application support on ${brandName} products, refer to the datasheet or contact our team.`);
+        changes++;
+      }
+    }
+  }
+  for (const cat of (data.categories || [])) {
+    for (const prod of (cat.products || [])) {
+      for (const faq of (prod.faqs || [])) {
+        if (typeof faq.answer === 'string' && FAQ_FOOTER.test(faq.answer)) {
+          FAQ_FOOTER.lastIndex = 0;
+          faq.answer = faq.answer.replace(FAQ_FOOTER, ` For detailed specifications and application support on ${brandName} ${prod.partNumber || ''}, refer to the datasheet or contact our team.`);
+          changes++;
+        }
+      }
+    }
+  }
+
+  // 3. Contact footer: replace with brand-specific version
+  for (const art of (data.articles || [])) {
+    for (const faq of (art.faqs || [])) {
+      if (typeof faq.answer === 'string' && CONTACT_FOOTER.test(faq.answer)) {
+        CONTACT_FOOTER.lastIndex = 0;
+        faq.answer = faq.answer.replace(CONTACT_FOOTER, `Contact ${brandName}'s technical support team for application-specific design guidance and recommendations. `);
+        changes++;
+      }
+    }
+  }
+  for (const cat of (data.categories || [])) {
+    for (const prod of (cat.products || [])) {
+      if (prod.faeReview && typeof prod.faeReview.content === 'string' && CONTACT_FOOTER.test(prod.faeReview.content)) {
+        CONTACT_FOOTER.lastIndex = 0;
+        prod.faeReview.content = prod.faeReview.content.replace(CONTACT_FOOTER, `Contact ${brandName}'s technical support team for application-specific design guidance and recommendations. `);
+        changes++;
+      }
+    }
+  }
+
+  // 4. [Data Pending] in article/news content: replace with summary + available context
+  for (const section of ['articles', 'news']) {
+    for (const item of (data[section] || [])) {
+      if (!Array.isArray(item.content)) continue;
+      const summary = item.summary || item.description || '';
+      const tags = Array.isArray(item.tags) ? item.tags.join(', ') : '';
+      let modified = false;
+      item.content = item.content.map((p, idx) => {
+        if (typeof p !== 'string' || !/\[Data Pending\]/.test(p)) return p;
+        modified = true;
+        const variants = [
+          summary.length > 20 ? summary : `${brandName} ${item.title || item.slug}: ${summary || 'Comprehensive guide for product selection and application design.'}`,
+          tags ? `Key topics covered include ${tags}. This section provides detailed technical information for engineers designing with ${brandName} products.` : `This technical reference document provides detailed information about ${brandName} product specifications, characteristics, and application guidelines for engineers.`,
+          `For specific application requirements and design assistance, contact ${brandName}'s technical support team or refer to the official product documentation.`
+        ];
+        return variants[idx] || variants[variants.length - 1];
+      });
+      if (modified) changes++;
+    }
+  }
+
+  return changes;
+}
+
+function fixFaeInsightTemplate(text) { return text; }
+function fixFaqFooter(text) { return text; }
+function fixContactFooter(text) { return text; }
+function fixDataPending(text) { return text; }
+
+
+
+// Section 9: Enhanced negative parallelism
+function fixNegParallelism(text) {
+  let r = text;
+  // "Not only... but also..." -> merge
+  r = r.replace(/\bNot only (does|do|did|is|are|was|were)\s+([^,]+),\s+but\s+(also\s+)?(.+?)(?:\.|$)/gi, (m, verb, part1, also, part2) => {
+    return `${part1.trim()} and ${part2.trim()}`;
+  });
+  // "It's not just about X, it's about Y" -> just state Y
+  r = r.replace(/\bit('?s| is) not (just|only) about\s+[^,]+,\s*(?:it'?s|it is)\s+(?:about\s+)?(.+?)(?:\.|$)/gi, (m, a, b, main) => {
+    return main.trim();
+  });
+  // Tailing negations: "no guessing", "no wasted motion"
+  r = r.replace(/,\s+(no|without)\s+\w+(?:\s+\w+)?\s*$/gi, (m) => {
+    return m.replace(/,\s+(no|without)\s+/, ' without ');
+  });
+  return r;
+}
+
+// Section 15: Bold overuse
+function fixBoldOveruse(text) {
+  // Remove bold from longer passages (keep it in short key terms)
+  return text.replace(/\*\*([^*]{20,})\*\*/g, '$1');
+}
+
+// Main humanize function for long-form content
+function humanizeLongform(text) {
+  if (!text || typeof text !== 'string') return text;
+
+  let result = text;
+
+  // Apply all patterns
+  result = fixSignificanceEmphasis(result);
+  result = fixSuperficialIng(result);
+  result = fixChallengesSection(result);
+  result = fixElegantVariation(result);
+  result = fixFalseRanges(result);
+  result = fixPassiveVoice(result);
+  result = fixInlineHeaderLists(result);
+  result = fixTitleCase(result);
+  result = removeEmojis(result);
+  result = fixSycophanticTone(result);
+  result = fixHyphenatedCompounds(result);
+  result = fixPersuasiveAuthority(result);
+  result = fixNegParallelism(result);
+  result = fixCustomerCaseResults(result);
+  result = fixRhetoricalOpeners(result);
+  result = fixGenericConclusions(result);
+  result = fixBoldOveruse(result);
+  result = fixFaeInsightTemplate(result);
+  result = fixFaqFooter(result);
+  result = fixContactFooter(result);
+  result = fixDataPending(result);
+
+  // Fragmented headers needs multi-line context
+  result = fixFragmentedHeaders(result);
+
+  // Staccato drama needs paragraph-level analysis
+  result = fixStaccatoDrama(result);
+
+  // Aphorisms
+  result = fixAphorisms(result);
+
+  // Cleanup
+  result = result
+    .replace(/[ ]{2,}/g, ' ')
+    .replace(/\s+\./g, '.')
+    .replace(/\s+,/g, ',')
+    .replace(/,\./g, '.')
+    .replace(/^,\s*/, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+  return result;
+}
+
+function walkObjectWithPath(obj, visitor, path = '') {
+  if (!obj || typeof obj !== 'object') return;
+  if (Array.isArray(obj)) {
+    for (let i = 0; i < obj.length; i++) {
+      const childPath = `${path}[${i}]`;
+      if (typeof obj[i] === 'string') {
+        obj[i] = visitor(obj[i], childPath);
+      } else {
+        walkObjectWithPath(obj[i], visitor, childPath);
+      }
+    }
+  } else {
+    for (const key of Object.keys(obj)) {
+      const childPath = path ? `${path}.${key}` : key;
+      if (typeof obj[key] === 'string') {
+        obj[key] = visitor(obj[key], childPath);
+      } else {
+        walkObjectWithPath(obj[key], visitor, childPath);
+      }
+    }
+  }
+}
+
+function processBrand(brandDir) {
+  const brandName = path.basename(brandDir);
+  console.log(`\nProcessing: ${brandName}`);
+
+  const files = ['brand.json', 'products.json', 'solutions.json', 'support.json', 'news.json'];
+  let totalFields = 0;
+
+  for (const file of files) {
+    const filePath = path.join(brandDir, file);
+    if (!fs.existsSync(filePath)) {
+      continue;
+    }
+
+    try {
+      const raw = fs.readFileSync(filePath, 'utf8');
+      const data = JSON.parse(raw);
+      const before = JSON.stringify(data);
+
+      let fieldCount = 0;
+      walkObjectWithPath(data, (text, fieldPath) => {
+        if (!isLongformPath(fieldPath)) return text;
+        const humanized = humanizeLongform(text);
+        if (humanized !== text) {
+          fieldCount++;
+        }
+        return humanized;
+      });
+
+      // Context-aware rewrite of fixed templates (FAE, FAQ footer, contact footer, [Data Pending])
+      const rewritten = rewriteBrandContent(data, brandName);
+      if (rewritten > 0) fieldCount += rewritten;
+
+      const after = JSON.stringify(data);
+
+      if (after !== before) {
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf8');
+        totalFields += fieldCount;
+        console.log(`  ${file}: ${fieldCount} long-form fields changed (${rewritten} rewritten with context)`);
+      } else {
+        console.log(`  ${file}: no changes`);
+      }
+    } catch (err) {
+      console.error(`  ERROR ${file}: ${err.message}`);
+    }
+  }
+
+  return totalFields;
+}
+
+function main() {
+  const startTime = Date.now();
+  const brandDirs = fs.readdirSync(DATA_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory() && !d.name.startsWith('_') && !d.name.startsWith('.'))
+    .map(d => path.join(DATA_DIR, d.name));
+
+  const target = process.argv[2];
+  const filtered = target
+    ? brandDirs.filter(d => path.basename(d).toLowerCase() === target.toLowerCase())
+    : brandDirs;
+
+  console.log(`Target brands: ${filtered.length} (${target || 'all'})`);
+  let totalFields = 0;
+
+  for (const dir of filtered) {
+    totalFields += processBrand(dir);
+  }
+
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`\n=== Done in ${elapsed}s ===`);
+  console.log(`Total long-form fields changed: ${totalFields}`);
+}
+
+main();

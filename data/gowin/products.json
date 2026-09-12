@@ -51,7 +51,7 @@
     },
     {
       "question": "Does Gowin provide development boards for evaluation?",
-      "answer": "Yes, Gowin offers the Tang Nano series of development boards, which are compact, affordable, and feature-rich platforms for FPGA evaluation and prototyping. The Tang Nano boards include various models with different Gowin FPGA devices, providing options for different logic capacity and I/O requirements. These boards typically feature USB programming interfaces, onboard memory, various I/O connectors, and expansion headers. The Tang Nano ecosystem has gained popularity in the maker community and education sector due to its low cost and ease of use. Additionally, Gowin provides reference designs, example projects, and comprehensive documentation to help users get started quickly.",
+      "answer": "Yes, Gowin offers the Tang Nano series of development boards, which are compact, affordable, and feature-rich platforms for FPGA evaluation and prototyping. The Tang Nano boards include various models with different Gowin FPGA devices, providing options for different logic capacity and I/O requirements. These boards typically feature USB programming interfaces, onboard memory, various I/O connectors, and expansion headers. The Tang Nano ecosystem has gained popularity in the maker community and education sector due to its low cost and ease of use. Gowin provides reference designs, example projects, and comprehensive documentation to help users get started quickly.",
       "decisionGuide": "Purchase a Tang Nano development board from BeiLuo to evaluate Gowin FPGAs for your application. We offer bundled kits with cables and documentation.",
       "keywords": [
         "Gowin development board",
@@ -64,7 +64,7 @@
     {
       "id": "littlebee-fpga",
       "name": "LittleBee FPGAs",
-      "description": "The LittleBee family represents Gowin's ultra-low-power FPGA series, designed specifically for battery-powered and portable applications. These devices feature embedded flash configuration memory that enables instant-on operation without external configuration devices. With static power consumption as low as microamps and compact package options including WLCSP, LittleBee FPGAs are ideal for IoT sensors, wearable devices, portable electronics, and industrial control applications where power efficiency and size are critical. The family offers various logic densities to accommodate different design complexities while maintaining the core advantages of low power and small form factor.",
+      "description": "The LittleBee family is Gowin's ultra-low-power FPGA series, designed specifically for battery-powered and portable applications. These devices feature embedded flash configuration memory that enables instant-on operation without external configuration devices. With static power consumption as low as microamps and compact package options including WLCSP, LittleBee FPGAs are ideal for IoT sensors, wearable devices, portable electronics, and industrial control applications where power efficiency and size are critical. The family offers various logic densities to accommodate different design complexities while maintaining the core advantages of low power and small form factor.",
       "parameters": [
         "Logic Elements",
         "Registers",
@@ -75,7 +75,8 @@
         "I/O Voltage",
         "Temperature Range",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Embedded SDRAM"
       ],
       "applications": [
         "IoT Sensors",
@@ -163,7 +164,8 @@
             "I/O Voltage": "1.2V - 3.3V",
             "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Embedded SDRAM": "N/A"
           },
           "features": [
             "Ultra-low static power consumption",
@@ -345,7 +347,8 @@
             "I/O Voltage": "1.2V - 3.3V",
             "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Embedded SDRAM": "N/A"
           },
           "features": [
             "Maximum logic capacity in LittleBee family",
@@ -527,7 +530,8 @@
             "Static Power": "<50μA",
             "I/O Count": "42",
             "Core Voltage": "1.2V",
-            "I/O Voltage": "1.2V-3.3V"
+            "I/O Voltage": "1.2V-3.3V",
+            "Embedded SDRAM": "N/A"
           },
           "features": [
             "8,640 LUT4 logic elements",
@@ -745,7 +749,7 @@
     {
       "id": "arora-fpga",
       "name": "Arora FPGAs",
-      "description": "The Arora family represents Gowin's high-performance FPGA series, designed for demanding applications requiring high logic density, advanced DSP capabilities, and high-speed I/O. These devices feature SRAM-based configuration and offer significantly more resources than the LittleBee family, including higher LUT counts, more DSP blocks, and support for external high-speed memory interfaces. Arora FPGAs are ideal for video processing, communications infrastructure, edge AI acceleration, and industrial vision applications. The family includes devices with various capacity points to match different application requirements while maintaining cost-effectiveness.",
+      "description": "The Arora family is Gowin's high-performance FPGA series, designed for demanding applications requiring high logic density, advanced DSP capabilities, and high-speed I/O. These devices feature SRAM-based configuration and offer significantly more resources than the LittleBee family, including higher LUT counts, more DSP blocks, and support for external high-speed memory interfaces. Arora FPGAs are ideal for video processing, communications infrastructure, edge AI acceleration, and industrial vision applications. The family includes devices with various capacity points to match different application requirements while maintaining cost-effectiveness.",
       "parameters": [
         "Logic Elements",
         "Registers",
@@ -756,7 +760,8 @@
         "I/O Voltage",
         "Temperature Range",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "SerDes"
       ],
       "applications": [
         "Video Processing",
@@ -844,7 +849,8 @@
             "I/O Voltage": "1.2V - 3.3V",
             "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "SerDes": "N/A"
           },
           "features": [
             "High logic density for complex designs",
@@ -1029,7 +1035,8 @@
             "I/O Voltage": "1.2V - 3.3V",
             "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "SerDes": "N/A"
           },
           "features": [
             "Maximum logic capacity in Arora family",
@@ -1174,7 +1181,7 @@
             },
             {
               "question": "Can the GW2A-55 handle multiple DDR3 memory interfaces?",
-              "answer": "Yes, the GW2A-55 can support multiple DDR3 memory interfaces simultaneously, thanks to its abundant I/O resources and logic capacity. The QN132 package provides up to 176 user I/Os, which is sufficient for multiple DDR3 interfaces. Each DDR3 interface requires approximately 30-40 pins (data, address, control, and clock). Therefore, you could potentially implement 3-4 DDR3 interfaces, though practical limitations like power consumption and PCB complexity may reduce this. Multiple DDR3 interfaces are useful for: 1) High-bandwidth applications - aggregate bandwidth across multiple memory channels. 2) Multi-processor systems - separate memory interfaces for different processing units. 3) Video processing - dedicated frame buffers for different video streams. Gowin provides DDR3 controller IP that can be instantiated multiple times.",
+              "answer": "Yes, the GW2A-55 can support multiple DDR3 memory interfaces simultaneously, thanks to its abundant I/O resources and logic capacity. The QN132 package provides up to 176 user I/Os, which is sufficient for multiple DDR3 interfaces. Each DDR3 interface requires approximately 30-40 pins (data, address, control, and clock). Therefore, you could implement 3-4 DDR3 interfaces, though practical limitations like power consumption and PCB complexity may reduce this. Multiple DDR3 interfaces are useful for: 1) High-bandwidth applications - aggregate bandwidth across multiple memory channels. 2) Multi-processor systems - separate memory interfaces for different processing units. 3) Video processing - dedicated frame buffers for different video streams. Gowin provides DDR3 controller IP that can be instantiated multiple times.",
               "decisionGuide": "Calculate your bandwidth requirements and determine if multiple DDR3 interfaces are needed. Contact us for multi-channel memory system design guidance.",
               "keywords": [
                 "GW2A-55 DDR3",
@@ -1214,7 +1221,8 @@
             "Block RAM": "828Kbit",
             "I/O Count": "207",
             "Core Voltage": "1.0V",
-            "I/O Voltage": "1.2V-3.3V"
+            "I/O Voltage": "1.2V-3.3V",
+            "SerDes": "N/A"
           },
           "features": [
             "18,720 LUT4 logic elements",
@@ -1438,7 +1446,16 @@
         "Storage",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "FPGA",
+        "Embedded Memory",
+        "Video Output",
+        "Programming",
+        "GPIO",
+        "Power",
+        "External Memory",
+        "PCIe Interface",
+        "High-Speed I/O"
       ],
       "applications": [
         "FPGA Learning",
@@ -1530,7 +1547,16 @@
             "Storage": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "FPGA": "N/A",
+            "Embedded Memory": "N/A",
+            "Video Output": "N/A",
+            "Programming": "N/A",
+            "GPIO": "N/A",
+            "Power": "N/A",
+            "External Memory": "N/A",
+            "PCIe Interface": "N/A",
+            "High-Speed I/O": "N/A"
           },
           "features": [
             "Ultra-compact form factor",
@@ -1718,7 +1744,16 @@
             "Price": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "FPGA": "N/A",
+            "Embedded Memory": "N/A",
+            "Video Output": "N/A",
+            "Programming": "N/A",
+            "GPIO": "N/A",
+            "Power": "N/A",
+            "External Memory": "N/A",
+            "PCIe Interface": "N/A",
+            "High-Speed I/O": "N/A"
           },
           "features": [
             "High-capacity FPGA for complex projects",
@@ -1915,7 +1950,10 @@
             "Video Output": "HDMI (1080p60)",
             "Programming": "USB-C ( onboard programmer)",
             "GPIO": "40-pin header (2x20)",
-            "Power": "USB-C 5V"
+            "Power": "USB-C 5V",
+            "External Memory": "N/A",
+            "PCIe Interface": "N/A",
+            "High-Speed I/O": "N/A"
           },
           "features": [
             "GW2AR-LV18 FPGA (18K LUTs)",
@@ -2031,7 +2069,10 @@
             "PCIe Interface": "Gen2 x4",
             "Programming": "JTAG + USB-C",
             "High-Speed I/O": "SMA connectors, FMC connector",
-            "Power": "12V DC adapter"
+            "Power": "12V DC adapter",
+            "Embedded Memory": "N/A",
+            "Video Output": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "GW5AT-LV138 FPGA (138K LUTs)",
@@ -2147,7 +2188,22 @@
         "User Interface",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Architecture",
+        "Pipeline",
+        "Max Frequency",
+        "Core Size",
+        "DMIPS",
+        "FPU",
+        "Cache",
+        "Debug",
+        "MAC Units",
+        "Precision",
+        "On-chip Memory",
+        "Throughput",
+        "Latency",
+        "Power",
+        "Supported Networks"
       ],
       "applications": [
         "Interface Bridging",
@@ -2237,7 +2293,22 @@
             "User Interface": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Architecture": "N/A",
+            "Pipeline": "N/A",
+            "Max Frequency": "N/A",
+            "Core Size": "N/A",
+            "DMIPS": "N/A",
+            "FPU": "N/A",
+            "Cache": "N/A",
+            "Debug": "N/A",
+            "MAC Units": "N/A",
+            "Precision": "N/A",
+            "On-chip Memory": "N/A",
+            "Throughput": "N/A",
+            "Latency": "N/A",
+            "Power": "N/A",
+            "Supported Networks": "N/A"
           },
           "features": [
             "Compliant with MIPI CSI-2 specification",
@@ -2419,7 +2490,22 @@
             "Output Interface": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Architecture": "N/A",
+            "Pipeline": "N/A",
+            "Max Frequency": "N/A",
+            "Core Size": "N/A",
+            "DMIPS": "N/A",
+            "FPU": "N/A",
+            "Cache": "N/A",
+            "Debug": "N/A",
+            "MAC Units": "N/A",
+            "Precision": "N/A",
+            "On-chip Memory": "N/A",
+            "Throughput": "N/A",
+            "Latency": "N/A",
+            "Power": "N/A",
+            "Supported Networks": "N/A"
           },
           "features": [
             "JEDEC DDR3 compliant interface",
@@ -2612,7 +2698,14 @@
             "DMIPS": "1.5 DMIPS/MHz",
             "FPU": "Optional single-precision",
             "Cache": "Configurable I/D cache (0-32KB)",
-            "Debug": "JTAG + GDB support"
+            "Debug": "JTAG + GDB support",
+            "MAC Units": "N/A",
+            "Precision": "N/A",
+            "On-chip Memory": "N/A",
+            "Throughput": "N/A",
+            "Latency": "N/A",
+            "Power": "N/A",
+            "Supported Networks": "N/A"
           },
           "features": [
             "RISC-V RV32IMACF ISA compatible",
@@ -2739,7 +2832,14 @@
             "Throughput": "Up to 100 GOPS",
             "Latency": "<10ms typical",
             "Power": "<1W typical",
-            "Supported Networks": "MobileNet, ResNet, Custom"
+            "Supported Networks": "MobileNet, ResNet, Custom",
+            "Pipeline": "N/A",
+            "Max Frequency": "N/A",
+            "Core Size": "N/A",
+            "DMIPS": "N/A",
+            "FPU": "N/A",
+            "Cache": "N/A",
+            "Debug": "N/A"
           },
           "features": [
             "Configurable systolic array architecture",

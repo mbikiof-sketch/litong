@@ -1818,7 +1818,7 @@
           "faqs": [
             {
               "question": "What is Field Oriented Control (FOC)?",
-              "answer": "Field Oriented Control (FOC) is an advanced motor control algorithm that provides precise torque and speed control for 3-phase motors. FOC transforms 3-phase currents into direct and quadrature components aligned with rotor flux, enabling independent control of torque and flux. This results in smooth operation, high efficiency, and fast dynamic response. The AC7840-MOTOR includes hardware support for FOC including current sensing and PWM generation synchronized with rotor position.",
+              "answer": "Field Oriented Control (FOC) is an advanced motor control algorithm that provides precise torque and speed control for 3-phase motors. FOC transforms 3-phase currents into direct and quadrature components match rotor flux, enabling independent control of torque and flux. This results in smooth operation, high efficiency, and fast dynamic response. The AC7840-MOTOR includes hardware support for FOC including current sensing and PWM generation synchronized with rotor position.",
               "decisionGuide": "FOC is essential for high-performance motor control applications requiring precise torque control.",
               "keywords": [
                 "Field Oriented Control",

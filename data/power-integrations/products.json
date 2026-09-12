@@ -60,7 +60,8 @@
         "Current Rating",
         "Switching Frequency",
         "Voltage Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "MOSFET RDS(on)"
       ],
       "applications": [
         "Power Adapters",
@@ -118,7 +119,8 @@
             "Current Rating": "N/A",
             "Switching Frequency": "N/A",
             "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "MOSFET RDS(on)": "N/A"
           },
           "features": [
             "Integrated 750V power MOSFET",
@@ -137,7 +139,7 @@
           "faeReview": {
             "author": "Michael Chen",
             "title": "Senior FAE - Power Systems",
-            "content": "In my 10 years of experience with AC-DC designs, the InnoSwitch3 family represents a significant advancement in flyback converter technology. The integration of synchronous rectification with primary-side control through FluxLink technology eliminates the traditional optocoupler, which is often a reliability concern in power supplies. I particularly recommend the INN3675C for designs where both efficiency and compact size are critical. The built-in protection features and excellent EMI characteristics reduce design time and BOM cost. For high-volume production, the consistent performance across temperature and line conditions ensures reliable operation.",
+            "content": "In my 10 years of experience with AC-DC designs, the InnoSwitch3 family is significant advancement in flyback converter technology. The integration of synchronous rectification with primary-side control through FluxLink technology eliminates the traditional optocoupler, which is often a reliability concern in power supplies. I particularly recommend the INN3675C for designs where both efficiency and compact size are critical. The built-in protection features and excellent EMI characteristics reduce design time and BOM cost. For high-volume production, the consistent performance across temperature and line conditions ensures reliable operation.",
             "highlight": "Excellent efficiency and reliability with integrated synchronous rectification"
           },
           "alternativeParts": [
@@ -280,7 +282,8 @@
             "Power Rating": "N/A",
             "Efficiency": "N/A",
             "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "MOSFET RDS(on)": "N/A"
           },
           "features": [
             "Integrated 725V power MOSFET",
@@ -482,7 +485,8 @@
             "Current Rating": "N/A",
             "Switching Frequency": "132kHz",
             "Voltage Rating": "N/A",
-            "Temperature Range": "-40°C to +150°C"
+            "Temperature Range": "-40°C to +150°C",
+            "MOSFET RDS(on)": "N/A"
           },
           "features": [
             "Integrated 700V power MOSFET",
@@ -999,7 +1003,7 @@
           "faeReview": {
             "author": "Robert Chen",
             "title": "Senior FAE - Motor Control",
-            "content": "BridgeSwitch-2 represents a significant advancement in integrated motor drive technology. The BRD1265C integrates everything needed for a half-bridge power stage, dramatically reducing design complexity and PCB area. What I find most impressive is the integrated FREDFETs with optimized body diodes - they provide excellent switching performance without external diodes. The phase current sensing is accurate and enables precise motor control. For appliance applications like refrigerator compressors, the high integration reduces BOM cost while improving reliability. I recommend using the SO-14C package with adequate copper area for thermal management.",
+            "content": "BridgeSwitch-2 is significant advancement in integrated motor drive technology. The BRD1265C integrates everything needed for a half-bridge power stage, dramatically reducing design complexity and PCB area. What I find most impressive is the integrated FREDFETs with optimized body diodes - they provide excellent switching performance without external diodes. The phase current sensing is accurate and enables precise motor control. For appliance applications like refrigerator compressors, the high integration reduces BOM cost while improving reliability. I recommend using the SO-14C package with adequate copper area for thermal management.",
             "highlight": "High integration with excellent thermal performance for appliance motors"
           },
           "alternativeParts": [
@@ -1819,7 +1823,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on power-integrations SIC1182K, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1828,7 +1832,7 @@
             },
             {
               "question": "What applications is GATEDRIVERS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on power-integrations SIC1182K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1837,7 +1841,7 @@
             },
             {
               "question": "What is the temperature range of GATEDRIVERS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on power-integrations SIC1182K, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1846,7 +1850,7 @@
             },
             {
               "question": "What package options are available for GATEDRIVERS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on power-integrations SIC1182K, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1855,7 +1859,7 @@
             },
             {
               "question": "What is the lead time for GATEDRIVERS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on power-integrations SIC1182K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1953,7 +1957,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on power-integrations SIC1181K, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1962,7 +1966,7 @@
             },
             {
               "question": "What applications is GATEDRIVERS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on power-integrations SIC1181K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1971,7 +1975,7 @@
             },
             {
               "question": "What is the temperature range of GATEDRIVERS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on power-integrations SIC1181K, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1980,7 +1984,7 @@
             },
             {
               "question": "What package options are available for GATEDRIVERS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on power-integrations SIC1181K, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1989,7 +1993,7 @@
             },
             {
               "question": "What is the lead time for GATEDRIVERS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on power-integrations SIC1181K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

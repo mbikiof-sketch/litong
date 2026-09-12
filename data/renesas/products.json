@@ -429,7 +429,12 @@
         "Propagation Delay",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Core",
+        "Frequency",
+        "Flash Memory",
+        "RAM",
+        "GPIO"
       ],
       "applications": [
         "Motor Control",
@@ -522,7 +527,12 @@
             "Propagation Delay": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Core": "N/A",
+            "Frequency": "N/A",
+            "Flash Memory": "N/A",
+            "RAM": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "Wide 4.5V to 80V input voltage range",
@@ -646,7 +656,12 @@
             "Efficiency": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Core": "N/A",
+            "Frequency": "N/A",
+            "Flash Memory": "N/A",
+            "RAM": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "60V maximum bootstrap voltage",
@@ -767,7 +782,15 @@
             "Package": "LQFP-100, LQFP-64",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Supply Voltage": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Propagation Delay": "N/A"
           },
           "features": [
             "Arm Cortex-M33 with TrustZone security",
@@ -823,7 +846,15 @@
             "Package": "LSSOP-30, QFN-32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "Output Current": "N/A",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Supply Voltage": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Propagation Delay": "N/A"
           },
           "features": [
             "Ultra-low power RL78 core",
@@ -885,7 +916,15 @@
         "Propagation Delay",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Dropout Voltage",
+        "PSRR",
+        "Output Noise",
+        "Initial Accuracy",
+        "Temperature Coefficient",
+        "Line Regulation",
+        "Load Regulation",
+        "Supply Current"
       ],
       "applications": [
         "Motor Control",
@@ -978,7 +1017,15 @@
             "Propagation Delay": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Dropout Voltage": "N/A",
+            "PSRR": "N/A",
+            "Output Noise": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Line Regulation": "N/A",
+            "Load Regulation": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "Wide 4.5V to 80V input voltage range",
@@ -1036,7 +1083,15 @@
             "Efficiency": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Dropout Voltage": "N/A",
+            "PSRR": "N/A",
+            "Output Noise": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Line Regulation": "N/A",
+            "Load Regulation": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "60V maximum bootstrap voltage",
@@ -1089,7 +1144,20 @@
             "Dropout Voltage": "180mV at 3A",
             "PSRR": "70dB at 1kHz",
             "Output Noise": "40µVrms (10Hz-100kHz)",
-            "Package": "DFN-10, TQFN-10"
+            "Package": "DFN-10, TQFN-10",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Supply Voltage": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Propagation Delay": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Initial Accuracy": "N/A",
+            "Temperature Coefficient": "N/A",
+            "Line Regulation": "N/A",
+            "Load Regulation": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "Ultra-low output noise 40µVrms",
@@ -1144,7 +1212,19 @@
             "Line Regulation": "10ppm/V",
             "Load Regulation": "15ppm/mA",
             "Supply Current": "280µA",
-            "Package": "SOT-23, SOIC-8"
+            "Package": "SOT-23, SOIC-8",
+            "Input Voltage": "N/A",
+            "Output Current": "N/A",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Supply Voltage": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Propagation Delay": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Dropout Voltage": "N/A",
+            "PSRR": "N/A"
           },
           "features": [
             "Ultra-low temperature drift 3ppm/°C",
@@ -1196,10 +1276,13 @@
       ],
       "parameters": [
         "Supply Voltage",
+        "Bootstrap Voltage",
         "Output Current",
-        "Motor Type",
-        "Control Interface",
-        "Protection Features"
+        "Switching Frequency",
+        "Microstepping",
+        "Interface",
+        "Propagation Delay",
+        "Commutation"
       ],
       "applications": [
         "Industrial Automation",
@@ -1228,7 +1311,11 @@
             "Bootstrap Voltage": "Up to 80V",
             "Output Current": "2.5A source/sink",
             "Switching Frequency": "Up to 500kHz",
-            "Package": "SOIC-20"
+            "Package": "SOIC-20",
+            "Microstepping": "N/A",
+            "Interface": "N/A",
+            "Propagation Delay": "N/A",
+            "Commutation": "N/A"
           },
           "features": [
             "80V maximum bootstrap voltage",
@@ -1265,7 +1352,11 @@
             "Output Current": "2A per coil",
             "Microstepping": "Up to 1/16 step",
             "Interface": "SPI",
-            "Package": "QFN-32"
+            "Package": "QFN-32",
+            "Bootstrap Voltage": "N/A",
+            "Switching Frequency": "N/A",
+            "Propagation Delay": "N/A",
+            "Commutation": "N/A"
           },
           "features": [
             "2A per coil output current",
@@ -1303,7 +1394,11 @@
             "Bootstrap Voltage": "Up to 100V",
             "Output Current": "4A source/sink",
             "Propagation Delay": "25ns",
-            "Package": "SOIC-8"
+            "Package": "SOIC-8",
+            "Switching Frequency": "N/A",
+            "Microstepping": "N/A",
+            "Interface": "N/A",
+            "Commutation": "N/A"
           },
           "features": [
             "100V maximum bootstrap voltage",
@@ -1340,7 +1435,11 @@
             "Output Current": "Configurable",
             "Commutation": "Sensorless",
             "Interface": "SPI/PWM",
-            "Package": "QFN-48"
+            "Package": "QFN-48",
+            "Bootstrap Voltage": "N/A",
+            "Switching Frequency": "N/A",
+            "Microstepping": "N/A",
+            "Propagation Delay": "N/A"
           },
           "features": [
             "Three-phase BLDC control",
@@ -1380,8 +1479,9 @@
         "Input Voltage",
         "Output Voltage",
         "Output Current",
-        "Topology",
-        "Dimming Method"
+        "Dimming",
+        "Switching Frequency",
+        "Topology"
       ],
       "applications": [
         "Automotive Lighting",
@@ -1410,7 +1510,9 @@
             "Output Voltage": "Up to 60V",
             "Output Current": "120mA per channel",
             "Dimming": "10-bit PWM + 10-bit analog",
-            "Package": "QFN-32"
+            "Package": "QFN-32",
+            "Switching Frequency": "N/A",
+            "Topology": "N/A"
           },
           "features": [
             "6 independent LED channels",
@@ -1448,7 +1550,9 @@
             "Output Voltage": "Up to 50V",
             "Output Current": "1.5A",
             "Dimming": "Analog and PWM",
-            "Package": "SOIC-8"
+            "Package": "SOIC-8",
+            "Switching Frequency": "N/A",
+            "Topology": "N/A"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1486,7 +1590,9 @@
             "Output Voltage": "Up to 38V",
             "Output Current": "3A",
             "Switching Frequency": "Up to 2MHz",
-            "Package": "QFN-16"
+            "Package": "QFN-16",
+            "Dimming": "N/A",
+            "Topology": "N/A"
           },
           "features": [
             "3A maximum output current",
@@ -1524,7 +1630,9 @@
             "Output Voltage": "Up to 45V",
             "Output Current": "2A",
             "Topology": "Buck-boost",
-            "Package": "QFN-20"
+            "Package": "QFN-20",
+            "Dimming": "N/A",
+            "Switching Frequency": "N/A"
           },
           "features": [
             "Buck-boost topology",

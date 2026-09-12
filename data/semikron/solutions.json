@@ -10,7 +10,7 @@
     "r",
     "o",
     "n",
-    " ",
+    "",
     "s",
     "o",
     "l",
@@ -20,8 +20,8 @@
     "o",
     "n",
     "s",
-    ",",
-    " ",
+    "",
+    "",
     "r",
     "e",
     "f",
@@ -31,7 +31,7 @@
     "n",
     "c",
     "e",
-    " ",
+    "",
     "d",
     "e",
     "s",
@@ -39,20 +39,20 @@
     "g",
     "n",
     "s",
-    ",",
-    " ",
+    "",
+    "",
     "m",
     "o",
     "t",
     "o",
     "r",
-    " ",
+    "",
     "d",
     "r",
     "i",
     "v",
     "e",
-    " ",
+    "",
     "s",
     "o",
     "l",
@@ -61,14 +61,14 @@
     "i",
     "o",
     "n",
-    ",",
-    " ",
+    "",
+    "",
     "s",
     "o",
     "l",
     "a",
     "r",
-    " ",
+    "",
     "i",
     "n",
     "v",
@@ -77,7 +77,7 @@
     "t",
     "e",
     "r",
-    " ",
+    "",
     "s",
     "o",
     "l",
@@ -86,11 +86,11 @@
     "i",
     "o",
     "n",
-    ",",
-    " ",
+    "",
+    "",
     "E",
     "V",
-    " ",
+    "",
     "c",
     "h",
     "a",
@@ -98,7 +98,7 @@
     "g",
     "e",
     "r",
-    " ",
+    "",
     "s",
     "o",
     "l",
@@ -107,8 +107,8 @@
     "i",
     "o",
     "n",
-    ",",
-    " ",
+    "",
+    "",
     "a",
     "p",
     "p",
@@ -120,21 +120,21 @@
     "i",
     "o",
     "n",
-    " ",
+    "",
     "n",
     "o",
     "t",
     "e",
     "s",
-    ",",
-    " ",
+    "",
+    "",
     "d",
     "e",
     "s",
     "i",
     "g",
     "n",
-    " ",
+    "",
     "s",
     "u",
     "p",
@@ -411,7 +411,7 @@
           "Implement comprehensive fault protection strategy including hardware and software two-level protection",
           "Regularly perform thermal imaging checks to discover thermal problems in time"
         ],
-        "content": "Based on extensive experience supporting customers with Industrial Motor Drive, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: SEMiTRANS 4 series is the best choice for 30-90kW industrial drives; Silver sintering technology significantly improves thermal cycling lifetime, suitable for frequent start-stop applications; SKYPER32PRO drivers provide comprehensive protection functionality; 4-8kHz switching frequency is the optimal balance between efficiency and EMI; SKiiP series suitable for rapid development and cost-sensitive applications.\n\nCommon pitfalls to avoid: Neglecting thermal design leads to module overheating failure; Improper gate resistor selection causes excessive switching losses or EMI issues; Dead time set too small leads to bridge arm shoot-through damaging IGBT.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -548,9 +548,9 @@
       "seoDescription": "High-efficiency solar string inverter solution using Semikron IGBT modules and gate drivers. 98.5% efficiency, MPPT >99.9%. Complete design files. Contact: +86 15013702378",
       "faqs": [
         {
-          "question": "such as optimize  MPPTEfficiency?",
-          "answer": "MPPTEfficiencyoptimizeis Design  . useSemikron IGBTmodule , recommendadopt strategy: Algorithmselect -  (P&O)suitable items , Conductance (INC)in changeitems performance ;  Frequency - 16-20kHzcan andCurrentRipple, SKM200GB12T4in excellent performance in this frequency range;  Accuracy - VoltageCurrent Accuracy achieve12 ,  not Frequency 10 ; Dynamicresponse -  Speed canin100ms response change;   - partial Scenario adopt Algorithmavoid partial .  indicate, adoptSKM200GB12T4 20kW ,  Efficiencycan 98.2%, MPPTEfficiency 99.9%.",
-          "decisionGuide": "according toapplyScenarioselectsuitable MPPTAlgorithmand Frequency, Contactwe  MPPToptimizesolution.",
+          "question": "such as optimize MPPTEfficiency?",
+          "answer": "MPPTEfficiencyoptimizeis Design. useSemikron IGBTmodule, recommendadopt strategy: Algorithmselect - (P&O)suitable items, Conductance (INC)in changeitems performance ; Frequency - 16-20kHzcan andCurrentRipple, SKM200GB12T4in excellent performance in this frequency range; Accuracy - VoltageCurrent Accuracy achieve12, not Frequency 10 ; Dynamicresponse - Speed canin100ms response change; - partial Scenario adopt Algorithmavoid partial. indicate, adoptSKM200GB12T4 20kW, Efficiencycan 98.2%, MPPTEfficiency 99.9%.",
+          "decisionGuide": "according toapplyScenarioselectsuitable MPPTAlgorithmand Frequency, Contactwe MPPToptimizesolution.",
           "keywords": [
             "MPPT",
             "Semikron IGBT",
@@ -558,9 +558,9 @@
           ]
         },
         {
-          "question": "Design  keyEMC have ?",
-          "answer": "EMCDesignrequiring and : input  - DC configureTotal and ,  FrequencyHarmonic; output  - AC LC Design THDwant andVolumelimit, Inductance usuallyfor0.5-2mH;  Design - IGBTmodule hotandEMI  , necessary increase ;   - adopt , Power andcontrol ;   - Power and ,  100mm;  Selection - RecommendeduseCorcomorSchaffner  . Semikron IGBTmodule  property use Frequency, have reduceEMI. recommend EMC ,  Designcanthrough Compatibletestverify.",
-          "decisionGuide": "in Design then EMCwant , referenceourEMCDesignGuidecarry out Compatibletest.",
+          "question": "Design keyEMC have ?",
+          "answer": "EMCDesignrequiring and : input - DC configureTotal and, FrequencyHarmonic; output - AC LC Design THDwant andVolumelimit, Inductance usuallyfor0.5-2mH; Design - IGBTmodule hotandEMI, necessary increase ; - adopt, Power andcontrol ; - Power and, 100mm; Selection - RecommendeduseCorcomorSchaffner. Semikron IGBTmodule property use Frequency, have reduceEMI. recommend EMC, Designcanthrough Compatibletestverify.",
+          "decisionGuide": "in Design then EMCwant, referenceourEMCDesignGuidecarry out Compatibletest.",
           "keywords": [
             "EMC",
             "Design",
@@ -569,8 +569,8 @@
         },
         {
           "question": "and requiring standard?",
-          "answer": "and   standardwant :  Voltage (LVRT) -  Voltage 20% maintainand 150ms , Voltagerestore 2 restorenormal ; no Power  - Power scope0.95 0.95 , support Voltage ; Harmoniclimit - CurrentTHD<5%,  Harmonic IEC 61000-3-6want ; Frequencyresponse -  / protect and protect , usually49.5-50.5Hzfornormalworkscope;  protect - 2 detectto Statusand ; DC  - outputCurrentDC <0.5% Current. Semikron IGBTmodule highcan ensure  in items  stablerun. not / have standard , such as VDE-AR-N 4105,  NB/T 32004wait.",
-          "decisionGuide": "according togoalMarketingselectfor   standardcarry outCertifyDesign, We provide and standard technical support.",
+          "answer": "and standardwant : Voltage (LVRT) - Voltage 20% maintainand 150ms, Voltagerestore 2 restorenormal ; no Power - Power scope0.95 0.95, support Voltage ; Harmoniclimit - CurrentTHD<5%, Harmonic IEC 61000-3-6want ; Frequencyresponse - / protect and protect, usually49.5-50.5Hzfornormalworkscope; protect - 2 detectto Statusand ; DC - outputCurrentDC <0.5% Current. Semikron IGBTmodule highcan ensure in items stablerun. not / have standard, such as VDE-AR-N 4105, NB/T 32004wait.",
+          "decisionGuide": "according togoalMarketingselectfor standardcarry outCertifyDesign, We provide and standard technical support.",
           "keywords": [
             "and standard",
             "LVRT Voltage",
@@ -634,7 +634,7 @@
           "Perform thermal simulation during design phase to optimize heatsink selection",
           "Early EMC pre-compliance testing to discover problems in time"
         ],
-        "content": "Based on extensive experience supporting customers with Solar Inverter, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: SKM200GB12T4 is the best choice for 20-50kW solar inverters; 16-20kHz switching frequency achieves the best balance between efficiency and EMI; European efficiency above 98% requires careful loss optimization; Thermal design must consider high-temperature environment derating; Grid code certification requires advance planning to avoid later rework.\n\nCommon pitfalls to avoid: Neglecting device derating in high-temperature environments leads to summer efficiency degradation; Improper MPPT algorithm selection causes significant efficiency loss in partial shading scenarios; Insufficient EMC design leads to repeated certification test rework.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -660,7 +660,7 @@
       "industry": "Power Supply",
       "blockDiagram": "/assets/solutions/power-supply-diagram.svg",
       "description": "Reliable AC-DC conversion solution for industrial power supplies with high power factor correction (PFC), low harmonic distortion, and high efficiency. Our power supply solution features Semikron thyristor modules, diode bridges, and IGBT modules optimized for telecom, industrial, and medical power supplies. The solution supports power ratings from 1kW to 50kW with output voltages from 12VDC to 400VDC.",
-      "longDescription": "The Consumer Electronics Solution 3 from semikron represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of semikron components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Consumer Electronics Solution 3 from semikron is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of semikron components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "coreAdvantages": [
         {
           "title": "High Power Factor (>0.95)",
@@ -764,9 +764,9 @@
       "seoDescription": "Industrial power supply solution using Semikron thyristors, diodes, and IGBT modules. >95% efficiency, PFC >0.95, THD <5%. Complete design files. Contact: +86 15013702378",
       "faqs": [
         {
-          "question": "such as DesignhighPower   ?",
-          "answer": "highPower Designrequiring PFC andcontrolstrategy:  select - 10kW canadoptBoost PFC, 10-50kWRecommendedadopt and Boostor no PFC, 50kW ;   - SKM100GB12T4suitable10-30kWhave PFC,  have raiseEfficiency; controlAlgorithm -  Current controlcanimplement 1 Power ,  configureVoltage andCurrent control; EMI  - input configureTotal and ,  FrequencyHarmonic;  launch - adoptSKKH570/16E implement launch, limitSurgeCurrent. Designgoal: Power >0.95, THD<5%, Efficiency>95%. For Powerapply, recommendadopt have PFC , canimplement high Powerwait andbetterHarmonicperformance.",
-          "decisionGuide": "according toPowerwait andcostwant selectsuitable PFC , Contactwe  PFCDesignsolution.",
+          "question": "such as DesignhighPower ?",
+          "answer": "highPower Designrequiring PFC andcontrolstrategy: select - 10kW canadoptBoost PFC, 10-50kWRecommendedadopt and Boostor no PFC, 50kW ; - SKM100GB12T4suitable10-30kWhave PFC, have raiseEfficiency; controlAlgorithm - Current controlcanimplement 1 Power, configureVoltage andCurrent control; EMI - input configureTotal and, FrequencyHarmonic; launch - adoptSKKH570/16E implement launch, limitSurgeCurrent. Designgoal: Power >0.95, THD<5%, Efficiency>95%. For Powerapply, recommendadopt have PFC, canimplement high Powerwait andbetterHarmonicperformance.",
+          "decisionGuide": "according toPowerwait andcostwant selectsuitable PFC, Contactwe PFCDesignsolution.",
           "keywords": [
             "PFCDesign",
             "highPower",
@@ -775,8 +775,8 @@
         },
         {
           "question": "and How to Select?",
-          "answer": "and  select apply :  (SKKDSeries) -  fixedoutputVoltage, cost  apply,  , can high, cost ,  outputVoltagenotcan , launch SurgeCurrent ;  (SKKHSeries) -  requiring ,  launchorPowercontrol apply, canimplement0-100%Voltage , support launchlimitSurgeCurrent, canimplementhave andenergy . Selectionrecommend: ordinary , fixedVoltage selectSKKD160/16; requiring   , DC DriverselectSKKH570/16E;  Powerapply(>50kW) adopthave IGBT implementPFCandenergy . Semikron SKKHSeries have  dv/dt anddi/dt , suitable Environment   items .",
-          "decisionGuide": "according towhetherrequiring ,  launchandcost selectsuitable  solution.",
+          "answer": "and select apply : (SKKDSeries) - fixedoutputVoltage, cost apply,, can high, cost, outputVoltagenotcan, launch SurgeCurrent ; (SKKHSeries) - requiring, launchorPowercontrol apply, canimplement0-100%Voltage, support launchlimitSurgeCurrent, canimplementhave andenergy. Selectionrecommend: ordinary, fixedVoltage selectSKKD160/16; requiring, DC DriverselectSKKH570/16E; Powerapply(>50kW) adopthave IGBT implementPFCandenergy. Semikron SKKHSeries have dv/dt anddi/dt, suitable Environment items.",
+          "decisionGuide": "according towhetherrequiring, launchandcost selectsuitable solution.",
           "keywords": [
             "Selection",
             "二极管整流器",
@@ -784,9 +784,9 @@
           ]
         },
         {
-          "question": "Design  hotmanagementwant have ?",
-          "answer": "hotmanagementisensure can run key:   -  including (I R)and ( /IGBT),  according toactualworkitems ;  hot Selection - according to and select hot , usuallywant Junction Temperaturenot 125 C, EnvironmentTemperature50 C hot hot <0.5K/W;  coldDesign -  coldcan reduce hot Volume,  (usually10-20CFM/kW ), Note Designensure hot; hot material - usehigh hot or material,  controlin50-100 m; Temperature  - inkey nearbyarrangeNTCorhot , implement protectand ;  Design -  Powerapply N+1 orhotbackup, raise can . Semikronmoduleadoptadvanced packageTechnology, hot , have hotDesign. recommendcarry outhot verifyDesign.",
-          "decisionGuide": "inDesignstagecarry out  hotanalyzeand , ensurein Temperature insafetyscope .",
+          "question": "Design hotmanagementwant have ?",
+          "answer": "hotmanagementisensure can run key: - including (I R)and ( /IGBT), according toactualworkitems ; hot Selection - according to and select hot, usuallywant Junction Temperaturenot 125 C, EnvironmentTemperature50 C hot hot <0.5K/W; coldDesign - coldcan reduce hot Volume, (usually10-20CFM/kW ), Note Designensure hot; hot material - usehigh hot or material, controlin50-100 m; Temperature - inkey nearbyarrangeNTCorhot, implement protectand ; Design - Powerapply N+1 orhotbackup, raise can. Semikronmoduleadoptadvanced packageTechnology, hot, have hotDesign. recommendcarry outhot verifyDesign.",
+          "decisionGuide": "inDesignstagecarry out hotanalyzeand, ensurein Temperature insafetyscope.",
           "keywords": [
             "hotDesign",
             "hotmanagement",
@@ -849,7 +849,7 @@
           "Design comprehensive protection functions (overcurrent, overvoltage, overtemperature)",
           "Perform thorough thermal testing and aging validation"
         ],
-        "content": "Based on extensive experience supporting customers with Industrial Power Supply, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: SKKH570/16E is the best choice for applications requiring voltage adjustment; SKKD160/16 is the ideal solution for cost-sensitive fixed voltage applications; Active PFC can achieve >0.99 power factor and <5% THD; Thermal design must consider worst-case and aging factors; Industrial power supplies must meet IEC 61000-3-2 harmonic standards.\n\nCommon pitfalls to avoid: Neglecting impact of grid voltage fluctuation on device stress; Insufficient heatsink design margin leads to device overheating in summer high temperatures; Insufficient EMI filter design leads to conducted emission exceeding standards.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -962,9 +962,9 @@
       "seoDescription": "Wind turbine power converter solution using Semikron high-power IGBT modules. High reliability, -40°C to +85°C operation, grid code compliance. Design support. Contact: +86 15013702378",
       "faqs": [
         {
-          "question": "Design  keycan have ?",
-          "answer": "requiringin Environment run20 , can Designcrucial:  Selection - selecthighcan IGBTmodulesuch asSKM400GB12T4,  packageTechnology improvethermal cyclingLifetime; Temperaturescope - ensure in-40 C +85 CEnvironmentTemperature normalwork,  launch Drift; thermal cyclingLifetime -  apply , want module >50000 thermal cycling, Semikron silver sintering technologycan want ; protectionwait  -  achieveIP54 , key ;  Design - key such ascontrol ,  adopt Design, raisecan ;   -  IGBTTemperature, DC Voltage, Currentwait , implement maintain. recommendcarry out AgingtestverifyDesignLifetime, MTBFgoal >100000 .",
-          "decisionGuide": "in Design can and Lifetime, selectthroughverify highcan .",
+          "question": "Design keycan have ?",
+          "answer": "requiringin Environment run20, can Designcrucial: Selection - selecthighcan IGBTmodulesuch asSKM400GB12T4, packageTechnology improvethermal cyclingLifetime; Temperaturescope - ensure in-40 C +85 CEnvironmentTemperature normalwork, launch Drift; thermal cyclingLifetime - apply, want module >50000 thermal cycling, Semikron silver sintering technologycan want ; protectionwait - achieveIP54, key ; Design - key such ascontrol, adopt Design, raisecan ; - IGBTTemperature, DC Voltage, Currentwait, implement maintain. recommendcarry out AgingtestverifyDesignLifetime, MTBFgoal >100000.",
+          "decisionGuide": "in Design can and Lifetime, selectthroughverify highcan.",
           "keywords": [
             "风电变流器can靠性",
             "IGBTSelection",
@@ -972,9 +972,9 @@
           ]
         },
         {
-          "question": "such as implement   Voltage (LVRT)function?",
-          "answer": "Voltage is and  keyTechnologywant :  detect -  Voltage,  Voltage 90% launchLVRT ; Crowbar  - in CrowbarResistance Power, protectDC CapacitanceandIGBT; Chopper  - adopt Resistance energy, maintainDC Voltagestable; no  - inVoltage duringprovideno Current restore, usuallywant provide100% Current no ;  restore - Voltagerestore 2 restorenormal , avoidfor cause ; controlstrategy - adopt controlimplementhave /no control,  during guaranteeno output. Semikron IGBTmodule high ability(2 CurrentDuration1min)have implementLVRTfunction. not standardwant not , such as GB/T 19963,  BDEWwait.",
-          "decisionGuide": "according togoalMarketing  standardDesignLVRTfunction, ensure in items stablerun.",
+          "question": "such as implement Voltage (LVRT)function?",
+          "answer": "Voltage is and keyTechnologywant : detect - Voltage, Voltage 90% launchLVRT ; Crowbar - in CrowbarResistance Power, protectDC CapacitanceandIGBT; Chopper - adopt Resistance energy, maintainDC Voltagestable; no - inVoltage duringprovideno Current restore, usuallywant provide100% Current no ; restore - Voltagerestore 2 restorenormal, avoidfor cause ; controlstrategy - adopt controlimplementhave /no control, during guaranteeno output. Semikron IGBTmodule high ability(2 CurrentDuration1min)have implementLVRTfunction. not standardwant not, such as GB/T 19963, BDEWwait.",
+          "decisionGuide": "according togoalMarketing standardDesignLVRTfunction, ensure in items stablerun.",
           "keywords": [
             "LVRT",
             "Voltage Design",
@@ -983,8 +983,8 @@
         },
         {
           "question": "and Power How to Select?",
-          "answer": "(DFIG)and Power  select TypeandapplyScenario:   -  process Power(about30% Power), cost ,  maintain,  control ;  Power  -  processallPower, no maintain,  , supportSynchronization . Selectionrecommend: 1.5-3MW  -  cost-performance ratiohigh, suitable resourcestable  ; 3-5MW  -  Power can high, maintaincost , suitable Environment;  Synchronization  - mustadopt Power ;  okay  -  can want ;     -  Power   ability . Semikron SKM400GB12T4suitable Power   and ,  highCurrent have reduce Volume.  Recommendeduse Power + Synchronization   .",
-          "decisionGuide": "according to Powerwait , applyEnvironment( / )and items selectsuitable  .",
+          "answer": "(DFIG)and Power select TypeandapplyScenario: - process Power(about30% Power), cost, maintain, control ; Power - processallPower, no maintain,, supportSynchronization. Selectionrecommend: 1.5-3MW - cost-performance ratiohigh, suitable resourcestable ; 3-5MW - Power can high, maintaincost, suitable Environment; Synchronization - mustadopt Power ; okay - can want ; - Power ability. Semikron SKM400GB12T4suitable Power and, highCurrent have reduce Volume. Recommendeduse Power + Synchronization.",
+          "decisionGuide": "according to Powerwait, applyEnvironment( / )and items selectsuitable.",
           "keywords": [
             "双馈变流器",
             "Power",
@@ -1027,7 +1027,7 @@
           "experience": "16+ years"
         },
         "insight": "Wind turbine converters are the core components of wind turbine units, and their reliability directly determines power generation efficiency and availability. In my 16 years of wind power industry experience, I have witnessed the development of wind power technology from kilowatt-level to megawatt-level. Semikron's SKM400GB12T4 is the ideal choice for wind turbine converters, with its 400A rated current and 1200V withstand voltage meeting the needs of 2-5MW turbines. Particularly noteworthy is its silver sintering packaging technology, which compared to traditional solder packaging, improves thermal cycling lifetime by 3-5 times, which is crucial for wind power applications with frequent start-stop operations. I have seen at multiple wind farms that converters using Semikron modules still in good condition after 5+ years of operation, fully proving their reliability.",
-        "logic": "Wind turbine converter selection decision framework: First determine turbine power and topology - 1.5-3MW DFIG turbine rotor-side converter select SKM200GB12T4, grid-side select SKM400GB12T4; 3-5MW full power converter machine-side and grid-side both select SKM400GB12T4; Second consider environmental conditions - offshore wind power requires higher protection level and anti-corrosion design; Then evaluate grid requirements - weak grid areas recommend full power topology; Finally consider maintainability - offshore wind power should minimize maintenance requirements. Recommend reserving sufficient current margin to handle wind speed  overload situations.",
+        "logic": "Wind turbine converter selection decision framework: First determine turbine power and topology - 1.5-3MW DFIG turbine rotor-side converter select SKM200GB12T4, grid-side select SKM400GB12T4; 3-5MW full power converter machine-side and grid-side both select SKM400GB12T4; Second consider environmental conditions - offshore wind power requires higher protection level and anti-corrosion design; Then evaluate grid requirements - weak grid areas recommend full power topology; Finally consider maintainability - offshore wind power should minimize maintenance requirements. Recommend reserving sufficient current margin to handle wind speed overload situations.",
         "keyTakeaways": [
           "SKM400GB12T4 is the best choice for 2-5MW wind turbine converters",
           "Silver sintering packaging technology significantly improves thermal cycling lifetime",
@@ -1046,7 +1046,7 @@
           "Design comprehensive fault protection strategy",
           "Perform thorough type testing and field testing"
         ],
-        "content": "Based on extensive experience supporting customers with Wind Power Converter, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: SKM400GB12T4 is the best choice for 2-5MW wind turbine converters; Silver sintering packaging technology significantly improves thermal cycling lifetime; DFIG topology suitable for onshore, full power topology suitable for offshore; LVRT function is a basic requirement for grid connection; Offshore wind power requires special attention to protection and anti-corrosion.\n\nCommon pitfalls to avoid: Neglecting impact of thermal cycling on module lifetime; Insufficient LVRT design leads to grid-off during grid faults; Insufficient offshore wind power protection design leads to salt spray corrosion.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -1178,8 +1178,8 @@
       "faqs": [
         {
           "question": "such as DesignhighEfficiency DC ?",
-          "answer": "DC Efficiency impact costanduser :  select -  adopt VIENNA or / PWM implementPFCand ,  adoptLLC or implementDC-DC ;   - SKM200GB12T4is50-150kW   wantselect,  and propertyhave implement>96%Efficiency;  Frequency -  10-20kHz,  80-150kHz, high have reduce Volume;   - adopthighperformance or , optimize Designreduce ; hotmanagement - adopt coldor cold, ensureIGBTJunction Temperature<125 C;  Technology - adoptLLC or implementZVS,  reduce . Designgoal:  Efficiency>96%, Power >0.99, THD<5%, Power >1kW/L.",
-          "decisionGuide": "according toPowerwait andcostwant selectsuitable  and , Contactwe high   Designsolution.",
+          "answer": "DC Efficiency impact costanduser : select - adopt VIENNA or / PWM implementPFCand, adoptLLC or implementDC-DC ; - SKM200GB12T4is50-150kW wantselect, and propertyhave implement>96%Efficiency; Frequency - 10-20kHz, 80-150kHz, high have reduce Volume; - adopthighperformance or, optimize Designreduce ; hotmanagement - adopt coldor cold, ensureIGBTJunction Temperature<125 C; Technology - adoptLLC or implementZVS, reduce. Designgoal: Efficiency>96%, Power >0.99, THD<5%, Power >1kW/L.",
+          "decisionGuide": "according toPowerwait andcostwant selectsuitable and, Contactwe high Designsolution.",
           "keywords": [
             "DC Design",
             "Efficiencyoptimize",
@@ -1188,8 +1188,8 @@
         },
         {
           "question": "requiring safetyand standard?",
-          "answer": "safetyand standardwant : safetystandard - IEC 61851Series( want , DC ,  Compatible), UL 2202( ), GB/T 18487( );  Protocol - CCS(Combined Charging System) / , CHAdeMO , GB/T 27930 ,  according togoalMarketingselect;  Interface - PLC(Power Line Communication) ,  /WiFi/4G ; protection functionality -  protect(>110% Voltage),  protect(>110% Current),  protect(>85 C),  (<500 /V),  protect;  safety - inputoutput >3000VAC,  ,  protect(30mA). Semikron IGBTmodule  (10 s)and protection functionalityhave implementsafetycan   Design.",
-          "decisionGuide": "according togoalMarketingselectfor   standardandCertifywant , ensureProduct .",
+          "answer": "safetyand standardwant : safetystandard - IEC 61851Series( want, DC, Compatible), UL 2202( ), GB/T 18487( ); Protocol - CCS(Combined Charging System) /, CHAdeMO, GB/T 27930, according togoalMarketingselect; Interface - PLC(Power Line Communication), /WiFi/4G ; protection functionality - protect(>110% Voltage), protect(>110% Current), protect(>85 C), (<500 /V), protect; safety - inputoutput >3000VAC,, protect(30mA). Semikron IGBTmodule (10 s)and protection functionalityhave implementsafetycan Design.",
+          "decisionGuide": "according togoalMarketingselectfor standardandCertifywant, ensureProduct.",
           "keywords": [
             "safetystandard",
             "CCS Protocol",
@@ -1198,8 +1198,8 @@
         },
         {
           "question": "Voltageoutputscopesuch as implement?",
-          "answer": "Voltageoutput(200-1000VDC)isDC  keyTechnologywant :  Architecture -  PFCimplementAC-DC andPower ,  DC-DCimplementVoltage and ;  Design - adoptcan or solution,  200-1000Voutputscope;  Selection -  select1200Vor1700V  IGBT/SiC MOSFET, SKM200GB12T4suitable750V ; controlstrategy - adopt controlor controlimplement scopeVoltage , maintainhighEfficiency; Currentability -  Voltageoutput Currentability Powerlimit, such as150kW@500V=300A,  ensure and   ability; protect  -  Voltagescope configure / protect,  not Pool . recommendadoptmodule Design, throughmodule /and implementnot Powerwait .",
-          "decisionGuide": "according togoal Pool determineoutputVoltagescope, selectsuitable  and implement Voltageoutput.",
+          "answer": "Voltageoutput(200-1000VDC)isDC keyTechnologywant : Architecture - PFCimplementAC-DC andPower, DC-DCimplementVoltage and ; Design - adoptcan or solution, 200-1000Voutputscope; Selection - select1200Vor1700V IGBT/SiC MOSFET, SKM200GB12T4suitable750V ; controlstrategy - adopt controlor controlimplement scopeVoltage, maintainhighEfficiency; Currentability - Voltageoutput Currentability Powerlimit, such as150kW@500V=300A, ensure and ability; protect - Voltagescope configure / protect, not Pool. recommendadoptmodule Design, throughmodule /and implementnot Powerwait.",
+          "decisionGuide": "according togoal Pool determineoutputVoltagescope, selectsuitable and implement Voltageoutput.",
           "keywords": [
             "Voltageoutput",
             "DC Voltagescope",
@@ -1262,7 +1262,7 @@
           "Design comprehensive protection functions (overvoltage, overcurrent, overtemperature, insulation)",
           "Perform thorough type testing and field testing"
         ],
-        "content": "Based on extensive experience supporting customers with EV Charging Station, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: SKM200GB12T4 is the best choice for 50-150kW charging stations; Two-stage architecture (rectifier + DC-DC) can achieve wide voltage output and high efficiency; Liquid cooling can achieve higher power density; Safety protection functions must meet IEC 61851 requirements; Communication protocols must be selected based on target market.\n\nCommon pitfalls to avoid: Neglecting impact of grid voltage fluctuation on output power; Insufficient thermal design leads to power derating in summer high temperatures; Insufficient EMC design leads to communication interference.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [

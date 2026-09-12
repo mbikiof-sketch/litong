@@ -116,7 +116,7 @@
       "summary": "Comprehensive guide for selecting TI power management ICs including DC-DC converters, LDOs, battery chargers, and PMICs for various applications.",
       "content": [
         "This technical reference document provides detailed information about ti product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -175,7 +175,7 @@
         },
         {
           "question": "Can BeiLuo provide technical support for power designs?",
-          "answer": "Yes, BeiLuo FAE provides comprehensive power design support including topology selection, component optimization, and thermal analysis. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, BeiLuo FAE provides comprehensive power design support including topology selection, component optimization, and thermal analysis. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact BeiLuo FAE early in your power design phase.",
           "keywords": [
             "power support",
@@ -185,7 +185,7 @@
         },
         {
           "question": "Are power reference designs available?",
-          "answer": "Yes, BeiLuo provides TI power reference designs and WEBENCH models for various applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, BeiLuo provides TI power reference designs and WEBENCH models for various applications. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Request power reference designs from BeiLuo for your application.",
           "keywords": [
             "power reference",
@@ -195,7 +195,7 @@
         },
         {
           "question": "How to optimize power supply efficiency?",
-          "answer": "Efficiency optimization involves proper topology selection, synchronous rectification, light-load operation modes, and optimized component selection. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Efficiency optimization involves proper topology selection, synchronous rectification, light-load operation modes, and optimized component selection. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use TI WEBENCH for initial optimization, then consult BeiLuo FAE for fine-tuning.",
           "keywords": [
             "efficiency",
@@ -205,7 +205,7 @@
         },
         {
           "question": "What thermal management is needed?",
-          "answer": "Thermal management depends on power dissipation, ambient temperature, and airflow. Proper heat sinking and PCB layout are critical. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Thermal management depends on power dissipation, ambient temperature, and airflow. Proper heat sinking and PCB layout are critical. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Perform thermal analysis early and plan adequate cooling.",
           "keywords": [
             "thermal",
@@ -252,7 +252,7 @@
       "summary": "Guide for selecting TI embedded processors including MSP430, C2000, Sitara, and SimpleLink families for various applications.",
       "content": [
         "This technical reference document provides detailed information about ti product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -301,7 +301,7 @@
       "faqs": [
         {
           "question": "Which TI processor is best for beginners?",
-          "answer": "MSP430 LaunchPad is ideal for beginners with comprehensive documentation and community support. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "MSP430 LaunchPad is ideal for beginners with comprehensive documentation and community support. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with LaunchPad kits, then select production processors based on requirements.",
           "keywords": [
             "beginner",
@@ -311,7 +311,7 @@
         },
         {
           "question": "What support does BeiLuo provide for processor designs?",
-          "answer": "BeiLuo provides processor selection guidance, software support, and debugging assistance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "BeiLuo provides processor selection guidance, software support, and debugging assistance. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact BeiLuo FAE for processor selection and design support.",
           "keywords": [
             "processor support",
@@ -321,7 +321,7 @@
         },
         {
           "question": "Are development kits available?",
-          "answer": "Yes, TI offers LaunchPad and evaluation modules for all processor families. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, TI offers LaunchPad and evaluation modules for all processor families. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact BeiLuo to order development kits for evaluation.",
           "keywords": [
             "development kit",
@@ -331,7 +331,7 @@
         },
         {
           "question": "How to choose between MSP430 and ARM?",
-          "answer": "MSP430 for ultra-low power simple applications, ARM for higher performance and complexity. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "MSP430 for ultra-low power simple applications, ARM for higher performance and complexity. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Define performance requirements and power budget first.",
           "keywords": [
             "MSP430",
@@ -341,7 +341,7 @@
         },
         {
           "question": "What software tools are recommended?",
-          "answer": "Code Composer Studio for professional development, Energia for rapid prototyping. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Code Composer Studio for professional development, Energia for rapid prototyping. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use CCS for production, Energia for learning and prototyping.",
           "keywords": [
             "software tools",
@@ -388,7 +388,7 @@
       "summary": "Comprehensive guide for selecting TI analog components including op-amps, instrumentation amplifiers, ADCs, DACs, and voltage references.",
       "content": [
         "This technical reference document provides detailed information about ti product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -437,7 +437,7 @@
       "faqs": [
         {
           "question": "What is an error budget analysis?",
-          "answer": "Error budget analysis sums all error sources including offset, gain error, drift, and noise to ensure total accuracy meets requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Error budget analysis sums all error sources including offset, gain error, drift, and noise to ensure total accuracy meets requirements. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Perform error budget analysis before selecting analog components.",
           "keywords": [
             "error budget",
@@ -447,7 +447,7 @@
         },
         {
           "question": "How to reduce noise in analog circuits?",
-          "answer": "Noise reduction involves proper grounding, shielding, filtering, and component selection. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Noise reduction involves proper grounding, shielding, filtering, and component selection. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Follow TI layout guidelines and use recommended filtering.",
           "keywords": [
             "noise reduction",
@@ -457,7 +457,7 @@
         },
         {
           "question": "What is the difference between SAR and delta-sigma ADCs?",
-          "answer": "SAR ADCs are faster and good for multiplexing. Delta-sigma offers higher resolution with integrated filtering. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "SAR ADCs are faster and good for multiplexing. Delta-sigma offers higher resolution with integrated filtering. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use SAR for speed, delta-sigma for high resolution.",
           "keywords": [
             "SAR ADC",
@@ -467,7 +467,7 @@
         },
         {
           "question": "When to use instrumentation amplifiers?",
-          "answer": "Use instrumentation amplifiers for differential sensor signals requiring high CMRR and precise gain. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use instrumentation amplifiers for differential sensor signals requiring high CMRR and precise gain. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use INAs for bridge sensors and differential measurements.",
           "keywords": [
             "instrumentation amplifier",
@@ -477,7 +477,7 @@
         },
         {
           "question": "How important is voltage reference selection?",
-          "answer": "Voltage reference accuracy directly impacts ADC accuracy. Match reference to ADC resolution requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Voltage reference accuracy directly impacts ADC accuracy. Match reference to ADC resolution requirements. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select reference with accuracy 4x better than ADC LSB.",
           "keywords": [
             "voltage reference",
@@ -524,7 +524,7 @@
       "summary": "Guide for selecting TI sensors including temperature, current, pressure, and environmental sensors for various monitoring applications.",
       "content": [
         "This technical reference document provides detailed information about ti product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -573,7 +573,7 @@
       "faqs": [
         {
           "question": "What temperature sensor accuracy is needed?",
-          "answer": "Accuracy depends on application. +/- 0.1C for medical, +/- 1C for industrial, +/- 2C for consumer. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Accuracy depends on application. +/- 0.1C for medical, +/- 1C for industrial, +/- 2C for consumer. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Define accuracy requirements before selecting temperature sensors.",
           "keywords": [
             "temperature accuracy",
@@ -583,7 +583,7 @@
         },
         {
           "question": "How to measure high currents?",
-          "answer": "Use Hall effect sensors for isolated measurement or shunt resistors with isolation amplifiers. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use Hall effect sensors for isolated measurement or shunt resistors with isolation amplifiers. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use Hall sensors for isolation, shunts for cost-sensitive applications.",
           "keywords": [
             "current measurement",
@@ -593,7 +593,7 @@
         },
         {
           "question": "Digital or analog sensors?",
-          "answer": "Digital sensors offer easy integration and calibration. Analog sensors provide continuous output. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Digital sensors offer easy integration and calibration. Analog sensors provide continuous output. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use digital for simplicity, analog for continuous monitoring.",
           "keywords": [
             "digital sensor",
@@ -603,7 +603,7 @@
         },
         {
           "question": "What is sensor calibration?",
-          "answer": "Calibration corrects sensor offset and gain errors to improve accuracy. Some sensors include factory calibration. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Calibration corrects sensor offset and gain errors to improve accuracy. Some sensors include factory calibration. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Consider calibration requirements for high-accuracy applications.",
           "keywords": [
             "calibration",
@@ -613,7 +613,7 @@
         },
         {
           "question": "How to interface sensors to processors?",
-          "answer": "Digital sensors use I2C or SPI. Analog sensors require ADC. Some offer PWM output. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Digital sensors use I2C or SPI. Analog sensors require ADC. Some offer PWM output. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Choose interface based on processor capabilities and wiring constraints.",
           "keywords": [
             "sensor interface",
@@ -661,7 +661,7 @@
       "summary": "Comprehensive guide to TI's design tools including WEBENCH Power Designer, PSpice models, and evaluation modules for accelerated product development.",
       "content": [
         "This technical reference document provides detailed information about ti product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -710,7 +710,7 @@
       "faqs": [
         {
           "question": "What design tools does TI offer?",
-          "answer": "TI offers WEBENCH for power design, PSpice for simulation, TINA-TI for op-amp design, and various calculation tools. WEBENCH provides automatic optimization for efficiency, cost, or size. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "TI offers WEBENCH for power design, PSpice for simulation, TINA-TI for op-amp design, and various calculation tools. WEBENCH provides automatic optimization for efficiency, cost, or size. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with WEBENCH for power designs. Use PSpice for detailed verification.",
           "keywords": [
             "TI tools",
@@ -721,7 +721,7 @@
         },
         {
           "question": "How accurate are TI's PSpice models?",
-          "answer": "TI's PSpice models are behaviorally accurate and include temperature effects, process variations, and parasitics. They are validated against actual silicon measurements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "TI's PSpice models are behaviorally accurate and include temperature effects, process variations, and parasitics. They are validated against actual silicon measurements. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Trust PSpice models for design verification. Validate critical parameters with bench measurements.",
           "keywords": [
             "PSpice accuracy",
@@ -731,7 +731,7 @@
         },
         {
           "question": "Can BeiLuo help with design tools?",
-          "answer": "Yes, BeiLuo FAE can guide you through TI's design tools and help interpret results for your specific application. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, BeiLuo FAE can guide you through TI's design tools and help interpret results for your specific application. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact BeiLuo FAE for design tool training and support.",
           "keywords": [
             "design tools",
@@ -741,7 +741,7 @@
         },
         {
           "question": "Are reference designs customizable?",
-          "answer": "Yes, TI reference designs can be customized for specific requirements. BeiLuo FAE can help with modifications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, TI reference designs can be customized for specific requirements. BeiLuo FAE can help with modifications. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with reference design, then customize with BeiLuo FAE guidance.",
           "keywords": [
             "reference design",
@@ -751,7 +751,7 @@
         },
         {
           "question": "What training resources are available?",
-          "answer": "TI offers online training, application notes, and videos. BeiLuo can provide additional training and workshops. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "TI offers online training, application notes, and videos. BeiLuo can provide additional training and workshops. For detailed specifications and application support on ti products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with TI's online resources, then contact BeiLuo for specialized training.",
           "keywords": [
             "training",

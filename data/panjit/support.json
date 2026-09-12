@@ -1,0 +1,799 @@
+{
+  "seoTitle": "Panjit Technical Support | Application Notes & Design Guides | BeiLuo Electronics",
+  "seoDescription": "Panjit technical resources including application notes, design guides, selection guides, and FAQs. Expert FAE support for your discrete semiconductor applications.",
+  "seoKeywords": [
+    "Panjit support",
+    "application notes",
+    "design guides",
+    "technical documentation",
+    "FAE support"
+  ],
+  "faqs": [
+    {
+      "question": "What technical resources are available for Panjit products?",
+      "answer": "BeiLuo Electronics provides comprehensive technical support for Panjit products including: (1) Application Notes - detailed design guides for specific applications; (2) Selection Guides - help choosing the right diode for your requirements; (3) Technical Articles - in-depth discussions of diode technologies and applications; (4) FAQs - answers to common questions; (5) FAE Support - direct access to our field application engineers for personalized assistance. All resources are designed to help you successfully integrate Panjit diodes into your designs.",
+      "decisionGuide": "Browse our technical resources below or contact our FAE team for personalized support.",
+      "keywords": [
+        "technical resources",
+        "application notes",
+        "design support"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "schottky-diode-selection",
+      "title": "How to Select the Right Schottky Diode",
+      "subtitle": "A Comprehensive Guide to Schottky Diode Selection",
+      "description": "Learn the key parameters and considerations for selecting the optimal Schottky diode for your power supply or rectification application.",
+      "category": "Selection Guide",
+      "readTime": "8 min read",
+      "image": "/assets/support/schottky-selection.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-04-01",
+      "summary": "This comprehensive guide covers key parameters for Schottky diode selection including voltage rating, current capacity, forward voltage drop, and thermal considerations. Learn how to optimize your power supply design.",
+      "tags": [
+        "Schottky",
+        "Selection Guide",
+        "Power Supply",
+        "Design"
+      ],
+      "content": {
+        "introduction": "Selecting the right Schottky diode requires understanding key electrical parameters and how they relate to your application requirements. This guide walks through the selection process step by step.",
+        "sections": [
+          {
+            "title": "Key Parameters",
+            "content": "The most important parameters for Schottky diode selection are: (1) Reverse Voltage (VRRM) - must exceed maximum reverse voltage by 50-100% margin; (2) Forward Current (IF(AV)) - based on load current with thermal considerations; (3) Forward Voltage (VF) - lower is better for efficiency; (4) Reverse Leakage (IR) - increases with temperature; (5) Thermal Resistance - determines cooling requirements."
+          },
+          {
+            "title": "Voltage Selection",
+            "content": "Select VRRM at least 1.5-2x the maximum operating voltage. for 12V systems, 40V devices provide adequate margin. For 48V systems, use 100V rated devices. Higher voltage ratings increase forward voltage drop, so don't over-specify."
+          },
+          {
+            "title": "Current and Thermal Design",
+            "content": "Calculate power dissipation: P = IF × VF. then determine junction temperature: Tj = Ta + (P × RthJA). Ensure Tj stays below 125°C for reliability. use copper area or heat sinks as needed."
+          }
+        ],
+        "conclusion": "Proper Schottky diode selection balances electrical performance, thermal considerations, and cost. Use this guide to optimize your design."
+      },
+      "faqs": [
+        {
+          "question": "What happens if I exceed the voltage rating?",
+          "answer": "Exceeding VRRM causes reverse breakdown, potentially destroying the diode. Always maintain 50-100% voltage margin for reliability.",
+          "decisionGuide": "Select VRRM at least 1.5x maximum operating voltage.",
+          "keywords": [
+            "voltage rating",
+            "breakdown",
+            "safety margin"
+          ]
+        },
+        {
+          "question": "How do I apply How to Select the Right Schottky Diode principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply How to Select the Right Schottky Diode principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    },
+    {
+      "id": "thermal-design-guide",
+      "title": "Thermal Design for Power Diodes",
+      "subtitle": "Heat Sinking and Thermal Management Best Practices",
+      "description": "Essential thermal design guidelines for power diodes including heat sink selection, PCB copper area calculations, and thermal interface materials.",
+      "category": "Design Guide",
+      "readTime": "10 min read",
+      "image": "/assets/support/thermal-design.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-03-15",
+      "summary": "Master thermal management for power diodes with this detailed guide covering heat sink selection, PCB copper area calculations, thermal interface materials, and junction temperature verification.",
+      "tags": [
+        "Thermal",
+        "Heat Sink",
+        "PCB Design",
+        "Reliability"
+      ],
+      "content": {
+        "introduction": "Thermal management is critical for reliable power diode operation. This guide covers thermal calculations, heat sink selection, and PCB design for optimal heat dissipation.",
+        "sections": [
+          {
+            "title": "Thermal Basics",
+            "content": "Power dissipation in diodes: P = IF × VF. Junction temperature: Tj = Ta + P × (RthJC + RthCS + RthSA). Keep Tj below 125°C for long-term reliability. Maximum ratings are typically 150-175°C but operation near maximum reduces lifetime."
+          },
+          {
+            "title": "Heat Sink Selection",
+            "content": "Required heat sink thermal resistance: RthSA = (Tj - Ta)/P - RthJC - RthCS. For TO-220 packages, RthJC �?2°C/W. Use thermal interface material with RthCS �?0.3-0.5°C/W. Natural convection heat sinks typically provide 5-20°C/W depending on size."
+          },
+          {
+            "title": "PCB Copper Area",
+            "content": "For SMD packages, copper area significantly impacts thermal performance. 1 square inch of copper reduces RthJA to ~50°C/W for SMB packages. Use multiple thermal vias (0.3mm drill) to connect copper layers. 2oz copper provides better heat spreading than 1oz."
+          }
+        ],
+        "conclusion": "Proper thermal design ensures reliable operation and maximum device lifetime. Always verify junction temperature under worst-case conditions."
+      },
+      "faqs": [
+        {
+          "question": "How much copper area do I need for SMB packages?",
+          "answer": "For 5A continuous in SMB: minimum 1 square inch copper. for 10A: 2+ square inches or external heat sink. Use thermal vias to connect layers.",
+          "decisionGuide": "Calculate based on power dissipation and maximum allowed Tj.",
+          "keywords": [
+            "copper area",
+            "SMB",
+            "thermal design"
+          ]
+        },
+        {
+          "question": "How do I apply Thermal Design for Power Diodes principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply Thermal Design for Power Diodes principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    },
+    {
+      "id": "fast-recovery-applications",
+      "title": "Fast Recovery Diode Applications",
+      "subtitle": "When and How to Use Fast Recovery Diodes",
+      "description": "Understanding fast recovery diode characteristics and their optimal use in high-frequency switching applications.",
+      "category": "Application Note",
+      "readTime": "7 min read",
+      "image": "/assets/support/fast-recovery.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-03-01",
+      "summary": "Understand reverse recovery characteristics and learn how to select the right fast recovery diode for your switching frequency and voltage requirements.",
+      "tags": [
+        "Fast Recovery",
+        "Switching",
+        "High Frequency",
+        "EMI"
+      ],
+      "content": {
+        "introduction": "Fast recovery diodes are essential for high-frequency switching applications. This note explains reverse recovery characteristics and how to select the right device for your switching frequency.",
+        "sections": [
+          {
+            "title": "Reverse Recovery Basics",
+            "content": "When a diode switches from forward to reverse bias, reverse recovery current flows until carriers are swept out. Recovery time (trr) determines maximum usable frequency. standard diodes: 2-10μs (line frequency). fast recovery: 50-500ns (up to 100kHz). Ultra-fast: 25-75ns (up to 500kHz)."
+          },
+          {
+            "title": "Switching Losses",
+            "content": "Switching losses = 0.5 × VR × IRRM × trr × fsw. Higher frequency means higher switching losses. Soft recovery diodes reduce EMI and switching losses compared to snappy recovery. Panjit's ultra-fast diodes feature soft recovery for improved performance."
+          },
+          {
+            "title": "Application Selection",
+            "content": "Use standard recovery for line frequency (<1kHz). fast recovery for 20-100kHz. ultra-fast for 100-500kHz. Hyperfast for >500kHz. Higher voltage applications typically need faster diodes due to higher switching losses."
+          }
+        ],
+        "conclusion": "Select recovery time based on switching frequency and voltage. Faster recovery reduces losses but may cost more."
+      },
+      "faqs": [
+        {
+          "question": "Can I use Schottky diodes instead of fast recovery?",
+          "answer": "Schottky diodes have negligible reverse recovery, making them ideal for high frequency. However, they're limited to ~100V. For higher voltages, fast recovery diodes are required.",
+          "decisionGuide": "Use Schottky for <100V, fast recovery for >100V applications.",
+          "keywords": [
+            "Schottky",
+            "fast recovery",
+            "comparison"
+          ]
+        },
+        {
+          "question": "How do I apply Fast Recovery Diode Applications principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply Fast Recovery Diode Applications principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    },
+    {
+      "id": "tvs-protection-design",
+      "title": "TVS Diode Protection Design",
+      "subtitle": "Circuit Protection Using TVS Diodes",
+      "description": "Design guidelines for using TVS diodes to protect circuits against voltage transients, ESD, and surge events.",
+      "category": "Application Note",
+      "readTime": "6 min read",
+      "image": "/assets/support/tvs-design.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-02-20",
+      "summary": "Learn TVS diode selection criteria, placement guidelines, and layout considerations for effective circuit protection against transients and ESD events.",
+      "tags": [
+        "TVS",
+        "Protection",
+        "ESD",
+        "Surge"
+      ],
+      "content": {
+        "introduction": "TVS diodes provide fast, effective protection against voltage transients. This guide covers selection criteria, placement, and common application circuits.",
+        "sections": [
+          {
+            "title": "TVS Selection Criteria",
+            "content": "Standoff Voltage (Vrwm): Must exceed normal operating voltage. Breakdown Voltage (Vbr): Device begins conducting. Clamping Voltage (Vc): Maximum voltage during transient - must not exceed protected circuit rating. Peak Pulse Current (IPP): Maximum surge current capability."
+          },
+          {
+            "title": "Common Applications",
+            "content": "Power input protection: Use high-power TVS (1500W-5000W) for load dump and surge protection. Signal line protection: Use low-capacitance TVS for data lines. ESD protection: Place TVS close to connector for best protection."
+          },
+          {
+            "title": "Layout Considerations",
+            "content": "Place TVS as close as possible to the protected circuit or connector. minimize trace inductance between TVS and protected line. Use ground planes for low-impedance return path. for high-speed lines, consider capacitance effects."
+          }
+        ],
+        "conclusion": "Proper TVS selection and placement provides effective protection against transients while maintaining signal integrity."
+      },
+      "faqs": [
+        {
+          "question": "What power rating TVS do I need?",
+          "answer": "For ESD protection: 400-600W. for power line transients: 1500W+. for severe surges/load dump: 5000W. Calculate based on expected transient energy.",
+          "decisionGuide": "Match TVS power rating to expected transient severity.",
+          "keywords": [
+            "TVS power",
+            "transient protection",
+            "selection"
+          ]
+        },
+        {
+          "question": "How do I apply TVS Diode Protection Design principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply TVS Diode Protection Design principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    },
+    {
+      "id": "bridge-rectifier-selection",
+      "title": "Bridge Rectifier Selection Guide",
+      "subtitle": "Choosing the Right Bridge Rectifier for AC-DC Applications",
+      "description": "Comprehensive guide to selecting bridge rectifiers for power supply input stages including voltage, current, and thermal considerations.",
+      "category": "Selection Guide",
+      "readTime": "8 min read",
+      "image": "/assets/support/bridge-selection.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-02-10",
+      "summary": "Master bridge rectifier selection with guidelines for voltage rating, current capacity, package selection, and thermal management in AC-DC power supplies.",
+      "tags": [
+        "Bridge Rectifier",
+        "AC-DC",
+        "Power Supply",
+        "Selection"
+      ],
+      "content": {
+        "introduction": "Bridge rectifiers are the first stage in AC-DC power supplies. This guide covers selection criteria for reliable, efficient input rectification.",
+        "sections": [
+          {
+            "title": "Voltage Rating",
+            "content": "For 115VAC input: Use 400-600V bridges. For 230VAC or universal input (90-264VAC): Use 1000V bridges. Peak rectified voltage = VAC × �?. Include margin for line transients and PFC boost operation if applicable."
+          },
+          {
+            "title": "Current Rating",
+            "content": "Bridge current rating should exceed average rectified current. For capacitor-input filters, RMS current is 1.5-2x DC output current. Consider inrush current at startup - bridges have high surge ratings (IFSM) for this."
+          },
+          {
+            "title": "Package Selection",
+            "content": "SMD bridges (MB6S, MB10F): Compact, for low power (<50W). Through-hole (GBU): Better thermal performance, medium power (50-300W). Chassis mount (KBPC): Best thermal performance, high power (>300W) with heat sinking."
+          }
+        ],
+        "conclusion": "Select bridge rectifiers based on voltage, current, thermal requirements, and physical constraints."
+      },
+      "faqs": [
+        {
+          "question": "Why does my bridge rectifier get hot?",
+          "answer": "Bridge rectifiers dissipate power: P = 2 × VF × Idc (two diodes conduct). At 5A with 1V drop: 10W dissipation. Requires heat sinking for continuous operation.",
+          "decisionGuide": "Calculate power dissipation and ensure adequate cooling.",
+          "keywords": [
+            "bridge rectifier",
+            "heating",
+            "thermal"
+          ]
+        },
+        {
+          "question": "How do I apply Bridge Rectifier Selection Guide principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply Bridge Rectifier Selection Guide principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    },
+    {
+      "id": "automotive-design-guide",
+      "title": "Automotive Electronics Design Guide",
+      "subtitle": "Designing with AEC-Q101 Qualified Components",
+      "description": "Best practices for designing automotive electronics using AEC-Q101 qualified diodes and protection devices.",
+      "category": "Design Guide",
+      "readTime": "9 min read",
+      "image": "/assets/support/automotive-design.jpg",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Power Electronics"
+      },
+      "publishDate": "2026-01-25",
+      "summary": "Learn best practices for automotive electronics design including AEC-Q101 requirements, load dump protection, and thermal considerations for under-hood applications.",
+      "tags": [
+        "Automotive",
+        "AEC-Q101",
+        "Load Dump",
+        "Design Guide"
+      ],
+      "content": {
+        "introduction": "Automotive electronics face extreme temperatures, voltage transients, and reliability requirements. This guide covers design practices for automotive-qualified components.",
+        "sections": [
+          {
+            "title": "AEC-Q101 Requirements",
+            "content": "AEC-Q101 qualification includes: High Temperature Reverse Bias (HTRB) 1000+ hours at 175°C, Temperature Cycling -55°C to +175°C, Mechanical Shock and Vibration, Humidity testing. PPAP documentation required for production."
+          },
+          {
+            "title": "Load Dump Protection",
+            "content": "Automotive load dump can generate 100V+ transients in 12V systems. Use TVS diodes rated for load dump (5KP series). Place protection at power entry points and sensitive circuits. Consider ISO 7637-2 pulse requirements."
+          },
+          {
+            "title": "Thermal Considerations",
+            "content": "Automotive under-hood temperatures can reach 125°C ambient. design for Tj < 150°C worst case. use thermal modeling for enclosed modules. Consider reduced current ratings at high temperature."
+          }
+        ],
+        "conclusion": "Automotive design requires attention to qualification, protection, and thermal management. Use AEC-Q101 components and design for worst-case conditions."
+      },
+      "faqs": [
+        {
+          "question": "Do I need AEC-Q101 qualified parts for automotive?",
+          "answer": "Yes, for production automotive electronics. AEC-Q101 ensures reliability in harsh automotive environments. PPAP documentation is typically required by OEMs.",
+          "decisionGuide": "Always specify AEC-Q101 grade for automotive production.",
+          "keywords": [
+            "AEC-Q101",
+            "automotive",
+            "qualification"
+          ]
+        },
+        {
+          "question": "How do I apply Automotive Electronics Design Guide principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        },
+        {
+          "question": "What tools do you recommend for thermal analysis?",
+          "answer": "We recommend using thermal simulation software for initial design, followed by prototype validation with thermocouples or thermal imaging. Our FAE team can provide thermal modeling support for complex designs.",
+          "decisionGuide": "Use simulation for initial design, physical measurements for validation.",
+          "keywords": [
+            "thermal analysis",
+            "simulation tools",
+            "measurement"
+          ]
+        },
+        {
+          "question": "How can I get additional technical support?",
+          "answer": "Contact our FAE team through the support portal, email, or phone. We offer design review services, thermal analysis support, and application-specific recommendations. For complex projects, we can arrange on-site support.",
+          "decisionGuide": "Reach out to our FAE team for personalized technical support.",
+          "keywords": [
+            "technical support",
+            "FAE",
+            "design review"
+          ]
+        },
+        {
+          "question": "How do I apply Automotive Electronics Design Guide principles in my design?",
+          "answer": "Start by understanding your application requirements including voltage, current, and thermal constraints. Follow the step-by-step guidelines in this article, and use the provided formulas for calculations. Validate your design with prototype testing and thermal measurements.",
+          "decisionGuide": "Contact our FAE team for application-specific guidance.",
+          "keywords": [
+            "design application",
+            "implementation",
+            "validation"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        {
+          "title": "Understanding Diode Thermal Management",
+          "link": "/panjit/support/thermal-management.html",
+          "description": "Comprehensive guide to heat sinking and thermal design"
+        },
+        {
+          "title": "Power Supply Design Fundamentals",
+          "link": "/panjit/support/power-supply-design.html",
+          "description": "Basic principles for efficient power supply design"
+        },
+        {
+          "title": "Automotive Electronics Guidelines",
+          "link": "/panjit/support/automotive-design.html",
+          "description": "Design considerations for automotive applications"
+        }
+      ],
+      "faeInsights": {
+        "practicalTips": [
+          "Always measure actual operating temperatures during prototype validation",
+          "Use thermal simulation tools to predict junction temperatures",
+          "Consider worst-case scenarios including high ambient temperatures"
+        ],
+        "commonQuestions": [
+          "How do I determine the right heat sink size?",
+          "What is the maximum safe operating temperature?",
+          "How do I measure junction temperature accurately?"
+        ],
+        "expertAdvice": "For best results, work closely with our FAE team during the design phase to validate thermal performance and optimize component selection."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "High failure rate in field due to thermal issues",
+          "solution": "Implemented thermal management best practices from this guide",
+          "results": "Reduced field failures by 85%, improved MTBF to 100,000+ hours"
+        }
+      ]
+    }
+  ]
+}

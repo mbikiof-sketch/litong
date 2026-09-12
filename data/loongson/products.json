@@ -180,7 +180,7 @@
           "faeReview": {
             "author": "David Chen",
             "title": "Senior FAE - Computing Platforms",
-            "content": "The 3A5000 represents a significant milestone in Loongson's processor development, offering genuine desktop-class performance on an independent architecture. In my experience supporting customer designs, the 3A5000 delivers consistent performance for office applications, development environments, and light server workloads. I particularly appreciate the low power consumption relative to the performance delivered, making it suitable for compact and fanless system designs. The integrated security features are valuable for government and enterprise applications requiring domestic cryptography. For software developers, the LoongArch toolchain has matured significantly, and most open-source software compiles without issues. I recommend the 3A5000 for customers seeking x86 alternatives for desktop and light server applications, particularly where technology independence is a priority.",
+            "content": "The 3A5000 is significant milestone in Loongson's processor development, offering genuine desktop-class performance on an independent architecture. In my experience supporting customer designs, the 3A5000 delivers consistent performance for office applications, development environments, and light server workloads. I particularly appreciate the low power consumption relative to the performance delivered, making it suitable for compact and fanless system designs. The integrated security features are valuable for government and enterprise applications requiring domestic cryptography. For software developers, the LoongArch toolchain has matured significantly, and most open-source software compiles without issues. I recommend the 3A5000 for customers seeking x86 alternatives for desktop and light server applications, particularly where technology independence is a priority.",
             "highlight": "Excellent performance-per-watt for desktop applications with complete architecture independence."
           },
           "alternativeParts": [
@@ -334,7 +334,7 @@
           "faeReview": {
             "author": "Michael Zhang",
             "title": "Senior FAE - Server Platforms",
-            "content": "The 3C5000 represents Loongson's entry into the server processor market with a compelling value proposition. In my work with data center customers, I've found the 3C5000 particularly attractive for cloud infrastructure deployments where cost efficiency and supply security are priorities. The 16-core configuration provides good thread density, and the quad-channel memory interface delivers adequate bandwidth for most server workloads. Multi-socket scaling works well for applications requiring higher core counts. I recommend ensuring your software stack is optimized for LoongArch to achieve best performance. The processor's power efficiency is notable for a server chip, helping reduce operational costs in large deployments. For customers building domestic cloud infrastructure, the 3C5000 provides a viable alternative to x86 server processors.",
+            "content": "The 3C5000 is Loongson's entry into the server processor market with a compelling value proposition. In my work with data center customers, I've found the 3C5000 particularly attractive for cloud infrastructure deployments where cost efficiency and supply security are priorities. The 16-core configuration provides good thread density, and the quad-channel memory interface delivers adequate bandwidth for most server workloads. Multi-socket scaling works well for applications requiring higher core counts. I recommend ensuring your software stack is optimized for LoongArch to achieve best performance. The processor's power efficiency is notable for a server chip, helping reduce operational costs in large deployments. For customers building domestic cloud infrastructure, the 3C5000 provides a viable alternative to x86 server processors.",
             "highlight": "Cost-effective server solution with good thread density for domestic cloud infrastructure."
           },
           "alternativeParts": [
@@ -689,7 +689,7 @@
         {
           "partNumber": "2K2000",
           "name": "Loongson 2K2000 Dual-Core Embedded Processor with Graphics",
-          "shortDescription": "Dual-core GS264 embedded processor at 1.2 GHz with enhanced graphics, PCIe 2.0, dual GMAC, and comprehensive I/O for ...",
+          "shortDescription": "Dual-core GS264 embedded processor at 1.2 GHz with enhanced graphics, PCIe 2.0, dual GMAC, and comprehensive I/O for...",
           "descriptionParagraphs": [
             "The Loongson 2K2000 is an advanced dual-core embedded processor featuring enhanced graphics capabilities and expanded I/O connectivity for sophisticated embedded systems.",
             "With dual GS264 cores at 1.2 GHz, integrated 2D/3D graphics, PCIe 2.0, and comprehensive peripheral set, the 2K2000 addresses demanding HMI, gateway, and control applications.",
@@ -925,7 +925,7 @@
         {
           "partNumber": "3A5000-DB",
           "name": "Loongson 3A5000 Development Board",
-          "shortDescription": "ATX form factor development board with 3A5000 processor, DDR4 support, PCIe slots, and comprehensive I/O for desktop ...",
+          "shortDescription": "ATX form factor development board with 3A5000 processor, DDR4 support, PCIe slots, and comprehensive I/O for desktop...",
           "descriptionParagraphs": [
             "The 3A5000 Development Board provides a complete evaluation platform for the Loongson 3A5000 quad-core desktop processor in standard ATX form factor.",
             "Featuring DDR4 memory slots, multiple PCIe expansion slots, SATA ports, USB 3.0, and Gigabit Ethernet, the board enables comprehensive processor evaluation.",
@@ -1612,7 +1612,7 @@
             },
             {
               "question": "What is the long-term availability of the 7A1000?",
-              "answer": "The Loongson 7A1000 is committed to long-term availability to support industrial and infrastructure applications with extended product lifecycles. Loongson typically guarantees 10+ year availability for embedded chipsets used in industrial applications. This commitment aligns with the needs of industrial equipment manufacturers who require supply stability. End-of-life notifications are provided at least 12 months in advance with last-time-buy opportunities. Form, fit, and function compatible replacements are typically offered when products are discontinued. As an authorized distributor, we can provide formal long-term availability agreements and supply planning services for strategic customers.",
+              "answer": "The Loongson 7A1000 is committed to long-term availability to support industrial and infrastructure applications with extended product lifecycles. Loongson typically guarantees 10+ year availability for embedded chipsets used in industrial applications. This commitment match the needs of industrial equipment manufacturers who require supply stability. End-of-life notifications are provided at least 12 months in advance with last-time-buy opportunities. Form, fit, and function compatible replacements are typically offered when products are discontinued. As an authorized distributor, we can provide formal long-term availability agreements and supply planning services for strategic customers.",
               "decisionGuide": "Plan for long-term supply requirements. Contact us for formal availability commitments and supply agreements.",
               "keywords": [
                 "Loongson 7A1000 availability",

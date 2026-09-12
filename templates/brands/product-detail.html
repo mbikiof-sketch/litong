@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= product.partNumber %> | <%= brand.displayName %> | Core Distributor</title>
+  <title><%= product.partNumber %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= product.description %> - In stock at BeiLuo. Authorized core distributor.">
   <meta name="keywords" content="<%= product.partNumber %>, <%= product.category %>, <%= brand.displayName %>, distributor, datasheet">
   <meta name="robots" content="index, follow">
   <meta name="author" content="BeiLuo">
-  <link rel="canonical" href="https://www.elec-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= product.partNumber.toLowerCase() %>.html">
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= product.slug || product.partNumber.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>">
   
   <!-- Product Schema -->
   <script type="application/ld+json">
@@ -144,6 +144,18 @@
     @media (max-width: 767px) { .product-cta-group { flex-direction: column; } .btn-primary, .btn-secondary { width: 100%; text-align: center; } }
   </style>
 </head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ic-distributor.com/"},
+    {"@type": "ListItem", "position": 2, "name": "<%= brand.displayName %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/"},
+    {"@type": "ListItem", "position": 3, "name": "Products", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/"},
+    {"@type": "ListItem", "position": 4, "name": "<%= product.partNumber %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= product.slug || product.partNumber.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>"}
+  ]
+}
+</script>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->
   <!--#include virtual="/templates/components/breadcrumb.html" -->
@@ -647,13 +659,13 @@
         <div class="fae-review-section" style="margin-top: var(--space-12); padding: var(--space-8); background: linear-gradient(135deg, #f8f9fa, #e9ecef); border-radius: var(--radius-lg); border-left: 4px solid var(--primary-blue);">
           <h2 style="margin-bottom: var(--space-4);">FAE Expert Insights</h2>
           <div style="display: flex; gap: var(--space-4); align-items: flex-start;">
-            <div class="fae-avatar" style="width: 64px; height: 64px; border-radius: 50%; background: var(--primary-blue); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;"><%= product.faeReview.author ? product.faeReview.author.charAt(0) : 'F' %></div>
+            <div class="fae-avatar" style="width: 64px; height: 64px; border-radius: 50%; background: var(--primary-blue); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;"><%= product.faeReview.author ? (typeof product.faeReview.author === 'object' ? (product.faeReview.author.name ? product.faeReview.author.name.charAt(0) : 'F') : product.faeReview.author.charAt(0)) : 'F' %></div>
             <div style="flex: 1;">
               <p style="font-style: italic; color: var(--text-medium); line-height: 1.8; margin-bottom: var(--space-3);">"<%= product.faeReview.content || product.faeReview.highlight || product.partNumber + ' is an excellent choice for industrial applications.' %>"</p>
               <% if (product.faeReview.highlight) { %>
               <p style="font-weight: 600; color: var(--primary-blue); margin-bottom: var(--space-3);"><%= product.faeReview.highlight %></p>
               <% } %>
-              <p style="font-weight: 600; color: var(--text-dark);">— <%= product.faeReview.author || 'Field Application Engineer' %>, BeiLuo</p>
+              <p style="font-weight: 600; color: var(--text-dark);">— <%= product.faeReview.author ? (typeof product.faeReview.author === 'object' ? (product.faeReview.author.name || 'Field Application Engineer') : product.faeReview.author) : 'Field Application Engineer' %>, BeiLuo</p>
             </div>
           </div>
         </div>

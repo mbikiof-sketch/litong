@@ -82,7 +82,18 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Buck Converters": "N/A",
+            "LDOs": "N/A",
+            "Efficiency": "N/A",
+            "Charging Current": "N/A",
+            "Interface": "N/A",
+            "Temperature": "N/A",
+            "Battery Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Power Path": "N/A",
+            "JEITA Support": "N/A"
           },
           "name": "Power Management HCI-PM001"
         },
@@ -122,7 +133,18 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Buck Converters": "N/A",
+            "LDOs": "N/A",
+            "Efficiency": "N/A",
+            "Charging Current": "N/A",
+            "Interface": "N/A",
+            "Temperature": "N/A",
+            "Battery Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Power Path": "N/A",
+            "JEITA Support": "N/A"
           },
           "name": "Power Management HCI-PM002"
         },
@@ -143,7 +165,14 @@
             "Charging Current": "Up to 3A",
             "Interface": "I2C",
             "Package": "QFN-40 5x5mm",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Battery Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Power Path": "N/A",
+            "JEITA Support": "N/A"
           },
           "features": [
             "4-channel buck converters",
@@ -220,7 +249,14 @@
             "Power Path": "Yes",
             "JEITA Support": "Yes",
             "Package": "DFN-10 3x3mm",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Buck Converters": "N/A",
+            "LDOs": "N/A",
+            "Efficiency": "N/A",
+            "Interface": "N/A"
           },
           "features": [
             "2A fast charging",
@@ -283,7 +319,18 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Voltage",
+        "Buck Converters",
+        "LDOs",
+        "Efficiency",
+        "Charging Current",
+        "Interface",
+        "Temperature",
+        "Battery Voltage",
+        "Trickle Charge",
+        "Power Path",
+        "JEITA Support"
       ],
       "applications": [
         "Industrial Automation",
@@ -347,7 +394,19 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Resolution": "N/A",
+            "Channels": "N/A",
+            "Sample Rate": "N/A",
+            "ENOB": "N/A",
+            "PGA Gain": "N/A",
+            "Reference": "N/A",
+            "Interface": "N/A",
+            "Temperature": "N/A",
+            "Output Range": "N/A",
+            "INL": "N/A",
+            "DNL": "N/A",
+            "Settling Time": "N/A"
           },
           "name": "Analog ICs HCI-AN001"
         },
@@ -387,7 +446,19 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Resolution": "N/A",
+            "Channels": "N/A",
+            "Sample Rate": "N/A",
+            "ENOB": "N/A",
+            "PGA Gain": "N/A",
+            "Reference": "N/A",
+            "Interface": "N/A",
+            "Temperature": "N/A",
+            "Output Range": "N/A",
+            "INL": "N/A",
+            "DNL": "N/A",
+            "Settling Time": "N/A"
           },
           "name": "Analog ICs HCI-AN002"
         },
@@ -409,7 +480,14 @@
             "Reference": "Internal/External",
             "Interface": "SPI/I2C",
             "Package": "TSSOP-20",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Output Range": "N/A",
+            "INL": "N/A",
+            "DNL": "N/A",
+            "Settling Time": "N/A"
           },
           "features": [
             "24-bit high resolution",
@@ -488,7 +566,13 @@
             "Interface": "I2C/SPI",
             "Reference": "Internal 2.5V",
             "Package": "TSSOP-16",
-            "Temperature": "-40°C to +125°C"
+            "Temperature": "-40°C to +125°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Sample Rate": "N/A",
+            "ENOB": "N/A",
+            "PGA Gain": "N/A"
           },
           "features": [
             "16-bit resolution",
@@ -552,7 +636,19 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Resolution",
+        "Channels",
+        "Sample Rate",
+        "ENOB",
+        "PGA Gain",
+        "Reference",
+        "Interface",
+        "Temperature",
+        "Output Range",
+        "INL",
+        "DNL",
+        "Settling Time"
       ],
       "applications": [
         "Industrial Automation",
@@ -616,7 +712,16 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Protocol": "N/A",
+            "Data Rate": "N/A",
+            "Bus Protection": "N/A",
+            "ESD Protection": "N/A",
+            "Supply Voltage": "N/A",
+            "Low Power Mode": "N/A",
+            "Temperature": "N/A",
+            "Common Mode": "N/A",
+            "Quiescent Current": "N/A"
           },
           "name": "Interface ICs HCI-IN001"
         },
@@ -656,7 +761,16 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Protocol": "N/A",
+            "Data Rate": "N/A",
+            "Bus Protection": "N/A",
+            "ESD Protection": "N/A",
+            "Supply Voltage": "N/A",
+            "Low Power Mode": "N/A",
+            "Temperature": "N/A",
+            "Common Mode": "N/A",
+            "Quiescent Current": "N/A"
           },
           "name": "Interface ICs HCI-IN002"
         },
@@ -677,7 +791,12 @@
             "Supply Voltage": "4.5V - 5.5V",
             "Low Power Mode": "< 10uA",
             "Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8"
+            "Package": "SOIC-8",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Common Mode": "N/A",
+            "Quiescent Current": "N/A"
           },
           "features": [
             "CAN-FD up to 5Mbps",
@@ -754,7 +873,12 @@
             "Supply Voltage": "3.0V - 3.6V",
             "Quiescent Current": "< 1mA",
             "Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8 / MSOP-8"
+            "Package": "SOIC-8 / MSOP-8",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Bus Protection": "N/A",
+            "Low Power Mode": "N/A"
           },
           "features": [
             "20Mbps high-speed",
@@ -818,7 +942,16 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Protocol",
+        "Data Rate",
+        "Bus Protection",
+        "ESD Protection",
+        "Supply Voltage",
+        "Low Power Mode",
+        "Temperature",
+        "Common Mode",
+        "Quiescent Current"
       ],
       "applications": [
         "Industrial Automation",
@@ -882,7 +1015,20 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Accelerometer Range": "N/A",
+            "Gyroscope Range": "N/A",
+            "Accelerometer Noise": "N/A",
+            "Gyroscope Noise": "N/A",
+            "Interface": "N/A",
+            "Output Data Rate": "N/A",
+            "Power": "N/A",
+            "Temperature": "N/A",
+            "Pressure Range": "N/A",
+            "Resolution": "N/A",
+            "Accuracy": "N/A",
+            "Sample Rate": "N/A",
+            "Height Resolution": "N/A"
           },
           "name": "Sensors HCI-SE001"
         },
@@ -922,7 +1068,20 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Accelerometer Range": "N/A",
+            "Gyroscope Range": "N/A",
+            "Accelerometer Noise": "N/A",
+            "Gyroscope Noise": "N/A",
+            "Interface": "N/A",
+            "Output Data Rate": "N/A",
+            "Power": "N/A",
+            "Temperature": "N/A",
+            "Pressure Range": "N/A",
+            "Resolution": "N/A",
+            "Accuracy": "N/A",
+            "Sample Rate": "N/A",
+            "Height Resolution": "N/A"
           },
           "name": "Sensors HCI-SE002"
         },
@@ -944,7 +1103,15 @@
             "Output Data Rate": "Up to 4kHz",
             "Power": "1.8mA active",
             "Package": "LGA-14 3x3mm",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Pressure Range": "N/A",
+            "Resolution": "N/A",
+            "Accuracy": "N/A",
+            "Sample Rate": "N/A",
+            "Height Resolution": "N/A"
           },
           "features": [
             "6-axis motion sensing",
@@ -1022,7 +1189,15 @@
             "Sample Rate": "Up to 100Hz",
             "Power": "2.7μA standby",
             "Package": "LGA-8 2.5x2.5mm",
-            "Height Resolution": "±8cm"
+            "Height Resolution": "±8cm",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Accelerometer Range": "N/A",
+            "Gyroscope Range": "N/A",
+            "Accelerometer Noise": "N/A",
+            "Gyroscope Noise": "N/A",
+            "Output Data Rate": "N/A",
+            "Temperature": "N/A"
           },
           "features": [
             "24-bit high resolution",
@@ -1086,7 +1261,20 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Accelerometer Range",
+        "Gyroscope Range",
+        "Accelerometer Noise",
+        "Gyroscope Noise",
+        "Interface",
+        "Output Data Rate",
+        "Power",
+        "Temperature",
+        "Pressure Range",
+        "Resolution",
+        "Accuracy",
+        "Sample Rate",
+        "Height Resolution"
       ],
       "applications": [
         "Industrial Automation",

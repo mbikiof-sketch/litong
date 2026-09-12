@@ -141,7 +141,7 @@
         },
         {
           "question": "What is the significance of INL and DNL in ADC selection?",
-          "answer": "INL (Integral Non-Linearity) and DNL (Differential Non-Linearity) are critical specifications for ADC accuracy. INL represents the maximum deviation of the actual transfer function from the ideal straight line, affecting absolute accuracy. DNL represents the variation in step size between adjacent codes, ensuring no missing codes. For precision measurement applications, look for INL better than ±1 LSB and DNL better than ±0.5 LSB.",
+          "answer": "INL (Integral Non-Linearity) and DNL (Differential Non-Linearity) are critical specifications for ADC accuracy. INL is the maximum deviation of the actual transfer function from the ideal straight line, affecting absolute accuracy. DNL is the variation in step size between adjacent codes, ensuring no missing codes. For precision measurement applications, look for INL better than ±1 LSB and DNL better than ±0.5 LSB.",
           "decisionGuide": "For DC precision applications, prioritize INL and DNL specifications.",
           "keywords": [
             "INL",

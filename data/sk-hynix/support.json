@@ -105,7 +105,7 @@
       "summary": "Comprehensive guide for selecting SK Hynix DRAM including DDR4, DDR5, and LPDDR products for servers, mobile, and automotive applications.",
       "content": [
         "This technical reference document provides detailed information about sk-hynix product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -174,7 +174,7 @@
       "faqs": [
         {
           "question": "What is the difference between RDIMM and LRDIMM?",
-          "answer": "RDIMM uses a register for address/command signals. LRDIMM adds a data buffer for higher capacity. RDIMM has lower latency, LRDIMM supports higher capacity. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "RDIMM uses a register for address/command signals. LRDIMM adds a data buffer for higher capacity. RDIMM has lower latency, LRDIMM supports higher capacity. For detailed specifications and application support on sk-hynix products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use RDIMM for low-latency applications. Use LRDIMM for maximum capacity.",
           "keywords": [
             "RDIMM vs LRDIMM",
@@ -237,7 +237,7 @@
       "summary": "Learn how to select and integrate SK Hynix SSDs for enterprise and client applications. Covers NVMe and SATA options.",
       "content": [
         "This technical reference document provides detailed information about sk-hynix product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -306,7 +306,7 @@
       "faqs": [
         {
           "question": "How do I calculate SSD endurance requirements?",
-          "answer": "Calculate DWPD = (Daily writes in GB) / (SSD capacity in GB). Select SSD with DWPD rating exceeding your requirement. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Calculate DWPD = (Daily writes in GB) / (SSD capacity in GB). Select SSD with DWPD rating exceeding your requirement. For detailed specifications and application support on sk-hynix products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate daily write volume and select SSD with appropriate TBW rating.",
           "keywords": [
             "SSD endurance",
@@ -369,7 +369,7 @@
       "summary": "Comprehensive guide for integrating SK Hynix HBM into AI accelerators and high-performance computing systems.",
       "content": [
         "This technical reference document provides detailed information about sk-hynix product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -391,7 +391,7 @@
           "experience": "8+ years"
         },
         "title": "Senior FAE - AI Memory",
-        "content": "HBM integration represents one of the most complex challenges in modern semiconductor design. Throughout my years supporting AI accelerator development, I have seen projects succeed and fail based on how they approach HBM integration. The key lesson is that HBM cannot be treated as a simple component selection - it requires deep system co-design involving the ASIC team, packaging engineers, thermal specialists, and signal integrity experts all working together from the earliest stages. The 2.5D interposer design, TSV connections, and microbump bonding all introduce complexity that affects every aspect of the system. Thermal management is particularly critical because HBM stacks concentrate significant power in a small area. I always advise customers to engage with SK Hynix and their packaging partners at least 12 months before tape-out to ensure successful integration.",
+        "content": "HBM integration is one of the most complex challenges in modern semiconductor design. Throughout my years supporting AI accelerator development, I have seen projects succeed and fail based on how they approach HBM integration. The key lesson is that HBM cannot be treated as a simple component selection - it requires deep system co-design involving the ASIC team, packaging engineers, thermal specialists, and signal integrity experts all working together from the earliest stages. The 2.5D interposer design, TSV connections, and microbump bonding all introduce complexity that affects every aspect of the system. Thermal management is particularly critical because HBM stacks concentrate significant power in a small area. I always advise customers to engage with SK Hynix and their packaging partners at least 12 months before tape-out to ensure successful integration.",
         "practicalTips": [
           "Start co-design early",
           "Plan for thermal challenges",
@@ -438,7 +438,7 @@
       "faqs": [
         {
           "question": "What is required for HBM system co-design?",
-          "answer": "HBM co-design requires: ASIC with HBM controller, 2.5D interposer design, thermal solution, and signal integrity analysis. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "HBM co-design requires: ASIC with HBM controller, 2.5D interposer design, thermal solution, and signal integrity analysis. For detailed specifications and application support on sk-hynix products, refer to the datasheet or contact our team.",
           "decisionGuide": "Engage SK Hynix and packaging partners early. Plan for 6-12 month co-design cycle.",
           "keywords": [
             "HBM co-design",
@@ -501,7 +501,7 @@
       "summary": "Guide for selecting SK Hynix NAND Flash including TLC and QLC options for SSD and embedded applications.",
       "content": [
         "This technical reference document provides detailed information about sk-hynix product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -570,7 +570,7 @@
       "faqs": [
         {
           "question": "What is the endurance difference between TLC and QLC?",
-          "answer": "TLC typically supports 1,000-3,000 P/E cycles. QLC supports 100-1,000 cycles. TLC is better for write-intensive applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "TLC typically supports 1,000-3,000 P/E cycles. QLC supports 100-1,000 cycles. TLC is better for write-intensive applications. For detailed specifications and application support on sk-hynix products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use TLC for mixed workloads. Use QLC for read-intensive, high-capacity storage.",
           "keywords": [
             "TLC vs QLC",
@@ -648,7 +648,7 @@
           "title": "Senior FAE - DRAM",
           "experience": "12 years"
         },
-        "content": "DDR5 represents a significant advancement in server memory technology. The transition from DDR4 to DDR5 requires careful attention to signal integrity and power delivery design. Key considerations include: 1) Higher data rates (4800-6400 MT/s) require more stringent signal routing, 2) Lower operating voltage (1.1V) demands robust power delivery, 3) On-DIMM power management increases thermal density, 4) New channel architecture affects population rules. I recommend starting with reference designs and working closely with our FAE team for custom implementations. Early engagement is critical for first-time DDR5 designs.",
+        "content": "DDR5 is significant advancement in server memory technology. The transition from DDR4 to DDR5 requires careful attention to signal integrity and power delivery design. Key considerations include: 1) Higher data rates (4800-6400 MT/s) require more stringent signal routing, 2) Lower operating voltage (1.1V) demands robust power delivery, 3) On-DIMM power management increases thermal density, 4) New channel architecture affects population rules. I recommend starting with reference designs and working closely with our FAE team for custom implementations. Early engagement is critical for first-time DDR5 designs.",
         "highlight": "Critical design considerations for DDR5 integration",
         "insightLogic": "Based on extensive DDR5 bring-up experience across multiple server platforms",
         "keyTakeaways": [

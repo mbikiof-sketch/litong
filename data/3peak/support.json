@@ -108,7 +108,7 @@
       "summary": "Comprehensive guide to selecting the right 3peak operational amplifier for precision, high-speed, or low-power applications.",
       "content": [
         "This technical reference document provides detailed information about 3peak product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -259,7 +259,7 @@
       "summary": "Complete guide to selecting data converters based on resolution, speed, and accuracy requirements for measurement and control applications.",
       "content": [
         "This technical reference document provides detailed information about 3peak product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -345,7 +345,7 @@
       "faqs": [
         {
           "question": "What is ENOB and why is it important?",
-          "answer": "ENOB (Effective Number of Bits) represents the actual dynamic performance of an ADC considering noise and distortion. While TPC1610 is a 16-bit ADC, its ENOB is typically 14.5 bits at 1MSPS. ENOB decreases at higher frequencies due to increased noise. For DC measurements, full resolution is available.",
+          "answer": "ENOB (Effective Number of Bits) is the actual dynamic performance of an ADC considering noise and distortion. While TPC1610 is a 16-bit ADC, its ENOB is typically 14.5 bits at 1MSPS. ENOB decreases at higher frequencies due to increased noise. For DC measurements, full resolution is available.",
           "decisionGuide": "ENOB is important for AC applications. For DC, focus on INL and offset.",
           "keywords": [
             "ENOB",
@@ -408,7 +408,7 @@
       "summary": "Practical design guide for interfacing sensors using 3peak op-amps, ADCs, and voltage references.",
       "content": [
         "This technical reference document provides detailed information about 3peak product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -560,7 +560,7 @@
       "summary": "Guide to selecting RS-485, RS-422, and RS-232 interface transceivers for industrial and automotive communication applications.",
       "content": [
         "This technical reference document provides detailed information about 3peak product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -709,7 +709,7 @@
       "summary": "Comprehensive guide to selecting the right 3peak motor driver for DC, stepper, and brushless motor applications based on current, voltage, and control requirements.",
       "content": [
         "This technical reference document provides detailed information about 3peak product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

@@ -97,7 +97,7 @@
       "title": "MLCC Selection Guide for Power Applications",
       "category": "Design Guide",
       "shortDescription": "Comprehensive guide for selecting multilayer ceramic capacitors for power supply and decoupling applications.",
-      "content": "## Introduction to MLCC Selection\n\nMultilayer ceramic capacitors (MLCCs) are essential components in modern electronic designs, offering high capacitance density, low ESR, and excellent high-frequency performance. This guide covers key considerations for selecting MLCCs in power applications.\n\n## Understanding Dielectric Types\n\n### Class I Dielectrics (C0G/NP0)\nClass I dielectrics offer the highest stability with near-zero temperature coefficient (0 plus or minus 30 ppm/C). These capacitors are ideal for:\n- Timing circuits\n- Oscillator circuits\n- Filter applications requiring precise capacitance\n- High-Q RF circuits\n\nCharacteristics:\n- Excellent capacitance stability over temperature\n- Minimal capacitance loss with DC bias\n- Low capacitance density (higher cost per uF)\n- No aging effects\n\n### Class II Dielectrics (X7R, X5R)\nClass II dielectrics provide higher capacitance density at lower cost, making them suitable for:\n- Decoupling and bypass applications\n- Bulk capacitance for power supplies\n- General-purpose filtering\n\nCharacteristics:\n- X7R: plus or minus 15% capacitance variation (-55C to +125C)\n- X5R: plus or minus 15% capacitance variation (-55C to +85C)\n- Significant DC bias effects\n- Aging effects (typically 2-5% per decade hour)\n\n## DC Bias Effects\n\nDC bias significantly affects Class II ceramic capacitors. When DC voltage is applied, the dielectric material experiences reduced permittivity, causing capacitance to decrease. This effect is more pronounced in smaller package sizes.\n\n### Mitigation Strategies\n1. Use larger package sizes for better DC bias characteristics\n2. Select higher nominal capacitance values\n3. Consider C0G dielectric for critical applications\n4. Account for capacitance reduction in design calculations\n\n## Voltage Derating\n\nTDK recommends operating MLCCs at 70-80% of rated voltage for optimal reliability and lifetime. Benefits of voltage derating include:\n- Extended operational life\n- Reduced leakage current\n- Improved reliability under surge conditions\n- Margin for transient overvoltages\n\n## Package Size Selection\n\nSelect package size based on:\n- Required capacitance and voltage rating\n- PCB space constraints\n- Manufacturing process capabilities\n- Thermal considerations\n\nCommon sizes:\n- 0402, 0603: Consumer electronics, high-density designs\n- 0805, 1206: General-purpose industrial applications\n- 1210 and larger: High-voltage, high-capacitance requirements\n\n## Application-Specific Recommendations\n\n### DC-DC Converter Input/Output\n- Use X7R dielectric for temperature stability\n- Select package size based on ripple current requirements\n- Parallel multiple capacitors for high-current applications\n- Include smaller capacitors for high-frequency decoupling\n\n### Automotive Applications\n- Select AEC-Q200 qualified components (CGA series)\n- Use X8R dielectric for high-temperature locations\n- Apply additional voltage derating for reliability\n- Verify vibration resistance requirements\n\n## Conclusion\n\nProper MLCC selection requires understanding dielectric characteristics, DC bias effects, and application requirements. TDK's extensive MLCC portfolio offers solutions for virtually every application need. Contact our FAE team for application-specific recommendations.",
+      "content": "## Introduction to MLCC Selection\n\nMultilayer ceramic capacitors (MLCCs) are essential components in modern electronic designs, offering high capacitance density, low ESR, and excellent high-frequency performance. This guide covers key considerations for selecting MLCCs in power applications.\n\n## Understanding Dielectric Types\n\n### Class I Dielectrics (C0G/NP0)\nClass I dielectrics offer the highest stability with near-zero temperature coefficient (0 plus or minus 30 ppm/C). These capacitors are ideal for:\n- Timing circuits\n- Oscillator circuits\n- Filter applications requiring precise capacitance\n- High-Q RF circuits\n\nCharacteristics:\n- Excellent capacitance stability over temperature\n- Minimal capacitance loss with DC bias\n- Low capacitance density (higher cost per uF)\n- No aging effects\n\n### Class II Dielectrics (X7R, X5R)\nClass II dielectrics provide higher capacitance density at lower cost, making them suitable for:\n- Decoupling and bypass applications\n- Bulk capacitance for power supplies\n- General-purpose filtering\n\nCharacteristics:\n- X7R: plus or minus 15% capacitance variation (-55C to +125C)\n- X5R: plus or minus 15% capacitance variation (-55C to +85C)\n- Significant DC bias effects\n- Aging effects (typically 2-5% per decade hour)\n\n## DC Bias Effects\n\nDC bias significantly affects Class II ceramic capacitors. When DC voltage is applied, the dielectric material experiences reduced permittivity, causing capacitance to decrease. This effect is more pronounced in smaller package sizes.\n\n### Mitigation Strategies\n1. Use larger package sizes for better DC bias characteristics\n2. Select higher nominal capacitance values\n3. Consider C0G dielectric for critical applications\n4. Account for capacitance reduction in design calculations\n\n## Voltage Derating\n\nTDK recommends operating MLCCs at 70-80% of rated voltage for optimal reliability and lifetime. Benefits of voltage derating include:\n- Extended operational life\n- Reduced leakage current\n- Improved reliability under surge conditions\n- Margin for transient overvoltages\n\n## Package Size Selection\n\nselect package size based on:\n- Required capacitance and voltage rating\n- PCB space constraints\n- Manufacturing process capabilities\n- Thermal considerations\n\nCommon sizes:\n- 0402, 0603: Consumer electronics, high-density designs\n- 0805, 1206: General-purpose industrial applications\n- 1210 and larger: High-voltage, high-capacitance requirements\n\n## Application-Specific Recommendations\n\n### DC-DC Converter Input/Output\n- Use X7R dielectric for temperature stability\n- Select package size based on ripple current requirements\n- Parallel multiple capacitors for high-current applications\n- Include smaller capacitors for high-frequency decoupling\n\n### Automotive Applications\n- Select AEC-Q200 qualified components (CGA series)\n- Use X8R dielectric for high-temperature locations\n- Apply additional voltage derating for reliability\n- Verify vibration resistance requirements\n\n## Conclusion\n\nproper MLCC selection requires understanding dielectric characteristics, DC bias effects, and application requirements. TDK's extensive MLCC portfolio offers solutions for virtually every application need. Contact our FAE team for application-specific recommendations.",
       "tags": [
         "MLCC",
         "ceramic capacitor",
@@ -236,7 +236,7 @@
       "title": "Aluminum Electrolytic Capacitor Lifetime Prediction",
       "category": "Technical Analysis",
       "shortDescription": "Understanding lifetime factors and calculation methods for aluminum electrolytic capacitors in power applications.",
-      "content": "## Introduction to Capacitor Lifetime\n\nAluminum electrolytic capacitors are essential components in power supplies, motor drives, and energy storage applications. Understanding their lifetime characteristics is crucial for designing reliable systems.\n\n## Primary Failure Mechanism\n\nThe primary wear-out mechanism in aluminum electrolytic capacitors is electrolyte evaporation through the seal. As electrolyte is lost over time, capacitance decreases gradually and ESR increases.\n\n## Temperature Effects\n\nTemperature has the most significant impact on capacitor lifetime. The relationship follows the Arrhenius equation where lifetime approximately doubles for every 10C decrease in temperature.\n\n## Voltage Effects\n\nOperating voltage also affects lifetime. Operating at 80% of rated voltage typically doubles the expected lifetime compared to full rated voltage operation.\n\n## Ripple Current Effects\n\nRipple current causes internal heating due to I squared R losses in the ESR. This self-heating adds to ambient temperature, reducing lifetime.\n\n## Design Recommendations\n\nApply voltage derating and thermal management to maximize capacitor lifetime. TDK provides detailed lifetime calculation tools.",
+      "content": "## Introduction to Capacitor Lifetime\n\nAluminum electrolytic capacitors are essential components in power supplies, motor drives, and energy storage applications. Understanding their lifetime characteristics is crucial for designing reliable systems.\n\n## Primary Failure Mechanism\n\nthe primary wear-out mechanism in aluminum electrolytic capacitors is electrolyte evaporation through the seal. As electrolyte is lost over time, capacitance decreases gradually and ESR increases.\n\n## Temperature Effects\n\ntemperature has the most significant impact on capacitor lifetime. The relationship follows the Arrhenius equation where lifetime approximately doubles for every 10C decrease in temperature.\n\n## Voltage Effects\n\noperating voltage also affects lifetime. Operating at 80% of rated voltage typically doubles the expected lifetime compared to full rated voltage operation.\n\n## Ripple Current Effects\n\nripple current causes internal heating due to I squared R losses in the ESR. This self-heating adds to ambient temperature, reducing lifetime.\n\n## Design Recommendations\n\napply voltage derating and thermal management to maximize capacitor lifetime. TDK provides detailed lifetime calculation tools.",
       "tags": [
         "aluminum electrolytic",
         "lifetime",
@@ -307,7 +307,7 @@
         },
         {
           "question": "Can capacitor lifetime be extended by reducing voltage?",
-          "answer": "Yes, voltage derating significantly extends capacitor lifetime. Operating at 80% of rated voltage typically doubles lifetime. Operating at 70% can provide 3-4x lifetime extension. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, voltage derating significantly extends capacitor lifetime. Operating at 80% of rated voltage typically doubles lifetime. Operating at 70% can provide 3-4x lifetime extension. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Apply 20-30% voltage derating for significant lifetime improvement.",
           "keywords": [
             "voltage derating",
@@ -316,7 +316,7 @@
         },
         {
           "question": "What is the shelf life of aluminum electrolytic capacitors?",
-          "answer": "TDK recommends a maximum storage period of 3 years at room temperature. During storage, the electrolyte can slowly evaporate and the oxide layer may degrade slightly. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "TDK recommends a maximum storage period of 3 years at room temperature. During storage, the electrolyte can slowly evaporate and the oxide layer may degrade slightly. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use capacitors within 3 years of manufacture; perform reformation if stored longer.",
           "keywords": [
             "shelf life",
@@ -368,7 +368,7 @@
       "title": "Film Capacitor Applications in Power Electronics",
       "category": "Application Guide",
       "shortDescription": "Application guide for film capacitors in inverters, motor drives, and power conversion systems.",
-      "content": "## Introduction to Film Capacitors\n\nFilm capacitors are essential components in high-performance power electronics applications. Their unique characteristics including self-healing properties and excellent frequency response make them ideal for demanding applications.\n\n## Film Capacitor Technology\n\nFilm capacitors consist of thin plastic film dielectric with metal electrodes. Polypropylene film provides the lowest losses and best frequency characteristics.\n\n## DC Link Applications\n\nDC link capacitors serve as energy storage between rectifier and inverter stages. Key requirements include high capacitance, low ESR, and high ripple current capability.\n\n## Snubber Applications\n\nSnubber capacitors protect power semiconductors from voltage transients. Design considerations include low ESL and high dV/dt capability.\n\n## Self-Healing Properties\n\nMetallized film capacitors exhibit unique self-healing behavior where localized dielectric breakdowns are automatically cleared without catastrophic failure.\n\n## Conclusion\n\nFilm capacitors provide superior performance for high-power electronics applications with their self-healing properties and long lifetime.",
+      "content": "## Introduction to Film Capacitors\n\nFilm capacitors are essential components in high-performance power electronics applications. Their unique characteristics including self-healing properties and excellent frequency response make them ideal for demanding applications.\n\n## Film Capacitor Technology\n\nfilm capacitors consist of thin plastic film dielectric with metal electrodes. Polypropylene film provides the lowest losses and best frequency characteristics.\n\n## DC Link Applications\n\nDC link capacitors is energy storage between rectifier and inverter stages. Key requirements include high capacitance, low ESR, and high ripple current capability.\n\n## Snubber Applications\n\nsnubber capacitors protect power semiconductors from voltage transients. Design considerations include low ESL and high dV/dt capability.\n\n## Self-Healing Properties\n\nMetallized film capacitors exhibit unique self-healing behavior where localized dielectric breakdowns are automatically cleared without catastrophic failure.\n\n## Conclusion\n\nfilm capacitors provide superior performance for high-power electronics applications with their self-healing properties and long lifetime.",
       "tags": [
         "film capacitor",
         "DC link",
@@ -420,7 +420,7 @@
       "faqs": [
         {
           "question": "When should I choose film capacitors over aluminum electrolytic?",
-          "answer": "Choose film capacitors when high ripple current, long lifetime, or high-frequency switching is needed. Choose aluminum electrolytic for highest capacitance density or cost-sensitive applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Choose film capacitors when high ripple current, long lifetime, or high-frequency switching is needed. Choose aluminum electrolytic for highest capacitance density or cost-sensitive applications. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select film for high-reliability applications; electrolytic for cost-sensitive needs.",
           "keywords": [
             "film vs electrolytic",
@@ -429,7 +429,7 @@
         },
         {
           "question": "What is the self-healing process?",
-          "answer": "When dielectric breakdown occurs, a small arc vaporizes the thin metallization around the fault site, isolating the defect. The capacitor continues operating with slightly reduced capacitance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "When dielectric breakdown occurs, a small arc vaporizes the thin metallization around the fault site, isolating the defect. The capacitor continues operating with slightly reduced capacitance. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use metallized film capacitors for safety-critical applications.",
           "keywords": [
             "self-healing",
@@ -438,7 +438,7 @@
         },
         {
           "question": "How do I calculate required DC link capacitance?",
-          "answer": "DC link capacitance is calculated based on allowable voltage ripple. The formula is C equals I ripple divided by (8 times f switching times V ripple). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "DC link capacitance is calculated based on allowable voltage ripple. The formula is C equals I ripple divided by (8 times f switching times V ripple). For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate based on ripple requirements; verify thermal capability.",
           "keywords": [
             "DC link calculation",
@@ -447,7 +447,7 @@
         },
         {
           "question": "What is dV/dt rating?",
-          "answer": "dV/dt specifies the maximum rate of voltage change a capacitor can withstand. Modern SiC devices create very high dV/dt which can stress capacitors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "dV/dt specifies the maximum rate of voltage change a capacitor can withstand. Modern SiC devices create very high dV/dt which can stress capacitors. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify dV/dt rating exceeds application requirements.",
           "keywords": [
             "dV/dt rating",
@@ -456,7 +456,7 @@
         },
         {
           "question": "Can film capacitors be connected in parallel?",
-          "answer": "Yes, film capacitors can be paralleled to increase capacitance and current handling. Current sharing is naturally balanced with symmetrical layout. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, film capacitors can be paralleled to increase capacitance and current handling. Current sharing is naturally balanced with symmetrical layout. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Parallel capacitors for increased capacitance; use symmetrical layout.",
           "keywords": [
             "parallel connection",
@@ -499,7 +499,7 @@
       "title": "Power Inductor Selection for DC-DC Converters",
       "category": "Design Guide",
       "shortDescription": "Comprehensive guide for selecting power inductors including saturation current and thermal considerations.",
-      "content": "## Introduction to Power Inductor Selection\n\nPower inductors are critical components in DC-DC converters. Proper selection requires understanding inductance requirements, current ratings, and core materials.\n\n## Inductance Calculation\n\nThe required inductance is calculated based on allowable ripple current. The formula considers input voltage, output voltage, switching frequency, and desired ripple.\n\n## Current Ratings\n\nRated current is based on thermal limitations. Saturation current is the current at which inductance drops significantly. Both must be considered.\n\n## Core Material Selection\n\nFerrite cores offer low losses at high frequencies. Metal composite cores provide soft saturation and higher saturation flux density.\n\n## Shielded vs Unshielded\n\nShielded inductors minimize EMI radiation. Unshielded inductors are smaller and lower cost but produce more EMI.\n\n## Conclusion\n\nProper power inductor selection requires balancing multiple parameters. TDK's portfolio offers solutions for every application.",
+      "content": "## Introduction to Power Inductor Selection\n\nPower inductors are critical components in DC-DC converters. Proper selection requires understanding inductance requirements, current ratings, and core materials.\n\n## Inductance Calculation\n\nthe required inductance is calculated based on allowable ripple current. The formula considers input voltage, output voltage, switching frequency, and desired ripple.\n\n## Current Ratings\n\nrated current is based on thermal limitations. Saturation current is the current at which inductance drops significantly. Both must be considered.\n\n## Core Material Selection\n\nferrite cores offer low losses at high frequencies. Metal composite cores provide soft saturation and higher saturation flux density.\n\n## Shielded vs Unshielded\n\nShielded inductors minimize EMI radiation. Unshielded inductors are smaller and lower cost but produce more EMI.\n\n## Conclusion\n\nproper power inductor selection requires balancing multiple parameters. TDK's portfolio offers solutions for every application.",
       "tags": [
         "power inductor",
         "DC-DC converter",
@@ -550,7 +550,7 @@
       "faqs": [
         {
           "question": "What is inductor saturation?",
-          "answer": "Saturation occurs when the core material reaches maximum flux density and inductance drops dramatically. This causes increased ripple current and potential converter instability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Saturation occurs when the core material reaches maximum flux density and inductance drops dramatically. This causes increased ripple current and potential converter instability. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Design for peak current 30% below saturation rating.",
           "keywords": [
             "inductor saturation",
@@ -559,7 +559,7 @@
         },
         {
           "question": "How do ferrite and metal composite compare?",
-          "answer": "Ferrite offers low losses at high frequencies with sharp saturation. Metal composite provides soft saturation and higher flux density but higher losses. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Ferrite offers low losses at high frequencies with sharp saturation. Metal composite provides soft saturation and higher flux density but higher losses. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select ferrite for high frequency; metal composite for high current.",
           "keywords": [
             "ferrite core",
@@ -568,7 +568,7 @@
         },
         {
           "question": "What is the difference between rated and saturation current?",
-          "answer": "Rated current is thermal limitation. Saturation current is where inductance drops. In converters, saturation current is usually the limiting factor. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Rated current is thermal limitation. Saturation current is where inductance drops. In converters, saturation current is usually the limiting factor. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Design for both limits; saturation is typically limiting.",
           "keywords": [
             "rated current",
@@ -577,7 +577,7 @@
         },
         {
           "question": "How does temperature affect inductors?",
-          "answer": "DCR increases with temperature. Saturation current decreases at high temperatures. Core losses may change with temperature. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "DCR increases with temperature. Saturation current decreases at high temperatures. Core losses may change with temperature. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Account for temperature effects on DCR and saturation.",
           "keywords": [
             "temperature effects",
@@ -586,7 +586,7 @@
         },
         {
           "question": "Can inductors be paralleled?",
-          "answer": "Yes, but current sharing depends on inductance matching. Practical designs should use only 1.6-1.8x single inductor rating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, but current sharing depends on inductance matching. Practical designs should use only 1.6-1.8x single inductor rating. For detailed specifications and application support on tdk products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use single higher-current inductor when possible.",
           "keywords": [
             "parallel inductors",

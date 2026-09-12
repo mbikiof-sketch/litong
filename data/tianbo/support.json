@@ -1,0 +1,142 @@
+{
+  "seoTitle": "Tianbo Technical Support | Relay Selection Guide | BeiLuo",
+  "seoDescription": "Technical support resources for Tianbo relays including selection guides, application notes, and design resources.",
+  "seoKeywords": [
+    "Tianbo support",
+    "relay guide",
+    "selection guide",
+    "application support"
+  ],
+  "faqs": [
+    {
+      "question": "What technical resources are available for Tianbo relays?",
+      "answer": "Available resources include datasheets, application notes, selection guides, and evaluation samples. Contact BeiLuo FAE for additional support.",
+      "decisionGuide": "Start with datasheets and selection guides.",
+      "keywords": [
+        "technical resources",
+        "documentation",
+        "support"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "relay-selection-guide",
+      "title": "Relay Selection Guide",
+      "category": "Selection Guide",
+      "slug": "relay-selection-guide",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Electromechanical",
+        "experience": "12 years",
+        "expertise": [
+          "Relay Applications",
+          "Switching Design"
+        ]
+      },
+      "publishDate": "2024-01-15",
+      "lastUpdated": "2024-01-15",
+      "summary": "Comprehensive guide for selecting relays for various applications.",
+      "content": [
+        "Relay selection requires consideration of load type, switching capacity, coil voltage, and environmental conditions.."
+      ],
+      "tags": [
+        "relay",
+        "selection",
+        "guide"
+      ],
+      "relatedArticles": [
+        "automotive-relay-guide",
+        "hv-relay-guide"
+      ],
+      "faeInsights": {
+        "content": "Proper relay selection is critical for system reliability.",
+        "keyTakeaways": [
+          "Match relay to load",
+          "Consider environment",
+          "Verify certifications"
+        ]
+      },
+      "customerCases": [
+        {
+          "customerName": "Appliance Co",
+          "industry": "Appliance",
+          "application": "Control",
+          "problem": "Relay failure",
+          "solution": "Proper selection",
+          "results": "Improved reliability"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I select a relay?",
+          "answer": "Consider load, voltage, and environment.",
+          "decisionGuide": "Follow selection criteria.",
+          "keywords": [
+            "selection",
+            "guide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automotive-relay-guide",
+      "title": "Automotive Relay Application Guide",
+      "category": "Application Note",
+      "slug": "automotive-relay-guide",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - Automotive",
+        "experience": "12 years",
+        "expertise": [
+          "Automotive Relays",
+          "Vehicle Electronics"
+        ]
+      },
+      "publishDate": "2024-01-20",
+      "lastUpdated": "2024-01-20",
+      "summary": "Application guide for automotive relay selection and usage.",
+      "content": [
+        "Automotive relays require AEC-Q200 qualification and must withstand harsh vehicle environments.."
+      ],
+      "tags": [
+        "automotive",
+        "relay",
+        "AEC-Q200"
+      ],
+      "relatedArticles": [
+        "relay-selection-guide",
+        "hv-relay-guide"
+      ],
+      "faeInsights": {
+        "content": "Automotive applications require special consideration.",
+        "keyTakeaways": [
+          "Check AEC-Q200",
+          "Verify temperature range",
+          "Test vibration resistance"
+        ]
+      },
+      "customerCases": [
+        {
+          "customerName": "Auto Co",
+          "industry": "Automotive",
+          "application": "Vehicle",
+          "problem": "Environmental failure",
+          "solution": "Automotive grade relay",
+          "results": "Passed testing"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What makes a relay automotive grade?",
+          "answer": "AEC-Q200 qualification and extended temperature range.",
+          "decisionGuide": "Verify automotive certifications.",
+          "keywords": [
+            "automotive",
+            "AEC-Q200"
+          ]
+        }
+      ]
+    }
+  ]
+}

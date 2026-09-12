@@ -199,7 +199,7 @@
           "faeReview": {
             "author": "Michael Zhang",
             "title": "Senior RF FAE - Mobile Communications",
-            "content": "The VC5778 represents Vanchip's leading position in 5G PA technology. In my experience supporting multiple 5G smartphone projects, this PA consistently delivers excellent performance across temperature and voltage variations. The 42% PAE is genuinely impressive for high-band operation, helping our customers achieve competitive battery life. I particularly recommend the integrated power detector feature, which simplifies closed-loop power control design. For 5G NR designs requiring n77/n78 coverage, this is my go-to recommendation.",
+            "content": "The VC5778 is Vanchip's leading position in 5G PA technology. In my experience supporting multiple 5G smartphone projects, this PA consistently delivers excellent performance across temperature and voltage variations. The 42% PAE is genuinely impressive for high-band operation, helping our customers achieve competitive battery life. I particularly recommend the integrated power detector feature, which simplifies closed-loop power control design. For 5G NR designs requiring n77/n78 coverage, this is my go-to recommendation.",
             "highlight": "Industry-leading 42% PAE for 5G high-band applications"
           },
           "alternativeParts": [
@@ -445,7 +445,7 @@
             },
             {
               "question": "What is the typical current consumption of VC5134?",
-              "answer": "VC5134 current consumption varies with operating mode: (1) Max power (28.5dBm) - 550mA typical, 650mA max; (2) Mid power (20dBm) - 280mA typical with APT enabled; (3) Low power (10dBm) - 120mA typical; (4) Bypass mode - <1mA for receive operation; (5) Shutdown mode - <10μA. The high efficiency (45% PAE) minimizes current draw compared to competing solutions. At typical urban usage patterns (mix of high and low power), average current is approximately 180-220mA, contributing to extended battery life in mobile devices.",
+              "answer": "VC5134 current consumption varies with operating mode: (1) Max power (28.5dBm) - 550mA typical, 650mA max; (2) Mid power (20dBm) - 280mA typical with APT enabled; (3) Low power (10dBm) - 120mA typical; (4) Bypass mode - <1mA for receive operation; (5) Shutdown mode - <10μA. The high efficiency (45% PAE) minimizes current draw compared to competing solutions. At typical urban usage patterns (mix of high and low power), average current is approximately 180-220mA.",
               "decisionGuide": "Use APT mode and implement dynamic power control to minimize average current consumption.",
               "keywords": [
                 "VC5134 current consumption",

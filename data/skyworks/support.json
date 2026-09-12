@@ -1,0 +1,982 @@
+{
+  "articles": [
+    {
+      "id": "rf-front-end-selection-guide",
+      "title": "RF Front-End Module Selection Guide",
+      "category": "Product Selection",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - RF Solutions",
+        "experience": "12 years",
+        "expertise": [
+          "5G RF Design",
+          "Smartphone RF",
+          "Power Amplifiers"
+        ]
+      },
+      "publishDate": "2026-01-15",
+      "lastUpdated": "2026-01-15",
+      "summary": "Comprehensive guide for selecting RF front-end modules for 5G, Wi-Fi, and IoT applications. Covers key parameters, band requirements, and integration considerations.",
+      "content": [
+        "RF front-end modules (FEMs) are critical components in wireless communication systems, integrating power amplifiers, filters, and switches into compact packages. This guide helps engineers select the right FEM for their specific application requirements.",
+        "## Key Selection Parameters",
+        "When selecting an RF front-end module, consider these critical parameters:",
+        "**Frequency Bands**: Identify all required frequency bands for your application. 5G smartphones typically need coverage for n1/n3/n5/n8/n28/n41/n77/n78/n79 bands. Wi-Fi 6E applications require 6 GHz support.",
+        "**Output Power**: Determine the required output power based on your link budget. Smartphone applications typically need +26 to +28 dBm, while IoT applications may only need +20 to +23 dBm.",
+        "**Power Efficiency**: Higher efficiency means longer battery life. Look for PAE (Power Added Efficiency) ratings - 45% or higher is excellent for 5G applications.",
+        "**Integration Level**: Highly integrated modules reduce board space and simplify design. Consider modules with integrated filters and switches.",
+        "## Application-Specific Considerations",
+        "**5G Smartphones**: Prioritize efficiency and band coverage. Envelope tracking support is essential for battery life. Consider thermal management for high-band operation.",
+        "**Wi-Fi 6E Routers**: Linearity is critical for 1024-QAM modulation. Ensure the FEM can support 160 MHz channels with low EVM.",
+        "**IoT Devices**: Focus on ultra-low power consumption. Multi-band support enables global deployment with a single design.",
+        "## Integration Guidelines",
+        "Proper integration is essential for optimal FEM performance:",
+        "- Use controlled impedance traces (50 ohm) for all RF connections",
+        "- Place decoupling capacitors close to supply pins",
+        "- Follow reference layout for ground connections",
+        "- Consider thermal management for high-power operation",
+        "- Implement proper shielding to minimize interference"
+      ],
+      "relatedArticles": [
+        "power-amplifier-selection",
+        "iot-connectivity-guide",
+        "automotive-rf-design"
+      ],
+      "faeInsights": {
+        "insight": "After supporting hundreds of FEM designs, I've found that band planning is often overlooked. Engineers focus on individual bands without considering the complete system. My recommendation: create a comprehensive band requirements matrix early in the design phase. Consider not just the bands you need today, but potential future requirements. For 5G smartphones, the high-band FEM (n77/n78/n79) is often the most challenging - prioritize efficiency here as it has the biggest impact on battery life.",
+        "logic": "The FEM selection process should follow this framework: 1) Define all required bands and power levels, 2) Calculate link budget to determine minimum output power, 3) Evaluate efficiency requirements based on battery constraints, 4) Consider integration level vs flexibility trade-offs, 5) Verify thermal management feasibility, 6) Validate with baseband platform compatibility.",
+        "keyTakeaways": [
+          "Band planning should be done early in the design phase",
+          "High-band FEM efficiency has the biggest impact on 5G battery life",
+          "Envelope tracking can improve efficiency by 20-30%",
+          "Thermal management is critical for sustained performance",
+          "Always validate with actual baseband platform"
+        ],
+        "commonPitfalls": [
+          "Ignoring thermal constraints until late in the design cycle",
+          "Not following reference layout recommendations for critical circuits",
+          "Underestimating the importance of matching network optimization",
+          "Skipping environmental testing until final qualification",
+          "Selecting components based only on price without considering total cost",
+          "Failing to plan for manufacturing variations and yield"
+        ],
+        "bestPractices": [
+          "Create comprehensive band requirements matrix",
+          "Evaluate multiple FEM suppliers for comparison",
+          "Implement proper thermal management from the start",
+          "Plan for regulatory certification requirements"
+        ],
+        "troubleshootingTips": [
+          "Verify power supply sequencing and voltage levels first",
+          "Check control interface timing against datasheet specifications",
+          "Measure thermal performance under maximum load conditions",
+          "Compare RF performance measurements to datasheet typical values",
+          "Use spectrum analyzer to check for spurious emissions",
+          "Verify ground connections and shielding effectiveness"
+        ],
+        "insightLogic": "The FEM selection process should follow this framework: 1) Define all required bands and power levels, 2) Calculate link budget to determine minimum output power, 3) Evaluate efficiency requirements based on battery constraints, 4) Consider integration level vs flexibility trade-offs, 5) Verify thermal management feasibility, 6) Validate with baseband platform compatibility.",
+        "practicalTips": [
+          "Start with reference designs for fastest development",
+          "Engage FAE early for design optimization",
+          "Plan for thermal management from the beginning",
+          "Validate with actual modulation signals"
+        ],
+        "author": "Michael Chen",
+        "content": "After supporting hundreds of FEM designs, I've found that band planning is often overlooked. Engineers focus on individual bands without considering the complete system. My recommendation: create a comprehensive band requirements matrix early in the design phase. Consider not just the bands you need today, but potential future requirements. For 5G smartphones, the high-band FEM (n77/n78/n79) is often the most challenging - prioritize efficiency here as it has the biggest impact on battery life.\n\nDecision Framework: The FEM selection process should follow this framework: 1) Define all required bands and power levels, 2) Calculate link budget to determine minimum output power, 3) Evaluate efficiency requirements based on battery constraints, 4) Consider integration level vs flexibility trade-offs, 5) Verify thermal management feasibility, 6) Validate with baseband platform compatibility."
+      },
+      "customerCases": [
+        {
+          "customerName": "Leading Smartphone OEM",
+          "industry": "Mobile",
+          "application": "5G Flagship Smartphone",
+          "problem": "Customer was experiencing poor battery life in 5G mode compared to 4G, with users complaining about rapid battery drain during 5G usage.",
+          "diagnosis": "Analysis showed that the original FEM solution had only 35% efficiency in high-band 5G operation, significantly below industry best practices. The power amplifier was consuming excessive current during high-band transmission.",
+          "solution": "Recommended switching to Skyworks SKY58260-11 high-band FEM with 45% efficiency and envelope tracking support. Implemented optimized ET algorithm with Qualcomm baseband.",
+          "results": "25% improvement in 5G battery life, meeting flagship smartphone requirements. Customer reported positive user feedback and improved product reviews.",
+          "challenge": "Customer faced design challenges requiring optimization",
+          "feedback": "25% improvement in 5G battery life, meeting flagship smartphone requirements. Customer reported positive user feedback and improved product reviews."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the most important parameter when selecting a 5G FEM?",
+          "answer": "For 5G smartphones, power efficiency is the most critical parameter. 5G signals have higher peak-to-average power ratio (PAPR) than 4G, requiring more linear operation and consuming more power. A high-efficiency FEM (45% PAE or better) can provide 20-30% longer battery life compared to lower efficiency alternatives. After efficiency, consider band coverage to ensure all required 5G NR bands are supported. For fixed applications like CPE, efficiency is less critical than output power and linearity.",
+          "decisionGuide": "Prioritize efficiency for battery-powered devices. For fixed installations, focus on output power and linearity specifications.",
+          "keywords": [
+            "5G FEM selection",
+            "power efficiency",
+            "PAE",
+            "battery life"
+          ]
+        },
+        {
+          "question": "How do I determine the required output power for my application?",
+          "answer": "Output power requirements depend on your link budget analysis. For smartphones, regulatory requirements typically mandate +23 dBm minimum, but most designs target +26 to +28 dBm to ensure margin. Calculate: Required TX Power = Receiver Sensitivity + Path Loss + Fading Margin - Antenna Gain. For example, if receiver sensitivity is -90 dBm, path loss is 120 dB, and you want 10 dB margin, you need +40 dBm EIRP. With 15 dBi antenna gain, this translates to +25 dBm transmitter output. IoT applications often need less power (+20 to +23 dBm) due to shorter range requirements. Always check regulatory limits for your target markets.",
+          "decisionGuide": "Perform link budget analysis for your specific application. Contact our FAE team for assistance with power calculations.",
+          "keywords": [
+            "output power",
+            "link budget",
+            "transmit power",
+            "RF design"
+          ]
+        },
+        {
+          "question": "What is envelope tracking and when should I use it?",
+          "answer": "Envelope tracking (ET) is a power management technique that dynamically adjusts the PA supply voltage to match the signal envelope. Instead of using a fixed supply voltage, the ET modulator provides a time-varying voltage that tracks the RF envelope. Benefits include: 1) 20-40% efficiency improvement over average power tracking (APT), 2) Reduced heat generation, 3) Longer battery life, 4) Better linearity. Use ET for: battery-powered devices with high data rate requirements, applications where battery life is critical, and high PAPR signals like 5G NR. ET requires: an ET-capable baseband processor, an ET power management IC, and an ET-compatible FEM. The additional components add cost, so ET is typically used in flagship smartphones and high-end devices.",
+          "decisionGuide": "Use ET for premium smartphones and battery-critical applications. For cost-sensitive designs, APT may be sufficient.",
+          "keywords": [
+            "envelope tracking",
+            "ET",
+            "power efficiency",
+            "battery optimization"
+          ]
+        },
+        {
+          "question": "How do I handle thermal management for high-power FEMs?",
+          "answer": "Thermal management is critical for FEM performance and reliability. High-band 5G operation can generate significant heat due to lower PA efficiency at higher frequencies. Best practices: 1) Use adequate PCB copper area for heat spreading - recommend at least 100 mm² ground plane under the FEM, 2) Implement thermal vias (0.3mm diameter, 1mm pitch) connecting to inner ground layers, 3) Consider thermal interface material for high-power applications, 4) Monitor junction temperature using built-in sensors when available, 5) Implement thermal throttling in software to prevent overheating. For sustained high-power operation (+28 dBm continuous), consider active cooling or selecting a FEM with higher efficiency. The SKY58260-11 includes thermal monitoring capabilities through MIPI RFFE interface.",
+          "decisionGuide": "Plan thermal design early. Use thermal simulation tools and validate with actual testing under worst-case conditions.",
+          "keywords": [
+            "thermal management",
+            "heat dissipation",
+            "FEM cooling",
+            "reliability"
+          ]
+        },
+        {
+          "question": "What are the key differences between high-band, mid-band, and low-band FEMs?",
+          "answer": "5G NR operates across different frequency ranges, each with distinct characteristics: High-band (n77/n78/n79, 3.3-5.0 GHz): Offers highest data rates but shorter range and higher power consumption. FEMs typically have 40-45% efficiency. critical for urban capacity. Mid-band (n1/n3/n41, 1.8-2.7 GHz): Balanced coverage and capacity. most widely deployed 5G band globally. FEMs achieve 45-50% efficiency. Low-band (n5/n8/n28, 600-960 MHz): Provides excellent coverage and building penetration but limited bandwidth. FEMs can achieve 50-55% efficiency. essential for rural coverage. Each band requires optimized FEM design due to different frequency characteristics. Skyworks provides specialized FEMs for each band range to maximize performance.",
+          "decisionGuide": "Use high-band for capacity, mid-band for balanced deployment, low-band for coverage. Most designs need all three for complete 5G support.",
+          "keywords": [
+            "5G bands",
+            "high-band",
+            "mid-band",
+            "low-band",
+            "frequency range"
+          ]
+        },
+        {
+          "question": "How do I verify FEM compatibility with my baseband processor?",
+          "answer": "FEM-baseband compatibility involves several aspects: 1) Control interface - ensure both support the same interface (MIPI RFFE 2.0 is standard for 5G), 2) Timing requirements - verify that control timing meets both FEM and baseband specifications, 3) Band configuration - confirm that the FEM supports all bands required by the baseband's band combinations, 4) Envelope tracking - if using ET, verify compatibility between ET modulator, baseband, and FEM, 5) Power supply - ensure voltage ranges and current capabilities match. Skyworks FEMs are validated with major baseband platforms including Qualcomm Snapdragon and MediaTek Dimensity. Reference designs and application notes are available for popular platform combinations. For custom platforms, contact FAE for compatibility review.",
+          "decisionGuide": "Use validated reference designs when possible. For custom designs, request compatibility review from FAE team.",
+          "keywords": [
+            "baseband compatibility",
+            "MIPI RFFE",
+            "platform validation",
+            "integration"
+          ]
+        }
+      ],
+      "slug": "rf-front-end-selection-guide",
+      "tags": [
+        "Skyworks",
+        "RF Design",
+        "Product Selection"
+      ]
+    },
+    {
+      "id": "power-amplifier-selection",
+      "title": "Power Amplifier Selection for Wireless Applications",
+      "category": "Product Selection",
+      "author": {
+        "name": "David Wang",
+        "title": "Principal FAE - Wireless",
+        "experience": "15 years",
+        "expertise": [
+          "Power Amplifiers",
+          "RF Design",
+          "Cellular Systems"
+        ]
+      },
+      "publishDate": "2026-02-01",
+      "lastUpdated": "2026-02-01",
+      "summary": "Guide for selecting power amplifiers for cellular, Wi-Fi, and IoT applications. Covers efficiency, linearity, and multi-mode considerations.",
+      "content": [
+        "Power amplifiers (PAs) are the heart of any RF transmit chain, converting DC power into RF signal power. Selecting the right PA is important for achieving optimal system performance, battery life, and cost.",
+        "## PA Types and Applications",
+        "**Multi-Mode Multi-Band PAs**: Cover multiple cellular standards (2G/3G/4G/5G) and frequency bands in a single device. Ideal for smartphones and global devices requiring broad compatibility.",
+        "**Single-Band PAs**: Optimized for specific frequency bands. Offer best efficiency and performance for targeted applications. Common in Wi-Fi, Bluetooth, and specialized cellular bands.",
+        "**Broadband PAs**: Cover wide frequency ranges (e.g., 600-2700 MHz). Provide design flexibility but may sacrifice some efficiency compared to optimized single-band designs.",
+        "## Key Performance Parameters",
+        "**Power Added Efficiency (PAE)**: Measures how efficiently DC power is converted to RF power. Higher PAE means longer battery life and less heat. Modern 5G PAs achieve 45-50% PAE.",
+        "**Linearity**: Critical for modern modulation schemes (QAM, OFDM). Measured by ACLR (Adjacent Channel Leakage Ratio) and EVM (Error Vector Magnitude). 5G NR requires ACLR < -38 dBc.",
+        "**Gain**: Determines how much the PA amplifies the input signal. Typical cellular PAs provide 25-30 dB gain, reducing driver stage requirements.",
+        "**Output Power**: Must meet system link budget requirements. Smartphones typically need +28 dBm, while IoT devices may only need +20 to +23 dBm."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "envelope-tracking-implementation",
+        "thermal-design-rf"
+      ],
+      "faeInsights": {
+        "insight": "The biggest mistake I see engineers make is selecting PAs based solely on output power and price, ignoring efficiency and linearity. In battery-powered applications, a PA with 5% better efficiency can provide significantly longer battery life. For 5G applications, linearity is equally important - a PA that meets power requirements but fails linearity specs will cause regulatory compliance issues. Always consider the complete set of requirements: power, efficiency, linearity, and band coverage. For multi-mode designs, verify that the PA maintains performance across all required modes.",
+        "logic": "PA selection should follow this priority: 1) Define output power requirements based on link budget, 2) Determine minimum efficiency based on battery constraints, 3) Identify linearity requirements from modulation scheme, 4) List all required bands and modes, 5) Evaluate PAs that meet all criteria, 6) Consider integration level and cost. Don't compromise on efficiency for battery-powered devices - the user experience impact is significant.",
+        "keyTakeaways": [
+          "Efficiency is as important as output power for battery-powered devices",
+          "Linearity requirements are stricter for 5G than 4G",
+          "Multi-mode PAs simplify design but may sacrifice some performance",
+          "Thermal management becomes critical at high output power",
+          "Always validate PA performance with actual modulation signals"
+        ],
+        "commonPitfalls": [
+          "Ignoring thermal constraints until late in the design cycle",
+          "Not following reference layout recommendations for critical circuits",
+          "Underestimating the importance of matching network optimization",
+          "Skipping environmental testing until final qualification",
+          "Selecting components based only on price without considering total cost",
+          "Failing to plan for manufacturing variations and yield"
+        ],
+        "bestPractices": [
+          "Evaluate PAE at actual operating conditions, not just datasheet values",
+          "Test linearity with actual modulation signals, not just CW",
+          "Consider temperature effects on all parameters",
+          "Plan for margin in all specifications"
+        ],
+        "insightLogic": "PA selection should follow this priority: 1) Define output power requirements based on link budget, 2) Determine minimum efficiency based on battery constraints, 3) Identify linearity requirements from modulation scheme, 4) List all required bands and modes, 5) Evaluate PAs that meet all criteria, 6) Consider integration level and cost. Don't compromise on efficiency for battery-powered devices - the user experience impact is significant.",
+        "practicalTips": [
+          "Start with reference designs for fastest development",
+          "Engage FAE early for design optimization",
+          "Plan for thermal management from the beginning",
+          "Validate with actual modulation signals"
+        ],
+        "troubleshootingTips": [
+          "Check power supply sequencing first",
+          "Verify control interface timing",
+          "Measure thermal performance under load",
+          "Compare measurements to datasheet typical values"
+        ],
+        "author": "David Wang",
+        "content": "The biggest mistake I see engineers make is selecting PAs based solely on output power and price, ignoring efficiency and linearity. In battery-powered applications, a PA with 5% better efficiency can provide significantly longer battery life. For 5G applications, linearity is equally important - a PA that meets power requirements but fails linearity specs will cause regulatory compliance issues. Always consider the complete set of requirements: power, efficiency, linearity, and band coverage. For multi-mode designs, verify that the PA maintains performance across all required modes.\n\nDecision Framework: PA selection should follow this priority: 1) Define output power requirements based on link budget, 2) Determine minimum efficiency based on battery constraints, 3) Identify linearity requirements from modulation scheme, 4) List all required bands and modes, 5) Evaluate PAs that meet all criteria, 6) Consider integration level and cost. Don't compromise on efficiency for battery-powered devices - the user experience impact is significant."
+      },
+      "customerCases": [
+        {
+          "customerName": "Mobile Hotspot Manufacturer",
+          "industry": "Telecom",
+          "application": "5G Mobile Hotspot",
+          "problem": "Customer's 5G mobile hotspot was experiencing shorter than expected battery life, with users reporting only 4-6 hours of active use instead of the targeted 8+ hours.",
+          "diagnosis": "Power analysis revealed that the PA was consuming 40% more power than expected due to lower efficiency (38% vs claimed 45%) under actual 5G NR modulation conditions.",
+          "solution": "Replaced with Skyworks SKY77643-11 multi-mode PA with verified 45% efficiency under 5G NR conditions. Optimized bias settings for the specific application.",
+          "results": "Battery life improved to 9+ hours, exceeding the original target. Product received positive reviews for battery performance.",
+          "challenge": "Customer faced design challenges requiring optimization",
+          "feedback": "Battery life improved to 9+ hours, exceeding the original target. Product received positive reviews for battery performance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between PAE and drain efficiency?",
+          "answer": "PAE (Power Added Efficiency) and drain efficiency are two ways to measure PA efficiency. Drain efficiency = RF Output Power / DC Input Power. PAE = (RF Output Power - RF Input Power) / DC Input Power. PAE is more meaningful because it accounts for the gain provided by the PA. For example, if a PA has 30 dB gain, the input power is negligible compared to output power, and PAE ≈ Drain Efficiency. However, for low-gain PAs or driver stages, the difference matters. When comparing PAs, always use the same metric. Datasheets typically specify PAE for cellular PAs. For system power budgeting, PAE gives a more accurate picture of total power consumption.",
+          "decisionGuide": "Use PAE for comparing cellular PAs. For system power analysis, PAE provides more accurate battery life estimates.",
+          "keywords": [
+            "PAE",
+            "power added efficiency",
+            "drain efficiency",
+            "PA comparison"
+          ]
+        },
+        {
+          "question": "How does temperature affect PA performance?",
+          "answer": "Temperature significantly impacts PA performance in several ways: 1) Efficiency decreases as temperature increases - a PA that achieves 45% PAE at 25°C might only achieve 40% at 85°C, 2) Gain typically decreases with temperature (about -0.01 dB/°C), 3) Linearity may degrade at high temperature, 4) Maximum reliable output power decreases with temperature. These effects are due to changes in transistor characteristics (mobility, threshold voltage) with temperature. For reliable operation, always: 1) Check PA specifications at maximum expected operating temperature, 2) Implement adequate thermal management, 3) Consider temperature compensation in bias circuits, 4) Plan for reduced performance margin at high temperature. Automotive applications requiring operation up to 125°C need special consideration.",
+          "decisionGuide": "Always evaluate PA performance at maximum operating temperature. Plan thermal management to keep junction temperature below 85°C when possible.",
+          "keywords": [
+            "temperature effects",
+            "thermal derating",
+            "PA performance",
+            "reliability"
+          ]
+        },
+        {
+          "question": "What linearity specifications do I need for 5G NR?",
+          "answer": "5G NR has stricter linearity requirements than previous generations due to higher order modulation (up to 256-QAM) and wider bandwidths (up to 100 MHz). Key specifications: ACLR (Adjacent Channel Leakage Ratio): < -38 dBc for 5G NR, EVM (Error Vector Magnitude): < -40 dB for 256-QAM, < -35 dB for 64-QAM. These requirements apply at maximum output power, making them challenging to meet. The PA must maintain linearity across the entire bandwidth, which is difficult for wideband 5G signals. Additional considerations: 1) ACLR requirements apply to both lower and upper adjacent channels, 2) EVM must be maintained across all supported modulation schemes, 3) Linearity typically degrades at high power and temperature. Always verify linearity with actual 5G NR test signals, not just CW measurements.",
+          "decisionGuide": "Verify PA linearity with actual 5G NR signals at maximum power and temperature. Plan margin for manufacturing variations.",
+          "keywords": [
+            "5G linearity",
+            "ACLR",
+            "EVM",
+            "modulation quality"
+          ]
+        },
+        {
+          "question": "When should I use a multi-mode PA vs separate PAs for each mode?",
+          "answer": "Multi-mode PAs integrate support for multiple cellular standards (2G/3G/4G/5G) in a single device. Advantages: 1) Reduced board space and component count, 2) Simplified RF front-end design, 3) Lower overall BOM cost, 4) Easier band/mode switching. Disadvantages: 1) May sacrifice some efficiency compared to optimized single-mode PAs, 2) More complex control and bias requirements, 3) Less flexibility in optimization. Use multi-mode PAs for: smartphones requiring global compatibility, devices with severe space constraints, cost-sensitive applications. Use separate PAs for: applications requiring maximum efficiency, specialized designs targeting specific bands, high-performance base stations. For most smartphone applications, multi-mode PAs like SKY77643-11 provide the best balance of performance and integration.",
+          "decisionGuide": "Use multi-mode PAs for smartphones and space-constrained designs. Use dedicated PAs for maximum efficiency or specialized applications.",
+          "keywords": [
+            "multi-mode PA",
+            "single-mode PA",
+            "integration",
+            "design trade-offs"
+          ]
+        },
+        {
+          "question": "How do I optimize PA bias for my application?",
+          "answer": "PA bias optimization balances efficiency, linearity, and output power. Key considerations: 1) Class of operation - Class AB provides good balance for cellular applications (typically 20-30% conduction angle), 2) Quiescent current - higher bias improves linearity but reduces efficiency, 3) Dynamic bias - adjust bias based on output power for best efficiency. Optimization process: 1) Start with manufacturer's recommended bias settings, 2) Measure efficiency and linearity across power range, 3) Adjust bias current to meet linearity requirements with best efficiency, 4) Verify performance across temperature, 5) Consider adaptive bias control for multi-mode operation. For envelope tracking applications, bias optimization is more complex - the ET modulator effectively provides dynamic bias. Always verify ACLR and EVM after bias optimization.",
+          "decisionGuide": "Start with recommended settings, then optimize for your specific linearity requirements. Measure performance across temperature.",
+          "keywords": [
+            "PA bias",
+            "bias optimization",
+            "quiescent current",
+            "linearity trade-off"
+          ]
+        }
+      ],
+      "slug": "power-amplifier-selection",
+      "tags": [
+        "Skyworks",
+        "RF Design",
+        "Product Selection"
+      ]
+    },
+    {
+      "id": "iot-connectivity-guide",
+      "title": "IoT Connectivity: Protocol Selection and Design Guide",
+      "category": "Application Guide",
+      "author": {
+        "name": "Jennifer Liu",
+        "title": "Senior FAE - IoT",
+        "experience": "10 years",
+        "expertise": [
+          "IoT Connectivity",
+          "Low Power Design",
+          "LPWAN Technologies"
+        ]
+      },
+      "publishDate": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "summary": "Comprehensive guide for selecting IoT connectivity protocols including LTE-M, NB-IoT, Bluetooth, Zigbee, and sub-GHz options. Covers range, power, and application considerations.",
+      "content": [
+        "Internet of Things (IoT) devices have unique connectivity requirements: long battery life, extended range, low cost, and reliable operation in challenging environments. Selecting the right wireless protocol is critical for IoT success.",
+        "## Cellular IoT: LTE-M vs NB-IoT",
+        "**LTE-M (Cat-M1)**: Provides 1 Mbps data rates, supports voice, mobility, and lower latency (50-100 ms). Ideal for tracking applications, wearables, and devices requiring higher data throughput. Power consumption is moderate - typical battery life 3-5 years.",
+        "**NB-IoT**: Optimized for ultra-low power and deep building penetration. Data rates up to 200 kbps, no mobility support, higher latency (1-10 seconds). Perfect for static sensors, smart meters, and devices requiring 10+ year battery life.",
+        "## Short-Range Wireless",
+        "**Bluetooth Low Energy (BLE)**: Ultra-low power, 2.4 GHz operation, 10-100m range. Ideal for wearables, beacons, and smartphone-connected devices. Simple protocol stack and widespread ecosystem support.",
+        "**Zigbee/Thread**: Mesh networking capability, 2.4 GHz operation, supports hundreds of nodes. Perfect for smart home and building automation. Thread provides IP connectivity and is gaining traction for home automation.",
+        "**Wi-Fi**: High data rates but higher power consumption. Suitable for powered IoT devices requiring high bandwidth like cameras and streaming devices.",
+        "## Sub-GHz Options",
+        "**LoRa**: Long-range (km+), sub-GHz operation (433/868/915 MHz), very low power. Ideal for agricultural sensors, smart city, and industrial monitoring.",
+        "**Sigfox**: Ultra-narrowband, very low power, network-as-a-service. Good for simple sensor applications requiring minimal data transmission."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "battery-life-optimization",
+        "smart-home-design"
+      ],
+      "faeInsights": {
+        "insight": "The most common mistake in IoT design is underestimating the impact of protocol selection on battery life. I've seen designs that could achieve 10-year battery life with NB-IoT only achieve 2 years with LTE-M due to higher power consumption. The key is matching the protocol to the application requirements: static sensors with infrequent data transmission should use NB-IoT or LoRa, while mobile devices need LTE-M. For smart home applications, the choice between Zigbee, Thread, and BLE often comes down to ecosystem compatibility. Don't just follow trends - analyze your specific requirements for range, data rate, latency, and power consumption.",
+        "logic": "Protocol selection should follow this framework: 1) Define data rate requirements (how much data, how often), 2) Determine range and penetration requirements, 3) Establish battery life targets, 4) Consider mobility needs, 5) Evaluate ecosystem and interoperability requirements, 6) Analyze total cost of ownership (module cost + network fees). The optimal protocol is the one that meets all requirements with minimum power consumption.",
+        "keyTakeaways": [
+          "Protocol selection has major impact on battery life",
+          "NB-IoT provides 2-3x better battery life than LTE-M for static sensors",
+          "Sub-GHz protocols provide 2-3x range vs 2.4 GHz",
+          "Mesh networking enables extended coverage without infrastructure",
+          "Consider total cost including network subscription fees"
+        ],
+        "commonPitfalls": [
+          "Ignoring thermal constraints until late in the design cycle",
+          "Not following reference layout recommendations for critical circuits",
+          "Underestimating the importance of matching network optimization",
+          "Skipping environmental testing until final qualification",
+          "Selecting components based only on price without considering total cost",
+          "Failing to plan for manufacturing variations and yield"
+        ],
+        "bestPractices": [
+          "Create detailed power budget for each protocol option",
+          "Test actual range and penetration in target environment",
+          "Consider future scalability and ecosystem evolution",
+          "Plan for network sunset and technology migration"
+        ],
+        "insightLogic": "Protocol selection should follow this framework: 1) Define data rate requirements (how much data, how often), 2) Determine range and penetration requirements, 3) Establish battery life targets, 4) Consider mobility needs, 5) Evaluate ecosystem and interoperability requirements, 6) Analyze total cost of ownership (module cost + network fees). The optimal protocol is the one that meets all requirements with minimum power consumption.",
+        "practicalTips": [
+          "Start with reference designs for fastest development",
+          "Engage FAE early for design optimization",
+          "Plan for thermal management from the beginning",
+          "Validate with actual modulation signals"
+        ],
+        "troubleshootingTips": [
+          "Check power supply sequencing first",
+          "Verify control interface timing",
+          "Measure thermal performance under load",
+          "Compare measurements to datasheet typical values"
+        ],
+        "author": "Jennifer Liu",
+        "content": "The most common mistake in IoT design is underestimating the impact of protocol selection on battery life. I've seen designs that could achieve 10-year battery life with NB-IoT only achieve 2 years with LTE-M due to higher power consumption. The key is matching the protocol to the application requirements: static sensors with infrequent data transmission should use NB-IoT or LoRa, while mobile devices need LTE-M. For smart home applications, the choice between Zigbee, Thread, and BLE often comes down to ecosystem compatibility. Don't just follow trends - analyze your specific requirements for range, data rate, latency, and power consumption.\n\nDecision Framework: Protocol selection should follow this framework: 1) Define data rate requirements (how much data, how often), 2) Determine range and penetration requirements, 3) Establish battery life targets, 4) Consider mobility needs, 5) Evaluate ecosystem and interoperability requirements, 6) Analyze total cost of ownership (module cost + network fees). The optimal protocol is the one that meets all requirements with minimum power consumption."
+      },
+      "customerCases": [
+        {
+          "customerName": "Smart Agriculture Provider",
+          "industry": "Agriculture",
+          "application": "Soil Monitoring Sensors",
+          "problem": "Customer needed to deploy soil moisture sensors across 500-acre farm with 5-year battery life requirement. Wi-Fi and Bluetooth didn't provide adequate range.",
+          "diagnosis": "Analysis showed that 2.4 GHz protocols couldn't provide the required range (up to 2 km between sensors and gateway). Cellular was too expensive for the number of devices.",
+          "solution": "Implemented LoRaWAN solution using Skyworks sub-GHz FEM (SKY68001-11) with 915 MHz operation. Deployed solar-powered gateways for coverage.",
+          "results": "3+ km range between sensors and gateways. battery life exceeded 7 years with hourly transmissions. total deployment cost 60% lower than cellular alternative.",
+          "challenge": "Customer faced design challenges requiring optimization",
+          "feedback": "3+ km range between sensors and gateways. battery life exceeded 7 years with hourly transmissions. total deployment cost 60% lower than cellular alternative."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I calculate expected battery life for my IoT device?",
+          "answer": "Battery life calculation requires detailed power budgeting: 1) Measure current consumption in each state (transmit, receive, sleep), 2) Determine duty cycle (percentage of time in each state), 3) Calculate average current: I_avg = (I_tx × t_tx + I_rx × t_rx + I_sleep × t_sleep) / total_time, 4) Battery life = Battery Capacity / I_avg. Example: Device transmitting 1 second every hour at 100 mA, sleeping at 10 uA otherwise. I_avg = (100 mA × 1s + 0.01 mA × 3599s) / 3600s = 0.038 mA. With 5000 mAh battery: Life = 5000 mAh / 0.038 mA = 131,000 hours = 15 years. Real-world factors reduce this: temperature effects, battery self-discharge, protocol overhead. Plan for 70-80% of calculated life. For cellular IoT, network registration and keep-alive messages add significant power consumption.",
+          "decisionGuide": "Create detailed power budget early in design. Contact FAE for protocol-specific power analysis tools.",
+          "keywords": [
+            "battery life calculation",
+            "power budget",
+            "IoT power",
+            "duty cycle"
+          ]
+        },
+        {
+          "question": "What are the coverage differences between cellular and sub-GHz IoT?",
+          "answer": "Coverage varies significantly by protocol: Cellular (LTE-M/NB-IoT): Uses existing cellular infrastructure. Coverage similar to 4G - good in urban/suburban areas, spotty in rural areas. NB-IoT provides 20 dB better coverage than LTE (deep indoor penetration). requires cellular subscription. Sub-GHz (LoRa/Sigfox): Range 2-5 km urban, 15+ km rural. better building penetration than 2.4 GHz. requires private gateway deployment or network provider. 2.4 GHz (Zigbee/Thread/BLE): Range 10-100m depending on environment. mesh networking extends range through relay nodes. No subscription fees. Selection guidance: Use cellular for wide-area coverage without infrastructure investment. use sub-GHz for private networks in large areas. Use 2.4 GHz mesh for building-scale deployments.",
+          "decisionGuide": "Cellular for wide coverage with subscription budget. sub-GHz for private long-range networks. 2.4 GHz mesh for building automation.",
+          "keywords": [
+            "IoT coverage",
+            "cellular IoT",
+            "sub-GHz",
+            "range comparison"
+          ]
+        },
+        {
+          "question": "Should I choose LTE-M or NB-IoT for my cellular IoT application?",
+          "answer": "The choice depends on your application requirements: Choose LTE-M when: You need mobility (tracking applications), voice support is required, latency needs to be < 100 ms, data rates > 100 kbps are needed, firmware over-the-air updates are frequent. Choose NB-IoT when: Device is stationary (sensors, meters), maximum battery life is critical, deep indoor penetration is needed, data rates are low (< 50 kbps), cost optimization is important. Key differences: LTE-M supports handover between cells (mobility), NB-IoT does not. LTE-M has lower latency (50-100 ms vs 1-10 s). NB-IoT has 2-3x better battery life for infrequent transmissions. NB-IoT typically has lower module cost. Many modules support both protocols - you can decide during deployment.",
+          "decisionGuide": "LTE-M for mobile/voice applications. nB-IoT for static sensors requiring maximum battery life. many modules support both.",
+          "keywords": [
+            "LTE-M vs NB-IoT",
+            "Cat-M1",
+            "cellular IoT selection",
+            "LPWAN"
+          ]
+        },
+        {
+          "question": "What are the trade-offs between Zigbee, Thread, and Z-Wave for smart home?",
+          "answer": "These three protocols compete in the smart home space with different strengths: Zigbee: Mature ecosystem, many device options, 2.4 GHz global operation, mesh networking, low power. Proprietary stack layers. Thread: IP-based (IPv6), native cloud connectivity, 2.4 GHz, mesh networking, secure by design. Growing ecosystem with Google, Apple, Amazon support. Z-Wave: Sub-GHz operation (better range/wall penetration), mature ecosystem, mesh networking. Lower data rates, regional frequency variations. Selection guidance: Choose Zigbee for maximum device compatibility today. Choose Thread for future-proof IP connectivity and major ecosystem support (Matter standard). Choose Z-Wave for best range in large homes or when 2.4 GHz is congested. Note: Matter standard is bringing interoperability between Thread and Zigbee ecosystems.",
+          "decisionGuide": "Zigbee for current device variety. thread for future IP connectivity and Matter support. z-Wave for maximum range.",
+          "keywords": [
+            "Zigbee vs Thread",
+            "smart home protocols",
+            "Z-Wave",
+            "Matter standard"
+          ]
+        },
+        {
+          "question": "How do I design for coexistence of multiple wireless protocols?",
+          "answer": "Many IoT devices need multiple protocols (e.g., BLE for setup + Wi-Fi for data, or Thread + Ethernet). Coexistence design considerations: 1) Frequency separation - 2.4 GHz protocols (BLE, Zigbee, Thread, Wi-Fi) can interfere. Use different channels or time-division multiplexing. 2) Antenna design - separate antennas provide isolation. If sharing antenna, use diplexers or switches. 3) Time coordination - schedule transmissions to avoid collisions. Many chipsets have built-in coexistence interfaces (e.g., PTA - Packet Traffic Arbitration). 4) Power supply - multiple radios transmitting simultaneously can cause voltage droop. Ensure adequate power delivery. 5) Thermal management - multiple active radios increase heat. Skyworks offers multi-protocol FEMs (like SKY68003-11) that support cellular + 2.4 GHz in one device, simplifying coexistence design.",
+          "decisionGuide": "Plan coexistence early in design. use dedicated antennas when possible. implement time coordination between protocols.",
+          "keywords": [
+            "protocol coexistence",
+            "multi-radio design",
+            "interference management",
+            "2.4 GHz coexistence"
+          ]
+        }
+      ],
+      "slug": "iot-connectivity-guide",
+      "tags": [
+        "Skyworks",
+        "RF Design",
+        "Application Guide"
+      ]
+    },
+    {
+      "id": "automotive-rf-design",
+      "title": "Automotive RF Design: AEC-Q100 and Beyond",
+      "category": "Application Guide",
+      "author": {
+        "name": "Robert Chen",
+        "title": "Senior FAE - Automotive",
+        "experience": "10 years",
+        "expertise": [
+          "Automotive RF",
+          "V2X",
+          "Telematics",
+          "AEC-Q100"
+        ]
+      },
+      "publishDate": "2026-03-01",
+      "lastUpdated": "2026-03-01",
+      "summary": "Guide for designing RF systems for automotive applications. Covers AEC-Q100 qualification, thermal management, and V2X requirements.",
+      "content": [
+        "Automotive RF design presents unique challenges compared to consumer electronics: extreme temperature ranges, high reliability requirements, long product lifecycles, and safety-critical applications. Understanding these requirements is essential for successful automotive RF design.",
+        "## AEC-Q100 Qualification",
+        "AEC-Q100 is the automotive standard for integrated circuit qualification. Key aspects include:",
+        "**Temperature Grades**: Grade 0 (-40 to +150°C), Grade 1 (-40 to +125°C), Grade 2 (-40 to +105°C). Grade 1 is most common for in-cabin applications, Grade 0 for engine compartment.",
+        "**Reliability Testing**: HTOL (High Temperature Operating Life), temperature cycling, ESD testing, latch-up testing. All tests run with statistical process control.",
+        "**PPAP Documentation**: Production Part Approval Process requires comprehensive documentation including design records, process flows, and validation results.",
+        "## Automotive RF Applications",
+        "**Telematics Control Units (TCU)**: Provide cellular connectivity for emergency calling, over-the-air updates, and infotainment. Require 4G/5G support with automotive qualification.",
+        "**V2X (Vehicle-to-Everything)**: Enables communication between vehicles and infrastructure. C-V2X uses cellular technology (5.9 GHz), DSRC uses 802.11p. Critical for autonomous driving and safety applications.",
+        "**Wi-Fi/Bluetooth**: Support for smartphone connectivity, Wi-Fi hotspots, and Bluetooth audio. Must operate reliably in automotive temperature range.",
+        "**GNSS**: GPS and other satellite navigation systems for positioning. Require high sensitivity and interference rejection."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "thermal-design-rf",
+        "functional-safety-iso26262"
+      ],
+      "faeInsights": {
+        "insight": "Automotive RF design is different from consumer electronics. The 15-year lifetime requirement changes everything - components must maintain performance and reliability far beyond typical consumer product lifecycles. I've seen designs that work perfectly in the lab fail in vehicles due to temperature cycling, vibration, or EMI. Key lessons: 1) Always design for worst-case temperature - engine compartment can reach 125°C+, 2) Vibration resistance is critical - vehicles experience constant vibration, 3) EMI immunity is mandatory - automotive environment is electrically noisy, 4) Supply continuity is essential - automotive production runs for years. Never underestimate the qualification effort - AEC-Q100 testing takes months and must be planned from the start.",
+        "logic": "Automotive RF design must address: 1) Environmental extremes (temperature, vibration, humidity), 2) Reliability requirements (15-year lifetime, zero defect targets), 3) Functional safety (ISO 26262 for safety-critical applications), 4) Regulatory compliance (EMC, type approval), 5) Supply chain stability (long-term availability). The design process should start with defining the operating environment, then selecting qualified components, implementing robust thermal and mechanical design, and planning comprehensive validation testing.",
+        "keyTakeaways": [
+          "AEC-Q100 is minimum requirement, not guarantee of success",
+          "Design for worst-case temperature, not typical conditions",
+          "Plan 15-year supply continuity from the start",
+          "EMC compliance is mandatory and challenging",
+          "Vibration resistance requires special consideration"
+        ],
+        "commonPitfalls": [
+          "Ignoring thermal constraints until late in the design cycle",
+          "Not following reference layout recommendations for critical circuits",
+          "Underestimating the importance of matching network optimization",
+          "Skipping environmental testing until final qualification",
+          "Selecting components based only on price without considering total cost",
+          "Failing to plan for manufacturing variations and yield"
+        ],
+        "bestPractices": [
+          "Engage with automotive-qualified suppliers early",
+          "Implement comprehensive environmental testing",
+          "Plan for supply continuity agreements",
+          "Design for manufacturing and testability"
+        ],
+        "insightLogic": "Automotive RF design must address: 1) Environmental extremes (temperature, vibration, humidity), 2) Reliability requirements (15-year lifetime, zero defect targets), 3) Functional safety (ISO 26262 for safety-critical applications), 4) Regulatory compliance (EMC, type approval), 5) Supply chain stability (long-term availability). The design process should start with defining the operating environment, then selecting qualified components, implementing robust thermal and mechanical design, and planning comprehensive validation testing.",
+        "practicalTips": [
+          "Start with reference designs for fastest development",
+          "Engage FAE early for design optimization",
+          "Plan for thermal management from the beginning",
+          "Validate with actual modulation signals"
+        ],
+        "troubleshootingTips": [
+          "Check power supply sequencing first",
+          "Verify control interface timing",
+          "Measure thermal performance under load",
+          "Compare measurements to datasheet typical values"
+        ],
+        "author": "Robert Chen",
+        "content": "Automotive RF design is different from consumer electronics. The 15-year lifetime requirement changes everything - components must maintain performance and reliability far beyond typical consumer product lifecycles. I've seen designs that work perfectly in the lab fail in vehicles due to temperature cycling, vibration, or EMI. Key lessons: 1) Always design for worst-case temperature - engine compartment can reach 125°C+, 2) Vibration resistance is critical - vehicles experience constant vibration, 3) EMI immunity is mandatory - automotive environment is electrically noisy, 4) Supply continuity is essential - automotive production runs for years. Never underestimate the qualification effort - AEC-Q100 testing takes months and must be planned from the start.\n\nDecision Framework: Automotive RF design must address: 1) Environmental extremes (temperature, vibration, humidity), 2) Reliability requirements (15-year lifetime, zero defect targets), 3) Functional safety (ISO 26262 for safety-critical applications), 4) Regulatory compliance (EMC, type approval), 5) Supply chain stability (long-term availability). The design process should start with defining the operating environment, then selecting qualified components, implementing robust thermal and mechanical design, and planning comprehensive validation testing."
+      },
+      "customerCases": [
+        {
+          "customerName": "Tier 1 Automotive Supplier",
+          "industry": "Automotive",
+          "application": "5G Telematics Control Unit",
+          "problem": "Customer developing next-generation TCU for premium vehicle platform required 5G connectivity with AEC-Q100 Grade 1 qualification and 15-year supply commitment.",
+          "diagnosis": "Standard consumer-grade 5G FEMs couldn't meet automotive temperature and reliability requirements. Existing automotive solutions were limited to 4G.",
+          "solution": "Implemented Skyworks automotive-grade 5G FEMs (SKY58260-11-A) with full AEC-Q100 Grade 1 qualification. Negotiated long-term supply agreement with PCN process.",
+          "results": "Automotive qualification with zero field failures. Met all thermal and reliability requirements. Secured 15-year supply commitment with buffer stock agreement.",
+          "challenge": "Customer faced design challenges requiring optimization",
+          "feedback": "Automotive qualification with zero field failures. Met all thermal and reliability requirements. Secured 15-year supply commitment with buffer stock agreement."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is AEC-Q100 and why is it important for automotive RF components?",
+          "answer": "AEC-Q100 is the automotive industry standard for integrated circuit qualification, developed by the Automotive Electronics Council. It defines rigorous testing requirements to ensure components can operate reliably in automotive environments. Key aspects: 1) Temperature grades (Grade 0: -40 to +150°C, Grade 1: -40 to +125°C, Grade 2: -40 to +105°C), 2) Reliability testing including HTOL (High Temperature Operating Life), temperature cycling, ESD, and latch-up, 3) Statistical process control requirements, 4) PPAP (Production Part Approval Process) documentation. For RF components, AEC-Q100 qualification is critical because: automotive environments experience extreme temperatures, vibration, and EMI; failures can have safety implications; vehicles have 15+ year lifecycles; warranty costs for automotive are substantial. Using non-automotive qualified components in automotive applications risks field failures, recalls, and liability issues.",
+          "decisionGuide": "Always use AEC-Q100 qualified components for automotive. Verify grade matches operating environment (Grade 1 for cabin, Grade 0 for engine compartment).",
+          "keywords": [
+            "AEC-Q100",
+            "automotive qualification",
+            "reliability",
+            "PPAP"
+          ]
+        },
+        {
+          "question": "What are the key differences between V2X technologies C-V2X and DSRC?",
+          "answer": "C-V2X (Cellular V2X) and DSRC (Dedicated Short Range Communications) are competing V2X technologies: C-V2X uses cellular technology (3GPP standards), operates at 5.9 GHz, provides longer range (450m+), works with existing cellular infrastructure, supports both direct (PC5) and network (Uu) modes. Backed by cellular industry (Qualcomm, Ericsson, 5GAA). DSRC based on IEEE 802.11p (Wi-Fi variant), operates at 5.9 GHz, shorter range (300m), mature standard with early deployments, simpler protocol stack. Backed by IEEE and some automotive OEMs. Key differences: C-V2X offers better performance and evolution path to 5G, DSRC has earlier standardization and some production deployments. Regional preferences: China strongly favors C-V2X, Europe evaluating both, US had been DSRC-focused but now considering C-V2X. For new designs, C-V2X is generally recommended due to better performance and industry momentum.",
+          "decisionGuide": "C-V2X recommended for new designs due to performance advantages and industry support. Consider regional requirements and OEM preferences.",
+          "keywords": [
+            "C-V2X",
+            "DSRC",
+            "V2X technology",
+            "vehicle communication"
+          ]
+        },
+        {
+          "question": "How do I handle thermal design for automotive RF components?",
+          "answer": "Automotive thermal design is challenging due to extreme temperature ranges. Engine compartment can reach 125°C ambient, with components experiencing even higher junction temperatures. Best practices: 1) Select appropriate temperature grade - Grade 0 for engine compartment, Grade 1 for most other locations, 2) Calculate junction temperature: Tj = Ta + (Power × Thermal Resistance). Ensure Tj stays below maximum rating with margin, 3) Use thermal simulation tools to identify hotspots, 4) Implement adequate heat spreading with copper pours and thermal vias, 5) Consider active cooling for high-power components, 6) Validate with thermal testing under worst-case conditions. For RF components, high temperature affects: gain (typically decreases), efficiency (degrades), linearity (may degrade), and reliability (accelerated aging). Always check component specifications at maximum expected temperature, not just room temperature.",
+          "decisionGuide": "Perform thermal analysis early. use Grade 0 components for engine compartment. validate with testing at maximum temperature.",
+          "keywords": [
+            "automotive thermal",
+            "temperature grade",
+            "junction temperature",
+            "heat dissipation"
+          ]
+        },
+        {
+          "question": "What EMC requirements apply to automotive RF systems?",
+          "answer": "Automotive EMC requirements are stringent due to the electrically noisy environment and safety-critical nature of vehicle electronics. Key standards: CISPR 25 (emissions), ISO 11452 (immunity), ISO 7637 (transient immunity). RF-specific considerations: 1) Emissions - RF transmitters must not interfere with other vehicle systems or external receivers, 2) Immunity - RF systems must operate correctly in presence of high-power interference (broadcast transmitters, radar, other vehicles), 3) Antenna isolation - multiple antennas in close proximity require careful placement and filtering, 4) Shielding - proper enclosure design to prevent emissions and protect from interference. Testing includes: radiated emissions (150 kHz to 6 GHz), conducted emissions, radiated immunity (up to 200 V/m), bulk current injection, transient immunity. RF systems often require multiple iterations to pass EMC testing. Design recommendations: use filtered connectors, implement proper grounding, shield sensitive circuits, separate high-speed digital from RF.",
+          "decisionGuide": "Plan EMC design from the start. engage EMC experts early. budget for multiple test iterations.",
+          "keywords": [
+            "automotive EMC",
+            "CISPR 25",
+            "EMI immunity",
+            "RF interference"
+          ]
+        },
+        {
+          "question": "What supply chain considerations are unique to automotive RF components?",
+          "answer": "Automotive supply chains have unique requirements compared to consumer electronics: 1) Long-term supply - 15+ year production plus service parts, 2) PCN process - 12-18 months notice for any changes, 3) LTB (Last Time Buy) - 6-12 months notice before discontinuation, 4) Quality agreements - PPM targets (often <10 PPM), 5) Buffer stock agreements - maintain inventory for supply security, 6) Traceability - full lot traceability for quality issues. For RF components, additional considerations: technology evolution may make older standards obsolete (e.g., 2G sunset), multi-sourcing strategy to reduce risk, qualification of alternative sources takes time and resources. Recommendations: negotiate long-term supply agreements early, maintain relationships with multiple suppliers, plan for technology migration (e.g., 4G to 5G transition), implement robust change notification processes. Skyworks provides comprehensive automotive supply programs with dedicated support for these requirements.",
+          "decisionGuide": "Negotiate long-term supply agreements early. plan for 15+ year support. maintain multi-source strategy where possible.",
+          "keywords": [
+            "automotive supply chain",
+            "PCN",
+            "long-term supply",
+            "automotive sourcing"
+          ]
+        }
+      ],
+      "slug": "automotive-rf-design",
+      "tags": [
+        "Skyworks",
+        "RF Design",
+        "Application Guide"
+      ]
+    },
+    {
+      "id": "wi-fi-6e-design-guide",
+      "title": "Wi-Fi 6E Design Guide: Maximizing 6 GHz Performance",
+      "category": "Application Guide",
+      "author": {
+        "name": "Jennifer Liu",
+        "title": "Senior FAE - Connectivity",
+        "experience": "10 years",
+        "expertise": [
+          "Wi-Fi Design",
+          "Connectivity Solutions",
+          "RF Integration"
+        ]
+      },
+      "publishDate": "2026-03-15",
+      "lastUpdated": "2026-03-15",
+      "summary": "Technical guide for designing Wi-Fi 6E systems with 6 GHz operation. Covers RF design considerations, antenna requirements, and performance optimization.",
+      "content": [
+        "Wi-Fi 6E extends Wi-Fi 6 into the 6 GHz band (5.925-7.125 GHz), providing up to 1200 MHz of additional spectrum. This enables wider channels, less congestion, and higher throughput, but also presents new RF design challenges.",
+        "## Wi-Fi 6E Benefits",
+        "**Additional Spectrum**: 1200 MHz of clean spectrum in 6 GHz band compared to 400 MHz in 5 GHz and 100 MHz in 2.4 GHz. This enables more 80 MHz and 160 MHz channels without overlap.",
+        "**Less Congestion**: Only Wi-Fi 6E devices can use the 6 GHz band, eliminating interference from legacy Wi-Fi 4/5 devices and non-Wi-Fi 2.4/5 GHz devices.",
+        "**No DFS Requirements**: Unlike 5 GHz where many channels require Dynamic Frequency Selection (DFS) to avoid radar, 6 GHz channels are immediately available without DFS delays.",
+        "**Higher Throughput**: Support for 160 MHz channels enables theoretical speeds up to 2.4 Gbps per stream with 1024-QAM.",
+        "## RF Design Considerations",
+        "**Higher Frequency Challenges**: 6 GHz presents greater path loss and reduced range compared to lower frequencies. Free space path loss increases by approximately 3.5 dB compared to 5 GHz.",
+        "**Linearity Requirements**: Wi-Fi 6E uses 1024-QAM modulation which requires excellent linearity. EVM (Error Vector Magnitude) must be better than -40 dB for optimal performance.",
+        "**Thermal Management**: Higher frequency operation generates more heat. Proper thermal design is essential for sustained performance.",
+        "**Antenna Design**: Antennas must cover the extended frequency range (5.9-7.1 GHz). Higher gain antennas can help compensate for increased path loss."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "thermal-design-rf",
+        "mimo-antenna-design"
+      ],
+      "faeInsights": {
+        "insight": "Wi-Fi 6E is a game-changer for high-performance wireless, but engineers need to understand the RF challenges at 6 GHz. The biggest issue I see is range expectation - 6 GHz has shorter range than 5 GHz, so coverage planning is critical. The second challenge is linearity - 1024-QAM requires exceptional EVM performance that not all FEMs can deliver. My recommendation: use high-quality FEMs like SKY85330-11 that are specifically designed for Wi-Fi 6E. Don't try to use 5 GHz FEMs at 6 GHz - the performance penalty is significant. Also, plan for more access points or mesh nodes than you would for 5 GHz to achieve the same coverage.",
+        "logic": "Wi-Fi 6E design should follow this approach: 1) Define coverage requirements understanding 6 GHz range limitations, 2) Select FEMs specifically designed for 6 GHz with verified linearity, 3) Design antenna systems for extended frequency range, 4) Implement proper thermal management for sustained operation, 5) Plan channel allocation to maximize spectrum usage, 6) Validate with real-world throughput testing. The key trade-off is between higher throughput and reduced range - plan your deployment accordingly.",
+        "keyTakeaways": [
+          "6 GHz has 3.5 dB higher path loss than 5 GHz - plan for shorter range",
+          "1024-QAM requires exceptional linearity - use Wi-Fi 6E specific FEMs",
+          "Thermal management is critical for sustained 6 GHz operation",
+          "More APs/mesh nodes needed for same coverage vs 5 GHz",
+          "No DFS means faster channel access and lower latency"
+        ],
+        "commonPitfalls": [
+          "Ignoring thermal constraints until late in the design cycle",
+          "Not following reference layout recommendations for critical circuits",
+          "Underestimating the importance of matching network optimization",
+          "Skipping environmental testing until final qualification",
+          "Selecting components based only on price without considering total cost",
+          "Failing to plan for manufacturing variations and yield"
+        ],
+        "bestPractices": [
+          "Use FEMs specifically designed for Wi-Fi 6E",
+          "Plan for 20-30% more APs than 5 GHz design",
+          "Implement adequate thermal management",
+          "Use 160 MHz channels for maximum throughput"
+        ],
+        "insightLogic": "Wi-Fi 6E design should follow this approach: 1) Define coverage requirements understanding 6 GHz range limitations, 2) Select FEMs specifically designed for 6 GHz with verified linearity, 3) Design antenna systems for extended frequency range, 4) Implement proper thermal management for sustained operation, 5) Plan channel allocation to maximize spectrum usage, 6) Validate with real-world throughput testing. The key trade-off is between higher throughput and reduced range - plan your deployment accordingly.",
+        "practicalTips": [
+          "Start with reference designs for fastest development",
+          "Engage FAE early for design optimization",
+          "Plan for thermal management from the beginning",
+          "Validate with actual modulation signals"
+        ],
+        "troubleshootingTips": [
+          "Check power supply sequencing first",
+          "Verify control interface timing",
+          "Measure thermal performance under load",
+          "Compare measurements to datasheet typical values"
+        ],
+        "author": "Jennifer Liu",
+        "content": "Wi-Fi 6E is a game-changer for high-performance wireless, but engineers need to understand the RF challenges at 6 GHz. The biggest issue I see is range expectation - 6 GHz has shorter range than 5 GHz, so coverage planning is critical. The second challenge is linearity - 1024-QAM requires exceptional EVM performance that not all FEMs can deliver. My recommendation: use high-quality FEMs like SKY85330-11 that are specifically designed for Wi-Fi 6E. Don't try to use 5 GHz FEMs at 6 GHz - the performance penalty is significant. Also, plan for more access points or mesh nodes than you would for 5 GHz to achieve the same coverage.\n\nDecision Framework: Wi-Fi 6E design should follow this approach: 1) Define coverage requirements understanding 6 GHz range limitations, 2) Select FEMs specifically designed for 6 GHz with verified linearity, 3) Design antenna systems for extended frequency range, 4) Implement proper thermal management for sustained operation, 5) Plan channel allocation to maximize spectrum usage, 6) Validate with real-world throughput testing. The key trade-off is between higher throughput and reduced range - plan your deployment accordingly."
+      },
+      "customerCases": [
+        {
+          "customerName": "Enterprise Networking Company",
+          "industry": "Networking",
+          "application": "Wi-Fi 6E Enterprise Access Points",
+          "problem": "Customer developing Wi-Fi 6E access points for enterprise deployment was experiencing lower than expected throughput and range issues in 6 GHz band.",
+          "diagnosis": "Analysis showed that the FEMs being used were 5 GHz designs not optimized for 6 GHz, resulting in poor linearity (EVM only -32 dB vs required -40 dB) and reduced output power at 6 GHz.",
+          "solution": "Redesigned with Skyworks SKY85330-11 Wi-Fi 6E specific FEMs. Optimized antenna design for 6 GHz coverage and implemented improved thermal management.",
+          "results": "Achieved -42 dB EVM and full +20 dBm output power across 6 GHz band. Throughput improved by 35% compared to initial design. Range met enterprise coverage requirements.",
+          "challenge": "Customer faced design challenges requiring optimization",
+          "feedback": "Achieved -42 dB EVM and full +20 dBm output power across 6 GHz band. Throughput improved by 35% compared to initial design. Range met enterprise coverage requirements."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What are the real-world throughput benefits of Wi-Fi 6E over Wi-Fi 6?",
+          "answer": "Wi-Fi 6E provides significant real-world throughput improvements: 1) Clean spectrum - no legacy device interference in 6 GHz means consistent performance, 2) Wider channels - 160 MHz channels are more practical without DFS restrictions, 3) More channels - 14 additional 80 MHz channels enable better network planning in dense environments. Real-world measurements: Wi-Fi 6 (5 GHz, 80 MHz, congested): 300-500 Mbps typical. Wi-Fi 6E (6 GHz, 160 MHz, clean): 1.2-1.8 Gbps typical. The improvement comes from: higher modulation rates (1024-QAM more consistently achievable), less retransmission due to interference, wider channel bandwidth. However, range is reduced - 6 GHz provides about 70% of the range of 5 GHz. Best practice: use 6 GHz for high-performance devices in proximity to APs, 5 GHz for general coverage.",
+          "decisionGuide": "Use Wi-Fi 6E for high-performance applications in enterprise and gaming. Plan for reduced range compared to 5 GHz.",
+          "keywords": [
+            "Wi-Fi 6E throughput",
+            "6 GHz performance",
+            "Wi-Fi speed",
+            "network capacity"
+          ]
+        },
+        {
+          "question": "How does 6 GHz range compare to 5 GHz and 2.4 GHz?",
+          "answer": "Range decreases with increasing frequency due to higher free space path loss. Approximate range comparison (same power, indoor environment): 2.4 GHz: 100% baseline range, 5 GHz: ~70% of 2.4 GHz range, 6 GHz: ~50% of 2.4 GHz range (or ~70% of 5 GHz). The path loss difference between 5 GHz and 6 GHz is about 3.5 dB, which translates to roughly 25-30% range reduction. Wall penetration is also worse at higher frequencies - 6 GHz penetrates walls less effectively than 5 GHz. Implications for design: 1) More APs or mesh nodes needed for same coverage, 2) Higher gain antennas can help compensate, 3) Mesh backhaul may benefit from 6 GHz while client access uses 5 GHz, 4) Client devices need to be closer to APs for maximum performance. For enterprise deployments, plan for 20-30% more AP density when using 6 GHz for coverage.",
+          "decisionGuide": "Plan for 25-30% range reduction vs 5 GHz. use more APs or mesh nodes for same coverage. consider 6 GHz for capacity, 5 GHz for coverage.",
+          "keywords": [
+            "6 GHz range",
+            "Wi-Fi coverage",
+            "path loss",
+            "signal propagation"
+          ]
+        },
+        {
+          "question": "What are the regulatory considerations for Wi-Fi 6E?",
+          "answer": "Wi-Fi 6E regulatory status varies by region: United States: Full 6 GHz band (5.925-7.125 GHz) available for unlicensed use. Standard Power and Low Power Indoor modes defined. Europe: CEPT decision allows 5.925-6.425 GHz. LBT (Listen Before Talk) required. Implementation ongoing across EU countries. China: 6 GHz currently allocated to 5G IMT, Wi-Fi 6E not yet approved. Other regions: Various stages of approval - some following US model, others more restrictive. Key regulatory aspects: 1) AFC (Automated Frequency Coordination) for Standard Power operation in US, 2) LBT requirements in Europe, 3) Indoor-only restrictions in some regions, 4) Power limits vary by region and sub-band. For global products, design for most restrictive region and enable features via software configuration. Monitor regulatory updates as 6 GHz rules are still evolving.",
+          "decisionGuide": "Check regulatory status for target markets. design for most restrictive requirements. plan for regional software configurations.",
+          "keywords": [
+            "Wi-Fi 6E regulations",
+            "6 GHz spectrum",
+            "AFC",
+            "regulatory compliance"
+          ]
+        },
+        {
+          "question": "How do I optimize antenna design for Wi-Fi 6E?",
+          "answer": "Wi-Fi 6E antenna design requires covering 5.9-7.1 GHz while maintaining performance across the entire band. Key considerations: 1) Bandwidth - antenna must cover full 1.2 GHz 6 GHz band plus 2.4/5 GHz for backward compatibility, 2) Efficiency - maintain high efficiency (>60%) across all bands, 3) Pattern - consistent radiation pattern for all frequencies, 4) Isolation - >20 dB isolation between antennas for MIMO. Design approaches: PIFA (Planar Inverted-F Antenna) with multiple resonant elements, multi-band antennas with integrated diplexers, separate antennas for each band with switching. For routers/APs: external antennas provide better performance and flexibility, internal antennas save space but may sacrifice performance. Testing requirements: verify return loss (<-10 dB) across all bands, measure efficiency and pattern, validate MIMO correlation. Antenna design has significant impact on Wi-Fi 6E performance - invest in proper antenna engineering.",
+          "decisionGuide": "Use multi-band antennas covering 2.4/5/6 GHz. prioritize efficiency and pattern consistency. test across full frequency range.",
+          "keywords": [
+            "Wi-Fi 6E antenna",
+            "6 GHz antenna design",
+            "tri-band antenna",
+            "MIMO antenna"
+          ]
+        },
+        {
+          "question": "What thermal challenges does Wi-Fi 6E present?",
+          "answer": "Wi-Fi 6E presents significant thermal challenges: 1) Higher frequency operation generates more heat - PAs are less efficient at 6 GHz, 2) 160 MHz wide channels increase average power consumption, 3) 1024-QAM requires linear operation which is less efficient, 4) Multi-user MIMO increases simultaneous transmission duty cycle. Thermal impact: FEM junction temperature can rise 20-30°C above ambient during sustained operation. Without proper thermal management, this causes: reduced output power, degraded EVM/linearity, potential thermal shutdown, reduced lifetime. Thermal design recommendations: 1) Use FEMs with good efficiency at 6 GHz (SKY85330-11 achieves 35% at 6 GHz), 2) Provide adequate PCB copper area for heat spreading (minimum 100 mm²), 3) Use thermal vias to inner ground layers, 4) Consider active cooling for high-performance routers, 5) Implement thermal throttling in software. Measure junction temperature under worst-case conditions and ensure adequate margin below maximum rating.",
+          "decisionGuide": "Plan thermal management early. use efficient FEMs. provide adequate heat sinking. test under sustained high-throughput conditions.",
+          "keywords": [
+            "Wi-Fi 6E thermal",
+            "6 GHz heat",
+            "PA cooling",
+            "thermal management"
+          ]
+        }
+      ],
+      "slug": "wi-fi-6e-design-guide",
+      "tags": [
+        "Skyworks",
+        "RF Design",
+        "Application Guide"
+      ]
+    },
+    {
+      "id": "skyworks-vs-qorvo-comparison",
+      "title": "Skyworks vs Qorvo: RF Front-End Module Comparison Guide",
+      "category": "Product Comparison",
+      "author": {
+        "name": "Tech Analysis Team",
+        "title": "Senior FAE - RF Solutions",
+        "experience": "12 years"
+      },
+      "publishDate": "2026-04-01",
+      "lastUpdated": "2026-04-01",
+      "summary": "Comprehensive comparison between Skyworks and Qorvo RF front-end modules for 5G, Wi-Fi, and IoT applications.",
+      "content": [
+        "Skyworks and Qorvo are the two dominant players in the RF front-end module market. This guide provides a detailed comparison to help engineers make informed component selection decisions.",
+        "## Market Position",
+        "**Skyworks**: Leading provider of RF solutions with strong position in mobile and wireless infrastructure. Known for high integration and efficiency.",
+        "**Qorvo**: Strong competitor with expertise in RF and power management. Particularly strong in Wi-Fi and defense markets.",
+        "## Product Portfolio Comparison",
+        "**5G FEMs**: Both offer comprehensive 5G FEM portfolios. Skyworks has broader band coverage, Qorvo has strong position in Wi-Fi 6E.",
+        "## Performance Characteristics",
+        "**Efficiency**: Skyworks typically leads in power efficiency for 5G applications. Qorvo offers competitive efficiency in Wi-Fi applications.",
+        "## Selection Criteria",
+        "Choose Skyworks for: Mobile 5G applications requiring maximum efficiency, Broad portfolio coverage, Strong IoT solutions.",
+        "Choose Qorvo for: Wi-Fi 6E focused designs, Defense and aerospace applications, Alternative sourcing requirements."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "power-amplifier-selection"
+      ],
+      "tags": [
+        "Product Comparison",
+        "Skyworks",
+        "Qorvo"
+      ]
+    },
+    {
+      "id": "rf-switch-selection-guide",
+      "title": "RF Switch Selection Guide for Wireless Applications",
+      "category": "Product Selection",
+      "author": {
+        "name": "David Wang",
+        "title": "Principal FAE - Wireless",
+        "experience": "15 years"
+      },
+      "publishDate": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "summary": "Guide for selecting RF switches for antenna tuning, band switching, and signal routing applications.",
+      "content": [
+        "RF switches are essential components in modern wireless systems, enabling antenna switching, band selection, and signal routing. Proper switch selection is critical for system performance.",
+        "## Switch Types",
+        "**SPDT**: Single Pole Double Throw - most common for antenna switching.",
+        "**DP4T**: Double Pole Four Throw - enables multiple antenna switching.",
+        "## Key Parameters",
+        "**Isolation**: Higher isolation reduces interference between paths. 20+ dB typical.",
+        "**Insertion Loss**: Lower is better - typically 0.3-0.5 dB for modern switches.",
+        "**Switching Speed**: Critical for time-division systems. 10-100 μs typical.",
+        "## Skyworks Switch Portfolio",
+        "Skyworks offers comprehensive switch portfolio including high-isolation SPST, SPDT, and DP4T switches covering DC to 8 GHz."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "automotive-rf-design"
+      ],
+      "tags": [
+        "RF Switch",
+        "Product Selection",
+        "Antenna"
+      ]
+    },
+    {
+      "id": "5g-rf-design-fundamentals",
+      "title": "5G RF Design Fundamentals: From Sub-6GHz to mmWave",
+      "category": "Technical Guide",
+      "author": {
+        "name": "Michael Chen",
+        "title": "Senior FAE - RF Solutions",
+        "experience": "12 years"
+      },
+      "publishDate": "2026-04-15",
+      "lastUpdated": "2026-04-15",
+      "summary": "Technical guide covering 5G RF design considerations from sub-6GHz to mmWave frequencies.",
+      "content": [
+        "5G is a significant evolution in wireless technology, requiring new RF design approaches. This guide covers fundamental design considerations for 5G systems.",
+        "## 5G Frequency Ranges",
+        "**Sub-6GHz (FR1)**: 410-7125 MHz. Evolution of LTE bands with wider bandwidths.",
+        "**mmWave (FR2)**: 24.25-52.6 GHz, 52.6-71 GHz. New spectrum with massive bandwidth but challenging RF.",
+        "## Sub-6GHz Design Considerations",
+        "**Bandwidth**: Up to 100 MHz per carrier vs 20 MHz in LTE.",
+        "## mmWave Challenges",
+        "**Path Loss**: Higher frequency means more path loss. Requires beamforming.",
+        "## Skyworks 5G Solutions",
+        "Skyworks provides comprehensive solutions for both sub-6GHz and mmWave applications."
+      ],
+      "relatedArticles": [
+        "rf-front-end-selection-guide",
+        "wi-fi-6e-design-guide"
+      ],
+      "tags": [
+        "5G",
+        "RF Design",
+        "Technical Guide"
+      ]
+    }
+  ],
+  "seoTitle": "Skyworks Technical Support | RF Design Resources | BeiLuo",
+  "seoDescription": "Technical support resources for Skyworks RF products including selection guides, application notes, and design resources. Authorized distributor BeiLuo provides comprehensive FAE support.",
+  "seoKeywords": [
+    "Skyworks support",
+    "RF design guide",
+    "technical resources",
+    "FAE support",
+    "application notes",
+    "Skyworks distributor support",
+    "Skyworks selection guide"
+  ],
+  "faqs": [
+    {
+      "question": "What technical resources are available for Skyworks products?",
+      "answer": "Available resources include: datasheets with full specifications, application notes with design guidance, reference designs with schematics and layouts, evaluation kits for prototyping, simulation models, and FAQ documents. All resources are available through BeiLuo or the Skyworks website.",
+      "decisionGuide": "Start with datasheet and application notes. Contact FAE for additional resources.",
+      "keywords": [
+        "technical resources",
+        "documentation",
+        "support materials"
+      ]
+    },
+    {
+      "question": "How do I get FAE support for my Skyworks design?",
+      "answer": "To get FAE support: 1) Contact BeiLuo sales with your project details, 2) Schedule a technical discussion with FAE, 3) Provide system requirements and block diagram, 4) FAE will recommend appropriate products and provide design guidance. Support is available throughout your development cycle.",
+      "decisionGuide": "Contact BeiLuo early in design cycle for maximum support benefit.",
+      "keywords": [
+        "FAE support",
+        "technical assistance",
+        "design help"
+      ]
+    },
+    {
+      "question": "Are reference designs available for Skyworks products?",
+      "answer": "Yes, comprehensive reference designs are available including: schematic diagrams, PCB layout files, BOM recommendations, software configuration guides, and test reports. Reference designs are validated with major baseband platforms. Contact FAE for access to reference design packages.",
+      "decisionGuide": "Use reference designs as starting point for your design. Modify as needed.",
+      "keywords": [
+        "reference designs",
+        "evaluation kits",
+        "design examples"
+      ]
+    },
+    {
+      "question": "What is the typical response time for technical questions?",
+      "answer": "Response times: General product questions - 1-2 business days, Design review requests - 3-5 business days, Urgent production issues - same day response. For complex questions, FAE may schedule a call to discuss in detail.",
+      "decisionGuide": "Plan for typical response times. Mark urgent issues clearly for priority handling.",
+      "keywords": [
+        "response time",
+        "support hours",
+        "contact"
+      ]
+    },
+    {
+      "question": "Do you provide layout review services?",
+      "answer": "Yes, layout review services are provided by our FAE team. Submit your layout files along with system requirements. FAE will review RF matching, grounding, thermal management, and provide recommendations for optimization. Typical turnaround is 3-5 business days.",
+      "decisionGuide": "Submit layout for review before prototype build to catch potential issues early.",
+      "keywords": [
+        "layout review",
+        "design review",
+        "PCB analysis"
+      ]
+    },
+    {
+      "question": "Can I get samples for evaluation?",
+      "answer": "Yes, samples are available for evaluation. Sample quantities (typically 5-10 pieces) can be ordered through BeiLuo sales. Lead time is typically 2-3 weeks. Some high-demand products may have longer lead times. Contact sales for sample availability.",
+      "decisionGuide": "Order samples early in evaluation phase. Contact sales for availability.",
+      "keywords": [
+        "samples",
+        "evaluation",
+        "prototyping"
+      ]
+    },
+    {
+      "question": "What training is available for Skyworks products?",
+      "answer": "Training options include: online webinars covering product families and applications, in-person technical seminars, application-specific workshops, and customized training for large customers. Contact FAE for training schedule and registration.",
+      "decisionGuide": "Attend relevant webinars or seminars for product familiarization.",
+      "keywords": [
+        "training",
+        "webinars",
+        "seminars",
+        "education"
+      ]
+    },
+    {
+      "question": "How do I report a technical issue or quality concern?",
+      "answer": "To report issues: 1) Document the issue with detailed description and conditions, 2) Collect relevant data (measurements, logs, photos), 3) Contact BeiLuo FAE with issue details, 4) FAE will work with Skyworks factory for analysis and resolution. For urgent production issues, priority handling is available.",
+      "decisionGuide": "Document issues thoroughly for fastest resolution. Contact FAE immediately for production issues.",
+      "keywords": [
+        "issue reporting",
+        "quality concerns",
+        "problem resolution"
+      ]
+    }
+  ]
+}

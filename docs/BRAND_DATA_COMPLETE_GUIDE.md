@@ -4,13 +4,28 @@
 
 ---
 
+## 📢 重要更新 (2026-05-06)
+
+### 数据要求更新
+基于业务发展需要，数据要求已更新：
+
+| 项目 | 原要求 | 新要求 |
+|-----|-------|-------|
+| 每个分类产品数 | 至少4个 | **至少6个** |
+| Solutions数量 | 至少3个 | **至少4个** |
+| Support文章数 | 至少5篇 | **至少5篇**（保持不变） |
+
+**注意**：所有品牌数据将逐步按新要求补充完善。
+
+---
+
 ## 🚨 铁律（新增品牌必须严格遵守）
 
 ### 数据完整性铁律
 
 | 铁律编号 | 铁律内容 | 违反后果 |
 |---------|---------|---------|
-| **铁律1** | **products.json 中每个分类必须有至少2个产品** | 分类页无法生成，网站404 |
+| **铁律1** | **products.json 中每个分类必须有至少6个产品** | 分类页无法生成，网站404 |
 | **铁律2** | **每个产品必须有 shortDescription + descriptionParagraphs(3段) + faeReview + alternativeParts(≥2) + companionParts(≥3)** | 产品详情页内容缺失 |
 | **铁律3** | **alternativeParts 电气参数必须 ≥ 被替代型号（电压/电流）** | 替代料号逻辑错误，误导客户 |
 | **铁律4** | **solutions.json 每个方案必须有 customerCases(≥1) + faeInsights(完整)** | 方案页无法生成 |
@@ -47,9 +62,9 @@
 
 | 铁律编号 | 铁律内容 | 验证方式 |
 |---------|---------|---------|
-| **铁律8** | **首次发布：所有分类页必须全部发布，每类至少3-4个产品详情页** | 检查 products.json categories 数量 |
+| **铁律8** | **首次发布：所有分类页必须全部发布，每类至少6个产品详情页** | 检查 products.json categories 数量 |
 | **铁律9** | **后续更新：每次至少发布2个产品详情页，并更新对应列表页/分类页** | 检查新增产品数量 |
-| **铁律10** | **solutions.json 至少3个方案，每个方案3个客户案例** | 检查 solutions 数组长度 |
+| **铁律10** | **solutions.json 至少4个方案，每个方案3个客户案例** | 检查 solutions 数组长度 |
 | **铁律11** | **support.json 至少5篇文章（每类产品分类至少1篇）** | 检查 articles 数组长度 |
 | **铁律12** | **生成后必须检查：support详情页显示FAQ，solution详情页显示技术规格和BOM** | 页面内容缺失 |
 
@@ -99,7 +114,8 @@
 | **铁律27o** | **descriptionParagraphs 必须3段，每段≥150字，分别描述：产品概述、技术特点、应用优势** | 描述不完整 | 段落数量 + 字数统计 |
 | **铁律27p** | **alternativeParts 必须≥2个，每个包含详细对比（电压、电流、封装、性能对比）** | 替代料号信息不足 | 数量检查 + 内容审核 |
 | **铁律27q** | **companionParts 必须≥3个，每个包含具体型号、描述、配套原因** | 配套料号信息不足 | 数量检查 + 内容审核 |
-| **铁律27r** | **产品FAQ必须5-8个，覆盖：选型参数、应用场景、替代方案、常见问题、技术支持** | FAQ覆盖不全面 | 数量检查 + 内容审核 |
+| **铁律27r** | **产品FAQ必须5-8个，覆盖：选型参数、应用场景、替代方案、常见问题** | FAQ覆盖不全面 | 数量检查 + 内容审核 |
+| **铁律27s** | **产品型号详情页FAQ必须覆盖5个维度：具体参数、使用条件、竞品对比、应用场景、交期决策** | FAQ缺乏深度，无法支持采购决策 | 五维检查清单 |
 
 ### 数据真实性铁律（新增 - 绝对禁止编造）
 
@@ -181,6 +197,7 @@
 □ 铁律27p: alternativeParts 必须≥2个，包含详细对比
 □ 铁律27q: companionParts 必须≥3个，包含具体型号和描述
 □ 铁律27r: 产品FAQ必须5-8个，覆盖选型/应用/替代/常见问题
+□ 铁律27s: 产品型号详情页FAQ必须覆盖5个维度：具体参数/使用条件/竞品对比/应用场景/交期决策
 □ 铁律28: 所有产品型号必须是品牌官方真实存在的型号，禁止编造虚假型号
 □ 铁律28a: 产品规格参数必须从官方数据手册获取，禁止编造电气参数
 □ 铁律28b: 替代料号必须是市场上真实存在的产品，禁止编造不存在的替代方案
@@ -194,6 +211,7 @@
 □ 铁律27p: alternativeParts 必须≥2个，包含详细对比
 □ 铁律27q: companionParts 必须≥3个，包含具体型号和描述
 □ 铁律27r: 产品FAQ必须5-8个，覆盖选型/应用/替代/常见问题
+□ 铁律27s: 产品型号详情页FAQ必须覆盖5个维度：具体参数/使用条件/竞品对比/应用场景/交期决策
 ```
 
 ### 违反铁律的修复流程
@@ -577,9 +595,142 @@ cd output && npx http-server -p 8080
   - 如何获取进一步帮助？
 ---
 
-### 11. 通用FAQ内容要求（所有页面类型）
+### 11. 产品型号详情页FAQ深度要求（新增 - 铁律27s）
 
-**FAQ JSON字段格式**：
+产品型号详情页的FAQ必须具有**深度和专业性**，帮助用户做出明智的采购决策。每个产品必须有**5-8个深度FAQ**，覆盖以下5个维度：
+
+#### 铁律27s：产品型号详情页FAQ五维深度要求
+
+| 维度 | 要求 | 目的 | 示例问题 |
+|------|------|------|----------|
+| **维度1：具体参数提问** | 针对该型号的具体参数提问，回答"能不能用"的问题 | 帮助用户快速判断型号适用性 | "What is the maximum operating voltage for this IGBT module?" |
+| **维度2：参数使用条件** | 解释参数的使用条件，教用户"怎么选/怎么用" | 提供选型和使用指导 | "How do I calculate the required gate resistor value?" |
+| **维度3：竞品/替代对比** | 与竞品、上一代产品或替代型号进行对比参照 | 帮助用户理解产品定位和替代方案 | "How does this compare to the previous generation model?" |
+| **维度4：应用场景绑定** | 将产品参数与具体应用场景绑定 | 帮助用户理解实际应用价值 | "What are the recommended applications for this MOSFET?" |
+| **维度5：交期/采购决策** | 报告交期状况，支持用户采购决策 | 提供采购决策所需信息 | "What is the typical lead time for this product?" |
+
+#### 五维FAQ详细规范
+
+**维度1：具体参数提问（能不能用）**
+- **问题类型**：针对具体技术参数的疑问
+- **回答内容**：
+  - 明确给出参数值和条件
+  - 解释参数的定义和测试条件
+  - 说明参数的边界条件和限制
+- **字数要求**：250-400字
+- **decisionGuide**：引导用户判断型号是否满足需求
+- **示例**：
+  ```json
+  {
+    "question": "What is the maximum junction temperature for this IGBT module?",
+    "answer": "The FF300R12ME4 has a maximum junction temperature of 150°C (Tj max) according to the datasheet. This is the absolute maximum rating - continuous operation at this temperature will significantly reduce lifetime. For reliable long-term operation, we recommend keeping junction temperature below 125°C under worst-case conditions. The module includes an NTC thermistor for temperature monitoring, allowing real-time junction temperature estimation. At 150°C, the module can operate for short periods during overload conditions, but sustained operation at this temperature will accelerate aging and potentially lead to premature failure. For automotive applications requiring 20-year lifetime, target maximum junction temperature of 110°C.",
+    "decisionGuide": "If your application requires operation above 125°C junction temperature, consider upgrading to a higher current rating module or improving cooling. Contact our FAE for thermal modeling assistance.",
+    "keywords": ["junction temperature", "thermal rating", "IGBT reliability"]
+  }
+  ```
+
+**维度2：参数使用条件（怎么选/怎么用）**
+- **问题类型**：如何使用参数进行选型或应用
+- **回答内容**：
+  - 提供选型计算公式或方法
+  - 解释参数之间的相互影响
+  - 给出实际应用建议和注意事项
+- **字数要求**：300-500字
+- **decisionGuide**：引导用户正确选型和使用
+- **示例**：
+  ```json
+  {
+    "question": "How do I select the appropriate gate resistor for this IGBT module?",
+    "answer": "Gate resistor selection involves balancing switching speed, EMI, and gate driver capability. For the FF300R12ME4, typical gate resistor values range from 2.2Ω to 10Ω. Calculate minimum resistance based on driver peak current: Rg(min) = (Vge - Vge(th)) / Ipeak. For example, with 15V drive and 15A peak current: Rg(min) = (15V - 5V) / 15A = 0.67Ω. However, practical minimum is 2.2Ω to limit di/dt and EMI. Higher values (5-10Ω) reduce switching speed and EMI but increase switching losses. For 20kHz switching, we recommend 3.3-4.7Ω as a good compromise. Always verify actual switching waveforms with oscilloscope - look for clean transitions without excessive ringing. If using parallel modules, each module should have its own gate resistor (typically 2x single module value) to prevent oscillation.",
+    "decisionGuide": "Start with 4.7Ω for general applications, reduce to 2.2Ω for high-frequency operation, increase to 10Ω for EMI-sensitive applications. Contact FAE for optimization based on your specific switching frequency and EMI requirements.",
+    "keywords": ["gate resistor", "switching speed", "EMI design"]
+  }
+  ```
+
+**维度3：竞品/替代对比参照**
+- **问题类型**：与竞品、上一代或替代型号对比
+- **回答内容**：
+  - 详细对比关键参数差异
+  - 分析性能优势和劣势
+  - 说明适用场景差异
+- **字数要求**：300-500字
+- **decisionGuide**：帮助用户选择最适合的型号
+- **示例**：
+  ```json
+  {
+    "question": "How does this module compare to the previous generation FF300R12KT4?",
+    "answer": "The FF300R12ME4 (EconoDUAL 3) is the successor to FF300R12KT4 (EconoDUAL 2) with significant improvements: (1) Lower Vce(sat): 1.75V vs 2.05V (-15% conduction loss); (2) Lower switching losses: Eon 15mJ vs 18mJ, Eoff 12mJ vs 15mJ; (3) Higher max junction temp: 150°C vs 150°C (same rating but better margin); (4) Improved thermal resistance: Rth(j-c) 0.12K/W vs 0.15K/W; (5) Same mechanical dimensions but improved internal layout. Overall efficiency improvement is 8-12% depending on switching frequency. The ME4 uses newer trench field-stop technology vs planar in KT4. Price premium is approximately 15%, but total cost of ownership is lower due to reduced cooling requirements and energy savings. For new designs, ME4 is strongly recommended. For existing KT4 designs, direct replacement is possible with minor gate resistor adjustment.",
+    "decisionGuide": "Choose ME4 for new designs or when upgrading existing systems. The efficiency gains typically pay back the cost premium within 1-2 years of operation. Contact FAE for detailed ROI calculation.",
+    "keywords": ["product comparison", "generational upgrade", "efficiency improvement"]
+  }
+  ```
+
+**维度4：应用场景绑定**
+- **问题类型**：产品适合什么应用场景
+- **回答内容**：
+  - 列举典型应用场景
+  - 分析应用中的关键考虑因素
+  - 提供应用设计建议
+- **字数要求**：300-500字
+- **decisionGuide**：引导用户确认应用匹配度
+- **示例**：
+  ```json
+  {
+    "question": "What are the recommended applications for this 1200V 300A IGBT module?",
+    "answer": "The FF300R12ME4 is optimized for medium-power motor drive and inverter applications: (1) Motor Drives: 30-75kW variable frequency drives for industrial motors, servo drives for CNC machines, traction drives for EVs; (2) Renewable Energy: 10-30kW solar inverters, small wind turbine converters, energy storage systems; (3) Power Supplies: UPS systems 10-50kVA, welding equipment, induction heating; (4) EV Charging: Level 2 chargers (7-22kW), DC fast charger modules. Key application considerations: Switching frequency up to 20kHz suitable for most motor drives; EconoDUAL 3 package requires proper heatsink mounting with thermal interface material; Gate drive requirements are standard (±15V, 2-5A peak). Not recommended for: High-frequency resonant converters (>50kHz), very high power applications (>100kW), or applications requiring ultra-low inductance (consider PrimePACK instead).",
+    "decisionGuide": "This module is ideal for 30-75kW motor drives and 10-30kW inverters. For higher power, consider parallel configuration or larger modules. Contact FAE for application-specific recommendations.",
+    "keywords": ["motor drive", "solar inverter", "application selection"]
+  }
+  ```
+
+**维度5：交期/采购决策**
+- **问题类型**：交期、库存、采购相关信息
+- **回答内容**：
+  - 提供典型交期信息
+  - 说明库存状况
+  - 给出采购建议和替代方案
+- **字数要求**：200-350字
+- **decisionGuide**：支持用户做出采购决策
+- **示例**：
+  ```json
+  {
+    "question": "What is the typical lead time and MOQ for this product?",
+    "answer": "Standard lead time for FF300R12ME4 is 8-12 weeks for production quantities. We maintain safety stock for sample quantities (1-10 pcs) with 1-2 week delivery. MOQ is 100 pcs for standard orders, with price breaks at 500, 1000, and 5000 pcs. For urgent requirements, we can expedite through air freight (additional cost) reducing lead time to 4-6 weeks. Alternative options for faster delivery: (1) FF450R12ME4 (higher current, same package) often has better availability; (2) 2MBI300VN-120-50 (Fuji equivalent) may have shorter lead time; (3) Consider FF300R12KE4 (previous gen) for non-critical applications. For projects with >1000 pcs annual demand, we can arrange quarterly scheduled deliveries with 4-week lead time and volume pricing. Contact sales for current stock status and project-specific scheduling.",
+    "decisionGuide": "Plan 12-week lead time for production orders. For immediate needs, check availability of higher current alternatives or contact sales for expedited delivery options. Consider scheduled delivery for high-volume projects.",
+    "keywords": ["lead time", "MOQ", "delivery schedule"]
+  }
+  ```
+
+#### 五维FAQ检查清单
+
+每个产品型号详情页的FAQ必须满足：
+
+```
+□ 维度1：具体参数提问（能不能用）- 至少1个
+□ 维度2：参数使用条件（怎么选/怎么用）- 至少1个
+□ 维度3：竞品/替代对比参照 - 至少1个
+□ 维度4：应用场景绑定 - 至少1个
+□ 维度5：交期/采购决策 - 至少1个
+□ 总FAQ数量：5-8个
+□ 每个FAQ answer长度：250-500字
+□ 每个FAQ包含decisionGuide和keywords
+```
+
+#### 违反铁律27s的后果
+
+| 违反项 | 后果 | 检查方法 |
+|--------|------|----------|
+| 缺少维度1 FAQ | 用户无法判断型号适用性 | 检查是否有参数相关FAQ |
+| 缺少维度2 FAQ | 用户不知道如何选型使用 | 检查是否有使用指导FAQ |
+| 缺少维度3 FAQ | 用户无法了解竞品对比 | 检查是否有对比FAQ |
+| 缺少维度4 FAQ | 用户不清楚应用场景 | 检查是否有应用FAQ |
+| 缺少维度5 FAQ | 用户无法做采购决策 | 检查是否有交期FAQ |
+| FAQ数量<5个 | 信息不完整，影响SEO | 计数检查 |
+| FAQ answer<250字 | 内容深度不足 | 字数统计 |
+
+---
+
+### 11. 通用FAQ内容要求（所有页面类型）
 ```json
 {
   "pageType": "about-brand / products-list / product-category / product-detail / solutions-list / solution-detail / support-list / support-detail",
@@ -795,9 +946,9 @@ data/[brand-name]/
 
 | 品牌类型 | 最少分类数 | 每个分类最少产品数 |
 |---------|-----------|------------------|
-| 标准品牌 | 4个 | 2个 |
-| 小型品牌 | 2个 | 2个 |
-| 专业品牌 | 3个 | 2个 |
+| 标准品牌 | 4个 | 6个 |
+| 小型品牌 | 2个 | 6个 |
+| 专业品牌 | 3个 | 6个 |
 
 **注意**：
 - brand.json 的 `coreProducts` 数量必须等于 products.json 的分类数量
@@ -1259,7 +1410,7 @@ data/[brand-name]/
   - [ ] 每个FAQ有 keywords
 
 #### support.json（铁律5、11、18、19）
-- [ ] **铁律5**: articles（至少4篇，每类产品分类至少1篇）
+- [ ] **铁律5**: articles（至少5篇，每类产品分类至少1篇）
 - [ ] **铁律18**: support-list FAQs（12-18个）
   - [ ] 每个FAQ有 question
   - [ ] 每个FAQ有 answer（200-450字）
@@ -1319,7 +1470,7 @@ data/[brand-name]/
 请为 [品牌名] [型号] 生成产品描述：
 
 ⚠️ 铁律提醒：
-- 铁律1: 每个分类必须生成至少2个产品
+- 铁律1: 每个分类必须生成至少6个产品
 - 铁律2: 每个产品必须有 shortDescription + descriptionParagraphs(3段) + faeReview + alternativeParts(≥2) + companionParts(≥3)
 - 铁律3: alternativeParts 电气参数必须 ≥ 被替代型号
 

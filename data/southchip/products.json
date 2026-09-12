@@ -34,7 +34,7 @@
     },
     {
       "question": "What is the difference between SC and SC8 series chargers?",
-      "answer": "SouthChip SC and SC8 series represent different charger topologies: (1) SC Series - Linear battery chargers with simple design, no inductor required. Lower cost, suitable for charge currents up to 1A. Lower efficiency (efficiency = Vbat/Vin). Examples: SC4056, SC9017. (2) SC8 Series - Switching battery chargers (buck or boost) with inductor-based design. Higher efficiency (up to 95%), suitable for high charge currents (1A to 5A). More complex design but better thermal performance. Examples: SC8815, SC8905. (3) Selection guide - Use SC series for: low current (<500mA), cost-sensitive, small batteries, simple applications. Use SC8 series for: high current fast charging, large batteries, thermally constrained designs, high efficiency requirements. Both series offer comprehensive protection features and support various battery chemistries.",
+      "answer": "SouthChip SC and SC8 series is different charger topologies: (1) SC Series - Linear battery chargers with simple design, No inductor is needed. Lower cost, suitable for charge currents up to 1A. Lower efficiency (efficiency = Vbat/Vin). Examples: SC4056, SC9017. (2) SC8 Series - Switching battery chargers (buck or boost) with inductor-based design. Higher efficiency (up to 95%), suitable for high charge currents (1A to 5A). More complex design but better thermal performance. Examples: SC8815, SC8905. (3) Selection guide - Use SC series for: low current (<500mA), cost-sensitive, small batteries, simple applications. Use SC8 series for: high current fast charging, large batteries, thermally constrained designs, high efficiency requirements. Both series offer comprehensive protection features and support various battery chemistries.",
       "decisionGuide": "Contact LiTong for charger series selection based on your current and efficiency requirements.",
       "keywords": [
         "SC series",
@@ -626,7 +626,7 @@
             "280mA linear charger",
             "Ultra-low standby current (<1μA)",
             "Compact SOT-23-5 package",
-            "No inductor required",
+            "No inductor is needed",
             "Minimal external components",
             "Comprehensive protection",
             "Automatic charge termination"
@@ -2106,7 +2106,9 @@
         "Dropout Voltage",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "On-Resistance",
+        "Current Limit"
       ],
       "series": [
         {
@@ -2207,7 +2209,9 @@
             "Package": "QFN-16",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "On-Resistance": "N/A",
+            "Current Limit": "N/A"
           },
           "features": [
             "Automatic power source selection",
@@ -2353,7 +2357,9 @@
             "Package": "QFN-12",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "On-Resistance": "N/A",
+            "Current Limit": "N/A"
           },
           "features": [
             "Compact QFN-12 package",
@@ -2491,7 +2497,9 @@
             "Package": "QFN-24",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "On-Resistance": "N/A",
+            "Current Limit": "N/A"
           },
           "features": [
             "5A system current capability",
@@ -2629,7 +2637,9 @@
             "Package": "WLCSP-6",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Charge Current": "N/A",
+            "Dropout Voltage": "N/A"
           },
           "features": [
             "Ultra-low on-resistance (<20mΩ)",

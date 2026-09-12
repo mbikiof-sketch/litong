@@ -1,23 +1,37 @@
-// Fix selectionGuideLink format in products.json
+#!/usr/bin/env node
+
+/**
+ * Fix selectionGuideLink format for HCI brand
+ */
+
 const fs = require('fs');
 const path = require('path');
 
-const productsPath = path.join(__dirname, '..', 'data', 'sindachip', 'products.json');
-const productsData = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
+const dataDir = path.join(__dirname, '..', 'data', 'hci');
+const productsFile = path.join(dataDir, 'products.json');
 
-// Fix categories
+const productsData = JSON.parse(fs.readFileSync(productsFile, 'utf8'));
+
+console.log('Fixing selectionGuideLink format...\n');
+
 productsData.categories.forEach(category => {
-  if (category.selectionGuideLink && typeof category.selectionGuideLink === 'string') {
-    const url = category.selectionGuideLink;
-    const text = category.selectionGuide?.title || `${category.name} Selection Guide`;
-    category.selectionGuideLink = {
-      url: url,
-      text: text
-    };
-  }
+  // Replace string with array format
+  category.selectionGuideLink = [
+    {
+      title: `${category.name} Selection Guide`,
+      url: `/hci/products/${category.slug}/selection-guide`,
+      description: `Complete selection guide for ${category.name} products including specifications, applications, and recommendations.`
+    },
+    {
+      title: 'Cross Reference Tool',
+      url: '/hci/support/cross-reference',
+      description: 'Find compatible alternative parts from other manufacturers.'
+    }
+  ];
+  console.log(`✓ Fixed selectionGuideLink for ${category.name}`);
 });
 
-// Write back to file
-fs.writeFileSync(productsPath, JSON.stringify(productsData, null, 2));
-console.log('✓ Fixed selectionGuideLink format in products.json');
-console.log('  - Converted string links to object format with url and text');
+// Save updated file
+fs.writeFileSync(productsFile, JSON.stringify(productsData, null, 2), 'utf8');
+
+console.log('\n✅ Successfully fixed all selectionGuideLink fields!');

@@ -482,7 +482,7 @@ const realSupportArticle5 = {
   author: {
     name: "Chen Wei",
     title: "Senior FAE - Power Management",
-    email: "chen.wei@litong.com"
+    email: "chen.wei@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

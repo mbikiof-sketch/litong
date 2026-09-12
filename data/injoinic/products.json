@@ -941,7 +941,7 @@
             },
             {
               "question": "How does the LED indicator work?",
-              "answer": "The IP5306 drives 4 LEDs to indicate battery level. Each LED represents approximately 25% of battery capacity. During charging, the LEDs light up sequentially to show progress. When discharging, the LEDs indicate remaining capacity. The LED control is automatic and requires no external MCU.",
+              "answer": "The IP5306 drives 4 LEDs to indicate battery level. Each LED is approximately 25% of battery capacity. During charging, the LEDs light up sequentially to show progress. When discharging, the LEDs indicate remaining capacity. The LED control is automatic and requires no external MCU.",
               "decisionGuide": "The 4-LED indicator provides clear battery status. Connect LEDs as shown in the reference schematic.",
               "keywords": [
                 "LED indicator",
@@ -1487,7 +1487,7 @@
             },
             {
               "question": "How do I position the receiver coil in my device?",
-              "answer": "Position the receiver coil where it can align with typical transmitter coils. For smartphones, this is usually centered on the back. Avoid metal objects directly behind the coil - use ferrite shielding if necessary. Maintain specified distance from metal components. The coil should be accessible for magnetic coupling with charging pads.",
+              "answer": "Position the receiver coil where it can match typical transmitter coils. For smartphones, this is usually centered on the back. Avoid metal objects directly behind the coil - use ferrite shielding if necessary. Maintain specified distance from metal components. The coil should be accessible for magnetic coupling with charging pads.",
               "decisionGuide": "Center the coil on the device back. Use ferrite shielding if metal is behind the coil.",
               "keywords": [
                 "coil positioning",

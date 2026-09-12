@@ -67,7 +67,7 @@
       "name": "Portable Medical Device Power Management Solution",
       "slug": "portable-medical-device-power",
       "description": "Complete power management solution for portable medical devices including patient monitors, infusion pumps, and diagnostic equipment. Features high-efficiency battery charging, low-noise power rails, and precision analog signal conditioning.",
-      "longDescription": "The Portable Medical Device Power Management Solution from sgmicro represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of sgmicro components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Portable Medical Device Power Management Solution from sgmicro is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of sgmicro components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "Instant-on capability with power path management",
         "Extended battery life through efficient power conversion",
@@ -81,49 +81,6 @@
         "Low-noise LDOs with 70dB PSRR for analog circuits",
         "Precision op-amps with 5uV offset for accurate sensing",
         "Complete protection suite for safety compliance"
-      ],
-      "bomList": [
-        {
-          "partNumber": "SGM41511",
-          "description": "3A Switching Battery Charger with Power Path",
-          "quantity": 1
-        },
-        {
-          "partNumber": "SGM2019",
-          "description": "Low-Noise LDO Regulator",
-          "quantity": 2
-        },
-        {
-          "partNumber": "SGM8551",
-          "description": "Precision Operational Amplifier",
-          "quantity": 4
-        },
-        {
-          "partNumber": "SGM6601",
-          "description": "1.5MHz Buck Converter",
-          "quantity": 1
-        }
-      ],
-      "technicalSpecs": {
-        "Input Voltage": "4.5V - 13.5V (adapter), 3.0V - 4.2V (battery)",
-        "Output Rails": "3.3V, 1.8V, 5.0V analog",
-        "Charge Current": "Up to 3A",
-        "Efficiency": ">90% (buck), >93% (charger)",
-        "Noise": "<30uVrms (LDO output)"
-      },
-      "features": [
-        "High-efficiency switching battery charger with power path management",
-        "Low-noise LDO regulators for sensitive analog circuits",
-        "Precision operational amplifiers for sensor signal conditioning",
-        "Comprehensive battery protection and monitoring",
-        "Compact design optimized for portable applications"
-      ],
-      "applications": [
-        "Patient monitoring systems",
-        "Portable ultrasound devices",
-        "Infusion pumps",
-        "Pulse oximeters",
-        "Diagnostic equipment"
       ],
       "bomList": [
         {
@@ -146,6 +103,27 @@
           "description": "High-efficiency buck converter for digital circuit power",
           "link": "/sgmicro/products/power-management-ics/sgm6601.html"
         }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "4.5V - 13.5V (adapter), 3.0V - 4.2V (battery)",
+        "Output Rails": "3.3V, 1.8V, 5.0V analog",
+        "Charge Current": "Up to 3A",
+        "Efficiency": ">90% (buck), >93% (charger)",
+        "Noise": "<30uVrms (LDO output)"
+      },
+      "features": [
+        "High-efficiency switching battery charger with power path management",
+        "Low-noise LDO regulators for sensitive analog circuits",
+        "Precision operational amplifiers for sensor signal conditioning",
+        "Comprehensive battery protection and monitoring",
+        "Compact design optimized for portable applications"
+      ],
+      "applications": [
+        "Patient monitoring systems",
+        "Portable ultrasound devices",
+        "Infusion pumps",
+        "Pulse oximeters",
+        "Diagnostic equipment"
       ],
       "customerCases": [
         {
@@ -200,7 +178,7 @@
           "Use X7R ceramic capacitors for stability across temperature range",
           "Include test points for critical voltage rails and current measurements"
         ],
-        "content": "Based on extensive experience supporting customers with Portable Medical Device Power Management Solution, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: Use power path management for instant-on capability and reduced battery cycling; Separate analog and digital power rails with dedicated LDOs for sensitive circuits; Place LDOs close to analog loads and use proper filtering; Implement comprehensive battery protection including temperature monitoring; Plan PCB layout early with attention to ground planes and noise isolation.\n\nCommon pitfalls to avoid: Sharing power rails between analog sensors and digital processors; Inadequate input filtering on switching converters causing conducted EMI; Poor PCB layout with high-impedance ground connections; Insufficient thermal design for high-current charging scenarios.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -269,7 +247,7 @@
       "name": "Industrial Sensor Interface and Signal Conditioning Solution",
       "slug": "industrial-sensor-interface",
       "description": "Complete analog front-end solution for industrial sensor applications including temperature, pressure, and current sensing. Features precision operational amplifiers, robust power management, and protection for harsh industrial environments.",
-      "longDescription": "The Industrial Sensor Interface and Signal Conditioning Solution from sgmicro represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of sgmicro components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Industrial Sensor Interface and Signal Conditioning Solution from sgmicro is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of sgmicro components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "High accuracy with ultra-low offset op-amps",
         "Reliable operation in noisy industrial environments",
@@ -283,49 +261,6 @@
         "24V supply capability eliminates need for additional regulators",
         "Built-in protection reduces external component count",
         "Modular design allows customization for specific sensors"
-      ],
-      "bomList": [
-        {
-          "partNumber": "SGM8551",
-          "description": "Precision Operational Amplifier",
-          "quantity": 4
-        },
-        {
-          "partNumber": "SGM8522",
-          "description": "Dual Precision Operational Amplifier",
-          "quantity": 2
-        },
-        {
-          "partNumber": "SGM6601",
-          "description": "1.5MHz Buck Converter",
-          "quantity": 1
-        },
-        {
-          "partNumber": "SGM2019",
-          "description": "Low-Noise LDO Regulator",
-          "quantity": 2
-        }
-      ],
-      "technicalSpecs": {
-        "Input Voltage": "8V - 36V (industrial 24V compatible)",
-        "Output Rails": "5.0V, 3.3V, +/-12V analog",
-        "Offset Voltage": "<5uV (SGM8551)",
-        "CMRR": ">100dB at DC",
-        "Bandwidth": "1.5MHz - 2.5MHz"
-      },
-      "features": [
-        "Precision operational amplifiers with ultra-low offset voltage",
-        "Wide supply voltage range for industrial 24V systems",
-        "High common-mode rejection for noisy environments",
-        "Integrated over-voltage and ESD protection",
-        "Flexible configuration for various sensor types"
-      ],
-      "applications": [
-        "Industrial process control",
-        "Temperature monitoring systems",
-        "Pressure transmitters",
-        "Current sensing and monitoring",
-        "Vibration analysis"
       ],
       "bomList": [
         {
@@ -348,6 +283,27 @@
           "description": "Low-noise LDO for precision reference and analog circuits",
           "link": "/sgmicro/products/power-management-ics/sgm2019.html"
         }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "8V - 36V (industrial 24V compatible)",
+        "Output Rails": "5.0V, 3.3V, +/-12V analog",
+        "Offset Voltage": "<5uV (SGM8551)",
+        "CMRR": ">100dB at DC",
+        "Bandwidth": "1.5MHz - 2.5MHz"
+      },
+      "features": [
+        "Precision operational amplifiers with ultra-low offset voltage",
+        "Wide supply voltage range for industrial 24V systems",
+        "High common-mode rejection for noisy environments",
+        "Integrated over-voltage and ESD protection",
+        "Flexible configuration for various sensor types"
+      ],
+      "applications": [
+        "Industrial process control",
+        "Temperature monitoring systems",
+        "Pressure transmitters",
+        "Current sensing and monitoring",
+        "Vibration analysis"
       ],
       "customerCases": [
         {
@@ -380,7 +336,7 @@
             "Signal Conditioning"
           ]
         },
-        "insight": "Industrial sensor interface design is fundamentally about managing noise while maintaining precision. The harsh electrical environment of industrial facilities presents unique challenges - conducted EMI from motor drives, radiated interference from switching equipment, and ground potential differences across large installations. My experience shows that the most reliable designs use differential signal processing throughout the signal chain. The SGM8551's 5uV offset and high CMRR make it ideal for bridge sensors and thermocouples. For power, always use isolated DC-DC converters feeding local LDOs - this breaks ground loops and provides clean local power. Filter aggressively at both input and output stages, but be careful not to compromise the signal bandwidth your application requires.",
+        "insight": "Industrial sensor interface design is about managing noise while maintaining precision. The harsh electrical environment of industrial facilities presents unique challenges - conducted EMI from motor drives, radiated interference from switching equipment, and ground potential differences across large installations. My experience shows that the most reliable designs use differential signal processing throughout the signal chain. The SGM8551's 5uV offset and high CMRR make it ideal for bridge sensors and thermocouples. For power, always use isolated DC-DC converters feeding local LDOs - this breaks ground loops and provides clean local power. Filter aggressively at both input and output stages, but be careful not to compromise the signal bandwidth your application requires.",
         "logic": "The industrial sensor design framework: 1) Analyze the sensor type and output characteristics - voltage, current, resistance change; 2) Determine required accuracy, bandwidth, and noise immunity; 3) Select amplifier topology - single-ended for simple applications, differential for noise rejection, instrumentation amp for bridge sensors; 4) Design protection circuits for over-voltage, ESD, and reverse polarity; 5) Plan filtering to reject 50/60Hz and switching noise while preserving signal; 6) Implement proper shielding and grounding - single-point ground connection, shielded cables for long runs; 7) Verify design with EMC testing early in development. This methodical approach ensures robust performance in demanding environments.",
         "keyTakeaways": [
           "Use differential signal processing for noise immunity in industrial environments",
@@ -402,7 +358,7 @@
           "Use 4-layer PCBs with continuous ground plane under analog circuitry",
           "Include test points for signal injection and measurement during debugging"
         ],
-        "content": "Based on extensive experience supporting customers with Industrial Sensor Interface and Signal Conditioning Solution, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness.",
+        "content": "Key considerations: Use differential signal processing for noise immunity in industrial environments; Implement multi-stage filtering with careful attention to cutoff frequencies; Isolate power supplies and use local LDOs for analog circuits; Design comprehensive protection including over-voltage and ESD; Plan grounding and shielding strategy early in the design process.\n\nCommon pitfalls to avoid: Single-ended signal connections in noisy environments leading to ground loop issues; Inadequate input protection resulting in field failures from wiring errors; Insufficient filtering allowing EMI to saturate amplifier stages; Poor grounding practices creating antenna effects and noise pickup.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [
@@ -578,7 +534,7 @@
           "Implement comprehensive protection - overcurrent, overtemp, undervoltage",
           "Test with actual motor under worst-case operating conditions"
         ],
-        "content": "Based on extensive experience supporting customers with BLDC motor drive applications, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, efficiency, and reliability.",
+        "content": "Key considerations: Gate driver selection is critical for switching performance and efficiency; Current sensing requires careful PCB layout for accuracy; Thermal management often limits maximum output capability; EMI filtering is essential for meeting regulatory requirements; Control algorithm tuning affects performance and efficiency.\n\nCommon pitfalls to avoid: Insufficient gate drive leading to slow switching and high losses; Poor current sense layout causing noise and accuracy issues; Inadequate thermal design resulting in overheating; Missing protection circuits leading to field failures; Inadequate EMI filtering causing regulatory compliance issues.",
         "decisionFramework": {
           "title": "Decision Framework",
           "steps": [

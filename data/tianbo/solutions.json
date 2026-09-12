@@ -1,0 +1,222 @@
+{
+  "seoTitle": "Tianbo Relay Solutions | Automotive | Solar | EV Charging | BeiLuo",
+  "seoDescription": "Complete relay solutions from Tianbo for automotive, solar energy, and EV charging applications.",
+  "seoKeywords": [
+    "Tianbo solutions",
+    "relay solutions",
+    "automotive relay solution",
+    "solar relay solution"
+  ],
+  "faqs": [
+    {
+      "question": "What complete solutions does Tianbo offer?",
+      "answer": "Tianbo provides comprehensive relay solutions for: (1) Automotive Systems: Complete relay solutions for vehicle electronics including lighting, motor control, and power distribution. (2) Solar Energy: High-voltage DC relay solutions for photovoltaic inverters and energy storage. (3) EV Charging: High-capacity relay solutions for electric vehicle charging infrastructure. Each solution includes optimized relay selection, application guidance, and technical support.",
+      "decisionGuide": "Select the solution matching your application area.",
+      "keywords": [
+        "Tianbo solutions",
+        "relay solutions",
+        "complete solutions"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "automotive-relay-solution",
+      "title": "Automotive Relay Solution",
+      "slug": "automotive-relay-solution",
+      "description": "Complete automotive relay solution for vehicle electronics and control systems.",
+      "longDescription": "The Automotive Relay Solution provides comprehensive switching solutions for vehicle electronics including lighting control, motor switching, power distribution, and engine management. This solution combines Tianbo's automotive-grade relays with application expertise to ensure reliable operation in harsh vehicle environments.",
+      "image": "/assets/images/solutions/tianbo/automotive-relay.jpg",
+      "applications": [
+        "Passenger Vehicles",
+        "Commercial Vehicles",
+        "EVs",
+        "Agricultural Equipment"
+      ],
+      "benefits": [
+        {
+          "title": "AEC-Q200 Qualified",
+          "description": "Automotive-grade reliability and performance"
+        },
+        {
+          "title": "Wide Temperature Range",
+          "description": "Operation from -40°C to +125°C"
+        },
+        {
+          "title": "High Vibration Resistance",
+          "description": "Designed for harsh vehicle environments"
+        }
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Automotive Grade",
+          "description": "Meets AEC-Q200 qualification requirements"
+        },
+        {
+          "title": "Proven Reliability",
+          "description": "Field-tested in millions of vehicles"
+        },
+        {
+          "title": "Comprehensive Portfolio",
+          "description": "Complete range for all automotive applications"
+        }
+      ],
+      "bomList": [
+        {
+          "partNumber": "HJR-78F-12VDC",
+          "quantity": 5,
+          "description": "20A Automotive Relay",
+          "link": "/tianbo/products/automotive-relays/hjr-78f-12vdc.html"
+        },
+        {
+          "partNumber": "TRKM-12VDC",
+          "quantity": 3,
+          "description": "Compact Automotive Relay",
+          "link": "/tianbo/products/automotive-relays/trkm-12vdc.html"
+        }
+      ],
+      "technicalSpecs": {
+        "Voltage Range": "12V/24V DC",
+        "Current Range": "20A-30A",
+        "Temperature": "-40°C to +125°C"
+      },
+      "customerCases": [
+        {
+          "customer": "Auto Manufacturer",
+          "industry": "Automotive",
+          "application": "Vehicle Control",
+          "challenge": "Reliable switching",
+          "solution": "Automotive relay solution",
+          "result": "Improved reliability"
+        }
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "Michael Chen",
+          "title": "Senior FAE - Automotive",
+          "experience": "12 years",
+          "expertise": [
+            "Automotive Relays",
+            "Vehicle Electronics"
+          ]
+        },
+        "content": "Automotive relay selection requires careful consideration of the vehicle environment. Temperature extremes, vibration, and long-term reliability are critical factors.",
+        "keyTakeaways": [
+          "Consider temperature range",
+          "Check vibration ratings",
+          "Verify AEC-Q200 qualification"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How do I select automotive relays?",
+          "answer": "Select based on current, voltage, temperature range, and vibration requirements.",
+          "decisionGuide": "Match relay specifications to vehicle application.",
+          "keywords": [
+            "automotive selection",
+            "relay guide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solar-energy-relay-solution",
+      "title": "Solar Energy Relay Solution",
+      "slug": "solar-energy-relay-solution",
+      "description": "High-voltage DC relay solution for solar photovoltaic and energy storage systems.",
+      "longDescription": "The Solar Energy Relay Solution provides high-voltage DC switching for photovoltaic inverters, battery energy storage systems, and DC power distribution. This solution leverages Tianbo's TRNA series high-voltage relays to ensure safe and reliable switching in solar power applications.",
+      "image": "/assets/images/solutions/tianbo/solar-relay.jpg",
+      "applications": [
+        "Solar Inverters",
+        "Energy Storage",
+        "DC Distribution",
+        "Power Plants"
+      ],
+      "benefits": [
+        {
+          "title": "High Voltage Capability",
+          "description": "Up to 1000VDC switching"
+        },
+        {
+          "title": "High Current Capacity",
+          "description": "200A-270A switching capability"
+        },
+        {
+          "title": "Arc Suppression",
+          "description": "4mm contact gap for safe DC switching"
+        }
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Solar Optimized",
+          "description": "Designed specifically for PV applications"
+        },
+        {
+          "title": "Long Life",
+          "description": "Extended electrical life for continuous operation"
+        },
+        {
+          "title": "Safety Certified",
+          "description": "Comprehensive safety certifications"
+        }
+      ],
+      "bomList": [
+        {
+          "partNumber": "TRNA-200-12VDC",
+          "quantity": 2,
+          "description": "200A HV DC Relay",
+          "link": "/tianbo/products/high-voltage-dc-relays/trna-200-12vdc.html"
+        },
+        {
+          "partNumber": "TRNA-270-12VDC",
+          "quantity": 1,
+          "description": "270A HV DC Relay",
+          "link": "/tianbo/products/high-voltage-dc-relays/trna-270-12vdc.html"
+        }
+      ],
+      "technicalSpecs": {
+        "Voltage": "1000VDC",
+        "Current": "200A-270A",
+        "Contact Gap": "4mm"
+      },
+      "customerCases": [
+        {
+          "customer": "Solar Installer",
+          "industry": "Solar",
+          "application": "PV System",
+          "challenge": "HV DC switching",
+          "solution": "Solar relay solution",
+          "result": "Safe operation"
+        }
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "Michael Chen",
+          "title": "Senior FAE - Power",
+          "experience": "12 years",
+          "expertise": [
+            "HV Relays",
+            "Solar Applications"
+          ]
+        },
+        "content": "High-voltage DC switching requires careful relay selection. Contact gap and arc suppression are critical for safe operation.",
+        "keyTakeaways": [
+          "Verify voltage rating",
+          "Check contact gap",
+          "Consider arc suppression"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "How do I select HV DC relays for solar?",
+          "answer": "Select based on system voltage, current, and safety requirements.",
+          "decisionGuide": "Match relay to inverter specifications.",
+          "keywords": [
+            "solar selection",
+            "HV relay"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -59,49 +59,81 @@
       "question": "Is BeiLuo an authorized distributor of Micron Technology products?",
       "answer": "Yes, BeiLuo is an authorized distributor of Micron Technology memory and storage products. Our partnership with Micron ensures that all products are genuine, factory-sealed, and backed by Micron's full warranty and technical support. As an authorized distributor, we have direct access to Micron's engineering resources, technical documentation, and product roadmaps. This enables us to provide our customers with not only authentic products but also expert technical guidance for memory selection, system integration, and optimization. We maintain local inventory of popular Micron products and can support both prototype quantities and high-volume production requirements.",
       "decisionGuide": "Contact our sales team to verify specific part availability and discuss your memory requirements with our FAE engineers.",
-      "keywords": ["Micron authorized distributor", "genuine Micron products", "memory supplier"]
+      "keywords": [
+        "Micron authorized distributor",
+        "genuine Micron products",
+        "memory supplier"
+      ]
     },
     {
       "question": "What makes Micron's memory technology superior to competitors?",
-      "answer": "Micron's competitive advantages stem from their leadership in process technology and comprehensive product portfolio. Micron was the first to mass-produce 1α (1-alpha) and 1β (1-beta) DRAM nodes, delivering higher density and lower power consumption. Their 3D NAND technology with 176-layer and 232-layer architectures provides industry-leading storage density. Micron offers the broadest range of memory solutions from high-performance DDR5 for data centers to ultra-low-power LPDDR5 for mobile devices. Their automotive products undergo rigorous AEC-Q100 qualification and offer extended temperature ranges. Additionally, Micron's vertical integration from wafer fabrication to module assembly ensures consistent quality and supply security.",
+      "answer": "Micron's competitive advantages stem from their leadership in process technology and comprehensive product portfolio. Micron was the first to mass-produce 1α (1-alpha) and 1β (1-beta) DRAM nodes, delivering higher density and lower power consumption. Their 3D NAND technology with 176-layer and 232-layer architectures provides industry-leading storage density. Micron offers the broadest range of memory solutions from high-performance DDR5 for data centers to ultra-low-power LPDDR5 for mobile devices. Their automotive products undergo rigorous AEC-Q100 qualification and offer extended temperature ranges. Micron's vertical integration from wafer fabrication to module assembly ensures consistent quality and supply security.",
       "decisionGuide": "For cutting-edge memory requirements, Micron's advanced process nodes offer significant advantages. Contact us to compare specific solutions.",
-      "keywords": ["Micron technology advantage", "1α 1β process", "3D NAND technology"]
+      "keywords": [
+        "Micron technology advantage",
+        "1α 1β process",
+        "3D NAND technology"
+      ]
     },
     {
       "question": "How do I select the right Micron memory for my application?",
       "answer": "Selecting the right Micron memory requires analyzing your application's performance, power, and capacity requirements. For data center servers, consider DDR4 or DDR5 RDIMMs with ECC for reliability. Mobile and IoT applications benefit from LPDDR4X or LPDDR5 for their ultra-low power consumption. Automotive systems require AEC-Q100 qualified products with extended temperature ranges. For storage, evaluate NAND Flash based on endurance (P/E cycles), interface (SATA/NVMe), and form factor requirements. NOR Flash is ideal for code storage requiring fast random access. Our FAE team can help you navigate Micron's extensive portfolio using their part number decoder and recommend optimal solutions based on your specific use case, budget, and lifecycle requirements.",
       "decisionGuide": "Use our memory selection guide or contact our FAE team for personalized recommendations based on your system architecture.",
-      "keywords": ["Micron memory selection", "DDR5 vs DDR4", "memoryselection"]
+      "keywords": [
+        "Micron memory selection",
+        "DDR5 vs DDR4",
+        "memoryselection"
+      ]
     },
     {
       "question": "What are the key differences between Micron's DRAM and NAND Flash products?",
-      "answer": "Micron's DRAM and NAND Flash serve fundamentally different purposes in electronic systems. DRAM (DDR4, DDR5, LPDDR) is volatile memory used for active data processing, offering the fastest access speeds (nanosecond latency) but requiring constant power to retain data. It's ideal for system memory, buffers, and cache. NAND Flash is non-volatile storage used for persistent data retention, offering higher density and lower cost per bit but with slower access times (microsecond latency). NAND is used for SSDs, embedded storage, and data logging. DRAM provides unlimited read/write endurance while NAND has finite program/erase cycles. System designs typically use both: DRAM for runtime operations and NAND for boot code, applications, and data storage.",
+      "answer": "Micron's DRAM and NAND Flash serve different purposes in electronic systems. DRAM (DDR4, DDR5, LPDDR) is volatile memory used for active data processing, offering the fastest access speeds (nanosecond latency) but requiring constant power to retain data. It's ideal for system memory, buffers, and cache. NAND Flash is non-volatile storage used for persistent data retention, offering higher density and lower cost per bit but with slower access times (microsecond latency). NAND is used for SSDs, embedded storage, and data logging. DRAM provides unlimited read/write endurance while NAND has finite program/erase cycles. System designs typically use both: DRAM for runtime operations and NAND for boot code, applications, and data storage.",
       "decisionGuide": "Most systems require both DRAM and NAND. Contact us for system architecture guidance on optimal memory hierarchy design.",
-      "keywords": ["DRAM vs NAND Flash", "volatile vs non-volatile memory", "memory types"]
+      "keywords": [
+        "DRAM vs NAND Flash",
+        "volatile vs non-volatile memory",
+        "memory types"
+      ]
     },
     {
       "question": "Does Micron offer automotive-qualified memory products?",
       "answer": "Yes, Micron offers a comprehensive portfolio of AEC-Q100 qualified memory products specifically designed for automotive applications. Their automotive-grade DRAM includes LPDDR4, LPDDR5, and DDR4 solutions that meet the stringent requirements of ADAS, infotainment, and gateway systems. Automotive NAND Flash products provide reliable storage for event data recorders and over-the-air updates. Micron's automotive memory undergoes extended temperature testing (-40°C to +105/125°C), enhanced reliability screening, and PPAP documentation support. These products are designed to withstand the harsh automotive environment including vibration, temperature cycling, and electromagnetic interference. Micron also provides long-term supply commitments essential for automotive production.",
       "decisionGuide": "For automotive applications, specify AEC-Q100 qualified parts. Contact our automotive team for PPAP support and long-term supply agreements.",
-      "keywords": ["Micron automotive memory", "AEC-Q100 qualified", "automotive DRAM"]
+      "keywords": [
+        "Micron automotive memory",
+        "AEC-Q100 qualified",
+        "automotive DRAM"
+      ]
     },
     {
       "question": "What support services does BeiLuo provide for Micron products?",
       "answer": "BeiLuo provides comprehensive support services for Micron memory products including technical consultation, schematic review, and signal integrity analysis. Our FAE team has deep expertise in DDR interface design, PCB layout guidelines, and memory controller configuration. We offer IBIS models and simulation support for high-speed memory interfaces. For production customers, we provide BOM optimization, second sourcing recommendations, and long-term supply planning. Our local inventory enables rapid prototyping support, and we can facilitate direct engagement with Micron's application engineering team for complex design challenges. We also offer programming services for managed NAND products and can support custom memory module configurations.",
       "decisionGuide": "Engage our FAE team early in your design cycle for optimal memory integration and performance optimization.",
-      "keywords": ["Micron technical support", "memory design services", "FAE support"]
+      "keywords": [
+        "Micron technical support",
+        "memory design services",
+        "FAE support"
+      ]
     },
     {
       "question": "How does Micron ensure product quality and reliability?",
       "answer": "Micron maintains rigorous quality and reliability standards through vertical integration and comprehensive testing. Their manufacturing facilities are ISO 9001 and ISO 14001 certified. All products undergo extensive screening including burn-in testing, speed binning, and electrical characterization. Automotive products meet AEC-Q100 Grade 2 or Grade 1 requirements with additional reliability testing. Micron employs advanced failure analysis capabilities to identify and address potential issues. Their quality management system includes supplier qualification, in-process monitoring, and outgoing inspection. For critical applications, Micron offers enhanced reliability products with extended temperature ranges and additional screening. Full traceability is maintained from wafer to finished goods.",
       "decisionGuide": "For mission-critical applications, inquire about Micron's enhanced reliability products and extended temperature options.",
-      "keywords": ["Micron quality assurance", "AEC-Q100 qualification", "memory reliability"]
+      "keywords": [
+        "Micron quality assurance",
+        "AEC-Q100 qualification",
+        "memory reliability"
+      ]
     },
     {
       "question": "What is the typical lead time for Micron memory products?",
       "answer": "Lead times for Micron memory products vary based on product type, market conditions, and order volume. Standard commercial-grade DRAM and NAND products typically have lead times of 8-12 weeks. Automotive-grade and specialized industrial products may have longer lead times of 12-16 weeks due to additional testing requirements. As an authorized distributor, BeiLuo maintains local inventory of popular Micron products, enabling immediate shipment for many standard items. For high-volume production requirements, we recommend establishing a forecast and scheduling agreement to secure supply. During periods of market tightness, lead times may extend, and we advise customers to plan accordingly and consider buffer stock for critical components.",
       "decisionGuide": "Contact our sales team for current lead times and inventory availability. Consider long-term supply agreements for production volumes.",
-      "keywords": ["Micron lead time", "memory availability", "supply chain"]
+      "keywords": [
+        "Micron lead time",
+        "memory availability",
+        "supply chain"
+      ]
     }
   ]
 }

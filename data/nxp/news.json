@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "id": "news-1",
+      "title": "NXP Announces New Power Management Solutions",
+      "slug": "nxp-new-power-management",
+      "summary": "NXP introduces new power management ICs for automotive and industrial applications.",
+      "publishDate": "2024-03-20",
+      "category": "Product News",
+      "tags": ["Power Management", "New Products", "Automotive"],
+      "content": "NXP Semiconductors has announced a new family of power management ICs designed for automotive and industrial applications. The new products offer higher efficiency and improved thermal performance.",
+      "featured": true
+    },
+    {
+      "id": "news-2",
+      "title": "NXP Expands IoT Sensor Portfolio",
+      "slug": "nxp-expands-iot-sensors",
+      "summary": "NXP expands its IoT sensor portfolio with new ultra-low power devices.",
+      "publishDate": "2024-02-15",
+      "category": "Product News",
+      "tags": ["IoT", "Sensors", "Low Power"],
+      "content": "NXP has expanded its IoT sensor portfolio with new ultra-low power devices designed for battery-operated applications. The new sensors offer improved accuracy and longer battery life.",
+      "featured": false
+    }
+  ]
+}

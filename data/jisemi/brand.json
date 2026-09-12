@@ -5,7 +5,7 @@
   "logo": "/assets/brands/jisemi/logo.svg",
   "tagline": "High-Speed Connectivity Solutions for Automotive and Industrial Applications",
   "description": "Jisemi (景略半导体) is a leading fabless semiconductor company specializing in high-speed analog and mixed-signal ICs for automotive Ethernet, industrial connectivity, and consumer electronics applications.",
-  "longDescription": "Jisemi (景略半导体) is a premier fabless semiconductor company focused on developing high-speed connectivity solutions for the automotive and industrial markets. Founded by industry veterans with deep expertise in high-speed analog and digital design, Jisemi delivers cutting-edge Ethernet PHYs, SerDes, and interface solutions that enable next-generation connected vehicles and Industry 4.0 applications.\n\nThe company's product portfolio includes 100Mbps to 10Gbps automotive Ethernet PHYs compliant with IEEE 802.3 standards, high-speed SerDes for camera and display interfaces, and industrial Ethernet solutions. Jisemi's products are designed to meet the stringent reliability and quality requirements of automotive applications, with AEC-Q100 qualification and comprehensive functional safety support.\n\nJisemi's automotive Ethernet solutions enable advanced driver-assistance systems (ADAS), autonomous driving, and in-vehicle infotainment by providing high-bandwidth, low-latency connectivity. The company's industrial Ethernet products support real-time control and monitoring in factory automation, robotics, and process control applications.\n\nWith design centers in Shanghai and Silicon Valley, Jisemi combines world-class engineering talent with deep market understanding to deliver innovative solutions. The company holds ISO 9001 and IATF 16949 certifications, demonstrating its commitment to quality in automotive and industrial applications.",
+  "longDescription": "Jisemi (景略半导体) is a premier fabless semiconductor company focused on developing high-speed connectivity solutions for the automotive and industrial markets. Founded by industry veterans with deep expertise in high-speed analog and digital design, Jisemi delivers cutting-edge Ethernet PHYs, SerDes, and interface solutions that enable next-generation connected vehicles and Industry 4.0 applications.\n\nThe company's product portfolio includes 100Mbps to 10Gbps automotive Ethernet PHYs compliant with IEEE 802.3 standards, high-speed SerDes for camera and display interfaces, and industrial Ethernet solutions. Jisemi's products are designed to meet the stringent reliability and quality requirements of automotive applications, with AEC-Q100 qualification and comprehensive functional safety support.\n\nJisemi's automotive Ethernet solutions enable advanced driver-assistance systems (ADAS), autonomous driving, and in-vehicle infotainment by providing high-bandwidth, low-latency connectivity. The company's industrial Ethernet products support real-time control and monitoring in factory automation, robotics, and process control applications.\n\nWith design centers in Shanghai and Silicon Valley, Jisemi combines world-class engineering talent with deep market understanding to deliver innovative solutions. The company holds ISO 9001 and IATF 16949 certifications.",
   "foundedYear": 2017,
   "headquarters": "Shanghai, China",
   "website": "https://www.jisemi.com",
@@ -15,44 +15,86 @@
     {
       "name": "Automotive Ethernet PHYs",
       "description": "High-speed Ethernet physical layer transceivers for automotive applications, supporting 100Mbps to 10Gbps data rates with AEC-Q100 qualification",
-      "keywords": ["automotive Ethernet", "PHY", "100BASE-T1", "1000BASE-T1", "MultiGBASE-T1"]
+      "keywords": [
+        "automotive Ethernet",
+        "PHY",
+        "100BASE-T1",
+        "1000BASE-T1",
+        "MultiGBASE-T1"
+      ]
     },
     {
       "name": "SerDes Solutions",
       "description": "High-speed serializer/deserializer ICs for camera, display, and sensor interfaces in automotive and industrial systems",
-      "keywords": ["SerDes", "serializer", "deserializer", "camera interface", "display interface"]
+      "keywords": [
+        "SerDes",
+        "serializer",
+        "deserializer",
+        "camera interface",
+        "display interface"
+      ]
     },
     {
       "name": "Industrial Ethernet",
       "description": "Robust Ethernet connectivity solutions for industrial automation, supporting real-time communication and harsh environment operation",
-      "keywords": ["industrial Ethernet", "EtherCAT", "PROFINET", "real-time Ethernet"]
+      "keywords": [
+        "industrial Ethernet",
+        "EtherCAT",
+        "PROFINET",
+        "real-time Ethernet"
+      ]
     },
     {
       "name": "High-Speed Interface ICs",
       "description": "Multi-protocol high-speed interface solutions supporting various standards for flexible system design",
-      "keywords": ["high-speed interface", "multi-protocol", "connectivity", "transceiver"]
+      "keywords": [
+        "high-speed interface",
+        "multi-protocol",
+        "connectivity",
+        "transceiver"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Automotive Electronics",
       "description": "ADAS, autonomous driving, in-vehicle networking, and infotainment systems requiring high-speed reliable connectivity",
-      "keywords": ["automotive", "ADAS", "autonomous driving", "in-vehicle network"]
+      "keywords": [
+        "automotive",
+        "ADAS",
+        "autonomous driving",
+        "in-vehicle network"
+      ]
     },
     {
       "name": "Industrial Automation",
       "description": "Factory automation, robotics, and process control requiring real-time Ethernet connectivity",
-      "keywords": ["industrial automation", "factory automation", "robotics", "Industry 4.0"]
+      "keywords": [
+        "industrial automation",
+        "factory automation",
+        "robotics",
+        "Industry 4.0"
+      ]
     },
     {
       "name": "Consumer Electronics",
       "description": "High-speed connectivity solutions for gaming, VR/AR, and multimedia applications",
-      "keywords": ["consumer electronics", "gaming", "VR/AR", "multimedia"]
+      "keywords": [
+        "consumer electronics",
+        "gaming",
+        "VR/AR",
+        "multimedia"
+      ]
     },
     {
       "name": "Telecommunications",
       "description": "High-speed data transmission and networking infrastructure equipment",
-      "keywords": ["telecommunications", "networking", "data transmission", "infrastructure"]
+      "keywords": [
+        "telecommunications",
+        "networking",
+        "data transmission",
+        "infrastructure"
+      ]
     }
   ],
   "certifications": [
@@ -97,43 +139,81 @@
       "question": "Is LiTong an authorized distributor of Jisemi products?",
       "answer": "Yes, LiTong Electronics is an authorized distributor of Jisemi (景略半导体) products. We maintain a direct partnership with Jisemi to provide customers with genuine high-speed connectivity solutions, technical support, and competitive pricing. As an authorized distributor, we have access to Jisemi's full product portfolio including automotive-grade Ethernet PHYs, SerDes solutions, and industrial connectivity products.",
       "decisionGuide": "Contact our sales team to verify our distributor status and request a formal quotation for your Jisemi product requirements.",
-      "keywords": ["Jisemi distributor", "authorized distributor", "景略半导体代理"]
+      "keywords": [
+        "Jisemi distributor",
+        "authorized distributor",
+        "景略半导体代理"
+      ]
     },
     {
       "question": "What automotive Ethernet standards does Jisemi support?",
       "answer": "Jisemi's automotive Ethernet PHYs support IEEE 802.3 standards including 100BASE-T1 (100 Mbps), 1000BASE-T1 (1 Gbps), and MultiGBASE-T1 (2.5/5/10 Gbps). These standards are specifically designed for automotive applications with features like reduced cabling weight, electromagnetic compatibility, and robust operation in harsh environments. All automotive products are AEC-Q100 qualified.",
       "decisionGuide": "Select the appropriate speed grade based on your bandwidth requirements: 100BASE-T1 for basic connectivity, 1000BASE-T1 for ADAS, MultiGBASE-T1 for autonomous driving.",
-      "keywords": ["automotive Ethernet", "100BASE-T1", "1000BASE-T1", "MultiGBASE-T1", "IEEE 802.3"]
+      "keywords": [
+        "automotive Ethernet",
+        "100BASE-T1",
+        "1000BASE-T1",
+        "MultiGBASE-T1",
+        "IEEE 802.3"
+      ]
     },
     {
       "question": "What is the typical lead time for Jisemi products?",
       "answer": "Standard lead times for Jisemi products range from 8-12 weeks depending on the specific device and package type. LiTong maintains inventory of popular automotive Ethernet PHYs for faster delivery. For high-volume production or long-term supply agreements, we offer bonded inventory programs to ensure continuous supply for your production needs.",
       "decisionGuide": "Contact our sales team for current lead times and inventory availability. Consider bonded inventory for critical production schedules.",
-      "keywords": ["lead time", "delivery", "inventory", "supply chain", "automotive supply"]
+      "keywords": [
+        "lead time",
+        "delivery",
+        "inventory",
+        "supply chain",
+        "automotive supply"
+      ]
     },
     {
       "question": "Does Jisemi provide functional safety support for automotive applications?",
       "answer": "Yes, Jisemi provides comprehensive functional safety support for automotive applications. The company's automotive Ethernet PHYs are designed with ISO 26262 considerations and support ASIL-B to ASIL-D safety levels. Jisemi provides safety manuals, FMEDA analysis, and technical support for safety-critical system design.",
       "decisionGuide": "Engage with Jisemi's functional safety team early in your design cycle for safety-critical applications requiring ASIL certification.",
-      "keywords": ["functional safety", "ISO 26262", "ASIL", "automotive safety", "FMEDA"]
+      "keywords": [
+        "functional safety",
+        "ISO 26262",
+        "ASIL",
+        "automotive safety",
+        "FMEDA"
+      ]
     },
     {
       "question": "What technical support is available for Jisemi products?",
       "answer": "LiTong provides comprehensive technical support for Jisemi products including reference designs, application notes, schematic review, PCB layout guidance, and on-site support. Our FAE team has extensive experience with high-speed design and automotive applications. For complex designs, we can facilitate direct communication with Jisemi's application engineering team.",
       "decisionGuide": "Contact our FAE team early in your design cycle for optimal support and to leverage our reference designs.",
-      "keywords": ["technical support", "FAE", "reference design", "application support", "high-speed design"]
+      "keywords": [
+        "technical support",
+        "FAE",
+        "reference design",
+        "application support",
+        "high-speed design"
+      ]
     },
     {
       "question": "Can Jisemi products be used in industrial applications?",
       "answer": "Yes, Jisemi's high-speed connectivity solutions are well-suited for industrial applications including factory automation, robotics, and process control. The products support industrial temperature ranges (-40°C to +85°C) and provide robust EMI/EMC performance. Industrial Ethernet solutions support real-time protocols like EtherCAT and PROFINET.",
       "decisionGuide": "Jisemi products are suitable for both automotive and industrial applications. Contact our FAE team for industrial-specific recommendations.",
-      "keywords": ["industrial applications", "factory automation", "industrial Ethernet", "robust design"]
+      "keywords": [
+        "industrial applications",
+        "factory automation",
+        "industrial Ethernet",
+        "robust design"
+      ]
     },
     {
       "question": "What development tools are available for Jisemi products?",
       "answer": "Jisemi provides comprehensive development tools including evaluation boards, software drivers, configuration tools, and detailed documentation. Evaluation boards allow rapid prototyping and performance validation. Software drivers are available for major automotive operating systems and middleware. Configuration tools enable customization of PHY settings for specific applications.",
       "decisionGuide": "Request evaluation boards and software packages through LiTong to accelerate your development cycle.",
-      "keywords": ["development tools", "evaluation board", "software drivers", "configuration tools"]
+      "keywords": [
+        "development tools",
+        "evaluation board",
+        "software drivers",
+        "configuration tools"
+      ]
     }
   ]
 }

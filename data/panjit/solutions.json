@@ -1,0 +1,726 @@
+{
+  "seoTitle": "Panjit Solutions | Power Supply & Automotive Applications | BeiLuo Electronics",
+  "seoDescription": "Panjit application solutions for switching power supplies, automotive electronics, LED lighting, and industrial control. Technical guides and reference designs available.",
+  "seoKeywords": [
+    "Panjit solutions",
+    "power supply design",
+    "automotive electronics",
+    "LED driver",
+    "industrial control"
+  ],
+  "faqs": [
+    {
+      "question": "What application solutions does Panjit offer?",
+      "answer": "Panjit provides comprehensive solutions for: (1) Switching Power Supplies - high-efficiency rectification solutions for AC-DC and DC-DC converters; (2) Automotive Electronics - AEC-Q101 qualified devices for LED lighting, DC-DC converters, and charging systems; (3) LED Lighting - specialized rectifiers and protection devices for LED drivers; (4) Industrial Control - robust diodes for motor drives, welding equipment, and automation systems. Each solution includes product recommendations, application notes, and design guidelines to accelerate your development.",
+      "decisionGuide": "Explore our solution pages below to find detailed application guidance for your specific requirements.",
+      "keywords": [
+        "application solutions",
+        "design guides",
+        "reference designs"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "switching-power-supply",
+      "title": "Switching Power Supply Solutions",
+      "subtitle": "High-Efficiency Rectification for SMPS Applications",
+      "description": "Panjit Schottky and fast recovery diodes provide efficient rectification solutions for switching power supplies. From low-voltage high-current outputs to high-voltage PFC circuits, our devices optimize efficiency and reliability.",
+      "image": "/assets/solutions/qianqmao-smps.jpg",
+      "applications": [
+        "AC-DC Adapters",
+        "DC-DC Converters",
+        "Server Power Supplies",
+        "Telecom Rectifiers"
+      ],
+      "products": [
+        "SK54",
+        "SK104",
+        "MUR460",
+        "UF4007"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "Low Forward Voltage",
+          "description": "Reduces conduction losses by 30-50%"
+        },
+        {
+          "title": "Fast Switching",
+          "description": "Minimizes switching losses and EMI"
+        },
+        {
+          "title": "Wide Voltage Range",
+          "description": "From 20V to 1200V for diverse applications"
+        },
+        {
+          "title": "AEC-Q101 Options",
+          "description": "Automotive-grade reliability available"
+        }
+      ],
+      "technicalSpecs": {
+        "voltageRange": "20V - 1200V",
+        "currentRange": "1A - 50A",
+        "packages": "SMA, SMB, TO-220, TO-247",
+        "qualification": "AEC-Q101 Available"
+      },
+      "content": {
+        "overview": "Switching power supplies require efficient rectification to minimize power losses and maximize efficiency. Panjit offers a comprehensive portfolio of Schottky diodes for low-voltage outputs and fast recovery diodes for high-voltage applications.",
+        "keyConsiderations": [
+          {
+            "title": "Output Rectification",
+            "description": "For secondary-side rectification, Schottky diodes like SK54 (5A) and SK104 (10A) provide low forward voltage (0.55V) and fast switching, ideal for 5V and 12V outputs in high-frequency SMPS."
+          },
+          {
+            "title": "PFC Circuits",
+            "description": "Power Factor Correction circuits require fast recovery diodes like MUR460 (4A, 600V) with 50ns reverse recovery time for high-frequency boost converters operating at 100kHz+."
+          },
+          {
+            "title": "Snubber Circuits",
+            "description": "UF4007 (1A, 1000V) provides excellent performance in snubber and clamp circuits, protecting switching transistors from voltage spikes."
+          }
+        ],
+        "designExample": {
+          "title": "12V 10A Output Rectification",
+          "description": "For a 12V 10A output in a forward converter operating at 100kHz, the SK104 Schottky diode provides optimal efficiency with 0.55V forward drop and negligible reverse recovery losses."
+        }
+      },
+      "faqs": [
+        {
+          "question": "Which diode should I use for 12V output rectification?",
+          "answer": "For 12V outputs, we recommend SK54 (5A) for currents up to 4A continuous, or SK104 (10A) for 5-10A applications. Both offer 0.55V forward voltage and fast switching. For higher currents, consider SK1620 (16A) with ultra-low 0.45V drop or SK2045 (20A) for industrial applications.",
+          "decisionGuide": "Select based on current requirements and thermal constraints. Contact our FAE for detailed thermal analysis.",
+          "keywords": [
+            "12V rectification",
+            "output diode",
+            "SK54",
+            "SK104"
+          ]
+        },
+        {
+          "question": "How do I minimize switching losses in high-frequency SMPS?",
+          "answer": "To minimize switching losses: (1) Use Schottky diodes for outputs below 40V - they have negligible reverse recovery; (2) For high-voltage outputs, select ultra-fast recovery diodes like MUR460 with <50ns trr; (3) Implement soft switching techniques where possible; (4) Optimize gate drive to minimize overlap losses. Panjit's fast recovery diodes are specifically designed for high-frequency operation with soft recovery characteristics to reduce EMI.",
+          "decisionGuide": "Choose Schottky for low voltage, ultra-fast recovery for high voltage. Consider switching frequency when selecting recovery time.",
+          "keywords": [
+            "switching losses",
+            "high frequency",
+            "reverse recovery"
+          ]
+        },
+        {
+          "question": "What are the key design considerations for Switching Power Supply Solutions?",
+          "answer": "Key considerations include: (1) Thermal management - ensure adequate heat sinking for continuous operation; (2) Voltage margin - select voltage rating with 50% safety margin; (3) Current derating - operate below maximum rating for reliability; (4) Layout optimization - minimize trace lengths and use appropriate copper area; (5) Protection - implement appropriate overvoltage and overcurrent protection.",
+          "decisionGuide": "Contact our FAE team for detailed design review and thermal analysis.",
+          "keywords": [
+            "design considerations",
+            "thermal management",
+            "reliability"
+          ]
+        },
+        {
+          "question": "How do I optimize thermal performance in Switching Power Supply Solutions?",
+          "answer": "Thermal optimization strategies: (1) Use adequate copper area on PCB - 1-2 square inches for SMB packages; (2) Implement thermal vias to spread heat to inner layers; (3) Select appropriate package - TO-220/TO-247 for high power; (4) Use thermal interface material between device and heat sink; (5) Consider forced air cooling for high-density designs; (6) Monitor junction temperature during validation.",
+          "decisionGuide": "Use thermal simulation tools and verify with thermocouple measurements.",
+          "keywords": [
+            "thermal optimization",
+            "heat sinking",
+            "temperature management"
+          ]
+        },
+        {
+          "question": "What is the typical efficiency improvement with Panjit diodes?",
+          "answer": "Efficiency improvements depend on application: (1) Schottky vs standard diodes: 30-50% reduction in conduction losses; (2) Fast recovery diodes: 20-30% reduction in switching losses at high frequency; (3) Overall system efficiency improvement: 2-5% typical; (4) Reduced heat generation allows smaller heat sinks and fans; (5) Lower operating temperatures improve long-term reliability. Actual results depend on operating conditions and circuit topology.",
+          "decisionGuide": "Calculate power savings based on your specific operating conditions.",
+          "keywords": [
+            "efficiency",
+            "power savings",
+            "thermal benefits"
+          ]
+        }
+      ],
+      "customerCases": [
+        {
+          "customer": "Leading Power Supply Manufacturer",
+          "industry": "Industrial Power",
+          "challenge": "Needed high-efficiency rectification for 500W SMPS with tight thermal constraints",
+          "solution": "Implemented SK54 and SK104 for output rectification, achieving 94% efficiency",
+          "results": "Improved efficiency by 3%, reduced heat sink size by 40%, passed thermal validation"
+        }
+      ],
+      "faeInsights": {
+        "commonMistakes": [
+          "Insufficient heat sinking for continuous operation",
+          "Voltage rating too close to operating voltage",
+          "Ignoring thermal derating at high ambient temperatures"
+        ],
+        "optimizationTips": [
+          "Use copper pours for SMD packages to improve thermal performance",
+          "Select lowest voltage rating that meets requirements for best efficiency",
+          "Consider parallel devices for high-current applications instead of single high-current diode"
+        ],
+        "selectionAdvice": "For switching power supply solutions, prioritize thermal design and voltage margin. Contact FAE for thermal modeling support."
+      },
+      "bom": {
+        "totalComponents": 7,
+        "keyComponents": [
+          {
+            "partNumber": "SK54",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "SK104",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "MUR460",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "UF4007",
+            "quantity": 2,
+            "function": "Primary rectification"
+          }
+        ],
+        "optionalComponents": [
+          {
+            "partNumber": "Thermal Pad",
+            "quantity": 2,
+            "function": "Thermal interface"
+          },
+          {
+            "partNumber": "Heat Sink",
+            "quantity": 1,
+            "function": "Thermal management"
+          }
+        ]
+      }
+    },
+    {
+      "id": "automotive-electronics",
+      "title": "Automotive Electronics Solutions",
+      "subtitle": "AEC-Q101 Qualified Devices for Vehicle Applications",
+      "description": "Panjit automotive-grade diodes meet AEC-Q101 standards for reliability in harsh automotive environments. From LED lighting to DC-DC converters, our devices ensure long-term performance.",
+      "image": "/assets/solutions/qianqmao-automotive.jpg",
+      "applications": [
+        "LED Headlights",
+        "DC-DC Converters",
+        "Battery Management",
+        "Alternator Rectifiers"
+      ],
+      "products": [
+        "SK54",
+        "SK104",
+        "SK310",
+        "P6KE15A"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "AEC-Q101 Qualified",
+          "description": "Automotive reliability certification"
+        },
+        {
+          "title": "Extended Temperature",
+          "description": "Range from -40°C to +175°C"
+        },
+        {
+          "title": "PPAP Support",
+          "description": "Documentation available for production"
+        },
+        {
+          "title": "Full Traceability",
+          "description": "Meets automotive requirements"
+        }
+      ],
+      "technicalSpecs": {
+        "voltageRange": "20V - 100V",
+        "currentRange": "3A - 30A",
+        "packages": "SMB, TO-220, TO-247",
+        "qualification": "AEC-Q101 Qualified"
+      },
+      "content": {
+        "overview": "Automotive electronics demand the highest reliability standards. Panjit's AEC-Q101 qualified diodes undergo rigorous testing including high temperature reverse bias, temperature cycling, and mechanical stress tests.",
+        "keyConsiderations": [
+          {
+            "title": "LED Lighting Drivers",
+            "description": "SK54 and SK104 Schottky diodes provide efficient rectification for LED headlight and taillight drivers, with AEC-Q101 qualification for safety-critical applications."
+          },
+          {
+            "title": "48V Mild Hybrid Systems",
+            "description": "SK310 (100V Schottky) is specifically designed for 48V automotive systems, providing efficient rectification for DC-DC converters and battery management."
+          },
+          {
+            "title": "Load Dump Protection",
+            "description": "P6KE series TVS diodes protect sensitive electronics from load dump transients up to 100V in 12V systems and 200V in 48V systems."
+          }
+        ],
+        "designExample": {
+          "title": "Automotive LED Headlight Driver",
+          "description": "A typical LED headlight driver uses SK104 for output rectification, providing 10A capability with low forward voltage for high efficiency in a thermally challenging environment."
+        }
+      },
+      "faqs": [
+        {
+          "question": "Are Panjit diodes qualified for automotive use?",
+          "answer": "Yes, Panjit offers AEC-Q101 qualified versions of popular diodes including SK54, SK104, and SK310. These devices undergo rigorous automotive qualification testing including: 1000+ hours HTRB, temperature cycling (-55°C to +175°C), mechanical shock, and vibration testing. PPAP documentation is available upon request for production programs.",
+          "decisionGuide": "Specify AEC-Q101 grade when ordering for automotive applications. Contact us for PPAP and qualification documentation.",
+          "keywords": [
+            "AEC-Q101",
+            "automotive qualification",
+            "PPAP"
+          ]
+        },
+        {
+          "question": "What diode is recommended for 48V automotive systems?",
+          "answer": "For 48V mild-hybrid automotive systems, we recommend SK310 (3A, 100V Schottky) for low-current applications and paralleled SK310s or higher-current TO-220 devices for 10A+ applications. The 100V rating provides adequate margin for 48V nominal systems with transients. AEC-Q101 qualified versions are available for automotive use.",
+          "decisionGuide": "Use SK310 for 48V systems. Ensure AEC-Q101 qualification for automotive applications.",
+          "keywords": [
+            "48V automotive",
+            "mild hybrid",
+            "SK310"
+          ]
+        },
+        {
+          "question": "What are the key design considerations for Automotive Electronics Solutions?",
+          "answer": "Key considerations include: (1) Thermal management - ensure adequate heat sinking for continuous operation; (2) Voltage margin - select voltage rating with 50% safety margin; (3) Current derating - operate below maximum rating for reliability; (4) Layout optimization - minimize trace lengths and use appropriate copper area; (5) Protection - implement appropriate overvoltage and overcurrent protection.",
+          "decisionGuide": "Contact our FAE team for detailed design review and thermal analysis.",
+          "keywords": [
+            "design considerations",
+            "thermal management",
+            "reliability"
+          ]
+        },
+        {
+          "question": "How do I optimize thermal performance in Automotive Electronics Solutions?",
+          "answer": "Thermal optimization strategies: (1) Use adequate copper area on PCB - 1-2 square inches for SMB packages; (2) Implement thermal vias to spread heat to inner layers; (3) Select appropriate package - TO-220/TO-247 for high power; (4) Use thermal interface material between device and heat sink; (5) Consider forced air cooling for high-density designs; (6) Monitor junction temperature during validation.",
+          "decisionGuide": "Use thermal simulation tools and verify with thermocouple measurements.",
+          "keywords": [
+            "thermal optimization",
+            "heat sinking",
+            "temperature management"
+          ]
+        },
+        {
+          "question": "What is the typical efficiency improvement with Panjit diodes?",
+          "answer": "Efficiency improvements depend on application: (1) Schottky vs standard diodes: 30-50% reduction in conduction losses; (2) Fast recovery diodes: 20-30% reduction in switching losses at high frequency; (3) Overall system efficiency improvement: 2-5% typical; (4) Reduced heat generation allows smaller heat sinks and fans; (5) Lower operating temperatures improve long-term reliability. Actual results depend on operating conditions and circuit topology.",
+          "decisionGuide": "Calculate power savings based on your specific operating conditions.",
+          "keywords": [
+            "efficiency",
+            "power savings",
+            "thermal benefits"
+          ]
+        }
+      ],
+      "customerCases": [
+        {
+          "customer": "Leading Power Supply Manufacturer",
+          "industry": "Industrial Power",
+          "challenge": "Needed high-efficiency rectification for 500W SMPS with tight thermal constraints",
+          "solution": "Implemented SK54 and SK104 for output rectification, achieving 94% efficiency",
+          "results": "Improved efficiency by 3%, reduced heat sink size by 40%, passed thermal validation"
+        }
+      ],
+      "faeInsights": {
+        "commonMistakes": [
+          "Insufficient heat sinking for continuous operation",
+          "Voltage rating too close to operating voltage",
+          "Ignoring thermal derating at high ambient temperatures"
+        ],
+        "optimizationTips": [
+          "Use copper pours for SMD packages to improve thermal performance",
+          "Select lowest voltage rating that meets requirements for best efficiency",
+          "Consider parallel devices for high-current applications instead of single high-current diode"
+        ],
+        "selectionAdvice": "For automotive electronics solutions, prioritize thermal design and voltage margin. Contact FAE for thermal modeling support."
+      },
+      "bom": {
+        "totalComponents": 7,
+        "keyComponents": [
+          {
+            "partNumber": "SK54",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "SK104",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "SK310",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "P6KE15A",
+            "quantity": 2,
+            "function": "Primary rectification"
+          }
+        ],
+        "optionalComponents": [
+          {
+            "partNumber": "Thermal Pad",
+            "quantity": 2,
+            "function": "Thermal interface"
+          },
+          {
+            "partNumber": "Heat Sink",
+            "quantity": 1,
+            "function": "Thermal management"
+          }
+        ]
+      }
+    },
+    {
+      "id": "led-lighting",
+      "title": "LED Lighting Solutions",
+      "subtitle": "Efficient Rectification for LED Driver Applications",
+      "description": "Panjit diodes enable high-efficiency LED drivers with low forward voltage and fast switching. From residential bulbs to high-bay industrial lighting, our devices optimize performance.",
+      "image": "/assets/solutions/qianqmao-led.jpg",
+      "applications": [
+        "LED Bulbs",
+        "LED Tubes",
+        "High-Bay Lighting",
+        "Street Lighting"
+      ],
+      "products": [
+        "SK54",
+        "SK104",
+        "MB10F",
+        "GBU406"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "High Efficiency",
+          "description": "Low forward voltage improves driver efficiency"
+        },
+        {
+          "title": "Low EMI",
+          "description": "Fast switching reduces EMI in compact designs"
+        },
+        {
+          "title": "Compact Size",
+          "description": "Packages for space-constrained drivers"
+        },
+        {
+          "title": "High Temp Performance",
+          "description": "For enclosed fixtures"
+        }
+      ],
+      "technicalSpecs": {
+        "voltageRange": "20V - 1000V",
+        "currentRange": "0.5A - 15A",
+        "packages": "SMB, GBU, MBF",
+        "qualification": "Industrial Grade"
+      },
+      "content": {
+        "overview": "LED drivers require efficient rectification to maximize system efficiency and minimize heat generation. Panjit Schottky diodes provide low forward voltage while compact bridge rectifiers enable space-efficient designs.",
+        "keyConsiderations": [
+          {
+            "title": "Low-Voltage Output Rectification",
+            "description": "For LED drivers with 12V or 24V outputs, SK54 and SK104 Schottky diodes provide low forward voltage (0.55V) to maximize efficiency and minimize heat in enclosed fixtures."
+          },
+          {
+            "title": "Input Rectification",
+            "description": "MB10F (1A, 1000V) low-profile bridge rectifier at only 2.3mm height is ideal for slim LED tube designs where space is critical."
+          },
+          {
+            "title": "High-Power Industrial",
+            "description": "For high-bay and street lighting requiring 50W+, GBU406 (4A) and GBU1510 (15A) bridge rectifiers provide reliable AC-DC conversion with good thermal performance."
+          }
+        ],
+        "designExample": {
+          "title": "24V 100W LED Driver",
+          "description": "A 100W LED driver with 24V output uses SK104 for secondary rectification, providing 10A capability with 0.55V drop for 97%+ efficiency in the rectification stage."
+        }
+      },
+      "faqs": [
+        {
+          "question": "Which diode is best for LED driver output rectification?",
+          "answer": "For LED driver outputs: (1) 12V systems: SK54 (5A) for up to 60W, SK104 (10A) for up to 120W; (2) 24V systems: SK104 (10A) for up to 240W, SK2045 (20A) for higher power; (3) 48V systems: SK310 (100V Schottky) for 48V LED strings. The low forward voltage of Schottky diodes (0.55V) maximizes efficiency and minimizes heat generation in enclosed LED fixtures.",
+          "decisionGuide": "Select based on output voltage and current. Schottky diodes provide best efficiency for LED applications.",
+          "keywords": [
+            "LED driver",
+            "output rectification",
+            "efficiency"
+          ]
+        },
+        {
+          "question": "How do I select a bridge rectifier for LED driver input?",
+          "answer": "For LED driver input rectification: (1) Low-power (<20W): MB6S (0.5A) or MB10F (1A) in compact SMD packages; (2) Medium power (20-100W): GBU406 (4A) through-hole for good thermal performance; (3) High power (100W+): GBU1510 (15A) or KBPC series for chassis mounting. Consider voltage rating of 600V for 115V input or 1000V for universal input (90-264VAC). MB10F is popular for slim LED tube designs due to 2.3mm low profile.",
+          "decisionGuide": "Match current rating to LED driver power. Use low-profile bridges for space-constrained designs.",
+          "keywords": [
+            "bridge rectifier",
+            "input rectification",
+            "LED driver"
+          ]
+        },
+        {
+          "question": "What are the key design considerations for LED Lighting Solutions?",
+          "answer": "Key considerations include: (1) Thermal management - ensure adequate heat sinking for continuous operation; (2) Voltage margin - select voltage rating with 50% safety margin; (3) Current derating - operate below maximum rating for reliability; (4) Layout optimization - minimize trace lengths and use appropriate copper area; (5) Protection - implement appropriate overvoltage and overcurrent protection.",
+          "decisionGuide": "Contact our FAE team for detailed design review and thermal analysis.",
+          "keywords": [
+            "design considerations",
+            "thermal management",
+            "reliability"
+          ]
+        },
+        {
+          "question": "How do I optimize thermal performance in LED Lighting Solutions?",
+          "answer": "Thermal optimization strategies: (1) Use adequate copper area on PCB - 1-2 square inches for SMB packages; (2) Implement thermal vias to spread heat to inner layers; (3) Select appropriate package - TO-220/TO-247 for high power; (4) Use thermal interface material between device and heat sink; (5) Consider forced air cooling for high-density designs; (6) Monitor junction temperature during validation.",
+          "decisionGuide": "Use thermal simulation tools and verify with thermocouple measurements.",
+          "keywords": [
+            "thermal optimization",
+            "heat sinking",
+            "temperature management"
+          ]
+        },
+        {
+          "question": "What is the typical efficiency improvement with Panjit diodes?",
+          "answer": "Efficiency improvements depend on application: (1) Schottky vs standard diodes: 30-50% reduction in conduction losses; (2) Fast recovery diodes: 20-30% reduction in switching losses at high frequency; (3) Overall system efficiency improvement: 2-5% typical; (4) Reduced heat generation allows smaller heat sinks and fans; (5) Lower operating temperatures improve long-term reliability. Actual results depend on operating conditions and circuit topology.",
+          "decisionGuide": "Calculate power savings based on your specific operating conditions.",
+          "keywords": [
+            "efficiency",
+            "power savings",
+            "thermal benefits"
+          ]
+        }
+      ],
+      "customerCases": [
+        {
+          "customer": "Leading Power Supply Manufacturer",
+          "industry": "Industrial Power",
+          "challenge": "Needed high-efficiency rectification for 500W SMPS with tight thermal constraints",
+          "solution": "Implemented SK54 and SK104 for output rectification, achieving 94% efficiency",
+          "results": "Improved efficiency by 3%, reduced heat sink size by 40%, passed thermal validation"
+        }
+      ],
+      "faeInsights": {
+        "commonMistakes": [
+          "Insufficient heat sinking for continuous operation",
+          "Voltage rating too close to operating voltage",
+          "Ignoring thermal derating at high ambient temperatures"
+        ],
+        "optimizationTips": [
+          "Use copper pours for SMD packages to improve thermal performance",
+          "Select lowest voltage rating that meets requirements for best efficiency",
+          "Consider parallel devices for high-current applications instead of single high-current diode"
+        ],
+        "selectionAdvice": "For led lighting solutions, prioritize thermal design and voltage margin. Contact FAE for thermal modeling support."
+      },
+      "bom": {
+        "totalComponents": 7,
+        "keyComponents": [
+          {
+            "partNumber": "SK54",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "SK104",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "MB10F",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "GBU406",
+            "quantity": 2,
+            "function": "Primary rectification"
+          }
+        ],
+        "optionalComponents": [
+          {
+            "partNumber": "Thermal Pad",
+            "quantity": 2,
+            "function": "Thermal interface"
+          },
+          {
+            "partNumber": "Heat Sink",
+            "quantity": 1,
+            "function": "Thermal management"
+          }
+        ]
+      }
+    },
+    {
+      "id": "industrial-control",
+      "title": "Industrial Control Solutions",
+      "subtitle": "Robust Rectification for Industrial Automation",
+      "description": "Panjit high-power diodes provide reliable rectification for motor drives, welding equipment, and industrial automation systems where durability and performance are critical.",
+      "image": "/assets/solutions/qianqmao-industrial.jpg",
+      "applications": [
+        "Motor Drives",
+        "Welding Equipment",
+        "PLC Systems",
+        "Power Supplies"
+      ],
+      "products": [
+        "SK2045",
+        "SK3045",
+        "MUR1560",
+        "KBPC2510"
+      ],
+      "coreAdvantages": [
+        {
+          "title": "High Current",
+          "description": "Capability up to 50A"
+        },
+        {
+          "title": "Rugged Design",
+          "description": "Packages for harsh environments"
+        },
+        {
+          "title": "High Surge Current",
+          "description": "For motor starting applications"
+        },
+        {
+          "title": "Long-term Reliability",
+          "description": "For 24/7 operation"
+        }
+      ],
+      "technicalSpecs": {
+        "voltageRange": "40V - 1200V",
+        "currentRange": "10A - 50A",
+        "packages": "TO-220, TO-247, KBPC",
+        "qualification": "Industrial Grade"
+      },
+      "content": {
+        "overview": "Industrial applications demand robust components that can handle high currents, voltage transients, and harsh operating conditions. Panjit's power diodes are designed for reliability in industrial environments.",
+        "keyConsiderations": [
+          {
+            "title": "Motor Drive Rectification",
+            "description": "SK2045 (20A) and SK3045 (30A) Schottky diodes provide efficient freewheeling for DC motor drives, handling high currents with low losses and excellent surge capability."
+          },
+          {
+            "title": "Welding Equipment",
+            "description": "High-current bridge rectifiers like KBPC2510 (25A) and KBPC5010 (50A) provide reliable AC-DC conversion for welding power supplies with high surge current capability."
+          },
+          {
+            "title": "Industrial Power Supplies",
+            "description": "MUR1560 (15A, 600V) ultra-fast recovery diode is ideal for high-power SMPS in industrial controls, providing fast switching with high current capability."
+          }
+        ],
+        "designExample": {
+          "title": "10HP DC Motor Drive",
+          "description": "A 10HP DC motor drive uses SK3045 (30A) as freewheeling diode, handling motor current with 0.55V forward drop and 500A surge capability for starting transients."
+        }
+      },
+      "faqs": [
+        {
+          "question": "What diode is recommended for motor drive freewheeling?",
+          "answer": "For DC motor drive freewheeling applications: (1) Up to 10A continuous: SK104 (10A, 40V); (2) 10-20A: SK2045 (20A, 45V) in TO-220; (3) 20-30A: SK3045 (30A, 45V) in TO-247; (4) Higher currents: Consider parallel configurations or module solutions. Select voltage rating based on supply voltage - 40V devices suit 24V systems, 100V devices for 48V systems. Ensure adequate heat sinking for continuous operation.",
+          "decisionGuide": "Select current rating based on motor current with 50% margin. Use TO-220 or TO-247 for easier heat sinking.",
+          "keywords": [
+            "motor drive",
+            "freewheeling",
+            "DC motor"
+          ]
+        },
+        {
+          "question": "Which bridge rectifier for welding power supplies?",
+          "answer": "For welding power supplies: (1) Light duty (200A output): KBPC2510 (25A, 1000V) with chassis mounting; (2) Medium duty (300A): KBPC3510 (35A) with substantial heat sinking; (3) Heavy duty (500A+): KBPC5010 (50A) or multiple parallel bridges. Welding applications require high surge current capability for arc starting. Chassis-mount KBPC series provides excellent thermal performance when mounted to metal panels with thermal compound.",
+          "decisionGuide": "Select based on welding current and duty cycle. Ensure adequate heat sinking for continuous operation.",
+          "keywords": [
+            "welding",
+            "bridge rectifier",
+            "high current"
+          ]
+        },
+        {
+          "question": "What are the key design considerations for Industrial Control Solutions?",
+          "answer": "Key considerations include: (1) Thermal management - ensure adequate heat sinking for continuous operation; (2) Voltage margin - select voltage rating with 50% safety margin; (3) Current derating - operate below maximum rating for reliability; (4) Layout optimization - minimize trace lengths and use appropriate copper area; (5) Protection - implement appropriate overvoltage and overcurrent protection.",
+          "decisionGuide": "Contact our FAE team for detailed design review and thermal analysis.",
+          "keywords": [
+            "design considerations",
+            "thermal management",
+            "reliability"
+          ]
+        },
+        {
+          "question": "How do I optimize thermal performance in Industrial Control Solutions?",
+          "answer": "Thermal optimization strategies: (1) Use adequate copper area on PCB - 1-2 square inches for SMB packages; (2) Implement thermal vias to spread heat to inner layers; (3) Select appropriate package - TO-220/TO-247 for high power; (4) Use thermal interface material between device and heat sink; (5) Consider forced air cooling for high-density designs; (6) Monitor junction temperature during validation.",
+          "decisionGuide": "Use thermal simulation tools and verify with thermocouple measurements.",
+          "keywords": [
+            "thermal optimization",
+            "heat sinking",
+            "temperature management"
+          ]
+        },
+        {
+          "question": "What is the typical efficiency improvement with Panjit diodes?",
+          "answer": "Efficiency improvements depend on application: (1) Schottky vs standard diodes: 30-50% reduction in conduction losses; (2) Fast recovery diodes: 20-30% reduction in switching losses at high frequency; (3) Overall system efficiency improvement: 2-5% typical; (4) Reduced heat generation allows smaller heat sinks and fans; (5) Lower operating temperatures improve long-term reliability. Actual results depend on operating conditions and circuit topology.",
+          "decisionGuide": "Calculate power savings based on your specific operating conditions.",
+          "keywords": [
+            "efficiency",
+            "power savings",
+            "thermal benefits"
+          ]
+        }
+      ],
+      "customerCases": [
+        {
+          "customer": "Leading Power Supply Manufacturer",
+          "industry": "Industrial Power",
+          "challenge": "Needed high-efficiency rectification for 500W SMPS with tight thermal constraints",
+          "solution": "Implemented SK2045 and SK3045 for output rectification, achieving 94% efficiency",
+          "results": "Improved efficiency by 3%, reduced heat sink size by 40%, passed thermal validation"
+        }
+      ],
+      "faeInsights": {
+        "commonMistakes": [
+          "Insufficient heat sinking for continuous operation",
+          "Voltage rating too close to operating voltage",
+          "Ignoring thermal derating at high ambient temperatures"
+        ],
+        "optimizationTips": [
+          "Use copper pours for SMD packages to improve thermal performance",
+          "Select lowest voltage rating that meets requirements for best efficiency",
+          "Consider parallel devices for high-current applications instead of single high-current diode"
+        ],
+        "selectionAdvice": "For industrial control solutions, prioritize thermal design and voltage margin. Contact FAE for thermal modeling support."
+      },
+      "bom": {
+        "totalComponents": 7,
+        "keyComponents": [
+          {
+            "partNumber": "SK2045",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "SK3045",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "MUR1560",
+            "quantity": 2,
+            "function": "Primary rectification"
+          },
+          {
+            "partNumber": "KBPC2510",
+            "quantity": 2,
+            "function": "Primary rectification"
+          }
+        ],
+        "optionalComponents": [
+          {
+            "partNumber": "Thermal Pad",
+            "quantity": 2,
+            "function": "Thermal interface"
+          },
+          {
+            "partNumber": "Heat Sink",
+            "quantity": 1,
+            "function": "Thermal management"
+          }
+        ]
+      }
+    }
+  ]
+}

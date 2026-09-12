@@ -11,25 +11,49 @@
       "name": "Precision ADCs",
       "description": "High-resolution analog-to-digital converters with excellent accuracy and low noise for precision measurement applications",
       "link": "/lingxingic/products/precision-adcs.html",
-      "keywords": ["ADC", "analog-to-digital converter", "precision ADC", "sigma-delta ADC", "SAR ADC"]
+      "keywords": [
+        "ADC",
+        "analog-to-digital converter",
+        "precision ADC",
+        "sigma-delta ADC",
+        "SAR ADC"
+      ]
     },
     {
       "name": "Precision DACs",
       "description": "High-accuracy digital-to-analog converters for precise signal generation and control applications",
       "link": "/lingxingic/products/precision-dacs.html",
-      "keywords": ["DAC", "digital-to-analog converter", "precision DAC", "voltage output DAC", "current output DAC"]
+      "keywords": [
+        "DAC",
+        "digital-to-analog converter",
+        "precision DAC",
+        "voltage output DAC",
+        "current output DAC"
+      ]
     },
     {
       "name": "Operational Amplifiers",
       "description": "High-performance op-amps including precision, high-speed, and low-power variants for signal conditioning",
       "link": "/lingxingic/products/operational-amplifiers.html",
-      "keywords": ["operational amplifier", "op-amp", "precision op-amp", "high-speed op-amp", "low-noise op-amp"]
+      "keywords": [
+        "operational amplifier",
+        "op-amp",
+        "precision op-amp",
+        "high-speed op-amp",
+        "low-noise op-amp"
+      ]
     },
     {
       "name": "Power Management",
       "description": "Voltage references, regulators, and power management ICs for stable and efficient power delivery",
       "link": "/lingxingic/products/power-management.html",
-      "keywords": ["voltage reference", "LDO", "linear regulator", "power management", "bandgap reference"]
+      "keywords": [
+        "voltage reference",
+        "LDO",
+        "linear regulator",
+        "power management",
+        "bandgap reference"
+      ]
     }
   ],
   "industries": [
@@ -37,25 +61,45 @@
       "name": "Industrial Automation",
       "description": "Precision analog solutions for PLCs, process control, and industrial instrumentation",
       "icon": "factory",
-      "applications": ["Process control", "Sensor interfaces", "Data acquisition", "Motion control"]
+      "applications": [
+        "Process control",
+        "Sensor interfaces",
+        "Data acquisition",
+        "Motion control"
+      ]
     },
     {
       "name": "Automotive Electronics",
       "description": "AEC-Q100 qualified analog ICs for automotive sensors, battery management, and control systems",
       "icon": "car",
-      "applications": ["Battery management", "Sensor interfaces", "Motor control", "Body electronics"]
+      "applications": [
+        "Battery management",
+        "Sensor interfaces",
+        "Motor control",
+        "Body electronics"
+      ]
     },
     {
       "name": "Medical Instrumentation",
       "description": "High-precision analog solutions for medical devices and diagnostic equipment",
       "icon": "heart-pulse",
-      "applications": ["Patient monitoring", "Diagnostic equipment", "Imaging systems", "Laboratory instruments"]
+      "applications": [
+        "Patient monitoring",
+        "Diagnostic equipment",
+        "Imaging systems",
+        "Laboratory instruments"
+      ]
     },
     {
       "name": "Test and Measurement",
       "description": "Precision analog ICs for test equipment, instrumentation, and calibration systems",
       "icon": "gauge",
-      "applications": ["Digital multimeters", "Oscilloscopes", "Signal generators", "Calibration equipment"]
+      "applications": [
+        "Digital multimeters",
+        "Oscilloscopes",
+        "Signal generators",
+        "Calibration equipment"
+      ]
     }
   ],
   "certifications": [
@@ -94,43 +138,71 @@
       "question": "Is LiTong an authorized distributor of Lingxing IC products?",
       "answer": "Yes, LiTong is an authorized distributor of Lingxing Microelectronics. We have established a strong partnership with Lingxing IC to provide customers with genuine products, technical support, and reliable supply chain services. As an authorized distributor, we can offer competitive pricing, fast delivery, and comprehensive application engineering support for all Lingxing IC product lines including precision ADCs, DACs, operational amplifiers, and power management solutions. Our FAE team has deep expertise in Lingxing IC's analog and mixed-signal solutions and can assist with product selection, reference design review, and troubleshooting.",
       "decisionGuide": "Contact LiTong sales team for Lingxing IC product inquiries, samples, and technical documentation.",
-      "keywords": ["Lingxing IC distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "Lingxing IC distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What are the key advantages of Lingxing IC precision ADCs?",
       "answer": "Lingxing IC precision ADCs offer several competitive advantages: High resolution - up to 24-bit resolution for precise measurement applications. Excellent accuracy - low offset and gain errors with factory calibration. Low noise - advanced sigma-delta and SAR architectures minimize noise. Wide dynamic range - suitable for both small signal and large signal measurements. Multiple interface options - SPI and I2C interfaces for flexible system integration. Industrial temperature range - reliable operation from -40°C to +85°C. Cost-effectiveness - competitive pricing without compromising performance. Local technical support - responsive support from Lingxing IC and LiTong FAE team. These advantages make Lingxing IC ADCs suitable for demanding industrial, automotive, and instrumentation applications.",
       "decisionGuide": "Evaluate Lingxing IC ADCs for your precision measurement needs. Contact our FAE team for product recommendations.",
-      "keywords": ["Lingxing IC ADC", "precision ADC advantages", "high-resolution ADC"]
+      "keywords": [
+        "Lingxing IC ADC",
+        "precision ADC advantages",
+        "high-resolution ADC"
+      ]
     },
     {
       "question": "How do I select the right Lingxing IC product for my application?",
       "answer": "Selecting the right Lingxing IC product requires understanding your signal chain requirements: For analog-to-digital conversion, consider resolution (bits), sampling rate, input range, and interface type. For digital-to-analog conversion, consider resolution, output type (voltage/current), settling time, and accuracy. For signal conditioning, consider op-amp specifications like offset voltage, bandwidth, noise, and power consumption. Key selection criteria include: Resolution - higher resolution for more precise measurements. Speed - sampling rate or bandwidth for your signal frequency. Accuracy - offset, gain error, and linearity requirements. Power - supply voltage and current consumption constraints. Temperature - operating temperature range for your environment. Package - physical size and pinout requirements. Our FAE team can provide detailed selection guidance based on your specific signal chain requirements.",
       "decisionGuide": "Use our selection guides or contact LiTong FAE team for personalized analog IC recommendations.",
-      "keywords": ["Lingxing IC selection", "ADC selection guide", "analog IC selection"]
+      "keywords": [
+        "Lingxing IC selection",
+        "ADC selection guide",
+        "analog IC selection"
+      ]
     },
     {
       "question": "What is the difference between Sigma-Delta and SAR ADCs?",
       "answer": "Lingxing IC offers both Sigma-Delta and SAR (Successive Approximation Register) ADC architectures with different characteristics: Sigma-Delta ADCs advantages: Very high resolution (16-24 bits). Excellent noise performance with built-in filtering. High accuracy for DC and low-frequency signals. Good for precision measurement applications. Lower sampling rates (typically <1MSPS). SAR ADCs advantages: High sampling rates (up to several MSPS). Low latency - single conversion per sample. Good for multiplexed channel applications. Lower power consumption at high speeds. Medium resolution (8-18 bits). Selection guidelines: Use Sigma-Delta for: High-precision measurements, sensor interfaces, weigh scales, temperature measurement. Use SAR for: Data acquisition systems, control loops, multiplexed inputs, higher speed requirements. Lingxing IC provides both types to address different application needs.",
       "decisionGuide": "Use Sigma-Delta for high precision, SAR for higher speed. Contact our FAE team for architecture selection.",
-      "keywords": ["Sigma-Delta vs SAR", "ADC architecture", "ADC selection"]
+      "keywords": [
+        "Sigma-Delta vs SAR",
+        "ADC architecture",
+        "ADC selection"
+      ]
     },
     {
       "question": "Does Lingxing IC provide automotive-qualified products?",
       "answer": "Yes, Lingxing IC offers AEC-Q100 qualified products specifically designed for automotive applications. These automotive-grade analog ICs undergo rigorous qualification testing including high temperature operating life (HTOL), temperature cycling, electrostatic discharge (ESD) testing, and electromagnetic compatibility (EMC) validation to meet automotive reliability standards. Lingxing IC's automotive product portfolio includes: Precision ADCs for battery monitoring and sensor interfaces. DACs for motor control and actuator drive. Operational amplifiers for signal conditioning. Voltage references for precision measurements. All automotive products are qualified for operation over the -40°C to +125°C temperature range and meet the quality standards required by Tier-1 automotive suppliers. Lingxing IC continues to expand its automotive offerings to address the growing demand for precision analog ICs in electric vehicles and ADAS systems.",
       "decisionGuide": "For automotive applications, look for AEC-Q100 qualified Lingxing IC parts. Contact our automotive FAE team for support.",
-      "keywords": ["Lingxing IC automotive", "AEC-Q100 qualified", "automotive analog IC"]
+      "keywords": [
+        "Lingxing IC automotive",
+        "AEC-Q100 qualified",
+        "automotive analog IC"
+      ]
     },
     {
       "question": "What support does LiTong provide for Lingxing IC product implementation?",
       "answer": "LiTong provides comprehensive support for Lingxing IC product implementation including: Application engineering assistance from our experienced FAE team who can help with product selection, schematic review, PCB layout recommendations, and debugging. Reference designs and evaluation boards for quick prototyping and performance validation. Software drivers and code examples for various microcontroller platforms. Technical documentation including datasheets, application notes, and design guides. On-site technical support for critical design reviews and production ramp-up. We can also coordinate with Lingxing IC's factory FAEs for complex technical issues and provide training on Lingxing IC product families. Our goal is to ensure your design success and accelerate time-to-market.",
       "decisionGuide": "Contact LiTong technical support team for personalized assistance with Lingxing IC product selection and application design.",
-      "keywords": ["Lingxing IC support", "product selection assistance", "FAE support"]
+      "keywords": [
+        "Lingxing IC support",
+        "product selection assistance",
+        "FAE support"
+      ]
     },
     {
       "question": "How does Lingxing IC compare to other precision analog suppliers?",
-      "answer": "Lingxing IC has established itself as a competitive precision analog supplier, particularly in the Chinese market. Compared to other suppliers, Lingxing IC offers several advantages: Cost-effectiveness - Lingxing IC provides competitive pricing while maintaining high performance, making precision analog solutions more accessible. Local support - With headquarters in Shenzhen, Lingxing IC provides responsive technical support for Chinese customers. Product range - Comprehensive portfolio covering ADCs, DACs, op-amps, and references. Quality focus - Rigorous testing and quality control processes. Fast delivery - Local manufacturing and inventory for quick turnaround. For customers seeking a balance of performance, cost, and local support, Lingxing IC represents an excellent choice. The products are designed to be pin-compatible or functionally equivalent to popular industry standards, making migration straightforward.",
+      "answer": "Lingxing IC has established itself as a competitive precision analog supplier, particularly in the Chinese market. Compared to other suppliers, Lingxing IC offers several advantages: Cost-effectiveness - Lingxing IC provides competitive pricing while maintaining high performance, making precision analog solutions more accessible. Local support - With headquarters in Shenzhen, Lingxing IC provides responsive technical support for Chinese customers. Product range - Comprehensive portfolio covering ADCs, DACs, op-amps, and references. Quality focus - Rigorous testing and quality control processes. Fast delivery - Local manufacturing and inventory for quick turnaround. For customers seeking a balance of performance, cost, and local support, Lingxing IC is an excellent choice. The products are designed to be pin-compatible or functionally equivalent to popular industry standards, making migration straightforward.",
       "decisionGuide": "Compare Lingxing IC solutions with your requirements. Contact our FAE team for competitive analysis and recommendations.",
-      "keywords": ["Lingxing IC comparison", "analog IC suppliers", "competitive analysis"]
+      "keywords": [
+        "Lingxing IC comparison",
+        "analog IC suppliers",
+        "competitive analysis"
+      ]
     }
   ]
 }

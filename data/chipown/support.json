@@ -108,7 +108,7 @@
       "summary": "Comprehensive guide for selecting the right Chipown AC/DC converter for your application, including topology selection, power rating considerations, and design guidelines.",
       "content": [
         "This technical reference document provides detailed information about chipown product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -160,7 +160,7 @@
       "faqs": [
         {
           "question": "What is the main difference between PN8147 and PN8148?",
-          "answer": "PN8148 has a higher current rating MOSFET (4A vs 3A), allowing up to 36W output compared to 24W for PN8147. Both share the same control features and pinout. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "PN8148 has a higher current rating MOSFET (4A vs 3A), allowing up to 36W output compared to 24W for PN8147. Both share the same control features and pinout. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Choose PN8148 for >24W applications, PN8147 for <24W.",
           "keywords": [
             "PN8147",
@@ -170,7 +170,7 @@
         },
         {
           "question": "When should I use synchronous rectification?",
-          "answer": "Use SR for output voltages below 12V where diode losses are significant. The efficiency improvement is most noticeable at 5V output (3-5% improvement). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use SR for output voltages below 12V where diode losses are significant. The efficiency improvement is most noticeable at 5V output (3-5% improvement). For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use SR for 5V/9V outputs for maximum efficiency gain.",
           "keywords": [
             "synchronous rectification",
@@ -180,7 +180,7 @@
         },
         {
           "question": "What transformer core size do I need?",
-          "answer": "General guidelines: EE16 for <15W, EE19 for 15-25W, EE22 for 25-40W, RM8/RM10 for higher power or high-density designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "General guidelines: EE16 for <15W, EE19 for 15-25W, EE22 for 25-40W, RM8/RM10 for higher power or high-density designs. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select core size based on power level and thermal requirements.",
           "keywords": [
             "transformer",
@@ -191,7 +191,7 @@
         },
         {
           "question": "How do I calculate the transformer turns ratio?",
-          "answer": "N = (VIN_min × D_max) / (VOUT + VF), where D_max is typically 0.45-0.5 for flyback converters. Add margin for voltage drops and regulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "N = (VIN_min × D_max) / (VOUT + VF), where D_max is typically 0.45-0.5 for flyback converters. Add margin for voltage drops and regulation. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact FAE for transformer design calculations.",
           "keywords": [
             "turns ratio",
@@ -201,7 +201,7 @@
         },
         {
           "question": "What is the maximum switching frequency?",
-          "answer": "Chipown AC/DC converters typically operate at 65kHz with frequency dithering. This provides a good balance of efficiency, EMI, and component size. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Chipown AC/DC converters typically operate at 65kHz with frequency dithering. This provides a good balance of efficiency, EMI, and component size. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "65kHz provides optimal balance for most applications.",
           "keywords": [
             "switching frequency",
@@ -232,7 +232,7 @@
       "summary": "Guide for selecting Chipown DC/DC converters including topology selection, component sizing, and layout recommendations.",
       "content": [
         "This technical reference document provides detailed information about chipown product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -284,7 +284,7 @@
       "faqs": [
         {
           "question": "What is the efficiency difference between synchronous and non-synchronous buck converters?",
-          "answer": "At 5V output and 3A load, synchronous converters are typically 5-8% more efficient. The difference is smaller at higher output voltages and lower currents. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "At 5V output and 3A load, synchronous converters are typically 5-8% more efficient. The difference is smaller at higher output voltages and lower currents. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use synchronous for high current or efficiency-critical applications.",
           "keywords": [
             "synchronous",
@@ -294,7 +294,7 @@
         },
         {
           "question": "How do I select the inductor value?",
-          "answer": "Use L = (Vout × (Vin - Vout)) / (Vin × ΔIL × fsw), where ΔIL is typically 20-40% of output current. Larger values reduce ripple but increase size. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use L = (Vout × (Vin - Vout)) / (Vin × ΔIL × fsw), where ΔIL is typically 20-40% of output current. Larger values reduce ripple but increase size. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact FAE for inductor calculation tools.",
           "keywords": [
             "inductor",
@@ -304,7 +304,7 @@
         },
         {
           "question": "What input capacitor value do I need?",
-          "answer": "Typically 10-22μF ceramic capacitor close to the IC. For high input ripple applications, add additional bulk capacitance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Typically 10-22μF ceramic capacitor close to the IC. For high input ripple applications, add additional bulk capacitance. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use 10-22μF ceramic close to IC pins.",
           "keywords": [
             "input capacitor",
@@ -314,7 +314,7 @@
         },
         {
           "question": "Can I use Chipown DC/DC converters for automotive applications?",
-          "answer": "Check the specific device datasheet for automotive qualification (AEC-Q100). Many Chipown devices are suitable for automotive with proper derating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Check the specific device datasheet for automotive qualification (AEC-Q100). Many Chipown devices are suitable for automotive with proper derating. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Verify AEC-Q100 qualification for automotive use.",
           "keywords": [
             "automotive",
@@ -324,7 +324,7 @@
         },
         {
           "question": "What is the switching frequency of Chipown DC/DC converters?",
-          "answer": "Most Chipown DC/DC converters operate at 500kHz or 1MHz, allowing small inductor sizes while maintaining good efficiency. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Most Chipown DC/DC converters operate at 500kHz or 1MHz, allowing small inductor sizes while maintaining good efficiency. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Higher frequency allows smaller components.",
           "keywords": [
             "switching frequency",
@@ -407,7 +407,7 @@
       "faqs": [
         {
           "question": "What is the most common cause of EMC failures?",
-          "answer": "Inadequate input filtering and poor PCB layout are the most common causes. Switching noise coupling to input/output lines and large switching loop areas are typical issues. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Inadequate input filtering and poor PCB layout are the most common causes. Switching noise coupling to input/output lines and large switching loop areas are typical issues. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Focus on input filtering and PCB layout first.",
           "keywords": [
             "EMC failure",
@@ -417,7 +417,7 @@
         },
         {
           "question": "How effective is frequency dithering for EMI reduction?",
-          "answer": "Frequency dithering typically reduces peak emissions by 3-6dB by spreading energy across a wider frequency range. It's most effective for conducted emissions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Frequency dithering typically reduces peak emissions by 3-6dB by spreading energy across a wider frequency range. It's most effective for conducted emissions. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Enable frequency dithering for 3-6dB emission reduction.",
           "keywords": [
             "frequency dithering",
@@ -427,7 +427,7 @@
         },
         {
           "question": "What is the best way to measure EMC performance during design?",
-          "answer": "Use a near-field probe and spectrum analyzer to identify emission sources. Pre-compliance testing with a LISN helps catch conducted emission issues early. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use a near-field probe and spectrum analyzer to identify emission sources. Pre-compliance testing with a LISN helps catch conducted emission issues early. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use near-field probes and LISN for early testing.",
           "keywords": [
             "EMC measurement",
@@ -437,7 +437,7 @@
         },
         {
           "question": "Do I need a shielded transformer?",
-          "answer": "Shielded transformers help with radiated emissions but add cost. Try unshielded first with good layout; add shielding if radiated emissions are an issue. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Shielded transformers help with radiated emissions but add cost. Try unshielded first with good layout; add shielding if radiated emissions are an issue. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start without shielding, add if needed.",
           "keywords": [
             "shielded transformer",
@@ -447,7 +447,7 @@
         },
         {
           "question": "What is the minimum PCB clearance for high-voltage designs?",
-          "answer": "Follow IEC/UL spacing requirements based on working voltage and pollution degree. Typically 2.5mm for basic insulation at 250VAC. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Follow IEC/UL spacing requirements based on working voltage and pollution degree. Typically 2.5mm for basic insulation at 250VAC. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Follow IEC/UL standards for clearance requirements.",
           "keywords": [
             "PCB clearance",
@@ -531,7 +531,7 @@
       "faqs": [
         {
           "question": "How do I calculate junction temperature?",
-          "answer": "Tj = Ta + (Pd × RθJA), where Ta is ambient temperature, Pd is power dissipation, and RθJA is junction-to-ambient thermal resistance from the datasheet. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Tj = Ta + (Pd × RθJA), where Ta is ambient temperature, Pd is power dissipation, and RθJA is junction-to-ambient thermal resistance from the datasheet. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use datasheet thermal resistance values for calculation.",
           "keywords": [
             "junction temperature",
@@ -541,7 +541,7 @@
         },
         {
           "question": "What is the maximum junction temperature for Chipown devices?",
-          "answer": "Most Chipown devices have a maximum junction temperature of 150°C. However, for reliability, designs should target Tj < 125°C under normal operating conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Most Chipown devices have a maximum junction temperature of 150°C. However, for reliability, designs should target Tj < 125°C under normal operating conditions. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Target Tj < 125°C for reliable long-term operation.",
           "keywords": [
             "maximum Tj",
@@ -551,7 +551,7 @@
         },
         {
           "question": "How much copper area do I need for thermal dissipation?",
-          "answer": "As a rule of thumb, use 20-30mm² of copper area per watt of dissipation for natural convection. More area provides diminishing returns above 500mm². For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "As a rule of thumb, use 20-30mm² of copper area per watt of dissipation for natural convection. More area provides diminishing returns above 500mm². For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use 20-30mm² per watt as starting point.",
           "keywords": [
             "copper area",
@@ -561,7 +561,7 @@
         },
         {
           "question": "Do thermal vias really help?",
-          "answer": "Yes, thermal vias can reduce thermal resistance by 30-50% by transferring heat to inner copper layers. Use multiple vias (9-25) with 0.3mm diameter under the IC thermal pad. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, thermal vias can reduce thermal resistance by 30-50% by transferring heat to inner copper layers. Use multiple vias (9-25) with 0.3mm diameter under the IC thermal pad. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use 9-25 thermal vias under IC thermal pad.",
           "keywords": [
             "thermal vias",
@@ -571,7 +571,7 @@
         },
         {
           "question": "What is the effect of airflow on thermal performance?",
-          "answer": "Airflow significantly improves cooling. Even 100-200 LFM airflow can reduce thermal resistance by 30-50%. Forced air cooling is essential for high-density designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Airflow significantly improves cooling. Even 100-200 LFM airflow can reduce thermal resistance by 30-50%. Forced air cooling is essential for high-density designs. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Consider forced airflow for high-power designs.",
           "keywords": [
             "airflow",
@@ -602,7 +602,7 @@
       "summary": "Comprehensive guide for selecting Chipown LED drivers including topology selection, dimming options, and thermal considerations.",
       "content": [
         "This technical reference document provides detailed information about chipown product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -654,7 +654,7 @@
       "faqs": [
         {
           "question": "When should I use linear vs switching LED drivers?",
-          "answer": "Use linear drivers for low power (<150mA) or when input voltage is close to LED voltage. Use switching drivers for high power or when there's a large voltage differential. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use linear drivers for low power (<150mA) or when input voltage is close to LED voltage. Use switching drivers for high power or when there's a large voltage differential. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Linear for simplicity, switching for efficiency.",
           "keywords": [
             "linear driver",
@@ -664,7 +664,7 @@
         },
         {
           "question": "What dimming methods are supported?",
-          "answer": "Chipown LED drivers support PWM dimming (most common), analog dimming (0-3V), and TRIAC dimming (with external circuitry). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Chipown LED drivers support PWM dimming (most common), analog dimming (0-3V), and TRIAC dimming (with external circuitry). For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "PWM is most versatile, analog is smoothest.",
           "keywords": [
             "dimming",
@@ -675,7 +675,7 @@
         },
         {
           "question": "How do I prevent LED flicker?",
-          "answer": "Use sufficient output capacitance, ensure stable power supply, and follow recommended PCB layout. For TRIAC dimming, maintain adequate holding current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use sufficient output capacitance, ensure stable power supply, and follow recommended PCB layout. For TRIAC dimming, maintain adequate holding current. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Follow layout guidelines and use proper filtering.",
           "keywords": [
             "flicker",
@@ -685,7 +685,7 @@
         },
         {
           "question": "What is the current regulation accuracy?",
-          "answer": "Chipown LED drivers typically achieve ±3% current regulation accuracy, ensuring consistent LED brightness and long lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Chipown LED drivers typically achieve ±3% current regulation accuracy, ensuring consistent LED brightness and long lifetime. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "±3% accuracy sufficient for most applications.",
           "keywords": [
             "current regulation",
@@ -695,7 +695,7 @@
         },
         {
           "question": "Can I drive multiple LED strings?",
-          "answer": "Yes, but each string requires its own current regulation. Do not connect LED strings in parallel without individual drivers as current will not be balanced. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Yes, but each string requires its own current regulation. Do not connect LED strings in parallel without individual drivers as current will not be balanced. For detailed specifications and application support on chipown products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use separate driver for each LED string.",
           "keywords": [
             "multiple strings",

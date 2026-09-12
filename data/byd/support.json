@@ -115,7 +115,7 @@
           "title": "Support Engineer",
           "experience": "8+ years"
         },
-        "content": "In the IGBT selection process, the most common misconception is focusing only on current rating while neglecting thermal design. In fact, thermal limitations are often the deciding factor. We recommend customers perform both electrical and thermal calculations during selection to ensure junction temperature remains within safe limits under worst-case conditions. Additionally, voltage margin must be sufficient, especially for EV applications, considering voltage rise at full battery charge and overvoltage during regenerative braking.",
+        "content": "In the IGBT selection process, the most common misconception is focusing only on current rating while neglecting thermal design. In fact, thermal limitations are often the deciding factor. We recommend customers perform both electrical and thermal calculations during selection to ensure junction temperature remains within safe limits under worst-case conditions. voltage margin must be sufficient, especially for EV applications, considering voltage rise at full battery charge and overvoltage during regenerative braking.",
         "logic": "Thermal design is the key factor in IGBT selection. The selection process should be: First determine voltage rating based on system voltage, then calculate current requirements based on power, then verify thermal design ensures junction temperature <150°C under worst conditions, finally optimize gate drive and PCB layout.",
         "keyTakeaways": [
           "Thermal design is the key factor in IGBT selection",

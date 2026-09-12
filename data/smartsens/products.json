@@ -305,7 +305,7 @@
           },
           "faeReview": {
             "author": "David Wang",
-            "content": "The SC830AI represents a significant advancement in AI-ready security imaging. The 8MP resolution provides the detail needed for accurate facial recognition and license plate reading at reasonable distances. During our evaluation with various AI processors, the AI-ready output formats significantly reduced processing load while maintaining excellent detection accuracy. The 120dB HDR handles challenging lighting scenarios effectively, and the low-light performance exceeds specifications. Integration with Ambarella CV25 and HiSilicon 3516 platforms was straightforward. This sensor has been successfully deployed in multiple intelligent surveillance projects with excellent results.",
+            "content": "The SC830AI is significant advancement in AI-ready security imaging. The 8MP resolution provides the detail needed for accurate facial recognition and license plate reading at reasonable distances. During our evaluation with various AI processors, the AI-ready output formats significantly reduced processing load while maintaining excellent detection accuracy. The 120dB HDR handles challenging lighting scenarios effectively, and the low-light performance exceeds specifications. Integration with Ambarella CV25 and HiSilicon 3516 platforms was straightforward. This sensor has been successfully deployed in multiple intelligent surveillance projects with excellent results.",
             "highlight": [
               "8MP resolution for detailed analytics",
               "AI-optimized output reduces processor load",
@@ -818,7 +818,7 @@
           "faqs": [
             {
               "question": "What is the minimum illumination for SC200AI?",
-              "answer": "The SC200AI achieves excellent low-light performance with minimum illumination of 0.1 lux in color mode and 0.01 lux in monochrome mode. This enables reliable nighttime driving assistance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The SC200AI achieves excellent low-light performance with minimum illumination of 0.1 lux in color mode and 0.01 lux in monochrome mode. This enables reliable nighttime driving assistance. For detailed specifications and application support on smartsens SC200AI, refer to the datasheet or contact our team.",
               "decisionGuide": "For extremely low-light applications, consider using IR illumination to supplement the sensor's natural low-light capabilities.",
               "keywords": [
                 "SC200AI low light",
@@ -828,7 +828,7 @@
             },
             {
               "question": "Is SC200AI suitable for autonomous driving applications?",
-              "answer": "Yes, the SC200AI is designed for autonomous driving camera systems. Its AEC-Q100 Grade 2 qualification and ASIL-B support make it suitable for safety-critical autonomous driving perception systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the SC200AI is designed for autonomous driving camera systems. Its AEC-Q100 Grade 2 qualification and ASIL-B support make it suitable for safety-critical autonomous driving perception systems. For detailed specifications and application support on smartsens SC200AI, refer to the datasheet or contact our team.",
               "decisionGuide": "For autonomous driving, implement multiple sensors with redundancy. The SC200AI provides the reliability needed for perception systems.",
               "keywords": [
                 "SC200AI autonomous",
@@ -1108,7 +1108,7 @@
           },
           "faeReview": {
             "author": "Robert Zhang",
-            "content": "The SC820 represents the pinnacle of SmartSens automotive imaging technology. The 8MP resolution provides the detail necessary for advanced ADAS features like pedestrian detection and traffic sign recognition at highway speeds. The 140dB HDR is exceptional - we've tested it in the most challenging lighting conditions including direct sunlight to dark tunnel transitions. The AI-ready output significantly reduces processing load on the ADAS SoC. This sensor is suitable for premium ADAS and autonomous driving applications.",
+            "content": "The SC820 is the pinnacle of SmartSens automotive imaging technology. The 8MP resolution provides the detail necessary for advanced ADAS features like pedestrian detection and traffic sign recognition at highway speeds. The 140dB HDR is exceptional - we've tested it in the most challenging lighting conditions including direct sunlight to dark tunnel transitions. The AI-ready output significantly reduces processing load on the ADAS SoC. This sensor is suitable for premium ADAS and autonomous driving applications.",
             "highlight": [
               "8MP resolution for advanced ADAS",
               "Exceptional 140dB HDR",
@@ -1827,7 +1827,7 @@
           },
           "faeReview": {
             "author": "Lisa Chen",
-            "content": "The SC800 is an excellent choice for mid-range smartphone applications. The 8MP resolution provides good detail for social media sharing and everyday photography. The compact 1/4 inch format allows for slim camera module designs suitable for modern smartphones. Autofocus performance is reliable with both contrast and PDAF modes. Power consumption is as specified, contributing to good battery life in our test devices. Integration with MediaTek Helio processors was straightforward. Image quality is competitive with other sensors in this price range, making it a good value proposition for cost-sensitive smartphone designs.",
+            "content": "The SC800 is an excellent choice for mid-range smartphone applications. The 8MP resolution provides good detail for social media sharing and everyday photography. The compact 1/4 inch format allows for slim camera module designs suitable for modern smartphones. Autofocus performance is reliable with both contrast and PDAF modes. Power consumption is as specified. Integration with MediaTek Helio processors was straightforward. Image quality is competitive with other sensors in this price range, making it a good value proposition for cost-sensitive smartphone designs.",
             "highlight": [
               "Compact size for slim designs",
               "Good autofocus performance",
@@ -2019,7 +2019,7 @@
           "faqs": [
             {
               "question": "Does SC1300 support 4K video recording?",
-              "answer": "Yes, the SC1300 supports 4K video recording at 30fps and 1080p at 60fps. The 4-lane MIPI CSI-2 interface provides sufficient bandwidth for high-resolution video capture without compression artifacts. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the SC1300 supports 4K video recording at 30fps and 1080p at 60fps. The 4-lane MIPI CSI-2 interface provides sufficient bandwidth for high-resolution video capture without compression artifacts. For detailed specifications and application support on smartsens SC1300, refer to the datasheet or contact our team.",
               "decisionGuide": "For 4K video applications, ensure your processor supports 4K video processing and has adequate storage and encoding capabilities.",
               "keywords": [
                 "SC1300 4K",

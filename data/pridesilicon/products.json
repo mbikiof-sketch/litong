@@ -90,7 +90,11 @@
         "Offset Drift",
         "Gain Drift",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Channels",
+        "Settling Time",
+        "Output Range",
+        "Load Regulation"
       ],
       "series": [
         {
@@ -182,7 +186,7 @@
         },
         {
           "question": "How do I calculate the effective number of bits (ENOB) for my application?",
-          "answer": "ENOB represents the actual resolution achieved considering noise and distortion. It is calculated from the Signal-to-Noise and Distortion Ratio (SINAD) using the formula: ENOB = (SINAD - 1.76) / 6.02. For example, an ADC with 80 dB SINAD has approximately 13 ENOB. Factors affecting ENOB include input signal frequency, reference noise, power supply quality, and PCB layout. PrideSilicon ADCs are characterized for ENOB across temperature and frequency to ensure consistent performance.",
+          "answer": "ENOB is the actual resolution achieved considering noise and distortion. It is calculated from the Signal-to-Noise and Distortion Ratio (SINAD) using the formula: ENOB = (SINAD - 1.76) / 6.02. For example, an ADC with 80 dB SINAD has approximately 13 ENOB. Factors affecting ENOB include input signal frequency, reference noise, power supply quality, and PCB layout. PrideSilicon ADCs are characterized for ENOB across temperature and frequency to ensure consistent performance.",
           "decisionGuide": "Evaluate ENOB at your operating conditions to ensure the ADC meets accuracy requirements. Contact our FAE team for ENOB analysis and layout recommendations.",
           "keywords": [
             "ENOB",
@@ -220,7 +224,11 @@
             "Offset Drift": "N/A",
             "Gain Drift": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Channels": "N/A",
+            "Settling Time": "N/A",
+            "Output Range": "N/A",
+            "Load Regulation": "N/A"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -407,7 +415,11 @@
             "SNR": "N/A",
             "THD": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Channels": "N/A",
+            "Settling Time": "N/A",
+            "Output Range": "N/A",
+            "Load Regulation": "N/A"
           },
           "features": [
             "24-bit resolution with no missing codes",
@@ -585,7 +597,18 @@
             "Power Consumption": "5 mW",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-20, QFN-24"
+            "Package": "TSSOP-20, QFN-24",
+            "THD": "N/A",
+            "Output Data Rate": "N/A",
+            "PGA Gain": "N/A",
+            "Input Noise": "N/A",
+            "Offset Drift": "N/A",
+            "Gain Drift": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Settling Time": "N/A",
+            "Output Range": "N/A",
+            "Load Regulation": "N/A"
           },
           "features": [
             "8-channel input multiplexer",
@@ -632,7 +655,18 @@
             "Power Supply": "2.7V - 5.5V",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-16, QFN-20"
+            "Package": "TSSOP-16, QFN-20",
+            "Sampling Rate": "N/A",
+            "SNR": "N/A",
+            "THD": "N/A",
+            "Power Consumption": "N/A",
+            "Output Data Rate": "N/A",
+            "PGA Gain": "N/A",
+            "Input Noise": "N/A",
+            "Offset Drift": "N/A",
+            "Gain Drift": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "Quad 16-bit DAC with voltage output",
@@ -1155,7 +1189,14 @@
             "Current Limit": "4A typical",
             "Thermal Shutdown": "160°C with 20°C hysteresis",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-6, DFN-8"
+            "Package": "SOT-23-6, DFN-8",
+            "Dropout Voltage": "N/A",
+            "PSRR": "N/A",
+            "Output Noise": "N/A",
+            "Line Regulation": "N/A",
+            "Load Regulation": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "Optimized for 12V input applications",
@@ -1202,7 +1243,13 @@
             "Line Regulation": "0.01%/V",
             "Load Regulation": "0.2%/A",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, DFN-6"
+            "Package": "SOT-23-5, DFN-6",
+            "Switching Frequency": "N/A",
+            "Efficiency": "N/A",
+            "Current Limit": "N/A",
+            "Thermal Shutdown": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "Ultra-low output noise: 10uVrms",
@@ -1656,7 +1703,7 @@
             },
             {
               "question": "What is field-oriented control (FOC) and what are its benefits?",
-              "answer": "Field-oriented control (FOC) is an advanced motor control technique that transforms three-phase currents into a rotating reference frame aligned with the rotor flux. This allows independent control of torque and flux, similar to DC motor control. Benefits include: 1) Maximum torque per ampere for highest efficiency; 2) Smooth operation across entire speed range; 3) Fast dynamic response to load changes; 4) Precise speed and position control; 5) Lower torque ripple and noise. The PSB8060 implements FOC internally, simplifying system design.",
+              "answer": "Field-oriented control (FOC) is an advanced motor control technique that transforms three-phase currents into a rotating reference frame match the rotor flux. This allows independent control of torque and flux, similar to DC motor control. Benefits include: 1) Maximum torque per ampere for highest efficiency; 2) Smooth operation across entire speed range; 3) Fast dynamic response to load changes; 4) Precise speed and position control; 5) Lower torque ripple and noise. The PSB8060 implements FOC internally, simplifying system design.",
               "decisionGuide": "Use FOC for high-performance applications requiring efficiency and smooth operation. Contact our FAE team for FOC parameter tuning guidance.",
               "keywords": [
                 "field-oriented control",
@@ -1719,7 +1766,13 @@
             "Logic Supply": "3.3V - 5V",
             "Protection": "Overcurrent, overtemperature, undervoltage",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "HTSSOP-28, QFN-32"
+            "Package": "HTSSOP-28, QFN-32",
+            "Gate Drive Current": "N/A",
+            "Control Interface": "N/A",
+            "Speed Range": "N/A",
+            "Efficiency": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "Quad half-bridge configuration",
@@ -1764,7 +1817,13 @@
             "Efficiency": "Up to 93%",
             "Protection": "Overcurrent, locked rotor, overtemperature",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "QFN-24, TSSOP-24"
+            "Package": "QFN-24, TSSOP-24",
+            "Output Current": "N/A",
+            "RDS(on)": "N/A",
+            "Current Sensing": "N/A",
+            "Logic Supply": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "10A gate drive for high-power motors",
@@ -1814,7 +1873,8 @@
         "Gain Range",
         "Gain Error",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "Input Common-Mode Range"
       ],
       "series": [
         {
@@ -1942,7 +2002,8 @@
             "Gain Range": "N/A",
             "Gain Error": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Input Common-Mode Range": "N/A"
           },
           "features": [
             "Ultra-low offset voltage: 10uV max",
@@ -2124,7 +2185,8 @@
             "Package": "SOIC-8, MSOP-8, DFN-8",
             "PSRR": "N/A",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Input Common-Mode Range": "N/A"
           },
           "features": [
             "High CMRR: 120dB minimum",
@@ -2302,7 +2364,12 @@
             "PSRR": "120dB",
             "Supply Voltage": "2.2V - 5.5V single, ±1.1V - ±2.75V dual",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, SOIC-8, MSOP-8"
+            "Package": "SOT-23-5, SOIC-8, MSOP-8",
+            "Gain Range": "N/A",
+            "Gain Error": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Input Common-Mode Range": "N/A"
           },
           "features": [
             "Ultra-low offset: 1μV max",
@@ -2349,7 +2416,12 @@
             "Bandwidth": "600kHz at Gain=1",
             "Supply Voltage": "±5V to ±15V dual supply",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOIC-8, DIP-8"
+            "Package": "SOIC-8, DIP-8",
+            "Input Bias Current": "N/A",
+            "Slew Rate": "N/A",
+            "PSRR": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "±60V input common-mode range",

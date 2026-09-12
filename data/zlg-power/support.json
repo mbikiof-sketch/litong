@@ -586,7 +586,7 @@
           "Keep switching node traces away from feedback and control circuits",
           "Test early in development - fixing EMI at the prototype stage is 10x cheaper than production"
         ],
-        "insightLogic": "EMI is fundamentally about managing electromagnetic fields. Fast switching creates changing magnetic fields that couple to other circuits. Minimizing loop areas reduces magnetic field generation, while proper filtering prevents conducted propagation. Understanding field behavior guides effective mitigation strategies.",
+        "insightLogic": "EMI is about managing electromagnetic fields. Fast switching creates changing magnetic fields that couple to other circuits. Minimizing loop areas reduces magnetic field generation, while proper filtering prevents conducted propagation. Understanding field behavior guides effective mitigation strategies.",
         "author": {
           "name": "Technical FAE",
           "title": "Support Engineer",

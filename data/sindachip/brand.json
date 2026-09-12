@@ -12,44 +12,81 @@
     {
       "name": "Operational Amplifiers",
       "description": "High-performance op-amps including precision zero-drift, general-purpose, low-power, and high-speed amplifiers for signal conditioning and analog processing applications.",
-      "keywords": ["op-amp", "operational amplifier", "zero drift", "precision analog"]
+      "keywords": [
+        "op-amp",
+        "operational amplifier",
+        "zero drift",
+        "precision analog"
+      ]
     },
     {
       "name": "Voltage Regulators",
       "description": "Low-dropout linear regulators featuring ultra-low noise, high PSRR, and low quiescent current for sensitive analog and battery-powered applications.",
-      "keywords": ["LDO", "voltage regulator", "low dropout", "power management"]
+      "keywords": [
+        "LDO",
+        "voltage regulator",
+        "low dropout",
+        "power management"
+      ]
     },
     {
       "name": "LED Drivers",
       "description": "Efficient DC-DC LED drivers with multiple topology support, PWM dimming, and comprehensive protection features for lighting applications.",
-      "keywords": ["LED driver", "lighting IC", "DC-DC converter", "PWM dimming"]
+      "keywords": [
+        "LED driver",
+        "lighting IC",
+        "DC-DC converter",
+        "PWM dimming"
+      ]
     },
     {
       "name": "Power Management ICs",
       "description": "Comprehensive power management solutions including battery chargers, load switches, and multi-channel PMICs for portable and industrial systems.",
-      "keywords": ["PMIC", "battery charger", "load switch", "power management"]
+      "keywords": [
+        "PMIC",
+        "battery charger",
+        "load switch",
+        "power management"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Consumer Electronics",
       "description": "Smartphones, tablets, wearables, and portable media players requiring low-power analog and power management solutions.",
-      "keywords": ["consumer electronics", "portable devices", "mobile applications"]
+      "keywords": [
+        "consumer electronics",
+        "portable devices",
+        "mobile applications"
+      ]
     },
     {
       "name": "Industrial Automation",
       "description": "Factory automation, process control, and instrumentation systems requiring precision analog signal processing and reliable power solutions.",
-      "keywords": ["industrial automation", "process control", "instrumentation"]
+      "keywords": [
+        "industrial automation",
+        "process control",
+        "instrumentation"
+      ]
     },
     {
       "name": "Automotive Electronics",
       "description": "Vehicle infotainment, ADAS, and body electronics requiring robust analog components with automotive-grade reliability.",
-      "keywords": ["automotive electronics", "vehicle systems", "ADAS"]
+      "keywords": [
+        "automotive electronics",
+        "vehicle systems",
+        "ADAS"
+      ]
     },
     {
       "name": "IoT and Smart Devices",
       "description": "Internet of Things devices, smart home products, and wireless sensor networks requiring ultra-low power analog and power management ICs.",
-      "keywords": ["IoT", "smart devices", "wireless sensors", "low power"]
+      "keywords": [
+        "IoT",
+        "smart devices",
+        "wireless sensors",
+        "low power"
+      ]
     }
   ],
   "certifications": [
@@ -79,43 +116,71 @@
       "question": "Is LiTong an authorized distributor of Sindachip products?",
       "answer": "Yes, LiTong Electronics is an authorized distributor of Sindachip analog ICs and power management products. Our partnership provides customers with guaranteed authentic products, factory-direct pricing, and comprehensive technical support. As an authorized distributor, we maintain inventory of popular Sindachip products and can support both prototype and high-volume production requirements. Our FAE team has received direct training from Sindachip engineers and can provide expert guidance on product selection, application design, and troubleshooting.",
       "decisionGuide": "Contact LiTong for Sindachip product inquiries, samples, and technical documentation. Our team can provide competitive pricing and lead time information for your specific requirements.",
-      "keywords": ["Sindachip authorized distributor", "authentic Sindachip products", "LiTong distributor"]
+      "keywords": [
+        "Sindachip authorized distributor",
+        "authentic Sindachip products",
+        "LiTong distributor"
+      ]
     },
     {
       "question": "What are Sindachip's core competitive advantages in the analog IC market?",
       "answer": "Sindachip offers several key competitive advantages in the analog IC market. First, the company provides excellent cost-performance ratios, delivering comparable specifications to international brands at more competitive price points. Second, Sindachip maintains strong R&D capabilities with continuous product innovation and rapid response to market demands. Third, the company offers comprehensive product portfolios covering operational amplifiers, voltage regulators, LED drivers, and power management ICs, enabling one-stop sourcing for analog solutions. Fourth, Sindachip products are manufactured with stringent quality control and have proven reliability in mass production across diverse applications. Finally, as a Chinese company, Sindachip offers supply chain advantages including shorter lead times and better support for local manufacturing.",
       "decisionGuide": "Evaluate Sindachip products for your cost-sensitive applications while maintaining performance requirements. Contact LiTong FAEs for competitive analysis and sample evaluation.",
-      "keywords": ["Sindachip advantages", "analog IC cost performance", "Sindachip quality"]
+      "keywords": [
+        "Sindachip advantages",
+        "analog IC cost performance",
+        "Sindachip quality"
+      ]
     },
     {
       "question": "How do Sindachip products compare to international brands like TI and ADI?",
       "answer": "Sindachip products offer competitive alternatives to international brands with comparable electrical specifications in many cases. In operational amplifiers, Sindachip's zero-drift series achieves offset voltages and drift specifications similar to precision offerings from major brands. Voltage regulators provide comparable PSRR, noise, and dropout characteristics. The key differences are typically in extreme temperature ranges (-55°C to +125°C military grade) and certain specialized high-frequency applications. For mainstream commercial and industrial applications (0°C to +85°C or -40°C to +85°C), Sindachip products provide excellent performance at significantly lower cost. Many customers successfully use Sindachip as a second source or cost-reduction alternative for established designs.",
       "decisionGuide": "For commercial and industrial temperature range applications, Sindachip offers excellent value. Contact LiTong for detailed comparison matrices and cross-reference guides.",
-      "keywords": ["Sindachip vs TI", "Sindachip vs ADI", "analog IC comparison"]
+      "keywords": [
+        "Sindachip vs TI",
+        "Sindachip vs ADI",
+        "analog IC comparison"
+      ]
     },
     {
       "question": "What technical support does LiTong provide for Sindachip products?",
       "answer": "LiTong provides comprehensive technical support for Sindachip products through our experienced FAE team. Support services include product selection guidance based on application requirements, schematic and PCB layout review, application troubleshooting, and reference design consultation. We offer sample evaluation support, datasheet interpretation, and parameter analysis. For complex designs, our FAEs can provide simulation guidance and bench testing assistance. LiTong also maintains a library of application notes, reference designs, and FAQ documentation. Customers can access support through phone, email, or on-site visits depending on project requirements and location.",
       "decisionGuide": "Leverage LiTong's FAE support throughout your design cycle from concept to production. Contact us early in your design phase for optimal product selection guidance.",
-      "keywords": ["Sindachip technical support", "LiTong FAE services", "analog design support"]
+      "keywords": [
+        "Sindachip technical support",
+        "LiTong FAE services",
+        "analog design support"
+      ]
     },
     {
       "question": "What is the typical lead time for Sindachip products?",
       "answer": "Lead times for Sindachip products vary based on product type and order volume. Standard products typically have 4-6 week lead times for moderate volumes. Popular high-volume products are often stocked by LiTong for immediate delivery. For large production orders, lead times can be negotiated with factory support. Sindachip's domestic manufacturing advantage often results in shorter and more predictable lead times compared to overseas suppliers. LiTong maintains safety stock of commonly used products to support urgent requirements. For specific lead time information, customers should contact LiTong with their product requirements and forecast volumes.",
       "decisionGuide": "Plan your procurement with standard 4-6 week lead times. Contact LiTong for current stock status and expedited delivery options for urgent requirements.",
-      "keywords": ["Sindachip lead time", "analog IC delivery", "LiTong inventory"]
+      "keywords": [
+        "Sindachip lead time",
+        "analog IC delivery",
+        "LiTong inventory"
+      ]
     },
     {
       "question": "Does Sindachip offer automotive-grade products for AEC-Q100 applications?",
       "answer": "Sindachip is expanding its automotive product portfolio with AEC-Q100 qualified devices. Several voltage regulators and operational amplifiers have achieved automotive qualification and are suitable for non-safety-critical automotive applications such as infotainment systems, body electronics, and climate control. These products undergo enhanced reliability testing including high-temperature operating life, temperature cycling, and ESD testing. For safety-critical applications (ASIL requirements), customers should consult with LiTong FAEs regarding specific product qualifications and system-level safety considerations. Sindachip continues to invest in automotive certifications as part of its product roadmap.",
       "decisionGuide": "Contact LiTong for current AEC-Q100 qualified product availability and roadmap information for automotive applications.",
-      "keywords": ["Sindachip automotive", "AEC-Q100 qualified", "automotive analog IC"]
+      "keywords": [
+        "Sindachip automotive",
+        "AEC-Q100 qualified",
+        "automotive analog IC"
+      ]
     },
     {
       "question": "What are the advantages of sourcing Sindachip products through LiTong?",
-      "answer": "Sourcing Sindachip products through LiTong offers multiple advantages. As an authorized distributor, we guarantee product authenticity and factory-direct pricing. Our local inventory and logistics capabilities enable faster delivery compared to direct factory orders. LiTong provides value-added technical support from our FAE team with deep Sindachip product knowledge. We offer flexible payment terms and credit options for qualified customers. Our quality management system ensures proper handling and storage of sensitive electronic components. LiTong can support VMI (Vendor Managed Inventory) programs for high-volume customers. Additionally, we provide consolidated sourcing for multiple component lines, simplifying procurement processes for customers.",
+      "answer": "Sourcing Sindachip products through LiTong offers multiple advantages. As an authorized distributor, we guarantee product authenticity and factory-direct pricing. Our local inventory and logistics capabilities enable faster delivery compared to direct factory orders. LiTong provides value-added technical support from our FAE team with deep Sindachip product knowledge. We offer flexible payment terms and credit options for qualified customers. Our quality management system ensures proper handling and storage of sensitive electronic components. LiTong can support VMI (Vendor Managed Inventory) programs for high-volume customers. we provide consolidated sourcing for multiple component lines, simplifying procurement processes for customers.",
       "decisionGuide": "Partner with LiTong for reliable Sindachip supply, technical support, and competitive pricing. Contact our sales team to discuss your specific procurement requirements.",
-      "keywords": ["Sindachip distributor benefits", "LiTong value added", "authorized distributor advantages"]
+      "keywords": [
+        "Sindachip distributor benefits",
+        "LiTong value added",
+        "authorized distributor advantages"
+      ]
     }
   ]
 }

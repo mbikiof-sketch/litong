@@ -88,7 +88,15 @@
         "DNL",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Update Rate",
+        "Output",
+        "Gain Bandwidth",
+        "Slew Rate",
+        "Input Offset",
+        "Input Noise",
+        "Supply Voltage",
+        "Supply Current"
       ],
       "applications": [
         "Communications",
@@ -179,7 +187,15 @@
             "DNL": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Update Rate": "N/A",
+            "Output": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Slew Rate": "N/A",
+            "Input Offset": "N/A",
+            "Input Noise": "N/A",
+            "Supply Voltage": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "High 250MSPS sampling rate",
@@ -300,7 +316,7 @@
             },
             {
               "question": "What output formats does CBM94AD67 support?",
-              "answer": "The CBM94AD67 supports multiple output formats: (1) Offset binary - unipolar coding from 0 to 16383; (2) Two's complement - bipolar coding from -8192 to +8191; (3) Gray code - for special applications. The default is offset binary. Output mode is configured via SPI register 0x02. The LVDS outputs operate at 250MSPS x 14 bits = 3.5Gbps total data rate. The device supports double-data-rate (DDR) LVDS to reduce pin count. Output timing is adjustable via register settings to align with FPGA capture.",
+              "answer": "The CBM94AD67 supports multiple output formats: (1) Offset binary - unipolar coding from 0 to 16383; (2) Two's complement - bipolar coding from -8192 to +8191; (3) Gray code - for special applications. The default is offset binary. Output mode is configured via SPI register 0x02. The LVDS outputs operate at 250MSPS x 14 bits = 3.5Gbps total data rate. The device supports double-data-rate (DDR) LVDS to reduce pin count. Output timing is adjustable via register settings to match FPGA capture.",
               "decisionGuide": "Use offset binary for unipolar, two's complement for bipolar applications.",
               "keywords": [
                 "CBM94AD67 output",
@@ -343,7 +359,15 @@
             "ENOB": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Update Rate": "N/A",
+            "Output": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Slew Rate": "N/A",
+            "Input Offset": "N/A",
+            "Input Noise": "N/A",
+            "Supply Voltage": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "High 16-bit resolution",
@@ -449,7 +473,18 @@
             "Package": "7x7mm QFN-48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Sampling Rate": "N/A",
+            "ENOB": "N/A",
+            "Input Range": "N/A",
+            "INL": "N/A",
+            "DNL": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Slew Rate": "N/A",
+            "Input Offset": "N/A",
+            "Input Noise": "N/A",
+            "Supply Voltage": "N/A",
+            "Supply Current": "N/A"
           },
           "features": [
             "High 250MSPS update rate",
@@ -536,7 +571,18 @@
             "Package": "SOT23-5, SOIC-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +125°C"
+            "Temperature Range": "-40°C to +125°C",
+            "Resolution": "N/A",
+            "Sampling Rate": "N/A",
+            "SNR": "N/A",
+            "SFDR": "N/A",
+            "ENOB": "N/A",
+            "Power Consumption": "N/A",
+            "Input Range": "N/A",
+            "Interface": "N/A",
+            "INL": "N/A",
+            "DNL": "N/A",
+            "Update Rate": "N/A"
           },
           "features": [
             "Low 50μV offset voltage",
@@ -624,7 +670,7 @@
         "SFDR",
         "SNR",
         "Power Consumption",
-        "Output Type",
+        "Output",
         "Interface",
         "Voltage Rating",
         "Current Rating",
@@ -853,16 +899,17 @@
       ],
       "parameters": [
         "Frequency Range",
-        "Output Power",
-        "Noise Figure",
+        "Tx Output Power",
+        "Rx Noise Figure",
         "Phase Noise",
         "EVM",
         "Power Consumption",
         "Supply Voltage",
-        "Package",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Rx Sensitivity",
+        "Data Rate"
       ],
       "applications": [
         "4G/5G Base Stations",
@@ -905,7 +952,9 @@
             "Package": "10x10mm QFN-72",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Rx Sensitivity": "N/A",
+            "Data Rate": "N/A"
           },
           "features": [
             "Wide 600MHz-6GHz frequency range",
@@ -951,7 +1000,10 @@
             "Package": "4x4mm QFN-24",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Rx Noise Figure": "N/A",
+            "Phase Noise": "N/A",
+            "EVM": "N/A"
           },
           "features": [
             "Low power consumption",
@@ -998,7 +1050,10 @@
             "Package": "6x6mm QFN-48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-20°C to +70°C"
+            "Temperature Range": "-20°C to +70°C",
+            "Rx Noise Figure": "N/A",
+            "Phase Noise": "N/A",
+            "EVM": "N/A"
           },
           "features": [
             "802.11a/n/ac support",
@@ -1043,7 +1098,10 @@
             "Package": "5x5mm QFN-32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Rx Noise Figure": "N/A",
+            "Phase Noise": "N/A",
+            "EVM": "N/A"
           },
           "features": [
             "Sub-1GHz for long range",
@@ -1096,7 +1154,8 @@
         "PSRR",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Offset Drift"
       ],
       "applications": [
         "Sensor Signal Conditioning",
@@ -1141,7 +1200,8 @@
             "Package": "SOT23-5, SOIC-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +125°C"
+            "Temperature Range": "-40°C to +125°C",
+            "Offset Drift": "N/A"
           },
           "features": [
             "Low 50μV offset voltage",
@@ -1237,7 +1297,8 @@
             "Package": "SOIC-8, MSOP-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Offset Drift": "N/A"
           },
           "features": [
             "High 100MHz bandwidth",
@@ -1285,7 +1346,8 @@
             "Package": "SOT23-5, SC70-5",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Offset Drift": "N/A"
           },
           "features": [
             "Ultra-low 20μA supply current",

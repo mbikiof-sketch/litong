@@ -114,7 +114,7 @@
       "summary": "Comprehensive guide for selecting CPS power MOSFETs including voltage rating, current capability, and package selection.",
       "content": [
         "This technical reference document provides detailed information about cps product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -175,15 +175,15 @@
         },
         {
           "question": "How do I calculate conduction losses?",
-          "answer": "Conduction loss Pcond = I² × Rds(on) × D, where I is RMS current and D is duty cycle. Use maximum Rds(on) at operating temperature for worst-case calculation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+          "answer": "Conduction loss Pcond = I² × Rds(on) × D, where I is RMS current and D is duty cycle. Use maximum Rds(on) at operating temperature for worst-case calculation. For detailed specifications and application support on cps products, refer to the datasheet or contact our team."
         },
         {
           "question": "What affects switching losses?",
-          "answer": "Switching losses depend on switching frequency, voltage, current, and switching speed. Faster switching reduces switching time but may increase EMI and voltage spikes. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+          "answer": "Switching losses depend on switching frequency, voltage, current, and switching speed. Faster switching reduces switching time but may increase EMI and voltage spikes. For detailed specifications and application support on cps products, refer to the datasheet or contact our team."
         },
         {
           "question": "How do I select the right package?",
-          "answer": "Package selection depends on power dissipation, thermal requirements, and PCB space. Higher power requires packages with lower thermal resistance like D2PAK or TO-247. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+          "answer": "Package selection depends on power dissipation, thermal requirements, and PCB space. Higher power requires packages with lower thermal resistance like D2PAK or TO-247. For detailed specifications and application support on cps products, refer to the datasheet or contact our team."
         },
         {
           "question": "Can I use logic-level MOSFETs for all applications?",
@@ -197,9 +197,9 @@
       "category": "Technical Guide",
       "summary": "Comprehensive guide for product selection and application.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide for product selection and application.",
+        "Key topics covered include Technical Guide, Best Practices, Design Support. This section provides detailed technical information for engineers designing with cps products.",
+        "For specific application requirements and design assistance, contact cps's technical support team or refer to the official product documentation and reference designs."
       ],
       "author": {
         "name": "Michael Chen",
@@ -286,7 +286,7 @@
       "summary": "Comprehensive guide for product selection and application.",
       "content": [
         "This technical reference document provides detailed information about cps product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

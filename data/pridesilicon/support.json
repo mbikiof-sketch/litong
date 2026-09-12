@@ -203,7 +203,7 @@
           "industry": "Test & Measurement",
           "application": "Digital Multimeter",
           "problem": "Customer experienced accuracy issues with 24-bit ADC in precision multimeter design. DC accuracy was worse than specified, particularly at temperature extremes.",
-          "diagnosis": "Analysis revealed reference voltage drift was the primary cause. The voltage reference had 50ppm/°C drift, contributing 1.2mV error across temperature range. Additionally, input bias current through high source resistance created offset errors.",
+          "diagnosis": "Analysis revealed reference voltage drift was the primary cause. The voltage reference had 50ppm/°C drift, contributing 1.2mV error across temperature range. input bias current through high source resistance created offset errors.",
           "solution": "Replaced voltage reference with ultra-low drift (5ppm/°C) reference. Added buffer amplifier to isolate high source impedance from ADC input. Implemented ratiometric measurement for reference-independent accuracy.",
           "results": [
             "DC accuracy improved from 0.05% to 0.01%",

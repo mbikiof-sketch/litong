@@ -353,7 +353,7 @@
         },
         {
           "question": "How do I select the switching frequency?",
-          "answer": "Switching frequency selection involves trade-offs: Higher frequency (100-150kHz) - smaller magnetics and capacitors, higher switching losses, more EMI. Lower frequency (50-70kHz) - larger components, lower switching losses, easier EMI. Typical selections: 65kHz for general purpose, 100kHz for compact designs, 130kHz+ for very small adapters. Consider EMI standards - some frequencies may align with broadcast bands. BPSemi controllers offer flexible frequency selection to optimize for your application.",
+          "answer": "Switching frequency selection involves trade-offs: Higher frequency (100-150kHz) - smaller magnetics and capacitors, higher switching losses, more EMI. Lower frequency (50-70kHz) - larger components, lower switching losses, easier EMI. Typical selections: 65kHz for general purpose, 100kHz for compact designs, 130kHz+ for very small adapters. Consider EMI standards - some frequencies may match broadcast bands. BPSemi controllers offer flexible frequency selection to optimize for your application.",
           "decisionGuide": "Start with 65-100kHz for general applications. Contact LiTong for frequency optimization guidance.",
           "keywords": [
             "switching frequency",

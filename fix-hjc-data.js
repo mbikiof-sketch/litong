@@ -236,7 +236,7 @@ const realSupportArticle5 = {
   author: {
     name: "Zhang Wei",
     title: "Senior FAE - Passive Components",
-    email: "zhang.wei@litong.com"
+    email: "zhang.wei@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

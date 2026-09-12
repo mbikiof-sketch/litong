@@ -718,7 +718,7 @@ const newsData = {
       "content": "ChipON has introduced a new industrial automation solution featuring the KF3020 32-bit MCU with integrated Ethernet MAC and comprehensive industrial protocol support. The solution targets PLC controllers, industrial gateways, and motion control applications.\n\nKey specifications and features:\n- ARM Cortex-M3 core running at 72MHz\n- Integrated 10/100 Ethernet MAC with MII/RMII\n- Dual CAN 2.0B interfaces for fieldbus connectivity\n- Support for Modbus TCP, EtherNet/IP, and CANopen protocols\n- Industrial temperature range (-40°C to +85°C)\n- Robust EMC performance for factory environments\n\nThe solution includes complete reference designs, protocol stack libraries, and evaluation boards to accelerate development.\n\nLiTong provides complete technical support for the industrial automation solution including network configuration guidance, protocol implementation support, and EMC design assistance. Contact our team for evaluation samples and design resources."
     },
     {
-      "id": "litong-chipon-partnership-expansion",
+      "id": "BeiLuo-chipon-partnership-expansion",
       "title": "LiTong Expands Partnership with ChipON to Include Full Product Portfolio",
       "date": "2026-01-20",
       "category": "Partnership News",

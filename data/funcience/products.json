@@ -145,7 +145,7 @@
         {
           "partNumber": "FCE1100",
           "name": "FCE1100 EtherCAT Slave Controller",
-          "shortDescription": "2-port EtherCAT slave controller, pin-compatible with Beckhoff ET1100, supports SPI and parallel MCU interfaces with ...",
+          "shortDescription": "2-port EtherCAT slave controller, pin-compatible with Beckhoff ET1100, supports SPI and parallel MCU interfaces with...",
           "descriptionParagraphs": [
             "The FCE1100 is a high-performance 2-port EtherCAT slave controller designed as a pin-compatible alternative to Beckhoff ET1100. It implements the EtherCAT data link layer protocol and supports 100BASE-TX Ethernet communication.",
             "The chip features 8KB of internal DPRAM for process data exchange and supports both SPI and 8/16-bit parallel MCU host interfaces. External PHY chips are required for Ethernet connectivity, providing flexibility in PHY selection.",
@@ -957,7 +957,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-3-1",
               "question": "What is the FCP32C335-L?",
-              "answer": "The FCP32C335-L is a low-power variant of the FCP32C335 DSP with a 100MHz C28x core, designed for battery-powered and energy-efficient applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The FCP32C335-L is a low-power variant of the FCP32C335 DSP with a 100MHz C28x core, designed for battery-powered and energy-efficient applications. For detailed specifications and application support on funcience FCP32C335-L, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-L"
               ]
@@ -965,7 +965,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-3-2",
               "question": "How much power does it save?",
-              "answer": "The FCP32C335-L reduces power consumption by approximately 40% compared to the standard FCP32C335, making it ideal for battery-powered systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The FCP32C335-L reduces power consumption by approximately 40% compared to the standard FCP32C335, making it ideal for battery-powered systems. For detailed specifications and application support on funcience FCP32C335-L, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-L"
               ]
@@ -973,7 +973,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-3-3",
               "question": "Is it code-compatible?",
-              "answer": "Yes, the FCP32C335-L is fully code-compatible with the FCP32C335. Applications can be ported with only timing adjustments for the lower clock frequency. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the FCP32C335-L is fully code-compatible with the FCP32C335. Applications can be ported with only timing adjustments for the lower clock frequency. For detailed specifications and application support on funcience FCP32C335-L, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-L"
               ]
@@ -1035,7 +1035,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-4-1",
               "question": "What makes FCP32C335-H different?",
-              "answer": "The FCP32C335-H features a 200MHz core (vs 150MHz), enhanced FPU, and expanded memory (512KB Flash, 100KB RAM) for high-performance applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The FCP32C335-H features a 200MHz core (vs 150MHz), enhanced FPU, and expanded memory (512KB Flash, 100KB RAM) for high-performance applications. For detailed specifications and application support on funcience FCP32C335-H, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-H"
               ]
@@ -1043,7 +1043,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-4-2",
               "question": "What applications benefit most?",
-              "answer": "Multi-axis CNC machines, advanced robotics, and complex power conversion systems benefit most from the enhanced processing power. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Multi-axis CNC machines, advanced robotics, and complex power conversion systems benefit most from the enhanced processing power. For detailed specifications and application support on funcience FCP32C335-H, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-H"
               ]
@@ -1051,7 +1051,7 @@
             {
               "id": "FAQ-DSP-PROCESSORS-4-3",
               "question": "Is it pin-compatible?",
-              "answer": "Yes, the FCP32C335-H is pin-compatible with the standard FCP32C335, allowing for performance upgrades without PCB redesign. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the FCP32C335-H is pin-compatible with the standard FCP32C335, allowing for performance upgrades without PCB redesign. For detailed specifications and application support on funcience FCP32C335-H, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCP32C335-H"
               ]
@@ -1536,7 +1536,7 @@
             {
               "id": "FAQ-PHY-3-1",
               "question": "What is FEP1000?",
-              "answer": "Industrial Ethernet PHY. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Industrial Ethernet PHY. For detailed specifications and application support on funcience FEP1000, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "relatedProducts": [
                 "FEP1000"
               ]
@@ -1593,7 +1593,7 @@
             {
               "id": "FAQ-PHY-4-1",
               "question": "What speeds?",
-              "answer": "10/100/1000Mbps. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "10/100/1000Mbps. For detailed specifications and application support on funcience FEP1000-G, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "relatedProducts": [
                 "FEP1000-G"
               ]
@@ -1865,7 +1865,7 @@
             },
             {
               "question": "Can I use the FCE1100-EVK for production testing?",
-              "answer": "Yes, the FCE1100-EVK can be adapted for production testing purposes. The evaluation board can serve as a reference for building production test fixtures. The sample code can be modified for automated testing procedures. However, the EVK itself is not designed for production line use - it's intended for evaluation and development. For production testing, you should design a dedicated test fixture based on the EVK reference design. Funcience can provide guidance on production test strategies. Many customers use the EVK as a starting point for developing their production test systems.",
+              "answer": "Yes, the FCE1100-EVK can be adapted for production testing purposes. The evaluation board can is a reference for building production test fixtures. The sample code can be modified for automated testing procedures. However, the EVK itself is not designed for production line use - it's intended for evaluation and development. For production testing, you should design a dedicated test fixture based on the EVK reference design. Funcience can provide guidance on production test strategies. Many customers use the EVK as a starting point for developing their production test systems.",
               "decisionGuide": "Use EVK as reference for production test fixtures. Contact us for production test guidance.",
               "keywords": [
                 "production testing",
@@ -2052,7 +2052,7 @@
             },
             {
               "question": "Can the EVK power stage be used in production?",
-              "answer": "The EVK power stage demonstrates proper circuit design but is intended for evaluation, not production. The 1kW rating is suitable for evaluation purposes. For production, you should design a power stage optimized for your specific requirements: Your motor voltage and current ratings. Your thermal environment and cooling method. Your cost and size constraints. Your regulatory requirements (safety, EMC). The EVK power stage serves as an excellent reference design. Funcience can provide guidance on power stage design and review your production design. Many customers use the EVK circuit as a starting point for their production power stage.",
+              "answer": "The EVK power stage demonstrates proper circuit design but is intended for evaluation, not production. The 1kW rating is suitable for evaluation purposes. For production, you should design a power stage optimized for your specific requirements: Your motor voltage and current ratings. Your thermal environment and cooling method. Your cost and size constraints. Your regulatory requirements (safety, EMC). The EVK power stage is an excellent reference design. Funcience can provide guidance on power stage design and review your production design. Many customers use the EVK circuit as a starting point for their production power stage.",
               "decisionGuide": "Use EVK power stage as reference for production design. Contact us for power stage design review.",
               "keywords": [
                 "power stage",
@@ -2086,7 +2086,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-3-1",
               "question": "What is included in FCE-EVK-1100?",
-              "answer": "The kit includes an evaluation board with FCE1100, external PHYs, cables, power supply, software with examples, and comprehensive documentation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The kit includes an evaluation board with FCE1100, external PHYs, cables, power supply, software with examples, and comprehensive documentation. For detailed specifications and application support on funcience FCE-EVK-1100, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1100"
               ]
@@ -2094,7 +2094,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-3-2",
               "question": "Is software provided?",
-              "answer": "Yes, the kit includes example applications, configuration tools, and drivers to accelerate development. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the kit includes example applications, configuration tools, and drivers to accelerate development. For detailed specifications and application support on funcience FCE-EVK-1100, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1100"
               ]
@@ -2102,7 +2102,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-3-3",
               "question": "Can it be used for production?",
-              "answer": "The EVK is for evaluation only. Production designs should use the reference design as a starting point. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The EVK is for evaluation only. Production designs should use the reference design as a starting point. For detailed specifications and application support on funcience FCE-EVK-1100, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1100"
               ]
@@ -2148,7 +2148,7 @@
           "shortDescription": "Evaluation kit for FCE1353 integrated PHY EtherCAT controller with simplified design and reduced BOM demonstration.",
           "descriptionParagraphs": [
             "The FCE-EVK-1353 evaluation kit demonstrates the advantages of the FCE1353 integrated PHY EtherCAT controller. The simplified design shows BOM cost reduction and PCB space savings.",
-            "Featuring the FCE1353 with dual integrated PHYs, this kit requires no external Ethernet PHYs, demonstrating the lowest-cost EtherCAT slave implementation. The compact board design fits space-constrained applications.",
+            "Featuring the FCE1353 with dual integrated PHYs, this kit requires no external Ethernet PHYs. The compact board design fits space-constrained applications.",
             "The kit includes example firmware for various applications, configuration software, and detailed documentation showing how to leverage the integrated PHY advantages."
           ],
           "specs": {
@@ -2167,7 +2167,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-4-1",
               "question": "What makes FCE-EVK-1353 different?",
-              "answer": "This kit demonstrates the FCE1353 with integrated PHYs, showing BOM cost reduction and simplified PCB design compared to external PHY solutions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This kit demonstrates the FCE1353 with integrated PHYs, showing BOM cost reduction and simplified PCB design compared to external PHY solutions. For detailed specifications and application support on funcience FCE-EVK-1353, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1353"
               ]
@@ -2175,7 +2175,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-4-2",
               "question": "How much BOM cost is saved?",
-              "answer": "Typical BOM cost savings of 15-20% compared to external PHY solutions, plus reduced PCB complexity and assembly cost. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Typical BOM cost savings of 15-20% compared to external PHY solutions, plus reduced PCB complexity and assembly cost. For detailed specifications and application support on funcience FCE-EVK-1353, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1353"
               ]
@@ -2183,7 +2183,7 @@
             {
               "id": "FAQ-DEVELOPMENT-TOOLS-4-3",
               "question": "What software is included?",
-              "answer": "Example firmware for common applications, configuration tools, and comprehensive documentation are included. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Example firmware for common applications, configuration tools, and comprehensive documentation are included. For detailed specifications and application support on funcience FCE-EVK-1353, refer to the datasheet or contact our team.",
               "relatedProducts": [
                 "FCE-EVK-1353"
               ]

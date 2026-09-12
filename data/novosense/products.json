@@ -391,7 +391,7 @@
           "faqs": [
             {
               "question": "What is the maximum SPI clock frequency supported by NSi8240?",
-              "answer": "The NSi8240 supports data rates up to 10Mbps per channel, which translates to SPI clock frequencies up to 10MHz for standard single-edge clocking. For dual-edge (DDR) SPI modes, the effective data rate can reach 20Mbps. The typical propagation delay of 12ns means the total round-trip delay for SPI communication includes 12ns on each signal path. At 10MHz SPI clock, each bit period is 100ns, so the isolator delay represents 12% of the bit time - acceptable for most applications. For time-critical motor control SPI at 8MHz, we recommend validating timing margins with actual PCB layout.",
+              "answer": "The NSi8240 supports data rates up to 10Mbps per channel, which translates to SPI clock frequencies up to 10MHz for standard single-edge clocking. For dual-edge (DDR) SPI modes, the effective data rate can reach 20Mbps. The typical propagation delay of 12ns means the total round-trip delay for SPI communication includes 12ns on each signal path. At 10MHz SPI clock, each bit period is 100ns, so the isolator delay is 12% of the bit time - acceptable for most applications. For time-critical motor control SPI at 8MHz, we recommend validating timing margins with actual PCB layout.",
               "decisionGuide": "For SPI up to 10MHz, NSi8240 provides adequate timing margin. For very high-speed SPI above 20MHz, consider NSi8250 with 50MHz rating and lower propagation delay.",
               "keywords": [
                 "SPI clock frequency",
@@ -843,7 +843,12 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Rise/Fall Time",
+        "UVLO Threshold",
+        "Certification",
+        "Desaturation Threshold",
+        "Soft Turn-off Time"
       ],
       "applications": [
         "SiC MOSFET drivers",
@@ -862,7 +867,7 @@
         {
           "partNumber": "NSi6602",
           "name": "Isolated SiC/IGBT Gate Driver",
-          "shortDescription": "NSi6602 is a 4A/6A isolated gate driver for SiC MOSFETs and IGBTs with 5kVrms reinforced isolation, featuring ...",
+          "shortDescription": "NSi6602 is a 4A/6A isolated gate driver for SiC MOSFETs and IGBTs with 5kVrms reinforced isolation, featuring...",
           "descriptionParagraphs": [
             "The NSi6602 is a high-performance isolated gate driver designed for SiC MOSFET and high-power IGBT applications requiring robust isolation and advanced protection features.",
             "With 4A source and 6A sink current capability, the NSi6602 can drive SiC MOSFETs up to 100A and IGBT modules up to 600A effectively, ensuring fast switching transitions for high-efficiency power converters.",
@@ -881,7 +886,12 @@
             "Package": "SOP-16W",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Rise/Fall Time": "N/A",
+            "UVLO Threshold": "N/A",
+            "Certification": "N/A",
+            "Desaturation Threshold": "N/A",
+            "Soft Turn-off Time": "N/A"
           },
           "features": [
             "5kVrms reinforced isolation certified per UL1577",
@@ -975,7 +985,7 @@
           "faqs": [
             {
               "question": "What is the maximum switching frequency supported by NSi6602?",
-              "answer": "The NSi6602 supports switching frequencies up to 1MHz, though practical limits depend on gate drive power dissipation and PCB thermal design. At 1MHz switching with 10nC gate charge (typical for 60A SiC MOSFET), the average gate drive power is approximately 1W per channel. This requires careful thermal management with proper heat sinking or thermal vias to the ground plane. In practical motor drive applications at 20kHz switching, the NSi6602 operates well within thermal limits with minimal heatsinking. For high-frequency applications above 100kHz, I recommend calculating gate drive power as P = Qg x Vdd x fsw, and ensuring your thermal design maintains junction temperature below 125C. The 65ns propagation delay also contributes to switching losses - at 500kHz, each switching transition represents 3% of the switching period.",
+              "answer": "The NSi6602 supports switching frequencies up to 1MHz, though practical limits depend on gate drive power dissipation and PCB thermal design. At 1MHz switching with 10nC gate charge (typical for 60A SiC MOSFET), the average gate drive power is approximately 1W per channel. This requires careful thermal management with proper heat sinking or thermal vias to the ground plane. In practical motor drive applications at 20kHz switching, the NSi6602 operates well within thermal limits with minimal heatsinking. For high-frequency applications above 100kHz, I recommend calculating gate drive power as P = Qg x Vdd x fsw, and ensuring your thermal design maintains junction temperature below 125C. The 65ns propagation delay also contributes to switching losses - at 500kHz, each switching transition is 3% of the switching period.",
               "decisionGuide": "For motor drives at 10-50kHz, NSi6602 is ideal with minimal thermal concerns. For very high frequency applications above 200kHz, ensure proper thermal design and consider additional heat spreading techniques.",
               "keywords": [
                 "maximum switching frequency",
@@ -1052,7 +1062,12 @@
             "Package": "SOP-16W",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Rise/Fall Time": "N/A",
+            "UVLO Threshold": "N/A",
+            "Certification": "N/A",
+            "Desaturation Threshold": "N/A",
+            "Soft Turn-off Time": "N/A"
           },
           "features": [
             "5kVrms reinforced isolation for industrial safety",
@@ -1223,7 +1238,12 @@
             "Certification": "UL1577, IEC 60747-5-5",
             "Voltage Rating": "5kVrms",
             "Current Rating": "5A",
-            "Temperature Range": "-40°C to +125°C"
+            "Temperature Range": "-40°C to +125°C",
+            "Supply Voltage (VDD)": "N/A",
+            "Output Voltage Swing": "N/A",
+            "UVLO Voltage": "N/A",
+            "Desaturation Threshold": "N/A",
+            "Soft Turn-off Time": "N/A"
           },
           "features": [
             "5A peak output current for fast switching",
@@ -1336,7 +1356,7 @@
           "faqs": [
             {
               "question": "What is the maximum switching frequency for NSi6801?",
-              "answer": "The NSi6801 supports switching frequencies up to 2MHz, making it suitable for high-frequency resonant converters and DC-DC converters. At 200kHz switching with 50nC gate charge, the average gate drive power is approximately 0.5W. The 60ns propagation delay represents only 12% of the switching period at 200kHz, enabling precise timing control. For very high frequency applications above 500kHz, ensure adequate thermal management and verify that the total propagation delay meets your timing budget requirements.",
+              "answer": "The NSi6801 supports switching frequencies up to 2MHz, making it suitable for high-frequency resonant converters and DC-DC converters. At 200kHz switching with 50nC gate charge, the average gate drive power is approximately 0.5W. The 60ns propagation delay is only 12% of the switching period at 200kHz, enabling precise timing control. For very high frequency applications above 500kHz, ensure adequate thermal management and verify that the total propagation delay meets your timing budget requirements.",
               "decisionGuide": "For applications up to 500kHz, NSi6801 is ideal. For MHz-range switching, verify thermal design and timing requirements.",
               "keywords": [
                 "maximum switching frequency",
@@ -1378,7 +1398,12 @@
             "Certification": "UL1577, IEC 60747-5-5",
             "Voltage Rating": "5kVrms",
             "Current Rating": "6A",
-            "Temperature Range": "-40°C to +125°C"
+            "Temperature Range": "-40°C to +125°C",
+            "Supply Voltage (VDD)": "N/A",
+            "Output Voltage Swing": "N/A",
+            "UVLO Voltage": "N/A",
+            "Rise/Fall Time": "N/A",
+            "UVLO Threshold": "N/A"
           },
           "features": [
             "4A/6A peak output current",
@@ -1598,7 +1623,10 @@
         "Propagation Delay",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Standard Compliance",
+        "Channels",
+        "Output Voltage"
       ],
       "applications": [
         "Industrial automation networks",
@@ -1637,7 +1665,10 @@
             "Propagation Delay": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Standard Compliance": "N/A",
+            "Channels": "N/A",
+            "Output Voltage": "N/A"
           },
           "features": [
             "5kVrms reinforced isolation integration",
@@ -1791,7 +1822,7 @@
         {
           "partNumber": "NSi81T85",
           "name": "Isolated RS-485 Transceiver (High Speed)",
-          "shortDescription": "NSi81T85 is a high-speed isolated RS-485 transceiver with 5kVrms reinforced isolation, supporting 16Mbps data ...",
+          "shortDescription": "NSi81T85 is a high-speed isolated RS-485 transceiver with 5kVrms reinforced isolation, supporting 16Mbps data...",
           "descriptionParagraphs": [
             "The NSi81T85 is a high-speed isolated RS-485 transceiver designed for applications requiring faster data rates than standard 500kbps transceivers can provide.",
             "With 16Mbps data rate capability, the NSi81T85 supports fast firmware updates over RS-485, high-speed sensor networks, and applications where communication time is critical.",
@@ -1811,7 +1842,10 @@
             "Common-Mode Range": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Standard Compliance": "N/A",
+            "Channels": "N/A",
+            "Output Voltage": "N/A"
           },
           "features": [
             "16Mbps high-speed data rate",
@@ -1983,7 +2017,10 @@
             "Propagation Delay": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Nodes": "N/A",
+            "Channels": "N/A",
+            "Output Voltage": "N/A"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -2105,8 +2142,7 @@
             },
             {
               "question": "What termination is required for CAN networks using NSi8100?",
-              "answer": "CAN networks require proper termination to prevent signal reflections: Standard termination uses 120 ohm resistors at both ends of the bus. This matches the characteristic impedance of typical CAN cable. For NSi8100 applications: Use 120 ohm +/-1% termination resistors at both bus ends. Place termination as close to the end nodes as possible. For short networks (<10m), termination may be optional but recommended. For long networks (>100m), termination is critical for signal integrity. Split termination (two 60 ohm resistors with capacitor to ground) can be used for improved EMI performance. The NSi8100 includes internal fail-safe biasing to ensure defined bus state when idle, eliminating the need for external biasing resistors in most applications."
-              ,
+              "answer": "CAN networks require proper termination to prevent signal reflections: Standard termination uses 120 ohm resistors at both ends of the bus. This matches the characteristic impedance of typical CAN cable. For NSi8100 applications: Use 120 ohm +/-1% termination resistors at both bus ends. Place termination as close to the end nodes as possible. For short networks (<10m), termination may be optional but recommended. For long networks (>100m), termination is critical for signal integrity. Split termination (two 60 ohm resistors with capacitor to ground) can be used for improved EMI performance. The NSi8100 includes internal fail-safe biasing to ensure defined bus state when idle, eliminating the need for external biasing resistors in most applications.",
               "decisionGuide": "Use 120 ohm termination at both bus ends. Keep termination resistors close to end nodes for optimal signal integrity.",
               "keywords": [
                 "can termination",
@@ -2140,7 +2176,10 @@
             "Propagation Delay": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Nodes": "N/A",
+            "Common-Mode Range": "N/A",
+            "Standard Compliance": "N/A"
           },
           "features": [
             "Dual-channel RS-232 isolation",
@@ -2261,8 +2300,7 @@
             },
             {
               "question": "Does NSi8300 require external capacitors for the charge pump?",
-              "answer": "No, the NSi8300 includes internal charge pump capacitors, eliminating the need for external components. This is a significant advantage over traditional RS-232 transceivers: Traditional RS-232 transceivers require 4 external capacitors (typically 0.1uF to 1uF) for the charge pump. These capacitors take up PCB space and add BOM cost. The NSi8300 integrates these capacitors internally, providing a true single-chip solution. Benefits of internal capacitors: Reduced PCB area - saves space for other components. Lower BOM cost - no external capacitors to purchase and place. Simplified design - fewer components to source and manage. Improved reliability - fewer external connections means fewer potential failure points. The internal charge pump generates the required +/-5V RS-232 output levels from a single 3.3V or 5V supply, meeting TIA/EIA-232-F specifications."
-              ,
+              "answer": "No, the NSi8300 includes internal charge pump capacitors, eliminating the need for external components. This is a significant advantage over traditional RS-232 transceivers: Traditional RS-232 transceivers require 4 external capacitors (typically 0.1uF to 1uF) for the charge pump. These capacitors take up PCB space and add BOM cost. The NSi8300 integrates these capacitors internally, providing a true single-chip solution. Benefits of internal capacitors: Reduced PCB area - saves space for other components. Lower BOM cost - no external capacitors to purchase and place. Simplified design - fewer components to source and manage. Improved reliability - fewer external connections means fewer potential failure points. The internal charge pump generates the required +/-5V RS-232 output levels from a single 3.3V or 5V supply, meeting TIA/EIA-232-F specifications.",
               "decisionGuide": "NSi8300 requires no external capacitors. Simply connect power and signals for immediate RS-232 operation.",
               "keywords": [
                 "charge pump capacitors",
@@ -2561,7 +2599,7 @@
         {
           "partNumber": "NSC2860",
           "name": "Current Sense Amplifier",
-          "shortDescription": "NSC2860 is a high-side current sense amplifier with 100V common-mode range, 3% accuracy, and dedicated output ...",
+          "shortDescription": "NSC2860 is a high-side current sense amplifier with 100V common-mode range, 3% accuracy, and dedicated output...",
           "descriptionParagraphs": [
             "The NSC2860 is a high-side current sense amplifier designed for battery management, power supply monitoring, and motor control applications requiring accurate current measurement.",
             "With 100V common-mode voltage range, the NSC2860 can monitor current in high-voltage systems without needing isolated supplies or level shifting circuits.",
@@ -2705,7 +2743,7 @@
             },
             {
               "question": "How does NSC2860 handle fast transient currents in motor control?",
-              "answer": "The NSC2860's 400kHz bandwidth captures fast current transients with the following considerations: For PWM motor control at 20kHz switching, the fundamental frequency is well within the 400kHz bandwidth. Harmonics above 400kHz will be attenuated, but this is typically acceptable as they represent switching noise rather than motor current. The NSC2860's propagation delay of approximately 1us means the output tracks the input with 1us lag - adequate for overcurrent protection response times of 10-100us. For detecting motor stall or short-circuit conditions, the NSC2860 can drive a fast comparator for <1us total fault response. If you need faster response, consider adding a hardware comparator after the NSC2860 output. The output stage can drive 2kohm loads, sufficient for most ADC inputs and comparator circuits.",
+              "answer": "The NSC2860's 400kHz bandwidth captures fast current transients with the following considerations: For PWM motor control at 20kHz switching, the fundamental frequency is well within the 400kHz bandwidth. Harmonics above 400kHz will be attenuated, but this is typically acceptable as they is switching noise rather than motor current. The NSC2860's propagation delay of approximately 1us means the output tracks the input with 1us lag - adequate for overcurrent protection response times of 10-100us. For detecting motor stall or short-circuit conditions, the NSC2860 can drive a fast comparator for <1us total fault response. If you need faster response, consider adding a hardware comparator after the NSC2860 output. The output stage can drive 2kohm loads, sufficient for most ADC inputs and comparator circuits.",
               "decisionGuide": "NSC2860 bandwidth handles PWM frequencies up to 50kHz. For overcurrent protection, add external comparator. Verify transient response with your specific motor and PWM frequency.",
               "keywords": [
                 "transient response",
@@ -2763,7 +2801,11 @@
             "Rail-to-Rail": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Offset Drift": "N/A",
+            "Input Bias Current": "N/A",
+            "Sense Voltage Range": "N/A",
+            "Output Swing": "N/A"
           },
           "features": [
             "1% accuracy over full temperature range",
@@ -3045,8 +3087,7 @@
             },
             {
               "question": "What is the minimum supply voltage for NSC6262 and how does it affect performance?",
-              "answer": "The NSC6262 operates from 1.8V to 5.5V supply voltage. At 1.8V (minimum): Input common-mode range is 0V to 1.2V (rail-to-rail input). Output swing is 0.1V to 1.7V (rail-to-rail output). GBW is approximately 400kHz (slightly reduced from 500kHz at 5V). Slew rate is 0.15V/us (slightly reduced). Offset voltage remains 100uV max. At 3.3V (typical lithium battery): Full 500kHz GBW is achieved. Output swing is 0.1V to 3.2V. All specifications are met. At 5V (maximum): Maximum GBW and slew rate. Widest output swing. Best dynamic range. The NSC6262 maintains good performance across the entire supply range, making it suitable for applications with varying battery voltage like single-cell lithium (3.0V-4.2V) or two-cell alkaline (2.0V-3.0V)."
-              ,
+              "answer": "The NSC6262 operates from 1.8V to 5.5V supply voltage. At 1.8V (minimum): Input common-mode range is 0V to 1.2V (rail-to-rail input). Output swing is 0.1V to 1.7V (rail-to-rail output). GBW is approximately 400kHz (slightly reduced from 500kHz at 5V). Slew rate is 0.15V/us (slightly reduced). Offset voltage remains 100uV max. At 3.3V (typical lithium battery): Full 500kHz GBW is achieved. Output swing is 0.1V to 3.2V. All specifications are met. At 5V (maximum): Maximum GBW and slew rate. Widest output swing. Best dynamic range. The NSC6262 maintains good performance across the entire supply range, making it suitable for applications with varying battery voltage like single-cell lithium (3.0V-4.2V) or two-cell alkaline (2.0V-3.0V).",
               "decisionGuide": "NSC6262 works well from 1.8V to 5.5V. Performance is slightly reduced at 1.8V but still adequate for most sensor applications.",
               "keywords": [
                 "minimum supply voltage",

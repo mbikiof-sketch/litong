@@ -1829,7 +1829,8 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "System Current"
       ],
       "products": [
         {
@@ -1852,7 +1853,8 @@
             "Package": "SOT-23-5, DFN-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "System Current": "N/A"
           },
           "features": [
             "Complete linear charger - no external MOSFET needed",
@@ -1971,7 +1973,7 @@
             {
               "question": "What is the charge voltage accuracy?",
               "answer": "XZ5001 provides ±1% charge voltage accuracy (4.158V to 4.242V). This precise regulation ensures maximum battery capacity is achieved without overcharging, which could damage the battery. The tight accuracy eliminates the need for factory calibration in most applications.",
-              "decisionGuide": "±1% accuracy is suitable for most Li-ion batteries; no calibration needed; ensures safe and complete charging.",
+              "decisionGuide": "±1% accuracy is suitable for most Li-ion batteries; No calibration is needed; ensures safe and complete charging.",
               "keywords": [
                 "charge voltage",
                 "accuracy",
@@ -2011,7 +2013,8 @@
             "Package": "SC-70-5, DFN-6 (1.5mm x 1.5mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "System Current": "N/A"
           },
           "features": [
             "Ultra-compact package options",
@@ -2174,7 +2177,8 @@
             "Package": "SOP-8, DFN-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "System Current": "N/A"
           },
           "features": [
             "High charge current up to 1.5A",
@@ -2268,7 +2272,8 @@
             "Package": "QFN-16 (4mm x 4mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Trickle Charge Current": "N/A"
           },
           "features": [
             "USB-C Power Delivery compatible",
@@ -2380,7 +2385,7 @@
         {
           "question": "How accurate is the charge voltage regulation?",
           "answer": "Silicontent chargers provide ±1% charge voltage accuracy (4.158V to 4.242V for 4.2V setting). This precise regulation ensures maximum battery capacity is achieved without overcharging, which could damage the battery or create safety hazards. The tight accuracy eliminates need for calibration.",
-          "decisionGuide": "±1% accuracy ensures safe and complete charging; no calibration needed; suitable for all Li-ion batteries.",
+          "decisionGuide": "±1% accuracy ensures safe and complete charging; No calibration is needed; suitable for all Li-ion batteries.",
           "keywords": [
             "charge voltage",
             "accuracy",

@@ -2,8 +2,8 @@
   "articles": [
     {
       "id": "mosfet-selection-guide",
-      "title": "NCE MOSFETSelectionGuide:  Application",
-      "summary": "NCE MOSFETProduct Selection ,  , ApplicationScenario Selection",
+      "title": "NCE MOSFETSelectionGuide: Application",
+      "summary": "NCE MOSFETProduct Selection,, ApplicationScenario Selection",
       "category": "ApplicationGuide",
       "tags": [
         "MOSFET",
@@ -20,22 +20,22 @@
       "contentSections": [
         {
           "heading": "MOSFET",
-          "content": "SelectionMOSFET ,  : 1)Vds( Voltage):  Voltage,  20% ; 2)Rds(on)( Resistance):  ,  ; 3)Qg( ):  Speed Driver ; 4)Ciss/Coss(Input/OutputCapacitance):  Feature EMI . NCEProduct 20V-900V SeriesVoltage ,  Application ."
+          "content": "SelectionMOSFET, : 1)Vds( Voltage): Voltage, 20% ; 2)Rds(on)( Resistance):, ; 3)Qg( ): Speed Driver ; 4)Ciss/Coss(Input/OutputCapacitance): Feature EMI. NCEProduct 20V-900V SeriesVoltage, Application."
         },
         {
-          "heading": " trench MOSFET vs Super Junction MOSFET",
-          "content": "NCE MOSFETTechnology:  (Trench)MOSFET Application(<200V),  Yes Rds(on) ;  (Super Junction)MOSFET Application(500V-900V)Design,  Technology Resistance.  200V-500V ,  Frequency Requirement Technology ."
+          "heading": "trench MOSFET vs Super Junction MOSFET",
+          "content": "NCE MOSFETTechnology: (Trench)MOSFET Application(<200V), Yes Rds(on) ; (Super Junction)MOSFET Application(500V-900V)Design, Technology Resistance. 200V-500V, Frequency Requirement Technology."
         },
         {
           "heading": "Design Reliability",
-          "content": "MOSFET Reliability Design.  Junction Temperature : Tj = Ta + Ploss   Rth(j-a),  Ploss .  Design Junction Temperature 80%,  Tjmax=175 C ,  Junction Temperature 140 C . NCE Thermal Resistance Application ,  Engineering Design."
+          "content": "MOSFET Reliability Design. Junction Temperature : Tj = Ta + Ploss Rth(j-a), Ploss. Design Junction Temperature 80%, Tjmax=175 C, Junction Temperature 140 C. NCE Thermal Resistance Application, Engineering Design."
         }
       ],
       "faqs": [
         {
           "question": "Voltage MOSFET?",
-          "answer": "MOSFET Voltage : 1) Voltage: Vds Voltage 1.2-1.3 ; 2)Transient :  Spike Surge,  50-100V ; 3)Temperature :  Voltage .  ,  380V AC 540V DC ,  650V 700V MOSFET. NCE65T540(650V)Yes Application . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Application(<100V) Trench MOSFET;  Application(200-500V) EfficiencyRequirement ;  Application(>500V) Super Junction MOSFET.",
+          "answer": "MOSFET Voltage : 1) Voltage: Vds Voltage 1.2-1.3 ; 2)Transient : Spike Surge, 50-100V ; 3)Temperature : Voltage., 380V AC 540V DC, 650V 700V MOSFET. NCE65T540(650V)Yes Application. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "Application(<100V) Trench MOSFET; Application(200-500V) EfficiencyRequirement ; Application(>500V) Super Junction MOSFET.",
           "keywords": [
             "Voltage",
             "Vds",
@@ -46,7 +46,7 @@
         {
           "question": "Rds(on) QgBetween ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "CCM PFC Rds(on);  DC/DC Qg;  Application Rds(on) Coss.",
+          "decisionGuide": "CCM PFC Rds(on); DC/DC Qg; Application Rds(on) Coss.",
           "keywords": [
             "Rds(on)",
             "Qg",
@@ -57,8 +57,8 @@
         },
         {
           "question": "MOSFET Note ?",
-          "answer": "MOSFET Current Force,  Note: 1) :  , Current ,  Product,  Resistance(0.1-0.5 ) ; 2) Driver:  MOSFET Yes Resistance,  ; 3) : Power Driver . NCE MOSFET Rds(on) Temperature FeatureYes ,  Application. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "CurrentApplication ;  TestVerification ;  20% Current .",
+          "answer": "MOSFET Current Force, Note: 1) :, Current, Product, Resistance(0.1-0.5 ) ; 2) Driver: MOSFET Yes Resistance, ; 3) : Power Driver. NCE MOSFET Rds(on) Temperature FeatureYes, Application. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "CurrentApplication ; TestVerification ; 20% Current.",
           "keywords": [
             "并联",
             "均流",
@@ -69,7 +69,7 @@
         {
           "question": "MOSFET Speed Optimize?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Qg ; EMI Application Speed;  TestVoltageSpike SecureScope .",
+          "decisionGuide": "Qg ; EMI Application Speed; TestVoltageSpike SecureScope.",
           "keywords": [
             "Speed",
             "Driver",
@@ -80,7 +80,7 @@
         {
           "question": "MOSFET Reliability?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Application AEC-Q101CertifyProduct;  Application HTRB Temperature ;  ReliabilityRequirement Temperature .",
+          "decisionGuide": "Application AEC-Q101CertifyProduct; Application HTRB Temperature ; ReliabilityRequirement Temperature.",
           "keywords": [
             "Reliability",
             "HTRB",
@@ -92,7 +92,7 @@
         {
           "question": "MOSFET Yes ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Design Voltage, Current, Temperature ;  Application TVS ;  ESD Specification.",
+          "decisionGuide": "Design Voltage, Current, Temperature ; Application TVS ; ESD Specification.",
           "keywords": [
             "失效分析",
             "过压",
@@ -114,7 +114,7 @@
           "title": "Support Engineer",
           "experience": "8+ years"
         },
-        "content": "Based on years of experience, this NCE MOSFETSelectionGuide:  Application article addresses common challenges engineers face in project development.",
+        "content": "Based on years of experience, this NCE MOSFETSelectionGuide: Application article addresses common challenges engineers face in project development.",
         "highlight": "Key technical insights",
         "insightLogic": "Recommendations from analysis of successful product deployment projects across industries.",
         "keyTakeaways": [
@@ -136,7 +136,7 @@
     {
       "id": "igbt-application-guide",
       "title": "IGBT Driver ApplicationDesign Debug",
-      "summary": "NCE IGBTProduct DriverApplication Design ,  Selection, Driver,  Debug",
+      "summary": "NCE IGBTProduct DriverApplication Design, Selection, Driver, Debug",
       "category": "ApplicationGuide",
       "tags": [
         "IGBT",
@@ -153,22 +153,22 @@
       "contentSections": [
         {
           "heading": "IGBTSelection",
-          "content": "DriverApplication IGBTSelection : 1)Voltage :  380V AC ,  600V 650V IGBT;  690V AC ,  1200V IGBT; 2)Current :  Current Force ,  1.5-2 Current ; 3) Frequency:  Driver 2-20kHz,  OptimizeProduct. NCE20N60(600V 20A) NCE15N120(1200V 15A)Yes Driver Popular ."
+          "content": "DriverApplication IGBTSelection : 1)Voltage : 380V AC, 600V 650V IGBT; 690V AC, 1200V IGBT; 2)Current : Current Force, 1.5-2 Current ; 3) Frequency: Driver 2-20kHz, OptimizeProduct. NCE20N60(600V 20A) NCE15N120(1200V 15A)Yes Driver Popular."
         },
         {
           "heading": "DriverDesign",
-          "content": "IGBT DriverYes Design : 1)DriverVoltage: +15V , -5V -8V ,  Reliable ; 2) Resistance:  10-33 ,  Speed EMI; 3)DriverPower: Pg = Qg   Vge   fsw,  Driver Current. Recommended IGBTDriver ,  Driver Driver ,  ."
+          "content": "IGBT DriverYes Design : 1)DriverVoltage: +15V, -5V -8V, Reliable ; 2) Resistance: 10-33, Speed EMI; 3)DriverPower: Pg = Qg Vge fsw, Driver Current. Recommended IGBTDriver, Driver Driver."
         },
         {
           "heading": "Design",
-          "content": "IGBT : 1)Overcurrent Protection:  Vce(sat) ResistanceImplementation,  <10 s; 2)Overtemperature Protection:  NTC Resistance, Temperature ; 3)Undervoltage Protection:  DriverVoltage,  ; 4)Short Circuit Protection:  di/dt . NCE IGBT Yes Force(10 s@150 C),  ."
+          "content": "IGBT : 1)Overcurrent Protection: Vce(sat) ResistanceImplementation, <10 s; 2)Overtemperature Protection: NTC Resistance, Temperature ; 3)Undervoltage Protection: DriverVoltage, ; 4)Short Circuit Protection: di/dt. NCE IGBT Yes Force(10 s@150 C)."
         }
       ],
       "faqs": [
         {
           "question": "IGBT MOSFET Driver ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Current IGBT;  MOSFET;  EfficiencyRequirement .",
+          "decisionGuide": "Current IGBT; MOSFET; EfficiencyRequirement.",
           "keywords": [
             "IGBT",
             "MOSFET",
@@ -179,7 +179,7 @@
         {
           "question": "IGBT ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Application IGBT;  Adjust Resistance EMI;  Technology .",
+          "decisionGuide": "Application IGBT; Adjust Resistance EMI; Technology.",
           "keywords": [
             "开关损耗",
             "Eon",
@@ -191,7 +191,7 @@
         {
           "question": "IGBTDriver Yes ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "; High PerformanceApplication ;  VerificationCMTI ApplicationRequirement.",
+          "decisionGuide": "; High PerformanceApplication ; VerificationCMTI ApplicationRequirement.",
           "keywords": [
             "Driver",
             "光耦",
@@ -201,8 +201,8 @@
         },
         {
           "question": "IGBT ?",
-          "answer": "IGBT : 1) :  -5V -8V Voltage,  Force; 2) Resistance:  10k Resistance,  ; 3) :  Yes ,  dv/dt Current; 4)PCB :  ,  Inductance. NCE IGBT Cges/Cgc Optimize,  Yes dv/dt Force. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "NoiseEnvironment ;  Application ;  PCB Yes .",
+          "answer": "IGBT : 1) : -5V -8V Voltage, Force; 2) Resistance: 10k Resistance, ; 3) : Yes, dv/dt Current; 4)PCB :, Inductance. NCE IGBT Cges/Cgc Optimize, Yes dv/dt Force. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "NoiseEnvironment ; Application ; PCB Yes.",
           "keywords": [
             "误导通",
             "负栅压",
@@ -212,8 +212,8 @@
         },
         {
           "question": "IGBT Design Yes ?",
-          "answer": "IGBT Design : 1)Thermal Resistance : Rth(j-c)  + Rth(c-s) Thermal Resistance + Rth(s-a) Environment,  Thermal Resistance Tjmax > Ta + Ploss Rth(total); 2) :  ,  <100 m, Thermal Resistance<0.5K cm /W; 3) :  Thermal Resistance VolumeRequirement ; 4) Force :  Specification Requirement ,  . NCE Feature Application .",
-          "decisionGuide": "Junction Temperature;  Thermal Resistance 20% ;  TestVerification.",
+          "answer": "IGBT Design : 1)Thermal Resistance : Rth(j-c) + Rth(c-s) Thermal Resistance + Rth(s-a) Environment, Thermal Resistance Tjmax > Ta + Ploss Rth(total); 2) :, <100 m, Thermal Resistance<0.5K cm /W; 3) : Thermal Resistance VolumeRequirement ; 4) Force : Specification Requirement. NCE Feature Application.",
+          "decisionGuide": "Junction Temperature; Thermal Resistance 20% ; TestVerification.",
           "keywords": [
             "Design",
             "Thermal Resistance",
@@ -224,7 +224,7 @@
         {
           "question": "IGBT Short Circuit Protection Implementation?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Vce(sat) ;  AccuracyRequirement Resistance;  Implementation .",
+          "decisionGuide": "Vce(sat) ; AccuracyRequirement Resistance; Implementation.",
           "keywords": [
             "Short Circuit Protection",
             "Vce(sat)",
@@ -284,22 +284,22 @@
       "contentSections": [
         {
           "heading": "Design",
-          "content": "Power Design : Tj = Ta + P   Rth,  Tj Junction Temperature, Ta EnvironmentTemperature, P Power Dissipation, Rth Thermal Resistance. Thermal Resistance : Rth(j-c) , Rth(c-s) ( Thermal Resistance), Rth(s-a) Environment. Steady State Thermal Resistance, Transient Impedance. NCE Feature ,  Thermal Resistance, Transient Impedance Power Dissipation ."
+          "content": "Power Design : Tj = Ta + P Rth, Tj Junction Temperature, Ta EnvironmentTemperature, P Power Dissipation, Rth Thermal Resistance. Thermal Resistance : Rth(j-c), Rth(c-s) ( Thermal Resistance), Rth(s-a) Environment. Steady State Thermal Resistance, Transient Impedance. NCE Feature, Thermal Resistance, Transient Impedance Power Dissipation."
         },
         {
           "heading": "Power Dissipation",
-          "content": "Power Power Dissipation : 1)MOSFET: Pcond = I Rds(on) D, Psw = 0.5 V I (tr+tf) fsw + 0.5 Coss V fsw; 2)IGBT: Pcond = Vce(sat) Ic D, Psw = (Eon+Eoff) fsw.  : Temperature (Rds(on) Vce(sat) Temperature ),  Variation,  .  NCE Tool ."
+          "content": "Power Power Dissipation : 1)MOSFET: Pcond = I Rds(on) D, Psw = 0.5 V I (tr+tf) fsw + 0.5 Coss V fsw; 2)IGBT: Pcond = Vce(sat) Ic D, Psw = (Eon+Eoff) fsw. : Temperature (Rds(on) Vce(sat) Temperature ), Variation. NCE Tool."
         },
         {
           "heading": "Selection Optimize",
-          "content": "Selection : 1) Thermal Resistance: Rth(s-a) = (Tjmax - Ta)/P - Rth(j-c) - Rth(c-s); 2) Type:  (<0.5W/cm ),  (<2W/cm ),  (>5W/cm ); 3)OptimizeDesign:  Area, Optimize ,  .  Thermal Resistance Volume, Weight,  . NCE Model Application ,  Customer DesignOptimize."
+          "content": "Selection : 1) Thermal Resistance: Rth(s-a) = (Tjmax - Ta)/P - Rth(j-c) - Rth(c-s); 2) Type: (<0.5W/cm ), (<2W/cm ), (>5W/cm ); 3)OptimizeDesign: Area, Optimize. Thermal Resistance Volume, Weight. NCE Model Application, Customer DesignOptimize."
         }
       ],
       "faqs": [
         {
           "question": "Power Junction Temperature?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "实验室精确测量选择Vce(T)法; 现场快速评估使用红外测温; 长期监测可埋设热电偶. ",
+          "decisionGuide": "实验室精确测量选择Vce(T)法; 现场快速评估使用红外测温; 长期监测可埋设热电偶.",
           "keywords": [
             "Junction Temperature",
             "Vce(T)",
@@ -309,8 +309,8 @@
         },
         {
           "question": "导热硅脂如何选择和使用?",
-          "answer": ": 1) :  2-8W/(m K),  ; 2)Thermal Resistance:  Important,  Force,  <0.1K cm /W; 3) Stability:  ,  Product; 4) : Power .  :  (50-100 m),  ,  RecommendedForce . NCERecommended ,  . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Application 3-5W/(m K) ;  Power Application >6W/(m K) ;  .",
+          "answer": ": 1) : 2-8W/(m K), ; 2)Thermal Resistance: Important, Force, <0.1K cm /W; 3) Stability:, Product; 4) : Power. : (50-100 m),, RecommendedForce. NCERecommended. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "Application 3-5W/(m K) ; Power Application >6W/(m K) ;.",
           "keywords": [
             "导热硅脂",
             "导热系数",
@@ -320,8 +320,8 @@
         },
         {
           "question": "Selection?",
-          "answer": "Selection : 1) : Q = P/( Cp T),  P Power Dissipation,  T ; 2) Force:  ; 3) :  - ,  20% ; 4) :  Application <65dB,  <45dB.  :  ,  . NCE DesignGuide Recommended Part Number. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": ";  Efficiency ;  Design, N+1 Configure.",
+          "answer": "Selection : 1) : Q = P/( Cp T), P Power Dissipation, T ; 2) Force: ; 3) : -, 20% ; 4) : Application <65dB, <45dB. :. NCE DesignGuide Recommended Part Number. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "; Efficiency ; Design, N+1 Configure.",
           "keywords": [
             "Selection",
             "风量",
@@ -332,7 +332,7 @@
         {
           "question": "Yes Advantage?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Power >3kW/L ;  ;  Power .",
+          "decisionGuide": "Power >3kW/L ; ; Power.",
           "keywords": [
             "液冷",
             "水冷",
@@ -343,7 +343,7 @@
         {
           "question": "Transient Impedance Design ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Application Transient Impedance; Period TemperatureFluctuation;  ReferenceZth .",
+          "decisionGuide": "Application Transient Impedance; Period TemperatureFluctuation; ReferenceZth.",
           "keywords": [
             "Transient Impedance",
             "Zth",
@@ -354,7 +354,7 @@
         {
           "question": "Software Design Yes ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": ";  Available ;  Verification.",
+          "decisionGuide": "; Available ; Verification.",
           "keywords": [
             "热仿真",
             "FloTHERM",
@@ -414,22 +414,22 @@
       "contentSections": [
         {
           "heading": "IPM",
-          "content": "Power (IPM) Power (IGBT/MOSFET),  Driver Integration Package ,  Design,  Reliability. NCE IPMProductSeries 600V-1200VVoltage , CurrentScope10A-75A,  ,  Driver,  ,  Application.  Product : NCEIPM20(600V 20A ), NCEPIM50(1200V 50A PIM) . IPM IntegrationUndervoltage Protection, Overcurrent Protection, Overtemperature Protection Output ."
+          "content": "Power (IPM) Power (IGBT/MOSFET), Driver Integration Package, Design, Reliability. NCE IPMProductSeries 600V-1200VVoltage, CurrentScope10A-75A,, Driver,, Application. Product : NCEIPM20(600V 20A ), NCEPIM50(1200V 50A PIM). IPM IntegrationUndervoltage Protection, Overcurrent Protection, Overtemperature Protection Output."
         },
         {
           "heading": "Interface Design",
-          "content": "IPMInterfaceDesign : 1) :  +15V,  Ripple<1V; 2) : 3.3V/5V Compatible, Input Resistance; 3) Output:  Output,  Resistance; 4) Output:  Part Number Temperature Output Current .  Requirement:  Power ,  Power ,  . NCE IPM Integration Design,  ,  PCBDesign."
+          "content": "IPMInterfaceDesign : 1) : +15V, Ripple<1V; 2) : 3.3V/5V Compatible, Input Resistance; 3) Output: Output, Resistance; 4) Output: Part Number Temperature Output Current. Requirement: Power, Power. NCE IPM Integration Design,, PCBDesign."
         },
         {
           "heading": "故障诊断与排查",
-          "content": "IPM : 1)Undervoltage Protection(UV):  Voltage Ripple; 2)Overcurrent Protection(OC):  YesNo , Current ResistanceYesNo ; 3)Overtemperature Protection(OT):  Design EnvironmentTemperature; 4) :  Output,  Reset SoftwareReset.  :  ,  ,  . NCE IPM ,  ."
+          "content": "IPM : 1)Undervoltage Protection(UV): Voltage Ripple; 2)Overcurrent Protection(OC): YesNo, Current ResistanceYesNo ; 3)Overtemperature Protection(OT): Design EnvironmentTemperature; 4) : Output, Reset SoftwareReset. :,. NCE IPM."
         }
       ],
       "faqs": [
         {
           "question": "IPM Yes Advantage?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Standard ,  Power,  IPM;  ,  Power,  .",
+          "decisionGuide": "Standard, Power, IPM;, Power.",
           "keywords": [
             "IPM",
             "Power",
@@ -439,8 +439,8 @@
         },
         {
           "question": "IPM DesignYes ?",
-          "answer": "IPM Design : 1)Integration :  Total ,  ; 2) :  ,  Other ; 3) Requirement:  ; 4) Force :  Specification Force ,  Package. NCE IPM Feature ,  Thermal Resistance , Support Design. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Design;  ;  RecommendedForce .",
+          "answer": "IPM Design : 1)Integration : Total, ; 2) :, Other ; 3) Requirement: ; 4) Force : Specification Force, Package. NCE IPM Feature, Thermal Resistance, Support Design. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "Design; ; RecommendedForce.",
           "keywords": [
             "IPM",
             "热耦合",
@@ -451,7 +451,7 @@
         {
           "question": "IPM的故障保护功能如何使用?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "Yes Enabled;  MCU ;  Application .",
+          "decisionGuide": "Yes Enabled; MCU ; Application.",
           "keywords": [
             "Undervoltage Protection",
             "Overcurrent Protection",
@@ -462,7 +462,7 @@
         {
           "question": "IPM Speed ?",
           "answer": "[Data Pending] Answer to be verified with manufacturer technical support team.",
-          "decisionGuide": "StandardApplication IPM ;  EMI Part Number;  Efficiency Part Number.",
+          "decisionGuide": "StandardApplication IPM ; EMI Part Number; Efficiency Part Number.",
           "keywords": [
             "Speed",
             "Resistance",
@@ -472,8 +472,8 @@
         },
         {
           "question": "IPM YesNo ?",
-          "answer": "IPM : 1) : IPM ,  ; 2)DriverSynchronization:  IPM Driver Synchronization; 3) :  .  IPM .  : 1) Current IPM; 2) IGBT Implementation ; 3) Design. NCE Current IPMProduct,  Current . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "IPM ;  Current Product;  CurrentApplication .",
+          "answer": "IPM : 1) : IPM, ; 2)DriverSynchronization: IPM Driver Synchronization; 3) :. IPM. : 1) Current IPM; 2) IGBT Implementation ; 3) Design. NCE Current IPMProduct, Current. For detailed specifications and application support on nce products, refer to the datasheet or contact our team.",
+          "decisionGuide": "IPM ; Current Product; CurrentApplication.",
           "keywords": [
             "IPM",
             "均流",
@@ -483,8 +483,8 @@
         },
         {
           "question": "IPM Lifetime Reliability ?",
-          "answer": "IPMLifetime : 1)Power Lifetime:  Junction TemperatureFluctuation , NCE IPM Power ; 2) Lifetime:  EnvironmentTemperatureVariation Package Force; 3) Reliability:  Lifetime(HTOL) . ReliabilityAdvantage: IntegrationDesign ,  ;  Optimize Driver Reliability. NCE IPM QualityCertify,  AEC-Q101( ) ReliabilityTest,  Reliability .",
-          "decisionGuide": "Power Lifetime;  Junction TemperatureFluctuation; ReferenceReliability Part Number.",
+          "answer": "IPMLifetime : 1)Power Lifetime: Junction TemperatureFluctuation, NCE IPM Power ; 2) Lifetime: EnvironmentTemperatureVariation Package Force; 3) Reliability: Lifetime(HTOL). ReliabilityAdvantage: IntegrationDesign, ; Optimize Driver Reliability. NCE IPM QualityCertify, AEC-Q101( ) ReliabilityTest, Reliability.",
+          "decisionGuide": "Power Lifetime; Junction TemperatureFluctuation; ReferenceReliability Part Number.",
           "keywords": [
             "Power",
             "Lifetime",

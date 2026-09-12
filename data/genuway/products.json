@@ -93,7 +93,11 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Frequency",
+        "Stability",
+        "Voltage",
+        "Temperature"
       ],
       "applications": [
         "Communications",
@@ -225,7 +229,11 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "Stability": "N/A",
+            "Voltage": "N/A",
+            "Temperature": "N/A"
           },
           "name": "Crystal Oscillators GXO-3225-25M"
         },
@@ -312,7 +320,11 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A",
+            "Stability": "N/A",
+            "Voltage": "N/A",
+            "Temperature": "N/A"
           },
           "name": "Crystal Oscillators GXO-3225-50M"
         },
@@ -330,7 +342,10 @@
             "Stability": "±2.5ppm",
             "Voltage": "3.3V",
             "Package": "3.2x2.5mm SMD",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "26MHz output frequency",
@@ -402,7 +417,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on genuway GTXO-3225-26M, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -411,7 +426,7 @@
             },
             {
               "question": "What applications is CRYSTALOSCILLATORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on genuway GTXO-3225-26M, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -420,7 +435,7 @@
             },
             {
               "question": "What is the temperature range of CRYSTALOSCILLATORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on genuway GTXO-3225-26M, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -429,7 +444,7 @@
             },
             {
               "question": "What package options are available for CRYSTALOSCILLATORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on genuway GTXO-3225-26M, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -438,7 +453,7 @@
             },
             {
               "question": "What is the lead time for CRYSTALOSCILLATORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on genuway GTXO-3225-26M, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -475,7 +490,10 @@
             "Stability": "±30ppm",
             "Voltage": "5.0V",
             "Package": "5.0x3.2mm SMD",
-            "Temperature": "-20°C to +70°C"
+            "Temperature": "-20°C to +70°C",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "12MHz output frequency",
@@ -547,7 +565,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on genuway GXO-5032-12M, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -556,7 +574,7 @@
             },
             {
               "question": "What applications is CRYSTALOSCILLATORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on genuway GXO-5032-12M, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -565,7 +583,7 @@
             },
             {
               "question": "What is the temperature range of CRYSTALOSCILLATORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on genuway GXO-5032-12M, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -574,7 +592,7 @@
             },
             {
               "question": "What package options are available for CRYSTALOSCILLATORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on genuway GXO-5032-12M, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -583,7 +601,7 @@
             },
             {
               "question": "What is the lead time for CRYSTALOSCILLATORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on genuway GXO-5032-12M, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -627,12 +645,7 @@
           "description": "32.768kHz tuning fork crystals for RTC"
         }
       ],
-      "parameters": [
-        "Frequency",
-        "Load Capacitance",
-        "ESR",
-        "Package"
-      ],
+      "parameters": [],
       "applications": [
         "Microcontroller",
         "Consumer",
@@ -666,7 +679,8 @@
           "temperature": "-20°C to +70°C",
           "description": "25MHz crystal resonator in compact package",
           "slug": "gxr-3225-25m",
-          "name": "Crystal Resonators GXR-3225-25M"
+          "name": "Crystal Resonators GXR-3225-25M",
+          "specifications": {}
         },
         {
           "partNumber": "GXR-3215-32K",
@@ -677,7 +691,8 @@
           "temperature": "-40°C to +85°C",
           "description": "32.768kHz tuning fork crystal for RTC",
           "slug": "gxr-3215-32k",
-          "name": "Crystal Resonators GXR-3215-32K"
+          "name": "Crystal Resonators GXR-3215-32K",
+          "specifications": {}
         }
       ]
     },
@@ -694,12 +709,7 @@
           "description": "Automotive qualified crystals and oscillators"
         }
       ],
-      "parameters": [
-        "Frequency",
-        "Stability",
-        "Temperature",
-        "Package"
-      ],
+      "parameters": [],
       "applications": [
         "ADAS",
         "Infotainment",
@@ -734,7 +744,8 @@
           "qualification": "AEC-Q200",
           "description": "16MHz automotive oscillator",
           "slug": "gxo-a3225-16m",
-          "name": "Automotive Crystals GXO-A3225-16M"
+          "name": "Automotive Crystals GXO-A3225-16M",
+          "specifications": {}
         },
         {
           "partNumber": "GXR-A3225-25M",
@@ -746,7 +757,8 @@
           "qualification": "AEC-Q200",
           "description": "25MHz automotive crystal resonator",
           "slug": "gxr-a3225-25m",
-          "name": "Automotive Crystals GXR-A3225-25M"
+          "name": "Automotive Crystals GXR-A3225-25M",
+          "specifications": {}
         }
       ]
     },
@@ -767,12 +779,7 @@
           "description": "Low Voltage Positive ECL oscillators"
         }
       ],
-      "parameters": [
-        "Frequency",
-        "Output Type",
-        "Jitter",
-        "Package"
-      ],
+      "parameters": [],
       "applications": [
         "5G Communications",
         "Optical Networks",
@@ -807,7 +814,8 @@
           "temperature": "-40°C to +85°C",
           "description": "156.25MHz LVDS oscillator for Ethernet",
           "slug": "gxo-lvds-156m",
-          "name": "Differential Oscillators GXO-LVDS-156M"
+          "name": "Differential Oscillators GXO-LVDS-156M",
+          "specifications": {}
         },
         {
           "partNumber": "GXO-LVPECL-100M",
@@ -818,7 +826,8 @@
           "temperature": "-40°C to +85°C",
           "description": "100MHz LVPECL oscillator for high-speed applications",
           "slug": "gxo-lvpecl-100m",
-          "name": "Differential Oscillators GXO-LVPECL-100M"
+          "name": "Differential Oscillators GXO-LVPECL-100M",
+          "specifications": {}
         }
       ]
     }

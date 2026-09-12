@@ -1,74 +1,86 @@
-#!/usr/bin/env node
 /**
- * 检查所有品牌的数据完整性
+ * Check all brand data for compliance with iron rules
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const dataDir = path.join(__dirname, '..', 'data');
-const brands = fs.readdirSync(dataDir).filter(item => {
-  return fs.statSync(path.join(dataDir, item)).isDirectory();
-}).sort();
 
-console.log(`Checking ${brands.length} brands...\n`);
+// Get all brand directories
+const brands = fs.readdirSync(dataDir).filter(dir => {
+  const stat = fs.statSync(path.join(dataDir, dir));
+  return stat.isDirectory() && fs.existsSync(path.join(dataDir, dir, 'products.json'));
+});
 
-brands.forEach((brand, index) => {
-  const brandDir = path.join(dataDir, brand);
-  
-  // 检查products
-  const productsPath = path.join(brandDir, 'products.json');
-  let productCategories = 0;
-  let productsPerCategory = [];
-  if (fs.existsSync(productsPath)) {
-    try {
-      const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
-      if (products.categories) {
-        productCategories = products.categories.length;
-        productsPerCategory = products.categories.map(c => ({
-          id: c.id,
-          count: c.products ? c.products.length : 0
-        }));
-      }
-    } catch (e) {
-      console.log(`  ${brand}: Error reading products.json`);
+console.log('=== Brand Data Compliance Check ===\n');
+
+brands.forEach(brand => {
+  const productsFile = path.join(dataDir, brand, 'products.json');
+  try {
+    const data = JSON.parse(fs.readFileSync(productsFile, 'utf8'));
+    
+    console.log(`\n📦 ${brand.toUpperCase()}`);
+    console.log('='.repeat(50));
+    
+    // Check categories
+    const categories = data.categories || [];
+    console.log(`Categories: ${categories.length}`);
+    
+    if (categories.length < 4) {
+      console.log(`  ⚠️  WARNING: Need at least 4 categories (has ${categories.length})`);
+    } else {
+      console.log(`  ✅ Category count OK`);
     }
-  }
-  
-  // 检查solutions
-  const solutionsPath = path.join(brandDir, 'solutions.json');
-  let solutionsCount = 0;
-  if (fs.existsSync(solutionsPath)) {
-    try {
-      const solutions = JSON.parse(fs.readFileSync(solutionsPath, 'utf8'));
-      solutionsCount = solutions.solutions ? solutions.solutions.length : 0;
-    } catch (e) {}
-  }
-  
-  // 检查support
-  const supportPath = path.join(brandDir, 'support.json');
-  let supportCount = 0;
-  if (fs.existsSync(supportPath)) {
-    try {
-      const support = JSON.parse(fs.readFileSync(supportPath, 'utf8'));
-      supportCount = support.articles ? support.articles.length : 0;
-    } catch (e) {}
-  }
-  
-  // 检查是否符合要求
-  const needsProducts = productsPerCategory.some(p => p.count < 4);
-  const needsSolutions = solutionsCount < 3;
-  const needsSupport = supportCount < 5;
-  
-  if (needsProducts || needsSolutions || needsSupport) {
-    console.log(`[${index + 1}] ${brand}:`);
-    console.log(`  Categories: ${productCategories}`);
-    productsPerCategory.forEach(p => {
-      const status = p.count >= 4 ? '✓' : '✗';
-      console.log(`    ${status} ${p.id}: ${p.count} products`);
+    
+    // Check products per category
+    let totalProducts = 0;
+    let productsWithIssues = 0;
+    
+    categories.forEach(cat => {
+      const products = cat.products || [];
+      totalProducts += products.length;
+      
+      if (products.length < 6) {
+        console.log(`  ⚠️  ${cat.name}: Only ${products.length} products (need 6)`);
+      } else {
+        console.log(`  ✅ ${cat.name}: ${products.length} products`);
+      }
+      
+      // Check product fields
+      products.forEach(prod => {
+        const issues = [];
+        if (!prod.partNumber) issues.push('missing partNumber');
+        if (!prod.name) issues.push('missing name');
+        if (!prod.description || prod.description.length < 50) issues.push('description too short');
+        if (!prod.descriptionParagraphs || prod.descriptionParagraphs.length < 2) issues.push('missing descriptionParagraphs');
+        if (!prod.specifications || Object.keys(prod.specifications).length < 5) issues.push('insufficient specifications');
+        if (!prod.features || prod.features.length < 5) issues.push('insufficient features');
+        if (!prod.applications || prod.applications.length < 3) issues.push('insufficient applications');
+        if (!prod.faeReview || !prod.faeReview.content) issues.push('missing faeReview');
+        if (!prod.alternativeParts || prod.alternativeParts.length < 1) issues.push('missing alternativeParts');
+        if (!prod.companionParts || prod.companionParts.length < 4) issues.push('insufficient companionParts');
+        if (!prod.faqs || prod.faqs.length < 5) issues.push(`insufficient FAQs (${prod.faqs ? prod.faqs.length : 0})`);
+        
+        if (issues.length > 0) {
+          console.log(`    ❌ ${prod.partNumber}: ${issues.join(', ')}`);
+          productsWithIssues++;
+        }
+      });
     });
-    console.log(`  Solutions: ${solutionsCount}/3 ${solutionsCount >= 3 ? '✓' : '✗'}`);
-    console.log(`  Support: ${supportCount}/5 ${supportCount >= 5 ? '✓' : '✗'}`);
-    console.log();
+    
+    console.log(`\n  Total Products: ${totalProducts}`);
+    if (productsWithIssues > 0) {
+      console.log(`  Products with Issues: ${productsWithIssues}`);
+    } else {
+      console.log(`  ✅ All products have complete fields`);
+    }
+    
+  } catch (err) {
+    console.log(`\n📦 ${brand.toUpperCase()}`);
+    console.log(`  ❌ Error reading products.json: ${err.message}`);
   }
 });
+
+console.log('\n' + '='.repeat(50));
+console.log('Check complete!');

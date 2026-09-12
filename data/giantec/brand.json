@@ -11,19 +11,36 @@
       "name": "EEPROM",
       "description": "High-reliability EEPROM with wide voltage range and high endurance for configuration data and parameter storage",
       "link": "/giantec/products/eeprom.html",
-      "keywords": ["EEPROM", "serial EEPROM", "I2C EEPROM", "SPI EEPROM", "non-volatile memory"]
+      "keywords": [
+        "EEPROM",
+        "serial EEPROM",
+        "I2C EEPROM",
+        "SPI EEPROM",
+        "non-volatile memory"
+      ]
     },
     {
       "name": "NOR Flash",
       "description": "High-performance SPI NOR Flash memory for code storage and fast read operations in embedded systems",
       "link": "/giantec/products/nor-flash.html",
-      "keywords": ["NOR Flash", "SPI Flash", "serial Flash", "code storage", "flash memory"]
+      "keywords": [
+        "NOR Flash",
+        "SPI Flash",
+        "serial Flash",
+        "code storage",
+        "flash memory"
+      ]
     },
     {
       "name": "Analog ICs",
       "description": "Mixed-signal and analog solutions including LED drivers and power management for various applications",
       "link": "/giantec/products/analog-ics.html",
-      "keywords": ["analog IC", "mixed-signal", "LED driver", "power management"]
+      "keywords": [
+        "analog IC",
+        "mixed-signal",
+        "LED driver",
+        "power management"
+      ]
     }
   ],
   "industries": [
@@ -31,25 +48,45 @@
       "name": "Consumer Electronics",
       "description": "Memory and analog solutions for TVs, set-top boxes, cameras, and home appliances",
       "icon": "tv",
-      "applications": ["TV configuration", "Camera settings", "Set-top boxes", "Home appliances"]
+      "applications": [
+        "TV configuration",
+        "Camera settings",
+        "Set-top boxes",
+        "Home appliances"
+      ]
     },
     {
       "name": "Automotive",
       "description": "AEC-Q100 qualified EEPROM and Flash for automotive electronics and ADAS systems",
       "icon": "car",
-      "applications": ["ADAS", "Infotainment", "Body electronics", "Sensor calibration"]
+      "applications": [
+        "ADAS",
+        "Infotainment",
+        "Body electronics",
+        "Sensor calibration"
+      ]
     },
     {
       "name": "Industrial",
       "description": "High-reliability memory solutions for industrial control and automation systems",
       "icon": "factory",
-      "applications": ["PLC", "Industrial control", "Automation", "Sensor networks"]
+      "applications": [
+        "PLC",
+        "Industrial control",
+        "Automation",
+        "Sensor networks"
+      ]
     },
     {
       "name": "IoT & Communication",
       "description": "Low-power memory solutions for IoT devices and communication equipment",
       "icon": "wifi",
-      "applications": ["Smart home", "Wearables", "Communication modules", "Smart meters"]
+      "applications": [
+        "Smart home",
+        "Wearables",
+        "Communication modules",
+        "Smart meters"
+      ]
     }
   ],
   "certifications": [
@@ -88,43 +125,71 @@
       "question": "Is LiTong an authorized distributor of Giantec products?",
       "answer": "Yes, LiTong is an authorized distributor of Giantec Semiconductor. We have established a strong partnership with Giantec to provide customers with genuine products, technical support, and reliable supply chain services. As an authorized distributor, we can offer competitive pricing, fast delivery, and comprehensive application engineering support for all Giantec product lines including EEPROM, NOR Flash, and analog ICs. Our FAE team has deep expertise in Giantec's memory solutions and can assist with product selection, reference design review, and troubleshooting.",
       "decisionGuide": "Contact LiTong sales team for Giantec product inquiries, samples, and technical documentation.",
-      "keywords": ["Giantec distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "Giantec distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What are the key advantages of Giantec EEPROM products?",
       "answer": "Giantec EEPROM products offer several competitive advantages: Wide voltage range - Giantec EEPROMs support 1.7V to 5.5V operation, enabling use in various system architectures. High endurance - up to 4 million write cycles for industrial and automotive applications. Wide temperature range - industrial grade (-40°C to +85°C) and automotive grade (-40°C to +125°C) options available. Multiple interfaces - I2C, SPI, and Microwire interfaces to match different MCU requirements. Small packages - WLCSP, DFN, and TSSOP packages for space-constrained designs. Automotive qualification - AEC-Q100 Grade 1 qualified products for automotive applications. Cost-effectiveness - competitive pricing without compromising quality and reliability.",
       "decisionGuide": "Evaluate Giantec EEPROM for your non-volatile storage needs. Contact our FAE team for product recommendations.",
-      "keywords": ["Giantec EEPROM", "EEPROM advantages", "serial EEPROM"]
+      "keywords": [
+        "Giantec EEPROM",
+        "EEPROM advantages",
+        "serial EEPROM"
+      ]
     },
     {
       "question": "How do I select the right Giantec memory product for my application?",
       "answer": "Selecting the right Giantec memory product requires understanding your storage requirements: For small data storage (bytes to kilobytes) with infrequent updates, EEPROM is the best choice due to its byte-level write capability and high endurance. For code storage and larger data (megabytes), NOR Flash provides higher density and faster read speeds. Key selection criteria include: Capacity - determine the total storage needed including future expansion. Interface - I2C for simple wiring (2-wire), SPI for higher speed (4-wire). Voltage - match the operating voltage of your system (1.8V, 3.3V, or 5V). Temperature - commercial (0°C to +70°C), industrial (-40°C to +85°C), or automotive (-40°C to +125°C). Package - select based on board space and assembly requirements. Endurance - consider write cycle requirements for your application. Our FAE team can provide detailed selection guidance based on your specific requirements.",
       "decisionGuide": "Use our selection guides or contact LiTong FAE team for personalized memory product recommendations.",
-      "keywords": ["Giantec memory selection", "EEPROM selection guide", "Flash selection"]
+      "keywords": [
+        "Giantec memory selection",
+        "EEPROM selection guide",
+        "Flash selection"
+      ]
     },
     {
       "question": "What is the difference between Giantec EEPROM and NOR Flash?",
       "answer": "Giantec EEPROM and NOR Flash serve different purposes in embedded systems: EEPROM is ideal for storing configuration data, calibration parameters, and user settings that require frequent updates. It supports byte-level read/write operations with high endurance (millions of cycles) and requires no external programming voltage. NOR Flash is designed for code storage and larger data that is written infrequently but read often. It offers higher density (up to 128Mb) and faster read speeds but requires sector-based erase operations and has lower write endurance (typically 100K cycles). EEPROM is better for: Small data storage, frequent updates, byte-level access. NOR Flash is better for: Program code storage, large data blocks, fast execution (XIP - Execute In Place). Many systems use both - Flash for program storage and EEPROM for configuration data.",
       "decisionGuide": "Use EEPROM for configuration data with frequent updates. Use NOR Flash for code storage and large data. Contact our FAE team for system architecture guidance.",
-      "keywords": ["EEPROM vs Flash", "Giantec memory comparison", "memory selection"]
+      "keywords": [
+        "EEPROM vs Flash",
+        "Giantec memory comparison",
+        "memory selection"
+      ]
     },
     {
       "question": "Does Giantec provide automotive-qualified products?",
       "answer": "Yes, Giantec offers AEC-Q100 qualified products specifically designed for automotive applications. These automotive-grade memory products undergo rigorous qualification testing including high temperature operating life (HTOL), temperature cycling, and electrostatic discharge (ESD) testing to meet automotive reliability standards. Giantec's automotive product portfolio includes: EEPROM products qualified to AEC-Q100 Grade 1 (-40°C to +125°C) for ADAS, infotainment, and body electronics. NOR Flash products for automotive grade applications. These products are designed to meet the quality standards required by Tier-1 automotive suppliers and are widely used in automotive camera systems, sensors, and control modules. Giantec continues to expand its automotive product offerings to address the growing demand for memory in electric vehicles and autonomous driving applications.",
       "decisionGuide": "For automotive applications, look for AEC-Q100 qualified Giantec parts. Contact our automotive FAE team for support.",
-      "keywords": ["Giantec automotive", "AEC-Q100 qualified", "automotive EEPROM"]
+      "keywords": [
+        "Giantec automotive",
+        "AEC-Q100 qualified",
+        "automotive EEPROM"
+      ]
     },
     {
       "question": "What support does LiTong provide for Giantec product implementation?",
       "answer": "LiTong provides comprehensive support for Giantec product implementation including: Application engineering assistance from our experienced FAE team who can help with product selection, schematic review, PCB layout recommendations, and debugging. Reference designs and evaluation boards for quick prototyping and validation. Software drivers and code examples for various microcontroller platforms. Technical documentation including datasheets, application notes, and design guides. On-site technical support for critical design reviews and production ramp-up. We can also coordinate with Giantec's factory FAEs for complex technical issues and provide training on Giantec product families. Our goal is to ensure your design success and accelerate time-to-market.",
       "decisionGuide": "Contact LiTong technical support team for personalized assistance with Giantec product selection and application design.",
-      "keywords": ["Giantec support", "product selection assistance", "FAE support"]
+      "keywords": [
+        "Giantec support",
+        "product selection assistance",
+        "FAE support"
+      ]
     },
     {
       "question": "How does Giantec compare to other EEPROM suppliers?",
-      "answer": "Giantec has established itself as a leading EEPROM supplier, particularly in the Chinese and Asian markets. Compared to other suppliers, Giantec offers several advantages: Cost-effectiveness - Giantec provides competitive pricing without compromising quality, making high-reliability memory accessible for cost-sensitive applications. Local support - With headquarters in Shanghai, Giantec provides responsive technical support and fast turnaround for Chinese customers. Wide product range - Giantec offers a comprehensive portfolio from small capacity (1Kbit) to large capacity (1Mbit) EEPROM. Quality and reliability - Giantec products meet or exceed industry standards with robust qualification processes. Supply security - As a major Chinese memory supplier, Giantec provides supply chain security for domestic customers. For customers seeking a balance of quality, cost, and local support, Giantec represents an excellent choice.",
+      "answer": "Giantec has established itself as a leading EEPROM supplier, particularly in the Chinese and Asian markets. Compared to other suppliers, Giantec offers several advantages: Cost-effectiveness - Giantec provides competitive pricing without compromising quality, making high-reliability memory accessible for cost-sensitive applications. Local support - With headquarters in Shanghai, Giantec provides responsive technical support and fast turnaround for Chinese customers. Wide product range - Giantec offers a comprehensive portfolio from small capacity (1Kbit) to large capacity (1Mbit) EEPROM. Quality and reliability - Giantec products meet or exceed industry standards with robust qualification processes. Supply security - As a major Chinese memory supplier, Giantec provides supply chain security for domestic customers. For customers seeking a balance of quality, cost, and local support, Giantec is an excellent choice.",
       "decisionGuide": "Compare Giantec solutions with your requirements. Contact our FAE team for competitive analysis and recommendations.",
-      "keywords": ["Giantec comparison", "EEPROM suppliers", "competitive analysis"]
+      "keywords": [
+        "Giantec comparison",
+        "EEPROM suppliers",
+        "competitive analysis"
+      ]
     }
   ]
 }

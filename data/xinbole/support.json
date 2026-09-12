@@ -247,7 +247,7 @@
         },
         {
           "question": "Can I use a higher voltage driver with lower voltage motor?",
-          "answer": "Yes, you can use a higher voltage driver with a lower voltage motor, but current must be limited to motor rating. Higher voltage allows higher speed and torque. The driver must have adjustable current limiting. Set current limit to motor rated current. Higher voltage with current limiting is actually preferred for better performance. Example: Use 24V driver with 12V motor at rated current.",
+          "answer": "Yes, you can use a higher voltage driver with a lower voltage motor, but current must be limited to motor rating. Higher voltage allows higher speed and torque. The driver must have adjustable current limiting. Set current limit to motor rated current. Higher voltage with current limiting is preferred for better performance. Example: Use 24V driver with 12V motor at rated current.",
           "decisionGuide": "Higher voltage driver OK with current limiting. Set current to motor rating.",
           "keywords": [
             "voltage mismatch",
@@ -267,7 +267,7 @@
         },
         {
           "question": "Where can I find reference designs for this application?",
-          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact us to request reference designs and evaluation materials for your specific application.",
           "keywords": [
             "reference design",
@@ -423,7 +423,7 @@
         },
         {
           "question": "Where can I find reference designs for this application?",
-          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact us to request reference designs and evaluation materials for your specific application.",
           "keywords": [
             "reference design",
@@ -433,7 +433,7 @@
         },
         {
           "question": "What support is available during the design phase?",
-          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact our FAE team early in the design phase for best results. We offer complimentary design review services.",
           "keywords": [
             "design support",
@@ -576,7 +576,7 @@
         },
         {
           "question": "What is input offset voltage and why does it matter?",
-          "answer": "Input offset voltage is the differential voltage required at the inputs to produce zero output. It represents the input-referred DC error. In precision applications, offset directly affects accuracy. For a gain-of-100 amplifier, 1mV offset creates 100mV output error. Precision op-amps have microvolt-level offsets. General-purpose op-amps may have several millivolts. For DC precision, select low offset op-amps and consider offset drift over temperature.",
+          "answer": "Input offset voltage is the differential voltage required at the inputs to produce zero output. It is the input-referred DC error. In precision applications, offset directly affects accuracy. For a gain-of-100 amplifier, 1mV offset creates 100mV output error. Precision op-amps have microvolt-level offsets. General-purpose op-amps may have several millivolts. For DC precision, select low offset op-amps and consider offset drift over temperature.",
           "decisionGuide": "Select low offset op-amps for precision applications. Calculate error at your gain.",
           "keywords": [
             "offset voltage",
@@ -596,7 +596,7 @@
         },
         {
           "question": "Where can I find reference designs for this application?",
-          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact us to request reference designs and evaluation materials for your specific application.",
           "keywords": [
             "reference design",
@@ -606,7 +606,7 @@
         },
         {
           "question": "What support is available during the design phase?",
-          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact our FAE team early in the design phase for best results. We offer complimentary design review services.",
           "keywords": [
             "design support",
@@ -767,7 +767,7 @@
         },
         {
           "question": "Where can I find reference designs for this application?",
-          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Reference designs, application notes, and evaluation boards are available through LiTong. Contact our sales or technical support team to request documentation and samples for evaluation. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact us to request reference designs and evaluation materials for your specific application.",
           "keywords": [
             "reference design",
@@ -777,7 +777,7 @@
         },
         {
           "question": "What support is available during the design phase?",
-          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "LiTong provides comprehensive design support including schematic review, layout guidance, and debugging assistance. Our FAE team can help optimize your design and troubleshoot issues. For detailed specifications and application support on xinbole products, refer to the datasheet or contact our team.",
           "decisionGuide": "Contact our FAE team early in the design phase for best results. We offer complimentary design review services.",
           "keywords": [
             "design support",

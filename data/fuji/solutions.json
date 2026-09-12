@@ -6,7 +6,7 @@
       "description": "High-performance industrial inverter solution based on Fuji 7th Generation IGBT modules, suitable for motor drives, pumps, fans, and industrial automation",
       "image": "/images/fuji/solutions/industrial-inverter.jpg",
       "heroImage": "/images/fuji/solutions/industrial-inverter-hero.jpg",
-      "icon": "⚡",
+      "icon": "",
       "industry": "Industrial Automation",
       "applications": [
         "Inverters",
@@ -167,7 +167,7 @@
         },
         {
           "question": "What motor control algorithms are supported by inverters?",
-          "answer": "This solution supports multiple motor control algorithms: (1) V/f control: open-loop control, simple implementation, suitable for fans, pumps and general speed regulation; (2) Vector control (FOC): field-oriented control provides excellent dynamic performance and torque control for high-performance drives; (3) Direct Torque Control (DTC): fast response, low torque ripple, suitable for high-performance servo; (4) Sensorless vector control: no encoder needed, reduces cost for general industrial; (5) PMSM control: supports SPM and IPM permanent magnet motor efficient control; (6) SynRM control: supports new high-efficiency synchronous reluctance motors. Fuji IGBT's fast switching characteristics (<200ns) ensure full algorithm performance.",
+          "answer": "This solution supports multiple motor control algorithms: (1) V/f control: open-loop control, simple implementation, suitable for fans, pumps and general speed regulation; (2) Vector control (FOC): field-oriented control provides excellent dynamic performance and torque control for high-performance drives; (3) Direct Torque Control (DTC): fast response, low torque ripple, suitable for high-performance servo; (4) Sensorless vector control: No encoder is needed, reduces cost for general industrial; (5) PMSM control: supports SPM and IPM permanent magnet motor efficient control; (6) SynRM control: supports new high-efficiency synchronous reluctance motors. Fuji IGBT's fast switching characteristics (<200ns) ensure full algorithm performance.",
           "decisionGuide": "Fans and pumps choose V/f control; general industrial drives choose vector control; high-performance servo choose DTC or direct torque control.",
           "keywords": [
             "control algorithm",
@@ -179,7 +179,7 @@
         }
       ],
       "slug": "industrial-inverter-solution",
-      "longDescription": "The Industrial Control Solution 1 from fuji represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of fuji components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Industrial Control Solution 1 from fuji is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of fuji components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "High performance and reliability",
         "Comprehensive technical support",
@@ -210,7 +210,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Based on extensive experience supporting customers with Industrial Inverter Solution, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness. This solution leverages advanced technology advantages in integrated device design.",
+        "content": "Key considerations: Optimized for target applications with proven reliability; Integrated design reduces BOM cost and complexity; Comprehensive technical support from FAE team; Scalable architecture supports various configurations; Complete reference design accelerates time-to-market.",
         "keyTakeaways": [
           "Optimized for target applications with proven reliability",
           "Integrated design reduces BOM cost and complexity",
@@ -236,7 +236,7 @@
       "description": "High-efficiency EV charging solution using Fuji SiC MOSFET and IGBT modules, supporting fast charging and supercharging applications with conversion efficiency up to 99%",
       "image": "/images/fuji/solutions/ev-charging.jpg",
       "heroImage": "/images/fuji/solutions/ev-charging-hero.jpg",
-      "icon": "🔋",
+      "icon": "",
       "industry": "New Energy Vehicles",
       "applications": [
         "DC Fast Chargers",
@@ -411,7 +411,7 @@
         }
       ],
       "slug": "ev-charging-solution",
-      "longDescription": "The Automotive Electronics Solution 2 from fuji represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of fuji components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Automotive Electronics Solution 2 from fuji is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of fuji components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "High performance and reliability",
         "Comprehensive technical support",
@@ -442,7 +442,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Based on extensive experience supporting customers with EV Charging Solution, this solution addresses critical design challenges through proven architecture. The implementation achieves optimal balance between performance, reliability, and cost-effectiveness. This solution leverages advanced technology advantages in integrated device design.",
+        "content": "Key considerations: Optimized for target applications with proven reliability; Integrated design reduces BOM cost and complexity; Comprehensive technical support from FAE team; Scalable architecture supports various configurations; Complete reference design accelerates time-to-market.",
         "keyTakeaways": [
           "Optimized for target applications with proven reliability",
           "Integrated design reduces BOM cost and complexity",

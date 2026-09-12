@@ -51,7 +51,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about mitsubishi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -198,7 +198,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about mitsubishi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -265,7 +265,7 @@
         },
         {
           "question": "How do I interface DIPIPM with my microcontroller?",
-          "answer": "MCU interface: (1) Control inputs - 6 pins (HIN/LIN per phase). (2) Logic level - 3.3V or 5V compatible. (3) Input current - 1mA typical. (4) Pull-down - Built-in, no external needed. (5) Dead time - Add 2-5μs in software. (6) FO output - Open-drain, use 10kΩ pull-up. (7) VFO - Connect to MCU VCC. Interface requires only 6 GPIO pins and one pull-up resistor.",
+          "answer": "MCU interface: (1) Control inputs - 6 pins (HIN/LIN per phase). (2) Logic level - 3.3V or 5V compatible. (3) Input current - 1mA typical. (4) Pull-down - Built-in, No external is needed. (5) Dead time - Add 2-5μs in software. (6) FO output - Open-drain, use 10kΩ pull-up. (7) VFO - Connect to MCU VCC. Interface requires only 6 GPIO pins and one pull-up resistor.",
           "decisionGuide": "Connect directly to MCU; add software dead time; use pull-up on FO.",
           "keywords": [
             "MCU interface",
@@ -338,14 +338,14 @@
       ],
       "content": [
         "This technical reference document provides detailed information about mitsubishi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
       "sections": [
         {
           "heading": "Understanding Thermal Resistance",
-          "content": "Thermal resistance represents the temperature rise per unit of power dissipation, analogous to electrical resistance. The total thermal resistance from junction to ambient consists of junction-to-case (Rth(j-c)), case-to-heatsink (Rth(c-s)), and heatsink-to-ambient (Rth(s-a)) resistances in series. Understanding these components is essential for accurate thermal design."
+          "content": "Thermal resistance is the temperature rise per unit of power dissipation, analogous to electrical resistance. The total thermal resistance from junction to ambient consists of junction-to-case (Rth(j-c)), case-to-heatsink (Rth(c-s)), and heatsink-to-ambient (Rth(s-a)) resistances in series. Understanding these components is essential for accurate thermal design."
         },
         {
           "heading": "Power Loss Calculation",
@@ -481,7 +481,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about mitsubishi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

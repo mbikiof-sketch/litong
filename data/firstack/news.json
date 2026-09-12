@@ -7,13 +7,21 @@
       "question": "What are Firstack's latest product releases?",
       "answer": "Firstack continues to innovate in power electronics with regular product updates. Recent releases include enhanced versions of the 2FSC0435+ digital driver core with improved protection features, new FSS series power stacks for solar applications, and advanced ASIC solutions for SiC MOSFETs. Contact our sales team for information on the latest product availability.",
       "decisionGuide": "Subscribe to our newsletter or check this page regularly for the latest Firstack product announcements.",
-      "keywords": ["Firstack new products", "Firstack releases", "Firstack updates"]
+      "keywords": [
+        "Firstack new products",
+        "Firstack releases",
+        "Firstack updates"
+      ]
     },
     {
       "question": "Where can I meet Firstack representatives?",
       "answer": "Firstack participates in major power electronics trade shows worldwide including PCIM Europe, APEC (Applied Power Electronics Conference), and various regional exhibitions. BeiLuo Electronics also hosts technical seminars featuring Firstack products. Check this page for upcoming event announcements and schedule meetings with our technical team.",
       "decisionGuide": "Contact our sales team to schedule a meeting at upcoming trade shows or technical seminars.",
-      "keywords": ["Firstack events", "Firstack trade shows", "Firstack seminars"]
+      "keywords": [
+        "Firstack events",
+        "Firstack trade shows",
+        "Firstack seminars"
+      ]
     }
   ],
   "articles": [
@@ -25,7 +33,12 @@
       "summary": "Firstack Technology releases enhanced version of industry-leading 2FSC0435+ digital gate driver core with improved protection features and extended temperature range.",
       "content": "Firstack Technology has announced an enhanced version of their industry-leading 2FSC0435+ digital gate driver core. The new version features improved DESAT detection accuracy, extended operating temperature range to -40°C to +105°C, and enhanced diagnostic capabilities. The enhancements are designed to meet the growing demands of automotive and renewable energy applications where reliability and performance are critical. Existing customers can upgrade with minimal design changes as the enhanced version maintains pin compatibility with the original.",
       "image": "/assets/brands/firstack/images/news/2fsc0435-enhanced.jpg",
-      "tags": ["2FSC0435+", "Product Release", "Gate Driver", "Digital Driver"],
+      "tags": [
+        "2FSC0435+",
+        "Product Release",
+        "Gate Driver",
+        "Digital Driver"
+      ],
       "featured": true
     },
     {
@@ -36,18 +49,28 @@
       "summary": "Firstack introduces new FSS75-1200 and FSS125-1200 power stacks for commercial solar inverter applications, expanding the popular FSS series.",
       "content": "Firstack Technology has expanded their power stack portfolio with the introduction of FSS75-1200 and FSS125-1200 models. These new additions fill the gap between existing FSS50-1200 and FSS100-1200 models, providing more granular power rating options for commercial solar inverter designers. Both new models feature the same >97.5% efficiency, air-cooled design, and IP65 protection rating as the existing FSS series. The FSS75-1200 is optimized for 60-90kW inverters, while the FSS125-1200 targets 100-150kW applications. Samples are available now with production quantities shipping in Q2 2026.",
       "image": "/assets/brands/firstack/images/news/fss-series-expansion.jpg",
-      "tags": ["Power Stack", "FSS Series", "Solar Inverter", "Product Release"],
+      "tags": [
+        "Power Stack",
+        "FSS Series",
+        "Solar Inverter",
+        "Product Release"
+      ],
       "featured": true
     },
     {
-      "id": "firstack-showcases-at-pcim-2026",
-      "title": "Firstack Showcases Latest Solutions at PCIM Europe 2026",
+      "id": "firstack-show-at-pcim-2026",
+      "title": "Firstack show Latest Solutions at PCIM Europe 2026",
       "category": "Events",
       "date": "2026-02-01",
       "summary": "Firstack Technology demonstrated their complete portfolio of gate drivers, power stacks, and test equipment at PCIM Europe 2026 in Nuremberg.",
-      "content": "Firstack Technology made a strong showing at PCIM Europe 2026, demonstrating their latest power electronics solutions to a global audience. Highlights included live demonstrations of the 2FSC0435+ digital driver core with adaptive gate drive control, the new FSS series power stacks for solar applications, and the FTE-5000 power module analyzer. The Firstack booth attracted record visitor traffic with particular interest in SiC MOSFET gate drive solutions. Technical presentations covered topics including gate drive design best practices, SiC application considerations, and power stack integration guidelines. BeiLuo Electronics representatives were available to discuss customer applications and provide technical consultation.",
+      "content": "Firstack Technology made a strong showing at PCIM Europe 2026. Highlights included live demonstrations of the 2FSC0435+ digital driver core with adaptive gate drive control, the new FSS series power stacks for solar applications, and the FTE-5000 power module analyzer. The Firstack booth attracted record visitor traffic with particular interest in SiC MOSFET gate drive solutions. Technical presentations covered topics including gate drive design best practices, SiC application considerations, and power stack integration guidelines. BeiLuo Electronics representatives were available to discuss customer applications and provide technical consultation.",
       "image": "/assets/brands/firstack/images/news/pcim-2026.jpg",
-      "tags": ["PCIM", "Trade Show", "Events", "Exhibition"],
+      "tags": [
+        "PCIM",
+        "Trade Show",
+        "Events",
+        "Exhibition"
+      ],
       "featured": false
     },
     {
@@ -56,9 +79,15 @@
       "category": "Company News",
       "date": "2026-01-20",
       "summary": "Firstack's FAS-200 gate driver ASIC successfully completes AEC-Q100 Grade 1 qualification, enabling automotive power electronics applications.",
-      "content": "Firstack Technology announced that their FAS-200 gate driver ASIC has successfully achieved AEC-Q100 Grade 1 qualification, opening the door to automotive power electronics applications. The qualification process included extensive reliability testing including High Temperature Operating Life (HTOL), Temperature Cycling, and ESD testing. The FAS-200 is now qualified for operation from -40°C to +125°C, meeting the stringent requirements of automotive applications. This milestone represents Firstack's commitment to serving the growing electric vehicle market with high-reliability power solutions. The FAS-200 is particularly well-suited for EV traction inverters and onboard chargers requiring high drive capability and fast switching.",
+      "content": "Firstack Technology announced that their FAS-200 gate driver ASIC has successfully achieved AEC-Q100 Grade 1 qualification, opening the door to automotive power electronics applications. The qualification process included extensive reliability testing including High Temperature Operating Life (HTOL), Temperature Cycling, and ESD testing. The FAS-200 is now qualified for operation from -40°C to +125°C, meeting the stringent requirements of automotive applications. This milestone is Firstack's commitment to serving the growing electric vehicle market with high-reliability power solutions. The FAS-200 is particularly well-suited for EV traction inverters and onboard chargers requiring high drive capability and fast switching.",
       "image": "/assets/brands/firstack/images/news/fas200-automotive.jpg",
-      "tags": ["FAS-200", "Automotive", "AEC-Q100", "ASIC", "Qualification"],
+      "tags": [
+        "FAS-200",
+        "Automotive",
+        "AEC-Q100",
+        "ASIC",
+        "Qualification"
+      ],
       "featured": true
     },
     {
@@ -67,9 +96,14 @@
       "category": "Company News",
       "date": "2026-01-10",
       "summary": "Firstack Technology expands R&D capabilities with new research and development center focused on next-generation power electronics.",
-      "content": "Firstack Technology has officially opened a new Research and Development center in Hangzhou, China. The 50,000 square meter facility houses state-of-the-art laboratories for gate driver design, power stack development, and semiconductor testing. The new R&D center will focus on next-generation technologies including GaN gate drivers, advanced digital control algorithms, and intelligent power modules. Firstack has hired over 100 additional engineers to staff the facility, expanding their total R&D team to more than 300 professionals. The investment represents Firstack's commitment to maintaining technology leadership in the rapidly evolving power electronics market.",
+      "content": "Firstack Technology has officially opened a new Research and Development center in Hangzhou, China. The 50,000 square meter facility houses state-of-the-art laboratories for gate driver design, power stack development, and semiconductor testing. The new R&D center will focus on next-generation technologies including GaN gate drivers, advanced digital control algorithms, and intelligent power modules. Firstack has hired over 100 additional engineers to staff the facility, expanding their total R&D team to more than 300 professionals. The investment is Firstack's commitment to maintaining technology leadership in the rapidly evolving power electronics market.",
       "image": "/assets/brands/firstack/images/news/rd-center-opening.jpg",
-      "tags": ["Company News", "R&D", "Expansion", "Hangzhou"],
+      "tags": [
+        "Company News",
+        "R&D",
+        "Expansion",
+        "Hangzhou"
+      ],
       "featured": false
     },
     {
@@ -80,7 +114,13 @@
       "summary": "Firstack publishes comprehensive application note covering SiC MOSFET gate drive design, protection, and PCB layout considerations.",
       "content": "Firstack Technology has released a comprehensive design guide for SiC MOSFET applications. The 80-page application note covers critical topics including gate voltage requirements, switching characteristics, protection considerations, and PCB layout optimization. The guide provides practical design recommendations based on Firstack's extensive experience with SiC devices. Key topics include the importance of negative gate voltage for preventing Miller effect, fast short-circuit protection requirements, and minimizing loop inductance for clean switching. The document includes reference designs for common SiC applications including EV traction inverters, solar inverters, and DC-DC converters. The design guide is available for download from the BeiLuo Electronics website.",
       "image": "/assets/brands/firstack/images/news/sic-design-guide.jpg",
-      "tags": ["SiC", "MOSFET", "Design Guide", "Application Note", "Technical"],
+      "tags": [
+        "SiC",
+        "MOSFET",
+        "Design Guide",
+        "Application Note",
+        "Technical"
+      ],
       "featured": false
     }
   ]

@@ -37,7 +37,7 @@
       "name": "Industrial Control Solution 1",
       "category": "Consumer Electronics",
       "description": "Complete 35W high-efficiency power adapter solution using InnoSwitch3-CP with >92% efficiency and <30mW standby power. Meets DOE Level VI and CoC Tier 2 requirements.",
-      "longDescription": "The Industrial Control Solution 1 from power-integrations represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of power-integrations components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Industrial Control Solution 1 from power-integrations is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of power-integrations components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "image": "/assets/brands/power-integrations/images/solutions/high-efficiency-adapter.jpg",
       "specifications": {
         "Input Voltage": "90-264V AC",
@@ -200,7 +200,7 @@
       "name": "Automotive Electronics Solution 2",
       "category": "LED Lighting",
       "description": "Complete 25W commercial LED driver solution using LinkSwitch-PH with >0.95 power factor, <15% THD, and 0-10V/PWM dimming for intelligent lighting systems.",
-      "longDescription": "The Automotive Electronics Solution 2 from power-integrations represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of power-integrations components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Automotive Electronics Solution 2 from power-integrations is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of power-integrations components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "image": "/assets/brands/power-integrations/images/solutions/led-commercial-lighting.jpg",
       "specifications": {
         "Input Voltage": "90-305V AC",
@@ -411,7 +411,9 @@
           "challenge": "Design reliable, efficient motor drive with minimal external components",
           "solution": "Used BRD1265C BridgeSwitch for integrated motor drive solution",
           "results": "Achieved 96% efficiency, 40% BOM reduction, passed all safety certifications",
-          "products": ["BRD1265C"],
+          "products": [
+            "BRD1265C"
+          ],
           "result": "Achieved significant performance improvement with enhanced reliability."
         }
       ],
@@ -422,7 +424,11 @@
           "name": "David Wang",
           "title": "Senior FAE - Motor Control",
           "experience": "12 years",
-          "expertise": ["Motor Drives", "BLDC Control", "Power Electronics"]
+          "expertise": [
+            "Motor Drives",
+            "BLDC Control",
+            "Power Electronics"
+          ]
         },
         "insight": "BridgeSwitch integration significantly simplifies motor drive design while improving reliability.",
         "logic": "This solution was selected based on integration level, efficiency requirements, and reliability needs.",
@@ -443,7 +449,11 @@
         ],
         "decisionFramework": {
           "title": "Decision Framework",
-          "steps": ["Evaluate requirements", "Compare solutions", "Consult FAE"]
+          "steps": [
+            "Evaluate requirements",
+            "Compare solutions",
+            "Consult FAE"
+          ]
         }
       },
       "bomList": [
@@ -467,7 +477,12 @@
           "question": "What motor types are supported by the Motor Drive Solution?",
           "answer": "The Motor Drive Solution supports BLDC (Brushless DC) and PMSM (Permanent Magnet Synchronous Motor) types. Both sensorless and sensored control methods are supported. The BridgeSwitch ICs provide the power stage, while the control algorithm runs on an external microcontroller. Sensorless FOC (Field Oriented Control) and trapezoidal commutation are commonly used control methods.",
           "decisionGuide": "Contact our FAE team for motor type selection and control algorithm recommendations.",
-          "keywords": ["BLDC motor", "PMSM", "motor control", "FOC"]
+          "keywords": [
+            "BLDC motor",
+            "PMSM",
+            "motor control",
+            "FOC"
+          ]
         }
       ],
       "applications": [

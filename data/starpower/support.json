@@ -345,7 +345,7 @@
         },
         {
           "question": "How do I protect SiC MOSFETs from overcurrent faults?",
-          "answer": "SiC MOSFET overcurrent protection requires fast response (<2μs): (1) Detection methods: (a) Desaturation detection - monitor VDS during on-state; >7V indicates fault. Response time <1μs. (b) Shunt resistor - use low-inductance shunt with fast comparator. Response time <500ns. (2) Soft turn-off - gradual gate discharge (10-20μs) to prevent overvoltage spikes. (3) Gate clamping - active Miller clamp maintains negative voltage during fault. (4) Current limiting - implement cycle-by-cycle current limiting in control loop. (5) Fuse protection - semiconductor fuse for catastrophic failure. Key differences from IGBT: SiC has 2-5μs tSC vs 10μs for IGBT, requiring faster protection. SiC's fast switching actually helps by quickly limiting fault current once detected.",
+          "answer": "SiC MOSFET overcurrent protection requires fast response (<2μs): (1) Detection methods: (a) Desaturation detection - monitor VDS during on-state; >7V indicates fault. Response time <1μs. (b) Shunt resistor - use low-inductance shunt with fast comparator. Response time <500ns. (2) Soft turn-off - gradual gate discharge (10-20μs) to prevent overvoltage spikes. (3) Gate clamping - active Miller clamp maintains negative voltage during fault. (4) Current limiting - implement cycle-by-cycle current limiting in control loop. (5) Fuse protection - semiconductor fuse for catastrophic failure. Key differences from IGBT: SiC has 2-5μs tSC vs 10μs for IGBT, requiring faster protection. SiC's fast switching helps by quickly limiting fault current once detected.",
           "decisionGuide": "Contact our FAE team for protection circuit design and component selection.",
           "keywords": [
             "SiC overcurrent protection",
@@ -560,7 +560,7 @@
         "keyPoints": [
           "80% of field failures are thermal-related - always check temperatures first",
           "Gate drive issues are #2 cause - use scope to verify waveforms",
-          "Many 'module failures' are actually application circuit problems",
+          "Many 'module failures' are application circuit problems",
           "Parasitic inductance is often underestimated - measure if possible",
           "Protection circuits often misconfigured - verify settings",
           "Documentation of test conditions is critical for remote troubleshooting"

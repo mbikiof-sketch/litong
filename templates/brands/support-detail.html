@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= article.title %> | <%= brand.displayName %> Technical Support</title>
+  <title><%= article.title %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= article.summary %>">
   
   <script type="application/ld+json">
@@ -67,6 +67,8 @@
     @media (max-width: 1023px) { .article-layout { grid-template-columns: 1fr; } .sidebar { position: static; } }
     @media (max-width: 767px) { .related-grid { grid-template-columns: 1fr; } .article-title { font-size: 2rem; } }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/support/<%= article.id %>">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
   <!-- Navbar -->
@@ -76,7 +78,6 @@
         <a href="/<%= brand.name.toLowerCase() %>/" class="logo-link">
           <div class="logo-text">
             <span class="logo-main">BeiLuo</span>
-            <span class="logo-sub">Electronics</span>
           </div>
           <span class="brand-tagline">Top 8 Electronic Component Distributor in China</span>
         </a>
@@ -315,7 +316,7 @@
                       <p>Read more →</p>
                     </a>
                   <% } else if (typeof related === 'string') { %>
-                    <a href="/<%= brand.name.toLowerCase() %>/support/<%= related %>.html" class="related-card">
+                    <a href="/<%= brand.name.toLowerCase() %>/support/<%= related %>" class="related-card">
                       <h4><%= related.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) %></h4>
                       <p>Read more →</p>
                     </a>

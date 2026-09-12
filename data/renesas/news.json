@@ -12,13 +12,21 @@
       "question": "Where can I find the latest Renesas product announcements?",
       "answer": "BeiLuo's news section provides the latest updates on Renesas product launches, technology innovations, and industry developments. As an authorized distributor, we receive advance notice of new products and can help you evaluate and source the latest Renesas solutions for your applications.",
       "decisionGuide": "Subscribe to our newsletter or check this page regularly for Renesas product updates.",
-      "keywords": ["Renesas news", "product announcements", "new products"]
+      "keywords": [
+        "Renesas news",
+        "product announcements",
+        "new products"
+      ]
     },
     {
       "question": "How can I stay updated on Renesas technology developments?",
       "answer": "Follow our news section for regular updates on Renesas technology innovations, application solutions, and industry trends. Our technical team also publishes articles and guides to help you understand and implement new Renesas technologies in your designs.",
       "decisionGuide": "Contact our technical team to discuss how new Renesas technologies can benefit your applications.",
-      "keywords": ["Renesas technology", "industry updates", "technical news"]
+      "keywords": [
+        "Renesas technology",
+        "industry updates",
+        "technical news"
+      ]
     }
   ],
   "articles": [
@@ -29,12 +37,18 @@
       "subtitle": "New RA8 family delivers breakthrough performance with Helium vector extensions for AI/ML applications",
       "date": "2024-03-20",
       "category": "Product Launch",
-      "tags": ["RA8", "Cortex-M85", "AI/ML", "New Product", "Microcontroller"],
+      "tags": [
+        "RA8",
+        "Cortex-M85",
+        "AI/ML",
+        "New Product",
+        "Microcontroller"
+      ],
       "excerpt": "Renesas has announced the RA8 series, the industry's first microcontrollers based on the Arm Cortex-M85 core with Helium vector extensions. These MCUs deliver over 6 CoreMark/MHz performance and enable efficient AI/ML inference at the edge.",
       "content": [
         {
           "heading": "Breakthrough Performance",
-          "text": "The RA8 series represents a significant leap in MCU performance. The Cortex-M85 core with Helium technology delivers over 6 CoreMark/MHz, making it the highest-performing Cortex-M processor available. The Helium vector extensions provide up to 4x performance improvement for DSP and machine learning workloads compared to previous Cortex-M generations."
+          "text": "The RA8 series is significant leap in MCU performance. The Cortex-M85 core with Helium technology delivers over 6 CoreMark/MHz, making it the highest-performing Cortex-M processor available. The Helium vector extensions provide up to 4x performance improvement for DSP and machine learning workloads compared to previous Cortex-M generations."
         },
         {
           "heading": "AI/ML at the Edge",
@@ -59,7 +73,13 @@
       "subtitle": "New ISL series devices target automotive and industrial applications",
       "date": "2024-03-15",
       "category": "Product Update",
-      "tags": ["Analog", "Power Management", "Automotive", "Industrial", "New Product"],
+      "tags": [
+        "Analog",
+        "Power Management",
+        "Automotive",
+        "Industrial",
+        "New Product"
+      ],
       "excerpt": "Renesas has expanded its analog portfolio with new power management ICs, motor drivers, and LED drivers targeting automotive and industrial applications. The new devices feature AEC-Q100 qualification and enhanced protection features.",
       "content": [
         {
@@ -89,7 +109,12 @@
       "subtitle": "End-to-end security solution for connected devices from edge to cloud",
       "date": "2024-03-10",
       "category": "Technology",
-      "tags": ["IoT Security", "TrustZone", "Secure Boot", "Cloud Connectivity"],
+      "tags": [
+        "IoT Security",
+        "TrustZone",
+        "Secure Boot",
+        "Cloud Connectivity"
+      ],
       "excerpt": "Renesas has launched a comprehensive IoT security platform combining hardware security features, software libraries, and cloud integration services. The platform simplifies implementation of secure connected devices.",
       "content": [
         {
@@ -119,7 +144,13 @@
       "subtitle": "Complete solutions for BLDC, PMSM, and AC induction motor control",
       "date": "2024-03-05",
       "category": "Reference Design",
-      "tags": ["Motor Control", "Reference Design", "BLDC", "FOC", "RX MCU"],
+      "tags": [
+        "Motor Control",
+        "Reference Design",
+        "BLDC",
+        "FOC",
+        "RX MCU"
+      ],
       "excerpt": "Renesas has introduced new motor control reference designs featuring sensorless FOC algorithms for various motor types. The designs include complete hardware schematics, software source code, and detailed documentation.",
       "content": [
         {
@@ -149,7 +180,12 @@
       "subtitle": "New products support TSN, EtherCAT, and Profinet protocols",
       "date": "2024-02-28",
       "category": "Product Update",
-      "tags": ["Industrial Ethernet", "TSN", "EtherCAT", "Industrial Communication"],
+      "tags": [
+        "Industrial Ethernet",
+        "TSN",
+        "EtherCAT",
+        "Industrial Communication"
+      ],
       "excerpt": "Renesas has expanded its industrial Ethernet portfolio with new solutions supporting Time-Sensitive Networking (TSN), EtherCAT slave controllers, and Profinet interfaces. These products accelerate development of Industry 4.0 connected devices.",
       "content": [
         {
@@ -179,7 +215,13 @@
       "subtitle": "New devices target ADAS, autonomous driving, and cockpit applications",
       "date": "2024-02-20",
       "category": "Product Launch",
-      "tags": ["Automotive", "R-Car", "ADAS", "Autonomous Driving", "SoC"],
+      "tags": [
+        "Automotive",
+        "R-Car",
+        "ADAS",
+        "Autonomous Driving",
+        "SoC"
+      ],
       "excerpt": "Renesas has announced the next generation of R-Car automotive SoCs featuring enhanced AI processing capabilities, functional safety support, and high-speed interfaces for camera and lidar sensors.",
       "content": [
         {
@@ -209,7 +251,12 @@
       "subtitle": "Comprehensive sustainability strategy includes renewable energy and green manufacturing",
       "date": "2024-02-15",
       "category": "Corporate",
-      "tags": ["Sustainability", "Carbon Neutrality", "Green Manufacturing", "ESG"],
+      "tags": [
+        "Sustainability",
+        "Carbon Neutrality",
+        "Green Manufacturing",
+        "ESG"
+      ],
       "excerpt": "Renesas has announced its commitment to achieve carbon neutrality by 2050, with interim targets for 2030. The strategy includes transitioning to renewable energy, improving manufacturing efficiency, and developing energy-efficient products.",
       "content": [
         {
@@ -239,7 +286,13 @@
       "subtitle": "Latest Flexible Software Package adds new middleware and security enhancements",
       "date": "2024-02-10",
       "category": "Software",
-      "tags": ["FSP", "Software", "RA MCU", "Middleware", "Security"],
+      "tags": [
+        "FSP",
+        "Software",
+        "RA MCU",
+        "Middleware",
+        "Security"
+      ],
       "excerpt": "Renesas has released version 5.0 of the Flexible Software Package (FSP) with significant enhancements including new middleware stacks, improved security features, and expanded device support.",
       "content": [
         {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= solution.title %> | <%= brand.displayName %> Solution</title>
+  <title><%= solution.title %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= solution.description %>">
   
   <script type="application/ld+json">
@@ -64,6 +64,8 @@
     @media (max-width: 1023px) { .solution-layout { grid-template-columns: 1fr; } .sidebar { position: static; } .advantages-list, .specs-grid { grid-template-columns: 1fr; } }
     @media (max-width: 767px) { .solution-diagram { height: 200px; font-size: 2rem; } }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->
@@ -219,6 +221,7 @@
               <% }); %>
             </div>
 
+            <% if (solution.bomList) { %>
             <h2>Recommended Bill of Materials (BOM)</h2>
             <table class="bom-table">
               <thead>
@@ -231,30 +234,51 @@
                 </tr>
               </thead>
               <tbody>
-                <% solution.bomList.forEach(function(item, idx) { %>
-                  <tr>
-                    <td><%= idx + 1 %></td>
-                    <td>
-                      <% if (item.link) { %>
-                        <a href="<%= item.link %>"><%= item.partNumber || item.component %></a>
-                      <% } else { %>
-                        <%= item.partNumber || item.component %>
-                      <% } %>
-                    </td>
-                    <td><%= item.description %></td>
-                    <td><%= item.quantity %></td>
-                    <td><a href="#">📄 Download</a></td>
-                  </tr>
-                <% }); %>
+                <% if (Array.isArray(solution.bomList)) { %>
+                  <% solution.bomList.forEach(function(item, idx) { %>
+                    <tr>
+                      <td><%= idx + 1 %></td>
+                      <td>
+                        <% if (item.link) { %>
+                          <a href="<%= item.link %>"><%= item.partNumber || item.component %></a>
+                        <% } else { %>
+                          <%= item.partNumber || item.component %>
+                        <% } %>
+                      </td>
+                      <td><%= item.description %></td>
+                      <td><%= item.quantity %></td>
+                      <td><a href="#">📄 Download</a></td>
+                    </tr>
+                  <% }); %>
+                <% } else if (solution.bomList.items && Array.isArray(solution.bomList.items)) { %>
+                  <% solution.bomList.items.forEach(function(item, idx) { %>
+                    <tr>
+                      <td><%= idx + 1 %></td>
+                      <td>
+                        <% if (item.link) { %>
+                          <a href="<%= item.link %>"><%= item.partNumber || item.component %></a>
+                        <% } else { %>
+                          <%= item.partNumber || item.component %>
+                        <% } %>
+                      </td>
+                      <td><%= item.description %></td>
+                      <td><%= item.quantity %></td>
+                      <td><a href="#">📄 Download</a></td>
+                    </tr>
+                  <% }); %>
+                <% } %>
               </tbody>
             </table>
+            <% } %>
 
+            <% if (solution.applications && Array.isArray(solution.applications)) { %>
             <h2>Applications</h2>
             <div class="advantages-list">
               <% solution.applications.forEach(function(app) { %>
                 <div class="advantage-item"><%= app %></div>
               <% }); %>
             </div>
+            <% } %>
 
             <h2>Technical Specifications</h2>
             <div class="specs-grid">
@@ -416,7 +440,7 @@
               <h4>Other Solutions</h4>
               <ul>
                 <% solutions.forEach(function(sol) { %>
-                  <li><a href="/<%= brand.name.toLowerCase() %>/solutions/<%= sol.id %>.html"><%= sol.title %></a></li>
+                  <li><a href="/<%= brand.name.toLowerCase() %>/solutions/<%= sol.id %>"><%= sol.title %></a></li>
                 <% }); %>
               </ul>
             </div>

@@ -321,7 +321,7 @@
             },
             {
               "question": "How do I calculate the effective number of bits (ENOB)?",
-              "answer": "ENOB is calculated from the measured SNR: ENOB = (SNR - 1.76) / 6.02. For MXD1604 with 92dB SNR, ENOB = (92 - 1.76) / 6.02 = 15.0 bits. This represents the actual resolution achieved considering noise, not just the theoretical 16 bits. ENOB varies with input frequency and should be measured at your signal frequency of interest. Higher ENOB indicates better dynamic performance. For DC signals, use SINAD instead of SNR for ENOB calculation. Mxtronics provides typical ENOB vs frequency curves in the datasheet.",
+              "answer": "ENOB is calculated from the measured SNR: ENOB = (SNR - 1.76) / 6.02. For MXD1604 with 92dB SNR, ENOB = (92 - 1.76) / 6.02 = 15.0 bits. This is the actual resolution achieved considering noise, not just the theoretical 16 bits. ENOB varies with input frequency and should be measured at your signal frequency of interest. Higher ENOB indicates better dynamic performance. For DC signals, use SINAD instead of SNR for ENOB calculation. Mxtronics provides typical ENOB vs frequency curves in the datasheet.",
               "decisionGuide": "Calculate ENOB from SNR measurement. Consider ENOB at your operating frequency, not just DC.",
               "keywords": [
                 "ENOB",
@@ -599,7 +599,7 @@
         },
         {
           "question": "What is the efficiency advantage of synchronous rectification?",
-          "answer": "Synchronous rectification replaces the Schottky diode in buck converters with a low-RDS(on) MOSFET, significantly reducing conduction losses. Efficiency improvement: 5-15% at heavy loads, especially at low output voltages. For example, a 3.3V output from 12V input: Schottky diode drop (0.4V) represents 12% loss, while synchronous MOSFET (50mΩ at 3A = 0.15V drop) represents only 4.5% loss. Mxtronics MXP series buck converters use synchronous rectification to achieve efficiencies up to 95%. The trade-off is slightly higher cost and more complex control, but the efficiency gain is usually worth it for aerospace applications where power is limited.",
+          "answer": "Synchronous rectification replaces the Schottky diode in buck converters with a low-RDS(on) MOSFET, significantly reducing conduction losses. Efficiency improvement: 5-15% at heavy loads, especially at low output voltages. For example, a 3.3V output from 12V input: Schottky diode drop (0.4V) is 12% loss, while synchronous MOSFET (50mΩ at 3A = 0.15V drop) is only 4.5% loss. Mxtronics MXP series buck converters use synchronous rectification to achieve efficiencies up to 95%. The trade-off is slightly higher cost and more complex control, but the efficiency gain is usually worth it for aerospace applications where power is limited.",
           "decisionGuide": "Use synchronous rectification for applications >1W or when efficiency is critical. Use non-synchronous for lowest cost applications <1W.",
           "keywords": [
             "synchronous rectification",

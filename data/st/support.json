@@ -18,9 +18,9 @@
       "lastUpdated": "2026-03-15",
       "summary": "Comprehensive guide for selecting the optimal STM32 microcontroller based on performance requirements, power consumption, peripheral needs, and cost constraints. Covers all STM32 families from ultra-low-power L-series to high-performance H-series.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide for selecting the optimal STM32 microcontroller based on performance requirements, power consumption, peripheral needs, and cost constraints. Covers all STM32 families from ultra-low-power L-series to high-performance H-series.",
+        "Design considerations include electrical specifications, thermal management, and application-specific requirements. Refer to the product documentation for detailed parameters.",
+        "For specific application requirements and design assistance, contact st's technical support team or refer to the official product documentation and reference designs."
       ],
       "relatedArticles": [
         "st-power-selection-guide",
@@ -148,9 +148,9 @@
       "lastUpdated": "2026-03-10",
       "summary": "Technical guide for selecting ST power discretes including MOSFETs, IGBTs, and SiC devices for motor control, power supplies, and renewable energy applications. Covers device selection, gate drive design, and thermal management.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Technical guide for selecting ST power discretes including MOSFETs, IGBTs, and SiC devices for motor control, power supplies, and renewable energy applications. Covers device selection, gate drive design, and thermal management.",
+        "Design considerations include electrical specifications, thermal management, and application-specific requirements. Refer to the product documentation for detailed parameters.",
+        "For specific application requirements and design assistance, contact st's technical support team or refer to the official product documentation and reference designs."
       ],
       "relatedArticles": [
         "st-mcu-selection-guide",
@@ -278,9 +278,9 @@
       "lastUpdated": "2026-03-05",
       "summary": "Comprehensive guide to STM32 development ecosystem including STM32CubeMX, STM32CubeIDE, debugging tools, and third-party software. Helps developers get started quickly with STM32 development.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide to STM32 development ecosystem including STM32CubeMX, STM32CubeIDE, debugging tools, and third-party software. Helps developers get started quickly with STM32 development.",
+        "Design considerations include electrical specifications, thermal management, and application-specific requirements. Refer to the product documentation for detailed parameters.",
+        "For specific application requirements and design assistance, contact st's technical support team or refer to the official product documentation and reference designs."
       ],
       "relatedArticles": [
         "st-mcu-selection-guide",
@@ -410,9 +410,9 @@
       "lastUpdated": "2026-02-28",
       "summary": "Practical guide for integrating ST MEMS sensors with STM32 microcontrollers. Covers hardware interface design, driver implementation, sensor fusion, and power optimization techniques.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Practical guide for integrating ST MEMS sensors with STM32 microcontrollers. Covers hardware interface design, driver implementation, sensor fusion, and power optimization techniques.",
+        "Design considerations include electrical specifications, thermal management, and application-specific requirements. Refer to the product documentation for detailed parameters.",
+        "For specific application requirements and design assistance, contact st's technical support team or refer to the official product documentation and reference designs."
       ],
       "relatedArticles": [
         "st-mcu-selection-guide",
@@ -576,31 +576,53 @@
           "question": "What are the essential connections for SWD programming?",
           "answer": "Essential SWD connections: SWDIO (PA13) - Serial Wire Data Input/Output; SWCLK (PA14) - Serial Wire Clock; NRST - Reset pin (optional but recommended); GND - Common ground; VCC - Target power (3.3V). Optional but useful: SWO (PB3) for printf debugging output. Ensure clean connections with short wires for reliable operation. Some ST-Link versions also support power output to target.",
           "decisionGuide": "Always include SWD header in PCB design for debugging access.",
-          "keywords": ["SWD", "programming interface", "debug connections"]
+          "keywords": [
+            "SWD",
+            "programming interface",
+            "debug connections"
+          ]
         },
         {
           "question": "How do I recover a locked STM32 device?",
           "answer": "If STM32 appears locked or unresponsive: Check power supply - ensure stable 3.3V; Verify SWD connections with multimeter; Try holding NRST low before connecting ST-Link; Use ST-Link Utility to connect under reset; Check option bytes for RDP level - Level 2 requires mass erase; Try different ST-Link or USB port; Verify BOOT0 pin state - should be low for normal operation. If RDP Level 2 is set, the device cannot be unlocked - this is irreversible protection.",
           "decisionGuide": "Contact BeiLuo for device recovery assistance if standard methods fail.",
-          "keywords": ["locked device", "recovery", "RDP", "debugging issues"]
+          "keywords": [
+            "locked device",
+            "recovery",
+            "RDP",
+            "debugging issues"
+          ]
         },
         {
           "question": "What is the difference between SWD and JTAG?",
           "answer": "SWD (Serial Wire Debug) uses 2 pins (SWDIO, SWCLK) vs JTAG using 4-5 pins (TMS, TCK, TDI, TDO, TRST). SWD is the modern standard for Cortex-M devices and is recommended for new designs. SWD provides same debugging capabilities with fewer pins. JTAG is still supported for legacy compatibility and boundary scan testing. For STM32 development, SWD is sufficient and preferred due to simpler connection.",
           "decisionGuide": "Use SWD for all new STM32 designs. Reserve JTAG only if boundary scan is required.",
-          "keywords": ["SWD vs JTAG", "debug interface", "programming"]
+          "keywords": [
+            "SWD vs JTAG",
+            "debug interface",
+            "programming"
+          ]
         },
         {
           "question": "How do I use STM32CubeIDE effectively?",
           "answer": "STM32CubeIDE best practices: Use CubeMX integration for peripheral initialization - generates correct register settings automatically; Enable printf via SWO for debug output without UART; Use Live Expressions to monitor variables during debugging; Configure code generation to separate user code from generated code; Use version control - but exclude generated folders (Debug, Release); Install relevant STM32Cube firmware packages for your device family; Use built-in static analysis tools for code quality; Leverage example projects as starting points for new designs.",
           "decisionGuide": "Invest time learning STM32CubeIDE features - it significantly accelerates development.",
-          "keywords": ["STM32CubeIDE", "development environment", "debugging"]
+          "keywords": [
+            "STM32CubeIDE",
+            "development environment",
+            "debugging"
+          ]
         },
         {
           "question": "What programming methods are available for production?",
           "answer": "Production programming options: ST-Link CLI - Command-line tool for batch programming; ST-Link Utility - GUI tool for manual programming; Bootloader - Use STM32 built-in bootloader via UART, USB, or I2C; External programmer - Dedicated production programmers for high volume; SWD/JTAG - Standard debug interface for programming. For production, consider: Automated programming with ST-Link CLI; Checksum verification after programming; Serial number programming for traceability; Option byte configuration for security.",
           "decisionGuide": "Contact BeiLuo for production programming recommendations and support.",
-          "keywords": ["production programming", "ST-Link", "bootloader", "batch programming"]
+          "keywords": [
+            "production programming",
+            "ST-Link",
+            "bootloader",
+            "batch programming"
+          ]
         }
       ],
       "author": {

@@ -436,7 +436,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on mitsubishi CM600DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -445,7 +445,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on mitsubishi CM600DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -454,7 +454,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on mitsubishi CM600DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -463,7 +463,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on mitsubishi CM600DY-24A, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -472,7 +472,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on mitsubishi CM600DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -564,7 +564,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on mitsubishi CM450DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -573,7 +573,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on mitsubishi CM450DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -582,7 +582,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on mitsubishi CM450DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -591,7 +591,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on mitsubishi CM450DY-24A, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -600,7 +600,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on mitsubishi CM450DY-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -642,7 +642,8 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "IGBT Generation"
       ],
       "applications": [
         "Air conditioners",
@@ -770,7 +771,7 @@
             },
             {
               "question": "How do I interface PS219A4-ASTX with my MCU?",
-              "answer": "MCU interface for PS219A4-ASTX: (1) Control inputs - 6 inputs (HIN/LIN for each phase), 3.3V/5V logic compatible. (2) Input current - 1mA typical, can be driven directly by MCU. (3) Pull-down - Built-in pull-down resistors, no external needed. (4) Dead time - Insert 2-5μs dead time in MCU software. (5) FO output - Open-drain, connect to MCU with 10kΩ pull-up. (6) VFO - Fault output reference, connect to MCU VCC. (7) Isolation - No isolation needed between MCU and DIPIPM (HVIC provides isolation). Interface is very simple requiring only 6 GPIO pins and one pull-up resistor.",
+              "answer": "MCU interface for PS219A4-ASTX: (1) Control inputs - 6 inputs (HIN/LIN for each phase), 3.3V/5V logic compatible. (2) Input current - 1mA typical, can be driven directly by MCU. (3) Pull-down - Built-in pull-down resistors, No external is needed. (4) Dead time - Insert 2-5μs dead time in MCU software. (5) FO output - Open-drain, connect to MCU with 10kΩ pull-up. (6) VFO - Fault output reference, connect to MCU VCC. (7) Isolation - No isolation is needed between MCU and DIPIPM (HVIC provides isolation). Interface is very simple requiring only 6 GPIO pins and one pull-up resistor.",
               "decisionGuide": "Connect directly to MCU GPIO; add 2-5μs dead time in software; use pull-up on FO.",
               "keywords": [
                 "MCU interface",
@@ -783,7 +784,8 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "IGBT Generation": "N/A"
           },
           "name": "DIPIPM PS219A4-ASTX"
         },
@@ -911,7 +913,8 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "IGBT Generation": "N/A"
           },
           "name": "DIPIPM PS22A7A-ASTX"
         },
@@ -1047,7 +1050,8 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "IGBT Generation"
       ],
       "applications": [
         "Industrial drives",
@@ -1188,7 +1192,8 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "IGBT Generation": "N/A"
           },
           "name": "IPM Modules PS21765-PAXC"
         },
@@ -1317,7 +1322,8 @@
           "specifications": {
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "IGBT Generation": "N/A"
           },
           "name": "IPM Modules PS21964-PAXC"
         },
@@ -1429,7 +1435,7 @@
       "name": "SiC MOSFETs",
       "fullName": "Mitsubishi SiC MOSFETs",
       "description": "Mitsubishi SiC MOSFETs deliver breakthrough efficiency for high-power applications with ultra-low switching losses and high thermal conductivity.",
-      "longDescription": "Mitsubishi Electric's SiC (Silicon Carbide) MOSFET product line represents the next generation of power semiconductor technology. Built on proprietary SiC process technology, these MOSFETs offer dramatic improvements in efficiency compared to silicon IGBTs, particularly at high switching frequencies. Mitsubishi SiC MOSFETs feature low on-resistance (Rds(on)), fast body diode with low forward voltage, and excellent thermal performance. Available in voltage ratings from 650V to 1700V and current ratings from 10A to 100A, SiC MOSFETs serve demanding applications including solar inverters, EV powertrains, server power supplies, and industrial motor drives requiring highest efficiency and power density. As an authorized distributor, we provide comprehensive SiC MOSFETs selection guidance (选型指导) and technical support.",
+      "longDescription": "Mitsubishi Electric's SiC (Silicon Carbide) MOSFET product line is the next generation of power semiconductor technology. Built on proprietary SiC process technology, these MOSFETs offer dramatic improvements in efficiency compared to silicon IGBTs, particularly at high switching frequencies. Mitsubishi SiC MOSFETs feature low on-resistance (Rds(on)), fast body diode with low forward voltage, and excellent thermal performance. Available in voltage ratings from 650V to 1700V and current ratings from 10A to 100A, SiC MOSFETs serve demanding applications including solar inverters, EV powertrains, server power supplies, and industrial motor drives requiring highest efficiency and power density. As an authorized distributor, we provide comprehensive SiC MOSFETs selection guidance (选型指导) and technical support.",
       "series": [
         {
           "name": "2nd Generation SiC",
@@ -1810,7 +1816,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on mitsubishi FMF800DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1819,7 +1825,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on mitsubishi FMF800DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1828,7 +1834,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on mitsubishi FMF800DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1837,7 +1843,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on mitsubishi FMF800DX-24A, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1846,7 +1852,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on mitsubishi FMF800DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1938,7 +1944,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on mitsubishi FMF600DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1947,7 +1953,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on mitsubishi FMF600DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1956,7 +1962,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on mitsubishi FMF600DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1965,7 +1971,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on mitsubishi FMF600DX-24A, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1974,7 +1980,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on mitsubishi FMF600DX-24A, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

@@ -1,0 +1,74 @@
+{
+  "seoTitle": "Panjit News | Product Updates & Industry Insights | BeiLuo Electronics",
+  "seoDescription": "Latest news and updates about Panjit products, technologies, and applications. Stay informed about new releases and industry trends.",
+  "seoKeywords": [
+    "Panjit news",
+    "product updates",
+    "industry trends",
+    "new releases"
+  ],
+  "faqs": [
+    {
+      "question": "What is the latest news from Panjit?",
+      "answer": "Stay updated with the latest Panjit product releases, technical advancements, and industry insights. Our news section covers new product introductions, application success stories, and market trends in discrete semiconductor technology.",
+      "decisionGuide": "Subscribe to our newsletter for regular updates on Panjit products and technologies.",
+      "keywords": [
+        "news",
+        "updates",
+        "product releases"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "Panjit-expands-automotive-portfolio",
+      "title": "Panjit Expands AEC-Q101 Qualified Product Portfolio",
+      "subtitle": "New automotive-grade Schottky diodes for 48V mild-hybrid systems",
+      "excerpt": "Panjit announces expansion of AEC-Q101 qualified product line with new high-voltage Schottky diodes optimized for 48V automotive applications.",
+      "date": "2026-04-15",
+      "category": "Product News",
+      "image": "/assets/news/Panjit-automotive-expansion.jpg",
+      "content": "Panjit Technology Corporation has announced the expansion of its AEC-Q101 qualified product portfolio with the introduction of new automotive-grade Schottky diodes specifically designed for 48V mild-hybrid vehicle systems. The new products include enhanced versions of the popular SK310 100V Schottky diode with improved thermal performance and extended temperature ratings. These devices meet the stringent requirements of modern automotive electronics, including operation from -55°C to +175°C and full PPAP documentation support. The expansion addresses the growing demand for 48V systems in mild-hybrid vehicles, providing efficient rectification solutions for DC-DC converters, battery management systems, and LED lighting drivers."
+    },
+    {
+      "id": "new-high-current-schottky-release",
+      "title": "Panjit Releases New High-Current Schottky Diodes",
+      "subtitle": "SK4045 and SK5045 deliver 40A and 50A capability in industry-standard packages",
+      "excerpt": "New additions to the SK series provide ultra-high current capability for industrial power applications including welding and motor drives.",
+      "date": "2026-03-20",
+      "category": "Product Release",
+      "image": "/assets/news/Panjit-high-current.jpg",
+      "content": "Panjit has introduced two new high-current Schottky diodes to its popular SK series. The SK4045 (40A, 45V) and SK5045 (50A, 45V) deliver exceptional current capability in standard TO-247 packages, providing cost-effective alternatives to module solutions. These devices feature low forward voltage (0.55V typical) and ultra-high surge current capability (600A and 750A respectively), making them ideal for demanding industrial applications such as welding equipment, motor drives, and high-power battery chargers. The new products complement Panjit's existing portfolio and provide customers with higher current options while maintaining the quality and reliability expected from the brand."
+    },
+    {
+      "id": "Panjit-achieves-iatf-certification",
+      "title": "Panjit Achieves IATF 16949 Certification",
+      "subtitle": "Quality management system certification reinforces automotive commitment",
+      "excerpt": "IATF 16949 certification demonstrates Panjit's dedication to quality in automotive semiconductor manufacturing.",
+      "date": "2026-02-10",
+      "category": "Company News",
+      "image": "/assets/news/Panjit-certification.jpg",
+      "content": "Panjit Technology Corporation has successfully IATF 16949:2016 certification for its quality management system. This internationally recognized standard specifies requirements for a quality management system where an organization must demonstrate its ability to consistently provide products that meet customer and applicable statutory and regulatory requirements. The certification covers Panjit's complete manufacturing process from wafer fabrication to final test, ensuring full traceability and quality control for automotive customers. This achievement complements the company's existing AEC-Q101 qualifications and positions Panjit as a trusted supplier to the global automotive industry."
+    },
+    {
+      "id": "ultra-fast-diode-series-launch",
+      "title": "Panjit Launches Enhanced Ultra-Fast Recovery Diode Series",
+      "subtitle": "New RHRP series delivers improved switching performance for high-frequency applications",
+      "excerpt": "Enhanced ultra-fast recovery diodes feature reduced reverse recovery time and softer switching characteristics.",
+      "date": "2026-01-15",
+      "category": "Product Release",
+      "image": "/assets/news/Panjit-ultrafast.jpg",
+      "content": "Panjit has launched an enhanced series of ultra-fast recovery diodes designed for high-frequency switching applications. The new RHRP series features improved reverse recovery characteristics with reduced recovery time and softer switching behavior, resulting in lower EMI and switching losses. Available in voltage ratings from 600V to 1200V and current ratings from 8A to 30A, these devices are optimized for modern power supply designs operating at 100kHz and above. The series includes the RHRP8120 (8A, 1200V) and RHRP30120 (30A, 1200V), providing solutions for applications ranging from server power supplies to industrial motor drives and EV charging systems."
+    },
+    {
+      "id": "led-lighting-solutions-guide",
+      "title": "Panjit Publishes LED Lighting Design Guide",
+      "subtitle": "Comprehensive application guide for LED driver rectification solutions",
+      "excerpt": "New design guide provides detailed guidance on selecting rectifiers for LED lighting applications from residential to industrial.",
+      "date": "2025-12-05",
+      "category": "Technical Resource",
+      "image": "/assets/news/Panjit-led-guide.jpg",
+      "content": "Panjit has published a comprehensive design guide for LED lighting applications, providing engineers with detailed guidance on selecting and implementing rectification solutions for LED drivers. The guide covers applications ranging from residential bulbs to high-bay industrial lighting, with specific recommendations for input bridge rectifiers and output Schottky diodes. Key topics include thermal management in enclosed fixtures, efficiency optimization, and EMI considerations. The guide features real-world design examples and includes selection charts to help engineers quickly identify the optimal Panjit devices for their specific LED driver requirements. This resource reflects Panjit's commitment to supporting customers with application expertise beyond component supply."
+    }
+  ]
+}

@@ -106,7 +106,7 @@
       "description": "Comprehensive guide for selecting and applying Chipanalog digital isolators including key specifications and selection criteria.",
       "content": [
         "This technical reference document provides detailed information about chipanalog product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -288,7 +288,7 @@
       "description": "Application guide for using Chipanalog isolated gate drivers with IGBTs and MOSFETs in power electronics applications.",
       "content": [
         "This technical reference document provides detailed information about chipanalog product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -546,7 +546,7 @@
         },
         {
           "question": "How many nodes can be on an RS-485 bus?",
-          "answer": "Standard RS-485 allows 32 unit loads maximum. Each standard transceiver represents 1 unit load. Chipanalog CA-IS3417 is 1/8 unit load, allowing up to 256 nodes. For mixed networks: Calculate total unit loads (1 per standard transceiver, 1/8 per CA-IS3417); Keep total ≤ 32 unit loads; Use repeaters for larger networks. Practical limits may be lower due to cable capacitance and power dissipation. Most industrial networks have 8-32 nodes.",
+          "answer": "Standard RS-485 allows 32 unit loads maximum. Each standard transceiver is 1 unit load. Chipanalog CA-IS3417 is 1/8 unit load, allowing up to 256 nodes. For mixed networks: Calculate total unit loads (1 per standard transceiver, 1/8 per CA-IS3417); Keep total ≤ 32 unit loads; Use repeaters for larger networks. Practical limits may be lower due to cable capacitance and power dissipation. Most industrial networks have 8-32 nodes.",
           "decisionGuide": "CA-IS3417 supports up to 256 nodes. Contact our FAE team for large network design.",
           "keywords": [
             "node count",
@@ -658,7 +658,7 @@
       "description": "Technical analysis of isolation barrier reliability, lifetime prediction, and qualification testing for capacitive isolation technology.",
       "content": [
         "This technical reference document provides detailed information about chipanalog product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -846,7 +846,7 @@
       "description": "Comprehensive PCB layout guidelines for isolation applications including creepage, clearance, and best practices for reliable isolation design.",
       "content": [
         "This technical reference document provides detailed information about chipanalog product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

@@ -5,49 +5,94 @@
   "logo": "/assets/brands/pridesilicon/logo.svg",
   "tagline": "High-Performance Analog and Mixed-Signal IC Solutions for Industrial and Automotive Applications",
   "description": "PrideSilicon is a leading fabless semiconductor company specializing in high-performance analog and mixed-signal integrated circuits. As an authorized distributor, we provide comprehensive product selection guidance, technical support, and competitive pricing for industrial automation, automotive electronics, and communication systems.",
-  "longDescription": "PrideSilicon (傲芯科技) is a premier fabless semiconductor company focused on developing high-performance analog and mixed-signal integrated circuits for demanding industrial and automotive applications. Founded by industry veterans with extensive experience in analog design, PrideSilicon delivers precision data converters, efficient power management solutions, and reliable sensor interfaces that meet the stringent requirements of modern electronic systems.\n\nThe company's product portfolio spans high-resolution ADCs and DACs, DC-DC converters, LDO regulators, motor drivers, and signal conditioning circuits. PrideSilicon products are manufactured in world-class foundries with comprehensive testing to ensure consistent performance and reliability. The company holds ISO9001 and IATF16949 certifications, demonstrating commitment to quality in automotive and industrial applications.\n\nPrideSilicon's solutions serve a wide range of markets including industrial automation, automotive electronics, communication infrastructure, medical equipment, and consumer electronics. The company provides pin-compatible alternatives to popular international devices, offering customers competitive pricing and shorter lead times without compromising performance.\n\nWith design centers in China and technical support teams worldwide, PrideSilicon combines innovative technology with responsive customer service to help clients achieve their design goals. As an authorized distributor, we provide genuine PrideSilicon products with full technical documentation and application support.",
+  "longDescription": "PrideSilicon (傲芯科技) is a premier fabless semiconductor company focused on developing high-performance analog and mixed-signal integrated circuits for demanding industrial and automotive applications. Founded by industry veterans with extensive experience in analog design, PrideSilicon delivers precision data converters, efficient power management solutions, and reliable sensor interfaces that meet the stringent requirements of modern electronic systems.\n\nThe company's product portfolio spans high-resolution ADCs and DACs, DC-DC converters, LDO regulators, motor drivers, and signal conditioning circuits. PrideSilicon products are manufactured in world-class foundries with comprehensive testing to ensure consistent performance and reliability. The company holds ISO9001 and IATF16949 certifications. PrideSilicon's solutions serve a wide range of markets including industrial automation, automotive electronics, communication infrastructure, medical equipment, and consumer electronics. The company provides pin-compatible alternatives to popular international devices, offering customers competitive pricing and shorter lead times without compromising performance.\n\nWith design centers in China and technical support teams worldwide, PrideSilicon combines innovative technology with responsive customer service to help clients achieve their design goals. As an authorized distributor, we provide genuine PrideSilicon products with full technical documentation and application support.",
   "coreProducts": [
     {
       "name": "Data Converters",
       "description": "High-resolution ADCs and DACs with excellent linearity and low noise for precision measurement and control systems",
-      "keywords": ["ADC", "DAC", "data converter", "precision measurement", "signal acquisition"]
+      "keywords": [
+        "ADC",
+        "DAC",
+        "data converter",
+        "precision measurement",
+        "signal acquisition"
+      ]
     },
     {
       "name": "Power Management",
       "description": "Efficient DC-DC converters, LDO regulators, and power supervisors for reliable power delivery in industrial and automotive applications",
-      "keywords": ["DC-DC converter", "LDO", "power management", "voltage regulator", "buck converter"]
+      "keywords": [
+        "DC-DC converter",
+        "LDO",
+        "power management",
+        "voltage regulator",
+        "buck converter"
+      ]
     },
     {
       "name": "Motor Drivers",
       "description": "Integrated motor driver ICs for stepper, DC, and brushless DC motors in industrial and automotive applications",
-      "keywords": ["motor driver", "stepper motor", "DC motor", "BLDC", "motor control"]
+      "keywords": [
+        "motor driver",
+        "stepper motor",
+        "DC motor",
+        "BLDC",
+        "motor control"
+      ]
     },
     {
       "name": "Sensor Interfaces",
       "description": "Precision operational amplifiers and instrumentation amplifiers for sensor signal conditioning and interface applications",
-      "keywords": ["op-amp", "instrumentation amplifier", "sensor interface", "signal conditioning"]
+      "keywords": [
+        "op-amp",
+        "instrumentation amplifier",
+        "sensor interface",
+        "signal conditioning"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Industrial Automation",
       "description": "Process control, factory automation, and industrial instrumentation requiring precision and reliability",
-      "keywords": ["industrial automation", "process control", "factory automation", "instrumentation"]
+      "keywords": [
+        "industrial automation",
+        "process control",
+        "factory automation",
+        "instrumentation"
+      ]
     },
     {
       "name": "Automotive Electronics",
       "description": "Body electronics, powertrain, and safety systems requiring AEC-Q100 qualified components",
-      "keywords": ["automotive", "AEC-Q100", "body electronics", "powertrain", "ADAS"]
+      "keywords": [
+        "automotive",
+        "AEC-Q100",
+        "body electronics",
+        "powertrain",
+        "ADAS"
+      ]
     },
     {
       "name": "Communication Infrastructure",
       "description": "Base stations, network equipment, and communication systems requiring high-speed signal processing",
-      "keywords": ["communication", "infrastructure", "base station", "network equipment", "telecom"]
+      "keywords": [
+        "communication",
+        "infrastructure",
+        "base station",
+        "network equipment",
+        "telecom"
+      ]
     },
     {
       "name": "Medical Equipment",
       "description": "Diagnostic and monitoring equipment requiring high precision and reliability",
-      "keywords": ["medical", "diagnostic equipment", "patient monitoring", "precision"]
+      "keywords": [
+        "medical",
+        "diagnostic equipment",
+        "patient monitoring",
+        "precision"
+      ]
     }
   ],
   "certifications": [
@@ -84,49 +129,89 @@
       "question": "Is LiTong an authorized distributor of PrideSilicon products?",
       "answer": "Yes, LiTong Electronics is an authorized distributor of PrideSilicon (傲芯科技) products. We maintain a direct partnership with PrideSilicon to provide customers with genuine high-performance analog and mixed-signal integrated circuits, technical support, and competitive pricing. As an authorized distributor, we have access to PrideSilicon's full product portfolio including industrial-grade and automotive-qualified devices, and can provide comprehensive technical documentation and application support.",
       "decisionGuide": "Contact our sales team to verify our distributor status and request a formal quotation for your PrideSilicon product requirements.",
-      "keywords": ["PrideSilicon distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "PrideSilicon distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What are PrideSilicon's core product categories?",
       "answer": "PrideSilicon specializes in four main product categories: Data Converters including high-resolution ADCs and DACs for precision measurement and control applications; Power Management featuring efficient DC-DC converters, LDO regulators, and power supervisors; Motor Drivers providing integrated solutions for stepper, DC, and brushless DC motors; and Sensor Interfaces including precision operational amplifiers and instrumentation amplifiers for signal conditioning. Each product line is designed to meet the demanding requirements of industrial and automotive applications with competitive performance and reliability.",
       "decisionGuide": "Browse our product categories to explore PrideSilicon's complete portfolio, or contact our FAE team for product recommendations based on your specific application requirements.",
-      "keywords": ["PrideSilicon products", "product categories", "analog IC", "data converter"]
+      "keywords": [
+        "PrideSilicon products",
+        "product categories",
+        "analog IC",
+        "data converter"
+      ]
     },
     {
       "question": "Does PrideSilicon offer automotive-qualified products?",
       "answer": "Yes, PrideSilicon offers a comprehensive portfolio of automotive-qualified products that meet AEC-Q100 standards. These products undergo rigorous qualification testing including high temperature operating life, temperature cycling, and electromagnetic compatibility testing. PrideSilicon's automotive products are designed to meet the stringent reliability requirements of modern vehicles including powertrain control, body electronics, and advanced driver assistance systems (ADAS). All automotive products are manufactured under IATF16949 certified quality management systems and are available with temperature ranges up to -40°C to +125°C (Grade 1) and -40°C to +150°C (Grade 0).",
       "decisionGuide": "Look for AEC-Q100 qualified products in our catalog, or contact our automotive specialist for assistance with automotive-grade component selection.",
-      "keywords": ["automotive qualified", "AEC-Q100", "automotive grade", "car electronics"]
+      "keywords": [
+        "automotive qualified",
+        "AEC-Q100",
+        "automotive grade",
+        "car electronics"
+      ]
     },
     {
       "question": "What industries does PrideSilicon serve?",
       "answer": "PrideSilicon serves a diverse range of industries including Industrial Automation for process control and factory automation systems; Automotive Electronics for powertrain, body control, and ADAS applications; Communication Infrastructure for base stations and network equipment; and Medical Equipment for diagnostic and monitoring devices. PrideSilicon's products are designed to meet the specific requirements of each industry, from the high reliability demands of automotive and medical to the precision requirements of industrial automation. The company's pin-compatible alternatives to popular international devices make it easy to integrate PrideSilicon solutions into existing designs.",
       "decisionGuide": "Explore our solutions by industry to see how PrideSilicon products can address your specific application requirements.",
-      "keywords": ["industries", "applications", "industrial", "automotive", "communication"]
+      "keywords": [
+        "industries",
+        "applications",
+        "industrial",
+        "automotive",
+        "communication"
+      ]
     },
     {
       "question": "What quality certifications does PrideSilicon hold?",
       "answer": "PrideSilicon holds multiple quality certifications including ISO9001 for quality management systems, IATF16949 for automotive quality management, and AEC-Q100 qualification for automotive integrated circuits. These certifications demonstrate PrideSilicon's commitment to quality and reliability across all product lines. Manufacturing partners are carefully selected and audited to ensure consistent quality, and all products undergo comprehensive testing before shipment. The company's quality management system covers the entire product lifecycle from design to manufacturing to ensure consistent performance and reliability.",
       "decisionGuide": "Request certification documentation during your supplier qualification process to verify PrideSilicon's quality standards.",
-      "keywords": ["quality certification", "ISO9001", "IATF16949", "AEC-Q100"]
+      "keywords": [
+        "quality certification",
+        "ISO9001",
+        "IATF16949",
+        "AEC-Q100"
+      ]
     },
     {
       "question": "How can I get technical support for PrideSilicon products?",
       "answer": "LiTong provides comprehensive technical support for PrideSilicon products including product selection guidance, application circuit design, schematic review, and troubleshooting assistance. Our FAE team has deep expertise in analog and mixed-signal design and can help optimize your system for performance, reliability, and cost. We also provide access to PrideSilicon's technical documentation, reference designs, and application notes. For complex designs, we offer on-site support and design review services to ensure successful implementation.",
       "decisionGuide": "Contact our FAE team with your technical questions or schedule a design review session for your PrideSilicon-based design.",
-      "keywords": ["technical support", "FAE support", "design assistance", "application support"]
+      "keywords": [
+        "technical support",
+        "FAE support",
+        "design assistance",
+        "application support"
+      ]
     },
     {
       "question": "What is the typical lead time for PrideSilicon products?",
       "answer": "Lead times for PrideSilicon products vary based on product type and order quantity. Standard products typically have 8-12 week lead times. For high-volume or long-term supply agreements, LiTong can work with PrideSilicon to secure allocation and optimize delivery schedules. We maintain inventory of popular products for faster delivery on standard orders. For critical applications, we offer bonded inventory programs and forecast-based supply agreements to ensure continuous supply.",
       "decisionGuide": "Contact our sales team for current lead times and inventory availability. For production orders, we recommend placing orders in advance to ensure timely delivery.",
-      "keywords": ["lead time", "delivery", "inventory", "availability"]
+      "keywords": [
+        "lead time",
+        "delivery",
+        "inventory",
+        "availability"
+      ]
     },
     {
       "question": "Can LiTong provide samples of PrideSilicon products?",
       "answer": "Yes, LiTong provides engineering samples of PrideSilicon products for evaluation and prototyping purposes. Sample requests are typically processed within 3-5 business days. We can provide samples for most products in our catalog, along with relevant technical documentation and application notes to support your evaluation. For high-volume or specialized sample requests, please provide details about your application and expected production volumes.",
       "decisionGuide": "Submit your sample request through our website or contact our sales team with the specific part numbers and quantities you need for evaluation.",
-      "keywords": ["samples", "engineering samples", "evaluation", "prototyping"]
+      "keywords": [
+        "samples",
+        "engineering samples",
+        "evaluation",
+        "prototyping"
+      ]
     }
   ]
 }

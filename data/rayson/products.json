@@ -26,7 +26,7 @@
     },
     {
       "question": "What are the key differences between DDR4 and DDR5 memory technologies?",
-      "answer": "DDR5 represents a significant advancement over DDR4 across multiple dimensions. Bandwidth increases by 50%+ with DDR5 starting at 4800MT/s compared to DDR4's maximum 3200MT/s. Power efficiency improves with DDR5's 1.1V operating voltage versus DDR4's 1.2V, delivering approximately 20% power savings. DDR5 doubles the single-chip capacity supporting 16-64Gb devices compared to DDR4's 4-16Gb range. New features include on-die ECC (ODECC) for improved data reliability, dual 32-bit channels for better access efficiency, and integrated PMIC for optimized power distribution. However, DDR5 requires new processor platforms and more complex power design with integrated PMIC management.",
+      "answer": "DDR5 is significant advancement over DDR4 across multiple dimensions. Bandwidth increases by 50%+ with DDR5 starting at 4800MT/s compared to DDR4's maximum 3200MT/s. Power efficiency improves with DDR5's 1.1V operating voltage versus DDR4's 1.2V, delivering approximately 20% power savings. DDR5 doubles the single-chip capacity supporting 16-64Gb devices compared to DDR4's 4-16Gb range. New features include on-die ECC (ODECC) for improved data reliability, dual 32-bit channels for better access efficiency, and integrated PMIC for optimized power distribution. However, DDR5 requires new processor platforms and more complex power design with integrated PMIC management.",
       "decisionGuide": "Choose DDR5 for new designs requiring maximum performance and efficiency. Select DDR4 for legacy system maintenance or cost-sensitive applications with mature supply chains.",
       "keywords": [
         "DDR4 vs DDR5",
@@ -218,7 +218,7 @@
           ],
           "faeReview": {
             "author": "BeiLuo FAE Team",
-            "content": "The RS2G168 DDR5 16Gb represents the latest in memory technology. The on-die ECC and integrated PMIC provide enhanced reliability and power management. We've seen excellent performance in early adopter designs for high-performance computing applications.",
+            "content": "The RS2G168 DDR5 16Gb is the latest in memory technology. The on-die ECC and integrated PMIC provide enhanced reliability and power management. We've seen excellent performance in early adopter designs for high-performance computing applications.",
             "highlight": "Next-gen DDR5 with ODECC and integrated PMIC"
           }
         }
@@ -331,7 +331,7 @@
           ],
           "faeReview": {
             "author": "BeiLuo FAE Team",
-            "content": "The RS2G85L LPDDR5 8Gb represents the cutting edge of mobile memory technology. The dual-voltage operation and high data rates enable significant power savings in flagship devices. Early customer feedback has been very positive for 5G smartphone applications.",
+            "content": "The RS2G85L LPDDR5 8Gb is the cutting edge of mobile memory technology. The dual-voltage operation and high data rates enable significant power savings in flagship devices. Early customer feedback has been very positive for 5G smartphone applications.",
             "highlight": "Next-gen LPDDR5 for flagship mobile devices"
           }
         },

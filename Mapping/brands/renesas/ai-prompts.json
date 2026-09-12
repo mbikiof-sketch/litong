@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for renesas distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for renesas Renesas RX MCU, Renesas RL78 MCU, Renesas RA MCU. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: Renesas vs ST Microelectronics comparison vs Best MCU brands for industrial applications vs Japanese semiconductor companies. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for renesas USB interface chips covering Renesas RX MCU, Renesas RL78 MCU, Renesas RA MCU, Renesas R-Car."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What makes Renesas MCUs reliable?; What is the difference between RA, RX, and RL78 series?; How do I select the right Renesas MCU?; What are the key features of Renesas R-Car?; What certifications do Renesas products have?; Does Renesas offer automotive-grade MCUs?; What is Renesas winning combo?; How to get Renesas technical support?; What development tools are available?; Does Renesas provide sample code?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for renesas distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for renesas distributor with Product and Organization types."
+    }
+  ]
+}

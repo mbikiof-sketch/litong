@@ -338,7 +338,7 @@
             {
               "question": "What is the typical insulation resistance and leakage current?",
               "answer": "The HJC-0805-50V-104K-X7R has an insulation resistance greater than 10GΩ (10,000 MΩ) when measured at 25°C with rated voltage applied. This corresponds to a leakage current of less than 5nA at 50V. The insulation resistance decreases with temperature - at 125°C, it remains above 1GΩ. The high insulation resistance makes this MLCC suitable for high-impedance circuits and battery-powered applications where low leakage is critical. For comparison, typical aluminum electrolytic capacitors have insulation resistance in the 100MΩ range, making MLCCs 100x better for low-leakage applications. The insulation resistance specification applies after 1 minute of rated voltage application.",
-              "decisionGuide": "MLCCs are excellent for low-leakage applications; no derating needed for insulation resistance considerations.",
+              "decisionGuide": "MLCCs are excellent for low-leakage applications; No derating is needed for insulation resistance considerations.",
               "keywords": [
                 "HJC MLCC insulation resistance",
                 "ceramic capacitor leakage",
@@ -575,7 +575,10 @@
             "ESR": "<5mΩ @ 1MHz",
             "Ripple Current": "5A RMS",
             "Insulation Resistance": ">10GΩ",
-            "Package": "1210 SMD"
+            "Package": "1210 SMD",
+            "Temperature Coefficient": "N/A",
+            "Operating Temperature": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "High capacitance 10µF",
@@ -653,7 +656,10 @@
             "ESR": "<20mΩ @ 1MHz",
             "Ripple Current": "1A RMS",
             "Insulation Resistance": ">10GΩ",
-            "Package": "0603 SMD"
+            "Package": "0603 SMD",
+            "Temperature Coefficient": "N/A",
+            "Operating Temperature": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "Compact 0603 package",
@@ -1013,7 +1019,7 @@
         {
           "partNumber": "HJC-ELKO-470uF-450V",
           "name": "Aluminum Electrolytic Capacitor 470µF 450V",
-          "shortDescription": "HJC 470µF 450V snap-in aluminum electrolytic capacitor, 105°C 10000-hour lifetime, for industrial power supplies and ...",
+          "shortDescription": "HJC 470µF 450V snap-in aluminum electrolytic capacitor, 105°C 10000-hour lifetime, for industrial power supplies and...",
           "descriptionParagraphs": [
             "The HJC-ELKO-470uF-450V is a high-voltage snap-in aluminum electrolytic capacitor designed for industrial power applications.",
             "With 470µF capacitance and 450V rating, this capacitor is ideal for PFC output, DC-link, and high-voltage power supply filtering.",
@@ -1300,7 +1306,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on hjc HJC series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1309,7 +1315,7 @@
             },
             {
               "question": "What applications is ALUMINUMELECTROLYTIC-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on hjc HJC series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1318,7 +1324,7 @@
             },
             {
               "question": "What is the temperature range of ALUMINUMELECTROLYTIC-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on hjc HJC series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1327,7 +1333,7 @@
             },
             {
               "question": "What package options are available for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on hjc HJC series 470uF50V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1336,7 +1342,7 @@
             },
             {
               "question": "What is the lead time for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on hjc HJC series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1436,7 +1442,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on hjc HJC series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1445,7 +1451,7 @@
             },
             {
               "question": "What applications is ALUMINUMELECTROLYTIC-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on hjc HJC series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1454,7 +1460,7 @@
             },
             {
               "question": "What is the temperature range of ALUMINUMELECTROLYTIC-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on hjc HJC series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1463,7 +1469,7 @@
             },
             {
               "question": "What package options are available for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on hjc HJC series 1000uF50V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1472,7 +1478,7 @@
             },
             {
               "question": "What is the lead time for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on hjc HJC series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2079,7 +2085,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on hjc HJCF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -2088,7 +2094,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on hjc HJCF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -2097,7 +2103,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on hjc HJCF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -2106,7 +2112,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on hjc HJCF 105K400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -2115,7 +2121,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on hjc HJCF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2218,7 +2224,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on hjc HJCF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -2227,7 +2233,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on hjc HJCF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -2236,7 +2242,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on hjc HJCF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -2245,7 +2251,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on hjc HJCF 155K400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -2254,7 +2260,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on hjc HJCF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -2768,7 +2774,8 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "18mm diameter × 35mm height",
-            "Termination": "Radial leads"
+            "Termination": "Radial leads",
+            "Current Rating": "N/A"
           },
           "features": [
             "50 Farads high capacitance",
@@ -2845,7 +2852,8 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "25mm diameter × 50mm height",
-            "Termination": "Radial leads"
+            "Termination": "Radial leads",
+            "Current Rating": "N/A"
           },
           "features": [
             "200 Farads ultra-high capacitance",

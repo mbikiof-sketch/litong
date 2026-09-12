@@ -244,7 +244,7 @@
           "faqs": [
             {
               "question": "What load capacitors should I use with this crystal?",
-              "answer": "For 12pF load capacitance, use two 22pF capacitors (assuming 3-4pF stray capacitance). The exact value depends on your PCB layout. Calculate using: CL = (C1 × C2)/(C1 + C2) + Cstray. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "For 12pF load capacitance, use two 22pF capacitors (assuming 3-4pF stray capacitance). The exact value depends on your PCB layout. Calculate using: CL = (C1 × C2)/(C1 + C2) + Cstray. For detailed specifications and application support on yxc YXC-3225-25M, refer to the datasheet or contact our team."
             },
             {
               "question": "Can I use this crystal with 3.3V or 5V microcontrollers?",
@@ -256,11 +256,11 @@
             },
             {
               "question": "How do I calculate the ppm error from my target frequency?",
-              "answer": "ppm = (Actual Frequency - Target Frequency) / Target Frequency × 1,000,000. For example, if your 25MHz crystal measures 25,000,250Hz, the error is +10ppm. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "ppm = (Actual Frequency - Target Frequency) / Target Frequency × 1,000,000. For example, if your 25MHz crystal measures 25,000,250Hz, the error is +10ppm. For detailed specifications and application support on yxc YXC-3225-25M, refer to the datasheet or contact our team."
             },
             {
               "question": "Can this crystal be used for USB applications?",
-              "answer": "USB requires 48MHz with ±0.25% accuracy (2500ppm). While this crystal has much better stability (±10ppm), you would need a 48MHz crystal or use a PLL to generate 48MHz from 25MHz. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "USB requires 48MHz with ±0.25% accuracy (2500ppm). While this crystal has much better stability (±10ppm), you would need a 48MHz crystal or use a PLL to generate 48MHz from 25MHz. For detailed specifications and application support on yxc YXC-3225-25M, refer to the datasheet or contact our team."
             }
           ],
           "resources": {
@@ -430,7 +430,7 @@
             },
             {
               "question": "How does the small package size affect shock resistance?",
-              "answer": "The 2016 package actually has excellent shock resistance due to its low mass. YXC rates it for 5000g mechanical shock, same as larger packages. The ceramic package and optimized electrode design maintain reliability."
+              "answer": "The 2016 package has excellent shock resistance due to its low mass. YXC rates it for 5000g mechanical shock, same as larger packages. The ceramic package and optimized electrode design maintain reliability."
             },
             {
               "question": "What is the typical current consumption with this crystal?",
@@ -659,11 +659,11 @@
           "faqs": [
             {
               "question": "How do I use the Output Enable (OE) pin?",
-              "answer": "Connect OE to VDD (or leave floating with internal pull-up) for normal operation. Connect to GND to disable output (tri-state/high-impedance). This allows clock gating for power management. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "Connect OE to VDD (or leave floating with internal pull-up) for normal operation. Connect to GND to disable output (tri-state/high-impedance). This allows clock gating for power management. For detailed specifications and application support on yxc YXO-3225-50M, refer to the datasheet or contact our team."
             },
             {
               "question": "Can this oscillator drive multiple loads?",
-              "answer": "The CMOS output can typically drive 1-2 standard CMOS loads. For multiple loads, use a clock buffer or ensure total load capacitance is under 15pF. Check the datasheet for specific drive capability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "The CMOS output can typically drive 1-2 standard CMOS loads. For multiple loads, use a clock buffer or ensure total load capacitance is under 15pF. Check the datasheet for specific drive capability. For detailed specifications and application support on yxc YXO-3225-50M, refer to the datasheet or contact our team."
             },
             {
               "question": "What is the difference between crystal and oscillator jitter?",
@@ -675,7 +675,7 @@
             },
             {
               "question": "What happens if I exceed the maximum supply voltage?",
-              "answer": "Exceeding 3.6V may damage the oscillator. Use a 3.3V regulator with good transient response. If your system has 5V available, regulate it down to 3.3V for the oscillator. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "Exceeding 3.6V may damage the oscillator. Use a 3.3V regulator with good transient response. If your system has 5V available, regulate it down to 3.3V for the oscillator. For detailed specifications and application support on yxc YXO-3225-50M, refer to the datasheet or contact our team."
             }
           ],
           "resources": {
@@ -848,7 +848,7 @@
           "faqs": [
             {
               "question": "How do I terminate the LVDS output?",
-              "answer": "Place a 100Ω differential termination resistor across OUT+ and OUT- at the receiver end. Keep traces short (<2 inches) and matched in length. Use proper differential routing with consistent spacing. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "Place a 100Ω differential termination resistor across OUT+ and OUT- at the receiver end. Keep traces short (<2 inches) and matched in length. Use proper differential routing with consistent spacing. For detailed specifications and application support on yxc YXO-D-156M25, refer to the datasheet or contact our team."
             },
             {
               "question": "What is phase noise and why does it matter?",
@@ -856,7 +856,7 @@
             },
             {
               "question": "Can I use this for PCIe clocking?",
-              "answer": "PCIe requires HCSL output, not LVDS. Use the YXO-D-156M25-HCSL version for PCIe applications. The electrical specs are similar but the output driver is compatible with PCIe requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team."
+              "answer": "PCIe requires HCSL output, not LVDS. Use the YXO-D-156M25-HCSL version for PCIe applications. The electrical specs are similar but the output driver is compatible with PCIe requirements. For detailed specifications and application support on yxc YXO-D-156M25, refer to the datasheet or contact our team."
             },
             {
               "question": "How do I measure jitter accurately?",

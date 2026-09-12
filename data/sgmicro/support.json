@@ -200,7 +200,7 @@
           "industry": "Scientific Instruments",
           "application": "Digital Multimeter Front-End",
           "problem": "The customer was experiencing accuracy degradation in their precision digital multimeter due to thermal drift in the input amplifier stage.",
-          "diagnosis": "Our FAE team analyzed the circuit and identified that the selected op-amp had excessive offset drift over temperature, contributing to measurement uncertainty.",
+          "diagnosis": "Our FAE team analyzed the circuit and identified that the selected op-amp had excessive offset drift over temperature.",
           "solution": "We recommended the SGM8551 with its excellent 0.03uV/C drift specification. The redesigned front-end included proper guarding and thermal management.",
           "results": "Measurement accuracy improved from 0.1% to 0.01% across the full operating temperature range. Customer reported significant improvement in customer satisfaction due to consistent accuracy."
         }

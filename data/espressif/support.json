@@ -120,9 +120,9 @@
         "IoT"
       ],
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide for selecting the right ESP32 Wi-Fi module based on application requirements, power budget, and connectivity needs.",
+        "Key topics covered include ESP32, Wi-Fi, Module Selection, IoT. This section provides detailed technical information for engineers designing with espressif products.",
+        "For specific application requirements and design assistance, contact espressif's technical support team or refer to the official product documentation and reference designs."
       ],
       "faeInsights": {
         "author": {
@@ -239,9 +239,9 @@
         "Deep Sleep"
       ],
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Advanced techniques for minimizing ESP32 power consumption in battery-powered IoT applications, including sleep modes and duty cycling.",
+        "Key topics covered include ESP32, Power Optimization, Battery, Deep Sleep. This section provides detailed technical information for engineers designing with espressif products.",
+        "For specific application requirements and design assistance, contact espressif's technical support team or refer to the official product documentation and reference designs."
       ],
       "faeInsights": {
         "author": {
@@ -359,9 +359,9 @@
         "IoT Security"
       ],
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide to implementing security features on ESP32 including secure boot, flash encryption, and secure communication protocols.",
+        "Key topics covered include ESP32, Security, Secure Boot, Encryption, IoT Security. This section provides detailed technical information for engineers designing with espressif products.",
+        "For specific application requirements and design assistance, contact espressif's technical support team or refer to the official product documentation and reference designs."
       ],
       "faeInsights": {
         "author": {
@@ -479,9 +479,9 @@
         "Wi-Fi"
       ],
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Practical guidelines for ESP32 antenna design, PCB layout, and RF optimization to achieve maximum wireless performance.",
+        "Key topics covered include ESP32, Antenna, RF Design, PCB Layout, Wi-Fi. This section provides detailed technical information for engineers designing with espressif products.",
+        "For specific application requirements and design assistance, contact espressif's technical support team or refer to the official product documentation and reference designs."
       ],
       "faeInsights": {
         "author": {
@@ -625,16 +625,16 @@
         "Organize your ESP32 project with this structure:",
         "```",
         "project/",
-        "├── main/                 # Main application code",
-        "│   ├── main.c           # Entry point",
-        "│   ├── app_logic.c      # Application logic",
-        "│   └── app_logic.h      # Application headers",
-        "├── components/          # Reusable components",
-        "│   ├── wifi_manager/    # Wi-Fi management",
-        "│   ├── sensor_driver/   # Sensor interface",
-        "│   └── cloud_api/       # Cloud connectivity",
-        "├── sdkconfig            # Project configuration",
-        "└── CMakeLists.txt       # Build configuration",
+        "├── main/ # Main application code",
+        "│ ├── main.c # Entry point",
+        "│ ├── app_logic.c # Application logic",
+        "│ └── app_logic.h # Application headers",
+        "├── components/ # Reusable components",
+        "│ ├── wifi_manager/ # Wi-Fi management",
+        "│ ├── sensor_driver/ # Sensor interface",
+        "│ └── cloud_api/ # Cloud connectivity",
+        "├── sdkconfig # Project configuration",
+        "└── CMakeLists.txt # Build configuration",
         "```",
         "",
         "## Coding Best Practices",

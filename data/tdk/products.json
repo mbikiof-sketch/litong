@@ -66,7 +66,7 @@
       "name": "Ceramic Capacitors",
       "slug": "ceramic-capacitors",
       "description": "High-performance multilayer ceramic capacitors (MLCCs) for automotive, industrial, and consumer applications.",
-      "longDescription": "TDK's ceramic capacitor portfolio represents the industry's most comprehensive range of multilayer ceramic capacitors (MLCCs). From ultra-small 008004 size for wearable devices to large-case high-voltage types for industrial applications, TDK offers solutions for every application need. Their Class I C0G/NP0 capacitors provide exceptional stability for precision applications, while Class II X7R and X5R dielectrics offer high capacitance density for general-purpose use. Automotive-grade MLCCs are qualified to AEC-Q200 Rev. E standards and available with X8R dielectric for high-temperature applications up to 150°C. TDK's advanced thin-layer technology enables industry-leading capacitance density, while their proprietary termination designs ensure excellent solderability and board-level reliability. BeiLuo Electronics is an authorized TDK distributor providing selection guidance and technical support for these products.",
+      "longDescription": "TDK's ceramic capacitor portfolio is the industry's most comprehensive range of multilayer ceramic capacitors (MLCCs). From ultra-small 008004 size for wearable devices to large-case high-voltage types for industrial applications, TDK offers solutions for every application need. Their Class I C0G/NP0 capacitors provide exceptional stability for precision applications, while Class II X7R and X5R dielectrics offer high capacitance density for general-purpose use. Automotive-grade MLCCs are qualified to AEC-Q200 Rev. E standards and available with X8R dielectric for high-temperature applications up to 150°C. TDK's advanced thin-layer technology enables industry-leading capacitance density, while their proprietary termination designs ensure excellent solderability and board-level reliability. BeiLuo Electronics is an authorized TDK distributor providing selection guidance and technical support for these products.",
       "series": [
         "C Series - Commercial Grade",
         "CGA Series - Automotive Grade",
@@ -281,7 +281,7 @@
             },
             {
               "question": "How does temperature affect the capacitance of this X7R capacitor?",
-              "answer": "X7R dielectric exhibits predictable temperature characteristics per EIA standards. The capacitance varies by ±15% across the rated temperature range of -55°C to +125°C. Maximum capacitance typically occurs near room temperature (20-25°C), with decreasing capacitance at both temperature extremes. At -55°C, capacitance may be 10-15% below nominal; at +125°C, capacitance may be 10-15% above nominal. This characteristic is reversible and does not represent permanent degradation. For applications requiring tighter capacitance tolerance over temperature, consider using C0G (NP0) dielectric which has nearly zero temperature coefficient.",
+              "answer": "X7R dielectric exhibits predictable temperature characteristics per EIA standards. The capacitance varies by ±15% across the rated temperature range of -55°C to +125°C. Maximum capacitance typically occurs near room temperature (20-25°C), with decreasing capacitance at both temperature extremes. At -55°C, capacitance may be 10-15% below nominal; at +125°C, capacitance may be 10-15% above nominal. This characteristic is reversible and does not is permanent degradation. For applications requiring tighter capacitance tolerance over temperature, consider using C0G (NP0) dielectric which has nearly zero temperature coefficient.",
               "decisionGuide": "Account for ±15% capacitance variation in circuit design, or select C0G dielectric for applications requiring tighter temperature stability.",
               "keywords": [
                 "X7R temperature coefficient",
@@ -823,7 +823,7 @@
             },
             {
               "question": "What is the self-discharge rate of this capacitor?",
-              "answer": "The B43700A5687M has a typical self-discharge time constant of several hours due to its high capacitance and insulation resistance. After charging to rated voltage and then disconnected, the capacitor will retain approximately 63% of its charge after one time constant (typically 2-4 hours), 37% after two time constants, and so on. The exact self-discharge rate depends on temperature (faster at higher temperatures) and the capacitor's insulation resistance. For safety, always assume capacitors may retain dangerous voltages for extended periods after power-off. Use appropriate discharge resistors or procedures before handling. The high capacitance (680µF) and voltage (400V) represent significant stored energy (54 joules) that can cause injury or damage if discharged rapidly.",
+              "answer": "The B43700A5687M has a typical self-discharge time constant of several hours due to its high capacitance and insulation resistance. After charging to rated voltage and then disconnected, the capacitor will retain approximately 63% of its charge after one time constant (typically 2-4 hours), 37% after two time constants, and so on. The exact self-discharge rate depends on temperature (faster at higher temperatures) and the capacitor's insulation resistance. For safety, always assume capacitors may retain dangerous voltages for extended periods after power-off. Use appropriate discharge resistors or procedures before handling. The high capacitance (680µF) and voltage (400V) is significant stored energy (54 joules) that can cause injury or damage if discharged rapidly.",
               "decisionGuide": "Always discharge capacitors before handling; use discharge resistors in designs requiring rapid discharge.",
               "keywords": [
                 "self-discharge",
@@ -1352,7 +1352,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on tdk B32774D4155K, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1361,7 +1361,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on tdk B32774D4155K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1370,7 +1370,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on tdk B32774D4155K, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1379,7 +1379,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on tdk B32774D4155K, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1388,7 +1388,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on tdk B32774D4155K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1490,7 +1490,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on tdk B32774D4105K, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1499,7 +1499,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on tdk B32774D4105K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1508,7 +1508,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on tdk B32774D4105K, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1517,7 +1517,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on tdk B32774D4105K, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1526,7 +1526,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on tdk B32774D4105K, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

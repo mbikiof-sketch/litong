@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= article.title %> | <%= brand.displayName %> News</title>
+  <title><%= article.title %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= article.summary %>">
   
   <script type="application/ld+json">
@@ -76,6 +76,8 @@
     @media (max-width: 1023px) { .recommended-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 767px) { .recommended-grid { grid-template-columns: 1fr; } .news-title { font-size: 2rem; } }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/news/<%= article.id %>">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->

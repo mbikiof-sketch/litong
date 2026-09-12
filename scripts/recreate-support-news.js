@@ -45,7 +45,7 @@ const supportData = {
       "author": {
         "name": "Dr. Michael Chen",
         "title": "Senior Technical Manager",
-        "email": "m.chen@litong.com",
+        "email": "m.chen@BeiLuo.com",
         "image": "/assets/team/michael-chen.jpg"
       },
       "publishedDate": "2024-01-15",

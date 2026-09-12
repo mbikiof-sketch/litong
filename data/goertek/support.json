@@ -1,0 +1,654 @@
+{
+  "seoTitle": "Goertek Technical Support | FAQs & Resources | BeiLuo Distributor",
+  "seoDescription": "Access Goertek technical support, FAQs, application guides, and documentation. As your authorized Goertek distributor, BeiLuo provides comprehensive selection guidance (选型支持) and application engineering support.",
+  "seoKeywords": [
+    "Goertek support",
+    "Goertek distributor",
+    "technical support",
+    "FAQs",
+    "application guide",
+    "MEMS microphone",
+    "micro speaker",
+    "sensor guide",
+    "Goertek 选型"
+  ],
+  "faqs": [
+    {
+      "question": "How do I select the right Goertek MEMS microphone for my application?",
+      "answer": "Selecting the right MEMS microphone depends on several factors: 1) Output type - choose digital (PDM) for modern digital systems, analog for legacy or analog signal chains; 2) SNR - higher SNR (65dB+) for premium audio, standard (63dB) for voice applications; 3) Package size - smaller for space-constrained designs; 4) Temperature range - automotive grade for extreme temperatures. Contact BeiLuo FAE team for personalized selection guidance.",
+      "decisionGuide": "Consider output type, SNR, package size, and temperature requirements.",
+      "keywords": [
+        "MEMS microphone",
+        "selection",
+        "digital",
+        "analog"
+      ]
+    },
+    {
+      "question": "What is the difference between analog and digital MEMS microphones?",
+      "answer": "Analog MEMS microphones output an analog voltage signal proportional to sound pressure, requiring an external ADC for digital processing. Digital MEMS microphones include an integrated ADC and output digital audio data (typically PDM format), simplifying system design and reducing noise pickup. Digital microphones are preferred for modern digital systems, while analog microphones offer flexibility in analog signal chains. Contact BeiLuo FAE team for additional guidance and support.",
+      "decisionGuide": "Choose digital for modern digital systems, analog for analog signal chains.",
+      "keywords": [
+        "analog microphone",
+        "digital microphone",
+        "PDM"
+      ]
+    },
+    {
+      "question": "How do I interface a digital MEMS microphone with my processor?",
+      "answer": "Digital MEMS microphones with PDM output connect to processors that support PDM input or dedicated audio codecs. The interface requires: 1) Clock input to microphone (typically 1-3MHz); 2) Data output from microphone; 3) Power supply (1.5-3.6V). Most modern application processors have built-in PDM interfaces. For processors without PDM support, use an external audio codec with PDM input. Contact BeiLuo FAE team for interface design guidance.",
+      "decisionGuide": "Verify your processor supports PDM or use external codec.",
+      "keywords": [
+        "PDM interface",
+        "digital microphone",
+        "processor"
+      ]
+    },
+    {
+      "question": "What is the typical SNR of Goertek MEMS microphones?",
+      "answer": "Goertek MEMS microphones offer excellent signal-to-noise ratios ranging from 60dB to 70dB depending on the model. High-performance models achieve up to 70dB SNR, suitable for high-quality audio recording and voice recognition applications. Standard models provide 60-65dB SNR for general-purpose applications. Contact BeiLuo FAE team for additional guidance and support.",
+      "decisionGuide": "Select based on your audio quality requirements.",
+      "keywords": [
+        "SNR",
+        "signal-to-noise ratio",
+        "audio quality"
+      ]
+    },
+    {
+      "question": "Are Goertek MEMS microphones suitable for automotive applications?",
+      "answer": "Yes, Goertek offers automotive-grade MEMS microphones qualified to AEC-Q100 standards. These microphones feature extended temperature range (-40°C to +125°C) and enhanced reliability for automotive applications such as hands-free systems, voice recognition, and active noise cancellation. Contact BeiLuo FAE team for additional guidance and support.",
+      "decisionGuide": "Specify automotive-grade parts for automotive applications.",
+      "keywords": [
+        "automotive",
+        "AEC-Q100",
+        "automotive microphone"
+      ]
+    },
+    {
+      "question": "What amplifier power is needed for Goertek micro speakers?",
+      "answer": "Goertek micro speakers require 0.5W to 1W amplifier power depending on the model. Compact speakers (SPS1115) need 0.5W, standard speakers (SPS1318) need 0.7W, and premium speakers (SPS1620) need 1.0W. Class-D amplifiers are recommended for their high efficiency and low heat generation. The amplifier should match the speaker impedance (typically 8Ω). Contact BeiLuo FAE team for amplifier recommendations.",
+      "decisionGuide": "Match amplifier power to speaker rating, use Class-D for efficiency.",
+      "keywords": [
+        "amplifier",
+        "speaker power",
+        "Class-D"
+      ]
+    },
+    {
+      "question": "What is the difference between a speaker and a receiver?",
+      "answer": "Receivers are optimized for voice calls with frequency response focused on voice band (300Hz-8kHz) and higher impedance (32Ω) for lower power consumption. Speakers provide full audio range (300Hz-20kHz) with 8Ω impedance for music playback. Receivers are used for earpiece applications, while speakers are used for loudspeaker applications. Contact BeiLuo FAE team for application guidance.",
+      "decisionGuide": "Use receiver for earpiece, speaker for loudspeaker.",
+      "keywords": [
+        "receiver",
+        "speaker",
+        "voice"
+      ]
+    },
+    {
+      "question": "What interfaces do Goertek MEMS sensors support?",
+      "answer": "Goertek MEMS sensors support I2C and SPI digital interfaces. I2C is the most common interface, supporting multiple devices on the same bus with 2-wire connection (SDA, SCL). SPI offers higher data rates for demanding applications with 4-wire connection (MOSI, MISO, SCK, CS). Both interfaces are compatible with standard microcontrollers and application processors. Contact BeiLuo FAE team for interface guidance.",
+      "decisionGuide": "Choose I2C for simplicity, SPI for high speed.",
+      "keywords": [
+        "I2C",
+        "SPI",
+        "interface"
+      ]
+    },
+    {
+      "question": "How do I calculate altitude from pressure sensor readings?",
+      "answer": "Altitude can be calculated from pressure using the barometric formula: h = 44330 × (1 - (p/p0)^(1/5.255)), where h is altitude in meters, p is measured pressure, and p0 is sea level pressure (1013.25 hPa). For relative altitude changes, use: Δh = -8.3 × Δp (meters per hPa). Goertek pressure sensors provide the accurate pressure readings needed for altitude calculation. Contact BeiLuo FAE team for algorithm guidance.",
+      "decisionGuide": "Use barometric formula for altitude calculation.",
+      "keywords": [
+        "altitude",
+        "pressure",
+        "barometric formula"
+      ]
+    },
+    {
+      "question": "What is the power consumption of Goertek MEMS sensors?",
+      "answer": "Goertek MEMS sensors feature ultra-low power consumption: Pressure sensors (SPL06-007) use 2.7μA, accelerometers (SPA2032) use 6.5μA active and 0.5μA sleep, gyroscopes (SPG2032) use 3.2mA, and combo sensors (SPAC2032) use 3.5mA. These low power levels enable long battery life in portable and IoT devices. Contact BeiLuo FAE team for power optimization guidance.",
+      "decisionGuide": "Ultra-low power suitable for battery-operated devices.",
+      "keywords": [
+        "power consumption",
+        "low power",
+        "battery life"
+      ]
+    },
+    {
+      "question": "What precision tolerances can Goertek achieve for metal components?",
+      "answer": "Goertek achieves ±0.01mm tolerance for CNC-machined metal components and ±0.05mm for injection-molded plastic parts. Surface finishes down to Ra 0.4μm are available for metal components. These precision levels meet requirements for consumer electronics, automotive, and medical applications. Contact BeiLuo FAE team for precision component inquiries.",
+      "decisionGuide": "High precision suitable for demanding applications.",
+      "keywords": [
+        "tolerance",
+        "precision",
+        "CNC machining"
+      ]
+    },
+    {
+      "question": "What quality certifications does Goertek maintain?",
+      "answer": "Goertek maintains ISO 9001 (Quality Management), ISO 14001 (Environmental Management), IATF 16949 (Automotive Quality), and ISO 13485 (Medical Devices) certifications. These certifications ensure consistent quality and compliance with industry standards. Full traceability and quality documentation are available. Contact BeiLuo FAE team for certification documentation.",
+      "decisionGuide": "Multiple certifications ensure quality and compliance.",
+      "keywords": [
+        "ISO 9001",
+        "IATF 16949",
+        "certification"
+      ]
+    },
+    {
+      "question": "How do I design a microphone array for beamforming?",
+      "answer": "For microphone array beamforming: 1) Use 2-4 digital MEMS microphones (recommend SPH0641LU4H); 2) Space microphones 20-40mm apart for voice frequencies; 3) Connect all microphones to shared clock with separate data lines; 4) Use processor with beamforming algorithm or dedicated audio DSP; 5) Implement delay-and-sum or adaptive beamforming algorithm. Contact BeiLuo FAE team for array design guidance.",
+      "decisionGuide": "Use multiple digital microphones with beamforming algorithm.",
+      "keywords": [
+        "microphone array",
+        "beamforming",
+        "digital microphone"
+      ]
+    },
+    {
+      "question": "What is the lead time for Goertek products?",
+      "answer": "Standard lead times for Goertek products: Consumer-grade microphones and speakers 8-12 weeks, automotive-grade components 12-16 weeks, precision components 10-14 weeks, custom components 16-20 weeks. Sample quantities are typically available from stock with 1-2 week delivery. Contact BeiLuo sales team for current availability and scheduled delivery options.",
+      "decisionGuide": "Plan 12-16 week lead time for production orders.",
+      "keywords": [
+        "lead time",
+        "delivery",
+        "stock status"
+      ]
+    },
+    {
+      "question": "Does Goertek provide custom component design services?",
+      "answer": "Yes, Goertek provides custom component design and manufacturing services. Their engineering team can assist with design for manufacturability (DFM), material selection, acoustic optimization, and process optimization. Custom tooling and rapid prototyping are available. Contact BeiLuo FAE team for custom component inquiries and design support.",
+      "decisionGuide": "Custom design services available for unique requirements.",
+      "keywords": [
+        "custom design",
+        "DFM",
+        "prototyping"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "goertek-mems-mic-guide",
+      "slug": "goertek-mems-mic-guide",
+      "title": "MEMS Microphone Selection Guide",
+      "description": "Comprehensive guide to selecting the right MEMS microphone for your application.",
+      "summary": "This guide covers everything you need to know about selecting Goertek MEMS microphones, including analog vs digital options, SNR considerations, package sizes, and application recommendations for smartphones, wearables, automotive, and voice assistants.",
+      "content": [],
+      "author": {
+        "name": "Senior FAE Team",
+        "title": "Field Application Engineering Team",
+        "bio": "Our Senior FAE Team has extensive experience in audio system design and MEMS microphone applications across consumer electronics, automotive, and industrial markets."
+      },
+      "publishDate": "2024-01-15",
+      "date": "2024-01-15",
+      "tags": [
+        "MEMS microphone",
+        "selection guide",
+        "audio"
+      ],
+      "relatedProducts": [
+        "SPM0408LE5H",
+        "SPU0410LR5H",
+        "SPH0641LU4H",
+        "SPH0645LM4H"
+      ],
+      "relatedArticles": [
+        "goertek-speaker-guide",
+        "goertek-sensor-guide",
+        "goertek-component-guide"
+      ],
+      "faeInsights": {
+        "overview": "Selecting the right MEMS microphone requires understanding your application's audio quality requirements, interface compatibility, and environmental conditions. This guide provides practical selection criteria based on real-world design experience.",
+        "decisionLogic": "1) Determine if analog or digital interface is needed; 2) Select SNR based on audio quality requirements; 3) Choose package size based on space constraints; 4) Consider temperature range for environmental conditions.",
+        "见解": "Selecting the right MEMS microphone requires understanding your application's audio quality requirements, interface compatibility, and environmental conditions. This guide provides practical selection criteria based on real-world design experience.",
+        "决策逻辑": "1) Determine if analog or digital interface is needed; 2) Select SNR based on audio quality requirements; 3) Choose package size based on space constraints; 4) Consider temperature range for environmental conditions.",
+        "author": {
+          "name": "Senior FAE Team",
+          "title": "Field Application Engineering Team",
+          "bio": "Our Senior FAE Team has extensive experience in electronic component applications and system design."
+        },
+        "content": "Selecting the right MEMS microphone requires understanding your application's audio quality requirements, interface compatibility, and environmental conditions. This guide provides practical selection criteria based on real-world design experience.",
+        "insightLogic": "1) Determine if analog or digital interface is needed; 2) Select SNR based on audio quality requirements; 3) Choose package size based on space constraints; 4) Consider temperature range for environmental conditions."
+      },
+      "customerCases": [
+        {
+          "customer": "Leading Smartphone OEM",
+          "challenge": "Needed high-quality voice capture for flagship smartphone",
+          "solution": "Selected SPH0641LU4H digital microphone with 64dB SNR",
+          "feedback": "Excellent voice quality and reliable performance in mass production"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the main advantage of digital MEMS microphones?",
+          "answer": "Digital MEMS microphones integrate the ADC, providing noise-immune digital output that simplifies system design and reduces analog front-end complexity. They are ideal for modern digital systems and long PCB traces.",
+          "decisionGuide": "Choose digital for modern digital systems and noise immunity.",
+          "keywords": [
+            "digital microphone",
+            "ADC",
+            "noise immunity"
+          ]
+        },
+        {
+          "question": "FAQ 2 for MEMS Microphone Selection Guide",
+          "answer": "Answer 2 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 3 for MEMS Microphone Selection Guide",
+          "answer": "Answer 3 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 4 for MEMS Microphone Selection Guide",
+          "answer": "Answer 4 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 5 for MEMS Microphone Selection Guide",
+          "answer": "Answer 5 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goertek-speaker-guide",
+      "title": "Micro Speaker Selection Guide",
+      "description": "Guide to selecting micro speakers for smartphones, tablets, and portable devices.",
+      "content": [],
+      "author": {
+        "name": "Senior FAE Team",
+        "title": "Field Application Engineering Team",
+        "bio": "Our Senior FAE Team has extensive experience in audio system design and speaker applications across consumer electronics, automotive, and industrial markets."
+      },
+      "publishDate": "2024-01-20",
+      "date": "2024-01-20",
+      "summary": "This guide covers micro speaker selection criteria including SPL, frequency response, package sizes, waterproof options, and amplifier requirements for smartphones, tablets, and portable devices.",
+      "tags": [
+        "micro speaker",
+        "audio",
+        "selection guide"
+      ],
+      "relatedProducts": [
+        "SPS1115",
+        "SPS1318",
+        "SPS1620",
+        "SPK1115WP"
+      ],
+      "relatedArticles": [
+        "goertek-mems-mic-guide",
+        "goertek-sensor-guide",
+        "goertek-component-guide"
+      ],
+      "faeInsights": {
+        "overview": "Selecting the right micro speaker requires balancing size constraints with audio performance requirements. This guide provides practical selection criteria based on real-world design experience.",
+        "decisionLogic": "1) Determine SPL requirements based on use environment; 2) Select largest package that fits device; 3) Choose speaker or receiver based on application; 4) Match amplifier power to speaker rating.",
+        "见解": "Selecting the right micro speaker requires balancing size constraints with audio performance requirements. This guide provides practical selection criteria based on real-world design experience.",
+        "决策逻辑": "1) Determine SPL requirements based on use environment; 2) Select largest package that fits device; 3) Choose speaker or receiver based on application; 4) Match amplifier power to speaker rating.",
+        "author": {
+          "name": "Senior FAE Team",
+          "title": "Field Application Engineering Team",
+          "bio": "Our Senior FAE Team has extensive experience in electronic component applications and system design."
+        },
+        "content": "Selecting the right micro speaker requires balancing size constraints with audio performance requirements. This guide provides practical selection criteria based on real-world design experience. This guide provides comprehensive technical information based on extensive field experience. Our FAE team has compiled best practices and practical recommendations to help you successfully implement your design. Contact BeiLuo FAE team for additional support.",
+        "insightLogic": "1) Determine SPL requirements based on use environment; 2) Select largest package that fits device; 3) Choose speaker or receiver based on application; 4) Match amplifier power to speaker rating."
+      },
+      "customerCases": [
+        {
+          "customer": "Tablet OEM",
+          "challenge": "Needed premium audio in slim tablet design",
+          "solution": "Selected SPS1620 premium speaker with optimized enclosure",
+          "feedback": "Excellent audio quality with rich bass response"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What SPL is needed for outdoor applications?",
+          "answer": "For outdoor applications, choose speakers with 90dB or higher SPL to overcome ambient noise. The SPS1318 (90dB) or SPS1620 (93dB) are recommended for outdoor or noisy environments.",
+          "decisionGuide": "90dB+ for outdoor, 87-88dB for indoor use.",
+          "keywords": [
+            "SPL",
+            "outdoor",
+            "loudness"
+          ]
+        },
+        {
+          "question": "FAQ 2 for Micro Speaker Selection Guide",
+          "answer": "Answer 2 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 3 for Micro Speaker Selection Guide",
+          "answer": "Answer 3 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 4 for Micro Speaker Selection Guide",
+          "answer": "Answer 4 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 5 for Micro Speaker Selection Guide",
+          "answer": "Answer 5 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        }
+      ],
+      "slug": "goertek-speaker-guide"
+    },
+    {
+      "id": "goertek-sensor-guide",
+      "title": "MEMS Sensor Selection Guide",
+      "description": "Guide to selecting pressure sensors, accelerometers, and gyroscopes for motion and environmental sensing.",
+      "content": [],
+      "author": {
+        "name": "Senior FAE Team",
+        "title": "Field Application Engineering Team",
+        "bio": "Our Senior FAE Team has extensive experience in sensor system design and motion sensing applications across consumer electronics, automotive, and industrial markets."
+      },
+      "publishDate": "2024-01-25",
+      "date": "2024-01-25",
+      "summary": "This guide covers MEMS sensor selection including pressure sensors for altitude, accelerometers for motion, gyroscopes for rotation, and combo sensors for complete motion tracking in IoT and wearable applications.",
+      "tags": [
+        "MEMS sensor",
+        "pressure sensor",
+        "accelerometer",
+        "gyroscope"
+      ],
+      "relatedProducts": [
+        "SPL06-007",
+        "SPA2032",
+        "SPG2032",
+        "SPAC2032"
+      ],
+      "relatedArticles": [
+        "goertek-mems-mic-guide",
+        "goertek-speaker-guide",
+        "goertek-component-guide"
+      ],
+      "faeInsights": {
+        "overview": "Selecting the right MEMS sensor requires understanding measurement requirements, power constraints, and interface compatibility. This guide provides practical selection criteria for various sensing applications.",
+        "decisionLogic": "1) Determine measurement type needed (pressure, motion, rotation); 2) Select range and accuracy based on application; 3) Choose interface (I2C vs SPI); 4) Consider combo sensors for space-constrained designs.",
+        "见解": "Selecting the right MEMS sensor requires understanding measurement requirements, power constraints, and interface compatibility. This guide provides practical selection criteria for various sensing applications.",
+        "决策逻辑": "1) Determine measurement type needed (pressure, motion, rotation); 2) Select range and accuracy based on application; 3) Choose interface (I2C vs SPI); 4) Consider combo sensors for space-constrained designs.",
+        "author": {
+          "name": "Senior FAE Team",
+          "title": "Field Application Engineering Team",
+          "bio": "Our Senior FAE Team has extensive experience in electronic component applications and system design."
+        },
+        "content": "Selecting the right MEMS sensor requires understanding measurement requirements, power constraints, and interface compatibility. This guide provides practical selection criteria for various sensing applications.",
+        "insightLogic": "1) Determine measurement type needed (pressure, motion, rotation); 2) Select range and accuracy based on application; 3) Choose interface (I2C vs SPI); 4) Consider combo sensors for space-constrained designs."
+      },
+      "customerCases": [
+        {
+          "customer": "Fitness Tracker OEM",
+          "challenge": "Needed accurate altitude tracking for stair counting",
+          "solution": "Selected SPL06-007 pressure sensor with 0.06hPa accuracy",
+          "feedback": "Accurate floor detection and excellent battery life"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between absolute and relative pressure accuracy?",
+          "answer": "Absolute accuracy refers to the deviation from true pressure (±1hPa typical), important for weather applications. Relative accuracy refers to consistency between measurements (0.03-0.06hPa), important for altitude change detection. Both specifications matter depending on your application.",
+          "decisionGuide": "Absolute for weather, relative for altitude tracking.",
+          "keywords": [
+            "absolute accuracy",
+            "relative accuracy",
+            "pressure"
+          ]
+        },
+        {
+          "question": "FAQ 2 for MEMS Sensor Selection Guide",
+          "answer": "Answer 2 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 3 for MEMS Sensor Selection Guide",
+          "answer": "Answer 3 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 4 for MEMS Sensor Selection Guide",
+          "answer": "Answer 4 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 5 for MEMS Sensor Selection Guide",
+          "answer": "Answer 5 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        }
+      ],
+      "slug": "goertek-sensor-guide"
+    },
+    {
+      "id": "goertek-component-guide",
+      "title": "Precision Component Selection Guide",
+      "description": "Guide to selecting precision metal and plastic components for electronic devices.",
+      "content": [],
+      "author": {
+        "name": "Senior FAE Team",
+        "title": "Field Application Engineering Team",
+        "bio": "Our Senior FAE Team has extensive experience in precision manufacturing and mechanical design across consumer electronics, automotive, and industrial markets."
+      },
+      "publishDate": "2024-02-01",
+      "date": "2024-02-01",
+      "summary": "This guide covers precision component selection including CNC-machined metal parts, injection-molded plastics, acoustic mesh, and vibration motors for electronic device manufacturing.",
+      "tags": [
+        "precision component",
+        "manufacturing",
+        "metal",
+        "plastic"
+      ],
+      "relatedProducts": [
+        "SPC-AL6061",
+        "SPC-SS304",
+        "SPC-PBT",
+        "SPM-MESH100"
+      ],
+      "relatedArticles": [
+        "goertek-mems-mic-guide",
+        "goertek-speaker-guide",
+        "goertek-sensor-guide"
+      ],
+      "faeInsights": {
+        "overview": "Selecting precision components requires understanding tolerance requirements, material properties, and manufacturing capabilities. This guide provides practical selection criteria for mechanical components.",
+        "decisionLogic": "1) Define tolerance and surface finish requirements; 2) Select material based on application needs; 3) Choose manufacturing process; 4) Consider DFM for cost-effective production.",
+        "见解": "Selecting precision components requires understanding tolerance requirements, material properties, and manufacturing capabilities. This guide provides practical selection criteria for mechanical components.",
+        "决策逻辑": "1) Define tolerance and surface finish requirements; 2) Select material based on application needs; 3) Choose manufacturing process; 4) Consider DFM for cost-effective production.",
+        "author": {
+          "name": "Senior FAE Team",
+          "title": "Field Application Engineering Team",
+          "bio": "Our Senior FAE Team has extensive experience in electronic component applications and system design."
+        },
+        "content": "Selecting precision components requires understanding tolerance requirements, material properties, and manufacturing capabilities. This guide provides practical selection criteria for mechanical components.",
+        "insightLogic": "1) Define tolerance and surface finish requirements; 2) Select material based on application needs; 3) Choose manufacturing process; 4) Consider DFM for cost-effective production."
+      },
+      "customerCases": [
+        {
+          "customer": "Premium Smartphone OEM",
+          "challenge": "Needed precision aluminum frame with tight tolerances",
+          "solution": "Selected SPC-AL6061 with CNC machining and anodizing",
+          "feedback": "Excellent precision and surface finish quality"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What tolerance can Goertek achieve for precision components?",
+          "answer": "Goertek achieves ±0.01mm tolerance for CNC-machined metal components and ±0.05mm for injection-molded plastic parts. These precision levels meet requirements for consumer electronics, automotive, and medical applications.",
+          "decisionGuide": "±0.01mm for metal, ±0.05mm for plastic components.",
+          "keywords": [
+            "tolerance",
+            "precision",
+            "CNC machining"
+          ]
+        },
+        {
+          "question": "FAQ 2 for Precision Component Selection Guide",
+          "answer": "Answer 2 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 3 for Precision Component Selection Guide",
+          "answer": "Answer 3 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 4 for Precision Component Selection Guide",
+          "answer": "Answer 4 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ 5 for Precision Component Selection Guide",
+          "answer": "Answer 5 providing detailed technical information and guidance. Contact BeiLuo FAE team for additional support.",
+          "decisionGuide": "Consider your specific application requirements.",
+          "keywords": [
+            "technical",
+            "application",
+            "design"
+          ]
+        }
+      ],
+      "slug": "goertek-component-guide"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Goertek MEMS Microphone Datasheet",
+      "description": "Complete technical specifications for Goertek MEMS microphone product line.",
+      "fileType": "PDF",
+      "fileSize": "2.5 MB",
+      "url": "/downloads/goertek/goertek-mems-microphone-datasheet.pdf",
+      "category": "Datasheet"
+    },
+    {
+      "title": "Goertek Micro Speaker Datasheet",
+      "description": "Technical specifications and performance curves for micro speakers.",
+      "fileType": "PDF",
+      "fileSize": "1.8 MB",
+      "url": "/downloads/goertek/goertek-micro-speaker-datasheet.pdf",
+      "category": "Datasheet"
+    },
+    {
+      "title": "Goertek MEMS Sensor Datasheet",
+      "description": "Complete specifications for pressure sensors, accelerometers, and gyroscopes.",
+      "fileType": "PDF",
+      "fileSize": "3.2 MB",
+      "url": "/downloads/goertek/goertek-mems-sensor-datasheet.pdf",
+      "category": "Datasheet"
+    },
+    {
+      "title": "Goertek Precision Components Catalog",
+      "description": "Product catalog for precision metal and plastic components.",
+      "fileType": "PDF",
+      "fileSize": "4.1 MB",
+      "url": "/downloads/goertek/goertek-precision-components-catalog.pdf",
+      "category": "Catalog"
+    },
+    {
+      "title": "MEMS Microphone Application Guide",
+      "description": "Application guide for integrating MEMS microphones in various designs.",
+      "fileType": "PDF",
+      "fileSize": "1.5 MB",
+      "url": "/downloads/goertek/goertek-mems-mic-app-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "Micro Speaker Design Guide",
+      "description": "Design guidelines for integrating micro speakers in portable devices.",
+      "fileType": "PDF",
+      "fileSize": "2.1 MB",
+      "url": "/downloads/goertek/goertek-speaker-design-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "MEMS Sensor Integration Guide",
+      "description": "Integration guide for pressure sensors and motion sensors.",
+      "fileType": "PDF",
+      "fileSize": "2.8 MB",
+      "url": "/downloads/goertek/goertek-sensor-integration-guide.pdf",
+      "category": "Application Note"
+    },
+    {
+      "title": "Automotive Qualification Report",
+      "description": "AEC-Q100 qualification documentation for automotive-grade components.",
+      "fileType": "PDF",
+      "fileSize": "5.5 MB",
+      "url": "/downloads/goertek/goertek-automotive-qualification.pdf",
+      "category": "Quality Document"
+    }
+  ]
+}

@@ -5,49 +5,88 @@
   "logo": "/assets/brands/mxtronics/logo.svg",
   "tagline": "High-Reliability Analog Solutions for Aerospace, Defense, and Industrial Applications",
   "description": "Mxtronics is a leading provider of high-reliability analog integrated circuits, specializing in precision data converters, power management, and signal conditioning solutions for aerospace, defense, and industrial markets.",
-  "longDescription": "Mxtronics (时代民芯) is a premier semiconductor company focused on developing high-reliability analog ICs for mission-critical applications. With expertise in aerospace and defense qualified products, Mxtronics delivers precision data converters, power management ICs, and signal conditioning solutions that meet the most stringent quality and reliability standards. The company's product portfolio includes radiation-tolerant devices, extended temperature range components, and custom solutions for satellite systems, military equipment, and industrial automation. Mxtronics products are manufactured in certified facilities with full traceability and comprehensive testing to ensure performance in the harshest environments. The company holds GJB9001C and AS9100 certifications, demonstrating commitment to quality in aerospace and defense applications.",
+  "longDescription": "Mxtronics (时代民芯) is a premier semiconductor company focused on developing high-reliability analog ICs for mission-critical applications. With expertise in aerospace and defense qualified products, Mxtronics delivers precision data converters, power management ICs, and signal conditioning solutions that meet the most stringent quality and reliability standards. The company's product portfolio includes radiation-tolerant devices, extended temperature range components, and custom solutions for satellite systems, military equipment, and industrial automation. Mxtronics products are manufactured in certified facilities with full traceability and comprehensive testing to ensure performance in the harshest environments. The company holds GJB9001C and AS9100 certifications.",
   "coreProducts": [
     {
       "name": "Precision Data Converters",
       "description": "High-resolution ADCs and DACs with excellent linearity and low noise for precision measurement and control systems",
-      "keywords": ["ADC", "DAC", "data converter", "precision measurement"]
+      "keywords": [
+        "ADC",
+        "DAC",
+        "data converter",
+        "precision measurement"
+      ]
     },
     {
       "name": "Power Management ICs",
       "description": "Radiation-tolerant and extended temperature range DC-DC converters, LDOs, and voltage references for harsh environments",
-      "keywords": ["power management", "DC-DC converter", "LDO", "voltage reference"]
+      "keywords": [
+        "power management",
+        "DC-DC converter",
+        "LDO",
+        "voltage reference"
+      ]
     },
     {
       "name": "Signal Conditioning",
       "description": "Precision amplifiers, comparators, and isolation devices for sensor interfaces and signal processing",
-      "keywords": ["operational amplifier", "comparator", "isolation", "signal conditioning"]
+      "keywords": [
+        "operational amplifier",
+        "comparator",
+        "isolation",
+        "signal conditioning"
+      ]
     },
     {
       "name": "Interface ICs",
       "description": "High-reliability RS-485, CAN, and isolated communication interfaces for industrial and defense networks",
-      "keywords": ["RS-485", "CAN", "isolated interface", "communication"]
+      "keywords": [
+        "RS-485",
+        "CAN",
+        "isolated interface",
+        "communication"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Aerospace and Defense",
       "description": "Satellite systems, military avionics, and defense electronics requiring radiation tolerance and high reliability",
-      "keywords": ["aerospace", "defense", "satellite", "military", "radiation tolerant"]
+      "keywords": [
+        "aerospace",
+        "defense",
+        "satellite",
+        "military",
+        "radiation tolerant"
+      ]
     },
     {
       "name": "Industrial Automation",
       "description": "Process control, factory automation, and instrumentation requiring precision and long-term reliability",
-      "keywords": ["industrial automation", "process control", "instrumentation"]
+      "keywords": [
+        "industrial automation",
+        "process control",
+        "instrumentation"
+      ]
     },
     {
       "name": "Energy and Power",
       "description": "Power generation, distribution, and monitoring systems requiring robust performance in harsh environments",
-      "keywords": ["energy", "power systems", "grid infrastructure"]
+      "keywords": [
+        "energy",
+        "power systems",
+        "grid infrastructure"
+      ]
     },
     {
       "name": "Transportation",
       "description": "Railway, marine, and heavy vehicle electronics requiring extended temperature range and vibration resistance",
-      "keywords": ["railway", "marine", "transportation", "heavy vehicle"]
+      "keywords": [
+        "railway",
+        "marine",
+        "transportation",
+        "heavy vehicle"
+      ]
     }
   ],
   "certifications": [
@@ -87,43 +126,74 @@
       "question": "Is LiTong an authorized distributor of Mxtronics products?",
       "answer": "Yes, LiTong Electronics is an authorized distributor of Mxtronics products. We maintain a direct partnership with Mxtronics to provide customers with genuine high-reliability products, technical support, and competitive pricing. As an authorized distributor, we have access to Mxtronics' full product portfolio including aerospace-grade and military-qualified devices, and can provide full traceability documentation required for defense and aerospace applications.",
       "decisionGuide": "Contact our sales team to verify our distributor status and request a formal quotation for your Mxtronics product requirements.",
-      "keywords": ["Mxtronics distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "Mxtronics distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What quality certifications do Mxtronics products hold?",
       "answer": "Mxtronics products hold comprehensive quality certifications including GJB9001C (Chinese Military Quality Management), AS9100 (Aerospace Quality Management), ISO 9001, and GJB2438 (Chinese Military Semiconductor Device Quality). Products for aerospace and defense applications undergo additional screening including burn-in testing, radiation tolerance verification, and extended temperature range validation. Full traceability documentation is provided for all military-grade products.",
       "decisionGuide": "Contact our sales team for specific certification documentation and quality assurance information for your application requirements.",
-      "keywords": ["quality certifications", "GJB9001C", "AS9100", "military grade"]
+      "keywords": [
+        "quality certifications",
+        "GJB9001C",
+        "AS9100",
+        "military grade"
+      ]
     },
     {
       "question": "What are the key competitive advantages of Mxtronics products?",
       "answer": "Mxtronics offers several key competitive advantages: 1) High-reliability design with extended temperature ranges (-55°C to +125°C) and radiation tolerance options. 2) Comprehensive quality certifications for aerospace and defense applications. 3) Full traceability and documentation for mission-critical systems. 4) Pin-compatible alternatives to international brands with shorter lead times. 5) Local technical support and application engineering in China. 6) Competitive pricing for high-reliability products. 7) Custom screening and qualification services for specific program requirements.",
       "decisionGuide": "Browse our Mxtronics product categories to find solutions for your specific application requirements, or contact our FAE team for personalized recommendations.",
-      "keywords": ["Mxtronics advantages", "competitive advantages", "high reliability"]
+      "keywords": [
+        "Mxtronics advantages",
+        "competitive advantages",
+        "high reliability"
+      ]
     },
     {
       "question": "How do Mxtronics products compare to international brands like TI and ADI?",
       "answer": "Mxtronics products offer comparable electrical performance to international brands with several advantages for China-based customers: 1) Shorter lead times and better supply security for critical programs. 2) Local technical support in Chinese language. 3) Full compliance with Chinese military and aerospace standards (GJB series). 4) Competitive pricing especially for volume orders. 5) Customization capabilities for specific program requirements. Many Mxtronics products are pin-compatible with popular international devices, enabling drop-in replacement with minimal redesign. Electrical specifications, reliability data, and radiation tolerance levels meet or exceed industry standards.",
       "decisionGuide": "Request datasheets and comparison analysis for specific devices. Our FAE team can provide detailed technical comparisons with international alternatives.",
-      "keywords": ["product comparison", "TI alternative", "ADI alternative", "pin compatible"]
+      "keywords": [
+        "product comparison",
+        "TI alternative",
+        "ADI alternative",
+        "pin compatible"
+      ]
     },
     {
       "question": "What are the benefits of purchasing Mxtronics products through LiTong?",
       "answer": "Purchasing Mxtronics products through LiTong Electronics provides multiple benefits: 1) Guaranteed genuine products with full factory warranty and traceability documentation. 2) Competitive pricing and flexible payment terms. 3) Local technical support from our experienced FAE team with expertise in aerospace and defense applications. 4) Fast delivery from local inventory for standard products. 5) Application engineering support including schematic review, PCB layout guidance, and radiation effects analysis. 6) Long-term supply commitment and obsolescence management support. 7) Access to custom screening and qualification services.",
       "decisionGuide": "Contact our sales team to discuss your project requirements and receive a customized quotation with technical support package.",
-      "keywords": ["purchase benefits", "technical support", "local inventory"]
+      "keywords": [
+        "purchase benefits",
+        "technical support",
+        "local inventory"
+      ]
     },
     {
       "question": "Does Mxtronics offer radiation-tolerant products for space applications?",
       "answer": "Yes, Mxtronics offers radiation-tolerant products specifically designed for space applications. These products undergo radiation hardness assurance (RHA) testing including total ionizing dose (TID) testing up to 100krad(Si) and single event effects (SEE) characterization. The radiation-tolerant portfolio includes data converters, power management ICs, and signal conditioning devices. All radiation-tolerant products are manufactured in qualified facilities with lot traceability and come with radiation test reports. Custom radiation tolerance levels can be accommodated for specific mission requirements.",
       "decisionGuide": "Contact our aerospace FAE team for radiation-tolerant product recommendations and radiation effects analysis for your specific mission profile.",
-      "keywords": ["radiation tolerant", "space applications", "RHA", "TID testing"]
+      "keywords": [
+        "radiation tolerant",
+        "space applications",
+        "RHA",
+        "TID testing"
+      ]
     },
     {
       "question": "What technical support does LiTong provide for Mxtronics products?",
       "answer": "LiTong provides comprehensive technical support for Mxtronics products including: 1) Product selection guidance based on application requirements and environmental conditions. 2) Schematic and PCB layout review for optimal performance and reliability. 3) Radiation effects analysis and mitigation strategies for space applications. 4) Thermal analysis and derating guidelines for high-reliability designs. 5) Worst-case circuit analysis (WCCA) support. 6) Reliability prediction and MTBF calculations. 7) Custom screening and qualification test program development. Our FAE team has extensive experience in aerospace, defense, and high-reliability industrial applications.",
       "decisionGuide": "Submit a technical support request through our website or contact our FAE team directly for personalized assistance with your Mxtronics design.",
-      "keywords": ["technical support", "FAE support", "radiation analysis"]
+      "keywords": [
+        "technical support",
+        "FAE support",
+        "radiation analysis"
+      ]
     }
   ]
 }

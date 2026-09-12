@@ -68,7 +68,7 @@
       "slug": "cmos-image-sensors",
       "name": "CMOS Image Sensors",
       "description": "High-performance CMOS image sensors ranging from 2MP to 200MP for mobile, automotive, and security applications. Galaxycore's CMOS sensors offer excellent image quality with competitive pricing, suitable for smartphone cameras, automotive systems, and security solutions. As a Galaxycore distributor, BeiLuo Electronics provides selection guidance, samples, and technical support for these high-resolution sensors.",
-      "longDescription": "Galaxycore's CMOS Image Sensors represent cutting-edge technology in imaging solutions. These sensors are designed for a wide range of applications from mobile devices to automotive systems. As an authorized Galaxycore distributor, we provide access to a complete product range including the GC08A3 8MP sensor for mobile and GC13A0 13MP sensor for smartphones. Our product selection includes features like high sensitivity, low noise, and advanced image processing capabilities. With our expert technical support, customers can easily find the right CMOS sensor for their specific application requirements.",
+      "longDescription": "Galaxycore's CMOS Image Sensors is cutting-edge technology in imaging solutions. These sensors are designed for a wide range of applications from mobile devices to automotive systems. As an authorized Galaxycore distributor, we provide access to a complete product range including the GC08A3 8MP sensor for mobile and GC13A0 13MP sensor for smartphones. Our product selection includes features like high sensitivity, low noise, and advanced image processing capabilities. With our expert technical support, customers can easily find the right CMOS sensor for their specific application requirements.",
       "icon": "/assets/brands/galaxycore/icons/cmos-image-sensors.svg",
       "image": "/assets/brands/galaxycore/images/cmos-image-sensors.jpg",
       "series": [
@@ -85,7 +85,8 @@
         "Frame Rate",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Power Supply"
       ],
       "selectionGuide": "Comprehensive guide to choosing the optimal Galaxycore CMOS image sensor based on your application requirements",
       "selectionGuideLink": {
@@ -181,7 +182,8 @@
             "Frame Rate": "30fps",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Power Supply": "N/A"
           },
           "faeReview": {
             "author": "Wang Wei",
@@ -255,7 +257,7 @@
           "faqs": [
             {
               "question": "What is the power consumption of GC08A3?",
-              "answer": "The GC08A3 has typical power consumption of 45mA at 1.8V supply voltage, making it suitable for battery-powered mobile devices. Power consumption may vary based on frame rate and operating mode. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The GC08A3 has typical power consumption of 45mA at 1.8V supply voltage, making it suitable for battery-powered mobile devices. Power consumption may vary based on frame rate and operating mode. For detailed specifications and application support on galaxycore GC08A3, refer to the datasheet or contact our team.",
               "decisionGuide": "For battery-powered applications, the GC08A3's low power consumption helps extend device runtime. Consider implementing power management features for optimal battery life.",
               "keywords": [
                 "GC08A3 power",
@@ -305,7 +307,8 @@
             "Frame Rate": "30fps",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Power Supply": "N/A"
           },
           "faeReview": {
             "author": "Chen Ming",
@@ -425,7 +428,12 @@
             "Frame Rate": "30fps @ full resolution",
             "Interface": "MIPI CSI-2",
             "Power Supply": "1.8V/2.8V",
-            "Package": "CSP"
+            "Package": "CSP",
+            "Power Consumption": "N/A",
+            "Supply Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "2MP resolution",
@@ -499,7 +507,12 @@
             "Frame Rate": "30fps @ full resolution",
             "Interface": "MIPI CSI-2",
             "Power Supply": "1.8V/2.8V",
-            "Package": "CSP"
+            "Package": "CSP",
+            "Power Consumption": "N/A",
+            "Supply Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "5MP high resolution",
@@ -581,7 +594,11 @@
         "HDR Support",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Resolution",
+        "Colors",
+        "GRAM",
+        "Power Supply"
       ],
       "selectionGuide": "Guide to selecting the optimal display driver IC for your LCD or AMOLED panel requirements",
       "selectionGuideLink": {
@@ -678,7 +695,11 @@
             "HDR Support": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Resolution": "N/A",
+            "Colors": "N/A",
+            "GRAM": "N/A",
+            "Power Supply": "N/A"
           },
           "faeReview": {
             "author": "Li Hua",
@@ -790,7 +811,11 @@
             "Supply Voltage": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Resolution": "N/A",
+            "Colors": "N/A",
+            "GRAM": "N/A",
+            "Power Supply": "N/A"
           },
           "faeReview": {
             "author": "Zhang Wei",
@@ -851,7 +876,7 @@
           "faqs": [
             {
               "question": "Does GC9702 support high refresh rate displays?",
-              "answer": "Yes, the GC9702 supports both 60Hz and 90Hz refresh rates for smooth scrolling and gaming experiences. The driver automatically adjusts refresh rate based on content to optimize power consumption. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the GC9702 supports both 60Hz and 90Hz refresh rates for smooth scrolling and gaming experiences. The driver automatically adjusts refresh rate based on content to optimize power consumption. For detailed specifications and application support on galaxycore GC9702, refer to the datasheet or contact our team.",
               "decisionGuide": "Enable 90Hz mode for gaming and smooth UI experiences. Use adaptive refresh rate for optimal battery life.",
               "keywords": [
                 "GC9702 refresh rate",
@@ -896,7 +921,16 @@
             "Interface": "8/9/16/18-bit parallel, SPI",
             "GRAM": "Integrated 320x240x18",
             "Power Supply": "1.65V-3.3V I/O, 2.5V-3.3V analog",
-            "Package": "COG"
+            "Package": "COG",
+            "Resolution Support": "N/A",
+            "Refresh Rate": "N/A",
+            "Color Depth": "N/A",
+            "Power Consumption": "N/A",
+            "Supply Voltage": "N/A",
+            "HDR Support": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "QVGA resolution",
@@ -969,7 +1003,16 @@
             "Interface": "4-wire SPI",
             "GRAM": "Integrated",
             "Power Supply": "1.65V-3.3V",
-            "Package": "COG"
+            "Package": "COG",
+            "Resolution Support": "N/A",
+            "Refresh Rate": "N/A",
+            "Color Depth": "N/A",
+            "Power Consumption": "N/A",
+            "Supply Voltage": "N/A",
+            "HDR Support": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Round 240x240",
@@ -1052,7 +1095,11 @@
         "Functional Safety",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "HDR",
+        "Temperature",
+        "Qualification",
+        "LFM"
       ],
       "selectionGuide": "Automotive image sensor selection guide for ADAS and surround view applications",
       "selectionGuideLink": {
@@ -1149,7 +1196,11 @@
             "Functional Safety": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "HDR": "N/A",
+            "Temperature": "N/A",
+            "Qualification": "N/A",
+            "LFM": "N/A"
           },
           "faeReview": {
             "author": "Liu Jun",
@@ -1211,7 +1262,7 @@
           "faqs": [
             {
               "question": "What is the minimum illumination for GC2053-A?",
-              "answer": "The GC2053-A achieves excellent low-light performance with minimum illumination of 0.1 lux in color mode and 0.01 lux in monochrome mode. This enables reliable nighttime driving assistance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The GC2053-A achieves excellent low-light performance with minimum illumination of 0.1 lux in color mode and 0.01 lux in monochrome mode. This enables reliable nighttime driving assistance. For detailed specifications and application support on galaxycore GC2053-A, refer to the datasheet or contact our team.",
               "decisionGuide": "For extremely low-light applications, consider using IR illumination to supplement the sensor's natural low-light capabilities.",
               "keywords": [
                 "GC2053-A low light",
@@ -1262,11 +1313,15 @@
             "Interface": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "HDR": "N/A",
+            "Temperature": "N/A",
+            "Qualification": "N/A",
+            "LFM": "N/A"
           },
           "faeReview": {
             "author": "Chen Wei",
-            "content": "The GC4653-A represents a significant step forward in automotive imaging. The 4MP resolution provides the detail needed for advanced ADAS features like pedestrian detection and traffic sign recognition. The sensor's reliability in extreme temperature testing has been excellent, with consistent performance from -40°C to +105°C. The HDR performance handles challenging lighting scenarios effectively, and the LED flicker mitigation is crucial for modern traffic environments. This sensor has been successfully qualified by multiple automotive OEMs for production programs.",
+            "content": "The GC4653-A is significant step forward in automotive imaging. The 4MP resolution provides the detail needed for advanced ADAS features like pedestrian detection and traffic sign recognition. The sensor's reliability in extreme temperature testing has been excellent, with consistent performance from -40°C to +105°C. The HDR performance handles challenging lighting scenarios effectively, and the LED flicker mitigation is crucial for modern traffic environments. This sensor has been successfully qualified by multiple automotive OEMs for production programs.",
             "highlight": [
               "High resolution for advanced ADAS features",
               "Excellent extreme temperature reliability",
@@ -1370,7 +1425,15 @@
             "HDR": "Supported",
             "Temperature": "-40°C to +105°C",
             "Qualification": "AEC-Q100 Grade 2",
-            "Interface": "MIPI CSI-2"
+            "Interface": "MIPI CSI-2",
+            "AEC-Q100 Grade": "N/A",
+            "HDR Support": "N/A",
+            "LED Flicker Mitigation": "N/A",
+            "Functional Safety": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "LFM": "N/A"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1444,7 +1507,15 @@
             "HDR": "Advanced HDR",
             "LFM": "LED Flicker Mitigation",
             "Temperature": "-40°C to +105°C",
-            "Qualification": "AEC-Q100 Grade 2"
+            "Qualification": "AEC-Q100 Grade 2",
+            "AEC-Q100 Grade": "N/A",
+            "HDR Support": "N/A",
+            "LED Flicker Mitigation": "N/A",
+            "Interface": "N/A",
+            "Functional Safety": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "LED flicker mitigation",
@@ -1529,7 +1600,10 @@
         "Max Frame Rate",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Frame Rate",
+        "Power",
+        "Features"
       ],
       "selectionGuide": "Security and IoT camera sensor selection guide for surveillance and smart home applications",
       "selectionGuideLink": {
@@ -1627,7 +1701,10 @@
             "Max Frame Rate": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frame Rate": "N/A",
+            "Power": "N/A",
+            "Features": "N/A"
           },
           "faeReview": {
             "author": "Wu Jian",
@@ -1741,7 +1818,10 @@
             "Power Consumption": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frame Rate": "N/A",
+            "Power": "N/A",
+            "Features": "N/A"
           },
           "faeReview": {
             "author": "Zhao Lei",
@@ -1849,7 +1929,16 @@
             "Frame Rate": "30fps @ VGA",
             "Interface": "Parallel DVP",
             "Power": "Ultra-low power",
-            "Package": "CSP"
+            "Package": "CSP",
+            "Min Illumination": "N/A",
+            "WDR Support": "N/A",
+            "Power Consumption": "N/A",
+            "AI Acceleration": "N/A",
+            "Max Frame Rate": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Features": "N/A"
           },
           "features": [
             "VGA resolution",
@@ -1923,7 +2012,16 @@
             "Frame Rate": "30fps @ 2MP",
             "Interface": "MIPI CSI-2 or DVP",
             "Features": "WDR, face detection",
-            "Package": "CSP"
+            "Package": "CSP",
+            "Min Illumination": "N/A",
+            "WDR Support": "N/A",
+            "Power Consumption": "N/A",
+            "AI Acceleration": "N/A",
+            "Max Frame Rate": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Power": "N/A"
           },
           "features": [
             "2MP resolution",

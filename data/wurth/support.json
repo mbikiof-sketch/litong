@@ -1,0 +1,495 @@
+{
+  "seoTitle": "Würth Elektronik Technical Support | Selection Guides | BeiLuo",
+  "seoDescription": "Access Würth Elektronik technical documentation, selection guides, and application support.",
+  "seoKeywords": [
+    "Würth Elektronik support",
+    "selection guide",
+    "technical documentation",
+    "Würth Elektronik distributor",
+    "Würth selection guide"
+  ],
+  "faqs": [
+    {
+      "question": "How to access REDEXPERT?",
+      "answer": "REDEXPERT is available online at we-online.com/redexpert. Registration is free and provides access to all design tools including inductor loss calculation, capacitor impedance analysis, and EMC filter design. The tool is regularly updated with new products and features. Contact our FAE team for training on effective use of REDEXPERT.",
+      "decisionGuide": "Register for free access to all tools.",
+      "keywords": [
+        "REDEXPERT",
+        "tool"
+      ]
+    },
+    {
+      "question": "What technical documentation is available?",
+      "answer": "We provide comprehensive technical documentation including datasheets, application notes, selection guides, and reference designs. All documentation is available on our website. Our FAE team can provide additional application-specific guidance and design recommendations.",
+      "decisionGuide": "Browse documentation library on our website.",
+      "keywords": [
+        "documentation",
+        "datasheets"
+      ]
+    },
+    {
+      "question": "How to request samples?",
+      "answer": "Samples can be requested through our website or by contacting your local sales representative. Most standard parts are available from stock. Provide your project details for faster processing. We support qualified design projects with free samples.",
+      "decisionGuide": "Submit sample request with project details.",
+      "keywords": [
+        "samples",
+        "request"
+      ]
+    },
+    {
+      "question": "What FAE support is available?",
+      "answer": "Our FAE team provides comprehensive support including product selection, design review, and troubleshooting. We offer schematic and layout review services, REDEXPERT training, and application engineering support. Contact us early in your design phase for optimal assistance.",
+      "decisionGuide": "Contact FAE early for best support.",
+      "keywords": [
+        "FAE",
+        "support"
+      ]
+    },
+    {
+      "question": "How to get pricing and availability?",
+      "answer": "Contact our sales team for current pricing and availability. We offer competitive pricing for all volume levels. For production programs, we support scheduled deliveries and VMI arrangements. Request a quote through our website or contact your sales representative.",
+      "decisionGuide": "Contact sales for pricing and availability.",
+      "keywords": [
+        "pricing",
+        "availability"
+      ]
+    },
+    {
+      "question": "What is the typical lead time?",
+      "answer": "Lead times vary by product. Standard parts typically ship within 1-2 weeks. For high-volume or scheduled orders, contact sales to discuss delivery options. We maintain safety stock for popular items to support quick-turn requirements.",
+      "decisionGuide": "Contact sales for current lead times.",
+      "keywords": [
+        "lead time",
+        "delivery"
+      ]
+    },
+    {
+      "question": "Are Würth products RoHS compliant?",
+      "answer": "Yes, all Würth Elektronik products are RoHS compliant and meet environmental regulations. Certificates of compliance are available upon request. Many products are also halogen-free. Contact our FAE team for specific environmental compliance documentation.",
+      "decisionGuide": "Products are RoHS compliant by default.",
+      "keywords": [
+        "RoHS",
+        "compliance"
+      ]
+    },
+    {
+      "question": "How to contact technical support?",
+      "answer": "Technical support is available through multiple channels: email, phone, and online chat. Our FAE team responds to technical inquiries within 24 hours. For urgent issues, contact your local sales representative who can escalate to engineering support.",
+      "decisionGuide": "Use preferred contact method for support.",
+      "keywords": [
+        "contact",
+        "support"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "wurth-emc-selection-guide",
+      "title": "Complete Guide to EMC Component Selection",
+      "slug": "wurth-emc-selection-guide",
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Field Applications Engineer"
+      },
+      "publishDate": "2026-01-15",
+      "summary": "Comprehensive guide to selecting EMC components for noise suppression.",
+      "tags": [
+        "EMC",
+        "ferrite",
+        "common mode choke",
+        "selection guide"
+      ],
+      "relatedArticles": [
+        "wurth-capacitor-selection-guide",
+        "wurth-inductor-selection-guide",
+        "wurth-redexpert-guide"
+      ],
+      "faeInsights": {
+        "content": "Proper EMC component selection requires understanding the noise spectrum. Always measure before selecting. I recommend using this guide as a starting point and adapting the recommendations to your specific requirements. Our FAE team is available for personalized guidance.",
+        "decisionLogic": "Identify noise source → Measure spectrum → Select components → Verify effectiveness."
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Drive Mfg",
+          "industry": "Industrial",
+          "challenge": "EMC failures at final test",
+          "solution": "Proper filter design",
+          "feedback": "100% pass rate"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in Complete Guide to EMC Component Selection?",
+          "answer": "Complete Guide to EMC Component Selection covers key concepts, selection criteria, and practical implementation guidance. The article includes real-world examples and recommendations from our FAE team.",
+          "decisionGuide": "Read the full article for comprehensive understanding.",
+          "keywords": [
+            "article",
+            "content"
+          ]
+        },
+        {
+          "question": "Who should read this article?",
+          "answer": "This article is intended for design engineers, product managers, and procurement professionals involved in component selection and application design. Both beginners and experienced engineers will find valuable information.",
+          "decisionGuide": "Relevant for all levels of experience.",
+          "keywords": [
+            "audience",
+            "readers"
+          ]
+        },
+        {
+          "question": "How to apply the information in this article?",
+          "answer": "Start by understanding your application requirements. Then apply the selection criteria and guidelines presented in the article. use REDEXPERT for detailed component analysis. Contact our FAE team for application-specific questions.",
+          "decisionGuide": "Apply guidelines systematically to your design.",
+          "keywords": [
+            "application",
+            "guidelines"
+          ]
+        },
+        {
+          "question": "What additional resources are available?",
+          "answer": "Additional resources include related articles, datasheets, application notes, and REDEXPERT tools. Our FAE team can provide personalized guidance and design review support. Training sessions are available for teams.",
+          "decisionGuide": "Explore related resources for deeper understanding.",
+          "keywords": [
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "question": "How to get help with implementation?",
+          "answer": "Contact our FAE team for implementation support. We offer schematic review, layout guidance, and troubleshooting assistance. For complex designs, we can arrange technical consultations with Würth Elektronik application engineers.",
+          "decisionGuide": "Contact FAE for implementation support.",
+          "keywords": [
+            "implementation",
+            "help"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wurth-capacitor-selection-guide",
+      "title": "Capacitor Selection Guide for Power Applications",
+      "slug": "wurth-capacitor-selection-guide",
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Field Applications Engineer"
+      },
+      "publishDate": "2026-01-20",
+      "summary": "Guide to selecting capacitors for switching power supplies.",
+      "tags": [
+        "capacitor",
+        "power supply",
+        "selection"
+      ],
+      "relatedArticles": [
+        "wurth-emc-selection-guide",
+        "wurth-inductor-selection-guide",
+        "wurth-redexpert-guide"
+      ],
+      "faeInsights": {
+        "content": "Capacitor selection involves trade-offs between capacitance, ESR, size, and lifetime. I recommend using this guide as a starting point and adapting the recommendations to your specific requirements. Our FAE team is available for personalized guidance.",
+        "decisionLogic": "Define requirements → Compare technologies → Verify with lifetime calculations."
+      },
+      "customerCases": [
+        {
+          "customer": "EV Charger Mfg",
+          "industry": "Automotive",
+          "challenge": "Capacitor lifetime too short",
+          "solution": "Film capacitor replacement",
+          "feedback": "2x lifetime improvement"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in Capacitor Selection Guide for Power Applications?",
+          "answer": "Capacitor Selection Guide for Power Applications covers key concepts, selection criteria, and practical implementation guidance. The article includes real-world examples and recommendations from our FAE team.",
+          "decisionGuide": "Read the full article for comprehensive understanding.",
+          "keywords": [
+            "article",
+            "content"
+          ]
+        },
+        {
+          "question": "Who should read this article?",
+          "answer": "This article is intended for design engineers, product managers, and procurement professionals involved in component selection and application design. Both beginners and experienced engineers will find valuable information.",
+          "decisionGuide": "Relevant for all levels of experience.",
+          "keywords": [
+            "audience",
+            "readers"
+          ]
+        },
+        {
+          "question": "How to apply the information in this article?",
+          "answer": "Start by understanding your application requirements. Then apply the selection criteria and guidelines presented in the article. use REDEXPERT for detailed component analysis. Contact our FAE team for application-specific questions.",
+          "decisionGuide": "Apply guidelines systematically to your design.",
+          "keywords": [
+            "application",
+            "guidelines"
+          ]
+        },
+        {
+          "question": "What additional resources are available?",
+          "answer": "Additional resources include related articles, datasheets, application notes, and REDEXPERT tools. Our FAE team can provide personalized guidance and design review support. Training sessions are available for teams.",
+          "decisionGuide": "Explore related resources for deeper understanding.",
+          "keywords": [
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "question": "How to get help with implementation?",
+          "answer": "Contact our FAE team for implementation support. We offer schematic review, layout guidance, and troubleshooting assistance. For complex designs, we can arrange technical consultations with Würth Elektronik application engineers.",
+          "decisionGuide": "Contact FAE for implementation support.",
+          "keywords": [
+            "implementation",
+            "help"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wurth-inductor-selection-guide",
+      "title": "Power Inductor Selection and Loss Calculation",
+      "slug": "wurth-inductor-selection-guide",
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Field Applications Engineer"
+      },
+      "publishDate": "2026-01-25",
+      "summary": "Guide to selecting power inductors and calculating losses.",
+      "tags": [
+        "inductor",
+        "power",
+        "losses",
+        "REDEXPERT"
+      ],
+      "relatedArticles": [
+        "wurth-emc-selection-guide",
+        "wurth-capacitor-selection-guide",
+        "wurth-redexpert-guide"
+      ],
+      "faeInsights": {
+        "content": "Use REDEXPERT for accurate loss calculations. don't neglect AC copper losses at high frequencies. I recommend using this guide as a starting point and adapting the recommendations to your specific requirements. Our FAE team is available for personalized guidance.",
+        "decisionLogic": "Calculate DC and AC losses → Verify temperature rise → Optimize if needed."
+      },
+      "customerCases": [
+        {
+          "customer": "Telecom PSU Mfg",
+          "industry": "Telecom",
+          "challenge": "Inductor overheating",
+          "solution": "REDEXPERT optimization",
+          "feedback": "15°C temperature reduction"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in Power Inductor Selection and Loss Calculation?",
+          "answer": "Power Inductor Selection and Loss Calculation covers key concepts, selection criteria, and practical implementation guidance. The article includes real-world examples and recommendations from our FAE team.",
+          "decisionGuide": "Read the full article for comprehensive understanding.",
+          "keywords": [
+            "article",
+            "content"
+          ]
+        },
+        {
+          "question": "Who should read this article?",
+          "answer": "This article is intended for design engineers, product managers, and procurement professionals involved in component selection and application design. Both beginners and experienced engineers will find valuable information.",
+          "decisionGuide": "Relevant for all levels of experience.",
+          "keywords": [
+            "audience",
+            "readers"
+          ]
+        },
+        {
+          "question": "How to apply the information in this article?",
+          "answer": "Start by understanding your application requirements. Then apply the selection criteria and guidelines presented in the article. use REDEXPERT for detailed component analysis. Contact our FAE team for application-specific questions.",
+          "decisionGuide": "Apply guidelines systematically to your design.",
+          "keywords": [
+            "application",
+            "guidelines"
+          ]
+        },
+        {
+          "question": "What additional resources are available?",
+          "answer": "Additional resources include related articles, datasheets, application notes, and REDEXPERT tools. Our FAE team can provide personalized guidance and design review support. Training sessions are available for teams.",
+          "decisionGuide": "Explore related resources for deeper understanding.",
+          "keywords": [
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "question": "How to get help with implementation?",
+          "answer": "Contact our FAE team for implementation support. We offer schematic review, layout guidance, and troubleshooting assistance. For complex designs, we can arrange technical consultations with Würth Elektronik application engineers.",
+          "decisionGuide": "Contact FAE for implementation support.",
+          "keywords": [
+            "implementation",
+            "help"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wurth-connector-selection-guide",
+      "title": "Connector Selection for Industrial Applications",
+      "slug": "wurth-connector-selection-guide",
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Field Applications Engineer"
+      },
+      "publishDate": "2026-02-01",
+      "summary": "Guide to selecting connectors for harsh industrial environments.",
+      "tags": [
+        "connector",
+        "industrial",
+        "terminal block"
+      ],
+      "relatedArticles": [
+        "wurth-emc-selection-guide",
+        "wurth-capacitor-selection-guide",
+        "wurth-redexpert-guide"
+      ],
+      "faeInsights": {
+        "content": "Industrial connectors must withstand vibration, temperature cycling, and contamination. I recommend using this guide as a starting point and adapting the recommendations to your specific requirements. Our FAE team is available for personalized guidance.",
+        "decisionLogic": "Define environment → Select appropriate series → Verify ratings."
+      },
+      "customerCases": [
+        {
+          "customer": "Factory Automation",
+          "industry": "Industrial",
+          "challenge": "Intermittent connections",
+          "solution": "Upgraded to screw terminals",
+          "feedback": "Zero field failures"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in Connector Selection for Industrial Applications?",
+          "answer": "Connector Selection for Industrial Applications covers key concepts, selection criteria, and practical implementation guidance. The article includes real-world examples and recommendations from our FAE team.",
+          "decisionGuide": "Read the full article for comprehensive understanding.",
+          "keywords": [
+            "article",
+            "content"
+          ]
+        },
+        {
+          "question": "Who should read this article?",
+          "answer": "This article is intended for design engineers, product managers, and procurement professionals involved in component selection and application design. Both beginners and experienced engineers will find valuable information.",
+          "decisionGuide": "Relevant for all levels of experience.",
+          "keywords": [
+            "audience",
+            "readers"
+          ]
+        },
+        {
+          "question": "How to apply the information in this article?",
+          "answer": "Start by understanding your application requirements. Then apply the selection criteria and guidelines presented in the article. use REDEXPERT for detailed component analysis. Contact our FAE team for application-specific questions.",
+          "decisionGuide": "Apply guidelines systematically to your design.",
+          "keywords": [
+            "application",
+            "guidelines"
+          ]
+        },
+        {
+          "question": "What additional resources are available?",
+          "answer": "Additional resources include related articles, datasheets, application notes, and REDEXPERT tools. Our FAE team can provide personalized guidance and design review support. Training sessions are available for teams.",
+          "decisionGuide": "Explore related resources for deeper understanding.",
+          "keywords": [
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "question": "How to get help with implementation?",
+          "answer": "Contact our FAE team for implementation support. We offer schematic review, layout guidance, and troubleshooting assistance. For complex designs, we can arrange technical consultations with Würth Elektronik application engineers.",
+          "decisionGuide": "Contact FAE for implementation support.",
+          "keywords": [
+            "implementation",
+            "help"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wurth-redexpert-guide",
+      "title": "Getting Started with REDEXPERT",
+      "slug": "wurth-redexpert-guide",
+      "author": {
+        "name": "BeiLuo FAE Team",
+        "title": "Field Applications Engineer"
+      },
+      "publishDate": "2026-02-10",
+      "summary": "Tutorial on using REDEXPERT for component selection.",
+      "tags": [
+        "REDEXPERT",
+        "tool",
+        "tutorial",
+        "selection"
+      ],
+      "relatedArticles": [
+        "wurth-inductor-selection-guide",
+        "wurth-capacitor-selection-guide",
+        "wurth-redexpert-guide"
+      ],
+      "faeInsights": {
+        "content": "REDEXPERT is a powerful tool but requires accurate input data for reliable results. I recommend using this guide as a starting point and adapting the recommendations to your specific requirements. Our FAE team is available for personalized guidance.",
+        "decisionLogic": "Gather operating conditions → Enter parameters → Analyze results → Iterate if needed."
+      },
+      "customerCases": [
+        {
+          "customer": "Design Team",
+          "industry": "Various",
+          "challenge": "Component selection taking too long",
+          "solution": "REDEXPERT training",
+          "feedback": "50% reduction in selection time"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in Getting Started with REDEXPERT?",
+          "answer": "Getting Started with REDEXPERT covers key concepts, selection criteria, and practical implementation guidance. The article includes real-world examples and recommendations from our FAE team.",
+          "decisionGuide": "Read the full article for comprehensive understanding.",
+          "keywords": [
+            "article",
+            "content"
+          ]
+        },
+        {
+          "question": "Who should read this article?",
+          "answer": "This article is intended for design engineers, product managers, and procurement professionals involved in component selection and application design. Both beginners and experienced engineers will find valuable information.",
+          "decisionGuide": "Relevant for all levels of experience.",
+          "keywords": [
+            "audience",
+            "readers"
+          ]
+        },
+        {
+          "question": "How to apply the information in this article?",
+          "answer": "Start by understanding your application requirements. Then apply the selection criteria and guidelines presented in the article. use REDEXPERT for detailed component analysis. Contact our FAE team for application-specific questions.",
+          "decisionGuide": "Apply guidelines systematically to your design.",
+          "keywords": [
+            "application",
+            "guidelines"
+          ]
+        },
+        {
+          "question": "What additional resources are available?",
+          "answer": "Additional resources include related articles, datasheets, application notes, and REDEXPERT tools. Our FAE team can provide personalized guidance and design review support. Training sessions are available for teams.",
+          "decisionGuide": "Explore related resources for deeper understanding.",
+          "keywords": [
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "question": "How to get help with implementation?",
+          "answer": "Contact our FAE team for implementation support. We offer schematic review, layout guidance, and troubleshooting assistance. For complex designs, we can arrange technical consultations with Würth Elektronik application engineers.",
+          "decisionGuide": "Contact FAE for implementation support.",
+          "keywords": [
+            "implementation",
+            "help"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "seoTitle": "Changdian Solutions | 长电科技电源整流、电机驱动方案 | AEC-Q101",
+  "seoDescription": "Changdian power semiconductor solutions: power supply rectification, motor drive, automotive electronics AEC-Q101. Complete reference designs with 1N4007, IRF540N, GBJ1510, MBR20100.",
+  "seoKeywords": [
+    "Changdian solutions",
+    "Changdian power supply solution",
+    "Changdian motor drive solution",
+    "Changdian automotive electronics",
+    "长电科技解决方案",
+    "长电科技电源整流",
+    "长电科技电机驱动",
+    "电源整流方案",
+    "电机驱动MOSFET",
+    "汽车电子二极管",
+    "AEC-Q101 solution",
+    "LED driver rectifier",
+    "switching power supply MOSFET",
+    "automotive LED lighting"
+  ],
+  "solutions": [
+    {
+      "id": "power-supply-rectification",
+      "title": "电源整流解决方案",
+      "slug": "power-supply-rectification",
+      "summary": "完整的AC-DC电源整流解决方案，涵盖工频整流、高频开关电源整流、PFC电路等应用。",
+      "content": "长电科技提供完整的电源整流解决方案，从工频整流到高频开关电源，满足不同功率等级和效率要求。",
+      "sections": [
+        {
+          "title": "工频整流方案",
+          "content": "对于50/60Hz工频整流应用，推荐使用1N400x系列标准整流二极管或GBJ系列桥式整流器。1N4007（1A/1000V）适合小功率应用，1N5408（3A/1000V）适合中等功率，GBJ1510（15A/1000V）适合大功率应用。",
+          "image": "/assets/images/solutions/mains-rectification.jpg"
+        },
+        {
+          "title": "高频开关电源整流",
+          "content": "开关电源输出整流需要快速恢复二极管或肖特基二极管。FR307（快恢复）适合50-100kHz应用，MBR20100（肖特基）适合高效率低压应用。对于同步整流，可使用IRF540N或IRF3205 MOSFET。",
+          "image": "/assets/images/solutions/switching-supply.jpg"
+        },
+        {
+          "title": "PFC整流方案",
+          "content": "功率因数校正（PFC）电路需要超快恢复二极管。FR系列快恢复二极管可用于CCM模式PFC，反向恢复时间500ns，确保高效可靠的PFC工作。",
+          "image": "/assets/images/solutions/pfc-circuit.jpg"
+        }
+      ],
+      "products": [
+        "1N4007",
+        "1N5408",
+        "GBJ1510",
+        "FR307",
+        "MBR20100",
+        "IRF540N"
+      ],
+      "applications": [
+        "电源适配器",
+        "充电器",
+        "LED驱动",
+        "工业电源"
+      ],
+      "faqs": [
+        {
+          "question": "电源整流解决方案的主要特点是什么？",
+          "answer": "电源整流解决方案提供完整的解决方案，包括器件选型、电路设计、散热计算等，帮助客户快速实现产品开发。",
+          "decisionGuide": "根据应用需求选择合适的解决方案。"
+        },
+        {
+          "question": "电源整流解决方案需要哪些关键器件？",
+          "answer": "电源整流解决方案需要的主要器件包括：1N4007, 1N5408, GBJ1510, FR307, MBR20100, IRF540N。具体选型请参考解决方案文档。",
+          "decisionGuide": "参考BOM清单选择合适器件。"
+        },
+        {
+          "question": "电源整流解决方案的设计要点有哪些？",
+          "answer": "设计要点包括：器件选型、散热设计、EMI抑制、保护电路等。建议参考应用笔记和设计指南。",
+          "decisionGuide": "参考设计文档完成产品开发。"
+        },
+        {
+          "question": "电源整流解决方案的应用场景有哪些？",
+          "answer": "电源整流解决方案适用于电源适配器, 充电器, LED驱动, 工业电源，可根据具体需求进行定制。",
+          "decisionGuide": "根据应用场景选择合适方案。"
+        },
+        {
+          "question": "如何获取电源整流解决方案的更多支持？",
+          "answer": "可通过技术支持邮箱或热线联系我们的FAE团队，获取详细的技术文档、参考设计和现场支持。",
+          "decisionGuide": "需要更多支持时请联系我们。"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "电源整流应用笔记",
+          "url": "/downloads/power-rectification-appnote.pdf"
+        },
+        {
+          "title": "整流器选型指南",
+          "url": "/downloads/rectifier-selection-guide.pdf"
+        }
+      ],
+      "description": "完整的AC-DC电源整流解决方案，涵盖工频整流、高频开关电源整流、PFC电路等应用。",
+      "longDescription": "长电科技提供完整的电源整流解决方案，从工频整流到高频开关电源，满足不同功率等级和效率要求。",
+      "benefits": [
+        "高效率",
+        "高可靠性",
+        "低成本",
+        "易于设计"
+      ],
+      "coreAdvantages": [
+        "优质器件",
+        "完整方案",
+        "技术支持",
+        "快速交付"
+      ],
+      "bomList": [
+        {
+          "partNumber": "Example",
+          "quantity": 1,
+          "description": "示例器件"
+        }
+      ],
+      "technicalSpecs": {
+        "input": "AC 220V",
+        "output": "DC 12V",
+        "power": "100W"
+      },
+      "customerCases": [
+        {
+          "customer": "示例客户",
+          "application": "示例应用",
+          "results": "良好效果"
+        }
+      ],
+      "faeInsights": {
+        "logic": "设计逻辑",
+        "framework": "决策框架"
+      }
+    },
+    {
+      "id": "motor-drive",
+      "title": "电机驱动解决方案",
+      "slug": "motor-drive",
+      "summary": "完整的电机驱动解决方案，包括直流电机控制、步进电机驱动、BLDC电机控制等应用。",
+      "content": "长电科技MOSFET和整流器产品为各种电机驱动应用提供高效可靠的功率开关解决方案。",
+      "sections": [
+        {
+          "title": "直流电机驱动",
+          "content": "直流电机驱动需要低导通电阻的MOSFET以降低损耗。IRF3205（55V/110A/8mΩ）是12V/24V直流电机驱动的理想选择，TO-220封装便于散热。",
+          "image": "/assets/images/solutions/dc-motor-drive.jpg"
+        },
+        {
+          "title": "H桥驱动方案",
+          "content": "H桥电机驱动需要4个MOSFET。使用IRF540N（100V/33A）配合IRF9540N（P沟道）可构建高效的H桥驱动电路。注意死区时间控制防止直通。",
+          "image": "/assets/images/solutions/h-bridge.jpg"
+        },
+        {
+          "title": "续流保护",
+          "content": "电机驱动中的感性负载需要续流二极管保护。FR307快恢复二极管或MBR20100肖特基二极管可提供高效的续流路径，保护MOSFET免受反电动势损坏。",
+          "image": "/assets/images/solutions/freewheeling.jpg"
+        }
+      ],
+      "products": [
+        "IRF3205",
+        "IRF540N",
+        "FR307",
+        "MBR20100"
+      ],
+      "applications": [
+        "直流电机控制",
+        "步进电机驱动",
+        "伺服系统",
+        "电动工具"
+      ],
+      "faqs": [
+        {
+          "question": "电机驱动解决方案的主要特点是什么？",
+          "answer": "电机驱动解决方案提供完整的解决方案，包括器件选型、电路设计、散热计算等，帮助客户快速实现产品开发。",
+          "decisionGuide": "根据应用需求选择合适的解决方案。"
+        },
+        {
+          "question": "电机驱动解决方案需要哪些关键器件？",
+          "answer": "电机驱动解决方案需要的主要器件包括：IRF3205, IRF540N, FR307, MBR20100。具体选型请参考解决方案文档。",
+          "decisionGuide": "参考BOM清单选择合适器件。"
+        },
+        {
+          "question": "电机驱动解决方案的设计要点有哪些？",
+          "answer": "设计要点包括：器件选型、散热设计、EMI抑制、保护电路等。建议参考应用笔记和设计指南。",
+          "decisionGuide": "参考设计文档完成产品开发。"
+        },
+        {
+          "question": "电机驱动解决方案的应用场景有哪些？",
+          "answer": "电机驱动解决方案适用于直流电机控制, 步进电机驱动, 伺服系统, 电动工具，可根据具体需求进行定制。",
+          "decisionGuide": "根据应用场景选择合适方案。"
+        },
+        {
+          "question": "如何获取电机驱动解决方案的更多支持？",
+          "answer": "可通过技术支持邮箱或热线联系我们的FAE团队，获取详细的技术文档、参考设计和现场支持。",
+          "decisionGuide": "需要更多支持时请联系我们。"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "电机驱动设计指南",
+          "url": "/downloads/motor-drive-guide.pdf"
+        }
+      ],
+      "description": "完整的电机驱动解决方案，包括直流电机控制、步进电机驱动、BLDC电机控制等应用。",
+      "longDescription": "长电科技MOSFET和整流器产品为各种电机驱动应用提供高效可靠的功率开关解决方案。",
+      "benefits": [
+        "高效率",
+        "高可靠性",
+        "低成本",
+        "易于设计"
+      ],
+      "coreAdvantages": [
+        "优质器件",
+        "完整方案",
+        "技术支持",
+        "快速交付"
+      ],
+      "bomList": [
+        {
+          "partNumber": "Example",
+          "quantity": 1,
+          "description": "示例器件"
+        }
+      ],
+      "technicalSpecs": {
+        "input": "AC 220V",
+        "output": "DC 12V",
+        "power": "100W"
+      },
+      "customerCases": [
+        {
+          "customer": "示例客户",
+          "application": "示例应用",
+          "results": "良好效果"
+        }
+      ],
+      "faeInsights": {
+        "logic": "设计逻辑",
+        "framework": "决策框架"
+      }
+    },
+    {
+      "id": "automotive-electronics",
+      "title": "汽车电子解决方案",
+      "slug": "automotive-electronics",
+      "summary": "AEC-Q101认证的汽车级半导体解决方案，适用于车身控制、动力系统、LED照明等应用。",
+      "content": "长电科技AEC-Q101认证产品满足汽车电子的严格要求，提供高可靠性的半导体解决方案。",
+      "sections": [
+        {
+          "title": "车身电子",
+          "content": "车身控制模块需要高可靠性的二极管和MOSFET。1N4007和1N5408通过AEC-Q101认证，适用于车门控制、座椅调节、车窗升降等应用。",
+          "image": "/assets/images/solutions/body-electronics.jpg"
+        },
+        {
+          "title": "LED照明驱动",
+          "content": "汽车LED照明需要高效率的整流和开关器件。肖特基二极管MBR20100提供低VF整流，MOSFET IRF540N可用于LED驱动电路的开关控制。",
+          "image": "/assets/images/solutions/automotive-led.jpg"
+        },
+        {
+          "title": "48V轻混系统",
+          "content": "48V轻混系统需要高耐压器件。GBJ2510（25A/1000V）桥式整流器可用于48V发电机整流，IRF540N（100V）可用于48V系统开关控制。",
+          "image": "/assets/images/solutions/48v-mild-hybrid.jpg"
+        }
+      ],
+      "products": [
+        "1N4007",
+        "1N5408",
+        "GBJ2510",
+        "MBR20100",
+        "IRF540N"
+      ],
+      "applications": [
+        "车身控制",
+        "LED照明",
+        "48V系统",
+        "电动助力转向"
+      ],
+      "faqs": [
+        {
+          "question": "汽车电子解决方案的主要特点是什么？",
+          "answer": "汽车电子解决方案提供完整的解决方案，包括器件选型、电路设计、散热计算等，帮助客户快速实现产品开发。",
+          "decisionGuide": "根据应用需求选择合适的解决方案。"
+        },
+        {
+          "question": "汽车电子解决方案需要哪些关键器件？",
+          "answer": "汽车电子解决方案需要的主要器件包括：1N4007, 1N5408, GBJ2510, MBR20100, IRF540N。具体选型请参考解决方案文档。",
+          "decisionGuide": "参考BOM清单选择合适器件。"
+        },
+        {
+          "question": "汽车电子解决方案的设计要点有哪些？",
+          "answer": "设计要点包括：器件选型、散热设计、EMI抑制、保护电路等。建议参考应用笔记和设计指南。",
+          "decisionGuide": "参考设计文档完成产品开发。"
+        },
+        {
+          "question": "汽车电子解决方案的应用场景有哪些？",
+          "answer": "汽车电子解决方案适用于车身控制, LED照明, 48V系统, 电动助力转向，可根据具体需求进行定制。",
+          "decisionGuide": "根据应用场景选择合适方案。"
+        },
+        {
+          "question": "如何获取汽车电子解决方案的更多支持？",
+          "answer": "可通过技术支持邮箱或热线联系我们的FAE团队，获取详细的技术文档、参考设计和现场支持。",
+          "decisionGuide": "需要更多支持时请联系我们。"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "汽车电子应用指南",
+          "url": "/downloads/automotive-appnote.pdf"
+        }
+      ],
+      "description": "AEC-Q101认证的汽车级半导体解决方案，适用于车身控制、动力系统、LED照明等应用。",
+      "longDescription": "长电科技AEC-Q101认证产品满足汽车电子的严格要求，提供高可靠性的半导体解决方案。",
+      "benefits": [
+        "高效率",
+        "高可靠性",
+        "低成本",
+        "易于设计"
+      ],
+      "coreAdvantages": [
+        "优质器件",
+        "完整方案",
+        "技术支持",
+        "快速交付"
+      ],
+      "bomList": [
+        {
+          "partNumber": "Example",
+          "quantity": 1,
+          "description": "示例器件"
+        }
+      ],
+      "technicalSpecs": {
+        "input": "AC 220V",
+        "output": "DC 12V",
+        "power": "100W"
+      },
+      "customerCases": [
+        {
+          "customer": "示例客户",
+          "application": "示例应用",
+          "results": "良好效果"
+        }
+      ],
+      "faeInsights": {
+        "logic": "设计逻辑",
+        "framework": "决策框架"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "长电科技提供哪些解决方案？",
+      "answer": "长电科技提供电源整流、电机驱动、汽车电子等多个领域的解决方案，包括完整的参考设计、BOM清单和技术支持。",
+      "decisionGuide": "根据应用需求选择合适的解决方案。"
+    },
+    {
+      "question": "如何获取解决方案的技术支持？",
+      "answer": "可通过技术支持邮箱support@cj-elec.com或热线+86-510-8685-8888联系我们的FAE团队，获取详细的技术文档和设计方案。",
+      "decisionGuide": "需要技术支持时请通过以上方式联系我们。"
+    }
+  ]
+}

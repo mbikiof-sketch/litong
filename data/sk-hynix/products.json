@@ -138,7 +138,7 @@
       "faqs": [
         {
           "question": "What is the difference between DDR4 and DDR5 memory?",
-          "answer": "DDR5 represents a significant advancement over DDR4 in several key areas: 1) Bandwidth - DDR5 starts at 4800MT/s compared to DDR4's maximum of 3200MT/s, providing approximately 50% higher bandwidth, 2) Power efficiency - DDR5 operates at 1.1V compared to DDR4's 1.2V, reducing power consumption, 3) Capacity - DDR5 supports higher density chips, enabling larger memory modules up to 128GB, 4) Reliability - DDR5 includes on-die ECC for improved data integrity, 5) Bank architecture - DDR5 uses 32 banks compared to DDR4's 16, improving performance. However, DDR5 requires new motherboard and processor support. For new designs, DDR5 offers better performance and future-proofing, while DDR4 remains suitable for cost-sensitive applications and existing platforms.",
+          "answer": "DDR5 is significant advancement over DDR4 in several key areas: 1) Bandwidth - DDR5 starts at 4800MT/s compared to DDR4's maximum of 3200MT/s, providing approximately 50% higher bandwidth, 2) Power efficiency - DDR5 operates at 1.1V compared to DDR4's 1.2V, reducing power consumption, 3) Capacity - DDR5 supports higher density chips, enabling larger memory modules up to 128GB, 4) Reliability - DDR5 includes on-die ECC for improved data integrity, 5) Bank architecture - DDR5 uses 32 banks compared to DDR4's 16, improving performance. However, DDR5 requires new motherboard and processor support. For new designs, DDR5 offers better performance and future-proofing, while DDR4 remains suitable for cost-sensitive applications and existing platforms.",
           "decisionGuide": "Choose DDR5 for new high-performance server and PC designs. Use DDR4 for cost-sensitive applications or existing platform upgrades.",
           "keywords": [
             "DDR4 vs DDR5",
@@ -383,7 +383,7 @@
           "faeReview": {
             "author": "Sarah Johnson",
             "title": "Senior FAE - Advanced Memory",
-            "content": "The HMCG88MEBRA115N represents the cutting edge of server memory technology. I'm impressed by the performance gains this module delivers. The 4800MT/s speed provides noticeable improvements in memory-bound applications compared to DDR4. The 64GB capacity is perfect for high-density servers where memory capacity per slot is critical. I particularly like the on-die ECC feature which enhances reliability without system-level overhead. The power efficiency at 1.1V is excellent, helping reduce data center power consumption. For customers building next-generation servers, this DDR5 module is essential. The performance uplift is especially noticeable in virtualization and database workloads.",
+            "content": "The HMCG88MEBRA115N is the cutting edge of server memory technology. I'm impressed by the performance gains this module delivers. The 4800MT/s speed provides noticeable improvements in memory-bound applications compared to DDR4. The 64GB capacity is perfect for high-density servers where memory capacity per slot is critical. I particularly like the on-die ECC feature which enhances reliability without system-level overhead. The power efficiency at 1.1V is excellent, helping reduce data center power consumption. For customers building next-generation servers, this DDR5 module is essential. The performance uplift is especially noticeable in virtualization and database workloads.",
             "highlight": "Next-generation DDR5 with exceptional capacity and bandwidth for modern data centers"
           },
           "alternativeParts": [
@@ -1001,7 +1001,7 @@
           "faeReview": {
             "author": "Lisa Wang",
             "title": "Senior FAE - Enterprise Storage",
-            "content": "The H27TDG8T2D5R represents SK Hynix's leadership in 3D NAND technology. With 1Tb density in a single die, this NAND enables unprecedented storage capacities in compact form factors. The 1200MT/s interface speed is impressive, providing bandwidth for demanding enterprise workloads. In my experience with data center deployments, this NAND delivers excellent performance in high-capacity SSDs. The reliability characteristics are solid, with 1,000-3,000 P/E cycles supporting long product lifecycles. I particularly recommend this NAND for hyperscale data center applications where storage density and cost per GB are critical. The advanced error correction ensures data integrity in demanding enterprise environments.",
+            "content": "The H27TDG8T2D5R is SK Hynix's leadership in 3D NAND technology. With 1Tb density in a single die, this NAND enables unprecedented storage capacities in compact form factors. The 1200MT/s interface speed is impressive, providing bandwidth for demanding enterprise workloads. In my experience with data center deployments, this NAND delivers excellent performance in high-capacity SSDs. The reliability characteristics are solid, with 1,000-3,000 P/E cycles supporting long product lifecycles. I particularly recommend this NAND for hyperscale data center applications where storage density and cost per GB are critical. The advanced error correction ensures data integrity in demanding enterprise environments.",
             "highlight": "1Tb density enabling unprecedented storage capacities for data center applications"
           },
           "alternativeParts": [
@@ -1292,7 +1292,8 @@
         "Power",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Operating Temperature"
       ],
       "longDescription": "SK Hynix SSD products deliver high-performance, reliable storage solutions for enterprise and client applications. The portfolio includes NVMe SSDs for high-performance computing, SATA SSDs for cost-effective storage, and client SSDs for consumer devices. Key features include high sequential and random performance, advanced error correction and data protection, end-to-end data path protection, power loss protection options, and enterprise-grade reliability with high TBW ratings. As an authorized distributor, we provide SSD selection guidance and technical support.",
       "image": "/assets/brands/sk-hynix/ssd.jpg",
@@ -1416,7 +1417,8 @@
             "Power": "8.25W typical, 12W peak",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "PCIe Gen4 x4 high-speed interface",
@@ -1437,7 +1439,7 @@
           "faeReview": {
             "author": "James Chen",
             "title": "Senior FAE - Enterprise Storage",
-            "content": "The PE8010 represents SK Hynix's entry into the enterprise NVMe SSD market with strong performance credentials. The 6,800MB/s read speed is competitive with leading enterprise SSDs. I particularly appreciate the balanced write performance at 4,000MB/s which is excellent for write-intensive workloads. The 1 DWPD endurance is appropriate for mixed workload applications. In data center deployments, this SSD performs reliably under sustained workloads. The power loss protection is critical for data integrity in enterprise environments. I recommend this SSD for database servers, virtualization hosts, and AI training infrastructure where performance and reliability are essential.",
+            "content": "The PE8010 is SK Hynix's entry into the enterprise NVMe SSD market with strong performance credentials. The 6,800MB/s read speed is competitive with leading enterprise SSDs. I particularly appreciate the balanced write performance at 4,000MB/s which is excellent for write-intensive workloads. The 1 DWPD endurance is appropriate for mixed workload applications. In data center deployments, this SSD performs reliably under sustained workloads. The power loss protection is critical for data integrity in enterprise environments. I recommend this SSD for database servers, virtualization hosts, and AI training infrastructure where performance and reliability are essential.",
             "highlight": "Enterprise NVMe SSD with excellent performance and reliability for data center applications"
           },
           "alternativeParts": [
@@ -1480,7 +1482,7 @@
             {
               "partNumber": "Ruler Adapter",
               "relationship": "Form Factor",
-              "description": "Ruler to U.2 adapter for E1.S/E1.L SSDs"
+              "description": "Ruler to U.2 adapter for E1. S/E1. L SSDs"
             },
             {
               "partNumber": "PE8030",
@@ -1569,7 +1571,8 @@
             "Power": "10W typical, 15W peak",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "7.68TB maximum enterprise capacity",
@@ -1643,7 +1646,7 @@
             {
               "partNumber": "Ruler Adapter",
               "relationship": "Form Factor",
-              "description": "Adapter for E1.S/E1.L form factor conversion"
+              "description": "Adapter for E1. S/E1. L form factor conversion"
             }
           ],
           "faqs": [
@@ -1878,7 +1881,8 @@
         "Voltage",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Operating Temperature"
       ],
       "longDescription": "SK Hynix HBM (High Bandwidth Memory) delivers extreme memory bandwidth for demanding AI, HPC, and graphics applications. The 3D-stacked memory architecture provides massive bandwidth in a compact form factor. SK Hynix offers HBM2E and HBM3 generations with capacities from 8GB to 24GB and bandwidth up to 1.5TB/s. As an authorized distributor, we provide HBM selection guidance and technical support for AI accelerator and GPU designs.",
       "image": "/assets/brands/sk-hynix/hbm.jpg",
@@ -2001,7 +2005,8 @@
             "Package": "2.5D SiP",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "16GB HBM2E memory stack",
@@ -2136,7 +2141,7 @@
           "name": "HBM3 24GB",
           "shortDescription": "SK Hynix HBM3 24GB next-generation High Bandwidth Memory with 1.5TB/s bandwidth for advanced AI",
           "descriptionParagraphs": [
-            "The HBM3 24GB is SK Hynix's third-generation High Bandwidth Memory delivering up to 1.5TB/s bandwidth. This 24GB memory stack represents the cutting edge of AI memory technology, providing 50% more bandwidth and 50% more capacity than HBM2E.",
+            "The HBM3 24GB is SK Hynix's third-generation High Bandwidth Memory delivering up to 1.5TB/s bandwidth. This 24GB memory stack is the cutting edge of AI memory technology, providing 50% more bandwidth and 50% more capacity than HBM2E.",
             "Featuring 12-layer 3D stacking with advanced TSV technology, the HBM3 achieves data rates of 6.4GT/s per pin, doubling the speed of HBM2E. The 24GB capacity provides ample memory for large language models and advanced AI networks with billions of parameters.",
             "HBM3 is essential for next-generation AI training systems including large language model training, autonomous driving AI, and advanced scientific simulations. The memory's massive bandwidth enables AI accelerators to achieve higher utilization by eliminating memory bottlenecks."
           ],
@@ -2153,7 +2158,8 @@
             "Package": "2.5D SiP",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "24GB HBM3 memory stack",
@@ -2174,7 +2180,7 @@
           "faeReview": {
             "author": "Dr. Amanda Chen",
             "title": "Senior FAE - Advanced AI Memory",
-            "content": "HBM3 represents a major leap in AI memory technology. The 1.5TB/s bandwidth is essential for training the latest large language models with hundreds of billions of parameters. In my experience supporting AI system designers, HBM3 enables new AI architectures that were previously memory-bound. The 24GB capacity accommodates the massive weight matrices in modern neural networks. The improved power efficiency at 1.1V helps manage thermal constraints in high-density AI systems. HBM3 is the memory technology that will enable the next wave of AI breakthroughs.",
+            "content": "HBM3 is major leap in AI memory technology. The 1.5TB/s bandwidth is essential for training the latest large language models with hundreds of billions of parameters. In my experience supporting AI system designers, HBM3 enables new AI architectures that were previously memory-bound. The 24GB capacity accommodates the massive weight matrices in modern neural networks. The improved power efficiency at 1.1V helps manage thermal constraints in high-density AI systems. HBM3 is the memory technology that will enable the next wave of AI breakthroughs.",
             "highlight": "1.5TB/s bandwidth enabling next-generation large language model training"
           },
           "alternativeParts": [
@@ -2367,7 +2373,7 @@
           "shortDescription": "SK Hynix HBM3 16GB memory stack with 1.2TB/s bandwidth for next-generation AI accelerators",
           "descriptionParagraphs": [
             "The HBM3-16GB is a 16GB High Bandwidth Memory stack featuring SK Hynix's cutting-edge HBM3 technology. With 1.2TB/s bandwidth, it delivers exceptional memory performance for next-generation AI training and HPC applications.",
-            "This HBM3 stack uses advanced 12-layer DRAM die stacking to achieve 16GB capacity with improved power efficiency. The 6.4GT/s data rate per pin represents a 2x improvement over HBM2E, enabling unprecedented memory bandwidth.",
+            "This HBM3 stack uses advanced 12-layer DRAM die stacking to achieve 16GB capacity with improved power efficiency. The 6.4GT/s data rate per pin is 2x improvement over HBM2E, enabling unprecedented memory bandwidth.",
             "With 1024-bit interface and optimized power delivery, the HBM3-16GB is ideal for training large language models, scientific computing, and advanced AI research requiring maximum memory bandwidth and capacity."
           ],
           "image": "/assets/products/sk-hynix/hbm3-16gb.jpg",
@@ -2405,7 +2411,7 @@
           "faeReview": {
             "author": "AI Memory FAE",
             "highlight": "Next-gen HBM3 performance for demanding AI training",
-            "content": "The HBM3-16GB represents the state-of-the-art in memory technology. The 1.2TB/s bandwidth is a game-changer for AI training - I've seen training times reduced by 30-40% compared to HBM2E systems. The 6.4GT/s data rate requires careful signal integrity design, but the performance gains are worth it. For LLM training with billions of parameters, this memory is essential. The 16GB capacity with 12-layer stacking is impressive engineering. If you're designing next-gen AI accelerators, HBM3 is the only choice."
+            "content": "The HBM3-16GB is the state-of-the-art in memory technology. The 1.2TB/s bandwidth is a game-changer for AI training - I've seen training times reduced by 30-40% compared to HBM2E systems. The 6.4GT/s data rate requires careful signal integrity design, but the performance gains are worth it. For LLM training with billions of parameters, this memory is essential. The 16GB capacity with 12-layer stacking is impressive engineering. If you're designing next-gen AI accelerators, HBM3 is the only choice."
           },
           "alternativeParts": [
             {

@@ -11,25 +11,49 @@
       "name": "Audio Amplifiers",
       "description": "High-efficiency Class-D audio amplifiers with Smart PA technology for superior sound quality in smartphones and portable devices",
       "link": "/awinic/products/audio-amplifiers.html",
-      "keywords": ["audio amplifier", "Class-D", "Smart PA", "sound enhancement", "speaker driver"]
+      "keywords": [
+        "audio amplifier",
+        "Class-D",
+        "Smart PA",
+        "sound enhancement",
+        "speaker driver"
+      ]
     },
     {
       "name": "Power Management",
       "description": "Comprehensive power management ICs including chargers, DC-DC converters, and LDOs for efficient power delivery",
       "link": "/awinic/products/power-management.html",
-      "keywords": ["power management", "charger IC", "DC-DC converter", "LDO", "battery management"]
+      "keywords": [
+        "power management",
+        "charger IC",
+        "DC-DC converter",
+        "LDO",
+        "battery management"
+      ]
     },
     {
       "name": "RF Front-End",
       "description": "High-performance RF switches, LNA banks, and tuning solutions for 4G/5G mobile communications",
       "link": "/awinic/products/rf-front-end.html",
-      "keywords": ["RF front-end", "RF switch", "LNA", "antenna tuning", "5G"]
+      "keywords": [
+        "RF front-end",
+        "RF switch",
+        "LNA",
+        "antenna tuning",
+        "5G"
+      ]
     },
     {
       "name": "LED Drivers",
       "description": "Backlight and flash LED drivers with high efficiency and precise current control for display applications",
       "link": "/awinic/products/led-drivers.html",
-      "keywords": ["LED driver", "backlight driver", "flash LED", "display driver", "current control"]
+      "keywords": [
+        "LED driver",
+        "backlight driver",
+        "flash LED",
+        "display driver",
+        "current control"
+      ]
     }
   ],
   "industries": [
@@ -37,25 +61,45 @@
       "name": "Smartphones",
       "description": "Audio, power, and RF solutions for flagship and mainstream smartphones",
       "icon": "smartphone",
-      "applications": ["Audio enhancement", "Fast charging", "5G connectivity", "Camera flash"]
+      "applications": [
+        "Audio enhancement",
+        "Fast charging",
+        "5G connectivity",
+        "Camera flash"
+      ]
     },
     {
       "name": "IoT Devices",
       "description": "Low-power analog solutions for smart home, wearables, and industrial IoT",
       "icon": "wifi",
-      "applications": ["Smart speakers", "Wearables", "Smart home hubs", "Industrial sensors"]
+      "applications": [
+        "Smart speakers",
+        "Wearables",
+        "Smart home hubs",
+        "Industrial sensors"
+      ]
     },
     {
       "name": "Automotive",
       "description": "AEC-Q100 qualified analog ICs for infotainment and body electronics",
       "icon": "car",
-      "applications": ["In-car audio", "LED lighting", "Power distribution", "Sensor interfaces"]
+      "applications": [
+        "In-car audio",
+        "LED lighting",
+        "Power distribution",
+        "Sensor interfaces"
+      ]
     },
     {
       "name": "Consumer Electronics",
       "description": "Audio and power solutions for tablets, notebooks, and gaming devices",
       "icon": "tv",
-      "applications": ["Tablet audio", "Notebook power", "Gaming sound", "Portable speakers"]
+      "applications": [
+        "Tablet audio",
+        "Notebook power",
+        "Gaming sound",
+        "Portable speakers"
+      ]
     }
   ],
   "certifications": [
@@ -94,43 +138,72 @@
       "question": "Is LiTong an authorized distributor of Awinic products?",
       "answer": "Yes, LiTong is an authorized distributor of Awinic Electronics. We have established a strong partnership with Awinic to provide customers with genuine products, technical support, and reliable supply chain services. As an authorized distributor, we can offer competitive pricing, fast delivery, and comprehensive application engineering support for all Awinic product lines including audio amplifiers, power management ICs, RF front-end modules, and LED drivers. Our FAE team has deep expertise in Awinic's analog and mixed-signal solutions and can assist with product selection, reference design review, and troubleshooting.",
       "decisionGuide": "Contact LiTong sales team for Awinic product inquiries, samples, and technical documentation.",
-      "keywords": ["Awinic distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "Awinic distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What are the key advantages of Awinic Smart PA audio amplifiers?",
       "answer": "Awinic Smart PA (Smart Power Amplifier) technology offers several competitive advantages for smartphone audio applications: First, high output power - Awinic Smart PAs can deliver up to 5W output power from a single lithium battery, enabling louder and clearer sound from micro speakers. Second, advanced protection features - integrated over-current, over-temperature, and DC offset protection ensure safe operation under all conditions. Third, high efficiency - Class-D architecture with >90% efficiency minimizes power consumption and extends battery life. Fourth, small package size - WLCSP and FC-CSP packages enable compact smartphone designs. Fifth, comprehensive ecosystem - Awinic provides tuning tools and acoustic support to optimize sound quality for specific speaker configurations. These advantages have made Awinic the leading audio amplifier supplier for Chinese smartphone brands.",
       "decisionGuide": "Evaluate Awinic Smart PA for your smartphone audio applications. Contact our FAE team for product recommendations and tuning support.",
-      "keywords": ["Awinic Smart PA", "audio amplifier advantages", "Class-D amplifier"]
+      "keywords": [
+        "Awinic Smart PA",
+        "audio amplifier advantages",
+        "Class-D amplifier"
+      ]
     },
     {
       "question": "How do I select the right Awinic power management IC for my application?",
       "answer": "Selecting the right Awinic power management IC requires understanding your system's power requirements: For battery charging applications, consider the Awinic AW series charger ICs which support various battery chemistries and charging currents up to 5A. For voltage regulation, Awinic offers both DC-DC buck/boost converters and low-dropout linear regulators (LDOs) with different current capabilities and noise specifications. Key selection criteria include: Input voltage range - ensure the IC can handle your input source voltage. Output current capability - select an IC with adequate current rating including margin. Efficiency requirements - switching regulators offer higher efficiency but may have more noise than LDOs. Package size - WLCSP packages for space-constrained designs, QFN for easier assembly. Special features - some Awinic PMICs include power-on sequencing, voltage monitoring, or I2C control. Our FAE team can provide detailed selection guidance based on your specific requirements.",
       "decisionGuide": "Use our selection guides or contact LiTong FAE team for personalized power management IC recommendations.",
-      "keywords": ["Awinic power management selection", "PMIC selection guide", "charger IC selection"]
+      "keywords": [
+        "Awinic power management selection",
+        "PMIC selection guide",
+        "charger IC selection"
+      ]
     },
     {
       "question": "What RF front-end solutions does Awinic offer for 5G applications?",
       "answer": "Awinic offers a comprehensive portfolio of RF front-end solutions for 4G/5G mobile communications: RF switches - high-linearity SPST, SPDT, and multi-throw switches for antenna switching and band selection, supporting frequency ranges up to 6GHz for 5G NR. LNA (Low Noise Amplifier) banks - multi-band LNAs with excellent noise figure and gain for improved receiver sensitivity. Antenna tuning solutions - tunable capacitors and impedance matching circuits for optimizing antenna performance across different bands and usage modes. RF filters - integrated filter solutions for interference rejection. These products are designed to meet the demanding requirements of 5G smartphones, supporting higher data rates, wider bandwidths, and improved signal quality. Awinic's RF solutions are characterized by low insertion loss, high isolation, and excellent linearity to meet carrier aggregation and MIMO requirements.",
       "decisionGuide": "Contact our RF FAE team for 5G RF front-end design support and product recommendations.",
-      "keywords": ["Awinic RF front-end", "5G RF switch", "LNA bank", "antenna tuning"]
+      "keywords": [
+        "Awinic RF front-end",
+        "5G RF switch",
+        "LNA bank",
+        "antenna tuning"
+      ]
     },
     {
       "question": "Does Awinic provide automotive-qualified products?",
       "answer": "Yes, Awinic offers AEC-Q100 qualified products specifically designed for automotive applications. These automotive-grade ICs undergo rigorous qualification testing including high temperature operating life (HTOL), temperature cycling, and electrostatic discharge (ESD) testing to meet the stringent reliability requirements of automotive applications. Awinic's automotive product portfolio includes: Audio amplifiers for in-car entertainment systems with enhanced EMC performance. LED drivers for interior and exterior lighting applications. Power management ICs for infotainment and ADAS systems. These products are designed to operate over the automotive temperature range of -40°C to +125°C and meet the quality standards required by Tier-1 automotive suppliers. Awinic continues to expand its automotive product offerings to address the growing demand for analog ICs in electric vehicles and autonomous driving applications.",
       "decisionGuide": "For automotive applications, look for AEC-Q100 qualified Awinic parts. Contact our automotive FAE team for support.",
-      "keywords": ["Awinic automotive", "AEC-Q100 qualified", "automotive analog IC"]
+      "keywords": [
+        "Awinic automotive",
+        "AEC-Q100 qualified",
+        "automotive analog IC"
+      ]
     },
     {
       "question": "What support does LiTong provide for Awinic product implementation?",
       "answer": "LiTong provides comprehensive support for Awinic product implementation including: Application engineering assistance from our experienced FAE team who can help with product selection, schematic review, PCB layout recommendations, and debugging. Reference designs and evaluation boards for quick prototyping and performance validation. Acoustic tuning support for audio amplifier applications including speaker characterization and sound quality optimization. Software drivers and firmware examples for digital-controlled devices. Simulation models for circuit verification. On-site technical support for critical design reviews and production ramp-up. We can also coordinate with Awinic's factory FAEs for complex technical issues and provide training on Awinic product families. Our goal is to ensure your design success and accelerate time-to-market.",
       "decisionGuide": "Contact LiTong technical support team for personalized assistance with Awinic product selection and application design.",
-      "keywords": ["Awinic support", "product selection assistance", "FAE support"]
+      "keywords": [
+        "Awinic support",
+        "product selection assistance",
+        "FAE support"
+      ]
     },
     {
       "question": "How does Awinic compare to other audio amplifier suppliers?",
-      "answer": "Awinic has established itself as a leading audio amplifier supplier, particularly in the smartphone market. Compared to other suppliers, Awinic offers several advantages: Cost-effectiveness - Awinic provides competitive pricing without compromising performance, making high-quality audio accessible for mainstream smartphones. Local support - With headquarters in Shanghai, Awinic provides responsive technical support and fast turnaround for Chinese customers. Comprehensive portfolio - Awinic offers a full range of audio solutions from basic Class-D amps to advanced Smart PAs with DSP features. Integration expertise - Awinic's deep understanding of smartphone acoustic systems enables them to provide complete solutions including amplifiers, protection circuits, and tuning algorithms. Market presence - Awinic audio amplifiers are widely adopted by major Chinese smartphone brands, demonstrating proven reliability and performance in high-volume production. For customers seeking a balance of performance, cost, and support, Awinic represents an excellent choice.",
+      "answer": "Awinic has established itself as a leading audio amplifier supplier, particularly in the smartphone market. Compared to other suppliers, Awinic offers several advantages: Cost-effectiveness - Awinic provides competitive pricing without compromising performance, making high-quality audio accessible for mainstream smartphones. Local support - With headquarters in Shanghai, Awinic provides responsive technical support and fast turnaround for Chinese customers. Comprehensive portfolio - Awinic offers a full range of audio solutions from basic Class-D amps to advanced Smart PAs with DSP features. Integration expertise - Awinic's deep understanding of smartphone acoustic systems enables them to provide complete solutions including amplifiers, protection circuits, and tuning algorithms. Market presence - Awinic audio amplifiers are widely adopted by major Chinese smartphone brands. For customers seeking a balance of performance, cost, and support, Awinic is an excellent choice.",
       "decisionGuide": "Compare Awinic solutions with your requirements. Contact our FAE team for competitive analysis and recommendations.",
-      "keywords": ["Awinic comparison", "audio amplifier suppliers", "competitive analysis"]
+      "keywords": [
+        "Awinic comparison",
+        "audio amplifier suppliers",
+        "competitive analysis"
+      ]
     }
   ]
 }

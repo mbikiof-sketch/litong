@@ -48,7 +48,7 @@
       "slug": "samyoung-capacitor-selection-guide",
       "category": "Technical Guide",
       "summary": "Comprehensive guide for selecting Samyoung aluminum electrolytic capacitors including voltage rating, capacitance, ripple current, and lifetime considerations.",
-      "content": "## Introduction\n\nSamyoung aluminum electrolytic capacitors are essential components in power supply circuits. This guide helps engineers select the right capacitor for their applications.\n\n## Key Selection Parameters\n\n### 1. Capacitance Value\n- Determine required capacitance based on ripple voltage requirements\n- Consider tolerance (typically +/-20% for electrolytic capacitors)\n- Account for capacitance decrease over lifetime\n\n### 2. Voltage Rating\n- Select rated voltage at least 1.25x the maximum working voltage\n- Higher voltage ratings improve reliability and lifetime\n- Consider surge voltage capability for transient conditions\n\n### 3. Ripple Current\n- Calculate expected ripple current from switching frequency and load\n- Select capacitors with rated ripple current >= 1.5x calculated value\n\n### 4. Temperature Rating\n- Standard: 85C (2000 hours rated life)\n- High temperature: 105C (2000-10000 hours)\n\n## Recommended Samyoung Series\n\n- **SR Series**: General purpose radial capacitors\n- **SH Series**: High temperature radial capacitors\n- **Snap-in Series**: High capacitance for power supplies\n- **Screw Terminal**: High power industrial applications",
+      "content": "## Introduction\n\nsamyoung aluminum electrolytic capacitors are essential components in power supply circuits. This guide helps engineers select the right capacitor for their applications.\n\n## Key Selection Parameters\n\n### 1. Capacitance Value\n- Determine required capacitance based on ripple voltage requirements\n- Consider tolerance (typically +/-20% for electrolytic capacitors)\n- Account for capacitance decrease over lifetime\n\n### 2. Voltage Rating\n- Select rated voltage at least 1.25x the maximum working voltage\n- Higher voltage ratings improve reliability and lifetime\n- Consider surge voltage capability for transient conditions\n\n### 3. Ripple Current\n- Calculate expected ripple current from switching frequency and load\n- Select capacitors with rated ripple current >= 1.5x calculated value\n\n### 4. Temperature Rating\n- Standard: 85C (2000 hours rated life)\n- High temperature: 105C (2000-10000 hours)\n\n## Recommended Samyoung Series\n\n- **SR Series**: General purpose radial capacitors\n- **SH Series**: High temperature radial capacitors\n- **Snap-in Series**: High capacitance for power supplies\n- **Screw Terminal**: High power industrial applications",
       "author": {
         "name": "Michael Zhang",
         "title": "Senior FAE",
@@ -65,12 +65,12 @@
       "faqs": [
         {
           "question": "What is the recommended voltage derating for Samyoung capacitors?",
-          "answer": "Industry best practice recommends operating aluminum electrolytic capacitors at no more than 80% of their rated voltage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Industry best practice recommends operating aluminum electrolytic capacitors at no more than 80% of their rated voltage. For detailed specifications and application support on samyoung products, refer to the datasheet or contact our team.",
           "decisionGuide": "For critical applications, use 80% voltage derating to ensure long lifetime."
         },
         {
           "question": "How does temperature affect capacitor lifetime?",
-          "answer": "Temperature has an exponential effect on capacitor lifetime. For every 10C decrease, lifetime approximately doubles. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Temperature has an exponential effect on capacitor lifetime. For every 10C decrease, lifetime approximately doubles. For detailed specifications and application support on samyoung products, refer to the datasheet or contact our team.",
           "decisionGuide": "Keep capacitors as cool as possible for maximum lifetime."
         }
       ],
@@ -123,7 +123,7 @@
       "summary": "Methods for calculating expected Samyoung capacitor lifetime based on operating conditions.",
       "content": [
         "This technical reference document provides detailed information about samyoung product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -141,7 +141,7 @@
       "faqs": [
         {
           "question": "How accurate are lifetime calculations?",
-          "answer": "Lifetime calculations provide estimates based on statistical models. Actual lifetime can vary. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Lifetime calculations provide estimates based on statistical models. Actual lifetime can vary. For detailed specifications and application support on samyoung products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use calculations for comparative analysis rather than absolute predictions."
         }
       ],
@@ -194,7 +194,7 @@
       "summary": "Common capacitor failure modes and troubleshooting techniques for Samyoung capacitors.",
       "content": [
         "This technical reference document provides detailed information about samyoung product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -212,7 +212,7 @@
       "faqs": [
         {
           "question": "What are common signs of capacitor failure?",
-          "answer": "Common signs include visible bulging, increased ripple voltage, and overheating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Common signs include visible bulging, increased ripple voltage, and overheating. For detailed specifications and application support on samyoung products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use an ESR meter for early detection of capacitor degradation."
         }
       ],
@@ -265,7 +265,7 @@
       "summary": "Application-specific guidance for using Samyoung capacitors in various circuits.",
       "content": [
         "This technical reference document provides detailed information about samyoung product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -283,7 +283,7 @@
       "faqs": [
         {
           "question": "Which Samyoung series is best for industrial power supplies?",
-          "answer": "SH series with 105C rating and long lifetime is recommended for industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "SH series with 105C rating and long lifetime is recommended for industrial applications. For detailed specifications and application support on samyoung products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select capacitors with 10000+ hour lifetime for industrial power supplies."
         }
       ],

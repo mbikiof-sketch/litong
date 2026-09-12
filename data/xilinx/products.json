@@ -383,7 +383,7 @@
           "faeReview": {
             "author": "David Kim",
             "title": "Senior FAE - High-Speed Design",
-            "content": "The Kintex UltraScale XCKU040 represents a significant step up from 7-series devices. The 20nm process delivers noticeable performance improvements - I typically see 20-30% higher clock frequencies compared to equivalent 7-series designs. The 1,920 DSP slices are a major upgrade for signal processing applications. The GTH transceivers at 16.3 Gbps open up 100G Ethernet and PCIe Gen4 applications that weren't feasible with 7-series. I particularly like the improved DDR4 memory interface - up to 2,400 Mbps enables high-bandwidth memory subsystems. Power efficiency is also better, about 15-20% lower than equivalent 7-series designs. This is my recommendation for designs requiring 100G networking or advanced signal processing.",
+            "content": "The Kintex UltraScale XCKU040 is significant step up from 7-series devices. The 20nm process delivers noticeable performance improvements - I typically see 20-30% higher clock frequencies compared to equivalent 7-series designs. The 1,920 DSP slices are a major upgrade for signal processing applications. The GTH transceivers at 16.3 Gbps open up 100G Ethernet and PCIe Gen4 applications that weren't feasible with 7-series. I particularly like the improved DDR4 memory interface - up to 2,400 Mbps enables high-bandwidth memory subsystems. Power efficiency is also better, about 15-20% lower than equivalent 7-series designs. This is my recommendation for designs requiring 100G networking or advanced signal processing.",
             "highlight": "Excellent for 100G networking and advanced signal processing applications"
           },
           "alternativeParts": [
@@ -818,7 +818,7 @@
           "faeReview": {
             "author": "Robert Zhang",
             "title": "Principal FAE - High-Performance Computing",
-            "content": "The XCZU19EG represents the pinnacle of Zynq MPSoC technology with nearly 2 million logic cells. This device is designed for the most demanding embedded applications where both massive FPGA resources and powerful processors are required. I've deployed this in 5G baseband applications where the 7,560 DSP slices handle massive MIMO processing while the A53 cores manage the protocol stack. The 76 GTH transceivers provide incredible connectivity - enough for multiple 100G Ethernet links or PCIe Gen4 x16. Power consumption is significant at 20-30W, but the performance per watt is excellent for this class of device. The sheer scale of this device requires careful power and thermal design. This is not for typical embedded applications - it's for high-end signal processing, communications infrastructure, and advanced industrial systems that need supercomputer-class performance in an embedded form factor.",
+            "content": "The XCZU19EG is the pinnacle of Zynq MPSoC technology with nearly 2 million logic cells. This device is designed for the most demanding embedded applications where both massive FPGA resources and powerful processors are required. I've deployed this in 5G baseband applications where the 7,560 DSP slices handle massive MIMO processing while the A53 cores manage the protocol stack. The 76 GTH transceivers provide incredible connectivity - enough for multiple 100G Ethernet links or PCIe Gen4 x16. Power consumption is significant at 20-30W, but the performance per watt is excellent for this class of device. The sheer scale of this device requires careful power and thermal design. This is not for typical embedded applications - it's for high-end signal processing, communications infrastructure, and advanced industrial systems that need supercomputer-class performance in an embedded form factor.",
             "highlight": "Maximum performance MPSoC for high-end signal processing and communications"
           },
           "alternativeParts": [
@@ -953,7 +953,7 @@
       "name": "Versal ACAP",
       "slug": "xilinx-versal-acap",
       "description": "Versal ACAP is the industry's first adaptive compute acceleration platform, combining scalar engines, adaptable engines, and AI engines for next-generation computing.",
-      "longDescription": "Xilinx Versal ACAP represents a revolutionary leap in adaptive computing, combining multiple engine types on a single chip for unprecedented performance. As an authorized distributor, we provide comprehensive selection guidance for the complete Versal portfolio including AI Core series with up to 400 AI Engines for machine learning, and Premium series with hardened 400G Ethernet for networking. Key innovations include: 1) AI Engines - vector processors delivering 8 TOPS per engine for AI inference, 2) Scalar Engines - dual-core Cortex-A72 for application processing, 3) Adaptable Engines - next-gen FPGA fabric with 2x performance, 4) Network on Chip - 1 TB/s bandwidth between engines, 5) Advanced transceivers - up to 58 Gbps PAM4 for 400G connectivity. Versal delivers 10-100x performance gains for AI, 5G, radar, and data center applications. Contact our FAE team for distributor selection support and architecture evaluation.",
+      "longDescription": "Xilinx Versal ACAP is revolutionary leap in adaptive computing, combining multiple engine types on a single chip for unprecedented performance. As an authorized distributor, we provide comprehensive selection guidance for the complete Versal portfolio including AI Core series with up to 400 AI Engines for machine learning, and Premium series with hardened 400G Ethernet for networking. Key innovations include: 1) AI Engines - vector processors delivering 8 TOPS per engine for AI inference, 2) Scalar Engines - dual-core Cortex-A72 for application processing, 3) Adaptable Engines - next-gen FPGA fabric with 2x performance, 4) Network on Chip - 1 TB/s bandwidth between engines, 5) Advanced transceivers - up to 58 Gbps PAM4 for 400G connectivity. Versal delivers 10-100x performance gains for AI, 5G, radar, and data center applications. Contact our FAE team for distributor selection support and architecture evaluation.",
       "parameters": [
         "AI Engines",
         "DSP Engines",
@@ -1097,7 +1097,7 @@
           "faeReview": {
             "author": "Dr. Sarah Johnson",
             "title": "Principal FAE - AI and Acceleration",
-            "content": "The Versal AI Core VM1802 represents a paradigm shift in adaptive computing. The 400 AI Engines are the game-changer - I've seen 50-100x performance improvements in AI inference compared to traditional FPGA implementations. The AI Engines are programmed in C/C++ using the Vitis toolchain, making them accessible to software developers. The NoC eliminates the routing congestion issues common in large FPGAs. I recently worked on a 5G baseband project where the AI Engines handled massive MIMO processing while the PL managed the fronthaul interface. The 152 GTY transceivers at 58 Gbps enable 400G Ethernet and next-generation connectivity. Power consumption is significant at 40-60W, but the performance per watt is exceptional. This is not just an evolution of FPGA - it's a completely new compute platform that bridges the gap between fixed-function ASICs and programmable logic.",
+            "content": "The Versal AI Core VM1802 is paradigm shift in adaptive computing. The 400 AI Engines are the game-changer - I've seen 50-100x performance improvements in AI inference compared to traditional FPGA implementations. The AI Engines are programmed in C/C++ using the Vitis toolchain, making them accessible to software developers. The NoC eliminates the routing congestion issues common in large FPGAs. I recently worked on a 5G baseband project where the AI Engines handled massive MIMO processing while the PL managed the fronthaul interface. The 152 GTY transceivers at 58 Gbps enable 400G Ethernet and next-generation connectivity. Power consumption is significant at 40-60W, but the performance per watt is exceptional. This is not just an evolution of FPGA - it's a completely new compute platform that bridges the gap between fixed-function ASICs and programmable logic.",
             "highlight": "Revolutionary AI Engine architecture delivering 100x performance for ML workloads"
           },
           "alternativeParts": [
@@ -1150,7 +1150,7 @@
             {
               "partNumber": "TPS53689",
               "link": "#",
-              "description": "Multi-phase VR13.HC PMIC for Versal",
+              "description": "Multi-phase VR13. HC PMIC for Versal",
               "category": "Power Management"
             },
             {
@@ -1259,7 +1259,7 @@
           "faeReview": {
             "author": "Thomas Williams",
             "title": "Principal FAE - Networking and Communications",
-            "content": "The Versal Premium VE2802 is designed for the most demanding networking applications. The hardened 400G Ethernet and 600G Interlaken cores are the standout features - they consume zero programmable logic while delivering line-rate performance. I've worked on core router designs where these hardened cores saved massive amounts of FPGA resources that would otherwise be consumed by soft MAC implementations. The PCIe Gen5 x16 provides massive host bandwidth for SmartNIC applications. The combination of hardened network functions and AI Engines enables next-generation networking with inline AI acceleration for security and traffic analysis. Power consumption is high at 50-70W, but this is competitive with discrete solutions. This device represents the future of programmable networking - combining the flexibility of FPGA with the efficiency of hardened cores.",
+            "content": "The Versal Premium VE2802 is designed for the most demanding networking applications. The hardened 400G Ethernet and 600G Interlaken cores are the standout features - they consume zero programmable logic while delivering line-rate performance. I've worked on core router designs where these hardened cores saved massive amounts of FPGA resources that would otherwise be consumed by soft MAC implementations. The PCIe Gen5 x16 provides massive host bandwidth for SmartNIC applications. The combination of hardened network functions and AI Engines enables next-generation networking with inline AI acceleration for security and traffic analysis. Power consumption is high at 50-70W, but this is competitive with discrete solutions. This device is the future of programmable networking - combining the flexibility of FPGA with the efficiency of hardened cores.",
             "highlight": "Hardened 400G Ethernet and Interlaken for next-generation networking infrastructure"
           },
           "alternativeParts": [

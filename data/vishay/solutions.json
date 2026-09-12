@@ -1,0 +1,185 @@
+{
+  "brand": "vishay",
+  "solutions": [
+    {
+      "id": "automotive-resistor-solutions",
+      "title": "Automotive Resistor Solutions",
+      "description": "AEC-Q200 qualified resistors for automotive electronics including ECUs, sensors, lighting, and infotainment systems.",
+      "icon": "automotive",
+      "applications": ["ECUs", "Sensors", "LED Lighting", "Infotainment"],
+      "products": ["CRCW Series", "TNPW Series", "Dale Series"],
+      "benefits": [
+        "AEC-Q200 qualified for automotive reliability",
+        "Wide temperature range -55°C to +175°C",
+        "Excellent long-term stability",
+        "Various package sizes available"
+      ],
+      "coreAdvantages": [
+        {"title": "Automotive Qualified", "description": "AEC-Q200 qualified for reliable automotive performance"},
+        {"title": "Wide Temperature Range", "description": "Operating range from -55°C to +175°C"},
+        {"title": "High Stability", "description": "Excellent long-term stability for critical applications"}
+      ],
+      "content": {
+        "overview": "Vishay's automotive resistor solutions are designed to meet the stringent requirements of the automotive industry. All products are AEC-Q200 qualified and manufactured in IATF 16949 certified facilities.",
+        "technicalDetails": "Our automotive resistors feature enhanced reliability with extended temperature ranges, improved moisture resistance, and superior thermal cycling performance. Available in various technologies including thick film, thin film, and metal film.",
+        "implementationGuide": "When designing automotive applications, consider the operating temperature range, power dissipation, and required precision. Our FAE team can assist with resistor selection and layout recommendations."
+      },
+      "technicalSpecs": {
+        "Temperature Range": "-55°C to +175°C",
+        "Voltage Rating": "Up to 500V",
+        "Power Rating": "0.05W to 3W",
+        "Tolerance": "±0.1% to ±5%",
+        "TCR": "±10 to ±100 ppm/°C"
+      },
+      "customerCases": [
+        {
+          "customer": "Major Automotive OEM",
+          "industry": "Automotive",
+          "challenge": "Needed reliable resistors for engine control unit operating in harsh environment",
+          "solution": "Implemented AEC-Q200 qualified CRCW series with extended temperature range",
+          "result": "Zero field failures after 5 years of production"
+        }
+      ],
+      "seo": {
+        "title": "Automotive Resistor Solutions - Vishay | BeiLuo Electronics",
+        "description": "AEC-Q200 qualified resistors for automotive applications. High reliability, wide temperature range, and excellent stability."
+      }
+    },
+    {
+      "id": "industrial-power-resistors",
+      "title": "Industrial Power Resistor Solutions",
+      "description": "High-power resistors for industrial applications including motor drives, power supplies, and renewable energy systems.",
+      "icon": "industrial",
+      "applications": ["Motor Drives", "Power Supplies", "Inverters", "Charging Systems"],
+      "products": ["Dale Series", "WSC Series", "WSZ Series"],
+      "benefits": [
+        "High power handling up to 500W",
+        "Excellent pulse capability",
+        "Low inductance designs",
+        "Robust construction for harsh environments"
+      ],
+      "coreAdvantages": [
+        {"title": "High Power", "description": "Power handling up to 500W for demanding applications"},
+        {"title": "Pulse Capability", "description": "Excellent pulse handling for dynamic loads"},
+        {"title": "Low Inductance", "description": "Low inductance designs for high-frequency applications"}
+      ],
+      "content": {
+        "overview": "Vishay's industrial power resistors are designed for demanding applications requiring high power dissipation, pulse handling, and reliability in harsh environments.",
+        "technicalDetails": "Our power resistors feature various technologies including wirewound, thick film, and metal strip designs. Available with power ratings from 1W to 500W and various mounting options.",
+        "implementationGuide": "For high-power applications, proper thermal management is critical. Ensure adequate heatsinking and consider the duty cycle for pulse applications. Contact our FAE team for thermal modeling assistance."
+      },
+      "technicalSpecs": {
+        "Power Rating": "1W to 500W",
+        "Resistance Range": "0.01Ω to 100kΩ",
+        "Voltage Rating": "Up to 15kV",
+        "Tolerance": "±1% to ±10%",
+        "Temperature Range": "-65°C to +275°C"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Motor Manufacturer",
+          "industry": "Industrial",
+          "challenge": "Required high-power resistors for motor drive braking circuits",
+          "solution": "Deployed Dale WSC series with 200W power rating",
+          "result": "Reliable operation in continuous duty cycle, reduced field failures by 80%"
+        }
+      ],
+      "seo": {
+        "title": "Industrial Power Resistor Solutions - Vishay | BeiLuo Electronics",
+        "description": "High-power resistors for industrial applications. Power ratings up to 500W with excellent pulse capability."
+      }
+    },
+    {
+      "id": "precision-resistor-solutions",
+      "title": "Precision Resistor Solutions",
+      "description": "High-precision resistors for measurement, instrumentation, and medical applications requiring tight tolerances and low TCR.",
+      "icon": "precision",
+      "applications": ["Test Equipment", "Medical Devices", "Instrumentation", "Aerospace"],
+      "products": ["TNPW Series", "VPG Foil Resistors", "Bulk Metal Foil"],
+      "benefits": [
+        "Tolerances down to ±0.01%",
+        "TCR as low as ±0.2 ppm/°C",
+        "Exceptional long-term stability",
+        "Low noise and low EMF"
+      ],
+      "coreAdvantages": [
+        {"title": "Ultra Precision", "description": "Tolerances down to ±0.01% for highest accuracy"},
+        {"title": "Low TCR", "description": "TCR as low as ±0.2 ppm/°C for temperature stability"},
+        {"title": "Long-term Stability", "description": "Exceptional stability over product lifetime"}
+      ],
+      "content": {
+        "overview": "Vishay's precision resistor solutions offer the highest accuracy and stability for critical applications. Our portfolio includes thin film, metal foil, and wirewound technologies.",
+        "technicalDetails": "Precision resistors feature ultra-low temperature coefficients, exceptional load life stability, and minimal noise. Available in various packages including through-hole and surface mount.",
+        "implementationGuide": "For precision applications, consider the total error budget including tolerance, TCR, and load life stability. Our FAE team can help select the optimal resistor for your accuracy requirements."
+      },
+      "technicalSpecs": {
+        "Tolerance": "±0.01% to ±1%",
+        "TCR": "±0.2 to ±25 ppm/°C",
+        "Power Rating": "0.05W to 2W",
+        "Voltage Rating": "Up to 200V",
+        "Temperature Range": "-55°C to +155°C"
+      },
+      "customerCases": [
+        {
+          "customer": "Medical Equipment Manufacturer",
+          "industry": "Medical",
+          "challenge": "Needed precision resistors for diagnostic equipment with 0.1% accuracy requirement",
+          "solution": "Implemented VPG bulk metal foil resistors with ±0.01% tolerance",
+          "result": "Achieved ±0.1% system accuracy, passed all medical certifications"
+        }
+      ],
+      "seo": {
+        "title": "Precision Resistor Solutions - Vishay | BeiLuo Electronics",
+        "description": "High-precision resistors with tolerances down to ±0.01% and TCR as low as ±0.2 ppm/°C."
+      }
+    },
+    {
+      "id": "current-sense-solutions",
+      "title": "Current Sense Resistor Solutions",
+      "description": "Low-ohm current sense resistors for power management, battery monitoring, and motor control applications.",
+      "icon": "current",
+      "applications": ["Power Management", "Battery Monitoring", "Motor Control", "LED Drivers"],
+      "products": ["WSL Series", "WSR Series", "WSC Series"],
+      "benefits": [
+        "Low resistance values down to 0.0005Ω",
+        "High power density",
+        "Low TCR for accurate sensing",
+        "Four-terminal Kelvin connection available"
+      ],
+      "coreAdvantages": [
+        {"title": "Low Resistance", "description": "Values down to 0.0005Ω for minimal power loss"},
+        {"title": "High Power Density", "description": "Compact size with high power handling"},
+        {"title": "Kelvin Connection", "description": "Four-terminal design for accurate measurement"}
+      ],
+      "content": {
+        "overview": "Vishay's current sense resistors provide accurate current measurement with minimal power loss. Available in metal strip and wirewound technologies with various package options.",
+        "technicalDetails": "Current sense resistors feature low ohmic values, low TCR for temperature-stable measurements, and high power handling. Four-terminal Kelvin designs eliminate lead resistance errors.",
+        "implementationGuide": "When selecting current sense resistors, consider the voltage drop, power dissipation, and required accuracy. PCB layout is critical - use Kelvin connections when available and minimize trace resistance."
+      },
+      "technicalSpecs": {
+        "Resistance Range": "0.0005Ω to 10Ω",
+        "Power Rating": "0.25W to 3W",
+        "Tolerance": "±0.5% to ±5%",
+        "TCR": "±15 to ±150 ppm/°C",
+        "Temperature Range": "-65°C to +170°C"
+      },
+      "customerCases": [
+        {
+          "customer": "EV Battery Manufacturer",
+          "industry": "Automotive",
+          "challenge": "Required accurate current measurement for battery management system",
+          "solution": "Implemented WSL series with four-terminal Kelvin design",
+          "result": "Achieved ±1% current measurement accuracy, improved battery life estimation"
+        }
+      ],
+      "seo": {
+        "title": "Current Sense Resistor Solutions - Vishay | BeiLuo Electronics",
+        "description": "Low-ohm current sense resistors for accurate current measurement. Values down to 0.0005Ω with high power density."
+      }
+    }
+  ],
+  "seo": {
+    "title": "Vishay Solutions - Application Solutions | BeiLuo Electronics",
+    "description": "Vishay application solutions for automotive, industrial, precision, and current sensing applications."
+  }
+}

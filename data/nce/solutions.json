@@ -3,10 +3,10 @@
     {
       "id": "motor-drive-solution",
       "title": "DriverSolution",
-      "description": "NCE IGBT MOSFET High Performance Driver ,  ,  Driver AutomationApplication",
+      "description": "NCE IGBT MOSFET High Performance Driver,, Driver AutomationApplication",
       "image": "/images/nce/solutions/motor-drive.jpg",
       "heroImage": "/images/nce/solutions/motor-drive-hero.jpg",
-      "icon": "⚡",
+      "icon": "",
       "industry": "Automation",
       "applications": [
         "变频器",
@@ -107,31 +107,31 @@
         }
       ],
       "designGuide": {
-        "overview": ",  AC Application. Design , EMI Driver Optimize.",
+        "overview": "AC Application. Design, EMI Driver Optimize.",
         "keyConsiderations": [
-          "Design,  Thermal Resistance 0.5 C/W",
-          "IGBT DriverResistance 10-22 ,  Speed EMI",
-          "DC Capacitance ESR Capacitance,  1000 F/kW",
-          "Current ,  Secure Accuracy"
+          "Design, Thermal Resistance 0.5 C/W",
+          "IGBT DriverResistance 10-22, Speed EMI",
+          "DC Capacitance ESR Capacitance, 1000 F/kW",
+          "Current, Secure Accuracy"
         ],
         "referenceDesigns": [
           {
             "name": "5.5kW ReferenceDesign",
             "file": "/downloads/nce/motor-drive-5kw-ref.zip",
-            "description": "5.5kW Design ,  , PCB BOM"
+            "description": "5.5kW Design,, PCB BOM"
           },
           {
             "name": "Driver ReferenceDesign",
             "file": "/downloads/nce/servo-drive-ref.zip",
-            "description": "Accuracy Driver , Support Algorithm"
+            "description": "Accuracy Driver, Support Algorithm"
           }
         ]
       },
       "faqs": [
         {
           "question": "IGBT DriverResistance?",
-          "answer": "DriverResistance Speed EMIBetween .  NCE15N120, Recommended Resistance 10-22 .  Resistance Speed,  ,  EMI VoltageSpike;  Resistance EMI,  .  15 Start,  Test Adjust. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Efficiency EMIRequirement ,  10-15 ;  EMIYes ,  18-22 ;  ApplicationRecommended15 .",
+          "answer": "DriverResistance Speed EMIBetween. NCE15N120, Recommended Resistance 10-22. Resistance Speed,, EMI VoltageSpike; Resistance EMI. 15 Start, Test Adjust. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Efficiency EMIRequirement, 10-15 ; EMIYes, 18-22 ; ApplicationRecommended15.",
           "keywords": [
             "Resistance",
             "IGBTDriver",
@@ -141,8 +141,8 @@
         },
         {
           "question": "Driver DesignYes Requirement?",
-          "answer": "DesignYes Driver .  NCE IGBT ,  Thermal Resistance 0.5 C/W,  ( ,  100 m).  EnvironmentTemperature40 C,  , IGBTJunction Temperature 125 C.  20% Temperature ,  PowerApplication. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "5kW ; 5-15kW ; 15kW .  TestVerification.",
+          "answer": "DesignYes Driver. NCE IGBT, Thermal Resistance 0.5 C/W, (, 100 m). EnvironmentTemperature40 C,, IGBTJunction Temperature 125 C. 20% Temperature, PowerApplication. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "5kW ; 5-15kW ; 15kW. TestVerification.",
           "keywords": [
             "Design",
             "散热器",
@@ -152,8 +152,8 @@
         },
         {
           "question": "IPM Power Yes Advantage?",
-          "answer": "NCEIPM20 Power Integration IGBT, Driver ,  Yes Advantage: 1) Design,  Period50% ; 2)IntegrationDriver ,  Reliability; 3)Optimize ,  Inductance,  EMI ; 4)Standard Package,  Maintenance Upgrade.  Power DriverApplication.",
-          "decisionGuide": ",  Design ,  IPM ;  Customize PowerApplication,  IGBT .",
+          "answer": "NCEIPM20 Power Integration IGBT, Driver, Yes Advantage: 1) Design, Period50% ; 2)IntegrationDriver, Reliability; 3)Optimize, Inductance, EMI ; 4)Standard Package, Maintenance Upgrade. Power DriverApplication.",
+          "decisionGuide": "Design, IPM ; Customize PowerApplication, IGBT.",
           "keywords": [
             "IPM",
             "Power",
@@ -163,8 +163,8 @@
         },
         {
           "question": "Driver EMI ?",
-          "answer": "EMI : 1)OptimizePCB ,  Power ,  Inductance; 2) ,  ; 3) IGBT Between RC ; 4) DriverResistance,  Speed; 5) Input EMI .  CISPR 11 Class AStandard EMITest. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Environment CISPR 11 Class A;  EMI Application Class BStandard;  EMCEngineering .",
+          "answer": "EMI : 1)OptimizePCB, Power, Inductance; 2), ; 3) IGBT Between RC ; 4) DriverResistance, Speed; 5) Input EMI. CISPR 11 Class AStandard EMITest. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Environment CISPR 11 Class A; EMI Application Class BStandard; EMCEngineering.",
           "keywords": [
             "EMI",
             "电磁干扰",
@@ -174,8 +174,8 @@
         },
         {
           "question": "Resistance Selection?",
-          "answer": "Resistance Energy. Selection : 1) DC Voltage Current , R = Vdc / Ib; 2)Power ,  Power 10-20%; 3) Resistance Power Force.  380V ,  50-100 , Power500W-2kW. NCE Support ,  Application Configure. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Application PowerResistance;  Application Power;  Resistance .",
+          "answer": "Resistance Energy. Selection : 1) DC Voltage Current, R = Vdc / Ib; 2)Power, Power 10-20%; 3) Resistance Power Force. 380V, 50-100, Power500W-2kW. NCE Support, Application Configure. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Application PowerResistance; Application Power; Resistance.",
           "keywords": [
             "Resistance",
             "能耗制动",
@@ -185,8 +185,8 @@
         },
         {
           "question": "Driver Support Algorithm?",
-          "answer": "Hardware Support Algorithm: 1)V/f ,  Application, Implementation ; 2) (FOC),  Dynamic ; 3) (DTC),  Speed ,  High Performance Application. NCEPower Feature(<100ns) Algorithm .  Application . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Application V/f ;  ; High Performance Application DTC .",
+          "answer": "Hardware Support Algorithm: 1)V/f, Application, Implementation ; 2) (FOC), Dynamic ; 3) (DTC), Speed, High Performance Application. NCEPower Feature(<100ns) Algorithm. Application. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Application V/f ; ; High Performance Application DTC.",
           "keywords": [
             "Algorithm",
             "矢量控制",
@@ -196,7 +196,7 @@
         }
       ],
       "slug": "motor-drive-solution",
-      "longDescription": "The Industrial Control Solution 1 from nce represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of nce components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Industrial Control Solution 1 from nce is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of nce components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "High performance and reliability",
         "Comprehensive technical support",
@@ -247,10 +247,10 @@
     {
       "id": "ev-charging-solution",
       "title": "Solution",
-      "description": "NCE GaN SiCTechnology Efficient , Support Application,  Efficiency 98%",
+      "description": "NCE GaN SiCTechnology Efficient, Support Application, Efficiency 98%",
       "image": "/images/nce/solutions/ev-charging.jpg",
       "heroImage": "/images/nce/solutions/ev-charging-hero.jpg",
-      "icon": "🔋",
+      "icon": "",
       "industry": "新能源汽车",
       "applications": [
         "DC",
@@ -351,12 +351,12 @@
         }
       ],
       "designGuide": {
-        "overview": "Architecture:  PFCImplementationPower ,  LLC Implementation DC/DC . GaN Feature Volume .",
+        "overview": "Architecture: PFCImplementationPower, LLC Implementation DC/DC. GaN Feature Volume.",
         "keyConsiderations": [
-          "PFC Frequency 65-100kHz,  GaN Efficiency",
-          "LLC Design,  Height",
-          "DC Voltage 750V ,  GaN Secure",
-          ", Support Current"
+          "PFC Frequency 65-100kHz, GaN Efficiency",
+          "LLC Design, Height",
+          "DC Voltage 750V, GaN Secure",
+          "Support Current"
         ],
         "referenceDesigns": [
           {
@@ -367,15 +367,15 @@
           {
             "name": "120kW",
             "file": "/downloads/nce/ev-charger-120kw-ref.zip",
-            "description": "120kW , Support Power"
+            "description": "120kW, Support Power"
           }
         ]
       },
       "faqs": [
         {
           "question": "GaN Si MOSFETYes Advantage?",
-          "answer": "NCE GaN MOSFET Yes Advantage: 1) Resistance(Rds(on)),  ; 2) ReverseRestore ,  Application; 3) Speed( / <10ns),  ; 4) (>100kHz)EfficiencyAdvantage .  30kW ,  GaN Efficiency 2-3%, Power 50% . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Efficiency Power Application GaN;  Power Requirement Application MOSFET.",
+          "answer": "NCE GaN MOSFET Yes Advantage: 1) Resistance(Rds(on)), ; 2) ReverseRestore, Application; 3) Speed( / <10ns), ; 4) (>100kHz)EfficiencyAdvantage. 30kW, GaN Efficiency 2-3%, Power 50%. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Efficiency Power Application GaN; Power Requirement Application MOSFET.",
           "keywords": [
             "GaN",
             "氮化镓",
@@ -386,8 +386,8 @@
         },
         {
           "question": "PFC DesignYes ?",
-          "answer": "PFC Yes , Design : 1) (CCM) None , Efficiency 99%; 2) GaN ,  SiC ; 3)InductanceDesign CurrentRipple , Recommended ; 4) Design Steady State Dynamic . NCE650G10 PFCApplication. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "30kW PFC; 30kW ;  Efficiency None PFC.",
+          "answer": "PFC Yes, Design : 1) (CCM) None, Efficiency 99%; 2) GaN, SiC ; 3)InductanceDesign CurrentRipple, Recommended ; 4) Design Steady State Dynamic. NCE650G10 PFCApplication. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "30kW PFC; 30kW ; Efficiency None PFC.",
           "keywords": [
             "PFC",
             "Power",
@@ -397,8 +397,8 @@
         },
         {
           "question": "LLC DesignNote Yes ?",
-          "answer": "LLC Yes DC/DC : 1) Frequency 100-150kHz,  GaN Advantage; 2) ,  Height ,  Efficiency; 3) Inductance Integration ,  ; 4) ,  ZVSImplementation. NCE GaN OutputCapacitanceYes ZVSImplementation,  Scope Efficiency.",
-          "decisionGuide": "Application LLC;  Application Buck-Boost ;  PowerApplication LLC Design.",
+          "answer": "LLC Yes DC/DC : 1) Frequency 100-150kHz, GaN Advantage; 2), Height, Efficiency; 3) Inductance Integration, ; 4), ZVSImplementation. NCE GaN OutputCapacitanceYes ZVSImplementation, Scope Efficiency.",
+          "decisionGuide": "Application LLC; Application Buck-Boost ; PowerApplication LLC Design.",
           "keywords": [
             "LLC",
             "谐振变换器",
@@ -408,8 +408,8 @@
         },
         {
           "question": "充电桩如何满足不同车型的充电需求?",
-          "answer": "NCE Support200V-750V VoltageOutput, Compatible : 1) LLC Implementation Voltage ; 2)SupportCCS Combo, CHAdeMO, GB/T Standard; 3) BMS ,  DynamicAdjustOutput; 4) DesignSupportPower ,  .  Approved Compatible Test.",
-          "decisionGuide": "Total Support Standard;  Scenario Standard;  SupportCCS GB/TStandard.",
+          "answer": "NCE Support200V-750V VoltageOutput, Compatible : 1) LLC Implementation Voltage ; 2)SupportCCS Combo, CHAdeMO, GB/T Standard; 3) BMS, DynamicAdjustOutput; 4) DesignSupportPower. Approved Compatible Test.",
+          "decisionGuide": "Total Support Standard; Scenario Standard; SupportCCS GB/TStandard.",
           "keywords": [
             "Standard",
             "CCS",
@@ -420,8 +420,8 @@
         },
         {
           "question": "充电桩的冷却方案如何选择?",
-          "answer": "Power Reliability: 1)30kW , Design ; 2)30-120kW ,  Temperature ; 3)120kW Recommended , Power 5kW/L ; 4)GaN ,  ,  Design. NCE ReferenceDesign. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Power Requirement ;  ;  Application IP Design.",
+          "answer": "Power Reliability: 1)30kW, Design ; 2)30-120kW, Temperature ; 3)120kW Recommended, Power 5kW/L ; 4)GaN,, Design. NCE ReferenceDesign. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Power Requirement ; ; Application IP Design.",
           "keywords": [
             "冷却方案",
             "液冷",
@@ -432,8 +432,8 @@
         },
         {
           "question": "EMCDesignYes Requirement?",
-          "answer": "Power Force , EMCDesign Important: 1) GB/T 18487.2 CISPR 11 Class BStandard; 2)Input EMI ,  Total ; 3)Power YCapacitance ,  ; 4) Design,  ; 5) ,  .  EMC ,  10-15dB . For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
-          "decisionGuide": "Total Class BStandard;  Class A;  EMC Test,  .",
+          "answer": "Power Force, EMCDesign Important: 1) GB/T 18487.2 CISPR 11 Class BStandard; 2)Input EMI, Total ; 3)Power YCapacitance, ; 4) Design, ; 5). EMC, 10-15dB. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "decisionGuide": "Total Class BStandard; Class A; EMC Test.",
           "keywords": [
             "EMC",
             "Compatible",
@@ -444,7 +444,7 @@
         }
       ],
       "slug": "ev-charging-solution",
-      "longDescription": "The Automotive Electronics Solution 2 from nce represents a comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of nce components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
+      "longDescription": "The Automotive Electronics Solution 2 from nce is comprehensive approach to addressing modern challenges in Industrial. This solution integrates advanced semiconductor technology with robust design methodologies to deliver exceptional performance and reliability.\n\nAt the core of this solution is a carefully selected portfolio of nce components optimized for the target application. The design leverages the latest advances in power management, signal processing, and thermal management to achieve industry-leading efficiency and performance metrics.\n\nKey technical features include high-efficiency power conversion, precise control algorithms, and comprehensive protection mechanisms. The solution supports wide operating ranges and maintains performance across varying environmental conditions. Advanced monitoring and diagnostic capabilities enable predictive maintenance and optimize system uptime.\n\nImplementation is streamlined through comprehensive design support including reference designs, simulation models, and detailed application notes. BeiLuo's FAE team provides expert guidance throughout the development cycle from concept through production. Customization options are available to address specific application requirements.\n\nThe solution has been validated through extensive testing including functional verification, environmental stress screening, and long-term reliability assessment. Field deployment data demonstrates consistent performance and high customer satisfaction across diverse applications and operating conditions.",
       "benefits": [
         "High performance and reliability",
         "Comprehensive technical support",

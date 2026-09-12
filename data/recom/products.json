@@ -256,7 +256,7 @@
           "faqs": [
             {
               "question": "What is the minimum input voltage for the R05CT05S?",
-              "answer": "The minimum input voltage is 4.5VDC. Below this voltage, the converter may not start or maintain regulation. For reliable operation, maintain input voltage above 4.5VDC under all load conditions. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The minimum input voltage is 4.5VDC. Below this voltage, the converter may not start or maintain regulation. For reliable operation, maintain input voltage above 4.5VDC under all load conditions. For detailed specifications and application support on recom R05CT05S, refer to the datasheet or contact our team.",
               "decisionGuide": "Ensure your power source maintains >4.5VDC under worst-case conditions (maximum load, low battery, etc.).",
               "keywords": [
                 "minimum input voltage",
@@ -573,7 +573,7 @@
           },
           "features": [
             "Pin-compatible with 78xx linear regulators",
-            "Up to 95% efficiency - no heatsink needed",
+            "Up to 95% efficiency - No heatsink is needed",
             "Wide 6.5-32V input range",
             "1A continuous output current",
             "Compact SIP-3 package",
@@ -601,11 +601,11 @@
           "faeReview": {
             "summary": "The R-78E5.0-1.0 is the perfect upgrade from 7805 linear regulators. The efficiency improvement is dramatic - no more hot regulators and heatsinks.",
             "useCases": "Ideal for upgrading existing 7805 designs, new industrial controls, and anywhere you need efficient 5V from 12V or 24V.",
-            "designTips": "Direct replacement for 78xx - same pinout, no PCB changes needed. No heatsink required even at 1A output.",
+            "designTips": "Direct replacement for 78xx - same pinout, no PCB changes needed. No heatsink is needed even at 1A output.",
             "pros": [
               "Drop-in 78xx replacement",
               "95% efficiency",
-              "No heatsink needed",
+              "No heatsink is needed",
               "Very compact"
             ],
             "cons": [

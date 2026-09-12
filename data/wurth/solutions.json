@@ -1,0 +1,491 @@
+{
+  "seoTitle": "Würth Elektronik Solutions | Application Solutions | BeiLuo",
+  "seoDescription": "Explore Würth Elektronik application solutions for automotive, industrial, and consumer electronics.",
+  "seoKeywords": [
+    "Würth Elektronik solutions",
+    "EMC solutions",
+    "power supply solutions",
+    "Würth Elektronik distributor",
+    "Würth selection guide"
+  ],
+  "faqs": [
+    {
+      "question": "What solutions does Würth Elektronik offer?",
+      "answer": "Würth Elektronik provides comprehensive component solutions for EMC filtering, power management, and connectivity applications. Our solutions include reference designs, BOM recommendations, and application guidance to help you achieve optimal performance. Each solution is validated and includes detailed technical documentation, performance specifications, and implementation guidelines. Contact our FAE team for customization support and design optimization recommendations.",
+      "decisionGuide": "Browse solutions by your application requirements.",
+      "keywords": [
+        "solutions",
+        "reference designs"
+      ]
+    },
+    {
+      "question": "How to select the right solution for my application?",
+      "answer": "Selecting the right solution requires understanding your application requirements including voltage, current, frequency, and environmental conditions. Start by identifying your key performance criteria such as efficiency, size, cost, and reliability targets. Review our solution documentation to find matches for your requirements. Use REDEXPERT for component-level optimization. Contact our FAE team for application-specific recommendations and design review support.",
+      "decisionGuide": "Define requirements first, then match to available solutions.",
+      "keywords": [
+        "selection",
+        "requirements"
+      ]
+    },
+    {
+      "question": "Can solutions be customized?",
+      "answer": "Yes, our solutions can be customized to meet specific application requirements. Component values can be scaled for different voltage and current levels. Contact our FAE team to discuss your specific needs and optimization opportunities. We provide schematic review, BOM optimization, and design guidance to ensure the solution meets your performance, cost, and reliability targets. For high-volume applications, we can facilitate custom component development with Würth Elektronik.",
+      "decisionGuide": "Contact FAE for customization support.",
+      "keywords": [
+        "customization",
+        "optimization"
+      ]
+    },
+    {
+      "question": "What support is available for solution implementation?",
+      "answer": "BeiLuo provides comprehensive support for solution implementation including technical documentation, design guides, and application notes. Our FAE team offers schematic review, layout recommendations, and troubleshooting assistance. We provide evaluation samples and can support prototype builds. For production scaling, we offer scheduled deliveries and VMI programs. Technical training on REDEXPERT and component selection is available for your engineering team.",
+      "decisionGuide": "Leverage FAE support early in your design phase.",
+      "keywords": [
+        "support",
+        "implementation"
+      ]
+    },
+    {
+      "question": "How to get started with a solution?",
+      "answer": "To get started, review the solution documentation and BOM. Order evaluation samples through our website or contact your sales representative. Use REDEXPERT to verify component performance under your operating conditions. Build a prototype and validate performance against your requirements. Our FAE team is available to assist with any questions during implementation. For production, contact sales to discuss pricing and delivery schedules.",
+      "decisionGuide": "Start with documentation review and sample evaluation.",
+      "keywords": [
+        "getting started",
+        "evaluation"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "emc-filter-solution",
+      "title": "EMC Filter Solution",
+      "slug": "emc-filter-solution",
+      "description": "Complete EMC filtering solution for switching power supplies.",
+      "longDescription": "A comprehensive EMC filter solution using Würth Elektronik components for conducted EMI suppression in AC-DC and DC-DC power supplies.",
+      "benefits": [
+        "Meets CISPR 22/32 Class B",
+        "Compact design",
+        "Cost-effective",
+        "Reliable performance"
+      ],
+      "coreAdvantages": [
+        "High attenuation",
+        "Low insertion loss",
+        "AEC-Q200 qualified",
+        "High quality",
+        "High quality"
+      ],
+      "bomList": [
+        {
+          "partNumber": "7427155",
+          "description": "Common mode choke",
+          "quantity": 1
+        },
+        {
+          "partNumber": "890334024005",
+          "description": "X2 capacitor",
+          "quantity": 2
+        },
+        {
+          "partNumber": "865230542002",
+          "description": "Aluminum capacitor",
+          "quantity": 2
+        }
+      ],
+      "technicalSpecs": {
+        "Attenuation": ">40dB @ 100kHz",
+        "Current": "Up to 10A",
+        "Voltage": "250VAC"
+      },
+      "customerCases": [
+        {
+          "customer": "EV Charger Mfg",
+          "industry": "Automotive",
+          "challenge": "Design optimization and component selection",
+          "solution": "EMC filter for 7kW onboard charger",
+          "result": "Passed CISPR 25 Class 5"
+        },
+        {
+          "customer": "Multiple OEMs",
+          "industry": "Various",
+          "challenge": "Design optimization and component selection",
+          "solution": "Standard implementation",
+          "result": "Successful deployment"
+        }
+      ],
+      "faeInsights": {
+        "content": "This solution has been successfully deployed in numerous industrial power supplies. The key is proper layout with minimal coupling between input and output. I recommend following the design guidelines closely and validating performance under your specific operating conditions. Contact our FAE team for optimization recommendations.",
+        "decisionLogic": "Place common mode choke at entry point; keep Y-cap traces short."
+      },
+      "faqs": [
+        {
+          "question": "What is the typical application for EMC Filter Solution?",
+          "answer": "EMC Filter Solution is designed for industrial and automotive applications requiring reliable performance. The solution has been validated in multiple customer designs with excellent results. Contact our FAE team for application-specific guidance and design optimization recommendations.",
+          "decisionGuide": "Verify solution meets your requirements before implementation.",
+          "keywords": [
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "What is the lead time for BOM components?",
+          "answer": "Lead times vary by component. Most standard parts are available from stock with 1-2 week delivery. For production volumes, we recommend contacting sales to discuss scheduling and VMI options. We maintain safety stock for popular components to support quick-turn requirements.",
+          "decisionGuide": "Contact sales for current lead times and scheduling.",
+          "keywords": [
+            "lead time",
+            "BOM"
+          ]
+        },
+        {
+          "question": "Can the solution be modified for different requirements?",
+          "answer": "Yes, the solution can be scaled and modified for different voltage, current, and performance requirements. Component values can be adjusted while maintaining the same topology. Contact our FAE team for customization support and optimization recommendations.",
+          "decisionGuide": "Contact FAE for customization guidance.",
+          "keywords": [
+            "modification",
+            "customization"
+          ]
+        },
+        {
+          "question": "What testing has been performed on this solution?",
+          "answer": "The solution has undergone comprehensive testing including electrical characterization, thermal testing, and EMI validation. Test reports are available upon request. The solution meets industry standards for safety and EMC compliance.",
+          "decisionGuide": "Request test reports for detailed performance data.",
+          "keywords": [
+            "testing",
+            "validation"
+          ]
+        },
+        {
+          "question": "How do I get technical support for implementation?",
+          "answer": "Technical support is available through our FAE team. We provide schematic review, layout guidance, and troubleshooting assistance. Contact us early in your design phase for optimal support. We also offer training on REDEXPERT and component selection.",
+          "decisionGuide": "Contact FAE early in design phase.",
+          "keywords": [
+            "support",
+            "FAE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dc-dc-converter-solution",
+      "title": "DC-DC Converter Solution",
+      "slug": "dc-dc-converter-solution",
+      "description": "Buck converter solution for industrial applications.",
+      "longDescription": "A complete DC-DC buck converter solution using Würth Elektronik inductors and capacitors for industrial power applications.",
+      "benefits": [
+        "High efficiency",
+        "Compact size",
+        "Wide input range",
+        "Reliable performance"
+      ],
+      "coreAdvantages": [
+        "Low ripple",
+        "Fast transient",
+        "Thermally optimized",
+        "High quality",
+        "High quality"
+      ],
+      "bomList": [
+        {
+          "partNumber": "74437349100",
+          "description": "Power inductor",
+          "quantity": 1
+        },
+        {
+          "partNumber": "865230542002",
+          "description": "Output capacitor",
+          "quantity": 2
+        },
+        {
+          "partNumber": "885012205001",
+          "description": "Ceramic capacitor",
+          "quantity": 4
+        }
+      ],
+      "technicalSpecs": {
+        "Input": "18-36VDC",
+        "Output": "12V/5A",
+        "Efficiency": ">93%"
+      },
+      "customerCases": [
+        {
+          "customer": "Automation Co",
+          "industry": "Industrial",
+          "challenge": "Design optimization and component selection",
+          "solution": "24V to 12V conversion",
+          "result": "95% efficiency achieved"
+        },
+        {
+          "customer": "Multiple OEMs",
+          "industry": "Various",
+          "challenge": "Design optimization and component selection",
+          "solution": "Standard implementation",
+          "result": "Successful deployment"
+        }
+      ],
+      "faeInsights": {
+        "content": "Use REDEXPERT to verify inductor losses at your switching frequency. The output capacitor selection is critical for ripple performance. I recommend following the design guidelines closely and validating performance under your specific operating conditions. Contact our FAE team for optimization recommendations.",
+        "decisionLogic": "Size inductor for 30% ripple; select capacitors for ripple and transient."
+      },
+      "faqs": [
+        {
+          "question": "What is the typical application for DC-DC Converter Solution?",
+          "answer": "DC-DC Converter Solution is designed for industrial and automotive applications requiring reliable performance. The solution has been validated in multiple customer designs with excellent results. Contact our FAE team for application-specific guidance and design optimization recommendations.",
+          "decisionGuide": "Verify solution meets your requirements before implementation.",
+          "keywords": [
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "What is the lead time for BOM components?",
+          "answer": "Lead times vary by component. Most standard parts are available from stock with 1-2 week delivery. For production volumes, we recommend contacting sales to discuss scheduling and VMI options. We maintain safety stock for popular components to support quick-turn requirements.",
+          "decisionGuide": "Contact sales for current lead times and scheduling.",
+          "keywords": [
+            "lead time",
+            "BOM"
+          ]
+        },
+        {
+          "question": "Can the solution be modified for different requirements?",
+          "answer": "Yes, the solution can be scaled and modified for different voltage, current, and performance requirements. Component values can be adjusted while maintaining the same topology. Contact our FAE team for customization support and optimization recommendations.",
+          "decisionGuide": "Contact FAE for customization guidance.",
+          "keywords": [
+            "modification",
+            "customization"
+          ]
+        },
+        {
+          "question": "What testing has been performed on this solution?",
+          "answer": "The solution has undergone comprehensive testing including electrical characterization, thermal testing, and EMI validation. Test reports are available upon request. The solution meets industry standards for safety and EMC compliance.",
+          "decisionGuide": "Request test reports for detailed performance data.",
+          "keywords": [
+            "testing",
+            "validation"
+          ]
+        },
+        {
+          "question": "How do I get technical support for implementation?",
+          "answer": "Technical support is available through our FAE team. We provide schematic review, layout guidance, and troubleshooting assistance. Contact us early in your design phase for optimal support. We also offer training on REDEXPERT and component selection.",
+          "decisionGuide": "Contact FAE early in design phase.",
+          "keywords": [
+            "support",
+            "FAE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethernet-interface-solution",
+      "title": "Ethernet Interface Solution",
+      "slug": "ethernet-interface-solution",
+      "description": "Complete Ethernet interface with integrated magnetics.",
+      "longDescription": "A reliable Ethernet interface solution using Würth Elektronik RJ45 connectors with integrated magnetics.",
+      "benefits": [
+        "Simplified design",
+        "Space saving",
+        "EMI compliant",
+        "Reliable performance"
+      ],
+      "coreAdvantages": [
+        "Integrated magnetics",
+        "Shielded enclosure",
+        "LED indicators",
+        "High quality",
+        "High quality"
+      ],
+      "bomList": [
+        {
+          "partNumber": "692112030002",
+          "description": "RJ45 with magnetics",
+          "quantity": 1
+        },
+        {
+          "partNumber": "885012205001",
+          "description": "Decoupling capacitor",
+          "quantity": 2
+        }
+      ],
+      "technicalSpecs": {
+        "Speed": "10/100/1000Base-T",
+        "Isolation": "1500V",
+        "ESD": "8kV contact"
+      },
+      "customerCases": [
+        {
+          "customer": "PLC Manufacturer",
+          "industry": "Industrial",
+          "challenge": "Design optimization and component selection",
+          "solution": "Ethernet port for industrial controller",
+          "result": "Passed IEC 61000-4-2"
+        },
+        {
+          "customer": "Multiple OEMs",
+          "industry": "Various",
+          "challenge": "Design optimization and component selection",
+          "solution": "Standard implementation",
+          "result": "Successful deployment"
+        }
+      ],
+      "faeInsights": {
+        "content": "The integrated magnetics save significant PCB space. ensure proper grounding of the shield for EMI compliance. I recommend following the design guidelines closely and validating performance under your specific operating conditions. Contact our FAE team for optimization recommendations.",
+        "decisionLogic": "Connect shield to ground through RC for best EMI performance."
+      },
+      "faqs": [
+        {
+          "question": "What is the typical application for Ethernet Interface Solution?",
+          "answer": "Ethernet Interface Solution is designed for industrial and automotive applications requiring reliable performance. The solution has been validated in multiple customer designs with excellent results. Contact our FAE team for application-specific guidance and design optimization recommendations.",
+          "decisionGuide": "Verify solution meets your requirements before implementation.",
+          "keywords": [
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "What is the lead time for BOM components?",
+          "answer": "Lead times vary by component. Most standard parts are available from stock with 1-2 week delivery. For production volumes, we recommend contacting sales to discuss scheduling and VMI options. We maintain safety stock for popular components to support quick-turn requirements.",
+          "decisionGuide": "Contact sales for current lead times and scheduling.",
+          "keywords": [
+            "lead time",
+            "BOM"
+          ]
+        },
+        {
+          "question": "Can the solution be modified for different requirements?",
+          "answer": "Yes, the solution can be scaled and modified for different voltage, current, and performance requirements. Component values can be adjusted while maintaining the same topology. Contact our FAE team for customization support and optimization recommendations.",
+          "decisionGuide": "Contact FAE for customization guidance.",
+          "keywords": [
+            "modification",
+            "customization"
+          ]
+        },
+        {
+          "question": "What testing has been performed on this solution?",
+          "answer": "The solution has undergone comprehensive testing including electrical characterization, thermal testing, and EMI validation. Test reports are available upon request. The solution meets industry standards for safety and EMC compliance.",
+          "decisionGuide": "Request test reports for detailed performance data.",
+          "keywords": [
+            "testing",
+            "validation"
+          ]
+        },
+        {
+          "question": "How do I get technical support for implementation?",
+          "answer": "Technical support is available through our FAE team. We provide schematic review, layout guidance, and troubleshooting assistance. Contact us early in your design phase for optimal support. We also offer training on REDEXPERT and component selection.",
+          "decisionGuide": "Contact FAE early in design phase.",
+          "keywords": [
+            "support",
+            "FAE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "led-driver-solution",
+      "title": "LED Driver Solution",
+      "slug": "led-driver-solution",
+      "description": "LED driver power stage with filtering.",
+      "longDescription": "A robust LED driver solution using Würth Elektronik inductors and capacitors for lighting applications.",
+      "benefits": [
+        "Long lifetime",
+        "Flicker-free",
+        "Dimmable",
+        "Reliable performance"
+      ],
+      "coreAdvantages": [
+        "High PF",
+        "Low THD",
+        "Isolated output",
+        "High quality",
+        "High quality"
+      ],
+      "bomList": [
+        {
+          "partNumber": "74437349220",
+          "description": "PFC inductor",
+          "quantity": 1
+        },
+        {
+          "partNumber": "865230543003",
+          "description": "Bulk capacitor",
+          "quantity": 1
+        },
+        {
+          "partNumber": "7427153",
+          "description": "Output filter choke",
+          "quantity": 1
+        }
+      ],
+      "technicalSpecs": {
+        "Input": "85-265VAC",
+        "Output": "36V/1.5A",
+        "PF": ">0.95"
+      },
+      "customerCases": [
+        {
+          "customer": "Lighting OEM",
+          "industry": "Commercial",
+          "challenge": "Design optimization and component selection",
+          "solution": "50W LED driver",
+          "result": "50,000 hour lifetime"
+        },
+        {
+          "customer": "Multiple OEMs",
+          "industry": "Various",
+          "challenge": "Design optimization and component selection",
+          "solution": "Standard implementation",
+          "result": "Successful deployment"
+        }
+      ],
+      "faeInsights": {
+        "content": "Capacitor selection is critical for LED ripple current. use film capacitors for longest lifetime. I recommend following the design guidelines closely and validating performance under your specific operating conditions. Contact our FAE team for optimization recommendations.",
+        "decisionLogic": "Size output capacitor for <10% ripple current."
+      },
+      "faqs": [
+        {
+          "question": "What is the typical application for LED Driver Solution?",
+          "answer": "LED Driver Solution is designed for industrial and automotive applications requiring reliable performance. The solution has been validated in multiple customer designs with excellent results. Contact our FAE team for application-specific guidance and design optimization recommendations.",
+          "decisionGuide": "Verify solution meets your requirements before implementation.",
+          "keywords": [
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "What is the lead time for BOM components?",
+          "answer": "Lead times vary by component. Most standard parts are available from stock with 1-2 week delivery. For production volumes, we recommend contacting sales to discuss scheduling and VMI options. We maintain safety stock for popular components to support quick-turn requirements.",
+          "decisionGuide": "Contact sales for current lead times and scheduling.",
+          "keywords": [
+            "lead time",
+            "BOM"
+          ]
+        },
+        {
+          "question": "Can the solution be modified for different requirements?",
+          "answer": "Yes, the solution can be scaled and modified for different voltage, current, and performance requirements. Component values can be adjusted while maintaining the same topology. Contact our FAE team for customization support and optimization recommendations.",
+          "decisionGuide": "Contact FAE for customization guidance.",
+          "keywords": [
+            "modification",
+            "customization"
+          ]
+        },
+        {
+          "question": "What testing has been performed on this solution?",
+          "answer": "The solution has undergone comprehensive testing including electrical characterization, thermal testing, and EMI validation. Test reports are available upon request. The solution meets industry standards for safety and EMC compliance.",
+          "decisionGuide": "Request test reports for detailed performance data.",
+          "keywords": [
+            "testing",
+            "validation"
+          ]
+        },
+        {
+          "question": "How do I get technical support for implementation?",
+          "answer": "Technical support is available through our FAE team. We provide schematic review, layout guidance, and troubleshooting assistance. Contact us early in your design phase for optimal support. We also offer training on REDEXPERT and component selection.",
+          "decisionGuide": "Contact FAE early in design phase.",
+          "keywords": [
+            "support",
+            "FAE"
+          ]
+        }
+      ]
+    }
+  ]
+}

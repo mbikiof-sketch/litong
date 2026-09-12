@@ -19,7 +19,7 @@ const newArticles = [
     author: {
       name: "David Park",
       title: "Senior FAE - Power Systems",
-      email: "d.park@litong.com",
+      email: "d.park@BeiLuo.com",
       image: "/assets/team/david-park.jpg"
     },
     publishedDate: "2024-02-01",

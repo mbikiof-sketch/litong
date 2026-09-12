@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for crmicro distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for crmicro Power MOSFET, IGBT module, MOSFET transistor. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is the best Chinese MOSFET brand? vs Who is the leading China semiconductor manufacturer? vs What are the advantages of CR Micro products? vs How does CR Micro compare to other Chinese semiconductor companies? vs Which company makes the best IGBT in China?. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for crmicro USB interface chips covering Power MOSFET, IGBT module, MOSFET transistor, Protection IC."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What is CR Microelectronics?; What are the main products of CR Micro?; Is CR Micro an authorized distributor?; What is the difference between MOSFET and IGBT?; Does CR Micro offer automotive qualified products?; What industries does CR Micro serve?; What is the warranty period?; How to get technical support?; What is the typical lead time?; Do you provide samples?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for crmicro distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for crmicro distributor with Product and Organization types."
+    }
+  ]
+}

@@ -251,7 +251,7 @@
         },
         {
           "question": "Should I use I2C or SPI interface?",
-          "answer": "I2C is simpler and uses fewer pins, good for multi-sensor designs. SPI is faster and better for high data rate applications. I2C supports up to 400kHz; SPI can run at 10MHz or higher. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "I2C is simpler and uses fewer pins, good for multi-sensor designs. SPI is faster and better for high data rate applications. I2C supports up to 400kHz; SPI can run at 10MHz or higher. For detailed specifications and application support on senodia products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use I2C for simple designs with multiple sensors; SPI for high-speed data acquisition.",
           "keywords": [
             "I2C",

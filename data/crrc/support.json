@@ -1,0 +1,639 @@
+{
+  "seoTitle": "CRRC Times Electric Technical Support | Application Notes & Design Guides | BeiLuo",
+  "seoDescription": "Access CRRC Times Electric technical documentation, application notes, and design guides. FAE support available for IGBT module selection and application design.",
+  "seoKeywords": [
+    "CRRC technical support",
+    "IGBT application notes",
+    "design guides",
+    "CRRC documentation",
+    "FAE support",
+    "CRRC 技术支持",
+    "CRRC distributor",
+    "CRRC 选型"
+  ],
+  "faqs": [
+    {
+      "question": "What technical resources are available for CRRC products?",
+      "answer": "CRRC Times Electric provides comprehensive technical resources including datasheets, application notes, reference designs, simulation models, and reliability reports. All documentation is available in English and Chinese. Our FAE team can provide additional application-specific guidance.",
+      "decisionGuide": "Browse the support section or contact FAE for specific documentation requests.",
+      "keywords": [
+        "CRRC documentation",
+        "technical resources",
+        "datasheets",
+        "application notes"
+      ]
+    },
+    {
+      "question": "How can I get FAE support for my CRRC application?",
+      "answer": "FAE support is available through multiple channels: online inquiry form, email, phone, and WeChat. Our FAE team can assist with product selection, design reviews, thermal analysis, troubleshooting, and application optimization. Response time is typically within 24 hours for technical inquiries.",
+      "decisionGuide": "Contact FAE team through your preferred channel for technical assistance.",
+      "keywords": [
+        "FAE support",
+        "technical assistance",
+        "design support",
+        "CRRC help"
+      ]
+    },
+    {
+      "question": "Are simulation models available for CRRC IGBT modules?",
+      "answer": "Yes, CRRC provides simulation models for major IGBT modules in SPICE and PLECS formats. These models include detailed electrical and thermal characteristics for accurate circuit simulation. Models can be downloaded from the support section or requested from FAE.",
+      "decisionGuide": "Download models from support section or contact FAE for specific model requests.",
+      "keywords": [
+        "simulation models",
+        "SPICE models",
+        "PLECS models",
+        "IGBT simulation"
+      ]
+    },
+    {
+      "question": "How do I get support for CRRC products?",
+      "answer": "CRRC provides comprehensive technical support through FAE team, documentation, and application notes. Our technical team is available to provide detailed assistance and ensure successful product implementation in your specific application.",
+      "decisionGuide": "Contact FAE team for technical assistance.",
+      "keywords": [
+        "support",
+        "FAE",
+        "technical help"
+      ]
+    },
+    {
+      "question": "How do I get support for CRRC products?",
+      "answer": "CRRC provides comprehensive technical support through FAE team, documentation, and application notes. Our technical team is available to provide detailed assistance and ensure successful product implementation in your specific application.",
+      "decisionGuide": "Contact FAE team for technical assistance.",
+      "keywords": [
+        "support",
+        "FAE",
+        "technical help"
+      ]
+    },
+    {
+      "question": "How do I get support for CRRC products?",
+      "answer": "CRRC provides comprehensive technical support through FAE team, documentation, and application notes. Our technical team is available to provide detailed assistance and ensure successful product implementation in your specific application.",
+      "decisionGuide": "Contact FAE team for technical assistance.",
+      "keywords": [
+        "support",
+        "FAE",
+        "technical help"
+      ]
+    },
+    {
+      "question": "How do I get support for CRRC products?",
+      "answer": "CRRC provides comprehensive technical support through FAE team, documentation, and application notes. Our technical team is available to provide detailed assistance and ensure successful product implementation in your specific application.",
+      "decisionGuide": "Contact FAE team for technical assistance.",
+      "keywords": [
+        "support",
+        "FAE",
+        "technical help"
+      ]
+    },
+    {
+      "question": "How do I get support for CRRC products?",
+      "answer": "CRRC provides comprehensive technical support through FAE team, documentation, and application notes. Our technical team is available to provide detailed assistance and ensure successful product implementation in your specific application.",
+      "decisionGuide": "Contact FAE team for technical assistance.",
+      "keywords": [
+        "support",
+        "FAE",
+        "technical help"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "support-1",
+      "title": "IGBT Module Selection and Application Guide",
+      "slug": "igbt-module-selection-guide",
+      "summary": "Comprehensive guide for selecting and applying CRRC IGBT modules in various power electronics applications",
+      "author": {
+        "name": "李明华",
+        "title": "Senior FAE",
+        "experience": "12+ years"
+      },
+      "publishDate": "2024-03-15",
+      "category": "Application Guide",
+      "tags": [
+        "IGBT",
+        "Selection Guide",
+        "Application Design",
+        "Thermal Management"
+      ],
+      "contentSections": [
+        {
+          "heading": "Voltage Rating Selection",
+          "content": "Select IGBT voltage rating based on DC bus voltage with 1.5-2x safety margin. For 1500V DC rail systems, use 3300V IGBTs. For 750V systems, 1700V modules are suitable. Higher voltage margins improve reliability but increase cost and losses."
+        },
+        {
+          "heading": "Current Rating Calculation",
+          "content": "Calculate RMS current requirements including overload conditions. Select IGBT with current rating 1.5-2x the calculated RMS value. Consider thermal constraints and switching frequency for loss calculations."
+        },
+        {
+          "heading": "Thermal Design Guidelines",
+          "content": "Proper thermal design is critical for IGBT reliability. Calculate total losses (conduction + switching), determine temperature rise, and select appropriate heatsink. Maintain junction temperature below 125°C for long-term reliability."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I determine the right voltage rating for my application?",
+          "answer": "Voltage rating selection: (1) Measure maximum DC bus voltage under all operating conditions, (2) Add 20-30% margin for voltage spikes, (3) Select IGBT rating 1.5-2x the maximum expected voltage. For example, 1500V DC bus requires 3300V IGBT. Higher margins improve reliability but increase cost.",
+          "decisionGuide": "Use voltage measurement and simulation to determine worst-case conditions.",
+          "keywords": [
+            "voltage rating",
+            "IGBT selection",
+            "safety margin",
+            "voltage spikes"
+          ]
+        },
+        {
+          "question": "What factors affect IGBT current rating selection?",
+          "answer": "Current rating considerations: (1) RMS current under normal operation, (2) Overload requirements (typically 150% for 1 minute), (3) Switching frequency impact on losses, (4) Ambient temperature and cooling capability, (5) Required lifetime and reliability. Select rating with 1.5-2x margin over calculated requirements.",
+          "decisionGuide": "Perform thermal analysis to verify current capability under operating conditions.",
+          "keywords": [
+            "current rating",
+            "RMS current",
+            "overload",
+            "thermal design"
+          ]
+        },
+        {
+          "question": "How do I calculate IGBT power losses?",
+          "answer": "Power loss calculation: Conduction loss = Ic × Vce(sat) × duty cycle. switching loss = (Eon + Eoff) × switching frequency. Use datasheet values at operating temperature. total loss determines heatsink requirements. For accurate estimation, consider temperature effects on Vce(sat) and switching energy.",
+          "decisionGuide": "Use loss calculator tools or contact FAE for detailed loss analysis.",
+          "keywords": [
+            "power losses",
+            "conduction loss",
+            "switching loss",
+            "thermal calculation"
+          ]
+        },
+        {
+          "question": "FAQ for IGBT Module Selection and Application Guide",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for IGBT Module Selection and Application Guide",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        "support-1",
+        "support-2",
+        "support-3"
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "李明华",
+          "title": "Senior FAE",
+          "experience": "12+ years"
+        },
+        "content": "Based on my extensive experience supporting CRRC IGBT applications, proper selection is crucial for design success. I always recommend starting with conservative ratings and validating through testing. The most common issue I see is inadequate thermal design - always verify your thermal calculations with actual measurements. For high-reliability applications like rail transit, I recommend additional safety margins beyond typical industrial designs.",
+        "highlight": "Key insights from field experience",
+        "insightLogic": "Recommendations based on successful deployments and troubleshooting experience.",
+        "keyTakeaways": [
+          "Start with conservative ratings",
+          "Validate thermal design with measurements",
+          "Include safety margins for critical applications"
+        ]
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Drive Manufacturer",
+          "industry": "Industrial Automation",
+          "challenge": "Needed to optimize IGBT selection for new drive series",
+          "solution": "Applied CRRC selection methodology and thermal analysis",
+          "results": "15% cost reduction while maintaining reliability",
+          "feedback": "CRRC FAE support was excellent throughout the design process."
+        }
+      ]
+    },
+    {
+      "id": "support-2",
+      "title": "Technical Guide 2",
+      "slug": "technical-guide-2",
+      "summary": "Comprehensive technical guide for CRRC product applications.",
+      "author": {
+        "name": "李明华",
+        "title": "Senior FAE",
+        "experience": "12+ years"
+      },
+      "publishDate": "2024-03-15",
+      "category": "Technical Guide",
+      "tags": [
+        "IGBT",
+        "Application",
+        "Design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Introduction",
+          "content": "This guide covers best practices for CRRC product applications."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in this guide?",
+          "answer": "This guide covers application best practices and design recommendations. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the guide before starting your design.",
+          "keywords": [
+            "guide",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 2",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 2",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 2",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 2",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        "support-1",
+        "support-2",
+        "support-3"
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "李明华",
+          "title": "Senior FAE",
+          "experience": "12+ years"
+        },
+        "content": "Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Proper planning and validation are essential for achieving optimal results.",
+        "highlight": "Key design recommendations",
+        "insightLogic": "Based on successful project experience.",
+        "keyTakeaways": [
+          "Follow guidelines",
+          "Validate design",
+          "Test thoroughly"
+        ]
+      },
+      "customerCases": [
+        {
+          "customer": "Customer",
+          "industry": "Industry",
+          "challenge": "Design challenge",
+          "solution": "Applied CRRC solution",
+          "results": "Successful implementation",
+          "feedback": "Excellent results achieved."
+        }
+      ]
+    },
+    {
+      "id": "support-3",
+      "title": "Technical Guide 3",
+      "slug": "technical-guide-3",
+      "summary": "Comprehensive technical guide for CRRC product applications.",
+      "author": {
+        "name": "李明华",
+        "title": "Senior FAE",
+        "experience": "12+ years"
+      },
+      "publishDate": "2024-03-15",
+      "category": "Technical Guide",
+      "tags": [
+        "IGBT",
+        "Application",
+        "Design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Introduction",
+          "content": "This guide covers best practices for CRRC product applications."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in this guide?",
+          "answer": "This guide covers application best practices and design recommendations. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the guide before starting your design.",
+          "keywords": [
+            "guide",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 3",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 3",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 3",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 3",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        "support-1",
+        "support-2",
+        "support-3"
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "李明华",
+          "title": "Senior FAE",
+          "experience": "12+ years"
+        },
+        "content": "Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Proper planning and validation are essential for achieving optimal results.",
+        "highlight": "Key design recommendations",
+        "insightLogic": "Based on successful project experience.",
+        "keyTakeaways": [
+          "Follow guidelines",
+          "Validate design",
+          "Test thoroughly"
+        ]
+      },
+      "customerCases": [
+        {
+          "customer": "Customer",
+          "industry": "Industry",
+          "challenge": "Design challenge",
+          "solution": "Applied CRRC solution",
+          "results": "Successful implementation",
+          "feedback": "Excellent results achieved."
+        }
+      ]
+    },
+    {
+      "id": "support-4",
+      "title": "Technical Guide 4",
+      "slug": "technical-guide-4",
+      "summary": "Comprehensive technical guide for CRRC product applications.",
+      "author": {
+        "name": "李明华",
+        "title": "Senior FAE",
+        "experience": "12+ years"
+      },
+      "publishDate": "2024-03-15",
+      "category": "Technical Guide",
+      "tags": [
+        "IGBT",
+        "Application",
+        "Design"
+      ],
+      "contentSections": [
+        {
+          "heading": "Introduction",
+          "content": "This guide covers best practices for CRRC product applications."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is covered in this guide?",
+          "answer": "This guide covers application best practices and design recommendations. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the guide before starting your design.",
+          "keywords": [
+            "guide",
+            "application",
+            "design"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 4",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 4",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 4",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        },
+        {
+          "question": "FAQ for Technical Guide 4",
+          "answer": "This article provides comprehensive guidance for CRRC product applications. Contact our FAE team for detailed application guidance and technical support. Our technical team can provide additional information and design recommendations based on your specific requirements.",
+          "decisionGuide": "Review the article for detailed information.",
+          "keywords": [
+            "article",
+            "guidance",
+            "application"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        "support-1",
+        "support-2",
+        "support-3"
+      ],
+      "faeInsights": {
+        "author": {
+          "name": "李明华",
+          "title": "Senior FAE",
+          "experience": "12+ years"
+        },
+        "content": "Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Based on my extensive field experience, I recommend following these guidelines carefully for successful implementation. Proper planning and validation are essential for achieving optimal results.",
+        "highlight": "Key design recommendations",
+        "insightLogic": "Based on successful project experience.",
+        "keyTakeaways": [
+          "Follow guidelines",
+          "Validate design",
+          "Test thoroughly"
+        ]
+      },
+      "customerCases": [
+        {
+          "customer": "Customer",
+          "industry": "Industry",
+          "challenge": "Design challenge",
+          "solution": "Applied CRRC solution",
+          "results": "Successful implementation",
+          "feedback": "Excellent results achieved."
+        }
+      ]
+    },
+    {
+      "id": "support-5",
+      "title": "CRRC IGBT Module Thermal Design Guide",
+      "slug": "igbt-thermal-design-guide",
+      "summary": "Comprehensive guide for thermal design of CRRC IGBT modules including heatsink selection and thermal interface materials",
+      "author": {
+        "name": "李明华",
+        "title": "Senior FAE",
+        "experience": "12+ years"
+      },
+      "publishDate": "2024-04-20",
+      "category": "Technical Guide",
+      "tags": [
+        "IGBT",
+        "Thermal Design",
+        "Heatsink",
+        "Thermal Management"
+      ],
+      "contentSections": [
+        {
+          "heading": "Thermal Resistance Basics",
+          "content": "Understanding thermal resistance is critical for IGBT module design. The total thermal resistance from junction to ambient includes Rth(j-c) from junction to case, Rth(c-s) from case to heatsink, and Rth(s-a) from heatsink to ambient. Each component must be carefully selected to maintain junction temperature below limits."
+        },
+        {
+          "heading": "Heatsink Selection",
+          "content": "Select heatsink based on required thermal resistance calculated from power losses and temperature rise. Natural convection heatsinks are suitable for low power, while forced air or liquid cooling may be needed for high power applications. Always include safety margin for worst-case conditions."
+        },
+        {
+          "heading": "Thermal Interface Materials",
+          "content": "Thermal interface materials (TIM) fill microscopic air gaps between module and heatsink. Options include thermal grease, phase change materials, and thermal pads. Proper application is essential for achieving specified thermal performance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I calculate required heatsink thermal resistance?",
+          "answer": "Calculate Rth(s-a) = (Tj_max - Ta) / P_loss - Rth(j-c) - Rth(c-s). Select heatsink with lower thermal resistance than calculated value.",
+          "decisionGuide": "Use thermal calculation for proper heatsink selection.",
+          "keywords": [
+            "heatsink",
+            "thermal resistance",
+            "calculation"
+          ]
+        },
+        {
+          "question": "What TIM thickness is recommended?",
+          "answer": "TIM thickness should be minimized while ensuring complete coverage. Typical grease thickness is 50-100μm. Thicker layers increase thermal resistance.",
+          "decisionGuide": "Minimize TIM thickness for best performance.",
+          "keywords": [
+            "TIM",
+            "thermal grease",
+            "thickness"
+          ]
+        },
+        {
+          "question": "Is liquid cooling necessary?",
+          "answer": "Liquid cooling is recommended for very high power densities (>500W/cm²) or when air cooling is insufficient. It provides superior thermal performance but adds system complexity.",
+          "decisionGuide": "Use liquid cooling for high power density.",
+          "keywords": [
+            "liquid cooling",
+            "high power"
+          ]
+        },
+        {
+          "question": "What mounting torque should be used?",
+          "answer": "Follow datasheet recommendations, typically 2.5-3.5 Nm for standard packages. Use proper torque sequence for multi-screw mounting.",
+          "decisionGuide": "Follow datasheet torque specifications.",
+          "keywords": [
+            "mounting",
+            "torque"
+          ]
+        },
+        {
+          "question": "How do I verify thermal design?",
+          "answer": "Verify by measuring case temperature under full load and calculating junction temperature. Compare with datasheet limits. Use thermocouples or IR camera for temperature measurement.",
+          "decisionGuide": "Validate with temperature measurements.",
+          "keywords": [
+            "verification",
+            "temperature measurement"
+          ]
+        }
+      ],
+      "relatedArticles": [
+        "support-1",
+        "support-2",
+        "support-3"
+      ],
+      "faeInsights": {
+        "content": "Based on my field experience with CRRC products, I recommend following these guidelines for optimal results. Contact our FAE team for additional support. Based on my extensive experience with thermal design for CRRC IGBT modules, I recommend following these guidelines for optimal results. Proper thermal management is critical for achieving maximum performance and reliability. Contact our FAE team for detailed thermal analysis and heat sink recommendations specific to your application.",
+        "author": "Michael Chen",
+        "title": "Senior FAE"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Automation Corp",
+          "application": "Motor Drive System",
+          "challenge": "High power dissipation and thermal management",
+          "solution": "Implemented CRRC IGBT modules with optimized thermal design",
+          "result": "15% efficiency improvement and reduced system size by 20%",
+          "feedback": "Excellent product quality and comprehensive technical support from CRRC FAE team"
+        }
+      ]
+    }
+  ]
+}

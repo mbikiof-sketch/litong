@@ -82,7 +82,11 @@
         "Clock Source",
         "Temperature Range",
         "Voltage Rating",
-        "Current Rating"
+        "Current Rating",
+        "SPI Speed",
+        "I2C Speed",
+        "UART Baud Rate",
+        "GPIO"
       ],
       "series": [
         {
@@ -165,7 +169,7 @@
         {
           "question": "What is the difference between CH340G and CH340C?",
           "answer": "CH340G and CH340C are pin-compatible variants with different clock sources. CH340G requires external 12MHz crystal oscillator. CH340C has built-in clock oscillator, eliminating external crystal and reducing BOM cost. CH340C is recommended for new designs due to simpler design and lower cost. Both offer identical USB and UART functionality. CH340E is a smaller package variant with fewer handshake signals.",
-          "decisionGuide": "Use CH340C for new designs (no crystal needed). Use CH340G if you need external clock source. Contact our FAE team for variant selection.",
+          "decisionGuide": "Use CH340C for new designs (No crystal is needed). Use CH340G if you need external clock source. Contact our FAE team for variant selection.",
           "keywords": [
             "CH340G",
             "CH340C",
@@ -205,11 +209,15 @@
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-16, ESSOP-10, MSOP-10",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "SPI Speed": "N/A",
+            "I2C Speed": "N/A",
+            "UART Baud Rate": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "USB 2.0 Full Speed compliant",
-            "Built-in clock oscillator - no crystal needed",
+            "Built-in clock oscillator - No crystal is needed",
             "Supports 5V and 3.3V IO voltage",
             "Baud rates from 50bps to 2Mbps",
             "Hardware flow control support",
@@ -375,7 +383,11 @@
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-16, DIP-16",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "SPI Speed": "N/A",
+            "I2C Speed": "N/A",
+            "UART Baud Rate": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "USB 2.0 Full Speed compliant",
@@ -421,7 +433,10 @@
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-28, SSOP-20",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Handshake": "N/A",
+            "UART Baud Rate": "N/A",
+            "GPIO": "N/A"
           },
           "features": [
             "Multi-protocol support: UART/SPI/I2C/Parallel",
@@ -468,7 +483,10 @@
             "Temperature Range": "-40°C to +85°C",
             "Package": "QSOP-28, SSOP-20",
             "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Baud Rate": "N/A",
+            "Handshake": "N/A",
+            "Clock Source": "N/A"
           },
           "features": [
             "High-speed SPI up to 30MHz",
@@ -515,7 +533,9 @@
         "GPIO",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Timers",
+        "Bluetooth"
       ],
       "series": [
         {
@@ -596,7 +616,9 @@
             "Package": "LQFP64, LQFP48, QFN48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Timers": "N/A",
+            "Bluetooth": "N/A"
           },
           "features": [
             "144MHz RISC-V4F core with hardware FPU",
@@ -684,7 +706,9 @@
             "Package": "LQFP48, LQFP32, QFN32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "DAC": "N/A",
+            "Bluetooth": "N/A"
           },
           "features": [
             "72MHz RISC-V3A core",
@@ -733,7 +757,9 @@
             "Package": "QFN28, TSSOP20, SOP16",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "DAC": "N/A",
+            "Bluetooth": "N/A"
           },
           "features": [
             "48MHz RISC-V3A core",
@@ -782,7 +808,9 @@
             "Package": "QFN48, LQFP48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "DAC": "N/A",
+            "Timers": "N/A"
           },
           "features": [
             "144MHz RISC-V4F core with FPU",
@@ -829,7 +857,12 @@
         "Current",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "USB",
+        "Security",
+        "TX Current",
+        "RX Current",
+        "Sleep Current"
       ],
       "series": [
         {
@@ -897,7 +930,12 @@
             "Package": "QFN48, QFN32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "USB": "N/A",
+            "Security": "N/A",
+            "TX Current": "N/A",
+            "RX Current": "N/A",
+            "Sleep Current": "N/A"
           },
           "features": [
             "Bluetooth 5.3 compliant",
@@ -986,7 +1024,11 @@
             "Package": "QFN48",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Security": "N/A",
+            "TX Current": "N/A",
+            "RX Current": "N/A",
+            "Sleep Current": "N/A"
           },
           "features": [
             "Bluetooth 4.2 compliant",
@@ -1034,7 +1076,11 @@
             "Package": "QFN48, QFN32",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +105°C"
+            "Temperature Range": "-40°C to +105°C",
+            "USB": "N/A",
+            "TX Current": "N/A",
+            "RX Current": "N/A",
+            "Sleep Current": "N/A"
           },
           "features": [
             "Bluetooth 5.3 with all features",
@@ -1083,7 +1129,10 @@
             "Package": "QFN32, WLCSP",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "Current": "N/A",
+            "USB": "N/A",
+            "Security": "N/A"
           },
           "features": [
             "Ultra-low power consumption",
@@ -1106,8 +1155,7 @@
           "faeReview": {
             "author": "Sarah Chen",
             "title": "FAE - Wireless Applications",
-            "content": "CH591 is specifically designed for ultra-long battery life applications. The 0.5uA sleep current is exceptional - I've designed beacons that run 5+ years on CR2032 cells using this chip. The BLE 5.1 long-range mode extends coverage while maintaining low power. The WLCSP package is tiny - perfect for wearables and compact sensors. For battery-powered IoT, this is the chip I recommend first. Just be aware that the smaller Flash (256KB) limits application complexity compared to CH582."
-            ,
+            "content": "CH591 is specifically designed for ultra-long battery life applications. The 0.5uA sleep current is exceptional - I've designed beacons that run 5+ years on CR2032 cells using this chip. The BLE 5.1 long-range mode extends coverage while maintaining low power. The WLCSP package is tiny - perfect for wearables and compact sensors. For battery-powered IoT, this is the chip I recommend first. Just be aware that the smaller Flash (256KB) limits application complexity compared to CH582.",
             "highlight": "Sub-microamp sleep current for multi-year battery life"
           }
         }
@@ -1128,7 +1176,12 @@
         "GPIO",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Parallel",
+        "IO Voltage",
+        "Baud Rate",
+        "Flow Control",
+        "FIFO"
       ],
       "series": [
         {
@@ -1192,7 +1245,12 @@
             "Package": "QSOP28, SSOP20",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Parallel": "N/A",
+            "IO Voltage": "N/A",
+            "Baud Rate": "N/A",
+            "Flow Control": "N/A",
+            "FIFO": "N/A"
           },
           "features": [
             "Multi-protocol support (SPI/I2C/UART)",
@@ -1275,7 +1333,11 @@
             "Package": "SOP-28, SSOP-20, DIP-28",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "UART": "N/A",
+            "Baud Rate": "N/A",
+            "Flow Control": "N/A",
+            "FIFO": "N/A"
           },
           "features": [
             "USB to parallel port conversion",
@@ -1321,7 +1383,11 @@
             "Package": "SSOP-20, QFN-24",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "SPI": "N/A",
+            "I2C": "N/A",
+            "GPIO": "N/A",
+            "Parallel": "N/A"
           },
           "features": [
             "Dual independent UART ports",
@@ -1367,7 +1433,11 @@
             "Package": "LQFP-48, QFN-40",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "SPI": "N/A",
+            "I2C": "N/A",
+            "GPIO": "N/A",
+            "Parallel": "N/A"
           },
           "features": [
             "Four independent UART ports",

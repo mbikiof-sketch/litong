@@ -297,7 +297,7 @@
             },
             {
               "question": "What is the ESR of the KF-1000uF-25V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.15 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.15 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies.",
               "decisionGuide": "For applications requiring lower ESR, consider our KM low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -467,7 +467,7 @@
             },
             {
               "question": "What is the ESR of the KF-470uF-50V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.20 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.20 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies.",
               "decisionGuide": "For applications requiring lower ESR, consider our KM low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -631,7 +631,7 @@
             },
             {
               "question": "What is the ESR of the KF-2200uF-16V?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.08 Ohm. This low ESR provides good filtering performance and minimizes self-heating. The ESR decreases with increasing temperature. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.08 Ohm. This low ESR provides good filtering performance and minimizes self-heating. The ESR decreases with increasing temperature. For detailed specifications and application support on capxon KF-2200uF-16V, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications requiring lower ESR, consider the KM low-impedance series.",
               "keywords": [
                 "ESR",
@@ -1407,7 +1407,7 @@
             },
             {
               "question": "What is the ESR of the SF-22000uF-80V?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.025 Ohm. This very low ESR provides excellent filtering performance and minimizes self-heating even at high ripple currents. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.025 Ohm. This very low ESR provides excellent filtering performance and minimizes self-heating even at high ripple currents. For detailed specifications and application support on capxon SF-22000uF-80V, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications requiring even lower ESR, consider the SM low-impedance series.",
               "keywords": [
                 "ESR",
@@ -2648,7 +2648,7 @@
             },
             {
               "question": "What is the expected lifetime at 150°C?",
-              "answer": "The rated lifetime is 2,000 hours at 150°C. While this may seem short compared to lower temperature ratings, it represents excellent performance for such extreme conditions. In actual automotive use, operating temperatures are typically much lower, resulting in significantly extended field life.",
+              "answer": "The rated lifetime is 2,000 hours at 150°C. While this may seem short compared to lower temperature ratings, it is excellent performance for such extreme conditions. In actual automotive use, operating temperatures are typically much lower, resulting in significantly extended field life.",
               "decisionGuide": "The 150°C rating provides safety margin for extreme conditions while actual life is much longer at typical operating temperatures.",
               "keywords": [
                 "150°C lifetime",
@@ -2769,7 +2769,7 @@
           "faqs": [
             {
               "question": "Is this capacitor suitable for 12V vehicle systems?",
-              "answer": "Yes, the 25V rating provides excellent margin for 12V automotive systems, accommodating voltage transients and load dump conditions typical in vehicle electrical systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 25V rating provides excellent margin for 12V automotive systems, accommodating voltage transients and load dump conditions typical in vehicle electrical systems. For detailed specifications and application support on capxon AF-220uF-25V, refer to the datasheet or contact our team.",
               "decisionGuide": "Ideal for 12V automotive applications with good voltage margin.",
               "keywords": [
                 "12V system",
@@ -2850,7 +2850,7 @@
           "faqs": [
             {
               "question": "What EV applications is this capacitor suitable for?",
-              "answer": "This capacitor is ideal for EV charging systems, onboard DC-DC converters, and power distribution modules where high capacitance and extreme temperature capability are required. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor is ideal for EV charging systems, onboard DC-DC converters, and power distribution modules where high capacitance and extreme temperature capability are required. For detailed specifications and application support on capxon AH-1000uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for EV power systems requiring high capacitance at extreme temperatures.",
               "keywords": [
                 "EV charging",

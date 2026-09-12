@@ -539,6 +539,11 @@
           },
           "slug": "gb25mps17-650"
         }
+      ],
+      "parameters": [
+        "Voltage",
+        "Rds(on)",
+        "Current"
       ]
     },
     {
@@ -578,6 +583,10 @@
           },
           "slug": "gb50jl17-650"
         }
+      ],
+      "parameters": [
+        "Voltage",
+        "Current"
       ]
     },
     {
@@ -617,6 +626,10 @@
           },
           "slug": "gs-100-014-1-l"
         }
+      ],
+      "parameters": [
+        "Voltage",
+        "Rds(on)"
       ]
     }
   ]

@@ -119,7 +119,7 @@
           "faqs": [
             {
               "question": "What is the typical power consumption of USC9001?",
-              "answer": "The USC9001 typically consumes 50-150mW depending on the design and operating frequency. Static power is approximately 10mW, making it suitable for battery-powered applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The USC9001 typically consumes 50-150mW depending on the design and operating frequency. Static power is approximately 10mW, making it suitable for battery-powered applications. For detailed specifications and application support on unisoc USC9001, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate total system power budget including FPGA, peripherals, and power supply efficiency.",
               "keywords": [
                 "power consumption",
@@ -129,7 +129,7 @@
             },
             {
               "question": "Does USC9001 support partial reconfiguration?",
-              "answer": "The USC9001 supports full device reconfiguration. Partial reconfiguration is not supported on this entry-level device. For applications requiring partial reconfiguration, consider higher-end FPGAs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The USC9001 supports full device reconfiguration. Partial reconfiguration is not supported on this entry-level device. For applications requiring partial reconfiguration, consider higher-end FPGAs. For detailed specifications and application support on unisoc USC9001, refer to the datasheet or contact our team.",
               "decisionGuide": "Evaluate if your application truly requires partial reconfiguration or if full reconfiguration meets your needs.",
               "keywords": [
                 "reconfiguration",
@@ -138,7 +138,7 @@
             },
             {
               "question": "What development board is available for USC9001?",
-              "answer": "UNISOC provides the USC9001-EVB evaluation board featuring the USC9001 in TQFP-144 package, along with USB programmer, power supply, and example designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "UNISOC provides the USC9001-EVB evaluation board featuring the USC9001 in TQFP-144 package, along with USB programmer, power supply, and example designs. For detailed specifications and application support on unisoc USC9001, refer to the datasheet or contact our team.",
               "decisionGuide": "Start with the evaluation board for prototyping before committing to custom hardware design.",
               "keywords": [
                 "evaluation board",
@@ -148,7 +148,7 @@
             },
             {
               "question": "Can USC9001 replace a microcontroller in my design?",
-              "answer": "USC9001 can implement soft-core processors and replace microcontrollers for parallel processing tasks. However, for sequential control tasks, a dedicated MCU may be more cost-effective. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "USC9001 can implement soft-core processors and replace microcontrollers for parallel processing tasks. However, for sequential control tasks, a dedicated MCU may be more cost-effective. For detailed specifications and application support on unisoc USC9001, refer to the datasheet or contact our team.",
               "decisionGuide": "Consider FPGA for parallel processing, high-speed I/O, or custom logic; use MCU for sequential control and simple tasks.",
               "keywords": [
                 "soft core",
@@ -158,7 +158,7 @@
             },
             {
               "question": "What is the price range for USC9001?",
-              "answer": "USC9001 pricing starts around $8-15 in volume quantities, significantly lower than comparable Xilinx or Intel devices. Contact BeiLuo Electronics for current pricing and volume discounts. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "USC9001 pricing starts around $8-15 in volume quantities, significantly lower than comparable Xilinx or Intel devices. Contact BeiLuo Electronics for current pricing and volume discounts. For detailed specifications and application support on unisoc USC9001, refer to the datasheet or contact our team.",
               "decisionGuide": "Request quotation for your specific volume requirements to evaluate cost savings.",
               "keywords": [
                 "price",
@@ -250,7 +250,7 @@
           "faqs": [
             {
               "question": "What is the maximum operating frequency of USC9002?",
-              "answer": "The USC9002 supports internal logic operating frequencies up to 200 MHz under typical conditions. High-speed I/O can support up to 800 Mbps for DDR interfaces. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The USC9002 supports internal logic operating frequencies up to 200 MHz under typical conditions. High-speed I/O can support up to 800 Mbps for DDR interfaces. For detailed specifications and application support on unisoc USC9002, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify timing requirements using the provided timing analysis tools for your specific design.",
               "keywords": [
                 "frequency",
@@ -260,7 +260,7 @@
             },
             {
               "question": "Does USC9002 support PCIe interface?",
-              "answer": "Yes, USC9002 includes a PCIe Gen2 x1 hard IP block, enabling high-speed connection to host processors without consuming FPGA logic resources. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, USC9002 includes a PCIe Gen2 x1 hard IP block, enabling high-speed connection to host processors without consuming FPGA logic resources. For detailed specifications and application support on unisoc USC9002, refer to the datasheet or contact our team.",
               "decisionGuide": "Utilize the hard PCIe block for host connectivity to preserve FPGA logic for application-specific functions.",
               "keywords": [
                 "PCIe",
@@ -270,7 +270,7 @@
             },
             {
               "question": "What memory interfaces are supported?",
-              "answer": "USC9002 supports DDR3, DDR3L, and LPDDR2 memory interfaces with data rates up to 800 Mbps. The memory controller IP is provided by UNISOC. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "USC9002 supports DDR3, DDR3L, and LPDDR2 memory interfaces with data rates up to 800 Mbps. The memory controller IP is provided by UNISOC. For detailed specifications and application support on unisoc USC9002, refer to the datasheet or contact our team.",
               "decisionGuide": "Select appropriate memory type based on bandwidth requirements and power constraints.",
               "keywords": [
                 "DDR3",
@@ -280,7 +280,7 @@
             },
             {
               "question": "Is there a development kit for USC9002?",
-              "answer": "Yes, the USC9002-DK development kit includes the FPGA on a BGA-324 board, DDR3 memory, Ethernet PHY, USB programmer, and comprehensive example designs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the USC9002-DK development kit includes the FPGA on a BGA-324 board, DDR3 memory, Ethernet PHY, USB programmer, and comprehensive example designs. For detailed specifications and application support on unisoc USC9002, refer to the datasheet or contact our team.",
               "decisionGuide": "Use the development kit for rapid prototyping and software development.",
               "keywords": [
                 "development kit",
@@ -290,7 +290,7 @@
             },
             {
               "question": "What is the lead time for USC9002?",
-              "answer": "Standard lead time is 6-8 weeks for production quantities. Sample quantities are typically available from stock. Contact BeiLuo Electronics for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 6-8 weeks for production quantities. Sample quantities are typically available from stock. Contact BeiLuo Electronics for current availability. For detailed specifications and application support on unisoc USC9002, refer to the datasheet or contact our team.",
               "decisionGuide": "Plan procurement schedule accordingly; samples available for immediate evaluation.",
               "keywords": [
                 "lead time",

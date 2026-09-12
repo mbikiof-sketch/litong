@@ -13,19 +13,32 @@
       "question": "Where can I find the latest Hangshun product announcements?",
       "answer": "Latest Hangshun product announcements are available through multiple channels: BeiLuo website - News section with product releases; Email newsletter - Subscribe for updates; Trade shows - New products announced at events; Press releases - Distributed to industry media; Social media - LinkedIn and WeChat updates. Major product releases are typically announced at embedded world, electronica China, and other industry events. BeiLuo FAEs are notified in advance and can provide early access information for key customers. Contact your local BeiLuo sales representative to be added to the early notification list for new product announcements.",
       "decisionGuide": "Subscribe to BeiLuo newsletter; follow social media; contact FAE for early access to product roadmaps.",
-      "keywords": ["product announcements", "new releases", "Hangshun news"]
+      "keywords": [
+        "product announcements",
+        "new releases",
+        "Hangshun news"
+      ]
     },
     {
       "question": "How often does Hangshun release new MCU products?",
       "answer": "Hangshun maintains an active product development roadmap with regular releases: Major product families - New series typically launched annually; Product variants - Additional memory sizes and packages quarterly; Feature updates - Software and firmware updates monthly; Roadmap visibility - 12-18 month roadmap shared with strategic customers. Recent release cadence: 2023: 4 new MCU series launched; 2024: Planned releases in Q2 and Q4. BeiLuo provides quarterly roadmap updates to registered customers. For specific product availability timelines, contact BeiLuo FAE with your requirements.",
       "decisionGuide": "Contact BeiLuo for product roadmap; register for updates; plan designs around announced products.",
-      "keywords": ["product roadmap", "release schedule", "new products"]
+      "keywords": [
+        "product roadmap",
+        "release schedule",
+        "new products"
+      ]
     },
     {
       "question": "Where can I meet Hangshun representatives at trade shows?",
       "answer": "Hangshun representatives attend major industry trade shows throughout the year: China shows - electronica China (Shanghai, April); Embedded World China (Shanghai, October); IIC (various cities); International shows - embedded world (Nuremberg, March); electronica (Munich, November); CES (Las Vegas, January). At these shows, you can: See product demonstrations; Discuss applications with FAEs; Obtain samples and documentation; Schedule technical meetings. BeiLuo typically hosts Hangshun representatives at their booth. Contact BeiLuo sales to schedule a meeting at upcoming shows. Virtual events and webinars are also held regularly for customers who cannot attend in person.",
       "decisionGuide": "Check BeiLuo events page for schedule; register for shows in advance; schedule meetings with FAEs.",
-      "keywords": ["trade shows", "events", "electronica", "embedded world"]
+      "keywords": [
+        "trade shows",
+        "events",
+        "electronica",
+        "embedded world"
+      ]
     }
   ],
   "news": [
@@ -33,13 +46,21 @@
       "id": "hs32m200-launch",
       "title": "Hangshun Launches HS32M200 High-Performance Motor Control MCU Series",
       "summary": "New HS32M200 series features 168MHz Cortex-M4F with FPU, 8 PWM channels, and advanced FOC library for industrial servo applications.",
-      "content": "Hangshun has announced the launch of the HS32M200 series, a new high-performance motor control MCU designed for demanding industrial servo and motion control applications. The HS32M200RGT6 features a 168MHz ARM Cortex-M4F core with floating-point unit, providing the processing power needed for complex Field Oriented Control (FOC) algorithms.\n\nKey features of the HS32M200 series include:\n- 168MHz Cortex-M4F with single-precision FPU\n- 8-channel advanced PWM with 1ns dead-time resolution\n- 500mA integrated gate drivers for external IGBT/MOSFET\n- Triple 12-bit ADC with 3Msps simultaneous sampling\n- Complete FOC library with sensorless observer and MTPA\n- Industrial temperature range (-40°C to +85°C)\n\nThe HS32M200 series targets high-performance applications including CNC machine tool spindles, industrial robot joints, multi-axis motion control systems, and high-speed servo drives. The integrated FPU accelerates trigonometric calculations by 10x compared to fixed-point implementations, enabling real-time FOC execution with bandwidth up to 5kHz.\n\n\"The HS32M200 represents a significant advancement in our motor control portfolio,\" said a Hangshun spokesperson. \"With the FPU and enhanced PWM capabilities, customers can implement sophisticated servo algorithms previously requiring DSPs or more expensive solutions.\"\n\nThe HS32M200 series is sampling now with production quantities available Q2 2024. BeiLuo provides comprehensive technical support including evaluation kits, motor control libraries, and FAE assistance for design-in.",
+      "content": "Hangshun has announced the launch of the HS32M200 series, a new high-performance motor control MCU designed for demanding industrial servo and motion control applications. The HS32M200RGT6 features a 168MHz ARM Cortex-M4F core with floating-point unit, providing the processing power needed for complex Field Oriented Control (FOC) algorithms.\n\nKey features of the HS32M200 series include:\n- 168MHz Cortex-M4F with single-precision FPU\n- 8-channel advanced PWM with 1ns dead-time resolution\n- 500mA integrated gate drivers for external IGBT/MOSFET\n- Triple 12-bit ADC with 3Msps simultaneous sampling\n- Complete FOC library with sensorless observer and MTPA\n- Industrial temperature range (-40°C to +85°C)\n\nThe HS32M200 series targets high-performance applications including CNC machine tool spindles, industrial robot joints, multi-axis motion control systems, and high-speed servo drives. The integrated FPU accelerates trigonometric calculations by 10x compared to fixed-point implementations, enabling real-time FOC execution with bandwidth up to 5kHz.\n\n\"The HS32M200 is significant advancement in our motor control portfolio,\" said a Hangshun spokesperson. \"With the FPU and enhanced PWM capabilities, customers can implement sophisticated servo algorithms previously requiring DSPs or more expensive solutions.\"\n\nThe HS32M200 series is sampling now with production quantities available Q2 2024. BeiLuo provides comprehensive technical support including evaluation kits, motor control libraries, and FAE assistance for design-in.",
       "date": "2024-03-20",
       "category": "Product Release",
-      "tags": ["Motor Control", "HS32M200", "New Product", "FOC", "Servo"],
+      "tags": [
+        "Motor Control",
+        "HS32M200",
+        "New Product",
+        "FOC",
+        "Servo"
+      ],
       "featured": true,
       "image": "/images/news/hs32m200-launch.jpg",
-      "relatedProducts": ["HS32M200RGT6"],
+      "relatedProducts": [
+        "HS32M200RGT6"
+      ],
       "link": "/hangshun/news/hs32m200-launch.html"
     },
     {
@@ -49,7 +70,12 @@
       "content": "BeiLuo Electronics has announced the expansion of its strategic distribution partnership with Hangshun Microelectronics, strengthening support for the complete range of Hangshun ARM Cortex-M microcontrollers.\n\nUnder the enhanced partnership, BeiLuo will:\n- Increase local inventory of popular Hangshun MCU models\n- Expand FAE team with dedicated Hangshun specialists\n- Open additional regional technical support centers\n- Provide enhanced design-in support for key accounts\n- Offer programming and testing services\n\n\"Hangshun's MCU portfolio perfectly complements our product offering, providing customers with high-quality, cost-effective alternatives to established brands,\" said BeiLuo's Product Manager. \"Our expanded partnership reflects the growing demand for Hangshun products and our commitment to supporting customer success.\"\n\nThe partnership covers all Hangshun MCU families:\n- General Purpose MCUs (HS32F1xx/HS32F4xx series)\n- Touch Control MCUs (HS32T0xx series)\n- Motor Control MCUs (HS32M1xx/HS32M2xx series)\n- Wireless MCUs (HS32B1xx/HS32S1xx series)\n\nBeiLuo now maintains stock of over 50 Hangshun part numbers with 24-48 hour delivery across the region. Technical support includes application consultation, design review, and on-site assistance for major projects.\n\nCustomers can access Hangshun products and support through BeiLuo's website, regional sales offices, and authorized distributors.",
       "date": "2024-03-15",
       "category": "Partnership",
-      "tags": ["BeiLuo", "Partnership", "Distribution", "Support"],
+      "tags": [
+        "BeiLuo",
+        "Partnership",
+        "Distribution",
+        "Support"
+      ],
       "featured": true,
       "image": "/images/news/partnership.jpg",
       "relatedProducts": [],
@@ -57,15 +83,25 @@
     },
     {
       "id": "electronica-china-2024",
-      "title": "Hangshun to Showcase Latest MCU Innovations at electronica China 2024",
+      "title": "Hangshun to show Latest MCU Innovations at electronica China 2024",
       "summary": "Visit BeiLuo booth at electronica China Shanghai to see live demonstrations of Hangshun motor control, touch sensing, and wireless MCU solutions.",
-      "content": "Hangshun Microelectronics will join BeiLuo Electronics at electronica China 2024, showcasing the latest innovations in ARM Cortex-M microcontrollers. The exhibition will take place April 14-16, 2024 at the Shanghai New International Expo Centre.\n\nLive demonstrations at the BeiLuo booth (Hall N4, 4-xxx) will include:\n\nMotor Control Demo\n- HS32M200 servo drive controlling PMSM motor\n- Real-time FOC algorithm with field weakening\n- Position control with encoder feedback\n- Efficiency and torque ripple measurements\n\nTouch Control Demo\n- HS32T024 24-channel touch panel with gesture recognition\n- Water rejection demonstration with live water spray\n- Slider and wheel control interfaces\n- Haptic feedback integration\n\nWireless IoT Demo\n- HS32S101 Sub-1GHz sensor network\n- 2km range demonstration with LoRa modulation\n- HS32B101 BLE 5.0 connectivity\n- Multi-protocol gateway implementation\n\nTechnical experts from both Hangshun and BeiLuo will be available to discuss applications, provide design guidance, and answer technical questions.\n\n\"electronica China is an important platform for us to connect with customers and demonstrate our technology,\" said a Hangshun representative. \"We look forward to showcasing how our MCUs can solve real design challenges.\"\n\nSchedule a meeting with BeiLuo FAEs in advance by contacting your local sales representative. Walk-in visitors are also welcome throughout the show.",
+      "content": "Hangshun Microelectronics will join BeiLuo Electronics at electronica China 2024. The exhibition will take place April 14-16, 2024 at the Shanghai New International Expo Centre.\n\nLive demonstrations at the BeiLuo booth (Hall N4, 4-xxx) will include:\n\nMotor Control Demo\n- HS32M200 servo drive controlling PMSM motor\n- Real-time FOC algorithm with field weakening\n- Position control with encoder feedback\n- Efficiency and torque ripple measurements\n\nTouch Control Demo\n- HS32T024 24-channel touch panel with gesture recognition\n- Water rejection demonstration with live water spray\n- Slider and wheel control interfaces\n- Haptic feedback integration\n\nWireless IoT Demo\n- HS32S101 Sub-1GHz sensor network\n- 2km range demonstration with LoRa modulation\n- HS32B101 BLE 5.0 connectivity\n- Multi-protocol gateway implementation\n\nTechnical experts from both Hangshun and BeiLuo will be available to discuss applications, provide design guidance, and answer technical questions.\n\n\"electronica China is an important platform for us to connect with customers and demonstrate our technology,\" said a Hangshun representative. \"We look forward to show how our MCUs can solve real design challenges.\"\n\nSchedule a meeting with BeiLuo FAEs in advance by contacting your local sales representative. Walk-in visitors are also welcome throughout the show.",
       "date": "2024-03-10",
       "category": "Trade Show",
-      "tags": ["electronica China", "Trade Show", "Demonstration", "Shanghai"],
+      "tags": [
+        "electronica China",
+        "Trade Show",
+        "Demonstration",
+        "Shanghai"
+      ],
       "featured": false,
       "image": "/images/news/electronica-2024.jpg",
-      "relatedProducts": ["HS32M200RGT6", "HS32T024RGT6", "HS32S101C8T6", "HS32B101C8T6"],
+      "relatedProducts": [
+        "HS32M200RGT6",
+        "HS32T024RGT6",
+        "HS32S101C8T6",
+        "HS32B101C8T6"
+      ],
       "link": "/hangshun/news/electronica-china-2024.html"
     },
     {
@@ -75,23 +111,40 @@
       "content": "Hangshun Microelectronics has announced that the HS32F103 and HS32T016 MCU series have successfully achieved AEC-Q100 Grade 1 automotive qualification, certifying these devices for use in automotive applications with operating temperatures up to 125°C.\n\nThe AEC-Q100 qualification includes:\n- Accelerated environmental stress testing\n- Extended temperature operating life\n- ESD and latch-up characterization\n- Package integrity validation\n- Electrical parameter verification\n\n\"Achieving AEC-Q100 certification is a significant milestone for Hangshun,\" said the Quality Director. \"It demonstrates our commitment to meeting the stringent quality and reliability requirements of the automotive industry.\"\n\nQualified products:\n- HS32F103C8T6, HS32F103RBT6 (General Purpose MCU)\n- HS32T016C8T6 (Touch Control MCU)\n\nAutomotive applications for these devices include:\n- Body control modules\n- Climate control HMI panels\n- Steering wheel controls\n- Seat control modules\n- Lighting control systems\n\nThe HS32F103 series provides general-purpose processing with CAN, LIN, and SPI interfaces commonly used in automotive networks. The HS32T016 offers capacitive touch control with water rejection for center console and dashboard applications.\n\nPPAP (Production Part Approval Process) documentation is available for automotive customers. Contact BeiLuo FAEs for automotive application support and qualification reports.",
       "date": "2024-02-28",
       "category": "Certification",
-      "tags": ["AEC-Q100", "Automotive", "Certification", "Quality"],
+      "tags": [
+        "AEC-Q100",
+        "Automotive",
+        "Certification",
+        "Quality"
+      ],
       "featured": true,
       "image": "/images/news/aec-q100.jpg",
-      "relatedProducts": ["HS32F103C8T6", "HS32F103RBT6", "HS32T016C8T6"],
+      "relatedProducts": [
+        "HS32F103C8T6",
+        "HS32F103RBT6",
+        "HS32T016C8T6"
+      ],
       "link": "/hangshun/news/aec-q100-certification.html"
     },
     {
       "id": "touch-library-update",
       "title": "Hangshun Releases Enhanced Touch Sensing Library v3.0",
       "summary": "New touch library adds gesture recognition, improved water rejection, and multi-frequency scan for industrial touch applications.",
-      "content": "Hangshun has released version 3.0 of its capacitive touch sensing library, adding significant new features for the HS32T0xx Touch Control MCU series. The updated library is available now as a free download for registered developers.\n\nKey new features in v3.0:\n\nGesture Recognition\n- Swipe detection (horizontal and vertical)\n- Pinch and zoom gestures\n- Rotate gestures for dial controls\n- Custom gesture definition support\n\nEnhanced Water Rejection\n- Submersible detection mode\n- Improved algorithms for steam environments\n- Faster recovery after water exposure\n- Configurable water sensitivity levels\n\nMulti-Frequency Scan\n- Automatic frequency hopping\n- Noise immunity in industrial environments\n- Adaptive frequency selection\n- Improved performance near switching power supplies\n\nAdditional Improvements\n- 20% faster scan rates\n- Reduced RAM footprint\n- Simplified API for common operations\n- Enhanced tuning tool integration\n\n\"The v3.0 library represents a major advancement in touch sensing capabilities,\" said a Hangshun software engineer. \"The gesture recognition and improved water rejection open new application possibilities in automotive and industrial markets.\"\n\nThe library is backward compatible with existing HS32T0xx applications. Migration guide and updated documentation are included in the SDK.\n\nBeiLuo FAEs are available to assist with library integration and tuning for specific applications. Training webinars on the new features will be held monthly starting April 2024.",
+      "content": "Hangshun has released version 3.0 of its capacitive touch sensing library, adding significant new features for the HS32T0xx Touch Control MCU series. The updated library is available now as a free download for registered developers.\n\nKey new features in v3.0:\n\nGesture Recognition\n- Swipe detection (horizontal and vertical)\n- Pinch and zoom gestures\n- Rotate gestures for dial controls\n- Custom gesture definition support\n\nEnhanced Water Rejection\n- Submersible detection mode\n- Improved algorithms for steam environments\n- Faster recovery after water exposure\n- Configurable water sensitivity levels\n\nMulti-Frequency Scan\n- Automatic frequency hopping\n- Noise immunity in industrial environments\n- Adaptive frequency selection\n- Improved performance near switching power supplies\n\nAdditional Improvements\n- 20% faster scan rates\n- Reduced RAM footprint\n- Simplified API for common operations\n- Enhanced tuning tool integration\n\n\"The v3.0 library is major advancement in touch sensing capabilities,\" said a Hangshun software engineer. \"The gesture recognition and improved water rejection open new application possibilities in automotive and industrial markets.\"\n\nThe library is backward compatible with existing HS32T0xx applications. Migration guide and updated documentation are included in the SDK.\n\nBeiLuo FAEs are available to assist with library integration and tuning for specific applications. Training webinars on the new features will be held monthly starting April 2024.",
       "date": "2024-02-15",
       "category": "Software Update",
-      "tags": ["Touch Sensing", "Software Library", "Gesture Recognition", "Update"],
+      "tags": [
+        "Touch Sensing",
+        "Software Library",
+        "Gesture Recognition",
+        "Update"
+      ],
       "featured": false,
       "image": "/images/news/touch-library.jpg",
-      "relatedProducts": ["HS32T016C8T6", "HS32T024RGT6"],
+      "relatedProducts": [
+        "HS32T016C8T6",
+        "HS32T024RGT6"
+      ],
       "link": "/hangshun/news/touch-library-update.html"
     },
     {
@@ -101,10 +154,17 @@
       "content": "Hangshun has released the production version of its Bluetooth Low Energy 5.0 protocol stack for the HS32B1xx Wireless MCU series. The stack is qualified by the Bluetooth SIG and ready for commercial product deployment.\n\nBLE 5.0 Stack Features:\n\nRole Support\n- Peripheral role with multiple connection support\n- Central role for gateway applications\n- Broadcaster for beacon applications\n- Observer for monitoring applications\n\nPHY Support\n- 1Mbps legacy mode\n- 2Mbps high-speed mode\n- Coded PHY (S=2, S=8) for long range\n- Adaptive PHY selection\n\nAdvanced Features\n- Extended advertising\n- Periodic advertising with sync\n- LE Secure Connections\n- Privacy 1.2 with resolvable addresses\n\nPower Optimization\n- <1μA sleep current with RAM retention\n- Adaptive connection intervals\n- Optimized radio control\n- Low-power clocking options\n\nThe stack is provided as a linkable library with C API, compatible with Keil MDK, IAR, and GCC toolchains. Example applications include heart rate profile, HID keyboard, beacon, and serial port service.\n\n\"Our BLE 5.0 stack enables customers to quickly develop connected products with the latest Bluetooth features,\" said a Hangshun wireless product manager. \"The 2Mbps mode and Coded PHY provide flexibility for different application requirements.\"\n\nThe stack has passed Bluetooth SIG qualification testing. Customers can reference Hangshun's QDID for their own product qualification, simplifying the certification process.\n\nBeiLuo provides BLE development kits with the stack pre-loaded and FAE support for BLE application development.",
       "date": "2024-01-25",
       "category": "Software Release",
-      "tags": ["BLE 5.0", "Bluetooth", "Protocol Stack", "Wireless"],
+      "tags": [
+        "BLE 5.0",
+        "Bluetooth",
+        "Protocol Stack",
+        "Wireless"
+      ],
       "featured": false,
       "image": "/images/news/ble-stack.jpg",
-      "relatedProducts": ["HS32B101C8T6"],
+      "relatedProducts": [
+        "HS32B101C8T6"
+      ],
       "link": "/hangshun/news/ble-5-stack-release.html"
     },
     {
@@ -114,7 +174,12 @@
       "content": "Hangshun Microelectronics has announced a major expansion of its manufacturing capabilities to meet growing demand for its ARM Cortex-M microcontrollers. The expansion includes a new 300mm wafer fabrication facility and increased final test capacity.\n\nExpansion Details:\n\nWafer Fabrication\n- New 300mm fab with 40,000 wafers/month capacity\n- Advanced 40nm process technology\n- Focus on high-performance MCU products\n- Production ramp beginning Q3 2024\n\nTest and Assembly\n- Additional 50,000 units/day test capacity\n- Expanded packaging capabilities (QFN, LQFP, BGA)\n- Enhanced quality screening\n- Burn-in testing for automotive grade\n\nThe expansion will increase Hangshun's total MCU production capacity by approximately 50%, supporting continued growth in industrial, consumer, and automotive markets.\n\n\"This investment reflects our confidence in the long-term demand for our MCU products and our commitment to supporting customer growth,\" said Hangshun's CEO. \"The new 300mm fab will provide cost advantages while enabling more advanced products.\"\n\nSupply Chain Commitment:\n- Multi-source strategy for critical materials\n- 6-month buffer stock for key products\n- Long-term supplier agreements\n- Customer allocation programs for high-demand parts\n\nThe expansion is expected to be fully operational by Q1 2025. During the ramp-up period, Hangshun is working closely with BeiLuo to ensure continuity of supply and manage customer allocations.\n\nCustomers with volume requirements should contact BeiLuo sales to discuss allocation and long-term supply agreements.",
       "date": "2024-01-10",
       "category": "Company News",
-      "tags": ["Manufacturing", "Capacity", "Investment", "Supply Chain"],
+      "tags": [
+        "Manufacturing",
+        "Capacity",
+        "Investment",
+        "Supply Chain"
+      ],
       "featured": true,
       "image": "/images/news/manufacturing.jpg",
       "relatedProducts": [],
@@ -127,10 +192,18 @@
       "content": "Hangshun has released version 2.5 of its motor control firmware library, adding significant new capabilities for the HS32M1xx and HS32M2xx Motor Control MCU series. The update is available now as a free download.\n\nNew Features in v2.5:\n\nSensorless FOC\n- Sliding mode observer implementation\n- Flux observer for PMSM\n- Extended Kalman Filter option\n- Automatic parameter tuning wizard\n- Startup from standstill algorithms\n\nDual-Axis Control\n- Control two motors from single MCU\n- Independent FOC for each axis\n- Synchronized PWM options\n- Shared resource management\n- Example projects for CNC and robotics\n\nAdvanced Algorithms\n- Field weakening with automatic transition\n- MTPA for IPMSM optimization\n- Vibration suppression\n- Active damping control\n\nImprovements\n- 30% faster execution on Cortex-M4F\n- Reduced RAM usage\n- Enhanced parameter validation\n- Better documentation and examples\n\n\"The sensorless FOC and dual-axis capabilities address key requirements from our industrial customers,\" said a Hangshun motor control specialist. \"The automatic tuning wizard significantly reduces development time.\"\n\nThe library supports both 6-step and FOC algorithms with seamless switching. Code examples are provided for common motor types including BLDC fans, PMSM servo motors, and AC induction motors.\n\nDevelopment Tools:\n- Motor parameter measurement utility\n- Real-time tuning interface\n- Scope visualization tool\n- Auto-tuning wizard\n\nBeiLuo FAEs provide hands-on support for motor control development including motor characterization and control loop tuning.",
       "date": "2023-12-20",
       "category": "Software Update",
-      "tags": ["Motor Control", "FOC", "Software Library", "Sensorless"],
+      "tags": [
+        "Motor Control",
+        "FOC",
+        "Software Library",
+        "Sensorless"
+      ],
       "featured": false,
       "image": "/images/news/motor-library.jpg",
-      "relatedProducts": ["HS32M100C8T6", "HS32M200RGT6"],
+      "relatedProducts": [
+        "HS32M100C8T6",
+        "HS32M200RGT6"
+      ],
       "link": "/hangshun/news/motor-control-library-update.html"
     }
   ]

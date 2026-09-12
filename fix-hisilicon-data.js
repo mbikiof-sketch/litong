@@ -500,7 +500,7 @@ const realSupportArticle5 = {
   author: {
     name: "Dr. Zhang Ming",
     title: "Senior FAE - AI Solutions",
-    email: "zhang.ming@litong.com"
+    email: "zhang.ming@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

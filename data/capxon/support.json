@@ -99,7 +99,7 @@
       "summary": "Comprehensive guide for selecting aluminum electrolytic capacitors for power supply applications including derating recommendations and calculation methods.",
       "content": [
         "This technical reference document provides detailed information about capxon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -249,7 +249,7 @@
       "summary": "Detailed guide on calculating ripple current, estimating self-heating, and implementing proper thermal management for aluminum electrolytic capacitors.",
       "content": [
         "This technical reference document provides detailed information about capxon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -352,7 +352,7 @@
         },
         {
           "question": "What is the relationship between ripple current and lifetime?",
-          "answer": "Higher ripple current increases capacitor temperature through self-heating, which reduces lifetime according to the Arrhenius relationship. Every 10°C increase approximately halves the capacitor lifetime. Additionally, high ripple current can cause physical stress on capacitor elements over time.",
+          "answer": "Higher ripple current increases capacitor temperature through self-heating, which reduces lifetime according to the Arrhenius relationship. Every 10°C increase approximately halves the capacitor lifetime. high ripple current can cause physical stress on capacitor elements over time.",
           "decisionGuide": "Minimize ripple current and operating temperature for maximum capacitor lifetime.",
           "keywords": [
             "ripple current lifetime",
@@ -401,7 +401,7 @@
       "summary": "Comprehensive guide for selecting and applying AEC-Q200 qualified capacitors in automotive electronics including EV charging, LED lighting, and control systems.",
       "content": [
         "This technical reference document provides detailed information about capxon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -554,7 +554,7 @@
       "summary": "Guide for diagnosing capacitor-related issues in power supplies and electronic systems including common failure modes and corrective actions.",
       "content": [
         "This technical reference document provides detailed information about capxon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -706,7 +706,7 @@
       "summary": "Comprehensive guide on thermal management techniques for aluminum electrolytic capacitors including heat dissipation, airflow, and thermal design best practices.",
       "content": [
         "This technical reference document provides detailed information about capxon product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -832,7 +832,7 @@
         },
         {
           "question": "What is the relationship between ESR and temperature?",
-          "answer": "ESR (Equivalent Series Resistance) decreases as temperature increases for aluminum electrolytic capacitors. At -40°C, ESR may be 5-10x higher than at 25°C. At 85°C, ESR is typically 30-50% lower than at 25°C. This means heat generation from ripple current actually decreases at higher temperatures, providing some self-regulation.",
+          "answer": "ESR (Equivalent Series Resistance) decreases as temperature increases for aluminum electrolytic capacitors. At -40°C, ESR may be 5-10x higher than at 25°C. At 85°C, ESR is typically 30-50% lower than at 25°C. This means heat generation from ripple current decreases at higher temperatures, providing some self-regulation.",
           "decisionGuide": "Consider ESR temperature characteristics when calculating heat generation at different temperatures.",
           "keywords": [
             "ESR temperature",

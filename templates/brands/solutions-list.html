@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= brand.displayName %> Solutions | Application Solutions</title>
+  <title><%= brand.displayName %> Solutions | BeiLuo Distributor</title>
   <meta name="description" content="<%= brand.displayName %> solutions for automotive, industrial, and renewable energy applications.">
   
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -121,7 +121,20 @@
       } 
     }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/solutions/">
+  <meta name="robots" content="index, follow">
 </head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ic-distributor.com/"},
+    {"@type": "ListItem", "position": 2, "name": "<%= brand.displayName %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/"},
+    {"@type": "ListItem", "position": 3, "name": "Solutions", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/solutions/"}
+  ]
+}
+</script>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->
   <!--#include virtual="/templates/components/breadcrumb.html" -->
@@ -133,7 +146,7 @@
         <h2 class="section-title">Application Solutions</h2>
         <div class="solutions-grid">
           <% solutions.solutions.forEach(function(solution) { %>
-            <a href="/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>.html" class="solution-card">
+            <a href="/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>" class="solution-card">
               <div class="solution-header">
                 <h3><%= solution.title %></h3>
               </div>

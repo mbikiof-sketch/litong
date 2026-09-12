@@ -197,7 +197,7 @@
         },
         {
           "question": "When do I need radiation-tolerant data converters?",
-          "answer": "Radiation-tolerant data converters are required for any application operating in radiation environments. This includes all space applications (LEO, MEO, GEO, deep space), nuclear environments, and some high-altitude aviation. Standard commercial components may fail at 5-10 krad(Si) total dose, while Mxtronics radiation-tolerant devices are rated for 100 krad(Si). Additionally, radiation-tolerant devices are characterized for single event effects (SEE) which can cause upset or latchup in standard components. For mission-critical applications in these environments, radiation-tolerant components are essential.",
+          "answer": "Radiation-tolerant data converters are required for any application operating in radiation environments. This includes all space applications (LEO, MEO, GEO, deep space), nuclear environments, and some high-altitude aviation. Standard commercial components may fail at 5-10 krad(Si) total dose, while Mxtronics radiation-tolerant devices are rated for 100 krad(Si). radiation-tolerant devices are characterized for single event effects (SEE) which can cause upset or latchup in standard components. For mission-critical applications in these environments, radiation-tolerant components are essential.",
           "decisionGuide": "Use radiation-tolerant converters for space, nuclear, and high-altitude applications. Contact our FAE team for radiation environment assessments.",
           "keywords": [
             "radiation tolerant",

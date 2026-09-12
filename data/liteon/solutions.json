@@ -1,0 +1,625 @@
+{
+  "seoTitle": "Lite-On Solutions | Industrial & Automotive Applications | BeiLuo",
+  "seoDescription": "Lite-On application solutions for automotive lighting, industrial automation, and smart sensing. Complete BOM and technical support from BeiLuo Electronics.",
+  "faqs": [
+    {
+      "question": "What solutions does Lite-On offer?",
+      "answer": "Lite-On provides comprehensive solutions across multiple domains: Automotive LED Lighting for interior and exterior applications, Industrial Automation with optocouplers and sensors, Smart Sensing for IoT and consumer devices, and Power Management for various electronic systems. Each solution includes complete BOM, technical specifications, and application guidance.",
+      "decisionGuide": "Select solutions based on your application domain. Contact FAE for customization and integration support.",
+      "keywords": [
+        "solutions",
+        "automotive",
+        "industrial",
+        "sensing",
+        "power management"
+      ]
+    },
+    {
+      "question": "How can I get solution support?",
+      "answer": "BeiLuo Electronics provides end-to-end solution support: (1) Solution selection based on your requirements; (2) BOM optimization and cost reduction; (3) Reference design and evaluation kits; (4) Technical documentation and application notes; (5) On-site engineering support for complex implementations.",
+      "decisionGuide": "Contact our solution team early in your project for optimal design and component selection.",
+      "keywords": [
+        "solution support",
+        "BOM",
+        "reference design",
+        "engineering support"
+      ]
+    },
+    {
+      "question": "What is included in each solution?",
+      "answer": "Each Lite-On solution includes: Complete BOM with Lite-On components, technical specifications and performance data, core advantages and benefits, application guidance, and customer case studies. Solutions are validated and proven in real-world applications.",
+      "decisionGuide": "Review solution details to match with your requirements. Request evaluation kits for prototyping.",
+      "keywords": [
+        "BOM",
+        "technical specifications",
+        "case studies",
+        "evaluation kits"
+      ]
+    },
+    {
+      "question": "Can solutions be customized?",
+      "answer": "Yes, solutions can be customized to meet specific requirements. BeiLuo Electronics works with customers to adapt reference designs, optimize BOM for cost or performance, and develop custom solutions for unique applications. Contact our FAE team to discuss customization needs.",
+      "decisionGuide": "Start with standard solution and customize as needed. Contact FAE for customization discussion.",
+      "keywords": [
+        "customization",
+        "BOM optimization",
+        "custom solutions"
+      ]
+    },
+    {
+      "question": "What industries are these solutions designed for?",
+      "answer": "Lite-On solutions target key industries: Automotive (OEM and Tier 1), Industrial Automation (manufacturing and process control), Consumer Electronics (smartphones, appliances, IoT), and Communications (networking equipment, base stations). Solutions meet industry standards and certifications.",
+      "decisionGuide": "Select solutions designed for your industry. Verify compliance with relevant standards.",
+      "keywords": [
+        "industries",
+        "automotive",
+        "industrial",
+        "consumer",
+        "certifications"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "id": "automotive-led-lighting",
+      "title": "Automotive LED Lighting Solution",
+      "slug": "automotive-led-lighting",
+      "description": "Complete LED lighting solution for automotive interior and exterior applications",
+      "longDescription": "This comprehensive automotive LED lighting solution leverages Lite-On's AEC-Q101 qualified LEDs to deliver high-performance lighting for interior and exterior automotive applications. The solution includes daytime running lights, fog lamps, interior dome lighting, and dashboard backlighting. With excellent thermal management and long lifetime, this solution meets the stringent requirements of automotive OEMs.",
+      "benefits": [
+        "AEC-Q101 qualified components for automotive reliability",
+        "High luminous efficacy reduces power consumption",
+        "Excellent thermal management extends LED lifetime",
+        "Wide operating temperature range (-40°C to +125°C)",
+        "Complete BOM with proven component combinations"
+      ],
+      "coreAdvantages": [
+        "Automotive-grade quality with full AEC-Q certification",
+        "Superior thermal performance with ceramic packages",
+        "Consistent color binning for uniform appearance",
+        "Local technical support from BeiLuo Electronics",
+        "Competitive pricing with high-volume production support"
+      ],
+      "bomList": [
+        {
+          "partNumber": "LTPL-C036UVG375",
+          "description": "3W High-Power White LED",
+          "quantity": 4,
+          "category": "LED"
+        },
+        {
+          "partNumber": "LTST-C191KRKT",
+          "description": "Red SMD LED for indicators",
+          "quantity": 10,
+          "category": "LED"
+        },
+        {
+          "partNumber": "LED Driver IC",
+          "description": "Constant current LED driver",
+          "quantity": 2,
+          "category": "IC"
+        },
+        {
+          "partNumber": "Thermal Pad",
+          "description": "Thermal interface material",
+          "quantity": 4,
+          "category": "Thermal"
+        },
+        {
+          "partNumber": "Aluminum PCB",
+          "description": "Metal-core PCB for heat dissipation",
+          "quantity": 1,
+          "category": "PCB"
+        }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "12V DC (automotive)",
+        "Power Consumption": "15W max",
+        "Luminous Flux": "480-600 lm",
+        "Color Temperature": "5000K-6500K (cool white)",
+        "Operating Temperature": "-40°C to +85°C",
+        "Lifetime": "50,000 hours (L70)",
+        "Protection": "Reverse polarity, over-temperature"
+      },
+      "customerCases": [
+        {
+          "customer": "Tier 1 Automotive Supplier",
+          "challenge": "Required high-reliability DRL solution with AEC-Q certification",
+          "solution": "Implemented Lite-On LTPL-C036UVG375 with custom thermal design",
+          "result": "Passed all automotive qualification tests, 100K units deployed",
+          "feedback": "Excellent performance and local support from BeiLuo"
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Automotive LED selection prioritizes AEC-Q certification, thermal performance, and supply stability. Lite-On's vertical integration ensures consistent quality.",
+        "keyConsiderations": "Thermal management is critical for LED lifetime. design must account for worst-case automotive temperatures. EMC compliance requires proper filtering.",
+        "recommendation": "Use ceramic package LEDs for exterior lighting. Implement proper heat sinking and thermal interface materials. Include protection circuits for automotive electrical environment."
+      },
+      "faqs": [
+        {
+          "question": "What automotive certifications are required?",
+          "answer": "Automotive LED applications require AEC-Q101 qualification for LEDs. The complete lighting system must meet EMC standards (CISPR 25), environmental testing (IP rating), and OEM-specific requirements. Lite-On AEC-Q101 qualified LEDs meet these requirements.",
+          "decisionGuide": "Verify AEC-Q101 certification for all LED components. Plan for EMC testing and environmental validation.",
+          "keywords": [
+            "AEC-Q101",
+            "automotive certification",
+            "EMC",
+            "IP rating"
+          ]
+        },
+        {
+          "question": "How is thermal management handled?",
+          "answer": "Thermal management uses metal-core PCBs, thermal interface materials, and adequate heat sinking. Junction temperature must be kept below 125°C for long lifetime. The solution includes thermal simulation and design guidelines.",
+          "decisionGuide": "Follow thermal design guidelines. use thermal simulation for verification. contact FAE for design review.",
+          "keywords": [
+            "thermal management",
+            "heat sink",
+            "junction temperature",
+            "MCPCB"
+          ]
+        },
+        {
+          "question": "What is the typical development timeline?",
+          "answer": "Development timeline includes: Concept and specification (2-4 weeks), Design and simulation (4-6 weeks), Prototype build and test (4-6 weeks), Validation and qualification (8-12 weeks). Total timeline is 18-28 weeks for production release.",
+          "decisionGuide": "Plan 6-9 months for complete automotive lighting development. Start with evaluation kits for faster prototyping.",
+          "keywords": [
+            "development timeline",
+            "qualification",
+            "prototype",
+            "validation"
+          ]
+        },
+        {
+          "question": "Can the solution be customized for specific vehicles?",
+          "answer": "Yes, the solution can be customized for specific vehicle requirements including: Color temperature adjustment, Beam pattern optimization, Form factor adaptation, Control interface customization. Custom development requires NRE and minimum volume commitments.",
+          "decisionGuide": "Use standard solution as baseline. define customization requirements early. contact sales for NRE and MOQ discussion.",
+          "keywords": [
+            "customization",
+            "NRE",
+            "color temperature",
+            "beam pattern"
+          ]
+        },
+        {
+          "question": "What support does BeiLuo provide for automotive projects?",
+          "answer": "BeiLuo provides comprehensive automotive support: (1) Application engineering for design optimization, (2) Thermal and optical simulation, (3) Failure analysis and root cause investigation, (4) PPAP documentation support, (5) Production part approval and quality support.",
+          "decisionGuide": "Engage BeiLuo FAE early in automotive projects. Leverage full support for qualification and production.",
+          "keywords": [
+            "automotive support",
+            "PPAP",
+            "failure analysis",
+            "quality"
+          ]
+        },
+        {
+          "question": "What is the pricing structure for volume production?",
+          "answer": "Pricing is volume-dependent with tiers at 1K, 5K, 10K, 50K, and 100K+ quantities. LED components is 60-70% of BOM cost. Volume pricing can achieve 30-40% reduction from sample pricing. Contact sales for specific quotation.",
+          "decisionGuide": "Plan for volume pricing at production volumes. Consider annual scheduling agreements for best pricing.",
+          "keywords": [
+            "pricing",
+            "volume discount",
+            "BOM cost",
+            "scheduling agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-automation-isolation",
+      "title": "Industrial Automation Isolation Solution",
+      "slug": "industrial-automation-isolation",
+      "description": "Optocoupler-based isolation solution for industrial control and automation systems",
+      "longDescription": "This industrial automation solution provides galvanic isolation using Lite-On optocouplers for PLC interfaces, motor drives, and power supply feedback. The solution ensures reliable signal transmission in noisy industrial environments while protecting sensitive control circuitry. With high isolation voltage and fast response times, this solution meets industrial safety standards.",
+      "benefits": [
+        "High isolation voltage (3750-5000Vrms) for safety",
+        "Fast switching for high-speed signal transmission",
+        "Wide operating temperature range for industrial environments",
+        "Compact packages for space-constrained designs",
+        "Cost-effective isolation solution"
+      ],
+      "coreAdvantages": [
+        "Proven reliability in industrial applications",
+        "Multiple isolation levels to match safety requirements",
+        "High CMR (Common Mode Rejection) for noise immunity",
+        "Long-term supply stability from Lite-On",
+        "Local technical support for design optimization"
+      ],
+      "bomList": [
+        {
+          "partNumber": "LTV-817",
+          "description": "Standard Phototransistor Optocoupler",
+          "quantity": 5,
+          "category": "Optocoupler"
+        },
+        {
+          "partNumber": "LTV-356T",
+          "description": "High-speed Logic Gate Optocoupler",
+          "quantity": 3,
+          "category": "Optocoupler"
+        },
+        {
+          "partNumber": "Resistor 1k",
+          "description": "Current limiting resistor",
+          "quantity": 10,
+          "category": "Passive"
+        },
+        {
+          "partNumber": "Capacitor 100nF",
+          "description": "Decoupling capacitor",
+          "quantity": 5,
+          "category": "Passive"
+        }
+      ],
+      "technicalSpecs": {
+        "Isolation Voltage": "3750Vrms minimum",
+        "CTR Range": "50-600% depending on type",
+        "Response Time": "4-18μs typical",
+        "Operating Temperature": "-40°C to +110°C",
+        "Creepage Distance": "7mm minimum",
+        "Clearance": "7mm minimum",
+        "Safety Standards": "UL, VDE, CQC certified"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Control Manufacturer",
+          "challenge": "Needed reliable isolation for PLC I/O modules in harsh factory environment",
+          "solution": "Implemented Lite-On LTV series optocouplers with proper layout",
+          "result": "Zero field failures over 3 years, 50K+ modules deployed",
+          "feedback": "Reliable performance and excellent cost-effectiveness"
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Optocoupler selection balances isolation requirements, speed, and cost. Lite-On offers comprehensive portfolio covering all industrial needs.",
+        "keyConsiderations": "Layout is critical for achieving rated isolation voltage. maintain proper creepage and clearance. consider CMR requirements for noisy environments.",
+        "recommendation": "Use standard phototransistor types for slow signals. select high-speed types for digital communication. Ensure proper LED drive current for reliable operation."
+      },
+      "faqs": [
+        {
+          "question": "What isolation voltage do I need?",
+          "answer": "Isolation voltage requirements depend on application: Basic insulation typically requires 2500Vrms, reinforced insulation requires 5000Vrms. Industrial control often requires 3750-5000Vrms. Check relevant safety standards (IEC 61010, UL 508) for your specific application.",
+          "decisionGuide": "Determine required insulation level from safety standards. Select optocoupler with appropriate isolation rating.",
+          "keywords": [
+            "isolation voltage",
+            "basic insulation",
+            "reinforced insulation",
+            "safety standards"
+          ]
+        },
+        {
+          "question": "How do I select the right CTR?",
+          "answer": "CTR (Current Transfer Ratio) selection depends on drive capability and load requirements. Higher CTR reduces LED drive current but may have wider variation. Standard CTR (100-200%) suits most applications. Wide CTR (50-600%) offers flexibility but less precision.",
+          "decisionGuide": "Use standard CTR for typical applications. select tight CTR bins for precision requirements. design for worst-case CTR.",
+          "keywords": [
+            "CTR",
+            "current transfer ratio",
+            "LED drive",
+            "load requirements"
+          ]
+        },
+        {
+          "question": "What is the difference between phototransistor and logic gate optocouplers?",
+          "answer": "Phototransistor optocouplers (LTV-8xx) are economical with moderate speed (2-10μs). Logic gate optocouplers (LTV-3xxT) offer faster switching (0.5-4μs) and better noise immunity. Phototransistor types suit slow signals and power isolation. Logic gate types are preferred for digital communication.",
+          "decisionGuide": "Use phototransistor for slow signals and cost-sensitive designs. Use logic gate for high-speed digital and noise-critical applications.",
+          "keywords": [
+            "phototransistor",
+            "logic gate",
+            "switching speed",
+            "noise immunity"
+          ]
+        },
+        {
+          "question": "How do I ensure long-term reliability?",
+          "answer": "Long-term reliability requires: Proper LED drive current (derate for high temperature), adequate safety margins on isolation voltage, proper PCB layout for creepage/clearance, and environmental protection. Lite-On optocouplers are qualified to industrial reliability standards.",
+          "decisionGuide": "Follow datasheet recommendations. implement proper derating. contact FAE for reliability assessment.",
+          "keywords": [
+            "reliability",
+            "derating",
+            "LED current",
+            "long-term performance"
+          ]
+        },
+        {
+          "question": "What PCB layout considerations are important?",
+          "answer": "Critical layout considerations: Maintain rated creepage and clearance distances, keep input and output traces separated, use appropriate slotting for high isolation, place decoupling capacitors close to pins, avoid vias in isolation barrier region.",
+          "decisionGuide": "Follow layout guidelines in datasheet. use design rule checks for clearance verification. submit layout for FAE review.",
+          "keywords": [
+            "PCB layout",
+            "creepage",
+            "clearance",
+            "isolation barrier"
+          ]
+        },
+        {
+          "question": "What is the lead time and pricing?",
+          "answer": "Standard lead time is 6-8 weeks for most optocouplers. beiLuo maintains stock for popular types. Pricing ranges from $0.15 to $0.50 depending on type and volume. volume discounts available at 5K, 10K, and 50K+ quantities.",
+          "decisionGuide": "Check BeiLuo stock for immediate needs. plan 8-12 weeks for production volumes. contact sales for volume pricing.",
+          "keywords": [
+            "lead time",
+            "pricing",
+            "volume discount",
+            "stock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-sensing-iot",
+      "title": "Smart Sensing & IoT Solution",
+      "slug": "smart-sensing-iot",
+      "description": "Optical sensor solution for proximity detection, ambient light sensing, and gesture recognition",
+      "longDescription": "This smart sensing solution combines Lite-On optical sensors for comprehensive environmental awareness in IoT devices, smartphones, and smart home products. The solution includes proximity sensing for user detection, ambient light sensing for automatic brightness adjustment, and gesture recognition for touchless control. Low power consumption and small form factors enable battery-powered applications.",
+      "benefits": [
+        "Low power consumption for battery-powered devices",
+        "Small form factor enables compact designs",
+        "I2C interface simplifies integration",
+        "Multiple sensing functions in single package",
+        "Factory calibrated for consistent performance"
+      ],
+      "coreAdvantages": [
+        "Integrated solution reduces BOM complexity",
+        "Proven performance in smartphone applications",
+        "Flexible configuration for various use cases",
+        "Excellent supply stability from Lite-On",
+        "Comprehensive technical support from BeiLuo"
+      ],
+      "bomList": [
+        {
+          "partNumber": "LTR-659PS",
+          "description": "Proximity Sensor with VCSEL",
+          "quantity": 1,
+          "category": "Sensor"
+        },
+        {
+          "partNumber": "LTR-506ALS",
+          "description": "Ambient Light Sensor",
+          "quantity": 1,
+          "category": "Sensor"
+        },
+        {
+          "partNumber": "Microcontroller",
+          "description": "I2C host controller",
+          "quantity": 1,
+          "category": "IC"
+        },
+        {
+          "partNumber": "Resistor 10k",
+          "description": "Pull-up resistor",
+          "quantity": 4,
+          "category": "Passive"
+        }
+      ],
+      "technicalSpecs": {
+        "Proximity Range": "Up to 100mm",
+        "ALS Resolution": "16-bit",
+        "Interface": "I2C (up to 400kHz)",
+        "Supply Voltage": "2.4V to 3.6V",
+        "Operating Current": "<100μA typical (ALS)",
+        "Standby Current": "<1μA",
+        "Package": "Compact SMD"
+      },
+      "customerCases": [
+        {
+          "customer": "Smart Home Device Maker",
+          "challenge": "Needed compact proximity and light sensing for smart thermostat",
+          "solution": "Implemented LTR-659PS and LTR-506ALS with integrated algorithm",
+          "result": "Successful product launch, 200K+ units sold",
+          "feedback": "Excellent sensor performance and easy integration"
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Sensor selection balances performance, power, and size. Lite-On sensors offer optimal combination for consumer and IoT applications.",
+        "keyConsiderations": "Optical design affects proximity accuracy. window material and air gap must be considered. calibration may be needed for specific mechanical designs.",
+        "recommendation": "Use integrated proximity+ALS sensors when possible. implement proper optical isolation between TX and RX. Consider mechanical design impact on performance."
+      },
+      "faqs": [
+        {
+          "question": "What is the detection range for proximity sensors?",
+          "answer": "Detection range depends on sensor type and optical design. standard proximity sensors achieve 30-60mm range. High-power VCSEL-based sensors (LTR-659PS) can reach 100mm. Range is affected by target reflectivity, ambient light, and mechanical design.",
+          "decisionGuide": "Select sensor based on required detection distance. Consider target characteristics and mechanical constraints.",
+          "keywords": [
+            "proximity range",
+            "detection distance",
+            "VCSEL",
+            "reflectivity"
+          ]
+        },
+        {
+          "question": "How do I integrate the I2C interface?",
+          "answer": "Lite-On optical sensors use standard I2C interface (100-400kHz). Integration requires: Pull-up resistors (4.7-10kΩ) on SDA/SCL, proper I2C address configuration, interrupt pin connection for event notification, and appropriate register configuration for application.",
+          "decisionGuide": "Use standard I2C driver. implement interrupt handling for efficient operation. reference driver code available from BeiLuo.",
+          "keywords": [
+            "I2C",
+            "integration",
+            "pull-up resistor",
+            "interrupt"
+          ]
+        },
+        {
+          "question": "What power consumption can I expect?",
+          "answer": "Power consumption varies by mode: ALS only ~50-100μA, Proximity measurement ~1-3mA (pulsed), Standby <1μA. Average power depends on measurement frequency. Low-power modes available for battery applications.",
+          "decisionGuide": "Optimize measurement rate for power budget. use standby mode when sensing not needed. contact FAE for power optimization guidance.",
+          "keywords": [
+            "power consumption",
+            "low power",
+            "battery operation",
+            "standby"
+          ]
+        },
+        {
+          "question": "How does ambient light affect proximity detection?",
+          "answer": "Strong ambient light (especially IR from sunlight) can affect proximity accuracy. Lite-On sensors include ambient light rejection. Proper optical design (baffles, filters) improves performance. Dynamic range adjustment helps in varying light conditions.",
+          "decisionGuide": "Consider worst-case ambient light conditions. implement optical baffles if needed. test in actual use environment.",
+          "keywords": [
+            "ambient light",
+            "IR rejection",
+            "optical design",
+            "sunlight"
+          ]
+        },
+        {
+          "question": "What mechanical design considerations are important?",
+          "answer": "Mechanical design impacts performance: Window material must transmit IR (for proximity), minimize air gap between sensor and window, prevent light leakage between TX and RX, consider dust and moisture protection, ensure consistent mechanical alignment.",
+          "decisionGuide": "Follow mechanical design guidelines. use recommended window materials. test with production mechanical design.",
+          "keywords": [
+            "mechanical design",
+            "window material",
+            "air gap",
+            "light leakage"
+          ]
+        },
+        {
+          "question": "What support is available for algorithm development?",
+          "answer": "BeiLuo Electronics provides: Reference code for basic operation, proximity detection algorithms, ALS lux calculation, gesture recognition examples, and custom algorithm development support. Application notes cover common use cases.",
+          "decisionGuide": "Start with reference code. customize for specific application needs. contact FAE for algorithm optimization.",
+          "keywords": [
+            "algorithm",
+            "reference code",
+            "gesture recognition",
+            "lux calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-supply-management",
+      "title": "Power Supply Management Solution",
+      "slug": "power-supply-management",
+      "description": "AC-DC and DC-DC power conversion solution for industrial and consumer electronics",
+      "longDescription": "This power management solution provides efficient AC-DC and DC-DC conversion using Lite-On power modules and components. The solution covers various power levels from low-power standby supplies to high-power industrial supplies. With high efficiency, compact size, and comprehensive protection features, this solution meets requirements for industrial, consumer, and automotive applications.",
+      "benefits": [
+        "High efficiency reduces power consumption and heat",
+        "Compact form factor saves board space",
+        "Comprehensive protection features enhance reliability",
+        "Wide input voltage range for global applications",
+        "EMC compliance built-in reduces design effort"
+      ],
+      "coreAdvantages": [
+        "Proven designs with extensive field history",
+        "High power density for space-constrained applications",
+        "Excellent load and line regulation",
+        "Comprehensive safety certifications (UL, CE, CCC)",
+        "Local support for customization and optimization"
+      ],
+      "bomList": [
+        {
+          "partNumber": "PSL-12V",
+          "description": "12V AC-DC Power Module",
+          "quantity": 1,
+          "category": "Power Module"
+        },
+        {
+          "partNumber": "PSE-5V",
+          "description": "5V DC-DC Converter",
+          "quantity": 2,
+          "category": "DC-DC"
+        },
+        {
+          "partNumber": "Input Capacitor",
+          "description": "Bulk input capacitor",
+          "quantity": 2,
+          "category": "Passive"
+        },
+        {
+          "partNumber": "Output Inductor",
+          "description": "Filter inductor",
+          "quantity": 2,
+          "category": "Passive"
+        }
+      ],
+      "technicalSpecs": {
+        "Input Voltage": "85-264VAC (universal) or 12-48VDC",
+        "Output Voltage": "5V, 12V, 24V (configurable)",
+        "Output Power": "Up to 150W",
+        "Efficiency": "Up to 92%",
+        "Operating Temperature": "-25°C to +70°C",
+        "Protection": "OVP, OCP, OTP, SCP",
+        "Safety": "UL, CE, CCC, CB certified"
+      },
+      "customerCases": [
+        {
+          "customer": "Industrial Equipment Manufacturer",
+          "challenge": "Needed compact, efficient power supply for control panel",
+          "solution": "Implemented Lite-On PSL series with custom thermal design",
+          "result": "95% efficiency achieved, 30% size reduction vs previous design",
+          "feedback": "Excellent efficiency and reliability, easy integration"
+        }
+      ],
+      "faeInsights": {
+        "decisionLogic": "Power supply design balances efficiency, size, cost, and reliability. Lite-On modules offer optimized solutions for common requirements.",
+        "keyConsiderations": "Thermal management is critical for reliability. Input/output filtering affects EMC. Protection features must match application safety requirements.",
+        "recommendation": "Use integrated modules for faster time-to-market. customize only when necessary. ensure adequate thermal design margin."
+      },
+      "faqs": [
+        {
+          "question": "How do I select the right power supply?",
+          "answer": "Power supply selection considers: Output voltage and current requirements, Input voltage range (universal AC or DC), Efficiency requirements, Size constraints, Safety and EMC requirements, Environmental conditions. Lite-On offers solutions from 5W to 150W.",
+          "decisionGuide": "Define all requirements before selection. consider margin for future expansion. contact FAE for optimization recommendations.",
+          "keywords": [
+            "power supply selection",
+            "requirements",
+            "efficiency",
+            "size"
+          ]
+        },
+        {
+          "question": "What efficiency can I expect?",
+          "answer": "Efficiency varies by topology and load: AC-DC modules achieve 85-92%, DC-DC converters achieve 90-95% at full load. Efficiency is typically lower at light loads. Lite-On provides efficiency curves in datasheets for accurate estimation.",
+          "decisionGuide": "Select based on typical operating point, not just full load. Consider light-load efficiency for standby applications.",
+          "keywords": [
+            "efficiency",
+            "AC-DC",
+            "DC-DC",
+            "light load",
+            "full load"
+          ]
+        },
+        {
+          "question": "What protection features are included?",
+          "answer": "Standard protections include: Over-Voltage Protection (OVP), Over-Current Protection (OCP), Over-Temperature Protection (OTP), Short-Circuit Protection (SCP). Some models include hiccup mode, power-good signal, and remote on/off control.",
+          "decisionGuide": "Verify all required protections for your application. Consider system-level protection coordination.",
+          "keywords": [
+            "protection",
+            "OVP",
+            "OCP",
+            "OTP",
+            "SCP"
+          ]
+        },
+        {
+          "question": "How do I handle thermal management?",
+          "answer": "Thermal management depends on power level: Natural convection up to 20-30W, Forced air or heatsink for higher power, Derating required at high ambient temperatures. Lite-On provides thermal derating curves and recommendations.",
+          "decisionGuide": "Calculate thermal requirements based on actual conditions. include safety margin. contact FAE for thermal design review.",
+          "keywords": [
+            "thermal management",
+            "heatsink",
+            "derating",
+            "convection"
+          ]
+        },
+        {
+          "question": "What EMC considerations are important?",
+          "answer": "EMC compliance requires: Input filtering for conducted emissions, Proper PCB layout for radiated emissions, Shielding for sensitive applications, Output filtering for load noise. Lite-On modules include basic filtering and meet standard EMC requirements.",
+          "decisionGuide": "Start with Lite-On reference design. add filtering if needed for specific requirements. plan for EMC testing.",
+          "keywords": [
+            "EMC",
+            "EMI",
+            "filtering",
+            "conducted emissions",
+            "radiated emissions"
+          ]
+        },
+        {
+          "question": "Can power supplies be customized?",
+          "answer": "Customization options include: Non-standard output voltages, Modified protection thresholds, Custom form factors, Special connectors or mounting, Enhanced environmental rating. Custom development requires NRE and minimum volumes.",
+          "decisionGuide": "Use standard products when possible. define customization requirements clearly. contact sales for NRE and MOQ discussion.",
+          "keywords": [
+            "customization",
+            "NRE",
+            "custom voltage",
+            "special requirements"
+          ]
+        }
+      ]
+    }
+  ]
+}

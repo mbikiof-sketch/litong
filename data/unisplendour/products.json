@@ -192,7 +192,7 @@
           "faeReview": {
             "author": "Dr. Wei Zhang",
             "title": "Senior FAE - FPGA Applications",
-            "content": "The PGT180H represents Unisplendour's entry into the high-performance FPGA market, competing directly with Xilinx Zynq and Intel Arria. I've worked with customers deploying this device in 5G base stations and optical transport equipment. The integration of dual-core ARM processors with high-performance programmable fabric enables complete system-on-chip solutions. The 12.5Gbps transceivers handle CPRI and Ethernet protocols reliably. Power consumption is competitive with international alternatives. Development using Pango Design Suite has improved significantly - the tool flow is now mature enough for production designs. For customers looking for domestic FPGA solutions with high performance, the PGT180H is a compelling option.",
+            "content": "The PGT180H is Unisplendour's entry into the high-performance FPGA market, competing directly with Xilinx Zynq and Intel Arria. I've worked with customers deploying this device in 5G base stations and optical transport equipment. The integration of dual-core ARM processors with high-performance programmable fabric enables complete system-on-chip solutions. The 12.5Gbps transceivers handle CPRI and Ethernet protocols reliably. Power consumption is competitive with international alternatives. Development using Pango Design Suite has improved significantly - the tool flow is now mature enough for production designs. For customers looking for domestic FPGA solutions with high performance, the PGT180H is a compelling option.",
             "highlight": "High-performance SoC FPGA with competitive features"
           },
           "alternativeParts": [
@@ -448,8 +448,8 @@
           "faqs": [
             {
               "question": "What is the typical power consumption of PGL50H?",
-              "answer": "PGL50H power consumption varies with utilization: Static power: 150-250mW. Typical dynamic power: 1-2W for moderate designs. Maximum power: 3-4W for fully utilized devices. Power scales linearly with logic utilization and clock frequency. The device supports multiple power-down modes for power-sensitive applications. No heatsink required for most applications. Thermal analysis recommended for designs >2.5W.",
-              "decisionGuide": "Estimate power using PDS tool. No heatsink needed for typical industrial applications.",
+              "answer": "PGL50H power consumption varies with utilization: Static power: 150-250mW. Typical dynamic power: 1-2W for moderate designs. Maximum power: 3-4W for fully utilized devices. Power scales linearly with logic utilization and clock frequency. The device supports multiple power-down modes for power-sensitive applications. No heatsink is needed for most applications. Thermal analysis recommended for designs >2.5W.",
+              "decisionGuide": "Estimate power using PDS tool. No heatsink is needed for typical industrial applications.",
               "keywords": [
                 "FPGA power",
                 "low power",

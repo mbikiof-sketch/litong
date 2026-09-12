@@ -11,3 +11,15 @@ schema.json
 data/*/*_report_*.md
 data/.project-memory/*.md
 
+# Secrets (contain Cloudflare API tokens)
+deploy-batch.ps1
+deploy-batch-corrected.ps1
+deploy-direct.js
+deploy-config.js
+deploy-fix.bat
+run-wrangler.js
+CLOUDFLARE_PAGES_DEPLOY.md
+
+# Local backup of removed duplicate stub files
+_stub-backup-*/
+

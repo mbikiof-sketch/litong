@@ -512,7 +512,7 @@
           "faqs": [
             {
               "question": "What is FRAM and why is it better than Flash?",
-              "answer": "FRAM (Ferroelectric RAM) is a non-volatile memory technology with unlimited write endurance (10^15 cycles), fast write speeds (no erase needed), and low power consumption. Unlike Flash which requires erase-before-write and has limited endurance (10,000-100,000 cycles), FRAM writes at bus speed without wear-out. This makes it ideal for data logging, configuration storage, and applications requiring frequent memory updates. FRAM combines the best of Flash (non-volatile) and SRAM (fast, unlimited writes).",
+              "answer": "FRAM (Ferroelectric RAM) is a non-volatile memory technology with unlimited write endurance (10^15 cycles), fast write speeds (No erase is needed), and low power consumption. Unlike Flash which requires erase-before-write and has limited endurance (10,000-100,000 cycles), FRAM writes at bus speed without wear-out. This makes it ideal for data logging, configuration storage, and applications requiring frequent memory updates. FRAM combines the best of Flash (non-volatile) and SRAM (fast, unlimited writes).",
               "decisionGuide": "Use FRAM for applications with frequent writes. Use Flash for code storage with infrequent updates.",
               "keywords": [
                 "FRAM vs Flash",

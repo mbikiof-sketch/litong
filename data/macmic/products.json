@@ -65,7 +65,7 @@
       "selectionGuideLink": {
         "text": "PurposeMacMic IGBT ?",
         "url": "/macmic/support/how-to-select-macmic-igbt.html",
-        "description": "View SelectionGuide,  HNSeries 6TCSeries ,  Application Voltage Current ."
+        "description": "View SelectionGuide, HNSeries 6TCSeries, Application Voltage Current."
       },
       "icon": "/assets/brands/macmic/icons/igbt-modules.svg",
       "image": "/assets/brands/macmic/images/igbt-modules.jpg",
@@ -216,7 +216,7 @@
               },
               "comparison": "MMG75HB060H1A=><MMG100HB060H1A: Output current 100A > 75A (+33%), Frequency 50KHz = 50KHz ( ), Package H1A = H1A ( ), suitable for direct replacement",
               "reason": "Higher current rating (100A vs 75A) for applications requiring 33% more power handling in the same H1A package with identical switching performance",
-              "useCase": "Power ,  15kWUpgrade 20kW",
+              "useCase": "Power, 15kWUpgrade 20kW",
               "link": "/macmic/products/igbt-modules/mmg100hb060h1a.html"
             },
             {
@@ -231,7 +231,7 @@
               },
               "comparison": "MMG75HB060H1A=><MMG75HB060T1A: Output current 75A = 75A ( ), Frequency 20KHz < 50KHz ( Application), Package T1A vs H1A ( Package), suitable for direct replacement",
               "reason": "6TC series with 10% lower Vce(sat) for cost-sensitive applications where 20KHz switching is sufficient",
-              "useCase": "FrequencyRequirement DriverApplication,  10%",
+              "useCase": "FrequencyRequirement DriverApplication, 10%",
               "link": "/macmic/products/igbt-modules/mmg75hb060t1a.html"
             }
           ],
@@ -409,7 +409,7 @@
               },
               "comparison": "MMG200HB120T1A=><MMG300HB120T1A: Output current 300A > 200A (+50%), Frequency 20KHz = 20KHz ( ), Package T1A = T1A ( ), suitable for direct replacement",
               "reason": "Higher current rating (300A vs 200A) for applications requiring 50% more power in the same T1A package",
-              "useCase": "Power EVApplication,  55kWUpgrade 75kW Driver",
+              "useCase": "Power EVApplication, 55kWUpgrade 75kW Driver",
               "link": "/macmic/products/igbt-modules/mmg300hb120t1a.html"
             },
             {
@@ -422,9 +422,9 @@
                 "switchingFrequency": "Up to 50KHz",
                 "package": "H1A"
               },
-              "comparison": "MMG200HB120T1A=><MMG200HB120H1A: Output current 200A = 200A ( ), Frequency 50KHz > 20KHz (+150%,  Frequency), Package H1A vs T1A ( Package), suitable for direct replacement",
+              "comparison": "MMG200HB120T1A=><MMG200HB120H1A: Output current 200A = 200A ( ), Frequency 50KHz > 20KHz (+150%, Frequency), Package H1A vs T1A ( Package), suitable for direct replacement",
               "reason": "HN series with 50KHz switching for high-frequency applications requiring faster switching than 6TC series",
-              "useCase": "Frequency Application,  Design",
+              "useCase": "Frequency Application, Design",
               "link": "/macmic/products/igbt-modules/mmg200hb120h1a.html"
             }
           ],
@@ -551,7 +551,7 @@
             "With ultra-high current capability of 600A and low Vce(sat) of 1.8V typical, this WB package module delivers exceptional performance in high-power welding equipment and industrial inverters.",
             "The robust WB (Welding Base) package is specifically designed for high-current applications, providing excellent thermal performance and reliable operation under heavy load conditions."
           ],
-          "longDescription": "The MacMic MMG600WB060B represents the high-current capability of MacMic's IGBT module portfolio. This 600V 600A IGBT module utilizes advanced Trench Field-Stop technology to deliver low conduction losses and reliable switching performance. The ultra-high current rating of 600A makes it ideal for the most demanding applications such as high-power welding machines, large industrial inverters, and EV charging systems. The WB (Welding Base) package is specifically engineered for high-current applications, featuring robust construction and excellent thermal characteristics. With typical Vce(sat) of 1.8V, this module minimizes power dissipation even at full rated current. The module supports switching frequencies up to 15KHz, suitable for most industrial power conversion applications.",
+          "longDescription": "The MacMic MMG600WB060B is the high-current capability of MacMic's IGBT module portfolio. This 600V 600A IGBT module utilizes advanced Trench Field-Stop technology to deliver low conduction losses and reliable switching performance. The ultra-high current rating of 600A makes it ideal for the most demanding applications such as high-power welding machines, large industrial inverters, and EV charging systems. The WB (Welding Base) package is specifically engineered for high-current applications, featuring robust construction and excellent thermal characteristics. With typical Vce(sat) of 1.8V, this module minimizes power dissipation even at full rated current. The module supports switching frequencies up to 15KHz, suitable for most industrial power conversion applications.",
           "features": [
             "Ultra-high current rating: 600A continuous",
             "600V voltage rating for 400V AC systems",
@@ -935,7 +935,7 @@
       "selectionGuideLink": {
         "text": "PurposeMacMic FRED ?",
         "url": "/macmic/support/how-to-select-macmic-fred.html",
-        "description": "View SelectionGuide,  Voltage, Current RestoreFeature FRED ."
+        "description": "View SelectionGuide, Voltage, Current RestoreFeature FRED."
       },
       "icon": "/assets/brands/macmic/icons/fred-modules.svg",
       "image": "/assets/brands/macmic/images/fred-modules.jpg",
@@ -1078,7 +1078,7 @@
               },
               "comparison": "MMF100J060D1=><MMF150J060D1: Output current 150A > 100A (+50%), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Higher current rating for applications requiring 50% more current handling in the same package",
-              "useCase": "Power PFC Application,  10kWUpgrade 15kW",
+              "useCase": "Power PFC Application, 10kWUpgrade 15kW",
               "link": "/macmic/products/fred-modules/mmf150j060d1.html"
             },
             {
@@ -1092,7 +1092,7 @@
               },
               "comparison": "MMF100J060D1=><MMF100J120D1: Output current 100A = 100A ( ), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for 690V AC systems or applications requiring higher voltage margin",
-              "useCase": "690V Voltage Application,  Output",
+              "useCase": "690V Voltage Application, Output",
               "link": "/macmic/products/fred-modules/mmf100j120d1.html"
             }
           ],
@@ -1282,7 +1282,7 @@
               },
               "comparison": "MMF200J120D1=><MMF200J060D1: Output current 200A = 200A ( ), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with faster recovery time and lower cost",
-              "useCase": "400V Application,  Restore",
+              "useCase": "400V Application, Restore",
               "link": "/macmic/products/fred-modules/mmf200j060d1.html"
             }
           ],
@@ -1751,7 +1751,7 @@
               },
               "comparison": "MMF75J120U1=><MMF75J060U1: Output current 75A = 75A ( ), Package TO-247 = TO-247 ( ), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with faster recovery time and lower cost",
-              "useCase": "400V Application,  Restore",
+              "useCase": "400V Application, Restore",
               "link": "/macmic/products/power-discrete/mmf75j060u1.html"
             }
           ],
@@ -1764,7 +1764,7 @@
           "faqs": [
             {
               "question": "What are the main application scenarios for MMF75J120U1?",
-              "answer": "MMF75J120U1 is designed for Output rectifiers for VFDs, Brake chopper circuits, Anti-parallel diodes for IGBTs, PFC boost stages, DC-DC converters, Welding equipment. Its ARM core at  provides excellent processing power for real-time control and signal processing tasks. With  Flash and  RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
+              "answer": "MMF75J120U1 is designed for Output rectifiers for VFDs, Brake chopper circuits, Anti-parallel diodes for IGBTs, PFC boost stages, DC-DC converters, Welding equipment. Its ARM core at provides excellent processing power for real-time control and signal processing tasks. With Flash and RAM, it can handle complex firmware requirements including communication protocols and control algorithms. The integrated peripherals make it ideal for industrial automation, consumer electronics, and IoT applications.",
               "decisionGuide": "Contact our FAE team to discuss your specific application requirements and get recommendations on peripheral configuration.",
               "keywords": [
                 "MMF75J120U1 applications",
@@ -1774,7 +1774,7 @@
             },
             {
               "question": "How does MMF75J120U1 compare to other microcontrollers in the same class?",
-              "answer": "Compared to competitors, MMF75J120U1 offers superior price-performance ratio with its ARM core running at . The comprehensive peripheral set including Fast recovery time: 50ns typical, Low reverse recovery charge (Qrr), Soft recovery characteristic provides flexibility for various applications. MacMic Science & Technology's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The  Flash provides generous space for firmware, while the  RAM supports complex buffer requirements. Additionally, MacMic Science & Technology's long-term availability commitment ensures production continuity.",
+              "answer": "Compared to competitors, MMF75J120U1 offers superior price-performance ratio with its ARM core running at. The comprehensive peripheral set including Fast recovery time: 50ns typical, Low reverse recovery charge (Qrr), Soft recovery characteristic provides flexibility for various applications. MacMic Science & Technology's mature ecosystem including development tools, extensive code libraries, and strong technical support significantly reduces development time. The Flash provides generous space for firmware, while the RAM supports complex buffer requirements. MacMic Science & Technology's long-term availability commitment ensures production continuity.",
               "decisionGuide": "Request a detailed comparison report or schedule a technical consultation to evaluate MMF75J120U1 for your project.",
               "keywords": [
                 "MMF75J120U1 comparison",
@@ -1794,7 +1794,7 @@
             },
             {
               "question": "What are the recommended operating conditions for MMF75J120U1?",
-              "answer": "MMF75J120U1 operates at 1.8V to 3.6V supply voltage, with 3.3V being the most common configuration. The operating temperature range is -40°C to +85°C. For reliable operation at , ensure stable power supply with low ripple. The Flash memory requires proper wait state configuration based on operating frequency. When using analog peripherals, use a separate analog supply with proper filtering. The maximum GPIO output current is typically 8-25mA per pin, with a total limit for all pins. Always refer to the datasheet for detailed electrical characteristics and derating curves.",
+              "answer": "MMF75J120U1 operates at 1.8V to 3.6V supply voltage, with 3.3V being the most common configuration. The operating temperature range is -40°C to +85°C. For reliable operation at, ensure stable power supply with low ripple. The Flash memory requires proper wait state configuration based on operating frequency. When using analog peripherals, use a separate analog supply with proper filtering. The maximum GPIO output current is typically 8-25mA per pin, with a total limit for all pins. Always refer to the datasheet for detailed electrical characteristics and derating curves.",
               "decisionGuide": "Review the complete datasheet for detailed electrical characteristics or contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "MMF75J120U1 specifications",
@@ -1990,7 +1990,7 @@
               },
               "comparison": "MMO100N060Y1=><MMO100N100Y1: Output current 100A = 100A ( ), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for applications requiring more voltage margin",
-              "useCase": "Voltage Application,  72V DC-DC",
+              "useCase": "Voltage Application, 72V DC-DC",
               "link": "/macmic/products/mosfet-modules/mmo100n100y1.html"
             }
           ],
@@ -2013,7 +2013,7 @@
             },
             {
               "question": "How does MMO100N060Y1 compare to competing MOSFETs?",
-              "answer": "MMO100N060Y1 stands out with its low RDS(on) of 2.5mΩ (typ), which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of  enables efficient high-frequency switching. MacMic Science & Technology's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Additionally, MacMic Science & Technology's manufacturing quality and long-term availability commitment provide supply chain security.",
+              "answer": "MMO100N060Y1 stands out with its low RDS(on) of 2.5mΩ (typ), which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of enables efficient high-frequency switching. MacMic Science & Technology's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. MacMic Science & Technology's manufacturing quality and long-term availability commitment provide supply chain security.",
               "decisionGuide": "Request a detailed comparison report including efficiency calculations for your specific operating conditions.",
               "keywords": [
                 "MMO100N060Y1 comparison",
@@ -2075,13 +2075,13 @@
           "datasheet": "/assets/brands/macmic/datasheets/mmo200n040y1.pdf",
           "stock": "In Stock",
           "leadTime": "Same day shipping",
-          "shortDescription": "MacMic MMO200N040Y1 40V 200A MOSFET module with ultra-low 1.2mΩ RDS(on). Designed for ultra-high current synchronous ...",
+          "shortDescription": "MacMic MMO200N040Y1 40V 200A MOSFET module with ultra-low 1.2mΩ RDS(on). Designed for ultra-high current synchronous...",
           "descriptionParagraphs": [
             "The MacMic MMO200N040Y1 is an ultra-high current 40V 200A MOSFET module featuring industry-leading RDS(on) of 1.2mΩ typical.",
             "Designed for the most demanding synchronous rectification applications, this Y1 package module delivers exceptional efficiency in high-current power supplies and battery charging systems.",
             "The 40V rating is optimized for 12V and 24V output applications, while the 200A current capability supports the highest power density designs."
           ],
-          "longDescription": "The MacMic MMO200N040Y1 represents the pinnacle of MOSFET module technology for synchronous rectification. With ultra-low RDS(on) of just 1.2mΩ typical and 200A current rating, this module enables unprecedented efficiency in high-current power conversion applications. The 40V voltage rating is specifically optimized for 12V and 24V output rectifiers commonly found in server power supplies, battery charging systems, and welding equipment. Advanced chip technology minimizes both conduction and switching losses, while the Y1 package provides excellent thermal performance for continuous high-current operation. This module is ideal for applications requiring the highest power density and efficiency, such as data center power supplies, industrial battery chargers, and high-current welding power sources.",
+          "longDescription": "The MacMic MMO200N040Y1 is the pinnacle of MOSFET module technology for synchronous rectification. With ultra-low RDS(on) of just 1.2mΩ typical and 200A current rating, this module enables unprecedented efficiency in high-current power conversion applications. The 40V voltage rating is specifically optimized for 12V and 24V output rectifiers commonly found in server power supplies, battery charging systems, and welding equipment. Advanced chip technology minimizes both conduction and switching losses, while the Y1 package provides excellent thermal performance for continuous high-current operation. This module is ideal for applications requiring the highest power density and efficiency, such as data center power supplies, industrial battery chargers, and high-current welding power sources.",
           "features": [
             "Ultra-low RDS(on): 1.2mΩ typical - industry leading",
             "Ultra-high current: 200A continuous rating",
@@ -2144,7 +2144,7 @@
               },
               "comparison": "MMO200N040Y1=><MMO300N040Y1: Output current 300A > 200A (+50%), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Ultra-high current with even lower RDS(on) for extreme power applications",
-              "useCase": "CurrentApplication,  Power Pool",
+              "useCase": "CurrentApplication, Power Pool",
               "link": "/macmic/products/mosfet-modules/mmo300n040y1.html"
             }
           ],
@@ -2167,7 +2167,7 @@
             },
             {
               "question": "How does MMO200N040Y1 compare to competing MOSFETs?",
-              "answer": "MMO200N040Y1 stands out with its low RDS(on) of 1.2mΩ (typ), which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of  enables efficient high-frequency switching. MacMic Science & Technology's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. Additionally, MacMic Science & Technology's manufacturing quality and long-term availability commitment provide supply chain security.",
+              "answer": "MMO200N040Y1 stands out with its low RDS(on) of 1.2mΩ (typ), which is competitive in its voltage class. This translates to lower conduction losses and higher efficiency. The gate charge of enables efficient high-frequency switching. MacMic Science & Technology's technology provides excellent Figure of Merit (FOM). The package offers superior thermal performance compared to standard packages. MacMic Science & Technology's manufacturing quality and long-term availability commitment provide supply chain security.",
               "decisionGuide": "Request a detailed comparison report including efficiency calculations for your specific operating conditions.",
               "keywords": [
                 "MMO200N040Y1 comparison",

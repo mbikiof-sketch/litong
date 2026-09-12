@@ -167,7 +167,7 @@
         },
         {
           "question": "What performance can I expect from sensAI implementations?",
-          "answer": "Performance depends on the specific model and FPGA device. Typical results include MobileNet v2 at 30 FPS on LFD2NX-40 consuming 150mW, ResNet-18 at 15 FPS on LFD4NX-100 consuming 280mW, and Tiny YOLO at 25 FPS on LFD4NX-100 consuming 320mW. These represent 10x lower power than equivalent GPU implementations."
+          "answer": "Performance depends on the specific model and FPGA device. Typical results include MobileNet v2 at 30 FPS on LFD2NX-40 consuming 150mW, ResNet-18 at 15 FPS on LFD4NX-100 consuming 280mW, and Tiny YOLO at 25 FPS on LFD4NX-100 consuming 320mW. These is 10x lower power than equivalent GPU implementations."
         },
         {
           "question": "Do I need FPGA expertise to use sensAI?",
@@ -251,7 +251,7 @@
       "coreAdvantages": [
         {
           "title": "Hardware Root of Trust",
-          "description": "PUF technology creates a unique, unclonable device fingerprint that serves as the foundation for all security operations. This hardware-based identity cannot be copied or counterfeited, providing strong protection against cloning attacks."
+          "description": "PUF technology creates a unique, unclonable device fingerprint that is the foundation for all security operations. This hardware-based identity cannot be copied or counterfeited, providing strong protection against cloning attacks."
         },
         {
           "title": "Comprehensive Cryptography",
@@ -320,7 +320,7 @@
           "title": "Applications Engineer",
           "experience": "10+ years"
         },
-        "content": "Security implementations require a fundamentally different approach than typical FPGA designs. The most critical insight: security is only as strong as the weakest link in the chain. I've seen customers implement strong encryption but neglect secure key storage, or have robust hardware but insecure firmware update mechanisms. Lattice's Sentry stack addresses these holistically. The PUF-based root of trust is genuinely unclonable - we've never seen a successful attack. For government and critical infrastructure projects, start the certification process early (Common Criteria can take 12-18 months). Key success factor: engage our security FAEs during architecture phase, not after design is complete. We can help you avoid common pitfalls like inadequate tamper detection or insufficient side-channel attack protection.",
+        "content": "Security implementations require a different approach than typical FPGA designs. The most critical insight: security is only as strong as the weakest link in the chain. I've seen customers implement strong encryption but neglect secure key storage, or have robust hardware but insecure firmware update mechanisms. Lattice's Sentry stack addresses these holistically. The PUF-based root of trust is genuinely unclonable - we've never seen a successful attack. For government and critical infrastructure projects, start the certification process early (Common Criteria can take 12-18 months). Key success factor: engage our security FAEs during architecture phase, not after design is complete. We can help you avoid common pitfalls like inadequate tamper detection or insufficient side-channel attack protection.",
         "keyTakeaways": [
           "Security requires holistic implementation - no weak links",
           "PUF provides genuinely unclonable device identity",

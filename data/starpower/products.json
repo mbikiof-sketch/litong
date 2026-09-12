@@ -18,7 +18,7 @@
       "name": "IGBT Modules",
       "fullName": "Starpower IGBT Modules",
       "description": "Starpower IGBT modules feature advanced trench field-stop technology with voltage ratings from 600V to 1700V. These modules offer high power density, low switching losses, and excellent thermal performance for industrial drives, EVs, and renewable energy applications.",
-      "longDescription": "Starpower's IGBT module portfolio represents the company's core competency in high-power semiconductor packaging. The modules utilize advanced trench field-stop IGBT chips combined with optimized freewheeling diodes to deliver industry-leading performance. Voltage ratings span from 600V for industrial drives to 1700V for high-power renewable energy and traction applications. Current ratings range from tens to hundreds of amperes, accommodating applications from small servo drives to large MW-scale inverters. Starpower's proprietary packaging technology ensures excellent thermal management, low parasitic inductance, and high reliability under demanding operating conditions. All modules undergo comprehensive testing including static parameters, switching characteristics, and thermal cycling. As an authorized distributor, BeiLuo provides technical support for module selection, thermal design, and application optimization. As an authorized distributor, we provide comprehensive IGBT Modules selection guidance (选型指导) and technical support.",
+      "longDescription": "Starpower's IGBT module portfolio is the company's core competency in high-power semiconductor packaging. The modules utilize advanced trench field-stop IGBT chips combined with optimized freewheeling diodes to deliver industry-leading performance. Voltage ratings span from 600V for industrial drives to 1700V for high-power renewable energy and traction applications. Current ratings range from tens to hundreds of amperes, accommodating applications from small servo drives to large MW-scale inverters. Starpower's proprietary packaging technology ensures excellent thermal management, low parasitic inductance, and high reliability under demanding operating conditions. All modules undergo comprehensive testing including static parameters, switching characteristics, and thermal cycling. As an authorized distributor, BeiLuo provides technical support for module selection, thermal design, and application optimization. As an authorized distributor, we provide comprehensive IGBT Modules selection guidance (选型指导) and technical support.",
       "series": [
         {
           "name": "600V-650V IGBT Modules",
@@ -475,7 +475,13 @@
             "2SP0320T2A0-17",
             "NTC10K"
           ],
-          "slug": "gd600hft120c3s"
+          "slug": "gd600hft120c3s",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Specifications": "N/A"
+          }
         },
         {
           "partNumber": "GD450HFT120C3S",
@@ -597,7 +603,13 @@
             "2SP0320T2A0-17",
             "NTC10K"
           ],
-          "slug": "gd450hft120c3s"
+          "slug": "gd450hft120c3s",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Specifications": "N/A"
+          }
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -608,7 +620,7 @@
       "name": "SiC Modules",
       "fullName": "Starpower SiC Power Modules",
       "description": "Starpower SiC modules feature silicon carbide MOSFETs and Schottky diodes for high-frequency, high-efficiency power conversion. These modules enable system-level benefits including reduced cooling requirements, smaller passive components, and higher power density.",
-      "longDescription": "Starpower's SiC module portfolio represents the cutting edge of power semiconductor technology. Silicon carbide (SiC) offers superior material properties compared to silicon, including higher breakdown voltage, lower on-resistance, and faster switching speeds. Starpower's SiC modules combine these benefits with robust packaging technology to deliver unmatched performance in demanding applications. The modules feature SiC MOSFETs with ultra-low RDS(on) and SiC Schottky diodes with zero reverse recovery, enabling switching frequencies up to 100kHz. This allows for dramatic reductions in passive component size, filter weight, and cooling system requirements. Applications include EV charging infrastructure, solar inverters, and high-frequency power supplies where efficiency and power density are critical. As an authorized distributor, BeiLuo provides technical support for SiC module selection, gate driver design, and application optimization. As an authorized distributor, we provide comprehensive SiC Modules selection guidance (选型指导) and technical support.",
+      "longDescription": "Starpower's SiC module portfolio is the cutting edge of power semiconductor technology. Silicon carbide (SiC) offers superior material properties compared to silicon, including higher breakdown voltage, lower on-resistance, and faster switching speeds. Starpower's SiC modules combine these benefits with robust packaging technology to deliver unmatched performance in demanding applications. The modules feature SiC MOSFETs with ultra-low RDS(on) and SiC Schottky diodes with zero reverse recovery, enabling switching frequencies up to 100kHz. This allows for dramatic reductions in passive component size, filter weight, and cooling system requirements. Applications include EV charging infrastructure, solar inverters, and high-frequency power supplies where efficiency and power density are critical. As an authorized distributor, BeiLuo provides technical support for SiC module selection, gate driver design, and application optimization. As an authorized distributor, we provide comprehensive SiC Modules selection guidance (选型指导) and technical support.",
       "series": [
         {
           "name": "1200V SiC Modules",
@@ -891,7 +903,7 @@
             },
             {
               "question": "What is the short-circuit capability of GDS50M12B1?",
-              "answer": "GDS50M12B1 has limited short-circuit withstand capability compared to IGBT: (1) Short-circuit withstand time is typically 2-5μs vs 10μs for IGBT. (2) This is due to higher current density and faster thermal runaway in SiC. (3) Fast desaturation detection (<2μs) is critical for protection. (4) Soft turn-off is recommended to avoid overvoltage spikes. (5) Current limiting during startup and fault conditions is important. Starpower provides recommended protection circuits and desaturation detection guidelines. The fast switching of SiC actually helps in quickly limiting fault current.",
+              "answer": "GDS50M12B1 has limited short-circuit withstand capability compared to IGBT: (1) Short-circuit withstand time is typically 2-5μs vs 10μs for IGBT. (2) This is due to higher current density and faster thermal runaway in SiC. (3) Fast desaturation detection (<2μs) is critical for protection. (4) Soft turn-off is recommended to avoid overvoltage spikes. (5) Current limiting during startup and fault conditions is important. Starpower provides recommended protection circuits and desaturation detection guidelines. The fast switching of SiC helps in quickly limiting fault current.",
               "decisionGuide": "Contact our FAE team for short-circuit protection design and desaturation detection circuits.",
               "keywords": [
                 "GDS50M12B1 short-circuit",
@@ -934,7 +946,12 @@
             "COMP-B",
             "COMP-C"
           ],
-          "slug": "gds50m12b1"
+          "slug": "gds50m12b1",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDS200M12B2",
@@ -1056,7 +1073,12 @@
             "1EDI20N12AF",
             "NTC10K"
           ],
-          "slug": "gds200m12b2"
+          "slug": "gds200m12b2",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDS65M12B1",
@@ -1146,7 +1168,7 @@
             },
             {
               "question": "What is the short-circuit capability of GDS65M12B1?",
-              "answer": "GDS65M12B1 has limited short-circuit withstand capability typical of SiC MOSFETs: (1) Short-circuit withstand time is typically 2-5μs vs 10μs for IGBT. (2) This is due to higher current density and faster thermal runaway in SiC. (3) Fast desaturation detection (<2μs) is critical for protection. (4) Soft turn-off is recommended to avoid overvoltage spikes. (5) Current limiting during startup and fault conditions is important. Starpower provides recommended protection circuits and desaturation detection guidelines. The fast switching of SiC actually helps in quickly limiting fault current.",
+              "answer": "GDS65M12B1 has limited short-circuit withstand capability typical of SiC MOSFETs: (1) Short-circuit withstand time is typically 2-5μs vs 10μs for IGBT. (2) This is due to higher current density and faster thermal runaway in SiC. (3) Fast desaturation detection (<2μs) is critical for protection. (4) Soft turn-off is recommended to avoid overvoltage spikes. (5) Current limiting during startup and fault conditions is important. Starpower provides recommended protection circuits and desaturation detection guidelines. The fast switching of SiC helps in quickly limiting fault current.",
               "decisionGuide": "Contact our FAE team for short-circuit protection design and desaturation detection circuits.",
               "keywords": [
                 "GDS65M12B1 short-circuit",
@@ -1179,7 +1201,12 @@
             "1EDI20N12AF",
             "NTC10K"
           ],
-          "slug": "gds65m12b1"
+          "slug": "gds65m12b1",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -1516,7 +1543,12 @@
             "COMP-B",
             "COMP-C"
           ],
-          "slug": "gdm100n80"
+          "slug": "gdm100n80",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDM300N60",
@@ -1638,7 +1670,12 @@
             "BTS50080-1TEA",
             "NTC10K"
           ],
-          "slug": "gdm300n60"
+          "slug": "gdm300n60",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDM150N100",
@@ -1760,7 +1797,12 @@
             "BTS50080-1TEA",
             "NTC10K"
           ],
-          "slug": "gdm150n100"
+          "slug": "gdm150n100",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -2097,7 +2139,12 @@
             "COMP-B",
             "COMP-C"
           ],
-          "slug": "gdt100a16"
+          "slug": "gdt100a16",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDR400A12",
@@ -2219,7 +2266,12 @@
             "Thermal-Grease",
             "Mounting-Kit"
           ],
-          "slug": "gdr400a12"
+          "slug": "gdr400a12",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         },
         {
           "partNumber": "GDT200A16",
@@ -2341,7 +2393,12 @@
             "Thermal-Grease",
             "Firing-Circuit"
           ],
-          "slug": "gdt200a16"
+          "slug": "gdt200a16",
+          "specifications": {
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
+          }
         }
       ],
       "selectionGuideLink": "#selection-guide",

@@ -449,7 +449,12 @@
             "Switching Frequency": "Variable up to 100kHz",
             "Standby Power": "<30mW",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOP-7"
+            "Package": "SOP-7",
+            "MOSFET Drive": "N/A",
+            "Maximum Frequency": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Integrated 700V power MOSFET",
@@ -495,7 +500,13 @@
             "Efficiency": "Up to 94%",
             "Standby Power": "<100mW",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16"
+            "Package": "SOIC-16",
+            "Integrated MOSFET": "N/A",
+            "MOSFET Drive": "N/A",
+            "Maximum Frequency": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Active clamp reset for high efficiency",
@@ -513,7 +524,7 @@
           "faeReview": {
             "author": "Dr. Michael Chen",
             "title": "Senior FAE - Power Systems",
-            "content": "The JW1560 represents advanced AC-DC controller technology for high-power applications.",
+            "content": "The JW1560 is advanced AC-DC controller technology for high-power applications.",
             "highlight": "Advanced active clamp flyback controller"
           },
           "alternativeParts": [],
@@ -610,7 +621,8 @@
         "Current Limit",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Switch Current"
       ],
       "products": [
         {
@@ -636,7 +648,8 @@
             "Current Limit": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switch Current": "N/A"
           },
           "features": [
             "Wide 4.5V to 40V input range",
@@ -826,7 +839,8 @@
             "Load Regulation": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Switch Current": "N/A"
           },
           "features": [
             "10A continuous output current",
@@ -1010,7 +1024,14 @@
             "Efficiency": "Up to 95%",
             "Switching Frequency": "200kHz - 2MHz",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "QFN-20 EP"
+            "Package": "QFN-20 EP",
+            "Quiescent Current": "N/A",
+            "Load Regulation": "N/A",
+            "Current Limit": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Switch Current": "N/A"
           },
           "features": [
             "Wide 4.5V to 36V input range",
@@ -1050,7 +1071,14 @@
             "Efficiency": "Up to 96%",
             "Quiescent Current": "<1µA in shutdown",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "QFN-20 EP"
+            "Package": "QFN-20 EP",
+            "Output Current": "N/A",
+            "Switching Frequency": "N/A",
+            "Load Regulation": "N/A",
+            "Current Limit": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Wide 2.5V to 24V input range",
@@ -1164,7 +1192,8 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Shutdown Current"
       ],
       "products": [
         {
@@ -1190,7 +1219,8 @@
             "Package": "SOT-23-5, SOT-89",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Shutdown Current": "N/A"
           },
           "features": [
             "High 70dB PSRR at 1kHz",
@@ -1382,7 +1412,8 @@
             "Output Noise": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Shutdown Current": "N/A"
           },
           "features": [
             "1A maximum output current",
@@ -1567,7 +1598,13 @@
             "Dropout Voltage": "200mV @ 500mA",
             "Output Noise": "6µVRMS",
             "PSRR": "90dB @ 1kHz",
-            "Quiescent Current": "50µA"
+            "Quiescent Current": "50µA",
+            "Load Regulation": "N/A",
+            "Operating Temperature": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Shutdown Current": "N/A"
           },
           "features": [
             "Ultra-low 6µVRMS output noise",
@@ -1606,7 +1643,14 @@
             "Output Current": "200mA max",
             "Dropout Voltage": "250mV @ 200mA",
             "Quiescent Current": "1µA",
-            "Shutdown Current": "<0.1µA"
+            "Shutdown Current": "<0.1µA",
+            "PSRR": "N/A",
+            "Output Noise": "N/A",
+            "Load Regulation": "N/A",
+            "Operating Temperature": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Ultra-low 1µA quiescent current",
@@ -1723,7 +1767,9 @@
         "Bootstrap Voltage",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Delay Matching",
+        "Enable Input"
       ],
       "products": [
         {
@@ -1752,7 +1798,9 @@
             "Bootstrap Voltage": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Delay Matching": "N/A",
+            "Enable Input": "N/A"
           },
           "features": [
             "4A peak source/sink current",
@@ -1950,7 +1998,9 @@
             "Input Type": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Delay Matching": "N/A",
+            "Enable Input": "N/A"
           },
           "features": [
             "3A peak source/sink current",
@@ -2133,7 +2183,19 @@
             "Peak Sink Current": "6A per channel",
             "Supply Voltage Range": "4.5V - 20V",
             "Propagation Delay": "20ns",
-            "Delay Matching": "5ns between channels"
+            "Delay Matching": "5ns between channels",
+            "Rise Time": "N/A",
+            "Fall Time": "N/A",
+            "Input Type": "N/A",
+            "UVLO Threshold": "N/A",
+            "Operating Temperature": "N/A",
+            "High-Side Voltage": "N/A",
+            "Dead Time": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Enable Input": "N/A"
           },
           "features": [
             "Dual independent channels",
@@ -2171,7 +2233,19 @@
             "Peak Sink Current": "9A",
             "Supply Voltage Range": "4.5V - 20V",
             "Propagation Delay": "15ns",
-            "Enable Input": "Active high"
+            "Enable Input": "Active high",
+            "Rise Time": "N/A",
+            "Fall Time": "N/A",
+            "Input Type": "N/A",
+            "UVLO Threshold": "N/A",
+            "Operating Temperature": "N/A",
+            "High-Side Voltage": "N/A",
+            "Dead Time": "N/A",
+            "Bootstrap Voltage": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Delay Matching": "N/A"
           },
           "features": [
             "High 9A peak current",

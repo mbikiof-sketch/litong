@@ -429,7 +429,7 @@ const realSupportArticle5 = {
   author: {
     name: "Michael Chen",
     title: "Senior FAE - Power Electronics",
-    email: "michael.chen@litong.com"
+    email: "michael.chen@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

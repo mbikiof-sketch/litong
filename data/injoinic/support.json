@@ -483,7 +483,7 @@
         "",
         "Common indicator implementations:",
         "",
-        "- **4-LED System**: Each LED represents ~25% capacity",
+        "- **4-LED System**: Each LED is ~25% capacity",
         "- **Digital Display**: Shows exact percentage",
         "- **Single LED**: Different blink patterns for status",
         "",
@@ -911,7 +911,7 @@
         "thermal-design-guide"
       ],
       "faeInsights": {
-        "insight": "The most critical aspect of battery protection design that I consistently emphasize is the importance of using dedicated protection ICs rather than relying on integrated protection in power converters. While many DC-DC converters include some protection features, they are not a substitute for dedicated battery protection. The response time, accuracy, and reliability of dedicated protection ICs like IP3005 are specifically designed for battery safety. Another common issue I see is inadequate consideration of protection recovery behavior - designers need to understand how and when protection circuits reset after a fault condition. Some protections latch until power is cycled, while others auto-recover when the fault is removed. This behavior must align with your product's use cases and user experience expectations.",
+        "insight": "The most critical aspect of battery protection design that I consistently emphasize is the importance of using dedicated protection ICs rather than relying on integrated protection in power converters. While many DC-DC converters include some protection features, they are not a substitute for dedicated battery protection. The response time, accuracy, and reliability of dedicated protection ICs like IP3005 are specifically designed for battery safety. Another common issue I see is inadequate consideration of protection recovery behavior - designers need to understand how and when protection circuits reset after a fault condition. Some protections latch until power is cycled, while others auto-recover when the fault is removed. This behavior must match your product's use cases and user experience expectations.",
         "logic": "Battery protection design follows a safety-first approach: First, identify all potential fault conditions including electrical, thermal, and mechanical abuses. Second, determine appropriate protection thresholds based on cell specifications and application requirements. Third, select protection ICs with suitable features and response characteristics. Fourth, design the protection circuit including current sense, MOSFETs, and any external components. Fifth, implement temperature monitoring with appropriate sensor placement. Sixth, verify protection functionality through comprehensive testing including abuse scenarios. Finally, document all protection parameters and test results for certification.",
         "keyTakeaways": [
           "Always use dedicated battery protection ICs, never rely solely on converter protection",
@@ -1126,7 +1126,7 @@
         "- Size: Typically 30-40mm for smartphones",
         "- Inductance: Matched to transmitter",
         "- Shielding: Ferrite backing required",
-        "- Positioning: Align with transmitter coil",
+        "- Positioning: match transmitter coil",
         "",
         "### Rectification",
         "",

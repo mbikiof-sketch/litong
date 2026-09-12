@@ -269,7 +269,7 @@
           "faqs": [
             {
               "question": "What is the maximum ripple current for this capacitor?",
-              "answer": "The rated ripple current is 15A at 70°C and 10kHz frequency. At lower temperatures, higher ripple current is permissible. Refer to the derating curves in the datasheet. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The rated ripple current is 15A at 70°C and 10kHz frequency. At lower temperatures, higher ripple current is permissible. Refer to the derating curves in the datasheet. For detailed specifications and application support on faratronic C3D3K205K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications exceeding 15A ripple, consider using multiple capacitors in parallel or select a higher capacitance model.",
               "keywords": [
                 "ripple current",
@@ -279,7 +279,7 @@
             },
             {
               "question": "Can this capacitor be used in outdoor applications?",
-              "answer": "The capacitor is rated for -40°C to +105°C operation. For outdoor applications, additional enclosure protection is recommended to prevent moisture ingress and UV degradation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The capacitor is rated for -40°C to +105°C operation. For outdoor applications, additional enclosure protection is recommended to prevent moisture ingress and UV degradation. For detailed specifications and application support on faratronic C3D3K205K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For outdoor installations, use an IP65-rated enclosure and consider temperature derating for extreme climates.",
               "keywords": [
                 "outdoor use",
@@ -289,7 +289,7 @@
             },
             {
               "question": "What is the expected lifetime at 85°C operation?",
-              "answer": "Lifetime follows the Arrhenius equation. At 85°C, expected lifetime is approximately 50,000 hours. Every 10°C reduction doubles the lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Lifetime follows the Arrhenius equation. At 85°C, expected lifetime is approximately 50,000 hours. Every 10°C reduction doubles the lifetime. For detailed specifications and application support on faratronic C3D3K205K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For maximum lifetime, operate at lowest practical temperature and voltage. Consider forced air cooling for high-temperature environments.",
               "keywords": [
                 "capacitor lifetime",
@@ -299,7 +299,7 @@
             },
             {
               "question": "Is this capacitor suitable for EV charging applications?",
-              "answer": "Yes, this capacitor is suitable for Level 2 EV charging stations. The 600V rating and high ripple current capability meet typical 7-22kW charger requirements. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, this capacitor is suitable for Level 2 EV charging stations. The 600V rating and high ripple current capability meet typical 7-22kW charger requirements. For detailed specifications and application support on faratronic C3D3K205K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For EV charging, verify the specific voltage and ripple requirements of your design. Contact our FAE team for EV application support.",
               "keywords": [
                 "EV charging",
@@ -309,7 +309,7 @@
             },
             {
               "question": "What mounting orientation is recommended?",
-              "answer": "Vertical mounting with terminals up is recommended for optimal heat dissipation. Horizontal mounting is acceptable but may require slight derating. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Vertical mounting with terminals up is recommended for optimal heat dissipation. Horizontal mounting is acceptable but may require slight derating. For detailed specifications and application support on faratronic C3D3K205K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Mount vertically in well-ventilated areas. Ensure adequate clearance around the capacitor for heat dissipation.",
               "keywords": [
                 "mounting orientation",
@@ -432,7 +432,7 @@
           "faqs": [
             {
               "question": "What is the lead spacing for the snap-in terminals?",
-              "answer": "The snap-in terminals have 10mm lead spacing, compatible with standard PCB hole patterns for snap-in capacitors. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The snap-in terminals have 10mm lead spacing, compatible with standard PCB hole patterns for snap-in capacitors. For detailed specifications and application support on faratronic C3D3K475K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Ensure your PCB layout uses 10mm hole spacing for proper fit. Contact our FAE team for mechanical drawings.",
               "keywords": [
                 "lead spacing",
@@ -442,7 +442,7 @@
             },
             {
               "question": "Can this capacitor be used for PFC output filtering?",
-              "answer": "Yes, the 4.7uF/600V rating is well-suited for PFC output filtering in 500-1500W power supplies. The low ESR helps minimize switching losses. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 4.7uF/600V rating is well-suited for PFC output filtering in 500-1500W power supplies. The low ESR helps minimize switching losses. For detailed specifications and application support on faratronic C3D3K475K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For PFC applications, verify the hold-up time and ripple current requirements match this capacitor's specifications.",
               "keywords": [
                 "PFC capacitor",
@@ -452,7 +452,7 @@
             },
             {
               "question": "What is the insulation resistance of this capacitor?",
-              "answer": "Insulation resistance exceeds 30,000 MΩ at 20°C and 100V DC test voltage, indicating excellent dielectric quality. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Insulation resistance exceeds 30,000 MΩ at 20°C and 100V DC test voltage, indicating excellent dielectric quality. For detailed specifications and application support on faratronic C3D3K475K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "High insulation resistance ensures low leakage current, important for standby power requirements.",
               "keywords": [
                 "insulation resistance",
@@ -462,7 +462,7 @@
             },
             {
               "question": "Is this capacitor vibration resistant?",
-              "answer": "The capacitor meets IEC 60068-2-6 vibration test standards, suitable for industrial applications with moderate vibration levels. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The capacitor meets IEC 60068-2-6 vibration test standards, suitable for industrial applications with moderate vibration levels. For detailed specifications and application support on faratronic C3D3K475K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For high-vibration environments, ensure proper mechanical mounting and consider additional support.",
               "keywords": [
                 "vibration resistance",
@@ -472,7 +472,7 @@
             },
             {
               "question": "What is the dissipation factor at 1kHz?",
-              "answer": "The dissipation factor (tan δ) is typically less than 0.001 (0.1%) at 1kHz and 20°C, indicating very low losses. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The dissipation factor (tan δ) is typically less than 0.001 (0.1%) at 1kHz and 20°C, indicating very low losses. For detailed specifications and application support on faratronic C3D3K475K6AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Low dissipation factor means minimal self-heating, allowing higher ripple current capability.",
               "keywords": [
                 "dissipation factor",
@@ -569,7 +569,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on faratronic CBB21 105J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -578,7 +578,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on faratronic CBB21 105J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -587,7 +587,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on faratronic CBB21 105J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -596,7 +596,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on faratronic CBB21 105J400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -605,7 +605,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on faratronic CBB21 105J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -701,7 +701,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on faratronic CBB21 155J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -710,7 +710,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on faratronic CBB21 155J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -719,7 +719,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on faratronic CBB21 155J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -728,7 +728,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on faratronic CBB21 155J400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -737,7 +737,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on faratronic CBB21 155J400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -765,7 +765,9 @@
         "Insulation Resistance",
         "Safety Approvals",
         "Impulse Voltage",
-        "Current Rating"
+        "Current Rating",
+        "Safety Class",
+        "Pulse Current"
       ],
       "series": [
         "MKP-X2",
@@ -856,7 +858,9 @@
             "Insulation Resistance": ">15000 MΩ",
             "Safety Approvals": "UL, VDE, ENEC, CQC",
             "Impulse Voltage": "N/A",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Safety Class": "N/A",
+            "Pulse Current": "N/A"
           },
           "features": [
             "X2 safety rated for across-line use",
@@ -948,7 +952,7 @@
           "faqs": [
             {
               "question": "Can this capacitor be used for 120V AC applications?",
-              "answer": "Yes, the 275V AC rating is suitable for both 120V and 240V AC applications. The higher voltage rating provides additional safety margin for 120V systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 275V AC rating is suitable for both 120V and 240V AC applications. The higher voltage rating provides additional safety margin for 120V systems. For detailed specifications and application support on faratronic MKP-X2-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For universal input power supplies (90-264V AC), X2 275V capacitors are the standard choice.",
               "keywords": [
                 "120V AC",
@@ -958,7 +962,7 @@
             },
             {
               "question": "What is the pulse capability of this capacitor?",
-              "answer": "The capacitor can withstand high peak pulse currents typical of switch-mode power supply applications. The exact rating depends on pulse waveform and repetition rate. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The capacitor can withstand high peak pulse currents typical of switch-mode power supply applications. The exact rating depends on pulse waveform and repetition rate. For detailed specifications and application support on faratronic MKP-X2-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications with high inrush currents, verify pulse capability with our FAE team.",
               "keywords": [
                 "pulse capability",
@@ -968,7 +972,7 @@
             },
             {
               "question": "Is this capacitor suitable for outdoor lighting applications?",
-              "answer": "The -40°C to +110°C temperature range suits outdoor applications. Additional enclosure protection is recommended for direct exposure to moisture. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The -40°C to +110°C temperature range suits outdoor applications. Additional enclosure protection is recommended for direct exposure to moisture. For detailed specifications and application support on faratronic MKP-X2-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For outdoor LED drivers, ensure adequate IP rating of the complete fixture to protect the capacitor.",
               "keywords": [
                 "outdoor lighting",
@@ -978,7 +982,7 @@
             },
             {
               "question": "What is the capacitance tolerance over temperature?",
-              "answer": "Capacitance change is within ±10% from -40°C to +110°C, with typical drift of -2% to +5% over the temperature range. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Capacitance change is within ±10% from -40°C to +110°C, with typical drift of -2% to +5% over the temperature range. For detailed specifications and application support on faratronic MKP-X2-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications requiring tight capacitance tolerance, consider temperature effects in the design.",
               "keywords": [
                 "temperature drift",
@@ -988,7 +992,7 @@
             },
             {
               "question": "Can multiple capacitors be paralleled for higher capacitance?",
-              "answer": "Yes, X2 capacitors can be paralleled to achieve higher capacitance values. Ensure proper PCB layout to minimize inductance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, X2 capacitors can be paralleled to achieve higher capacitance values. Ensure proper PCB layout to minimize inductance. For detailed specifications and application support on faratronic MKP-X2-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For parallel connection, keep traces short and symmetrical to maintain balanced current sharing.",
               "keywords": [
                 "parallel connection",
@@ -1018,7 +1022,9 @@
             "Dissipation Factor": "<0.001 @ 1kHz",
             "Insulation Resistance": ">10000 MΩ",
             "Safety Approvals": "UL, VDE, ENEC, CQC",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Safety Class": "N/A",
+            "Pulse Current": "N/A"
           },
           "features": [
             "Y2 safety rated for line-to-ground",
@@ -1110,7 +1116,7 @@
           "faqs": [
             {
               "question": "What is the maximum leakage current with this capacitor?",
-              "answer": "At 250V AC 50Hz, leakage current is approximately 0.35mA. Total device leakage must comply with safety standards (typically <0.25mA for Class II, <3.5mA for Class I). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 250V AC 50Hz, leakage current is approximately 0.35mA. Total device leakage must comply with safety standards (typically <0.25mA for Class II, <3.5mA for Class I). For detailed specifications and application support on faratronic MKP-Y2-2200pF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate total leakage current for all Y capacitors in your design. Consider using lower capacitance if leakage limits are strict.",
               "keywords": [
                 "leakage current",
@@ -1120,7 +1126,7 @@
             },
             {
               "question": "Can Y2 capacitors fail short circuit?",
-              "answer": "Y2 capacitors are designed with self-healing properties and should not fail short under normal conditions. Safety standards require that any failure be open-circuit or high-resistance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Y2 capacitors are designed with self-healing properties and should not fail short under normal conditions. Safety standards require that any failure be open-circuit or high-resistance. For detailed specifications and application support on faratronic MKP-Y2-2200pF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For critical safety applications, specify Y2 capacitors from reputable manufacturers with full safety certifications.",
               "keywords": [
                 "failure mode",
@@ -1130,7 +1136,7 @@
             },
             {
               "question": "What is the difference between Y1 and Y2 capacitors?",
-              "answer": "Y1 capacitors are rated for 500V AC and provide basic insulation. Y2 capacitors are rated for 250V AC and provide reinforced or double insulation. Y2 is more common in 230V applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Y1 capacitors are rated for 500V AC and provide basic insulation. Y2 capacitors are rated for 250V AC and provide reinforced or double insulation. Y2 is more common in 230V applications. For detailed specifications and application support on faratronic MKP-Y2-2200pF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For 230V AC applications, Y2 capacitors are typically sufficient. Use Y1 only if specifically required by your safety agency.",
               "keywords": [
                 "Y1 vs Y2",
@@ -1140,7 +1146,7 @@
             },
             {
               "question": "How do I test Y2 capacitors for safety compliance?",
-              "answer": "Y2 capacitors require impulse voltage testing at 5kV and AC voltage testing at 1500V. These tests verify insulation integrity and are performed during manufacturing. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Y2 capacitors require impulse voltage testing at 5kV and AC voltage testing at 1500V. These tests verify insulation integrity and are performed during manufacturing. For detailed specifications and application support on faratronic MKP-Y2-2200pF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For incoming inspection, verify capacitance, dissipation factor, and insulation resistance. Full safety testing requires specialized equipment.",
               "keywords": [
                 "safety testing",
@@ -1150,7 +1156,7 @@
             },
             {
               "question": "Can Y2 capacitors be used in series for higher voltage?",
-              "answer": "No, Y2 capacitors should not be used in series for voltage sharing. Safety standards require each Y capacitor to be rated for the full line-to-ground voltage. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "No, Y2 capacitors should not be used in series for voltage sharing. Safety standards require each Y capacitor to be rated for the full line-to-ground voltage. For detailed specifications and application support on faratronic MKP-Y2-2200pF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage applications, select appropriately rated Y capacitors rather than series connection.",
               "keywords": [
                 "series connection",
@@ -1178,7 +1184,12 @@
             "Safety Class": "X2",
             "Dissipation Factor": "≤0.0010 (1kHz)",
             "Insulation Resistance": "≥15000MΩ",
-            "Pulse Current": "High pulse current capable"
+            "Pulse Current": "High pulse current capable",
+            "DC Voltage": "N/A",
+            "Dimensions": "N/A",
+            "Safety Approvals": "N/A",
+            "Impulse Voltage": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "X2 safety classification",
@@ -1276,7 +1287,12 @@
             "Safety Class": "X2",
             "Dissipation Factor": "≤0.0010 (1kHz)",
             "Insulation Resistance": "≥10000MΩ",
-            "Pulse Current": "Very high pulse current capable"
+            "Pulse Current": "Very high pulse current capable",
+            "DC Voltage": "N/A",
+            "Dimensions": "N/A",
+            "Safety Approvals": "N/A",
+            "Impulse Voltage": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "1.0uF high capacitance",
@@ -1557,7 +1573,7 @@
             },
             {
               "question": "Is this capacitor suitable for 800V EV systems?",
-              "answer": "The 900V rating is marginal for 800V systems which typically operate at 850-900V. For 800V applications, consider the 1200V rated version (C3A3K106K12AHA01). For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The 900V rating is marginal for 800V systems which typically operate at 850-900V. For 800V applications, consider the 1200V rated version (C3A3K106K12AHA01). For detailed specifications and application support on faratronic C3A3K106K9AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For 800V EV systems, use 1200V rated capacitors to ensure adequate voltage margin and long-term reliability.",
               "keywords": [
                 "800V EV",
@@ -1567,7 +1583,7 @@
             },
             {
               "question": "What is the expected lifetime in automotive applications?",
-              "answer": "At 105°C and rated voltage, lifetime is 100,000 hours. In typical automotive under-hood conditions (80-90°C), expected lifetime exceeds 200,000 hours. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 105°C and rated voltage, lifetime is 100,000 hours. In typical automotive under-hood conditions (80-90°C), expected lifetime exceeds 200,000 hours. For detailed specifications and application support on faratronic C3A3K106K9AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended vehicle lifetime requirements, consider operating at reduced voltage and temperature.",
               "keywords": [
                 "lifetime",
@@ -1577,7 +1593,7 @@
             },
             {
               "question": "Can this capacitor withstand automotive load dump conditions?",
-              "answer": "The 900V rating provides margin for load dump transients which can reach 100-150V above nominal battery voltage. Additional TVS protection is recommended. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The 900V rating provides margin for load dump transients which can reach 100-150V above nominal battery voltage. Additional TVS protection is recommended. For detailed specifications and application support on faratronic C3A3K106K9AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For load dump protection, combine capacitor voltage rating with appropriate TVS diodes for complete protection.",
               "keywords": [
                 "load dump",
@@ -1587,7 +1603,7 @@
             },
             {
               "question": "What is the change control process for automotive capacitors?",
-              "answer": "Automotive capacitors require PCN (Process Change Notification) per AEC-Q200. Customers receive advance notification of any process or material changes. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Automotive capacitors require PCN (Process Change Notification) per AEC-Q200. Customers receive advance notification of any process or material changes. For detailed specifications and application support on faratronic C3A3K106K9AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For automotive production, ensure your supplier has robust change control processes. Faratronic provides 90-day PCN for automotive parts.",
               "keywords": [
                 "change control",
@@ -1713,7 +1729,7 @@
           "faqs": [
             {
               "question": "Is this capacitor suitable for 48V mild-hybrid systems?",
-              "answer": "Yes, the 275V AC rating provides excellent margin for 48V systems. The capacitor can safely handle voltage transients typical of 48V automotive electrical systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 275V AC rating provides excellent margin for 48V systems. The capacitor can safely handle voltage transients typical of 48V automotive electrical systems. For detailed specifications and application support on faratronic MKP-AEC-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For 48V applications, this X2 capacitor provides both EMI filtering and adequate voltage margin for safe operation.",
               "keywords": [
                 "48V system",
@@ -1733,7 +1749,7 @@
             },
             {
               "question": "Can this capacitor be used in safety-critical automotive applications?",
-              "answer": "Yes, the X2 safety rating and AEC-Q200 qualification make this capacitor suitable for safety-critical applications. It meets the reliability and safety requirements for automotive use. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the X2 safety rating and AEC-Q200 qualification make this capacitor suitable for safety-critical applications. It meets the reliability and safety requirements for automotive use. For detailed specifications and application support on faratronic MKP-AEC-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For safety-critical applications, ensure complete documentation including FMEA and safety analysis is available.",
               "keywords": [
                 "safety critical",
@@ -1743,7 +1759,7 @@
             },
             {
               "question": "What is the moisture sensitivity level of this capacitor?",
-              "answer": "Automotive X2 capacitors are MSL 1 (unlimited floor life) due to their hermetic sealing and robust construction. No special handling is required. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Automotive X2 capacitors are MSL 1 (unlimited floor life) due to their hermetic sealing and robust construction. No special handling is required. For detailed specifications and application support on faratronic MKP-AEC-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "MSL 1 rating simplifies manufacturing - no baking or special storage required before soldering.",
               "keywords": [
                 "MSL",
@@ -1753,7 +1769,7 @@
             },
             {
               "question": "Are automotive capacitors more expensive than commercial grade?",
-              "answer": "Yes, automotive grade capacitors typically cost 20-30% more due to additional testing, qualification, documentation, and traceability requirements. The cost is justified by the higher reliability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, automotive grade capacitors typically cost 20-30% more due to additional testing, qualification, documentation, and traceability requirements. The cost is justified by the higher reliability. For detailed specifications and application support on faratronic MKP-AEC-0.47uF-275V, refer to the datasheet or contact our team.",
               "decisionGuide": "For automotive applications, the additional cost of AEC-Q200 qualified parts is necessary to ensure reliability and avoid field failures.",
               "keywords": [
                 "cost difference",
@@ -1780,7 +1796,15 @@
             "Package": "Radial",
             "Qualification": "AEC-Q200",
             "Dissipation Factor": "≤0.008 (1kHz)",
-            "Insulation Resistance": "≥30000MΩ"
+            "Insulation Resistance": "≥30000MΩ",
+            "Ripple Current": "N/A",
+            "ESR": "N/A",
+            "Lifetime": "N/A",
+            "Terminals": "N/A",
+            "Dimensions": "N/A",
+            "Vibration": "N/A",
+            "DC Voltage": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "AEC-Q200 qualified",
@@ -1856,7 +1880,15 @@
             "Package": "Radial",
             "Qualification": "AEC-Q200",
             "Dissipation Factor": "≤0.008 (1kHz)",
-            "Insulation Resistance": "≥15000MΩ"
+            "Insulation Resistance": "≥15000MΩ",
+            "Ripple Current": "N/A",
+            "ESR": "N/A",
+            "Lifetime": "N/A",
+            "Terminals": "N/A",
+            "Dimensions": "N/A",
+            "Vibration": "N/A",
+            "DC Voltage": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "220nF capacitance",
@@ -1932,7 +1964,11 @@
         "Terminals",
         "Dimensions",
         "Mounting",
-        "Current Rating"
+        "Current Rating",
+        "Lead Style",
+        "dV/dt",
+        "Dissipation Factor",
+        "Insulation Resistance"
       ],
       "series": [
         "C3P",
@@ -2024,7 +2060,11 @@
             "Terminals": "M12 threaded studs",
             "Dimensions": "86mm dia × 150mm L",
             "Mounting": "Bottom stud M16",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Lead Style": "N/A",
+            "dV/dt": "N/A",
+            "Dissipation Factor": "N/A",
+            "Insulation Resistance": "N/A"
           },
           "features": [
             "High capacitance 50uF",
@@ -2116,7 +2156,7 @@
           "faqs": [
             {
               "question": "What is the maximum switching frequency for this capacitor?",
-              "answer": "The capacitor is suitable for switching frequencies up to 50kHz. Above this frequency, ESL effects become significant. For higher frequencies, consider multiple smaller capacitors in parallel. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The capacitor is suitable for switching frequencies up to 50kHz. Above this frequency, ESL effects become significant. For higher frequencies, consider multiple smaller capacitors in parallel. For detailed specifications and application support on faratronic C3P3K506K11AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For SiC-based inverters with >50kHz switching, use parallel capacitors to reduce effective ESL.",
               "keywords": [
                 "switching frequency",
@@ -2126,7 +2166,7 @@
             },
             {
               "question": "Can this capacitor be used for regenerative drives?",
-              "answer": "Yes, the 1100V rating provides adequate margin for regenerative drives where DC bus voltage can rise during braking. The capacitor handles bidirectional ripple current. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, the 1100V rating provides adequate margin for regenerative drives where DC bus voltage can rise during braking. The capacitor handles bidirectional ripple current. For detailed specifications and application support on faratronic C3P3K506K11AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For regenerative applications, verify the maximum DC bus voltage during braking does not exceed capacitor rating.",
               "keywords": [
                 "regenerative drive",
@@ -2136,7 +2176,7 @@
             },
             {
               "question": "What is the expected lifetime at 90°C operation?",
-              "answer": "At 90°C, expected lifetime is approximately 70,000 hours. Lifetime doubles for every 10°C decrease in temperature. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "At 90°C, expected lifetime is approximately 70,000 hours. Lifetime doubles for every 10°C decrease in temperature. For detailed specifications and application support on faratronic C3P3K506K11AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended lifetime, ensure adequate cooling to keep capacitor temperature below 85°C.",
               "keywords": [
                 "lifetime",
@@ -2146,7 +2186,7 @@
             },
             {
               "question": "Is forced air cooling required for this capacitor?",
-              "answer": "Natural convection is sufficient for ripple currents up to 35A. For higher currents or elevated ambient temperatures, forced air cooling is recommended. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Natural convection is sufficient for ripple currents up to 35A. For higher currents or elevated ambient temperatures, forced air cooling is recommended. For detailed specifications and application support on faratronic C3P3K506K11AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate thermal rise and implement cooling if capacitor surface temperature exceeds 85°C.",
               "keywords": [
                 "cooling",
@@ -2156,7 +2196,7 @@
             },
             {
               "question": "What is the discharge time constant with this capacitor?",
-              "answer": "Discharge time depends on load resistance. With 100kΩ bleeder resistor, discharge to 37V (safe voltage) takes approximately 90 seconds from 1000V. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Discharge time depends on load resistance. With 100kΩ bleeder resistor, discharge to 37V (safe voltage) takes approximately 90 seconds from 1000V. For detailed specifications and application support on faratronic C3P3K506K11AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Size bleeder resistors to meet safety discharge time requirements (typically <60 seconds to 50V).",
               "keywords": [
                 "discharge time",
@@ -2186,7 +2226,11 @@
             "Terminals": "M12 threaded studs",
             "Dimensions": "75mm dia × 140mm L",
             "Mounting": "Bottom stud M16",
-            "Current Rating": "N/A"
+            "Current Rating": "N/A",
+            "Lead Style": "N/A",
+            "dV/dt": "N/A",
+            "Dissipation Factor": "N/A",
+            "Insulation Resistance": "N/A"
           },
           "features": [
             "Ultra-high voltage 2000V DC",
@@ -2278,7 +2322,7 @@
           "faqs": [
             {
               "question": "What safety precautions are required for 2000V capacitors?",
-              "answer": "2000V capacitors require proper safety clearances (minimum 25mm), safety interlocks, discharge circuits, and warning labels. Only qualified personnel should work on high-voltage equipment. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "2000V capacitors require proper safety clearances (minimum 25mm), safety interlocks, discharge circuits, and warning labels. Only qualified personnel should work on high-voltage equipment. For detailed specifications and application support on faratronic C3P3K206K20AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "Follow all applicable electrical safety standards and regulations for high-voltage equipment design and operation.",
               "keywords": [
                 "safety",
@@ -2289,7 +2333,7 @@
             },
             {
               "question": "Can this capacitor be used at altitudes above 2000m?",
-              "answer": "Standard capacitors are rated to 2000m altitude. For higher altitudes, voltage derating is required (typically 10% per 1000m above 2000m) due to reduced air insulation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard capacitors are rated to 2000m altitude. For higher altitudes, voltage derating is required (typically 10% per 1000m above 2000m) due to reduced air insulation. For detailed specifications and application support on faratronic C3P3K206K20AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For high-altitude installations, contact our FAE team for altitude derating guidelines and recommendations.",
               "keywords": [
                 "altitude",
@@ -2299,7 +2343,7 @@
             },
             {
               "question": "What is the insulation resistance at 2000V?",
-              "answer": "Insulation resistance exceeds 10,000 MΩ at 20°C when measured at 1000V DC test voltage. At operating voltage, leakage current is minimal. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Insulation resistance exceeds 10,000 MΩ at 20°C when measured at 1000V DC test voltage. At operating voltage, leakage current is minimal. For detailed specifications and application support on faratronic C3P3K206K20AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "High insulation resistance ensures minimal power loss and reliable long-term operation.",
               "keywords": [
                 "insulation resistance",
@@ -2309,7 +2353,7 @@
             },
             {
               "question": "Is partial discharge a concern with this capacitor?",
-              "answer": "Faratronic power capacitors are designed and tested for low partial discharge (<10pC) at rated voltage. This ensures long-term reliability in high-voltage applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Faratronic power capacitors are designed and tested for low partial discharge (<10pC) at rated voltage. This ensures long-term reliability in high-voltage applications. For detailed specifications and application support on faratronic C3P3K206K20AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For critical high-voltage applications, specify capacitors with partial discharge testing and certification.",
               "keywords": [
                 "partial discharge",
@@ -2319,7 +2363,7 @@
             },
             {
               "question": "What is the series inductance and how does it affect performance?",
-              "answer": "ESL is typically 20-25nH. At high switching frequencies (>20kHz), ESL can cause voltage spikes. Use multiple capacitors in parallel to reduce effective ESL. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "ESL is typically 20-25nH. At high switching frequencies (>20kHz), ESL can cause voltage spikes. Use multiple capacitors in parallel to reduce effective ESL. For detailed specifications and application support on faratronic C3P3K206K20AHA01, refer to the datasheet or contact our team.",
               "decisionGuide": "For high-frequency applications, parallel multiple capacitors and minimize connection inductance with proper PCB layout.",
               "keywords": [
                 "ESL",
@@ -2347,7 +2391,15 @@
             "Package": "Cylindrical",
             "dV/dt": "High dV/dt capable",
             "Dissipation Factor": "≤0.0010 (1kHz)",
-            "Insulation Resistance": "≥30000MΩ"
+            "Insulation Resistance": "≥30000MΩ",
+            "Ripple Current": "N/A",
+            "ESR": "N/A",
+            "ESL": "N/A",
+            "Lifetime": "N/A",
+            "Terminals": "N/A",
+            "Dimensions": "N/A",
+            "Mounting": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "2000V high voltage rating",
@@ -2428,7 +2480,15 @@
             "Package": "Cylindrical",
             "dV/dt": "Very high dV/dt capable",
             "Dissipation Factor": "≤0.0010 (1kHz)",
-            "Insulation Resistance": "≥15000MΩ"
+            "Insulation Resistance": "≥15000MΩ",
+            "Ripple Current": "N/A",
+            "ESR": "N/A",
+            "ESL": "N/A",
+            "Lifetime": "N/A",
+            "Terminals": "N/A",
+            "Dimensions": "N/A",
+            "Mounting": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "0.22uF higher capacitance",

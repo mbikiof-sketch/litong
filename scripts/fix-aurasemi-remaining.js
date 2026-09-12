@@ -443,7 +443,7 @@ supportJson.articles.forEach(article => {
       },
       {
         "question": "How do I request technical support?",
-        "answer": "LiTong provides multiple channels for technical support: (1) Contact your local FAE directly; (2) Email technical support at support@litong.com; (3) Call the technical hotline; (4) Submit a support request through the website. For complex design questions, schedule a meeting with our FAE team. We typically respond within 24 hours.",
+        "answer": "LiTong provides multiple channels for technical support: (1) Contact your local FAE directly; (2) Email technical support at support@BeiLuo.com; (3) Call the technical hotline; (4) Submit a support request through the website. For complex design questions, schedule a meeting with our FAE team. We typically respond within 24 hours.",
         "decisionGuide": "Contact FAE directly or email support for technical assistance.",
         "keywords": ["technical support", "FAE contact", "design support"]
       },

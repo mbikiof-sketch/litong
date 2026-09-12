@@ -426,7 +426,7 @@ const realSupportArticle5 = {
   author: {
     name: "Li Ming",
     title: "Senior FAE - Analog",
-    email: "li.ming@litong.com"
+    email: "li.ming@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

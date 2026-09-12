@@ -653,7 +653,7 @@ const realSupportArticle5 = {
   author: {
     name: "Robert Zhang",
     title: "Senior FAE - MCU Applications",
-    email: "robert.zhang@litong.com"
+    email: "robert.zhang@BeiLuo.com"
   },
   date: "2024-01-15",
   publishDate: "2024-01-15",

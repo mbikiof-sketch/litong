@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for realtek distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for realtek RTL8111H Gigabit Ethernet controller, RTL8821CE Wi-Fi Bluetooth combo, RTL8852BE Wi-Fi 6 card. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is Realtek Semiconductor vs Realtek vs Intel Ethernet vs Wi-Fi 6 vs Wi-Fi 6E comparison vs how to choose Ethernet controller. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for realtek USB interface chips covering RTL8111H Gigabit Ethernet controller, RTL8821CE Wi-Fi Bluetooth combo, RTL8852BE Wi-Fi 6 card, ALC897 audio codec."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What is the difference between RTL8821CE and RTL8852BE?; Which Realtek Ethernet supports 2.5GbE?; How to install Realtek audio driver?; What is the difference between consumer and industrial Ethernet?; Does Realtek support Wi-Fi 7?; What audio codec is best for gaming?; How to choose between USB and PCIe Ethernet?; Does Realtek have automotive Ethernet solutions?; How to troubleshoot Realtek Ethernet connection issues?; What is the difference between RTL8111H and RTL8111EP-CG?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for realtek distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for realtek distributor with Product and Organization types."
+    }
+  ]
+}

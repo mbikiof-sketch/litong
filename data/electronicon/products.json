@@ -79,10 +79,10 @@
       "description": "Electronicon DC-link capacitors are specifically designed for DC bus applications in power electronics. These dry-filled film capacitors feature self-healing properties, high ripple current capability, and long operational lifetime.",
       "longDescription": "Electronicon DC-link capacitors are specifically designed for DC bus applications in power electronics. These dry-filled film capacitors feature self-healing properties, high ripple current capability, and long operational lifetime. Available in voltages from 400V to 6000V DC with capacitance values from 10uF to 5000uF, they are ideal for inverters, converters, motor drives, and renewable energy systems. The robust construction and German engineering ensure reliable performance in demanding industrial environments. As an authorized Electronicon distributor, we provide technical support and selection guidance for DC-link capacitor applications.",
       "series": [
-        "E50.N11",
-        "E50.N13",
-        "E50.N23",
-        "E50.N30"
+        "E50. N11",
+        "E50. N13",
+        "E50. N23",
+        "E50. N30"
       ],
       "parameters": [
         "Capacitance",
@@ -96,7 +96,8 @@
         "Weight",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Ripple Current"
       ],
       "applications": [
         "Solar Inverters",
@@ -170,11 +171,11 @@
       ],
       "products": [
         {
-          "partNumber": "E50.N13-474.NT0",
+          "partNumber": "E50. N13-474. NT0",
           "name": "DC-Link Capacitor 470uF 1100V",
-          "shortDescription": "Electronicon E50.N13-474.NT0 470uF 1100V DC-link capacitor with high ripple current capability for industrial inverters.",
+          "shortDescription": "Electronicon E50. N13-474. NT0 470uF 1100V DC-link capacitor with high ripple current capability for industrial inverters.",
           "descriptionParagraphs": [
-            "The E50.N13-474.NT0 is a high-performance DC-link capacitor designed for demanding power electronics applications.",
+            "The E50. N13-474. NT0 is a high-performance DC-link capacitor designed for demanding power electronics applications.",
             "Featuring Electronicon's dry filling technology and self-healing properties for exceptional reliability and long lifetime.",
             "Ideal for solar inverters, motor drives, and industrial power supplies requiring high ripple current handling."
           ],
@@ -190,7 +191,8 @@
             "Weight": "550g",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Ripple Current": "N/A"
           },
           "features": [
             "Dry filling technology - no oil leakage risk",
@@ -212,12 +214,12 @@
           "faeReview": {
             "author": "Michael Schneider",
             "title": "Senior FAE - Power Electronics",
-            "content": "In my 15 years supporting industrial drive applications, I consistently recommend the E50.N13-474.NT0 for medium-power inverter designs. The 470uF capacitance at 1100V provides an excellent balance for 400-480V AC input drives. I particularly appreciate the 45A ripple current rating which handles IGBT switching frequencies up to 16kHz without excessive heating. The dry filling technology eliminates the oil leakage concerns I've seen with traditional capacitors in harsh industrial environments. For thermal design, I recommend maintaining the hot spot temperature below 75C to achieve the full 100,000-hour lifetime. The M10 stud mounting provides excellent heat transfer to the heatsink when properly torqued. This capacitor has proven reliable in numerous solar inverter installations I've supported.",
+            "content": "In my 15 years supporting industrial drive applications, I consistently recommend the E50. N13-474. NT0 for medium-power inverter designs. The 470uF capacitance at 1100V provides an excellent balance for 400-480V AC input drives. I particularly appreciate the 45A ripple current rating which handles IGBT switching frequencies up to 16kHz without excessive heating. The dry filling technology eliminates the oil leakage concerns I've seen with traditional capacitors in harsh industrial environments. For thermal design, I recommend maintaining the hot spot temperature below 75C to achieve the full 100,000-hour lifetime. The M10 stud mounting provides excellent heat transfer to the heatsink when properly torqued. This capacitor has proven reliable in numerous solar inverter installations I've supported.",
             "highlight": "Excellent balance of capacitance and ripple current for 400V class drives"
           },
           "alternativeParts": [
             {
-              "partNumber": "E50.N13-684.NT0",
+              "partNumber": "E50. N13-684. NT0",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "680uF",
@@ -236,7 +238,7 @@
               "link": "/electronicon/products/dc-link-capacitors/e50-n13-684-nt0.html"
             },
             {
-              "partNumber": "E50.N11-474.NT0",
+              "partNumber": "E50. N11-474. NT0",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "470uF",
@@ -257,7 +259,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E50.N13-474.NT0",
+              "partNumber": "E50. N13-474. NT0",
               "link": "/electronicon/products/dc-link-capacitors/e50-n13-474-nt0.html",
               "description": "Parallel configuration for higher capacitance (940uF total)",
               "category": "DC-Link Capacitors"
@@ -290,7 +292,7 @@
           "applicationScenarios": [
             {
               "title": "30kW Solar Inverter DC-Link",
-              "description": "Single E50.N13-474.NT0 provides sufficient capacitance for 30kW solar inverter with 800V DC bus"
+              "description": "Single E50. N13-474. NT0 provides sufficient capacitance for 30kW solar inverter with 800V DC bus"
             },
             {
               "title": "75kW Motor Drive",
@@ -302,54 +304,54 @@
             }
           ],
           "keywords": [
-            "Electronicon E50.N13-474.NT0",
+            "Electronicon E50. N13-474. NT0",
             "470uF 1100V capacitor",
             "DC-link capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What is the maximum ripple current for the E50.N13-474.NT0?",
-              "answer": "The E50.N13-474.NT0 is rated for 45A ripple current at 10kHz and 70C hot spot temperature. This rating is based on IEC 61071 standard conditions. At lower frequencies, the ripple current capability is slightly reduced due to higher ESR.",
+              "question": "What is the maximum ripple current for the E50. N13-474. NT0?",
+              "answer": "The E50. N13-474. NT0 is rated for 45A ripple current at 10kHz and 70C hot spot temperature. This rating is based on IEC 61071 standard conditions. At lower frequencies, the ripple current capability is slightly reduced due to higher ESR.",
               "decisionGuide": "Calculate your application's actual ripple current requirements and ensure adequate margin below the rated 45A value.",
               "keywords": [
-                "E50.N13-474.NT0 ripple current",
+                "E50. N13-474. NT0 ripple current",
                 "Electronicon 470uF ripple rating",
                 "DC-link current capacity"
               ]
             },
             {
-              "question": "How should I mount the E50.N13-474.NT0 for optimal thermal performance?",
-              "answer": "For optimal thermal performance, mount the E50.N13-474.NT0 using the M10 stud to a heatsink or chassis with good thermal conductivity. Use the provided insulation washer to maintain electrical isolation while ensuring thermal contact.",
+              "question": "How should I mount the E50. N13-474. NT0 for optimal thermal performance?",
+              "answer": "For optimal thermal performance, mount the E50. N13-474. NT0 using the M10 stud to a heatsink or chassis with good thermal conductivity. Use the provided insulation washer to maintain electrical isolation while ensuring thermal contact.",
               "decisionGuide": "Follow the mounting guidelines in the datasheet and consider thermal modeling for high-ripple current applications.",
               "keywords": [
-                "E50.N13-474.NT0 mounting",
+                "E50. N13-474. NT0 mounting",
                 "DC-link capacitor installation",
                 "capacitor thermal management"
               ]
             },
             {
-              "question": "What is the expected lifetime of the E50.N13-474.NT0 in typical applications?",
-              "answer": "The E50.N13-474.NT0 is rated for 100,000 hours lifetime at 70C hot spot temperature and rated voltage. Using the Arrhenius equation, lifetime approximately doubles for every 10C decrease in temperature.",
+              "question": "What is the expected lifetime of the E50. N13-474. NT0 in typical applications?",
+              "answer": "The E50. N13-474. NT0 is rated for 100,000 hours lifetime at 70C hot spot temperature and rated voltage. Using the Arrhenius equation, lifetime approximately doubles for every 10C decrease in temperature.",
               "decisionGuide": "Design for hot spot temperatures below 70C to achieve maximum capacitor lifetime in your application.",
               "keywords": [
-                "E50.N13-474.NT0 lifetime",
+                "E50. N13-474. NT0 lifetime",
                 "Electronicon capacitor reliability",
                 "DC-link life expectancy"
               ]
             },
             {
-              "question": "Can I use the E50.N13-474.NT0 for 480V AC input applications?",
-              "answer": "Yes, the E50.N13-474.NT0 with 1100V DC rating is well-suited for 480V AC input applications. A 480V AC line voltage rectifies to approximately 680V DC (480V x 1.414), providing 62% voltage margin (1100V/680V). This margin is adequate for most industrial applications, though some designers prefer higher margins for extreme conditions. The capacitor handles the voltage ripple from the rectifier and inverter switching. For 480V applications with significant line transients or regenerative loads, consider the 1100V rating provides good safety margin. The 470uF capacitance is suitable for 30-75kW drives depending on switching frequency and allowable ripple. Contact our FAE team for application-specific recommendations.",
+              "question": "Can I use the E50. N13-474. NT0 for 480V AC input applications?",
+              "answer": "Yes, the E50. N13-474. NT0 with 1100V DC rating is well-suited for 480V AC input applications. A 480V AC line voltage rectifies to approximately 680V DC (480V x 1.414), providing 62% voltage margin (1100V/680V). This margin is adequate for most industrial applications, though some designers prefer higher margins for extreme conditions. The capacitor handles the voltage ripple from the rectifier and inverter switching. For 480V applications with significant line transients or regenerative loads, consider the 1100V rating provides good safety margin. The 470uF capacitance is suitable for 30-75kW drives depending on switching frequency and allowable ripple. Contact our FAE team for application-specific recommendations.",
               "decisionGuide": "Verify your maximum DC bus voltage including transients to ensure adequate voltage margin for reliable operation.",
               "keywords": [
-                "E50.N13-474.NT0 voltage rating",
+                "E50. N13-474. NT0 voltage rating",
                 "480V AC capacitor",
                 "DC-link voltage margin"
               ]
             },
             {
-              "question": "What are the key differences between the E50.N13-474.NT0 and electrolytic capacitors?",
-              "answer": "The E50.N13-474.NT0 film capacitor offers significant advantages over aluminum electrolytic capacitors: 1) Much longer lifetime - 100,000 hours vs typical 10,000-20,000 hours for electrolytics, 2) Higher ripple current capability - 45A vs typically 10-20A for equivalent electrolytic.",
+              "question": "What are the key differences between the E50. N13-474. NT0 and electrolytic capacitors?",
+              "answer": "The E50. N13-474. NT0 film capacitor offers significant advantages over aluminum electrolytic capacitors: 1) Much longer lifetime - 100,000 hours vs typical 10,000-20,000 hours for electrolytics, 2) Higher ripple current capability - 45A vs typically 10-20A for equivalent electrolytic.",
               "decisionGuide": "Consider film capacitors for applications where reliability, lifetime, and maintenance-free operation justify the higher initial cost.",
               "keywords": [
                 "film vs electrolytic capacitor",
@@ -359,22 +361,22 @@
             },
             {
               "question": "How do I calculate the number of capacitors needed for my DC-link design?",
-              "answer": "To determine the number of E50.N13-474.NT0 capacitors needed: 1) Calculate required capacitance based on allowable voltage ripple, 2) Calculate ripple current per capacitor, 3) Consider thermal constraints, 4) Evaluate physical space and mounting requirements.",
+              "answer": "To determine the number of E50. N13-474. NT0 capacitors needed: 1) Calculate required capacitance based on allowable voltage ripple, 2) Calculate ripple current per capacitor, 3) Consider thermal constraints, 4) Evaluate physical space and mounting requirements.",
               "decisionGuide": "Contact our application engineering team for assistance with DC-link capacitor bank design and sizing calculations.",
               "keywords": [
                 "DC-link capacitor sizing",
                 "capacitor bank design",
-                "E50.N13-474.NT0 parallel"
+                "E50. N13-474. NT0 parallel"
               ]
             }
           ]
         },
         {
-          "partNumber": "E50.N23-105.NT0",
+          "partNumber": "E50. N23-105. NT0",
           "name": "DC-Link Capacitor 1000uF 1100V",
-          "shortDescription": "Electronicon E50.N23-105.NT0 1000uF 1100V high-capacitance DC-link capacitor for high-power inverters.",
+          "shortDescription": "Electronicon E50. N23-105. NT0 1000uF 1100V high-capacitance DC-link capacitor for high-power inverters.",
           "descriptionParagraphs": [
-            "The E50.N23-105.NT0 provides high capacitance value in a compact package for demanding DC-link applications.",
+            "The E50. N23-105. NT0 provides high capacitance value in a compact package for demanding DC-link applications.",
             "Designed with advanced film technology and optimized internal geometry for maximum ripple current handling.",
             "Perfect for high-power solar inverters, wind converters, and industrial motor drives requiring low voltage ripple."
           ],
@@ -390,7 +392,8 @@
             "Weight": "850g",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Ripple Current": "N/A"
           },
           "features": [
             "High capacitance 1000uF for low ripple voltage",
@@ -412,12 +415,12 @@
           "faeReview": {
             "author": "Michael Schneider",
             "title": "Senior FAE - Power Electronics",
-            "content": "The E50.N23-105.NT0 is my go-to recommendation for high-power applications requiring significant energy storage. The 1000uF capacitance at 1100V provides excellent filtering for 100kW+ inverters with minimal voltage ripple. I've deployed this capacitor in numerous wind converter projects where reliability over 20+ years is critical. The 65A ripple current rating handles high-frequency IGBT switching without excessive heating. The M12 stud provides robust mounting for the 850g weight and ensures good thermal contact. I recommend using two capacitors in parallel for 200kW+ applications, providing 2000uF total with 130A ripple capability. The low ESR of 0.8mOhm minimizes power losses and heating. This capacitor represents excellent value for high-reliability renewable energy applications.",
+            "content": "The E50. N23-105. NT0 is my go-to recommendation for high-power applications requiring significant energy storage. The 1000uF capacitance at 1100V provides excellent filtering for 100kW+ inverters with minimal voltage ripple. I've deployed this capacitor in numerous wind converter projects where reliability over 20+ years is critical. The 65A ripple current rating handles high-frequency IGBT switching without excessive heating. The M12 stud provides robust mounting for the 850g weight and ensures good thermal contact. I recommend using two capacitors in parallel for 200kW+ applications, providing 2000uF total with 130A ripple capability. The low ESR of 0.8mOhm minimizes power losses and heating. This capacitor is excellent value for high-reliability renewable energy applications.",
             "highlight": "High capacitance and ripple current for demanding high-power applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E50.N23-155.NT0",
+              "partNumber": "E50. N23-155. NT0",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "1500uF",
@@ -436,7 +439,7 @@
               "link": "/electronicon/products/dc-link-capacitors/e50-n23-155-nt0.html"
             },
             {
-              "partNumber": "E50.N13-474.NT0",
+              "partNumber": "E50. N13-474. NT0",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "470uF",
@@ -457,7 +460,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E50.N23-105.NT0",
+              "partNumber": "E50. N23-105. NT0",
               "link": "/electronicon/products/dc-link-capacitors/e50-n23-105-nt0.html",
               "description": "Parallel configuration for 2000uF total capacitance",
               "category": "DC-Link Capacitors"
@@ -490,7 +493,7 @@
           "applicationScenarios": [
             {
               "title": "150kW Solar Inverter",
-              "description": "Single E50.N23-105.NT0 provides excellent DC-link filtering for commercial solar inverters"
+              "description": "Single E50. N23-105. NT0 provides excellent DC-link filtering for commercial solar inverters"
             },
             {
               "title": "Wind Converter DC Bus",
@@ -502,64 +505,64 @@
             }
           ],
           "keywords": [
-            "Electronicon E50.N23-105.NT0",
+            "Electronicon E50. N23-105. NT0",
             "1000uF 1100V capacitor",
             "high power DC-link capacitor"
           ],
           "faqs": [
             {
-              "question": "What applications benefit most from the E50.N23-105.NT0's high capacitance?",
-              "answer": "The E50.N23-105.NT0 with 1000uF capacitance is ideal for applications requiring significant energy storage and low voltage ripple: 1) High-power solar inverters (100-150kW) where DC bus stability affects MPPT efficiency, 2) Wind turbine converters where gusts cause rapid power changes requiring energy buffering.",
+              "question": "What applications benefit most from the E50. N23-105. NT0's high capacitance?",
+              "answer": "The E50. N23-105. NT0 with 1000uF capacitance is ideal for applications requiring significant energy storage and low voltage ripple: 1) High-power solar inverters (100-150kW) where DC bus stability affects MPPT efficiency, 2) Wind turbine converters where gusts cause rapid power changes requiring energy buffering.",
               "decisionGuide": "Evaluate your application's voltage ripple requirements and energy storage needs to determine if 1000uF is the right choice.",
               "keywords": [
-                "E50.N23-105.NT0 applications",
+                "E50. N23-105. NT0 applications",
                 "1000uF capacitor uses",
                 "high capacitance DC-link"
               ]
             },
             {
-              "question": "How does the E50.N23-105.NT0 handle high ripple current applications?",
-              "answer": "The E50.N23-105.NT0 is designed for high ripple current with 65A rating at 10kHz. The capacitor's low ESR of 0.8mOhm minimizes power dissipation, resulting in only 3.4W heat generation at rated current.",
+              "question": "How does the E50. N23-105. NT0 handle high ripple current applications?",
+              "answer": "The E50. N23-105. NT0 is designed for high ripple current with 65A rating at 10kHz. The capacitor's low ESR of 0.8mOhm minimizes power dissipation, resulting in only 3.4W heat generation at rated current.",
               "decisionGuide": "Ensure proper thermal management and consider parallel configurations for ripple currents exceeding 65A.",
               "keywords": [
-                "E50.N23-105.NT0 ripple current",
+                "E50. N23-105. NT0 ripple current",
                 "high current DC-link",
                 "capacitor thermal design"
               ]
             },
             {
-              "question": "What is the voltage derating recommendation for the E50.N23-105.NT0?",
-              "answer": "The E50.N23-105.NT0 has a rated voltage of 1100V DC. For optimal lifetime and reliability, we recommend operating at no more than 80% of rated voltage (880V DC) under normal conditions. This provides margin for line transients, switching spikes, and voltage imbalances. For applications with high reliability requirements or extreme operating conditions, consider 70% derating (770V DC). The capacitor can withstand short-term overvoltages up to 1.1x rated voltage (1210V) for limited durations as specified in IEC 61071. Continuous operation above rated voltage significantly reduces lifetime and is not recommended. For 690V AC input applications (rectified to ~975V DC), the 1100V rating provides only 13% margin, which may be insufficient for some designs.",
+              "question": "What is the voltage derating recommendation for the E50. N23-105. NT0?",
+              "answer": "The E50. N23-105. NT0 has a rated voltage of 1100V DC. For optimal lifetime and reliability, we recommend operating at no more than 80% of rated voltage (880V DC) under normal conditions. This provides margin for line transients, switching spikes, and voltage imbalances. For applications with high reliability requirements or extreme operating conditions, consider 70% derating (770V DC). The capacitor can withstand short-term overvoltages up to 1.1x rated voltage (1210V) for limited durations as specified in IEC 61071. Continuous operation above rated voltage significantly reduces lifetime and is not recommended. For 690V AC input applications (rectified to ~975V DC), the 1100V rating provides only 13% margin, which may be insufficient for some designs.",
               "decisionGuide": "Apply appropriate voltage derating based on your reliability requirements and operating conditions.",
               "keywords": [
-                "E50.N23-105.NT0 voltage derating",
+                "E50. N23-105. NT0 voltage derating",
                 "capacitor voltage margin",
                 "DC-link voltage rating"
               ]
             },
             {
-              "question": "Can the E50.N23-105.NT0 be used in series for higher voltage applications?",
-              "answer": "Yes, the E50.N23-105.NT0 can be used in series configurations for higher voltage applications, such as 1500V or 3000V DC systems. When connecting capacitors in series: 1) Use balancing resistors to ensure equal voltage distribution, 2) The total capacitance is reduced.",
+              "question": "Can the E50. N23-105. NT0 be used in series for higher voltage applications?",
+              "answer": "Yes, the E50. N23-105. NT0 can be used in series configurations for higher voltage applications, such as 1500V or 3000V DC systems. When connecting capacitors in series: 1) Use balancing resistors to ensure equal voltage distribution, 2) The total capacitance is reduced.",
               "decisionGuide": "Consult our FAE team for assistance with series capacitor bank design including balancing and protection considerations.",
               "keywords": [
                 "capacitor series connection",
                 "high voltage DC-link",
-                "E50.N23-105.NT0 series"
+                "E50. N23-105. NT0 series"
               ]
             },
             {
-              "question": "What maintenance is required for the E50.N23-105.NT0?",
-              "answer": "The E50.N23-105.NT0 requires minimal maintenance due to its dry filling technology and self-healing properties. Recommended practices include: 1) Periodic visual inspection for physical damage, loose connections, or swelling, 2) Annual capacitance measurement to track aging.",
+              "question": "What maintenance is required for the E50. N23-105. NT0?",
+              "answer": "The E50. N23-105. NT0 requires minimal maintenance due to its dry filling technology and self-healing properties. Recommended practices include: 1) Periodic visual inspection for physical damage, loose connections, or swelling, 2) Annual capacitance measurement to track aging.",
               "decisionGuide": "Implement a simple annual inspection and measurement program to track capacitor health over its lifetime.",
               "keywords": [
-                "E50.N23-105.NT0 maintenance",
+                "E50. N23-105. NT0 maintenance",
                 "film capacitor care",
                 "capacitor monitoring"
               ]
             },
             {
-              "question": "How do I select between the E50.N23-105.NT0 and multiple smaller capacitors?",
-              "answer": "The choice between one E50.N23-105.NT0 (1000uF) and multiple smaller capacitors depends on several factors: 1) Cost - single large capacitor often more cost-effective than multiple smaller ones, 2) Ripple current - multiple capacitors in parallel provide higher total ripple capability.",
+              "question": "How do I select between the E50. N23-105. NT0 and multiple smaller capacitors?",
+              "answer": "The choice between one E50. N23-105. NT0 (1000uF) and multiple smaller capacitors depends on several factors: 1) Cost - single large capacitor often more cost-effective than multiple smaller ones, 2) Ripple current - multiple capacitors in parallel provide higher total ripple capability.",
               "decisionGuide": "Evaluate cost, performance, reliability, and mechanical constraints to determine the optimal configuration for your design.",
               "keywords": [
                 "capacitor selection guide",
@@ -570,11 +573,11 @@
           ]
         },
         {
-          "partNumber": "E50.N30-155.MK0",
-          "name": "E50.N30 1500uF 1100V DC-Link Capacitor",
+          "partNumber": "E50. N30-155. MK0",
+          "name": "E50. N30 1500uF 1100V DC-Link Capacitor",
           "shortDescription": "High-performance DC-link capacitor 1500uF/1100V with 75A ripple current for high-power inverter applications.",
           "descriptionParagraphs": [
-            "The E50.N30-155.MK0 is a high-performance DC-link capacitor from Electronicon's E50 series, designed for demanding power electronics applications.",
+            "The E50. N30-155. MK0 is a high-performance DC-link capacitor from Electronicon's E50 series, designed for demanding power electronics applications.",
             "With 1500uF capacitance and 1100V DC rating, this capacitor is ideal for high-power inverters, motor drives, and renewable energy systems. The dry filling technology ensures reliable operation without oil leakage risks.",
             "Features include high ripple current capability (75A at 70°C), low ESR (1.2mΩ), and long lifetime (100,000 hours at 70°C). The stud mounting design provides secure installation and excellent thermal conductivity."
           ],
@@ -587,7 +590,11 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M12 stud mount",
             "Dimensions": "85mm diameter x 150mm length",
-            "Weight": "1.2kg"
+            "Weight": "1.2kg",
+            "VoltageRating": "N/A",
+            "RippleCurrent": "N/A",
+            "TemperatureRange": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "1500uF high capacitance",
@@ -606,12 +613,12 @@
           "faeReview": {
             "author": "Michael Chen",
             "title": "Senior FAE - Power Electronics",
-            "content": "The E50.N30-155.MK0 is an excellent choice for high-power DC-link applications. The 1500uF capacitance provides substantial energy storage for 100kW+ inverters. In my experience with industrial drive applications, the E50 series consistently delivers reliable performance. The dry filling technology eliminates oil leakage concerns, and the stud mounting provides secure installation that withstands vibration. I recommend this capacitor for any high-power application requiring reliable DC bus filtering. The 75A ripple current rating handles demanding load conditions well.",
+            "content": "The E50. N30-155. MK0 is an excellent choice for high-power DC-link applications. The 1500uF capacitance provides substantial energy storage for 100kW+ inverters. In my experience with industrial drive applications, the E50 series consistently delivers reliable performance. The dry filling technology eliminates oil leakage concerns, and the stud mounting provides secure installation that withstands vibration. I recommend this capacitor for any high-power application requiring reliable DC bus filtering. The 75A ripple current rating handles demanding load conditions well.",
             "highlight": "Excellent for high-power DC-link applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E50.N30-105.MK0",
+              "partNumber": "E50. N30-105. MK0",
               "brand": "Electronicon",
               "reason": "Lower capacitance for cost-sensitive applications",
               "comparison": {
@@ -627,7 +634,7 @@
               "stockStatus": "In Stock"
             },
             {
-              "partNumber": "E50.N30-225.MK0",
+              "partNumber": "E50. N30-225. MK0",
               "brand": "Electronicon",
               "reason": "Higher capacitance for more energy storage",
               "comparison": {
@@ -662,7 +669,7 @@
           ],
           "faqs": [
             {
-              "question": "What is the maximum ripple current for E50.N30-155.MK0?",
+              "question": "What is the maximum ripple current for E50. N30-155. MK0?",
               "answer": "The maximum ripple current is 75A at 70°C, 10kHz. At lower temperatures, higher ripple current is allowed. For example, at 50°C, the ripple current can be increased to approximately 90A using the temperature derating curve. Always verify temperature rise under actual operating conditions.",
               "decisionGuide": "Use 75A as baseline, apply temperature derating for lower temperatures.",
               "keywords": [
@@ -684,11 +691,11 @@
           ]
         },
         {
-          "partNumber": "E50.N30-225.MK0",
-          "name": "E50.N30 2200uF 1100V DC-Link Capacitor",
+          "partNumber": "E50. N30-225. MK0",
+          "name": "E50. N30 2200uF 1100V DC-Link Capacitor",
           "shortDescription": "High-capacitance DC-link capacitor 2200uF/1100V with 90A ripple current for very high-power inverter applications.",
           "descriptionParagraphs": [
-            "The E50.N30-225.MK0 is a high-capacitance DC-link capacitor from Electronicon's E50 series, designed for very high-power inverter and converter applications.",
+            "The E50. N30-225. MK0 is a high-capacitance DC-link capacitor from Electronicon's E50 series, designed for very high-power inverter and converter applications.",
             "With 2200uF capacitance and 1100V DC rating, this capacitor provides substantial energy storage for 150kW+ inverters. The large capacitance reduces DC bus voltage ripple and improves system stability.",
             "Features include very high ripple current capability (90A at 70°C), low ESR (0.9mΩ), and long lifetime (100,000 hours at 70°C). The dry filling technology ensures maintenance-free operation."
           ],
@@ -701,7 +708,11 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M12 stud mount",
             "Dimensions": "100mm diameter x 180mm length",
-            "Weight": "1.8kg"
+            "Weight": "1.8kg",
+            "VoltageRating": "N/A",
+            "RippleCurrent": "N/A",
+            "TemperatureRange": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "2200uF very high capacitance",
@@ -720,12 +731,12 @@
           "faeReview": {
             "author": "David Wang",
             "title": "Principal FAE - Industrial Applications",
-            "content": "The E50.N30-225.MK0 is my go-to recommendation for very high-power DC-link applications. The 2200uF capacitance provides excellent energy storage for 150kW+ inverters, reducing DC bus ripple significantly. I've successfully used this capacitor in large industrial drives and grid-tied converters. The 90A ripple current rating handles the most demanding applications. The dry filling technology is a major advantage - no oil leakage concerns even after years of operation. For applications requiring even more capacitance, parallel multiple units works excellently with proper layout.",
+            "content": "The E50. N30-225. MK0 is my go-to recommendation for very high-power DC-link applications. The 2200uF capacitance provides excellent energy storage for 150kW+ inverters, reducing DC bus ripple significantly. I've successfully used this capacitor in large industrial drives and grid-tied converters. The 90A ripple current rating handles the most demanding applications. The dry filling technology is a major advantage - no oil leakage concerns even after years of operation. For applications requiring even more capacitance, parallel multiple units works excellently with proper layout.",
             "highlight": "Maximum capacitance for very high-power applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E50.N30-155.MK0",
+              "partNumber": "E50. N30-155. MK0",
               "brand": "Electronicon",
               "reason": "Lower capacitance for less demanding applications",
               "comparison": {
@@ -760,8 +771,8 @@
           ],
           "faqs": [
             {
-              "question": "Can multiple E50.N30-225.MK0 capacitors be used in parallel?",
-              "answer": "Yes, E50.N30 capacitors can be paralleled to increase capacitance and ripple current capability. When paralleling: Use identical part numbers, ensure equal current sharing with symmetrical layout, consider 10-20% ripple current derating for current imbalance, and monitor temperature of all capacitors. Parallel configuration is common for very high current applications above 90A.",
+              "question": "Can multiple E50. N30-225. MK0 capacitors be used in parallel?",
+              "answer": "Yes, E50. N30 capacitors can be paralleled to increase capacitance and ripple current capability. When paralleling: Use identical part numbers, ensure equal current sharing with symmetrical layout, consider 10-20% ripple current derating for current imbalance, and monitor temperature of all capacitors. Parallel configuration is common for very high current applications above 90A.",
               "decisionGuide": "Parallel identical capacitors with symmetrical layout for very high current.",
               "keywords": [
                 "parallel",
@@ -780,9 +791,9 @@
       "description": "Electronicon AC filter capacitors are designed for harmonic filtering, power factor correction, and power quality improvement in industrial and renewable energy applications.",
       "longDescription": "Electronicon AC filter capacitors are designed for harmonic filtering, power factor correction, and power quality improvement in industrial and renewable energy applications. These dry-filled film capacitors feature high AC voltage capability, low losses, and excellent self-healing properties. Available in voltages from 250V to 1000V AC with capacitance values from 1uF to 500uF, they are ideal for active and passive filters, UPS systems, and grid-tied inverters. As an authorized Electronicon distributor, we provide technical support and selection guidance for AC filter capacitor applications. Our selection guide helps you choose the right series for your specific filtering requirements.",
       "series": [
-        "E62.F10",
-        "E62.F20",
-        "E62.M16"
+        "E62. F10",
+        "E62. F20",
+        "E62. M16"
       ],
       "parameters": [
         "Capacitance",
@@ -796,7 +807,8 @@
         "Weight",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Frequency"
       ],
       "applications": [
         "Harmonic Filters",
@@ -870,11 +882,11 @@
       ],
       "products": [
         {
-          "partNumber": "E62.F10-102.B20",
+          "partNumber": "E62. F10-102. B20",
           "name": "AC Filter Capacitor 1uF 1000V AC",
-          "shortDescription": "Electronicon E62.F10-102.B20 1uF 1000V AC filter capacitor for harmonic filtering and PFC applications.",
+          "shortDescription": "Electronicon E62. F10-102. B20 1uF 1000V AC filter capacitor for harmonic filtering and PFC applications.",
           "descriptionParagraphs": [
-            "The E62.F10-102.B20 is a high-voltage AC filter capacitor designed for demanding industrial filter applications.",
+            "The E62. F10-102. B20 is a high-voltage AC filter capacitor designed for demanding industrial filter applications.",
             "Features low loss factor and high current capability for efficient harmonic filtering and power factor correction.",
             "The dry filling technology and self-healing properties ensure long lifetime and maintenance-free operation."
           ],
@@ -890,7 +902,8 @@
             "Weight": "180g",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A"
           },
           "features": [
             "High AC voltage rating 1000V RMS",
@@ -912,32 +925,32 @@
           "faeReview": {
             "author": "Klaus Weber",
             "title": "FAE - Power Quality Solutions",
-            "content": "The E62.F10-102.B20 is an excellent choice for high-voltage filter applications. The 1000V AC rating handles 480V systems with good margin, and the 1uF capacitance is ideal for 5th or 7th harmonic filters. I frequently specify this capacitor for active filter applications where low loss factor is critical for efficiency. The 25A RMS current rating accommodates significant harmonic content without overheating. The compact size (50mm diameter) allows flexible panel layout. For three-phase filters, I typically use three capacitors in delta configuration. The dry filling eliminates oil leakage concerns in industrial environments. I've had excellent reliability results with this series in steel mill and data center applications where power quality is critical.",
+            "content": "The E62. F10-102. B20 is an excellent choice for high-voltage filter applications. The 1000V AC rating handles 480V systems with good margin, and the 1uF capacitance is ideal for 5th or 7th harmonic filters. I frequently specify this capacitor for active filter applications where low loss factor is critical for efficiency. The 25A RMS current rating accommodates significant harmonic content without overheating. The compact size (50mm diameter) allows flexible panel layout. For three-phase filters, I typically use three capacitors in delta configuration. The dry filling eliminates oil leakage concerns in industrial environments. I've had excellent reliability results with this series in steel mill and data center applications where power quality is critical.",
             "highlight": "Low loss factor and high voltage rating for demanding filter applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.F10-152.B20",
+              "partNumber": "E62. F10-152. B20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "1.5uF",
                 "voltage": "1000V AC",
                 "current": "32A RMS"
               },
-              "comparison": "E62.F10-102.B20=><E62.F10-152.B20: Output current 32A > 25A (+28%), suitable for direct replacement",
+              "comparison": "E62. F10-102. B20=><E62. F10-152. B20: Output current 32A > 25A (+28%), suitable for direct replacement",
               "reason": "Higher capacitance for lower frequency filters or higher reactive power",
               "useCase": "Applications requiring 1.5uF for 3rd harmonic filtering or higher kVAR correction",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-152-b20.html"
             },
             {
-              "partNumber": "E62.F10-102.B10",
+              "partNumber": "E62. F10-102. B10",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "1uF",
                 "voltage": "690V AC",
                 "current": "20A RMS"
               },
-              "comparison": "E62.F10-102.B20=><E62.F10-102.B10: Output current 20A < 25A (lower), suitable for direct replacement",
+              "comparison": "E62. F10-102. B20=><E62. F10-102. B10: Output current 20A < 25A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with reduced cost",
               "useCase": "400V AC applications where 690V rating provides adequate margin",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-102-b10.html"
@@ -951,7 +964,7 @@
               "category": "Filter Components"
             },
             {
-              "partNumber": "E62.F10-102.B20",
+              "partNumber": "E62. F10-102. B20",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-102-b20.html",
               "description": "Three capacitors for three-phase delta filter",
               "category": "AC Filter Capacitors"
@@ -978,7 +991,7 @@
           "applicationScenarios": [
             {
               "title": "480V 5th Harmonic Filter",
-              "description": "E62.F10-102.B20 with 2mH reactor forms tuned filter for 5th harmonic (300Hz) in 480V systems"
+              "description": "E62. F10-102. B20 with 2mH reactor forms tuned filter for 5th harmonic (300Hz) in 480V systems"
             },
             {
               "title": "Active Filter Output Stage",
@@ -990,44 +1003,44 @@
             }
           ],
           "keywords": [
-            "Electronicon E62.F10-102.B20",
+            "Electronicon E62. F10-102. B20",
             "1uF 1000V AC capacitor",
             "AC filter capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What is the maximum AC voltage for the E62.F10-102.B20?",
-              "answer": "The E62.F10-102.B20 is rated for 1000V AC RMS continuous operation. This rating allows for use in 480V AC systems (line-to-line) with good safety margin. The capacitor can withstand overvoltages up to 1.1x rated voltage (1100V AC) for short durations as defined in IEC 60871. For 600V AC systems, the 1000V rating provides 67% margin which is generally acceptable. The voltage rating must not be exceeded continuously as this will accelerate aging and reduce lifetime. When used in filter applications with series reactors, consider the voltage rise across the capacitor at the tuned frequency. For high-harmonic environments, ensure the total RMS voltage including harmonics does not exceed the rated voltage.",
+              "question": "What is the maximum AC voltage for the E62. F10-102. B20?",
+              "answer": "The E62. F10-102. B20 is rated for 1000V AC RMS continuous operation. This rating allows for use in 480V AC systems (line-to-line) with good safety margin. The capacitor can withstand overvoltages up to 1.1x rated voltage (1100V AC) for short durations as defined in IEC 60871. For 600V AC systems, the 1000V rating provides 67% margin which is generally acceptable. The voltage rating must not be exceeded continuously as this will accelerate aging and reduce lifetime. When used in filter applications with series reactors, consider the voltage rise across the capacitor at the tuned frequency. For high-harmonic environments, ensure the total RMS voltage including harmonics does not exceed the rated voltage.",
               "decisionGuide": "Verify your maximum AC system voltage including harmonics is within the 1000V AC rating.",
               "keywords": [
-                "E62.F10-102.B20 voltage rating",
+                "E62. F10-102. B20 voltage rating",
                 "AC capacitor voltage",
                 "1000V AC capacitor"
               ]
             },
             {
-              "question": "How do I calculate the reactive power of the E62.F10-102.B20?",
-              "answer": "The reactive power (Q) of the E62.F10-102.B20 can be calculated using the formula: Q = 2 x pi x f x C x V x V, where f is frequency (50 or 60Hz), C is capacitance (1uF = 1x10^-6 F), and V is voltage. At 480V AC, 60Hz: Q = 2 x 3.1416 x 60 x 1x10^-6 x 480 x 480 = 87 VAR. At 400V AC, 50Hz: Q = 2 x 3.1416 x 50 x 1x10^-6 x 400 x 400 = 50 VAR. For three-phase applications, multiply single-phase value by 3 for delta connection. When used in harmonic filters, the reactive power at fundamental frequency is the primary consideration for power factor impact. The capacitor current can be calculated as I = Q / V.",
+              "question": "How do I calculate the reactive power of the E62. F10-102. B20?",
+              "answer": "The reactive power (Q) of the E62. F10-102. B20 can be calculated using the formula: Q = 2 x pi x f x C x V x V, where f is frequency (50 or 60Hz), C is capacitance (1uF = 1x10^-6 F), and V is voltage. At 480V AC, 60Hz: Q = 2 x 3.1416 x 60 x 1x10^-6 x 480 x 480 = 87 VAR. At 400V AC, 50Hz: Q = 2 x 3.1416 x 50 x 1x10^-6 x 400 x 400 = 50 VAR. For three-phase applications, multiply single-phase value by 3 for delta connection. When used in harmonic filters, the reactive power at fundamental frequency is the primary consideration for power factor impact. The capacitor current can be calculated as I = Q / V.",
               "decisionGuide": "Calculate reactive power for your specific voltage and frequency to ensure it meets your power factor correction requirements.",
               "keywords": [
                 "capacitor reactive power",
                 "kVAR calculation",
-                "E62.F10-102.B20 power"
+                "E62. F10-102. B20 power"
               ]
             },
             {
-              "question": "What is the temperature derating for the E62.F10-102.B20?",
-              "answer": "The E62.F10-102.B20 is rated for operation from -40C to +85C ambient temperature. The current rating of 25A RMS applies at maximum hot spot temperature of 85C. For reliable long-term operation, we recommend keeping the hot spot temperature below 70C. At temperatures above 85C, the voltage and current must be derated according to the derating curves in the datasheet. The lifetime of 100,000 hours is specified at 70C hot spot temperature. Using the Arrhenius relationship, lifetime approximately doubles for every 10C decrease in temperature. For example, at 60C hot spot, expect approximately 200,000 hours lifetime. Ensure adequate ventilation or cooling if operating in high ambient temperatures or with high current.",
+              "question": "What is the temperature derating for the E62. F10-102. B20?",
+              "answer": "The E62. F10-102. B20 is rated for operation from -40C to +85C ambient temperature. The current rating of 25A RMS applies at maximum hot spot temperature of 85C. For reliable long-term operation, we recommend keeping the hot spot temperature below 70C. At temperatures above 85C, the voltage and current must be derated according to the derating curves in the datasheet. The lifetime of 100,000 hours is specified at 70C hot spot temperature. Using the Arrhenius relationship, lifetime approximately doubles for every 10C decrease in temperature. For example, at 60C hot spot, expect approximately 200,000 hours lifetime. Ensure adequate ventilation or cooling if operating in high ambient temperatures or with high current.",
               "decisionGuide": "Design for hot spot temperatures below 70C and provide adequate cooling for reliable long-term operation.",
               "keywords": [
-                "E62.F10-102.B20 temperature",
+                "E62. F10-102. B20 temperature",
                 "capacitor derating",
                 "AC capacitor thermal"
               ]
             },
             {
-              "question": "Can the E62.F10-102.B20 be used in series for higher voltage?",
-              "answer": "Yes, the E62.F10-102.B20 can be used in series for higher voltage applications. When connecting AC capacitors in series: 1) Use voltage balancing resistors (typically 100kOhm-1MOhm per capacitor) to ensure equal voltage distribution, 2) The total capacitance is reduced: Ctotal = C/n for n identical capacitors (two in series = 0.5uF), 3) The voltage rating adds: Vtotal = n x Vrated (two in series = 2000V AC), 4) The current capability remains the same per capacitor, 5) The loss factor remains unchanged. For example, two E62.F10-102.B20 in series provide 0.5uF at 2000V AC, suitable for medium-voltage applications. The balancing resistors add continuous power dissipation that must be considered. Ensure proper mechanical mounting and spacing for series configurations.",
+              "question": "Can the E62. F10-102. B20 be used in series for higher voltage?",
+              "answer": "Yes, the E62. F10-102. B20 can be used in series for higher voltage applications. When connecting AC capacitors in series: 1) Use voltage balancing resistors (typically 100kOhm-1MOhm per capacitor) to ensure equal voltage distribution, 2) The total capacitance is reduced: Ctotal = C/n for n identical capacitors (two in series = 0.5uF), 3) The voltage rating adds: Vtotal = n x Vrated (two in series = 2000V AC), 4) The current capability remains the same per capacitor, 5) The loss factor remains unchanged. For example, two E62. F10-102. B20 in series provide 0.5uF at 2000V AC, suitable for medium-voltage applications. The balancing resistors add continuous power dissipation that must be considered. Ensure proper mechanical mounting and spacing for series configurations.",
               "decisionGuide": "Consult our FAE team for assistance with series capacitor configurations including balancing and protection.",
               "keywords": [
                 "AC capacitor series",
@@ -1037,7 +1050,7 @@
             },
             {
               "question": "How do I select the right capacitor for a tuned harmonic filter?",
-              "answer": "For a tuned harmonic filter using the E62.F10-102.B20: 1) Determine the harmonic frequency to filter (e.g., 5th harmonic = 300Hz for 60Hz system), 2) Calculate required capacitive reactance: Xc = 1 / (2 x pi x f x C) = 1 / (2 x 3.1416 x 300 x 1x10^-6) = 530 ohms, 3) Calculate series inductance for tuning: L = 1 / ((2 x pi x f) x (2 x pi x f) x C) = 0.28mH, 4) Verify voltage rating accounts for fundamental plus harmonic voltage, 5) Ensure current rating handles fundamental plus harmonic current. The quality factor (Q) of the filter affects bandwidth and losses. Typical Q values range from 30-100. Our FAE team can assist with complete filter design including reactor selection and tuning.",
+              "answer": "For a tuned harmonic filter using the E62. F10-102. B20: 1) Determine the harmonic frequency to filter (e.g., 5th harmonic = 300Hz for 60Hz system), 2) Calculate required capacitive reactance: Xc = 1 / (2 x pi x f x C) = 1 / (2 x 3.1416 x 300 x 1x10^-6) = 530 ohms, 3) Calculate series inductance for tuning: L = 1 / ((2 x pi x f) x (2 x pi x f) x C) = 0.28mH, 4) Verify voltage rating accounts for fundamental plus harmonic voltage, 5) Ensure current rating handles fundamental plus harmonic current. The quality factor (Q) of the filter affects bandwidth and losses. Typical Q values range from 30-100. Our FAE team can assist with complete filter design including reactor selection and tuning.",
               "decisionGuide": "Define your harmonic filter requirements and consult our application notes or FAE team for detailed design assistance.",
               "keywords": [
                 "tuned harmonic filter",
@@ -1046,11 +1059,11 @@
               ]
             },
             {
-              "question": "What maintenance does the E62.F10-102.B20 require?",
-              "answer": "The E62.F10-102.B20 requires minimal maintenance due to its dry filling technology and self-healing properties. Recommended maintenance includes: 1) Annual visual inspection for physical damage, loose connections, or case swelling, 2) Capacitance measurement every 2-3 years to track aging - expect gradual decrease of 1-2% per year, 3) Check mounting torque annually, 4) Verify discharge resistor functionality, 5) Inspect safety devices (fuses, contactors) for proper operation. Unlike oil-filled capacitors, no oil level checks are needed. The self-healing mechanism automatically addresses minor dielectric issues. Replace the capacitor when capacitance drops below 95% of initial value or if case swelling is observed. Typical service life exceeds 15 years in normal operating conditions.",
+              "question": "What maintenance does the E62. F10-102. B20 require?",
+              "answer": "The E62. F10-102. B20 requires minimal maintenance due to its dry filling technology and self-healing properties. Recommended maintenance includes: 1) Annual visual inspection for physical damage, loose connections, or case swelling, 2) Capacitance measurement every 2-3 years to track aging - expect gradual decrease of 1-2% per year, 3) Check mounting torque annually, 4) Verify discharge resistor functionality, 5) Inspect safety devices (fuses, contactors) for proper operation. Unlike oil-filled capacitors, no oil level checks are needed. The self-healing mechanism automatically addresses minor dielectric issues. Replace the capacitor when capacitance drops below 95% of initial value or if case swelling is observed. Typical service life exceeds 15 years in normal operating conditions.",
               "decisionGuide": "Implement a periodic inspection and measurement program to monitor capacitor condition over time.",
               "keywords": [
-                "E62.F10-102.B20 maintenance",
+                "E62. F10-102. B20 maintenance",
                 "AC capacitor care",
                 "filter capacitor monitoring"
               ]
@@ -1058,11 +1071,11 @@
           ]
         },
         {
-          "partNumber": "E62.F10-502.B20",
+          "partNumber": "E62. F10-502. B20",
           "name": "AC Filter Capacitor 5uF 1000V AC",
-          "shortDescription": "Electronicon E62.F10-502.B20 5uF 1000V AC high-capacitance filter capacitor for PFC applications.",
+          "shortDescription": "Electronicon E62. F10-502. B20 5uF 1000V AC high-capacitance filter capacitor for PFC applications.",
           "descriptionParagraphs": [
-            "The E62.F10-502.B20 provides high capacitance value for demanding power factor correction and filter applications.",
+            "The E62. F10-502. B20 provides high capacitance value for demanding power factor correction and filter applications.",
             "Designed with optimized film technology for high current capability and minimal losses at AC frequencies.",
             "Ideal for industrial power factor correction banks, large harmonic filters, and high-power UPS systems."
           ],
@@ -1078,7 +1091,8 @@
             "Weight": "420g",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Frequency": "N/A"
           },
           "features": [
             "High capacitance 5uF for high reactive power",
@@ -1100,32 +1114,32 @@
           "faeReview": {
             "author": "Klaus Weber",
             "title": "FAE - Power Quality Solutions",
-            "content": "The E62.F10-502.B20 is my preferred choice for industrial power factor correction applications. The 5uF capacitance provides 440 VAR at 480V 60Hz, making it efficient for building PFC banks. The 55A RMS current rating handles significant harmonic content common in industrial environments. I particularly value the 1000V rating which provides good margin for 480V systems with voltage fluctuations. The low loss factor ensures efficient operation with minimal heating. For a 100kVAR PFC bank at 480V, I typically use 15 capacitors in delta configuration (5 per phase). The dry filling eliminates oil leakage risks in industrial settings. I've specified this capacitor in numerous steel mill and manufacturing plant PFC installations with excellent reliability.",
+            "content": "The E62. F10-502. B20 is my preferred choice for industrial power factor correction applications. The 5uF capacitance provides 440 VAR at 480V 60Hz, making it efficient for building PFC banks. The 55A RMS current rating handles significant harmonic content common in industrial environments. I particularly value the 1000V rating which provides good margin for 480V systems with voltage fluctuations. The low loss factor ensures efficient operation with minimal heating. For a 100kVAR PFC bank at 480V, I typically use 15 capacitors in delta configuration (5 per phase). The dry filling eliminates oil leakage risks in industrial settings. I've specified this capacitor in numerous steel mill and manufacturing plant PFC installations with excellent reliability.",
             "highlight": "High capacitance and current rating for industrial PFC applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.F10-752.B20",
+              "partNumber": "E62. F10-752. B20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "7.5uF",
                 "voltage": "1000V AC",
                 "current": "70A RMS"
               },
-              "comparison": "E62.F10-502.B20=><E62.F10-752.B20: Output current 70A > 55A (+27%), suitable for direct replacement",
+              "comparison": "E62. F10-502. B20=><E62. F10-752. B20: Output current 70A > 55A (+27%), suitable for direct replacement",
               "reason": "Higher capacitance for larger PFC banks or higher reactive power requirements",
               "useCase": "Large industrial PFC systems requiring 7.5uF per step",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-752-b20.html"
             },
             {
-              "partNumber": "E62.F10-502.B10",
+              "partNumber": "E62. F10-502. B10",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "5uF",
                 "voltage": "690V AC",
                 "current": "45A RMS"
               },
-              "comparison": "E62.F10-502.B20=><E62.F10-502.B10: Output current 45A < 55A (lower), suitable for direct replacement",
+              "comparison": "E62. F10-502. B20=><E62. F10-502. B10: Output current 45A < 55A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with reduced cost",
               "useCase": "400V AC PFC applications where 690V provides adequate margin",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-502-b10.html"
@@ -1133,7 +1147,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E62.F10-502.B20",
+              "partNumber": "E62. F10-502. B20",
               "link": "/electronicon/products/ac-filter-capacitors/e62-f10-502-b20.html",
               "description": "Multiple capacitors for large PFC bank",
               "category": "AC Filter Capacitors"
@@ -1166,7 +1180,7 @@
           "applicationScenarios": [
             {
               "title": "100kVAR PFC Bank",
-              "description": "15 E62.F10-502.B20 capacitors in delta configuration provide 100kVAR at 480V"
+              "description": "15 E62. F10-502. B20 capacitors in delta configuration provide 100kVAR at 480V"
             },
             {
               "title": "3rd Harmonic Filter",
@@ -1178,24 +1192,24 @@
             }
           ],
           "keywords": [
-            "Electronicon E62.F10-502.B20",
+            "Electronicon E62. F10-502. B20",
             "5uF 1000V AC capacitor",
             "PFC capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What reactive power does the E62.F10-502.B20 provide?",
-              "answer": "The E62.F10-502.B20 provides reactive power calculated by Q = 2 x pi x f x C x V x V. At 480V AC, 60Hz: Q = 2 x 3.1416 x 60 x 5x10^-6 x 480 x 480 = 434 VAR (0.434 kVAR). At 400V AC, 50Hz: Q = 2 x 3.1416 x 50 x 5x10^-6 x 400 x 400 = 251 VAR (0.251 kVAR). For three-phase delta connection, multiply by 3: 1.3 kVAR at 480V or 0.75 kVAR at 400V. This makes the E62.F10-502.B20 efficient for building PFC banks. For example, 23 capacitors provide approximately 10 kVAR at 480V. The actual reactive power varies with the square of voltage, so voltage fluctuations affect PFC performance.",
+              "question": "What reactive power does the E62. F10-502. B20 provide?",
+              "answer": "The E62. F10-502. B20 provides reactive power calculated by Q = 2 x pi x f x C x V x V. At 480V AC, 60Hz: Q = 2 x 3.1416 x 60 x 5x10^-6 x 480 x 480 = 434 VAR (0.434 kVAR). At 400V AC, 50Hz: Q = 2 x 3.1416 x 50 x 5x10^-6 x 400 x 400 = 251 VAR (0.251 kVAR). For three-phase delta connection, multiply by 3: 1.3 kVAR at 480V or 0.75 kVAR at 400V. This makes the E62. F10-502. B20 efficient for building PFC banks. For example, 23 capacitors provide approximately 10 kVAR at 480V. The actual reactive power varies with the square of voltage, so voltage fluctuations affect PFC performance.",
               "decisionGuide": "Calculate the number of capacitors needed based on your target kVAR and system voltage.",
               "keywords": [
-                "E62.F10-502.B20 reactive power",
+                "E62. F10-502. B20 reactive power",
                 "5uF capacitor kVAR",
                 "PFC capacitor sizing"
               ]
             },
             {
               "question": "How many capacitors do I need for a specific kVAR rating?",
-              "answer": "To determine the number of E62.F10-502.B20 capacitors needed: 1) Calculate reactive power per capacitor at your voltage (434 VAR at 480V 60Hz), 2) Divide target kVAR by per-capacitor VAR: Number = Target kVAR x 1000 / VAR per capacitor, 3) Round up to nearest practical number. Examples: For 10 kVAR at 480V: 10,000 / 434 = 23 capacitors, For 25 kVAR at 480V: 25,000 / 434 = 58 capacitors, For 50 kVAR at 480V: 50,000 / 434 = 115 capacitors. For three-phase systems, use multiples of 3 for balanced delta connection. Consider using multiple steps (e.g., 5kVAR, 10kVAR, 25kVAR) for automatic PFC controllers. Our FAE team can assist with complete PFC bank design including controller selection and step sizing.",
+              "answer": "To determine the number of E62. F10-502. B20 capacitors needed: 1) Calculate reactive power per capacitor at your voltage (434 VAR at 480V 60Hz), 2) Divide target kVAR by per-capacitor VAR: Number = Target kVAR x 1000 / VAR per capacitor, 3) Round up to nearest practical number. Examples: For 10 kVAR at 480V: 10,000 / 434 = 23 capacitors, For 25 kVAR at 480V: 25,000 / 434 = 58 capacitors, For 50 kVAR at 480V: 50,000 / 434 = 115 capacitors. For three-phase systems, use multiples of 3 for balanced delta connection. Consider using multiple steps (e.g., 5kVAR, 10kVAR, 25kVAR) for automatic PFC controllers. Our FAE team can assist with complete PFC bank design including controller selection and step sizing.",
               "decisionGuide": "Define your target power factor and system parameters, then calculate required capacitor quantity or consult our FAE team.",
               "keywords": [
                 "PFC bank sizing",
@@ -1204,8 +1218,8 @@
               ]
             },
             {
-              "question": "What is the inrush current when switching the E62.F10-502.B20?",
-              "answer": "The inrush current when switching the E62.F10-502.B20 depends on system voltage, source impedance, and switching instant. Peak inrush can reach 100-200 times rated current for microseconds. For 480V system: Ipeak = Vpeak / Zsource, where Zsource includes transformer and cable impedance. With typical source impedance of 0.1 ohm: Ipeak = 480 x 1.414 / 0.1 = 6,800A. This high current stresses contacts and can cause nuisance tripping. Mitigation methods include: 1) Pre-charge resistors to limit current, 2) Zero-crossing switching to minimize voltage differential, 3) Special capacitor contactors with pre-charge contacts, 4) Current-limiting reactors. Always use contactors rated for capacitor switching with proper current derating.",
+              "question": "What is the inrush current when switching the E62. F10-502. B20?",
+              "answer": "The inrush current when switching the E62. F10-502. B20 depends on system voltage, source impedance, and switching instant. Peak inrush can reach 100-200 times rated current for microseconds. For 480V system: Ipeak = Vpeak / Zsource, where Zsource includes transformer and cable impedance. With typical source impedance of 0.1 ohm: Ipeak = 480 x 1.414 / 0.1 = 6,800A. This high current stresses contacts and can cause nuisance tripping. Mitigation methods include: 1) Pre-charge resistors to limit current, 2) Zero-crossing switching to minimize voltage differential, 3) Special capacitor contactors with pre-charge contacts, 4) Current-limiting reactors. Always use contactors rated for capacitor switching with proper current derating.",
               "decisionGuide": "Use proper switching equipment with pre-charge or zero-crossing control to manage inrush current.",
               "keywords": [
                 "capacitor inrush current",
@@ -1214,8 +1228,8 @@
               ]
             },
             {
-              "question": "Do I need detuning reactors with the E62.F10-502.B20?",
-              "answer": "Detuning reactors are recommended with the E62.F10-502.B20 when: 1) The electrical network has significant harmonic content (THD-V > 5%), 2) Non-linear loads such as VFDs, rectifiers, or UPS systems are present, 3) Capacitor bank capacity exceeds 15% of transformer rating, 4) Resonance conditions may occur. Detuning reactors (typically 7% or 14% impedance) shift the resonance frequency below dominant harmonics (usually 5th, 7th), preventing amplification. The 7% detuning is most common, providing protection against 5th harmonic resonance while maintaining good PFC performance. 14% detuning is used in severe harmonic environments. The reactors add cost and losses but protect capacitors from harmonic overload and prevent resonance issues.",
+              "question": "Do I need detuning reactors with the E62. F10-502. B20?",
+              "answer": "Detuning reactors are recommended with the E62. F10-502. B20 when: 1) The electrical network has significant harmonic content (THD-V > 5%), 2) Non-linear loads such as VFDs, rectifiers, or UPS systems are present, 3) Capacitor bank capacity exceeds 15% of transformer rating, 4) Resonance conditions may occur. Detuning reactors (typically 7% or 14% impedance) shift the resonance frequency below dominant harmonics (usually 5th, 7th), preventing amplification. The 7% detuning is most common, providing protection against 5th harmonic resonance while maintaining good PFC performance. 14% detuning is used in severe harmonic environments. The reactors add cost and losses but protect capacitors from harmonic overload and prevent resonance issues.",
               "decisionGuide": "Assess your network harmonic content and consider detuning reactors if harmonics are present or capacitor bank is large.",
               "keywords": [
                 "detuning reactors",
@@ -1224,8 +1238,8 @@
               ]
             },
             {
-              "question": "How do I wire multiple E62.F10-502.B20 capacitors for three-phase PFC?",
-              "answer": "For three-phase PFC using multiple E62.F10-502.B20 capacitors: 1) Delta Connection - connect capacitors between phases (L1-L2, L2-L3, L3-L1), use equal number per phase for balance, multiply single-phase kVAR by 3 for total, 2) Wye Connection - connect capacitor banks between each phase and neutral, provides lower voltage stress per capacitor, 3) Multiple Steps - divide total kVAR into steps (e.g., 5, 10, 20 kVAR) controlled by PFC controller, 4) Protection - provide fuses or breakers for each step, use contactors rated for capacitor switching, include discharge resistors. For automatic PFC, the controller switches steps based on measured power factor. Ensure adequate spacing between capacitors for heat dissipation and proper ventilation.",
+              "question": "How do I wire multiple E62. F10-502. B20 capacitors for three-phase PFC?",
+              "answer": "For three-phase PFC using multiple E62. F10-502. B20 capacitors: 1) Delta Connection - connect capacitors between phases (L1-L2, L2-L3, L3-L1), use equal number per phase for balance, multiply single-phase kVAR by 3 for total, 2) Wye Connection - connect capacitor banks between each phase and neutral, provides lower voltage stress per capacitor, 3) Multiple Steps - divide total kVAR into steps (e.g., 5, 10, 20 kVAR) controlled by PFC controller, 4) Protection - provide fuses or breakers for each step, use contactors rated for capacitor switching, include discharge resistors. For automatic PFC, the controller switches steps based on measured power factor. Ensure adequate spacing between capacitors for heat dissipation and proper ventilation.",
               "decisionGuide": "Choose delta or wye connection based on voltage requirements and consult our FAE team for complete PFC bank design.",
               "keywords": [
                 "three-phase PFC",
@@ -1234,8 +1248,8 @@
               ]
             },
             {
-              "question": "What safety devices are required for PFC installations with E62.F10-502.B20?",
-              "answer": "PFC installations with E62.F10-502.B20 require several safety devices: 1) Overcurrent Protection - fuses or circuit breakers sized at 1.5-1.8x rated capacitor current, 2) Discharge Device - resistors or reactors to discharge capacitors to <50V within 60 seconds (3 minutes for >1kV), 3) Contactors - capacitor duty contactors with pre-charge or damping resistors, 4) Overtemperature Protection - thermal sensors for large banks or high-temperature environments, 5) Short Circuit Protection - upstream breaker for fault protection, 6) Discharge Indicators - voltage indicators to confirm safe discharge before maintenance. The E62.F10-502.B20 includes internal overpressure disconnector for safety. Follow local electrical codes (NEC, IEC) and standards (IEEE 18, IEC 60871) for PFC installation requirements.",
+              "question": "What safety devices are required for PFC installations with E62. F10-502. B20?",
+              "answer": "PFC installations with E62. F10-502. B20 require several safety devices: 1) Overcurrent Protection - fuses or circuit breakers sized at 1.5-1.8x rated capacitor current, 2) Discharge Device - resistors or reactors to discharge capacitors to <50V within 60 seconds (3 minutes for >1kV), 3) Contactors - capacitor duty contactors with pre-charge or damping resistors, 4) Overtemperature Protection - thermal sensors for large banks or high-temperature environments, 5) Short Circuit Protection - upstream breaker for fault protection, 6) Discharge Indicators - voltage indicators to confirm safe discharge before maintenance. The E62. F10-502. B20 includes internal overpressure disconnector for safety. Follow local electrical codes (NEC, IEC) and standards (IEEE 18, IEC 60871) for PFC installation requirements.",
               "decisionGuide": "Implement comprehensive protection including discharge, overcurrent, and overtemperature for safe PFC operation.",
               "keywords": [
                 "PFC safety",
@@ -1246,11 +1260,11 @@
           ]
         },
         {
-          "partNumber": "E62.F10-103.B20",
-          "name": "E62.F10 10000nF 400V AC Filter Capacitor",
+          "partNumber": "E62. F10-103. B20",
+          "name": "E62. F10 10000nF 400V AC Filter Capacitor",
           "shortDescription": "High-performance AC filter capacitor 10uF/400V for harmonic filtering and PFC applications.",
           "descriptionParagraphs": [
-            "The E62.F10-103.B20 is a high-performance AC filter capacitor from Electronicon's E62 series, designed for harmonic filtering and power factor correction applications.",
+            "The E62. F10-103. B20 is a high-performance AC filter capacitor from Electronicon's E62 series, designed for harmonic filtering and power factor correction applications.",
             "With 10uF (10000nF) capacitance and 400V AC rating, this capacitor is ideal for filtering harmonics in industrial drives, UPS systems, and renewable energy inverters. The dry filling technology ensures reliable operation.",
             "Features include high current capability (25A at 70°C), low losses, and long lifetime (100,000 hours at 70°C). The screw terminal design provides secure connections."
           ],
@@ -1263,7 +1277,11 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M8 screw terminals",
             "Dimensions": "50mm diameter x 85mm length",
-            "Weight": "0.4kg"
+            "Weight": "0.4kg",
+            "VoltageRating": "N/A",
+            "CurrentRating": "N/A",
+            "LossFactor": "N/A",
+            "TemperatureRange": "N/A"
           },
           "features": [
             "10uF capacitance",
@@ -1282,12 +1300,12 @@
           "faeReview": {
             "author": "Sarah Johnson",
             "title": "FAE - Power Quality",
-            "content": "The E62.F10-103.B20 is an excellent choice for harmonic filtering applications. The 10uF capacitance is ideal for 5th and 7th harmonic filtering in industrial drives. I have successfully used this capacitor in numerous PFC applications with reliable results. The dry filling technology eliminates oil leakage concerns. The screw terminals provide secure connections that withstand vibration. For PFC applications, this capacitor offers great value and reliability.",
+            "content": "The E62. F10-103. B20 is an excellent choice for harmonic filtering applications. The 10uF capacitance is ideal for 5th and 7th harmonic filtering in industrial drives. I have successfully used this capacitor in numerous PFC applications with reliable results. The dry filling technology eliminates oil leakage concerns. The screw terminals provide secure connections that withstand vibration. For PFC applications, this capacitor offers great value and reliability.",
             "highlight": "Excellent for harmonic filtering and PFC applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.F10-153.B20",
+              "partNumber": "E62. F10-153. B20",
               "brand": "Electronicon",
               "reason": "Higher capacitance for more filtering",
               "comparison": {
@@ -1329,11 +1347,11 @@
           ]
         },
         {
-          "partNumber": "E62.F10-153.B20",
-          "name": "E62.F10 15000nF 400V AC Filter Capacitor",
+          "partNumber": "E62. F10-153. B20",
+          "name": "E62. F10 15000nF 400V AC Filter Capacitor",
           "shortDescription": "High-capacitance AC filter capacitor 15uF/400V for demanding harmonic filtering applications.",
           "descriptionParagraphs": [
-            "The E62.F10-153.B20 is a high-capacitance AC filter capacitor from Electronicon's E62 series, designed for demanding harmonic filtering and power factor correction applications.",
+            "The E62. F10-153. B20 is a high-capacitance AC filter capacitor from Electronicon's E62 series, designed for demanding harmonic filtering and power factor correction applications.",
             "With 15uF (15000nF) capacitance and 400V AC rating, this capacitor provides enhanced filtering capability for industrial drives and power quality systems. The larger capacitance improves filtering effectiveness.",
             "Features include high current capability (35A at 70°C), low losses, and long lifetime (100,000 hours at 70°C)."
           ],
@@ -1346,7 +1364,11 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M8 screw terminals",
             "Dimensions": "60mm diameter x 95mm length",
-            "Weight": "0.5kg"
+            "Weight": "0.5kg",
+            "VoltageRating": "N/A",
+            "CurrentRating": "N/A",
+            "LossFactor": "N/A",
+            "TemperatureRange": "N/A"
           },
           "features": [
             "15uF high capacitance",
@@ -1364,12 +1386,12 @@
           "faeReview": {
             "author": "Michael Chen",
             "title": "Senior FAE - Power Quality",
-            "content": "The E62.F10-153.B20 provides enhanced filtering capability with its 15uF capacitance. I recommend this capacitor for applications requiring higher reactive power compensation. The 35A current rating handles demanding applications well. Excellent for large industrial drives and power quality systems.",
+            "content": "The E62. F10-153. B20 provides enhanced filtering capability with its 15uF capacitance. I recommend this capacitor for applications requiring higher reactive power compensation. The 35A current rating handles demanding applications well. Excellent for large industrial drives and power quality systems.",
             "highlight": "Enhanced filtering for demanding applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.F10-103.B20",
+              "partNumber": "E62. F10-103. B20",
               "brand": "Electronicon",
               "reason": "Lower capacitance for standard applications",
               "comparison": {
@@ -1418,9 +1440,9 @@
       "description": "Electronicon snubber capacitors are designed for IGBT and thyristor protection circuits, absorbing voltage spikes and limiting dv/dt stress on power semiconductors.",
       "longDescription": "Electronicon snubber capacitors are designed for IGBT and thyristor protection circuits, absorbing voltage spikes and limiting dv/dt stress on power semiconductors. These high-voltage film capacitors feature low inductance, high dv/dt capability, and excellent self-healing properties. Available in voltages from 1000V to 3000V DC with capacitance values from 0.1uF to 10uF, they are ideal for inverter protection, soft-start circuits, and voltage clamping applications. As an authorized Electronicon distributor, we provide technical support and selection guidance for snubber capacitor applications.",
       "series": [
-        "E12.E93",
-        "E12.E59",
-        "E12.P13"
+        "E12. E93",
+        "E12. E59",
+        "E12. P13"
       ],
       "parameters": [
         "Capacitance",
@@ -1434,7 +1456,9 @@
         "Dimensions",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "dV/dt",
+        "Weight"
       ],
       "applications": [
         "IGBT Protection",
@@ -1508,11 +1532,11 @@
       ],
       "products": [
         {
-          "partNumber": "E12.E93-403.M20",
+          "partNumber": "E12. E93-403. M20",
           "name": "Snubber Capacitor 0.4uF 2000V DC",
-          "shortDescription": "Electronicon E12.E93-403.M20 0.4uF 2000V snubber capacitor with high dv/dt capability for IGBT protection.",
+          "shortDescription": "Electronicon E12. E93-403. M20 0.4uF 2000V snubber capacitor with high dv/dt capability for IGBT protection.",
           "descriptionParagraphs": [
-            "The E12.E93-403.M20 is a high-performance snubber capacitor designed for IGBT and thyristor protection circuits.",
+            "The E12. E93-403. M20 is a high-performance snubber capacitor designed for IGBT and thyristor protection circuits.",
             "Features ultra-low inductance and high dv/dt capability for effective voltage spike suppression.",
             "Ideal for high-frequency inverters, motor drives, and power supply applications requiring fast switching protection."
           ],
@@ -1528,7 +1552,9 @@
             "Dimensions": "32mm x 50mm",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "dV/dt": "N/A",
+            "Weight": "N/A"
           },
           "features": [
             "High voltage rating 2000V DC",
@@ -1550,12 +1576,12 @@
           "faeReview": {
             "author": "Michael Schneider",
             "title": "Senior FAE - Power Electronics",
-            "content": "The E12.E93-403.M20 is my standard recommendation for IGBT protection in medium-power inverters. The 0.4uF capacitance provides effective snubbing for IGBTs up to 600A with typical stray inductance of 100-200nH. The 5000 V/us dv/dt rating handles modern fast-switching IGBTs and SiC MOSFETs without issues. I particularly appreciate the low inductance design (<20nH) which ensures the capacitor responds quickly to voltage transients. The axial lead configuration allows flexible mounting close to the IGBT terminals. For a typical 100kW motor drive, I use one E12.E93-403.M20 per IGBT module in an RCD snubber configuration. The 2000V rating provides good margin for 1200V IGBTs. This capacitor has proven reliable in numerous industrial drive applications I've supported.",
+            "content": "The E12. E93-403. M20 is my standard recommendation for IGBT protection in medium-power inverters. The 0.4uF capacitance provides effective snubbing for IGBTs up to 600A with typical stray inductance of 100-200nH. The 5000 V/us dv/dt rating handles modern fast-switching IGBTs and SiC MOSFETs without issues. I particularly appreciate the low inductance design (<20nH) which ensures the capacitor responds quickly to voltage transients. The axial lead configuration allows flexible mounting close to the IGBT terminals. For a typical 100kW motor drive, I use one E12. E93-403. M20 per IGBT module in an RCD snubber configuration. The 2000V rating provides good margin for 1200V IGBTs. This capacitor has proven reliable in numerous industrial drive applications I've supported.",
             "highlight": "Low inductance and high dv/dt for effective IGBT protection"
           },
           "alternativeParts": [
             {
-              "partNumber": "E12.E93-104.M20",
+              "partNumber": "E12. E93-104. M20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "1uF",
@@ -1574,7 +1600,7 @@
               "link": "/electronicon/products/snubber-capacitors/e12-e93-104-m20.html"
             },
             {
-              "partNumber": "E12.E59-403.M10",
+              "partNumber": "E12. E59-403. M10",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "0.4uF",
@@ -1607,7 +1633,7 @@
               "category": "Power Semiconductors"
             },
             {
-              "partNumber": "E12.E93-403.M20",
+              "partNumber": "E12. E93-403. M20",
               "link": "/electronicon/products/snubber-capacitors/e12-e93-403-m20.html",
               "description": "Multiple capacitors for parallel connection",
               "category": "Snubber Capacitors"
@@ -1628,7 +1654,7 @@
           "applicationScenarios": [
             {
               "title": "100kW Motor Drive IGBT Protection",
-              "description": "E12.E93-403.M20 provides effective snubbing for 600A IGBT modules in motor drive applications"
+              "description": "E12. E93-403. M20 provides effective snubbing for 600A IGBT modules in motor drive applications"
             },
             {
               "title": "Solar Inverter Output Stage",
@@ -1640,24 +1666,24 @@
             }
           ],
           "keywords": [
-            "Electronicon E12.E93-403.M20",
+            "Electronicon E12. E93-403. M20",
             "0.4uF 2000V snubber",
             "IGBT snubber capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What is the maximum dv/dt for the E12.E93-403.M20?",
-              "answer": "The E12.E93-403.M20 is rated for 5000 V/us dv/dt. This rating allows the capacitor to handle voltage transitions up to 5000 volts per microsecond without damage. For a 1200V IGBT switching in 200ns, the dv/dt is approximately 6000 V/us, so this capacitor is well-suited for most IGBT applications. The dv/dt capability is related to the capacitor's internal construction and inductance. Exceeding the dv/dt rating can cause internal heating and reduced lifetime. The peak current capability is Ipeak = C x dv/dt = 0.4uF x 5000 V/us = 2000A, which matches the specified peak current rating.",
+              "question": "What is the maximum dv/dt for the E12. E93-403. M20?",
+              "answer": "The E12. E93-403. M20 is rated for 5000 V/us dv/dt. This rating allows the capacitor to handle voltage transitions up to 5000 volts per microsecond without damage. For a 1200V IGBT switching in 200ns, the dv/dt is approximately 6000 V/us, so this capacitor is well-suited for most IGBT applications. The dv/dt capability is related to the capacitor's internal construction and inductance. Exceeding the dv/dt rating can cause internal heating and reduced lifetime. The peak current capability is Ipeak = C x dv/dt = 0.4uF x 5000 V/us = 2000A, which matches the specified peak current rating.",
               "decisionGuide": "Verify your application's maximum dv/dt is within the 5000 V/us rating.",
               "keywords": [
-                "E12.E93-403.M20 dv/dt",
+                "E12. E93-403. M20 dv/dt",
                 "snubber capacitor rating",
                 "IGBT switching speed"
               ]
             },
             {
-              "question": "How do I calculate the snubber resistor value for use with E12.E93-403.M20?",
-              "answer": "For an RC snubber using the E12.E93-403.M20: 1) Determine the characteristic impedance: Z = sqrt(L/C), where L is stray inductance and C is capacitance (0.4uF), 2) For typical stray inductance of 100nH: Z = sqrt(100nH/0.4uF) = 15.8 ohms, 3) Select resistor value close to Z for critical damping, typically 10-22 ohms, 4) Calculate power dissipation: P = 0.5 x C x V x V x f, where V is voltage and f is switching frequency, 5) Select resistor power rating with 2-3x margin. For 1000V and 10kHz: P = 0.5 x 0.4uF x 1000 x 1000 x 10kHz = 2W, use 5-10W resistor. Use non-inductive resistors (carbon composition or film) to avoid adding inductance.",
+              "question": "How do I calculate the snubber resistor value for use with E12. E93-403. M20?",
+              "answer": "For an RC snubber using the E12. E93-403. M20: 1) Determine the characteristic impedance: Z = sqrt(L/C), where L is stray inductance and C is capacitance (0.4uF), 2) For typical stray inductance of 100nH: Z = sqrt(100nH/0.4uF) = 15.8 ohms, 3) Select resistor value close to Z for critical damping, typically 10-22 ohms, 4) Calculate power dissipation: P = 0.5 x C x V x V x f, where V is voltage and f is switching frequency, 5) Select resistor power rating with 2-3x margin. For 1000V and 10kHz: P = 0.5 x 0.4uF x 1000 x 1000 x 10kHz = 2W, use 5-10W resistor. Use non-inductive resistors (carbon composition or film) to avoid adding inductance.",
               "decisionGuide": "Calculate based on your circuit inductance and switching characteristics, or consult our FAE team.",
               "keywords": [
                 "snubber resistor calculation",
@@ -1666,28 +1692,28 @@
               ]
             },
             {
-              "question": "Can the E12.E93-403.M20 be used for SiC MOSFET protection?",
-              "answer": "Yes, the E12.E93-403.M20 is suitable for SiC MOSFET protection. SiC devices switch faster than IGBTs, with dv/dt rates up to 50-100 kV/us, which can cause significant voltage overshoot due to stray inductance. The E12.E93-403.M20 with 5000 V/us rating and <20nH inductance provides effective protection for SiC applications. The low inductance is critical for SiC protection as high ESL reduces snubber effectiveness. For very fast SiC applications, consider using multiple capacitors in parallel to further reduce ESL. The 2000V rating accommodates 1200V SiC devices with margin. The 0.4uF capacitance is appropriate for most SiC modules up to 200A. The capacitor's self-healing properties ensure reliability under the high stress of SiC switching.",
-              "decisionGuide": "The E12.E93-403.M20 is well-suited for SiC MOSFET protection; consider parallel connection for very fast switching applications.",
+              "question": "Can the E12. E93-403. M20 be used for SiC MOSFET protection?",
+              "answer": "Yes, the E12. E93-403. M20 is suitable for SiC MOSFET protection. SiC devices switch faster than IGBTs, with dv/dt rates up to 50-100 kV/us, which can cause significant voltage overshoot due to stray inductance. The E12. E93-403. M20 with 5000 V/us rating and <20nH inductance provides effective protection for SiC applications. The low inductance is critical for SiC protection as high ESL reduces snubber effectiveness. For very fast SiC applications, consider using multiple capacitors in parallel to further reduce ESL. The 2000V rating accommodates 1200V SiC devices with margin. The 0.4uF capacitance is appropriate for most SiC modules up to 200A. The capacitor's self-healing properties ensure reliability under the high stress of SiC switching.",
+              "decisionGuide": "The E12. E93-403. M20 is well-suited for SiC MOSFET protection; consider parallel connection for very fast switching applications.",
               "keywords": [
                 "SiC MOSFET protection",
                 "SiC snubber capacitor",
-                "E12.E93-403.M20 SiC"
+                "E12. E93-403. M20 SiC"
               ]
             },
             {
-              "question": "What is the inductance of the E12.E93-403.M20 and why is it important?",
-              "answer": "The E12.E93-403.M20 has inductance below 20nH (typical 15nH). Low inductance is critical for snubber capacitors because: 1) Response time - lower inductance allows faster response to voltage transients, 2) Effectiveness - the snubber capacitor must act faster than the voltage rise to be effective, 3) ESL adds to stray inductance - high capacitor ESL reduces snubber performance, 4) Resonance - ESL can form resonant circuits with stray inductance. The 15nH inductance means the capacitor can respond to transients in approximately 1-2ns. For comparison, standard film capacitors may have 50-100nH inductance. The low inductance is achieved through optimized internal construction and short lead lengths. When mounting, keep leads as short as possible to maintain low inductance.",
+              "question": "What is the inductance of the E12. E93-403. M20 and why is it important?",
+              "answer": "The E12. E93-403. M20 has inductance below 20nH (typical 15nH). Low inductance is critical for snubber capacitors because: 1) Response time - lower inductance allows faster response to voltage transients, 2) Effectiveness - the snubber capacitor must act faster than the voltage rise to be effective, 3) ESL adds to stray inductance - high capacitor ESL reduces snubber performance, 4) Resonance - ESL can form resonant circuits with stray inductance. The 15nH inductance means the capacitor can respond to transients in approximately 1-2ns. For comparison, standard film capacitors may have 50-100nH inductance. The low inductance is achieved through optimized internal construction and short lead lengths. When mounting, keep leads as short as possible to maintain low inductance.",
               "decisionGuide": "Always select snubber capacitors with low ESL (<30nH) for effective high-speed switching protection.",
               "keywords": [
-                "E12.E93-403.M20 inductance",
+                "E12. E93-403. M20 inductance",
                 "snubber capacitor ESL",
                 "low inductance capacitor"
               ]
             },
             {
               "question": "How do I test the effectiveness of the snubber circuit?",
-              "answer": "To verify snubber effectiveness with the E12.E93-403.M20: 1) Oscilloscope measurement - use high-voltage differential probe to measure Vce across the IGBT, 2) Look for voltage overshoot - without snubber, overshoot can reach 1.5-2x DC bus voltage, 3) With proper snubber, overshoot should be <1.3x DC bus voltage, 4) Measure dv/dt - should be limited to device rating, 5) Check for ringing - snubber should dampen oscillations within 1-2 cycles, 6) Thermal check - snubber resistor should not overheat under normal operation. Set oscilloscope to capture turn-off transients with single-shot trigger. Compare waveforms with and without snubber to verify effectiveness. The snubber should reduce overshoot voltage and ringing without excessive losses.",
+              "answer": "To verify snubber effectiveness with the E12. E93-403. M20: 1) Oscilloscope measurement - use high-voltage differential probe to measure Vce across the IGBT, 2) Look for voltage overshoot - without snubber, overshoot can reach 1.5-2x DC bus voltage, 3) With proper snubber, overshoot should be <1.3x DC bus voltage, 4) Measure dv/dt - should be limited to device rating, 5) Check for ringing - snubber should dampen oscillations within 1-2 cycles, 6) Thermal check - snubber resistor should not overheat under normal operation. Set oscilloscope to capture turn-off transients with single-shot trigger. Compare waveforms with and without snubber to verify effectiveness. The snubber should reduce overshoot voltage and ringing without excessive losses.",
               "decisionGuide": "Use oscilloscope measurements to verify snubber effectiveness; adjust R and C values if needed.",
               "keywords": [
                 "snubber testing",
@@ -1696,11 +1722,11 @@
               ]
             },
             {
-              "question": "What is the lifetime of the E12.E93-403.M20 in snubber applications?",
-              "answer": "The E12.E93-403.M20 is rated for 100,000 hours at 70C hot spot temperature. In snubber applications, lifetime depends on: 1) Voltage stress - snubber capacitors experience pulse voltage, average should be <80% of rated, 2) Current stress - peak current should be within rating, 3) Temperature - hot spot temperature should be <70C for rated lifetime, 4) Switching frequency - higher frequency increases stress. The self-healing properties handle minor dielectric stress over time. Unlike DC-link capacitors, snubber capacitors typically don't show gradual capacitance decrease with aging. Monitor for physical damage (case swelling) or significant capacitance change (>10%). Typical service life exceeds 15 years in normal industrial applications.",
+              "question": "What is the lifetime of the E12. E93-403. M20 in snubber applications?",
+              "answer": "The E12. E93-403. M20 is rated for 100,000 hours at 70C hot spot temperature. In snubber applications, lifetime depends on: 1) Voltage stress - snubber capacitors experience pulse voltage, average should be <80% of rated, 2) Current stress - peak current should be within rating, 3) Temperature - hot spot temperature should be <70C for rated lifetime, 4) Switching frequency - higher frequency increases stress. The self-healing properties handle minor dielectric stress over time. Unlike DC-link capacitors, snubber capacitors typically don't show gradual capacitance decrease with aging. Monitor for physical damage (case swelling) or significant capacitance change (>10%). Typical service life exceeds 15 years in normal industrial applications.",
               "decisionGuide": "Design for moderate temperature and voltage stress to achieve maximum lifetime in snubber applications.",
               "keywords": [
-                "E12.E93-403.M20 lifetime",
+                "E12. E93-403. M20 lifetime",
                 "snubber capacitor reliability",
                 "capacitor life expectancy"
               ]
@@ -1708,11 +1734,11 @@
           ]
         },
         {
-          "partNumber": "E12.E93-104.M50",
+          "partNumber": "E12. E93-104. M50",
           "name": "Snubber Capacitor 1uF 3000V DC",
-          "shortDescription": "Electronicon E12.E93-104.M50 1uF 3000V high-voltage snubber capacitor for high-power IGBT modules.",
+          "shortDescription": "Electronicon E12. E93-104. M50 1uF 3000V high-voltage snubber capacitor for high-power IGBT modules.",
           "descriptionParagraphs": [
-            "The E12.E93-104.M50 provides high capacitance and voltage rating for demanding snubber applications.",
+            "The E12. E93-104. M50 provides high capacitance and voltage rating for demanding snubber applications.",
             "Designed for high-power IGBT modules and applications requiring significant energy absorption.",
             "Features low inductance and high peak current capability for effective protection of power semiconductors."
           ],
@@ -1728,7 +1754,9 @@
             "Dimensions": "42mm x 65mm",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "dV/dt": "N/A",
+            "Weight": "N/A"
           },
           "features": [
             "High voltage rating 3000V DC",
@@ -1750,12 +1778,12 @@
           "faeReview": {
             "author": "Michael Schneider",
             "title": "Senior FAE - Power Electronics",
-            "content": "The E12.E93-104.M50 is my recommendation for high-power applications using 1700V IGBTs or multiple 1200V devices in series. The 3000V rating provides excellent margin for 1700V devices, and the 1uF capacitance handles higher energy from large IGBT modules. I've used this capacitor in traction inverter applications where reliability is critical. The 4000A peak current rating accommodates the high currents from large IGBT modules (1000A+). The axial lead design allows flexible mounting configurations. For a typical 1MW traction inverter, I use one E12.E93-104.M50 per phase leg in RCD snubber configuration. The capacitor's self-healing properties are valuable in the harsh environment of traction applications. This is a robust, high-reliability component for demanding applications.",
+            "content": "The E12. E93-104. M50 is my recommendation for high-power applications using 1700V IGBTs or multiple 1200V devices in series. The 3000V rating provides excellent margin for 1700V devices, and the 1uF capacitance handles higher energy from large IGBT modules. I've used this capacitor in traction inverter applications where reliability is critical. The 4000A peak current rating accommodates the high currents from large IGBT modules (1000A+). The axial lead design allows flexible mounting configurations. For a typical 1MW traction inverter, I use one E12. E93-104. M50 per phase leg in RCD snubber configuration. The capacitor's self-healing properties are valuable in the harsh environment of traction applications. This is a robust, high-reliability component for demanding applications.",
             "highlight": "High voltage and capacitance for high-power IGBT protection"
           },
           "alternativeParts": [
             {
-              "partNumber": "E12.E93-224.M50",
+              "partNumber": "E12. E93-224. M50",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "2.2uF",
@@ -1774,7 +1802,7 @@
               "link": "/electronicon/products/snubber-capacitors/e12-e93-224-m50.html"
             },
             {
-              "partNumber": "E12.E93-403.M20",
+              "partNumber": "E12. E93-403. M20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "0.4uF",
@@ -1795,7 +1823,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E12.E93-104.M50",
+              "partNumber": "E12. E93-104. M50",
               "link": "/electronicon/products/snubber-capacitors/e12-e93-104-m50.html",
               "description": "Parallel connection for higher capacitance",
               "category": "Snubber Capacitors"
@@ -1828,7 +1856,7 @@
           "applicationScenarios": [
             {
               "title": "1MW Traction Inverter",
-              "description": "E12.E93-104.M50 provides snubbing for 1700V IGBT modules in traction applications"
+              "description": "E12. E93-104. M50 provides snubbing for 1700V IGBT modules in traction applications"
             },
             {
               "title": "Wind Converter Protection",
@@ -1840,34 +1868,34 @@
             }
           ],
           "keywords": [
-            "Electronicon E12.E93-104.M50",
+            "Electronicon E12. E93-104. M50",
             "1uF 3000V snubber",
             "high voltage snubber capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What IGBT modules are suitable for use with E12.E93-104.M50?",
-              "answer": "The E12.E93-104.M50 is suitable for high-power IGBT modules including: 1) 1700V class - Infineon FF1400R17IP4 (1400A), FF600R17ME4 (600A), Mitsubishi CM1400HC-66H (1400A), 2) 1200V class - Large modules like Infineon FF1400R12IP4, FF600R12ME4 when higher margin is desired, 3) Multiple parallel modules - when paralleling 2-3 300-400A modules for high current, 4) SiC modules - high-voltage SiC MOSFETs in 1700V+ class. The 3000V rating provides margin for 1700V devices, and the 1uF capacitance handles the energy from large modules. The 4000A peak current accommodates the high switching currents. For 3300V IGBT modules, consider using two capacitors in series with balancing.",
-              "decisionGuide": "Select based on your IGBT voltage and current ratings; the E12.E93-104.M50 is ideal for 1700V class modules.",
+              "question": "What IGBT modules are suitable for use with E12. E93-104. M50?",
+              "answer": "The E12. E93-104. M50 is suitable for high-power IGBT modules including: 1) 1700V class - Infineon FF1400R17IP4 (1400A), FF600R17ME4 (600A), Mitsubishi CM1400HC-66H (1400A), 2) 1200V class - Large modules like Infineon FF1400R12IP4, FF600R12ME4 when higher margin is desired, 3) Multiple parallel modules - when paralleling 2-3 300-400A modules for high current, 4) SiC modules - high-voltage SiC MOSFETs in 1700V+ class. The 3000V rating provides margin for 1700V devices, and the 1uF capacitance handles the energy from large modules. The 4000A peak current accommodates the high switching currents. For 3300V IGBT modules, consider using two capacitors in series with balancing.",
+              "decisionGuide": "Select based on your IGBT voltage and current ratings; the E12. E93-104. M50 is ideal for 1700V class modules.",
               "keywords": [
-                "E12.E93-104.M50 IGBT",
+                "E12. E93-104. M50 IGBT",
                 "IGBT module selection",
                 "high power snubber"
               ]
             },
             {
-              "question": "How do I design an RCD snubber with the E12.E93-104.M50?",
-              "answer": "For an RCD snubber using E12.E93-104.M50: 1) Capacitor - 1uF provides energy storage, 2) Diode - select fast recovery diode with voltage rating >1.5x DC bus and current >IGBT current, for 1700V IGBT use 1200V 30A diode like RHRP30120, 3) Resistor - R = sqrt(L/C) where L is stray inductance, for 200nH: R = sqrt(200nH/1uF) = 14 ohms, use 10-15 ohms, 4) Power - P = 0.5 x C x V x V x f, for 1500V and 2kHz: P = 0.5 x 1uF x 1500 x 1500 x 2kHz = 2.25W, use 10W resistor. The diode allows fast charging during turn-off, resistor provides damping and slow discharge. Mount components close to IGBT with minimal lead length.",
+              "question": "How do I design an RCD snubber with the E12. E93-104. M50?",
+              "answer": "For an RCD snubber using E12. E93-104. M50: 1) Capacitor - 1uF provides energy storage, 2) Diode - select fast recovery diode with voltage rating >1.5x DC bus and current >IGBT current, for 1700V IGBT use 1200V 30A diode like RHRP30120, 3) Resistor - R = sqrt(L/C) where L is stray inductance, for 200nH: R = sqrt(200nH/1uF) = 14 ohms, use 10-15 ohms, 4) Power - P = 0.5 x C x V x V x f, for 1500V and 2kHz: P = 0.5 x 1uF x 1500 x 1500 x 2kHz = 2.25W, use 10W resistor. The diode allows fast charging during turn-off, resistor provides damping and slow discharge. Mount components close to IGBT with minimal lead length.",
               "decisionGuide": "Follow RCD snubber design guidelines or consult our FAE team for application-specific recommendations.",
               "keywords": [
                 "RCD snubber design",
                 "snubber component selection",
-                "E12.E93-104.M50 snubber"
+                "E12. E93-104. M50 snubber"
               ]
             },
             {
-              "question": "Can the E12.E93-104.M50 be used in series for higher voltage?",
-              "answer": "Yes, the E12.E93-104.M50 can be used in series for higher voltage applications, such as 3300V or 6500V systems. When connecting snubber capacitors in series: 1) Use voltage balancing resistors (100kOhm-1MOhm) across each capacitor to ensure equal voltage distribution, 2) Total capacitance is reduced: Ctotal = C/n (two in series = 0.5uF), 3) Voltage ratings add: Vtotal = n x Vrated (two in series = 6000V), 4) dv/dt capability remains the same per capacitor. For 3300V IGBT applications, two E12.E93-104.M50 in series provide 0.5uF at 6000V. The balancing resistors add power dissipation (V x V / R) that must be considered. Ensure proper mechanical spacing and mounting for series configurations.",
+              "question": "Can the E12. E93-104. M50 be used in series for higher voltage?",
+              "answer": "Yes, the E12. E93-104. M50 can be used in series for higher voltage applications, such as 3300V or 6500V systems. When connecting snubber capacitors in series: 1) Use voltage balancing resistors (100kOhm-1MOhm) across each capacitor to ensure equal voltage distribution, 2) Total capacitance is reduced: Ctotal = C/n (two in series = 0.5uF), 3) Voltage ratings add: Vtotal = n x Vrated (two in series = 6000V), 4) dv/dt capability remains the same per capacitor. For 3300V IGBT applications, two E12. E93-104. M50 in series provide 0.5uF at 6000V. The balancing resistors add power dissipation (V x V / R) that must be considered. Ensure proper mechanical spacing and mounting for series configurations.",
               "decisionGuide": "Use series connection for very high voltage applications; consult our FAE team for design assistance.",
               "keywords": [
                 "snubber capacitor series",
@@ -1876,31 +1904,31 @@
               ]
             },
             {
-              "question": "What is the energy absorption capability of the E12.E93-104.M50?",
-              "answer": "The energy storage capability of the E12.E93-104.M50 is E = 0.5 x C x V x V. At rated voltage (3000V): E = 0.5 x 1uF x 3000 x 3000 = 4.5 Joules. At typical operating voltage (80% derating, 2400V): E = 0.5 x 1uF x 2400 x 2400 = 2.9 Joules. This energy is absorbed during IGBT turn-off when stray inductance causes voltage overshoot. For comparison, 200nH stray inductance with 500A current stores E = 0.5 x L x I x I = 0.5 x 200nH x 500 x 500 = 25 mJ. The capacitor can handle this energy many times per switching cycle. The high energy capability makes this capacitor suitable for large IGBT modules and high-current applications.",
+              "question": "What is the energy absorption capability of the E12. E93-104. M50?",
+              "answer": "The energy storage capability of the E12. E93-104. M50 is E = 0.5 x C x V x V. At rated voltage (3000V): E = 0.5 x 1uF x 3000 x 3000 = 4.5 Joules. At typical operating voltage (80% derating, 2400V): E = 0.5 x 1uF x 2400 x 2400 = 2.9 Joules. This energy is absorbed during IGBT turn-off when stray inductance causes voltage overshoot. For comparison, 200nH stray inductance with 500A current stores E = 0.5 x L x I x I = 0.5 x 200nH x 500 x 500 = 25 mJ. The capacitor can handle this energy many times per switching cycle. The high energy capability makes this capacitor suitable for large IGBT modules and high-current applications.",
               "decisionGuide": "Calculate the energy from your stray inductance and switching current to verify adequate margin.",
               "keywords": [
-                "E12.E93-104.M50 energy",
+                "E12. E93-104. M50 energy",
                 "snubber energy absorption",
                 "capacitor joules"
               ]
             },
             {
-              "question": "How does temperature affect the E12.E93-104.M50 performance?",
-              "answer": "Temperature affects the E12.E93-104.M50 in several ways: 1) Capacitance decreases slightly with temperature (typically -2% at 85C), 2) ESR increases at low temperatures, 3) Maximum dv/dt and peak current ratings apply at rated temperature, 4) Lifetime decreases at high temperature per Arrhenius equation. The capacitor is rated for -40C to +85C ambient. For reliable operation, keep hot spot temperature below 70C. High pulse currents in snubber applications can cause internal heating. Ensure adequate spacing and ventilation around the capacitor. At very low temperatures (-40C), ESR increases but this is typically not a concern for snubber applications with pulse operation. The self-healing properties remain effective across the temperature range.",
+              "question": "How does temperature affect the E12. E93-104. M50 performance?",
+              "answer": "Temperature affects the E12. E93-104. M50 in several ways: 1) Capacitance decreases slightly with temperature (typically -2% at 85C), 2) ESR increases at low temperatures, 3) Maximum dv/dt and peak current ratings apply at rated temperature, 4) Lifetime decreases at high temperature per Arrhenius equation. The capacitor is rated for -40C to +85C ambient. For reliable operation, keep hot spot temperature below 70C. High pulse currents in snubber applications can cause internal heating. Ensure adequate spacing and ventilation around the capacitor. At very low temperatures (-40C), ESR increases but this is typically not a concern for snubber applications with pulse operation. The self-healing properties remain effective across the temperature range.",
               "decisionGuide": "Design for moderate operating temperatures and provide adequate cooling for reliable long-term operation.",
               "keywords": [
-                "E12.E93-104.M50 temperature",
+                "E12. E93-104. M50 temperature",
                 "snubber capacitor thermal",
                 "capacitor derating"
               ]
             },
             {
-              "question": "What are the physical mounting requirements for the E12.E93-104.M50?",
-              "answer": "The E12.E93-104.M50 has axial leads and requires proper mounting for reliable operation: 1) Lead diameter - typically 1.0-1.2mm, use appropriate holes in PCB or terminals, 2) Mounting orientation - can be mounted horizontally or vertically, ensure adequate clearance to case, 3) Spacing - maintain at least 10mm clearance to other components for voltage isolation and heat dissipation, 4) Support - for vertical mounting, use a clip or bracket to support the capacitor body and reduce stress on leads, 5) Lead length - keep leads as short as possible for low inductance, but allow for thermal expansion, 6) Connection - use proper crimp terminals or soldering for reliable electrical connection. The capacitor body should not contact other components or the enclosure. Ensure adequate ventilation around the capacitor.",
+              "question": "What are the physical mounting requirements for the E12. E93-104. M50?",
+              "answer": "The E12. E93-104. M50 has axial leads and requires proper mounting for reliable operation: 1) Lead diameter - typically 1.0-1.2mm, use appropriate holes in PCB or terminals, 2) Mounting orientation - can be mounted horizontally or vertically, ensure adequate clearance to case, 3) Spacing - maintain at least 10mm clearance to other components for voltage isolation and heat dissipation, 4) Support - for vertical mounting, use a clip or bracket to support the capacitor body and reduce stress on leads, 5) Lead length - keep leads as short as possible for low inductance, but allow for thermal expansion, 6) Connection - use proper crimp terminals or soldering for reliable electrical connection. The capacitor body should not contact other components or the enclosure. Ensure adequate ventilation around the capacitor.",
               "decisionGuide": "Follow standard axial capacitor mounting practices with adequate support and spacing.",
               "keywords": [
-                "E12.E93-104.M50 mounting",
+                "E12. E93-104. M50 mounting",
                 "axial capacitor installation",
                 "snubber capacitor mounting"
               ]
@@ -1908,11 +1936,11 @@
           ]
         },
         {
-          "partNumber": "E12.E93-204.M20",
-          "name": "E12.E93 200nF 2000V Snubber Capacitor",
+          "partNumber": "E12. E93-204. M20",
+          "name": "E12. E93 200nF 2000V Snubber Capacitor",
           "shortDescription": "High-voltage snubber capacitor 200nF/2000V for IGBT and thyristor protection circuits.",
           "descriptionParagraphs": [
-            "The E12.E93-204.M20 is a high-voltage snubber capacitor from Electronicon's E12 series, designed for IGBT and thyristor protection circuits.",
+            "The E12. E93-204. M20 is a high-voltage snubber capacitor from Electronicon's E12 series, designed for IGBT and thyristor protection circuits.",
             "With 200nF capacitance and 2000V DC rating, this capacitor effectively suppresses voltage spikes and protects power semiconductors. The low inductance design ensures fast response to transients.",
             "Features include low inductance (<20nH), high dV/dt capability (5000V/μs), and self-healing properties. The axial leads provide easy PCB mounting."
           ],
@@ -1925,7 +1953,12 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "Axial leads",
             "Dimensions": "25mm diameter x 50mm length",
-            "Weight": "0.1kg"
+            "Weight": "0.1kg",
+            "VoltageRating": "N/A",
+            "dv/dt": "N/A",
+            "PeakCurrent": "N/A",
+            "TemperatureRange": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "200nF capacitance",
@@ -1944,12 +1977,12 @@
           "faeReview": {
             "author": "David Wang",
             "title": "Principal FAE - Power Electronics",
-            "content": "The E12.E93-204.M20 is an excellent snubber capacitor for IGBT protection. The low inductance is critical for effective spike suppression. I've used this capacitor in numerous inverter designs with reliable results. The 2000V rating provides good margin for 1200V IGBTs. The axial leads make PCB mounting straightforward.",
+            "content": "The E12. E93-204. M20 is an excellent snubber capacitor for IGBT protection. The low inductance is critical for effective spike suppression. I've used this capacitor in numerous inverter designs with reliable results. The 2000V rating provides good margin for 1200V IGBTs. The axial leads make PCB mounting straightforward.",
             "highlight": "Low inductance for effective spike suppression"
           },
           "alternativeParts": [
             {
-              "partNumber": "E12.E93-304.M20",
+              "partNumber": "E12. E93-304. M20",
               "brand": "Electronicon",
               "reason": "Higher capacitance for more energy absorption",
               "comparison": {
@@ -1990,11 +2023,11 @@
           ]
         },
         {
-          "partNumber": "E12.E93-304.M20",
-          "name": "E12.E93 300nF 2000V Snubber Capacitor",
+          "partNumber": "E12. E93-304. M20",
+          "name": "E12. E93 300nF 2000V Snubber Capacitor",
           "shortDescription": "High-capacitance snubber capacitor 300nF/2000V for demanding IGBT protection applications.",
           "descriptionParagraphs": [
-            "The E12.E93-304.M20 is a high-capacitance snubber capacitor from Electronicon's E12 series, designed for demanding IGBT and power semiconductor protection.",
+            "The E12. E93-304. M20 is a high-capacitance snubber capacitor from Electronicon's E12 series, designed for demanding IGBT and power semiconductor protection.",
             "With 300nF capacitance and 2000V DC rating, this capacitor provides enhanced energy absorption for large voltage spikes. The larger capacitance improves protection for high-current applications.",
             "Features include low inductance (<20nH), very high dV/dt capability (5000V/μs), and excellent self-healing properties."
           ],
@@ -2007,7 +2040,12 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "Axial leads",
             "Dimensions": "30mm diameter x 60mm length",
-            "Weight": "0.15kg"
+            "Weight": "0.15kg",
+            "VoltageRating": "N/A",
+            "dv/dt": "N/A",
+            "PeakCurrent": "N/A",
+            "TemperatureRange": "N/A",
+            "Current Rating": "N/A"
           },
           "features": [
             "300nF high capacitance",
@@ -2025,12 +2063,12 @@
           "faeReview": {
             "author": "Michael Chen",
             "title": "Senior FAE - Power Electronics",
-            "content": "The E12.E93-304.M20 provides enhanced protection with its 300nF capacitance. I recommend this for high-current IGBT modules (300A+). The larger capacitance absorbs more energy from voltage spikes. Excellent for demanding industrial drives and high-power inverters.",
+            "content": "The E12. E93-304. M20 provides enhanced protection with its 300nF capacitance. I recommend this for high-current IGBT modules (300A+). The larger capacitance absorbs more energy from voltage spikes. Excellent for demanding industrial drives and high-power inverters.",
             "highlight": "Enhanced protection for high-current applications"
           },
           "alternativeParts": [
             {
-              "partNumber": "E12.E93-204.M20",
+              "partNumber": "E12. E93-204. M20",
               "brand": "Electronicon",
               "reason": "Lower capacitance for standard applications",
               "comparison": {
@@ -2061,7 +2099,7 @@
           "faqs": [
             {
               "question": "What is the energy absorption capability of this capacitor?",
-              "answer": "Energy E = 0.5 × C × V². For 300nF at 2000V: E = 0.5 × 300×10⁻⁹ × 2000² = 0.6 Joules. This represents the maximum energy the capacitor can absorb in a single pulse without exceeding voltage rating.",
+              "answer": "Energy E = 0.5 × C × V². For 300nF at 2000V: E = 0.5 × 300×10⁻⁹ × 2000² = 0.6 Joules. This is the maximum energy the capacitor can absorb in a single pulse without exceeding voltage rating.",
               "decisionGuide": "Calculate energy absorption based on your voltage spike requirements.",
               "keywords": [
                 "energy absorption",
@@ -2079,9 +2117,9 @@
       "description": "Electronicon motor run capacitors are designed for continuous operation in AC motor applications, providing the phase shift required for single-phase motor starting and running.",
       "longDescription": "Electronicon motor run capacitors are designed for continuous operation in AC motor applications, providing the phase shift required for single-phase motor starting and running. These metallized film capacitors feature high AC voltage capability, low losses, and excellent self-healing properties for long service life. Available in voltages from 250V to 660V AC with capacitance values from 1uF to 100uF, they are ideal for HVAC systems, pump motors, compressor applications, and general-purpose motor running. As an authorized Electronicon distributor, we provide technical support and selection guidance for motor run capacitor applications.",
       "series": [
-        "E62.M16",
-        "E62.M14",
-        "E62.M12"
+        "E62. M16",
+        "E62. M14",
+        "E62. M12"
       ],
       "parameters": [
         "Capacitance",
@@ -2169,11 +2207,11 @@
       ],
       "products": [
         {
-          "partNumber": "E62.M16-473.M20",
+          "partNumber": "E62. M16-473. M20",
           "name": "Motor Run Capacitor 47uF 450V AC",
-          "shortDescription": "Electronicon E62.M16-473.M20 47uF 450V motor run capacitor for HVAC and pump motor applications.",
+          "shortDescription": "Electronicon E62. M16-473. M20 47uF 450V motor run capacitor for HVAC and pump motor applications.",
           "descriptionParagraphs": [
-            "The E62.M16-473.M20 is a high-quality motor run capacitor designed for continuous operation in AC motor applications.",
+            "The E62. M16-473. M20 is a high-quality motor run capacitor designed for continuous operation in AC motor applications.",
             "Features dry filling technology and self-healing properties for long lifetime and maintenance-free operation.",
             "Ideal for HVAC systems, pump motors, and compressor applications requiring reliable motor running capacitance."
           ],
@@ -2211,32 +2249,32 @@
           "faeReview": {
             "author": "Klaus Weber",
             "title": "FAE - Motor Applications",
-            "content": "The E62.M16-473.M20 is my go-to recommendation for 2-5HP motor applications. The 47uF capacitance is ideal for motors in the 1.5-3.7kW range, commonly found in HVAC and pump applications. I particularly appreciate the dry filling technology which eliminates oil leakage concerns I've seen with traditional motor run capacitors. The 450V rating provides good margin for 230V single-phase systems and can handle voltage fluctuations common in industrial environments. The self-healing properties ensure continued operation even if minor dielectric issues occur. For HVAC applications, I typically see 15+ year service life with this capacitor. The M8 stud mounting provides secure installation in vibration-prone environments. This is a reliable, long-life capacitor for demanding motor applications.",
+            "content": "The E62. M16-473. M20 is my go-to recommendation for 2-5HP motor applications. The 47uF capacitance is ideal for motors in the 1.5-3.7kW range, commonly found in HVAC and pump applications. I particularly appreciate the dry filling technology which eliminates oil leakage concerns I've seen with traditional motor run capacitors. The 450V rating provides good margin for 230V single-phase systems and can handle voltage fluctuations common in industrial environments. The self-healing properties ensure continued operation even if minor dielectric issues occur. For HVAC applications, I typically see 15+ year service life with this capacitor. The M8 stud mounting provides secure installation in vibration-prone environments. This is a reliable, long-life capacitor for demanding motor applications.",
             "highlight": "Reliable dry-filled capacitor for continuous motor operation"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.M16-683.M20",
+              "partNumber": "E62. M16-683. M20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "68uF",
                 "voltage": "450V AC",
                 "current": "10A RMS"
               },
-              "comparison": "E62.M16-473.M20=><E62.M16-683.M20: Output current 10A > 8A (+25%), suitable for direct replacement",
+              "comparison": "E62. M16-473. M20=><E62. M16-683. M20: Output current 10A > 8A (+25%), suitable for direct replacement",
               "reason": "Higher capacitance for larger motors or applications requiring more running torque",
               "useCase": "3-7.5HP motor applications or motors with high starting/running torque requirements",
               "link": "/electronicon/products/motor-run-capacitors/e62-m16-683-m20.html"
             },
             {
-              "partNumber": "E62.M14-473.M10",
+              "partNumber": "E62. M14-473. M10",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "47uF",
                 "voltage": "370V AC",
                 "current": "7A RMS"
               },
-              "comparison": "E62.M16-473.M20=><E62.M14-473.M10: Output current 7A < 8A (lower), suitable for direct replacement",
+              "comparison": "E62. M16-473. M20=><E62. M14-473. M10: Output current 7A < 8A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for cost-sensitive 230V applications",
               "useCase": "Standard 230V motor applications with moderate voltage stability",
               "link": "/electronicon/products/motor-run-capacitors/e62-m14-473-m10.html"
@@ -2244,7 +2282,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E62.M16-473.M20",
+              "partNumber": "E62. M16-473. M20",
               "link": "/electronicon/products/motor-run-capacitors/e62-m16-473-m20.html",
               "description": "Spare capacitor for maintenance",
               "category": "Motor Run Capacitors"
@@ -2277,7 +2315,7 @@
           "applicationScenarios": [
             {
               "title": "3HP HVAC Compressor",
-              "description": "E62.M16-473.M20 provides running capacitance for 3HP air conditioning compressor motor"
+              "description": "E62. M16-473. M20 provides running capacitance for 3HP air conditioning compressor motor"
             },
             {
               "title": "2HP Water Pump",
@@ -2289,79 +2327,79 @@
             }
           ],
           "keywords": [
-            "Electronicon E62.M16-473.M20",
+            "Electronicon E62. M16-473. M20",
             "47uF 450V motor capacitor",
             "motor run capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What size motor is the E62.M16-473.M20 suitable for?",
-              "answer": "The E62.M16-473.M20 with 47uF capacitance is typically suitable for 2-5HP (1.5-3.7kW) single-phase AC motors. The exact motor size depends on motor design and application: 1) 2HP motors - 47uF provides excellent running performance with good torque, 2) 3HP motors - 47uF is the typical recommended value for standard efficiency motors, 3) 5HP motors - 47uF may be on the low side, check motor nameplate for specific requirement (may need 50-60uF). Always verify against the motor manufacturer's specification on the nameplate. Using incorrect capacitance can result in reduced torque, overheating, or poor efficiency. For replacement applications, match the original capacitor value unless the motor has been rewound.",
-              "decisionGuide": "Verify motor nameplate specifications; the E62.M16-473.M20 is ideal for 2-5HP motors typically requiring 40-50uF.",
+              "question": "What size motor is the E62. M16-473. M20 suitable for?",
+              "answer": "The E62. M16-473. M20 with 47uF capacitance is typically suitable for 2-5HP (1.5-3.7kW) single-phase AC motors. The exact motor size depends on motor design and application: 1) 2HP motors - 47uF provides excellent running performance with good torque, 2) 3HP motors - 47uF is the typical recommended value for standard efficiency motors, 3) 5HP motors - 47uF may be on the low side, check motor nameplate for specific requirement (may need 50-60uF). Always verify against the motor manufacturer's specification on the nameplate. Using incorrect capacitance can result in reduced torque, overheating, or poor efficiency. For replacement applications, match the original capacitor value unless the motor has been rewound.",
+              "decisionGuide": "Verify motor nameplate specifications; the E62. M16-473. M20 is ideal for 2-5HP motors typically requiring 40-50uF.",
               "keywords": [
-                "E62.M16-473.M20 motor size",
+                "E62. M16-473. M20 motor size",
                 "47uF capacitor motor HP",
                 "motor capacitor sizing"
               ]
             },
             {
-              "question": "How do I wire the E62.M16-473.M20 in a motor circuit?",
-              "answer": "To wire the E62.M16-473.M20 in a single-phase motor circuit: 1) Identify motor terminals - main winding (T1-T2), auxiliary winding (T3-T4), 2) Connect capacitor between auxiliary winding terminal and power line (typically T3 to L2), 3) Connect main winding across power lines (T1 to L1, T2 to L2), 4) For motors with centrifugal switch - capacitor is only in circuit during starting, 5) For permanent split capacitor (PSC) motors - capacitor remains in circuit continuously. The E62.M16-473.M20 is designed for continuous operation in PSC motor configurations. Use appropriate wire gauge for motor current (typically 14-12 AWG for 2-5HP). Ensure all connections are tight and properly insulated. The capacitor should be mounted close to the motor but in a location accessible for replacement.",
+              "question": "How do I wire the E62. M16-473. M20 in a motor circuit?",
+              "answer": "To wire the E62. M16-473. M20 in a single-phase motor circuit: 1) Identify motor terminals - main winding (T1-T2), auxiliary winding (T3-T4), 2) Connect capacitor between auxiliary winding terminal and power line (typically T3 to L2), 3) Connect main winding across power lines (T1 to L1, T2 to L2), 4) For motors with centrifugal switch - capacitor is only in circuit during starting, 5) For permanent split capacitor (PSC) motors - capacitor remains in circuit continuously. The E62. M16-473. M20 is designed for continuous operation in PSC motor configurations. Use appropriate wire gauge for motor current (typically 14-12 AWG for 2-5HP). Ensure all connections are tight and properly insulated. The capacitor should be mounted close to the motor but in a location accessible for replacement.",
               "decisionGuide": "Follow motor wiring diagram; connect capacitor to auxiliary winding for continuous operation in PSC motors.",
               "keywords": [
                 "motor capacitor wiring",
-                "E62.M16-473.M20 connection",
+                "E62. M16-473. M20 connection",
                 "motor run capacitor installation"
               ]
             },
             {
-              "question": "What is the expected lifetime of the E62.M16-473.M20?",
-              "answer": "The E62.M16-473.M20 is rated for 60,000 hours lifetime at 70C hot spot temperature. In typical motor applications, this translates to: 1) HVAC applications - 15-20 years with seasonal operation (2000 hours/year), 2) Industrial continuous operation - 7-10 years with 24/7 operation (8760 hours/year), 3) Pump applications - 10-15 years with intermittent operation. Actual lifetime depends on: operating temperature, voltage stress, capacitance value match, and environmental conditions. The dry filling technology and self-healing properties contribute to long service life. Unlike oil-filled capacitors, there's no oil degradation over time. Monitor capacitance annually; replace when capacitance drops below 90% of rated value (42uF for this capacitor).",
+              "question": "What is the expected lifetime of the E62. M16-473. M20?",
+              "answer": "The E62. M16-473. M20 is rated for 60,000 hours lifetime at 70C hot spot temperature. In typical motor applications, this translates to: 1) HVAC applications - 15-20 years with seasonal operation (2000 hours/year), 2) Industrial continuous operation - 7-10 years with 24/7 operation (8760 hours/year), 3) Pump applications - 10-15 years with intermittent operation. Actual lifetime depends on: operating temperature, voltage stress, capacitance value match, and environmental conditions. The dry filling technology and self-healing properties contribute to long service life. Unlike oil-filled capacitors, there's no oil degradation over time. Monitor capacitance annually; replace when capacitance drops below 90% of rated value (42uF for this capacitor).",
               "decisionGuide": "Expect 10-20 year service life depending on application; monitor capacitance and replace when below 90% of rated.",
               "keywords": [
-                "E62.M16-473.M20 lifetime",
+                "E62. M16-473. M20 lifetime",
                 "motor capacitor life expectancy",
                 "capacitor service life"
               ]
             },
             {
-              "question": "Can the E62.M16-473.M20 be used for motor starting?",
-              "answer": "The E62.M16-473.M20 is designed for continuous operation as a motor RUN capacitor, not for starting. Motor start capacitors are different: 1) Start capacitors - high capacitance (100-800uF), electrolytic construction, brief duty (few seconds), disconnected after starting, 2) Run capacitors - lower capacitance (1-100uF), film construction, continuous duty. Using the E62.M16-473.M20 for starting only would be a waste of its continuous-duty design. However, some motors use the same capacitor for both starting and running (permanent split capacitor motors). In this case, the E62.M16-473.M20 is appropriate. For motors requiring high starting torque with centrifugal switch, use a separate start capacitor (electrolytic) in addition to the run capacitor.",
-              "decisionGuide": "Use E62.M16-473.M20 for continuous motor running; use separate electrolytic start capacitors for high-torque starting applications.",
+              "question": "Can the E62. M16-473. M20 be used for motor starting?",
+              "answer": "The E62. M16-473. M20 is designed for continuous operation as a motor RUN capacitor, not for starting. Motor start capacitors are different: 1) Start capacitors - high capacitance (100-800uF), electrolytic construction, brief duty (few seconds), disconnected after starting, 2) Run capacitors - lower capacitance (1-100uF), film construction, continuous duty. Using the E62. M16-473. M20 for starting only would be a waste of its continuous-duty design. However, some motors use the same capacitor for both starting and running (permanent split capacitor motors). In this case, the E62. M16-473. M20 is appropriate. For motors requiring high starting torque with centrifugal switch, use a separate start capacitor (electrolytic) in addition to the run capacitor.",
+              "decisionGuide": "Use E62. M16-473. M20 for continuous motor running; use separate electrolytic start capacitors for high-torque starting applications.",
               "keywords": [
                 "motor start vs run capacitor",
-                "E62.M16-473.M20 starting",
+                "E62. M16-473. M20 starting",
                 "motor capacitor application"
               ]
             },
             {
-              "question": "What voltage systems is the E62.M16-473.M20 compatible with?",
-              "answer": "The E62.M16-473.M20 with 450V AC rating is compatible with: 1) 115V systems - excellent margin (290% of operating voltage), suitable for 115V motors, 2) 230V systems - good margin (96% of operating voltage), ideal for standard 230V single-phase motors, 3) 208V systems - good margin (116% of operating voltage), suitable for 208V motors. The 450V rating is NOT suitable for: 480V three-phase systems (requires 660V+ capacitor), 600V systems. For 230V applications, the 450V rating provides good safety margin for voltage fluctuations common in residential and light commercial environments. The capacitor can withstand brief overvoltages up to 1.1x rated voltage (495V) per IEC standards.",
-              "decisionGuide": "The E62.M16-473.M20 is ideal for 115V, 208V, and 230V motor systems; not suitable for 480V applications.",
+              "question": "What voltage systems is the E62. M16-473. M20 compatible with?",
+              "answer": "The E62. M16-473. M20 with 450V AC rating is compatible with: 1) 115V systems - excellent margin (290% of operating voltage), suitable for 115V motors, 2) 230V systems - good margin (96% of operating voltage), ideal for standard 230V single-phase motors, 3) 208V systems - good margin (116% of operating voltage), suitable for 208V motors. The 450V rating is NOT suitable for: 480V three-phase systems (requires 660V+ capacitor), 600V systems. For 230V applications, the 450V rating provides good safety margin for voltage fluctuations common in residential and light commercial environments. The capacitor can withstand brief overvoltages up to 1.1x rated voltage (495V) per IEC standards.",
+              "decisionGuide": "The E62. M16-473. M20 is ideal for 115V, 208V, and 230V motor systems; not suitable for 480V applications.",
               "keywords": [
-                "E62.M16-473.M20 voltage",
+                "E62. M16-473. M20 voltage",
                 "motor capacitor voltage rating",
                 "450V capacitor applications"
               ]
             },
             {
-              "question": "How do I troubleshoot motor issues related to the E62.M16-473.M20?",
-              "answer": "To troubleshoot motor issues related to the E62.M16-473.M20: 1) Motor won't start - check capacitor with capacitance meter (should be 42-52uF), check for open circuit or short, 2) Reduced torque - low capacitance reduces running torque, measure and compare to rated, 3) Motor overheating - wrong capacitance causes excessive current, verify correct value for motor, 4) Humming noise - failing capacitor can cause noise, check for bulging or leakage. Test procedure: Disconnect power and discharge, remove capacitor, measure capacitance with meter, check ESR if meter has function, inspect for physical damage. Replace if: capacitance <42uF (90% of rated), physical damage visible, ESR significantly elevated. Always replace with same or higher capacitance and voltage rating.",
+              "question": "How do I troubleshoot motor issues related to the E62. M16-473. M20?",
+              "answer": "To troubleshoot motor issues related to the E62. M16-473. M20: 1) Motor won't start - check capacitor with capacitance meter (should be 42-52uF), check for open circuit or short, 2) Reduced torque - low capacitance reduces running torque, measure and compare to rated, 3) Motor overheating - wrong capacitance causes excessive current, verify correct value for motor, 4) Humming noise - failing capacitor can cause noise, check for bulging or leakage. Test procedure: Disconnect power and discharge, remove capacitor, measure capacitance with meter, check ESR if meter has function, inspect for physical damage. Replace if: capacitance <42uF (90% of rated), physical damage visible, ESR significantly elevated. Always replace with same or higher capacitance and voltage rating.",
               "decisionGuide": "Measure capacitance and inspect for damage; replace if capacitance is below 90% of rated or physical damage is present.",
               "keywords": [
                 "motor capacitor troubleshooting",
-                "E62.M16-473.M20 testing",
+                "E62. M16-473. M20 testing",
                 "motor run capacitor problems"
               ]
             }
           ]
         },
         {
-          "partNumber": "E62.M16-104.M30",
+          "partNumber": "E62. M16-104. M30",
           "name": "Motor Run Capacitor 100uF 660V AC",
-          "shortDescription": "Electronicon E62.M16-104.M30 100uF 660V high-capacitance motor run capacitor for commercial and industrial motors.",
+          "shortDescription": "Electronicon E62. M16-104. M30 100uF 660V high-capacitance motor run capacitor for commercial and industrial motors.",
           "descriptionParagraphs": [
-            "The E62.M16-104.M30 provides high capacitance for larger single-phase motors and high-voltage applications.",
+            "The E62. M16-104. M30 provides high capacitance for larger single-phase motors and high-voltage applications.",
             "Designed with robust construction and high voltage rating for commercial and industrial motor applications.",
             "Features dry filling technology and self-healing properties for long service life in demanding environments."
           ],
@@ -2399,32 +2437,32 @@
           "faeReview": {
             "author": "Klaus Weber",
             "title": "FAE - Motor Applications",
-            "content": "The E62.M16-104.M30 is my recommendation for larger motors and high-voltage applications. The 100uF capacitance is suitable for 7.5-15HP motors commonly found in commercial HVAC and industrial equipment. The 660V rating is particularly valuable for 480V three-phase systems where line-to-line voltage requires higher capacitor rating. I frequently specify this capacitor for large rooftop HVAC units and industrial pump stations. The high current rating (15A) handles the demands of large motors without overheating. The dry filling eliminates oil leakage risks in commercial installations. For 480V applications, the 660V rating provides 38% margin which is adequate for most installations. I've seen excellent reliability with this capacitor in demanding commercial environments.",
+            "content": "The E62. M16-104. M30 is my recommendation for larger motors and high-voltage applications. The 100uF capacitance is suitable for 7.5-15HP motors commonly found in commercial HVAC and industrial equipment. The 660V rating is particularly valuable for 480V three-phase systems where line-to-line voltage requires higher capacitor rating. I frequently specify this capacitor for large rooftop HVAC units and industrial pump stations. The high current rating (15A) handles the demands of large motors without overheating. The dry filling eliminates oil leakage risks in commercial installations. For 480V applications, the 660V rating provides 38% margin which is adequate for most installations. I've seen excellent reliability with this capacitor in demanding commercial environments.",
             "highlight": "High capacitance and voltage rating for commercial and industrial motors"
           },
           "alternativeParts": [
             {
-              "partNumber": "E62.M16-154.M30",
+              "partNumber": "E62. M16-154. M30",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "150uF",
                 "voltage": "660V AC",
                 "current": "20A RMS"
               },
-              "comparison": "E62.M16-104.M30=><E62.M16-154.M30: Output current 20A > 15A (+33%), suitable for direct replacement",
+              "comparison": "E62. M16-104. M30=><E62. M16-154. M30: Output current 20A > 15A (+33%), suitable for direct replacement",
               "reason": "Higher capacitance for larger motors or applications requiring more running torque",
               "useCase": "15-20HP motor applications or large commercial HVAC systems",
               "link": "/electronicon/products/motor-run-capacitors/e62-m16-154-m30.html"
             },
             {
-              "partNumber": "E62.M16-104.M20",
+              "partNumber": "E62. M16-104. M20",
               "brand": "Electronicon",
               "specifications": {
                 "capacitance": "100uF",
                 "voltage": "450V AC",
                 "current": "12A RMS"
               },
-              "comparison": "E62.M16-104.M30=><E62.M16-104.M20: Output current 12A < 15A (lower), suitable for direct replacement",
+              "comparison": "E62. M16-104. M30=><E62. M16-104. M20: Output current 12A < 15A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 230V applications with reduced cost",
               "useCase": "230V motor applications where 450V provides adequate margin",
               "link": "/electronicon/products/motor-run-capacitors/e62-m16-104-m20.html"
@@ -2432,7 +2470,7 @@
           ],
           "companionParts": [
             {
-              "partNumber": "E62.M16-104.M30",
+              "partNumber": "E62. M16-104. M30",
               "link": "/electronicon/products/motor-run-capacitors/e62-m16-104-m30.html",
               "description": "Spare capacitor for maintenance",
               "category": "Motor Run Capacitors"
@@ -2465,7 +2503,7 @@
           "applicationScenarios": [
             {
               "title": "10HP Commercial HVAC",
-              "description": "E62.M16-104.M30 provides running capacitance for large commercial air conditioning compressors"
+              "description": "E62. M16-104. M30 provides running capacitance for large commercial air conditioning compressors"
             },
             {
               "title": "480V Pump Motor",
@@ -2477,67 +2515,67 @@
             }
           ],
           "keywords": [
-            "Electronicon E62.M16-104.M30",
+            "Electronicon E62. M16-104. M30",
             "100uF 660V motor capacitor",
             "large motor run capacitor distributor"
           ],
           "faqs": [
             {
-              "question": "What size motors can use the E62.M16-104.M30?",
-              "answer": "The E62.M16-104.M30 with 100uF capacitance is typically suitable for 7.5-15HP (5.5-11kW) single-phase AC motors. Specific applications include: 1) 7.5HP motors - 100uF provides excellent running performance, 2) 10HP motors - 100uF is the typical recommended value, 3) 15HP motors - 100uF is on the lower side, check motor nameplate (may need 120-150uF). The 660V rating makes this capacitor suitable for 480V three-phase systems where higher voltage capability is required. For single-phase 230V motors in this power range, the high voltage rating provides excellent margin. Always verify against motor manufacturer's specifications on the nameplate. The 15A current rating handles the demands of these larger motors.",
-              "decisionGuide": "Verify motor nameplate specifications; the E62.M16-104.M30 is ideal for 7.5-15HP motors requiring 80-120uF.",
+              "question": "What size motors can use the E62. M16-104. M30?",
+              "answer": "The E62. M16-104. M30 with 100uF capacitance is typically suitable for 7.5-15HP (5.5-11kW) single-phase AC motors. Specific applications include: 1) 7.5HP motors - 100uF provides excellent running performance, 2) 10HP motors - 100uF is the typical recommended value, 3) 15HP motors - 100uF is on the lower side, check motor nameplate (may need 120-150uF). The 660V rating makes this capacitor suitable for 480V three-phase systems where higher voltage capability is required. For single-phase 230V motors in this power range, the high voltage rating provides excellent margin. Always verify against motor manufacturer's specifications on the nameplate. The 15A current rating handles the demands of these larger motors.",
+              "decisionGuide": "Verify motor nameplate specifications; the E62. M16-104. M30 is ideal for 7.5-15HP motors requiring 80-120uF.",
               "keywords": [
-                "E62.M16-104.M30 motor size",
+                "E62. M16-104. M30 motor size",
                 "100uF capacitor motor HP",
                 "large motor capacitor sizing"
               ]
             },
             {
-              "question": "Is the E62.M16-104.M30 suitable for 480V three-phase systems?",
-              "answer": "Yes, the E62.M16-104.M30 with 660V AC rating is suitable for 480V three-phase systems. In three-phase systems: 1) Line-to-line voltage is 480V, 2) The 660V rating provides 38% margin (660/480 = 1.38), 3) This margin is adequate for most industrial applications, 4) Some designers prefer higher margin for critical applications. The capacitor is used in single-phase motors connected to 480V three-phase systems (line-to-line). For example, large commercial HVAC units often use single-phase compressors powered from 480V three-phase service. The 660V rating handles the higher voltage compared to 230V systems. The 100uF capacitance is appropriate for the larger motors (7.5-15HP) typically found in 480V applications.",
-              "decisionGuide": "The E62.M16-104.M30 is well-suited for 480V three-phase systems with single-phase motors; provides adequate voltage margin.",
+              "question": "Is the E62. M16-104. M30 suitable for 480V three-phase systems?",
+              "answer": "Yes, the E62. M16-104. M30 with 660V AC rating is suitable for 480V three-phase systems. In three-phase systems: 1) Line-to-line voltage is 480V, 2) The 660V rating provides 38% margin (660/480 = 1.38), 3) This margin is adequate for most industrial applications, 4) Some designers prefer higher margin for critical applications. The capacitor is used in single-phase motors connected to 480V three-phase systems (line-to-line). For example, large commercial HVAC units often use single-phase compressors powered from 480V three-phase service. The 660V rating handles the higher voltage compared to 230V systems. The 100uF capacitance is appropriate for the larger motors (7.5-15HP) typically found in 480V applications.",
+              "decisionGuide": "The E62. M16-104. M30 is well-suited for 480V three-phase systems with single-phase motors; provides adequate voltage margin.",
               "keywords": [
-                "E62.M16-104.M30 480V",
+                "E62. M16-104. M30 480V",
                 "three-phase motor capacitor",
                 "660V capacitor applications"
               ]
             },
             {
-              "question": "How does the E62.M16-104.M30 compare to oil-filled motor capacitors?",
-              "answer": "The E62.M16-104.M30 dry-filled capacitor offers advantages over traditional oil-filled motor capacitors: 1) No leakage risk - eliminates oil leakage that can damage equipment and create safety hazards, 2) Mounting flexibility - can be mounted in any position, oil-filled must be mounted upright, 3) Environmental safety - no oil contamination risk if capacitor fails, 4) Longer lifetime - no oil degradation over time, stable performance, 5) Lighter weight - dry filling is lighter than oil, 6) Maintenance-free - no periodic inspection needed. Oil-filled capacitors may have slightly lower cost but require careful mounting and pose leakage risks. The E62.M16-104.M30 provides the same electrical performance with improved reliability and safety. For commercial and industrial applications, the dry-filled design is preferred.",
-              "decisionGuide": "Choose E62.M16-104.M30 dry-filled capacitor for improved reliability, safety, and mounting flexibility.",
+              "question": "How does the E62. M16-104. M30 compare to oil-filled motor capacitors?",
+              "answer": "The E62. M16-104. M30 dry-filled capacitor offers advantages over traditional oil-filled motor capacitors: 1) No leakage risk - eliminates oil leakage that can damage equipment and create safety hazards, 2) Mounting flexibility - can be mounted in any position, oil-filled must be mounted upright, 3) Environmental safety - no oil contamination risk if capacitor fails, 4) Longer lifetime - no oil degradation over time, stable performance, 5) Lighter weight - dry filling is lighter than oil, 6) Maintenance-free - no periodic inspection needed. Oil-filled capacitors may have slightly lower cost but require careful mounting and pose leakage risks. The E62. M16-104. M30 provides the same electrical performance with improved reliability and safety. For commercial and industrial applications, the dry-filled design is preferred.",
+              "decisionGuide": "Choose E62. M16-104. M30 dry-filled capacitor for improved reliability, safety, and mounting flexibility.",
               "keywords": [
                 "dry vs oil filled capacitor",
-                "E62.M16-104.M30 advantages",
+                "E62. M16-104. M30 advantages",
                 "motor capacitor technology"
               ]
             },
             {
-              "question": "What is the temperature rating of the E62.M16-104.M30?",
-              "answer": "The E62.M16-104.M30 is rated for operation from -25C to +85C ambient temperature. Key temperature considerations: 1) Lower limit (-25C) - ESR increases at low temperatures but operation is reliable, 2) Upper limit (85C) - maximum ambient for rated performance, 3) Hot spot temperature - should not exceed 70C for rated 60,000-hour lifetime, 4) Derating - at temperatures above 85C, voltage and current must be derated. The lifetime follows the Arrhenius relationship - approximately doubling for every 10C decrease in temperature. For example, at 60C hot spot, expect approximately 120,000 hours lifetime. Ensure adequate ventilation around the capacitor, especially in hot environments. For outdoor applications, provide protection from direct sunlight which can increase case temperature significantly.",
+              "question": "What is the temperature rating of the E62. M16-104. M30?",
+              "answer": "The E62. M16-104. M30 is rated for operation from -25C to +85C ambient temperature. Key temperature considerations: 1) Lower limit (-25C) - ESR increases at low temperatures but operation is reliable, 2) Upper limit (85C) - maximum ambient for rated performance, 3) Hot spot temperature - should not exceed 70C for rated 60,000-hour lifetime, 4) Derating - at temperatures above 85C, voltage and current must be derated. The lifetime follows the Arrhenius relationship - approximately doubling for every 10C decrease in temperature. For example, at 60C hot spot, expect approximately 120,000 hours lifetime. Ensure adequate ventilation around the capacitor, especially in hot environments. For outdoor applications, provide protection from direct sunlight which can increase case temperature significantly.",
               "decisionGuide": "Design for hot spot temperatures below 70C and provide adequate cooling for maximum capacitor lifetime.",
               "keywords": [
-                "E62.M16-104.M30 temperature",
+                "E62. M16-104. M30 temperature",
                 "motor capacitor thermal rating",
                 "capacitor operating temperature"
               ]
             },
             {
-              "question": "Can I use multiple E62.M16-104.M30 capacitors in parallel?",
-              "answer": "Yes, multiple E62.M16-104.M30 capacitors can be connected in parallel to achieve higher capacitance: 1) Two in parallel - 200uF total, suitable for very large motors (15-20HP), 2) Three in parallel - 300uF total, for special high-torque applications, 3) Connection - connect all terminals of same polarity together, 4) Wiring - use equal length wires to each capacitor for balanced current sharing, 5) Mounting - ensure adequate spacing between capacitors for heat dissipation. Parallel connection is useful when: a single capacitor of required value is not available, redundancy is desired (motor can run with one failed capacitor), or existing capacitors need to be used. Each capacitor should have its own protection (fuses) when multiple are used. The voltage rating remains 660V with parallel connection.",
+              "question": "Can I use multiple E62. M16-104. M30 capacitors in parallel?",
+              "answer": "Yes, multiple E62. M16-104. M30 capacitors can be connected in parallel to achieve higher capacitance: 1) Two in parallel - 200uF total, suitable for very large motors (15-20HP), 2) Three in parallel - 300uF total, for special high-torque applications, 3) Connection - connect all terminals of same polarity together, 4) Wiring - use equal length wires to each capacitor for balanced current sharing, 5) Mounting - ensure adequate spacing between capacitors for heat dissipation. Parallel connection is useful when: a single capacitor of required value is not available, redundancy is desired (motor can run with one failed capacitor), or existing capacitors need to be used. Each capacitor should have its own protection (fuses) when multiple are used. The voltage rating remains 660V with parallel connection.",
               "decisionGuide": "Use parallel connection when higher capacitance is needed; ensure equal wiring and adequate spacing.",
               "keywords": [
                 "motor capacitor parallel",
-                "E62.M16-104.M30 multiple",
+                "E62. M16-104. M30 multiple",
                 "capacitor bank motor"
               ]
             },
             {
-              "question": "What maintenance does the E62.M16-104.M30 require?",
-              "answer": "The E62.M16-104.M30 requires minimal maintenance due to its dry filling technology: 1) Annual inspection - visual check for physical damage, loose connections, or case swelling, 2) Capacitance check - measure capacitance every 2-3 years, should be 90-110uF, 3) Connection torque - check mounting and terminal torque annually, 4) Cleaning - keep capacitor clean and free from dust and debris. Unlike oil-filled capacitors, no oil level checks are needed. The self-healing properties handle minor dielectric stress automatically. Replace the capacitor when: capacitance drops below 90uF (90% of rated), physical damage is visible (bulging, cracks), or motor performance degrades (indicating capacitor issues). Typical service life is 10-20 years depending on operating conditions. Keep spare capacitors on hand for critical applications.",
+              "question": "What maintenance does the E62. M16-104. M30 require?",
+              "answer": "The E62. M16-104. M30 requires minimal maintenance due to its dry filling technology: 1) Annual inspection - visual check for physical damage, loose connections, or case swelling, 2) Capacitance check - measure capacitance every 2-3 years, should be 90-110uF, 3) Connection torque - check mounting and terminal torque annually, 4) Cleaning - keep capacitor clean and free from dust and debris. Unlike oil-filled capacitors, no oil level checks are needed. The self-healing properties handle minor dielectric stress automatically. Replace the capacitor when: capacitance drops below 90uF (90% of rated), physical damage is visible (bulging, cracks), or motor performance degrades (indicating capacitor issues). Typical service life is 10-20 years depending on operating conditions. Keep spare capacitors on hand for critical applications.",
               "decisionGuide": "Perform periodic visual inspection and capacitance measurement; replace when capacitance drops below 90% of rated.",
               "keywords": [
-                "E62.M16-104.M30 maintenance",
+                "E62. M16-104. M30 maintenance",
                 "motor capacitor care",
                 "capacitor inspection"
               ]

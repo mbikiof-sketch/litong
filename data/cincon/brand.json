@@ -5,54 +5,90 @@
   "logo": "/assets/brands/cincon/logo.svg",
   "tagline": "High-Reliability Power Solutions for Demanding Applications",
   "description": "Cincon is a leading power module manufacturer headquartered in Taiwan, specializing in high-efficiency DC-DC converters, AC-DC power modules, and custom power solutions. With over 30 years of experience, Cincon delivers reliable, compact power conversion products for industrial, medical, railway, and military applications. As an authorized Cincon distributor, BeiLuo provides comprehensive technical support and inventory for the complete product range.",
-  "longDescription": "Founded in 1991 in Taiwan, Cincon Electronics has established itself as a premier manufacturer of high-reliability power conversion products. The company operates state-of-the-art manufacturing facilities certified to ISO 9001, ISO 14001, and IATF 16949 standards, with products meeting rigorous international certifications including UL, CE, TUV, and military standards. Cincon's product portfolio encompasses a comprehensive range of DC-DC converters from 1W to 1000W, board-mount AC-DC converters from 5W to 150W, and chassis-mount power supplies up to 750W. The company is particularly renowned for its wide input range DC-DC converters (4:1 and 2:1 input), high isolation medical-grade modules, and railway-certified power solutions. Cincon's products are characterized by high efficiency (up to 92%), compact footprints, extended temperature operation (-40°C to +85°C), and exceptional reliability with MTBF ratings exceeding 2 million hours. Their products serve critical applications in industrial automation, medical equipment, railway transportation, military/aerospace, and telecommunications. As an authorized Cincon distributor, BeiLuo Electronics offers local inventory, application engineering support, and technical consultation to help customers optimize their power system designs.",
+  "longDescription": "Founded in 1991 in Taiwan, Cincon Electronics has established itself as a premier manufacturer of high-reliability power conversion products. The company operates state-of-the-art manufacturing facilities certified to ISO 9001, ISO 14001, and IATF 16949 standards, with products meeting rigorous international certifications including UL, CE, TUV, and military standards. Cincon's product portfolio encompasses a comprehensive range of DC-DC converters from 1W to 1000W, board-mount AC-DC converters from 5W to 150W, and chassis-mount power supplies up to 750W. The company is particularly known for its wide input range DC-DC converters (4:1 and 2:1 input), high isolation medical-grade modules, and railway-certified power solutions. Cincon's products are characterized by high efficiency (up to 92%), compact footprints, extended temperature operation (-40°C to +85°C), and exceptional reliability with MTBF ratings exceeding 2 million hours. Their products serve critical applications in industrial automation, medical equipment, railway transportation, military/aerospace, and telecommunications. As an authorized Cincon distributor, BeiLuo Electronics offers local inventory, application engineering support, and technical consultation to help customers optimize their power system designs.",
   "coreProducts": [
     {
       "name": "DC-DC Converters",
       "description": "High-efficiency isolated and non-isolated DC-DC converters with wide input ranges, high isolation voltages, and compact footprints for industrial and medical applications",
-      "keywords": ["Cincon DC-DC", "isolated converter", "wide input range"]
+      "keywords": [
+        "Cincon DC-DC",
+        "isolated converter",
+        "wide input range"
+      ]
     },
     {
       "name": "AC-DC Power Modules",
       "description": "Compact board-mount and chassis-mount AC-DC power supplies with universal input, high efficiency, and comprehensive safety certifications",
-      "keywords": ["Cincon AC-DC", "power module", "board mount supply"]
+      "keywords": [
+        "Cincon AC-DC",
+        "power module",
+        "board mount supply"
+      ]
     },
     {
       "name": "Medical Power Solutions",
       "description": "IEC 60601-1 certified medical power modules with 2xMOPP isolation, ultra-low leakage current, and compliance with medical safety standards",
-      "keywords": ["Cincon medical power", "healthcare power supply", "medical grade"]
+      "keywords": [
+        "Cincon medical power",
+        "healthcare power supply",
+        "medical grade"
+      ]
     },
     {
       "name": "Railway & Industrial Power",
       "description": "EN 50155 certified railway power supplies and rugged industrial converters for transportation and harsh environment applications",
-      "keywords": ["Cincon railway power", "industrial power supply", "transportation power"]
+      "keywords": [
+        "Cincon railway power",
+        "industrial power supply",
+        "transportation power"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Industrial Automation",
       "description": "Reliable power solutions for factory automation, process control, and industrial machinery requiring wide temperature operation",
-      "keywords": ["industrial power", "automation power supply", "factory automation"]
+      "keywords": [
+        "industrial power",
+        "automation power supply",
+        "factory automation"
+      ]
     },
     {
       "name": "Medical Equipment",
       "description": "Medical-grade power modules meeting stringent safety standards for patient-connected healthcare devices",
-      "keywords": ["medical equipment", "healthcare power", "patient safety"]
+      "keywords": [
+        "medical equipment",
+        "healthcare power",
+        "patient safety"
+      ]
     },
     {
       "name": "Railway Transportation",
       "description": "EN 50155 certified power supplies for rolling stock, signaling systems, and railway infrastructure",
-      "keywords": ["railway power", "rolling stock", "transportation systems"]
+      "keywords": [
+        "railway power",
+        "rolling stock",
+        "transportation systems"
+      ]
     },
     {
       "name": "Military & Aerospace",
       "description": "High-reliability power converters meeting military standards for defense and aerospace applications",
-      "keywords": ["military power", "aerospace power", "defense electronics"]
+      "keywords": [
+        "military power",
+        "aerospace power",
+        "defense electronics"
+      ]
     },
     {
       "name": "Telecommunications",
       "description": "Power solutions for telecom infrastructure, base stations, and data communication equipment",
-      "keywords": ["telecom power", "communication systems", "network infrastructure"]
+      "keywords": [
+        "telecom power",
+        "communication systems",
+        "network infrastructure"
+      ]
     }
   ],
   "certifications": [
@@ -111,49 +147,81 @@
       "question": "Is BeiLuo an authorized Cincon distributor?",
       "answer": "Yes, BeiLuo Electronics is an authorized distributor for Cincon power modules. We maintain direct relationships with Cincon headquarters in Taiwan and have access to their complete product portfolio including standard and custom power solutions. As an authorized distributor, we provide genuine Cincon products with full factory warranty, technical support, and application engineering services. Our inventory includes popular DC-DC converter series and AC-DC modules with same-day shipping available for stocked items. We also offer value-added services including custom configurations, technical documentation, and design-in support for complex applications.",
       "decisionGuide": "Contact our sales team to verify current stock availability and discuss your specific power module requirements. We can provide datasheets, samples, and technical consultation.",
-      "keywords": ["Cincon authorized distributor", "genuine Cincon", "Cincon warranty"]
+      "keywords": [
+        "Cincon authorized distributor",
+        "genuine Cincon",
+        "Cincon warranty"
+      ]
     },
     {
       "question": "What is the typical lead time for Cincon products?",
       "answer": "Cincon maintains good stock availability for their standard product lines. Popular DC-DC converter series such as EC2A, EC3A, and EC4A are typically available from stock with 1-2 week delivery time. For high-volume orders or specialized configurations, lead times may range from 4-6 weeks depending on capacity and component availability. Custom power solutions may require 8-12 weeks for design and production. We recommend contacting our sales team for current lead time information and to discuss blanket order arrangements for production requirements. Emergency expedite options are available for critical situations.",
       "decisionGuide": "For urgent requirements, check our local inventory first. For production planning, consider placing forecast orders to ensure continuous supply.",
-      "keywords": ["Cincon lead time", "power module delivery", "Cincon stock"]
+      "keywords": [
+        "Cincon lead time",
+        "power module delivery",
+        "Cincon stock"
+      ]
     },
     {
       "question": "How do I select the right Cincon DC-DC converter for my application?",
       "answer": "Selecting the right Cincon DC-DC converter involves several key considerations. First, determine your input voltage range - Cincon offers 2:1 and 4:1 wide input ranges for battery and unstable source applications. Next, calculate your output power requirements and select a converter with at least 20% headroom. Consider isolation requirements - medical applications typically need 3000V or 5000V isolation. Evaluate package size constraints - Cincon offers SIP, DIP, SMD, and chassis mount options. Check operating temperature range requirements - many Cincon converters operate from -40°C to +85°C. Review efficiency requirements for thermal management. Our FAE team can guide you through the selection process and provide application-specific recommendations.",
       "decisionGuide": "Use our online selection tool or contact our FAE team with your input voltage, output power, and application details for personalized recommendations.",
-      "keywords": ["Cincon DC-DC selection", "converter selection guide", "how to choose Cincon"]
+      "keywords": [
+        "Cincon DC-DC selection",
+        "converter selection guide",
+        "how to choose Cincon"
+      ]
     },
     {
       "question": "What makes Cincon power modules different from competitors?",
-      "answer": "Cincon differentiates itself through several key strengths. As a specialist in high-reliability power conversion with over 30 years of experience, Cincon offers exceptional product quality with MTBF ratings exceeding 2 million hours. Their products feature ultra-wide input voltage ranges (4:1), high isolation voltages up to 6000V, and compact footprints ideal for space-constrained designs. Cincon maintains strict quality control with 100% burn-in testing and operates certified ISO 9001, ISO 14001, and IATF 16949 manufacturing facilities. The company provides excellent technical support and flexible customization options. Their global service network ensures local support and fast delivery worldwide. Additionally, Cincon offers comprehensive certifications including medical (IEC 60601-1), railway (EN 50155), and military standards.",
+      "answer": "Cincon differentiates itself through several key strengths. As a specialist in high-reliability power conversion with over 30 years of experience, Cincon offers exceptional product quality with MTBF ratings exceeding 2 million hours. Their products feature ultra-wide input voltage ranges (4:1), high isolation voltages up to 6000V, and compact footprints ideal for space-constrained designs. Cincon maintains strict quality control with 100% burn-in testing and operates certified ISO 9001, ISO 14001, and IATF 16949 manufacturing facilities. The company provides excellent technical support and flexible customization options. Their global service network ensures local support and fast delivery worldwide. Cincon offers comprehensive certifications including medical (IEC 60601-1), railway (EN 50155), and military standards.",
       "decisionGuide": "Compare Cincon's specifications, reliability data, and certifications with alternatives. Request samples for evaluation in your specific application.",
-      "keywords": ["Cincon advantages", "Cincon vs competitors", "Cincon quality"]
+      "keywords": [
+        "Cincon advantages",
+        "Cincon vs competitors",
+        "Cincon quality"
+      ]
     },
     {
       "question": "What technical support does BeiLuo provide for Cincon products?",
       "answer": "BeiLuo provides comprehensive technical support for Cincon power modules through our experienced FAE team. Services include product selection assistance based on your specific electrical and environmental requirements, application circuit review and recommendations, thermal analysis and heat sink selection guidance, EMC troubleshooting and filter design, MTBF and reliability calculations, and custom modification coordination with Cincon factory. We offer reference designs for common applications and can facilitate factory direct support for complex technical questions. Our team has extensive experience with Cincon products across industrial, medical, railway, and military applications. Technical documentation including datasheets, application notes, and safety certificates are readily available through our online portal.",
       "decisionGuide": "Contact our FAE team early in your design phase for optimal product selection. Submit your requirements through our technical support form for detailed analysis.",
-      "keywords": ["Cincon technical support", "FAE support", "Cincon application engineering"]
+      "keywords": [
+        "Cincon technical support",
+        "FAE support",
+        "Cincon application engineering"
+      ]
     },
     {
       "question": "Are Cincon power modules suitable for medical applications?",
       "answer": "Yes, Cincon offers a comprehensive range of medical-grade power modules certified to IEC 60601-1 standards. Their medical product line includes DC-DC converters and AC-DC modules with 2xMOPP (Means of Patient Protection) isolation, ultra-low leakage current, and compliance with medical safety requirements. These products feature isolation voltages from 3000V to 6000V, making them suitable for patient-connected medical devices. Cincon's medical power modules are used in patient monitors, diagnostic equipment, laboratory instruments, and home healthcare devices worldwide. The ISO 13485 certified manufacturing ensures consistent quality for life-critical applications. As an authorized distributor, we can provide the complete medical certification package including CB reports, EMC test reports, and risk analysis documentation required for your medical device registration.",
       "decisionGuide": "Identify your medical device classification and isolation requirements. Contact us for medical certification documentation and application-specific recommendations.",
-      "keywords": ["Cincon medical power", "IEC 60601-1", "medical grade power module"]
+      "keywords": [
+        "Cincon medical power",
+        "IEC 60601-1",
+        "medical grade power module"
+      ]
     },
     {
       "question": "What warranty coverage is provided for Cincon products?",
       "answer": "Cincon provides industry-leading warranty coverage for their power modules. Standard products typically carry a 3-year warranty, while premium industrial and medical series often include 5-year warranty coverage. The warranty covers manufacturing defects and premature failure under normal operating conditions as specified in the product datasheet. Cincon's warranty service includes repair or replacement at their discretion, with most warranty claims processed within 2-4 weeks. The warranty period begins from the date of manufacture, and products must be operated within specified parameters. Damage from misuse, overvoltage, or environmental conditions outside specifications is not covered. As an authorized distributor, we facilitate warranty claims and can provide advance replacement for critical applications. Extended warranty options may be available for high-volume customers.",
       "decisionGuide": "Review warranty terms for your specific product series. Contact our customer service team to initiate warranty claims or inquire about extended coverage.",
-      "keywords": ["Cincon warranty", "power module guarantee", "Cincon service"]
+      "keywords": [
+        "Cincon warranty",
+        "power module guarantee",
+        "Cincon service"
+      ]
     },
     {
       "question": "Can Cincon power modules be used in harsh environments?",
       "answer": "Yes, Cincon offers several product series specifically designed for harsh environment applications. Their industrial-grade converters feature -40°C to +85°C operating temperature range without derating. For railway applications, Cincon provides EN 50155 certified modules that withstand the severe conditions of rolling stock including vibration, shock, and temperature extremes. Military-grade products meet MIL-STD-810G environmental requirements. For high-reliability applications, Cincon offers conformal coating options for humid or corrosive atmospheres. When selecting power modules for harsh environments, consider temperature range, vibration specifications, required protection rating, and altitude limitations. Our FAE team can recommend specific models and any necessary derating for your environmental conditions.",
       "decisionGuide": "Define your environmental requirements including temperature range, vibration, and altitude. Contact our FAE team for harsh environment product recommendations.",
-      "keywords": ["Cincon harsh environment", "rugged power module", "industrial grade"]
+      "keywords": [
+        "Cincon harsh environment",
+        "rugged power module",
+        "industrial grade"
+      ]
     }
   ]
 }

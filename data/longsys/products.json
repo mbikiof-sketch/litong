@@ -44,7 +44,7 @@
     },
     {
       "question": "What form factors are available for Longsys SSDs?",
-      "answer": "Longsys SSDs are available in multiple form factors to meet different application requirements. 2.5-inch SATA SSDs are ideal for laptop upgrades and industrial applications. M.2 2280 SSDs support both SATA and NVMe interfaces for compact systems. M.2 2242 and 2230 are available for ultra-compact devices. mSATA SSDs serve legacy industrial systems. U.2 and E1.S form factors are available for enterprise and data center applications. All form factors support various capacities from 128GB to 8TB depending on the product family.",
+      "answer": "Longsys SSDs are available in multiple form factors to meet different application requirements. 2.5-inch SATA SSDs are ideal for laptop upgrades and industrial applications. M.2 2280 SSDs support both SATA and NVMe interfaces for compact systems. M.2 2242 and 2230 are available for ultra-compact devices. mSATA SSDs serve legacy industrial systems. U.2 and E1. S form factors are available for enterprise and data center applications. All form factors support various capacities from 128GB to 8TB depending on the product family.",
       "decisionGuide": "Select form factor based on your system interface and physical space constraints.",
       "keywords": [
         "SSD form factors",
@@ -424,7 +424,7 @@
           "faqs": [
             {
               "question": "What is the maximum speed of UFS 3.1 compared to UFS 2.1?",
-              "answer": "UFS 3.1 provides significant performance improvements over UFS 2.1. Sequential read speeds increased from ~900MB/s (UFS 2.1) to ~2100MB/s (UFS 3.1), and sequential write from ~250MB/s to ~1200MB/s. The M-PHY 4.1 interface in UFS 3.1 supports 11.6Gbps per lane compared to 5.8Gbps in UFS 2.1. Additionally, UFS 3.1 introduces WriteBooster for enhanced sustained write performance and DeepSleep for improved power efficiency.",
+              "answer": "UFS 3.1 provides significant performance improvements over UFS 2.1. Sequential read speeds increased from ~900MB/s (UFS 2.1) to ~2100MB/s (UFS 3.1), and sequential write from ~250MB/s to ~1200MB/s. The M-PHY 4.1 interface in UFS 3.1 supports 11.6Gbps per lane compared to 5.8Gbps in UFS 2.1. UFS 3.1 introduces WriteBooster for enhanced sustained write performance and DeepSleep for improved power efficiency.",
               "decisionGuide": "UFS 3.1 provides 2x performance improvement over UFS 2.1 for demanding applications.",
               "keywords": [
                 "UFS 3.1 speed",
@@ -444,7 +444,7 @@
             },
             {
               "question": "Does UFS 3.1 support hardware encryption?",
-              "answer": "Yes, UFS 3.1 supports hardware-based encryption through the UFS standard's security features. The device supports RPMB (Replay Protected Memory Block) for secure storage of critical data. Additionally, UFS supports inline encryption engines that can perform AES encryption/decryption without host processor involvement, improving both security and performance. These features are essential for protecting user data on mobile devices.",
+              "answer": "Yes, UFS 3.1 supports hardware-based encryption through the UFS standard's security features. The device supports RPMB (Replay Protected Memory Block) for secure storage of critical data. UFS supports inline encryption engines that can perform AES encryption/decryption without host processor involvement, improving both security and performance. These features are essential for protecting user data on mobile devices.",
               "decisionGuide": "Hardware encryption provides data security without performance penalty.",
               "keywords": [
                 "UFS encryption",
@@ -869,7 +869,7 @@
           "faqs": [
             {
               "question": "What is the actual usable capacity of the 1TB SSD?",
-              "answer": "The FS01TB-35M41 has a formatted capacity of approximately 931GB. The difference between manufacturer TB (1TB = 1,000,000,000,000 bytes) and computer TiB (1TiB = 1,099,511,627,776 bytes) accounts for this difference. Additionally, a small portion of NAND is reserved for over-provisioning to improve endurance and performance. This is standard across all SSDs and is not specific to Longsys products.",
+              "answer": "The FS01TB-35M41 has a formatted capacity of approximately 931GB. The difference between manufacturer TB (1TB = 1,000,000,000,000 bytes) and computer TiB (1TiB = 1,099,511,627,776 bytes) accounts for this difference. a small portion of NAND is reserved for over-provisioning to improve endurance and performance. This is standard across all SSDs and is not specific to Longsys products.",
               "decisionGuide": "931GB formatted capacity is standard for 1TB SSDs across all manufacturers.",
               "keywords": [
                 "SSD capacity",
@@ -1435,7 +1435,7 @@
             },
             {
               "partNumber": "F4-3200C16D-16GVKB",
-              "brand": "G.Skill",
+              "brand": "G. Skill",
               "specifications": {
                 "capacity": "16GB",
                 "type": "DDR4",
@@ -1448,7 +1448,7 @@
                 "speed": "3200MT/s = 3200MT/s same",
                 "latency": "CL16 < CL22 (lower latency)"
               },
-              "reason": "G.Skill offers gaming-focused branding with lower latency",
+              "reason": "G. Skill offers gaming-focused branding with lower latency",
               "useCase": "Gaming builds preferring premium memory brands",
               "link": "#"
             }
@@ -1593,7 +1593,7 @@
             },
             {
               "partNumber": "F5-5600J3636C16GX2",
-              "brand": "G.Skill",
+              "brand": "G. Skill",
               "specifications": {
                 "capacity": "16GB",
                 "type": "DDR5",
@@ -1606,7 +1606,7 @@
                 "speed": "5600MT/s > 4800MT/s (faster)",
                 "latency": "CL36 < CL40 (lower latency)"
               },
-              "reason": "G.Skill offers higher speed and lower latency at premium price",
+              "reason": "G. Skill offers higher speed and lower latency at premium price",
               "useCase": "High-performance gaming builds",
               "link": "#"
             }

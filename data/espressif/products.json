@@ -1571,11 +1571,11 @@
         },
         {
           "question": "Can I use external antennas with Espressif modules?",
-          "answer": "Yes, many Espressif modules support external antennas: ESP32-WROOM-32U includes U.FL connector for external antenna. ESP32-WROVER-IB has IPEX connector and antenna diversity. ESP32-C3-WROOM-02U variant supports external antennas. Using external antennas can improve range by 3-6dB and allows antenna placement away from interference sources. However, using an external antenna not included in the original module certification may require additional testing. Always consult Espressif's antenna design guide for optimal performance.",
+          "answer": "Yes, many Espressif modules support external antennas: ESP32-WROOM-32U includes U. FL connector for external antenna. ESP32-WROVER-IB has IPEX connector and antenna diversity. ESP32-C3-WROOM-02U variant supports external antennas. Using external antennas can improve range by 3-6dB and allows antenna placement away from interference sources. However, using an external antenna not included in the original module certification may require additional testing. Always consult Espressif's antenna design guide for optimal performance.",
           "decisionGuide": "Use U/W variants with external antennas for extended range or when module must be shielded.",
           "keywords": [
             "external antenna",
-            "U.FL connector",
+            "U. FL connector",
             "range extension"
           ]
         },

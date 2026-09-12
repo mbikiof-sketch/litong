@@ -4,49 +4,92 @@
   "logo": "/assets/brands/adi/logo.svg",
   "tagline": "Ahead of What's Possible",
   "description": "Analog Devices is a leading global high-performance analog technology company dedicated to solving the toughest engineering challenges in signal processing, power management, and connectivity.",
-  "longDescription": "Analog Devices, Inc. (ADI) is a premier global high-performance analog technology company that designs, manufactures, and markets a broad portfolio of solutions that leverage high-performance analog, mixed-signal, and digital signal processing technology. Founded in 1965 and headquartered in Wilmington, Massachusetts, ADI serves over 125,000 customers worldwide across industrial, automotive, communications, and consumer markets. The company's products include data converters, amplifiers, RF and microwave ICs, power management, sensors, and signal processing products. ADI is renowned for its innovation in precision measurement, with industry-leading data converters achieving resolutions up to 32 bits. The company's acquisition of Maxim Integrated and Linear Technology has significantly expanded its product portfolio, creating the most comprehensive analog and mixed-signal offering in the industry. ADI's solutions enable customers to interpret the world around us by intelligently bridging the physical and digital domains with technologies that sense, measure, connect, and interpret.",
+  "longDescription": "Analog Devices, Inc. (ADI) is a premier global high-performance analog technology company that designs, manufactures, and markets a broad portfolio of solutions that leverage high-performance analog, mixed-signal, and digital signal processing technology. Founded in 1965 and headquartered in Wilmington, Massachusetts, ADI serves over 125,000 customers worldwide across industrial, automotive, communications, and consumer markets. The company's products include data converters, amplifiers, RF and microwave ICs, power management, sensors, and signal processing products. ADI is known for its innovation in precision measurement, with industry-leading data converters achieving resolutions up to 32 bits. The company's acquisition of Maxim Integrated and Linear Technology has significantly expanded its product portfolio, creating the most comprehensive analog and mixed-signal offering in the industry. ADI's solutions enable customers to interpret the world around us by intelligently bridging the physical and digital domains with technologies that sense, measure, connect, and interpret.",
   "coreProducts": [
     {
       "name": "Data Converters",
       "description": "Industry-leading ADCs and DACs with resolutions from 8-bit to 32-bit for precision measurement and signal processing",
-      "keywords": ["ADC", "DAC", "data converter", "precision measurement"]
+      "keywords": [
+        "ADC",
+        "DAC",
+        "data converter",
+        "precision measurement"
+      ]
     },
     {
       "name": "Amplifiers",
       "description": "High-performance operational amplifiers, instrumentation amplifiers, and RF amplifiers for signal conditioning",
-      "keywords": ["operational amplifier", "instrumentation amplifier", "RF amplifier", "signal conditioning"]
+      "keywords": [
+        "operational amplifier",
+        "instrumentation amplifier",
+        "RF amplifier",
+        "signal conditioning"
+      ]
     },
     {
       "name": "Power Management",
       "description": "Comprehensive power management solutions including DC-DC converters, LDOs, battery management, and power monitoring",
-      "keywords": ["power management", "DC-DC converter", "LDO", "battery management"]
+      "keywords": [
+        "power management",
+        "DC-DC converter",
+        "LDO",
+        "battery management"
+      ]
     },
     {
       "name": "RF and Microwave",
       "description": "High-frequency RF transceivers, mixers, PLLs, and wideband solutions for communications and radar",
-      "keywords": ["RF", "microwave", "transceiver", "mixer", "PLL", "wideband"]
+      "keywords": [
+        "RF",
+        "microwave",
+        "transceiver",
+        "mixer",
+        "PLL",
+        "wideband"
+      ]
     }
   ],
   "industries": [
     {
       "name": "Industrial Automation",
       "description": "Precision measurement, motor control, process automation, and industrial networking solutions",
-      "keywords": ["industrial", "automation", "process control", "motor control"]
+      "keywords": [
+        "industrial",
+        "automation",
+        "process control",
+        "motor control"
+      ]
     },
     {
       "name": "Automotive",
       "description": "EV powertrain, battery management, ADAS, infotainment, and body electronics with AEC-Q100 qualified products",
-      "keywords": ["automotive", "EV", "battery management", "ADAS", "AEC-Q100"]
+      "keywords": [
+        "automotive",
+        "EV",
+        "battery management",
+        "ADAS",
+        "AEC-Q100"
+      ]
     },
     {
       "name": "Communications",
       "description": "5G infrastructure, satellite communications, optical networking, and software-defined radio solutions",
-      "keywords": ["5G", "communications", "satellite", "optical networking"]
+      "keywords": [
+        "5G",
+        "communications",
+        "satellite",
+        "optical networking"
+      ]
     },
     {
       "name": "Healthcare",
       "description": "Medical imaging, patient monitoring, and diagnostic equipment with high-precision analog front ends",
-      "keywords": ["medical", "healthcare", "imaging", "patient monitoring"]
+      "keywords": [
+        "medical",
+        "healthcare",
+        "imaging",
+        "patient monitoring"
+      ]
     }
   ],
   "certifications": [
@@ -87,43 +130,71 @@
       "question": "Is BeiLuo an authorized distributor of Analog Devices products?",
       "answer": "Yes, BeiLuo Electronics is an authorized distributor of Analog Devices (ADI) products. We maintain a direct relationship with ADI and have access to their complete product portfolio including data converters, amplifiers, RF and microwave products, power management ICs, and sensors. As an authorized distributor, we provide genuine products with full manufacturer warranty, technical support from certified FAEs, and access to ADI's evaluation boards and reference designs. We also offer value-added services such as programming, testing, and customized logistics solutions to support your production requirements.",
       "decisionGuide": "Contact our sales team for a quote on ADI products or visit our product catalog to browse the complete Analog Devices portfolio.",
-      "keywords": ["Analog Devices authorized distributor", "ADI genuine products", "ADI warranty"]
+      "keywords": [
+        "Analog Devices authorized distributor",
+        "ADI genuine products",
+        "ADI warranty"
+      ]
     },
     {
       "question": "What are the key advantages of Analog Devices data converters?",
       "answer": "Analog Devices is the industry leader in data converter technology with several distinct advantages: 1) Industry-leading resolution - ADI offers ADCs from 8-bit to 32-bit, including the world's highest resolution 32-bit ADCs for precision measurement; 2) Best-in-class dynamic range and SNR performance, critical for communications and instrumentation; 3) Comprehensive portfolio spanning all architectures (SAR, Sigma-Delta, Pipeline, Flash) for diverse applications; 4) Integrated signal conditioning and digital filtering reducing external component count; 5) Low power consumption options for battery-powered applications; 6) Extensive software support including drivers, code examples, and evaluation tools; 7) Long product lifecycles ensuring supply continuity for industrial and automotive applications. ADI's data converters are the gold standard in precision measurement applications.",
       "decisionGuide": "Browse our Data Converters category to explore ADI's complete ADC and DAC portfolio, or contact our FAE team for converter selection guidance.",
-      "keywords": ["Analog Devices ADC advantages", "ADI data converter performance", "precision ADC selection"]
+      "keywords": [
+        "Analog Devices ADC advantages",
+        "ADI data converter performance",
+        "precision ADC selection"
+      ]
     },
     {
       "question": "How do I select the right Analog Devices amplifier for my application?",
       "answer": "Selecting the right ADI amplifier requires evaluating several key factors: 1) Input specifications - consider offset voltage, offset drift, input bias current, and noise for precision applications; 2) Bandwidth and slew rate - ensure the amplifier can handle your signal frequency and transient requirements; 3) Power supply - verify voltage range and single-supply or dual-supply operation; 4) Output characteristics - check output swing, drive capability, and short-circuit protection; 5) Special features - consider zero-drift, chopper-stabilized, or rail-to-rail options based on application needs; 6) Package and temperature range - select appropriate package size and industrial/automotive temperature grades. ADI offers the industry's broadest amplifier portfolio including precision op-amps, high-speed amplifiers, instrumentation amplifiers, and RF amplifiers.",
       "decisionGuide": "Use our amplifier selection guide or contact our FAE team with your signal chain requirements for personalized recommendations.",
-      "keywords": ["Analog Devices amplifier selection", "ADI op-amp guide", "precision amplifier selection"]
+      "keywords": [
+        "Analog Devices amplifier selection",
+        "ADI op-amp guide",
+        "precision amplifier selection"
+      ]
     },
     {
       "question": "What RF and microwave solutions does Analog Devices offer?",
       "answer": "Analog Devices provides comprehensive RF and microwave solutions spanning DC to 100GHz: 1) Wideband transceivers (AD9361, ADRV9009) supporting multiple standards for software-defined radio; 2) High-performance PLLs and synthesizers with industry-leading phase noise performance; 3) RF mixers, modulators, and demodulators for communications infrastructure; 4) Power amplifiers and low-noise amplifiers for transmit and receive chains; 5) RF switches, attenuators, and phase shifters for beamforming applications; 6) Integrated RF front-ends for 5G base stations and small cells; 7) Radar solutions for automotive and industrial applications; 8) Satellite communication ICs for L-band to Ka-band. ADI's RF solutions are designed for high linearity, low power consumption, and integration to reduce system complexity and cost.",
       "decisionGuide": "Visit our RF and Microwave category to explore ADI's complete portfolio, or contact our RF specialists for system-level design support.",
-      "keywords": ["Analog Devices RF solutions", "ADI microwave products", "wideband transceiver"]
+      "keywords": [
+        "Analog Devices RF solutions",
+        "ADI microwave products",
+        "wideband transceiver"
+      ]
     },
     {
       "question": "Does Analog Devices offer automotive-qualified products?",
       "answer": "Yes, Analog Devices offers extensive AEC-Q100 qualified product portfolios for automotive applications. ADI's automotive solutions include: 1) Battery management systems (BMS) for electric vehicles with precision cell monitoring and safety features; 2) High-voltage isolation products for EV powertrain applications; 3) Precision sensors for position, current, and temperature measurement; 4) Audio processors and amplifiers for infotainment systems; 5) Radar solutions for ADAS applications; 6) Power management ICs with functional safety support. Many ADI products support ISO 26262 functional safety requirements with safety manuals and FMEDA documentation available. The company provides PPAP documentation and long-term supply commitments critical for automotive programs.",
       "decisionGuide": "Filter products by automotive qualification or contact our automotive FAE specialist for component recommendations.",
-      "keywords": ["Analog Devices automotive", "ADI AEC-Q100", "automotive data converter"]
+      "keywords": [
+        "Analog Devices automotive",
+        "ADI AEC-Q100",
+        "automotive data converter"
+      ]
     },
     {
       "question": "What support does Analog Devices provide for precision measurement applications?",
       "answer": "Analog Devices provides comprehensive support for precision measurement applications: 1) Circuits from the Lab - proven reference designs with complete documentation, schematics, and test data; 2) Precision measurement tutorials and webinars covering error sources, noise analysis, and calibration techniques; 3) LTspice simulation models for accurate circuit simulation; 4) Evaluation boards for rapid prototyping and performance verification; 5) EngineerZone technical community for peer support and ADI engineer assistance; 6) Application notes covering specific measurement challenges like thermocouple measurement, bridge sensors, and current sensing; 7) FAE support for architecture review and design optimization. As an authorized distributor, BeiLuo provides local technical support with direct access to ADI's application engineering resources.",
       "decisionGuide": "Contact our FAE team for precision measurement design support or request reference designs for your specific application.",
-      "keywords": ["Analog Devices precision measurement", "ADI reference designs", "precision measurement support"]
+      "keywords": [
+        "Analog Devices precision measurement",
+        "ADI reference designs",
+        "precision measurement support"
+      ]
     },
     {
       "question": "What are the benefits of sourcing Analog Devices products through BeiLuo?",
       "answer": "Sourcing Analog Devices products through BeiLuo Electronics provides multiple advantages: 1) Guaranteed genuine ADI products with full manufacturer warranty and traceability; 2) Competitive pricing and flexible payment terms for volume orders; 3) Local inventory for fast delivery on popular data converters, amplifiers, and power management ICs; 4) Certified FAE team with deep ADI expertise providing pre-sales technical support and application guidance; 5) Access to ADI's evaluation boards, reference designs, and software tools; 6) Programming and testing services for configurable devices; 7) Long-term supply agreements for industrial customers requiring supply continuity; 8) Custom logistics solutions including VMI and Kanban programs; 9) Technical training and workshops on ADI products and precision design techniques.",
       "decisionGuide": "Contact our sales team to discuss your ADI requirements and learn about our value-added services.",
-      "keywords": ["Analog Devices distributor benefits", "BeiLuo ADI services", "ADI technical support"]
+      "keywords": [
+        "Analog Devices distributor benefits",
+        "BeiLuo ADI services",
+        "ADI technical support"
+      ]
     }
   ]
 }

@@ -1,0 +1,235 @@
+{
+  "seoTitle": "Recom News - DC-DC Converter & Power Supply Updates | BeiLuo Distributor",
+  "seoDescription": "Latest Recom news: product launches, medical power certifications, high-efficiency DC-DC converters, and power supply industry trends from authorized distributor BeiLuo.",
+  "seoKeywords": [
+    "Recom news",
+    "Recom power supply news",
+    "DC-DC converter news",
+    "power supply product launch",
+    "Recom medical certification",
+    "Recom distributor news",
+    "Recom technology updates",
+    "power module industry trends"
+  ],
+  "faqs": [
+    {
+      "question": "Where can I find the latest Recom product announcements?",
+      "answer": "Recom product announcements are available through multiple channels: BeiLuo website - check our Recom brand page for latest product updates and technical articles; Email newsletter - subscribe to our product announcement list for early access to new releases; Technical support - contact our FAE team for advance information on upcoming products and end-of-life notifications; Trade shows - visit us at industry events including PCIM Europe and Electronica for hands-on demonstrations; Social media - follow us on LinkedIn for real-time updates. We announce new DC-DC converters, AC-DC power supplies, switching regulators, and LED drivers through these channels. Sign up to ensure you receive timely notifications about new product launches, specification updates, and important product change notifications.",
+      "decisionGuide": "Contact our sales team or subscribe to our newsletter to receive timely product announcements and technical updates from Recom.",
+      "keywords": [
+        "Recom product announcements",
+        "new power supply products",
+        "Recom distributor updates"
+      ]
+    },
+    {
+      "question": "How do I stay updated on power supply industry trends and Recom technology?",
+      "answer": "Stay informed about the power supply industry and Recom technology through multiple resources: BeiLuo technical blog - regular articles on power supply design trends, thermal management, and EMC compliance; Webinars - online technical seminars featuring Recom application engineers; White papers - in-depth analysis of DC-DC converter design and power architecture optimization; Industry publications - articles in leading power electronics trade magazines; Technical training - workshops on power module selection, thermal design, and system integration. Topics covered include wide input range converter design, medical power safety standards (IEC 60601-1), high-efficiency power conversion techniques, and thermal management best practices. Contact us to join our technical community and receive regular industry insights.",
+      "decisionGuide": "Subscribe to our technical blog and webinar series to stay current with power supply industry trends and Recom innovations.",
+      "keywords": [
+        "power supply trends",
+        "Recom technology updates",
+        "power electronics industry"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "recom-launches-r-78hb-high-efficiency-switching-regulators",
+      "title": "Recom Launches R-78HB Series High-Efficiency Switching Regulators for Industrial Applications",
+      "slug": "recom-launches-r-78hb-high-efficiency-switching-regulators",
+      "date": "2025-03-15",
+      "category": "Product Launch",
+      "author": "BeiLuo Technical Team",
+      "summary": "Recom introduces R-78HB series buck switching regulators achieving up to 95% efficiency in compact SIP-3 packages, designed to replace traditional linear regulators in industrial and automotive power systems.",
+      "content": "Recom Power GmbH has announced the launch of its new R-78HB series of high-efficiency buck switching regulators, designed as drop-in replacements for traditional linear regulators in space-constrained industrial and automotive applications. The series achieves industry-leading efficiency of up to 95%, significantly reducing power dissipation and eliminating the need for heatsinks in most applications.\n\nThe R-78HB series features a wide 4.5V to 36V input voltage range, supporting both 12V and 24V industrial bus systems commonly found in factory automation and process control environments. Output currents range from 0.5A to 2A with fixed output voltages of 3.3V, 5V, and 12V, each with ±2% output accuracy.\n\nPackaged in the industry-standard SIP-3 footprint measuring just 11.5mm x 7.5mm x 10.2mm, the R-78HB series enables high-density PCB designs where board space is at a premium. Key performance improvements over previous generations include reduced output ripple and noise, enhanced transient response, and an extended -40°C to +90°C operating temperature range without derating.\n\nBuilt-in protection features include short-circuit protection with auto-recovery, overcurrent protection, and thermal shutdown. The regulators are ideal for PLC systems, industrial sensors, motor drives, and distributed power architectures where reliability and efficiency are critical.",
+      "highlights": [
+        "Up to 95% efficiency eliminates heatsink requirements in most industrial applications",
+        "Wide 4.5V to 36V input range supports 12V and 24V industrial bus systems",
+        "Ultra-compact SIP-3 package (11.5mm x 7.5mm x 10.2mm) for space-constrained designs",
+        "Output currents from 0.5A to 2A with fixed 3.3V, 5V, and 12V outputs",
+        "Extended -40°C to +90°C operation without derating for harsh industrial environments"
+      ],
+      "image": "/assets/news/recom-r78hb-launch.jpg",
+      "tags": [
+        "switching regulator",
+        "R-78HB series",
+        "buck converter",
+        "high efficiency",
+        "industrial power supply",
+        "SIP package"
+      ],
+      "relatedProducts": [
+        "R-78HB5.0-0.5",
+        "R-78HB12-0.5"
+      ],
+      "seoTitle": "Recom Launches R-78HB High-Efficiency Switching Regulators | BeiLuo",
+      "seoDescription": "Recom introduces R-78HB series buck switching regulators with 95% efficiency, wide 4.5-36V input range, and compact SIP-3 packages for industrial and automotive applications."
+    },
+    {
+      "id": "recom-expands-rem-series-medical-dc-dc-converters",
+      "title": "Recom Expands Medical-Grade REM Series with New 2xMOPP DC-DC Converters",
+      "slug": "recom-expands-rem-series-medical-dc-dc-converters",
+      "date": "2025-02-20",
+      "category": "Product News",
+      "author": "BeiLuo Technical Team",
+      "summary": "Recom expands REM series medical DC-DC converters with new models featuring 2xMOPP isolation at 4000VAC, meeting strict IEC 60601-1 standards for patient-connected medical devices.",
+      "content": "Recom has expanded its REM series of medical-grade DC-DC converters with new models designed to meet the stringent requirements of patient-connected medical equipment. The expanded series now includes 3W, 6W, and 10W power ratings, all featuring 2xMOPP (Means of Patient Protection) isolation rated at 4000VAC.\n\nMedical device manufacturers face increasing regulatory requirements for patient safety, particularly for CF (Cardiac Floating) rated equipment requiring the lowest leakage current levels. The new REM series models maintain leakage current below 100μA, meeting the most stringent CF application requirements for direct cardiac connection.\n\nThe converters cover input voltages of 5V, 12V, 24V, and 48V nominal, with regulated single and dual output configurations. All models feature reinforced isolation with enhanced creepage and clearance distances, full IEC 60601-1 3rd edition certification, and compliance with IEC 60601-1-2 4th edition EMC requirements.\n\nTarget applications include patient monitoring systems, diagnostic imaging equipment, infusion pumps, ventilators, and surgical instruments. The compact DIP and SIP packages enable space-efficient designs for portable and wearable medical devices where size and weight are critical factors.",
+      "highlights": [
+        "New REM series models with 3W, 6W, and 10W power ratings for medical applications",
+        "2xMOPP isolation at 4000VAC meeting IEC 60601-1 3rd edition standards",
+        "Leakage current below 100μA for CF (Cardiac Floating) rated equipment",
+        "Multiple input voltage options: 5V, 12V, 24V, and 48V nominal",
+        "Compact DIP and SIP packages for portable and wearable medical device designs"
+      ],
+      "image": "/assets/news/recom-rem-series.jpg",
+      "tags": [
+        "medical DC-DC converter",
+        "REM series",
+        "2xMOPP",
+        "IEC 60601-1",
+        "patient safety",
+        "medical power supply"
+      ],
+      "relatedProducts": [
+        "REM3.5-1212S",
+        "REM3.5-1205S",
+        "REM6-1212S"
+      ],
+      "seoTitle": "Recom Expands REM Series Medical DC-DC Converters - 2xMOPP | BeiLuo",
+      "seoDescription": "Recom expands REM series medical DC-DC converters with new 2xMOPP models featuring 4000VAC isolation and <100μA leakage current for patient-connected devices."
+    },
+    {
+      "id": "recom-achieves-20w-per-cm3-power-density",
+      "title": "Recom Achieves Industry-Leading 20W/cm³ Power Density in Ultra-Compact DC-DC Converters",
+      "slug": "recom-achieves-20w-per-cm3-power-density",
+      "date": "2025-01-25",
+      "category": "Technology News",
+      "author": "BeiLuo Technical Team",
+      "summary": "Recom pushes power conversion technology forward with new DC-DC converter series delivering 20W/cm³ power density, reducing board space requirements by 40% for industrial and telecom applications.",
+      "content": "Recom Power GmbH has a significant milestone in power conversion technology with its latest DC-DC converter series, delivering up to 20W/cm³ power density in standard SIP packages. This breakthrough enables designers to reduce board space requirements by up to 40% compared to previous generations while maintaining full electrical performance and reliability.\n\nThe new series utilizes advanced planar transformer technology operating at switching frequencies up to 500kHz, combined with optimized magnetic component design and advanced thermal management techniques. The converters maintain greater than 87% efficiency across the full load range, minimizing heat generation in densely populated PCB designs.\n\nOperating from -40°C to +85°C without derating, the series is available in 2W, 3W, and 5W power ratings with both 2:1 and 4:1 input voltage ranges, providing flexibility for various system architectures. The SIP package design incorporates optimized pin configuration for improved thermal performance through PCB copper spreading.\n\nKey applications include space-constrained IoT gateways, compact industrial sensors and actuators, portable medical devices, distributed power architectures in telecom equipment, and test and measurement instruments where board space optimization is critical. Samples and evaluation boards are available through BeiLuo Electronics for design validation.",
+      "highlights": [
+        "Industry-leading 20W/cm³ power density in standard SIP packages",
+        "40% board space reduction compared to previous generation converters",
+        "Advanced planar transformer technology with 500kHz switching frequency",
+        "Greater than 87% efficiency across full load range",
+        "Available in 2W, 3W, and 5W ratings with 2:1 and 4:1 input voltage ranges"
+      ],
+      "image": "/assets/news/recom-power-density.jpg",
+      "tags": [
+        "power density",
+        "ultra-compact converter",
+        "SIP package",
+        "DC-DC converter technology",
+        "miniaturization",
+        "planar transformer"
+      ],
+      "relatedProducts": [
+        "R05CT05S",
+        "R12P21503D",
+        "R-78E5.0-1.0"
+      ],
+      "seoTitle": "Recom Achieves 20W/cm³ Power Density in DC-DC Converters | BeiLuo",
+      "seoDescription": "Recom achieves industry-leading 20W/cm³ power density in new ultra-compact DC-DC converters, enabling 40% board space reduction for industrial and telecom designs."
+    },
+    {
+      "id": "beiluo-recom-pcim-europe-2025",
+      "title": "BeiLuo and Recom to show Power Solutions at PCIM Europe 2025",
+      "slug": "beiluo-recom-pcim-europe-2025",
+      "date": "2025-01-10",
+      "category": "Event News",
+      "author": "BeiLuo Marketing Team",
+      "summary": "BeiLuo Electronics and Recom Power GmbH will jointly exhibit at PCIM Europe 2025, featuring live demonstrations of high-efficiency switching regulators and medical-grade power solutions.",
+      "content": "BeiLuo Electronics, an authorized distributor of Recom products, will jointly exhibit with Recom Power GmbH at PCIM Europe 2025, the leading international conference and exhibition for power electronics. The event takes place May 6-8, 2025 at the Nuremberg Exhibition Centre in Germany.\n\nAt the joint booth, visitors will experience live demonstrations including thermal imaging comparisons of the new R-78HB series high-efficiency switching regulators against traditional linear regulators. A dedicated medical power station will demonstrate 2xMOPP isolation technology with real-time leakage current measurements, helping engineers understand medical safety requirements.\n\nThe exhibition will feature reference designs for industrial automation power architecture, medical device power systems, and telecom network power solutions. Attendees can schedule one-on-one technical consultations with Recom and BeiLuo FAE engineers to discuss specific design challenges and receive application-specific recommendations.\n\nTechnical presentation sessions will cover thermal design optimization for compact power modules, EMC compliance strategies for medical power supplies, and best practices for wide-input converter selection in industrial environments. Visitors to the booth will receive exclusive technical documentation and evaluation kit opportunities.",
+      "highlights": [
+        "Joint exhibition at PCIM Europe 2025 in Nuremberg, Germany (May 6-8, 2025)",
+        "Live thermal imaging demonstrations of R-78HB high-efficiency switching regulators",
+        "Medical power station showing 2xMOPP isolation with real-time leakage measurement",
+        "One-on-one FAE consultations for application-specific design challenges",
+        "Technical presentations on thermal design, EMC compliance, and converter selection"
+      ],
+      "image": "/assets/news/recom-pcim-2025.jpg",
+      "tags": [
+        "PCIM Europe",
+        "power electronics exhibition",
+        "trade show",
+        "Recom distributor",
+        "BeiLuo Electronics",
+        "Nuremberg"
+      ],
+      "relatedProducts": [
+        "R-78HB5.0-0.5",
+        "REM3.5-1212S",
+        "RACM40-24SK/OF"
+      ],
+      "seoTitle": "BeiLuo and Recom at PCIM Europe 2025 - Power Solutions Exhibition | BeiLuo",
+      "seoDescription": "BeiLuo and Recom jointly exhibit at PCIM Europe 2025 with live demonstrations of high-efficiency regulators and medical-grade power solutions."
+    },
+    {
+      "id": "recom-iec-60601-1-certification-update",
+      "title": "Recom Receives Updated IEC 60601-1 Certification for Medical Power Converter Series",
+      "slug": "recom-iec-60601-1-certification-update",
+      "date": "2024-12-10",
+      "category": "Certification News",
+      "author": "BeiLuo Regulatory Team",
+      "summary": "Recom completes IEC 60601-1 3rd edition certification renewal for RACM and REM series medical power supplies, adding expanded global regulatory approvals for medical device manufacturers.",
+      "content": "Recom Power GmbH has successfully completed the certification renewal for its medical-grade power supply series under IEC 60601-1 3rd edition and IEC 60601-1-2 4th edition standards. The updated certifications cover the RACM series AC-DC power supplies and REM series DC-DC converters, ensuring continued compliance with the latest medical electrical equipment safety requirements.\n\nThe certification update adds several important regulatory approvals including updated FDA recognition supporting 510(k) medical device submissions for the US market, expanded CB scheme certification for international acceptance, and new NMPA registration support for medical device deployments in China. All certified models maintain 2xMOPP isolation at 4000VAC with leakage current below 100μA for CF-rated applications.\n\nFor medical device manufacturers, these certification updates simplify the regulatory approval process and reduce time-to-market for new equipment designs. The comprehensive certification package includes detailed test reports, certificates of compliance, and technical documentation supporting regulatory submissions worldwide.\n\nBeiLuo Electronics, as an authorized Recom distributor, provides full access to certification documentation and can assist medical device manufacturers with compliance documentation requirements. The certified product range includes AC-DC power supplies from 20W to 60W and DC-DC converters from 1W to 10W, covering a broad spectrum of medical equipment power requirements.",
+      "highlights": [
+        "IEC 60601-1 3rd edition and IEC 60601-1-2 4th edition certification renewal",
+        "Updated FDA recognition for US medical device 510(k) submissions",
+        "2xMOPP isolation at 4000VAC with leakage current below 100μA",
+        "New NMPA registration support for China medical device market",
+        "Coverage across RACM AC-DC supplies (20W-60W) and REM DC-DC converters (1W-10W)"
+      ],
+      "image": "/assets/news/recom-medical-certification.jpg",
+      "tags": [
+        "IEC 60601-1",
+        "medical certification",
+        "2xMOPP",
+        "medical power supply",
+        "FDA recognition",
+        "regulatory compliance"
+      ],
+      "relatedProducts": [
+        "RACM40-24SK/OF",
+        "RACM60-24SK/OF",
+        "REM3.5-1212S"
+      ],
+      "seoTitle": "Recom Receives Updated IEC 60601-1 Medical Certification | BeiLuo",
+      "seoDescription": "Recom completes IEC 60601-1 certification renewal for RACM and REM series with expanded FDA, CB, and NMPA regulatory approvals for medical device manufacturers."
+    },
+    {
+      "id": "recom-austria-manufacturing-expansion",
+      "title": "Recom Invests €30 Million in Advanced Manufacturing Facility in Gmunden, Austria",
+      "slug": "recom-austria-manufacturing-expansion",
+      "date": "2024-11-15",
+      "category": "Company News",
+      "author": "BeiLuo Marketing Team",
+      "summary": "Recom Power GmbH announces €30 million investment in a new 15,000 square meter manufacturing facility in Gmunden, Austria, doubling production capacity for DC-DC converters and expanding R&D capabilities.",
+      "content": "Recom Power GmbH today announced a €30 million investment in a new state-of-the-art manufacturing facility at its headquarters in Gmunden, Austria. The expansion will double the company's production capacity for DC-DC converters, AC-DC power supplies, and switching regulators while significantly expanding research and development capabilities.\n\nThe new 15,000 square meter facility will feature fully automated SMT assembly lines with advanced process control systems, including automated optical inspection (AOI), X-ray inspection for solder joint quality verification, and in-line thermal testing. The facility also includes enhanced environmental testing chambers for thermal cycling, humidity exposure, mechanical shock, and vibration testing per MIL-STD-202 standards.\n\nDesigned to meet ISO 9001, ISO 14001, and IATF 16949 quality management standards, the facility will have capacity to produce over 10 million units annually. The expanded R&D space will accommodate 50 additional engineers focusing on next-generation power conversion technologies, including wide bandgap semiconductor integration and digital power management solutions. Construction is scheduled for completion in the third quarter of 2025, with production ramp-up beginning in the fourth quarter of 2025. The expansion will create 200 new jobs in engineering, manufacturing operations, and quality assurance, reinforcing Recom's commitment to European manufacturing excellence and its position as a leading power module manufacturer serving global industrial, medical, and automotive markets.",
+      "highlights": [
+        "€30 million investment in new manufacturing facility in Gmunden, Austria",
+        "15,000 square meter facility doubles production capacity for DC-DC and AC-DC products",
+        "Fully automated SMT lines with AOI, X-ray inspection, and in-line thermal testing",
+        "Over 10 million units annual production capacity at full ramp-up",
+        "200 new jobs created in engineering, manufacturing, and quality assurance"
+      ],
+      "image": "/assets/news/recom-facility-expansion.jpg",
+      "tags": [
+        "manufacturing expansion",
+        "investment",
+        "Austria",
+        "production capacity",
+        "Recom headquarters",
+        "European manufacturing"
+      ],
+      "relatedProducts": [
+        "RACM40-24SK/OF",
+        "R60P21503D",
+        "R-78E5.0-1.0"
+      ],
+      "seoTitle": "Recom Invests €30M in Austrian Manufacturing Expansion | BeiLuo",
+      "seoDescription": "Recom Power invests €30 million in new 15,000 sqm manufacturing facility in Gmunden, Austria, doubling DC-DC converter production capacity and creating 200 jobs."
+    }
+  ]
+}

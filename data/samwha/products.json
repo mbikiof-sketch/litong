@@ -61,7 +61,7 @@
       "name": "Aluminum Electrolytic Capacitors",
       "slug": "aluminum-electrolytic",
       "description": "High-reliability aluminum electrolytic capacitors for industrial, automotive, and consumer applications. Radial, snap-in, and screw terminal types available.",
-      "longDescription": "Samwha's aluminum electrolytic capacitors represent the company's core product line with over 65 years of manufacturing expertise. The portfolio includes radial lead types for general-purpose applications, snap-in terminals for power supplies and industrial equipment, and screw terminal types for high-capacitance energy storage applications. Key series include the WH series for high-temperature applications (up to 125°C), WL series for long-life applications (up to 15,000 hours), and WK series for compact designs. All series feature Samwha's proprietary electrolyte formulation and high-purity aluminum foil for superior performance and reliability. These capacitors are widely used in power supplies, motor drives, LED drivers, and automotive electronics. As an authorized Samwha distributor, we stock popular series and provide technical support for capacitor selection and application optimization.",
+      "longDescription": "Samwha's aluminum electrolytic capacitors is the company's core product line with over 65 years of manufacturing expertise. The portfolio includes radial lead types for general-purpose applications, snap-in terminals for power supplies and industrial equipment, and screw terminal types for high-capacitance energy storage applications. Key series include the WH series for high-temperature applications (up to 125°C), WL series for long-life applications (up to 15,000 hours), and WK series for compact designs. All series feature Samwha's proprietary electrolyte formulation and high-purity aluminum foil for superior performance and reliability. These capacitors are widely used in power supplies, motor drives, LED drivers, and automotive electronics. As an authorized Samwha distributor, we stock popular series and provide technical support for capacitor selection and application optimization.",
       "parameters": [
         "Capacitance",
         "Voltage Rating",
@@ -155,7 +155,7 @@
           "name": "WH Series 1000µF 100V High-Temperature Capacitor",
           "shortDescription": "High-temperature aluminum electrolytic capacitor, 1000µF 100V, 125°C rated, 10,000 hours lifetime. Ideal for automoti...",
           "descriptionParagraphs": [
-            "The Samwha WH series represents high-temperature aluminum electrolytic capacitors designed for demanding automotive and industrial applications. With a rated temperature of 125°C and 10,000 hours lifetime, these capacitors excel in under-hood automotive electronics, LED drivers, and industrial power supplies.",
+            "The Samwha WH series is high-temperature aluminum electrolytic capacitors designed for demanding automotive and industrial applications. With a rated temperature of 125°C and 10,000 hours lifetime, these capacitors excel in under-hood automotive electronics, LED drivers, and industrial power supplies.",
             "Featuring Samwha's proprietary high-temperature electrolyte formulation and high-purity aluminum foil, the WH series delivers stable performance across the entire temperature range. The low ESR design minimizes power dissipation and improves efficiency in switching power supply applications.",
             "Available in various case sizes from 12.5mm x 20mm to 18mm x 40mm, the WH series offers flexibility for different PCB layouts. All capacitors are 100% tested for capacitance, ESR, and leakage current before shipment."
           ],
@@ -282,7 +282,7 @@
             },
             {
               "question": "Can the WH series be used in parallel for higher ripple current?",
-              "answer": "Yes, WH series capacitors can be connected in parallel to increase total ripple current capability. When paralleling capacitors: Total capacitance adds directly (Ctotal = C1 + C2 + ...), Total ripple current capability adds directly (Itotal = I1 + I2 + ...), ESR reduces proportionally (ESRtotal = ESR/n for n identical capacitors). For example, two WH series 1000µF 100V capacitors in parallel provide 2000µF total capacitance, 3.6A total ripple current capability, and approximately 0.06Ω ESR at 100kHz. Best practices for paralleling: Use identical part numbers for balanced current sharing, Keep trace lengths as equal as possible, Ensure adequate spacing for heat dissipation, Consider using current-sharing resistors for large numbers of capacitors. Paralleling is commonly used in high-power applications such as motor drives and large power supplies where single capacitors cannot handle the required ripple current.",
+              "answer": "Yes, WH series capacitors can be connected in parallel to increase total ripple current capability. When paralleling capacitors: Total capacitance adds directly (Ctotal = C1 + C2 +...), Total ripple current capability adds directly (Itotal = I1 + I2 +...), ESR reduces proportionally (ESRtotal = ESR/n for n identical capacitors). For example, two WH series 1000µF 100V capacitors in parallel provide 2000µF total capacitance, 3.6A total ripple current capability, and approximately 0.06Ω ESR at 100kHz. Best practices for paralleling: Use identical part numbers for balanced current sharing, Keep trace lengths as equal as possible, Ensure adequate spacing for heat dissipation, Consider using current-sharing resistors for large numbers of capacitors. Paralleling is commonly used in high-power applications such as motor drives and large power supplies where single capacitors cannot handle the required ripple current.",
               "decisionGuide": "For high-ripple applications, parallel multiple WH series capacitors. Use identical parts and equal trace lengths for best results.",
               "keywords": [
                 "capacitor parallel connection",
@@ -450,7 +450,7 @@
             },
             {
               "question": "Can the WL series be used in outdoor LED lighting applications?",
-              "answer": "Yes, the WL series is well-suited for outdoor LED lighting applications including street lights, parking lot lights, and high-bay industrial fixtures. The 105°C temperature rating provides margin for outdoor environments where ambient temperatures can reach 50-60°C combined with self-heating from the LED driver. The 15,000-hour lifetime at 105°C translates to 15+ years in typical LED driver applications operating at 70-80°C case temperature. For outdoor applications, consider these design recommendations: Use 50% voltage derating to maximize lifetime (25V capacitor for 12V LED driver, 50V for 24V driver), Ensure adequate heat sinking or airflow to keep case temperature below 85°C, Use conformal coating on the PCB to protect against humidity and pollution, Select capacitors with appropriate IP rating for the enclosure. The WL series has been successfully deployed in millions of LED street lights worldwide, demonstrating proven reliability in harsh outdoor environments.",
+              "answer": "Yes, the WL series is well-suited for outdoor LED lighting applications including street lights, parking lot lights, and high-bay industrial fixtures. The 105°C temperature rating provides margin for outdoor environments where ambient temperatures can reach 50-60°C combined with self-heating from the LED driver. The 15,000-hour lifetime at 105°C translates to 15+ years in typical LED driver applications operating at 70-80°C case temperature. For outdoor applications, consider these design recommendations: Use 50% voltage derating to maximize lifetime (25V capacitor for 12V LED driver, 50V for 24V driver), Ensure adequate heat sinking or airflow to keep case temperature below 85°C, Use conformal coating on the PCB to protect against humidity and pollution, Select capacitors with appropriate IP rating for the enclosure. The WL series has been successfully deployed in millions of LED street lights worldwide.",
               "decisionGuide": "Specify WL series for outdoor LED lighting. Use 50% voltage derating and ensure adequate thermal management.",
               "keywords": [
                 "WL series LED driver",
@@ -557,7 +557,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on samwha WB series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -566,7 +566,7 @@
             },
             {
               "question": "What applications is ALUMINUMELECTROLYTIC-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on samwha WB series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -575,7 +575,7 @@
             },
             {
               "question": "What is the temperature range of ALUMINUMELECTROLYTIC-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on samwha WB series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -584,7 +584,7 @@
             },
             {
               "question": "What package options are available for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on samwha WB series 470uF50V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -593,7 +593,7 @@
             },
             {
               "question": "What is the lead time for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on samwha WB series 470uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -691,7 +691,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on samwha WB series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -700,7 +700,7 @@
             },
             {
               "question": "What applications is ALUMINUMELECTROLYTIC-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on samwha WB series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -709,7 +709,7 @@
             },
             {
               "question": "What is the temperature range of ALUMINUMELECTROLYTIC-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on samwha WB series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -718,7 +718,7 @@
             },
             {
               "question": "What package options are available for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on samwha WB series 1000uF50V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -727,7 +727,7 @@
             },
             {
               "question": "What is the lead time for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on samwha WB series 1000uF50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -743,7 +743,7 @@
       "name": "Solid Polymer Capacitors",
       "slug": "solid-polymer",
       "description": "High-performance conductive polymer aluminum capacitors with ultra-low ESR for high-frequency DC-DC converters and filtering applications.",
-      "longDescription": "Samwha's solid polymer capacitors represent the next generation of aluminum capacitor technology, replacing traditional liquid electrolyte with conductive polymer material. This breakthrough design delivers ultra-low ESR (as low as 5mΩ), excellent high-frequency performance, and significantly extended lifetime. The polymer material eliminates the risk of electrolyte drying out, ensuring stable performance over the entire operating life. Key series include the PH series for general-purpose applications, PK series for compact designs, and PV series for high-voltage applications up to 125V. These capacitors are ideal for DC-DC converters, CPU power supplies, and high-frequency filtering where low ESR is critical. The solid polymer construction also provides improved safety with no risk of leakage or venting. As an authorized Samwha distributor, we provide technical support for polymer capacitor selection and application optimization.",
+      "longDescription": "Samwha's solid polymer capacitors is the next generation of aluminum capacitor technology, replacing traditional liquid electrolyte with conductive polymer material. This breakthrough design delivers ultra-low ESR (as low as 5mΩ), excellent high-frequency performance, and significantly extended lifetime. The polymer material eliminates the risk of electrolyte drying out, ensuring stable performance over the entire operating life. Key series include the PH series for general-purpose applications, PK series for compact designs, and PV series for high-voltage applications up to 125V. These capacitors are ideal for DC-DC converters, CPU power supplies, and high-frequency filtering where low ESR is critical. The solid polymer construction also provides improved safety with no risk of leakage or venting. As an authorized Samwha distributor, we provide technical support for polymer capacitor selection and application optimization.",
       "parameters": [
         "Capacitance",
         "Voltage Rating",
@@ -1646,7 +1646,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on samwha MPF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1655,7 +1655,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on samwha MPF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1664,7 +1664,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on samwha MPF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1673,7 +1673,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on samwha MPF 105K400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1682,7 +1682,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on samwha MPF 105K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1782,7 +1782,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on samwha MPF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1791,7 +1791,7 @@
             },
             {
               "question": "What applications is FILMCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on samwha MPF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1800,7 +1800,7 @@
             },
             {
               "question": "What is the temperature range of FILMCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on samwha MPF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1809,7 +1809,7 @@
             },
             {
               "question": "What package options are available for FILMCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on samwha MPF 155K400V, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1818,7 +1818,7 @@
             },
             {
               "question": "What is the lead time for FILMCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on samwha MPF 155K400V, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1928,7 +1928,7 @@
           "name": "WA Series 220µF 50V AEC-Q200 Capacitor",
           "shortDescription": "AEC-Q200 qualified aluminum electrolytic capacitor, 220µF 50V, 125°C rated. Ideal for automotive ECUs and LED drivers.",
           "descriptionParagraphs": [
-            "The Samwha WA series represents AEC-Q200 qualified aluminum electrolytic capacitors designed specifically for automotive electronics. With 220µF capacitance and 50V rating, this capacitor is ideal for 12V automotive ECU power supplies, LED driver filtering, and sensor applications.",
+            "The Samwha WA series is AEC-Q200 qualified aluminum electrolytic capacitors designed specifically for automotive electronics. With 220µF capacitance and 50V rating, this capacitor is ideal for 12V automotive ECU power supplies, LED driver filtering, and sensor applications.",
             "The 125°C temperature rating and 8,000-hour lifetime ensure reliable operation throughout the vehicle's service life. The capacitor has passed all AEC-Q200 testing including temperature cycling, mechanical shock, vibration, and humidity bias.",
             "Manufactured in IATF 16949 certified facilities with full lot traceability. The radial lead package is compatible with standard through-hole assembly processes used in automotive electronics manufacturing."
           ],

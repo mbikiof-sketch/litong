@@ -168,7 +168,7 @@
           "Temperature range requirements drive grade selection",
           "Start simple and upgrade only when necessary"
         ],
-        "insightLogic": "The key insight is that oscillator selection is about balancing requirements with cost. Understanding what you actually need versus what you think you need can save significant BOM cost without compromising performance."
+        "insightLogic": "The key insight is that oscillator selection is about balancing requirements with cost. Understanding what you need versus what you think you need can save significant BOM cost without compromising performance."
       },
       "customerCases": [
         {
@@ -177,7 +177,7 @@
           "application": "PLC Controller Design",
           "challenge": "Customer was using expensive TCXOs in their PLC controllers but experiencing occasional timing issues. They needed guidance on proper oscillator selection.",
           "solution": "After analysis, we recommended switching to standard XOs with better power supply filtering. The temperature stability of the industrial-grade XO was adequate for their application.",
-          "feedback": "Switched to Dapu XO3225-25M industrial grade. Saved 60% on timing component costs while improving reliability. Issues were actually caused by power supply noise, not oscillator stability."
+          "feedback": "Switched to Dapu XO3225-25M industrial grade. Saved 60% on timing component costs while improving reliability. Issues were caused by power supply noise, not oscillator stability."
         }
       ],
       "faqs": [
@@ -703,7 +703,7 @@
         {
           "question": "Do I need matching components for SAW filters?",
           "answer": "Most modern SAW filters, including Dapu RF series, are internally matched to 50Ω and don't require external matching components for basic operation. The filter can be connected directly with 50Ω transmission lines. However, for optimal return loss and performance, small series inductors (1-3nH) may be added. The exact matching depends on your PCB layout and trace lengths. For best results, follow the reference design and keep traces short. If you have specific matching requirements or unusual layout constraints, our FAE team can provide matching recommendations based on S-parameter analysis.",
-          "decisionGuide": "Usually no matching needed. Follow reference design. Add 1-3nH series inductors if optimal return loss required.",
+          "decisionGuide": "Usually No matching is needed. Follow reference design. Add 1-3nH series inductors if optimal return loss required.",
           "keywords": [
             "SAW filter matching",
             "RF filter design",

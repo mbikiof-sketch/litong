@@ -141,7 +141,7 @@
       "faqs": [
         {
           "question": "What voltage margin should I maintain for DC-link capacitors?",
-          "answer": "Maintain 30-50% voltage margin above maximum DC bus voltage. For 480V AC input (680V DC), use 900-1100V capacitors. Higher margin extends lifetime and improves reliability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Maintain 30-50% voltage margin above maximum DC bus voltage. For 480V AC input (680V DC), use 900-1100V capacitors. Higher margin extends lifetime and improves reliability. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Select capacitor voltage rating with 30-50% margin above maximum operating voltage.",
           "keywords": [
             "voltage margin",
@@ -151,7 +151,7 @@
         },
         {
           "question": "How do I calculate required DC-link capacitance?",
-          "answer": "Use formula C = I / (2 × f × ΔV), where I is DC current, f is switching frequency, ΔV is allowable voltage ripple. Add 20% margin and select next standard value. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Use formula C = I / (2 × f × ΔV), where I is DC current, f is switching frequency, ΔV is allowable voltage ripple. Add 20% margin and select next standard value. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Calculate based on your ripple requirements or contact our FAE team for assistance.",
           "keywords": [
             "capacitance calculation",
@@ -161,7 +161,7 @@
         },
         {
           "question": "What is the typical lifetime of DC-link film capacitors?",
-          "answer": "Film capacitors are rated for 100,000 hours at maximum temperature. Actual lifetime is typically 150,000-200,000 hours (17-23 years) in well-designed systems with proper thermal management. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Film capacitors are rated for 100,000 hours at maximum temperature. Actual lifetime is typically 150,000-200,000 hours (17-23 years) in well-designed systems with proper thermal management. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Design for hot spot temperatures below 70°C to achieve 20+ year lifetime.",
           "keywords": [
             "capacitor lifetime",
@@ -181,7 +181,7 @@
         },
         {
           "question": "What thermal management is required?",
-          "answer": "Mount capacitors to heatsinks or chassis for heat dissipation. Use thermal interface material. Ensure adequate airflow. Monitor hot spot temperature, keeping below 85°C maximum, 70°C for long life. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Mount capacitors to heatsinks or chassis for heat dissipation. Use thermal interface material. Ensure adequate airflow. Monitor hot spot temperature, keeping below 85°C maximum, 70°C for long life. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Implement proper thermal design including heatsink mounting and adequate ventilation.",
           "keywords": [
             "thermal management",
@@ -191,7 +191,7 @@
         },
         {
           "question": "How do film capacitors compare to electrolytics for DC-link?",
-          "answer": "Film capacitors offer 5-10x longer life, 2-3x higher ripple current, 10x lower ESR, no wear-out mechanism, and maintenance-free operation. Higher initial cost but lower total cost of ownership. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Film capacitors offer 5-10x longer life, 2-3x higher ripple current, 10x lower ESR, no wear-out mechanism, and maintenance-free operation. Higher initial cost but lower total cost of ownership. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Consider film capacitors for high-reliability applications where lifetime and maintenance are critical.",
           "keywords": [
             "film vs electrolytic",
@@ -201,7 +201,7 @@
         },
         {
           "question": "What mounting torque should be used for stud mount capacitors?",
-          "answer": "For M10 studs: 8-10 Nm. For M12 studs: 12-15 Nm. Use torque wrench for accurate tightening. Over-torquing can damage capacitor, under-torquing reduces thermal transfer. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "For M10 studs: 8-10 Nm. For M12 studs: 12-15 Nm. Use torque wrench for accurate tightening. Over-torquing can damage capacitor, under-torquing reduces thermal transfer. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Follow manufacturer torque specifications for reliable mounting and thermal performance.",
           "keywords": [
             "mounting torque",
@@ -541,7 +541,7 @@
         },
         {
           "question": "What resistor value should be used with snubber capacitors?",
-          "answer": "RC snubbers typically use 5-50Ω. Calculate: R ≈ √(Lstray/C). Power dissipation: P = 0.5 × C × V² × f. Use non-inductive resistors (carbon composition or film) rated for 2x calculated power. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "RC snubbers typically use 5-50Ω. Calculate: R ≈ √(Lstray/C). Power dissipation: P = 0.5 × C × V² × f. Use non-inductive resistors (carbon composition or film) rated for 2x calculated power. For detailed specifications and application support on electronicon products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with 10Ω and adjust based on oscilloscope measurements of switching waveforms.",
           "keywords": [
             "snubber resistor",
@@ -631,7 +631,7 @@
         "",
         "Motor start capacitors are designed for brief operation (few seconds) and are disconnected after starting. They use electrolytic construction and range from 100-800μF.",
         "",
-        "> **Warning:** Using a start capacitor for continuous operation will cause rapid failure. Always verify the capacitor type matches the application.",
+        "> warning: Using a start capacitor for continuous operation will cause rapid failure. Always verify the capacitor type matches the application.",
         "",
         "## Capacitor Sizing for Motors",
         "",

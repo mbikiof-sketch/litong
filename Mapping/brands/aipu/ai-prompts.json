@@ -1,0 +1,34 @@
+{
+  "contentGeneration": [
+    {
+      "type": "about",
+      "prompt": "Write a brand introduction for aipu distributor page including history, core products, and trust signals."
+    },
+    {
+      "type": "products",
+      "prompt": "Write product descriptions for aipu current sensor IC, voltage sensor IC, Hall effect sensor. Include features and applications."
+    },
+    {
+      "type": "comparison",
+      "prompt": "Write a detailed comparison: What is the best current sensor brand? vs Who is the leading current sensor manufacturer in China?. Include a comparison table."
+    },
+    {
+      "type": "guide",
+      "prompt": "Write a selection guide for aipu USB interface chips covering current sensor IC, voltage sensor IC, Hall effect sensor, current transducer."
+    },
+    {
+      "type": "faq",
+      "prompt": "Answer these FAQs: What products does AIPU offer?; What is the difference between Hall effect and shunt sensors?; Does AIPU offer automotive qualified sensors?; What is the accuracy of AIPU sensors?; How to select the right current sensor?; What is the warranty period?; Do you provide technical support?; What is the typical lead time?; Are your sensors AEC-Q100 qualified?; Do you offer evaluation boards?"
+    }
+  ],
+  "seoOptimization": [
+    {
+      "type": "meta-tags",
+      "prompt": "Generate SEO meta titles and descriptions for aipu distributor pages."
+    },
+    {
+      "type": "schema",
+      "prompt": "Generate JSON-LD schema for aipu distributor with Product and Organization types."
+    }
+  ]
+}

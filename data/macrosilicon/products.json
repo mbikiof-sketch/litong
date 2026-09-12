@@ -436,7 +436,7 @@
             "HDMI and analog input support",
             "1080p30 maximum resolution",
             "Hardware MJPEG encoding",
-            "UVC compliant - no drivers needed",
+            "UVC compliant - No drivers is needed",
             "Low power consumption <500mW",
             "Compact QFN-64 package",
             "Cost-effective solution"
@@ -522,7 +522,7 @@
             "HDMI input up to 1080p30",
             "Hardware MJPEG encoding",
             "YUY2 uncompressed output option",
-            "UVC compliant - no drivers needed",
+            "UVC compliant - No drivers is needed",
             "Low power consumption <400mW",
             "Compact QFN-48 package",
             "Cost-effective solution"
@@ -602,7 +602,9 @@
         "CSI Data Rate",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Audio",
+        "USB"
       ],
       "applications": [
         "Smartphone Displays",
@@ -664,7 +666,9 @@
             "CSI Data Rate": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Audio": "N/A",
+            "USB": "N/A"
           },
           "features": [
             "HDMI 1.4 to MIPI DSI conversion",
@@ -757,7 +761,9 @@
             "MIPI Data Rate": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Audio": "N/A",
+            "USB": "N/A"
           },
           "features": [
             "MIPI CSI-2 to HDMI conversion",
@@ -839,7 +845,10 @@
             "Package": "BGA-361 (13mm x 13mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C"
+            "Temperature Range": "-40°C to +85°C",
+            "CSI Data Rate": "N/A",
+            "Audio": "N/A",
+            "USB": "N/A"
           },
           "features": [
             "HDMI, LVDS, TTL input support",
@@ -925,7 +934,10 @@
             "Package": "QFN-48 (7mm x 7mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C"
+            "Temperature Range": "0°C to +70°C",
+            "MIPI Data Rate": "N/A",
+            "Features": "N/A",
+            "CSI Data Rate": "N/A"
           },
           "features": [
             "USB 3.0 to HDMI conversion",
@@ -1010,7 +1022,8 @@
         "Power",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Input Channels"
       ],
       "applications": [
         "Professional AV",
@@ -1060,7 +1073,8 @@
             "Package": "LQFP-80 (10x10mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Channels": "N/A"
           },
           "features": [
             "High-quality polyphase scaling",
@@ -1147,7 +1161,8 @@
             "Package": "LQFP-100 (14x14mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Channels": "N/A"
           },
           "features": [
             "Enhanced polyphase scaling with 6-tap filter",
@@ -1186,7 +1201,7 @@
               "Professional AV",
               "Studio equipment"
             ],
-            "content": "The MS1850 represents a significant step up in image quality from the MS1820. The enhanced scaling and deinterlacing are particularly noticeable on large displays."
+            "content": "The MS1850 is significant step up in image quality from the MS1820. The enhanced scaling and deinterlacing are particularly noticeable on large displays."
           },
           "alternativeParts": [
             {
@@ -1241,7 +1256,8 @@
             "Package": "QFN-56 (8x8mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Channels": "N/A"
           },
           "features": [
             "Compact 8x8mm QFN package",
@@ -1334,7 +1350,8 @@
             "Package": "LQFP-128 (14x14mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Resolution": "N/A"
           },
           "features": [
             "Dual independent 1080p channels",
@@ -1429,7 +1446,8 @@
         "Interfaces",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "NPU"
       ],
       "applications": [
         "Smart Displays",
@@ -1463,7 +1481,7 @@
         {
           "partNumber": "MS8100",
           "name": "4K Multimedia SoC Platform",
-          "shortDescription": "High-performance multimedia SoC with quad-core ARM Cortex-A53, 4K video codec, and rich interfaces for smart display ...",
+          "shortDescription": "High-performance multimedia SoC with quad-core ARM Cortex-A53, 4K video codec, and rich interfaces for smart display...",
           "descriptionParagraphs": [
             "The MS8100 is a highly integrated multimedia SoC designed for smart displays, streaming devices, and video conferencing systems.",
             "Featuring a quad-core ARM Cortex-A53 processor, 4K H.265/H.264 codec, and comprehensive I/O interfaces, it provides a complete solution for multimedia applications.",
@@ -1479,7 +1497,8 @@
             "Package": "BGA-441 (15x15mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "NPU": "N/A"
           },
           "features": [
             "Quad-core ARM Cortex-A53 processor",
@@ -1555,7 +1574,8 @@
             "Package": "BGA-256 (13x13mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C"
+            "Temperature Range": "0°C to +70°C",
+            "NPU": "N/A"
           },
           "features": [
             "Dual-core ARM Cortex-A7 processor",
@@ -1637,7 +1657,8 @@
             "Package": "BGA-441 (17x17mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C"
+            "Temperature Range": "0°C to +70°C",
+            "NPU": "N/A"
           },
           "features": [
             "Octa-core ARM Cortex-A53 processor",
@@ -1660,7 +1681,7 @@
           "faeReview": {
             "author": "Dr. Chen Wei",
             "title": "Senior FAE - High-Performance Systems",
-            "content": "The MS8200 represents the flagship of MacroSilicon's multimedia SoC lineup. The octa-core CPU and Mali-G52 GPU deliver exceptional performance for gaming and premium streaming. The 4K60 HDR with Dolby Vision support enables cinema-quality video output. I've used this chip in high-end streaming box and gaming projects with outstanding results. The WiFi 6 and USB 3.0 ensure future-proof connectivity. For premium multimedia applications where performance is paramount, the MS8200 is the clear choice.",
+            "content": "The MS8200 is the flagship of MacroSilicon's multimedia SoC lineup. The octa-core CPU and Mali-G52 GPU deliver exceptional performance for gaming and premium streaming. The 4K60 HDR with Dolby Vision support enables cinema-quality video output. I've used this chip in high-end streaming box and gaming projects with outstanding results. The WiFi 6 and USB 3.0 ensure future-proof connectivity. For premium multimedia applications where performance is paramount, the MS8200 is the clear choice.",
             "highlight": "Flagship multimedia SoC with octa-core CPU, 4K60 HDR, and WiFi 6 for premium applications"
           },
           "alternativeParts": [

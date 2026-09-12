@@ -77,7 +77,8 @@
         "Voltage Rating",
         "Current Rating",
         "Temperature Range",
-        "Specifications"
+        "Specifications",
+        "Rds(on)"
       ],
       "applications": [
         "Electric vehicles",
@@ -232,7 +233,8 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Specifications": "N/A",
+            "Rds(on)": "N/A"
           },
           "name": "SiC MOSFETs SCT3022AL"
         },
@@ -377,7 +379,8 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Specifications": "N/A",
+            "Rds(on)": "N/A"
           },
           "name": "SiC MOSFETs SCT3080KL"
         },
@@ -522,7 +525,8 @@
             "Current Rating": "40A",
             "Rds(on)": "40mΩ",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-247-4L"
+            "Package": "TO-247-4L",
+            "Specifications": "N/A"
           },
           "name": "SiC MOSFETs SCT3040KL"
         },
@@ -535,7 +539,7 @@
           "slug": "sct3017al",
           "shortDescription": "650V 118A trench-gate SiC MOSFET featuring ultra-low 17mΩ Rds(on) in TO-247-4L Kelvin source package for highest efficiency applications.",
           "descriptionParagraphs": [
-            "The SCT3017AL is a 650V 118A Silicon Carbide MOSFET featuring industry-leading 17mΩ on-resistance. This device represents Rohm's highest performance 650V SiC MOSFET, designed for applications where maximum efficiency and power density are critical.",
+            "The SCT3017AL is a 650V 118A Silicon Carbide MOSFET featuring industry-leading 17mΩ on-resistance. This device is Rohm's highest performance 650V SiC MOSFET, designed for applications where maximum efficiency and power density are critical.",
             "The trench-gate technology delivers exceptional performance with ultra-low conduction losses. The TO-247-4L package with Kelvin source connection enables fast switching and reduced switching losses. The device is fully AEC-Q101 qualified for automotive applications.",
             "With its industry-leading low Rds(on), the SCT3017AL enables system designers to achieve the highest possible efficiency in EV traction inverters, high-power motor drives, and other demanding applications."
           ],
@@ -667,7 +671,8 @@
             "Current Rating": "118A",
             "Rds(on)": "17mΩ",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-247-4L"
+            "Package": "TO-247-4L",
+            "Specifications": "N/A"
           },
           "name": "SiC MOSFETs SCT3017AL"
         }
@@ -695,7 +700,8 @@
         "Voltage Rating",
         "Current Rating",
         "Temperature Range",
-        "Status"
+        "Status",
+        "Forward Voltage"
       ],
       "applications": [
         "PFC circuits",
@@ -747,7 +753,8 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Forward Voltage": "N/A"
           },
           "name": "SiC Schottky Barrier Diodes ROHM-SI001"
         },
@@ -788,7 +795,8 @@
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
             "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Status": "N/A",
+            "Forward Voltage": "N/A"
           },
           "name": "SiC Schottky Barrier Diodes ROHM-SI002"
         },
@@ -935,7 +943,8 @@
             "Current Rating": "20A",
             "Forward Voltage": "1.35V typical",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-220AC"
+            "Package": "TO-220AC",
+            "Status": "N/A"
           },
           "name": "SiC Schottky Barrier Diodes SCH2080KE"
         },
@@ -1082,7 +1091,8 @@
             "Current Rating": "20A",
             "Forward Voltage": "1.45V typical",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-220AC"
+            "Package": "TO-220AC",
+            "Status": "N/A"
           },
           "name": "SiC Schottky Barrier Diodes SCT2120AF"
         }
@@ -1109,6 +1119,7 @@
       "parameters": [
         "Voltage Rating",
         "Current Rating",
+        "Vce(sat)",
         "Temperature Range"
       ],
       "applications": [
@@ -1622,7 +1633,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on rohm BSM120D12P2C005, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1631,7 +1642,7 @@
             },
             {
               "question": "What applications is POWERMODULES-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on rohm BSM120D12P2C005, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1640,7 +1651,7 @@
             },
             {
               "question": "What is the temperature range of POWERMODULES-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on rohm BSM120D12P2C005, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1649,7 +1660,7 @@
             },
             {
               "question": "What package options are available for POWERMODULES-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on rohm BSM120D12P2C005, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1658,7 +1669,7 @@
             },
             {
               "question": "What is the lead time for POWERMODULES-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on rohm BSM120D12P2C005, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1750,7 +1761,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on rohm BSM180D12P2C003, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1759,7 +1770,7 @@
             },
             {
               "question": "What applications is POWERMODULES-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on rohm BSM180D12P2C003, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1768,7 +1779,7 @@
             },
             {
               "question": "What is the temperature range of POWERMODULES-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on rohm BSM180D12P2C003, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1777,7 +1788,7 @@
             },
             {
               "question": "What package options are available for POWERMODULES-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on rohm BSM180D12P2C003, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1786,7 +1797,7 @@
             },
             {
               "question": "What is the lead time for POWERMODULES-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on rohm BSM180D12P2C003, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

@@ -7,7 +7,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8888;
+const PORT = 8080;
 const ROOT_DIR = path.join(__dirname, '..', 'output');
 
 const MIME_TYPES = {

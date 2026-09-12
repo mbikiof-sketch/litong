@@ -489,7 +489,7 @@ const supportData = {
       "author": {
         "name": "James Wilson",
         "title": "Senior FAE - Power Electronics",
-        "email": "j.wilson@litong.com",
+        "email": "j.wilson@BeiLuo.com",
         "image": "/assets/team/james-wilson.jpg"
       },
       "publishedDate": "2024-01-15",
@@ -594,7 +594,7 @@ const supportData = {
       "author": {
         "name": "David Park",
         "title": "Senior FAE - Power Systems",
-        "email": "d.park@litong.com",
+        "email": "d.park@BeiLuo.com",
         "image": "/assets/team/david-park.jpg"
       },
       "publishedDate": "2024-02-01",
@@ -698,7 +698,7 @@ const supportData = {
       "author": {
         "name": "Sarah Johnson",
         "title": "FAE Manager - Industrial",
-        "email": "s.johnson@litong.com",
+        "email": "s.johnson@BeiLuo.com",
         "image": "/assets/team/sarah-johnson.jpg"
       },
       "publishedDate": "2024-02-15",
@@ -801,7 +801,7 @@ const supportData = {
       "author": {
         "name": "Michael Chen",
         "title": "Senior FAE - Automotive",
-        "email": "m.chen@litong.com",
+        "email": "m.chen@BeiLuo.com",
         "image": "/assets/team/michael-chen.jpg"
       },
       "publishedDate": "2024-03-01",

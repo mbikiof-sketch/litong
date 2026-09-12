@@ -1,0 +1,236 @@
+{
+  "seoTitle": "Changdian Technical Support | 长电科技选型指南、应用笔记 | FAE",
+  "seoDescription": "Changdian technical support: diode selection guide, MOSFET selection guide, rectifier circuit design, MOSFET driver design. FAE engineering assistance for power semiconductor applications.",
+  "seoKeywords": [
+    "Changdian technical support",
+    "Changdian selection guide",
+    "Changdian diode selection",
+    "Changdian MOSFET selection",
+    "长电科技技术支持",
+    "长电科技选型指南",
+    "二极管选型指南",
+    "MOSFET选型指南",
+    "整流电路设计",
+    "MOSFET驱动设计",
+    "power semiconductor guide",
+    "thermal design guide",
+    "FAE support China"
+  ],
+  "categories": [
+    {
+      "id": "selection-guides",
+      "name": "选型指南",
+      "slug": "selection-guides",
+      "description": "详细的产品选型指南，帮助您快速找到合适的器件",
+      "articles": [
+        {
+          "id": "diode-selection-guide",
+          "title": "二极管选型指南",
+          "slug": "diode-selection-guide",
+          "summary": "全面介绍二极管选型要点，包括类型选择、参数计算、应用场景等。",
+          "content": "二极管选型需要考虑多个因素.",
+          "sections": [
+            {
+              "title": "二极管类型选择",
+              "content": "标准整流二极管：适用于50/60Hz工频整流，成本低，反向恢复时间长（约2μs）。快恢复二极管：适用于高频开关电源（20-100kHz），反向恢复时间短（100-500ns）。肖特基二极管：适用于高效率低压应用，正向压降低（0.3-0.5V），但反向漏电流大。"
+            },
+            {
+              "title": "关键参数解读",
+              "content": "IF(AV)：平均正向电流，应大于实际工作电流的1.5倍。VRRM：最大反向重复峰值电压，应大于电路最大反向电压的1.5-2倍。VF：正向压降，影响导通损耗。trr：反向恢复时间，影响开关损耗。"
+            }
+          ],
+          "relatedProducts": [
+            "1N4007",
+            "1N5408",
+            "FR307",
+            "MBR20100"
+          ],
+          "downloads": [
+            {
+              "title": "二极管选型速查表",
+              "url": "/downloads/diode-selection-chart.pdf"
+            }
+          ]
+        },
+        {
+          "id": "mosfet-selection-guide",
+          "title": "MOSFET选型指南",
+          "slug": "mosfet-selection-guide",
+          "summary": "详细介绍MOSFET选型方法，包括电压、电流、导通电阻等参数选择。",
+          "content": "MOSFET选型需要综合考虑多个参数.",
+          "sections": [
+            {
+              "title": "电压额定值选择",
+              "content": "VDS（漏源电压）应大于实际工作电压的1.2-1.5倍。对于12V应用，选择30-55V MOSFET；对于48V应用，选择75-100V MOSFET；对于220V应用，选择500-600V MOSFET。"
+            },
+            {
+              "title": "导通电阻与开关速度权衡",
+              "content": "RDS(on)越小，导通损耗越低，但栅极电荷Qg通常越大，开关损耗增加。高频应用（>100kHz）优先选择低Qg；大电流应用优先选择低RDS(on)。"
+            }
+          ],
+          "relatedProducts": [
+            "IRF540N",
+            "IRF3205"
+          ],
+          "downloads": [
+            {
+              "title": "MOSFET选型工具",
+              "url": "/downloads/mosfet-selection-tool.xlsx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "application-notes",
+      "name": "应用笔记",
+      "slug": "application-notes",
+      "description": "实用的应用笔记，提供详细的设计指导和参考电路",
+      "articles": [
+        {
+          "id": "rectifier-circuit-design",
+          "title": "整流电路设计指南",
+          "slug": "rectifier-circuit-design",
+          "summary": "详细介绍整流电路的设计方法，包括器件选型、散热计算、EMI抑制等。",
+          "content": "整流电路是电源设计的基础.",
+          "sections": [
+            {
+              "title": "桥式整流电路设计",
+              "content": "桥式整流器包含4个二极管，输出直流电压约为输入交流峰值减去两个二极管压降。对于220V交流输入，输出直流约310V（无负载）。选择整流器时，电流额定值应大于负载电流的1.5倍，耐压应大于峰值电压的1.5倍。"
+            },
+            {
+              "title": "散热设计",
+              "content": "整流器功耗P = VF × IOUT × 2（桥式）。例如15A输出，VF=1V，功耗约30W。需要适当散热器，确保结温不超过150°C。热阻计算：Tj = Ta + P × (RthJC + RthCS + RthSA)。"
+            }
+          ],
+          "relatedProducts": [
+            "GBJ1510",
+            "GBJ2510"
+          ],
+          "downloads": [
+            {
+              "title": "整流电路设计计算表",
+              "url": "/downloads/rectifier-design-calculator.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "mosfet-driver-design",
+          "title": "MOSFET驱动电路设计",
+          "slug": "mosfet-driver-design",
+          "summary": "介绍MOSFET驱动电路的设计要点，包括栅极电阻选择、驱动电流计算、保护电路等。",
+          "content": "MOSFET驱动电路设计对开关性能至关重要.",
+          "sections": [
+            {
+              "title": "栅极电阻选择",
+              "content": "栅极电阻影响开关速度和EMI。小电阻（<10Ω）开关快但EMI大；大电阻（>100Ω）开关慢但EMI小。典型值10-47Ω。栅极电阻功耗：P = Qg × VGS × fSW。"
+            },
+            {
+              "title": "驱动电流计算",
+              "content": "驱动电流IG = Qg / tSW。例如Qg=50nC，要求开关时间100ns，需要驱动电流0.5A。选择驱动芯片时，确保峰值驱动电流满足要求。"
+            }
+          ],
+          "relatedProducts": [
+            "IRF540N",
+            "IRF3205"
+          ],
+          "downloads": [
+            {
+              "title": "MOSFET驱动设计指南",
+              "url": "/downloads/mosfet-driver-guide.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faqs",
+      "name": "常见问题",
+      "slug": "faqs",
+      "description": "常见问题解答，帮助您快速解决使用中的疑问",
+      "articles": [
+        {
+          "id": "general-faq",
+          "title": "常见问题汇总",
+          "slug": "general-faq",
+          "summary": "汇总客户最常问的问题，包括产品选择、应用设计、可靠性等方面。",
+          "content": "以下是客户最常问的问题.",
+          "faqs": [
+            {
+              "question": "如何判断二极管是否损坏？",
+              "answer": "使用万用表二极管档测量：正向应有0.5-0.7V（硅）或0.2-0.4V（肖特基）压降；反向应显示开路（OL）。如果正反向都显示OL，二极管开路；如果正反向都显示0V，二极管短路。"
+            },
+            {
+              "question": "MOSFET发热严重怎么办？",
+              "answer": "检查以下几点：1) 栅极驱动电压是否足够（标准MOSFET需要10V）；2) 开关频率是否过高导致开关损耗大；3) 散热器是否足够；4) 是否存在直通或振荡。必要时降低开关频率或增加散热器。"
+            },
+            {
+              "question": "如何申请样品？",
+              "answer": "可通过以下方式申请样品：1) 联系当地销售代表；2) 通过官网样品申请页面提交；3) 发送邮件至samples@cj-elec.com。请提供公司名称、项目信息、所需型号和数量。"
+            },
+            {
+              "question": "产品的交期是多久？",
+              "answer": "标准产品交期通常为2-4周。大批量订单或定制产品交期需要具体确认。紧急需求可联系销售协调加急交付。"
+            },
+            {
+              "question": "是否提供AEC-Q101认证产品？",
+              "answer": "是的，长电科技提供AEC-Q101认证的汽车级产品。认证产品型号前缀通常为AEC-，如AEC-1N4007。可提供PPAP文件和认证报告。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "联系技术支持",
+    "description": "如需更多技术支持，请联系我们的FAE团队",
+    "methods": [
+      {
+        "type": "email",
+        "label": "技术支持邮箱",
+        "value": "support@cj-elec.com"
+      },
+      {
+        "type": "phone",
+        "label": "技术支持热线",
+        "value": "+86-510-8685-8888"
+      },
+      {
+        "type": "hours",
+        "label": "服务时间",
+        "value": "周一至周五 8:30-17:30"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "如何获取长电科技的技术支持？",
+      "answer": "可通过技术支持邮箱support@cj-elec.com或热线+86-510-8685-8888联系我们的FAE团队，服务时间为周一至周五8:30-17:30。",
+      "decisionGuide": "需要技术支持时请通过以上方式联系我们。"
+    },
+    {
+      "question": "长电科技提供哪些技术文档？",
+      "answer": "长电科技提供数据手册、应用笔记、选型指南、设计参考等多种技术文档，可在官网下载或联系销售获取。",
+      "decisionGuide": "根据需求下载相应的技术文档。"
+    }
+  ],
+  "articles": [
+    {
+      "id": "getting-started",
+      "title": "快速入门指南",
+      "slug": "getting-started",
+      "summary": "了解如何开始使用长电科技的产品和服务。",
+      "content": "欢迎使用长电科技产品。本文档将帮助您快速了解我们的产品线和选型流程。",
+      "sections": [
+        {
+          "title": "产品概述",
+          "content": "长电科技提供二极管、整流器、MOSFET等多种功率半导体器件。"
+        },
+        {
+          "title": "选型流程",
+          "content": "根据应用需求确定电气参数，选择合适的产品型号。"
+        }
+      ]
+    }
+  ]
+}

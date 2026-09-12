@@ -306,7 +306,7 @@
             },
             {
               "question": "What is the ESR of the RS-1000uF-25V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
               "decisionGuide": "For applications requiring lower ESR, consider our low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -479,7 +479,7 @@
             },
             {
               "question": "What is the ESR of the RS-470uF-50V and how does it affect circuit performance?",
-              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR represents the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
+              "answer": "The Equivalent Series Resistance (ESR) at 100Hz is approximately 0.02 Ohm. ESR is the resistive losses in the capacitor and directly affects ripple voltage, power dissipation, and filtering effectiveness. Lower ESR results in lower ripple voltage for a given ripple current, reduced self-heating, and improved filtering at high frequencies. This capacitor's ESR characteristics make it suitable for switching power supplies and industrial controls. ESR typically decreases with increasing temperature and increases at higher frequencies. For switching power supplies operating at 100kHz, consider the frequency characteristics of ESR.",
               "decisionGuide": "For applications requiring lower ESR, consider our low-impedance series or connect multiple capacitors in parallel. Contact our FAE team for ESR optimization recommendations.",
               "keywords": [
                 "ESR specification",
@@ -744,7 +744,7 @@
           "faqs": [
             {
               "question": "What is the maximum ripple current?",
-              "answer": "The rated ripple current is 0.5A at 85C and 120Hz. This rating ensures reliable operation in high-voltage power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The rated ripple current is 0.5A at 85C and 120Hz. This rating ensures reliable operation in high-voltage power supply applications. For detailed specifications and application support on aishi RS-100uF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For applications exceeding 0.5A ripple current, consider using multiple capacitors in parallel.",
               "keywords": [
                 "ripple current rating",
@@ -754,7 +754,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "The rated lifetime is 2,000 hours at 85C. Using the Arrhenius equation, expected lifetime extends to 8,000 hours at 65C and 32,000 hours at 45C. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The rated lifetime is 2,000 hours at 85C. Using the Arrhenius equation, expected lifetime extends to 8,000 hours at 65C and 32,000 hours at 45C. For detailed specifications and application support on aishi RS-100uF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "For maximum lifetime, operate at lowest practical temperature with 80% voltage derating.",
               "keywords": [
                 "capacitor lifetime",
@@ -763,7 +763,7 @@
             },
             {
               "question": "What voltage derating is recommended?",
-              "answer": "Industry best practice recommends 80% voltage derating. For this 250V rated capacitor, maximum recommended operating voltage is 200V. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Industry best practice recommends 80% voltage derating. For this 250V rated capacitor, maximum recommended operating voltage is 200V. For detailed specifications and application support on aishi RS-100uF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design for 80% voltage derating for optimal reliability.",
               "keywords": [
                 "voltage derating",
@@ -772,7 +772,7 @@
             },
             {
               "question": "What applications is this suitable for?",
-              "answer": "This capacitor is ideal for high-voltage power supplies, input filtering stages, and PFC circuits. The 250V rating provides good margin for 120V and 220V systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor is ideal for high-voltage power supplies, input filtering stages, and PFC circuits. The 250V rating provides good margin for 120V and 220V systems. For detailed specifications and application support on aishi RS-100uF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for high-voltage power supply applications where reliability is important.",
               "keywords": [
                 "high voltage",
@@ -782,7 +782,7 @@
             },
             {
               "question": "Can this be used for PFC applications?",
-              "answer": "Yes, this capacitor can be used for PFC output filtering in lower power applications. For higher power PFC circuits, consider using snap-in capacitors with higher capacitance values. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Yes, this capacitor can be used for PFC output filtering in lower power applications. For higher power PFC circuits, consider using snap-in capacitors with higher capacitance values. For detailed specifications and application support on aishi RS-100uF-250V, refer to the datasheet or contact our team.",
               "decisionGuide": "Suitable for low to medium power PFC applications. Consider snap-in capacitors for higher power.",
               "keywords": [
                 "PFC",
@@ -1301,7 +1301,7 @@
             },
             {
               "question": "What voltage derating is recommended?",
-              "answer": "Industry best practice recommends operating at no more than 80% of rated voltage. For this 63V capacitor, maximum operating voltage should be 50V. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Industry best practice recommends operating at no more than 80% of rated voltage. For this 63V capacitor, maximum operating voltage should be 50V. For detailed specifications and application support on aishi SN-22000uF-63V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design for 80% voltage derating for optimal reliability.",
               "keywords": [
                 "voltage derating",
@@ -1418,7 +1418,7 @@
           "faqs": [
             {
               "question": "What is the maximum ripple current?",
-              "answer": "The rated ripple current is 4.5A at 85C and 120Hz. This rating is suitable for industrial power supply applications with moderate switching currents. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The rated ripple current is 4.5A at 85C and 120Hz. This rating is suitable for industrial power supply applications with moderate switching currents. For detailed specifications and application support on aishi SN-2200uF-200V, refer to the datasheet or contact our team.",
               "decisionGuide": "For high-ripple applications, verify current requirements against ratings.",
               "keywords": [
                 "ripple current",
@@ -1428,7 +1428,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "Rated lifetime is 5,000 hours at 85C. Using the Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C following the temperature-lifetime relationship. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated lifetime is 5,000 hours at 85C. Using the Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C following the temperature-lifetime relationship. For detailed specifications and application support on aishi SN-2200uF-200V, refer to the datasheet or contact our team.",
               "decisionGuide": "Operate at lower temperatures for extended lifetime.",
               "keywords": [
                 "lifetime",
@@ -1438,7 +1438,7 @@
             },
             {
               "question": "What applications is this suitable for?",
-              "answer": "This capacitor is ideal for 180V DC bus applications including servo drives, industrial motor controls, and automation equipment. The 200V rating provides good safety margin for 180V DC bus systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor is ideal for 180V DC bus applications including servo drives, industrial motor controls, and automation equipment. The 200V rating provides good safety margin for 180V DC bus systems. For detailed specifications and application support on aishi SN-2200uF-200V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for 180V DC bus industrial applications.",
               "keywords": [
                 "180V DC bus",
@@ -1448,7 +1448,7 @@
             },
             {
               "question": "What are the mounting requirements?",
-              "answer": "Snap-in mounting requires proper PCB holes sized for the terminals. Standard spacing is 7.5mm for this case size. Provide adequate copper area for heat dissipation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Snap-in mounting requires proper PCB holes sized for the terminals. Standard spacing is 7.5mm for this case size. Provide adequate copper area for heat dissipation. For detailed specifications and application support on aishi SN-2200uF-200V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design PCB with proper hole sizes and thermal management.",
               "keywords": [
                 "mounting",
@@ -1458,7 +1458,7 @@
             },
             {
               "question": "What voltage derating is recommended?",
-              "answer": "Industry standard recommends 80% voltage derating. For this 200V capacitor, maximum operating voltage should be 160V. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Industry standard recommends 80% voltage derating. For this 200V capacitor, maximum operating voltage should be 160V. For detailed specifications and application support on aishi SN-2200uF-200V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design for 80% voltage derating minimum.",
               "keywords": [
                 "voltage derating",
@@ -1954,7 +1954,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "Rated lifetime is 5,000 hours at 85C. Using Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C. Every 10C reduction doubles lifetime. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated lifetime is 5,000 hours at 85C. Using Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C. Every 10C reduction doubles lifetime. For detailed specifications and application support on aishi ST-220000uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Operate at lowest practical temperature for maximum lifetime.",
               "keywords": [
                 "lifetime",
@@ -1964,7 +1964,7 @@
             },
             {
               "question": "What are the terminal specifications?",
-              "answer": "This capacitor features M12 screw terminals for secure high-current connections. The terminals accept M12 bolts or screws with washers. Proper torque ensures good electrical connection. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor features M12 screw terminals for secure high-current connections. The terminals accept M12 bolts or screws with washers. Proper torque ensures good electrical connection. For detailed specifications and application support on aishi ST-220000uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Use proper M12 hardware and torque to datasheet specifications.",
               "keywords": [
                 "M12 terminal",
@@ -1974,7 +1974,7 @@
             },
             {
               "question": "What mounting is required?",
-              "answer": "This capacitor requires base mounting using the integrated mounting bracket. Mounting holes accept M12 bolts. Proper mounting ensures mechanical stability and heat dissipation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor requires base mounting using the integrated mounting bracket. Mounting holes accept M12 bolts. Proper mounting ensures mechanical stability and heat dissipation. For detailed specifications and application support on aishi ST-220000uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Use proper M12 mounting hardware and follow torque specifications.",
               "keywords": [
                 "mounting",
@@ -1984,7 +1984,7 @@
             },
             {
               "question": "What voltage derating is recommended?",
-              "answer": "Industry standard is 80% derating. For 50V capacitor, maximum operating voltage is 40V. This provides margin for voltage transients and improves reliability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Industry standard is 80% derating. For 50V capacitor, maximum operating voltage is 40V. This provides margin for voltage transients and improves reliability. For detailed specifications and application support on aishi ST-220000uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design for 80% voltage derating minimum.",
               "keywords": [
                 "voltage derating",
@@ -2091,7 +2091,7 @@
           "faqs": [
             {
               "question": "What is the ripple current rating?",
-              "answer": "Rated ripple current is 10A at 85C and 120Hz. This is suitable for high-voltage industrial drives and motor control applications. At lower temperatures, higher ripple currents can be handled. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated ripple current is 10A at 85C and 120Hz. This is suitable for high-voltage industrial drives and motor control applications. At lower temperatures, higher ripple currents can be handled. For detailed specifications and application support on aishi ST-3300uF-450V, refer to the datasheet or contact our team.",
               "decisionGuide": "Verify current requirements for your specific application.",
               "keywords": [
                 "ripple current",
@@ -2101,7 +2101,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "Rated lifetime is 5,000 hours at 85C. Using the Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated lifetime is 5,000 hours at 85C. Using the Arrhenius equation, lifetime extends to approximately 20,000 hours at 65C. For detailed specifications and application support on aishi ST-3300uF-450V, refer to the datasheet or contact our team.",
               "decisionGuide": "Operate at lower temperatures for extended lifetime.",
               "keywords": [
                 "lifetime",
@@ -2111,7 +2111,7 @@
             },
             {
               "question": "What applications is this suitable for?",
-              "answer": "This capacitor is ideal for 400V DC bus applications including large servo drives, industrial motor controls, and high-voltage automation equipment. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor is ideal for 400V DC bus applications including large servo drives, industrial motor controls, and high-voltage automation equipment. For detailed specifications and application support on aishi ST-3300uF-450V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for 400V DC bus industrial applications.",
               "keywords": [
                 "400V DC bus",
@@ -2121,7 +2121,7 @@
             },
             {
               "question": "What are the mounting requirements?",
-              "answer": "This capacitor requires base mounting using M8 bolts through the integrated mounting bracket. Follow datasheet torque specifications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor requires base mounting using M8 bolts through the integrated mounting bracket. Follow datasheet torque specifications. For detailed specifications and application support on aishi ST-3300uF-450V, refer to the datasheet or contact our team.",
               "decisionGuide": "Use proper M8 mounting hardware with correct torque specifications.",
               "keywords": [
                 "mounting",
@@ -2131,7 +2131,7 @@
             },
             {
               "question": "What voltage derating is recommended?",
-              "answer": "Industry standard recommends 80% voltage derating. For this 450V capacitor, maximum operating voltage should be 360V. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Industry standard recommends 80% voltage derating. For this 450V capacitor, maximum operating voltage should be 360V. For detailed specifications and application support on aishi ST-3300uF-450V, refer to the datasheet or contact our team.",
               "decisionGuide": "Design for 80% voltage derating minimum.",
               "keywords": [
                 "voltage derating",
@@ -2622,7 +2622,7 @@
           "faqs": [
             {
               "question": "What is the ESR of this capacitor?",
-              "answer": "The ESR is 12mOhm maximum at 100kHz. This ultra-low ESR provides excellent filtering at high frequencies and minimizes power dissipation. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The ESR is 12mOhm maximum at 100kHz. This ultra-low ESR provides excellent filtering at high frequencies and minimizes power dissipation. For detailed specifications and application support on aishi SP-220uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "The 12mOhm ESR is excellent for DC-DC converter applications.",
               "keywords": [
                 "ESR",
@@ -2632,7 +2632,7 @@
             },
             {
               "question": "What is the ripple current rating?",
-              "answer": "Rated ripple current is 5A at 105C and 100kHz. This high ripple current capability is enabled by the ultra-low ESR. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated ripple current is 5A at 105C and 100kHz. This high ripple current capability is enabled by the ultra-low ESR. For detailed specifications and application support on aishi SP-220uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "5A rating is suitable for most DC-DC converter applications.",
               "keywords": [
                 "ripple current",
@@ -2641,7 +2641,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "Rated lifetime is 100,000 hours at 105C. At typical operating temperatures of 60-80C, expected lifetime extends to 200,000-400,000+ hours. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated lifetime is 100,000 hours at 105C. At typical operating temperatures of 60-80C, expected lifetime extends to 200,000-400,000+ hours. For detailed specifications and application support on aishi SP-220uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "Essentially maintenance-free for most applications.",
               "keywords": [
                 "lifetime",
@@ -2650,7 +2650,7 @@
             },
             {
               "question": "What applications is this suitable for?",
-              "answer": "Ideal for 12V and 24V DC-DC converter output filtering, point-of-load converters, and distributed power systems. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Ideal for 12V and 24V DC-DC converter output filtering, point-of-load converters, and distributed power systems. For detailed specifications and application support on aishi SP-220uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for DC-DC converter output filtering.",
               "keywords": [
                 "DC-DC converter",
@@ -2660,7 +2660,7 @@
             },
             {
               "question": "How does this compare to electrolytic capacitors?",
-              "answer": "Compared to electrolytic: ESR is 15-20x lower, ripple current is 5-10x higher, lifetime is 50x longer, but cost is 3-5x higher. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Compared to electrolytic: ESR is 15-20x lower, ripple current is 5-10x higher, lifetime is 50x longer, but cost is 3-5x higher. For detailed specifications and application support on aishi SP-220uF-35V, refer to the datasheet or contact our team.",
               "decisionGuide": "Choose solid polymer when performance and reliability are critical.",
               "keywords": [
                 "comparison",
@@ -2768,7 +2768,7 @@
           "faqs": [
             {
               "question": "What is the ESR of this capacitor?",
-              "answer": "The ESR is 18mOhm maximum at 100kHz. This low ESR provides excellent high-frequency decoupling performance. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The ESR is 18mOhm maximum at 100kHz. This low ESR provides excellent high-frequency decoupling performance. For detailed specifications and application support on aishi SP-68uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "The 18mOhm ESR is excellent for high-frequency decoupling applications.",
               "keywords": [
                 "ESR",
@@ -2778,7 +2778,7 @@
             },
             {
               "question": "What is the ripple current rating?",
-              "answer": "Rated ripple current is 3.5A at 105C and 100kHz. This is suitable for FPGA and processor decoupling applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated ripple current is 3.5A at 105C and 100kHz. This is suitable for FPGA and processor decoupling applications. For detailed specifications and application support on aishi SP-68uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "3.5A rating is suitable for most digital circuit decoupling.",
               "keywords": [
                 "ripple current",
@@ -2788,7 +2788,7 @@
             },
             {
               "question": "What is the expected lifetime?",
-              "answer": "Rated lifetime is 100,000 hours at 105C. At typical operating temperatures, expected lifetime extends to 200,000+ hours. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Rated lifetime is 100,000 hours at 105C. At typical operating temperatures, expected lifetime extends to 200,000+ hours. For detailed specifications and application support on aishi SP-68uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Essentially maintenance-free for digital electronics.",
               "keywords": [
                 "lifetime",
@@ -2797,7 +2797,7 @@
             },
             {
               "question": "What applications is this suitable for?",
-              "answer": "Ideal for FPGA power supplies, processor decoupling, and high-speed digital circuits where low ESR is critical. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Ideal for FPGA power supplies, processor decoupling, and high-speed digital circuits where low ESR is critical. For detailed specifications and application support on aishi SP-68uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Perfect for high-speed digital decoupling applications.",
               "keywords": [
                 "FPGA",
@@ -2808,7 +2808,7 @@
             },
             {
               "question": "What package size is this?",
-              "answer": "This capacitor is in a compact 5mm x 5mm x 6mm SMD package, ideal for high-density PCB designs near high-speed ICs. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This capacitor is in a compact 5mm x 5mm x 6mm SMD package, ideal for high-density PCB designs near high-speed ICs. For detailed specifications and application support on aishi SP-68uF-50V, refer to the datasheet or contact our team.",
               "decisionGuide": "Compact size fits well in space-constrained designs.",
               "keywords": [
                 "package",

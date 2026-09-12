@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 配置
-const DOMAIN = 'https://core-distributor.com';
+const DOMAIN = 'https://ic-distributor.com';
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
 const SITEMAP_PATH = path.join(OUTPUT_DIR, 'sitemap.xml');
 
@@ -17,6 +17,7 @@ function getAllHtmlFiles(dir, basePath = '') {
     const stat = fs.statSync(fullPath);
     
     if (stat.isDirectory()) {
+      if (item.startsWith('_')) continue;
       files.push(...getAllHtmlFiles(fullPath, relativePath));
     } else if (item.endsWith('.html')) {
       files.push({
@@ -174,6 +175,8 @@ function main() {
     
     if (urlPath.endsWith('/index.html')) {
       urlPath = urlPath.replace('/index.html', '/');
+    } else if (urlPath.endsWith('.html')) {
+      urlPath = urlPath.replace(/\.html$/, '');
     }
     
     const { priority, changefreq } = getPagePriority(filePath);

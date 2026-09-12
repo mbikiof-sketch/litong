@@ -606,7 +606,7 @@ function updateSupportJson() {
     },
     {
       question: "How do I get technical support for CRRC product design?",
-      answer: "LiTong Electronics provides comprehensive technical support for CRRC products: Phone Support - Call our technical support hotline at +86 15013702378 during business hours (Monday-Friday, 9:00 AM - 6:00 PM GMT+8); Email Support - Send technical questions to support@litong-elec.com; FAE Consultation - Our Field Application Engineers can provide in-depth design support; Online Resources - Access application notes, design guides, and FAQ on our website; On-site Support - Available for large projects or complex design challenges. We typically respond to technical inquiries within 24 hours.",
+      answer: "LiTong Electronics provides comprehensive technical support for CRRC products: Phone Support - Call our technical support hotline at +86 15013702378 during business hours (Monday-Friday, 9:00 AM - 6:00 PM GMT+8); Email Support - Send technical questions to support@BeiLuo-elec.com; FAE Consultation - Our Field Application Engineers can provide in-depth design support; Online Resources - Access application notes, design guides, and FAQ on our website; On-site Support - Available for large projects or complex design challenges. We typically respond to technical inquiries within 24 hours.",
       decisionGuide: "Contact our technical support team through your preferred channel for prompt assistance.",
       keywords: ["CRRC technical support", "FAE support", "design support", "technical assistance"]
     },

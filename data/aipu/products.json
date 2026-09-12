@@ -15,7 +15,7 @@
     {
       "question": "What series does Aipu DC-DC power module have?",
       "answer": "Aipu DC-DC power modules are mainly divided into three series: 1) Fixed Input Series (A05/A12/A24 series): Fixed input voltage (5V, 12V, 24V), output voltage 3.3V/5V/9V/12V/15V/24V optional, power 0.25W-3W, suitable for simple power supply applications; 2) Wide Input Series (B05/B12/B24 series): 4:1 wide input range (such as 9-36V, 18-75V), diverse output voltage, power 1W-60W, suitable for battery power and large voltage fluctuation occasions; 3) Non-isolated Series (E05/E12 series): Input and output common ground, high efficiency, low cost, power 0.25W-10W, suitable for applications without isolation requirements. All series provide SIP, DIP, SMD package forms.",
-      "decisionGuide": "Select series based on input voltage stability and isolation requirements: A series for stable input, B series for battery or large fluctuations, E series for no isolation required.",
+      "decisionGuide": "Select series based on input voltage stability and isolation requirements: A series for stable input, B series for battery or large fluctuations, E series for No isolation is needed.",
       "keywords": [
         "DC-DC series",
         "fixed input",
@@ -1269,7 +1269,7 @@
         },
         {
           "question": "What safety certifications do Aipu AC-DC modules have?",
-          "answer": "Aipu AC-DC modules have comprehensive international safety certifications: 1) UL60950-1 or UL62368-1 for North American market; 2) EN60950-1 or EN62368-1 for European market; 3) CCC (China Compulsory Certification) for China market; 4) CE marking for European conformity; 5) CB certificate for international safety recognition. These certifications cover major global markets. Medical grade versions additionally have IEC 60601-1 certification for healthcare applications. The certifications ensure compliance with isolation requirements, creepage/clearance distances, safety spacing, and electrical safety standards.",
+          "answer": "Aipu AC-DC modules have comprehensive international safety certifications: 1) UL60950-1 or UL62368-1 for North American market; 2) EN60950-1 or EN62368-1 for European market; 3) CCC (China Compulsory Certification) for China market; 4) CE marking for European conformity; 5) CB certificate for international safety recognition. These certifications cover major global markets. Medical grade versions have IEC 60601-1 certification for healthcare applications. The certifications ensure compliance with isolation requirements, creepage/clearance distances, safety spacing, and electrical safety standards.",
           "decisionGuide": "Standard modules have UL, EN, CCC, CE, CB certifications for global markets. Medical grade has IEC 60601-1 for healthcare.",
           "keywords": [
             "safety certification",
@@ -1375,7 +1375,7 @@
             {
               "question": "How to handle heat dissipation for AP05N05-5W?",
               "answer": "The AP05N05-5W (5W output) typically does not require additional heat sinking under normal conditions: 1) At 25C ambient with natural convection, module operates well within thermal limits; 2) At 50C ambient, slight derating may be needed for continuous full-load operation; 3) At 70C ambient (maximum rating), output power should be derated to 3-4W for reliable operation. For better thermal performance: 1) Ensure adequate air circulation around module; 2) Place module away from other heat sources; 3) Use copper pours on PCB for heat spreading; 4) For enclosed applications, consider external heatsink or forced air cooling. The module has internal overtemperature protection that shuts down if temperature exceeds safe limits.",
-              "decisionGuide": "No heatsink needed at room temperature. Derate power at high ambient temperatures above 50C. Ensure air circulation for best performance.",
+              "decisionGuide": "No heatsink is needed at room temperature. Derate power at high ambient temperatures above 50C. Ensure air circulation for best performance.",
               "keywords": [
                 "heat dissipation",
                 "thermal management",

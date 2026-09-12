@@ -64,7 +64,7 @@
       "id": "ddr5-memory",
       "name": "DDR5 Memory",
       "description": "CXMT DDR5 DRAM delivers industry-leading performance with speeds up to 8000Mbps and densities up to 24Gb. Available in multiple module formats for data centers, enterprise servers, and high-performance PCs.",
-      "longDescription": "CXMT DDR5 memory represents the latest generation of DRAM technology, offering significant improvements in speed, capacity, and power efficiency over DDR4. As an authorized CXMT distributor, LiTong provides comprehensive DDR5 selection guidance, platform compatibility verification, and technical support. The product range includes 16Gb and 24Gb die densities with speeds from 4800Mbps to 8000Mbps. Multiple module types are available including UDIMM for desktops, SODIMM for laptops, RDIMM for servers, and MRDIMM for high-performance computing. CXMT DDR5 products are fully JEDEC compliant and compatible with Intel and AMD platforms.",
+      "longDescription": "CXMT DDR5 memory is the latest generation of DRAM technology, offering significant improvements in speed, capacity, and power efficiency over DDR4. As an authorized CXMT distributor, LiTong provides comprehensive DDR5 selection guidance, platform compatibility verification, and technical support. The product range includes 16Gb and 24Gb die densities with speeds from 4800Mbps to 8000Mbps. Multiple module types are available including UDIMM for desktops, SODIMM for laptops, RDIMM for servers, and MRDIMM for high-performance computing. CXMT DDR5 products are fully JEDEC compliant and compatible with Intel and AMD platforms.",
       "parameters": [
         "Density",
         "Speed",
@@ -209,7 +209,7 @@
           "faeReview": {
             "author": "Dr. Li Wei",
             "title": "Senior Memory Architect",
-            "content": "The CXMT DDR5-8000 RDIMM represents the pinnacle of server memory technology. The 24Gb density is a game-changer for data centers - you can achieve 1.5TB+ per socket with standard 2-socket servers. The 8000Mbps speed provides the bandwidth needed for AI training workloads. I've tested these modules on Intel Xeon Scalable platforms and the performance is exceptional. The signal integrity at 8000Mbps is solid thanks to the registered design. One important consideration: ensure your server platform supports 8000Mbps - not all DDR5 platforms do. For AI and HPC applications, this is currently the best memory option available from CXMT. The power efficiency at 1.1V also helps with data center cooling.",
+            "content": "The CXMT DDR5-8000 RDIMM is the pinnacle of server memory technology. The 24Gb density is a game-changer for data centers - you can achieve 1.5TB+ per socket with standard 2-socket servers. The 8000Mbps speed provides the bandwidth needed for AI training workloads. I've tested these modules on Intel Xeon Scalable platforms and the performance is exceptional. The signal integrity at 8000Mbps is solid thanks to the registered design. One important consideration: ensure your server platform supports 8000Mbps - not all DDR5 platforms do. For AI and HPC applications, this is currently the best memory option available from CXMT. The power efficiency at 1.1V also helps with data center cooling.",
             "highlight": "24Gb density and 8000Mbps speed ideal for AI and HPC applications"
           },
           "alternativeParts": [
@@ -332,7 +332,7 @@
         {
           "partNumber": "CXMT-DDR5-16Gb-5600-UDIMM",
           "name": "DDR5-5600 UDIMM Desktop Memory",
-          "shortDescription": "16Gb DDR5 UDIMM with 5600Mbps speed for desktop PCs and workstations. Ideal for industrial and consumer applications ...",
+          "shortDescription": "16Gb DDR5 UDIMM with 5600Mbps speed for desktop PCs and workstations. Ideal for industrial and consumer applications...",
           "description": "High-performance DDR5 UDIMM for desktop PCs and workstations with 5600Mbps speed.",
           "descriptionParagraphs": [
             "The CXMT DDR5-5600 UDIMM delivers excellent performance for desktop PCs and workstations.",
@@ -596,7 +596,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for DDR5MEMORY-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-DDR5-24Gb-7200-RDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -605,7 +605,7 @@
             },
             {
               "question": "What applications is DDR5MEMORY-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-DDR5-24Gb-7200-RDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -614,7 +614,7 @@
             },
             {
               "question": "What is the temperature range of DDR5MEMORY-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-DDR5-24Gb-7200-RDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -623,7 +623,7 @@
             },
             {
               "question": "What package options are available for DDR5MEMORY-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-DDR5-24Gb-7200-RDIMM, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -632,7 +632,7 @@
             },
             {
               "question": "What is the lead time for DDR5MEMORY-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-DDR5-24Gb-7200-RDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -767,7 +767,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for DDR5MEMORY-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-DDR5-16Gb-8000-UDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -776,7 +776,7 @@
             },
             {
               "question": "What applications is DDR5MEMORY-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-DDR5-16Gb-8000-UDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -785,7 +785,7 @@
             },
             {
               "question": "What is the temperature range of DDR5MEMORY-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-DDR5-16Gb-8000-UDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -794,7 +794,7 @@
             },
             {
               "question": "What package options are available for DDR5MEMORY-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-DDR5-16Gb-8000-UDIMM, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -803,7 +803,7 @@
             },
             {
               "question": "What is the lead time for DDR5MEMORY-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-DDR5-16Gb-8000-UDIMM, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -849,7 +849,7 @@
       "id": "lpddr5x-memory",
       "name": "LPDDR5X Memory",
       "description": "CXMT LPDDR5X delivers ultra-high speed mobile memory up to 10667Mbps with exceptional power efficiency. Designed for flagship smartphones, tablets, and AI edge devices.",
-      "longDescription": "CXMT LPDDR5X represents the cutting edge of mobile memory technology, offering speeds up to 10667Mbps with industry-leading power efficiency. As an authorized CXMT distributor, LiTong provides comprehensive LPDDR5X selection guidance, platform compatibility verification, and technical support. The product range includes 12Gb and 16Gb die densities with multiple speed grades. Available in standalone dies for PoP (Package on Package), MCP (Multi-Chip Package), and LPCAMM2 module formats. CXMT LPDDR5X is used in flagship smartphones from major brands and delivers the performance needed for AI, gaming, and multitasking.",
+      "longDescription": "CXMT LPDDR5X is the cutting edge of mobile memory technology, offering speeds up to 10667Mbps with industry-leading power efficiency. As an authorized CXMT distributor, LiTong provides comprehensive LPDDR5X selection guidance, platform compatibility verification, and technical support. The product range includes 12Gb and 16Gb die densities with multiple speed grades. Available in standalone dies for PoP (Package on Package), MCP (Multi-Chip Package), and LPCAMM2 module formats. CXMT LPDDR5X is used in flagship smartphones from major brands and delivers the performance needed for AI, gaming, and multitasking.",
       "parameters": [
         "Density",
         "Speed",
@@ -1207,7 +1207,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for LPDDR5XMEMORY-2?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1216,7 +1216,7 @@
             },
             {
               "question": "What applications is LPDDR5XMEMORY-2 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1225,7 +1225,7 @@
             },
             {
               "question": "What is the temperature range of LPDDR5XMEMORY-2?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1234,7 +1234,7 @@
             },
             {
               "question": "What package options are available for LPDDR5XMEMORY-2?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1243,7 +1243,7 @@
             },
             {
               "question": "What is the lead time for LPDDR5XMEMORY-2?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1376,7 +1376,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for LPDDR5XMEMORY-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1385,7 +1385,7 @@
             },
             {
               "question": "What applications is LPDDR5XMEMORY-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1394,7 +1394,7 @@
             },
             {
               "question": "What is the temperature range of LPDDR5XMEMORY-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1403,7 +1403,7 @@
             },
             {
               "question": "What package options are available for LPDDR5XMEMORY-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1412,7 +1412,7 @@
             },
             {
               "question": "What is the lead time for LPDDR5XMEMORY-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1545,7 +1545,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for LPDDR5XMEMORY-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-8Gb-8533, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1554,7 +1554,7 @@
             },
             {
               "question": "What applications is LPDDR5XMEMORY-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-8Gb-8533, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1563,7 +1563,7 @@
             },
             {
               "question": "What is the temperature range of LPDDR5XMEMORY-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-LPDDR5X-8Gb-8533, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1572,7 +1572,7 @@
             },
             {
               "question": "What package options are available for LPDDR5XMEMORY-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-LPDDR5X-8Gb-8533, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1581,7 +1581,7 @@
             },
             {
               "question": "What is the lead time for LPDDR5XMEMORY-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-LPDDR5X-8Gb-8533, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",

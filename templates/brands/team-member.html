@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= fae.name %> | FAE Engineer | <%= brand.displayName %></title>
+  <title><%= fae.name %> | FAE Engineer | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= fae.title %> specializing in <%= fae.expertise.join(', ') %>.">
   
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -43,6 +43,8 @@
     
     @media (max-width: 767px) { .fae-header { grid-template-columns: 1fr; text-align: center; } .fae-avatar { margin: 0 auto; } .fae-details { justify-content: center; } }
   </style>
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/team/<%= fae.id %>">
+  <meta name="robots" content="index, follow">
 </head>
 <body>
   <!--#include virtual="/templates/components/navbar.html" -->
@@ -86,7 +88,7 @@
             <% fae.articles.forEach(function(articleId) {
               var article = support.articles.find(function(a) { return a.id === articleId; });
               if(article) { %>
-                <a href="/<%= brand.name.toLowerCase() %>/support/<%= article.id %>.html" class="article-card">
+                <a href="/<%= brand.name.toLowerCase() %>/support/<%= article.id %>" class="article-card">
                   <h3><%= article.title %></h3>
                   <p><%= article.summary %></p>
                 </a>

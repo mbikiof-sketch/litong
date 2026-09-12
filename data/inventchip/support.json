@@ -148,14 +148,14 @@
       ],
       "content": [
         "This technical reference document provides detailed information about inventchip product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
       "faqs": [
         {
           "question": "What gate voltage should I use?",
-          "answer": "Recommended gate voltage: (1) Turn-on - +15V to +18V. (2) Turn-off - -3V to -5V. (3) Threshold - 2.5V typical. (4) Recommended - +18V/-5V. Provides optimal performance and noise margin. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Recommended gate voltage: (1) Turn-on - +15V to +18V. (2) Turn-off - -3V to -5V. (3) Threshold - 2.5V typical. (4) Recommended - +18V/-5V. Provides optimal performance and noise margin. For detailed specifications and application support on inventchip products, refer to the datasheet or contact our team.",
           "decisionGuide": "Use +18V/-5V gate drive for optimal performance.",
           "keywords": [
             "gate voltage",
@@ -165,7 +165,7 @@
         },
         {
           "question": "How do I select the gate resistor value?",
-          "answer": "Gate resistor selection: (1) Range - 5Ω to 10Ω typical. (2) Start - 5Ω for most applications. (3) Adjustment - Tune based on waveforms. (4) EMI - Higher for lower EMI. Balance speed and EMI. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+          "answer": "Gate resistor selection: (1) Range - 5Ω to 10Ω typical. (2) Start - 5Ω for most applications. (3) Adjustment - Tune based on waveforms. (4) EMI - Higher for lower EMI. Balance speed and EMI. For detailed specifications and application support on inventchip products, refer to the datasheet or contact our team.",
           "decisionGuide": "Start with 5Ω; adjust based on switching waveforms.",
           "keywords": [
             "gate resistor",
@@ -230,7 +230,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about inventchip product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

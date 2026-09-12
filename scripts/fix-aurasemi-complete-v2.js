@@ -351,7 +351,7 @@ supportJson.articles.push({
     },
     {
       question: "How do I contact technical support?",
-      answer: "LiTong provides multiple support channels: (1) Contact your local FAE directly; (2) Email support@litong.com; (3) Call technical hotline; (4) Submit support request on website. Typical response time is within 24 hours.",
+      answer: "LiTong provides multiple support channels: (1) Contact your local FAE directly; (2) Email support@BeiLuo.com; (3) Call technical hotline; (4) Submit support request on website. Typical response time is within 24 hours.",
       decisionGuide: "Contact FAE directly or email support for assistance.",
       keywords: ["technical support", "contact FAE", "help"]
     },

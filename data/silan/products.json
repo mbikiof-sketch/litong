@@ -71,11 +71,7 @@
           ]
         }
       ],
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Motor control",
         "Power supplies",
@@ -255,7 +251,8 @@
               ]
             }
           ],
-          "slug": "sgm15n60"
+          "slug": "sgm15n60",
+          "specifications": {}
         },
         {
           "partNumber": "SGM20N60",
@@ -392,7 +389,7 @@
             },
             {
               "question": "Can SGM20N60 be used for soft-switching applications?",
-              "answer": "Yes, SGM20N60 can be used in soft-switching applications such as resonant converters and ZVS/ZCS topologies. Advantages in soft-switching: (1) Reduced switching losses - switching occurs at zero voltage or zero current, minimizing losses. (2) Higher frequency operation - can operate at 50-100kHz vs 20kHz for hard-switching. (3) Lower EMI - reduced di/dt and dv/dt reduces electromagnetic interference. (4) No snubber required - soft-switching eliminates voltage spikes. (5) Higher efficiency - overall system efficiency improvement of 2-5%. The SGM20N60's fast switching characteristics make it well-suited for resonant applications. Typical applications include LLC resonant converters for power supplies and induction heating.",
+              "answer": "Yes, SGM20N60 can be used in soft-switching applications such as resonant converters and ZVS/ZCS topologies. Advantages in soft-switching: (1) Reduced switching losses - switching occurs at zero voltage or zero current, minimizing losses. (2) Higher frequency operation - can operate at 50-100kHz vs 20kHz for hard-switching. (3) Lower EMI - reduced di/dt and dv/dt reduces electromagnetic interference. (4) No snubber is needed - soft-switching eliminates voltage spikes. (5) Higher efficiency - overall system efficiency improvement of 2-5%. The SGM20N60's fast switching characteristics make it well-suited for resonant applications. Typical applications include LLC resonant converters for power supplies and induction heating.",
               "decisionGuide": "Consider soft-switching topologies for high-frequency or high-efficiency applications.",
               "keywords": [
                 "SGM20N60 soft switching",
@@ -401,7 +398,8 @@
               ]
             }
           ],
-          "slug": "sgm20n60"
+          "slug": "sgm20n60",
+          "specifications": {}
         },
         {
           "partNumber": "SGM30N60",
@@ -442,7 +440,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "sgm30n60"
+          "slug": "sgm30n60",
+          "specifications": {}
         },
         {
           "partNumber": "SGM10N60",
@@ -483,7 +482,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "sgm10n60"
+          "slug": "sgm10n60",
+          "specifications": {}
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -515,11 +515,7 @@
           ]
         }
       ],
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Consumer electronics",
         "Automotive",
@@ -700,7 +696,8 @@
               ]
             }
           ],
-          "slug": "sc7a20"
+          "slug": "sc7a20",
+          "specifications": {}
         },
         {
           "partNumber": "SC7P03",
@@ -847,7 +844,8 @@
               ]
             }
           ],
-          "slug": "sc7p03"
+          "slug": "sc7p03",
+          "specifications": {}
         },
         {
           "partNumber": "SC7G20",
@@ -889,7 +887,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "sc7g20"
+          "slug": "sc7g20",
+          "specifications": {}
         },
         {
           "partNumber": "SC7M01",
@@ -931,7 +930,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "sc7m01"
+          "slug": "sc7m01",
+          "specifications": {}
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -963,11 +963,7 @@
           ]
         }
       ],
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "General lighting",
         "Display backlighting",
@@ -1148,7 +1144,8 @@
               ]
             }
           ],
-          "slug": "slm4110"
+          "slug": "slm4110",
+          "specifications": {}
         },
         {
           "partNumber": "SLM4120",
@@ -1295,7 +1292,8 @@
               ]
             }
           ],
-          "slug": "slm4120"
+          "slug": "slm4120",
+          "specifications": {}
         },
         {
           "partNumber": "SLM4130",
@@ -1337,7 +1335,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "slm4130"
+          "slug": "slm4130",
+          "specifications": {}
         },
         {
           "partNumber": "SLM4140",
@@ -1379,7 +1378,8 @@
           "alternativeParts": [],
           "companionParts": [],
           "faqs": [],
-          "slug": "slm4140"
+          "slug": "slm4140",
+          "specifications": {}
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -1411,11 +1411,7 @@
           ]
         }
       ],
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Power supplies",
         "Battery chargers",
@@ -1596,7 +1592,8 @@
               ]
             }
           ],
-          "slug": "slm2100"
+          "slug": "slm2100",
+          "specifications": {}
         },
         {
           "partNumber": "SLM3400",
@@ -1743,7 +1740,8 @@
               ]
             }
           ],
-          "slug": "slm3400"
+          "slug": "slm3400",
+          "specifications": {}
         },
         {
           "partNumber": "SLM3500",
@@ -1852,7 +1850,8 @@
               ]
             }
           ],
-          "slug": "slm3500"
+          "slug": "slm3500",
+          "specifications": {}
         },
         {
           "partNumber": "SLM3600",
@@ -1954,7 +1953,8 @@
               ]
             }
           ],
-          "slug": "slm3600"
+          "slug": "slm3600",
+          "specifications": {}
         }
       ],
       "selectionGuideLink": "#selection-guide",

@@ -48,7 +48,7 @@
       "name": "SiC MOSFETs",
       "slug": "sic-mosfets",
       "description": "PineSemi's silicon carbide MOSFETs deliver superior switching performance, low on-resistance, and high-temperature operation for next-generation power electronics.",
-      "longDescription": "PineSemi's silicon carbide (SiC) MOSFET portfolio represents the cutting edge of power semiconductor technology. These devices leverage the unique properties of wide bandgap SiC material to deliver breakthrough performance compared to traditional silicon devices. With breakdown voltages from 650V to 1200V and on-resistance as low as 15mΩ, PineSemi SiC MOSFETs enable unprecedented efficiency and power density in power conversion applications. The superior thermal conductivity of SiC allows operation at higher junction temperatures (up to 175°C), simplifying thermal management and enabling more compact designs. Key features include ultra-fast switching with minimal switching losses, zero reverse recovery charge in the body diode, and excellent avalanche capability. These characteristics make PineSemi SiC MOSFETs the ideal choice for demanding applications such as EV traction inverters, onboard chargers, DC-DC converters, solar inverters, and high-frequency power supplies. The devices are available in industry-standard packages including TO-247, TO-263, and advanced Kelvin-source packages for optimal switching performance.",
+      "longDescription": "PineSemi's silicon carbide (SiC) MOSFET portfolio is the cutting edge of power semiconductor technology. These devices leverage the unique properties of wide bandgap SiC material to deliver breakthrough performance compared to traditional silicon devices. With breakdown voltages from 650V to 1200V and on-resistance as low as 15mΩ, PineSemi SiC MOSFETs enable unprecedented efficiency and power density in power conversion applications. The superior thermal conductivity of SiC allows operation at higher junction temperatures (up to 175°C), simplifying thermal management and enabling more compact designs. Key features include ultra-fast switching with minimal switching losses, zero reverse recovery charge in the body diode, and excellent avalanche capability. These characteristics make PineSemi SiC MOSFETs the ideal choice for demanding applications such as EV traction inverters, onboard chargers, DC-DC converters, solar inverters, and high-frequency power supplies. The devices are available in industry-standard packages including TO-247, TO-263, and advanced Kelvin-source packages for optimal switching performance.",
       "parameters": [
         "Voltage Rating",
         "Rds(on)",
@@ -241,7 +241,7 @@
             },
             {
               "question": "How does Rds(on) vary with temperature for PSM1-65R035?",
-              "answer": "The PSM1-65R035 exhibits positive temperature coefficient for Rds(on): At 25°C: 35mΩ typical; At 100°C: approximately 50mΩ; At 150°C: approximately 65mΩ. This represents about 85% increase from 25°C to 150°C. While this seems significant, it's much better than silicon superjunction MOSFETs which can increase by 150% or more over the same temperature range. For thermal design, use Rds(on) at maximum expected junction temperature to calculate conduction losses. The positive temperature coefficient is beneficial for paralleling devices as it promotes current sharing - devices running hotter will have higher resistance and carry less current.",
+              "answer": "The PSM1-65R035 exhibits positive temperature coefficient for Rds(on): At 25°C: 35mΩ typical; At 100°C: approximately 50mΩ; At 150°C: approximately 65mΩ. This is about 85% increase from 25°C to 150°C. While this seems significant, it's much better than silicon superjunction MOSFETs which can increase by 150% or more over the same temperature range. For thermal design, use Rds(on) at maximum expected junction temperature to calculate conduction losses. The positive temperature coefficient is beneficial for paralleling devices as it promotes current sharing - devices running hotter will have higher resistance and carry less current.",
               "decisionGuide": "Contact us for thermal design support and loss calculation tools.",
               "keywords": [
                 "Rds(on) temperature",
@@ -284,7 +284,7 @@
         {
           "partNumber": "PSM2-120R040",
           "name": "1200V 40mΩ SiC MOSFET",
-          "shortDescription": "1200V silicon carbide MOSFET with 40mΩ on-resistance, designed for EV traction inverters and high-voltage industrial ...",
+          "shortDescription": "1200V silicon carbide MOSFET with 40mΩ on-resistance, designed for EV traction inverters and high-voltage industrial...",
           "descriptionParagraphs": [
             "The PSM2-120R040 is a 1200V SiC MOSFET featuring 40mΩ typical on-resistance for high-voltage power conversion applications.",
             "Designed specifically for demanding applications such as EV traction inverters, this device delivers exceptional efficiency and reliability.",
@@ -513,7 +513,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on pinesemi PSC2M120K042, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -522,7 +522,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on pinesemi PSC2M120K042, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -531,7 +531,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on pinesemi PSC2M120K042, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -540,7 +540,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on pinesemi PSC2M120K042, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -549,7 +549,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on pinesemi PSC2M120K042, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -645,7 +645,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on pinesemi PSC2M120K060, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -654,7 +654,7 @@
             },
             {
               "question": "What applications is SICMOSFETS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on pinesemi PSC2M120K060, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -663,7 +663,7 @@
             },
             {
               "question": "What is the temperature range of SICMOSFETS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on pinesemi PSC2M120K060, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -672,7 +672,7 @@
             },
             {
               "question": "What package options are available for SICMOSFETS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on pinesemi PSC2M120K060, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -681,7 +681,7 @@
             },
             {
               "question": "What is the lead time for SICMOSFETS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on pinesemi PSC2M120K060, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1161,7 +1161,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on pinesemi PIM600H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1170,7 +1170,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on pinesemi PIM600H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1179,7 +1179,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on pinesemi PIM600H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1188,7 +1188,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on pinesemi PIM600H12E4, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1197,7 +1197,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on pinesemi PIM600H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1292,7 +1292,7 @@
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on pinesemi PIM450H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "For higher voltage requirements, contact our FAE team.",
               "keywords": [
                 "voltage rating",
@@ -1301,7 +1301,7 @@
             },
             {
               "question": "What applications is IGBTMODULES-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on pinesemi PIM450H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact our FAE team for application-specific recommendations.",
               "keywords": [
                 "applications",
@@ -1310,7 +1310,7 @@
             },
             {
               "question": "What is the temperature range of IGBTMODULES-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on pinesemi PIM450H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "For extended temperature requirements, contact our FAE team.",
               "keywords": [
                 "temperature",
@@ -1319,7 +1319,7 @@
             },
             {
               "question": "What package options are available for IGBTMODULES-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
+              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on pinesemi PIM450H12E4, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
               "decisionGuide": "Check datasheet for detailed package information.",
               "keywords": [
                 "package",
@@ -1328,7 +1328,7 @@
             },
             {
               "question": "What is the lead time for IGBTMODULES-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on pinesemi PIM450H12E4, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
                 "lead time",
@@ -1354,7 +1354,10 @@
         "Interface",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Power Range",
+        "Isolation",
+        "Operating Temperature"
       ],
       "applications": [
         "Home Appliances",
@@ -1452,7 +1455,10 @@
             "Interface": "3.3V/5V logic compatible",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Power Range": "N/A",
+            "Isolation": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "Six IGBTs with integrated gate drivers",
@@ -1591,7 +1597,13 @@
             "Power Range": "Up to 2.2kW",
             "Switching Frequency": "Up to 20kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)"
+            "Operating Temperature": "-20°C to +100°C (Tj)",
+            "Power Rating": "N/A",
+            "Voltage": "N/A",
+            "Current": "N/A",
+            "Protection Features": "N/A",
+            "Interface": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "20A continuous output current",
@@ -1632,7 +1644,13 @@
             "Power Range": "Up to 1.5kW",
             "Switching Frequency": "Up to 30kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)"
+            "Operating Temperature": "-20°C to +100°C (Tj)",
+            "Power Rating": "N/A",
+            "Voltage": "N/A",
+            "Current": "N/A",
+            "Protection Features": "N/A",
+            "Interface": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "15A continuous output current",
@@ -1654,7 +1672,7 @@
           "faeReview": {
             "author": "Dr. Sarah Liu",
             "title": "Principal FAE - Advanced Motor Control",
-            "content": "The IPM-A15A-6 represents the next generation of intelligent power modules. The 30kHz switching frequency is a game-changer for servo applications - it enables much better current control bandwidth and quieter operation. The enhanced diagnostics are incredibly valuable for system maintenance. Instead of just knowing 'there was a fault,' you get specific fault type information (overcurrent, overtemperature, undervoltage, etc.) which dramatically speeds up troubleshooting. I've used this module in precision servo systems where the high switching frequency enabled significantly improved position control. The fault history feature is also great for predictive maintenance. For high-performance applications, the advanced IPM is worth the modest cost premium.",
+            "content": "The IPM-A15A-6 is the next generation of intelligent power modules. The 30kHz switching frequency is a game-changer for servo applications - it enables much better current control bandwidth and quieter operation. The enhanced diagnostics are incredibly valuable for system maintenance. Instead of just knowing 'there was a fault,' you get specific fault type information (overcurrent, overtemperature, undervoltage, etc.) which dramatically speeds up troubleshooting. I've used this module in precision servo systems where the high switching frequency enabled significantly improved position control. The fault history feature is also great for predictive maintenance. For high-performance applications, the advanced IPM is worth the modest cost premium.",
             "highlight": "Advanced IPM with 30kHz capability and enhanced diagnostics"
           }
         },
@@ -1673,7 +1691,13 @@
             "Power Range": "Up to 3.7kW",
             "Switching Frequency": "Up to 30kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)"
+            "Operating Temperature": "-20°C to +100°C (Tj)",
+            "Power Rating": "N/A",
+            "Voltage": "N/A",
+            "Current": "N/A",
+            "Protection Features": "N/A",
+            "Interface": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "30A continuous output current",
@@ -1713,7 +1737,8 @@
         "Forward Voltage",
         "Reverse Recovery",
         "Temperature",
-        "Temperature Range"
+        "Temperature Range",
+        "Operating Temperature"
       ],
       "applications": [
         "Power Factor Correction",
@@ -1809,7 +1834,8 @@
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Package": "TO-247-2",
             "Temperature": "-55°C to +175°C",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Operating Temperature": "N/A"
           },
           "features": [
             "Zero reverse recovery charge",
@@ -1948,7 +1974,9 @@
             "Forward Voltage": "1.40V @ 40A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-247"
+            "Package": "TO-247",
+            "Temperature": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "650V voltage rating for 380-460V AC systems",
@@ -1988,7 +2016,9 @@
             "Forward Voltage": "1.50V @ 40A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-247"
+            "Package": "TO-247",
+            "Temperature": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "1200V voltage rating for high-voltage systems",
@@ -2028,7 +2058,9 @@
             "Forward Voltage": "1.35V @ 20A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-220"
+            "Package": "TO-220",
+            "Temperature": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "650V voltage rating for universal input applications",

@@ -875,7 +875,9 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "MOSFET Voltage",
+        "Standby Power"
       ],
       "applications": [
         "Power adapters",
@@ -911,7 +913,7 @@
           "partNumber": "MP44010",
           "name": "Critical Conduction Mode PFC Controller",
           "nameCn": "CRM模式PFC控制器",
-          "shortDescription": "High-performance boundary conduction mode PFC controller achieving >0.95 power factor with low THD for offline power ...",
+          "shortDescription": "High-performance boundary conduction mode PFC controller achieving >0.95 power factor with low THD for offline power...",
           "description": "The MP44010 is a critical conduction mode (CRM) power factor correction controller designed for high-efficiency offline power supplies.",
           "descriptionParagraphs": [
             "The MP44010 implements boundary conduction mode (BCM) power factor correction to achieve high power factor (>0.95) and low total harmonic distortion (<10%). Operating in CRM eliminates switching losses at turn-on, improving efficiency compared to continuous conduction mode alternatives.",
@@ -936,7 +938,9 @@
             "Package": "SOIC-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "MOSFET Voltage": "N/A",
+            "Standby Power": "N/A"
           },
           "applications": [
             "LED drivers",
@@ -1153,7 +1157,9 @@
             "Package": "SOIC-16",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "MOSFET Voltage": "N/A",
+            "Standby Power": "N/A"
           },
           "applications": [
             "Server power supplies",
@@ -1266,7 +1272,9 @@
             "Package": "SOIC-8",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Power Factor": "N/A",
+            "THD": "N/A"
           },
           "applications": [
             "Smartphone chargers",
@@ -1278,7 +1286,7 @@
           "features": [
             "Integrated 650V MOSFET",
             "Primary-side regulation",
-            "No optocoupler needed",
+            "No optocoupler is needed",
             "<30mW standby power",
             "Cable compensation"
           ],
@@ -1376,7 +1384,10 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "SOC Accuracy",
+        "Voltage Range",
+        "Current Sensing"
       ],
       "applications": [
         "Smartphones",
@@ -1438,7 +1449,10 @@
             "Package": "QFN-26 (4mm x 4mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "SOC Accuracy": "N/A",
+            "Voltage Range": "N/A",
+            "Current Sensing": "N/A"
           },
           "applications": [
             "Smartphones",
@@ -1649,7 +1663,11 @@
             "Package": "QFN-12 (2.5mm x 2.5mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Efficiency": "N/A",
+            "SOC Accuracy": "N/A",
+            "Voltage Range": "N/A",
+            "Current Sensing": "N/A"
           },
           "applications": [
             "Smartphones",
@@ -1761,7 +1779,11 @@
             "Package": "WLCSP-9 (1.6mm x 1.6mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Input Voltage": "N/A",
+            "Charge Current": "N/A",
+            "Efficiency": "N/A",
+            "Float Voltage": "N/A"
           },
           "applications": [
             "Smartphones",
@@ -1872,7 +1894,9 @@
         "Operating Temperature",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Voltage Range",
+        "MOSFET Rds(on)"
       ],
       "applications": [
         "Industrial automation",
@@ -1934,7 +1958,9 @@
             "Package": "QFN-32 (5mm x 5mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Voltage Range": "N/A",
+            "MOSFET Rds(on)": "N/A"
           },
           "applications": [
             "Industrial pumps",
@@ -2145,7 +2171,10 @@
             "Package": "QFN-20 (4mm x 4mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Voltage": "N/A",
+            "MOSFET Rdson": "N/A",
+            "PWM Frequency": "N/A"
           },
           "applications": [
             "Small fans",
@@ -2258,7 +2287,10 @@
             "Package": "QFN-28 (5mm x 5mm)",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Supply Voltage": "N/A",
+            "MOSFET Rdson": "N/A",
+            "PWM Frequency": "N/A"
           },
           "applications": [
             "Industrial drives",

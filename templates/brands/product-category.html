@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= brand.displayName %> <%= category.name %> | Product List | Distributor | BeiLuo</title>
+  <title><%= brand.displayName %> <%= category.name %> | BeiLuo Distributor</title>
   <meta name="description" content="<%= brand.displayName %> <%= category.name %> distributor. Complete product list with specifications, packages, and parameters. Technical support and fast delivery available.">
   <meta name="keywords" content="<%= brand.displayName %> <%= category.name %>, <%= brand.name %> <%= category.name %> distributor, <%= category.name %> selection, <%= category.name %> price, <%= brand.name %> supplier">
   <meta name="robots" content="index, follow">
   <meta name="author" content="BeiLuo">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="<%= brand.displayName %> <%= category.name %> | Product List">
+  <meta property="og:title" content="<%= brand.displayName %> <%= category.name %> | BeiLuo Distributor">
   <meta property="og:description" content="<%= category.description %>">
   <meta property="og:type" content="product">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://www.elec-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>.html">
+  <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/">
 
   <!-- Product Schema -->
   <script type="application/ld+json">
@@ -28,7 +28,7 @@
       "name": "<%= brand.displayName %>"
     },
     "description": "<%= category.description %>",
-    "url": "https://www.elec-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>.html"
+    "url": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/"
   }
   </script>
 
@@ -412,7 +412,7 @@
                 <% if (typeof categories !== 'undefined' && categories) { %>
                   <% categories.forEach(function(cat) { %>
                     <li>
-                      <a href="/<%= brand.name.toLowerCase() %>/products/<%= cat.id %>.html"
+                      <a href="/<%= brand.name.toLowerCase() %>/products/<%= cat.id %>/"
                          class="<%= cat.id === category.id ? 'active' : '' %>">
                         <%= cat.name %>
                       </a>
@@ -433,7 +433,7 @@
               <h2>About <%= category.name %></h2>
               <p><%= category.description %></p>
               <p>As an authorized distributor of <%= brand.displayName %>, BeiLuo provides a comprehensive range of <%= category.name %> products. These products are widely used in industrial control, automotive electronics, consumer electronics, and communication equipment. We offer a complete product line with multiple series to meet various application requirements. All products are genuine and original, backed by professional technical support and comprehensive after-sales service.</p>
-              <a href="/<%= brand.name.toLowerCase() %>/support/how-to-select-<%= category.id %>.html" class="selection-guide-link">
+              <a href="/<%= brand.name.toLowerCase() %>/support/how-to-select-<%= category.id %>" class="selection-guide-link">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
                 Selection Guide: How to Choose the Right <%= category.name %>
               </a>
@@ -481,7 +481,7 @@
                         <tr data-series="<%= product.series || '' %>">
                           <td>
                             <% var productSlug = product.slug || product.partNumber.toLowerCase().replace(/[^a-z0-9]+/g, '-'); %>
-                            <a href="/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= productSlug %>.html" class="part-number">
+                            <a href="/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= productSlug %>" class="part-number">
                               <%= product.partNumber %>
                             </a>
                           </td>
@@ -534,7 +534,7 @@
                           <td><span class="stock-status in-stock"><%= product.stock || 'In Stock' %></span></td>
                           <td>
                             <% var productSlug = product.slug || product.partNumber.toLowerCase().replace(/[^a-z0-9]+/g, '-'); %>
-                            <a href="/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= productSlug %>.html" class="action-btn">View Details</a>
+                            <a href="/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/<%= productSlug %>" class="action-btn">View Details</a>
                           </td>
                         </tr>
                       <% }); %>

@@ -1446,7 +1446,7 @@
         },
         {
           "question": "What is the significance of ENOB in ADC specifications?",
-          "answer": "ENOB (Effective Number of Bits) represents the actual resolution achieved considering noise and distortion. While an ADC may have 24-bit resolution, the ENOB might be 20 bits due to system noise. ENOB is calculated from SNDR (Signal-to-Noise and Distortion Ratio). For example: 24-bit ADC with ENOB of 20 bits provides about 1ppm (parts per million) resolution. When selecting an ADC, consider both resolution and ENOB for your application requirements. Chipanalog specifies both resolution and typical ENOB for accurate performance assessment.",
+          "answer": "ENOB (Effective Number of Bits) is the actual resolution achieved considering noise and distortion. While an ADC may have 24-bit resolution, the ENOB might be 20 bits due to system noise. ENOB is calculated from SNDR (Signal-to-Noise and Distortion Ratio). For example: 24-bit ADC with ENOB of 20 bits provides about 1ppm (parts per million) resolution. When selecting an ADC, consider both resolution and ENOB for your application requirements. Chipanalog specifies both resolution and typical ENOB for accurate performance assessment.",
           "decisionGuide": "Consider ENOB along with resolution for precision applications. Contact our FAE team for ADC performance analysis.",
           "keywords": [
             "ENOB",
@@ -1819,7 +1819,7 @@
         {
           "partNumber": "CA-IS1305",
           "name": "High-Speed Isolated ADC for Current Sensing",
-          "shortDescription": "High-speed 16-bit isolated ADC optimized for current sensing with 5kVrms isolation and 100kSPS sample rate for motor ...",
+          "shortDescription": "High-speed 16-bit isolated ADC optimized for current sensing with 5kVrms isolation and 100kSPS sample rate for motor...",
           "descriptionParagraphs": [
             "CA-IS1305 is a high-speed isolated ADC specifically designed for current sensing applications in motor drives and power converters. The device features 16-bit resolution with 5kVrms reinforced isolation.",
             "With a sample rate up to 100kSPS and low latency, this ADC enables real-time current feedback for high-performance motor control and power factor correction.",

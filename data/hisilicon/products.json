@@ -54,7 +54,7 @@
     },
     {
       "question": "What are the power consumption characteristics of HiSilicon processors?",
-      "answer": "HiSilicon processors are designed with power efficiency as a key priority: Kirin mobile processors feature advanced power management with big.LITTLE architecture, achieving 5-10W typical power consumption under load with sub-1W idle states. Ascend AI accelerators offer industry-leading performance-per-watt, with edge devices consuming 5-20W and data center cards ranging 50-300W depending on TOPS requirements. Kunpeng server CPUs deliver competitive performance-per-watt compared to x86 alternatives, with power envelopes from 100W to 200W depending on core count and frequency. All families support advanced power management features including dynamic voltage/frequency scaling and sleep states.",
+      "answer": "HiSilicon processors are designed with power efficiency as a key priority: Kirin mobile processors feature advanced power management with big. LITTLE architecture, achieving 5-10W typical power consumption under load with sub-1W idle states. Ascend AI accelerators offer industry-leading performance-per-watt, with edge devices consuming 5-20W and data center cards ranging 50-300W depending on TOPS requirements. Kunpeng server CPUs deliver competitive performance-per-watt compared to x86 alternatives, with power envelopes from 100W to 200W depending on core count and frequency. All families support advanced power management features including dynamic voltage/frequency scaling and sleep states.",
       "decisionGuide": "Consider your power budget and thermal constraints when selecting HiSilicon products. Our FAE team can provide detailed power analysis for your specific use case.",
       "keywords": [
         "power consumption",
@@ -81,7 +81,15 @@
         "Camera Support",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Big Cores",
+        "Mid Cores",
+        "Small Cores",
+        "5G",
+        "Download Speed",
+        "Memory",
+        "Video",
+        "Big Core"
       ],
       "applications": [
         "Smartphones",
@@ -98,7 +106,7 @@
       "faqs": [
         {
           "question": "What are the key features of Kirin mobile processors?",
-          "answer": "Kirin mobile processors feature: 1) Multi-core CPU architecture with big.LITTLE configuration for optimal performance and efficiency; 2) Integrated Mali GPU delivering high-performance graphics for gaming and multimedia; 3) Dedicated NPU (Neural Processing Unit) for on-device AI acceleration; 4) Advanced ISP supporting multi-camera configurations and computational photography; 5) Integrated 5G modem with support for SA/NSA networks; 6) Advanced security features including hardware encryption and secure boot. These features make Kirin ideal for premium smartphones requiring top-tier performance and AI capabilities.",
+          "answer": "Kirin mobile processors feature: 1) Multi-core CPU architecture with big. LITTLE configuration for optimal performance and efficiency; 2) Integrated Mali GPU delivering high-performance graphics for gaming and multimedia; 3) Dedicated NPU (Neural Processing Unit) for on-device AI acceleration; 4) Advanced ISP supporting multi-camera configurations and computational photography; 5) Integrated 5G modem with support for SA/NSA networks; 6) Advanced security features including hardware encryption and secure boot. These features make Kirin ideal for premium smartphones requiring top-tier performance and AI capabilities.",
           "decisionGuide": "Review the specifications table to compare Kirin models and identify the best fit for your mobile device requirements.",
           "keywords": [
             "Kirin features",
@@ -154,9 +162,9 @@
           "partNumber": "Kirin 9000",
           "model": "Kirin 9000",
           "name": "Kirin 9000 5G Mobile Processor",
-          "shortDescription": "Flagship 5nm mobile SoC with octa-core CPU, 24-core Mali-G78 GPU, dual-core NPU, and integrated 5G modem for premium ...",
+          "shortDescription": "Flagship 5nm mobile SoC with octa-core CPU, 24-core Mali-G78 GPU, dual-core NPU, and integrated 5G modem for premium...",
           "description": "The Kirin 9000 is HiSilicon's flagship 5G mobile processor built on advanced 5nm process technology. It features a powerful octa-core CPU configuration, Mali-G78 GPU with 24 cores, and a dual-core NPU delivering exceptional AI performance.",
-          "longDescription": "The Kirin 9000 represents the pinnacle of HiSilicon's mobile processor technology, delivering uncompromising performance for flagship smartphones. Built on cutting-edge 5nm process technology, this SoC achieves an optimal balance of performance and power efficiency.",
+          "longDescription": "The Kirin 9000 is the pinnacle of HiSilicon's mobile processor technology, delivering uncompromising performance for flagship smartphones. Built on cutting-edge 5nm process technology, this SoC achieves an optimal balance of performance and power efficiency.",
           "descriptionParagraphs": [
             "The Kirin 9000 features a tri-cluster CPU architecture with one Cortex-A77 core at 3.13GHz, three Cortex-A77 cores at 2.54GHz, and four Cortex-A55 efficiency cores at 2.05GHz.",
             "The integrated Mali-G78 GPU with 24 cores delivers desktop-class graphics performance, supporting high-refresh-rate displays and demanding mobile games.",
@@ -175,7 +183,15 @@
             "Camera Support": "Up to 200MP single or 50MP dual",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Big Cores": "N/A",
+            "Mid Cores": "N/A",
+            "Small Cores": "N/A",
+            "5G": "N/A",
+            "Download Speed": "N/A",
+            "Memory": "N/A",
+            "Video": "N/A",
+            "Big Core": "N/A"
           },
           "features": [
             "5nm process technology for best-in-class power efficiency",
@@ -366,7 +382,15 @@
             "Camera Support": "Up to 64MP single or 32MP dual",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Big Cores": "N/A",
+            "Mid Cores": "N/A",
+            "Small Cores": "N/A",
+            "5G": "N/A",
+            "Download Speed": "N/A",
+            "Memory": "N/A",
+            "Video": "N/A",
+            "Big Core": "N/A"
           },
           "features": [
             "7nm process for excellent power efficiency",
@@ -535,7 +559,17 @@
             "5G": "Integrated SA/NSA",
             "Download Speed": "Up to 2.3Gbps",
             "Memory": "LPDDR4X",
-            "Video": "4K@60fps recording"
+            "Video": "4K@60fps recording",
+            "5G Modem": "N/A",
+            "Memory Support": "N/A",
+            "Storage": "N/A",
+            "ISP": "N/A",
+            "Display Support": "N/A",
+            "Camera Support": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Big Core": "N/A"
           },
           "features": [
             "Integrated 5G modem",
@@ -554,7 +588,7 @@
           "faeReview": {
             "author": "Dr. Li Wei",
             "title": "Principal FAE - Mobile SoC",
-            "content": "The Kirin 990 5G represents the pinnacle of mobile processor design. The integrated 5G modem eliminates the need for external 5G chips, reducing power consumption and board complexity.",
+            "content": "The Kirin 990 5G is the pinnacle of mobile processor design. The integrated 5G modem eliminates the need for external 5G chips, reducing power consumption and board complexity.",
             "highlight": "Best-in-class integrated 5G solution"
           },
           "alternativeParts": [
@@ -613,7 +647,18 @@
             "NPU": "1+1 Da Vinci",
             "5G": "Integrated SA/NSA",
             "Download Speed": "Up to 2.3Gbps",
-            "Memory": "LPDDR4X"
+            "Memory": "LPDDR4X",
+            "5G Modem": "N/A",
+            "Memory Support": "N/A",
+            "Storage": "N/A",
+            "ISP": "N/A",
+            "Display Support": "N/A",
+            "Camera Support": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Big Cores": "N/A",
+            "Video": "N/A"
           },
           "features": [
             "Integrated 5G modem",
@@ -700,7 +745,9 @@
         "Form Factor",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "INT8 Performance",
+        "FP16 Performance"
       ],
       "applications": [
         "Computer Vision",
@@ -798,7 +845,9 @@
             "Form Factor": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "INT8 Performance": "N/A",
+            "FP16 Performance": "N/A"
           },
           "features": [
             "16 TOPS INT8 performance at 8W power",
@@ -953,7 +1002,7 @@
           "name": "Ascend 910 AI Training Processor",
           "shortDescription": "256 TFLOPS FP16 data center AI processor with 310W power for large-scale AI training and high-throughput inference",
           "description": "The Ascend 910 is a high-performance data center AI processor delivering 256 TFLOPS FP16 performance for training large-scale AI models. It features the Da Vinci architecture optimized for both training and inference.",
-          "longDescription": "The Ascend 910 represents HiSilicon's flagship AI training solution, delivering exceptional performance for data center AI workloads. With massive parallel processing capabilities, it accelerates training of large neural networks.",
+          "longDescription": "The Ascend 910 is HiSilicon's flagship AI training solution, delivering exceptional performance for data center AI workloads. With massive parallel processing capabilities, it accelerates training of large neural networks.",
           "descriptionParagraphs": [
             "The Ascend 910 features 32 Da Vinci AI cores delivering 256 TFLOPS FP16 or 512 TOPS INT8 performance for demanding AI workloads.",
             "With HBM2 memory providing 1.2 TB/s bandwidth, the Ascend 910 eliminates memory bottlenecks for large model training.",
@@ -975,7 +1024,9 @@
             "Security": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "INT8 Performance": "N/A",
+            "FP16 Performance": "N/A"
           },
           "features": [
             "256 TFLOPS FP16 training performance",
@@ -1140,7 +1191,16 @@
             "Memory": "LPDDR4X",
             "Video Decode": "16-channel 1080p",
             "Interfaces": "PCIe 3.0, USB 3.0",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "AI Performance": "N/A",
+            "Video Encode": "N/A",
+            "Security": "N/A",
+            "Interconnect": "N/A",
+            "Scaling": "N/A",
+            "Form Factor": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "16 TOPS INT8 performance",
@@ -1217,7 +1277,17 @@
             "Power": "8W typical",
             "Video Decode": "16-channel 1080p H.265",
             "Interfaces": "PCIe 3.0",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "AI Performance": "N/A",
+            "Memory": "N/A",
+            "Video Encode": "N/A",
+            "Security": "N/A",
+            "Interconnect": "N/A",
+            "Scaling": "N/A",
+            "Form Factor": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "22 TOPS INT8 performance",
@@ -1302,7 +1372,9 @@
         "Virtualization",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Architecture",
+        "Network"
       ],
       "applications": [
         "Cloud Computing",
@@ -1376,7 +1448,7 @@
           "name": "Kunpeng 920 64-Core Server Processor",
           "shortDescription": "64-core ARM server processor at 2.6GHz with 180W TDP, 8-channel DDR4-2933 support for high-performance data center ap...",
           "description": "The Kunpeng 920 is a high-performance 64-core ARM server processor designed for data center and cloud computing applications. With 8-channel DDR4 memory support and excellent power efficiency, it delivers exceptional performance for scale-out workloads.",
-          "longDescription": "The Kunpeng 920 represents HiSilicon's flagship server processor, bringing ARM architecture advantages to the data center. With 64 cores and high memory bandwidth, it excels at parallel workloads.",
+          "longDescription": "The Kunpeng 920 is HiSilicon's flagship server processor, bringing ARM architecture advantages to the data center. With 64 cores and high memory bandwidth, it excels at parallel workloads.",
           "descriptionParagraphs": [
             "The Kunpeng 920 features 64 ARMv8.2 cores running at 2.6GHz, delivering massive parallel processing capability for cloud and big data applications.",
             "With 8-channel DDR4-2933 memory support providing 192GB/s bandwidth, the Kunpeng 920 eliminates memory bottlenecks for data-intensive workloads.",
@@ -1395,7 +1467,9 @@
             "Virtualization": "Hardware virtualization support",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Architecture": "N/A",
+            "Network": "N/A"
           },
           "features": [
             "64 high-performance ARM cores",
@@ -1567,7 +1641,9 @@
             "Virtualization": "Hardware virtualization support",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Architecture": "N/A",
+            "Network": "N/A"
           },
           "features": [
             "48 high-performance ARM cores",
@@ -1723,7 +1799,13 @@
             "PCIe": "40 lanes PCIe 4.0",
             "Network": "100G RoCE",
             "Cache": "64MB L3",
-            "TDP": "180W"
+            "TDP": "180W",
+            "Sockets": "N/A",
+            "Security": "N/A",
+            "Virtualization": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A"
           },
           "features": [
             "Up to 64 ARM cores",
@@ -1800,7 +1882,14 @@
             "Memory": "8-channel DDR4",
             "PCIe": "40 lanes PCIe 3.0",
             "Cache": "32MB L3",
-            "TDP": "135W"
+            "TDP": "135W",
+            "Sockets": "N/A",
+            "Security": "N/A",
+            "Virtualization": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Network": "N/A"
           },
           "features": [
             "32 ARM cores",
@@ -1887,7 +1976,16 @@
         "Certification",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range"
+        "Temperature Range",
+        "Process",
+        "5G Download",
+        "4G Download",
+        "Modes",
+        "Bands",
+        "Upload",
+        "Latency",
+        "Download Speed",
+        "Upload Speed"
       ],
       "applications": [
         "Smartphones",
@@ -1961,9 +2059,9 @@
           "partNumber": "Balong 5000",
           "model": "Balong 5000",
           "name": "Balong 5000 5G Multi-Mode Modem",
-          "shortDescription": "Multi-mode 5G modem supporting SA/NSA dual-mode with up to 6.5 Gbps download, integrated in Kirin 9000 and available ...",
+          "shortDescription": "Multi-mode 5G modem supporting SA/NSA dual-mode with up to 6.5 Gbps download, integrated in Kirin 9000 and available...",
           "description": "The Balong 5000 is HiSilicon's flagship 5G multi-mode modem supporting both SA and NSA architectures. It delivers up to 6.5 Gbps download speeds with global band support.",
-          "longDescription": "The Balong 5000 represents HiSilicon's first-generation 5G modem, offering comprehensive 5G capabilities for premium mobile devices. With support for all major 5G bands and dual-mode operation, it enables worldwide 5G deployment.",
+          "longDescription": "The Balong 5000 is HiSilicon's first-generation 5G modem, offering comprehensive 5G capabilities for premium mobile devices. With support for all major 5G bands and dual-mode operation, it enables worldwide 5G deployment.",
           "descriptionParagraphs": [
             "The Balong 5000 supports sub-6GHz 5G NR with up to 6.5 Gbps download and 3.5 Gbps upload speeds.",
             "Dual-mode SA/NSA support ensures compatibility with both standalone and non-standalone 5G networks.",
@@ -1984,7 +2082,16 @@
             "Certification": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Process": "N/A",
+            "5G Download": "N/A",
+            "4G Download": "N/A",
+            "Modes": "N/A",
+            "Bands": "N/A",
+            "Upload": "N/A",
+            "Latency": "N/A",
+            "Download Speed": "N/A",
+            "Upload Speed": "N/A"
           },
           "features": [
             "6.5 Gbps peak download speed",
@@ -2154,7 +2261,16 @@
             "MIMO": "N/A",
             "Voltage Rating": "N/A",
             "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature Range": "N/A",
+            "Process": "N/A",
+            "5G Download": "N/A",
+            "4G Download": "N/A",
+            "Modes": "N/A",
+            "Bands": "N/A",
+            "Upload": "N/A",
+            "Latency": "N/A",
+            "Download Speed": "N/A",
+            "Upload Speed": "N/A"
           },
           "features": [
             "2.5 Gbps 5G speed for IoT",
@@ -2313,7 +2429,23 @@
             "Bands": "Sub-6GHz, mmWave",
             "Upload": "Up to 2.5Gbps",
             "Latency": "As low as 1ms",
-            "Power": "Ultra-low power design"
+            "Power": "Ultra-low power design",
+            "Technology": "N/A",
+            "5G Modes": "N/A",
+            "5G Bands": "N/A",
+            "Data Rate": "N/A",
+            "LTE": "N/A",
+            "Interface": "N/A",
+            "Carrier Agg": "N/A",
+            "MIMO": "N/A",
+            "Form Factor": "N/A",
+            "Temperature": "N/A",
+            "Certification": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Download Speed": "N/A",
+            "Upload Speed": "N/A"
           },
           "features": [
             "SA/NSA dual-mode 5G",
@@ -2390,7 +2522,23 @@
             "Latency": "<50ms typical",
             "Power": "Low power design",
             "Interface": "USB/PCIe",
-            "Temperature": "-40°C to +85°C"
+            "Temperature": "-40°C to +85°C",
+            "5G Modes": "N/A",
+            "5G Bands": "N/A",
+            "Data Rate": "N/A",
+            "LTE": "N/A",
+            "Carrier Agg": "N/A",
+            "MIMO": "N/A",
+            "Form Factor": "N/A",
+            "Certification": "N/A",
+            "Voltage Rating": "N/A",
+            "Current Rating": "N/A",
+            "Temperature Range": "N/A",
+            "Process": "N/A",
+            "5G Download": "N/A",
+            "4G Download": "N/A",
+            "Modes": "N/A",
+            "Upload": "N/A"
           },
           "features": [
             "150Mbps LTE Cat 4",

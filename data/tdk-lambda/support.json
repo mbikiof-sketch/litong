@@ -325,7 +325,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about tdk-lambda product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -337,7 +337,7 @@
         }
       ],
       "faeInsights": {
-        "insight": "Medical power design is fundamentally about patient safety, not just functionality. The most common mistake is trying to use industrial power supplies in medical applications to save cost - this almost always fails regulatory review and ends up costing more in redesign and delays. Key insight: start with certified medical power supplies from the beginning. The 2xMOPP isolation and low leakage current requirements drive transformer design, filtering, and layout decisions that cannot be easily retrofitted. Another critical point: risk management is now mandatory under IEC 60601-1 3rd edition. You must document how your power system design addresses safety hazards.",
+        "insight": "Medical power design is about patient safety, not just functionality. The most common mistake is trying to use industrial power supplies in medical applications to save cost - this almost always fails regulatory review and ends up costing more in redesign and delays. Key insight: start with certified medical power supplies from the beginning. The 2xMOPP isolation and low leakage current requirements drive transformer design, filtering, and layout decisions that cannot be easily retrofitted. Another critical point: risk management is now mandatory under IEC 60601-1 3rd edition. You must document how your power system design addresses safety hazards.",
         "logic": "Medical power design process: First, determine patient contact type (B, BF, CF) to establish isolation requirements. Second, calculate leakage current budget for entire system. Third, select certified medical power supplies with appropriate isolation. Fourth, design grounding and shielding for EMC and safety. Fifth, prepare risk management documentation. Sixth, plan regulatory testing including single fault conditions.",
         "keyTakeaways": [
           "Use certified medical power supplies - don't design your own",

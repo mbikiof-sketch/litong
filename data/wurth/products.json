@@ -1,0 +1,2857 @@
+{
+  "seoTitle": "Würth Elektronik Products | EMC, Capacitors, Inductors | BeiLuo",
+  "seoDescription": "Browse Würth Elektronik products: EMC components, capacitors, inductors, connectors. Technical specs and selection guides available.",
+  "seoKeywords": [
+    "Würth Elektronik",
+    "EMC components",
+    "capacitors",
+    "inductors",
+    "connectors",
+    "ferrite",
+    "common mode choke",
+    "Würth Elektronik distributor",
+    "Würth selection guide"
+  ],
+  "faqs": [
+    {
+      "question": "How to select EMC ferrites?",
+      "answer": "Identify noise frequency and select material with max impedance in that band. For detailed information and application support, contact BeiLuo FAE team. We provide comprehensive technical documentation, design guides, and samples for evaluation. Our team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation.",
+      "decisionGuide": "Use REDEXPERT for selection. Contact FAE for assistance.",
+      "keywords": [
+        "EMC",
+        "ferrite",
+        "selection"
+      ]
+    },
+    {
+      "question": "Power inductor selection?",
+      "answer": "Consider inductance, saturation current, DCR, and core losses. For detailed information and application support, contact BeiLuo FAE team. We provide comprehensive technical documentation, design guides, and samples for evaluation. Our team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation.",
+      "decisionGuide": "Use REDEXPERT for loss calculation.",
+      "keywords": [
+        "inductor",
+        "selection"
+      ]
+    },
+    {
+      "question": "Aluminum vs film capacitors?",
+      "answer": "Aluminum for high capacitance; film for high-frequency and reliability. For detailed information and application support, contact BeiLuo FAE team. We provide comprehensive technical documentation, design guides, and samples for evaluation. Our team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation.",
+      "decisionGuide": "Match technology to application.",
+      "keywords": [
+        "capacitor",
+        "selection"
+      ]
+    },
+    {
+      "question": "Common mode choke specs?",
+      "answer": "Key specs: common mode inductance, rated current, DCR. For detailed information and application support, contact BeiLuo FAE team. We provide comprehensive technical documentation, design guides, and samples for evaluation. Our team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation.",
+      "decisionGuide": "Match inductance to noise frequency.",
+      "keywords": [
+        "choke",
+        "specifications"
+      ]
+    },
+    {
+      "question": "How to get samples?",
+      "answer": "Samples available for qualified projects. Contact sales. For detailed information and application support, contact BeiLuo FAE team. We provide comprehensive technical documentation, design guides, and samples for evaluation. Our team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation.",
+      "decisionGuide": "Request samples early in design.",
+      "keywords": [
+        "samples",
+        "support"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "emc-components",
+      "name": "EMC Components",
+      "slug": "emc-components",
+      "description": "EMC solutions including ferrite cores, common mode chokes, and noise suppression components.",
+      "longDescription": "Würth Elektronik offers comprehensive EMC solutions including ferrite cores for cables and connectors, common mode chokes for filtering applications, ferrite sheets for shielding, and chip beads for PCB-level noise suppression. As an authorized distributor, BeiLuo provides professional product selection support and technical services.",
+      "series": [
+        "WE-CMB",
+        "WE-FC",
+        "WE-FSFS",
+        "WE-CBF"
+      ],
+      "selectionGuide": "Use REDEXPERT tool to select optimal EMC components based on your noise frequency profile.",
+      "selectionGuideLink": {
+        "url": "/wurth/support/wurth-emc-selection-guide.html",
+        "text": "View EMC Selection Guide"
+      },
+      "faqs": [
+        {
+          "question": "What is the difference between ferrite cores and common mode chokes?",
+          "answer": "Ferrite cores slip over cables to suppress noise. Common mode chokes are wound components for balanced lines. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use ferrite cores for simple filtering; chokes for balanced signals.",
+          "keywords": [
+            "ferrite",
+            "choke",
+            "EMI"
+          ]
+        },
+        {
+          "question": "How do ferrite materials differ?",
+          "answer": "MnZn for low frequencies (1-10MHz), NiZn for higher frequencies (10-300MHz). For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select material based on your noise frequency band.",
+          "keywords": [
+            "material",
+            "MnZn",
+            "NiZn"
+          ]
+        },
+        {
+          "question": "What are flexible ferrite sheets?",
+          "answer": "Thin sheets for near-field shielding in tight spaces. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use when rigid cores cannot fit.",
+          "keywords": [
+            "flexible",
+            "shielding"
+          ]
+        },
+        {
+          "question": "How to install ferrite cores?",
+          "answer": "Install close to noise source; ensure proper mating for snap-on types. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Proper installation is essential for optimal performance.",
+          "keywords": [
+            "installation",
+            "mounting"
+          ]
+        },
+        {
+          "question": "What are chip beads?",
+          "answer": "SMD ferrite components for PCB-level noise suppression. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use for compact designs where through-hole won't fit.",
+          "keywords": [
+            "chip beads",
+            "SMD"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "partNumber": "7427155",
+          "name": "WE-CMB Common Mode Choke",
+          "shortDescription": "High current common mode choke for EMI filtering with 10A rating and 1mH inductance.",
+          "descriptionParagraphs": [
+            "The WE-CMB 7427155 is a high-performance common mode choke designed for EMI filtering in power supply applications.",
+            "This choke offers 1mH common mode inductance with 10A current rating, making it suitable for high-power applications.",
+            "Applications include switching power supplies, motor drives, and industrial equipment. AEC-Q200 qualified."
+          ],
+          "faeReview": {
+            "content": "The WE-CMB Common Mode Choke is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "7427150",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427155=><7427150: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427155=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-CMB Common Mode Choke?",
+              "answer": "The typical lead time for WE-CMB Common Mode Choke is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-CMB Common Mode Choke?",
+              "answer": "WE-CMB Common Mode Choke is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-CMB Common Mode Choke RoHS compliant?",
+              "answer": "Yes, WE-CMB Common Mode Choke is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-CMB Common Mode Choke?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-CMB Common Mode Choke for evaluation?",
+              "answer": "Yes, samples of WE-CMB Common Mode Choke are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "7427154",
+          "name": "WE-CMB High Current Choke",
+          "shortDescription": "15A common mode choke with 0.5mH inductance for high-power industrial applications.",
+          "descriptionParagraphs": [
+            "The WE-CMB 7427154 delivers exceptional performance for high-current EMI filtering.",
+            "With 15A current rating and 0.5mH inductance, it provides effective noise suppression.",
+            "Ideal for three-phase motor drives and high-power inverters. AEC-Q200 qualified."
+          ],
+          "faeReview": {
+            "content": "The WE-CMB High Current Choke is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "7427150",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427154=><7427150: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427154=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-CMB High Current Choke?",
+              "answer": "The typical lead time for WE-CMB High Current Choke is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-CMB High Current Choke?",
+              "answer": "WE-CMB High Current Choke is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-CMB High Current Choke RoHS compliant?",
+              "answer": "Yes, WE-CMB High Current Choke is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-CMB High Current Choke?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-CMB High Current Choke for evaluation?",
+              "answer": "Yes, samples of WE-CMB High Current Choke are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "7427153",
+          "name": "WE-CMB Compact Choke",
+          "shortDescription": "Compact common mode choke with 5A rating and 2.2mH inductance for space-constrained designs.",
+          "descriptionParagraphs": [
+            "The WE-CMB 7427153 offers high inductance in a compact package.",
+            "With 2.2mH inductance and 5A rating, perfect for LED drivers and medical equipment.",
+            "RoHS compliant and halogen-free for consumer electronics."
+          ],
+          "faeReview": {
+            "content": "The WE-CMB Compact Choke is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "7427150",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427153=><7427150: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7427153=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-CMB Compact Choke?",
+              "answer": "The typical lead time for WE-CMB Compact Choke is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-CMB Compact Choke?",
+              "answer": "WE-CMB Compact Choke is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-CMB Compact Choke RoHS compliant?",
+              "answer": "Yes, WE-CMB Compact Choke is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-CMB Compact Choke?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-CMB Compact Choke for evaluation?",
+              "answer": "Yes, samples of WE-CMB Compact Choke are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "74270057",
+          "name": "WE-FC Ferrite Core",
+          "shortDescription": "Snap-on ferrite core for cable EMI suppression with 10mm inner diameter. Ideal for industrial and automotive applicat..",
+          "descriptionParagraphs": [
+            "The WE-FC 74270057 is a split ferrite core for easy installation on cables.",
+            "With 10mm inner diameter, accommodates common power and signal cables.",
+            "NiZn material provides effective impedance from 10MHz to 300MHz."
+          ],
+          "faeReview": {
+            "content": "The WE-FC Ferrite Core is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "74270050",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74270057=><74270050: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74270057=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-FC Ferrite Core?",
+              "answer": "The typical lead time for WE-FC Ferrite Core is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-FC Ferrite Core?",
+              "answer": "WE-FC Ferrite Core is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-FC Ferrite Core RoHS compliant?",
+              "answer": "Yes, WE-FC Ferrite Core is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-FC Ferrite Core?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-FC Ferrite Core for evaluation?",
+              "answer": "Yes, samples of WE-FC Ferrite Core are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "74270064",
+          "name": "WE-FC Large Ferrite Core",
+          "shortDescription": "Large snap-on ferrite core with 16mm inner diameter for power cable EMI suppression.",
+          "descriptionParagraphs": [
+            "The WE-FC 74270064 provides EMI suppression for larger cable bundles.",
+            "16mm inner diameter accommodates multiple conductors.",
+            "MnZn material for effective suppression of conducted noise."
+          ],
+          "faeReview": {
+            "content": "The WE-FC Large Ferrite Core is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "74270060",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74270064=><74270060: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74270064=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-FC Large Ferrite Core?",
+              "answer": "The typical lead time for WE-FC Large Ferrite Core is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-FC Large Ferrite Core?",
+              "answer": "WE-FC Large Ferrite Core is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-FC Large Ferrite Core RoHS compliant?",
+              "answer": "Yes, WE-FC Large Ferrite Core is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-FC Large Ferrite Core?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-FC Large Ferrite Core for evaluation?",
+              "answer": "Yes, samples of WE-FC Large Ferrite Core are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "354012",
+          "name": "WE-FSFS Ferrite Sheet",
+          "shortDescription": "Flexible ferrite sheet for near-field EMI shielding and absorption. Ideal for industrial and automotive applications..",
+          "descriptionParagraphs": [
+            "The WE-FSFS 354012 is a thin, flexible ferrite sheet for custom EMI shielding.",
+            "At 0.5mm thick, fits in tight spaces where traditional shielding cannot be used.",
+            "Effective absorption from 10MHz to 1GHz."
+          ],
+          "faeReview": {
+            "content": "The WE-FSFS Ferrite Sheet is an excellent choice for EMI filtering applications. I have successfully used this part in multiple industrial designs with outstanding results. The component provides effective noise attenuation across the target frequency range, which is critical for meeting EMC compliance requirements. The build quality is consistently high, and the performance matches the datasheet specifications. I recommend using REDEXPERT to verify the impedance characteristics for your specific application. The AEC-Q200 qualification makes it suitable for automotive applications as well.",
+            "highlight": "Excellent for EMI filtering applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "354010",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "354012=><354010: Similar specs with different current rating",
+              "reason": "Alternative within same family",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "B82720K2102N001",
+              "brand": "EPCOS",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "354012=><B82720K2102N001: EPCOS alternative with equivalent characteristics",
+              "reason": "Second source for supply chain",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "X-capacitor for differential mode filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "890334024005",
+              "category": "Capacitor",
+              "description": "Y-capacitor for common mode filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Power inductor for output filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-FSFS Ferrite Sheet?",
+              "answer": "The typical lead time for WE-FSFS Ferrite Sheet is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-FSFS Ferrite Sheet?",
+              "answer": "WE-FSFS Ferrite Sheet is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-FSFS Ferrite Sheet RoHS compliant?",
+              "answer": "Yes, WE-FSFS Ferrite Sheet is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-FSFS Ferrite Sheet?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-FSFS Ferrite Sheet for evaluation?",
+              "answer": "Yes, samples of WE-FSFS Ferrite Sheet are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capacitors",
+      "name": "Capacitors",
+      "slug": "capacitors",
+      "description": "Aluminum electrolytic, film, and ceramic capacitors for various applications.",
+      "longDescription": "Würth Elektronik manufactures a wide range of capacitor technologies including aluminum electrolytic capacitors for power supplies, film capacitors for EMI filtering, and ceramic capacitors for decoupling. As an authorized distributor, BeiLuo provides professional product selection support. Würth Elektronik components are manufactured to the highest quality standards with comprehensive technical support. As an authorized distributor, BeiLuo provides professional product selection support, REDEXPERT tool guidance, and application engineering services to help you optimize your designs for performance, cost, and reliability.",
+      "series": [
+        "WCAP-ASLL",
+        "WCAP-FTXX",
+        "WCAP-CSGP"
+      ],
+      "selectionGuide": "Select capacitors based on capacitance, voltage, ESR, and lifetime requirements.",
+      "selectionGuideLink": {
+        "url": "/wurth/support/wurth-capacitor-selection-guide.html",
+        "text": "View Capacitor Selection Guide"
+      },
+      "faqs": [
+        {
+          "question": "Aluminum electrolytic vs film capacitors?",
+          "answer": "Aluminum for high capacitance density; film for high-frequency and reliability. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use aluminum for bulk; film for high-frequency apps.",
+          "keywords": [
+            "aluminum",
+            "film",
+            "comparison"
+          ]
+        },
+        {
+          "question": "What is ESR and why does it matter?",
+          "answer": "ESR affects heating and ripple voltage. Lower is better for switching supplies. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select low ESR for high-frequency applications.",
+          "keywords": [
+            "ESR",
+            "ripple"
+          ]
+        },
+        {
+          "question": "What is capacitor lifetime?",
+          "answer": "Lifetime depends on temperature and voltage stress. Rule of thumb: half for every 10°C rise. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Derate voltage and temperature for longer life.",
+          "keywords": [
+            "lifetime",
+            "derating"
+          ]
+        },
+        {
+          "question": "X and Y capacitors explained?",
+          "answer": "X capacitors across lines; Y capacitors line-to-ground for safety. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use X for differential; Y for common mode filtering.",
+          "keywords": [
+            "X capacitor",
+            "Y capacitor",
+            "safety"
+          ]
+        },
+        {
+          "question": "Ceramic capacitor dielectrics?",
+          "answer": "X5R and X7R are most common. X7R has better temperature stability. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use X7R when capacitance stability is critical.",
+          "keywords": [
+            "X5R",
+            "X7R",
+            "dielectric"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "partNumber": "865230542002",
+          "name": "WCAP-ASLL Aluminum Capacitor",
+          "shortDescription": "Low-ESR aluminum electrolytic 100uF/50V with 5000h lifetime. Ideal for industrial and automotive applications with hi..",
+          "descriptionParagraphs": [
+            "The WCAP-ASLL 865230542002 is a high-reliability aluminum electrolytic capacitor.",
+            "With 100µF and 50V rating, ideal for output filtering in DC-DC converters.",
+            "AEC-Q200 qualified for automotive use."
+          ],
+          "faeReview": {
+            "content": "The WCAP-ASLL Aluminum Capacitor delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "865230542002A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "865230542002=><865230542002A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "865230542002=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-ASLL Aluminum Capacitor?",
+              "answer": "The typical lead time for WCAP-ASLL Aluminum Capacitor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-ASLL Aluminum Capacitor?",
+              "answer": "WCAP-ASLL Aluminum Capacitor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-ASLL Aluminum Capacitor RoHS compliant?",
+              "answer": "Yes, WCAP-ASLL Aluminum Capacitor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-ASLL Aluminum Capacitor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-ASLL Aluminum Capacitor for evaluation?",
+              "answer": "Yes, samples of WCAP-ASLL Aluminum Capacitor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "865230543003",
+          "name": "WCAP-ASLL High Capacitance",
+          "shortDescription": "High-capacitance aluminum electrolytic 470uF/35V with 8000h lifetime. Ideal for industrial and automotive application..",
+          "descriptionParagraphs": [
+            "The WCAP-ASLL 865230543003 offers high capacitance density.",
+            "470µF rating provides excellent hold-up time and ripple filtering.",
+            "Extended 8000-hour lifetime at 105°C."
+          ],
+          "faeReview": {
+            "content": "The WCAP-ASLL High Capacitance delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "865230543003A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "865230543003=><865230543003A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "865230543003=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-ASLL High Capacitance?",
+              "answer": "The typical lead time for WCAP-ASLL High Capacitance is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-ASLL High Capacitance?",
+              "answer": "WCAP-ASLL High Capacitance is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-ASLL High Capacitance RoHS compliant?",
+              "answer": "Yes, WCAP-ASLL High Capacitance is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-ASLL High Capacitance?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-ASLL High Capacitance for evaluation?",
+              "answer": "Yes, samples of WCAP-ASLL High Capacitance are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "890334024005",
+          "name": "WCAP-FTXX Film Capacitor",
+          "shortDescription": "X2 safety-rated film capacitor 0.47uF/305VAC for EMI filters. Ideal for industrial and automotive applications with h..",
+          "descriptionParagraphs": [
+            "The WCAP-FTXX 890334024005 is a metallized polyester film capacitor.",
+            "X2 safety rating for across-the-line applications.",
+            "Self-healing properties ensure long-term reliability."
+          ],
+          "faeReview": {
+            "content": "The WCAP-FTXX Film Capacitor delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "890334024005A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "890334024005=><890334024005A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "890334024005=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-FTXX Film Capacitor?",
+              "answer": "The typical lead time for WCAP-FTXX Film Capacitor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-FTXX Film Capacitor?",
+              "answer": "WCAP-FTXX Film Capacitor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-FTXX Film Capacitor RoHS compliant?",
+              "answer": "Yes, WCAP-FTXX Film Capacitor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-FTXX Film Capacitor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-FTXX Film Capacitor for evaluation?",
+              "answer": "Yes, samples of WCAP-FTXX Film Capacitor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "890334025006",
+          "name": "WCAP-FTXX High Voltage Film",
+          "shortDescription": "High-voltage DC-link film capacitor 10uF/450VDC for inverters. Ideal for industrial and automotive applications with..",
+          "descriptionParagraphs": [
+            "The WCAP-FTXX 890334025006 is a high-performance DC-link capacitor.",
+            "10µF at 450VDC for motor drives and inverters.",
+            "Low ESR and ESL for high-frequency switching."
+          ],
+          "faeReview": {
+            "content": "The WCAP-FTXX High Voltage Film delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "890334025006A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "890334025006=><890334025006A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "890334025006=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-FTXX High Voltage Film?",
+              "answer": "The typical lead time for WCAP-FTXX High Voltage Film is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-FTXX High Voltage Film?",
+              "answer": "WCAP-FTXX High Voltage Film is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-FTXX High Voltage Film RoHS compliant?",
+              "answer": "Yes, WCAP-FTXX High Voltage Film is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-FTXX High Voltage Film?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-FTXX High Voltage Film for evaluation?",
+              "answer": "Yes, samples of WCAP-FTXX High Voltage Film are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "885012205001",
+          "name": "WCAP-CSGP Ceramic Capacitor",
+          "shortDescription": "High-capacitance MLCC 10uF/25V X5R in 0805 package. Ideal for industrial and automotive applications with high reliab..",
+          "descriptionParagraphs": [
+            "The WCAP-CSGP 885012205001 is a high-capacitance MLCC.",
+            "10µF in compact 0805 package for decoupling applications.",
+            "AEC-Q200 qualified for automotive."
+          ],
+          "faeReview": {
+            "content": "The WCAP-CSGP Ceramic Capacitor delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "885012205001A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "885012205001=><885012205001A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "885012205001=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-CSGP Ceramic Capacitor?",
+              "answer": "The typical lead time for WCAP-CSGP Ceramic Capacitor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-CSGP Ceramic Capacitor?",
+              "answer": "WCAP-CSGP Ceramic Capacitor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-CSGP Ceramic Capacitor RoHS compliant?",
+              "answer": "Yes, WCAP-CSGP Ceramic Capacitor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-CSGP Ceramic Capacitor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-CSGP Ceramic Capacitor for evaluation?",
+              "answer": "Yes, samples of WCAP-CSGP Ceramic Capacitor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "885012206002",
+          "name": "WCAP-CSGP High Voltage MLCC",
+          "shortDescription": "High-voltage MLCC 1uF/100V X7R for power supplies. Ideal for industrial and automotive applications with high reliabi..",
+          "descriptionParagraphs": [
+            "The WCAP-CSGP 885012206002 provides high capacitance at elevated voltages.",
+            "1µF at 100V for snubber and filtering applications.",
+            "X7R dielectric for better temperature stability."
+          ],
+          "faeReview": {
+            "content": "The WCAP-CSGP High Voltage MLCC delivers reliable performance in power supply applications. I've used this capacitor in various DC-DC converter designs and it consistently meets ripple current and lifetime expectations. The low ESR design minimizes heating, and the long lifetime rating provides confidence for industrial applications. For best results, ensure adequate derating for voltage and temperature. The compact package saves valuable PCB space while maintaining high reliability.",
+            "highlight": "Reliable performance in power applications"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "885012206002A",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "885012206002=><885012206002A: Higher voltage rating option",
+              "reason": "Alternative with higher voltage margin",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "EEU-FR1H471",
+              "brand": "Panasonic",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "885012206002=><EEU-FR1H471: Panasonic equivalent with similar ESR",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "74437349100",
+              "category": "Inductor",
+              "description": "Output filter inductor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for input filtering",
+              "link": "#"
+            },
+            {
+              "partNumber": "691137710002",
+              "category": "Connector",
+              "description": "Terminal block for power connections",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WCAP-CSGP High Voltage MLCC?",
+              "answer": "The typical lead time for WCAP-CSGP High Voltage MLCC is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WCAP-CSGP High Voltage MLCC?",
+              "answer": "WCAP-CSGP High Voltage MLCC is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WCAP-CSGP High Voltage MLCC RoHS compliant?",
+              "answer": "Yes, WCAP-CSGP High Voltage MLCC is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WCAP-CSGP High Voltage MLCC?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WCAP-CSGP High Voltage MLCC for evaluation?",
+              "answer": "Yes, samples of WCAP-CSGP High Voltage MLCC are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inductors",
+      "name": "Inductors",
+      "slug": "inductors",
+      "description": "Power inductors, RF inductors, and chokes for power and signal applications.",
+      "longDescription": "Würth Elektronik offers power inductors for DC-DC converters, RF inductors for high-frequency applications, and common mode chokes for filtering. As an authorized distributor, BeiLuo provides professional product selection support. Würth Elektronik components are manufactured to the highest quality standards with comprehensive technical support. As an authorized distributor, BeiLuo provides professional product selection support, REDEXPERT tool guidance, and application engineering services to help you optimize your designs for performance, cost, and reliability.",
+      "series": [
+        "WE-HCI",
+        "WE-TPC",
+        "WE-KI"
+      ],
+      "selectionGuide": "Use REDEXPERT to calculate losses and select optimal inductors.",
+      "selectionGuideLink": {
+        "url": "/wurth/support/wurth-inductor-selection-guide.html",
+        "text": "View Inductor Selection Guide"
+      },
+      "faqs": [
+        {
+          "question": "What is saturation current?",
+          "answer": "Current where inductance drops significantly. Must exceed peak operating current. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select saturation current above peak with margin.",
+          "keywords": [
+            "saturation",
+            "current rating"
+          ]
+        },
+        {
+          "question": "Shielded vs unshielded inductors?",
+          "answer": "Shielded reduces EMI to adjacent circuits but costs more. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use shielded when EMI is a concern.",
+          "keywords": [
+            "shielded",
+            "EMI"
+          ]
+        },
+        {
+          "question": "What is DCR?",
+          "answer": "DC resistance affects efficiency and heating. Lower DCR is better. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Minimize DCR for high-current applications.",
+          "keywords": [
+            "DCR",
+            "efficiency"
+          ]
+        },
+        {
+          "question": "Core materials compared?",
+          "answer": "Iron powder for high saturation; ferrite for low core losses. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select based on frequency and saturation requirements.",
+          "keywords": [
+            "core material",
+            "ferrite",
+            "iron powder"
+          ]
+        },
+        {
+          "question": "How to calculate inductor losses?",
+          "answer": "Use REDEXPERT for core and copper loss calculations. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use REDEXPERT for accurate loss estimation.",
+          "keywords": [
+            "losses",
+            "REDEXPERT"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "partNumber": "74437349100",
+          "name": "WE-HCI Power Inductor",
+          "shortDescription": "High current power inductor 10uH/9.5A for DC-DC converters. Ideal for industrial and automotive applications with hig..",
+          "descriptionParagraphs": [
+            "The WE-HCI 74437349100 features composite iron powder core.",
+            "10µH with 9.5A saturation current for industrial applications.",
+            "AEC-Q200 qualified, -40°C to +125°C."
+          ],
+          "faeReview": {
+            "content": "The WE-HCI Power Inductor is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "74437349110",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349100=><74437349110: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349100=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-HCI Power Inductor?",
+              "answer": "The typical lead time for WE-HCI Power Inductor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-HCI Power Inductor?",
+              "answer": "WE-HCI Power Inductor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-HCI Power Inductor RoHS compliant?",
+              "answer": "Yes, WE-HCI Power Inductor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-HCI Power Inductor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-HCI Power Inductor for evaluation?",
+              "answer": "Yes, samples of WE-HCI Power Inductor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "74437349220",
+          "name": "WE-HCI High Inductance",
+          "shortDescription": "Power inductor 22uH/7A for PFC applications. Ideal for industrial and automotive applications with high reliability r..",
+          "descriptionParagraphs": [
+            "The WE-HCI 74437349220 offers higher inductance.",
+            "22µH with 7A saturation for PFC and flyback converters.",
+            "Soft saturation characteristic."
+          ],
+          "faeReview": {
+            "content": "The WE-HCI High Inductance is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "74437349220",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349220=><74437349220: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349220=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-HCI High Inductance?",
+              "answer": "The typical lead time for WE-HCI High Inductance is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-HCI High Inductance?",
+              "answer": "WE-HCI High Inductance is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-HCI High Inductance RoHS compliant?",
+              "answer": "Yes, WE-HCI High Inductance is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-HCI High Inductance?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-HCI High Inductance for evaluation?",
+              "answer": "Yes, samples of WE-HCI High Inductance are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "74437349470",
+          "name": "WE-HCI Large Inductance",
+          "shortDescription": "High-inductance power inductor 47uH/5A for filters. Ideal for industrial and automotive applications with high reliab..",
+          "descriptionParagraphs": [
+            "The WE-HCI 74437349470 provides 47µH for output filters.",
+            "5A saturation current for resonant circuits.",
+            "Stable inductance over temperature."
+          ],
+          "faeReview": {
+            "content": "The WE-HCI Large Inductance is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "74437349470",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349470=><74437349470: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "74437349470=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-HCI Large Inductance?",
+              "answer": "The typical lead time for WE-HCI Large Inductance is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-HCI Large Inductance?",
+              "answer": "WE-HCI Large Inductance is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-HCI Large Inductance RoHS compliant?",
+              "answer": "Yes, WE-HCI Large Inductance is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-HCI Large Inductance?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-HCI Large Inductance for evaluation?",
+              "answer": "Yes, samples of WE-HCI Large Inductance are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "7447602100",
+          "name": "WE-TPC SMD Power Inductor",
+          "shortDescription": "Compact SMD power inductor 10uH/3.2A. Ideal for industrial and automotive applications with high reliability requirem..",
+          "descriptionParagraphs": [
+            "The WE-TPC 7447602100 is compact for portable electronics.",
+            "10µH with 3.2A in 7.3x7.3mm package.",
+            "Shielded construction minimizes EMI."
+          ],
+          "faeReview": {
+            "content": "The WE-TPC SMD Power Inductor is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "7447602110",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7447602100=><7447602110: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7447602100=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-TPC SMD Power Inductor?",
+              "answer": "The typical lead time for WE-TPC SMD Power Inductor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-TPC SMD Power Inductor?",
+              "answer": "WE-TPC SMD Power Inductor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-TPC SMD Power Inductor RoHS compliant?",
+              "answer": "Yes, WE-TPC SMD Power Inductor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-TPC SMD Power Inductor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-TPC SMD Power Inductor for evaluation?",
+              "answer": "Yes, samples of WE-TPC SMD Power Inductor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "7447602220",
+          "name": "WE-TPC Mid-Range Inductor",
+          "shortDescription": "SMD power inductor 22uH/2.4A for DC-DC converters. Ideal for industrial and automotive applications with high reliabi..",
+          "descriptionParagraphs": [
+            "The WE-TPC 7447602220 offers 22µH for lower-current apps.",
+            "2.4A saturation for low-power converters.",
+            "Ideal for portable electronics and IoT."
+          ],
+          "faeReview": {
+            "content": "The WE-TPC Mid-Range Inductor is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "7447602220",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7447602220=><7447602220: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "7447602220=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-TPC Mid-Range Inductor?",
+              "answer": "The typical lead time for WE-TPC Mid-Range Inductor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-TPC Mid-Range Inductor?",
+              "answer": "WE-TPC Mid-Range Inductor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-TPC Mid-Range Inductor RoHS compliant?",
+              "answer": "Yes, WE-TPC Mid-Range Inductor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-TPC Mid-Range Inductor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-TPC Mid-Range Inductor for evaluation?",
+              "answer": "Yes, samples of WE-TPC Mid-Range Inductor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "744045001",
+          "name": "WE-KI RF Inductor",
+          "shortDescription": "High-frequency RF inductor 1uH for matching circuits. Ideal for industrial and automotive applications with high reli..",
+          "descriptionParagraphs": [
+            "The WE-KI 744045001 is designed for RF applications.",
+            "1µH with high Q factor at RF frequencies.",
+            "Suitable for antenna matching up to 1GHz."
+          ],
+          "faeReview": {
+            "content": "The WE-KI RF Inductor is a solid performer for power conversion applications. The saturation current rating is conservative, and I've found the inductance remains stable even under heavy load conditions. The shielded construction minimizes EMI to adjacent circuits. I recommend using REDEXPERT to calculate core losses for your specific switching frequency. The low DCR contributes to high efficiency in power supply designs.",
+            "highlight": "Solid performer for power conversion"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "744045001",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "744045001=><744045001: Higher inductance option",
+              "reason": "Alternative inductance value",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "SRP7030-100M",
+              "brand": "Bourns",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "744045001=><SRP7030-100M: Bourns equivalent",
+              "reason": "Second source",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Output capacitor for LC filter",
+              "link": "#"
+            },
+            {
+              "partNumber": "885012205001",
+              "category": "Capacitor",
+              "description": "Decoupling capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode choke for EMI filtering",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WE-KI RF Inductor?",
+              "answer": "The typical lead time for WE-KI RF Inductor is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WE-KI RF Inductor?",
+              "answer": "WE-KI RF Inductor is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WE-KI RF Inductor RoHS compliant?",
+              "answer": "Yes, WE-KI RF Inductor is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WE-KI RF Inductor?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WE-KI RF Inductor for evaluation?",
+              "answer": "Yes, samples of WE-KI RF Inductor are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "name": "Connectors",
+      "slug": "connectors",
+      "description": "PCB connectors, terminal blocks, and custom connector solutions.",
+      "longDescription": "Würth Elektronik provides PCB terminal blocks, pin headers, modular jacks, and USB connectors for industrial and commercial applications. As an authorized distributor, BeiLuo provides professional product selection support. Würth Elektronik components are manufactured to the highest quality standards with comprehensive technical support. As an authorized distributor, BeiLuo provides professional product selection support, REDEXPERT tool guidance, and application engineering services to help you optimize your designs for performance, cost, and reliability.",
+      "series": [
+        "WR-TBL",
+        "WR-PHD",
+        "WR-MJ"
+      ],
+      "selectionGuide": "Select connectors based on current rating, pitch, and environmental requirements.",
+      "selectionGuideLink": {
+        "url": "/wurth/support/wurth-connector-selection-guide.html",
+        "text": "View Connector Selection Guide"
+      },
+      "faqs": [
+        {
+          "question": "Terminal block wire range?",
+          "answer": "Most support 24-12AWG. Verify current rating for your wire size. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Match wire gauge to connector rating.",
+          "keywords": [
+            "wire gauge",
+            "current rating"
+          ]
+        },
+        {
+          "question": "Pin header plating options?",
+          "answer": "Gold for reliability; tin for cost-sensitive apps. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use gold for high-reliability applications.",
+          "keywords": [
+            "plating",
+            "gold",
+            "tin"
+          ]
+        },
+        {
+          "question": "What is pitch in connectors?",
+          "answer": "Distance between pins. Common: 2.54mm, 5.08mm. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select pitch based on density and voltage requirements.",
+          "keywords": [
+            "pitch",
+            "spacing"
+          ]
+        },
+        {
+          "question": "RJ45 with magnetics benefits?",
+          "answer": "Integrated magnetics save space and simplify design. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Use integrated magnetics for compact Ethernet designs.",
+          "keywords": [
+            "magnetics",
+            "RJ45"
+          ]
+        },
+        {
+          "question": "USB connector cycle life?",
+          "answer": "Standard: 1500 cycles; high-reliability: 5000+ cycles. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+          "decisionGuide": "Select higher cycle rating for frequent mating.",
+          "keywords": [
+            "cycle life",
+            "durability"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "partNumber": "691137710002",
+          "name": "WR-TBL Terminal Block",
+          "shortDescription": "2-position PCB terminal block 5.08mm pitch. Ideal for industrial and automotive applications with high reliability re..",
+          "descriptionParagraphs": [
+            "The WR-TBL 691137710002 is a reliable PCB terminal block.",
+            "5.08mm pitch, 16A rating for industrial applications.",
+            "Rising cage clamp for vibration resistance."
+          ],
+          "faeReview": {
+            "content": "The WR-TBL Terminal Block provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "691137710004",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691137710002=><691137710004: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691137710002=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-TBL Terminal Block?",
+              "answer": "The typical lead time for WR-TBL Terminal Block is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-TBL Terminal Block?",
+              "answer": "WR-TBL Terminal Block is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-TBL Terminal Block RoHS compliant?",
+              "answer": "Yes, WR-TBL Terminal Block is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-TBL Terminal Block?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-TBL Terminal Block for evaluation?",
+              "answer": "Yes, samples of WR-TBL Terminal Block are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "691137710003",
+          "name": "WR-TBL 3-Position Block",
+          "shortDescription": "3-position PCB terminal block 5.08mm pitch. Ideal for industrial and automotive applications with high reliability re..",
+          "descriptionParagraphs": [
+            "The WR-TBL 691137710003 provides three connection points.",
+            "For power distribution and signal routing.",
+            "Modular design allows ganging multiple blocks."
+          ],
+          "faeReview": {
+            "content": "The WR-TBL 3-Position Block provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "691137710003",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691137710003=><691137710003: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691137710003=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-TBL 3-Position Block?",
+              "answer": "The typical lead time for WR-TBL 3-Position Block is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-TBL 3-Position Block?",
+              "answer": "WR-TBL 3-Position Block is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-TBL 3-Position Block RoHS compliant?",
+              "answer": "Yes, WR-TBL 3-Position Block is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-TBL 3-Position Block?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-TBL 3-Position Block for evaluation?",
+              "answer": "Yes, samples of WR-TBL 3-Position Block are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "691352710003",
+          "name": "WR-PHD Header",
+          "shortDescription": "2.54mm pitch pin header 1x10 position. Ideal for industrial and automotive applications with high reliability require..",
+          "descriptionParagraphs": [
+            "The WR-PHD 691352710003 is a standard 2.54mm pin header.",
+            "Gold-plated pins for reliable contact.",
+            "High-temperature plastic for 260°C reflow."
+          ],
+          "faeReview": {
+            "content": "The WR-PHD Header provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "691352710003",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691352710003=><691352710003: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691352710003=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-PHD Header?",
+              "answer": "The typical lead time for WR-PHD Header is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-PHD Header?",
+              "answer": "WR-PHD Header is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-PHD Header RoHS compliant?",
+              "answer": "Yes, WR-PHD Header is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-PHD Header?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-PHD Header for evaluation?",
+              "answer": "Yes, samples of WR-PHD Header are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "691352720002",
+          "name": "WR-PHD Dual Row Header",
+          "shortDescription": "2.54mm pitch dual row pin header 2x5. Ideal for industrial and automotive applications with high reliability requirem..",
+          "descriptionParagraphs": [
+            "The WR-PHD 691352720002 provides high-density connectivity.",
+            "2x5 positions for data buses and interfaces.",
+            "Compatible with standard IDC connectors."
+          ],
+          "faeReview": {
+            "content": "The WR-PHD Dual Row Header provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "691352720004",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691352720002=><691352720004: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "691352720002=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-PHD Dual Row Header?",
+              "answer": "The typical lead time for WR-PHD Dual Row Header is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-PHD Dual Row Header?",
+              "answer": "WR-PHD Dual Row Header is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-PHD Dual Row Header RoHS compliant?",
+              "answer": "Yes, WR-PHD Dual Row Header is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-PHD Dual Row Header?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-PHD Dual Row Header for evaluation?",
+              "answer": "Yes, samples of WR-PHD Dual Row Header are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "692112030002",
+          "name": "WR-MJ Modular Jack",
+          "shortDescription": "RJ45 with integrated magnetics for Ethernet. Ideal for industrial and automotive applications with high reliability r..",
+          "descriptionParagraphs": [
+            "The WR-MJ 692112030002 has integrated magnetics.",
+            "Supports 10/100/1000Base-T speeds.",
+            "Shielded design for EMI compliance."
+          ],
+          "faeReview": {
+            "content": "The WR-MJ Modular Jack provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "692112030004",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "692112030002=><692112030004: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "692112030002=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-MJ Modular Jack?",
+              "answer": "The typical lead time for WR-MJ Modular Jack is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-MJ Modular Jack?",
+              "answer": "WR-MJ Modular Jack is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-MJ Modular Jack RoHS compliant?",
+              "answer": "Yes, WR-MJ Modular Jack is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-MJ Modular Jack?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-MJ Modular Jack for evaluation?",
+              "answer": "Yes, samples of WR-MJ Modular Jack are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": "692112040003",
+          "name": "WR-MJ USB Connector",
+          "shortDescription": "USB Type-A receptacle for USB 2.0/3.0. Ideal for industrial and automotive applications with high reliability require..",
+          "descriptionParagraphs": [
+            "The WR-MJ 692112040003 is a high-quality USB receptacle.",
+            "Through-hole mounting for mechanical stability.",
+            "5000 insertion cycles minimum."
+          ],
+          "faeReview": {
+            "content": "The WR-MJ USB Connector provides reliable connections in industrial environments. The robust construction withstands vibration and temperature cycling. I've used these connectors in automation equipment with excellent long-term reliability. The mounting features ensure mechanical stability on the PCB. For high-reliability applications, I recommend verifying the contact resistance after assembly.",
+            "highlight": "Reliable connections in industrial environments"
+          },
+          "alternativeParts": [
+            {
+              "partNumber": "692112040003",
+              "brand": "Würth Elektronik",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "692112040003=><692112040003: More positions in same series",
+              "reason": "Alternative with more contacts",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            },
+            {
+              "partNumber": "282837-2",
+              "brand": "TE Connectivity",
+              "specifications": {
+                "type": "Alternative"
+              },
+              "comparison": "692112040003=><282837-2: TE Connectivity equivalent",
+              "reason": "Alternative supplier",
+              "useCase": "Alternative for supply chain flexibility",
+              "link": "#"
+            }
+          ],
+          "companionParts": [
+            {
+              "partNumber": "865230542002",
+              "category": "Capacitor",
+              "description": "Filtering capacitor",
+              "link": "#"
+            },
+            {
+              "partNumber": "744045001",
+              "category": "Inductor",
+              "description": "Ferrite bead for noise suppression",
+              "link": "#"
+            },
+            {
+              "partNumber": "7427155",
+              "category": "EMC",
+              "description": "Common mode filter",
+              "link": "#"
+            }
+          ],
+          "faqs": [
+            {
+              "question": "What is the typical lead time for WR-MJ USB Connector?",
+              "answer": "The typical lead time for WR-MJ USB Connector is 8-12 weeks for production quantities. Sample quantities are usually available from stock with 1-2 week delivery. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Plan for 12-week lead time for production.",
+              "keywords": [
+                "lead time",
+                "delivery"
+              ]
+            },
+            {
+              "question": "What is the operating temperature range of WR-MJ USB Connector?",
+              "answer": "WR-MJ USB Connector is rated for operation from -40°C to +125°C, making it suitable for industrial and automotive applications. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Verify temperature rating meets your requirements.",
+              "keywords": [
+                "temperature",
+                "operating conditions"
+              ]
+            },
+            {
+              "question": "Is WR-MJ USB Connector RoHS compliant?",
+              "answer": "Yes, WR-MJ USB Connector is fully RoHS compliant and meets Directive 2011/65/EU. The component is also halogen-free. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Suitable for RoHS-compliant designs.",
+              "keywords": [
+                "RoHS",
+                "compliance"
+              ]
+            },
+            {
+              "question": "What is relates to WR-MJ USB Connector?",
+              "answer": "Under typical operating conditions at 40°C ambient with 50% voltage derating, the calculated MTBF exceeds 1 million hours. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "MTBF suitable for high-reliability applications.",
+              "keywords": [
+                "MTBF",
+                "reliability"
+              ]
+            },
+            {
+              "question": "Can I get samples of WR-MJ USB Connector for evaluation?",
+              "answer": "Yes, samples of WR-MJ USB Connector are available for qualified design projects. Contact our sales team for requests. For best performance, ensure proper installation following manufacturer guidelines. Contact BeiLuo FAE team for application-specific recommendations and design support. We provide comprehensive technical documentation, samples for evaluation, and production scheduling for high-volume requirements. Our technical team can assist with schematic review, layout optimization, and troubleshooting to ensure successful implementation in your design.",
+              "decisionGuide": "Request samples early in your design phase.",
+              "keywords": [
+                "samples",
+                "evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

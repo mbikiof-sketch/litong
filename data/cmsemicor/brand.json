@@ -1,0 +1,160 @@
+{
+  "name": "cmsemicor",
+  "displayName": "Cmsemicon (中微半导体)",
+  "logo": "/assets/brands/cmsemicor/logo.svg",
+  "tagline": "Leading MCU and Analog IC Manufacturer - 32-bit and 8-bit Microcontrollers",
+  "description": "Cmsemicon is a leading Chinese semiconductor company specializing in MCU (microcontroller), analog IC, and power management chips. The company provides comprehensive solutions for consumer electronics, industrial control, automotive, and IoT applications.",
+  "longDescription": "Cmsemicon (China Micro Semicon Co., Ltd., stock code: 688380. SH) is a leading Chinese semiconductor design company headquartered in Shenzhen. Founded in 2001, Cmsemicon has established itself as a key player in the MCU and analog IC market, with products widely used in consumer electronics, home appliances, industrial control, automotive electronics, and IoT applications. The company's product portfolio includes 32-bit ARM Cortex-M0+ MCUs, 8-bit Flash MCUs, touch sensing ICs, analog ICs, and power management chips. Cmsemicon is known for its high cost-performance ratio, excellent technical support, and fast delivery. As an authorized distributor, BeiLuo Electronics provides comprehensive technical support, product selection guidance, and after-sales service for Cmsemicon products.",
+  "coreProducts": [
+    "CMS32L032",
+    "CMS32F759",
+    "SC8F6796A",
+    "SC8F096",
+    "CMS8H1215"
+  ],
+  "industries": [
+    {
+      "name": "Consumer Electronics",
+      "description": "Home appliances, smart home devices, personal electronics",
+      "keywords": [
+        "home appliance",
+        "smart home",
+        "consumer"
+      ]
+    },
+    {
+      "name": "Industrial Control",
+      "description": "Motor control, power management, industrial automation",
+      "keywords": [
+        "motor control",
+        "industrial",
+        "automation"
+      ]
+    },
+    {
+      "name": "Automotive Electronics",
+      "description": "Automotive control systems, sensors, lighting",
+      "keywords": [
+        "automotive",
+        "AEC-Q100",
+        "vehicle"
+      ]
+    },
+    {
+      "name": "IoT Applications",
+      "description": "Smart connected devices, wireless applications",
+      "keywords": [
+        "IoT",
+        "smart device",
+        "wireless"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ISO 9001",
+      "description": "Quality Management System Certification"
+    },
+    {
+      "name": "AEC-Q100",
+      "description": "Automotive Electronics Council Qualification"
+    }
+  ],
+  "yearFounded": 2001,
+  "headquarters": "Shenzhen, China",
+  "employees": "Over 1,000",
+  "website": "https://www.mcu.com.cn",
+  "distributorStatus": "Authorized Distributor",
+  "seoTitle": "Cmsemicon 中微半导体 | 32-bit ARM & 8-bit MCU Distributor | BeiLuo",
+  "seoDescription": "Authorized distributor of Cmsemicon 中微半导体 32-bit ARM Cortex-M0+ MCUs (CMS32L032, CMS32F759), 8-bit Flash MCUs (SC8F6796A), AEC-Q100 automotive MCUs (BAT32A2). FAE support available.",
+  "seoKeywords": [
+    "Cmsemicon distributor",
+    "Cmsemicon 中微半导体",
+    "Cmsemicon MCU",
+    "CMS32L032",
+    "CMS32F759",
+    "SC8F6796A",
+    "SC8F096",
+    "32-bit ARM Cortex-M0+ MCU",
+    "8-bit Flash MCU",
+    "BAT32A2 automotive MCU",
+    "AEC-Q100 qualified MCU",
+    "Touch MCU",
+    "capacitive touch microcontroller",
+    "motor control MCU",
+    "Cmsemicon authorized distributor"
+  ],
+  "faqs": [
+    {
+      "question": "Is BeiLuo an authorized distributor of Cmsemicon products?",
+      "answer": "Yes, BeiLuo Electronics is an authorized distributor of Cmsemicon semiconductor products. As an authorized distributor, we provide genuine Cmsemicon ICs with full factory warranty, technical support, and after-sales service. Our FAE team has received direct training from Cmsemicon engineers and can provide expert guidance on product selection, application development, and production optimization.",
+      "decisionGuide": "Contact BeiLuo Electronics for Cmsemicon product inquiries. We provide authorized sales and technical support for all Cmsemicon product lines.",
+      "keywords": [
+        "Cmsemicon authorized distributor",
+        "BeiLuo Cmsemicon partnership",
+        "genuine Cmsemicon"
+      ]
+    },
+    {
+      "question": "What are Cmsemicon's core product categories?",
+      "answer": "Cmsemicon's core product categories include: 1) 32-bit ARM Cortex-M0+ MCUs - High-performance microcontrollers with rich peripherals for complex applications. 2) 8-bit Flash MCUs - Cost-effective solutions for general-purpose applications with touch sensing, ADC, and communication interfaces. 3) Touch Sensing ICs - Dedicated chips for capacitive touch applications with high sensitivity. 4) Analog ICs - Including high-precision ADCs, operational amplifiers, and power management chips. 5) Automotive MCUs - AEC-Q100 qualified products for automotive applications.",
+      "decisionGuide": "Cmsemicon offers comprehensive MCU and analog solutions. Contact us for detailed product recommendations based on your application requirements.",
+      "keywords": [
+        "Cmsemicon product categories",
+        "MCU portfolio",
+        "analog IC"
+      ]
+    },
+    {
+      "question": "How do I select the right Cmsemicon MCU for my application?",
+      "answer": "Selecting the right Cmsemicon MCU depends on several factors: 1) Processing requirements - Choose 32-bit ARM Cortex-M0+ (CMS32 series) for complex applications requiring high performance, or 8-bit (SC8F series) for simpler, cost-sensitive applications. 2) Memory requirements - Flash size ranges from 8KB to 256KB depending on application code size. 3) Peripheral requirements - Consider needed interfaces (UART, SPI, I2C), ADC resolution, PWM channels, and touch sensing capabilities. 4) Package preferences - Various packages available from QFN20 to LQFP64. 5) Operating conditions - Industrial grade (-40°C to 85°C) or extended temperature range options. Our FAE team can help evaluate these factors and recommend the optimal Cmsemicon MCU for your specific needs.",
+      "decisionGuide": "Work with BeiLuo FAE team to evaluate application requirements and select optimal Cmsemicon MCU.",
+      "keywords": [
+        "MCU selection",
+        "Cmsemicon MCU guide",
+        "product selection"
+      ]
+    },
+    {
+      "question": "What development tools are available for Cmsemicon MCUs?",
+      "answer": "Cmsemicon provides comprehensive development tools: 1) IDE - Keil MDK and IAR Embedded Workbench support for ARM Cortex-M0+ MCUs. For 8-bit MCUs, Cmsemicon provides dedicated IDE. 2) Programmers - USB programmers and in-circuit debuggers for code download and debugging. 3) Evaluation boards - Development kits with comprehensive peripheral demonstrations. 4) Software libraries - HAL libraries, example codes, and application notes. 5) Technical documentation - Detailed datasheets, user manuals, and reference designs. BeiLuo Electronics can provide development tools and technical support to accelerate your product development.",
+      "decisionGuide": "Contact BeiLuo for development tools and starter kits to begin your Cmsemicon MCU development.",
+      "keywords": [
+        "development tools",
+        "IDE",
+        "programmer",
+        "evaluation kit"
+      ]
+    },
+    {
+      "question": "Does Cmsemicon provide automotive-grade products?",
+      "answer": "Yes, Cmsemicon provides AEC-Q100 qualified automotive-grade MCUs. The BAT32A2 series has passed AEC-Q100 Grade 1 certification, making them suitable for automotive applications including body control modules, lighting control, and sensor interfaces. These automotive MCUs feature enhanced reliability, wider temperature ranges (-40°C to 125°C), and robust EMC performance required for automotive environments.",
+      "decisionGuide": "For automotive applications, select Cmsemicon AEC-Q100 qualified products. Contact us for automotive product recommendations.",
+      "keywords": [
+        "automotive MCU",
+        "AEC-Q100",
+        "BAT32A2"
+      ]
+    },
+    {
+      "question": "What is the warranty period for Cmsemicon MCUs?",
+      "answer": "Cmsemicon provides standard warranty coverage for all MCU products. As an authorized distributor, we ensure all products are genuine and meet quality standards. Please contact our sales team for specific warranty terms and conditions.",
+      "decisionGuide": "Verify warranty terms before placing orders.",
+      "keywords": [
+        "warranty",
+        "quality",
+        "genuine"
+      ]
+    },
+    {
+      "question": "Can I get samples of Cmsemicon MCUs for evaluation?",
+      "answer": "Yes, sample requests are supported for qualified customers. Contact our sales team with your project details and we will arrange sample delivery. Evaluation boards are also available for most MCU series to accelerate your development.",
+      "decisionGuide": "Request samples early in the design phase.",
+      "keywords": [
+        "samples",
+        "evaluation",
+        "development"
+      ]
+    }
+  ]
+}

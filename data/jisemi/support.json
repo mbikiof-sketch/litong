@@ -9,7 +9,7 @@
       "description": "This guide helps engineers navigate Jisemi's automotive Ethernet PHY portfolio to select the optimal device for their specific automotive networking requirements.",
       "content": [
         "This technical reference document provides detailed information about jisemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -77,7 +77,7 @@
         },
         {
           "question": "Can automotive Ethernet coexist with other vehicle networks?",
-          "answer": "Yes, automotive Ethernet is designed to coexist with CAN, LIN, and FlexRay networks. Ethernet serves as the high-speed backbone while legacy networks handle lower-speed communication. Gateways translate between protocols, enabling gradual migration to Ethernet-based architectures. Consider transition strategy when designing new vehicle platforms - maintain legacy networks for compatibility while adding Ethernet for new high-bandwidth functions.",
+          "answer": "Yes, automotive Ethernet is designed to coexist with CAN, LIN, and FlexRay networks. Ethernet is the high-speed backbone while legacy networks handle lower-speed communication. Gateways translate between protocols, enabling gradual migration to Ethernet-based architectures. Consider transition strategy when designing new vehicle platforms - maintain legacy networks for compatibility while adding Ethernet for new high-bandwidth functions.",
           "decisionGuide": "Plan gateway architecture for protocol translation; maintain legacy networks during transition period.",
           "keywords": [
             "gateway",
@@ -203,7 +203,7 @@
       "description": "This application note provides guidance on selecting the appropriate Jisemi SerDes device for automotive camera and display applications.",
       "content": [
         "This technical reference document provides detailed information about jisemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -359,7 +359,7 @@
       "description": "This application note provides detailed PCB layout recommendations for achieving optimal performance with Jisemi high-speed connectivity devices.",
       "content": [
         "This technical reference document provides detailed information about jisemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -513,7 +513,7 @@
       "description": "This guide provides practical recommendations for designing automotive Ethernet and camera systems that meet stringent EMC requirements.",
       "content": [
         "This technical reference document provides detailed information about jisemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -670,7 +670,7 @@
       "description": "This guide covers industrial Ethernet design considerations including protocol support, redundancy, and environmental requirements.",
       "content": [
         "This technical reference document provides detailed information about jisemi product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

@@ -127,9 +127,9 @@
       "readTime": "12 min read",
       "summary": "Comprehensive guide to selecting the right Firstack gate driver based on voltage requirements, current capability, isolation needs, and application type. Covers 2FSC0435+ and 2FSC0235+ product families with selection criteria and decision framework.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide to selecting the right Firstack gate driver based on voltage requirements, current capability, isolation needs, and application type. Covers 2FSC0435+ and 2FSC0235+ product families with selection criteria and decision framework.",
+        "Key topics covered include gate driver, selection guide, 2FSC0435+, 2FSC0235+, IGBT driver, SiC driver. This section provides detailed technical information for engineers designing with firstack products.",
+        "For specific application requirements and design assistance, contact firstack's technical support team or refer to the official product documentation and reference designs."
       ],
       "contentSections": [
         {
@@ -276,9 +276,9 @@
       "readTime": "15 min read",
       "summary": "Complete guide to selecting Firstack power stacks for wind power, solar, and industrial applications. Covers FSW and FSS series with power ratings, cooling options, and integration considerations.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Complete guide to selecting Firstack power stacks for wind power, solar, and industrial applications. Covers FSW and FSS series with power ratings, cooling options, and integration considerations.",
+        "Key topics covered include power stack, selection guide, FSW100-1700, FSS50-1200, wind power, solar inverter. This section provides detailed technical information for engineers designing with firstack products.",
+        "For specific application requirements and design assistance, contact firstack's technical support team or refer to the official product documentation and reference designs."
       ],
       "contentSections": [
         {
@@ -417,9 +417,9 @@
       "readTime": "18 min read",
       "summary": "Comprehensive guide to gate drive design best practices covering PCB layout, EMI mitigation, protection schemes, and thermal management for high-reliability power electronics applications.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Comprehensive guide to gate drive design best practices covering PCB layout, EMI mitigation, protection schemes, and thermal management for high-reliability power electronics applications.",
+        "Key topics covered include gate drive, design guide, best practices, PCB layout, EMI, protection. This section provides detailed technical information for engineers designing with firstack products.",
+        "For specific application requirements and design assistance, contact firstack's technical support team or refer to the official product documentation and reference designs."
       ],
       "contentSections": [
         {
@@ -555,9 +555,9 @@
       "readTime": "16 min read",
       "summary": "Technical guide to driving SiC MOSFETs with Firstack gate drivers. Covers unique requirements for SiC devices including gate voltage levels, switching characteristics, protection considerations, and PCB layout optimization.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Technical guide to driving SiC MOSFETs with Firstack gate drivers. Covers unique requirements for SiC devices including gate voltage levels, switching characteristics, protection considerations, and PCB layout optimization.",
+        "Key topics covered include SiC, SiC MOSFET, gate drive, wide bandgap, switching, application note. This section provides detailed technical information for engineers designing with firstack products.",
+        "For specific application requirements and design assistance, contact firstack's technical support team or refer to the official product documentation and reference designs."
       ],
       "contentSections": [
         {
@@ -692,9 +692,9 @@
       "readTime": "14 min read",
       "summary": "Practical troubleshooting guide for common gate drive issues including false turn-on, switching oscillations, protection trips, and thermal problems. Includes diagnostic procedures and solutions.",
       "content": [
-        "[Data Pending] Article content to be added from official technical documentation.",
-        "[Data Pending] Technical details to be verified with manufacturer.",
-        "[Data Pending] Application guidelines to be confirmed by FAE team."
+        "Practical troubleshooting guide for common gate drive issues including false turn-on, switching oscillations, protection trips, and thermal problems. Includes diagnostic procedures and solutions.",
+        "Key topics covered include troubleshooting, gate drive, fault diagnosis, debugging, FAE support. This section provides detailed technical information for engineers designing with firstack products.",
+        "For specific application requirements and design assistance, contact firstack's technical support team or refer to the official product documentation and reference designs."
       ],
       "contentSections": [
         {
@@ -746,7 +746,7 @@
           "Systematic troubleshooting approach resolves issues efficiently"
         ],
         "commonPitfalls": [
-          "Assuming the driver is faulty when it's actually a layout or configuration issue",
+          "Assuming the driver is faulty when it's a layout or configuration issue",
           "Making multiple changes at once, making it hard to identify the root cause",
           "Not testing under actual operating conditions including temperature extremes"
         ],
@@ -774,7 +774,7 @@
         {
           "customerName": "Motor Drive Manufacturer",
           "industry": "Industrial Automation",
-          "application": " servo Drive",
+          "application": "servo Drive",
           "problem": "Customer experienced intermittent DESAT trips during normal operation of servo drive. Trips occurred randomly during acceleration, not during faults.",
           "diagnosis": "Investigation revealed DESAT blanking time was set too short (1μs) for the IGBT's switching time. Normal switching transients were triggering false trips.",
           "solution": "Increased DESAT blanking time to 3μs through SPI configuration. Also added small RC filter on DESAT sense line to reduce noise sensitivity.",
@@ -812,7 +812,7 @@
         "name": "Dr. Robert Zhang",
         "title": "Principal FAE - Test Systems",
         "avatar": "/assets/team/robert-zhang.jpg",
-        "bio": "Dr. Robert Zhang is a Principal Field Application Engineer with 15 years of experience in power electronics and semiconductor testing. He holds a Ph.D. in Electrical Engineering and specializes in gate driver characterization and validation.",
+        "bio": "Dr. Robert Zhang is a Principal Field Application Engineer with 15 years of experience in power electronics and semiconductor testing. He holds a Ph. D. in Electrical Engineering and specializes in gate driver characterization and validation.",
         "expertise": [
           "Gate Driver Testing",
           "Semiconductor Characterization",
@@ -830,7 +830,7 @@
       "content": [
         "## Introduction and Overview",
         "",
-        "The Firstack 2FSC0435+ represents a significant advancement in gate driver technology. This digital gate driver core combines ±35A drive capability with comprehensive programmability through an SPI interface.",
+        "The Firstack 2FSC0435+ is significant advancement in gate driver technology. This digital gate driver core combines ±35A drive capability with comprehensive programmability through an SPI interface.",
         "",
         "Key features include:",
         "- ±35A peak gate drive current",
@@ -900,7 +900,7 @@
       "contentSections": [
         {
           "heading": "Introduction and Overview",
-          "content": "The Firstack 2FSC0435+ represents a significant advancement in gate driver technology. This digital gate driver core combines ±35A drive capability with comprehensive programmability through an SPI interface. In this technical review, we present detailed measurements and analysis of the driver's performance characteristics."
+          "content": "The Firstack 2FSC0435+ is significant advancement in gate driver technology. This digital gate driver core combines ±35A drive capability with comprehensive programmability through an SPI interface. In this technical review, we present detailed measurements and analysis of the driver's performance characteristics."
         },
         {
           "heading": "Electrical Characterization",

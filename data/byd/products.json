@@ -208,7 +208,7 @@
           "faqs": [
             {
               "question": "What is the VCE(sat) of BG300F08A13L5?",
-              "answer": "BG300F08A13L5 typical VCE(sat) is 1.55V at 25°C with IC=300A. At 150°C junction temperature, VCE(sat) increases to approximately 1.85V. The low saturation voltage minimizes conduction losses, contributing to high system efficiency.",
+              "answer": "BG300F08A13L5 typical VCE(sat) is 1.55V at 25°C with IC=300A. At 150°C junction temperature, VCE(sat) increases to approximately 1.85V. The low saturation voltage minimizes conduction losses.",
               "decisionGuide": "Use for applications requiring low conduction losses and high efficiency.",
               "keywords": [
                 "BG300F08A13L5",
@@ -218,7 +218,7 @@
             },
             {
               "question": "What is the switching frequency range?",
-              "answer": "BG300F08A13L5 is optimized for 10-20kHz switching frequency. It can operate up to 25kHz with proper thermal management. For higher switching frequencies, consider BYD SiC MOSFET modules. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "BG300F08A13L5 is optimized for 10-20kHz switching frequency. It can operate up to 25kHz with proper thermal management. For higher switching frequencies, consider BYD SiC MOSFET modules. For detailed specifications and application support on byd BG300F08A13L5, refer to the datasheet or contact our team.",
               "decisionGuide": "Select 10-20kHz for optimal efficiency and thermal performance.",
               "keywords": [
                 "BG300F08A13L5",
@@ -1005,7 +1005,7 @@
           "voltage": "1200V",
           "current": "400A",
           "package": "34mm",
-          "shortDescription": "1200V 400A SiC MOSFET module for high-power EV charging and solar inverters. Features ultra-low switching losses and ...",
+          "shortDescription": "1200V 400A SiC MOSFET module for high-power EV charging and solar inverters. Features ultra-low switching losses and...",
           "description": "BM600F12B34U2 is a 1200V 400A SiC MOSFET power module featuring advanced silicon carbide technology. It provides excellent efficiency for high-power EV charging stations, solar inverters, and industrial power conversion applications.",
           "descriptionParagraphs": [
             "1200V 400A SiC MOSFET module with advanced trench SiC technology. Optimized for high-efficiency power conversion.",
@@ -1647,7 +1647,7 @@
           "faqs": [
             {
               "question": "What is the voltage rating of BIPM1200C10A?",
-              "answer": "BIPM1200C10A has a voltage rating of 1200V. This is suitable for 380V/480V AC industrial systems with adequate margin. The high voltage rating provides good safety margin for industrial applications. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "BIPM1200C10A has a voltage rating of 1200V. This is suitable for 380V/480V AC industrial systems with adequate margin. The high voltage rating provides good safety margin for industrial applications. For detailed specifications and application support on byd BIPM1200C10A, refer to the datasheet or contact our team.",
               "decisionGuide": "Use for 380V/480V AC industrial motor drives.",
               "keywords": [
                 "BIPM1200C10A",
@@ -1972,7 +1972,7 @@
             },
             {
               "question": "What gate voltage is recommended?",
-              "answer": "BSC040N06NS is recommended to operate with VGS = 10V for lowest RDS(on). It can also operate at VGS = 4.5V with higher RDS(on). For best performance and lowest losses, use 10V gate drive. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "BSC040N06NS is recommended to operate with VGS = 10V for lowest RDS(on). It can also operate at VGS = 4.5V with higher RDS(on). For best performance and lowest losses, use 10V gate drive. For detailed specifications and application support on byd BSC040N06NS, refer to the datasheet or contact our team.",
               "decisionGuide": "Use 10V gate drive for lowest RDS(on) and best performance.",
               "keywords": [
                 "BSC040N06NS",
@@ -2061,7 +2061,7 @@
           "faqs": [
             {
               "question": "What is the RDS(on) of BSC060N06NS?",
-              "answer": "BSC060N06NS typical RDS(on) is 6.0mΩ at VGS=10V and 25°C. At 100°C junction temperature, RDS(on) is approximately 9.0mΩ. The moderate RDS(on) provides good balance of performance and cost. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "BSC060N06NS typical RDS(on) is 6.0mΩ at VGS=10V and 25°C. At 100°C junction temperature, RDS(on) is approximately 9.0mΩ. The moderate RDS(on) provides good balance of performance and cost. For detailed specifications and application support on byd BSC060N06NS, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate conduction losses at maximum operating temperature.",
               "keywords": [
                 "BSC060N06NS",
@@ -2281,7 +2281,7 @@
           "faqs": [
             {
               "question": "What is the RDS(on) of BSC020N15NS?",
-              "answer": "BSC020N15NS typical RDS(on) is 2.0mΩ at VGS=10V and 25°C. At 100°C junction temperature, RDS(on) is approximately 3.0mΩ. The low RDS(on) for a 150V device provides excellent efficiency. For more detailed information and application guidance, please consult the product datasheet or contact our technical support team.",
+              "answer": "BSC020N15NS typical RDS(on) is 2.0mΩ at VGS=10V and 25°C. At 100°C junction temperature, RDS(on) is approximately 3.0mΩ. The low RDS(on) for a 150V device provides excellent efficiency. For detailed specifications and application support on byd BSC020N15NS, refer to the datasheet or contact our team.",
               "decisionGuide": "Calculate conduction losses at maximum operating temperature.",
               "keywords": [
                 "BSC020N15NS",

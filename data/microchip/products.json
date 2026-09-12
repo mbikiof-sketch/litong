@@ -126,7 +126,7 @@
         },
         {
           "question": "What is the typical product lifecycle for Microchip microcontrollers?",
-          "answer": "Microchip is renowned for industry-leading product lifecycles, typically guaranteeing 15-20 years of availability for most microcontroller families. This long-term supply commitment is critical for industrial, automotive, and medical applications requiring extended production runs. Microchip's Product Longevity Program (PLP) formally commits to maintaining production for specific devices, with some families guaranteed for 25+ years. Unlike competitors who obsolete products after 5-7 years, Microchip understands that embedded designs often require decade-long support. When a product does reach end-of-life, Microchip provides 12-24 months advance notice and typically offers pin-compatible migration paths to newer devices. This supply stability significantly reduces redesign costs and qualification efforts for long-life products.",
+          "answer": "Microchip is known for industry-leading product lifecycles, typically guaranteeing 15-20 years of availability for most microcontroller families. This long-term supply commitment is critical for industrial, automotive, and medical applications requiring extended production runs. Microchip's Product Longevity Program (PLP) formally commits to maintaining production for specific devices, with some families guaranteed for 25+ years. Unlike competitors who obsolete products after 5-7 years, Microchip understands that embedded designs often require decade-long support. When a product does reach end-of-life, Microchip provides 12-24 months advance notice and typically offers pin-compatible migration paths to newer devices. This supply stability significantly reduces redesign costs and qualification efforts for long-life products.",
           "decisionGuide": "For applications requiring 10+ year production lifecycles, Microchip MCUs are an excellent choice. Contact our FAE team for specific product longevity commitments.",
           "keywords": [
             "Microchip product lifecycle",
@@ -716,8 +716,18 @@
         "Gain Bandwidth",
         "Supply Voltage",
         "Input Offset",
-        "Package",
-        "Temperature Range"
+        "Quiescent Current",
+        "Slew Rate",
+        "Temperature Range",
+        "Architecture",
+        "Flash Memory",
+        "RAM",
+        "Resolution",
+        "Sampling Rate",
+        "Input Channels",
+        "Interface",
+        "Active Current",
+        "Standby Current"
       ],
       "selectionGuide": "Select based on bandwidth, precision, and power requirements for your signal conditioning needs.",
       "faqs": [
@@ -746,7 +756,13 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "CMOS",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Resolution": "N/A",
+            "Sampling Rate": "N/A",
+            "Input Channels": "N/A",
+            "Interface": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "Rail-to-rail input and output",
@@ -774,7 +790,11 @@
               "question": "What is the maximum output current of MCP6002?",
               "answer": "The MCP6002 can source or sink approximately 23mA of output current. For applications requiring higher drive capability, consider the MCP6001/2/4 series with higher output current or add an external transistor buffer stage.",
               "decisionGuide": "For loads >20mA, add external buffer or select higher drive op amp.",
-              "keywords": ["output current", "drive capability", "op amp current"]
+              "keywords": [
+                "output current",
+                "drive capability",
+                "op amp current"
+              ]
             }
           ]
         },
@@ -797,7 +817,13 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "CMOS",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Resolution": "N/A",
+            "Sampling Rate": "N/A",
+            "Input Channels": "N/A",
+            "Interface": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "Tiny SC70 package option",
@@ -823,7 +849,11 @@
               "question": "What is the smallest package available for MCP6001?",
               "answer": "The MCP6001 is available in SC70-5 package measuring just 2.0mm x 2.1mm. This makes it one of the smallest op amps available, perfect for wearable and portable applications with severe space constraints.",
               "decisionGuide": "Use SC70-5 for minimum footprint; use SOT-23-5 for easier hand soldering.",
-              "keywords": ["SC70 package", "small op amp", "package size"]
+              "keywords": [
+                "SC70 package",
+                "small op amp",
+                "package size"
+              ]
             }
           ]
         },
@@ -846,7 +876,13 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "Zero-Drift CMOS",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Resolution": "N/A",
+            "Sampling Rate": "N/A",
+            "Input Channels": "N/A",
+            "Interface": "N/A",
+            "Active Current": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "Ultra-low input offset voltage",
@@ -874,7 +910,11 @@
               "question": "How does zero-drift architecture work?",
               "answer": "Zero-drift op amps use an internal auto-calibration circuit that continuously measures and corrects input offset voltage. The circuit switches between normal operation and calibration phases at high frequency (typically kHz range), storing offset correction in internal capacitors. This provides continuous offset correction without external components, maintaining precision over temperature and time.",
               "decisionGuide": "Use zero-drift op amps for DC precision >12-bit accuracy or when drift over temperature must be minimized.",
-              "keywords": ["zero-drift", "auto-calibration", "precision op amp"]
+              "keywords": [
+                "zero-drift",
+                "auto-calibration",
+                "precision op amp"
+              ]
             }
           ]
         },
@@ -899,7 +939,11 @@
             "Temperature Range": "-40°C to +85°C",
             "Architecture": "SAR ADC",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Gain Bandwidth": "N/A",
+            "Input Offset": "N/A",
+            "Quiescent Current": "N/A",
+            "Slew Rate": "N/A"
           },
           "features": [
             "12-bit resolution",
@@ -927,7 +971,11 @@
               "question": "What is the maximum SPI clock speed for MCP3202?",
               "answer": "The MCP3202 supports SPI clock rates up to 1.6MHz at 5V operation, or 0.8MHz at 2.7V. At 5V with 1.6MHz clock, a complete 12-bit conversion takes approximately 17 clock cycles, allowing the maximum 100ksps sampling rate. Ensure your microcontroller SPI can support these clock rates for maximum throughput.",
               "decisionGuide": "Use 1.6MHz SPI clock at 5V for maximum 100ksps rate; reduce clock at lower voltages.",
-              "keywords": ["SPI clock", "sampling rate", "ADC timing"]
+              "keywords": [
+                "SPI clock",
+                "sampling rate",
+                "ADC timing"
+              ]
             }
           ]
         }
@@ -946,11 +994,24 @@
         "MCP1625 - Boost Converters"
       ],
       "parameters": [
-        "Output Voltage",
         "Output Current",
-        "Dropout Voltage",
         "Quiescent Current",
-        "Package"
+        "Dropout Voltage",
+        "Input Voltage",
+        "Output Voltage",
+        "PSRR",
+        "Temperature Range",
+        "Architecture",
+        "Flash Memory",
+        "RAM",
+        "Charge Current",
+        "Charge Voltage",
+        "Trickle Charge",
+        "Termination",
+        "Standby Current",
+        "Efficiency",
+        "Switching Frequency",
+        "External Components"
       ],
       "selectionGuide": "Select based on input/output voltage, current requirements, and efficiency needs for your power supply design.",
       "faqs": [
@@ -980,7 +1041,15 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "CMOS LDO",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Charge Current": "N/A",
+            "Charge Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Termination": "N/A",
+            "Standby Current": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A",
+            "External Components": "N/A"
           },
           "features": [
             "Ultra-low 2.0μA quiescent current",
@@ -1008,7 +1077,11 @@
               "question": "What is the dropout voltage of MCP1703?",
               "answer": "The MCP1703 dropout voltage is typically 625mV at 250mA load, 400mV at 150mA, and 200mV at 50mA. At light loads (<1mA), dropout can be as low as 50mV. For minimum dropout operation, keep load current low or consider the MCP1711 with lower dropout voltage.",
               "decisionGuide": "Ensure input voltage exceeds output by at least 1V for reliable regulation at full load.",
-              "keywords": ["dropout voltage", "LDO dropout", "headroom voltage"]
+              "keywords": [
+                "dropout voltage",
+                "LDO dropout",
+                "headroom voltage"
+              ]
             }
           ]
         },
@@ -1032,7 +1105,15 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "CMOS LDO",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Charge Current": "N/A",
+            "Charge Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Termination": "N/A",
+            "Standby Current": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A",
+            "External Components": "N/A"
           },
           "features": [
             "Ultra-low 1.6μA quiescent current",
@@ -1060,7 +1141,11 @@
               "question": "What is the difference between MCP1700 and MCP1703?",
               "answer": "The MCP1700 has lower quiescent current (1.6μA vs 2.0μA) and lower dropout voltage (350mV vs 625mV at 250mA), but lower PSRR (44dB vs 70dB). The MCP1700 has lower maximum input voltage (6V vs 13.2V). Choose MCP1700 for maximum battery life; choose MCP1703 for better PSRR or higher input voltage.",
               "decisionGuide": "Use MCP1700 for lowest power; use MCP1703 for better noise rejection or higher input voltage.",
-              "keywords": ["MCP1700 vs 1703", "LDO comparison", "low power LDO"]
+              "keywords": [
+                "MCP1700 vs 1703",
+                "LDO comparison",
+                "low power LDO"
+              ]
             }
           ]
         },
@@ -1084,7 +1169,15 @@
             "Temperature Range": "-40°C to +85°C",
             "Architecture": "Linear Charger",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Output Current": "N/A",
+            "Quiescent Current": "N/A",
+            "Dropout Voltage": "N/A",
+            "Output Voltage": "N/A",
+            "PSRR": "N/A",
+            "Efficiency": "N/A",
+            "Switching Frequency": "N/A",
+            "External Components": "N/A"
           },
           "features": [
             "Programmable charge current",
@@ -1112,7 +1205,11 @@
               "question": "How do I set the charge current for MCP73831?",
               "answer": "The charge current is set by a resistor (RPROG) connected between the PROG pin and ground. The formula is: ICHARGE = 1000V / RPROG. For example, a 2kΩ resistor sets 500mA, 10kΩ sets 100mA. The resistor should be 1% tolerance for accurate current setting. Minimum recommended is 2kΩ (500mA max).",
               "decisionGuide": "Use 2kΩ for 500mA fast charge; use 10kΩ for 100mA slow/thermal-limited charge.",
-              "keywords": ["charge current", "RPROG resistor", "programming current"]
+              "keywords": [
+                "charge current",
+                "RPROG resistor",
+                "programming current"
+              ]
             }
           ]
         },
@@ -1136,11 +1233,19 @@
             "Temperature Range": "-40°C to +85°C",
             "Architecture": "Charge Pump",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "Quiescent Current": "N/A",
+            "Dropout Voltage": "N/A",
+            "PSRR": "N/A",
+            "Charge Current": "N/A",
+            "Charge Voltage": "N/A",
+            "Trickle Charge": "N/A",
+            "Termination": "N/A",
+            "Standby Current": "N/A"
           },
           "features": [
             "Voltage inversion or doubling",
-            "No inductors required",
+            "No inductors is needed",
             "Low EMI",
             "High efficiency 99%",
             "Simple 2-capacitor design",
@@ -1164,7 +1269,11 @@
               "question": "What capacitor values should I use with TC7660?",
               "answer": "The TC7660 requires two capacitors: a pump capacitor (C1) between pins 2 and 4, and a reservoir capacitor (C2) at the output. Use 10μF electrolytic or ceramic capacitors for most applications. For higher output current, increase C2 to 47μF or 100μF. Use low-ESR capacitors for best performance. The capacitors should be rated for the full input/output voltage.",
               "decisionGuide": "Use 10μF for standard applications; increase to 47-100μF for higher current.",
-              "keywords": ["charge pump capacitor", "TC7660 capacitors", "pump capacitor"]
+              "keywords": [
+                "charge pump capacitor",
+                "TC7660 capacitors",
+                "pump capacitor"
+              ]
             }
           ]
         }
@@ -1183,11 +1292,29 @@
         "LAN - Ethernet Controllers"
       ],
       "parameters": [
-        "Interface Type",
+        "WiFi Standard",
+        "Bluetooth",
+        "Frequency",
         "Data Rate",
-        "Frequency Band",
-        "Range",
-        "Package"
+        "Host Interface",
+        "Security",
+        "Antenna",
+        "Temperature Range",
+        "Architecture",
+        "Flash Memory",
+        "RAM",
+        "CAN Standard",
+        "Max Data Rate",
+        "Message Buffers",
+        "Acceptance Filters",
+        "Supply Voltage",
+        "Bus Nodes",
+        "Slope Control",
+        "Protection",
+        "Ethernet Standard",
+        "Buffer Memory",
+        "MAC Address",
+        "PHY"
       ],
       "selectionGuide": "Select based on wireless protocol, data rate, range requirements, and host interface for your connectivity needs.",
       "faqs": [
@@ -1218,7 +1345,19 @@
             "Temperature Range": "-40°C to +85°C",
             "Architecture": "WiFi/BT Module",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "CAN Standard": "N/A",
+            "Max Data Rate": "N/A",
+            "Message Buffers": "N/A",
+            "Acceptance Filters": "N/A",
+            "Supply Voltage": "N/A",
+            "Bus Nodes": "N/A",
+            "Slope Control": "N/A",
+            "Protection": "N/A",
+            "Ethernet Standard": "N/A",
+            "Buffer Memory": "N/A",
+            "MAC Address": "N/A",
+            "PHY": "N/A"
           },
           "features": [
             "Dual WiFi + Bluetooth",
@@ -1246,7 +1385,11 @@
               "question": "What host interfaces does ATWINC3400 support?",
               "answer": "The ATWINC3400 supports UART (default), SPI, and I2C host interfaces. UART is the simplest with AT commands. SPI offers higher throughput for data-intensive applications. I2C is available for systems with limited I/O. The interface is selected by strapping pins during power-up.",
               "decisionGuide": "Use UART for simple control; use SPI for high data throughput applications.",
-              "keywords": ["ATWINC interface", "host connection", "WiFi module UART"]
+              "keywords": [
+                "ATWINC interface",
+                "host connection",
+                "WiFi module UART"
+              ]
             }
           ]
         },
@@ -1270,7 +1413,20 @@
             "Temperature Range": "-40°C to +125°C (Extended)",
             "Architecture": "CAN Controller",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "WiFi Standard": "N/A",
+            "Bluetooth": "N/A",
+            "Frequency": "N/A",
+            "Data Rate": "N/A",
+            "Security": "N/A",
+            "Antenna": "N/A",
+            "Bus Nodes": "N/A",
+            "Slope Control": "N/A",
+            "Protection": "N/A",
+            "Ethernet Standard": "N/A",
+            "Buffer Memory": "N/A",
+            "MAC Address": "N/A",
+            "PHY": "N/A"
           },
           "features": [
             "CAN 2.0B compliant",
@@ -1299,7 +1455,12 @@
               "question": "What CAN transceiver should I use with MCP2515?",
               "answer": "The MCP2515 requires an external CAN transceiver like the MCP2551 (5V) or MCP2561 (3.3V/5V). The transceiver converts the digital CAN TX/RX signals to the differential CANH/CANL bus signals. Choose based on your supply voltage and bus speed requirements. The MCP2562 offers silent mode for power savings.",
               "decisionGuide": "Use MCP2551 for 5V systems; use MCP2561 for 3.3V or mixed voltage systems.",
-              "keywords": ["CAN transceiver", "MCP2551", "MCP2561", "CAN bus interface"]
+              "keywords": [
+                "CAN transceiver",
+                "MCP2551",
+                "MCP2561",
+                "CAN bus interface"
+              ]
             }
           ]
         },
@@ -1323,7 +1484,20 @@
             "Temperature Range": "-40°C to +125°C",
             "Architecture": "CAN Transceiver",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "WiFi Standard": "N/A",
+            "Bluetooth": "N/A",
+            "Frequency": "N/A",
+            "Data Rate": "N/A",
+            "Host Interface": "N/A",
+            "Security": "N/A",
+            "Antenna": "N/A",
+            "Message Buffers": "N/A",
+            "Acceptance Filters": "N/A",
+            "Ethernet Standard": "N/A",
+            "Buffer Memory": "N/A",
+            "MAC Address": "N/A",
+            "PHY": "N/A"
           },
           "features": [
             "1 Mbps operation",
@@ -1351,7 +1525,12 @@
               "question": "What is the purpose of the Rs pin on MCP2551?",
               "answer": "The Rs (slope control) pin controls the slew rate of the CAN output signals. Connect Rs to ground for high-speed mode (fastest edges, highest speed). Connect a resistor (10kΩ to 100kΩ) from Rs to ground for slope control mode, which slows the edges to reduce EMI. For high-speed CAN (500k-1M), use high-speed mode. For lower speeds or reduced EMI, use slope control.",
               "decisionGuide": "Connect Rs to ground for high-speed; use 10-100kΩ resistor for slope control/EMI reduction.",
-              "keywords": ["slope control", "Rs pin", "EMI reduction", "slew rate"]
+              "keywords": [
+                "slope control",
+                "Rs pin",
+                "EMI reduction",
+                "slew rate"
+              ]
             }
           ]
         },
@@ -1360,7 +1539,7 @@
           "name": "ENC28J60 Stand-Alone Ethernet Controller",
           "shortDescription": "Stand-alone Ethernet controller with SPI interface, integrated MAC and PHY, for embedded systems requiring 10Mbps Ethernet connectivity.",
           "descriptionParagraphs": [
-            "The ENC28J60 is a stand-alone Ethernet controller with an industry-standard Serial Peripheral Interface (SPI). It is designed to serve as an Ethernet network interface for any controller equipped with SPI.",
+            "The ENC28J60 is a stand-alone Ethernet controller with an industry-standard Serial Peripheral Interface (SPI). It is designed to is an Ethernet network interface for any controller equipped with SPI.",
             "The device includes an integrated MAC and 10BASE-T PHY, 8KB transmit/receive packet buffer, and supports full and half-duplex modes. The SPI interface allows any microcontroller to add Ethernet connectivity.",
             "With programmable automatic retransmit on collision and programmable padding and CRC generation, the ENC28J60 reduces host processor overhead for network communication."
           ],
@@ -1375,7 +1554,20 @@
             "Temperature Range": "-40°C to +85°C",
             "Architecture": "Ethernet Controller",
             "Flash Memory": "N/A",
-            "RAM": "N/A"
+            "RAM": "N/A",
+            "WiFi Standard": "N/A",
+            "Bluetooth": "N/A",
+            "Frequency": "N/A",
+            "Security": "N/A",
+            "Antenna": "N/A",
+            "CAN Standard": "N/A",
+            "Max Data Rate": "N/A",
+            "Message Buffers": "N/A",
+            "Acceptance Filters": "N/A",
+            "Supply Voltage": "N/A",
+            "Bus Nodes": "N/A",
+            "Slope Control": "N/A",
+            "Protection": "N/A"
           },
           "features": [
             "Integrated MAC and PHY",
@@ -1404,7 +1596,11 @@
               "question": "What external components are needed for ENC28J60?",
               "answer": "The ENC28J60 requires minimal external components: 1) A 25MHz crystal with loading capacitors; 2) A magnetic jack (magjack) with integrated isolation transformer; 3) Decoupling capacitors; 4) Optional status LEDs. The magjack provides the Ethernet physical interface with built-in isolation. No separate Ethernet transformer is needed.",
               "decisionGuide": "Use integrated magjack for simplest design; ensure 25MHz crystal is accurate.",
-              "keywords": ["ENC28J60 components", "magjack", "Ethernet interface"]
+              "keywords": [
+                "ENC28J60 components",
+                "magjack",
+                "Ethernet interface"
+              ]
             }
           ]
         }

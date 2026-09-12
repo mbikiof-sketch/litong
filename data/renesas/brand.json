@@ -58,49 +58,81 @@
       "question": "Is BeiLuo an authorized distributor of Renesas Electronics products?",
       "answer": "Yes, BeiLuo is an authorized distributor of Renesas Electronics semiconductor products. Our partnership with Renesas ensures that all products are genuine, factory-sealed, and backed by Renesas' full warranty and technical support. As an authorized distributor, we have direct access to Renesas' engineering resources, technical documentation, and product roadmaps. This enables us to provide our customers with authentic products along with expert technical guidance for microcontroller selection, system integration, and software development. We maintain local inventory of popular Renesas products and can support both prototype quantities and high-volume production requirements.",
       "decisionGuide": "Contact our sales team to verify specific part availability and discuss your requirements with our FAE engineers.",
-      "keywords": ["Renesas authorized distributor", "genuine Renesas products", "semiconductor supplier"]
+      "keywords": [
+        "Renesas authorized distributor",
+        "genuine Renesas products",
+        "semiconductor supplier"
+      ]
     },
     {
       "question": "What makes Renesas microcontrollers superior to competitors?",
-      "answer": "Renesas microcontrollers offer several competitive advantages. As the world's largest MCU supplier, Renesas provides unmatched portfolio breadth covering applications from ultra-low-power sensors to high-performance automotive systems. The RA family features Arm Cortex-M cores with advanced security including TrustZone technology. The RX family offers industry-leading performance with DSP and FPU capabilities. The RL78 family provides exceptional low-power consumption for battery-operated devices. Renesas' Flexible Software Package (FSP) accelerates development with production-ready drivers and middleware. Additionally, Renesas offers long-term product availability (typically 10-15 years) critical for industrial and automotive applications. The comprehensive development ecosystem including e2 studio IDE and extensive code examples reduces time-to-market.",
+      "answer": "Renesas microcontrollers offer several competitive advantages. As the world's largest MCU supplier, Renesas provides unmatched portfolio breadth covering applications from ultra-low-power sensors to high-performance automotive systems. The RA family features Arm Cortex-M cores with advanced security including TrustZone technology. The RX family offers industry-leading performance with DSP and FPU capabilities. The RL78 family provides exceptional low-power consumption for battery-operated devices. Renesas' Flexible Software Package (FSP) accelerates development with production-ready drivers and middleware. Renesas offers long-term product availability (typically 10-15 years) critical for industrial and automotive applications. The comprehensive development ecosystem including e2 studio IDE and extensive code examples reduces time-to-market.",
       "decisionGuide": "For new designs, evaluate Renesas' portfolio based on your performance, power, and security requirements. Contact us for product comparisons.",
-      "keywords": ["Renesas MCU advantage", "RA RX RL78 comparison", "microcontroller selection"]
+      "keywords": [
+        "Renesas MCU advantage",
+        "RA RX RL78 comparison",
+        "microcontroller selection"
+      ]
     },
     {
       "question": "How do I select the right Renesas microcontroller for my application?",
       "answer": "Selecting the right Renesas MCU requires analyzing your application's processing requirements, power budget, and peripheral needs. For high-performance applications requiring DSP capabilities, consider the RX700 or RX600 series with up to 240 MHz operation and double-precision FPU. For IoT applications requiring Arm ecosystem compatibility and advanced security, the RA family (RA2, RA4, RA6, RA8) offers scalable options with TrustZone. For ultra-low-power battery-operated devices, the RL78 family provides industry-leading power consumption as low as 66 µA/MHz active and 0.7 µA standby. For automotive applications, the RH850 family offers ASIL-D functional safety support. Consider factors like required peripherals (USB, Ethernet, CAN FD), memory size, package options, and development ecosystem support.",
       "decisionGuide": "Use our MCU selection guide or contact our FAE team for personalized recommendations based on your system architecture.",
-      "keywords": ["Renesas MCU selection", "RA vs RX vs RL78", "microcontroller guide"]
+      "keywords": [
+        "Renesas MCU selection",
+        "RA vs RX vs RL78",
+        "microcontroller guide"
+      ]
     },
     {
       "question": "What is the difference between RA, RX, and RL78 microcontroller families?",
       "answer": "The three families target different application spaces. RA family is based on Arm Cortex-M cores (M23, M33, M85) and is ideal for IoT applications requiring ecosystem compatibility, advanced security with TrustZone, and easy migration from other Arm-based designs. RX family uses Renesas' proprietary RX core with industry-leading code efficiency and includes DSP/FPU capabilities for high-performance industrial applications. RL78 family focuses on ultra-low-power consumption for battery-operated devices with proprietary 16-bit core. RA offers the broadest ecosystem support, RX provides highest performance per MHz, and RL78 delivers best-in-class power efficiency. All families are supported by Renesas' e2 studio IDE and FSP software platform.",
       "decisionGuide": "Choose RA for IoT/security applications, RX for high-performance industrial, RL78 for ultra-low-power battery devices. Contact us for detailed comparisons.",
-      "keywords": ["RA vs RX vs RL78", "Renesas MCU families", "microcontroller comparison"]
+      "keywords": [
+        "RA vs RX vs RL78",
+        "Renesas MCU families",
+        "microcontroller comparison"
+      ]
     },
     {
       "question": "Does Renesas offer automotive-qualified products?",
       "answer": "Yes, Renesas is a leading supplier of automotive semiconductors with comprehensive AEC-Q100 qualified portfolios. The R-Car series provides scalable SoC solutions for ADAS, autonomous driving, and infotainment from entry-level to high-performance. The RH850 family offers 32-bit microcontrollers specifically designed for automotive applications with ASIL-D functional safety support. Renesas also provides automotive-grade analog and power products including PMICs, motor drivers, and LED drivers. All automotive products undergo rigorous quality screening and support PPAP documentation. Renesas' automotive solutions are used by major OEMs worldwide and support long-term supply agreements essential for automotive production lifecycles.",
       "decisionGuide": "For automotive applications, specify AEC-Q100 qualified parts. Contact our automotive team for functional safety and PPAP support.",
-      "keywords": ["Renesas automotive", "AEC-Q100 qualified", "R-Car RH850"]
+      "keywords": [
+        "Renesas automotive",
+        "AEC-Q100 qualified",
+        "R-Car RH850"
+      ]
     },
     {
       "question": "What development tools does Renesas provide?",
       "answer": "Renesas provides a comprehensive development ecosystem. e2 studio is the flagship Eclipse-based IDE supporting all Renesas MCU families with integrated debugging, code generation, and analysis tools. The Flexible Software Package (FSP) for RA MCUs and Smart Configurator for RX/RL78 provide production-ready drivers, middleware, and RTOS integration. Renesas also offers the EK and FP evaluation kits for rapid prototyping. For motor control, the Motor Workbench provides GUI-based tuning. The QE tools offer specialized debugging capabilities for touch sensing, display, and USB applications. Extensive code examples, application notes, and video tutorials accelerate learning. Third-party support includes IAR Embedded Workbench and various RTOS options.",
       "decisionGuide": "Download e2 studio and FSP for free from Renesas website. Contact us for evaluation kit recommendations.",
-      "keywords": ["Renesas development tools", "e2 studio", "FSP software package"]
+      "keywords": [
+        "Renesas development tools",
+        "e2 studio",
+        "FSP software package"
+      ]
     },
     {
       "question": "How does Renesas support long-term product availability?",
       "answer": "Renesas provides industry-leading product longevity with typical availability of 10-15 years for most products, extending to 20+ years for industrial and automotive grades. This long-term supply commitment is backed by formal Product Longevity Program (PLP) documentation. Renesas offers end-of-life notifications 12-24 months in advance, providing time for last-time-buy planning. For critical applications, customers can establish long-term supply agreements with guaranteed allocation. The company maintains manufacturing capability for mature products and provides form-fit-function compatible replacements when technology transitions are necessary. This commitment makes Renesas ideal for industrial, medical, and automotive applications requiring extended product lifecycles.",
       "decisionGuide": "For long lifecycle applications, request PLP documentation. Contact us for long-term supply agreement options.",
-      "keywords": ["Renesas product longevity", "long-term availability", "PLP program"]
+      "keywords": [
+        "Renesas product longevity",
+        "long-term availability",
+        "PLP program"
+      ]
     },
     {
       "question": "What support services does BeiLuo provide for Renesas products?",
       "answer": "BeiLuo provides comprehensive support services for Renesas semiconductor products including technical consultation, schematic review, and software development assistance. Our FAE team has expertise in Renesas MCU architecture, FSP configuration, and debugging techniques. We offer support for system architecture design, power optimization, and EMI/EMC considerations. For production customers, we provide BOM optimization, second sourcing recommendations, and long-term supply planning. Our local inventory enables rapid prototyping support. We can facilitate direct engagement with Renesas' application engineering team for complex design challenges. We also offer programming services and can support custom firmware development for specific application requirements.",
       "decisionGuide": "Engage our FAE team early in your design cycle for optimal Renesas product integration and performance optimization.",
-      "keywords": ["Renesas technical support", "FAE services", "development support"]
+      "keywords": [
+        "Renesas technical support",
+        "FAE services",
+        "development support"
+      ]
     }
   ]
 }

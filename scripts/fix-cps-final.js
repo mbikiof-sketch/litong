@@ -1,126 +1,111 @@
-#!/usr/bin/env node
 /**
- * Final fix for cps brand data issues
+ * CPS品牌数据最终修复脚本
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const brandDir = path.join(__dirname, '..', 'data', 'cps');
+const DATA_DIR = path.join(__dirname, '..', 'data', 'cps');
 
-// Fix products.json
+function readJSON(filename) {
+  const filePath = path.join(DATA_DIR, filename);
+  const content = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(content);
+}
+
+function writeJSON(filename, data) {
+  const filePath = path.join(DATA_DIR, filename);
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  console.log(`✓ Updated: ${filename}`);
+}
+
+// 截断shortDescription到120字以内
+function truncateShortDescription(desc) {
+  if (desc.length <= 120) return desc;
+  return desc.substring(0, 117) + '...';
+}
+
 function fixProducts() {
-  console.log('Fixing products.json...');
-  const productsPath = path.join(brandDir, 'products.json');
-  const content = fs.readFileSync(productsPath, 'utf8');
-  const data = JSON.parse(content);
-
-  let fixCount = 0;
-
-  data.categories.forEach(category => {
+  console.log('\n=== Fixing products.json ===');
+  const products = readJSON('products.json');
+  
+  const productsToFix = ['CS50N65', 'CPS800H12E4', 'PR100A12', 'PR50A12', 'TYN120A16'];
+  
+  products.categories.forEach(category => {
     if (category.products) {
       category.products.forEach(product => {
-        // Fix shortDescription length (80-120 chars)
-        if (product.shortDescription) {
+        if (productsToFix.includes(product.partNumber)) {
           if (product.shortDescription.length > 120) {
-            product.shortDescription = product.shortDescription.substring(0, 117) + '...';
-            fixCount++;
-          } else if (product.shortDescription.length < 80) {
-            product.shortDescription += ' Ideal for industrial applications.';
-            fixCount++;
+            product.shortDescription = truncateShortDescription(product.shortDescription);
+            console.log(`  ✓ Truncated ${product.partNumber} shortDescription`);
           }
-        }
-
-        // Fix faeReview
-        if (!product.faeReview) {
-          product.faeReview = {
-            author: 'Senior FAE Team',
-            content: `Based on my extensive field experience, I highly recommend the ${product.partNumber} for demanding power applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.`,
-            highlight: `I highly recommend the ${product.partNumber} for its proven reliability.`
-          };
-          fixCount++;
-        } else if (typeof product.faeReview === 'object') {
-          // Check for subjective content
-          const subjectiveWords = ['建议', '推荐', '认为', '经验', '发现', '注意', 'consider', 'recommend', 'experience', 'suggest', 'discover', 'advice'];
-          const hasSubjective = subjectiveWords.some(word => 
-            product.faeReview.content && product.faeReview.content.toLowerCase().includes(word.toLowerCase())
-          );
-          
-          if (!hasSubjective) {
-            product.faeReview.content = `Based on my extensive field experience, I highly recommend the ${product.partNumber} for demanding power applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance. I suggest considering proper thermal management for optimal results.`;
-            fixCount++;
-          }
-          
-          if (!product.faeReview.author) {
-            product.faeReview.author = 'Senior FAE Team';
-            fixCount++;
-          }
-          if (!product.faeReview.highlight) {
-            product.faeReview.highlight = `I highly recommend the ${product.partNumber} for its proven reliability.`;
-            fixCount++;
-          }
-        }
-
-        // Fix alternativeParts
-        if (product.alternativeParts && Array.isArray(product.alternativeParts)) {
-          product.alternativeParts.forEach(alt => {
-            if (!alt.comparison) {
-              alt.comparison = `${product.partNumber}=><${alt.partNumber}: Similar specifications, suitable for direct replacement`;
-              fixCount++;
-            } else if (typeof alt.comparison === 'string' && !alt.comparison.includes('=><')) {
-              alt.comparison = `${product.partNumber}=><${alt.partNumber}: ${alt.comparison}`;
-              fixCount++;
-            }
-            if (!alt.reason) {
-              alt.reason = 'Pin-compatible alternative with similar performance';
-              fixCount++;
-            }
-            if (!alt.useCase) {
-              alt.useCase = 'For supply chain flexibility';
-              fixCount++;
-            }
-          });
-        }
-
-        // Fix FAQs - ensure answer >= 200 chars
-        if (product.faqs && Array.isArray(product.faqs)) {
-          product.faqs.forEach(faq => {
-            if (faq.answer && faq.answer.length < 200) {
-              faq.answer += ' For more detailed information and application guidance, please consult our technical documentation or contact BeiLuo FAE team for personalized support and design recommendations.';
-              fixCount++;
-            }
-            if (!faq.decisionGuide) {
-              faq.decisionGuide = 'Contact BeiLuo FAE for application guidance.';
-              fixCount++;
-            }
-            if (!faq.keywords) {
-              faq.keywords = ['technical', 'support'];
-              fixCount++;
-            }
-          });
         }
       });
     }
   });
-
-  fs.writeFileSync(productsPath, JSON.stringify(data, null, 2), 'utf8');
-  console.log(`  Fixed ${fixCount} issues in products.json`);
-}
-
-// Main execution
-console.log('========================================');
-console.log('Final Fix for cps Brand Data');
-console.log('========================================\n');
-
-try {
-  fixProducts();
   
-  console.log('\n========================================');
-  console.log('cps brand final fix completed!');
-  console.log('========================================');
-  console.log('\nPlease run: node scripts/brand-master-checklist.js cps');
-  console.log('to verify all issues are resolved.');
-} catch (error) {
-  console.error('Error fixing cps data:', error);
-  process.exit(1);
+  writeJSON('products.json', products);
 }
+
+function fixSolutions() {
+  console.log('\n=== Fixing solutions.json ===');
+  const solutions = readJSON('solutions.json');
+  
+  if (solutions.solutions) {
+    solutions.solutions.forEach(solution => {
+      if (solution.title === "Industrial Inverter Power Solution") {
+        if (!solution.faeInsights) {
+          solution.faeInsights = {
+            insightLogic: "Industrial inverter applications require careful balancing of switching frequency, efficiency, and EMI. CPS IGBT modules offer excellent performance trade-offs for these demanding applications.",
+            decisionFramework: "Select IGBT voltage rating with 30% margin above DC bus voltage. Choose current rating based on thermal calculations at maximum load."
+          };
+          console.log(`  ✓ Fixed faeInsights for ${solution.title}`);
+        }
+      }
+    });
+  }
+  
+  writeJSON('solutions.json', solutions);
+}
+
+function fixSupport() {
+  console.log('\n=== Fixing support.json ===');
+  const support = readJSON('support.json');
+  
+  if (support.articles) {
+    support.articles.forEach(article => {
+      if (article.title === "IGBT Thermal Management and Heatsink Design Guide") {
+        if (!article.faeInsights) {
+          article.faeInsights = {
+            insightLogic: "IGBT junction temperature is the primary factor affecting reliability and lifetime. Proper heatsink design can reduce junction temperature by 20-30°C.",
+            decisionFramework: "Calculate power dissipation and select heatsink based on required thermal resistance."
+          };
+          console.log(`  ✓ Fixed faeInsights for ${article.title}`);
+        }
+      }
+    });
+  }
+  
+  writeJSON('support.json', support);
+}
+
+function main() {
+  console.log('========================================');
+  console.log('🚀 CPS Brand Data Final Fix');
+  console.log('========================================');
+  
+  try {
+    fixProducts();
+    fixSolutions();
+    fixSupport();
+    
+    console.log('\n========================================');
+    console.log('✅ Final fixes completed!');
+    console.log('========================================');
+  } catch (error) {
+    console.error('\n❌ Error during fix:', error.message);
+    process.exit(1);
+  }
+}
+
+main();

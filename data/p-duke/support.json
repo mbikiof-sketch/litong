@@ -103,7 +103,7 @@
       "image": "/assets/brands/p-duke/articles/dc-dc-selection.jpg",
       "content": [
         "This technical reference document provides detailed information about p-duke product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -270,7 +270,7 @@
       "image": "/assets/brands/p-duke/articles/emi-filtering.jpg",
       "content": [
         "This technical reference document provides detailed information about p-duke product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -310,13 +310,21 @@
           "question": "What is the difference between common-mode and differential-mode noise?",
           "answer": "Common-mode noise flows in the same direction on both power lines relative to ground, typically caused by capacitive coupling to ground. Differential-mode noise flows between the power lines, caused by switching currents. Common-mode is filtered using chokes and Y-capacitors to ground. Differential-mode is filtered using X-capacitors across the lines and series inductors. Most power supplies generate both types of noise, requiring filters that address both modes.",
           "decisionGuide": "Design filters to address both common-mode and differential-mode noise for comprehensive EMI suppression.",
-          "keywords": ["common-mode", "differential-mode", "EMI noise"]
+          "keywords": [
+            "common-mode",
+            "differential-mode",
+            "EMI noise"
+          ]
         },
         {
           "question": "How do I select the cutoff frequency for my EMI filter?",
           "answer": "EMI filter cutoff frequency selection: Typically set at 1/10th to 1/100th of switching frequency; For 300kHz switching, cutoff of 10-30kHz is common; Lower cutoff provides more attenuation but requires larger components; Consider the regulatory frequency range (150kHz-30MHz for conducted); Account for converter's inherent noise spectrum; Verify attenuation at regulatory limit frequencies. The goal is to provide at least 20-40dB attenuation at the switching frequency and its harmonics. P-Duke application notes provide recommended cutoff frequencies for each converter series.",
           "decisionGuide": "Set cutoff frequency at 1/10th of switching frequency for effective attenuation with reasonable component size.",
-          "keywords": ["cutoff frequency", "filter design", "attenuation"]
+          "keywords": [
+            "cutoff frequency",
+            "filter design",
+            "attenuation"
+          ]
         }
       ],
       "faeInsights": {
@@ -356,7 +364,7 @@
       "image": "/assets/brands/p-duke/articles/railway-selection.jpg",
       "content": [
         "This technical reference document provides detailed information about p-duke product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -413,7 +421,7 @@
         },
         {
           "question": "What input voltage range do I need for railway applications?",
-          "answer": "Railway battery voltages vary significantly depending on the system: 24V systems: Range 17-30V (discharged to charging); 48V systems: Range 34-60V; 72V systems: Range 50-90V; 110V systems: Range 77-137V. EN 50155 requires operation from 0.7x to 1.25x nominal voltage. Additionally, transients can reach 1.5x nominal (165V for 110V systems). The P-Duke RHKW series with 14-160V input range handles all standard railway voltages and transients. For mixed fleet applications or uncertain requirements, the ultra-wide input range eliminates the need for multiple converter variants.",
+          "answer": "Railway battery voltages vary significantly depending on the system: 24V systems: Range 17-30V (discharged to charging); 48V systems: Range 34-60V; 72V systems: Range 50-90V; 110V systems: Range 77-137V. EN 50155 requires operation from 0.7x to 1.25x nominal voltage. transients can reach 1.5x nominal (165V for 110V systems). The P-Duke RHKW series with 14-160V input range handles all standard railway voltages and transients. For mixed fleet applications or uncertain requirements, the ultra-wide input range eliminates the need for multiple converter variants.",
           "decisionGuide": "Select 14:1 ultra-wide input converters (14-160V) to handle all railway battery voltages and simplify inventory.",
           "keywords": [
             "input voltage",
@@ -521,7 +529,7 @@
       "image": "/assets/brands/p-duke/articles/thermal-design.jpg",
       "content": [
         "This technical reference document provides detailed information about p-duke product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -685,7 +693,7 @@
       "image": "/assets/brands/p-duke/articles/medical-design.jpg",
       "content": [
         "This technical reference document provides detailed information about p-duke product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

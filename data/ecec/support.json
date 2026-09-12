@@ -91,7 +91,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about ecec product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -238,7 +238,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about ecec product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -263,7 +263,7 @@
           "experience": "8+ years"
         },
         "title": "FAE - PCB Design",
-        "content": "The most common layout mistake I see is long traces between the crystal and microcontroller. Keep traces under 10mm for best performance. In my experience supporting hundreds of designs, poor PCB layout is the second most common cause of crystal oscillator problems after incorrect load capacitance. Long traces increase stray capacitance and inductance, which can shift the oscillation frequency and increase susceptibility to noise. I always recommend placing the crystal as close as possible to the microcontroller oscillator pins, ideally within 10mm. For high-frequency crystals above 50MHz, I suggest keeping traces under 5mm. Additionally, a solid ground plane under the crystal circuit is essential for providing a low-impedance return path and isolating the crystal from noise.",
+        "content": "The most common layout mistake I see is long traces between the crystal and microcontroller. Keep traces under 10mm for best performance. In my experience supporting hundreds of designs, poor PCB layout is the second most common cause of crystal oscillator problems after incorrect load capacitance. Long traces increase stray capacitance and inductance, which can shift the oscillation frequency and increase susceptibility to noise. I always recommend placing the crystal as close as possible to the microcontroller oscillator pins, ideally within 10mm. For high-frequency crystals above 50MHz, I suggest keeping traces under 5mm. a solid ground plane under the crystal circuit is essential for providing a low-impedance return path and isolating the crystal from noise.",
         "logic": "Long traces increase stray capacitance and inductance, affecting oscillator performance.",
         "keyTakeaways": [
           "Keep traces short",
@@ -382,7 +382,7 @@
       ],
       "content": [
         "This technical reference document provides detailed information about ecec product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],
@@ -698,7 +698,7 @@
       "summary": "Comprehensive ecec product debugging guide for ecec products covering selection criteria, application considerations, and best practices.",
       "content": [
         "This technical reference document provides detailed information about ecec product specifications, characteristics, and performance parameters. Use this information to support your design and analysis activities.",
-        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values represent the most likely parametric norm at 25°C.",
+        "Electrical characteristics are specified over the operating temperature range unless otherwise noted. Parameters are guaranteed by design, testing, or statistical analysis. Typical values is the most likely parametric norm at 25°C.",
         "Thermal characteristics require careful attention during system design. The junction-to-ambient thermal resistance depends on the mounting configuration, PCB copper area, and airflow conditions. Use thermal simulation tools to predict operating temperatures under actual conditions.",
         "Reliability data is based on accelerated life testing and field failure analysis. Mean time between failures (MTBF) calculations follow industry-standard methodologies. Contact BeiLuo for detailed reliability reports and qualification data."
       ],

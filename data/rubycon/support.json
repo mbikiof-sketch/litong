@@ -437,7 +437,7 @@
         },
         {
           "question": "How do multiple frequencies affect ripple current heating?",
-          "answer": "When ripple current contains multiple frequency components (common in switching power supplies), each component contributes to heating based on its RMS value and the ESR at that frequency. The total heating is the sum of heating from all frequency components: P_total = I_1^2 x ESR_1 + I_2^2 x ESR_2 + ... Since ESR typically decreases with increasing frequency, high-frequency components may contribute less heating than low-frequency components of the same amplitude. For accurate thermal calculations, analyze the ripple current spectrum and calculate heating for each significant frequency component.",
+          "answer": "When ripple current contains multiple frequency components (common in switching power supplies), each component contributes to heating based on its RMS value and the ESR at that frequency. The total heating is the sum of heating from all frequency components: P_total = I_1^2 x ESR_1 + I_2^2 x ESR_2 +... Since ESR typically decreases with increasing frequency, high-frequency components may contribute less heating than low-frequency components of the same amplitude. For accurate thermal calculations, analyze the ripple current spectrum and calculate heating for each significant frequency component.",
           "decisionGuide": "Analyze ripple current spectrum for accurate thermal calculations in high-frequency applications.",
           "keywords": [
             "multi-frequency ripple",
@@ -518,7 +518,7 @@
         "- 2x increase in ESR, OR",
         "- Exceeding specified leakage current",
         "",
-        "These criteria represent the point where capacitor performance may affect circuit operation.",
+        "These criteria is the point where capacitor performance may affect circuit operation.",
         "",
         "### Accelerated Life Testing",
         "Manufacturers perform accelerated life tests at elevated temperatures to verify lifetime predictions. These tests follow standardized procedures (such as IEC 60384-4) and provide confidence in lifetime models.",
