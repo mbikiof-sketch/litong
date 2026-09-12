@@ -577,7 +577,7 @@
         <details class="faq-item" style="border: 1px solid var(--border-light); border-radius: var(--radius-md); margin-bottom: var(--space-4); overflow: hidden; background: white;">
           <summary style="padding: 16px; cursor: pointer; font-weight: 500; background: white; list-style: none;"><%= faq.question %></summary>
           <div class="faq-answer" style="padding: 16px; color: var(--text-medium); line-height: 1.6;">
-            <% faq.answer.split('; ').forEach(function(paragraph) { %>
+            <% (faq.answer || '').split('; ').forEach(function(paragraph) { %>
               <% if (paragraph.trim()) { %>
               <p style="margin-bottom: var(--space-3);"><%= paragraph.trim() %></p>
               <% } %>

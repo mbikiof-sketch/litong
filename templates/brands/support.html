@@ -255,12 +255,12 @@
               </div>
               <div class="article-body">
                 <div class="article-meta">
-                  <span>By <%= article.author.name %></span>
+                  <span>By <%= ((article.author && article.author.name) || 'BeiLuo FAE') %></span>
                   <span><%= article.publishDate %></span>
                 </div>
                 <p><%= article.summary %></p>
                 <div class="article-tags">
-                  <% article.tags.forEach(function(tag) { %>
+                  <% (article.tags || []).forEach(function(tag) { %>
                     <span class="article-tag"><%= tag %></span>
                   <% }); %>
                 </div>

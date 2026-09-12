@@ -11,7 +11,7 @@
     "@context": "https://schema.org",
     "@type": "TechArticle",
     "headline": "<%= article.title %>",
-    "author": { "@type": "Person", "name": "<%= article.author.name %>" },
+    "author": { "@type": "Person", "name": "<%= ((article.author && article.author.name) || 'BeiLuo FAE') %>" },
     "datePublished": "<%= article.publishDate %>"
   }
   </script>
@@ -136,10 +136,10 @@
               <div class="article-category"><%= article.category %></div>
               <h1 class="article-title"><%= article.title %></h1>
               <div class="author-bar">
-                <div class="author-avatar"><%= article.author.name.charAt(0) %></div>
+                <div class="author-avatar"><%= (article.author && ((article.author && article.author.name) || 'BeiLuo FAE') ? ((article.author && article.author.name) || 'BeiLuo FAE').charAt(0) : 'B') %></div>
                 <div class="author-info">
-                  <h4><%= article.author.name %></h4>
-                  <p><%= article.author.title %></p>
+                  <h4><%= ((article.author && article.author.name) || 'BeiLuo FAE') %></h4>
+                  <p><%= ((article.author && article.author.title) || 'Technical Support') %></p>
                 </div>
                 <div class="publish-date" style="margin-left: auto;"><%= article.publishDate %></div>
               </div>
@@ -300,7 +300,7 @@
             <% } %>
 
             <div class="tags">
-              <% article.tags.forEach(function(tag) { %>
+              <% (article.tags || []).forEach(function(tag) { %>
                 <span class="tag">#<%= tag %></span>
               <% }); %>
             </div>

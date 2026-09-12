@@ -189,6 +189,26 @@ function loadJSON(filePath) {
 /**
  * 加载品牌数据
  */
+// 归一化 support 文章分类，使所有品牌 support 列表页 Tab 标签与 infineon 一致
+// 标准集合: guides / notes / reviews / troubleshooting
+function normalizeSupportData(support) {
+  if (!support) return support;
+  const articles = Array.isArray(support.articles) ? support.articles
+    : (support.support && Array.isArray(support.support.articles) ? support.support.articles : null);
+  if (!articles) return support;
+  const mapCat = function (c) {
+    const s = String(c || '').toLowerCase();
+    if (s.indexOf('troubleshoot') !== -1) return 'troubleshooting';
+    if (s.indexOf('review') !== -1) return 'reviews';
+    if (s.indexOf('note') !== -1 || s.indexOf('resource') !== -1) return 'notes';
+    return 'guides';
+  };
+  for (const a of articles) {
+    if (a && typeof a === 'object') a.category = mapCat(a.category);
+  }
+  return support;
+}
+
 function loadBrandData(brand) {
   const brandDir = path.join(config.dataDir, brand);
   
@@ -196,7 +216,7 @@ function loadBrandData(brand) {
     brand: loadJSON(path.join(brandDir, 'brand.json')),
     products: loadJSON(path.join(brandDir, 'products.json')),
     solutions: loadJSON(path.join(brandDir, 'solutions.json')),
-    support: loadJSON(path.join(brandDir, 'support.json')),
+    support: normalizeSupportData(loadJSON(path.join(brandDir, 'support.json'))),
     news: loadJSON(path.join(brandDir, 'news.json'))
   };
 }
