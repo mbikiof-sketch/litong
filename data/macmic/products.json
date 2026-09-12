@@ -217,7 +217,7 @@
               "comparison": "MMG75HB060H1A=><MMG100HB060H1A: Output current 100A > 75A (+33%), Frequency 50KHz = 50KHz ( ), Package H1A = H1A ( ), suitable for direct replacement",
               "reason": "Higher current rating (100A vs 75A) for applications requiring 33% more power handling in the same H1A package with identical switching performance",
               "useCase": "Power, 15kWUpgrade 20kW",
-              "link": "/macmic/products/igbt-modules/mmg100hb060h1a.html"
+              "link": ""
             },
             {
               "partNumber": "MMG75HB060T1A",
@@ -232,7 +232,7 @@
               "comparison": "MMG75HB060H1A=><MMG75HB060T1A: Output current 75A = 75A ( ), Frequency 20KHz < 50KHz ( Application), Package T1A vs H1A ( Package), suitable for direct replacement",
               "reason": "6TC series with 10% lower Vce(sat) for cost-sensitive applications where 20KHz switching is sufficient",
               "useCase": "FrequencyRequirement DriverApplication, 10%",
-              "link": "/macmic/products/igbt-modules/mmg75hb060t1a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -247,7 +247,7 @@
                 "Low switching losses"
               ],
               "description": "Matching FRED module for anti-parallel diode applications in IGBT modules",
-              "link": "/macmic/products/fred-modules/mmf100j060d1.html"
+              "link": "/macmic/products/fred-modules/mmf100j060d1"
             },
             {
               "partNumber": "MGD75J060Y1",
@@ -259,7 +259,7 @@
                 "Compact design"
               ],
               "description": "Recommended gate driver for MacMic IGBT modules with integrated protection features",
-              "link": "/macmic/products/gate-drivers/mgd75j060y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMG30J060U1",
@@ -271,7 +271,7 @@
                 "TO-247 package"
               ],
               "description": "Discrete IGBT for auxiliary power supply and control circuits",
-              "link": "/macmic/products/power-discrete/mmg30j060u1.html"
+              "link": "/macmic/products/power-discrete/mmg30j060u1"
             }
           ],
           "faqs": [
@@ -410,7 +410,7 @@
               "comparison": "MMG200HB120T1A=><MMG300HB120T1A: Output current 300A > 200A (+50%), Frequency 20KHz = 20KHz ( ), Package T1A = T1A ( ), suitable for direct replacement",
               "reason": "Higher current rating (300A vs 200A) for applications requiring 50% more power in the same T1A package",
               "useCase": "Power EVApplication, 55kWUpgrade 75kW Driver",
-              "link": "/macmic/products/igbt-modules/mmg300hb120t1a.html"
+              "link": ""
             },
             {
               "partNumber": "MMG200HB120H1A",
@@ -425,7 +425,7 @@
               "comparison": "MMG200HB120T1A=><MMG200HB120H1A: Output current 200A = 200A ( ), Frequency 50KHz > 20KHz (+150%, Frequency), Package H1A vs T1A ( Package), suitable for direct replacement",
               "reason": "HN series with 50KHz switching for high-frequency applications requiring faster switching than 6TC series",
               "useCase": "Frequency Application, Design",
-              "link": "/macmic/products/igbt-modules/mmg200hb120h1a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -440,7 +440,7 @@
                 "Low losses"
               ],
               "description": "Matching FRED module for anti-parallel diode in 1200V IGBT applications",
-              "link": "/macmic/products/fred-modules/mmf200j120d1.html"
+              "link": "/macmic/products/fred-modules/mmf200j120d1"
             },
             {
               "partNumber": "MGD200J120Y1",
@@ -452,7 +452,7 @@
                 "Compact design"
               ],
               "description": "High-current gate driver optimized for 200A IGBT modules",
-              "link": "/macmic/products/gate-drivers/mgd200j120y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMF75J120U1",
@@ -464,7 +464,7 @@
                 "TO-247 package"
               ],
               "description": "Discrete FRED for PFC boost stage or brake chopper circuits",
-              "link": "/macmic/products/power-discrete/mmf75j120u1.html"
+              "link": "/macmic/products/power-discrete/mmf75j120u1"
             }
           ],
           "faqs": [
@@ -604,7 +604,7 @@
               "comparison": "MMG600WB060B=><MMG800WB060B: Output current 800A > 600A (+33%), Frequency 15KHz = 15KHz (same), Package WB = WB (same), suitable for direct replacement",
               "reason": "Higher current rating (800A vs 600A) for applications requiring 33% more power handling in the same WB package",
               "useCase": "Power upgrade for large welding systems or industrial drives",
-              "link": "/macmic/products/igbt-modules/mmg800wb060b.html"
+              "link": ""
             },
             {
               "partNumber": "MMG600HB120T1A",
@@ -619,7 +619,7 @@
               "comparison": "MMG600WB060B=><MMG600HB120T1A: Output current 600A = 600A (same), Voltage 1200V > 600V (higher), Package T1A vs WB (different)",
               "reason": "Higher voltage rating for 690V AC systems or applications requiring higher voltage margin",
               "useCase": "690V industrial systems or high-voltage EV charging",
-              "link": "/macmic/products/igbt-modules/mmg600hb120t1a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -634,7 +634,7 @@
                 "Low switching losses"
               ],
               "description": "Matching FRED module for anti-parallel diode applications with 600A IGBT modules",
-              "link": "/macmic/products/fred-modules/mmf600j060d1.html"
+              "link": ""
             },
             {
               "partNumber": "MGD600J060Y1",
@@ -646,7 +646,7 @@
                 "High-power design"
               ],
               "description": "High-current gate driver optimized for 600A IGBT modules",
-              "link": "/macmic/products/gate-drivers/mgd600j060y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMG200HB060T1A",
@@ -658,7 +658,7 @@
                 "Standard T1A package"
               ],
               "description": "Medium-current IGBT module for auxiliary power circuits",
-              "link": "/macmic/products/igbt-modules/mmg200hb060t1a.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -802,7 +802,7 @@
               "comparison": "MMG450WB060B=><MMG600WB060B: Output current 600A > 450A (+33%), Frequency 15KHz = 15KHz (same), Package WB = WB (same), suitable for direct replacement",
               "reason": "Higher current rating (600A vs 450A) for larger motor drives or higher overload capability",
               "useCase": "Power upgrade for larger motor drives or applications requiring more current margin",
-              "link": "/macmic/products/igbt-modules/mmg600wb060b.html"
+              "link": "/macmic/products/igbt-modules/mmg600wb060b"
             },
             {
               "partNumber": "MMG400HB120T1A",
@@ -817,7 +817,7 @@
               "comparison": "MMG450WB060B=><MMG400HB120T1A: Output current 400A ≈ 450A (similar), Voltage 1200V > 600V (higher), Package T1A vs WB (different)",
               "reason": "Higher voltage rating for 690V AC systems or applications requiring higher voltage margin",
               "useCase": "690V industrial systems or high-voltage motor drives",
-              "link": "/macmic/products/igbt-modules/mmg400hb120t1a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -832,7 +832,7 @@
                 "Low switching losses"
               ],
               "description": "Matching FRED module for anti-parallel diode applications with 450A IGBT modules",
-              "link": "/macmic/products/fred-modules/mmf450j060d1.html"
+              "link": ""
             },
             {
               "partNumber": "MGD450J060Y1",
@@ -844,7 +844,7 @@
                 "High-power design"
               ],
               "description": "High-current gate driver optimized for 450A IGBT modules",
-              "link": "/macmic/products/gate-drivers/mgd450j060y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMG150HB060T1A",
@@ -856,7 +856,7 @@
                 "Standard T1A package"
               ],
               "description": "Medium-current IGBT module for auxiliary power circuits",
-              "link": "/macmic/products/igbt-modules/mmg150hb060t1a.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1079,7 +1079,7 @@
               "comparison": "MMF100J060D1=><MMF150J060D1: Output current 150A > 100A (+50%), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Higher current rating for applications requiring 50% more current handling in the same package",
               "useCase": "Power PFC Application, 10kWUpgrade 15kW",
-              "link": "/macmic/products/fred-modules/mmf150j060d1.html"
+              "link": ""
             },
             {
               "partNumber": "MMF100J120D1",
@@ -1093,7 +1093,7 @@
               "comparison": "MMF100J060D1=><MMF100J120D1: Output current 100A = 100A ( ), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for 690V AC systems or applications requiring higher voltage margin",
               "useCase": "690V Voltage Application, Output",
-              "link": "/macmic/products/fred-modules/mmf100j120d1.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1107,7 +1107,7 @@
                 "High-speed"
               ],
               "description": "Matching IGBT module for PFC or inverter applications",
-              "link": "/macmic/products/igbt-modules/mmg75hb060h1a.html"
+              "link": "/macmic/products/igbt-modules/mmg75hb060h1a"
             },
             {
               "partNumber": "MMF30J060U1",
@@ -1119,7 +1119,7 @@
                 "TO-247"
               ],
               "description": "Discrete FRED for auxiliary power supply circuits",
-              "link": "/macmic/products/power-discrete/mmf30j060u1.html"
+              "link": ""
             },
             {
               "partNumber": "MGD75J060Y1",
@@ -1130,7 +1130,7 @@
                 "Protection features"
               ],
               "description": "Gate driver for companion IGBT module",
-              "link": "/macmic/products/gate-drivers/mgd75j060y1.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1269,7 +1269,7 @@
               "comparison": "MMF200J120D1=><MMF300J120D1: Output current 300A > 200A (+50%), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Higher current rating for high-power applications requiring 50% more current handling",
               "useCase": "Power Current Application",
-              "link": "/macmic/products/fred-modules/mmf300j120d1.html"
+              "link": ""
             },
             {
               "partNumber": "MMF200J060D1",
@@ -1283,7 +1283,7 @@
               "comparison": "MMF200J120D1=><MMF200J060D1: Output current 200A = 200A ( ), Package D1 = D1 ( ), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with faster recovery time and lower cost",
               "useCase": "400V Application, Restore",
-              "link": "/macmic/products/fred-modules/mmf200j060d1.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1297,7 +1297,7 @@
                 "Cost-effective"
               ],
               "description": "Matching IGBT module for inverter applications",
-              "link": "/macmic/products/igbt-modules/mmg200hb120t1a.html"
+              "link": "/macmic/products/igbt-modules/mmg200hb120t1a"
             },
             {
               "partNumber": "MMF75J120U1",
@@ -1309,7 +1309,7 @@
                 "TO-247"
               ],
               "description": "Discrete FRED for auxiliary circuits",
-              "link": "/macmic/products/power-discrete/mmf75j120u1.html"
+              "link": "/macmic/products/power-discrete/mmf75j120u1"
             },
             {
               "partNumber": "MGD200J120Y1",
@@ -1320,7 +1320,7 @@
                 "Protection features"
               ],
               "description": "Gate driver for companion IGBT module",
-              "link": "/macmic/products/gate-drivers/mgd200j120y1.html"
+              "link": ""
             }
           ],
           "image": "/assets/brands/macmic/images/products/mmf200j120d1.jpg",
@@ -1546,7 +1546,7 @@
               "comparison": "MMG30J060U1=><MMG50J060U1: Output current 50A > 30A (+67%), Package TO-247 = TO-247 ( ), suitable for direct replacement",
               "reason": "Higher current rating for applications requiring more power handling in same TO-247 package",
               "useCase": "Power PFCApplication",
-              "link": "/macmic/products/power-discrete/mmg50j060u1.html"
+              "link": ""
             },
             {
               "partNumber": "MMG30J120U1",
@@ -1560,7 +1560,7 @@
               "comparison": "MMG30J060U1=><MMG30J120U1: Output current 30A = 30A ( ), Package TO-247 = TO-247 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for 690V systems or applications requiring higher voltage margin",
               "useCase": "690V Voltage Application",
-              "link": "/macmic/products/power-discrete/mmg30j120u1.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1575,7 +1575,7 @@
                 "Fast recovery"
               ],
               "description": "Matching FRED discrete for anti-parallel diode applications with MMG30J060U1",
-              "link": "/macmic/products/power-discrete/mmf30j060u1.html"
+              "link": ""
             },
             {
               "partNumber": "MGD30J060Y1",
@@ -1587,7 +1587,7 @@
                 "Isolated drive"
               ],
               "description": "Gate driver optimized for 30A IGBT discrete devices",
-              "link": "/macmic/products/gate-drivers/mgd30j060y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMG75HB060H1A",
@@ -1599,7 +1599,7 @@
                 "High-speed switching"
               ],
               "description": "IGBT module for main power stage when higher current needed",
-              "link": "/macmic/products/igbt-modules/mmg75hb060h1a.html"
+              "link": "/macmic/products/igbt-modules/mmg75hb060h1a"
             }
           ],
           "image": "/assets/brands/macmic/images/products/mmg30j060u1.jpg",
@@ -1738,7 +1738,7 @@
               "comparison": "MMF75J120U1=><MMF100J120U1: Output current 100A > 75A (+33%), Package TO-247 = TO-247 ( ), suitable for direct replacement",
               "reason": "Higher current rating for applications requiring more current handling in same package",
               "useCase": "Power Current Application",
-              "link": "/macmic/products/power-discrete/mmf100j120u1.html"
+              "link": ""
             },
             {
               "partNumber": "MMF75J060U1",
@@ -1752,13 +1752,25 @@
               "comparison": "MMF75J120U1=><MMF75J060U1: Output current 75A = 75A ( ), Package TO-247 = TO-247 ( ), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with faster recovery time and lower cost",
               "useCase": "400V Application, Restore",
-              "link": "/macmic/products/power-discrete/mmf75j060u1.html"
+              "link": ""
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "image": "/assets/brands/macmic/images/products/mmf75j120u1.jpg",
           "faqs": [
@@ -1977,7 +1989,7 @@
               "comparison": "MMO100N060Y1=><MMO150N060Y1: Output current 150A > 100A (+50%), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Higher current with 28% lower RDS(on) for highest efficiency applications",
               "useCase": "Efficiency CurrentService",
-              "link": "/macmic/products/mosfet-modules/mmo150n060y1.html"
+              "link": ""
             },
             {
               "partNumber": "MMO100N100Y1",
@@ -1991,13 +2003,25 @@
               "comparison": "MMO100N060Y1=><MMO100N100Y1: Output current 100A = 100A ( ), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for applications requiring more voltage margin",
               "useCase": "Voltage Application, 72V DC-DC",
-              "link": "/macmic/products/mosfet-modules/mmo100n100y1.html"
+              "link": ""
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "image": "/assets/brands/macmic/images/products/mmo100n060y1.jpg",
           "faqs": [
@@ -2131,7 +2155,7 @@
               "comparison": "MMO200N040Y1=><MMO100N060Y1: Output current 100A < 200A (-50%), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Higher voltage rating for applications requiring more voltage margin, lower current",
               "useCase": "Voltage CurrentRequirement Application",
-              "link": "/macmic/products/mosfet-modules/mmo100n060y1.html"
+              "link": "/macmic/products/mosfet-modules/mmo100n060y1"
             },
             {
               "partNumber": "MMO300N040Y1",
@@ -2145,13 +2169,25 @@
               "comparison": "MMO200N040Y1=><MMO300N040Y1: Output current 300A > 200A (+50%), Package Y1 = Y1 ( ), suitable for direct replacement",
               "reason": "Ultra-high current with even lower RDS(on) for extreme power applications",
               "useCase": "CurrentApplication, Power Pool",
-              "link": "/macmic/products/mosfet-modules/mmo300n040y1.html"
+              "link": ""
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "image": "/assets/brands/macmic/images/products/mmo200n040y1.jpg",
           "faqs": [

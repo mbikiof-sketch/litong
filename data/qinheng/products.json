@@ -253,7 +253,7 @@
               "comparison": "CH340C=><CP2102: Package QFN vs SOP (QinHeng easier to solder), suitable for direct replacement",
               "reason": "Alternative with similar functionality but higher cost",
               "useCase": "Suitable for applications requiring Silicon Labs ecosystem",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FT232RL",
@@ -271,7 +271,7 @@
               },
               "reason": "Higher performance alternative with advanced features",
               "useCase": "Best for high-speed applications requiring 3Mbps+",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -279,31 +279,31 @@
               "partNumber": "CH340G",
               "description": "Variant with external crystal option",
               "category": "USB Converters",
-              "link": "/qinheng/products/usb-serial-converters/ch340g.html"
+              "link": "/qinheng/products/usb-serial-converters/ch340g"
             },
             {
               "partNumber": "USB-CONN",
               "description": "USB Type-B or Micro-USB connector",
               "category": "Connectors",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CH340-EVAL",
               "description": "Evaluation board for quick testing",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F103",
               "description": "MCU for USB-to-serial applications",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CH340-DRIVER",
               "description": "Windows driver package",
               "category": "Software",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -660,7 +660,7 @@
               "comparison": "CH32V307=><STM32F407: Frequency 168MHz > 144MHz (STM faster), suitable for direct replacement",
               "reason": "Higher performance alternative with more memory",
               "useCase": "Best for applications requiring >256KB Flash",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -668,7 +668,7 @@
               "partNumber": "WCH-Link",
               "description": "Debugger/programmer for CH32 MCUs",
               "category": "Development Tools",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -978,7 +978,7 @@
               },
               "reason": "Higher performance alternative with more memory",
               "useCase": "Best for complex applications requiring 1MB Flash",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -986,7 +986,7 @@
               "partNumber": "CH579",
               "description": "Lower cost BLE 4.2 alternative",
               "category": "Wireless",
-              "link": "/qinheng/products/wireless-connectivity/ch579.html"
+              "link": "/qinheng/products/wireless-connectivity/ch579"
             }
           ],
           "faqs": [
@@ -1290,7 +1290,7 @@
               },
               "reason": "Higher performance alternative",
               "useCase": "Best for USB HS requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1298,7 +1298,7 @@
               "partNumber": "CH341",
               "description": "Lower cost UART/SPI/I2C option",
               "category": "USB Converters",
-              "link": "/qinheng/products/usb-serial-converters/ch341.html"
+              "link": "/qinheng/products/interface-bridges/ch341"
             }
           ],
           "faqs": [

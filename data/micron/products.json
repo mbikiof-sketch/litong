@@ -207,7 +207,7 @@
               "comparison": "MT40A1G8WE-075E=><K4A8G165WB-BCRC: Package 78-ball FBGA = 78-ball FBGA, suitable for direct replacement",
               "reason": "Similar performance but narrower temperature range, suitable for commercial applications",
               "useCase": "Cost-sensitive commercial applications not requiring industrial temperature",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "H5AN8G8NDJR-XNC",
@@ -222,7 +222,7 @@
               "comparison": "MT40A1G8WE-075E=><H5AN8G8NDJR-XNC: Package 78-ball FBGA = 78-ball FBGA, suitable for direct replacement",
               "reason": "Equivalent industrial-grade alternative with same specifications",
               "useCase": "Second source for industrial applications requiring supply chain diversity",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -230,25 +230,25 @@
               "partNumber": "MT40A1G8WE-075E",
               "category": "DRAM",
               "description": "Additional DDR4 devices for multi-rank configurations",
-              "link": "#"
+              "link": "/micron/products/dram-memory/mt40a1g8we-075e"
             },
             {
               "partNumber": "TPS54331",
               "category": "Power Management",
               "description": "DDR4 power supply with 1.2V output regulation",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "SN74AVC16T245",
               "category": "Logic",
               "description": "Level translator for DDR4 interface signals",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMP117",
               "category": "Temperature Sensor",
               "description": "Precision temperature monitoring for thermal management",
-              "link": "#"
+              "link": "/ti/products/sensors/tmp117"
             }
           ],
           "faqs": [
@@ -360,7 +360,7 @@
               "comparison": "MT62F1G32D4DR-031=><M321R4GA3BB6-CQK: Package 288-ball FBGA = 288-ball FBGA, suitable for direct replacement",
               "reason": "Lower speed grade suitable for platforms not supporting 6400 MT/s",
               "useCase": "DDR5 platforms with lower speed requirements or cost optimization",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HMCG88MEBRA115N",
@@ -375,7 +375,7 @@
               "comparison": "MT62F1G32D4DR-031=><HMCG88MEBRA115N: Package 288-ball FBGA = 288-ball FBGA, suitable for direct replacement",
               "reason": "Comparable temperature range with slightly lower speed",
               "useCase": "Alternative source for high-reliability DDR5 applications",
-              "link": "#"
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n"
             }
           ],
           "companionParts": [
@@ -383,25 +383,25 @@
               "partNumber": "MT62F1G32D4DR-031",
               "category": "DRAM",
               "description": "Additional DDR5 devices for multi-rank server configurations",
-              "link": "#"
+              "link": "/micron/products/dram-memory/mt62f1g32d4dr-031"
             },
             {
               "partNumber": "TPS7A47",
               "category": "LDO",
               "description": "Ultra-low noise LDO for DDR5 1.1V VDD supply",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS54331",
               "category": "DC-DC Converter",
               "description": "Step-down converter for DDR5 PMIC power",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "INA219",
               "category": "Current Sensor",
               "description": "Power monitoring for DDR5 power management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -513,7 +513,7 @@
               "comparison": "MT53E512M32D2NP-046=><K3LK7K70BM: Package 315-ball FBGA = 315-ball FBGA, suitable for direct replacement",
               "reason": "Slightly lower speed grade for cost-sensitive mobile applications",
               "useCase": "Mid-range smartphones and tablets",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -521,13 +521,13 @@
               "partNumber": "MT53E512M32D2NP-046",
               "category": "DRAM",
               "description": "Additional LPDDR5 devices for multi-channel configurations",
-              "link": "#"
+              "link": "/micron/products/dram-memory/mt53e512m32d2np-046"
             },
             {
               "partNumber": "TPS62840",
               "category": "Power Management",
               "description": "Ultra-low IQ buck converter for LPDDR5 power supply",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -609,7 +609,7 @@
               "comparison": "MT41K512M16HA-125=><MT41K256M16HA-125: Package 96-ball FBGA = 96-ball FBGA, suitable for direct replacement",
               "reason": "Lower density for cost-sensitive applications",
               "useCase": "Applications not requiring full 8Gb capacity",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -617,13 +617,13 @@
               "partNumber": "TPS51200",
               "category": "Power Management",
               "description": "DDR3/DDR3L power supply with VTT termination",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMP75",
               "category": "Temperature Sensor",
               "description": "Temperature monitoring for thermal management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -759,7 +759,7 @@
               "comparison": "Similar density and performance, compatible interface",
               "reason": "Alternative source for supply chain diversity",
               "useCase": "Second source for enterprise SSD designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -767,7 +767,7 @@
               "partNumber": "88SS1098",
               "category": "SSD Controller",
               "description": "PCIe Gen3 x4 SSD controller for NAND Flash",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

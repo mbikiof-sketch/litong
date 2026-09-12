@@ -189,7 +189,7 @@
               "comparison": "AW87318=><AW87319: Efficiency >90% = >90% (same), Package WCSP-25 = WCSP-25 (same), suitable for direct replacement",
               "reason": "Higher output power for applications requiring louder sound.",
               "useCase": "Use for flagship smartphones requiring maximum audio performance.",
-              "link": "/awinic/products/audio-amplifiers/aw87319.html"
+              "link": ""
             },
             {
               "partNumber": "AW8733",
@@ -202,31 +202,31 @@
               "comparison": "AW87318=><AW8733: Efficiency >90% = >90% (same), Package WCSP-20 < WCSP-25 (smaller), suitable for direct replacement",
               "reason": "Lower power and smaller package for mainstream applications.",
               "useCase": "Use for mid-range smartphones where lower cost is priority.",
-              "link": "/awinic/products/audio-amplifiers/aw8733.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger IC for smartphone power management",
               "category": "Power Management"
             },
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for antenna switching applications",
               "category": "RF Front-End"
             },
             {
               "partNumber": "AW2023",
-              "link": "/awinic/products/led-drivers/aw2023.html",
+              "link": "/awinic/products/led-drivers/aw2023",
               "description": "Backlight LED driver for display applications",
               "category": "LED Driver"
             },
             {
               "partNumber": "Speaker Protection Module",
-              "link": "#",
+              "link": "",
               "description": "External speaker protection for high-power applications",
               "category": "Accessories"
             }
@@ -343,7 +343,7 @@
               "comparison": "AW8737=><AW8738: Efficiency >90% = >90% (same), Package WCSP-16 = WCSP-16 (same), suitable for direct replacement",
               "reason": "Higher output power for applications requiring louder sound.",
               "useCase": "Use for applications requiring more output power with same footprint.",
-              "link": "/awinic/products/audio-amplifiers/aw8738.html"
+              "link": ""
             },
             {
               "partNumber": "AW8735",
@@ -356,31 +356,31 @@
               "comparison": "AW8737=><AW8735: Efficiency >90% = >90% (same), Package WCSP-12 < WCSP-16 (smaller), suitable for direct replacement",
               "reason": "Lower power and smaller package for compact designs.",
               "useCase": "Use for wearable and compact IoT applications.",
-              "link": "/awinic/products/audio-amplifiers/aw8735.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3210",
-              "link": "/awinic/products/power-management/aw3210.html",
+              "link": "",
               "description": "Linear charger for battery-powered applications",
               "category": "Power Management"
             },
             {
               "partNumber": "AW2020",
-              "link": "/awinic/products/led-drivers/aw2020.html",
+              "link": "",
               "description": "Flash LED driver for camera applications",
               "category": "LED Driver"
             },
             {
               "partNumber": "AW5001",
-              "link": "/awinic/products/rf-front-end/aw5001.html",
+              "link": "",
               "description": "Single-pole double-throw RF switch",
               "category": "RF Front-End"
             },
             {
               "partNumber": "Audio Filter",
-              "link": "#",
+              "link": "",
               "description": "Passive LC filter for EMI reduction",
               "category": "Passive Components"
             }
@@ -498,7 +498,7 @@
               "comparison": "AW87329=><MAX98357A: Efficiency 92% > 90% (higher), suitable for direct replacement",
               "reason": "Maxim offers I2S input but at higher cost",
               "useCase": "Applications requiring digital audio input",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPA2010D1",
@@ -511,25 +511,25 @@
               "comparison": "AW87329=><TPA2010D1: Efficiency 90% = 90% (same), Package QFN vs WLCSP (different), suitable for direct replacement",
               "reason": "TI offers similar performance with QFN package option",
               "useCase": "Applications requiring QFN package",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for high-performance applications",
               "category": "Audio Amplifiers"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management-ics/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for power management",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AW2023",
-              "link": "/awinic/products/led-drivers/aw2023.html",
+              "link": "/awinic/products/led-drivers/aw2023",
               "description": "LED driver for indicator lights",
               "category": "LED Drivers"
             }
@@ -637,7 +637,7 @@
               "comparison": "AW8735 has higher output power (1.5W vs 1.2W) but higher quiescent current (1.2mA vs 0.5mA); AW87359 offers better efficiency (92% vs 90%) and lower standby power; AW8735 has more mature ecosystem and reference designs; AW87359 is optimized for latest wearable designs; Choose AW8735 for higher power requirements, AW87359 for maximum battery life",
               "reason": "Higher quiescent current, less optimized for wearables",
               "useCase": "Applications requiring slightly higher output power",
-              "link": "/awinic/products/audio-amplifiers/aw8735.html"
+              "link": ""
             },
             {
               "partNumber": "MAX98360",
@@ -650,25 +650,25 @@
               "comparison": "MAX98360 has higher output power (1.4W vs 1.2W) but slightly higher quiescent current (0.7mA vs 0.5mA); AW87359 offers better efficiency (92% vs 90%) and lower power consumption; Maxim has broader market presence and extensive documentation; AW87359 provides better cost-effectiveness for high-volume wearables; Both offer similar package sizes; Choose MAX98360 for established ecosystem, AW87359 for lowest power and cost optimization",
               "reason": "Higher quiescent current, higher cost",
               "useCase": "Applications requiring Maxim ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for wearable power management",
               "category": "Power Management"
             },
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for Bluetooth connectivity",
               "category": "RF Front-End"
             },
             {
               "partNumber": "AW2023",
-              "link": "/awinic/products/led-drivers/aw2023.html",
+              "link": "/awinic/products/led-drivers/aw2023",
               "description": "LED driver for notification indicators",
               "category": "LED Driver"
             }
@@ -862,7 +862,7 @@
               "comparison": "AW3215=><AW3216: Input voltage 4.0V-20V > 4.0V-13.5V (higher), Package QFN-24 > QFN-20 (larger), suitable for direct replacement",
               "reason": "Higher charge current and wider input range for premium fast charging.",
               "useCase": "Use for flagship smartphones requiring maximum charging speed.",
-              "link": "/awinic/products/power-management/aw3216.html"
+              "link": ""
             },
             {
               "partNumber": "AW3210",
@@ -875,31 +875,31 @@
               "comparison": "AW3215=><AW3210: Input voltage 4.5V-6.5V < 4.0V-13.5V (narrower), Package SOT-23-5 < QFN-20 (smaller), suitable for direct replacement",
               "reason": "Linear charger for cost-sensitive, low-power applications.",
               "useCase": "Use for low-cost applications with standard charging requirements.",
-              "link": "/awinic/products/power-management/aw3210.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for smartphone audio applications",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "AW3605",
-              "link": "/awinic/products/power-management/aw3605.html",
+              "link": "/awinic/products/power-management/aw3605",
               "description": "Buck converter for system power",
               "category": "DC-DC Converter"
             },
             {
               "partNumber": "AW3710",
-              "link": "/awinic/products/power-management/aw3710.html",
+              "link": "/awinic/products/power-management/aw3710",
               "description": "LDO for noise-sensitive analog circuits",
               "category": "LDO"
             },
             {
               "partNumber": "Battery Protection IC",
-              "link": "#",
+              "link": "",
               "description": "Secondary protection for Li-ion batteries",
               "category": "Battery Management"
             }
@@ -1024,7 +1024,7 @@
               "comparison": "AW3605=><AW3606: Input voltage 2.5V-5.5V = 2.5V-5.5V (same), Output current 3A > 2A (+50%), Package SOT-23-6 > SOT-23-5 (larger), suitable for direct replacement",
               "reason": "Higher current capability for applications requiring more power.",
               "useCase": "Use for applications requiring up to 3A output current.",
-              "link": "/awinic/products/power-management/aw3606.html"
+              "link": ""
             },
             {
               "partNumber": "AW3710",
@@ -1037,31 +1037,31 @@
               "comparison": "AW3605=><AW3710: Input voltage 1.8V-5.5V = 2.5V-5.5V (similar), Output current 300mA < 2A (-85%), Package SOT-23-3 < SOT-23-5 (smaller), suitable for direct replacement",
               "reason": "LDO for noise-sensitive applications with lower current requirements.",
               "useCase": "Use for RF or analog circuits requiring clean supply voltage.",
-              "link": "/awinic/products/power-management/aw3710.html"
+              "link": "/awinic/products/power-management/aw3710"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for complete power management",
               "category": "Battery Charger"
             },
             {
               "partNumber": "AW8737",
-              "link": "/awinic/products/audio-amplifiers/aw8737.html",
+              "link": "/awinic/products/audio-amplifiers/aw8737",
               "description": "Audio amplifier for system audio",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for wireless connectivity",
               "category": "RF Front-End"
             },
             {
               "partNumber": "Power Inductor",
-              "link": "#",
+              "link": "",
               "description": "2.2uH shielded inductor for buck converter",
               "category": "Passive Components"
             }
@@ -1187,7 +1187,7 @@
               "comparison": "AW3210 is a linear charger with lower cost but lower efficiency (85% vs 90%+); AW3215 offers switching topology with better efficiency and less heat; AW3210 has smaller package (SOT-23-5 vs QFN-16); AW3215 supports higher current (2A vs 1A); AW3210 suitable for low-cost applications; AW3215 better for fast charging and thermally constrained designs",
               "reason": "Lower efficiency, lower charging current",
               "useCase": "Cost-sensitive applications with lower charging requirements",
-              "link": "/awinic/products/power-management/aw3210.html"
+              "link": ""
             },
             {
               "partNumber": "BQ24295",
@@ -1200,25 +1200,25 @@
               "comparison": "BQ24295 supports higher charging current (3A vs 2A) with similar efficiency; AW3215 has simpler design and lower BOM cost; TI offers extensive documentation and support; AW3215 provides better local support and faster response; BQ24295 has more advanced features; AW3215 easier to implement for standard applications; Choose BQ24295 for maximum current and features, AW3215 for cost-effective standard charging",
               "reason": "Higher cost, more complex implementation",
               "useCase": "Applications requiring >2A charging current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3605",
-              "link": "/awinic/products/power-management/aw3605.html",
+              "link": "/awinic/products/power-management/aw3605",
               "description": "Buck converter for system power regulation",
               "category": "DC-DC Converter"
             },
             {
               "partNumber": "AW3710",
-              "link": "/awinic/products/power-management/aw3710.html",
+              "link": "/awinic/products/power-management/aw3710",
               "description": "LDO for noise-sensitive analog circuits",
               "category": "LDO"
             },
             {
               "partNumber": "AW8737",
-              "link": "/awinic/products/audio-amplifiers/aw8737.html",
+              "link": "/awinic/products/audio-amplifiers/aw8737",
               "description": "Audio amplifier for system audio",
               "category": "Audio Amplifier"
             }
@@ -1304,7 +1304,7 @@
               "comparison": "AW3715 offers higher current (500mA vs 300mA) but higher noise (30μV vs 20μV) and lower PSRR (65dB vs 75dB); AW3710 optimized for lowest noise; AW3715 better for higher current applications; AW3710 preferred for most sensitive analog circuits; Both offer similar package options; Choose AW3715 if higher current needed, AW3710 for lowest noise",
               "reason": "Higher noise, lower PSRR",
               "useCase": "Applications requiring higher output current",
-              "link": "/awinic/products/power-management/aw3715.html"
+              "link": ""
             },
             {
               "partNumber": "TPS7A91",
@@ -1317,25 +1317,25 @@
               "comparison": "TPS7A91 has lower noise (4.7μV vs 20μV) and higher PSRR (80dB vs 75dB); AW3710 offers better cost-effectiveness and local support; TI has extensive documentation and simulation tools; AW3710 has faster local FAE response; TPS7A91 more expensive but premium performance; Choose TPS7A91 for laboratory-grade precision, AW3710 for cost-effective good performance",
               "reason": "Higher cost, premium positioning",
               "useCase": "Laboratory and test equipment requiring lowest noise",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3605",
-              "link": "/awinic/products/power-management/aw3605.html",
+              "link": "/awinic/products/power-management/aw3605",
               "description": "Buck converter for main system power",
               "category": "DC-DC Converter"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for power management",
               "category": "Battery Charger"
             },
             {
               "partNumber": "AW8737",
-              "link": "/awinic/products/audio-amplifiers/aw8737.html",
+              "link": "/awinic/products/audio-amplifiers/aw8737",
               "description": "Audio amplifier for system audio",
               "category": "Audio Amplifier"
             }
@@ -1421,7 +1421,7 @@
               "comparison": "Discrete solution offers more flexibility in channel configuration; AW3320 provides better integration and lower total quiescent current (50μA vs 80μA); Discrete solution requires more board space and BOM complexity; AW3320 offers I2C control for all channels; Discrete approach better for simple 2-rail systems; AW3320 preferred for 3+ rail wearable designs; Cost similar but AW3320 reduces assembly complexity",
               "reason": "Less integration, higher quiescent current",
               "useCase": "Simple designs with only 2 power rails",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX77658",
@@ -1434,25 +1434,25 @@
               "comparison": "MAX77658 offers lower quiescent current (25μA vs 50μA) and more buck channels; AW3320 provides better cost-effectiveness and local support; Maxim has extensive wearable PMIC portfolio; AW3320 optimized for typical smartwatch power tree; MAX77658 has smaller package option; AW3320 easier to source in China market; Choose MAX77658 for lowest power, AW3320 for cost-optimized wearable designs",
               "reason": "Higher cost, premium positioning",
               "useCase": "Ultra-low power wearable applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for complete power management",
               "category": "Battery Charger"
             },
             {
               "partNumber": "AW87359",
-              "link": "/awinic/products/audio-amplifiers/aw87359.html",
+              "link": "/awinic/products/audio-amplifiers/aw87359",
               "description": "Ultra-low power audio amplifier",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for Bluetooth connectivity",
               "category": "RF Front-End"
             }
@@ -1630,7 +1630,7 @@
               },
               "reason": "Improved linearity and lower loss for premium applications.",
               "useCase": "Use for flagship 5G smartphones requiring maximum RF performance.",
-              "link": "/awinic/products/rf-front-end/aw5006.html"
+              "link": ""
             },
             {
               "partNumber": "AW5003",
@@ -1647,31 +1647,31 @@
               },
               "reason": "Lower cost for 4G applications not requiring 5G frequencies.",
               "useCase": "Use for 4G LTE-only smartphones and cost-sensitive applications.",
-              "link": "/awinic/products/rf-front-end/aw5003.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW5010",
-              "link": "/awinic/products/rf-front-end/aw5010.html",
+              "link": "/awinic/products/rf-front-end/aw5010",
               "description": "LNA bank for receiver sensitivity enhancement",
               "category": "LNA"
             },
             {
               "partNumber": "AW5020",
-              "link": "/awinic/products/rf-front-end/aw5020.html",
+              "link": "/awinic/products/rf-front-end/aw5020",
               "description": "Antenna tuner for multi-band optimization",
               "category": "Antenna Tuning"
             },
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for smartphone audio",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "SAW Filter",
-              "link": "#",
+              "link": "",
               "description": "Band-pass filter for interference rejection",
               "category": "RF Filter"
             }
@@ -1796,7 +1796,7 @@
               },
               "reason": "Improved noise figure and higher gain for maximum sensitivity.",
               "useCase": "Use for flagship smartphones requiring best possible receiver performance.",
-              "link": "/awinic/products/rf-front-end/aw5011.html"
+              "link": ""
             },
             {
               "partNumber": "AW5008",
@@ -1813,31 +1813,31 @@
               },
               "reason": "Lower cost for 4G applications not requiring 5G frequencies.",
               "useCase": "Use for 4G LTE-only smartphones and cost-sensitive applications.",
-              "link": "/awinic/products/rf-front-end/aw5008.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "SPDT RF switch for antenna switching",
               "category": "RF Switch"
             },
             {
               "partNumber": "AW5020",
-              "link": "/awinic/products/rf-front-end/aw5020.html",
+              "link": "/awinic/products/rf-front-end/aw5020",
               "description": "Antenna tuner for impedance matching",
               "category": "Antenna Tuning"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for system power",
               "category": "Power Management"
             },
             {
               "partNumber": "Band-pass Filter",
-              "link": "#",
+              "link": "",
               "description": "Ceramic filter for out-of-band rejection",
               "category": "RF Filter"
             }
@@ -1963,7 +1963,7 @@
               },
               "reason": "Qorvo offers slightly better performance but at higher cost",
               "useCase": "Applications requiring maximum RF performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SKY58260",
@@ -1981,25 +1981,25 @@
               },
               "reason": "Skyworks offers slightly better NF and gain at higher cost",
               "useCase": "Applications requiring maximum RF performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end-modules/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for antenna switching",
               "category": "RF Front-End Modules"
             },
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Audio amplifier for voice applications",
               "category": "Audio Amplifiers"
             },
             {
               "partNumber": "AW5020",
-              "link": "/awinic/products/rf-front-end/aw5020.html",
+              "link": "/awinic/products/rf-front-end/aw5020",
               "description": "Antenna tuner for optimal RF performance",
               "category": "RF Front-End"
             }
@@ -2110,7 +2110,7 @@
               "comparison": "AW5020=><QAT3514: Frequency 0.6-6GHz = 0.6-6GHz (same), suitable for direct replacement",
               "reason": "Qorvo offers more tuning states but at higher cost",
               "useCase": "Applications requiring maximum tuning resolution",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "QAT3514",
@@ -2123,25 +2123,25 @@
               "comparison": "AW5020=><QAT3514: Frequency 0.6-6GHz = 0.6-6GHz (same), suitable for direct replacement",
               "reason": "Qorvo offers more tuning states but at higher cost",
               "useCase": "Applications requiring maximum tuning resolution",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end-modules/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for antenna diversity",
               "category": "RF Front-End Modules"
             },
             {
               "partNumber": "AW5012",
-              "link": "/awinic/products/rf-front-end-modules/aw5012.html",
+              "link": "/awinic/products/rf-front-end/aw5012",
               "description": "LNA bank for receiver amplification",
               "category": "RF Front-End Modules"
             },
             {
               "partNumber": "AW5012",
-              "link": "/awinic/products/rf-front-end/aw5012.html",
+              "link": "/awinic/products/rf-front-end/aw5012",
               "description": "LNA bank for receiver amplification",
               "category": "RF Front-End"
             }
@@ -2351,7 +2351,7 @@
               "comparison": "AW2023=><AW2024: Output current 40mA > 30mA (+33%), Package QFN-24 > QFN-20 (larger), suitable for direct replacement",
               "reason": "More channels and higher current for larger displays.",
               "useCase": "Use for tablets and large smartphone displays requiring more LED strings.",
-              "link": "/awinic/products/led-drivers/aw2024.html"
+              "link": ""
             },
             {
               "partNumber": "AW2020",
@@ -2364,31 +2364,31 @@
               "comparison": "AW2023=><AW2020: Output current 30mA = 30mA (same), Package QFN-16 < QFN-20 (smaller), suitable for direct replacement",
               "reason": "Fewer channels for smaller displays with reduced cost.",
               "useCase": "Use for compact smartphones and small displays.",
-              "link": "/awinic/products/led-drivers/aw2020.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for smartphone audio",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for system power",
               "category": "Power Management"
             },
             {
               "partNumber": "AW5005",
-              "link": "/awinic/products/rf-front-end/aw5005.html",
+              "link": "/awinic/products/rf-front-end/aw5005",
               "description": "RF switch for wireless connectivity",
               "category": "RF Front-End"
             },
             {
               "partNumber": "White LEDs",
-              "link": "#",
+              "link": "",
               "description": "High-brightness white LEDs for backlight",
               "category": "LEDs"
             }
@@ -2511,7 +2511,7 @@
               "comparison": "AW2030=><AW2031: Output current 2.0A > 1.5A (+33%), Package WCSP-12 > WCSP-9 (larger), suitable for direct replacement",
               "reason": "Higher current for maximum flash brightness in premium cameras.",
               "useCase": "Use for flagship smartphones requiring brightest flash illumination.",
-              "link": "/awinic/products/led-drivers/aw2031.html"
+              "link": ""
             },
             {
               "partNumber": "AW2020",
@@ -2523,31 +2523,31 @@
               "comparison": "AW2030=><AW2020: Output current 500mA < 1.5A (-67%), Package SOT-23-5 > WCSP-9 (easier assembly), suitable for direct replacement",
               "reason": "Lower current for cost-sensitive applications with basic flash needs.",
               "useCase": "Use for entry-level smartphones with moderate flash requirements.",
-              "link": "/awinic/products/led-drivers/aw2020.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for smartphone audio",
               "category": "Audio Amplifier"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for system power",
               "category": "Power Management"
             },
             {
               "partNumber": "High-Power LED",
-              "link": "#",
+              "link": "",
               "description": "High-brightness white LED for flash",
               "category": "LEDs"
             },
             {
               "partNumber": "Diffuser Lens",
-              "link": "#",
+              "link": "",
               "description": "Optical diffuser for even illumination",
               "category": "Optics"
             }
@@ -2672,7 +2672,7 @@
               "comparison": "AW21024=><LP5036: Output current 25mA > 20mA (higher), suitable for direct replacement",
               "reason": "TI offers more channels but at higher cost",
               "useCase": "Applications requiring more than 24 LED channels",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IS31FL3237",
@@ -2690,25 +2690,25 @@
               },
               "reason": "Lumissil offers more channels but lower PWM resolution",
               "useCase": "Cost-sensitive applications with many LEDs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW2023",
-              "link": "/awinic/products/led-drivers/aw2023.html",
+              "link": "/awinic/products/led-drivers/aw2023",
               "description": "Backlight driver for display applications",
               "category": "LED Drivers"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management-ics/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for power management",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Audio amplifier for notification sounds",
               "category": "Audio Amplifiers"
             }
@@ -2823,7 +2823,7 @@
               "comparison": "AW3640 is single-channel with 1A maximum current; AW3644 offers dual channels with 1.5A per channel; AW3640 has smaller package and lower cost; AW3644 provides more flexibility for dual-LED configurations; AW3640 suitable for basic single-LED flash; AW3644 better for advanced camera systems with dual-LED; Choose AW3640 for cost-sensitive single-LED designs, AW3644 for premium dual-LED camera systems",
               "reason": "Single channel, lower current capability",
               "useCase": "Basic single-LED flash applications",
-              "link": "/awinic/products/led-drivers/aw3640.html"
+              "link": ""
             },
             {
               "partNumber": "LM3554",
@@ -2836,25 +2836,25 @@
               "comparison": "LM3554 offers similar package size but single channel only (1.2A vs AW3644's dual 1.5A); AW3644 provides higher total output capability; TI has extensive documentation and mature ecosystem; AW3644 offers better cost-effectiveness for high-volume smartphones; LM3554 has longer market presence; AW3644 optimized for latest dual-LED camera modules; Choose LM3554 for established TI ecosystem, AW3644 for dual-channel flexibility and cost optimization",
               "reason": "Single channel, higher cost",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AW2023",
-              "link": "/awinic/products/led-drivers/aw2023.html",
+              "link": "/awinic/products/led-drivers/aw2023",
               "description": "Backlight driver for display applications",
               "category": "LED Drivers"
             },
             {
               "partNumber": "AW3215",
-              "link": "/awinic/products/power-management/aw3215.html",
+              "link": "/awinic/products/power-management/aw3215",
               "description": "Battery charger for power management",
               "category": "Power Management"
             },
             {
               "partNumber": "AW87318",
-              "link": "/awinic/products/audio-amplifiers/aw87318.html",
+              "link": "/awinic/products/audio-amplifiers/aw87318",
               "description": "Smart PA for camera shutter sound",
               "category": "Audio Amplifier"
             }

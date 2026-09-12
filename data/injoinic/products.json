@@ -195,7 +195,7 @@
               "comparison": "IP2723T=><Cypress CYPD3177: Package QFN-24 = QFN-24 (same), suitable for direct replacement",
               "reason": "Injoinic IP2723T offers broader protocol support including QC, SCP, FCP while maintaining similar PD capabilities",
               "useCase": "Use IP2723T when multi-protocol compatibility is required; CYPD3177 for PD-only applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FP6606",
@@ -208,7 +208,7 @@
               "comparison": "IP2723T=><FP6606: Output current 5A > 3A (+67%, higher current), Package QFN-24 vs SOP-8 (different), suitable for direct replacement",
               "reason": "IP2723T supports higher voltage and current with more protocols including PD",
               "useCase": "IP2723T for high-power PD applications; FP6606 for basic QC applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -216,25 +216,25 @@
               "partNumber": "IP6538",
               "description": "Synchronous buck-boost converter for power bank applications",
               "category": "Power Management",
-              "link": "/injoinic/products/power-management-ics/ip6538.html"
+              "link": "/injoinic/products/power-management-ics/ip6538"
             },
             {
               "partNumber": "IP2726",
               "description": "Dual-port fast charging controller for multi-port designs",
               "category": "Protocol IC",
-              "link": "/injoinic/products/fast-charging-protocol-ics/ip2726.html"
+              "link": "/injoinic/products/fast-charging-protocol-ics/ip2726"
             },
             {
               "partNumber": "Type-C Connector",
               "description": "USB Type-C receptacle with CC pins for PD communication",
               "category": "Connector",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Power MOSFET",
               "description": "Low Rds(on) MOSFET for power path switching",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -362,7 +362,7 @@
               },
               "reason": "IP2726 offers dual-port capability with intelligent allocation versus single-port CYPD3171",
               "useCase": "IP2726 for dual-port designs; CYPD3171 for single high-power PD applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SW3518",
@@ -380,7 +380,7 @@
               },
               "reason": "IP2726 supports higher power and more protocols including PD 3.1 PPS",
               "useCase": "IP2726 for high-power multi-protocol designs; SW3518 for basic dual-port QC",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -388,25 +388,25 @@
               "partNumber": "IP6538",
               "description": "Synchronous buck-boost converter for power stage",
               "category": "Power Management",
-              "link": "/injoinic/products/power-management-ics/ip6538.html"
+              "link": "/injoinic/products/power-management-ics/ip6538"
             },
             {
               "partNumber": "IP2723T",
               "description": "Single-port controller for expansion designs",
               "category": "Protocol IC",
-              "link": "/injoinic/products/fast-charging-protocol-ics/ip2723t.html"
+              "link": "/injoinic/products/fast-charging-protocol-ics/ip2723t"
             },
             {
               "partNumber": "Type-C Connectors",
               "description": "Dual USB Type-C receptacles for two ports",
               "category": "Connector",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Current Sense Resistors",
               "description": "Precision resistors for current monitoring",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -713,7 +713,7 @@
               "comparison": "IP6538=><TPS63020: Efficiency 96% = 96% (similar), suitable for direct replacement",
               "reason": "IP6538 supports wider voltage range and higher output voltage than TPS63020",
               "useCase": "IP6538 for wide-range applications; TPS63020 for low-voltage designs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LTC3780",
@@ -727,7 +727,7 @@
               "comparison": "IP6538=><LTC3780: Package QFN-24 < TSSOP-24 (smaller), suitable for direct replacement",
               "reason": "IP6538 offers higher integration in smaller package for lower power applications",
               "useCase": "IP6538 for compact sub-20W designs; LTC3780 for high-power applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -735,25 +735,25 @@
               "partNumber": "IP2723T",
               "description": "Protocol IC for USB PD fast charging applications",
               "category": "Protocol IC",
-              "link": "/injoinic/products/fast-charging-protocol-ics/ip2723t.html"
+              "link": "/injoinic/products/fast-charging-protocol-ics/ip2723t"
             },
             {
               "partNumber": "IP3005",
               "description": "Battery protection IC for lithium battery packs",
               "category": "Battery Management",
-              "link": "/injoinic/products/battery-management-ics/ip3005.html"
+              "link": "/injoinic/products/battery-management-ics/ip3005"
             },
             {
               "partNumber": "Power Inductor",
               "description": "Shielded inductor for buck-boost converter",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MLCC Capacitors",
               "description": "Low ESR ceramic capacitors for input/output filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -881,7 +881,7 @@
               "comparison": "IP5306=><SW6106: Package ESOP-8 = ESOP-8 (same), suitable for direct replacement",
               "reason": "Both offer similar integration; IP5306 has proven reliability in mass production",
               "useCase": "IP5306 for proven designs; SW6106 for higher output current needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TP5400",
@@ -899,7 +899,7 @@
               },
               "reason": "IP5306 offers higher power and more integration than basic alternatives",
               "useCase": "IP5306 for feature-rich designs; TP5400 for very basic applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -907,25 +907,25 @@
               "partNumber": "Lithium Battery",
               "description": "18650 or polymer lithium battery cell",
               "category": "Battery",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "USB Connectors",
               "description": "USB-A and Micro-USB connectors",
               "category": "Connector",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LEDs",
               "description": "Battery level indicator LEDs",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Inductor",
               "description": "Power inductor for boost converter",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1248,7 +1248,7 @@
               },
               "reason": "IP6808 supports higher power and more Qi profiles than basic alternatives",
               "useCase": "IP6808 for fast wireless charging; BQ500212A for basic 5W applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IDT P9242",
@@ -1266,7 +1266,7 @@
               },
               "reason": "IP6808 offers similar performance with better cost and local support",
               "useCase": "IP6808 for cost-sensitive designs; P9242 for specific feature requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1274,25 +1274,25 @@
               "partNumber": "IP6806",
               "description": "Wireless power receiver IC for device integration",
               "category": "Wireless Charging",
-              "link": "/injoinic/products/wireless-charging-ics/ip6806.html"
+              "link": "/injoinic/products/wireless-charging-ics/ip6806"
             },
             {
               "partNumber": "TX Coil",
               "description": "Qi transmitter coil (A11 or custom)",
               "category": "Coil",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Power Stage MOSFETs",
               "description": "External MOSFETs for full-bridge (if needed)",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Resonant Capacitors",
               "description": "High-Q capacitors for resonant tank",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1417,7 +1417,7 @@
               "comparison": "IP6806=><BQ51013B: Package WLCSP = DSBGA (similar), suitable for direct replacement",
               "reason": "IP6806 offers similar performance with better cost-effectiveness",
               "useCase": "IP6806 for cost-sensitive designs; BQ51013B for specific compatibility needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "P9025AC",
@@ -1435,7 +1435,7 @@
               },
               "reason": "IP6806 provides local support and reliable supply chain",
               "useCase": "IP6806 for new designs with local support; P9025AC for existing designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1443,25 +1443,25 @@
               "partNumber": "IP6808",
               "description": "Wireless transmitter IC for charging pad designs",
               "category": "Wireless Charging",
-              "link": "/injoinic/products/wireless-charging-ics/ip6808.html"
+              "link": "/injoinic/products/wireless-charging-ics/ip6808"
             },
             {
               "partNumber": "RX Coil",
               "description": "Qi receiver coil for device integration",
               "category": "Coil",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Battery Charger",
               "description": "Linear or switching charger for battery charging",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Resonant Capacitor",
               "description": "Matching capacitor for receiver coil",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1773,7 +1773,7 @@
               "comparison": "IP3005=><DW01: Output current Similar = Similar, Package SOT23-6 = SOT23-6 (same), suitable for direct replacement",
               "reason": "IP3005 offers equivalent protection with competitive pricing",
               "useCase": "IP3005 as alternative to DW01 with similar performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "S-8261",
@@ -1786,7 +1786,7 @@
               "comparison": "IP3005=><S-8261: Package SOT23-6 vs SNT-6A (different), suitable for direct replacement",
               "reason": "IP3005 provides similar protection in more common package with better availability",
               "useCase": "IP3005 for cost-sensitive designs; S-8261 for specific threshold requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1794,25 +1794,25 @@
               "partNumber": "IP6538",
               "description": "Buck-boost converter for power bank applications",
               "category": "Power Management",
-              "link": "/injoinic/products/power-management-ics/ip6538.html"
+              "link": "/injoinic/products/power-management-ics/ip6538"
             },
             {
               "partNumber": "IP5306",
               "description": "Power bank SOC with integrated charger",
               "category": "Power Management",
-              "link": "/injoinic/products/power-management-ics/ip5306.html"
+              "link": "/injoinic/products/power-management-ics/ip5306"
             },
             {
               "partNumber": "Lithium Cell",
               "description": "18650 or polymer lithium battery cell",
               "category": "Battery",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Current Sense Resistor",
               "description": "Precision resistor for over-current detection",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1945,7 +1945,7 @@
               },
               "reason": "IP3008 offers internal MOSFETs and lower cost for 2-3S applications",
               "useCase": "IP3008 for 2-3S integrated designs; BQ77915 for 4-5S or external FET applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "S-8254",
@@ -1963,7 +1963,7 @@
               },
               "reason": "IP3008 includes balancing which S-8254 lacks",
               "useCase": "IP3008 when balancing is needed; S-8254 for basic protection",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1971,25 +1971,25 @@
               "partNumber": "Power MOSFETs",
               "description": "External MOSFETs for high-current applications",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "NTC Thermistor",
               "description": "Temperature sensor for thermal protection",
               "category": "Sensor",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Battery Cells",
               "description": "18650 or 21700 lithium cells for pack assembly",
               "category": "Battery",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Balancing Resistors",
               "description": "Resistors for cell balancing circuit",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

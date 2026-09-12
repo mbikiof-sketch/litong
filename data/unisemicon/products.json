@@ -271,7 +271,7 @@
             {
               "partNumber": "UN25N064",
               "brand": "UNISemicon",
-              "link": "/unisemicon/products/nor-flash/un25n064.html",
+              "link": "/unisemicon/products/nor-flash/un25n064",
               "reason": "64Mb version for smaller code size requirements",
               "useCase": "Use for applications with code size under 8MB",
               "specifications": {
@@ -289,7 +289,7 @@
             {
               "partNumber": "UN25N256",
               "brand": "UNISemicon",
-              "link": "/unisemicon/products/nor-flash/un25n256.html",
+              "link": "",
               "reason": "256Mb version for larger code storage needs",
               "useCase": "Use for applications requiring more than 16MB storage",
               "specifications": {
@@ -308,19 +308,19 @@
           "companionParts": [
             {
               "partNumber": "UN32F103",
-              "link": "/unisemicon/products/mcu/un32f103.html",
+              "link": "/unisemicon/products/mcu/un32f103",
               "description": "ARM Cortex-M3 MCU for embedded control",
               "category": "MCU"
             },
             {
               "partNumber": "UN25N128-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for testing",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "SPI-Adapter",
-              "link": "#",
+              "link": "",
               "description": "SPI programming adapter",
               "category": "Programming Tool"
             }
@@ -460,7 +460,7 @@
             {
               "partNumber": "UN25N128",
               "brand": "UNISemicon",
-              "link": "/unisemicon/products/nor-flash/un25n128.html",
+              "link": "/unisemicon/products/nor-flash/un25n128",
               "reason": "128Mb version for larger code storage",
               "useCase": "Upgrade when code size exceeds 8MB",
               "specifications": {
@@ -479,19 +479,19 @@
           "companionParts": [
             {
               "partNumber": "UN32F051",
-              "link": "/unisemicon/products/mcu/un32f051.html",
+              "link": "",
               "description": "Low-cost ARM Cortex-M0 MCU",
               "category": "MCU"
             },
             {
               "partNumber": "UN25N064-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "SPI-Programmer",
-              "link": "#",
+              "link": "",
               "description": "SPI Flash programmer",
               "category": "Programming Tool"
             }
@@ -988,7 +988,7 @@
             {
               "partNumber": "UN34N04G",
               "brand": "UNISemicon",
-              "link": "#",
+              "link": "",
               "reason": "4Gb version for smaller storage needs",
               "useCase": "Use for applications requiring less than 512MB storage",
               "specifications": {
@@ -1007,19 +1007,19 @@
           "companionParts": [
             {
               "partNumber": "NAND-Controller",
-              "link": "#",
+              "link": "",
               "description": "NAND Flash controller with ECC",
               "category": "Controller"
             },
             {
               "partNumber": "UN25N128",
-              "link": "/unisemicon/products/nor-flash/un25n128.html",
+              "link": "/unisemicon/products/nor-flash/un25n128",
               "description": "NOR Flash for boot code",
               "category": "NOR Flash"
             },
             {
               "partNumber": "UN34N08G-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board",
               "category": "Evaluation Board"
             }
@@ -1247,7 +1247,7 @@
             {
               "partNumber": "UN5F050",
               "brand": "UNISemicon",
-              "link": "#",
+              "link": "",
               "reason": "5K LUT version for smaller designs",
               "useCase": "Use for designs requiring less than 5K LUTs",
               "specifications": {
@@ -1266,19 +1266,19 @@
           "companionParts": [
             {
               "partNumber": "SPI-Flash-16Mb",
-              "link": "#",
+              "link": "",
               "description": "SPI Flash for FPGA configuration",
               "category": "Configuration Memory"
             },
             {
               "partNumber": "UN5F100-EVB",
-              "link": "#",
+              "link": "",
               "description": "FPGA evaluation board",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "JTAG-Debugger",
-              "link": "#",
+              "link": "",
               "description": "JTAG programming cable",
               "category": "Programming Tool"
             }
@@ -1516,7 +1516,7 @@
             {
               "partNumber": "UN32F051",
               "brand": "UNISemicon",
-              "link": "#",
+              "link": "",
               "reason": "Low-cost M0 version for simpler applications",
               "useCase": "Use for cost-sensitive applications with lower performance needs",
               "specifications": {
@@ -1535,7 +1535,7 @@
             {
               "partNumber": "UN32F407",
               "brand": "UNISemicon",
-              "link": "#",
+              "link": "",
               "reason": "High-performance M4 version for DSP applications",
               "useCase": "Use for applications requiring DSP or FPU capabilities",
               "specifications": {
@@ -1555,19 +1555,19 @@
           "companionParts": [
             {
               "partNumber": "UN25N128",
-              "link": "/unisemicon/products/nor-flash/un25n128.html",
+              "link": "/unisemicon/products/nor-flash/un25n128",
               "description": "NOR Flash for external storage",
               "category": "NOR Flash"
             },
             {
               "partNumber": "UN32F103-EVB",
-              "link": "#",
+              "link": "",
               "description": "MCU evaluation board",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "ST-Link",
-              "link": "#",
+              "link": "",
               "description": "Debug/programming tool",
               "category": "Programming Tool"
             }

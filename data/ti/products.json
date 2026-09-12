@@ -207,7 +207,7 @@
               "comparison": "TPS54331=><MP1584EN: Input voltage range 4.5-28V < 3.5-28V, Output current 3A = 3A, Switching frequency 1.5MHz > 570kHz, Efficiency 93% < 95%, Package SOIC-8 = SOIC-8, suitable for direct replacement",
               "reason": "Higher switching frequency enables smaller external components but with slightly lower peak efficiency",
               "useCase": "Space-constrained applications where component size is critical",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LM2596S",
@@ -222,7 +222,7 @@
               "comparison": "TPS54331=><LM2596S: Input voltage range 4.5-40V > 3.5-28V, Output current 3A = 3A, Switching frequency 150kHz < 570kHz, Efficiency 88% < 95%, Package TO-263 > SOIC-8, suitable for direct replacement",
               "reason": "Wider input voltage range up to 40V, suitable for industrial applications with higher voltage rails",
               "useCase": "Industrial applications requiring higher input voltage tolerance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -230,25 +230,25 @@
               "partNumber": "TPS7A4901",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for post-regulation of switching output",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CSD18531Q5A",
               "category": "MOSFET",
               "description": "External synchronous rectifier for higher current applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "INA219",
               "category": "Current Sensor",
               "description": "Current monitoring for power management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMP75",
               "category": "Temperature Sensor",
               "description": "Thermal monitoring for power stage protection",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -467,7 +467,7 @@
               },
               "reason": "Higher performance with more memory, but Flash has write endurance limits",
               "useCase": "Applications requiring higher processing speed with less frequent writes",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32L072",
@@ -486,7 +486,7 @@
               },
               "reason": "32-bit ARM architecture with larger memory but lacks FRAM benefits",
               "useCase": "Applications requiring 32-bit processing or ARM ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -494,19 +494,19 @@
               "partNumber": "CC1101",
               "category": "RF Transceiver",
               "description": "Sub-1GHz wireless transceiver for IoT connectivity",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMP117",
               "category": "Temperature Sensor",
               "description": "High-precision digital temperature sensor",
-              "link": "#"
+              "link": "/ti/products/sensors/tmp117"
             },
             {
               "partNumber": "TPS62740",
               "category": "DC-DC Converter",
               "description": "Ultra-low-power buck converter for battery operation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -715,7 +715,7 @@
               },
               "reason": "Higher bandwidth for AC applications but lower DC precision",
               "useCase": "High-speed precision applications where offset can be calibrated out",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ADA4522",
@@ -732,7 +732,7 @@
               },
               "reason": "Similar zero-drift architecture with slightly lower performance",
               "useCase": "Alternative zero-drift option with lower bandwidth requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -740,19 +740,19 @@
               "partNumber": "ADS1220",
               "category": "ADC",
               "description": "24-bit precision ADC for sensor digitization",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "REF5025",
               "category": "Voltage Reference",
               "description": "Low-noise precision voltage reference",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "INA333",
               "category": "Instrumentation Amp",
               "description": "Low-power instrumentation amplifier",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -962,7 +962,7 @@
               },
               "reason": "Lower cost option for less critical temperature monitoring",
               "useCase": "General-purpose temperature monitoring where ±1°C is sufficient",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SHT30",
@@ -979,7 +979,7 @@
               },
               "reason": "Combined temperature and humidity sensing",
               "useCase": "Environmental monitoring requiring both temperature and humidity",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -987,19 +987,19 @@
               "partNumber": "MSP430FR5969",
               "category": "MCU",
               "description": "Ultra-low-power MCU for battery-powered sensor nodes",
-              "link": "#"
+              "link": "/ti/products/embedded-processors/msp430fr5969"
             },
             {
               "partNumber": "TPS62740",
               "category": "DC-DC Converter",
               "description": "Ultra-low-power buck converter",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CC1310",
               "category": "Wireless MCU",
               "description": "Sub-1GHz wireless for IoT connectivity",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

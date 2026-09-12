@@ -240,7 +240,7 @@
               "comparison": "SL3407=><SI2302: Output current 4.1A > 2.9A (+41%), Package SOT-23 = SOT-23 (same), suitable for direct replacement",
               "reason": "Lower RDS(on) and higher current rating provide better performance",
               "useCase": "Upgrade for lower conduction loss in existing designs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AO3407",
@@ -253,7 +253,7 @@
               "comparison": "SL3407=><AO3407: Output current 4.1A > 3.8A (+8%), Package SOT-23 = SOT-23 (same), suitable for direct replacement",
               "reason": "Lower RDS(on) with similar voltage and current ratings",
               "useCase": "Drop-in replacement with improved efficiency",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -261,25 +261,25 @@
               "partNumber": "SL3401",
               "description": "Complementary P-channel MOSFET for H-bridge designs",
               "category": "MOSFETs",
-              "link": "/sikor/products/mosfets/sl3401.html"
+              "link": ""
             },
             {
               "partNumber": "SL27517",
               "description": "Low-side gate driver for MOSFET control",
               "category": "Gate Drivers",
-              "link": "#"
+              "link": "/sikor/products/power-management/sl27517"
             },
             {
               "partNumber": "SL6206",
               "description": "LDO regulator for gate drive power supply",
               "category": "Power Management",
-              "link": "#"
+              "link": "/sikor/products/power-management/sl6206"
             },
             {
               "partNumber": "SOT-23-EVAL",
               "description": "Evaluation board for SOT-23 MOSFETs",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -914,7 +914,7 @@
               "comparison": "SL20T65F=><IKW20N60T: Output current 20A = 20A (same), Package TO-220F = TO-220F (same), suitable for direct replacement",
               "reason": "Higher voltage rating with similar performance",
               "useCase": "Replacement with better voltage margin",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -922,13 +922,13 @@
               "partNumber": "SL20N65",
               "description": "MOSFET alternative for high-frequency applications",
               "category": "MOSFETs",
-              "link": "/sikor/products/mosfets/sl20n65.html"
+              "link": ""
             },
             {
               "partNumber": "SL27524",
               "description": "Isolated gate driver for IGBT control",
               "category": "Gate Drivers",
-              "link": "#"
+              "link": "/sikor/products/power-management/sl27524"
             }
           ],
           "faqs": [
@@ -1321,7 +1321,7 @@
               "comparison": "SLC06S065=><C3D06065A: Output current 6A = 6A (same), Package TO-220AC = TO-220AC (same), suitable for direct replacement",
               "reason": "Lower forward voltage with equivalent performance",
               "useCase": "Cost-effective alternative for high-efficiency designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1329,7 +1329,7 @@
               "partNumber": "SL20N65",
               "description": "Silicon MOSFET for cost-sensitive applications",
               "category": "MOSFETs",
-              "link": "/sikor/products/mosfets/sl20n65.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1749,7 +1749,7 @@
               "comparison": "SL27517=><UCC27517: Output current 4A = 4A (same), Package SOT-23-5 = SOT-23-5 (same), suitable for direct replacement",
               "reason": "Equivalent performance at competitive pricing",
               "useCase": "Drop-in replacement for cost optimization",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1757,13 +1757,13 @@
               "partNumber": "SL3407",
               "description": "Low-voltage MOSFET for DC-DC applications",
               "category": "MOSFETs",
-              "link": "/sikor/products/mosfets/sl3407.html"
+              "link": "/sikor/products/mosfets/sl3407"
             },
             {
               "partNumber": "SL6206",
               "description": "LDO for driver supply voltage",
               "category": "Power Management",
-              "link": "#"
+              "link": "/sikor/products/power-management/sl6206"
             }
           ],
           "faqs": [

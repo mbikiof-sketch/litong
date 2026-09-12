@@ -235,7 +235,7 @@
               },
               "reason": "SMD alternative for automated assembly and space-constrained designs",
               "useCase": "Choose 3225 package for production boards with automated assembly",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HC-49S-8MHz-10ppm",
@@ -253,37 +253,37 @@
               },
               "reason": "Higher precision version for applications requiring better frequency accuracy",
               "useCase": "Choose ±10ppm version for communication or timing-critical applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "22pF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Load capacitors for crystal oscillator circuit (use two)",
               "category": "Passive Components"
             },
             {
               "partNumber": "1MΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Feedback resistor for Pierce oscillator configuration",
               "category": "Passive Components"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "Popular ARM Cortex-M3 MCU compatible with 8MHz crystal",
               "category": "Microcontroller"
             },
             {
               "partNumber": "HC-49/S Socket",
-              "link": "#",
+              "link": "",
               "description": "Socket for easy crystal replacement during development",
               "category": "Connector"
             },
             {
               "partNumber": "Oscillator Test Board",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for crystal oscillator testing",
               "category": "Development Tools"
             }
@@ -403,7 +403,7 @@
               },
               "reason": "Higher precision version for applications requiring better frequency accuracy",
               "useCase": "Choose ±10ppm version for precision Ethernet or synchronous communication",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "2520-25MHz-12pF",
@@ -421,37 +421,37 @@
               },
               "reason": "Smaller package for ultra-compact designs",
               "useCase": "Choose 2520 package when board space is extremely limited",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "15pF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Load capacitors for 12pF CL crystal (use two)",
               "category": "Passive Components"
             },
             {
               "partNumber": "DP83848",
-              "link": "#",
+              "link": "",
               "description": "10/100 Ethernet PHY using 25MHz crystal",
               "category": "Ethernet PHY"
             },
             {
               "partNumber": "STM32F407",
-              "link": "#",
+              "link": "",
               "description": "High-performance ARM Cortex-M4 MCU",
               "category": "Microcontroller"
             },
             {
               "partNumber": "ESP32",
-              "link": "#",
+              "link": "",
               "description": "WiFi/Bluetooth SoC using 40MHz crystal (25MHz variant available)",
               "category": "Wireless Module"
             },
             {
               "partNumber": "Crystal Test Socket",
-              "link": "#",
+              "link": "",
               "description": "Test socket for 3225 package crystals",
               "category": "Test Equipment"
             }
@@ -658,7 +658,7 @@
               },
               "reason": "Better stability version for applications requiring tighter frequency tolerance",
               "useCase": "Choose ±25ppm version for communication or synchronous applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TCXO-25MHz-3.3V",
@@ -676,37 +676,37 @@
               },
               "reason": "Temperature compensated for much better stability across temperature",
               "useCase": "Choose TCXO for GPS, communication, or precision applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "0.1μF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for oscillator power supply",
               "category": "Passive Components"
             },
             {
               "partNumber": "10μF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Bulk decoupling for oscillator power",
               "category": "Passive Components"
             },
             {
               "partNumber": "STM32F407",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M4 MCU using external clock",
               "category": "Microcontroller"
             },
             {
               "partNumber": "XC7Z010",
-              "link": "#",
+              "link": "",
               "description": "Xilinx Zynq FPGA SoC",
               "category": "FPGA"
             },
             {
               "partNumber": "Oscillator Socket",
-              "link": "#",
+              "link": "",
               "description": "Test socket for 5.0x3.2mm oscillators",
               "category": "Test Equipment"
             }
@@ -828,7 +828,7 @@
               },
               "reason": "Higher precision TCXO for demanding GPS and communication applications",
               "useCase": "Choose ±1.0ppm for high-precision GPS or carrier-grade communication",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XO-26MHz-3.3V-25ppm",
@@ -846,37 +846,37 @@
               },
               "reason": "Lower cost alternative when ±2.5ppm stability is not required",
               "useCase": "Choose SPXO for cost-sensitive applications with less stringent stability needs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "0.1μF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for TCXO power supply",
               "category": "Passive Components"
             },
             {
               "partNumber": "NEO-M8N",
-              "link": "#",
+              "link": "",
               "description": "u-blox GPS module using 26MHz TCXO reference",
               "category": "GPS Module"
             },
             {
               "partNumber": "SIM7600",
-              "link": "#",
+              "link": "",
               "description": "4G LTE module with 26MHz reference input",
               "category": "Cellular Module"
             },
             {
               "partNumber": "TCXO Test Board",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for TCXO testing",
               "category": "Test Equipment"
             },
             {
               "partNumber": "Frequency Counter",
-              "link": "#",
+              "link": "",
               "description": "Precision frequency counter for stability measurement",
               "category": "Test Equipment"
             }
@@ -1081,7 +1081,7 @@
               },
               "reason": "Grade 0 for extreme temperature applications like powertrain",
               "useCase": "Choose Grade 0 for under-hood powertrain applications with extreme temperatures",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "3225-16MHz-20ppm-IND",
@@ -1099,37 +1099,37 @@
               },
               "reason": "Industrial grade for non-automotive applications with wide temperature",
               "useCase": "Choose industrial grade for non-automotive wide-temp applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "15pF Ceramic Capacitor AEC-Q200",
-              "link": "#",
+              "link": "",
               "description": "AEC-Q200 qualified load capacitors for automotive",
               "category": "Passive Components"
             },
             {
               "partNumber": "S32K148",
-              "link": "#",
+              "link": "",
               "description": "NXP automotive MCU using 16MHz crystal",
               "category": "Automotive MCU"
             },
             {
               "partNumber": "TC397",
-              "link": "#",
+              "link": "",
               "description": "Infineon AURIX automotive microcontroller",
               "category": "Automotive MCU"
             },
             {
               "partNumber": "Automotive Crystal Socket",
-              "link": "#",
+              "link": "",
               "description": "Test socket for 3225 automotive crystals",
               "category": "Test Equipment"
             },
             {
               "partNumber": "AEC-Q200 Test Report",
-              "link": "#",
+              "link": "",
               "description": "Complete AEC-Q200 qualification documentation",
               "category": "Documentation"
             }

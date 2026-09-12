@@ -272,7 +272,7 @@
               },
               "reason": "Wide input range suitable for battery power applications",
               "useCase": "Battery powered systems, voltage fluctuating applications",
-              "link": "/aipu/products/dc-dc-wide-input/b0505s-1w.html"
+              "link": ""
             },
             {
               "partNumber": "A0505S-2W",
@@ -290,25 +290,25 @@
               },
               "reason": "Higher power for applications requiring more than 1W",
               "useCase": "Higher power digital circuits, multiple device power supply",
-              "link": "/aipu/products/dc-dc-fixed-input/a0505s-2w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for industrial communication, pairs well with A0505S-1W for isolated CAN networks",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "RSM485",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html",
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485",
               "description": "RS-485 isolated transceiver for industrial communication, commonly powered by A0505S-1W",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 microcontroller, commonly powered by 5V and used with A0505S-1W for isolated control systems",
               "category": "Microcontroller"
             }
@@ -438,7 +438,7 @@
               },
               "reason": "Wide input range suitable for battery power and voltage fluctuating applications",
               "useCase": "Battery powered systems, 24V systems with large voltage fluctuations",
-              "link": "/aipu/products/dc-dc-wide-input/b2412s-2w.html"
+              "link": "/aipu/products/dc-dc-wide-input/b2412s-2w"
             },
             {
               "partNumber": "A2415S-2W",
@@ -456,25 +456,25 @@
               },
               "reason": "For applications requiring 15V output instead of 12V from 24V input",
               "useCase": "15V analog circuits, op-amp power supply from 24V systems",
-              "link": "/aipu/products/dc-dc-fixed-input/a2415s-2w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "RSM485",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html",
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485",
               "description": "RS-485 isolated transceiver for industrial communication, commonly used with A2412S-2W in 24V industrial networks",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for industrial communication, can be powered by A2412S-2W in 24V CAN networks",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "LM258",
-              "link": "#",
+              "link": "",
               "description": "Dual operational amplifier, commonly powered by 12V from A2412S-2W for analog signal processing",
               "category": "Operational Amplifier"
             }
@@ -612,7 +612,7 @@
               },
               "reason": "DIP package more stable, suitable for vibration environments",
               "useCase": "Industrial field, automotive, vibration environments",
-              "link": "/aipu/products/dc-dc-fixed-input/a1215d-2w.html"
+              "link": ""
             },
             {
               "partNumber": "B1215S-2W",
@@ -630,25 +630,25 @@
               },
               "reason": "Wide input suitable for battery power and voltage fluctuation applications",
               "useCase": "Battery powered, industrial field with voltage fluctuations",
-              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w.html"
+              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w"
             }
           ],
           "companionParts": [
             {
               "partNumber": "A1212S-2W",
-              "link": "/aipu/products/dc-dc-fixed-input/a1212s-2w.html",
+              "link": "",
               "description": "12V to -12V negative power module, pairs with A1215S-2W to build plus/minus 12V dual supply",
               "category": "Negative Power Module"
             },
             {
               "partNumber": "LM358",
-              "link": "#",
+              "link": "",
               "description": "General purpose dual op-amp, can be powered by A1215S-2W",
               "category": "Operational Amplifier"
             },
             {
               "partNumber": "OP07",
-              "link": "#",
+              "link": "",
               "description": "Precision op-amp, suitable for high-precision applications with A1215S-2W power",
               "category": "Precision Op-Amp"
             }
@@ -967,7 +967,7 @@
               },
               "reason": "Higher efficiency and lower cost for stable 12V systems",
               "useCase": "Stable 12V power supply systems, cost-sensitive applications",
-              "link": "/aipu/products/dc-dc-fixed-input/a1215s-2w.html"
+              "link": "/aipu/products/dc-dc-fixed-input/a1215s-2w"
             },
             {
               "partNumber": "B2415S-2W",
@@ -985,25 +985,25 @@
               },
               "reason": "For 24V battery or industrial systems instead of 12V",
               "useCase": "24V battery systems, 24V industrial control",
-              "link": "/aipu/products/dc-dc-wide-input/b2415s-2w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for battery-powered industrial communication",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "RSM485",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html",
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485",
               "description": "RS-485 isolated transceiver for remote monitoring systems",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "B1212S-2W",
-              "link": "/aipu/products/dc-dc-wide-input/b1212s-2w.html",
+              "link": "",
               "description": "9-18V to 12V module for mixed voltage systems",
               "category": "Wide Input Power Module"
             }
@@ -1136,7 +1136,7 @@
               },
               "reason": "Lower cost for stable 24V systems",
               "useCase": "Stable 24V power supply systems, cost-sensitive applications",
-              "link": "/aipu/products/dc-dc-fixed-input/a2412s-2w.html"
+              "link": "/aipu/products/dc-dc-fixed-input/a2412s-2w"
             },
             {
               "partNumber": "B1212S-2W",
@@ -1154,25 +1154,25 @@
               },
               "reason": "For 12V battery systems instead of 24V",
               "useCase": "12V battery systems, 12V vehicle electronics",
-              "link": "/aipu/products/dc-dc-wide-input/b1212s-2w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for industrial communication",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "RSM485",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html",
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485",
               "description": "RS-485 isolated transceiver for industrial networks",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "B1215S-2W",
-              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w.html",
+              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w",
               "description": "9-18V to 15V module for mixed voltage systems",
               "category": "Wide Input Power Module"
             }
@@ -1424,7 +1424,7 @@
               },
               "reason": "For applications requiring 12V output instead of 5V",
               "useCase": "12V sensor systems, relay drivers, 12V microcontroller systems",
-              "link": "/aipu/products/ac-dc-power-modules/ap05n12-5w.html"
+              "link": "/aipu/products/ac-dc-power-modules/ap05n12-5w"
             },
             {
               "partNumber": "AP10N05-10W",
@@ -1442,25 +1442,25 @@
               },
               "reason": "For higher power 5V applications requiring 6-10W",
               "useCase": "Higher power IoT gateways, multi-sensor systems, 5V equipment",
-              "link": "/aipu/products/ac-dc-power-modules/ap10n05-10w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for smart home and IoT communication",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "A0505S-1W",
-              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w.html",
+              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w",
               "description": "5V to 5V isolation module for additional isolation if needed",
               "category": "DC-DC Module"
             },
             {
               "partNumber": "ESP8266",
-              "link": "#",
+              "link": "",
               "description": "WiFi module commonly powered by 5V, compatible with AP05N05-5W",
               "category": "Wireless Module"
             }
@@ -1594,7 +1594,7 @@
               },
               "reason": "For applications requiring 5V output instead of 12V",
               "useCase": "5V microcontrollers, digital circuits, 5V sensors",
-              "link": "/aipu/products/ac-dc-power-modules/ap05n05-5w.html"
+              "link": "/aipu/products/ac-dc-power-modules/ap05n05-5w"
             },
             {
               "partNumber": "AP10N12-10W",
@@ -1612,25 +1612,25 @@
               },
               "reason": "For higher power 12V applications requiring 6-10W",
               "useCase": "Multiple sensors, 12V motors, higher power 12V equipment",
-              "link": "/aipu/products/ac-dc-power-modules/ap10n12-10w.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "RSM485",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html",
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485",
               "description": "RS-485 isolated transceiver for industrial sensor networks",
               "category": "Isolated Transceiver"
             },
             {
               "partNumber": "A1212S-2W",
-              "link": "/aipu/products/dc-dc-fixed-input/a1212s-2w.html",
+              "link": "",
               "description": "12V to 12V isolation module for additional isolation if needed",
               "category": "DC-DC Module"
             },
             {
               "partNumber": "CTM1051",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html",
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051",
               "description": "CAN isolated transceiver for industrial communication",
               "category": "Isolated Transceiver"
             }
@@ -1880,7 +1880,7 @@
               },
               "reason": "Extended temperature range for automotive and harsh environment applications",
               "useCase": "Automotive under-hood, outdoor equipment, high-temperature industrial environments",
-              "link": "/aipu/products/isolated-transceiver/ctm8251.html"
+              "link": ""
             },
             {
               "partNumber": "RSM485",
@@ -1898,25 +1898,25 @@
               },
               "reason": "For RS-485 protocol networks instead of CAN bus",
               "useCase": "Modbus RTU networks, industrial RS-485 communication, long-distance differential communication",
-              "link": "/aipu/products/isolated-transceiver/rsm485.html"
+              "link": "/aipu/products/isolated-transceiver-modules/rsm485"
             }
           ],
           "companionParts": [
             {
               "partNumber": "A0505S-1W",
-              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w.html",
+              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w",
               "description": "5V isolation module for additional power isolation if needed",
               "category": "DC-DC Module"
             },
             {
               "partNumber": "B1215S-2W",
-              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w.html",
+              "link": "/aipu/products/dc-dc-wide-input/b1215s-2w",
               "description": "Wide input power module for powering CTM1051 in battery systems",
               "category": "Wide Input Power Module"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 MCU with built-in CAN controller, commonly used with CTM1051",
               "category": "Microcontroller"
             }
@@ -2049,7 +2049,7 @@
               },
               "reason": "For CAN bus protocol instead of RS-485",
               "useCase": "CAN bus networks, automotive applications, industrial CAN networks",
-              "link": "/aipu/products/isolated-transceiver/ctm1051.html"
+              "link": "/aipu/products/isolated-transceiver-modules/ctm1051"
             },
             {
               "partNumber": "RSM232",
@@ -2066,25 +2066,25 @@
               },
               "reason": "For RS-232 serial communication instead of RS-485",
               "useCase": "Legacy RS-232 equipment, short distance serial links",
-              "link": "/aipu/products/isolated-transceiver/rsm232.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "A0505S-1W",
-              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w.html",
+              "link": "/aipu/products/dc-dc-fixed-input/a0505s-1w",
               "description": "5V isolation module for additional power isolation if needed",
               "category": "DC-DC Module"
             },
             {
               "partNumber": "B2412S-2W",
-              "link": "/aipu/products/dc-dc-wide-input/b2412s-2w.html",
+              "link": "/aipu/products/dc-dc-wide-input/b2412s-2w",
               "description": "Wide input power module for powering RSM485 in battery systems",
               "category": "Wide Input Power Module"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 MCU with UART, commonly used with RSM485",
               "category": "Microcontroller"
             }

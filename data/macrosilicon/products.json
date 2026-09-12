@@ -228,7 +228,8 @@
                 "hdmi_version": "HDMI 2.0 => HDMI 1.4 (newer)",
                 "price": "Higher cost",
                 "use_case": "Choose MS2131 for 4K, MS2130 for 1080p cost savings"
-              }
+              },
+              "link": "/macrosilicon/products/usb-video-capture/ms2131"
             },
             {
               "partNumber": "MS2109",
@@ -238,19 +239,22 @@
                 "resolution": "480i/p => 1080p60 (lower)",
                 "usb": "USB 2.0 = USB 2.0/3.0 (MS2130 has USB 3.0)",
                 "use_case": "Use MS2109 for analog sources, MS2130 for HDMI"
-              }
+              },
+              "link": "/macrosilicon/products/usb-video-capture/ms2109"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS9332",
               "relationship": "HDMI to MIPI converter for display applications",
-              "notes": "Use with MS2130 for dual HDMI input systems"
+              "notes": "Use with MS2130 for dual HDMI input systems",
+              "link": "/macrosilicon/products/hdmi-mipi-converters/ms9332"
             },
             {
               "partNumber": "MS1820",
               "relationship": "Video scaler for resolution conversion",
-              "notes": "Pre-process video before capture if needed"
+              "notes": "Pre-process video before capture if needed",
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "faqs": [
@@ -375,14 +379,16 @@
                 "hdmi_version": "HDMI 1.4 < HDMI 2.0 (older)",
                 "price": "Lower cost",
                 "use_case": "Use MS2130 for 1080p, MS2131 for 4K requirements"
-              }
+              },
+              "link": "/macrosilicon/products/usb-video-capture/ms2130"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS1820",
               "relationship": "Video scaler for advanced processing",
-              "notes": "Combine for complex scaling requirements"
+              "notes": "Combine for complex scaling requirements",
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "faqs": [
@@ -471,13 +477,13 @@
               },
               "reason": "MS2130 offers higher performance at higher cost",
               "useCase": "Applications requiring 60fps or USB 3.0",
-              "link": "#"
+              "link": "/macrosilicon/products/usb-video-capture/ms2130"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS2130",
-              "link": "/macrosilicon/products/usb-video-capture/ms2130.html",
+              "link": "/macrosilicon/products/usb-video-capture/ms2130",
               "description": "USB 3.0 upgrade for higher performance",
               "category": "USB Video Capture"
             }
@@ -555,13 +561,13 @@
               },
               "reason": "MS2109 adds analog input support",
               "useCase": "Applications requiring analog input capture",
-              "link": "#"
+              "link": "/macrosilicon/products/usb-video-capture/ms2109"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS2130",
-              "link": "/macrosilicon/products/usb-video-capture/ms2130.html",
+              "link": "/macrosilicon/products/usb-video-capture/ms2130",
               "description": "USB 3.0 upgrade for 1080p60 capture",
               "category": "USB Video Capture"
             }
@@ -724,7 +730,8 @@
             {
               "partNumber": "MS1820",
               "relationship": "Video scaler for advanced processing",
-              "notes": "Use for complex scaling requirements"
+              "notes": "Use for complex scaling requirements",
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "faqs": [
@@ -808,7 +815,8 @@
             {
               "partNumber": "MS2130",
               "relationship": "USB capture for recording MIPI camera output",
-              "notes": "Combine for MIPI camera to USB recording"
+              "notes": "Combine for MIPI camera to USB recording",
+              "link": "/macrosilicon/products/usb-video-capture/ms2130"
             }
           ],
           "faqs": [
@@ -890,13 +898,13 @@
               },
               "reason": "MS1820 offers basic scaling at lower cost",
               "useCase": "Applications requiring basic video scaling only",
-              "link": "#"
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS1820",
-              "link": "/macrosilicon/products/video-scalers/ms1820.html",
+              "link": "/macrosilicon/products/video-scalers/ms1820",
               "description": "Video scaler for simpler applications",
               "category": "Video Scalers"
             }
@@ -977,13 +985,13 @@
               },
               "reason": "MS2130 is for HDMI capture to USB, not USB to HDMI output",
               "useCase": "Use MS9132 for USB display output, MS2130 for HDMI capture",
-              "link": "#"
+              "link": "/macrosilicon/products/usb-video-capture/ms2130"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS2130",
-              "link": "/macrosilicon/products/usb-video-capture/ms2130.html",
+              "link": "/macrosilicon/products/usb-video-capture/ms2130",
               "description": "HDMI to USB capture chip (reverse direction)",
               "category": "USB Video Capture"
             }
@@ -1123,7 +1131,8 @@
                 "features": "More > Basic (more processing)",
                 "price": "Higher cost",
                 "use_case": "Use MS1850 for highest quality, MS1820 for cost-effective scaling"
-              }
+              },
+              "link": "/macrosilicon/products/video-scalers/ms1850"
             }
           ],
           "companionParts": [],
@@ -1212,13 +1221,14 @@
                 "features": "Basic < Advanced",
                 "price": "Lower cost",
                 "use_case": "Use MS1820 for cost-sensitive, MS1850 for quality-critical"
-              }
+              },
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS1820",
-              "link": "/macrosilicon/products/video-scalers/ms1820.html",
+              "link": "/macrosilicon/products/video-scalers/ms1820",
               "description": "Standard scaler for cost-sensitive designs",
               "category": "Video Scalers"
             }
@@ -1306,13 +1316,14 @@
                 "features": "More > Fewer",
                 "quality": "Better > Good",
                 "use_case": "Use MS1830 for compact, MS1820 for full-featured"
-              }
+              },
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS1820",
-              "link": "/macrosilicon/products/video-scalers/ms1820.html",
+              "link": "/macrosilicon/products/video-scalers/ms1820",
               "description": "Full-featured scaler for less constrained designs",
               "category": "Video Scalers"
             }
@@ -1401,13 +1412,14 @@
                 "features": "Basic < Multi-channel",
                 "cost": "Lower",
                 "use_case": "Use MS1840 for multi-channel, MS1820 for single-channel"
-              }
+              },
+              "link": "/macrosilicon/products/video-scalers/ms1820"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS1820",
-              "link": "/macrosilicon/products/video-scalers/ms1820.html",
+              "link": "/macrosilicon/products/video-scalers/ms1820",
               "description": "Single-channel scaler for simpler designs",
               "category": "Video Scalers"
             }
@@ -1613,13 +1625,13 @@
               },
               "reason": "MS8100 offers 4K and quad-core performance",
               "useCase": "Applications requiring 4K or higher processing power",
-              "link": "#"
+              "link": "/macrosilicon/products/multimedia-soc/ms8100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS8100",
-              "link": "/macrosilicon/products/multimedia-soc/ms8100.html",
+              "link": "/macrosilicon/products/multimedia-soc/ms8100",
               "description": "4K upgrade option",
               "category": "Multimedia SoC"
             }
@@ -1700,13 +1712,13 @@
               },
               "reason": "MS8100 offers good performance at lower cost",
               "useCase": "Applications not requiring maximum performance",
-              "link": "#"
+              "link": "/macrosilicon/products/multimedia-soc/ms8100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS8100",
-              "link": "/macrosilicon/products/multimedia-soc/ms8100.html",
+              "link": "/macrosilicon/products/multimedia-soc/ms8100",
               "description": "Mid-range alternative",
               "category": "Multimedia SoC"
             }
@@ -1786,13 +1798,13 @@
               },
               "reason": "MS8100 lacks AI acceleration",
               "useCase": "Applications not requiring AI processing",
-              "link": "#"
+              "link": "/macrosilicon/products/multimedia-soc/ms8100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MS8100",
-              "link": "/macrosilicon/products/multimedia-soc/ms8100.html",
+              "link": "/macrosilicon/products/multimedia-soc/ms8100",
               "description": "Non-AI alternative for cost savings",
               "category": "Multimedia SoC"
             }

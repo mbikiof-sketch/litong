@@ -87,14 +87,14 @@
             {
               "partNumber": "UC3842",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/acdc/uc3842/",
+              "link": "",
               "reason": "Industry-standard PWM controller with wider availability",
               "comparison": "UC3842 requires external startup circuit and has higher standby power; OB2263 offers better integration and lower standby power at competitive cost"
             },
             {
               "partNumber": "NCP1252",
               "brand": "ON Semiconductor",
-              "link": "/brands/onsemi/products/acdc/ncp1252/",
+              "link": "",
               "reason": "Similar feature set with skip-cycle mode for light load efficiency",
               "comparison": "NCP1252 offers skip-cycle mode; OB2263 provides better cost efficiency for standard applications"
             }
@@ -104,19 +104,19 @@
               "partNumber": "OB2203",
               "category": "SR Controller",
               "description": "Synchronous rectifier controller for improved efficiency",
-              "link": "/brands/on-bright/products/sr/ob2203/"
+              "link": ""
             },
             {
               "partNumber": "OB2613",
               "category": "USB-PD Controller",
               "description": "USB Power Delivery controller for adapter applications",
-              "link": "/brands/on-bright/products/usbpd/ob2613/"
+              "link": ""
             },
             {
               "partNumber": "OB3338",
               "category": "PFC Controller",
               "description": "Active PFC controller for high power factor designs",
-              "link": "/brands/on-bright/products/pfc/ob3338/"
+              "link": ""
             }
           ],
           "faqs": [
@@ -220,14 +220,14 @@
             {
               "partNumber": "NCP1337",
               "brand": "ON Semiconductor",
-              "link": "/brands/onsemi/products/acdc/ncp1337/",
+              "link": "",
               "reason": "Similar QR flyback controller with skip-cycle mode",
               "comparison": "NCP1337 offers similar QR operation; OB2273 provides better cost efficiency and local support"
             },
             {
               "partNumber": "TEA1733",
               "brand": "NXP",
-              "link": "/brands/nxp/products/acdc/tea1733/",
+              "link": "",
               "reason": "QR controller with integrated MOSFET option",
               "comparison": "TEA1733 offers higher integration; OB2273 provides more flexibility in MOSFET selection"
             }
@@ -237,19 +237,19 @@
               "partNumber": "OB2203",
               "category": "SR Controller",
               "description": "Synchronous rectifier for further efficiency improvement",
-              "link": "/brands/on-bright/products/sr/ob2203/"
+              "link": ""
             },
             {
               "partNumber": "OB2613",
               "category": "USB-PD Controller",
               "description": "USB PD controller for modern adapter designs",
-              "link": "/brands/on-bright/products/usbpd/ob2613/"
+              "link": ""
             },
             {
               "partNumber": "OB2263",
               "category": "AC-DC Controller",
               "description": "Standard PWM controller for cost-sensitive designs",
-              "link": "/brands/on-bright/products/acdc/ob2263/"
+              "link": "/on-bright/products/acdc/ob2263"
             }
           ],
           "faqs": [

@@ -84,14 +84,14 @@
             {
               "partNumber": "XC7A15T",
               "brand": "Xilinx",
-              "link": "/brands/xilinx/products/fpga/xc7a15t/",
+              "link": "",
               "reason": "Higher performance with more resources, suitable for designs requiring Artix-7 features",
               "comparison": "Xilinx offers more logic cells (16K vs 9K) and advanced transceivers, but at higher cost and power consumption"
             },
             {
               "partNumber": "10M08SAE144",
               "brand": "Intel (Altera)",
-              "link": "/brands/intel/products/fpga/10m08/",
+              "link": "",
               "reason": "Similar density and power profile, good alternative for Intel-based designs",
               "comparison": "Intel MAX 10 offers integrated ADC and flash, but USC9001 provides better cost efficiency"
             }
@@ -101,19 +101,19 @@
               "partNumber": "USC9002",
               "category": "FPGA",
               "description": "Higher density version with 18K LUTs for more complex designs",
-              "link": "/brands/unisoc/products/fpga/usc9002/"
+              "link": "/unisoc/products/fpga/usc9002"
             },
             {
               "partNumber": "USC-PHY-1000",
               "category": "Interface",
               "description": "Gigabit Ethernet PHY companion chip for network applications",
-              "link": "/brands/unisoc/products/interface/usc-phy-1000/"
+              "link": ""
             },
             {
               "partNumber": "USC-ADC-12B",
               "category": "ADC",
               "description": "12-bit ADC for sensor interface applications",
-              "link": "/brands/unisoc/products/adc/usc-adc-12b/"
+              "link": ""
             }
           ],
           "faqs": [
@@ -215,14 +215,14 @@
             {
               "partNumber": "XC7A35T",
               "brand": "Xilinx",
-              "link": "/brands/xilinx/products/fpga/xc7a35t/",
+              "link": "",
               "reason": "Higher performance Artix-7 with more resources and advanced features",
               "comparison": "Xilinx offers 33K LUTs and GTP transceivers, but at significantly higher cost"
             },
             {
               "partNumber": "10M16SAE144",
               "brand": "Intel (Altera)",
-              "link": "/brands/intel/products/fpga/10m16/",
+              "link": "",
               "reason": "Similar density with integrated flash and ADC",
               "comparison": "Intel MAX 10 has integrated ADC and configuration flash, USC9002 offers better DSP performance"
             }
@@ -232,19 +232,19 @@
               "partNumber": "USC9001",
               "category": "FPGA",
               "description": "Lower density version for simpler control functions",
-              "link": "/brands/unisoc/products/fpga/usc9001/"
+              "link": "/unisoc/products/fpga/usc9001"
             },
             {
               "partNumber": "USC-PHY-1000",
               "category": "Interface",
               "description": "Gigabit Ethernet PHY for network connectivity",
-              "link": "/brands/unisoc/products/interface/usc-phy-1000/"
+              "link": ""
             },
             {
               "partNumber": "USC-DDR3-CTRL",
               "category": "Memory Controller",
               "description": "DDR3 memory controller IP for high-speed data buffering",
-              "link": "/brands/unisoc/products/memory/usc-ddr3-ctrl/"
+              "link": ""
             }
           ],
           "faqs": [

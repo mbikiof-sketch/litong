@@ -155,7 +155,7 @@
               "comparison": "SGM15N60=><SGM20N60: Output current 20A > 15A (+33%), Package TO-220/TO-247 = TO-220/TO-247 (same), suitable for direct replacement",
               "reason": "Higher current rating for power upgrade applications",
               "useCase": "Use when higher motor power is needed without redesign",
-              "link": "/silan/products/power-semiconductors/sgm20n60.html"
+              "link": "/silan/products/power-semiconductors/sgm20n60"
             },
             {
               "partNumber": "IKW15N60T",
@@ -169,24 +169,24 @@
               "comparison": "SGM15N60=><IKW15N60T: Output current 15A = 15A (same), Package TO-247 = TO-247 (same), suitable for direct replacement",
               "reason": "Lower saturation voltage for higher efficiency",
               "useCase": "Use for efficiency-critical applications",
-              "link": "/infineon/products/igbt/ikw15n60t.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM2110",
               "description": "Half-bridge gate driver IC",
-              "link": "/silan/products/power-management/slm2110.html"
+              "link": ""
             },
             {
               "partNumber": "SCM1243",
               "description": "Current sensing resistor",
-              "link": "/silan/products/power-management/scm1243.html"
+              "link": ""
             },
             {
               "partNumber": "SCM1500",
               "description": "Bootstrap diode",
-              "link": "/silan/products/power-management/scm1500.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -302,7 +302,7 @@
               "comparison": "SGM20N60=><SGM15N60: Output current 15A < 20A (-25%), Package TO-220/TO-247 = TO-220/TO-247 (same), suitable for direct replacement",
               "reason": "Lower cost option for reduced power requirements",
               "useCase": "Use for cost reduction when full 20A capability not needed",
-              "link": "/silan/products/power-semiconductors/sgm15n60.html"
+              "link": "/silan/products/power-semiconductors/sgm15n60"
             },
             {
               "partNumber": "IKW20N60T",
@@ -316,24 +316,24 @@
               "comparison": "SGM20N60=><IKW20N60T: Output current 20A = 20A (same), Package TO-247 = TO-247 (same), suitable for direct replacement",
               "reason": "Lower conduction losses for higher efficiency",
               "useCase": "Use for premium efficiency requirements",
-              "link": "/infineon/products/igbt/ikw20n60t.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM2110",
               "description": "Half-bridge gate driver IC",
-              "link": "/silan/products/power-management/slm2110.html"
+              "link": ""
             },
             {
               "partNumber": "SCM1243",
               "description": "Current sensing resistor",
-              "link": "/silan/products/power-management/scm1243.html"
+              "link": ""
             },
             {
               "partNumber": "SCM1500",
               "description": "Bootstrap diode",
-              "link": "/silan/products/power-management/scm1500.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -600,7 +600,7 @@
               "comparison": "SC7A20=><SC7A30: Output current 100μA < 130μA (-23%, lower power), suitable for direct replacement",
               "reason": "Higher resolution and lower power consumption",
               "useCase": "Use for higher precision or battery-critical applications",
-              "link": "/silan/products/mems-sensors/sc7a30.html"
+              "link": ""
             },
             {
               "partNumber": "LIS2DH12",
@@ -614,24 +614,24 @@
               "comparison": "SC7A20=><LIS2DH12: Output current 120μA ≈ 130μA (similar), suitable for direct replacement",
               "reason": "Alternative from major brand with similar specs",
               "useCase": "Use for dual-source requirements",
-              "link": "/st/products/mems-sensors/lis2dh12.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC7G20",
               "description": "Tri-axial gyroscope",
-              "link": "/silan/products/mems-sensors/sc7g20.html"
+              "link": "/silan/products/mems-sensors/sc7g20"
             },
             {
               "partNumber": "SC7P03",
               "description": "Pressure sensor",
-              "link": "/silan/products/mems-sensors/sc7p03.html"
+              "link": "/silan/products/mems-sensors/sc7p03"
             },
             {
               "partNumber": "SC7M01",
               "description": "MEMS microphone",
-              "link": "/silan/products/mems-sensors/sc7m01.html"
+              "link": "/silan/products/mems-sensors/sc7m01"
             }
           ],
           "faqs": [
@@ -748,7 +748,7 @@
               "comparison": "SC7P03=><BMP280: Output current 2.7μA = 2.7μA (same), suitable for direct replacement",
               "reason": "Industry standard with similar performance",
               "useCase": "Use for dual-source or compatibility requirements",
-              "link": "/bosch/products/mems-sensors/bmp280.html"
+              "link": ""
             },
             {
               "partNumber": "SC7P05",
@@ -762,24 +762,24 @@
               "comparison": "SC7P03=><SC7P05: Output current 3.5μA > 2.7μA (higher), suitable for direct replacement",
               "reason": "Higher accuracy for precision applications",
               "useCase": "Use when ±0.5m altitude precision required",
-              "link": "/silan/products/mems-sensors/sc7p05.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC7A20",
               "description": "Tri-axial accelerometer",
-              "link": "/silan/products/mems-sensors/sc7a20.html"
+              "link": "/silan/products/mems-sensors/sc7a20"
             },
             {
               "partNumber": "SC7G20",
               "description": "Tri-axial gyroscope",
-              "link": "/silan/products/mems-sensors/sc7g20.html"
+              "link": "/silan/products/mems-sensors/sc7g20"
             },
             {
               "partNumber": "SC7M01",
               "description": "MEMS microphone",
-              "link": "/silan/products/mems-sensors/sc7m01.html"
+              "link": "/silan/products/mems-sensors/sc7m01"
             }
           ],
           "faqs": [
@@ -1048,7 +1048,7 @@
               "comparison": "SLM4110=><SLM4115: Input voltage 4.5V-60V > 4.5V-40V (wider range), Output current 2A > 1.5A (+33%), Package SOP-8 = SOP-8 (same), suitable for direct replacement",
               "reason": "Higher voltage and current for more LED strings",
               "useCase": "Use for higher power or more LED applications",
-              "link": "/silan/products/led-drivers/slm4115.html"
+              "link": ""
             },
             {
               "partNumber": "PT4115",
@@ -1062,24 +1062,24 @@
               "comparison": "SLM4110=><PT4115: Input voltage 6V-30V < 4.5V-40V (narrower), Output current 1.2A < 1.5A (-20%), Package SOT89-5 vs SOP-8 (different), suitable for direct replacement",
               "reason": "Lower cost alternative for simpler applications",
               "useCase": "Use for cost-sensitive, lower power applications",
-              "link": "/powtech/products/led-drivers/pt4115.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM2100",
               "description": "AC-DC controller",
-              "link": "/silan/products/power-management/slm2100.html"
+              "link": "/silan/products/power-management/slm2100"
             },
             {
               "partNumber": "SCM1001",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm1001.html"
+              "link": ""
             },
             {
               "partNumber": "SCM2201",
               "description": "Output capacitor",
-              "link": "/silan/products/power-management/scm2201.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1196,7 +1196,7 @@
               "comparison": "SLM4120=><SLM4130: Input voltage 2.5V-24V = 2.5V-24V (same), Output current 1.2A > 1A (+20%), Package SOP-8 = SOP-8 (same), suitable for direct replacement",
               "reason": "Higher current and voltage for more LEDs",
               "useCase": "Use for driving more LEDs or higher current",
-              "link": "/silan/products/led-drivers/slm4130.html"
+              "link": "/silan/products/led-drivers/slm4130"
             },
             {
               "partNumber": "PT4103",
@@ -1210,24 +1210,24 @@
               "comparison": "SLM4120=><PT4103: Input voltage 2.5V-6V < 2.5V-24V (narrower), Output current 0.8A < 1A (-20%), Package SOT23-6 vs SOP-8 (smaller), suitable for direct replacement",
               "reason": "Smaller package for space-constrained designs",
               "useCase": "Use for compact, low-voltage applications",
-              "link": "/powtech/products/led-drivers/pt4103.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM2100",
               "description": "Battery charger IC",
-              "link": "/silan/products/power-management/slm2100.html"
+              "link": "/silan/products/power-management/slm2100"
             },
             {
               "partNumber": "SCM1001",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm1001.html"
+              "link": ""
             },
             {
               "partNumber": "SCM2201",
               "description": "Output capacitor",
-              "link": "/silan/products/power-management/scm2201.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1496,7 +1496,7 @@
               "comparison": "SLM2100=><SLM2105: Input voltage 85V-265V AC = 85V-265V AC (same), Package DIP-8/SOP-8 = DIP-8/SOP-8 (same), suitable for direct replacement",
               "reason": "Higher power capability for larger adapters",
               "useCase": "Use for 24-36W adapter applications",
-              "link": "/silan/products/power-management/slm2105.html"
+              "link": ""
             },
             {
               "partNumber": "OB2500",
@@ -1510,24 +1510,24 @@
               "comparison": "SLM2100=><OB2500: Input voltage 85V-265V AC = 85V-265V AC (same), Package SOT23-6 vs DIP-8 (smaller), suitable for direct replacement",
               "reason": "Smaller package for space-constrained designs",
               "useCase": "Use for compact designs with external MOSFET",
-              "link": "/onbright/products/acdc/ob2500.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SCM3100",
               "description": "Bridge rectifier",
-              "link": "/silan/products/power-management/scm3100.html"
+              "link": ""
             },
             {
               "partNumber": "SCM3200",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm3200.html"
+              "link": ""
             },
             {
               "partNumber": "SCM3300",
               "description": "Output rectifier",
-              "link": "/silan/products/power-management/scm3300.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1644,7 +1644,7 @@
               "comparison": "SLM3400=><SLM3410: Input voltage 4.5V-42V > 4.5V-36V (wider), Output current 5A > 3A (+67%), Package ESOP-8 = ESOP-8 (same), suitable for direct replacement",
               "reason": "Higher current and voltage for demanding applications",
               "useCase": "Use for 3-5A loads or higher input voltage",
-              "link": "/silan/products/power-management/slm3410.html"
+              "link": ""
             },
             {
               "partNumber": "TPS5430",
@@ -1658,24 +1658,24 @@
               "comparison": "SLM3400=><TPS5430: Input voltage 5.5V-36V vs 4.5V-36V (higher min), Output current 3A = 3A (same), Package SOIC-8 vs SOP-8 (similar), suitable for direct replacement",
               "reason": "Industry standard with extensive documentation",
               "useCase": "Use when TI reference designs preferred",
-              "link": "/ti/products/dcdc/tps5430.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SCM1001",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm1001.html"
+              "link": ""
             },
             {
               "partNumber": "SCM2201",
               "description": "Output capacitor",
-              "link": "/silan/products/power-management/scm2201.html"
+              "link": ""
             },
             {
               "partNumber": "SCM4400",
               "description": "Inductor 22μH",
-              "link": "/silan/products/power-management/scm4400.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1794,7 +1794,7 @@
               "comparison": "SLM3500=><SLM3510: Output current 1A > 500mA (+100%), suitable for direct replacement",
               "reason": "Higher current capability for demanding applications",
               "useCase": "Use for 500mA-1A loads requiring low noise",
-              "link": "/silan/products/power-management/slm3510.html"
+              "link": ""
             },
             {
               "partNumber": "TPS7A91",
@@ -1808,24 +1808,24 @@
               "comparison": "SLM3500=><TPS7A91: Noise 4.7μVrms < 15μVrms (lower), suitable for direct replacement",
               "reason": "Lower noise for ultra-sensitive applications",
               "useCase": "Use when lowest noise is critical",
-              "link": "/ti/products/ldo/tps7a91.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM3400",
               "description": "Buck converter for pre-regulation",
-              "link": "/silan/products/power-management/slm3400.html"
+              "link": "/silan/products/power-management/slm3400"
             },
             {
               "partNumber": "SCM1001",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm1001.html"
+              "link": ""
             },
             {
               "partNumber": "SCM2201",
               "description": "Output capacitor",
-              "link": "/silan/products/power-management/scm2201.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1903,7 +1903,7 @@
               "comparison": "SLM3600=><SLM3610: Charge current 1.5A > 1A (+50%), suitable for direct replacement",
               "reason": "Higher charge current for larger batteries",
               "useCase": "Use for 1A-1.5A charging requirements",
-              "link": "/silan/products/power-management/slm3610.html"
+              "link": ""
             },
             {
               "partNumber": "MCP73831",
@@ -1916,19 +1916,19 @@
               "comparison": "SLM3600=><MCP73831: Charge current 500mA < 1A (lower), suitable for direct replacement",
               "reason": "Industry standard alternative",
               "useCase": "Use for lower current charging",
-              "link": "/microchip/products/charger/mcp73831.html"
+              "link": "/microchip/products/power-management/mcp73831"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM3400",
               "description": "Buck converter for system power",
-              "link": "/silan/products/power-management/slm3400.html"
+              "link": "/silan/products/power-management/slm3400"
             },
             {
               "partNumber": "SCM1001",
               "description": "Input capacitor",
-              "link": "/silan/products/power-management/scm1001.html"
+              "link": ""
             }
           ],
           "faqs": [

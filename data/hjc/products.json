@@ -221,7 +221,7 @@
               },
               "reason": "Higher voltage rating for 48V systems or applications requiring more voltage margin",
               "useCase": "Industrial 24V/48V systems, automotive applications",
-              "link": "/hjc/products/mlcc/hjc-0805-100v-104k-x7r.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-1206-50V-224K-X7R",
@@ -240,37 +240,37 @@
               },
               "reason": "Higher capacitance for applications requiring more energy storage or lower impedance",
               "useCase": "Power supplies with high ripple current, motor drive filtering",
-              "link": "/hjc/products/mlcc/hjc-1206-50v-224k-x7r.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-0805-50V-103K-X7R",
-              "link": "/hjc/products/mlcc/hjc-0805-50v-103k-x7r.html",
+              "link": "",
               "description": "10nF companion for multi-stage filtering",
               "category": "MLCC"
             },
             {
               "partNumber": "HJC-0805-50V-105K-X7R",
-              "link": "/hjc/products/mlcc/hjc-0805-50v-105k-x7r.html",
+              "link": "",
               "description": "1µF companion for bulk decoupling",
               "category": "MLCC"
             },
             {
               "partNumber": "Ferrite Bead 600R",
-              "link": "#",
+              "link": "",
               "description": "EMI suppression for power lines",
               "category": "EMI Components"
             },
             {
               "partNumber": "HJC-0603-50V-104K-X7R",
-              "link": "/hjc/products/mlcc/hjc-0603-50v-104k-x7r.html",
+              "link": "/hjc/products/mlcc/hjc-0603-50v-104k-x7r",
               "description": "Smaller size alternative for space-constrained designs",
               "category": "MLCC"
             },
             {
               "partNumber": "HJC-ELKO-100uF-25V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-100uf-25v.html",
+              "link": "",
               "description": "Electrolytic capacitor for bulk capacitance",
               "category": "Aluminum Electrolytic"
             }
@@ -420,7 +420,7 @@
               },
               "reason": "Double the capacitance for applications requiring more energy storage",
               "useCase": "High-power DC-DC converters, motor drive bulk capacitance",
-              "link": "/hjc/products/mlcc/hjc-1210-100v-106k-x7r.html"
+              "link": "/hjc/products/mlcc/hjc-1210-100v-106k-x7r"
             },
             {
               "partNumber": "HJC-1206-50V-475K-X7R",
@@ -439,37 +439,37 @@
               },
               "reason": "Lower voltage rating for 12V/24V systems with better DC bias performance",
               "useCase": "12V and 24V systems where 100V is unnecessary",
-              "link": "/hjc/products/mlcc/hjc-1206-50v-475k-x7r.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-0805-100V-104K-X7R",
-              "link": "/hjc/products/mlcc/hjc-0805-100v-104k-x7r.html",
+              "link": "",
               "description": "100nF for high-frequency decoupling",
               "category": "MLCC"
             },
             {
               "partNumber": "HJC-ELKO-47uF-100V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-47uf-100v.html",
+              "link": "",
               "description": "Electrolytic for additional bulk capacitance",
               "category": "Aluminum Electrolytic"
             },
             {
               "partNumber": "HJC-1206-100V-225K-X7R",
-              "link": "/hjc/products/mlcc/hjc-1206-100v-225k-x7r.html",
+              "link": "",
               "description": "2.2µF for multi-stage filtering",
               "category": "MLCC"
             },
             {
               "partNumber": "Inductor 10µH",
-              "link": "#",
+              "link": "",
               "description": "LC filter inductor",
               "category": "Magnetics"
             },
             {
               "partNumber": "HJC-1206-100V-475K-X7R",
-              "link": "/hjc/products/mlcc/hjc-1206-100v-475k-x7r.html",
+              "link": "/hjc/products/mlcc/hjc-1206-100v-475k-x7r",
               "description": "Parallel for higher capacitance",
               "category": "MLCC"
             }
@@ -615,7 +615,8 @@
                 "Capacitance": "4.7µF"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hjc/products/mlcc/hjc-1206-100v-475k-x7r"
             }
           ],
           "companionParts": [
@@ -696,14 +697,16 @@
                 "Case Size": "0805"
               },
               "priceDifference": "0%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hjc/products/mlcc/hjc-0805-50v-104k-x7r"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-0805-50V-104K-X7R",
               "description": "Larger package MLCC",
-              "category": "MLCC"
+              "category": "MLCC",
+              "link": "/hjc/products/mlcc/hjc-0805-50v-104k-x7r"
             }
           ],
           "faqs": [
@@ -880,7 +883,7 @@
               },
               "reason": "Higher voltage rating for 24V systems or better derating on 12V systems",
               "useCase": "24V power supplies, high-reliability 12V applications",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-1000uf-35v.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-ELKO-2200uF-25V",
@@ -899,37 +902,37 @@
               },
               "reason": "Higher capacitance for lower ripple voltage or higher current applications",
               "useCase": "High-power LED drivers, motor drive power supplies",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-2200uf-25v.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-ELKO-100uF-25V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-100uf-25v.html",
+              "link": "",
               "description": "100µF for input filtering or secondary outputs",
               "category": "Aluminum Electrolytic"
             },
             {
               "partNumber": "HJC-ELKO-470uF-25V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-470uf-25v.html",
+              "link": "",
               "description": "470µF for multi-stage filtering",
               "category": "Aluminum Electrolytic"
             },
             {
               "partNumber": "HJC-0805-25V-104K-X7R",
-              "link": "/hjc/products/mlcc/hjc-0805-25v-104k-x7r.html",
+              "link": "",
               "description": "100nF MLCC for high-frequency decoupling",
               "category": "MLCC"
             },
             {
               "partNumber": "Bridge Rectifier 2A",
-              "link": "#",
+              "link": "",
               "description": "Input rectifier for AC-DC power supply",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "HJC-ELKO-1000uF-25V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-1000uf-25v.html",
+              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-1000uf-25v",
               "description": "Parallel for higher capacitance or redundancy",
               "category": "Aluminum Electrolytic"
             }
@@ -1079,7 +1082,7 @@
               },
               "reason": "Higher capacitance for lower ripple voltage or higher power applications",
               "useCase": "High-power inverters, large motor drives",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-680uf-450v.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-ELKO-330uF-500V",
@@ -1098,37 +1101,37 @@
               },
               "reason": "Higher voltage rating for 480V AC systems or better derating margin",
               "useCase": "480V industrial systems, high-reliability 380V applications",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-330uf-500v.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-ELKO-470uF-450V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-470uf-450v.html",
+              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-470uf-450v",
               "description": "Parallel for higher capacitance or series for higher voltage",
               "category": "Aluminum Electrolytic"
             },
             {
               "partNumber": "HJC-FILM-10uF-450V",
-              "link": "/hjc/products/film-capacitors/hjc-film-10uf-450v.html",
+              "link": "",
               "description": "Film capacitor for high-frequency filtering in parallel",
               "category": "Film Capacitors"
             },
             {
               "partNumber": "Bleeder Resistor 100k",
-              "link": "#",
+              "link": "",
               "description": "Safety bleeder resistor for DC bus discharge",
               "category": "Resistors"
             },
             {
               "partNumber": "IGBT Module 600V",
-              "link": "#",
+              "link": "",
               "description": "Power switch for inverter applications",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "PFC Controller IC",
-              "link": "#",
+              "link": "",
               "description": "Power factor correction controller",
               "category": "ICs"
             }
@@ -1655,7 +1658,7 @@
               },
               "reason": "Higher capacitance for lower ripple voltage or higher current applications",
               "useCase": "Higher power inverters, motor drives",
-              "link": "/hjc/products/film-capacitors/hjc-cbb21-225j-400v.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-CL21-105K-400V",
@@ -1674,37 +1677,37 @@
               },
               "reason": "Lower cost alternative for applications where higher losses are acceptable",
               "useCase": "General purpose filtering, cost-sensitive applications",
-              "link": "/hjc/products/film-capacitors/hjc-cl21-105k-400v.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-CBB21-105J-400V",
-              "link": "/hjc/products/film-capacitors/hjc-cbb21-105j-400v.html",
+              "link": "/hjc/products/film-capacitors/hjc-cbb21-105j-400v",
               "description": "Parallel for higher capacitance",
               "category": "Film Capacitors"
             },
             {
               "partNumber": "HJC-CBB21-474J-400V",
-              "link": "/hjc/products/film-capacitors/hjc-cbb21-474j-400v.html",
+              "link": "",
               "description": "0.47µF for high-frequency bypass",
               "category": "Film Capacitors"
             },
             {
               "partNumber": "Snubber Resistor 10Ω",
-              "link": "#",
+              "link": "",
               "description": "For RC snubber circuits",
               "category": "Resistors"
             },
             {
               "partNumber": "IGBT 600V 20A",
-              "link": "#",
+              "link": "",
               "description": "Power switch for inverter applications",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "HJC-ELKO-100uF-450V",
-              "link": "/hjc/products/aluminum-electrolytic/hjc-elko-100uf-450v.html",
+              "link": "",
               "description": "Electrolytic for bulk capacitance in parallel",
               "category": "Aluminum Electrolytic"
             }
@@ -1856,7 +1859,7 @@
               },
               "reason": "Higher capacitance for larger motors or applications requiring more running torque",
               "useCase": "3-5HP motors, high-torque applications",
-              "link": "/hjc/products/film-capacitors/hjc-cbb61-25uf-450v.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-CBB61-15uF-450V",
@@ -1874,37 +1877,37 @@
               },
               "reason": "Lower capacitance for smaller motors",
               "useCase": "1-2HP motors, fan motors",
-              "link": "/hjc/products/film-capacitors/hjc-cbb61-15uf-450v.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-CBB61-20uF-450V",
-              "link": "/hjc/products/film-capacitors/hjc-cbb61-20uf-450v.html",
+              "link": "/hjc/products/film-capacitors/hjc-cbb61-20uf-450v",
               "description": "Spare capacitor for maintenance",
               "category": "Film Capacitors"
             },
             {
               "partNumber": "Motor Contactor 30A",
-              "link": "#",
+              "link": "",
               "description": "Contactor for motor control circuit",
               "category": "Motor Control"
             },
             {
               "partNumber": "Overload Relay 15A",
-              "link": "#",
+              "link": "",
               "description": "Thermal overload protection",
               "category": "Motor Protection"
             },
             {
               "partNumber": "M8 Mounting Hardware",
-              "link": "#",
+              "link": "",
               "description": "Mounting nut and washer",
               "category": "Accessories"
             },
             {
               "partNumber": "Terminal Cover",
-              "link": "#",
+              "link": "",
               "description": "Safety cover for terminals",
               "category": "Safety"
             }
@@ -2426,7 +2429,7 @@
               },
               "reason": "Higher capacitance for longer backup time or higher energy storage",
               "useCase": "Longer RTC backup, larger energy harvesting systems",
-              "link": "/hjc/products/supercapacitors/hjc-hc-22f-2.7v.html"
+              "link": ""
             },
             {
               "partNumber": "HJC-HC-3.3F-2.7V",
@@ -2444,37 +2447,37 @@
               },
               "reason": "Smaller size and lower cost for applications with lower energy requirements",
               "useCase": "Compact designs, short backup times",
-              "link": "/hjc/products/supercapacitors/hjc-hc-3.3f-2.7v.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-HC-10F-2.7V",
-              "link": "/hjc/products/supercapacitors/hjc-hc-10f-2.7v.html",
+              "link": "/hjc/products/supercapacitors/hjc-hc-10f-2-7v",
               "description": "Parallel for higher capacitance",
               "category": "Supercapacitors"
             },
             {
               "partNumber": "Supercapacitor Balancing IC",
-              "link": "#",
+              "link": "",
               "description": "Active balancing for series connection",
               "category": "ICs"
             },
             {
               "partNumber": "LDO Regulator 2.5V",
-              "link": "#",
+              "link": "",
               "description": "Voltage regulator for backup circuit",
               "category": "ICs"
             },
             {
               "partNumber": "Diode 1N4148",
-              "link": "#",
+              "link": "",
               "description": "Blocking diode for charging circuit",
               "category": "Discrete"
             },
             {
               "partNumber": "Resistor 100Ω",
-              "link": "#",
+              "link": "",
               "description": "Current limit for charging",
               "category": "Resistors"
             }
@@ -2621,7 +2624,7 @@
               },
               "reason": "Double the energy storage for extended backup or higher power applications",
               "useCase": "Extended SSD backup, larger energy harvesting systems",
-              "link": "/hjc/products/supercapacitors/hjc-hc-200f-2.7v.html"
+              "link": "/hjc/products/supercapacitors/hjc-hc-200f-2-7v"
             },
             {
               "partNumber": "HJC-HC-50F-2.7V",
@@ -2639,37 +2642,37 @@
               },
               "reason": "Smaller size and lower cost for applications with lower energy requirements",
               "useCase": "Shorter backup times, compact designs",
-              "link": "/hjc/products/supercapacitors/hjc-hc-50f-2.7v.html"
+              "link": "/hjc/products/supercapacitors/hjc-hc-50f-2-7v"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-HC-100F-2.7V",
-              "link": "/hjc/products/supercapacitors/hjc-hc-100f-2.7v.html",
+              "link": "/hjc/products/supercapacitors/hjc-hc-100f-2-7v",
               "description": "Parallel for 200F or series for 5.4V 50F",
               "category": "Supercapacitors"
             },
             {
               "partNumber": "Supercapacitor Charger IC",
-              "link": "#",
+              "link": "",
               "description": "Dedicated charging controller",
               "category": "ICs"
             },
             {
               "partNumber": "DC-DC Boost Converter",
-              "link": "#",
+              "link": "",
               "description": "Extract energy as voltage drops",
               "category": "ICs"
             },
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Monitor charge/discharge current",
               "category": "Resistors"
             },
             {
               "partNumber": "MOSFET Switch",
-              "link": "#",
+              "link": "",
               "description": "Control discharge path",
               "category": "Discrete"
             }
@@ -2812,14 +2815,16 @@
                 "Capacitance": "100F"
               },
               "priceDifference": "+40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hjc/products/supercapacitors/hjc-hc-100f-2-7v"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-HC-10F-2.7V",
               "description": "Lower capacitance option",
-              "category": "Supercapacitors"
+              "category": "Supercapacitors",
+              "link": "/hjc/products/supercapacitors/hjc-hc-10f-2-7v"
             }
           ],
           "faqs": [
@@ -2890,14 +2895,16 @@
                 "Capacitance": "100F"
               },
               "priceDifference": "-35%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hjc/products/supercapacitors/hjc-hc-100f-2-7v"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HJC-HC-50F-2.7V",
               "description": "Mid-range option",
-              "category": "Supercapacitors"
+              "category": "Supercapacitors",
+              "link": "/hjc/products/supercapacitors/hjc-hc-50f-2-7v"
             }
           ],
           "faqs": [

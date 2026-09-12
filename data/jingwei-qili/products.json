@@ -178,7 +178,7 @@
               },
               "reason": "Higher capacity for more complex designs requiring additional logic and DSP resources",
               "useCase": "Use for larger 5G baseband designs or multi-channel video processing",
-              "link": "/jingwei-qili/products/hme-p-series/HME-P3A150.html"
+              "link": ""
             },
             {
               "partNumber": "HME-P2A100",
@@ -196,31 +196,31 @@
               },
               "reason": "Cost-effective alternative when 10Gbps transceivers and PCIe Gen2 are sufficient",
               "useCase": "Use for applications not requiring maximum transceiver speed",
-              "link": "/jingwei-qili/products/hme-p-series/HME-P2A100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-P3A100-EVK",
-              "link": "#",
+              "link": "",
               "description": "Comprehensive evaluation kit with reference designs",
               "category": "Development Kits"
             },
             {
               "partNumber": "DDR4 SODIMM Module",
-              "link": "#",
+              "link": "",
               "description": "8GB DDR4 memory module for FPGA development",
               "category": "Memory"
             },
             {
               "partNumber": "PCIe FMC Card",
-              "link": "#",
+              "link": "",
               "description": "FMC expansion card with PCIe x8 interface",
               "category": "Expansion Cards"
             },
             {
               "partNumber": "MIPI Camera Module",
-              "link": "#",
+              "link": "",
               "description": "4-lane MIPI CSI-2 camera for video applications",
               "category": "Camera Modules"
             }
@@ -447,7 +447,7 @@
               },
               "reason": "Double the logic capacity for more complex control algorithms or additional features",
               "useCase": "Use for multi-axis motor control or complex PLC applications",
-              "link": "/jingwei-qili/products/hme-h-series/HME-H3C16.html"
+              "link": ""
             },
             {
               "partNumber": "HME-H2C08",
@@ -465,31 +465,31 @@
               },
               "reason": "Lower cost option when power consumption is not critical",
               "useCase": "Use for cost-sensitive mains-powered applications",
-              "link": "/jingwei-qili/products/hme-h-series/HME-H2C08.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-H3C08-EVK",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit with USB programmer and example designs",
               "category": "Development Kits"
             },
             {
               "partNumber": "SPI Flash W25Q128",
-              "link": "#",
+              "link": "",
               "description": "128Mbit SPI flash for FPGA configuration storage",
               "category": "Memory"
             },
             {
               "partNumber": "LDO Regulator",
-              "link": "#",
+              "link": "",
               "description": "Low-dropout regulator for 1.2V core supply",
               "category": "Power Management"
             },
             {
               "partNumber": "RS-485 Transceiver",
-              "link": "#",
+              "link": "",
               "description": "Industrial communication interface chip",
               "category": "Interface ICs"
             }
@@ -678,7 +678,7 @@
               },
               "reason": "Double logic capacity for more complex processing while maintaining low power",
               "useCase": "Use for multi-sensor fusion or complex IoT edge processing",
-              "link": "/jingwei-qili/products/hme-m-series/HME-M2C20.html"
+              "link": ""
             },
             {
               "partNumber": "HME-M1C05",
@@ -696,31 +696,31 @@
               },
               "reason": "Lower power and cost for simple applications with minimal logic requirements",
               "useCase": "Use for basic sensor interfaces or simple control applications",
-              "link": "/jingwei-qili/products/hme-m-series/HME-M1C05.html"
+              "link": "/jingwei-qili/products/hme-m-series/hme-m1c05"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-M2C10-EVK",
-              "link": "#",
+              "link": "",
               "description": "Low-power evaluation kit with battery power option",
               "category": "Development Kits"
             },
             {
               "partNumber": "Ultra-Low Power LDO",
-              "link": "#",
+              "link": "",
               "description": "1.2V LDO with <1μA quiescent current",
               "category": "Power Management"
             },
             {
               "partNumber": "CR2032 Battery Holder",
-              "link": "#",
+              "link": "",
               "description": "Coin cell battery holder for portable designs",
               "category": "Power"
             },
             {
               "partNumber": "Low-Power Sensor Module",
-              "link": "#",
+              "link": "",
               "description": "Temperature/humidity sensor with I2C interface",
               "category": "Sensors"
             }
@@ -808,25 +808,25 @@
               },
               "reason": "More logic and I/O for applications requiring additional features",
               "useCase": "Use when 5K LUTs are insufficient for your design",
-              "link": "/jingwei-qili/products/hme-m-series/HME-M2C10.html"
+              "link": "/jingwei-qili/products/hme-m-series/hme-m2c10"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-M1C05-EVK",
-              "link": "#",
+              "link": "",
               "description": "Compact evaluation kit for low-power designs",
               "category": "Development Kits"
             },
             {
               "partNumber": "Sub-1GHz RF Module",
-              "link": "#",
+              "link": "",
               "description": "Low-power wireless module for IoT connectivity",
               "category": "Wireless"
             },
             {
               "partNumber": "Coin Cell Battery",
-              "link": "#",
+              "link": "",
               "description": "CR2032 lithium battery for portable designs",
               "category": "Power"
             }
@@ -978,7 +978,7 @@
               },
               "reason": "Maximum capacity and performance for the most demanding applications",
               "useCase": "Use for 800G networking or large-scale AI acceleration",
-              "link": "/jingwei-qili/products/hme-a-series/HME-A7C500.html"
+              "link": "/jingwei-qili/products/hme-a-series/hme-a7c500"
             },
             {
               "partNumber": "HME-P3A150",
@@ -995,31 +995,31 @@
               },
               "reason": "Cost-effective alternative when 28Gbps and maximum capacity not required",
               "useCase": "Use for 100G networking or less demanding acceleration",
-              "link": "/jingwei-qili/products/hme-p-series/HME-P3A150.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-A5C300-EVK",
-              "link": "#",
+              "link": "",
               "description": "High-end evaluation platform with HBM and networking interfaces",
               "category": "Development Kits"
             },
             {
               "partNumber": "HBM2 Memory Stack",
-              "link": "#",
+              "link": "",
               "description": "4GB HBM2 memory for high-bandwidth applications",
               "category": "Memory"
             },
             {
               "partNumber": "QSFP28 Module",
-              "link": "#",
+              "link": "",
               "description": "100G optical transceiver for networking applications",
               "category": "Optics"
             },
             {
               "partNumber": "Liquid Cold Plate",
-              "link": "#",
+              "link": "",
               "description": "High-performance cooling for thermal management",
               "category": "Thermal Management"
             }
@@ -1109,25 +1109,25 @@
               },
               "reason": "Lower cost alternative when maximum capacity and 56Gbps not required",
               "useCase": "Use for 400G networking or less demanding AI acceleration",
-              "link": "/jingwei-qili/products/hme-a-series/HME-A5C300.html"
+              "link": "/jingwei-qili/products/hme-a-series/hme-a5c300"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HME-A7C500-EVK",
-              "link": "#",
+              "link": "",
               "description": "Flagship evaluation platform with complete 800G networking subsystem",
               "category": "Development Kits"
             },
             {
               "partNumber": "QSFP-DD Module",
-              "link": "#",
+              "link": "",
               "description": "400G/800G optical transceiver",
               "category": "Optics"
             },
             {
               "partNumber": "Liquid Cooling System",
-              "link": "#",
+              "link": "",
               "description": "Complete liquid cooling solution for high-power FPGA",
               "category": "Thermal Management"
             }

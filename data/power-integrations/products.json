@@ -163,7 +163,7 @@
               },
               "reason": "Lower power variant for cost-sensitive applications below 25W",
               "useCase": "Mobile chargers, small appliance power supplies",
-              "link": "/power-integrations/products/ac-dc-converters/inn3674c.html"
+              "link": ""
             },
             {
               "partNumber": "INN3676C",
@@ -185,25 +185,25 @@
               },
               "reason": "Higher power variant for applications requiring up to 45W",
               "useCase": "Laptop adapters, higher power LED drivers",
-              "link": "/power-integrations/products/ac-dc-converters/inn3676c.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "LYTSwitch-6",
-              "link": "/power-integrations/products/led-drivers/lytswitch-6.html",
+              "link": "",
               "description": "LED driver companion for lighting applications",
               "category": "LED Drivers"
             },
             {
               "partNumber": "SIC1182K",
-              "link": "/power-integrations/products/gate-drivers/sic1182k.html",
+              "link": "/power-integrations/products/gate-drivers/sic1182k",
               "description": "SiC MOSFET gate driver for high-efficiency designs",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "Bridge Rectifier",
-              "link": "#",
+              "link": "",
               "description": "Input bridge rectifier for AC-DC designs",
               "category": "Discrete Components"
             }
@@ -324,7 +324,7 @@
               },
               "reason": "Higher current capability for applications requiring up to 575mA",
               "useCase": "Higher power appliance power supplies, industrial controls",
-              "link": "/power-integrations/products/ac-dc-converters/lnk3204d.html"
+              "link": ""
             },
             {
               "partNumber": "LNK3201D",
@@ -344,25 +344,25 @@
               },
               "reason": "Lower cost option for applications below 225mA",
               "useCase": "Low-power IoT devices, sensor power supplies",
-              "link": "/power-integrations/products/ac-dc-converters/lnk3201d.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "BR1S",
-              "link": "#",
+              "link": "",
               "description": "Bridge rectifier for input AC rectification",
               "category": "Discrete Components"
             },
             {
               "partNumber": "Inductor",
-              "link": "#",
+              "link": "",
               "description": "Buck inductor for output filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "TVS Diode",
-              "link": "#",
+              "link": "",
               "description": "Transient protection for surge immunity",
               "category": "Protection Components"
             }
@@ -647,7 +647,7 @@
               },
               "reason": "Lower power variant for applications below 17W",
               "useCase": "A19 retrofit lamps, small downlights",
-              "link": "/power-integrations/products/led-drivers/lyt6071c.html"
+              "link": ""
             },
             {
               "partNumber": "LYT6073C",
@@ -667,25 +667,25 @@
               },
               "reason": "Higher power variant for applications up to 36W",
               "useCase": "High-power downlights, commercial fixtures",
-              "link": "/power-integrations/products/led-drivers/lyt6073c.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Inductor",
-              "link": "#",
+              "link": "",
               "description": "Buck inductor for LED current regulation",
               "category": "Passive Components"
             },
             {
               "partNumber": "TVS Diode",
-              "link": "#",
+              "link": "",
               "description": "Surge protection for line transients",
               "category": "Protection Components"
             },
             {
               "partNumber": "Bridge Rectifier",
-              "link": "#",
+              "link": "",
               "description": "Input AC rectification",
               "category": "Discrete Components"
             }
@@ -806,7 +806,7 @@
               },
               "reason": "Lower power variant for applications below 12W",
               "useCase": "Small commercial fixtures, panel lights",
-              "link": "/power-integrations/products/led-drivers/lnk416lg.html"
+              "link": ""
             },
             {
               "partNumber": "LNK418LG",
@@ -826,25 +826,25 @@
               },
               "reason": "Higher power variant for applications up to 25W",
               "useCase": "High-power commercial fixtures, street lights",
-              "link": "/power-integrations/products/led-drivers/lnk418lg.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Inductor",
-              "link": "#",
+              "link": "",
               "description": "PFC inductor for power factor correction",
               "category": "Passive Components"
             },
             {
               "partNumber": "Dimmer Controller",
-              "link": "#",
+              "link": "",
               "description": "0-10V dimming control interface",
               "category": "Control Components"
             },
             {
               "partNumber": "Input Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Bulk capacitor for PFC stage",
               "category": "Passive Components"
             }
@@ -1025,7 +1025,7 @@
               },
               "reason": "Lower current variant for smaller motors up to 0.5HP",
               "useCase": "Small appliance motors, fan motors",
-              "link": "/power-integrations/products/motor-drivers/brd1260c.html"
+              "link": ""
             },
             {
               "partNumber": "BRD1165C",
@@ -1045,25 +1045,25 @@
               },
               "reason": "Lower voltage variant for 110V/230V applications",
               "useCase": "Standard voltage motor drives, cost-sensitive designs",
-              "link": "/power-integrations/products/motor-drivers/brd1165c.html"
+              "link": "/power-integrations/products/motor-drivers/brd1165c"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MCU Controller",
-              "link": "#",
+              "link": "",
               "description": "Microcontroller for sensorless motor control algorithm",
               "category": "Control Components"
             },
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Low-value resistor for phase current sensing",
               "category": "Passive Components"
             },
             {
               "partNumber": "Bootstrap Capacitor",
-              "link": "#",
+              "link": "",
               "description": "High-voltage capacitor for bootstrap supply",
               "category": "Passive Components"
             }
@@ -1179,7 +1179,7 @@
               },
               "reason": "Standard current variant for motors up to 1HP",
               "useCase": "Standard appliance motors, smaller compressors",
-              "link": "/power-integrations/products/motor-drivers/brd1265c.html"
+              "link": "/power-integrations/products/motor-drivers/brd1265c"
             },
             {
               "partNumber": "BRD1167C",
@@ -1199,25 +1199,25 @@
               },
               "reason": "Lower voltage variant for standard voltage applications",
               "useCase": "230V motor drives, cost-optimized designs",
-              "link": "/power-integrations/products/motor-drivers/brd1167c.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Gate Driver IC",
-              "link": "#",
+              "link": "",
               "description": "Three-phase gate driver for complete inverter",
               "category": "Control Components"
             },
             {
               "partNumber": "DC Link Capacitor",
-              "link": "#",
+              "link": "",
               "description": "High-voltage capacitor for DC bus filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "NTC Thermistor",
-              "link": "#",
+              "link": "",
               "description": "Temperature sensing for motor protection",
               "category": "Sensors"
             }
@@ -1480,7 +1480,7 @@
               },
               "reason": "Lower drive current for smaller devices",
               "useCase": "Small IGBTs, low gate charge MOSFETs",
-              "link": "/power-integrations/products/gate-drivers/sid1181k.html"
+              "link": ""
             },
             {
               "partNumber": "SID1183K",
@@ -1500,25 +1500,25 @@
               },
               "reason": "Higher drive current for large modules",
               "useCase": "Large IGBT modules, high gate charge SiC",
-              "link": "/power-integrations/products/gate-drivers/sid1183k.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Isolated DC-DC",
-              "link": "#",
+              "link": "",
               "description": "Isolated power supply for gate drive voltage",
               "category": "Power Components"
             },
             {
               "partNumber": "DESAT Diode",
-              "link": "#",
+              "link": "",
               "description": "High-voltage diode for DESAT detection",
               "category": "Discrete Components"
             },
             {
               "partNumber": "Miller Clamp",
-              "link": "#",
+              "link": "",
               "description": "Active Miller clamp for SiC MOSFETs",
               "category": "Protection Components"
             }
@@ -1638,7 +1638,7 @@
               },
               "reason": "Single channel for flexible multi-phase designs",
               "useCase": "Three-phase inverters, independent control",
-              "link": "/power-integrations/products/gate-drivers/sid1182k.html"
+              "link": "/power-integrations/products/gate-drivers/sid1182k"
             },
             {
               "partNumber": "SID2183K",
@@ -1658,25 +1658,25 @@
               },
               "reason": "Higher drive current for large power modules",
               "useCase": "Large IGBT modules, high gate charge SiC",
-              "link": "/power-integrations/products/gate-drivers/sid2183k.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Dual Isolated DC-DC",
-              "link": "#",
+              "link": "",
               "description": "Dual isolated supply for high and low side",
               "category": "Power Components"
             },
             {
               "partNumber": "Current Sensor",
-              "link": "#",
+              "link": "",
               "description": "Isolated current sensor for protection",
               "category": "Sensors"
             },
             {
               "partNumber": "Temperature Sensor",
-              "link": "#",
+              "link": "",
               "description": "NTC for module temperature monitoring",
               "category": "Sensors"
             }

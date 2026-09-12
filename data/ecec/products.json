@@ -251,7 +251,7 @@
             {
               "partNumber": "HC-49S-8MHz-12pF",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-resonators/hc-49s-8mhz-12pf.html",
+              "link": "",
               "reason": "Lower load capacitance for circuits with lower CL requirement",
               "useCase": "Use when your oscillator circuit requires 12pF load capacitance",
               "specifications": {
@@ -271,7 +271,7 @@
             {
               "partNumber": "SMD5032-8MHz-20pF",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-resonators/smd5032-8mhz-20pf.html",
+              "link": "",
               "reason": "SMD package for automated assembly applications",
               "useCase": "Use for surface mount assembly and compact PCB designs",
               "specifications": {
@@ -292,19 +292,19 @@
           "companionParts": [
             {
               "partNumber": "22pF-Capacitor",
-              "link": "#",
+              "link": "",
               "description": "22pF NP0 ceramic capacitor for load capacitance",
               "category": "Passive Component"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 MCU that works with 8MHz crystal",
               "category": "MCU"
             },
             {
               "partNumber": "Crystal-Socket",
-              "link": "#",
+              "link": "",
               "description": "DIP socket for easy crystal replacement",
               "category": "Connector"
             }
@@ -446,7 +446,7 @@
             {
               "partNumber": "SMD3225-16MHz-20pF",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-resonators/smd3225-16mhz-20pf.html",
+              "link": "",
               "reason": "Higher load capacitance for different oscillator circuits",
               "useCase": "Use when your circuit requires 20pF load capacitance",
               "specifications": {
@@ -466,7 +466,7 @@
             {
               "partNumber": "SMD2520-16MHz-12pF",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-resonators/smd2520-16mhz-12pf.html",
+              "link": "",
               "reason": "Smaller 2.5x2.0mm package for ultra-compact designs",
               "useCase": "Use for space-critical applications requiring smaller package",
               "specifications": {
@@ -487,19 +487,19 @@
           "companionParts": [
             {
               "partNumber": "18pF-Capacitor-0402",
-              "link": "#",
+              "link": "",
               "description": "18pF 0402 NP0 capacitor for load capacitance",
               "category": "Passive Component"
             },
             {
               "partNumber": "nRF52832",
-              "link": "#",
+              "link": "",
               "description": "BLE SoC compatible with 16MHz crystal",
               "category": "Wireless MCU"
             },
             {
               "partNumber": "SMD-Solder-Paste",
-              "link": "#",
+              "link": "",
               "description": "Solder paste for SMD crystal assembly",
               "category": "Assembly Material"
             }
@@ -740,7 +740,7 @@
             {
               "partNumber": "XO-25MHz-5V",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-oscillators/xo-25mhz-5v.html",
+              "link": "",
               "reason": "5V supply version for legacy systems",
               "useCase": "Use for 5V systems and legacy applications",
               "specifications": {
@@ -760,7 +760,7 @@
             {
               "partNumber": "XO-25MHz-1.8V",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-oscillators/xo-25mhz-1v8.html",
+              "link": "",
               "reason": "1.8V low-power version for battery applications",
               "useCase": "Use for 1.8V low-power systems",
               "specifications": {
@@ -781,19 +781,19 @@
           "companionParts": [
             {
               "partNumber": "Decoupling-Cap-100nF",
-              "link": "#",
+              "link": "",
               "description": "100nF decoupling capacitor for power supply",
               "category": "Passive Component"
             },
             {
               "partNumber": "LAN8720",
-              "link": "#",
+              "link": "",
               "description": "Ethernet PHY requiring 25MHz clock",
               "category": "Ethernet PHY"
             },
             {
               "partNumber": "Oscillator-Socket",
-              "link": "#",
+              "link": "",
               "description": "Socket for easy oscillator replacement",
               "category": "Connector"
             }
@@ -936,7 +936,7 @@
             {
               "partNumber": "TCXO-26MHz-0.5ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-oscillators/tcxo-26mhz-0v5ppm.html",
+              "link": "",
               "reason": "Ultra-high stability 0.5ppm for precision applications",
               "useCase": "Use for high-precision GPS and timing applications",
               "specifications": {
@@ -956,7 +956,7 @@
             {
               "partNumber": "TCXO-26MHz-1.0ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-oscillators/tcxo-26mhz-1v0ppm.html",
+              "link": "",
               "reason": "Mid-range stability 1.0ppm for balanced performance",
               "useCase": "Use for cellular and communication applications",
               "specifications": {
@@ -977,19 +977,19 @@
           "companionParts": [
             {
               "partNumber": "GPS-Module",
-              "link": "#",
+              "link": "",
               "description": "GPS module requiring 26MHz TCXO reference",
               "category": "GPS Module"
             },
             {
               "partNumber": "Cellular-Modem",
-              "link": "#",
+              "link": "",
               "description": "Cellular modem for IoT applications",
               "category": "Wireless Module"
             },
             {
               "partNumber": "Low-Noise-LDO",
-              "link": "#",
+              "link": "",
               "description": "Low-noise LDO for clean TCXO power",
               "category": "Power Management"
             }
@@ -1227,7 +1227,7 @@
             {
               "partNumber": "MEMS-48MHz-25ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/mems-oscillators/mems-48mhz-25ppm.html",
+              "link": "",
               "reason": "48MHz for USB applications requiring exact frequency",
               "useCase": "Use for USB 2.0 applications requiring 48MHz clock",
               "specifications": {
@@ -1247,7 +1247,7 @@
             {
               "partNumber": "MEMS-50MHz-50ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/mems-oscillators/mems-50mhz-50ppm.html",
+              "link": "",
               "reason": "Lower cost option with 50ppm stability",
               "useCase": "Use for cost-sensitive applications with relaxed stability requirements",
               "specifications": {
@@ -1269,19 +1269,19 @@
           "companionParts": [
             {
               "partNumber": "Shock-Isolator",
-              "link": "#",
+              "link": "",
               "description": "Shock isolator for extreme environments",
               "category": "Mechanical"
             },
             {
               "partNumber": "High-Speed-MCU",
-              "link": "#",
+              "link": "",
               "description": "High-speed MCU for 50MHz operation",
               "category": "MCU"
             },
             {
               "partNumber": "Decoupling-Kit",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitors for MEMS power",
               "category": "Passive Component"
             }
@@ -1425,7 +1425,7 @@
             {
               "partNumber": "MEMS-32.768kHz-50ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/mems-oscillators/mems-32v768khz-50ppm.html",
+              "link": "",
               "reason": "Higher accuracy 50ppm for precision timing",
               "useCase": "Use for applications requiring better timekeeping accuracy",
               "specifications": {
@@ -1445,7 +1445,7 @@
             {
               "partNumber": "Quartz-32.768kHz-20ppm",
               "brand": "ECEC",
-              "link": "/ecec/products/crystal-resonators/quartz-32v768khz-20ppm.html",
+              "link": "",
               "reason": "Quartz crystal alternative with 20ppm accuracy",
               "useCase": "Use for lowest cost RTC applications",
               "specifications": {
@@ -1466,19 +1466,19 @@
           "companionParts": [
             {
               "partNumber": "RTC-Chip",
-              "link": "#",
+              "link": "",
               "description": "Real-time clock chip requiring 32.768kHz",
               "category": "RTC"
             },
             {
               "partNumber": "Backup-Battery",
-              "link": "#",
+              "link": "",
               "description": "Coin cell battery for RTC backup",
               "category": "Power"
             },
             {
               "partNumber": "Low-Leakage-Diode",
-              "link": "#",
+              "link": "",
               "description": "Diode for power switching",
               "category": "Power Management"
             }
@@ -1718,7 +1718,7 @@
             {
               "partNumber": "CG-4OUT-PCIe",
               "brand": "ECEC",
-              "link": "/ecec/products/timing-modules/cg-4out-pcie.html",
+              "link": "",
               "reason": "4-output version for smaller PCIe systems",
               "useCase": "Use for systems requiring fewer PCIe clocks",
               "specifications": {
@@ -1738,7 +1738,7 @@
             {
               "partNumber": "CG-6OUT-Gen4",
               "brand": "ECEC",
-              "link": "/ecec/products/timing-modules/cg-6out-gen4.html",
+              "link": "",
               "reason": "PCIe Gen4 compatible with lower jitter",
               "useCase": "Use for PCIe Gen4 applications requiring <0.3ps jitter",
               "specifications": {
@@ -1760,19 +1760,19 @@
           "companionParts": [
             {
               "partNumber": "25MHz-Crystal",
-              "link": "#",
+              "link": "",
               "description": "25MHz crystal for reference input",
               "category": "Crystal"
             },
             {
               "partNumber": "PCIe-Connector",
-              "link": "#",
+              "link": "",
               "description": "PCIe connector for clock distribution",
               "category": "Connector"
             },
             {
               "partNumber": "LDO-3.3V",
-              "link": "#",
+              "link": "",
               "description": "3.3V LDO for clean power supply",
               "category": "Power Management"
             }
@@ -1917,7 +1917,7 @@
             {
               "partNumber": "CB-4OUT-LVDS",
               "brand": "ECEC",
-              "link": "/ecec/products/timing-modules/cb-4out-lvds.html",
+              "link": "",
               "reason": "4-output version for smaller clock distribution needs",
               "useCase": "Use for systems requiring fewer clock outputs",
               "specifications": {
@@ -1937,7 +1937,7 @@
             {
               "partNumber": "CB-8OUT-LVPECL",
               "brand": "ECEC",
-              "link": "/ecec/products/timing-modules/cb-8out-lvpecl.html",
+              "link": "",
               "reason": "LVPECL output version for high-speed applications",
               "useCase": "Use for applications requiring LVPECL output levels",
               "specifications": {
@@ -1959,19 +1959,19 @@
           "companionParts": [
             {
               "partNumber": "Low-Jitter-OSC",
-              "link": "#",
+              "link": "",
               "description": "Low-jitter oscillator for clock input",
               "category": "Oscillator"
             },
             {
               "partNumber": "100-Ohm-Termination",
-              "link": "#",
+              "link": "",
               "description": "100 ohm termination resistors for LVDS",
               "category": "Passive"
             },
             {
               "partNumber": "Clean-Power-LDO",
-              "link": "#",
+              "link": "",
               "description": "Low-noise LDO for clock buffer power",
               "category": "Power Management"
             }

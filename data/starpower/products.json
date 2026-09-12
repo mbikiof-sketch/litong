@@ -213,9 +213,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gd50hfl120c1s",
           "specifications": {
@@ -342,9 +354,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gd100hfl120c2s",
           "specifications": {
@@ -461,7 +485,8 @@
               "partNumber": "GD450HFT120C3S",
               "comparison": "Lower current option",
               "reason": "Power reduction",
-              "useCase": "Medium power drives"
+              "useCase": "Medium power drives",
+              "link": "/starpower/products/igbt-modules/gd450hft120c3s"
             },
             {
               "partNumber": "GD800HFT120C3S",
@@ -471,9 +496,21 @@
             }
           ],
           "companionParts": [
-            "GD600HFT120C3S-Diode",
-            "2SP0320T2A0-17",
-            "NTC10K"
+            {
+              "partNumber": "GD600HFT120C3S-Diode",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "2SP0320T2A0-17",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gd600hft120c3s",
           "specifications": {
@@ -595,13 +632,26 @@
               "partNumber": "GD600HFT120C3S",
               "comparison": "Higher current",
               "reason": "Higher power",
-              "useCase": "Large inverters"
+              "useCase": "Large inverters",
+              "link": "/starpower/products/igbt-modules/gd600hft120c3s"
             }
           ],
           "companionParts": [
-            "GD450HFT120C3S-Diode",
-            "2SP0320T2A0-17",
-            "NTC10K"
+            {
+              "partNumber": "GD450HFT120C3S-Diode",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "2SP0320T2A0-17",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gd450hft120c3s",
           "specifications": {
@@ -814,9 +864,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gds100m12b1",
           "specifications": {
@@ -942,9 +1004,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gds50m12b1",
           "specifications": {
@@ -1059,7 +1133,8 @@
               "partNumber": "GDS100M12B1",
               "comparison": "Lower current",
               "reason": "Cost reduction",
-              "useCase": "Medium power apps"
+              "useCase": "Medium power apps",
+              "link": "/starpower/products/sic-modules/gds100m12b1"
             },
             {
               "partNumber": "GDS300M12B2",
@@ -1069,9 +1144,21 @@
             }
           ],
           "companionParts": [
-            "GDS200M12B2-Diode",
-            "1EDI20N12AF",
-            "NTC10K"
+            {
+              "partNumber": "GDS200M12B2-Diode",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "1EDI20N12AF",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gds200m12b2",
           "specifications": {
@@ -1187,19 +1274,33 @@
               "partNumber": "GDS50M12B1",
               "comparison": "Higher voltage",
               "reason": "800V system",
-              "useCase": "Future-proofing"
+              "useCase": "Future-proofing",
+              "link": "/starpower/products/sic-modules/gds50m12b1"
             },
             {
               "partNumber": "GDS100M12B1",
               "comparison": "Higher current",
               "reason": "More power",
-              "useCase": "High power 400V"
+              "useCase": "High power 400V",
+              "link": "/starpower/products/sic-modules/gds100m12b1"
             }
           ],
           "companionParts": [
-            "GDS65M12B1-Diode",
-            "1EDI20N12AF",
-            "NTC10K"
+            {
+              "partNumber": "GDS65M12B1-Diode",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "1EDI20N12AF",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gds65m12b1",
           "specifications": {
@@ -1411,9 +1512,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdm200n60",
           "specifications": {
@@ -1539,9 +1652,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdm100n80",
           "specifications": {
@@ -1656,7 +1781,8 @@
               "partNumber": "GDM200N60",
               "comparison": "Lower current",
               "reason": "Cost reduction",
-              "useCase": "Standard 48V systems"
+              "useCase": "Standard 48V systems",
+              "link": "/starpower/products/mosfet-modules/gdm200n60"
             },
             {
               "partNumber": "GDM400N60",
@@ -1666,9 +1792,21 @@
             }
           ],
           "companionParts": [
-            "GDM300N60-Driver",
-            "BTS50080-1TEA",
-            "NTC10K"
+            {
+              "partNumber": "GDM300N60-Driver",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "BTS50080-1TEA",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdm300n60",
           "specifications": {
@@ -1783,19 +1921,33 @@
               "partNumber": "GDM100N80",
               "comparison": "Lower voltage",
               "reason": "48V system",
-              "useCase": "48V applications"
+              "useCase": "48V applications",
+              "link": "/starpower/products/mosfet-modules/gdm100n80"
             },
             {
               "partNumber": "GDM200N60",
               "comparison": "Higher current",
               "reason": "More power",
-              "useCase": "High current 48V"
+              "useCase": "High current 48V",
+              "link": "/starpower/products/mosfet-modules/gdm200n60"
             }
           ],
           "companionParts": [
-            "GDM150N100-Driver",
-            "BTS50080-1TEA",
-            "NTC10K"
+            {
+              "partNumber": "GDM150N100-Driver",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "BTS50080-1TEA",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "NTC10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdm150n100",
           "specifications": {
@@ -2007,9 +2159,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdr200a12",
           "specifications": {
@@ -2135,9 +2299,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdt100a16",
           "specifications": {
@@ -2252,7 +2428,8 @@
               "partNumber": "GDR200A12",
               "comparison": "Lower current",
               "reason": "Cost reduction",
-              "useCase": "Medium welding"
+              "useCase": "Medium welding",
+              "link": "/starpower/products/rectifier-modules/gdr200a12"
             },
             {
               "partNumber": "GDR600A12",
@@ -2262,9 +2439,21 @@
             }
           ],
           "companionParts": [
-            "GDR400A12-Heatsink",
-            "Thermal-Grease",
-            "Mounting-Kit"
+            {
+              "partNumber": "GDR400A12-Heatsink",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Thermal-Grease",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Mounting-Kit",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdr400a12",
           "specifications": {
@@ -2379,7 +2568,8 @@
               "partNumber": "GDT100A16",
               "comparison": "Lower current",
               "reason": "Cost reduction",
-              "useCase": "Medium motors"
+              "useCase": "Medium motors",
+              "link": "/starpower/products/rectifier-modules/gdt100a16"
             },
             {
               "partNumber": "GDT300A16",
@@ -2389,9 +2579,21 @@
             }
           ],
           "companionParts": [
-            "GDT200A16-Heatsink",
-            "Thermal-Grease",
-            "Firing-Circuit"
+            {
+              "partNumber": "GDT200A16-Heatsink",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Thermal-Grease",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Firing-Circuit",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "gdt200a16",
           "specifications": {

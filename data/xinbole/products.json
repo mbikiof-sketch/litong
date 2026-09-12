@@ -204,7 +204,7 @@
               "comparison": "XB-T8821=><DRV8825: Output current 2.5A = 2.5A, suitable for direct replacement",
               "reason": "XB-T8821 offers comparable performance at competitive cost with integrated controller",
               "useCase": "XB-T8821 for new designs requiring integrated controller; DRV8825 for existing designs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "A4988",
@@ -216,7 +216,7 @@
               "comparison": "XB-T8821=><A4988: Output current 2.5A => 2A, suitable for direct replacement",
               "reason": "XB-T8821 provides higher voltage and current capability with finer microstepping",
               "useCase": "XB-T8821 for higher power applications; A4988 for basic low-cost designs",
-              "link": "#"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
@@ -224,19 +224,19 @@
               "partNumber": "XB-LD0333",
               "category": "Power Management",
               "description": "3.3V LDO regulator for logic supply",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-ld0333"
             },
             {
               "partNumber": "XB-48501",
               "category": "Interface",
               "description": "RS-485 transceiver for industrial communication",
-              "link": "#"
+              "link": "/xinbole/products/interface-ics/xb-48501"
             },
             {
               "partNumber": "XB-OP07A",
               "category": "Analog",
               "description": "Precision op-amp for current sensing",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-op07a"
             }
           ],
           "faqs": [
@@ -351,7 +351,7 @@
               "comparison": "XB-D5612=><DRV8833: Output current 3A => 1.5A, suitable for direct replacement",
               "reason": "XB-D5612 provides higher current capability with integrated sensing",
               "useCase": "XB-D5612 for higher power robotics; DRV8833 for lower power applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TB6612FNG",
@@ -363,7 +363,7 @@
               "comparison": "XB-D5612=><TB6612FNG: Output current 3A => 1.2A, Efficiency Higher => Lower, suitable for direct replacement",
               "reason": "XB-D5612 offers significantly higher voltage and current at competitive cost",
               "useCase": "XB-D5612 for industrial and automotive; TB6612FNG for low-voltage toys",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -371,19 +371,19 @@
               "partNumber": "XB-MC0512",
               "category": "MCU",
               "description": "32-bit MCU with PWM outputs for motor control",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XB-LD0333",
               "category": "Power Management",
               "description": "3.3V LDO for logic supply",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-ld0333"
             },
             {
               "partNumber": "XB-CAN01",
               "category": "Interface",
               "description": "CAN transceiver for automotive communication",
-              "link": "#"
+              "link": "/xinbole/products/interface-ics/xb-can01"
             }
           ],
           "faqs": [
@@ -599,7 +599,7 @@
               "comparison": "XB-B3401=><MP1584: Output current 3A = 3A, Frequency Adjustable => Fixed, suitable for direct replacement",
               "reason": "XB-B3401 offers higher voltage rating and adjustable frequency at competitive cost",
               "useCase": "XB-B3401 for higher voltage or adjustable frequency needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS54331",
@@ -611,7 +611,7 @@
               "comparison": "XB-B3401=><TPS54331: Output current 3A = 3A, suitable for direct replacement",
               "reason": "XB-B3401 provides wider voltage range and lower quiescent current",
               "useCase": "XB-B3401 for automotive or battery applications",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             }
           ],
           "companionParts": [
@@ -619,19 +619,19 @@
               "partNumber": "XB-LD0333",
               "category": "Power Management",
               "description": "3.3V LDO for auxiliary supplies",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-ld0333"
             },
             {
               "partNumber": "XB-SV8033",
               "category": "Power Management",
               "description": "Voltage supervisor for system monitoring",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XB-OP07A",
               "category": "Analog",
               "description": "Precision op-amp for feedback",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-op07a"
             }
           ],
           "faqs": [
@@ -747,7 +747,7 @@
               "comparison": "XB-LD0333=><TPS7A91: Output current 300mA < 500mA, suitable for direct replacement",
               "reason": "XB-LD0333 offers competitive noise performance at significantly lower cost",
               "useCase": "XB-LD0333 for cost-sensitive noise-critical applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ADP150",
@@ -759,7 +759,7 @@
               "comparison": "XB-LD0333=><ADP150: Output current 300mA => 150mA, suitable for direct replacement",
               "reason": "XB-LD0333 provides higher current capability at competitive noise performance",
               "useCase": "XB-LD0333 for higher current noise-sensitive applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -767,19 +767,19 @@
               "partNumber": "XB-B3401",
               "category": "Power Management",
               "description": "Buck converter for step-down conversion",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-b3401"
             },
             {
               "partNumber": "XB-OP07A",
               "category": "Analog",
               "description": "Precision op-amp for analog circuits",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-op07a"
             },
             {
               "partNumber": "XB-COMP01",
               "category": "Analog",
               "description": "High-speed comparator",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-comp01"
             }
           ],
           "faqs": [
@@ -1003,7 +1003,7 @@
               },
               "reason": "XB-OP07A offers better offset and drift at competitive cost",
               "useCase": "XB-OP07A for new precision designs; OP07 for legacy compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "OPA211",
@@ -1020,7 +1020,7 @@
               },
               "reason": "XB-OP07A competitive on offset at much lower cost for DC applications",
               "useCase": "XB-OP07A for DC precision; OPA211 for high-speed precision",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1028,19 +1028,19 @@
               "partNumber": "XB-COMP01",
               "category": "Analog",
               "description": "High-speed comparator for threshold detection",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-comp01"
             },
             {
               "partNumber": "XB-LD0333",
               "category": "Power Management",
               "description": "Low-noise LDO for analog supply",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-ld0333"
             },
             {
               "partNumber": "XB-SW4051",
               "category": "Analog",
               "description": "8-channel analog multiplexer",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1158,7 +1158,7 @@
               "comparison": "XB-COMP01=><LMV7219: Output current 1mA < 3mA, suitable for direct replacement",
               "reason": "XB-COMP01 offers lower power at competitive speed for less demanding applications",
               "useCase": "XB-COMP01 for general purpose; LMV7219 for ultra-high speed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TLV3501",
@@ -1175,7 +1175,7 @@
               },
               "reason": "XB-COMP01 provides adequate speed at significantly lower cost and power",
               "useCase": "XB-COMP01 for cost-sensitive applications; TLV3501 for maximum speed",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1183,19 +1183,19 @@
               "partNumber": "XB-OP07A",
               "category": "Analog",
               "description": "Precision op-amp for signal conditioning",
-              "link": "#"
+              "link": "/xinbole/products/analog-ics/xb-op07a"
             },
             {
               "partNumber": "XB-LD0333",
               "category": "Power Management",
               "description": "LDO for comparator supply",
-              "link": "#"
+              "link": "/xinbole/products/power-management-ics/xb-ld0333"
             },
             {
               "partNumber": "XB-MC0512",
               "category": "MCU",
               "description": "MCU for processing comparator output",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1417,7 +1417,7 @@
               },
               "reason": "XB-48501 offers wider supply range, higher ESD, and more nodes at lower cost",
               "useCase": "XB-48501 for new designs; MAX485 for legacy compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SN75176",
@@ -1434,7 +1434,7 @@
               },
               "reason": "XB-48501 provides modern protection and 3.3V support at competitive cost",
               "useCase": "XB-48501 for all new industrial designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1442,19 +1442,19 @@
               "partNumber": "XB-CAN01",
               "category": "Interface",
               "description": "CAN transceiver for alternative communication",
-              "link": "#"
+              "link": "/xinbole/products/interface-ics/xb-can01"
             },
             {
               "partNumber": "XB-LD0505",
               "category": "Power Management",
               "description": "5V LDO for transceiver supply",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XB-MC0512",
               "category": "MCU",
               "description": "MCU with UART for communication control",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1573,7 +1573,7 @@
               },
               "reason": "XB-CAN01 offers comparable protection at lower cost for standard CAN applications",
               "useCase": "XB-CAN01 for standard CAN; TJA1051 for CAN FD applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SN65HVD230",
@@ -1590,7 +1590,7 @@
               },
               "reason": "XB-CAN01 provides superior fault protection for demanding environments",
               "useCase": "XB-CAN01 for harsh environments; SN65HVD230 for basic applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1598,19 +1598,19 @@
               "partNumber": "XB-48501",
               "category": "Interface",
               "description": "RS-485 transceiver for alternative communication",
-              "link": "#"
+              "link": "/xinbole/products/interface-ics/xb-48501"
             },
             {
               "partNumber": "XB-LD0505",
               "category": "Power Management",
               "description": "5V LDO for CAN transceiver supply",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XB-MC0512",
               "category": "MCU",
               "description": "MCU with CAN controller",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

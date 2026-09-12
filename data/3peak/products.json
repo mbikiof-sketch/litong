@@ -241,7 +241,8 @@
               "manufacturer": "3peak",
               "comparison": "TP1561=><TP1562: Use case: TP1562 for dual channel, TP1561 for single channel, suitable for direct replacement.",
               "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
+              "link": "/3peak/products/operational-amplifiers/tp1562"
             },
             {
               "partNumber": "ALT-2",
@@ -259,11 +260,13 @@
             },
             {
               "partNumber": "TPC1610",
-              "relationship": "Data acquisition"
+              "relationship": "Data acquisition",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "TPR1025",
-              "relationship": "Precision reference"
+              "relationship": "Precision reference",
+              "link": "/3peak/products/power-management/tpr1025"
             }
           ],
           "faqs": [
@@ -404,7 +407,8 @@
               "manufacturer": "3peak",
               "comparison": "TP1562=><TP1561: Package SOT23-5 < SOIC-8 (smaller), suitable for direct replacement",
               "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "ALT-2",
@@ -418,17 +422,20 @@
             {
               "partNumber": "TP1561",
               "relationship": "Single-channel version for additional stages",
-              "notes": "Use with TP1562 for 3-op-amp instrumentation amplifier"
+              "notes": "Use with TP1562 for 3-op-amp instrumentation amplifier",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TPC1610",
               "relationship": "16-bit ADC for digitizing amplified signals",
-              "notes": "Follow TP1562 with TPC1610 for complete signal chain"
+              "notes": "Follow TP1562 with TPC1610 for complete signal chain",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "TPR1025",
               "relationship": "Precision voltage reference for excitation",
-              "notes": "Provides stable reference for bridge sensor excitation"
+              "notes": "Provides stable reference for bridge sensor excitation",
+              "link": "/3peak/products/power-management/tpr1025"
             }
           ],
           "faqs": [
@@ -566,24 +573,28 @@
               "manufacturer": "3peak",
               "comparison": "TP1671=><TP1561: Use case: TP1561 for precision DC, TP1671 for high-speed AC, suitable for direct replacement.",
               "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             }
           ],
           "companionParts": [
             {
               "partNumber": "TPC1610",
               "relationship": "High-speed ADC for digitizing amplified signals",
-              "notes": "Follow TP1671 with TPC1610 for complete high-speed signal chain"
+              "notes": "Follow TP1671 with TPC1610 for complete high-speed signal chain",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "TP1562",
               "relationship": "Dual precision op-amp for additional signal conditioning",
-              "notes": "Use TP1562 for lower frequency stages in multi-stage designs"
+              "notes": "Use TP1562 for lower frequency stages in multi-stage designs",
+              "link": "/3peak/products/operational-amplifiers/tp1562"
             },
             {
               "partNumber": "TPT485",
               "relationship": "RS-485 transceiver for high-speed data transmission",
-              "notes": "Transmit processed signals over industrial networks"
+              "notes": "Transmit processed signals over industrial networks",
+              "link": "/3peak/products/interface-chips/tpt485"
             }
           ],
           "faqs": [
@@ -962,7 +973,8 @@
               "manufacturer": "3peak",
               "comparison": "TPC1610=><TPC1210: Speed: 1MSPS = 1MSPS (same speed), Use case: TPC1210 for cost-sensitive general applications, TPC1610 for precision, suitable for direct replacement.",
               "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
+              "link": "/3peak/products/data-converters/tpc1210"
             },
             {
               "partNumber": "AD7980",
@@ -976,17 +988,20 @@
             {
               "partNumber": "TPR1025",
               "relationship": "Precision 2.5V voltage reference for ADC reference input",
-              "notes": "Use precision reference for best ADC accuracy"
+              "notes": "Use precision reference for best ADC accuracy",
+              "link": "/3peak/products/power-management/tpr1025"
             },
             {
               "partNumber": "TP1561",
               "relationship": "Precision op-amp for input signal conditioning",
-              "notes": "Buffer and amplify sensor signals before ADC input"
+              "notes": "Buffer and amplify sensor signals before ADC input",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TP1562",
               "relationship": "Dual op-amp for multi-channel conditioning",
-              "notes": "Condition multiple channels before multiplexing to ADC"
+              "notes": "Condition multiple channels before multiplexing to ADC",
+              "link": "/3peak/products/operational-amplifiers/tp1562"
             }
           ],
           "faqs": [
@@ -1120,7 +1135,8 @@
               "manufacturer": "3peak",
               "comparison": "TPC1210=><TPC1610: Speed: 1MSPS = 1MSPS (same speed), Use case: TPC1210 for cost-sensitive, TPC1610 for precision, suitable for direct replacement.",
               "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "ADS1018",
@@ -1134,17 +1150,20 @@
             {
               "partNumber": "TPR1025",
               "relationship": "Precision 2.5V voltage reference for ADC reference input",
-              "notes": "Use precision reference for best ADC accuracy"
+              "notes": "Use precision reference for best ADC accuracy",
+              "link": "/3peak/products/power-management/tpr1025"
             },
             {
               "partNumber": "TP1561",
               "relationship": "Precision op-amp for input signal conditioning",
-              "notes": "Buffer and amplify sensor signals before ADC input"
+              "notes": "Buffer and amplify sensor signals before ADC input",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TPM8837",
               "relationship": "Motor driver for actuator control",
-              "notes": "Control actuators based on ADC readings"
+              "notes": "Control actuators based on ADC readings",
+              "link": "/3peak/products/motor-drivers/tpm8837"
             }
           ],
           "faqs": [
@@ -1677,17 +1696,20 @@
             {
               "partNumber": "TP1561",
               "relationship": "Precision op-amp for analog signal conditioning",
-              "notes": "Condition analog signals before digitization and transmission"
+              "notes": "Condition analog signals before digitization and transmission",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TPC1610",
               "relationship": "16-bit ADC for sensor digitization",
-              "notes": "Digitize analog sensor data before RS-485 transmission"
+              "notes": "Digitize analog sensor data before RS-485 transmission",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "TPR1025",
               "relationship": "Voltage reference for precision measurements",
-              "notes": "Provide stable reference for sensor excitation and ADC"
+              "notes": "Provide stable reference for sensor excitation and ADC",
+              "link": "/3peak/products/power-management/tpr1025"
             }
           ],
           "faqs": [
@@ -2342,17 +2364,20 @@
             {
               "partNumber": "TP1561",
               "relationship": "Precision op-amp for current sensing",
-              "notes": "Add external current sensing for closed-loop control"
+              "notes": "Add external current sensing for closed-loop control",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TPC1210",
               "relationship": "12-bit ADC for position feedback",
-              "notes": "Digitize encoder or potentiometer signals"
+              "notes": "Digitize encoder or potentiometer signals",
+              "link": "/3peak/products/data-converters/tpc1210"
             },
             {
               "partNumber": "TPT485",
               "relationship": "RS-485 transceiver for networked control",
-              "notes": "Enable remote motor control in industrial systems"
+              "notes": "Enable remote motor control in industrial systems",
+              "link": "/3peak/products/interface-chips/tpt485"
             }
           ],
           "faqs": [
@@ -3020,17 +3045,20 @@
             {
               "partNumber": "TPC1610",
               "relationship": "16-bit ADC using TPR1025 as reference",
-              "notes": "TPR1025 provides stable reference for TPC1610 ADC"
+              "notes": "TPR1025 provides stable reference for TPC1610 ADC",
+              "link": "/3peak/products/data-converters/tpc1610"
             },
             {
               "partNumber": "TP1561",
               "relationship": "Precision op-amp for signal conditioning",
-              "notes": "Use with TPR1025 for complete sensor interface"
+              "notes": "Use with TPR1025 for complete sensor interface",
+              "link": "/3peak/products/operational-amplifiers/tp1561"
             },
             {
               "partNumber": "TP1562",
               "relationship": "Dual op-amp for multi-channel systems",
-              "notes": "Condition multiple channels using same reference"
+              "notes": "Condition multiple channels using same reference",
+              "link": "/3peak/products/operational-amplifiers/tp1562"
             }
           ],
           "faqs": [

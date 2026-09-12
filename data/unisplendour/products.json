@@ -216,7 +216,7 @@
               },
               "reason": "Higher capacity alternative with established ecosystem",
               "useCase": "Applications requiring >200K logic elements or extensive ecosystem support",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PGT100H",
@@ -238,7 +238,7 @@
               },
               "reason": "Lower cost alternative for less demanding applications",
               "useCase": "Medium-performance applications with cost constraints",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -246,25 +246,25 @@
               "partNumber": "PGT180H-EVK",
               "category": "Evaluation Board",
               "description": "Comprehensive evaluation kit for PGT180H development",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MT40A512M16",
               "category": "DDR4 Memory",
               "description": "8GB DDR4 SDRAM for PGT180H memory interface",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "USB-Blaster",
               "category": "Programmer",
               "description": "JTAG programmer for FPGA configuration",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "S25FL512S",
               "category": "SPI Flash",
               "description": "64MB SPI flash for configuration storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -394,7 +394,7 @@
               },
               "reason": "Alternative with established Cyclone IV ecosystem",
               "useCase": "Applications requiring Intel toolchain or specific IP cores",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PGL25H",
@@ -416,7 +416,7 @@
               },
               "reason": "Lower cost alternative for smaller designs",
               "useCase": "Cost-sensitive applications with <25K logic requirement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -424,25 +424,25 @@
               "partNumber": "PGL50H-EVK",
               "category": "Evaluation Board",
               "description": "Evaluation kit with comprehensive peripheral interfaces",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AD7606",
               "category": "ADC",
               "description": "8-channel 16-bit ADC for industrial data acquisition",
-              "link": "#"
+              "link": "/adi/products/data-converters/ad7606"
             },
             {
               "partNumber": "DP83867IR",
               "category": "Ethernet PHY",
               "description": "Gigabit Ethernet PHY for industrial networking",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IS42S16160G",
               "category": "SDRAM",
               "description": "32MB SDRAM for data buffering applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -662,7 +662,7 @@
               "comparison": "THD89=><NXP P71: Output current Active: 15mA = Active: 15mA (same), suitable for direct replacement",
               "reason": "Established ecosystem with extensive banking references",
               "useCase": "Applications requiring maximum ecosystem support and international brand",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "THD86",
@@ -677,7 +677,7 @@
               "comparison": "THD89=><THD86: Output current Active: 12mA < Active: 15mA (lower), suitable for direct replacement",
               "reason": "Lower cost alternative for single-interface applications",
               "useCase": "Cost-sensitive applications not requiring dual interface",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -685,25 +685,25 @@
               "partNumber": "THD89-DVK",
               "category": "Development Kit",
               "description": "Development kit with sample cards and SDK",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ACR38U",
               "category": "Card Reader",
               "description": "USB contact card reader for development",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ACR122U",
               "category": "Card Reader",
               "description": "USB contactless card reader for development",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Smart Card Blank",
               "category": "Card Body",
               "description": "PVC card bodies for personalization",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -830,7 +830,7 @@
               "comparison": "THD20=><NXP MIFARE DESFire: Output current Active: 10mA < Active: 12mA (lower), suitable for direct replacement",
               "reason": "Contactless convenience with established ecosystem",
               "useCase": "Applications requiring contactless operation and speed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "THD86",
@@ -844,7 +844,7 @@
               "comparison": "THD20=><THD86: Output current Active: 15mA > Active: 12mA (higher), suitable for direct replacement",
               "reason": "Higher security and capacity for demanding applications",
               "useCase": "Applications requiring EAL5+ or contactless capability",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -852,25 +852,25 @@
               "partNumber": "THD20-DVK",
               "category": "Development Kit",
               "description": "Basic development kit for THD20",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Omnikey 3121",
               "category": "Card Reader",
               "description": "USB contact card reader",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PVC Card Blank",
               "category": "Card Body",
               "description": "Standard card bodies for personalization",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Card Printer",
               "category": "Equipment",
               "description": "ID card printer for personalization",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1091,7 +1091,7 @@
               "comparison": "USD3410=><TPS54331: Output current 3A = 3A (same), Frequency Fixed < Adjustable (less flexible), suitable for direct replacement",
               "reason": "Established TI part with extensive design resources",
               "useCase": "Applications requiring minimum Vin < 4.5V or extensive reference designs",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "USD2410",
@@ -1106,7 +1106,7 @@
               "comparison": "USD3410=><USD2410: Output current 2A < 3A (less current), Efficiency 94% < 95% (slightly lower), suitable for direct replacement",
               "reason": "Lower cost alternative for 2A applications",
               "useCase": "Cost-sensitive designs with <2A load requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1114,25 +1114,25 @@
               "partNumber": "USD3410-EVB",
               "category": "Evaluation Board",
               "description": "Evaluation board for USD3410",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "B340A",
               "category": "Schottky Diode",
               "description": "External Schottky for asynchronous operation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "22µH Inductor",
               "category": "Inductor",
               "description": "Power inductor for 3A buck converter",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "22µF Ceramic",
               "category": "Capacitor",
               "description": "Input/output ceramic capacitors",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1267,7 +1267,7 @@
               },
               "reason": "Lower noise for most demanding applications",
               "useCase": "Ultra-low-noise applications where 150mA is sufficient",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AMS1117",
@@ -1287,7 +1287,7 @@
               },
               "reason": "Higher current, lower cost but much higher noise and dropout",
               "useCase": "Cost-sensitive applications where noise is not critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1295,25 +1295,25 @@
               "partNumber": "USL1801-EVB",
               "category": "Evaluation Board",
               "description": "Evaluation board for noise testing",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "1µF Ceramic",
               "category": "Capacitor",
               "description": "Input/output bypass capacitors",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "10µF Tantalum",
               "category": "Capacitor",
               "description": "Optional output capacitor for stability",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "USD3410",
               "category": "DC-DC Converter",
               "description": "Buck converter for efficient preregulation",
-              "link": "#"
+              "link": "/unisplendour/products/power-management/usd3410"
             }
           ],
           "faqs": [
@@ -1545,7 +1545,7 @@
               "comparison": "USMD2208=><TMC2209: Output current 2.8A => 2.2A (higher), suitable for direct replacement",
               "reason": "Single motor alternative with higher current",
               "useCase": "Single-axis applications requiring >2.2A current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DRV8825",
@@ -1560,7 +1560,7 @@
               "comparison": "USMD2208=><DRV8825: Output current 2.5A > 2.2A (higher), suitable for direct replacement",
               "reason": "Lower cost basic stepper driver",
               "useCase": "Cost-sensitive applications not requiring advanced features",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1568,25 +1568,25 @@
               "partNumber": "USMD2208-EVB",
               "category": "Evaluation Board",
               "description": "Evaluation board with dual stepper motors",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "NEMA17 Stepper",
               "category": "Motor",
               "description": "Standard NEMA17 stepper motor",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F407",
               "category": "Microcontroller",
               "description": "MCU for motion control",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Heatsink Kit",
               "category": "Thermal",
               "description": "Heatsink for high-current operation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1717,7 +1717,7 @@
               "comparison": "USPM6530=><ADE7758: Output current Active: 8mA < Active: 10mA (lower), suitable for direct replacement",
               "reason": "Higher accuracy with established ecosystem",
               "useCase": "Applications requiring maximum accuracy without harmonic analysis",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STPM32",
@@ -1732,7 +1732,7 @@
               "comparison": "USPM6530=><STPM32: Output current Active: 9mA < Active: 10mA (lower), suitable for direct replacement",
               "reason": "Alternative three-phase meter IC",
               "useCase": "ST ecosystem customers",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1740,25 +1740,25 @@
               "partNumber": "USPM6530-REF",
               "category": "Reference Design",
               "description": "Complete meter reference design with CTs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Current Transformer",
               "category": "Sensor",
               "description": "Precision CT for current measurement",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Voltage Divider",
               "category": "Resistor Network",
               "description": "Precision resistors for voltage sensing",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32L476",
               "category": "Microcontroller",
               "description": "Low-power MCU for meter application",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

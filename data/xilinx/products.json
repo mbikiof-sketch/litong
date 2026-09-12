@@ -245,7 +245,7 @@
               },
               "reason": "Lower cost option for designs with reduced resource requirements",
               "useCase": "Suitable for designs requiring 100K-200K logic cells with fewer high-speed interfaces",
-              "link": "/xilinx/products/xc7k160t-2ffg676i.html"
+              "link": ""
             },
             {
               "partNumber": "XC7K410T-2FFG900I",
@@ -264,37 +264,37 @@
               },
               "reason": "Higher capacity and DSP resources for demanding applications",
               "useCase": "Ideal for complex signal processing and high-density logic designs",
-              "link": "/xilinx/products/xc7k410t-2ffg900i.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SI5338",
-              "link": "#",
+              "link": "",
               "description": "Clock generator for FPGA reference clocks",
               "category": "Clocking"
             },
             {
               "partNumber": "TPS54620",
-              "link": "#",
+              "link": "",
               "description": "Power regulator for FPGA core voltage",
               "category": "Power Management"
             },
             {
               "partNumber": "MT41K256M16",
-              "link": "#",
+              "link": "",
               "description": "DDR3 memory for FPGA external storage",
               "category": "Memory"
             },
             {
               "partNumber": "S25FL256S",
-              "link": "#",
+              "link": "",
               "description": "QSPI flash for configuration storage",
               "category": "Memory"
             },
             {
               "partNumber": "DP83867IR",
-              "link": "#",
+              "link": "",
               "description": "Gigabit Ethernet PHY for network connectivity",
               "category": "Interface"
             }
@@ -404,7 +404,7 @@
               },
               "reason": "Lower cost alternative with reduced resources",
               "useCase": "Suitable for designs with moderate logic and DSP requirements",
-              "link": "/xilinx/products/xcku035-2ffva1156e.html"
+              "link": ""
             },
             {
               "partNumber": "XCKU060-2FFVA1156E",
@@ -423,37 +423,37 @@
               },
               "reason": "Higher capacity for complex designs requiring more resources",
               "useCase": "Ideal for large-scale signal processing and high-density logic",
-              "link": "/xilinx/products/xcku060-2ffva1156e.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SI5345",
-              "link": "#",
+              "link": "",
               "description": "High-performance clock jitter attenuator",
               "category": "Clocking"
             },
             {
               "partNumber": "TPS549D22",
-              "link": "#",
+              "link": "",
               "description": "High-current power regulator for core voltage",
               "category": "Power Management"
             },
             {
               "partNumber": "MT40A512M16",
-              "link": "#",
+              "link": "",
               "description": "DDR4 memory for high-bandwidth applications",
               "category": "Memory"
             },
             {
               "partNumber": "S25FL512S",
-              "link": "#",
+              "link": "",
               "description": "High-density QSPI configuration flash",
               "category": "Memory"
             },
             {
               "partNumber": "88E1512",
-              "link": "#",
+              "link": "",
               "description": "10/100/1000 Ethernet PHY with RGMII",
               "category": "Interface"
             }
@@ -679,7 +679,7 @@
               },
               "reason": "Lower cost option with reduced FPGA resources but same processing system",
               "useCase": "Suitable for vision applications with moderate FPGA requirements",
-              "link": "/xilinx/products/xczu5ev-2sfvc784e.html"
+              "link": ""
             },
             {
               "partNumber": "XCZU9EG-2FFVB1156E",
@@ -698,37 +698,37 @@
               },
               "reason": "Higher FPGA capacity for compute-intensive applications without video codec",
               "useCase": "Ideal for high-performance computing without video processing requirements",
-              "link": "/xilinx/products/xczu9eg-2ffvb1156e.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MT40A1G16",
-              "link": "#",
+              "link": "",
               "description": "DDR4 SDRAM for PS and PL memory",
               "category": "Memory"
             },
             {
               "partNumber": "TPS650864",
-              "link": "#",
+              "link": "",
               "description": "PMIC for Zynq power management",
               "category": "Power Management"
             },
             {
               "partNumber": "SI5341",
-              "link": "#",
+              "link": "",
               "description": "Clock generator for MPSoC reference clocks",
               "category": "Clocking"
             },
             {
               "partNumber": "KSZ9031",
-              "link": "#",
+              "link": "",
               "description": "Gigabit Ethernet PHY for network connectivity",
               "category": "Interface"
             },
             {
               "partNumber": "USB5744",
-              "link": "#",
+              "link": "",
               "description": "USB 3.0 hub for peripheral expansion",
               "category": "Interface"
             }
@@ -839,7 +839,7 @@
               },
               "reason": "Lower cost alternative with substantial resources for most high-performance applications",
               "useCase": "Suitable for high-performance embedded without maximum capacity requirements",
-              "link": "/xilinx/products/xczu15eg-2ffvb1156e.html"
+              "link": ""
             },
             {
               "partNumber": "XCVU19P-2FSVA3824E",
@@ -858,37 +858,37 @@
               },
               "reason": "Pure FPGA alternative with significantly more logic resources but no embedded processor",
               "useCase": "For applications requiring maximum FPGA resources with external processor",
-              "link": "/xilinx/products/xcvu19p-2fsva3824e.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MT40A2G16",
-              "link": "#",
+              "link": "",
               "description": "High-density DDR4 for large memory systems",
               "category": "Memory"
             },
             {
               "partNumber": "TPS650866",
-              "link": "#",
+              "link": "",
               "description": "High-current PMIC for large MPSoC",
               "category": "Power Management"
             },
             {
               "partNumber": "SI5345B",
-              "link": "#",
+              "link": "",
               "description": "High-performance jitter attenuator",
               "category": "Clocking"
             },
             {
               "partNumber": "VSC8258",
-              "link": "#",
+              "link": "",
               "description": "100G Ethernet PHY for high-speed networking",
               "category": "Interface"
             },
             {
               "partNumber": "PEX8796",
-              "link": "#",
+              "link": "",
               "description": "PCIe Gen3 switch for expansion",
               "category": "Interface"
             }
@@ -1118,7 +1118,7 @@
               },
               "reason": "Same compute resources with GTH transceivers for cost-sensitive applications",
               "useCase": "Suitable for AI and signal processing without 58G transceiver requirements",
-              "link": "/xilinx/products/xcvc1902-2lsevsvd1760.html"
+              "link": ""
             },
             {
               "partNumber": "XCVM3552-2LSEVSVD1760",
@@ -1137,37 +1137,37 @@
               },
               "reason": "Double the AI Engines and resources for maximum AI inference performance",
               "useCase": "Ideal for large-scale AI inference and most demanding signal processing",
-              "link": "/xilinx/products/xcvm3552-2lsevsvd1760.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HMCG78M",
-              "link": "#",
+              "link": "",
               "description": "HBM2E memory for high-bandwidth applications",
               "category": "Memory"
             },
             {
               "partNumber": "TPS53689",
-              "link": "#",
+              "link": "",
               "description": "Multi-phase VR13. HC PMIC for Versal",
               "category": "Power Management"
             },
             {
               "partNumber": "LMK04832",
-              "link": "#",
+              "link": "",
               "description": "Ultra-low jitter clock generator",
               "category": "Clocking"
             },
             {
               "partNumber": "VSC8258",
-              "link": "#",
+              "link": "",
               "description": "400G Ethernet PHY for data center",
               "category": "Interface"
             },
             {
               "partNumber": "PCIe Gen5 Retimer",
-              "link": "#",
+              "link": "",
               "description": "PCIe Gen5 signal conditioning",
               "category": "Interface"
             }
@@ -1280,7 +1280,7 @@
               },
               "reason": "Same hardened network functions with GTH transceivers for cost optimization",
               "useCase": "Suitable for networking without 58G PAM4 requirements",
-              "link": "/xilinx/products/xcvc2802-2lsevsvd1760.html"
+              "link": ""
             },
             {
               "partNumber": "XCVE1752-2LSEVSVD1760",
@@ -1299,37 +1299,37 @@
               },
               "reason": "Reduced AI Engine count for networking-focused applications",
               "useCase": "Ideal for pure networking without heavy AI processing",
-              "link": "/xilinx/products/xcve1752-2lsevsvd1760.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HMCG78A",
-              "link": "#",
+              "link": "",
               "description": "HBM2E for packet buffering",
               "category": "Memory"
             },
             {
               "partNumber": "TPS536C7",
-              "link": "#",
+              "link": "",
               "description": "High-current PMIC for premium Versal",
               "category": "Power Management"
             },
             {
               "partNumber": "Si5340B",
-              "link": "#",
+              "link": "",
               "description": "Network-synchronized clock",
               "category": "Clocking"
             },
             {
               "partNumber": "OSFP",
-              "link": "#",
+              "link": "",
               "description": "400G optical transceiver module",
               "category": "Interface"
             },
             {
               "partNumber": "QSFP-DD",
-              "link": "#",
+              "link": "",
               "description": "High-density 400G optical module",
               "category": "Interface"
             }
@@ -1563,7 +1563,7 @@
               },
               "reason": "Lower cost option with 8GB HBM2 for moderate memory requirements",
               "useCase": "Suitable for workloads with smaller dataset requirements",
-              "link": "/xilinx/products/alveo-u50.html"
+              "link": "/xilinx/products/alveo/alveo-u50"
             },
             {
               "partNumber": "Alveo U280",
@@ -1583,37 +1583,37 @@
               },
               "reason": "Double the HBM2 memory for largest dataset applications",
               "useCase": "Ideal for genomics and large-scale analytics requiring maximum memory",
-              "link": "/xilinx/products/alveo-u280.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "QSFP28-SR4",
-              "link": "#",
+              "link": "",
               "description": "100G optical transceiver for network connectivity",
               "category": "Networking"
             },
             {
               "partNumber": "DAC-QSFP28",
-              "link": "#",
+              "link": "",
               "description": "Direct attach copper cable for short connections",
               "category": "Networking"
             },
             {
               "partNumber": "Server PCIe Riser",
-              "link": "#",
+              "link": "",
               "description": "PCIe riser for half-height card installation",
               "category": "Hardware"
             },
             {
               "partNumber": "XRT Runtime",
-              "link": "#",
+              "link": "",
               "description": "Xilinx runtime software for card management",
               "category": "Software"
             },
             {
               "partNumber": "Vitis Libraries",
-              "link": "#",
+              "link": "",
               "description": "Optimized libraries for common acceleration workloads",
               "category": "Software"
             }
@@ -1723,7 +1723,7 @@
               },
               "reason": "Lower cost entry-level accelerator with embedded processor",
               "useCase": "Suitable for video transcoding and embedded applications",
-              "link": "/xilinx/products/alveo-u30.html"
+              "link": ""
             },
             {
               "partNumber": "Alveo U55C",
@@ -1743,37 +1743,37 @@
               },
               "reason": "Double the HBM2 memory and bandwidth for larger workloads",
               "useCase": "Ideal for computational storage and large-scale analytics",
-              "link": "/xilinx/products/alveo-u55c.html"
+              "link": "/xilinx/products/alveo/alveo-u55c"
             }
           ],
           "companionParts": [
             {
               "partNumber": "QSFP28-LR4",
-              "link": "#",
+              "link": "",
               "description": "100G long-range optical transceiver",
               "category": "Networking"
             },
             {
               "partNumber": "AOC-QSFP28",
-              "link": "#",
+              "link": "",
               "description": "Active optical cable for 100G connections",
               "category": "Networking"
             },
             {
               "partNumber": "Low-Profile Bracket",
-              "link": "#",
+              "link": "",
               "description": "Mounting bracket for low-profile servers",
               "category": "Hardware"
             },
             {
               "partNumber": "Vitis AI",
-              "link": "#",
+              "link": "",
               "description": "AI inference optimization tools",
               "category": "Software"
             },
             {
               "partNumber": "Xilinx App Store",
-              "link": "#",
+              "link": "",
               "description": "Pre-built acceleration applications",
               "category": "Software"
             }

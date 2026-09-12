@@ -190,7 +190,8 @@
               "partNumber": "CS25N65",
               "comparison": "CS20N65=><CS25N65: Higher current version (25A) with similar voltage rating, lower Rds(on) of 0.15Ω vs 0.19Ω",
               "reason": "Pin-compatible alternative with similar performance",
-              "useCase": "For supply chain flexibility"
+              "useCase": "For supply chain flexibility",
+              "link": "/cps/products/power-mosfets/cs25n65"
             },
             {
               "partNumber": "IPA60R190C6",
@@ -200,9 +201,21 @@
             }
           ],
           "companionParts": [
-            "CPS Gate Driver ICs",
-            "CPS Rectifier Diodes",
-            "Current Sense Resistors"
+            {
+              "partNumber": "CPS Gate Driver ICs",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "CPS Rectifier Diodes",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Current Sense Resistors",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -314,7 +327,8 @@
                 "ID": "20A"
               },
               "priceDifference": "-10%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/cps/products/power-mosfets/cs20n65"
             },
             {
               "partNumber": "CS30N65",
@@ -329,7 +343,8 @@
                 "ID": "30A"
               },
               "priceDifference": "+15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/cps/products/power-mosfets/cs30n65"
             }
           ],
           "companionParts": [
@@ -453,7 +468,8 @@
                 "ID": "25A"
               },
               "priceDifference": "-12%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/cps/products/power-mosfets/cs25n65"
             },
             {
               "partNumber": "CS35N65",
@@ -468,7 +484,8 @@
                 "ID": "35A"
               },
               "priceDifference": "+18%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/cps/products/power-mosfets/cs35n65"
             }
           ],
           "companionParts": [
@@ -592,7 +609,8 @@
                 "ID": "30A"
               },
               "priceDifference": "-15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/cps/products/power-mosfets/cs30n65"
             },
             {
               "partNumber": "CS40N65",

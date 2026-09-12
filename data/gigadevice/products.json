@@ -246,7 +246,7 @@
               },
               "reason": "Winbond equivalent with slightly higher speed but higher cost",
               "useCase": "Applications requiring pin-to-pin compatibility with existing Winbond designs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "GD25Q64CSIG",
@@ -264,25 +264,25 @@
               },
               "reason": "Lower density alternative for smaller firmware requirements",
               "useCase": "Cost-sensitive applications with firmware under 8MB",
-              "link": "/gigadevice/products/nor-flash/gd25q64csig.html"
+              "link": "/gigadevice/products/nor-flash/gd25q64csig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32F407VET6",
-              "link": "/gigadevice/products/mcu/gd32f407vet6.html",
+              "link": "",
               "description": "ARM Cortex-M4 MCU for high-performance embedded systems with QSPI support",
               "category": "MCU"
             },
             {
               "partNumber": "GD25Q128ESIG-EV",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for GD25Q128 NOR Flash testing and development",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "GD-Link",
-              "link": "#",
+              "link": "/gigadevice/products/development-tools/gd-link",
               "description": "GigaDevice programmer and debugger for Flash programming",
               "category": "Programming Tool"
             }
@@ -407,7 +407,7 @@
               },
               "reason": "Higher density upgrade with same footprint and interface",
               "useCase": "Applications requiring more than 8MB storage or firmware backup",
-              "link": "/gigadevice/products/nor-flash/gd25q128esig.html"
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             },
             {
               "partNumber": "W25Q64JVSIQ",
@@ -425,25 +425,25 @@
               },
               "reason": "Winbond equivalent with pin compatibility",
               "useCase": "Direct replacement for existing Winbond-based designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32F103C8T6",
-              "link": "/gigadevice/products/mcu/gd32f103c8t6.html",
+              "link": "/gigadevice/products/mcu/gd32f103c8t6",
               "description": "ARM Cortex-M3 MCU with SPI interface for embedded control applications",
               "category": "MCU"
             },
             {
               "partNumber": "GD25Q64CSIG-EV",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for GD25Q64 NOR Flash development",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "SPI-Module",
-              "link": "#",
+              "link": "",
               "description": "SPI interface module for Flash programming and testing",
               "category": "Interface Module"
             }
@@ -561,14 +561,16 @@
                 "Density": "128Mb"
               },
               "priceDifference": "-40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32F407VGT6",
               "description": "High-performance Cortex-M4 MCU",
-              "category": "MCU"
+              "category": "MCU",
+              "link": "/gigadevice/products/mcu/gd32f407vgt6"
             }
           ],
           "faqs": [
@@ -642,14 +644,16 @@
                 "Supply Voltage": "2.7V-3.6V"
               },
               "priceDifference": "-15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/nor-flash/gd25q64csig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32E230C8T6",
               "description": "Ultra-low-power Cortex-M23 MCU",
-              "category": "MCU"
+              "category": "MCU",
+              "link": "/gigadevice/products/mcu/gd32e230c8t6"
             }
           ],
           "faqs": [
@@ -859,7 +863,7 @@
               },
               "reason": "Higher density upgrade in same package",
               "useCase": "Applications requiring more than 128MB storage",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "GD5F1GQ4UAYIG",
@@ -877,25 +881,25 @@
               },
               "reason": "Simplified interface with reduced pin count",
               "useCase": "Space-constrained designs with moderate throughput needs",
-              "link": "#"
+              "link": "/gigadevice/products/nand-flash/gd5f1gq4uayig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32F407VET6",
-              "link": "/gigadevice/products/mcu/gd32f407vet6.html",
+              "link": "",
               "description": "ARM Cortex-M4 MCU with NAND controller and ECC support",
               "category": "MCU"
             },
             {
               "partNumber": "GD9F1G-EV",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for 1Gb NAND Flash development",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "NAND-Adapter",
-              "link": "#",
+              "link": "",
               "description": "TSOP48 to DIP adapter for prototyping",
               "category": "Adapter"
             }
@@ -1024,7 +1028,7 @@
               },
               "reason": "Higher throughput with parallel interface",
               "useCase": "Applications requiring maximum data throughput",
-              "link": "/gigadevice/products/nand-flash/gd9fu1g8f2amgi.html"
+              "link": "/gigadevice/products/nand-flash/gd9fu1g8f2amgi"
             },
             {
               "partNumber": "GD25Q128ESIG",
@@ -1042,25 +1046,25 @@
               },
               "reason": "NOR Flash with XIP support but lower density",
               "useCase": "Applications requiring execute-in-place capability",
-              "link": "/gigadevice/products/nor-flash/gd25q128esig.html"
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD32F103C8T6",
-              "link": "/gigadevice/products/mcu/gd32f103c8t6.html",
+              "link": "/gigadevice/products/mcu/gd32f103c8t6",
               "description": "ARM Cortex-M3 MCU with SPI interface for NAND control",
               "category": "MCU"
             },
             {
               "partNumber": "GD5F1G-EV",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SPI NAND Flash development",
               "category": "Evaluation Board"
             },
             {
               "partNumber": "WSON-Adapter",
-              "link": "#",
+              "link": "",
               "description": "WSON8 to DIP adapter for prototyping",
               "category": "Adapter"
             }
@@ -1181,7 +1185,8 @@
                 "Density": "2Gb"
               },
               "priceDifference": "+45%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/nand-flash/gd5f2gq4uayig"
             }
           ],
           "companionParts": [
@@ -1266,14 +1271,16 @@
                 "Density": "1Gb"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/nand-flash/gd5f1gq4uayig"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD25Q128ESIG",
               "description": "NOR Flash for firmware storage",
-              "category": "Memory"
+              "category": "Memory",
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             }
           ],
           "faqs": [
@@ -1526,17 +1533,20 @@
             {
               "partNumber": "GD25Q128ESIG",
               "relationship": "External Flash for firmware storage",
-              "description": "128Mb SPI NOR Flash for external code storage or data logging"
+              "description": "128Mb SPI NOR Flash for external code storage or data logging",
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             },
             {
               "partNumber": "GD25Q64CSIG",
               "relationship": "Boot Flash",
-              "description": "64Mb SPI NOR Flash for bootloader and configuration storage"
+              "description": "64Mb SPI NOR Flash for bootloader and configuration storage",
+              "link": "/gigadevice/products/nor-flash/gd25q64csig"
             },
             {
               "partNumber": "GD5F1GQ4UAYIG",
               "relationship": "Data Storage",
-              "description": "1Gb SPI NAND Flash for high-density data logging"
+              "description": "1Gb SPI NAND Flash for high-density data logging",
+              "link": "/gigadevice/products/nand-flash/gd5f1gq4uayig"
             }
           ],
           "faqs": [
@@ -1667,7 +1677,8 @@
                 "Cost": "Higher > Lower (GD32 advantage)"
               },
               "reason": "Industry standard with lower performance and higher cost",
-              "useCase": "Existing STM32 designs requiring higher performance upgrade"
+              "useCase": "Existing STM32 designs requiring higher performance upgrade",
+              "link": "/st/products/microcontrollers/stm32f407vgt6"
             },
             {
               "partNumber": "GD32F303VGT6",
@@ -1691,7 +1702,8 @@
             {
               "partNumber": "GD25Q128ESIG",
               "relationship": "External Flash for firmware storage",
-              "description": "128Mb SPI NOR Flash for external code storage or data logging"
+              "description": "128Mb SPI NOR Flash for external code storage or data logging",
+              "link": "/gigadevice/products/nor-flash/gd25q128esig"
             },
             {
               "partNumber": "DP83848IVV",
@@ -1701,7 +1713,8 @@
             {
               "partNumber": "GD5F1GQ4UAYIG",
               "relationship": "Data Storage",
-              "description": "1Gb SPI NAND Flash for high-density data logging"
+              "description": "1Gb SPI NAND Flash for high-density data logging",
+              "link": "/gigadevice/products/nand-flash/gd5f1gq4uayig"
             }
           ],
           "faqs": [
@@ -1832,7 +1845,8 @@
             {
               "partNumber": "GD25Q256EYIG",
               "description": "256Mb NOR Flash for external storage",
-              "category": "Memory"
+              "category": "Memory",
+              "link": "/gigadevice/products/nor-flash/gd25q256eyig"
             }
           ],
           "faqs": [
@@ -1916,14 +1930,16 @@
                 "Core": "Cortex-M3"
               },
               "priceDifference": "0%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/mcu/gd32f103c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD25LE64E",
               "description": "1.8V NOR Flash for low-power systems",
-              "category": "Memory"
+              "category": "Memory",
+              "link": "/gigadevice/products/nor-flash/gd25le64e"
             }
           ],
           "faqs": [
@@ -2183,12 +2199,14 @@
             {
               "partNumber": "GD32F103C8T6",
               "relationship": "Target MCU",
-              "description": "Entry-level GD32 MCU for evaluation and development"
+              "description": "Entry-level GD32 MCU for evaluation and development",
+              "link": "/gigadevice/products/mcu/gd32f103c8t6"
             },
             {
               "partNumber": "GD32F407VGT6",
               "relationship": "Target MCU",
-              "description": "High-performance GD32 MCU for advanced applications"
+              "description": "High-performance GD32 MCU for advanced applications",
+              "link": "/gigadevice/products/mcu/gd32f407vgt6"
             },
             {
               "partNumber": "JTAG Adapter",
@@ -2351,19 +2369,22 @@
                 "Price": "Lower < Higher (F303 advantage)"
               },
               "reason": "Cost-effective for basic evaluation",
-              "useCase": "Entry-level evaluation without high-performance needs"
+              "useCase": "Entry-level evaluation without high-performance needs",
+              "link": "/gigadevice/products/development-tools/gd32f303c-eval"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GD-Link",
               "relationship": "Debugger",
-              "description": "GD-Link debugger for programming and debugging"
+              "description": "GD-Link debugger for programming and debugging",
+              "link": "/gigadevice/products/development-tools/gd-link"
             },
             {
               "partNumber": "GD32F407VGT6",
               "relationship": "MCU Option",
-              "description": "LQFP100 version for cost-sensitive designs"
+              "description": "LQFP100 version for cost-sensitive designs",
+              "link": "/gigadevice/products/mcu/gd32f407vgt6"
             },
             {
               "partNumber": "Arduino Shields",
@@ -2504,7 +2525,8 @@
                 "MCU": "GD32F407ZGT6"
               },
               "priceDifference": "+25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gigadevice/products/development-tools/gd32f407z-eval"
             }
           ],
           "companionParts": [

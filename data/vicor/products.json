@@ -215,7 +215,7 @@
               "comparison": "V24A12T400BN=><V24A8T300BN: Efficiency 91% < 92% (slightly lower), suitable for direct replacement",
               "reason": "Lower power option for applications requiring 8V output",
               "useCase": "Use for lower power applications or different output voltage requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "V48A12T500BN",
@@ -229,25 +229,25 @@
               "comparison": "V24A12T400BN=><V48A12T500BN: Efficiency 93% > 92% (higher), suitable for direct replacement",
               "reason": "Higher power option for 48V input applications",
               "useCase": "Use for 48V bus systems requiring higher power output",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Heatsink-HP",
-              "link": "#",
+              "link": "",
               "description": "High-performance heatsink for ChiP modules",
               "category": "Thermal Management"
             },
             {
               "partNumber": "TIM-PAD",
-              "link": "#",
+              "link": "",
               "description": "Thermal interface pad for ChiP thermal pad",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Filter-EMI",
-              "link": "#",
+              "link": "",
               "description": "EMI filter for input/output filtering",
               "category": "Filters"
             }
@@ -359,7 +359,7 @@
               "comparison": "V48A24T500BL=><V48A12T500BL: Efficiency 93% = 93% (same), suitable for direct replacement",
               "reason": "Same power with 12V output for different load requirements",
               "useCase": "Use for 12V distribution on 48V bus",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "V48C24T300BL",
@@ -373,25 +373,25 @@
               "comparison": "V48A24T500BL=><V48C24T300BL: Efficiency 93.5% > 93% (slightly higher), suitable for direct replacement",
               "reason": "Lower power but higher efficiency for lighter loads",
               "useCase": "Use for lower power 48V applications where efficiency is critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Heatsink-LP",
-              "link": "#",
+              "link": "",
               "description": "Low-profile heatsink for 9mm ChiP modules",
               "category": "Thermal Management"
             },
             {
               "partNumber": "PMBus-Adapter",
-              "link": "#",
+              "link": "",
               "description": "USB to PMBus adapter for converter programming",
               "category": "Development Tools"
             },
             {
               "partNumber": "Filter-48V",
-              "link": "#",
+              "link": "",
               "description": "Input filter for 48V applications",
               "category": "Filters"
             }
@@ -604,7 +604,7 @@
               "comparison": "VTM48EF040T200A00=><VTM48EF040T100A00: Output current 100A < 200A (half), Efficiency 97% = 97% (same), suitable for direct replacement",
               "reason": "Lower current option for lighter loads",
               "useCase": "Use for lower current processors or to create balanced parallel configurations",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "VTM48EF025T400A00",
@@ -618,25 +618,25 @@
               "comparison": "VTM48EF040T200A00=><VTM48EF025T400A00: Output current 100A < 200A (half), Efficiency 96% < 97% (slightly lower), suitable for direct replacement",
               "reason": "Higher output voltage ratio for different processor voltages",
               "useCase": "Use for processors requiring 2.5V or similar intermediate voltages",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ColdPlate-VTM",
-              "link": "#",
+              "link": "",
               "description": "Liquid cooling cold plate for VTM modules",
               "category": "Thermal Management"
             },
             {
               "partNumber": "BusBar-Set",
-              "link": "#",
+              "link": "",
               "description": "Input/output bus bars for VTM paralleling",
               "category": "Mechanical"
             },
             {
               "partNumber": "Heatsink-VTM",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for air-cooled VTM operation",
               "category": "Thermal Management"
             }
@@ -750,7 +750,7 @@
               "comparison": "PRM48NF480T200A00=><PRM48NF480T400A00: Efficiency 97% = 97% (same), suitable for direct replacement",
               "reason": "Higher power option for larger systems",
               "useCase": "Use for higher power FPA systems or when fewer parallel units needed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PRM3737N480T250A00",
@@ -764,25 +764,25 @@
               "comparison": "PRM48NF480T200A00=><PRM3737N480T250A00: Efficiency 96% < 97% (slightly lower), suitable for direct replacement",
               "reason": "Wider input voltage range for applications with variable input",
               "useCase": "Use for applications with wider input voltage variations",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "PMBus-USB",
-              "link": "#",
+              "link": "",
               "description": "USB to PMBus interface for PRM programming",
               "category": "Development Tools"
             },
             {
               "partNumber": "Heatsink-PRM",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for PRM modules",
               "category": "Thermal Management"
             },
             {
               "partNumber": "FPA-Reference",
-              "link": "#",
+              "link": "",
               "description": "FPA reference design documentation",
               "category": "Documentation"
             }
@@ -992,7 +992,7 @@
               "comparison": "BCM48BF480T1K3A00=><BCM48BF480T800A00: Package 9mm < 23mm (thinner), suitable for direct replacement",
               "reason": "Lower profile option for ultra-thin applications",
               "useCase": "Use for space-constrained applications where 9mm height is required",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "BCM48BF240T1K6A00",
@@ -1006,25 +1006,25 @@
               "comparison": "BCM48BF480T1K3A00=><BCM48BF240T1K6A00: Efficiency 96% < 97% (slightly lower), suitable for direct replacement",
               "reason": "Higher power with 2:1 ratio for 24V output applications",
               "useCase": "Use for applications requiring 24V from 48V bus",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Heatsink-SM23",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for 23mm SM-ChiP modules",
               "category": "Thermal Management"
             },
             {
               "partNumber": "TIM-Standard",
-              "link": "#",
+              "link": "",
               "description": "Standard thermal interface pad",
               "category": "Thermal Management"
             },
             {
               "partNumber": "BusBar-PCB",
-              "link": "#",
+              "link": "",
               "description": "PCB bus bars for high-current connections",
               "category": "Connectivity"
             }
@@ -1237,7 +1237,7 @@
               },
               "reason": "Lower power option for smaller deployments",
               "useCase": "Use for smaller GPU clusters or initial deployments",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PFM48AF240T016A00",
@@ -1256,25 +1256,25 @@
               },
               "reason": "Same power with 24V output for different load requirements",
               "useCase": "Use for systems requiring 24V intermediate bus",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Rack-Enclosure",
-              "link": "#",
+              "link": "",
               "description": "19-inch rack enclosure for power systems",
               "category": "Enclosures"
             },
             {
               "partNumber": "PMBus-Software",
-              "link": "#",
+              "link": "",
               "description": "Power system monitoring and control software",
               "category": "Software"
             },
             {
               "partNumber": "BusBar-Kit",
-              "link": "#",
+              "link": "",
               "description": "Output bus bars for system integration",
               "category": "Connectivity"
             }

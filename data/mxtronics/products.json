@@ -240,7 +240,7 @@
               "comparison": "MXD1604=><MXD1608: Package CERDIP-40 > CERDIP-28 (larger), suitable for direct replacement",
               "reason": "More channels for complex sensor systems",
               "useCase": "Applications requiring 8-channel simultaneous sampling",
-              "link": "/mxtronics/products/data-converters/mxd1608.html"
+              "link": ""
             },
             {
               "partNumber": "MXD1616",
@@ -258,31 +258,31 @@
               },
               "reason": "Higher sampling rate for faster signals",
               "useCase": "High-speed data acquisition and vibration monitoring",
-              "link": "/mxtronics/products/data-converters/mxd1616.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXP34063",
-              "link": "/mxtronics/products/power-management/mxp34063.html",
+              "link": "",
               "description": "Radiation-tolerant DC-DC converter for 5V ADC supply",
               "category": "Power Management"
             },
             {
               "partNumber": "MXA358",
-              "link": "/mxtronics/products/signal-conditioning/mxa358.html",
+              "link": "",
               "description": "Precision op-amp for input signal conditioning",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MXR432",
-              "link": "/mxtronics/products/power-management/mxr432.html",
+              "link": "",
               "description": "Precision voltage reference for external reference option",
               "category": "Power Management"
             },
             {
               "partNumber": "MCU-RTEMS",
-              "link": "#",
+              "link": "",
               "description": "Radiation-tolerant microcontroller with SPI interface",
               "category": "Microcontroller"
             }
@@ -420,7 +420,7 @@
               },
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Cost-sensitive precision measurement applications",
-              "link": "/mxtronics/products/data-converters/mxd2416.html"
+              "link": ""
             },
             {
               "partNumber": "MXD2432",
@@ -433,25 +433,25 @@
               "comparison": "MXD2420=><MXD2432: Package QFP-48 > QFP-32 (larger), suitable for direct replacement",
               "reason": "Dual channel for multi-sensor systems",
               "useCase": "Applications requiring simultaneous dual-channel measurement",
-              "link": "/mxtronics/products/data-converters/mxd2432.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXL7833",
-              "link": "/mxtronics/products/power-management/mxl7833.html",
+              "link": "/mxtronics/products/power-management/mxl7833",
               "description": "Low-noise 3.3V LDO for analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "MXA311",
-              "link": "/mxtronics/products/signal-conditioning/mxa311.html",
+              "link": "",
               "description": "Precision op-amp for additional gain if needed",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MXR432",
-              "link": "/mxtronics/products/power-management/mxr432.html",
+              "link": "",
               "description": "Ultra-precision voltage reference for external reference",
               "category": "Power Management"
             }
@@ -689,7 +689,7 @@
               "comparison": "MXP34063RT=><MXP33063RT: Input voltage 3V-40V = 3V-40V (same), Output current 3A > 1.5A (2x more), Package CERDIP-8 = CERDIP-8 (same), suitable for direct replacement",
               "reason": "Higher current capability for power-hungry applications",
               "useCase": "Applications requiring up to 3A output current",
-              "link": "/mxtronics/products/power-management/mxp33063rt.html"
+              "link": ""
             },
             {
               "partNumber": "MXP34163RT",
@@ -702,25 +702,25 @@
               "comparison": "MXP34063RT=><MXP34163RT: Input voltage 3V-40V = 3V-40V (same), Output current 1.5A = 1.5A (same), Frequency 1MHz > 100kHz (10x faster), Package QFP-16 < CERDIP-8 (smaller), suitable for direct replacement",
               "reason": "Higher frequency allows smaller magnetics",
               "useCase": "Space-constrained applications requiring small solution size",
-              "link": "/mxtronics/products/power-management/mxp34163rt.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXL7805",
-              "link": "/mxtronics/products/power-management/mxl7805.html",
+              "link": "",
               "description": "5V LDO for post-regulation of noisy outputs",
               "category": "Power Management"
             },
             {
               "partNumber": "MXR432",
-              "link": "/mxtronics/products/power-management/mxr432.html",
+              "link": "",
               "description": "Precision voltage reference for feedback divider",
               "category": "Power Management"
             },
             {
               "partNumber": "MXD1604",
-              "link": "/mxtronics/products/data-converters/mxd1604.html",
+              "link": "/mxtronics/products/data-converters/mxd1604",
               "description": "ADC for monitoring converter output voltage",
               "category": "Data Converters"
             }
@@ -852,7 +852,7 @@
               "comparison": "MXL7833=><MXL7805: Output current 1A = 1A (same), suitable for direct replacement",
               "reason": "5V output version for 5V analog circuits",
               "useCase": "5V precision analog and RF circuits",
-              "link": "/mxtronics/products/power-management/mxl7805.html"
+              "link": ""
             },
             {
               "partNumber": "MXL7833-2A",
@@ -865,25 +865,25 @@
               "comparison": "MXL7833=><MXL7833-2A: Output current 2A > 1A (2x more), Package TO-3 > TO-39 (larger), suitable for direct replacement",
               "reason": "Higher current capability for multiple ADCs",
               "useCase": "Powering multiple precision ADCs from single LDO",
-              "link": "/mxtronics/products/power-management/mxl7833-2a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXP34063RT",
-              "link": "/mxtronics/products/power-management/mxp34063rt.html",
+              "link": "/mxtronics/products/power-management/mxp34063rt",
               "description": "DC-DC converter for efficient 12V to 5V step-down before LDO",
               "category": "Power Management"
             },
             {
               "partNumber": "MXD2420",
-              "link": "/mxtronics/products/data-converters/mxd2420.html",
+              "link": "/mxtronics/products/data-converters/mxd2420",
               "description": "Precision ADC powered by clean 3.3V LDO output",
               "category": "Data Converters"
             },
             {
               "partNumber": "MXR432",
-              "link": "/mxtronics/products/power-management/mxr432.html",
+              "link": "",
               "description": "Precision reference for systems requiring ultra-stable voltage",
               "category": "Power Management"
             }
@@ -1134,7 +1134,7 @@
               },
               "reason": "Lower cost for less demanding applications",
               "useCase": "General-purpose amplification where ultra-precision not required",
-              "link": "/mxtronics/products/signal-conditioning/mxa358.html"
+              "link": ""
             },
             {
               "partNumber": "MXA820",
@@ -1152,25 +1152,25 @@
               },
               "reason": "Much higher bandwidth for fast signal processing",
               "useCase": "High-speed data acquisition and video applications",
-              "link": "/mxtronics/products/signal-conditioning/mxa820.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXD2420",
-              "link": "/mxtronics/products/data-converters/mxd2420.html",
+              "link": "/mxtronics/products/data-converters/mxd2420",
               "description": "Precision ADC for digitizing conditioned sensor signals",
               "category": "Data Converters"
             },
             {
               "partNumber": "MXL7833",
-              "link": "/mxtronics/products/power-management/mxl7833.html",
+              "link": "/mxtronics/products/power-management/mxl7833",
               "description": "Low-noise LDO for powering precision analog circuits",
               "category": "Power Management"
             },
             {
               "partNumber": "MXR432",
-              "link": "/mxtronics/products/power-management/mxr432.html",
+              "link": "",
               "description": "Precision reference for ratiometric measurement",
               "category": "Power Management"
             }
@@ -1305,7 +1305,7 @@
               "comparison": "MXI124=><MXI128: Package QFP-24 = QFP-24 (same), suitable for direct replacement",
               "reason": "Higher bandwidth for faster signal tracking",
               "useCase": "High-speed motor control and fast transient monitoring",
-              "link": "/mxtronics/products/signal-conditioning/mxi128.html"
+              "link": ""
             },
             {
               "partNumber": "MXI120",
@@ -1323,25 +1323,25 @@
               },
               "reason": "Lower cost for applications with lower isolation requirements",
               "useCase": "Industrial applications with <1000V isolation needs",
-              "link": "/mxtronics/products/signal-conditioning/mxi120.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXA311",
-              "link": "/mxtronics/products/signal-conditioning/mxa311.html",
+              "link": "",
               "description": "Current sense amplifier for input signal conditioning",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MXP34063RT",
-              "link": "/mxtronics/products/power-management/mxp34063rt.html",
+              "link": "/mxtronics/products/power-management/mxp34063rt",
               "description": "Isolated DC-DC for powering the isolated side",
               "category": "Power Management"
             },
             {
               "partNumber": "MXD1604",
-              "link": "/mxtronics/products/data-converters/mxd1604.html",
+              "link": "/mxtronics/products/data-converters/mxd1604",
               "description": "ADC for digitizing isolated output",
               "category": "Data Converters"
             }
@@ -1575,7 +1575,7 @@
               },
               "reason": "3.3V operation for modern low-voltage systems",
               "useCase": "3.3V microcontroller-based systems",
-              "link": "/mxtronics/products/interface-ics/mxr485-3v3.html"
+              "link": ""
             },
             {
               "partNumber": "MXR422",
@@ -1593,25 +1593,25 @@
               },
               "reason": "RS-422 for point-to-point links requiring high noise immunity",
               "useCase": "Point-to-point communication with high noise immunity",
-              "link": "/mxtronics/products/interface-ics/mxr422.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXL7833",
-              "link": "/mxtronics/products/power-management/mxl7833.html",
+              "link": "/mxtronics/products/power-management/mxl7833",
               "description": "3.3V LDO for powering the transceiver",
               "category": "Power Management"
             },
             {
               "partNumber": "MXD1604",
-              "link": "/mxtronics/products/data-converters/mxd1604.html",
+              "link": "/mxtronics/products/data-converters/mxd1604",
               "description": "ADC for monitoring bus voltage",
               "category": "Data Converters"
             },
             {
               "partNumber": "MXA358",
-              "link": "/mxtronics/products/signal-conditioning/mxa358.html",
+              "link": "",
               "description": "Op-amp for signal conditioning",
               "category": "Signal Conditioning"
             }
@@ -1739,7 +1739,7 @@
               "comparison": "MXC1050=><MXC1050I: Package Larger due to isolation, suitable for direct replacement",
               "reason": "Integrated isolation in single package",
               "useCase": "Applications requiring galvanic isolation",
-              "link": "/mxtronics/products/interface-ics/mxc1050i.html"
+              "link": ""
             },
             {
               "partNumber": "MXC1040",
@@ -1757,25 +1757,25 @@
               },
               "reason": "Lower cost for basic CAN applications",
               "useCase": "Cost-sensitive CAN applications without isolation needs",
-              "link": "/mxtronics/products/interface-ics/mxc1040.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MXL7805",
-              "link": "/mxtronics/products/power-management/mxl7805.html",
+              "link": "",
               "description": "5V LDO for powering the CAN transceiver",
               "category": "Power Management"
             },
             {
               "partNumber": "MXD1604",
-              "link": "/mxtronics/products/data-converters/mxd1604.html",
+              "link": "/mxtronics/products/data-converters/mxd1604",
               "description": "ADC for monitoring CAN bus signals",
               "category": "Data Converters"
             },
             {
               "partNumber": "MXR485",
-              "link": "/mxtronics/products/interface-ics/mxr485.html",
+              "link": "/mxtronics/products/interface-ics/mxr485",
               "description": "RS-485 for backup communication channel",
               "category": "Interface ICs"
             }
@@ -1909,7 +1909,7 @@
               },
               "reason": "Higher isolation and data rate for demanding applications",
               "useCase": "Applications requiring 5kV isolation and 20Mbps speed",
-              "link": "/mxtronics/products/interface-ics/mxi48510.html"
+              "link": ""
             },
             {
               "partNumber": "MXC1050I",
@@ -1926,7 +1926,7 @@
               },
               "reason": "Isolated CAN transceiver for multimaster networks",
               "useCase": "CAN-based systems requiring isolation",
-              "link": "/mxtronics/products/interface-ics/mxc1050i.html"
+              "link": ""
             }
           ],
           "faqs": [

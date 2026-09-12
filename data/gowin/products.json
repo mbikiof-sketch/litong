@@ -207,7 +207,7 @@
               },
               "reason": "Higher logic capacity for more complex designs while maintaining the same package and pinout",
               "useCase": "Use when your design outgrows the GW1N-1 or for designs requiring more embedded memory",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV2QN48C6-I5.html"
+              "link": ""
             },
             {
               "partNumber": "GW1N-LV1CS30C6/I5",
@@ -227,49 +227,49 @@
               },
               "reason": "Same logic capacity in a significantly smaller WLCSP package for space-constrained designs",
               "useCase": "Use for ultra-compact wearable devices or applications with severe space constraints",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV1CS30C6-I5.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Tang Nano 1K",
-              "link": "#",
+              "link": "/gowin/products/tang-nano-boards/tang-nano-1k",
               "description": "Development board featuring GW1N-1 FPGA for evaluation and prototyping",
               "category": "Development Boards"
             },
             {
               "partNumber": "GW1N-LV2QN48C6/I5",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV2QN48C6-I5.html",
+              "link": "",
               "description": "Higher capacity LittleBee FPGA in same package for design migration",
               "category": "LittleBee FPGAs"
             },
             {
               "partNumber": "GW1N-LV4QN48C6/I5",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV4QN48C6-I5.html",
+              "link": "/gowin/products/littlebee-fpga/gw1n-lv4qn48c6-i5",
               "description": "Maximum capacity LittleBee FPGA for complex low-power designs",
               "category": "LittleBee FPGAs"
             },
             {
               "partNumber": "MIPI D-PHY IP Core",
-              "link": "#",
+              "link": "",
               "description": "Pre-verified MIPI interface IP for camera and display connectivity",
               "category": "IP Cores"
             },
             {
               "partNumber": "DDR3 Controller IP",
-              "link": "#",
+              "link": "",
               "description": "Memory controller IP for external DDR3 SDRAM interface",
               "category": "IP Cores"
             },
             {
               "partNumber": "USB 2.0 PHY IP",
-              "link": "#",
+              "link": "",
               "description": "USB 2.0 interface IP for connectivity applications",
               "category": "IP Cores"
             },
             {
               "partNumber": "SPI Flash Memory",
-              "link": "#",
+              "link": "",
               "description": "External SPI flash for additional non-volatile storage if needed",
               "category": "Memory"
             }
@@ -390,7 +390,7 @@
               },
               "reason": "Lower capacity and power for simpler designs with reduced I/O requirements",
               "useCase": "Use when logic requirements are modest and I/O count is limited to reduce cost",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV2QN48C6-I5.html"
+              "link": ""
             },
             {
               "partNumber": "GW2A-LV18QN88C8/I7",
@@ -410,49 +410,49 @@
               },
               "reason": "Significantly higher logic capacity for designs that outgrow LittleBee family",
               "useCase": "Use when you need more logic resources and can accept external configuration and higher power",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html"
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7"
             }
           ],
           "companionParts": [
             {
               "partNumber": "Tang Nano 4K",
-              "link": "#",
+              "link": "",
               "description": "Development board featuring GW1N-4 FPGA for complex design evaluation",
               "category": "Development Boards"
             },
             {
               "partNumber": "GW1N-LV2QN48C6/I5",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV2QN48C6-I5.html",
+              "link": "",
               "description": "Mid-range LittleBee FPGA for cost-sensitive designs",
               "category": "LittleBee FPGAs"
             },
             {
               "partNumber": "GW2A-LV18QN88C8/I7",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html",
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7",
               "description": "Arora FPGA for higher performance requirements",
               "category": "Arora FPGAs"
             },
             {
               "partNumber": "MIPI CSI-2 IP Core",
-              "link": "#",
+              "link": "",
               "description": "Camera interface IP for image processing applications",
               "category": "IP Cores"
             },
             {
               "partNumber": "Ethernet MAC IP",
-              "link": "#",
+              "link": "",
               "description": "10/100Mbps Ethernet controller IP for networking",
               "category": "IP Cores"
             },
             {
               "partNumber": "CAN Controller IP",
-              "link": "#",
+              "link": "",
               "description": "CAN bus interface IP for industrial communications",
               "category": "IP Cores"
             },
             {
               "partNumber": "External SPI Flash",
-              "link": "#",
+              "link": "",
               "description": "Additional non-volatile storage for data logging",
               "category": "Memory"
             }
@@ -893,7 +893,7 @@
               },
               "reason": "Significantly higher capacity and DSP resources for more demanding applications",
               "useCase": "Use for complex multi-channel video processing or high-performance compute applications",
-              "link": "/gowin/products/arora-fpga/GW2A-LV55QN132C8-I7.html"
+              "link": "/gowin/products/arora-fpga/gw2a-lv55qn132c8-i7"
             },
             {
               "partNumber": "GW1N-LV4QN88C6/I5",
@@ -915,49 +915,49 @@
               },
               "reason": "Lower power and cost for simpler designs that don't need DSP or high performance",
               "useCase": "Use for control-oriented applications where DSP and high logic capacity aren't required",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV4QN88C6-I5.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Tang Nano 9K",
-              "link": "#",
+              "link": "/gowin/products/tang-nano-boards/tang-nano-9k",
               "description": "Development board with GW1NR-9 (similar capacity) for evaluation",
               "category": "Development Boards"
             },
             {
               "partNumber": "GW2A-LV55QN132C8/I7",
-              "link": "/gowin/products/arora-fpga/GW2A-LV55QN132C8-I7.html",
+              "link": "/gowin/products/arora-fpga/gw2a-lv55qn132c8-i7",
               "description": "Higher capacity Arora FPGA for design scaling",
               "category": "Arora FPGAs"
             },
             {
               "partNumber": "DDR3 SDRAM Module",
-              "link": "#",
+              "link": "",
               "description": "External DDR3 memory for high-bandwidth applications",
               "category": "Memory"
             },
             {
               "partNumber": "MIPI CSI-2 Receiver IP",
-              "link": "#",
+              "link": "",
               "description": "Camera interface IP for vision applications",
               "category": "IP Cores"
             },
             {
               "partNumber": "HDMI Transmitter IP",
-              "link": "#",
+              "link": "",
               "description": "HDMI output IP for display applications",
               "category": "IP Cores"
             },
             {
               "partNumber": "Ethernet 1000BASE-X IP",
-              "link": "#",
+              "link": "",
               "description": "Gigabit Ethernet MAC and PCS IP",
               "category": "IP Cores"
             },
             {
               "partNumber": "SPI Configuration Flash",
-              "link": "#",
+              "link": "",
               "description": "External flash for FPGA configuration storage",
               "category": "Memory"
             }
@@ -1079,7 +1079,7 @@
               },
               "reason": "Smaller package and lower capacity for less demanding applications",
               "useCase": "Use when GW2A-55 resources exceed requirements and smaller package is preferred",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html"
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7"
             },
             {
               "partNumber": "GW1N-LV4QN88C6/I5",
@@ -1101,49 +1101,49 @@
               },
               "reason": "Ultra-low power for simple control applications where high performance isn't needed",
               "useCase": "Use for control logic and simple interfaces where minimal power is the priority",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV4QN88C6-I5.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Custom Development Board",
-              "link": "#",
+              "link": "",
               "description": "Custom development platform with GW2A-55 for evaluation",
               "category": "Development Boards"
             },
             {
               "partNumber": "GW2A-LV18QN88C8/I7",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html",
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7",
               "description": "Mid-range Arora FPGA for cost-optimized designs",
               "category": "Arora FPGAs"
             },
             {
               "partNumber": "DDR3 SODIMM Module",
-              "link": "#",
+              "link": "",
               "description": "High-capacity DDR3 memory for bandwidth-intensive applications",
               "category": "Memory"
             },
             {
               "partNumber": "PCIe Gen2 x4 IP",
-              "link": "#",
+              "link": "",
               "description": "PCI Express interface IP for high-speed host connectivity",
               "category": "IP Cores"
             },
             {
               "partNumber": "4K Video Processing IP",
-              "link": "#",
+              "link": "",
               "description": "Complete video pipeline IP for 4K resolution support",
               "category": "IP Cores"
             },
             {
               "partNumber": "CNN Accelerator IP",
-              "link": "#",
+              "link": "",
               "description": "Convolutional neural network acceleration engine",
               "category": "IP Cores"
             },
             {
               "partNumber": "High-Speed ADC Interface",
-              "link": "#",
+              "link": "",
               "description": "Interface for high-speed data converter connectivity",
               "category": "Interface ICs"
             }
@@ -1599,7 +1599,7 @@
               },
               "reason": "Higher capacity FPGA for more complex projects with additional LCD interface",
               "useCase": "Use when you need more logic resources or want to experiment with display interfaces",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-4K.html"
+              "link": ""
             },
             {
               "partNumber": "Tang Nano 9K",
@@ -1620,49 +1620,49 @@
               },
               "reason": "Much higher capacity with video interfaces for advanced projects",
               "useCase": "Use for video processing, complex designs, or when you need HDMI output",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-9K.html"
+              "link": "/gowin/products/tang-nano-boards/tang-nano-9k"
             }
           ],
           "companionParts": [
             {
               "partNumber": "USB Type-C Cable",
-              "link": "#",
+              "link": "",
               "description": "USB-C cable for programming and power (usually included)",
               "category": "Accessories"
             },
             {
               "partNumber": "Breadboard and Jumper Wires",
-              "link": "#",
+              "link": "",
               "description": "Prototyping accessories for circuit experiments",
               "category": "Accessories"
             },
             {
               "partNumber": "Tang Nano 4K",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-4K.html",
+              "link": "",
               "description": "Higher capacity board for more advanced projects",
               "category": "Development Boards"
             },
             {
               "partNumber": "7-Segment Display Module",
-              "link": "#",
+              "link": "",
               "description": "External display for numeric output experiments",
               "category": "Peripherals"
             },
             {
               "partNumber": "Sensor Kit",
-              "link": "#",
+              "link": "",
               "description": "Collection of sensors for FPGA interfacing projects",
               "category": "Peripherals"
             },
             {
               "partNumber": "GW1N-LV1QN48C6/I5",
-              "link": "/gowin/products/littlebee-fpga/GW1N-LV1QN48C6-I5.html",
+              "link": "/gowin/products/littlebee-fpga/gw1n-lv1qn48c6-i5",
               "description": "The FPGA device on the board for custom PCB designs",
               "category": "LittleBee FPGAs"
             },
             {
               "partNumber": "Gowin Cloud Designer",
-              "link": "#",
+              "link": "",
               "description": "Free development software for FPGA programming",
               "category": "Software"
             }
@@ -1798,7 +1798,7 @@
               },
               "reason": "Lower cost option for simpler projects not requiring video interfaces",
               "useCase": "Use for projects that don't need HDMI or camera interfaces to save cost",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-4K.html"
+              "link": ""
             },
             {
               "partNumber": "Custom Video Development Board",
@@ -1819,49 +1819,49 @@
               },
               "reason": "More advanced boards for professional video development with higher capabilities",
               "useCase": "Use for professional development requiring more resources or HDMI input",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "OV5640 Camera Module",
-              "link": "#",
+              "link": "",
               "description": "5MP camera module compatible with Tang Nano 9K camera interface",
               "category": "Camera Modules"
             },
             {
               "partNumber": "HDMI Cable",
-              "link": "#",
+              "link": "",
               "description": "HDMI cable for connecting to displays",
               "category": "Accessories"
             },
             {
               "partNumber": "Micro SD Card",
-              "link": "#",
+              "link": "",
               "description": "Storage for data and configuration files",
               "category": "Storage"
             },
             {
               "partNumber": "Tang Nano 1K",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-1K.html",
+              "link": "/gowin/products/tang-nano-boards/tang-nano-1k",
               "description": "Entry-level board for simpler projects or learning",
               "category": "Development Boards"
             },
             {
               "partNumber": "MIPI CSI-2 IP Core",
-              "link": "#",
+              "link": "",
               "description": "Camera interface IP for advanced vision projects",
               "category": "IP Cores"
             },
             {
               "partNumber": "HDMI Controller IP",
-              "link": "#",
+              "link": "",
               "description": "HDMI output controller IP for video projects",
               "category": "IP Cores"
             },
             {
               "partNumber": "Frame Buffer Controller IP",
-              "link": "#",
+              "link": "",
               "description": "SDRAM frame buffer management IP",
               "category": "IP Cores"
             }
@@ -2350,7 +2350,7 @@
               },
               "reason": "Simpler interface for older camera sensors with lower bandwidth requirements",
               "useCase": "Use for legacy camera sensors that don't support MIPI CSI-2",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MIPI DSI TX IP",
@@ -2368,49 +2368,49 @@
               },
               "reason": "Display interface IP for driving LCD panels instead of camera input",
               "useCase": "Use when you need to drive a display rather than capture from a camera",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "OV5640 Camera Module",
-              "link": "#",
+              "link": "",
               "description": "5MP MIPI camera module compatible with this IP",
               "category": "Camera Modules"
             },
             {
               "partNumber": "Image Processing IP Suite",
-              "link": "#",
+              "link": "",
               "description": "Collection of image processing IPs for camera data",
               "category": "IP Cores"
             },
             {
               "partNumber": "Tang Nano 9K",
-              "link": "/gowin/products/tang-nano-boards/Tang-Nano-9K.html",
+              "link": "/gowin/products/tang-nano-boards/tang-nano-9k",
               "description": "Development board with camera connector for testing",
               "category": "Development Boards"
             },
             {
               "partNumber": "Frame Buffer Controller IP",
-              "link": "#",
+              "link": "",
               "description": "Store captured frames in external memory",
               "category": "IP Cores"
             },
             {
               "partNumber": "AXI Interconnect IP",
-              "link": "#",
+              "link": "",
               "description": "Connect camera IP to processor or other AXI devices",
               "category": "IP Cores"
             },
             {
               "partNumber": "Clock Wizard IP",
-              "link": "#",
+              "link": "",
               "description": "Generate required clock frequencies for MIPI interface",
               "category": "IP Cores"
             },
             {
               "partNumber": "GW2A-LV18QN88C8/I7",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html",
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7",
               "description": "Recommended FPGA for camera interface applications",
               "category": "Arora FPGAs"
             }
@@ -2547,7 +2547,7 @@
               },
               "reason": "Lower resource usage for applications with lower bandwidth requirements",
               "useCase": "Use for legacy designs or when DDR3 bandwidth isn't needed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "QSPI Flash Controller IP",
@@ -2567,49 +2567,49 @@
               },
               "reason": "Much lower resource usage for non-volatile storage applications",
               "useCase": "Use for configuration storage or data logging, not high-speed working memory",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DDR3 SODIMM Module",
-              "link": "#",
+              "link": "",
               "description": "Standard DDR3 memory module for easy integration",
               "category": "Memory"
             },
             {
               "partNumber": "GW2A-LV18QN88C8/I7",
-              "link": "/gowin/products/arora-fpga/GW2A-LV18QN88C8-I7.html",
+              "link": "/gowin/products/arora-fpga/gw2a-lv18qn88c8-i7",
               "description": "Arora FPGA with sufficient I/O for DDR3 interface",
               "category": "Arora FPGAs"
             },
             {
               "partNumber": "AXI DMA IP",
-              "link": "#",
+              "link": "",
               "description": "DMA controller for efficient memory transfers",
               "category": "IP Cores"
             },
             {
               "partNumber": "Video Frame Buffer IP",
-              "link": "#",
+              "link": "",
               "description": "Frame buffer management for video applications",
               "category": "IP Cores"
             },
             {
               "partNumber": "Clock Generator IP",
-              "link": "#",
+              "link": "",
               "description": "Generate DDR3 clocks and system clocks",
               "category": "IP Cores"
             },
             {
               "partNumber": "Memory Test IP",
-              "link": "#",
+              "link": "",
               "description": "Built-in self-test for memory validation",
               "category": "IP Cores"
             },
             {
               "partNumber": "Reference Design Kit",
-              "link": "#",
+              "link": "",
               "description": "Complete reference design with DDR3 interface",
               "category": "Reference Designs"
             }

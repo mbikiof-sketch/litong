@@ -214,7 +214,7 @@
               },
               "reason": "TI OPA333 offers lower offset but significantly lower bandwidth; suitable for ultra-precision DC applications where speed is not critical",
               "useCase": "Precision bridge sensor applications requiring maximum DC accuracy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6V01",
@@ -231,37 +231,37 @@
               },
               "reason": "Microchip MCP6V01 provides auto-zero architecture for lowest offset but consumes more power",
               "useCase": "High-precision thermocouple measurement systems",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "High-speed comparator for threshold detection in signal chain",
               "category": "Comparators"
             },
             {
               "partNumber": "GS4157",
-              "link": "/gainsil/products/analog-switches/gs4157.html",
+              "link": "/gainsil/products/analog-switches/gs4157",
               "description": "SPDT analog switch for signal routing and multiplexing",
               "category": "Analog Switches"
             },
             {
               "partNumber": "GS431",
-              "link": "/gainsil/products/voltage-references/gs431.html",
+              "link": "/gainsil/products/voltage-references/gs431",
               "description": "Precision voltage reference for ADC reference input",
               "category": "Voltage References"
             },
             {
               "partNumber": "RC Filter Network",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter for noise reduction in precision applications",
               "category": "Passive Components"
             },
             {
               "partNumber": "0.1uF Ceramic Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Supply decoupling capacitor, place within 2mm of device pins",
               "category": "Passive Components"
             }
@@ -393,7 +393,7 @@
               },
               "reason": "TI OPA333 offers superior DC precision but significantly lower bandwidth; better for ultra-precision DC applications",
               "useCase": "High-precision DC measurement where bandwidth is not critical",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LMP7711",
@@ -410,31 +410,31 @@
               },
               "reason": "TI LMP7711 provides much higher bandwidth but at significantly higher power consumption",
               "useCase": "High-speed signal conditioning where power budget allows",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "High-speed comparator for window detection",
               "category": "Comparators"
             },
             {
               "partNumber": "GS4157",
-              "link": "/gainsil/products/analog-switches/gs4157.html",
+              "link": "/gainsil/products/analog-switches/gs4157",
               "description": "Analog switch for input multiplexing",
               "category": "Analog Switches"
             },
             {
               "partNumber": "GS431",
-              "link": "/gainsil/products/voltage-references/gs431.html",
+              "link": "/gainsil/products/voltage-references/gs431",
               "description": "Voltage reference for stable operation",
               "category": "Voltage References"
             },
             {
               "partNumber": "10uF Tantalum Cap",
-              "link": "#",
+              "link": "",
               "description": "Bulk decoupling for low-frequency supply filtering",
               "category": "Passive Components"
             }
@@ -563,14 +563,16 @@
                 "Current": "800μA total"
               },
               "priceDifference": "+30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/operational-amplifiers/gs324"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS431",
               "description": "Voltage reference for biasing",
-              "category": "Reference"
+              "category": "Reference",
+              "link": "/gainsil/products/voltage-references/gs431"
             }
           ],
           "faqs": [
@@ -646,7 +648,8 @@
                 "Current": "400μA total"
               },
               "priceDifference": "-25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/operational-amplifiers/gs358"
             }
           ],
           "companionParts": [
@@ -827,7 +830,7 @@
               },
               "reason": "TI LMV7219 offers faster speed but significantly higher power consumption",
               "useCase": "Ultra-high-speed applications where power is not constrained",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX999",
@@ -844,31 +847,31 @@
               },
               "reason": "Maxim MAX999 provides faster response but consumes more power",
               "useCase": "High-speed applications requiring moderate power consumption",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8511-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8511-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8511-tr",
               "description": "Precision op-amp for signal conditioning before comparison",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS431",
-              "link": "/gainsil/products/voltage-references/gs431.html",
+              "link": "/gainsil/products/voltage-references/gs431",
               "description": "Voltage reference for stable threshold generation",
               "category": "Voltage References"
             },
             {
               "partNumber": "GS4157",
-              "link": "/gainsil/products/analog-switches/gs4157.html",
+              "link": "/gainsil/products/analog-switches/gs4157",
               "description": "Analog switch for input signal routing",
               "category": "Analog Switches"
             },
             {
               "partNumber": "RC Filter",
-              "link": "#",
+              "link": "",
               "description": "Input filter to reduce noise and prevent chatter",
               "category": "Passive Components"
             }
@@ -998,7 +1001,7 @@
               },
               "reason": "TI LMV7239 offers slightly faster speed but significantly higher power consumption",
               "useCase": "High-speed dual comparator applications with relaxed power budget",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX9203",
@@ -1015,31 +1018,31 @@
               },
               "reason": "Maxim MAX9203 provides faster response but consumes more power per channel",
               "useCase": "Ultra-fast dual comparator applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8511-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8511-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8511-tr",
               "description": "Precision op-amp for signal conditioning",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS431",
-              "link": "/gainsil/products/voltage-references/gs431.html",
+              "link": "/gainsil/products/voltage-references/gs431",
               "description": "Voltage reference for threshold generation",
               "category": "Voltage References"
             },
             {
               "partNumber": "GS4157",
-              "link": "/gainsil/products/analog-switches/gs4157.html",
+              "link": "/gainsil/products/analog-switches/gs4157",
               "description": "Analog switch for input multiplexing",
               "category": "Analog Switches"
             },
             {
               "partNumber": "Resistor Divider",
-              "link": "#",
+              "link": "",
               "description": "Precision resistors for threshold voltage setting",
               "category": "Passive Components"
             }
@@ -1166,7 +1169,8 @@
                 "Current": "400μA total"
               },
               "priceDifference": "+35%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/comparators/gs339"
             }
           ],
           "companionParts": [
@@ -1247,7 +1251,8 @@
                 "Current": "200μA total"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/comparators/gs393"
             }
           ],
           "companionParts": [
@@ -1428,7 +1433,7 @@
               },
               "reason": "TI TS5A3157 offers good performance but GS4157 has lower Ron and higher bandwidth",
               "useCase": "General-purpose switching where GS4157 specifications are not critical",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SGM3157",
@@ -1445,31 +1450,31 @@
               },
               "reason": "SGMICRO SGM3157 is comparable but GS4157 offers better overall specifications",
               "useCase": "Cost-sensitive applications where slight performance reduction is acceptable",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8511-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8511-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8511-tr",
               "description": "Precision op-amp for buffering switched signals",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "High-speed comparator for switch control logic",
               "category": "Comparators"
             },
             {
               "partNumber": "GS431",
-              "link": "/gainsil/products/voltage-references/gs431.html",
+              "link": "/gainsil/products/voltage-references/gs431",
               "description": "Voltage reference for switch supply",
               "category": "Voltage References"
             },
             {
               "partNumber": "Logic Level Translator",
-              "link": "#",
+              "link": "",
               "description": "For interfacing switch control to different logic levels",
               "category": "Interface ICs"
             }
@@ -1599,7 +1604,7 @@
               },
               "reason": "FSUSB42 is designed for USB switching with higher Ron and power consumption",
               "useCase": "USB-specific applications where FSUSB42 features are needed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PI3A3157",
@@ -1616,31 +1621,31 @@
               },
               "reason": "PI3A3157 offers lower Ron but higher minimum voltage and quiescent current",
               "useCase": "Applications not requiring 1.8V operation where lower Ron is beneficial",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8551-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8551-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8551-tr",
               "description": "Low-power op-amp for switched signal buffering",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "Comparator for switch control generation",
               "category": "Comparators"
             },
             {
               "partNumber": "Battery Management IC",
-              "link": "#",
+              "link": "",
               "description": "For battery monitoring in portable systems",
               "category": "Power Management"
             },
             {
               "partNumber": "Pull-down Resistor",
-              "link": "#",
+              "link": "",
               "description": "100kΩ pull-down for control input when driven by open-drain logic",
               "category": "Passive Components"
             }
@@ -1766,7 +1771,8 @@
                 "On-Resistance": "1.5Ω"
               },
               "priceDifference": "+20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/analog-switches/gs3157"
             }
           ],
           "companionParts": [
@@ -1846,7 +1852,8 @@
                 "On-Resistance": "2.5Ω"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/analog-switches/gs4157"
             }
           ],
           "companionParts": [
@@ -2021,7 +2028,7 @@
               },
               "reason": "Standard TL431 has lower accuracy and higher drift but is widely available",
               "useCase": "Cost-sensitive applications where GS431 accuracy is not required",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LM4041",
@@ -2038,31 +2045,31 @@
               },
               "reason": "LM4041 offers better initial accuracy but higher drift and different voltage",
               "useCase": "Applications requiring higher initial accuracy at room temperature",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8511-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8511-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8511-tr",
               "description": "Precision op-amp for buffering reference output",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "Comparator for voltage monitoring with reference",
               "category": "Comparators"
             },
             {
               "partNumber": "Precision Resistor",
-              "link": "#",
+              "link": "",
               "description": "0.1% tolerance series resistor for accurate current setting",
               "category": "Passive Components"
             },
             {
               "partNumber": "Bypass Capacitor",
-              "link": "#",
+              "link": "",
               "description": "0.1μF ceramic capacitor for output noise reduction",
               "category": "Passive Components"
             }
@@ -2189,7 +2196,7 @@
               },
               "reason": "LM4041 offers better initial accuracy but higher temperature drift",
               "useCase": "Applications requiring high room-temperature accuracy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TLV431",
@@ -2206,31 +2213,31 @@
               },
               "reason": "TLV431 is comparable but GS432 offers better temperature drift",
               "useCase": "General-purpose low-voltage reference applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GS8551-TR",
-              "link": "/gainsil/products/operational-amplifiers/gs8551-tr.html",
+              "link": "/gainsil/products/operational-amplifiers/gs8551-tr",
               "description": "Low-power op-amp for buffering reference output",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "GS8741-TR",
-              "link": "/gainsil/products/comparators/gs8741-tr.html",
+              "link": "/gainsil/products/comparators/gs8741-tr",
               "description": "High-speed comparator for voltage monitoring",
               "category": "Comparators"
             },
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Precision resistor for current measurement with reference",
               "category": "Passive Components"
             },
             {
               "partNumber": "Bypass Capacitor",
-              "link": "#",
+              "link": "",
               "description": "0.1μF ceramic for output filtering",
               "category": "Passive Components"
             }
@@ -2353,7 +2360,8 @@
                 "Reference Voltage": "1.24V"
               },
               "priceDifference": "Same",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/voltage-references/gs432"
             }
           ],
           "companionParts": [
@@ -2429,7 +2437,8 @@
                 "Reference Voltage": "2.5V"
               },
               "priceDifference": "Same",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/gainsil/products/voltage-references/gs431"
             }
           ],
           "companionParts": [

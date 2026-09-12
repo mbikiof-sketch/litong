@@ -218,7 +218,7 @@
               },
               "reason": "Lower current rating for reduced power applications",
               "useCase": "Applications requiring 20-30A with lower cost",
-              "link": "/ixys/products/power-mosfets/ixfh30n60p3.html"
+              "link": ""
             },
             {
               "partNumber": "STW45NM60",
@@ -237,25 +237,25 @@
               },
               "reason": "Slightly better electrical specifications",
               "useCase": "Applications requiring maximum efficiency",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "IXFH40N60P3",
-              "link": "/ixys/products/power-mosfets/ixfh40n60p3.html",
+              "link": "/ixys/products/power-mosfets/ixfh40n60p3",
               "description": "Complementary MOSFET for half-bridge configuration",
               "category": "Power MOSFETs"
             },
             {
               "partNumber": "DSEI60-06A",
-              "link": "/ixys/products/power-diodes/dsei60-06a.html",
+              "link": "/ixys/products/power-diodes/dsei60-06a",
               "description": "Fast recovery diode for freewheeling applications",
               "category": "Power Diodes"
             },
             {
               "partNumber": "IXDN609CI",
-              "link": "#",
+              "link": "",
               "description": "High-current gate driver IC",
               "category": "Gate Drivers"
             }
@@ -374,7 +374,7 @@
               },
               "reason": "Lower current rating for reduced power applications",
               "useCase": "Applications requiring 50-70A with lower cost",
-              "link": "/ixys/products/power-mosfets/ixtp76n15t.html"
+              "link": ""
             },
             {
               "partNumber": "IRFP4668",
@@ -393,25 +393,25 @@
               },
               "reason": "Higher voltage and current rating with lower Rds(on)",
               "useCase": "Applications requiring higher voltage margin or current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "IXTP96N15T",
-              "link": "/ixys/products/power-mosfets/ixtp96n15t.html",
+              "link": "/ixys/products/power-mosfets/ixtp96n15t",
               "description": "Matching MOSFET for synchronous rectifier pair",
               "category": "Power MOSFETs"
             },
             {
               "partNumber": "IXDN609CI",
-              "link": "#",
+              "link": "",
               "description": "High-speed MOSFET gate driver",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "DSEI120-06A",
-              "link": "/ixys/products/power-diodes/dsei120-06a.html",
+              "link": "/ixys/products/power-diodes/dsei120-06a",
               "description": "Fast recovery diode for output rectification",
               "category": "Power Diodes"
             }
@@ -530,7 +530,7 @@
               },
               "reason": "Lower voltage but much higher current and lower Rds(on)",
               "useCase": "Applications not requiring 200V rating but needing higher current",
-              "link": "/ixys/products/power-mosfets/ixtp96n15t.html"
+              "link": "/ixys/products/power-mosfets/ixtp96n15t"
             },
             {
               "partNumber": "IRFP4227",
@@ -549,25 +549,25 @@
               },
               "reason": "Higher current rating with lower Rds(on)",
               "useCase": "Applications requiring higher current capability",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSEI60-06A",
-              "link": "/ixys/products/power-diodes/dsei60-06a.html",
+              "link": "/ixys/products/power-diodes/dsei60-06a",
               "description": "Fast recovery diode for freewheeling",
               "category": "Power Diodes"
             },
             {
               "partNumber": "IXDN609CI",
-              "link": "#",
+              "link": "",
               "description": "High-current gate driver IC",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "IXFH50N20",
-              "link": "/ixys/products/power-mosfets/ixfh50n20.html",
+              "link": "/ixys/products/power-mosfets/ixfh50n20",
               "description": "Matching MOSFET for bridge configuration",
               "category": "Power MOSFETs"
             }
@@ -656,7 +656,7 @@
               },
               "reason": "Lower voltage but much better Rds(on) and current capability",
               "useCase": "Applications not requiring 1000V rating",
-              "link": "/ixys/products/power-mosfets/ixfh40n60p3.html"
+              "link": "/ixys/products/power-mosfets/ixfh40n60p3"
             },
             {
               "partNumber": "STW9N150",
@@ -675,25 +675,25 @@
               },
               "reason": "Higher voltage rating for extreme applications",
               "useCase": "Applications requiring >1000V rating",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSEI60-06A",
-              "link": "/ixys/products/power-diodes/dsei60-06a.html",
+              "link": "/ixys/products/power-diodes/dsei60-06a",
               "description": "Fast recovery diode for PFC applications",
               "category": "Power Diodes"
             },
             {
               "partNumber": "IXDN609CI",
-              "link": "#",
+              "link": "",
               "description": "High-voltage gate driver IC",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "IXFH24N100",
-              "link": "/ixys/products/power-mosfets/ixfh24n100.html",
+              "link": "/ixys/products/power-mosfets/ixfh24n100",
               "description": "Matching MOSFET for half-bridge PFC",
               "category": "Power MOSFETs"
             }
@@ -845,19 +845,19 @@
               },
               "reason": "Lower current rating for reduced power applications",
               "useCase": "Applications requiring 3-7kW with lower cost",
-              "link": "/ixys/products/igbt-modules/mixa40pd1200ts.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM2110",
-              "link": "#",
+              "link": "",
               "description": "Half-bridge gate driver IC",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "DSEI60-06A",
-              "link": "/ixys/products/power-diodes/dsei60-06a.html",
+              "link": "/ixys/products/power-diodes/dsei60-06a",
               "description": "Fast recovery diode for external freewheeling",
               "category": "Power Diodes"
             }
@@ -934,13 +934,13 @@
               },
               "reason": "Lower current for reduced power requirements",
               "useCase": "Applications requiring 5-15kW",
-              "link": "/ixys/products/igbt-modules/mixa60pd1200ts.html"
+              "link": "/ixys/products/igbt-modules/mixa60pd1200ts"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SLM21874",
-              "link": "#",
+              "link": "",
               "description": "High-voltage half-bridge driver",
               "category": "Gate Drivers"
             }
@@ -1002,7 +1002,7 @@
           "companionParts": [
             {
               "partNumber": "SLM21874",
-              "link": "#",
+              "link": "",
               "description": "High-voltage gate driver",
               "category": "Gate Drivers"
             }
@@ -1064,7 +1064,7 @@
           "companionParts": [
             {
               "partNumber": "SLM2110",
-              "link": "#",
+              "link": "",
               "description": "Half-bridge gate driver",
               "category": "Gate Drivers"
             }
@@ -1206,13 +1206,13 @@
               },
               "reason": "Lower current rating for reduced power applications",
               "useCase": "Applications requiring 20-30A",
-              "link": "/ixys/products/power-diodes/dsei30-06a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "IXFH40N60P3",
-              "link": "/ixys/products/power-mosfets/ixfh40n60p3.html",
+              "link": "/ixys/products/power-mosfets/ixfh40n60p3",
               "description": "Complementary MOSFET for bridge circuits",
               "category": "Power MOSFETs"
             }
@@ -1274,7 +1274,7 @@
           "companionParts": [
             {
               "partNumber": "IXTP96N15T",
-              "link": "/ixys/products/power-mosfets/ixtp96n15t.html",
+              "link": "/ixys/products/power-mosfets/ixtp96n15t",
               "description": "Synchronous rectification MOSFET",
               "category": "Power MOSFETs"
             }
@@ -1336,7 +1336,7 @@
           "companionParts": [
             {
               "partNumber": "IXFH24N100",
-              "link": "/ixys/products/power-mosfets/ixfh24n100.html",
+              "link": "/ixys/products/power-mosfets/ixfh24n100",
               "description": "1000V MOSFET for high-voltage switching",
               "category": "Power MOSFETs"
             }
@@ -1398,7 +1398,7 @@
           "companionParts": [
             {
               "partNumber": "IXFH40N60P3",
-              "link": "/ixys/products/power-mosfets/ixfh40n60p3.html",
+              "link": "/ixys/products/power-mosfets/ixfh40n60p3",
               "description": "600V MOSFET for PFC switching",
               "category": "Power MOSFETs"
             }
@@ -1525,7 +1525,7 @@
           "companionParts": [
             {
               "partNumber": "MOC3052",
-              "link": "#",
+              "link": "",
               "description": "Optocoupler for SCR triggering",
               "category": "Optocouplers"
             }
@@ -1587,7 +1587,7 @@
           "companionParts": [
             {
               "partNumber": "MOC3052",
-              "link": "#",
+              "link": "",
               "description": "Optocoupler for isolated triggering",
               "category": "Optocouplers"
             }
@@ -1649,7 +1649,7 @@
           "companionParts": [
             {
               "partNumber": "MOC3021",
-              "link": "#",
+              "link": "",
               "description": "Optocoupler for triac triggering",
               "category": "Optocouplers"
             }
@@ -1711,7 +1711,7 @@
           "companionParts": [
             {
               "partNumber": "MOC3021",
-              "link": "#",
+              "link": "",
               "description": "Optocoupler for isolated triac drive",
               "category": "Optocouplers"
             }

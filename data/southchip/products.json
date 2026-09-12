@@ -223,7 +223,7 @@
               "comparison": "chargeCurrent => 280mA < 1A (lower current); package => SOT-23-5 < SOP-8 (smaller); cost => Lower cost; features => Basic charger without thermal regulation",
               "reason": "Smaller package and lower cost for ultra-compact low-current applications",
               "useCase": "TWS earbuds, smart watches, and space-constrained designs",
-              "link": "#"
+              "link": "/southchip/products/battery-charger-ics/sc9017"
             },
             {
               "partNumber": "SC8815",
@@ -236,25 +236,25 @@
               "comparison": "chargeCurrent => 3A > 1A (higher current); efficiency => ~90% > ~70% (more efficient); heat => Less heat generation; cost => Higher cost; complexity => Requires inductor",
               "reason": "Higher efficiency switching charger for high-current fast charging",
               "useCase": "Smartphones, tablets, and fast-charging applications",
-              "link": "#"
+              "link": "/southchip/products/battery-charger-ics/sc8815"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC4056-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC4056 with USB input and battery connector",
               "category": "Development Tools"
             },
             {
               "partNumber": "10μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "X5R/X7R ceramic capacitor for output filtering",
               "category": "Passive Component"
             },
             {
               "partNumber": "1kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "1% resistor for 1A charge current programming",
               "category": "Passive Component"
             }
@@ -370,7 +370,7 @@
               "comparison": "Linear charger with lower cost but lower efficiency; suitable for low-current applications",
               "reason": "Lower cost option for applications not requiring fast charging",
               "useCase": "Low-power devices and cost-sensitive applications",
-              "link": "#"
+              "link": "/southchip/products/battery-charger-ics/sc4056"
             },
             {
               "partNumber": "SC4056-ALT",
@@ -383,25 +383,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8815-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8815",
               "category": "Development Tools"
             },
             {
               "partNumber": "4.7μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for switching charger",
               "category": "Passive Component"
             },
             {
               "partNumber": "22μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Input/output ceramic capacitors",
               "category": "Passive Component"
             }
@@ -512,7 +512,7 @@
               "comparison": "Lower current (3A), buck-only topology, smaller package; suitable for lower power applications",
               "reason": "Lower cost option for applications not requiring buck-boost or 5A capability",
               "useCase": "Smartphones, tablets, and lower power applications",
-              "link": "#"
+              "link": "/southchip/products/battery-charger-ics/sc8815"
             },
             {
               "partNumber": "SC8815-ALT",
@@ -525,25 +525,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8905-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8905 with USB PD support",
               "category": "Development Tools"
             },
             {
               "partNumber": "10μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Low-DCR power inductor for buck-boost converter",
               "category": "Passive Component"
             },
             {
               "partNumber": "100μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Bulk input/output ceramic capacitors",
               "category": "Passive Component"
             }
@@ -656,7 +656,7 @@
               "comparison": "Higher current (1A), larger SOP-8 package, slightly higher standby current; suitable for larger batteries",
               "reason": "Higher current capability for applications with larger batteries",
               "useCase": "Power banks, smartphones, and larger battery applications",
-              "link": "#"
+              "link": "/southchip/products/battery-charger-ics/sc4056"
             },
             {
               "partNumber": "SC4056-ALT",
@@ -668,25 +668,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC9017-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC9017",
               "category": "Development Tools"
             },
             {
               "partNumber": "1μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Compact ceramic capacitors for input/output",
               "category": "Passive Component"
             },
             {
               "partNumber": "3.6kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Resistor for 280mA charge current programming",
               "category": "Passive Component"
             }
@@ -911,7 +911,7 @@
               "comparison": "batteryType => Multi-cell > Single-cell; package => TSSOP-14 > WLCSP-9 (easier assembly); features => Multi-cell balancing support; cost => Higher cost",
               "reason": "Multi-cell fuel gauge for 2-4 series battery packs",
               "useCase": "Laptops, power tools, and multi-cell applications",
-              "link": "#"
+              "link": "/southchip/products/fuel-gauge-ics/sc2750"
             },
             {
               "partNumber": "SC2750-ALT",
@@ -924,25 +924,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC2731-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Fuel gauge evaluation board with battery and host interface",
               "category": "Development Tools"
             },
             {
               "partNumber": "10mΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "1% current sense resistor for accurate current measurement",
               "category": "Passive Component"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             }
@@ -1058,7 +1058,7 @@
               "comparison": "Single-cell fuel gauge in smaller package; suitable for single-cell applications",
               "reason": "Smaller package and lower cost for single-cell applications",
               "useCase": "Smartphones, tablets, and single-cell devices",
-              "link": "#"
+              "link": "/southchip/products/fuel-gauge-ics/sc2731"
             },
             {
               "partNumber": "SC2731-ALT",
@@ -1071,25 +1071,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC2750-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC2750",
               "category": "Development Tools"
             },
             {
               "partNumber": "5mΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Current sense resistor for multi-cell applications",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ NTC",
-              "link": "#",
+              "link": "",
               "description": "Thermistor for temperature monitoring",
               "category": "Passive Component"
             }
@@ -1197,7 +1197,7 @@
               "comparison": "Slightly higher operating current (~100μA), larger WLCSP-9 package; suitable for less power-sensitive applications",
               "reason": "Alternative with more features for applications where power consumption is less critical",
               "useCase": "Smartphones, tablets, and higher power devices",
-              "link": "#"
+              "link": "/southchip/products/fuel-gauge-ics/sc2731"
             },
             {
               "partNumber": "SC2731-ALT",
@@ -1209,25 +1209,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC2720-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC2720",
               "category": "Development Tools"
             },
             {
               "partNumber": "20mΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Low-value sense resistor for minimal power loss",
               "category": "Passive Component"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             }
@@ -1337,7 +1337,7 @@
               "comparison": "Consumer-grade version with standard temperature range; lower cost for non-automotive applications",
               "reason": "Lower cost option for consumer and industrial applications not requiring automotive qualification",
               "useCase": "Consumer electronics and industrial applications",
-              "link": "#"
+              "link": "/southchip/products/fuel-gauge-ics/sc2731"
             },
             {
               "partNumber": "SC2731-ALT",
@@ -1348,25 +1348,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC2770-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Automotive evaluation board for SC2770",
               "category": "Development Tools"
             },
             {
               "partNumber": "10mΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Automotive-grade current sense resistor",
               "category": "Passive Component"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             }
@@ -1587,7 +1587,7 @@
               "comparison": "outputCurrent => 2A < 3A (lower current); package => SOT-23-5 < SOT-23-6 (smaller); features => No power-good pin; cost => Lower cost",
               "reason": "Lower cost option for applications requiring less than 2A",
               "useCase": "Lower power applications and cost-sensitive designs",
-              "link": "#"
+              "link": "/southchip/products/dc-dc-converters/sc8103"
             },
             {
               "partNumber": "SC8103-ALT",
@@ -1600,25 +1600,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8105-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8105 with adjustable output",
               "category": "Development Tools"
             },
             {
               "partNumber": "4.7μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for 3A buck converter",
               "category": "Passive Component"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             }
@@ -1732,7 +1732,7 @@
               "comparison": "Higher current capability (3A) with power-good indicator; slightly larger package",
               "reason": "Higher current capability for demanding applications",
               "useCase": "Applications requiring more than 2A output current",
-              "link": "#"
+              "link": "/southchip/products/dc-dc-converters/sc8105"
             },
             {
               "partNumber": "SC8105-ALT",
@@ -1744,25 +1744,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8103-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8103",
               "category": "Development Tools"
             },
             {
               "partNumber": "4.7μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for 2A buck converter",
               "category": "Passive Component"
             },
             {
               "partNumber": "10μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Input/output ceramic capacitors",
               "category": "Passive Component"
             }
@@ -1869,7 +1869,7 @@
               "comparison": "Lower input voltage (18V max), higher current (3A); suitable for lower voltage applications",
               "reason": "Higher current capability for lower voltage applications",
               "useCase": "Consumer electronics and low-voltage industrial",
-              "link": "#"
+              "link": "/southchip/products/dc-dc-converters/sc8105"
             },
             {
               "partNumber": "SC8105-ALT",
@@ -1880,25 +1880,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8201-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8201 high-voltage converter",
               "category": "Development Tools"
             },
             {
               "partNumber": "10μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "High-voltage rated power inductor",
               "category": "Passive Component"
             },
             {
               "partNumber": "100μF Electrolytic",
-              "link": "#",
+              "link": "",
               "description": "High-voltage input bulk capacitor",
               "category": "Passive Component"
             }
@@ -2006,7 +2006,7 @@
               "comparison": "Lower current (3A), smaller package, fixed frequency; suitable for lower power applications",
               "reason": "Smaller, lower cost option for applications not requiring 5A",
               "useCase": "Consumer electronics and medium power applications",
-              "link": "#"
+              "link": "/southchip/products/dc-dc-converters/sc8105"
             },
             {
               "partNumber": "SC8105-ALT",
@@ -2017,25 +2017,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8305-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8305 high-current converter",
               "category": "Development Tools"
             },
             {
               "partNumber": "4.7μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Low-DCR power inductor for 5A operation",
               "category": "Passive Component"
             },
             {
               "partNumber": "100μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Bulk output capacitors for high-current transients",
               "category": "Passive Component"
             }
@@ -2248,7 +2248,7 @@
               "comparison": "systemCurrent => 1.5A < 2.5A; chargeCurrent => 1A < 1.5A; package => QFN-12 < QFN-16 (smaller); cost => Lower cost",
               "reason": "Lower cost option for lower current applications",
               "useCase": "Lower power devices and cost-sensitive designs",
-              "link": "#"
+              "link": "/southchip/products/power-path-management/sc5325"
             },
             {
               "partNumber": "SC5325-ALT",
@@ -2261,25 +2261,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC5328-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board demonstrating power path management",
               "category": "Development Tools"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for optimal performance",
               "category": "Passive Component"
             }
@@ -2394,7 +2394,7 @@
               "comparison": "Higher current capability (2.5A system, 1.5A charge) in larger QFN-16 package",
               "reason": "Higher current capability for smartphones and larger devices",
               "useCase": "Smartphones, tablets, and higher power applications",
-              "link": "#"
+              "link": "/southchip/products/power-path-management/sc5328"
             },
             {
               "partNumber": "SC5328-ALT",
@@ -2407,25 +2407,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC5325-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC5325",
               "category": "Development Tools"
             },
             {
               "partNumber": "10μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Input/output ceramic capacitors",
               "category": "Passive Component"
             },
             {
               "partNumber": "2.2μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for integrated charger",
               "category": "Passive Component"
             }
@@ -2534,7 +2534,7 @@
               "comparison": "Lower current (2.5A system, 1.5A charge), smaller package; suitable for lower power applications",
               "reason": "Lower cost option for applications not requiring 5A/3A capability",
               "useCase": "Smartphones, wearables, and medium power devices",
-              "link": "#"
+              "link": "/southchip/products/power-path-management/sc5328"
             },
             {
               "partNumber": "SC5328-ALT",
@@ -2545,25 +2545,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC5350-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC5350 high-current power path",
               "category": "Development Tools"
             },
             {
               "partNumber": "4.7μH Inductor",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for 3A switching charger",
               "category": "Passive Component"
             },
             {
               "partNumber": "22μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Input/output ceramic capacitors for high current",
               "category": "Passive Component"
             }
@@ -2674,7 +2674,7 @@
               "comparison": "Full power path management with integrated charger; larger package with more features",
               "reason": "Complete power management solution with charging capability",
               "useCase": "Applications requiring battery charging and power path",
-              "link": "#"
+              "link": "/southchip/products/power-path-management/sc5328"
             },
             {
               "partNumber": "SC5328-ALT",
@@ -2685,25 +2685,25 @@
               "comparison": "Alternative variant with similar performance characteristics",
               "reason": "Alternative option for supply flexibility",
               "useCase": "Same applications with alternative sourcing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC5310-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC5310 load switch",
               "category": "Development Tools"
             },
             {
               "partNumber": "10μF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Input/output ceramic capacitors",
               "category": "Passive Component"
             },
             {
               "partNumber": "Resistor Network",
-              "link": "#",
+              "link": "",
               "description": "Resistors for current limit programming",
               "category": "Passive Component"
             }

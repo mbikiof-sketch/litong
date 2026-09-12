@@ -221,7 +221,7 @@
               },
               "reason": "More outputs for complex clock trees, higher cost",
               "useCase": "Applications requiring >4 clock outputs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LMK04828",
@@ -239,25 +239,25 @@
               },
               "reason": "Dual PLL architecture for jitter cleaning, more complex",
               "useCase": "Systems requiring jitter attenuation + clock generation",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU5411",
-              "link": "/brand/aurasemi/products/clock-chips/au5411.html",
+              "link": "/aurasemi/products/clock-chips/au5411",
               "description": "1:4 LVDS clock buffer for distributing AU5425 outputs",
               "category": "Clock Buffer"
             },
             {
               "partNumber": "AU5061",
-              "link": "/brand/aurasemi/products/clock-chips/au5061.html",
+              "link": "",
               "description": "PCIe Gen4 clock generator for companion PCIe interfaces",
               "category": "PCIe Clock"
             },
             {
               "partNumber": "AU8015",
-              "link": "/brand/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "Low-noise LDO for clean PLL power supply",
               "category": "Power Management"
             }
@@ -384,7 +384,7 @@
               },
               "reason": "More outputs for complex distribution, higher additive jitter",
               "useCase": "Applications requiring 8-12 clock outputs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "NB4N11S",
@@ -402,25 +402,25 @@
               },
               "reason": "Lower maximum frequency, higher additive jitter",
               "useCase": "Cost-sensitive applications below 1.5GHz",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU5425",
-              "link": "/aurasemi/products/clock-chips/au5425.html",
+              "link": "/aurasemi/products/clock-chips/au5425",
               "description": "Ultra-low jitter clock generator for precision input clock",
               "category": "Clock Generator"
             },
             {
               "partNumber": "AU5410",
-              "link": "/aurasemi/products/clock-chips/au5410.html",
+              "link": "",
               "description": "1:2 LVDS buffer for additional distribution",
               "category": "Clock Buffer"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "Low-noise LDO for clean clock buffer power supply",
               "category": "Power Management"
             }
@@ -560,19 +560,19 @@
           "companionParts": [
             {
               "partNumber": "AU5411",
-              "link": "/aurasemi/products/clock-chips/au5411.html",
+              "link": "/aurasemi/products/clock-chips/au5411",
               "description": "Clock buffer for additional distribution",
               "category": "Clock Buffer"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean PLL supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU5425",
-              "link": "/aurasemi/products/clock-chips/au5425.html",
+              "link": "/aurasemi/products/clock-chips/au5425",
               "description": "Jitter attenuator for reference cleaning",
               "category": "Clock Generator"
             }
@@ -712,19 +712,19 @@
           "companionParts": [
             {
               "partNumber": "AU5411",
-              "link": "/aurasemi/products/clock-chips/au5411.html",
+              "link": "/aurasemi/products/clock-chips/au5411",
               "description": "Clock buffer for additional PCIe slots",
               "category": "Clock Buffer"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean clock supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU5430",
-              "link": "/aurasemi/products/clock-chips/au5430.html",
+              "link": "/aurasemi/products/clock-chips/au5430",
               "description": "General-purpose clock generator",
               "category": "Clock Generator"
             }
@@ -994,7 +994,7 @@
               "comparison": "IR35201 has same 8-phase capability and PMBus interface; AU8020 offers better price and local FAE support; IR35201 has longer market presence; Both support Intel/AMD VID; AU8020 has faster transient response; Choose IR35201 for conservative designs, AU8020 for cost-sensitive new designs",
               "reason": "Similar performance, higher cost",
               "useCase": "Applications requiring established supplier",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XDPE132G5C",
@@ -1007,25 +1007,25 @@
               "comparison": "XDPE132G5C supports up to 120A vs 100A for AU8020; AU8020 has better price-performance ratio; XDPE132G5C has more advanced telemetry; AU8020 has simpler configuration; Both have excellent transient response; Choose XDPE132G5C for extreme current requirements, AU8020 for mainstream server applications",
               "reason": "Higher current capability, more expensive",
               "useCase": "Ultra-high current server applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU8030",
-              "link": "/aurasemi/products/power-management/au8030.html",
+              "link": "/aurasemi/products/power-management/au8030",
               "description": "Power stage MOSFET driver for AU8020",
               "category": "Power Stage"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for controller bias supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8010",
-              "link": "/aurasemi/products/power-management/au8010.html",
+              "link": "",
               "description": "Current sense amplifier for accurate current monitoring",
               "category": "Current Sensing"
             }
@@ -1137,7 +1137,7 @@
               "comparison": "LM5164 has wider 100V input range but only 1A output vs 3A for AU8110; AU8110 has better efficiency at 96% vs 93%; AU8110 offers better price-performance ratio; LM5164 suitable for high-voltage low-current apps; AU8110 better for industrial power applications; Both have integrated MOSFETs; Choose LM5164 for >60V input, AU8110 for higher current needs",
               "reason": "Lower output current, higher cost",
               "useCase": "Applications requiring >60V input",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LMR33630",
@@ -1150,25 +1150,25 @@
               "comparison": "LMR33630 has 3A output same as AU8110; AU8110 has wider 60V input vs 36V for LMR33630; AU8110 efficiency 96% vs 95% for LMR33630; LMR33630 has synchronous rectification like AU8110; AU8110 better for 48V systems; LMR33630 suitable for lower voltage industrial apps; Both excellent choices with AU8110 having voltage advantage",
               "reason": "Similar performance, narrower input range",
               "useCase": "Applications with <36V input voltage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU8120",
-              "link": "/aurasemi/products/power-management/au8120.html",
+              "link": "/aurasemi/products/power-management/au8120",
               "description": "5A buck converter for higher current rails",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for low-noise analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8100",
-              "link": "/aurasemi/products/power-management/au8100.html",
+              "link": "",
               "description": "Input protection and EMI filter for industrial applications",
               "category": "Protection"
             }
@@ -1299,19 +1299,19 @@
           "companionParts": [
             {
               "partNumber": "AU8110",
-              "link": "/aurasemi/products/power-management/au8110.html",
+              "link": "/aurasemi/products/power-management/au8110",
               "description": "3A buck for lower current rails",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8020",
-              "link": "/aurasemi/products/power-management/au8020.html",
+              "link": "/aurasemi/products/power-management/au8020",
               "description": "VRM controller for processor power",
               "category": "Power Management"
             }
@@ -1443,19 +1443,19 @@
           "companionParts": [
             {
               "partNumber": "AU8020",
-              "link": "/aurasemi/products/power-management/au8020.html",
+              "link": "/aurasemi/products/power-management/au8020",
               "description": "VRM controller for multi-phase operation",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8110",
-              "link": "/aurasemi/products/power-management/au8110.html",
+              "link": "/aurasemi/products/power-management/au8110",
               "description": "Buck converter for auxiliary rails",
               "category": "Power Management"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean analog supply",
               "category": "Power Management"
             }
@@ -1692,7 +1692,7 @@
               "comparison": "MAX31865 offers 15-bit resolution vs 24-bit for AU6020; AU6020 provides better accuracy at ±0.1°C vs ±0.5°C; MAX31865 has longer market presence and extensive documentation; AU6020 has better price-performance ratio; Both support Pt100/Pt1000 with SPI interface; Choose MAX31865 for conservative designs with established reference designs, AU6020 for higher resolution and better accuracy at lower cost",
               "reason": "Lower resolution, higher cost",
               "useCase": "Applications requiring established supplier",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ADS124S08",
@@ -1705,25 +1705,25 @@
               "comparison": "ADS124S08 has 8 channels vs single channel for AU6020; AU6020 is specifically optimized for RTD measurement with built-in lead compensation; ADS124S08 is a general-purpose ADC requiring external excitation; AU6020 has integrated excitation current sources; ADS124S08 suitable for multi-channel general purpose; AU6020 better for dedicated RTD applications with simpler implementation",
               "reason": "General purpose ADC, more complex RTD implementation",
               "useCase": "Multi-channel general purpose ADC applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU6030",
-              "link": "/aurasemi/products/sensor-interface/au6030.html",
+              "link": "/aurasemi/products/sensor-interface/au6030",
               "description": "Thermocouple interface for multi-sensor systems",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "Low-noise LDO for analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU6040",
-              "link": "/aurasemi/products/sensor-interface/au6040.html",
+              "link": "/aurasemi/products/sensor-interface/au6040",
               "description": "Strain gauge interface for multi-sensor industrial systems",
               "category": "Sensor Interface"
             }
@@ -1845,7 +1845,7 @@
               "comparison": "MAX31855 is single-channel with 14-bit resolution supporting only Type K thermocouples; AU6030 provides 4 channels with 24-bit resolution supporting all common TC types (K, J, T, E, N, S, R, B); MAX31855 requires external cold junction compensation; AU6030 has integrated CJC for simpler design; MAX31855 has longer market presence with extensive reference designs; AU6030 offers better integration and cost per channel; Choose MAX31855 for simple single-channel K-type applications with established supply chain, AU6030 for multi-channel flexibility",
               "reason": "Single channel, limited TC types, external CJC required",
               "useCase": "Simple single-channel Type K applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ADS1118",
@@ -1858,25 +1858,25 @@
               "comparison": "ADS1118 is a general-purpose ADC with 16-bit resolution requiring external CJC circuit; AU6030 is thermocouple-optimized with 24-bit resolution and integrated CJC; ADS1118 offers more flexibility as general ADC for mixed signals; AU6030 provides better TC-specific accuracy and simpler implementation; ADS1118 suitable for applications needing both TC and other sensor types; AU6030 better for dedicated thermocouple applications; ADS1118 has lower power consumption; AU6030 has built-in fault detection",
               "reason": "General purpose ADC, external CJC required, lower resolution",
               "useCase": "Mixed sensor applications requiring ADC flexibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU6020",
-              "link": "/aurasemi/products/sensor-interface/au6020.html",
+              "link": "/aurasemi/products/sensor-interface/au6020",
               "description": "RTD interface for mixed sensor systems",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU6040",
-              "link": "/aurasemi/products/sensor-interface/au6040.html",
+              "link": "/aurasemi/products/sensor-interface/au6040",
               "description": "Bridge sensor interface for multi-sensor industrial systems",
               "category": "Sensor Interface"
             }
@@ -2016,19 +2016,19 @@
           "companionParts": [
             {
               "partNumber": "AU6020",
-              "link": "/aurasemi/products/sensor-interface/au6020.html",
+              "link": "/aurasemi/products/sensor-interface/au6020",
               "description": "RTD interface for temperature compensation",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU6030",
-              "link": "/aurasemi/products/sensor-interface/au6030.html",
+              "link": "/aurasemi/products/sensor-interface/au6030",
               "description": "TC interface for multi-sensor systems",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean analog supply",
               "category": "Power Management"
             }
@@ -2169,19 +2169,19 @@
           "companionParts": [
             {
               "partNumber": "AU6020",
-              "link": "/aurasemi/products/sensor-interface/au6020.html",
+              "link": "/aurasemi/products/sensor-interface/au6020",
               "description": "RTD interface for temperature sensing",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU6030",
-              "link": "/aurasemi/products/sensor-interface/au6030.html",
+              "link": "/aurasemi/products/sensor-interface/au6030",
               "description": "TC interface for multi-channel systems",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "AU6040",
-              "link": "/aurasemi/products/sensor-interface/au6040.html",
+              "link": "/aurasemi/products/sensor-interface/au6040",
               "description": "Bridge sensor interface",
               "category": "Sensor Interface"
             }
@@ -2417,7 +2417,7 @@
               "comparison": "CC1101 has lower output power (+10dBm vs +20dBm for AU7040) and worse sensitivity (-110dBm vs -120dBm); CC1101 requires external balun and matching network; AU7040 has integrated PA, LNA, and balun for simpler design; CC1101 has extensive documentation and mature ecosystem; AU7040 offers better link budget and longer range; CC1101 supports wider frequency range including 300-348MHz; AU7040 focuses on 433/868/915MHz ISM bands; Choose CC1101 for established ecosystem and wide frequency coverage, AU7040 for better RF performance and simpler implementation",
               "reason": "Lower output power and sensitivity, external balun required",
               "useCase": "Applications requiring established TI ecosystem and wide frequency range",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SI4463",
@@ -2430,25 +2430,25 @@
               "comparison": "SI4463 has excellent sensitivity (-126dBm vs -120dBm for AU7040) and wide frequency range (142-1050MHz); AU7040 has integrated balun for simpler design; SI4463 requires external RF matching and balun; Both offer +20dBm output power; SI4463 has more flexible frequency synthesis; AU7040 has better integration reducing BOM cost; SI4463 has extensive protocol support including WMBus; AU7040 focuses on IoT and metering applications; Choose SI4463 for maximum sensitivity and frequency flexibility, AU7040 for simpler design and faster time-to-market",
               "reason": "External balun required, more complex RF design",
               "useCase": "Applications requiring maximum sensitivity and frequency flexibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean RF supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU7140",
-              "link": "/aurasemi/products/wireless-transceiver/au7140.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7140",
               "description": "2.4GHz transceiver for dual-band systems",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU5405",
-              "link": "/aurasemi/products/clock-chips/au5405.html",
+              "link": "/aurasemi/products/clock-chips/au5405",
               "description": "Clock generator for precise RF reference",
               "category": "Clock Generator"
             }
@@ -2568,7 +2568,7 @@
               "comparison": "nRF52832 has lower output power (+4dBm vs +8dBm for AU7140) and slightly worse sensitivity (-96dBm vs -95dBm); nRF52832 includes integrated ARM Cortex-M4F MCU making it a SoC solution; AU7140 is a pure transceiver requiring external MCU; nRF52832 has mature ecosystem with extensive software support; AU7140 offers better RF performance and lower power consumption; nRF52832 suitable for simple standalone applications; AU7140 better for systems with existing MCU; Choose nRF52832 for integrated SoC solution with rich ecosystem, AU7140 for better RF performance and flexibility in MCU selection",
               "reason": "Lower output power, integrated MCU (SoC vs transceiver only)",
               "useCase": "Applications requiring integrated MCU and Nordic ecosystem",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CC2640R2F",
@@ -2581,25 +2581,25 @@
               "comparison": "CC2640R2F has lower output power (+5dBm vs +8dBm for AU7140) and similar sensitivity (-97dBm vs -95dBm); CC2640R2F includes integrated ARM Cortex-M3 MCU with proprietary Sensor Controller; AU7140 is a pure transceiver for flexible MCU pairing; CC2640R2F has excellent ultra-low power consumption in standby; AU7140 has better active TX power efficiency; CC2640R2F has strong TI ecosystem and development tools; AU7140 offers multi-protocol support including 802.15.4; Choose CC2640R2F for ultra-low power sensor applications with TI support, AU7140 for multi-protocol flexibility and higher output power",
               "reason": "Lower output power, integrated MCU, proprietary architecture",
               "useCase": "Ultra-low power sensor applications with TI ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AU7040",
-              "link": "/aurasemi/products/wireless-transceiver/au7040.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7040",
               "description": "Sub-GHz transceiver for dual-band systems",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean RF supply",
               "category": "Power Management"
             },
             {
               "partNumber": "AU5405",
-              "link": "/aurasemi/products/clock-chips/au5405.html",
+              "link": "/aurasemi/products/clock-chips/au5405",
               "description": "Clock generator for precise 32MHz RF reference",
               "category": "Clock Generator"
             }
@@ -2741,19 +2741,19 @@
           "companionParts": [
             {
               "partNumber": "AU7040",
-              "link": "/aurasemi/products/wireless-transceiver/au7040.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7040",
               "description": "Standard sub-GHz for shorter range",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU7140",
-              "link": "/aurasemi/products/wireless-transceiver/au7140.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7140",
               "description": "2.4GHz for dual-band systems",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean RF supply",
               "category": "Power Management"
             }
@@ -2898,19 +2898,19 @@
           "companionParts": [
             {
               "partNumber": "AU7140",
-              "link": "/aurasemi/products/wireless-transceiver/au7140.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7140",
               "description": "BLE 5.0 transceiver for simpler applications",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU7040",
-              "link": "/aurasemi/products/wireless-transceiver/au7040.html",
+              "link": "/aurasemi/products/wireless-transceiver/au7040",
               "description": "Sub-GHz for dual-band systems",
               "category": "Wireless Transceiver"
             },
             {
               "partNumber": "AU8015",
-              "link": "/aurasemi/products/power-management/au8015.html",
+              "link": "",
               "description": "LDO for clean supply",
               "category": "Power Management"
             }

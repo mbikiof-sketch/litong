@@ -201,7 +201,7 @@
               },
               "reason": "Newer LA664 core architecture with improved IPC and performance",
               "useCase": "Upgrade path for applications requiring higher single-threaded performance",
-              "link": "/loongson/products/desktop-server-processors/3a6000.html"
+              "link": ""
             },
             {
               "partNumber": "3C5000",
@@ -220,25 +220,25 @@
               },
               "reason": "Server-grade processor with significantly higher core count for parallel workloads",
               "useCase": "Server and HPC applications requiring high thread count and memory bandwidth",
-              "link": "/loongson/products/desktop-server-processors/3c5000.html"
+              "link": "/loongson/products/desktop-server-processors/3c5000"
             }
           ],
           "companionParts": [
             {
               "partNumber": "7A2000",
-              "link": "/loongson/products/chipsets-bridge-chips/7a2000.html",
+              "link": "/loongson/products/chipsets-bridge-chips/7a2000",
               "description": "Companion chipset with integrated graphics and comprehensive I/O support",
               "category": "Chipsets"
             },
             {
               "partNumber": "3A5000-DB",
-              "link": "#",
+              "link": "/loongson/products/development-boards-modules/3a5000-db",
               "description": "Development board with 3A5000 processor, memory, and standard interfaces",
               "category": "Development Boards"
             },
             {
               "partNumber": "LS2K1000",
-              "link": "/loongson/products/embedded-processors/2k1000.html",
+              "link": "",
               "description": "Dual-core embedded processor for I/O expansion and companion controller applications",
               "category": "Embedded Processors"
             }
@@ -355,7 +355,7 @@
               },
               "reason": "Lower core count and power consumption for entry-level applications",
               "useCase": "Development platforms and entry-level server applications with lower thread requirements",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html"
+              "link": "/loongson/products/desktop-server-processors/3a5000"
             },
             {
               "partNumber": "3C5000L",
@@ -374,25 +374,25 @@
               },
               "reason": "Lower power variant for power-constrained deployments",
               "useCase": "High-density servers and power-optimized data center deployments",
-              "link": "/loongson/products/desktop-server-processors/3c5000l.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "7A2000",
-              "link": "/loongson/products/chipsets-bridge-chips/7a2000.html",
+              "link": "/loongson/products/chipsets-bridge-chips/7a2000",
               "description": "Server chipset providing extended I/O and management features",
               "category": "Chipsets"
             },
             {
               "partNumber": "3C5000-SVR",
-              "link": "#",
+              "link": "",
               "description": "Server reference platform with dual 3C5000 support",
               "category": "Development Boards"
             },
             {
               "partNumber": "LS2K2000",
-              "link": "/loongson/products/embedded-processors/2k2000.html",
+              "link": "",
               "description": "BMC processor for server management and out-of-band control",
               "category": "Embedded Processors"
             }
@@ -591,7 +591,7 @@
               },
               "reason": "Higher performance with enhanced graphics and additional I/O interfaces",
               "useCase": "Applications requiring higher performance, graphics output, or additional PCIe connectivity",
-              "link": "/loongson/products/embedded-processors/2k2000.html"
+              "link": "/loongson/products/embedded-processors/2k2000"
             },
             {
               "partNumber": "1C101",
@@ -610,25 +610,25 @@
               },
               "reason": "Ultra-low power single-core for cost-sensitive basic control applications",
               "useCase": "Simple control tasks, IoT endpoints, and battery-powered devices",
-              "link": "/loongson/products/embedded-processors/1c101.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "2K1000-EVB",
-              "link": "#",
+              "link": "/loongson/products/development-boards-modules/2k1000-evb",
               "description": "Evaluation board with 2K1000, DDR3, Ethernet, and expansion interfaces",
               "category": "Development Boards"
             },
             {
               "partNumber": "3A5000",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html",
+              "link": "/loongson/products/desktop-server-processors/3a5000",
               "description": "Higher performance processor for companion host processing applications",
               "category": "Desktop and Server Processors"
             },
             {
               "partNumber": "7A1000",
-              "link": "/loongson/products/chipsets-bridge-chips/7a1000.html",
+              "link": "/loongson/products/chipsets-bridge-chips/7a1000",
               "description": "Bridge chip for additional PCIe and I/O expansion",
               "category": "Chipsets and Bridge Chips"
             }
@@ -745,7 +745,7 @@
               },
               "reason": "Lower cost and power consumption for applications not requiring graphics or PCIe",
               "useCase": "Headless embedded applications where graphics and high-speed expansion are not required",
-              "link": "/loongson/products/embedded-processors/2k1000.html"
+              "link": "/loongson/products/embedded-processors/2k1000"
             },
             {
               "partNumber": "3A5000",
@@ -764,25 +764,25 @@
               },
               "reason": "Significantly higher performance for compute-intensive applications",
               "useCase": "Applications requiring high processing power with embedded form factor",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html"
+              "link": "/loongson/products/desktop-server-processors/3a5000"
             }
           ],
           "companionParts": [
             {
               "partNumber": "2K2000-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with 2K2000, DDR3, HDMI output, and expansion connectors",
               "category": "Development Boards"
             },
             {
               "partNumber": "7A1000",
-              "link": "/loongson/products/chipsets-bridge-chips/7a1000.html",
+              "link": "/loongson/products/chipsets-bridge-chips/7a1000",
               "description": "PCIe bridge chip for additional expansion slots",
               "category": "Chipsets and Bridge Chips"
             },
             {
               "partNumber": "2K1000",
-              "link": "/loongson/products/embedded-processors/2k1000.html",
+              "link": "/loongson/products/embedded-processors/2k1000",
               "description": "Lower power alternative for cost-sensitive applications",
               "category": "Embedded Processors"
             }
@@ -981,7 +981,7 @@
               },
               "reason": "Compact form factor for space-constrained applications",
               "useCase": "Compact desktop and embedded applications requiring smaller footprint",
-              "link": "/loongson/products/development-boards-modules/3a5000-mini.html"
+              "link": ""
             },
             {
               "partNumber": "3C5000-SVR",
@@ -1000,25 +1000,25 @@
               },
               "reason": "Server-grade platform with higher core count and memory capacity",
               "useCase": "Server evaluation and high-performance computing development",
-              "link": "/loongson/products/development-boards-modules/3c5000-svr.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "3A5000",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html",
+              "link": "/loongson/products/desktop-server-processors/3a5000",
               "description": "Processor for custom board designs or upgrades",
               "category": "Desktop and Server Processors"
             },
             {
               "partNumber": "7A2000",
-              "link": "/loongson/products/chipsets-bridge-chips/7a2000.html",
+              "link": "/loongson/products/chipsets-bridge-chips/7a2000",
               "description": "Chipset for custom motherboard designs",
               "category": "Chipsets and Bridge Chips"
             },
             {
               "partNumber": "DDR4-3200-KIT",
-              "link": "#",
+              "link": "",
               "description": "Qualified DDR4 memory kit for development board",
               "category": "Accessories"
             }
@@ -1135,7 +1135,7 @@
               },
               "reason": "Enhanced performance with graphics and PCIe for advanced applications",
               "useCase": "HMI and graphics-intensive embedded applications",
-              "link": "/loongson/products/development-boards-modules/2k2000-evb.html"
+              "link": ""
             },
             {
               "partNumber": "2K1000-SOM",
@@ -1154,25 +1154,25 @@
               },
               "reason": "Compact module form factor for integration into custom designs",
               "useCase": "Production designs requiring custom carrier board integration",
-              "link": "/loongson/products/development-boards-modules/2k1000-som.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "2K1000",
-              "link": "/loongson/products/embedded-processors/2k1000.html",
+              "link": "/loongson/products/embedded-processors/2k1000",
               "description": "Processor for volume production designs",
               "category": "Embedded Processors"
             },
             {
               "partNumber": "2K1000-CARRIER",
-              "link": "#",
+              "link": "",
               "description": "Reference carrier board design files for custom integration",
               "category": "Development Boards"
             },
             {
               "partNumber": "EVB-ACCESSORIES",
-              "link": "#",
+              "link": "",
               "description": "Power adapter, cables, and accessories kit",
               "category": "Accessories"
             }
@@ -1372,7 +1372,7 @@
               },
               "reason": "Lower power and cost for embedded applications with reduced I/O requirements",
               "useCase": "Embedded and industrial applications not requiring advanced graphics",
-              "link": "/loongson/products/chipsets-bridge-chips/7a1000.html"
+              "link": "/loongson/products/chipsets-bridge-chips/7a1000"
             },
             {
               "partNumber": "LS7A2000-B",
@@ -1391,25 +1391,25 @@
               },
               "reason": "Enhanced graphics and I/O for premium desktop platforms",
               "useCase": "High-performance desktop and workstation applications",
-              "link": "/loongson/products/chipsets-bridge-chips/ls7a2000-b.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "3A5000",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html",
+              "link": "/loongson/products/desktop-server-processors/3a5000",
               "description": "Desktop processor for 7A2000-based platforms",
               "category": "Desktop and Server Processors"
             },
             {
               "partNumber": "3A5000-DB",
-              "link": "/loongson/products/development-boards-modules/3a5000-db.html",
+              "link": "/loongson/products/development-boards-modules/3a5000-db",
               "description": "Reference design demonstrating 7A2000 integration",
               "category": "Development Boards"
             },
             {
               "partNumber": "DDR4-3200-KIT",
-              "link": "#",
+              "link": "",
               "description": "Qualified DDR4 memory for 7A2000 platforms",
               "category": "Accessories"
             }
@@ -1527,7 +1527,7 @@
               },
               "reason": "Enhanced graphics and I/O for desktop applications requiring higher performance",
               "useCase": "Desktop and workstation applications requiring advanced graphics",
-              "link": "/loongson/products/chipsets-bridge-chips/7a2000.html"
+              "link": "/loongson/products/chipsets-bridge-chips/7a2000"
             },
             {
               "partNumber": "LS2K1000",
@@ -1546,25 +1546,25 @@
               },
               "reason": "Integrated processor and I/O for compact embedded designs",
               "useCase": "Space-constrained embedded applications requiring high integration",
-              "link": "/loongson/products/embedded-processors/2k1000.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "2K1000",
-              "link": "/loongson/products/embedded-processors/2k1000.html",
+              "link": "/loongson/products/embedded-processors/2k1000",
               "description": "Integrated SoC alternative with built-in I/O",
               "category": "Embedded Processors"
             },
             {
               "partNumber": "3A5000",
-              "link": "/loongson/products/desktop-server-processors/3a5000.html",
+              "link": "/loongson/products/desktop-server-processors/3a5000",
               "description": "Processor for 7A1000-based industrial platforms",
               "category": "Desktop and Server Processors"
             },
             {
               "partNumber": "2K1000-EVB",
-              "link": "/loongson/products/development-boards-modules/2k1000-evb.html",
+              "link": "/loongson/products/development-boards-modules/2k1000-evb",
               "description": "Reference design with integrated SoC approach",
               "category": "Development Boards"
             }

@@ -238,7 +238,7 @@
               },
               "reason": "Cost-optimized variant with slightly reduced GPU and NPU for mainstream flagship devices",
               "useCase": "Premium smartphones where top-tier AI performance is not critical",
-              "link": "/hisilicon/products/mobile-processors/kirin-9000e.html"
+              "link": ""
             },
             {
               "partNumber": "Snapdragon 888",
@@ -258,37 +258,37 @@
               },
               "reason": "Alternative flagship with superior GPU and AI performance but external modem",
               "useCase": "Gaming-focused devices requiring maximum graphics performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Kirin 9000 Reference Design Kit",
-              "link": "#",
+              "link": "",
               "description": "Complete reference design with schematics, PCB layout, and BOM",
               "category": "Development Tools"
             },
             {
               "partNumber": "HiAI SDK v3.0",
-              "link": "#",
+              "link": "",
               "description": "AI development toolkit with model optimization tools",
               "category": "Software"
             },
             {
               "partNumber": "LPDDR5 12GB Memory",
-              "link": "#",
+              "link": "",
               "description": "High-speed LPDDR5 memory optimized for Kirin 9000",
               "category": "Memory"
             },
             {
               "partNumber": "Balong 5000 RF Front-End",
-              "link": "#",
+              "link": "",
               "description": "Complete RF solution for 5G connectivity",
               "category": "Connectivity"
             },
             {
               "partNumber": "Thermal Management Kit",
-              "link": "#",
+              "link": "",
               "description": "Vapor chamber and graphite thermal solution",
               "category": "Thermal"
             }
@@ -437,7 +437,7 @@
               },
               "reason": "4G-only predecessor for cost-sensitive markets without 5G requirement",
               "useCase": "4G smartphones in markets where 5G is not yet deployed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Dimensity 820",
@@ -457,31 +457,31 @@
               },
               "reason": "Competitive alternative with more performance cores for multi-threaded workloads",
               "useCase": "Devices requiring strong multi-core CPU performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Kirin 820 Reference Design",
-              "link": "#",
+              "link": "",
               "description": "Reference design with optimized PCB layout and BOM",
               "category": "Development Tools"
             },
             {
               "partNumber": "LPDDR4X 8GB Memory",
-              "link": "#",
+              "link": "",
               "description": "LPDDR4X memory module for Kirin 820 designs",
               "category": "Memory"
             },
             {
               "partNumber": "HiAI Lite SDK",
-              "link": "#",
+              "link": "",
               "description": "Lightweight AI SDK for mid-range processors",
               "category": "Software"
             },
             {
               "partNumber": "5G RF Front-End Module",
-              "link": "#",
+              "link": "",
               "description": "Optimized RF solution for integrated 5G modem",
               "category": "Connectivity"
             }
@@ -612,7 +612,8 @@
             {
               "partNumber": "Balong 5000",
               "description": "External 5G modem option",
-              "category": "Modem"
+              "category": "Modem",
+              "link": "/hisilicon/products/connectivity-solutions/balong-5000"
             }
           ],
           "faqs": [
@@ -694,14 +695,16 @@
                 "CPU": "2.86GHz"
               },
               "priceDifference": "+50%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/mobile-processors/kirin-990-5g"
             }
           ],
           "companionParts": [
             {
               "partNumber": "Balong 5000",
               "description": "External 5G modem",
-              "category": "Modem"
+              "category": "Modem",
+              "link": "/hisilicon/products/connectivity-solutions/balong-5000"
             }
           ],
           "faqs": [
@@ -894,7 +897,7 @@
               },
               "reason": "Alternative with mature CUDA ecosystem but lower AI performance",
               "useCase": "Developers requiring CUDA compatibility and NVIDIA ecosystem",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Ascend 310P",
@@ -912,31 +915,31 @@
               },
               "reason": "Higher performance variant for demanding edge applications",
               "useCase": "Applications requiring more than 16 TOPS in edge deployment",
-              "link": "#"
+              "link": "/hisilicon/products/ai-accelerators/ascend-310p"
             }
           ],
           "companionParts": [
             {
               "partNumber": "Ascend 310 Development Kit",
-              "link": "#",
+              "link": "",
               "description": "Complete development board with software stack",
               "category": "Development Tools"
             },
             {
               "partNumber": "LPDDR4X 8GB Module",
-              "link": "#",
+              "link": "",
               "description": "High-speed memory for Ascend 310",
               "category": "Memory"
             },
             {
               "partNumber": "CANN Software Stack",
-              "link": "#",
+              "link": "",
               "description": "Complete AI software development kit",
               "category": "Software"
             },
             {
               "partNumber": "Heat Sink Kit",
-              "link": "#",
+              "link": "",
               "description": "Passive cooling solution for Ascend 310",
               "category": "Thermal"
             }
@@ -1072,7 +1075,7 @@
               },
               "reason": "Market leader with mature ecosystem but higher power and cost",
               "useCase": "Organizations requiring maximum ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Ascend 910B",
@@ -1090,31 +1093,31 @@
               },
               "reason": "Enhanced version with significantly improved performance at same power",
               "useCase": "New deployments requiring maximum training performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Atlas 800 Server",
-              "link": "#",
+              "link": "",
               "description": "AI server with 8x Ascend 910 cards",
               "category": "Server Platform"
             },
             {
               "partNumber": "CANN Training Suite",
-              "link": "#",
+              "link": "",
               "description": "Complete training software stack",
               "category": "Software"
             },
             {
               "partNumber": "100Gbps RoCE Switch",
-              "link": "#",
+              "link": "",
               "description": "High-speed interconnect for cluster scaling",
               "category": "Networking"
             },
             {
               "partNumber": "Liquid Cooling Kit",
-              "link": "#",
+              "link": "",
               "description": "Direct liquid cooling for dense deployments",
               "category": "Thermal"
             }
@@ -1237,7 +1240,8 @@
                 "INT8": "256 TOPS"
               },
               "priceDifference": "+400%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/ai-accelerators/ascend-910"
             }
           ],
           "companionParts": [
@@ -1324,7 +1328,8 @@
                 "INT8": "16 TOPS"
               },
               "priceDifference": "-15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/ai-accelerators/ascend-310"
             }
           ],
           "companionParts": [
@@ -1515,7 +1520,7 @@
               },
               "reason": "Market-leading x86 with mature ecosystem but higher power and fewer cores",
               "useCase": "Legacy applications requiring x86 compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Kunpeng 920-4826",
@@ -1533,31 +1538,31 @@
               },
               "reason": "Lower core count variant for cost-optimized deployments",
               "useCase": "Applications not requiring maximum core density",
-              "link": "#"
+              "link": "/hisilicon/products/server-processors/kunpeng-920-4826"
             }
           ],
           "companionParts": [
             {
               "partNumber": "TaiShan 200 Server",
-              "link": "#",
+              "link": "",
               "description": "2U dual-socket server optimized for Kunpeng 920",
               "category": "Server Platform"
             },
             {
               "partNumber": "DDR4-2933 128GB",
-              "link": "#",
+              "link": "",
               "description": "High-capacity memory for Kunpeng servers",
               "category": "Memory"
             },
             {
               "partNumber": "Kunpeng DevKit",
-              "link": "#",
+              "link": "",
               "description": "Development and migration tools",
               "category": "Software"
             },
             {
               "partNumber": "PCIe 4.0 NVMe SSD",
-              "link": "#",
+              "link": "",
               "description": "High-speed storage for data-intensive workloads",
               "category": "Storage"
             }
@@ -1688,7 +1693,7 @@
               },
               "reason": "x86 alternative with mature ecosystem but fewer cores and higher power",
               "useCase": "Applications requiring x86 compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Kunpeng 920-6426",
@@ -1705,25 +1710,25 @@
               },
               "reason": "Higher core count variant for maximum parallel processing",
               "useCase": "Applications requiring maximum core density",
-              "link": "/hisilicon/products/server-processors/kunpeng-920-64c.html"
+              "link": "/hisilicon/products/server-processors/kunpeng-920-6426"
             }
           ],
           "companionParts": [
             {
               "partNumber": "TaiShan 100 Server",
-              "link": "#",
+              "link": "",
               "description": "1U single-socket server for edge deployment",
               "category": "Server Platform"
             },
             {
               "partNumber": "DDR4-2933 64GB",
-              "link": "#",
+              "link": "",
               "description": "Cost-effective memory for mainstream servers",
               "category": "Memory"
             },
             {
               "partNumber": "openEuler OS",
-              "link": "#",
+              "link": "",
               "description": "Optimized Linux distribution for Kunpeng",
               "category": "Software"
             }
@@ -1842,7 +1847,8 @@
                 "Cores": "32"
               },
               "priceDifference": "-35%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/server-processors/kunpeng-916"
             }
           ],
           "companionParts": [
@@ -1926,7 +1932,8 @@
                 "Cores": "64"
               },
               "priceDifference": "+45%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/server-processors/kunpeng-920"
             }
           ],
           "companionParts": [
@@ -2139,7 +2146,7 @@
               },
               "reason": "Alternative 5G modem with slightly higher peak speeds",
               "useCase": "Applications requiring maximum ecosystem support",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Balong 711",
@@ -2157,25 +2164,25 @@
               },
               "reason": "Lower-cost, lower-power variant for IoT applications",
               "useCase": "IoT devices not requiring maximum 5G speeds",
-              "link": "/hisilicon/products/connectivity-solutions/balong-711.html"
+              "link": "/hisilicon/products/connectivity-solutions/balong-711"
             }
           ],
           "companionParts": [
             {
               "partNumber": "5G RF Front-End Module",
-              "link": "#",
+              "link": "",
               "description": "Complete RF solution for Balong 5000",
               "category": "RF Components"
             },
             {
               "partNumber": "Kirin 9000 SoC",
-              "link": "/hisilicon/products/mobile-processors/kirin-9000.html",
+              "link": "",
               "description": "SoC with integrated Balong 5000 modem",
               "category": "Processors"
             },
             {
               "partNumber": "5G Antenna Kit",
-              "link": "#",
+              "link": "",
               "description": "Optimized antennas for 5G bands",
               "category": "Antennas"
             }
@@ -2317,7 +2324,7 @@
               },
               "reason": "Higher performance modem for mobile devices",
               "useCase": "Smartphones and tablets requiring maximum 5G speed",
-              "link": "/hisilicon/products/connectivity-solutions/balong-5000.html"
+              "link": "/hisilicon/products/connectivity-solutions/balong-5000"
             },
             {
               "partNumber": "Quectel RM500Q",
@@ -2335,25 +2342,25 @@
               },
               "reason": "Alternative 5G module with similar specifications",
               "useCase": "Applications preferring pre-certified module form factor",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "IoT Gateway Reference",
-              "link": "#",
+              "link": "",
               "description": "Reference design for 5G IoT gateway",
               "category": "Development Tools"
             },
             {
               "partNumber": "Industrial Antenna",
-              "link": "#",
+              "link": "",
               "description": "Rugged antenna for industrial deployment",
               "category": "Antennas"
             },
             {
               "partNumber": "SIM Card Holder",
-              "link": "#",
+              "link": "",
               "description": "Industrial-grade SIM holder",
               "category": "Components"
             }
@@ -2482,14 +2489,16 @@
                 "Network": "4G LTE"
               },
               "priceDifference": "-50%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/connectivity-solutions/balong-711"
             }
           ],
           "companionParts": [
             {
               "partNumber": "Kirin 990 5G",
               "description": "SoC with integrated 5G",
-              "category": "Processor"
+              "category": "Processor",
+              "link": "/hisilicon/products/mobile-processors/kirin-990-5g"
             }
           ],
           "faqs": [
@@ -2576,7 +2585,8 @@
                 "Network": "5G"
               },
               "priceDifference": "+60%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hisilicon/products/connectivity-solutions/balong-5000"
             }
           ],
           "companionParts": [

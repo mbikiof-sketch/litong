@@ -80,8 +80,16 @@
             }
           ],
           "companionParts": [
-            "SKYPER 32 R",
-            "SKYPER 42 LJ"
+            {
+              "partNumber": "SKYPER 32 R",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKYPER 42 LJ",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skm200gb12t4",
           "specifications": {
@@ -135,12 +143,21 @@
               "partNumber": "SKM600GB12T4",
               "comparison": "600A rating",
               "reason": "Very high current",
-              "useCase": "Large industrial drives"
+              "useCase": "Large industrial drives",
+              "link": "/semikron/products/igbt-modules/skm600gb12t4"
             }
           ],
           "companionParts": [
-            "SKYPER 42 LJ",
-            "SKYPER 52"
+            {
+              "partNumber": "SKYPER 42 LJ",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKYPER 52",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skm400gb12t4",
           "specifications": {
@@ -198,8 +215,16 @@
             }
           ],
           "companionParts": [
-            "SKYPER 32 R",
-            "SKYPER 12"
+            {
+              "partNumber": "SKYPER 32 R",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKYPER 12",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skm100gb12t4",
           "specifications": {
@@ -247,7 +272,8 @@
               "partNumber": "SKM400GB12T4",
               "comparison": "400A rating",
               "reason": "Lower current",
-              "useCase": "Large drives"
+              "useCase": "Large drives",
+              "link": "/semikron/products/igbt-modules/skm400gb12t4"
             },
             {
               "partNumber": "SKM500GB12T4",
@@ -257,8 +283,16 @@
             }
           ],
           "companionParts": [
-            "SKYPER 52",
-            "SKYPER 42 LJ"
+            {
+              "partNumber": "SKYPER 52",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKYPER 42 LJ",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skm600gb12t4",
           "specifications": {
@@ -349,11 +383,16 @@
               "partNumber": "SKiiP 83AC12T4V1",
               "comparison": "83A rating",
               "reason": "Higher current",
-              "useCase": "Larger drives"
+              "useCase": "Larger drives",
+              "link": "/semikron/products/skiip-modules/skiip-83ac12t4v1"
             }
           ],
           "companionParts": [
-            "SKYPER 32 R"
+            {
+              "partNumber": "SKYPER 32 R",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skiip-39ac12t4v1",
           "specifications": {
@@ -400,17 +439,23 @@
               "partNumber": "SKiiP 39AC12T4V1",
               "comparison": "39A rating",
               "reason": "Lower current",
-              "useCase": "Smaller drives"
+              "useCase": "Smaller drives",
+              "link": "/semikron/products/skiip-modules/skiip-39ac12t4v1"
             },
             {
               "partNumber": "SKiiP 124AC12T4V1",
               "comparison": "124A rating",
               "reason": "Higher current",
-              "useCase": "Larger drives"
+              "useCase": "Larger drives",
+              "link": "/semikron/products/skiip-modules/skiip-124ac12t4v1"
             }
           ],
           "companionParts": [
-            "SKYPER 32 R"
+            {
+              "partNumber": "SKYPER 32 R",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skiip-83ac12t4v1",
           "specifications": {
@@ -457,17 +502,23 @@
               "partNumber": "SKiiP 83AC12T4V1",
               "comparison": "83A rating",
               "reason": "Lower current",
-              "useCase": "Mid-size drives"
+              "useCase": "Mid-size drives",
+              "link": "/semikron/products/skiip-modules/skiip-83ac12t4v1"
             },
             {
               "partNumber": "SKiiP 1813GB123",
               "comparison": "181A rating",
               "reason": "Very high current",
-              "useCase": "Large drives"
+              "useCase": "Large drives",
+              "link": "/semikron/products/skiip-modules/skiip-1813gb123"
             }
           ],
           "companionParts": [
-            "SKYPER 42 LJ"
+            {
+              "partNumber": "SKYPER 42 LJ",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skiip-124ac12t4v1",
           "specifications": {
@@ -514,7 +565,8 @@
               "partNumber": "SKiiP 124AC12T4V1",
               "comparison": "124A rating",
               "reason": "Lower current",
-              "useCase": "Mid-power drives"
+              "useCase": "Mid-power drives",
+              "link": "/semikron/products/skiip-modules/skiip-124ac12t4v1"
             },
             {
               "partNumber": "SKiiP 2414GB12E4",
@@ -524,8 +576,16 @@
             }
           ],
           "companionParts": [
-            "SKYPER 42 LJ",
-            "SKYPER 52"
+            {
+              "partNumber": "SKYPER 42 LJ",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKYPER 52",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skiip-1813gb123",
           "specifications": {
@@ -616,18 +676,28 @@
               "partNumber": "SKYPER 12",
               "comparison": "Driver core only",
               "reason": "Custom designs",
-              "useCase": "OEM applications"
+              "useCase": "OEM applications",
+              "link": "/semikron/products/gate-drivers/skyper-12"
             },
             {
               "partNumber": "SKYPER 42 LJ",
               "comparison": "Full protection",
               "reason": "Higher power",
-              "useCase": "Large modules"
+              "useCase": "Large modules",
+              "link": "/semikron/products/gate-drivers/skyper-42-lj"
             }
           ],
           "companionParts": [
-            "SKM200GB12T4",
-            "SKM100GB12T4"
+            {
+              "partNumber": "SKM200GB12T4",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKM100GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skyper-32-r",
           "specifications": {
@@ -675,18 +745,28 @@
               "partNumber": "SKYPER 32 R",
               "comparison": "Lower power",
               "reason": "Smaller modules",
-              "useCase": "Standard drives"
+              "useCase": "Standard drives",
+              "link": "/semikron/products/gate-drivers/skyper-32-r"
             },
             {
               "partNumber": "SKYPER 52",
               "comparison": "Highest power",
               "reason": "Very large modules",
-              "useCase": "Traction drives"
+              "useCase": "Traction drives",
+              "link": "/semikron/products/gate-drivers/skyper-52"
             }
           ],
           "companionParts": [
-            "SKM400GB12T4",
-            "SKM600GB12T4"
+            {
+              "partNumber": "SKM400GB12T4",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKM600GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skyper-42-lj",
           "specifications": {
@@ -734,12 +814,21 @@
               "partNumber": "SKYPER 32 R",
               "comparison": "Complete board",
               "reason": "Faster development",
-              "useCase": "Low volume"
+              "useCase": "Low volume",
+              "link": "/semikron/products/gate-drivers/skyper-32-r"
             }
           ],
           "companionParts": [
-            "SKM75GB12T4",
-            "SKM100GB12T4"
+            {
+              "partNumber": "SKM75GB12T4",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "SKM100GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skyper-12",
           "specifications": {
@@ -788,11 +877,16 @@
               "partNumber": "SKYPER 42 LJ",
               "comparison": "15A driver",
               "reason": "Standard high power",
-              "useCase": "Large drives"
+              "useCase": "Large drives",
+              "link": "/semikron/products/gate-drivers/skyper-42-lj"
             }
           ],
           "companionParts": [
-            "SKM600GB12T4"
+            {
+              "partNumber": "SKM600GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skyper-52",
           "specifications": {
@@ -892,7 +986,11 @@
             }
           ],
           "companionParts": [
-            "SKM200GB12T4"
+            {
+              "partNumber": "SKM200GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skkd-162-16",
           "specifications": {
@@ -943,7 +1041,11 @@
             }
           ],
           "companionParts": [
-            "SKM400GB12T4"
+            {
+              "partNumber": "SKM400GB12T4",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skke-600-16",
           "specifications": {
@@ -1000,7 +1102,11 @@
             }
           ],
           "companionParts": [
-            "SKYPER 32 R"
+            {
+              "partNumber": "SKYPER 32 R",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "skt-552-16e",
           "specifications": {

@@ -206,7 +206,7 @@
               "comparison": "BP2861=><BP2865: Input voltage 85V-265V AC = 85V-265V AC (same), Package SOP-8 = SOP-8 (same), suitable for direct replacement",
               "reason": "Higher power rating for applications requiring 12-18W output",
               "useCase": "Higher power LED bulbs and downlights",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SY5801",
@@ -220,25 +220,25 @@
               "comparison": "BP2861=><SY5801: Input voltage 85V-265V AC = 85V-265V AC (same), suitable for direct replacement",
               "reason": "Alternative non-isolated solution with similar performance",
               "useCase": "Cost-competitive LED lighting applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "BP501A",
-              "link": "#",
+              "link": "",
               "description": "Dimming interface IC for 0-10V analog dimming control",
               "category": "Dimming Control"
             },
             {
               "partNumber": "Input Rectifier Bridge",
-              "link": "#",
+              "link": "",
               "description": "Standard bridge rectifier for AC input conditioning",
               "category": "Input Stage"
             },
             {
               "partNumber": "Input Capacitor 4.7uF/400V",
-              "link": "#",
+              "link": "",
               "description": "High-voltage electrolytic capacitor for input filtering",
               "category": "Passive Components"
             }
@@ -354,7 +354,7 @@
               "comparison": "BP3319=><BP3319M: Input voltage 90V-305V AC = 90V-305V AC (same), Package SOP-16 = SOP-16 (same), suitable for direct replacement",
               "reason": "Added 0-10V analog dimming capability for smart lighting",
               "useCase": "Commercial lighting with dimming requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FL7733",
@@ -368,25 +368,25 @@
               "comparison": "BP3319=><FL7733: Input voltage inputVoltage => 90V-277V AC < 90V-305V AC (narrower range), suitable for direct replacement",
               "reason": "Alternative PSR solution with similar PFC performance",
               "useCase": "Commercial lighting applications under 50W",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Power MOSFET 650V",
-              "link": "#",
+              "link": "",
               "description": "External power MOSFET for switching applications",
               "category": "Power Devices"
             },
             {
               "partNumber": "PFC Inductor",
-              "link": "#",
+              "link": "",
               "description": "Custom PFC inductor for active power factor correction",
               "category": "Magnetics"
             },
             {
               "partNumber": "Optocoupler (Optional)",
-              "link": "#",
+              "link": "",
               "description": "Optional secondary-side feedback for higher accuracy",
               "category": "Isolation"
             }
@@ -602,7 +602,7 @@
               "comparison": "BP87112=><BP87113: Input voltage 85V-265V AC = 85V-265V AC (same), Package SOP-8 = SOP-8 (same), suitable for direct replacement",
               "reason": "Higher power rating for applications requiring 24-36W output",
               "useCase": "Higher power adapters and chargers",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "iW1760B",
@@ -616,25 +616,25 @@
               "comparison": "BP87112=><iW1760B: Input voltage 85V-265V AC = 85V-265V AC (same), suitable for direct replacement",
               "reason": "Alternative with lower standby power for energy star applications",
               "useCase": "Energy star certified adapters requiring <30mW standby",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Synchronous Rectifier Controller",
-              "link": "#",
+              "link": "",
               "description": "SR controller for improved efficiency in high-current outputs",
               "category": "Rectification"
             },
             {
               "partNumber": "Output Filter Capacitors",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR electrolytic capacitors for output filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Common Mode Choke",
-              "link": "#",
+              "link": "",
               "description": "EMI filter common mode choke for input filtering",
               "category": "EMI Components"
             }
@@ -751,7 +751,7 @@
               "comparison": "BP3288=><NCP1342: Input voltage 85V-265V AC = 85V-265V AC (same), suitable for direct replacement",
               "reason": "Higher power capability with lower standby power",
               "useCase": "High-power adapters requiring <30mW standby",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TEA18362",
@@ -765,25 +765,25 @@
               "comparison": "BP3288=><TEA18362: Input voltage 85V-265V AC = 85V-265V AC (same), suitable for direct replacement",
               "reason": "Alternative QR controller with integrated X-cap discharge",
               "useCase": "Applications requiring integrated safety features",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Super Junction MOSFET 600V",
-              "link": "#",
+              "link": "",
               "description": "Low-Rds(on) super junction MOSFET for primary switching",
               "category": "Power Devices"
             },
             {
               "partNumber": "SR Controller BP3518",
-              "link": "#",
+              "link": "",
               "description": "Synchronous rectifier controller for output rectification",
               "category": "Rectification"
             },
             {
               "partNumber": "QR Transformer",
-              "link": "#",
+              "link": "",
               "description": "Custom transformer optimized for QR operation",
               "category": "Magnetics"
             }
@@ -996,7 +996,7 @@
               "comparison": "BP2306=><BP2308: Input voltage 4.5V-18V = 4.5V-18V (same), Output current 5A > 3A (+67% higher current), Frequency 500kHz = 500kHz (same), Efficiency 96% > 95% (slightly higher), Package SOP-8 = SOP-8 (same), suitable for direct replacement",
               "reason": "Higher current capability for applications requiring 3-5A output",
               "useCase": "Higher power applications requiring up to 5A output",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MP2307",
@@ -1010,25 +1010,25 @@
               "comparison": "BP2306=><MP2307: Input voltage 4.75V-23V > 4.5V-18V (wider range), Output current 3A = 3A (same), Frequency switchingFrequency => 340kHz < 500kHz (lower frequency), Efficiency 95% = 95% (same), suitable for direct replacement",
               "reason": "Alternative with wider input voltage range",
               "useCase": "Applications requiring input voltage up to 23V",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Power Inductor 4.7uH",
-              "link": "#",
+              "link": "",
               "description": "Shielded power inductor for output filtering",
               "category": "Magnetics"
             },
             {
               "partNumber": "Ceramic Capacitors 22uF",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR ceramic capacitors for input and output filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Soft-Start Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Optional soft-start capacitor for controlled startup",
               "category": "Passive Components"
             }
@@ -1141,7 +1141,7 @@
               "comparison": "BP2819=><LM5118: Input voltage inputVoltage => 3V-75V < 6V-100V (lower max voltage), Output current 5A > 2A (+150% higher current), Frequency Up to 1MHz = Up to 1MHz (same), suitable for direct replacement",
               "reason": "Higher current capability with buck-boost topology",
               "useCase": "Applications requiring buck-boost capability or higher current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LTC3891",
@@ -1155,25 +1155,25 @@
               "comparison": "BP2819=><LTC3891: Input voltage inputVoltage => 4V-60V < 6V-100V (lower max voltage), Output current 20A > 2A (much higher), Frequency switchingFrequency => 50kHz-900kHz similar range, suitable for direct replacement",
               "reason": "Higher power capability with low quiescent current",
               "useCase": "High-power industrial applications requiring low standby power",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "High-Voltage Inductor",
-              "link": "#",
+              "link": "",
               "description": "High-voltage rated power inductor for 100V applications",
               "category": "Magnetics"
             },
             {
               "partNumber": "High-Voltage Capacitors",
-              "link": "#",
+              "link": "",
               "description": "High-voltage ceramic capacitors for input filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Gate Driver IC",
-              "link": "#",
+              "link": "",
               "description": "External gate driver for high-side MOSFET if needed",
               "category": "Power Devices"
             }
@@ -1386,7 +1386,7 @@
               "comparison": "BP6308=><BP6310: Package SSOP-24 = SSOP-24 (same), suitable for direct replacement",
               "reason": "Higher current capability for larger motors",
               "useCase": "Applications requiring 2-4A motor current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DRV8833",
@@ -1406,25 +1406,25 @@
               },
               "reason": "Alternative dual H-bridge with similar current capability",
               "useCase": "General-purpose dual motor control applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Low-value sense resistor for external current monitoring",
               "category": "Passive Components"
             },
             {
               "partNumber": "Decoupling Capacitors",
-              "link": "#",
+              "link": "",
               "description": "Ceramic capacitors for power supply decoupling",
               "category": "Passive Components"
             },
             {
               "partNumber": "Motor Protection Diodes",
-              "link": "#",
+              "link": "",
               "description": "Schottky diodes for back-EMF protection",
               "category": "Protection"
             }
@@ -1544,7 +1544,7 @@
               },
               "reason": "Alternative with higher voltage range and 1/32 microstepping",
               "useCase": "Applications requiring higher voltage or finer microstepping",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "A4988",
@@ -1564,25 +1564,25 @@
               },
               "reason": "Lower-cost alternative with similar microstepping",
               "useCase": "Cost-sensitive stepper applications under 2A",
-              "link": "#"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
             {
               "partNumber": "Stepper Motor NEMA 17",
-              "link": "#",
+              "link": "",
               "description": "Standard NEMA 17 stepper motor for 3D printers and automation",
               "category": "Motors"
             },
             {
               "partNumber": "Heat Sink",
-              "link": "#",
+              "link": "",
               "description": "External heat sink for high-current applications",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Current Setting Resistors",
-              "link": "#",
+              "link": "",
               "description": "Precision resistors for current limit setting",
               "category": "Passive Components"
             }

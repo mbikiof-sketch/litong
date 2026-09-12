@@ -214,7 +214,7 @@
               },
               "reason": "NXP offers similar performance but at higher price point",
               "useCase": "Applications requiring NXP ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM8AF6266",
@@ -233,25 +233,25 @@
               },
               "reason": "STM8 offers lower cost but with proprietary core architecture",
               "useCase": "Cost-sensitive applications not requiring ARM ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78014",
-              "link": "/autochips/products/automotive-mcus/ac78014.html",
+              "link": "/autochips/products/automotive-mcus/ac78014",
               "description": "Higher memory version with 256KB Flash for complex applications",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC781x",
-              "link": "/autochips/products/automotive-mcus/ac781x.html",
+              "link": "",
               "description": "Cortex-M3 MCU for higher performance requirements",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801x-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7801x-pmic.html",
+              "link": "",
               "description": "Dedicated PMIC for AC7801x MCU power supply",
               "category": "Power Management ICs"
             }
@@ -367,7 +367,7 @@
               },
               "reason": "ST offers similar safety level but with PowerPC architecture and higher price",
               "useCase": "Applications requiring ST ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMS570LS0432",
@@ -386,25 +386,25 @@
               },
               "reason": "TI offers lockstep Cortex-R4F but with less memory and higher cost",
               "useCase": "Applications requiring highest real-time performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78405",
-              "link": "/autochips/products/automotive-mcus/ac78405.html",
+              "link": "",
               "description": "Lower memory version with 256KB Flash for less complex applications",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "Cost-effective MCU for non-safety-critical auxiliary functions",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840x-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840x-pmic.html",
+              "link": "",
               "description": "Safety PMIC designed for AC7840x MCU power supply",
               "category": "Power Management ICs"
             }
@@ -521,7 +521,7 @@
               },
               "reason": "NXP offers similar performance but at higher price point",
               "useCase": "Applications requiring NXP ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "S9KEA128",
@@ -540,25 +540,25 @@
               },
               "reason": "NXP offers lower memory option at reduced price",
               "useCase": "Applications requiring NXP ecosystem with lower memory",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "Lower memory version for cost-sensitive applications",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "Dedicated PMIC for MCU power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for redundant power supply",
               "category": "Power Management ICs"
             }
@@ -675,7 +675,7 @@
               },
               "reason": "ST offers PowerPC architecture with different ecosystem",
               "useCase": "Applications requiring ST ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SPC560P50",
@@ -694,25 +694,25 @@
               },
               "reason": "ST offers PowerPC architecture with more Flash but less RAM",
               "useCase": "Applications requiring ST ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for MCU power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7801-MOTOR",
-              "link": "/autochips/products/motor-driver-ics/ac7801-motor.html",
+              "link": "/autochips/products/motor-driver-ics/ac7801-motor",
               "description": "Motor driver for transmission actuators",
               "category": "Motor Driver ICs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for redundant power supply",
               "category": "Power Management ICs"
             }
@@ -926,7 +926,7 @@
               "comparison": "AC7801-LDO=><TPS7A16: Output current 100mA < 300mA (less), suitable for direct replacement",
               "reason": "TI offers ultra-low Iq but lower current capability",
               "useCase": "Applications requiring ultra-low standby current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TLE4275",
@@ -939,25 +939,25 @@
               "comparison": "AC7801-LDO=><TLE4275: Output current 250mA < 300mA (less), suitable for direct replacement",
               "reason": "Infineon offers similar specs but higher Iq and cost",
               "useCase": "Applications requiring Infineon ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC7801-DC",
-              "link": "/autochips/products/power-management-ics/ac7801-dc.html",
+              "link": "/autochips/products/power-management-ics/ac7801-dc",
               "description": "Buck converter for higher efficiency power conversion",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "Matching MCU for complete ECU solution",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-SENSOR",
-              "link": "/autochips/products/sensor-interface-ics/ac7801-sensor.html",
+              "link": "/autochips/products/sensor-interface-ics/ac7801-sensor",
               "description": "Sensor interface powered by this LDO",
               "category": "Sensor Interface ICs"
             }
@@ -1079,7 +1079,7 @@
               },
               "reason": "TI offers similar safety features but at higher price point",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "L5965",
@@ -1097,25 +1097,25 @@
               },
               "reason": "ST offers more channels but only ASIL-B safety level",
               "useCase": "Applications requiring more power channels with ASIL-B",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU designed to work with this safety PMIC",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840-MOTOR",
-              "link": "/autochips/products/motor-driver-ics/ac7840-motor.html",
+              "link": "/autochips/products/motor-driver-ics/ac7840-motor",
               "description": "Motor driver for safety-critical actuators",
               "category": "Motor Driver ICs"
             },
             {
               "partNumber": "AC7840-CAN",
-              "link": "/autochips/products/sensor-interface-ics/ac7840-can.html",
+              "link": "",
               "description": "CAN transceiver for safety communication",
               "category": "Sensor Interface ICs"
             }
@@ -1232,7 +1232,7 @@
               "comparison": "AC7801-DC=><TPS54331: Output current 3A = 3A (same), Efficiency 93% < 95% (lower), suitable for direct replacement",
               "reason": "TI offers similar specs but narrower input range",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "LMR33630",
@@ -1245,25 +1245,25 @@
               "comparison": "AC7801-DC=><LMR33630: Output current 3A = 3A (same), Efficiency 92% < 95% (lower), suitable for direct replacement",
               "reason": "TI offers similar specs with slightly lower efficiency",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for post-regulation of sensitive circuits",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for power supply monitoring and control",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for power supply monitoring and control",
               "category": "Automotive MCUs"
             }
@@ -1385,7 +1385,7 @@
               },
               "reason": "TI offers similar features but at higher price point",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS65023",
@@ -1403,25 +1403,25 @@
               },
               "reason": "TI offers more channels but narrower input range",
               "useCase": "Applications requiring many power rails",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC7815",
-              "link": "/autochips/products/automotive-mcus/ac7815.html",
+              "link": "/autochips/products/automotive-mcus/ac7815",
               "description": "MCU designed to work with this PMIC",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "Additional LDO for auxiliary supplies",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for safety-critical applications",
               "category": "Automotive MCUs"
             }
@@ -1632,7 +1632,7 @@
               "comparison": "AC7801-MOTOR=><DRV10983: Output current 2A < 3A (less), suitable for direct replacement",
               "reason": "TI offers similar features but lower voltage range and current",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "L6230",
@@ -1645,25 +1645,25 @@
               "comparison": "AC7801-MOTOR=><L6230: Output current 2.8A < 3A (similar), suitable for direct replacement",
               "reason": "ST requires external MCU for commutation control",
               "useCase": "Applications requiring custom commutation algorithms",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for advanced motor control algorithms",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for driver power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7801-SENSOR",
-              "link": "/autochips/products/sensor-interface-ics/ac7801-sensor.html",
+              "link": "/autochips/products/sensor-interface-ics/ac7801-sensor",
               "description": "Temperature sensor for motor monitoring",
               "category": "Sensor Interface ICs"
             }
@@ -1779,7 +1779,7 @@
               "comparison": "AC7840-MOTOR=><DRV8301: Output current 12A > 10A (higher), suitable for direct replacement",
               "reason": "TI offers higher current and integrated regulator but at higher cost",
               "useCase": "Applications requiring integrated power management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "L9908",
@@ -1792,25 +1792,25 @@
               "comparison": "AC7840-MOTOR=><L9908: Output current 8A < 10A (less), suitable for direct replacement",
               "reason": "ST offers similar safety but lower voltage range and current",
               "useCase": "Applications in ST ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for advanced motor control",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for power supply monitoring",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7840-SENSOR",
-              "link": "/autochips/products/sensor-interface-ics/ac7840-sensor.html",
+              "link": "/autochips/products/sensor-interface-ics/ac7840-sensor",
               "description": "Current sensor interface for motor control",
               "category": "Sensor Interface ICs"
             }
@@ -1926,7 +1926,7 @@
               "comparison": "AC7801-STEPPER=><DRV8880: Output current 2A = 2A (same), suitable for direct replacement",
               "reason": "TI offers similar specs but lower microstepping resolution",
               "useCase": "Applications requiring TI ecosystem compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "A4988",
@@ -1939,25 +1939,25 @@
               "comparison": "AC7801-STEPPER=><A4988: Output current 2A = 2A (same), suitable for direct replacement",
               "reason": "Allegro offers similar specs with proven reliability",
               "useCase": "Applications requiring Allegro ecosystem compatibility",
-              "link": "#"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for stepper motor control algorithms",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for driver logic power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for safety-critical motor control",
               "category": "Automotive MCUs"
             }
@@ -2073,7 +2073,7 @@
               "comparison": "AC7840-HIGHCURRENT=><DRV8303: Output current External vs Integrated (different), suitable for direct replacement",
               "reason": "TI requires external MOSFETs for high current",
               "useCase": "Applications requiring custom power stage design",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "L9908",
@@ -2086,25 +2086,25 @@
               "comparison": "AC7840-HIGHCURRENT=><L9908: Output current External vs Integrated (different), suitable for direct replacement",
               "reason": "ST requires external MOSFETs for high current",
               "useCase": "Applications requiring ST ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for safety-critical motor control",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for power supply monitoring",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for power supply monitoring",
               "category": "Power Management ICs"
             }
@@ -2315,7 +2315,7 @@
               },
               "reason": "NXP offers RF interface but lower ADC resolution",
               "useCase": "Applications requiring wireless TPMS",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PGA400",
@@ -2333,25 +2333,25 @@
               },
               "reason": "TI offers digital compensation but no LIN interface",
               "useCase": "Applications requiring custom compensation algorithms",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for TPMS central receiver",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for sensor power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7801-MOTOR",
-              "link": "/autochips/products/motor-driver-ics/ac7801-motor.html",
+              "link": "/autochips/products/motor-driver-ics/ac7801-motor",
               "description": "Motor driver for TPMS valve control",
               "category": "Motor Driver ICs"
             }
@@ -2469,7 +2469,7 @@
               },
               "reason": "TI offers similar ADC but fewer channels and no safety features",
               "useCase": "Applications not requiring safety qualification",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ADAS1128",
@@ -2487,25 +2487,25 @@
               },
               "reason": "ADI offers more channels but at much higher cost and not automotive qualified",
               "useCase": "High-channel count medical or industrial applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for safety sensor processing",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for sensor power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7840-MOTOR",
-              "link": "/autochips/products/motor-driver-ics/ac7840-motor.html",
+              "link": "/autochips/products/motor-driver-ics/ac7840-motor",
               "description": "Motor driver for actuator control",
               "category": "Motor Driver ICs"
             }
@@ -2623,7 +2623,7 @@
               },
               "reason": "TI offers higher resolution but no LIN interface",
               "useCase": "Applications requiring highest resolution measurement",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TMP117",
@@ -2641,25 +2641,25 @@
               },
               "reason": "TI offers higher accuracy but different interface",
               "useCase": "Applications requiring highest temperature accuracy",
-              "link": "#"
+              "link": "/ti/products/sensors/tmp117"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78013",
-              "link": "/autochips/products/automotive-mcus/ac78013.html",
+              "link": "/autochips/products/automotive-mcus/ac78013",
               "description": "MCU for temperature data processing",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7801-LDO",
-              "link": "/autochips/products/power-management-ics/ac7801-ldo.html",
+              "link": "/autochips/products/power-management-ics/ac7801-ldo",
               "description": "LDO for sensor power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for temperature data processing",
               "category": "Automotive MCUs"
             }
@@ -2777,7 +2777,7 @@
               },
               "reason": "Murata offers integrated sensor but limited flexibility",
               "useCase": "Applications requiring integrated inclinometer",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AD2S1205",
@@ -2795,25 +2795,25 @@
               },
               "reason": "ADI offers resolver-to-digital converter with different architecture",
               "useCase": "Applications requiring dedicated resolver interface",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AC78406",
-              "link": "/autochips/products/automotive-mcus/ac78406.html",
+              "link": "/autochips/products/automotive-mcus/ac78406",
               "description": "ASIL-D MCU for safety sensor processing",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for sensor power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "AC7840-PMIC",
-              "link": "/autochips/products/power-management-ics/ac7840-pmic.html",
+              "link": "/autochips/products/power-management-ics/ac7840-pmic",
               "description": "Safety PMIC for sensor power supply",
               "category": "Power Management ICs"
             }

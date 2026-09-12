@@ -153,7 +153,7 @@
             {
               "partNumber": "BMA456",
               "brand": "Bosch Sensortec",
-              "link": "/brands/bosch/products/accelerometer/bma456/",
+              "link": "",
               "reason": "Industry-standard accelerometer with similar performance",
               "useCase": "Alternative for designs requiring Bosch compatibility",
               "specifications": {
@@ -172,7 +172,7 @@
             {
               "partNumber": "LIS2DH12",
               "brand": "STMicroelectronics",
-              "link": "/brands/st/products/accelerometer/lis2dh12/",
+              "link": "",
               "reason": "Popular accelerometer from major MEMS vendor",
               "useCase": "Alternative for designs requiring ST compatibility",
               "specifications": {
@@ -194,19 +194,19 @@
               "partNumber": "SCG3300",
               "category": "Gyroscope",
               "description": "3-axis gyroscope for complete motion sensing solution",
-              "link": "/brands/senodia/products/gyroscope/scg3300/"
+              "link": "/senodia/products/gyroscope/scg3300"
             },
             {
               "partNumber": "SIM3300",
               "category": "IMU",
               "description": "6-axis IMU combining accelerometer and gyroscope",
-              "link": "/brands/senodia/products/imu/sim3300/"
+              "link": "/senodia/products/imu/sim3300"
             },
             {
               "partNumber": "SCA6300",
               "category": "Accelerometer",
               "description": "Automotive-grade accelerometer for high-reliability applications",
-              "link": "/brands/senodia/products/accelerometer/sca6300/"
+              "link": "/senodia/products/accelerometer/sca6300"
             }
           ],
           "faqs": [
@@ -319,7 +319,7 @@
             {
               "partNumber": "ADXL355",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/accelerometer/adxl355/",
+              "link": "",
               "reason": "High-precision accelerometer for industrial/automotive use",
               "useCase": "Alternative for applications requiring higher precision",
               "specifications": {
@@ -338,7 +338,7 @@
             {
               "partNumber": "MMA8652FC",
               "brand": "NXP",
-              "link": "/brands/nxp/products/accelerometer/mma8652fc/",
+              "link": "",
               "reason": "Automotive-qualified accelerometer from major vendor",
               "useCase": "Alternative for NXP-based automotive designs",
               "specifications": {
@@ -360,19 +360,19 @@
               "partNumber": "SCG6300",
               "category": "Gyroscope",
               "description": "Automotive-grade gyroscope for vehicle dynamics",
-              "link": "/brands/senodia/products/gyroscope/scg6300/"
+              "link": "/senodia/products/gyroscope/scg6300"
             },
             {
               "partNumber": "SIM6300",
               "category": "IMU",
               "description": "Automotive 6-axis IMU for navigation systems",
-              "link": "/brands/senodia/products/imu/sim6300/"
+              "link": "/senodia/products/imu/sim6300"
             },
             {
               "partNumber": "SCA3300",
               "category": "Accelerometer",
               "description": "Consumer-grade accelerometer for non-automotive applications",
-              "link": "/brands/senodia/products/accelerometer/sca3300/"
+              "link": "/senodia/products/accelerometer/sca3300"
             }
           ],
           "faqs": [
@@ -574,7 +574,7 @@
             {
               "partNumber": "L3GD20H",
               "brand": "STMicroelectronics",
-              "link": "/brands/st/products/gyroscope/l3gd20h/",
+              "link": "",
               "reason": "Popular 3-axis gyroscope with similar performance characteristics",
               "useCase": "Alternative for ST-based designs requiring compatibility",
               "specifications": {
@@ -593,7 +593,7 @@
             {
               "partNumber": "ITG-3200",
               "brand": "InvenSense",
-              "link": "/brands/invensense/products/gyroscope/itg-3200/",
+              "link": "",
               "reason": "Industry-standard gyroscope for motion sensing applications",
               "useCase": "Alternative for designs requiring InvenSense compatibility",
               "specifications": {
@@ -615,19 +615,19 @@
               "partNumber": "SCA3300",
               "category": "Accelerometer",
               "description": "3-axis accelerometer for complete motion sensing solution",
-              "link": "/brands/senodia/products/accelerometer/sca3300/"
+              "link": "/senodia/products/accelerometer/sca3300"
             },
             {
               "partNumber": "SIM3300",
               "category": "IMU",
               "description": "6-axis IMU combining accelerometer and gyroscope",
-              "link": "/brands/senodia/products/imu/sim3300/"
+              "link": "/senodia/products/imu/sim3300"
             },
             {
               "partNumber": "SCG6300",
               "category": "Gyroscope",
               "description": "Automotive-grade gyroscope for high-reliability applications",
-              "link": "/brands/senodia/products/gyroscope/scg6300/"
+              "link": "/senodia/products/gyroscope/scg6300"
             }
           ],
           "faqs": [
@@ -738,7 +738,7 @@
             {
               "partNumber": "ADXRS290",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/gyroscope/adxrs290/",
+              "link": "",
               "reason": "High-performance automotive gyroscope with dual-axis measurement",
               "useCase": "Alternative for applications requiring dual-axis measurement",
               "specifications": {
@@ -757,7 +757,7 @@
             {
               "partNumber": "FXAS21002C",
               "brand": "NXP",
-              "link": "/brands/nxp/products/gyroscope/fxas21002c/",
+              "link": "",
               "reason": "Automotive-qualified 3-axis gyroscope from major vendor",
               "useCase": "Alternative for NXP-based automotive designs",
               "specifications": {
@@ -779,19 +779,19 @@
               "partNumber": "SCA6300",
               "category": "Accelerometer",
               "description": "Automotive-grade accelerometer for vehicle dynamics sensing",
-              "link": "/brands/senodia/products/accelerometer/sca6300/"
+              "link": "/senodia/products/accelerometer/sca6300"
             },
             {
               "partNumber": "SIM6300",
               "category": "IMU",
               "description": "Automotive 6-axis IMU for complete motion sensing",
-              "link": "/brands/senodia/products/imu/sim6300/"
+              "link": "/senodia/products/imu/sim6300"
             },
             {
               "partNumber": "SCG3300",
               "category": "Gyroscope",
               "description": "Consumer-grade gyroscope for non-automotive applications",
-              "link": "/brands/senodia/products/gyroscope/scg3300/"
+              "link": "/senodia/products/gyroscope/scg3300"
             }
           ],
           "faqs": [
@@ -998,7 +998,7 @@
             {
               "partNumber": "MPU-6050",
               "brand": "InvenSense",
-              "link": "/brands/invensense/products/imu/mpu-6050/",
+              "link": "",
               "reason": "Popular 6-axis IMU with digital motion processor",
               "useCase": "Alternative for designs requiring InvenSense compatibility",
               "specifications": {
@@ -1018,7 +1018,7 @@
             {
               "partNumber": "LSM6DS3",
               "brand": "STMicroelectronics",
-              "link": "/brands/st/products/imu/lsm6ds3/",
+              "link": "/st/products/sensors/lsm6ds3",
               "reason": "High-performance 6-axis IMU from major MEMS vendor",
               "useCase": "Alternative for ST-based designs",
               "specifications": {
@@ -1041,19 +1041,19 @@
               "partNumber": "SCA3300",
               "category": "Accelerometer",
               "description": "Standalone accelerometer for additional axes",
-              "link": "/brands/senodia/products/accelerometer/sca3300/"
+              "link": "/senodia/products/accelerometer/sca3300"
             },
             {
               "partNumber": "SCG3300",
               "category": "Gyroscope",
               "description": "Standalone gyroscope for additional axes",
-              "link": "/brands/senodia/products/gyroscope/scg3300/"
+              "link": "/senodia/products/gyroscope/scg3300"
             },
             {
               "partNumber": "SIM6300",
               "category": "IMU",
               "description": "Automotive-grade IMU for high-reliability applications",
-              "link": "/brands/senodia/products/imu/sim6300/"
+              "link": "/senodia/products/imu/sim6300"
             }
           ],
           "faqs": [
@@ -1167,7 +1167,7 @@
             {
               "partNumber": "ADIS16448",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/imu/adis16448/",
+              "link": "",
               "reason": "High-precision industrial IMU with extended temperature range",
               "useCase": "Alternative for applications requiring higher precision",
               "specifications": {
@@ -1187,7 +1187,7 @@
             {
               "partNumber": "FXOS8700CQ",
               "brand": "NXP",
-              "link": "/brands/nxp/products/imu/fxos8700cq/",
+              "link": "",
               "reason": "Automotive-qualified 6-axis IMU with accelerometer and magnetometer",
               "useCase": "Alternative for NXP-based automotive designs requiring magnetometer",
               "specifications": {
@@ -1209,19 +1209,19 @@
               "partNumber": "SCA6300",
               "category": "Accelerometer",
               "description": "Automotive-grade accelerometer for additional measurement points",
-              "link": "/brands/senodia/products/accelerometer/sca6300/"
+              "link": "/senodia/products/accelerometer/sca6300"
             },
             {
               "partNumber": "SCG6300",
               "category": "Gyroscope",
               "description": "Automotive-grade gyroscope for redundant measurement",
-              "link": "/brands/senodia/products/gyroscope/scg6300/"
+              "link": "/senodia/products/gyroscope/scg6300"
             },
             {
               "partNumber": "SIM3300",
               "category": "IMU",
               "description": "Consumer-grade IMU for non-automotive applications",
-              "link": "/brands/senodia/products/imu/sim3300/"
+              "link": "/senodia/products/imu/sim3300"
             }
           ],
           "faqs": [
@@ -1427,7 +1427,7 @@
             {
               "partNumber": "FSR-402",
               "brand": "Interlink Electronics",
-              "link": "/brands/interlink/products/force-sensor/fsr-402/",
+              "link": "",
               "reason": "Popular force sensing resistor with simple interface",
               "useCase": "Alternative for simple force detection applications",
               "specifications": {
@@ -1446,7 +1446,7 @@
             {
               "partNumber": "HX711",
               "brand": "Avia Semiconductor",
-              "link": "/brands/avia/products/adc/hx711/",
+              "link": "",
               "reason": "Precision ADC for load cell applications",
               "useCase": "Alternative for weight measurement with external load cell",
               "specifications": {
@@ -1468,19 +1468,19 @@
               "partNumber": "SCA3300",
               "category": "Accelerometer",
               "description": "Accelerometer for motion detection alongside force sensing",
-              "link": "/brands/senodia/products/accelerometer/sca3300/"
+              "link": "/senodia/products/accelerometer/sca3300"
             },
             {
               "partNumber": "SCF6300",
               "category": "Force Sensor",
               "description": "Industrial-grade force sensor for high-reliability applications",
-              "link": "/brands/senodia/products/force-sensor/scf6300/"
+              "link": "/senodia/products/force-sensor/scf6300"
             },
             {
               "partNumber": "Microcontroller",
               "category": "Controller",
               "description": "MCU with I2C interface for sensor integration",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1593,7 +1593,7 @@
             {
               "partNumber": "LC304-100",
               "brand": "Loadstar Sensors",
-              "link": "/brands/loadstar/products/load-cell/lc304-100/",
+              "link": "",
               "reason": "Traditional load cell for higher force ranges",
               "useCase": "Alternative for applications requiring traditional load cell technology",
               "specifications": {
@@ -1612,7 +1612,7 @@
             {
               "partNumber": "FX29K0-100B-0010-L",
               "brand": "TE Connectivity",
-              "link": "/brands/te/products/force-sensor/fx29k0-100b-0010-l/",
+              "link": "",
               "reason": "Compact force sensor with analog output",
               "useCase": "Alternative for applications requiring analog output",
               "specifications": {
@@ -1634,19 +1634,19 @@
               "partNumber": "SCA6300",
               "category": "Accelerometer",
               "description": "Automotive-grade accelerometer for vibration monitoring",
-              "link": "/brands/senodia/products/accelerometer/sca6300/"
+              "link": "/senodia/products/accelerometer/sca6300"
             },
             {
               "partNumber": "SCF3300",
               "category": "Force Sensor",
               "description": "Consumer-grade force sensor for lighter force applications",
-              "link": "/brands/senodia/products/force-sensor/scf3300/"
+              "link": "/senodia/products/force-sensor/scf3300"
             },
             {
               "partNumber": "Industrial Controller",
               "category": "Controller",
               "description": "PLC or industrial controller for system integration",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

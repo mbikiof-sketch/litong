@@ -210,7 +210,7 @@
               "comparison": "CS1231=><CS1232:, suitable for direct replacement.",
               "reason": "Higher maximum data rate with SPI interface for faster applications",
               "useCase": "Applications requiring faster sampling rates or preferring SPI interface",
-              "link": "/chipsea/products/adc-converters/cs1232.html"
+              "link": "/chipsea/products/adc-converters/cs1232"
             },
             {
               "partNumber": "ADS1232",
@@ -224,25 +224,25 @@
               "comparison": "CS1231=><ADS1232:, suitable for direct replacement.",
               "reason": "Alternative from major supplier with established track record",
               "useCase": "Applications requiring dual-source qualification or specific TI support",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for ADC power supply",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "CS5180",
-              "link": "/chipsea/products/battery-chargers/cs5180.html",
+              "link": "/chipsea/products/battery-chargers/cs5180",
               "description": "Battery charger for portable scale applications",
               "category": "Battery Chargers"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -359,7 +359,7 @@
               "comparison": "CS1232=><CS1231:, suitable for direct replacement.",
               "reason": "Lower noise with I2C interface for less demanding speed requirements",
               "useCase": "Applications where lowest noise is priority and I2C is preferred",
-              "link": "/chipsea/products/adc-converters/cs1231.html"
+              "link": "/chipsea/products/adc-converters/cs1231"
             },
             {
               "partNumber": "Alternative Part",
@@ -370,25 +370,25 @@
               "comparison": "CS1232=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS1231",
-              "link": "/chipsea/products/adc-converters/cs1231.html",
+              "link": "/chipsea/products/adc-converters/cs1231",
               "description": "I2C version for mixed interface systems",
               "category": "ADC Converters"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -506,7 +506,7 @@
               "comparison": "CS1238 includes temperature sensor; CS1231 is lower cost without temperature monitoring",
               "reason": "Lower cost option if temperature sensor not needed",
               "useCase": "Applications not requiring temperature monitoring",
-              "link": "/chipsea/products/adc-converters/cs1231.html"
+              "link": "/chipsea/products/adc-converters/cs1231"
             },
             {
               "partNumber": "CS1232",
@@ -519,25 +519,25 @@
               "comparison": "CS1238 has I2C and temperature sensor; CS1232 has SPI and higher speed",
               "reason": "SPI interface option with faster data rates",
               "useCase": "Applications requiring SPI interface or higher sampling rates",
-              "link": "/chipsea/products/adc-converters/cs1232.html"
+              "link": "/chipsea/products/adc-converters/cs1232"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for ADC power supply",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "CS6001",
-              "link": "/chipsea/products/op-amps/cs6001.html",
+              "link": "/chipsea/products/operational-amplifiers/cs6001",
               "description": "Zero-drift op-amp for signal conditioning",
               "category": "Op-Amps"
             },
             {
               "partNumber": "CS5180",
-              "link": "/chipsea/products/battery-chargers/cs5180.html",
+              "link": "/chipsea/products/battery-chargers/cs5180",
               "description": "Battery charger for portable applications",
               "category": "Battery Chargers"
             }
@@ -655,7 +655,7 @@
               "comparison": "CS1237 is 20-bit lower cost; CS1231 is 24-bit higher performance",
               "reason": "Higher resolution for demanding applications",
               "useCase": "Applications requiring >1,000,000 noise-free counts",
-              "link": "/chipsea/products/adc-converters/cs1231.html"
+              "link": "/chipsea/products/adc-converters/cs1231"
             },
             {
               "partNumber": "CS1232",
@@ -668,25 +668,25 @@
               "comparison": "CS1237 is I2C cost-optimized; CS1232 is SPI high-speed",
               "reason": "SPI interface and higher speed for industrial applications",
               "useCase": "Industrial applications requiring SPI or fast sampling",
-              "link": "/chipsea/products/adc-converters/cs1232.html"
+              "link": "/chipsea/products/adc-converters/cs1232"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for power supply",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "CS5180",
-              "link": "/chipsea/products/battery-chargers/cs5180.html",
+              "link": "/chipsea/products/battery-chargers/cs5180",
               "description": "Battery charger for portable scales",
               "category": "Battery Chargers"
             },
             {
               "partNumber": "CS6001",
-              "link": "/chipsea/products/op-amps/cs6001.html",
+              "link": "/chipsea/products/operational-amplifiers/cs6001",
               "description": "Zero-drift op-amp for signal conditioning",
               "category": "Op-Amps"
             }
@@ -888,7 +888,7 @@
               "comparison": "CS5080=><CS5081:, suitable for direct replacement.",
               "reason": "Higher current capability for more demanding applications",
               "useCase": "Applications requiring 1.5-2A output current",
-              "link": "/chipsea/products/dc-dc-converters/cs5081.html"
+              "link": "/chipsea/products/dc-dc-converters/cs5081"
             },
             {
               "partNumber": "Alternative Part",
@@ -899,25 +899,25 @@
               "comparison": "CS5080=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5180",
-              "link": "/chipsea/products/battery-chargers/cs5180.html",
+              "link": "/chipsea/products/battery-chargers/cs5180",
               "description": "Li-ion battery charger for complete power solution",
               "category": "Battery Chargers"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -1030,7 +1030,7 @@
               "comparison": "CS5081=><CS5080:, suitable for direct replacement.",
               "reason": "Lower quiescent current for battery life optimization",
               "useCase": "Applications with 1A or less current requirement",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html"
+              "link": "/chipsea/products/dc-dc-converters/cs5080"
             },
             {
               "partNumber": "Alternative Part",
@@ -1041,25 +1041,25 @@
               "comparison": "CS5081=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Companion-1",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -1259,7 +1259,7 @@
               "comparison": "CS5180=><CS5280:, suitable for direct replacement.",
               "reason": "Higher current and efficiency for larger batteries",
               "useCase": "Applications requiring >500mA charge current",
-              "link": "/chipsea/products/battery-chargers/cs5280.html"
+              "link": "/chipsea/products/battery-chargers/cs5280"
             },
             {
               "partNumber": "Alternative Part",
@@ -1270,25 +1270,25 @@
               "comparison": "CS5180=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for system power",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -1403,7 +1403,7 @@
               "comparison": "CS5280=><CS5180:, suitable for direct replacement.",
               "reason": "Simpler, lower cost solution for small batteries",
               "useCase": "Applications with <500mA charge current requirements",
-              "link": "/chipsea/products/battery-chargers/cs5180.html"
+              "link": "/chipsea/products/battery-chargers/cs5180"
             },
             {
               "partNumber": "Alternative Part",
@@ -1414,25 +1414,25 @@
               "comparison": "CS5280=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for system power",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "CS1231",
-              "link": "/chipsea/products/adc-converters/cs1231.html",
+              "link": "/chipsea/products/adc-converters/cs1231",
               "description": "ADC for battery monitoring",
               "category": "ADC Converters"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -1628,7 +1628,7 @@
               "comparison": "CS6001=><CS6011:, suitable for direct replacement.",
               "reason": "Lower cost with wider bandwidth for less demanding DC applications",
               "useCase": "Applications where 50uV offset is acceptable and wider bandwidth is beneficial",
-              "link": "/chipsea/products/operational-amplifiers/cs6011.html"
+              "link": "/chipsea/products/operational-amplifiers/cs6011"
             },
             {
               "partNumber": "Alternative Part",
@@ -1639,25 +1639,25 @@
               "comparison": "CS6001=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS1231",
-              "link": "/chipsea/products/adc-converters/cs1231.html",
+              "link": "/chipsea/products/adc-converters/cs1231",
               "description": "24-bit ADC for precision measurement systems",
               "category": "ADC Converters"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }
@@ -1769,7 +1769,7 @@
               "comparison": "CS6011=><CS6001:, suitable for direct replacement.",
               "reason": "Better DC precision with zero-drift architecture",
               "useCase": "Applications requiring maximum DC precision",
-              "link": "/chipsea/products/operational-amplifiers/cs6001.html"
+              "link": "/chipsea/products/operational-amplifiers/cs6001"
             },
             {
               "partNumber": "Alternative Part",
@@ -1780,25 +1780,25 @@
               "comparison": "CS6011=><Alternative Part:, suitable for direct replacement.",
               "reason": "Alternative option for supply flexibility",
               "useCase": "General replacement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CS1231",
-              "link": "/chipsea/products/adc-converters/cs1231.html",
+              "link": "/chipsea/products/adc-converters/cs1231",
               "description": "24-bit ADC for precision measurement",
               "category": "ADC Converters"
             },
             {
               "partNumber": "CS5080",
-              "link": "/chipsea/products/dc-dc-converters/cs5080.html",
+              "link": "/chipsea/products/dc-dc-converters/cs5080",
               "description": "Buck converter for analog power supply",
               "category": "DC-DC Converters"
             },
             {
               "partNumber": "Companion-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component",
               "category": "Support Components"
             }

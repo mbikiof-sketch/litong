@@ -205,7 +205,7 @@
               },
               "reason": "Higher sampling rate for faster applications with slightly lower PGA range.",
               "useCase": "Use when higher speed is needed and maximum PGA gain is not required.",
-              "link": "/lingxingic/products/precision-adcs/lx2440.html"
+              "link": ""
             },
             {
               "partNumber": "LX1632",
@@ -224,25 +224,25 @@
               },
               "reason": "Higher speed SAR ADC for applications not requiring 24-bit precision.",
               "useCase": "Use for data acquisition and control loops requiring higher speed.",
-              "link": "/lingxingic/products/precision-adcs/lx1632.html"
+              "link": "/lingxingic/products/precision-adcs/lx1632"
             }
           ],
           "companionParts": [
             {
               "partNumber": "LX432",
-              "link": "/lingxingic/products/power-management/lx432.html",
+              "link": "",
               "description": "Precision voltage reference for ADC reference input",
               "category": "Voltage Reference"
             },
             {
               "partNumber": "LX8552",
-              "link": "/lingxingic/products/operational-amplifiers/lx8552.html",
+              "link": "",
               "description": "Precision op-amp for signal conditioning",
               "category": "Operational Amplifier"
             },
             {
               "partNumber": "STM32G474",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M4 MCU with SPI interface",
               "category": "Microcontroller"
             }
@@ -371,7 +371,7 @@
               },
               "reason": "Higher sampling rate for faster applications.",
               "useCase": "Use for higher speed data acquisition and control systems.",
-              "link": "/lingxingic/products/precision-adcs/lx1634.html"
+              "link": ""
             },
             {
               "partNumber": "LX2448",
@@ -390,25 +390,25 @@
               },
               "reason": "Higher resolution for precision measurement applications.",
               "useCase": "Use for high-precision sensor measurement, not high speed.",
-              "link": "/lingxingic/products/precision-adcs/lx2448.html"
+              "link": "/lingxingic/products/precision-adcs/lx2448"
             }
           ],
           "companionParts": [
             {
               "partNumber": "LX4040",
-              "link": "/lingxingic/products/power-management/lx4040.html",
+              "link": "",
               "description": "4.096V voltage reference for ADC",
               "category": "Voltage Reference"
             },
             {
               "partNumber": "LX8550",
-              "link": "/lingxingic/products/operational-amplifiers/lx8550.html",
+              "link": "",
               "description": "High-speed op-amp for input buffering",
               "category": "Operational Amplifier"
             },
             {
               "partNumber": "STM32F407",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M4 MCU with SPI",
               "category": "Microcontroller"
             }

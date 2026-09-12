@@ -196,7 +196,7 @@
               "comparison": "GT24C64A=><GT24C128A: Package Same package options, suitable for direct replacement",
               "reason": "Double the capacity for applications requiring more storage.",
               "useCase": "Use when 8KB is insufficient or for future expansion.",
-              "link": "/giantec/products/eeprom/gt24c128a.html"
+              "link": ""
             },
             {
               "partNumber": "GT25C64A",
@@ -210,25 +210,25 @@
               "comparison": "GT24C64A=><GT25C64A: Package Same package options, suitable for direct replacement",
               "reason": "SPI interface for higher speed data transfer.",
               "useCase": "Use when faster read/write speed is required.",
-              "link": "/giantec/products/eeprom/gt25c64a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GT25Q40A",
-              "link": "/giantec/products/nor-flash/gt25q40a.html",
+              "link": "",
               "description": "4Mbit SPI NOR Flash for code storage",
               "category": "NOR Flash"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 MCU with I2C interface",
               "category": "Microcontroller"
             },
             {
               "partNumber": "Pull-up Resistors",
-              "link": "#",
+              "link": "",
               "description": "4.7kΩ pull-up resistors for I2C bus",
               "category": "Passive Components"
             }
@@ -350,7 +350,7 @@
               "comparison": "GT25C128A=><GT24C128A: Package Same package options, suitable for direct replacement",
               "reason": "I2C interface for applications requiring fewer pins.",
               "useCase": "Use when pin count is more critical than speed.",
-              "link": "/giantec/products/eeprom/gt24c128a.html"
+              "link": ""
             },
             {
               "partNumber": "GT25C256A",
@@ -364,25 +364,25 @@
               "comparison": "GT25C128A=><GT25C256A: Package Same package options, suitable for direct replacement",
               "reason": "Double capacity for applications requiring more storage.",
               "useCase": "Use when 16KB is insufficient.",
-              "link": "/giantec/products/eeprom/gt25c256a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GT25Q80A",
-              "link": "/giantec/products/nor-flash/gt25q80a.html",
+              "link": "",
               "description": "8Mbit SPI NOR Flash for code storage",
               "category": "NOR Flash"
             },
             {
               "partNumber": "STM32F407",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M4 MCU with SPI interface",
               "category": "Microcontroller"
             },
             {
               "partNumber": "Level Shifter",
-              "link": "#",
+              "link": "",
               "description": "3.3V to 5V level shifter for mixed-voltage systems",
               "category": "Interface IC"
             }
@@ -604,7 +604,7 @@
               },
               "reason": "Double density for larger firmware or dual-image storage.",
               "useCase": "Use for larger RTOS or dual-image firmware systems.",
-              "link": "/giantec/products/nor-flash/gt25q32a.html"
+              "link": "/giantec/products/nor-flash/gt25q32a"
             },
             {
               "partNumber": "GT25Q80A",
@@ -623,25 +623,25 @@
               },
               "reason": "Lower density and cost for smaller applications.",
               "useCase": "Use for smaller firmware or cost-sensitive designs.",
-              "link": "/giantec/products/nor-flash/gt25q80a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GT24C64A",
-              "link": "/giantec/products/eeprom/gt24c64a.html",
+              "link": "/giantec/products/eeprom/gt24c64a",
               "description": "64Kbit I2C EEPROM for configuration storage",
               "category": "EEPROM"
             },
             {
               "partNumber": "STM32H743",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M7 MCU with QSPI interface",
               "category": "Microcontroller"
             },
             {
               "partNumber": "SPI Flash Programmer",
-              "link": "#",
+              "link": "",
               "description": "Universal programmer for Flash devices",
               "category": "Development Tools"
             }
@@ -768,7 +768,7 @@
               },
               "reason": "Lower density and cost for smaller applications.",
               "useCase": "Use for smaller RTOS or single-image systems.",
-              "link": "/giantec/products/nor-flash/gt25q16a.html"
+              "link": "/giantec/products/nor-flash/gt25q16a"
             },
             {
               "partNumber": "GT25Q64A",
@@ -787,25 +787,25 @@
               },
               "reason": "Double capacity for very large firmware or extensive logging.",
               "useCase": "Use for large Linux systems or data-intensive applications.",
-              "link": "/giantec/products/nor-flash/gt25q64a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GT24C128A",
-              "link": "/giantec/products/eeprom/gt24c128a.html",
+              "link": "",
               "description": "128Kbit SPI EEPROM for configuration storage",
               "category": "EEPROM"
             },
             {
               "partNumber": "i. MX RT1060",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M7 with FlexSPI for high-speed Flash access",
               "category": "Microcontroller"
             },
             {
               "partNumber": "J-Link Debugger",
-              "link": "#",
+              "link": "",
               "description": "Professional debugger for Flash programming",
               "category": "Development Tools"
             }

@@ -214,7 +214,7 @@
               "comparison": "SGM8551=><OPA333: Output current 17μA < 80μA (lower power), suitable for direct replacement",
               "reason": "TI OPA333 offers lower power but less bandwidth and higher offset",
               "useCase": "Ultra-low power precision applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6V01",
@@ -227,25 +227,25 @@
               "comparison": "SGM8551=><MCP6V01: Output current 110μA > 80μA (higher power), suitable for direct replacement",
               "reason": "Microchip offers similar performance with slightly higher power consumption",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8552",
-              "link": "#",
+              "link": "",
               "description": "Dual version of SGM8551",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2019",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "Low-noise LDO for clean power",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM6603",
-              "link": "#",
+              "link": "/sindachip/products/led-drivers/sgm6603",
               "description": "LED driver for indicators",
               "category": "LED Drivers"
             }
@@ -359,7 +359,7 @@
               "comparison": "SGM8522=><LM358: Output current 700μA > 400μA (higher power), suitable for direct replacement",
               "reason": "Legacy LM358 offers wider voltage range but inferior performance",
               "useCase": "Applications requiring >5.5V supply voltage",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6002",
@@ -372,25 +372,25 @@
               "comparison": "SGM8522=><MCP6002: Output current 100μA < 400μA (lower power), suitable for direct replacement",
               "reason": "MCP6002 offers lower power but less bandwidth and worse offset",
               "useCase": "Ultra-low power applications where bandwidth is not critical",
-              "link": "#"
+              "link": "/microchip/products/analog-products/mcp6002"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8551",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for accuracy",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM8521",
-              "link": "#",
+              "link": "",
               "description": "Single version of SGM8522",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO regulator for analog supply",
               "category": "Voltage Regulators"
             }
@@ -504,19 +504,19 @@
               "comparison": "SGM8532=><LM324: Output current 700μA > 350μA (higher power), suitable for direct replacement",
               "reason": "Legacy LM324 offers wider voltage range but inferior performance",
               "useCase": "Applications requiring >5.5V supply voltage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8522",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Dual version for flexibility",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2019",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "LDO for analog power supply",
               "category": "Voltage Regulators"
             }
@@ -590,19 +590,19 @@
               "comparison": "SGM8561=><OPA355: Output current 100MHz > 50MHz (higher bandwidth), suitable for direct replacement",
               "reason": "OPA355 offers higher bandwidth but at higher cost",
               "useCase": "Applications requiring >50MHz bandwidth",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8551",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for DC accuracy",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2019",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "Low-noise LDO for clean power",
               "category": "Voltage Regulators"
             }
@@ -772,7 +772,7 @@
               "comparison": "SGM2019=><TPS7A49: Output current 150mA < 300mA (lower), suitable for direct replacement",
               "reason": "TI TPS7A49 offers lower noise but less current and higher cost",
               "useCase": "Ultra-low noise applications where current <150mA",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AP2112",
@@ -785,25 +785,25 @@
               "comparison": "SGM2019=><AP2112: Output current 300mA = 300mA (same), suitable for direct replacement",
               "reason": "AP2112 offers similar current but worse noise and PSRR performance",
               "useCase": "Cost-sensitive applications where noise requirements are less critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "Higher current LDO with 500mA",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM8551",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp powered by LDO",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for lithium systems",
               "category": "Power Management ICs"
             }
@@ -917,7 +917,7 @@
               "comparison": "SGM2028=><MIC5209: Output current 500mA = 500mA (same), suitable for direct replacement",
               "reason": "MIC5209 offers similar performance but higher quiescent current",
               "useCase": "Applications where slightly higher Iq is acceptable",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "RT9193",
@@ -930,25 +930,25 @@
               "comparison": "SGM2028=><RT9193: Output current 300mA < 500mA (lower), suitable for direct replacement",
               "reason": "RT9193 offers less current and higher Iq than SGM2028",
               "useCase": "Lower current applications not requiring 500mA",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM2019",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "Lower noise LDO for analog circuits",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for lithium systems",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8522",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Dual op-amp for signal processing",
               "category": "Operational Amplifiers"
             }
@@ -1062,19 +1062,19 @@
               "comparison": "SGM2033=><TPS7A91: Output current 500mA > 200mA (higher), suitable for direct replacement",
               "reason": "TPS7A91 offers lower noise but at significantly higher cost",
               "useCase": "Applications requiring lowest possible noise regardless of cost",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8551",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for signal chain",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM6603",
-              "link": "#",
+              "link": "/sindachip/products/led-drivers/sgm6603",
               "description": "Buck converter for efficient step-down",
               "category": "LED Drivers"
             }
@@ -1148,19 +1148,19 @@
               "comparison": "SGM2040=><TPS7A16: Output current 1.2μA > 1μA (higher power), suitable for direct replacement",
               "reason": "TPS7A16 offers similar performance with slightly higher Iq",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8532",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8532",
               "description": "Quad op-amp for sensor interface",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM6601",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Load switch for power management",
               "category": "Power Management ICs"
             }
@@ -1342,7 +1342,7 @@
               "comparison": "SGM6603=><TPS92512: Output current 1.5A > 1A (higher), Frequency 2.1MHz > 1.2MHz (higher), Efficiency 97% > 95% (better), suitable for direct replacement",
               "reason": "TI offers higher current and efficiency but at significantly higher cost",
               "useCase": "Applications requiring >1A LED current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MP3302",
@@ -1355,25 +1355,25 @@
               "comparison": "SGM6603=><MP3302: Output current 1.3A > 1A (higher), Frequency 1.3MHz ≈ 1.2MHz (similar), Efficiency 93% < 95% (lower), suitable for direct replacement",
               "reason": "MPS offers slightly higher current but slightly lower efficiency",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6604",
-              "link": "#",
+              "link": "/sindachip/products/led-drivers/sgm6604",
               "description": "Boost LED driver for higher voltage LEDs",
               "category": "LED Drivers"
             },
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for Li-ion powered systems",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO for auxiliary power in lighting system",
               "category": "Voltage Regulators"
             }
@@ -1494,7 +1494,7 @@
               "comparison": "SGM6604=><LT3755: Output current 3A > 2A (higher), Efficiency 95% > 93% (better), suitable for direct replacement",
               "reason": "ADI offers higher voltage and current capability but at much higher cost",
               "useCase": "Applications requiring >40V output or >2A switch current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MP24833",
@@ -1507,25 +1507,25 @@
               "comparison": "SGM6604=><MP24833: Output current 3A > 2A (higher), Efficiency 92% < 93% (slightly lower), suitable for direct replacement",
               "reason": "MPS offers higher voltage and current but slightly lower efficiency",
               "useCase": "Applications requiring higher output voltage than SGM6604",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6603",
-              "link": "#",
+              "link": "/sindachip/products/led-drivers/sgm6603",
               "description": "Buck LED driver for lower voltage LEDs",
               "category": "LED Drivers"
             },
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for portable lighting",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8522",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Op-amp for dimming control circuits",
               "category": "Operational Amplifiers"
             }
@@ -1645,19 +1645,19 @@
               "comparison": "SGM6605=><TPS63001: Output current 1.5A = 1.5A (same), Efficiency 96% > 92% (better), suitable for direct replacement",
               "reason": "TI offers slightly higher efficiency but lower voltage capability",
               "useCase": "Applications not requiring >5.5V output",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6603",
-              "link": "#",
+              "link": "/sindachip/products/led-drivers/sgm6603",
               "description": "Buck LED driver for cost-sensitive designs",
               "category": "LED Drivers"
             },
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for portable systems",
               "category": "Power Management ICs"
             }
@@ -1737,19 +1737,19 @@
               "comparison": "SGM6606=><LP5036: Output current 30mA < 500mA (lower), suitable for direct replacement",
               "reason": "TI offers more channels but much lower current per channel",
               "useCase": "Applications requiring many low-current channels",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8532",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8532",
               "description": "Quad op-amp for analog control",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO for microcontroller power",
               "category": "Voltage Regulators"
             }
@@ -1933,7 +1933,7 @@
               "comparison": "SGM4056=><MCP73831: Output current 500mA < 1A (lower), suitable for direct replacement",
               "reason": "Microchip offers better accuracy but lower current capability",
               "useCase": "Applications requiring <500mA charge current with tight voltage accuracy",
-              "link": "#"
+              "link": "/microchip/products/power-management/mcp73831"
             },
             {
               "partNumber": "TP4056",
@@ -1946,25 +1946,25 @@
               "comparison": "SGM4056=><TP4056: Output current 1A = 1A (same), Package SOP-8 larger than SOT-23-5, suitable for direct replacement",
               "reason": "Generic TP4056 offers similar specs but larger package options",
               "useCase": "Cost-sensitive applications where package size is not critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Load switch for power management",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO for system power after charging",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM8522",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Op-amp for battery monitoring circuits",
               "category": "Operational Amplifiers"
             }
@@ -2086,7 +2086,7 @@
               "comparison": "SGM6601=><TPS22919: Output current 3A > 2A (higher), suitable for direct replacement",
               "reason": "TI offers lower resistance and higher current but at higher cost",
               "useCase": "Applications requiring <50mΩ resistance or >2A current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FPF2195",
@@ -2099,25 +2099,25 @@
               "comparison": "SGM6601=><FPF2195: Output current 2A = 2A (same), suitable for direct replacement",
               "reason": "ON Semi offers similar current but higher resistance and quiescent current",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM4056",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for powered systems",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO for regulated power rails",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM8551",
-              "link": "#",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for current sensing",
               "category": "Operational Amplifiers"
             }
@@ -2239,19 +2239,19 @@
               "comparison": "SGM4151=><BQ24195: Output current 2.5A > 2A (higher), suitable for direct replacement",
               "reason": "TI offers higher current and wider input range but at higher cost",
               "useCase": "Applications requiring >2A charge current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM2028",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2028",
               "description": "LDO for system power rails",
               "category": "Voltage Regulators"
             },
             {
               "partNumber": "SGM6601",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Load switch for power management",
               "category": "Power Management ICs"
             }
@@ -2333,19 +2333,19 @@
               "comparison": "SGM6602=><TPS22975: Output current 2A = 2A (same), suitable for direct replacement",
               "reason": "TI offers similar dual-channel functionality at higher cost",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM4151",
-              "link": "#",
+              "link": "/sindachip/products/power-management-ics/sgm4151",
               "description": "Battery charger for system power",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2040",
-              "link": "#",
+              "link": "/sindachip/products/voltage-regulators/sgm2040",
               "description": "Ultra-low Iq LDO for always-on circuits",
               "category": "Voltage Regulators"
             }

@@ -172,20 +172,20 @@
               "comparison": "SWA50-1200T=><SWA75-1200T: Output current 75A > 50A (+50%), Package 62mm = 62mm (same), suitable for direct replacement",
               "reason": "Higher current for larger power ratings",
               "useCase": "Higher power motor drives",
-              "link": "/fusemi/products/igbt-modules/swa75-1200t.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SWM100-1200T",
               "description": "100A version for higher power",
-              "link": "/fusemi/products/igbt-modules/swm100-1200t.html",
+              "link": "",
               "category": "IGBT Modules"
             },
             {
               "partNumber": "IGBT Driver IC",
               "description": "High-speed IGBT gate driver",
-              "link": "/fusemi/products/accessories/igbt-driver.html",
+              "link": "",
               "category": "Accessories"
             }
           ],
@@ -257,20 +257,20 @@
               "comparison": "SWH150-1200H=><SWH200-1200H: Output current 200A > 150A (+33%), Package 62mm Enhanced = 62mm Enhanced (same), suitable for direct replacement",
               "reason": "Higher current for larger power inverters",
               "useCase": "EV inverters and solar inverters >50kW",
-              "link": "/fusemi/products/igbt-modules/swh200-1200h.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SWH100-1200H",
               "description": "100A version for medium power",
-              "link": "/fusemi/products/igbt-modules/swh100-1200h.html",
+              "link": "",
               "category": "IGBT Modules"
             },
             {
               "partNumber": "Automotive IGBT Driver",
               "description": "AEC-Q100 qualified IGBT gate driver",
-              "link": "/fusemi/products/accessories/automotive-igbt-driver.html",
+              "link": "",
               "category": "Accessories"
             }
           ],
@@ -667,20 +667,20 @@
               "comparison": "SMN40N30=><SMN60N30: Output current 60A > 40A (+50%), suitable for direct replacement",
               "reason": "Higher current and lower RDS(on)",
               "useCase": "Higher power or higher efficiency applications",
-              "link": "/fusemi/products/mosfets/smn60n30.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SMN30N30",
               "description": "30A version for cost-sensitive applications",
-              "link": "/fusemi/products/mosfets/smn30n30.html",
+              "link": "",
               "category": "MOSFETs"
             },
             {
               "partNumber": "MOSFET Driver IC",
               "description": "High-speed MOSFET gate driver",
-              "link": "/fusemi/products/accessories/mosfet-driver.html",
+              "link": "",
               "category": "Accessories"
             }
           ],
@@ -1208,20 +1208,20 @@
               "comparison": "SC30N1200=><SC50N1200: Output current 50A > 30A (+67%), suitable for direct replacement",
               "reason": "Higher current and lower RDS(on)",
               "useCase": "Higher power 800V applications",
-              "link": "/fusemi/products/sic-devices/sc50n1200.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC20N1200",
               "description": "20A version for lower power applications",
-              "link": "/fusemi/products/sic-devices/sc20n1200.html",
+              "link": "",
               "category": "SiC Devices"
             },
             {
               "partNumber": "SiC MOSFET Driver",
               "description": "Optimized gate driver for SiC MOSFETs",
-              "link": "/fusemi/products/accessories/sic-driver.html",
+              "link": "",
               "category": "Accessories"
             }
           ],
@@ -1296,7 +1296,8 @@
                 "RDS(on)": "60mΩ"
               },
               "priceDifference": "-15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fusemi/products/sic-devices/fus1m0120k6"
             }
           ],
           "companionParts": [
@@ -1376,7 +1377,8 @@
                 "RDS(on)": "30mΩ"
               },
               "priceDifference": "+25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fusemi/products/sic-devices/fus1m0120k3"
             }
           ],
           "companionParts": [
@@ -1507,20 +1509,20 @@
               "comparison": "IPM25-600S=><IPM40-600S: Output current 40A > 25A (+60%), Package Mini DIP = Mini DIP (same), suitable for direct replacement",
               "reason": "Higher current for larger motors",
               "useCase": "Higher power motor control applications",
-              "link": "/fusemi/products/power-modules/ipm40-600s.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "IPM15-600S",
               "description": "15A version for lower power",
-              "link": "/fusemi/products/power-modules/ipm15-600s.html",
+              "link": "",
               "category": "Power Modules"
             },
             {
               "partNumber": "Motor Control MCU",
               "description": "32-bit MCU for motor control",
-              "link": "/fusemi/products/accessories/motor-mcu.html",
+              "link": "",
               "category": "Accessories"
             }
           ],

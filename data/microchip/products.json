@@ -213,7 +213,7 @@
               },
               "reason": "Newer generation with enhanced ADC computation and security features",
               "useCase": "Upgrade path for designs requiring improved security or ADC performance",
-              "link": "/microchip/products/pic18f46k40.html"
+              "link": ""
             },
             {
               "partNumber": "ATmega644PA",
@@ -233,31 +233,31 @@
               },
               "reason": "AVR architecture alternative with similar memory, popular in maker community",
               "useCase": "Alternative for teams familiar with AVR/Arduino ecosystem",
-              "link": "/microchip/products/atmega644pa.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MCP1703",
-              "link": "/microchip/products/mcp1703.html",
+              "link": "/microchip/products/power-management/mcp1703",
               "description": "Low-quiescent current LDO regulator, ideal for battery-powered designs",
               "category": "Power Management"
             },
             {
               "partNumber": "MCP6002",
-              "link": "/microchip/products/mcp6002.html",
+              "link": "/microchip/products/analog-products/mcp6002",
               "description": "General-purpose op-amp for signal conditioning applications",
               "category": "Analog"
             },
             {
               "partNumber": "MCP2515",
-              "link": "/microchip/products/mcp2515.html",
+              "link": "/microchip/products/connectivity/mcp2515",
               "description": "Standalone CAN controller for automotive/industrial networks",
               "category": "Interface"
             },
             {
               "partNumber": "PIC18F26K22",
-              "link": "/microchip/products/pic18f26k22.html",
+              "link": "",
               "description": "Smaller pin-count variant (28-pin) for cost-sensitive designs",
               "category": "Microcontrollers"
             }
@@ -382,7 +382,7 @@
               },
               "reason": "Higher performance Cortex-M4F with DSP and FPU for compute-intensive applications",
               "useCase": "Upgrade path for applications requiring DSP, floating-point, or higher processing power",
-              "link": "/microchip/products/atsamd51j19a.html"
+              "link": ""
             },
             {
               "partNumber": "STM32L072",
@@ -402,31 +402,31 @@
               },
               "reason": "Alternative ultra-low power Cortex-M0+ from STM32 ecosystem",
               "useCase": "Alternative for teams with existing STM32 codebase or tools",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ATWINC3400",
-              "link": "/microchip/products/atwinc3400.html",
+              "link": "/microchip/products/connectivity/atwinc3400",
               "description": "WiFi and Bluetooth 4.0 module for IoT connectivity",
               "category": "Wireless"
             },
             {
               "partNumber": "MCP73831",
-              "link": "/microchip/products/mcp73831.html",
+              "link": "/microchip/products/power-management/mcp73831",
               "description": "Single-cell Li-ion/Li-Polymer charge management controller",
               "category": "Power Management"
             },
             {
               "partNumber": "MCP9808",
-              "link": "/microchip/products/mcp9808.html",
+              "link": "",
               "description": "High-accuracy I2C temperature sensor",
               "category": "Sensors"
             },
             {
               "partNumber": "ATSAMD21E18A",
-              "link": "/microchip/products/atsamd21e18a.html",
+              "link": "",
               "description": "32-pin variant for space-constrained designs",
               "category": "Microcontrollers"
             }
@@ -551,19 +551,19 @@
               },
               "reason": "More memory and higher performance for complex applications",
               "useCase": "Applications requiring more resources than ATmega328P",
-              "link": "/microchip/products/pic18f46k22.html"
+              "link": "/microchip/products/microcontrollers/pic18f46k22"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MCP1700",
-              "link": "/microchip/products/mcp1700.html",
+              "link": "/microchip/products/power-management/mcp1700",
               "description": "Low-dropout voltage regulator for 5V to 3.3V conversion",
               "category": "Power Management"
             },
             {
               "partNumber": "MCP9808",
-              "link": "/microchip/products/mcp9808.html",
+              "link": "",
               "description": "High-accuracy I2C temperature sensor",
               "category": "Sensors"
             }
@@ -658,19 +658,19 @@
               },
               "reason": "Significantly more resources and performance for modern applications",
               "useCase": "New designs requiring more memory and performance",
-              "link": "/microchip/products/pic18f46k22.html"
+              "link": "/microchip/products/microcontrollers/pic18f46k22"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MCP1703",
-              "link": "/microchip/products/mcp1703.html",
+              "link": "/microchip/products/power-management/mcp1703",
               "description": "Low-quiescent current LDO regulator",
               "category": "Power Management"
             },
             {
               "partNumber": "MCP6002",
-              "link": "/microchip/products/mcp6002.html",
+              "link": "/microchip/products/analog-products/mcp6002",
               "description": "General-purpose op-amp for signal conditioning",
               "category": "Analog"
             }

@@ -147,7 +147,7 @@
             {
               "partNumber": "MP1584",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/dcdc/mp1584/",
+              "link": "",
               "reason": "Industry-standard 3A buck converter with similar wide input range",
               "useCase": "Alternative for designs requiring higher current capability",
               "specifications": {
@@ -166,7 +166,7 @@
             {
               "partNumber": "LM2596",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/lm2596/",
+              "link": "",
               "reason": "Popular 3A buck converter with proven reliability",
               "useCase": "Alternative for applications requiring established reliability",
               "specifications": {
@@ -188,19 +188,19 @@
               "partNumber": "TC4056",
               "category": "Battery Charger",
               "description": "1A Li-ion battery charger for battery-powered applications",
-              "link": "/brands/superchip/products/battery/tc4056/"
+              "link": ""
             },
             {
               "partNumber": "TC1509",
               "category": "DC-DC",
               "description": "3A version from same family for higher current needs",
-              "link": "/brands/superchip/products/dcdc/tc1509/"
+              "link": "/superchip/products/dcdc/tc1509"
             },
             {
               "partNumber": "TC6206",
               "category": "LDO",
               "description": "Low-dropout regulator for post-regulation or standby power",
-              "link": "/brands/superchip/products/ldo/tc6206/"
+              "link": ""
             }
           ],
           "faqs": [
@@ -307,7 +307,7 @@
             {
               "partNumber": "TPS54331",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/tps54331/",
+              "link": "/ti/products/power-management/tps54331",
               "reason": "Industry-standard 3A buck converter with wide input range",
               "useCase": "Alternative for designs requiring TI compatibility",
               "specifications": {
@@ -326,7 +326,7 @@
             {
               "partNumber": "MP2307",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/dcdc/mp2307/",
+              "link": "",
               "reason": "Popular 3A converter with internal switches",
               "useCase": "Alternative for cost-sensitive high-current designs",
               "specifications": {
@@ -348,19 +348,19 @@
               "partNumber": "TC1508",
               "category": "DC-DC",
               "description": "2A version for lower current requirements",
-              "link": "/brands/superchip/products/dcdc/tc1508/"
+              "link": "/superchip/products/dcdc/tc1508"
             },
             {
               "partNumber": "TC4056",
               "category": "Battery Charger",
               "description": "Battery charger for battery-powered systems",
-              "link": "/brands/superchip/products/battery/tc4056/"
+              "link": ""
             },
             {
               "partNumber": "TC118S",
               "category": "Motor Driver",
               "description": "DC motor driver for system cooling fans",
-              "link": "/brands/superchip/products/motor/tc118s/"
+              "link": ""
             }
           ],
           "faqs": [

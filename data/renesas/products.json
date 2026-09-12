@@ -211,7 +211,7 @@
               "comparison": "R7FA6M5BH3CFC=><STM32H563ZI: Frequency 250MHz > 200MHz, suitable for direct replacement",
               "reason": "Higher clock speed with similar features and security",
               "useCase": "Applications requiring maximum processing performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "R7FA6M4AF3CFB",
@@ -226,7 +226,7 @@
               "comparison": "R7FA6M5BH3CFC=><R7FA6M4AF3CFB: Frequency 200MHz = 200MHz, Package LQFP-100 < LQFP-144, suitable for direct replacement",
               "reason": "Lower cost with reduced memory for cost-sensitive applications",
               "useCase": "Cost-optimized designs with moderate memory requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -234,25 +234,25 @@
               "partNumber": "ISL80102",
               "category": "LDO",
               "description": "Low-noise LDO for MCU core supply",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL28022",
               "category": "Current Sensor",
               "description": "High-side current sensor for power monitoring",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL81401",
               "category": "DC-DC Converter",
               "description": "Buck-boost converter for wide input range",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL29035",
               "category": "Light Sensor",
               "description": "Ambient light sensor for display control",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -337,7 +337,7 @@
               "comparison": "R5F52317ADFM=><STM32F303RE: Frequency 72MHz > 54MHz, suitable for direct replacement",
               "reason": "Larger memory and higher clock speed with similar FPU capabilities",
               "useCase": "Applications requiring more memory and Arm ecosystem",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "R5F52315ADFM",
@@ -352,7 +352,7 @@
               "comparison": "R5F52317ADFM=><R5F52315ADFM: Frequency 54MHz = 54MHz, Package LQFP-64 = LQFP-64, suitable for direct replacement",
               "reason": "Lower cost with reduced memory for simpler applications",
               "useCase": "Cost-sensitive designs with moderate processing requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -360,25 +360,25 @@
               "partNumber": "ISL80103",
               "category": "LDO",
               "description": "Low-dropout regulator for MCU power supply",
-              "link": "#"
+              "link": "/renesas/products/analog-power/isl80103"
             },
             {
               "partNumber": "HIP2103",
               "category": "Gate Driver",
               "description": "Half-bridge driver for motor control applications",
-              "link": "#"
+              "link": "/renesas/products/analog-power/hip2103"
             },
             {
               "partNumber": "ISL28133",
               "category": "Op-Amp",
               "description": "Precision op-amp for signal conditioning",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL21009",
               "category": "Voltage Reference",
               "description": "Precision voltage reference for ADC",
-              "link": "#"
+              "link": "/renesas/products/analog-power/isl21009"
             }
           ],
           "faqs": [
@@ -569,7 +569,7 @@
               "comparison": "ISL81843=><LM5146: Input voltage 5.5-100V > 4.5-80V, Output current Configurable = Configurable, Frequency 100kHz-1MHz = 100kHz-1MHz, Package VQFN-40 = QFN-40, suitable for direct replacement",
               "reason": "Higher voltage rating but lacks digital PMBus interface",
               "useCase": "Applications requiring >80V input without digital control",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL81840",
@@ -583,7 +583,7 @@
               "comparison": "ISL81843=><ISL81840: Input voltage 4.5-80V = 4.5-80V, Output current Configurable = Configurable, Frequency 100kHz-1MHz = 100kHz-1MHz, Package QFN-32 < QFN-40, suitable for direct replacement",
               "reason": "Lower cost without PMBus interface in smaller package",
               "useCase": "Cost-sensitive applications not requiring digital control",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -591,25 +591,25 @@
               "partNumber": "ISL6617A",
               "category": "Gate Driver",
               "description": "High-side/low-side MOSFET driver for buck converter",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL28022",
               "category": "Current Sensor",
               "description": "Digital power monitor for telemetry",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ISL21009",
               "category": "Voltage Reference",
               "description": "Precision reference for voltage feedback",
-              "link": "#"
+              "link": "/renesas/products/analog-power/isl21009"
             },
             {
               "partNumber": "HIP2103",
               "category": "Gate Driver",
               "description": "Half-bridge driver for synchronous rectification",
-              "link": "#"
+              "link": "/renesas/products/analog-power/hip2103"
             }
           ],
           "faqs": [
@@ -698,7 +698,7 @@
               "comparison": "HIP2103=><IR2104: Output current 130mA < 2A, Frequency 500kHz < 1MHz, Package SOIC-8 = SOIC-8, suitable for direct replacement",
               "reason": "Higher voltage rating but lower drive current for high-voltage applications",
               "useCase": "High-voltage motor drives requiring >60V operation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "UCC27201",
@@ -712,7 +712,7 @@
               "comparison": "HIP2103=><UCC27201: Output current 3A/6A > 2A, Frequency 1MHz = 1MHz, Package SOIC-8 = SOIC-8, suitable for direct replacement",
               "reason": "Higher drive current and voltage rating for demanding applications",
               "useCase": "High-power applications requiring maximum gate drive",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -720,25 +720,25 @@
               "partNumber": "ISL81843",
               "category": "Buck Controller",
               "description": "Buck controller for half-bridge power stage",
-              "link": "#"
+              "link": "/renesas/products/analog-power/isl81843"
             },
             {
               "partNumber": "R7FA6M5BH3CFC",
               "category": "MCU",
               "description": "MCU for motor control algorithm implementation",
-              "link": "#"
+              "link": "/renesas/products/microcontrollers/r7fa6m5bh3cfc"
             },
             {
               "partNumber": "ISL21009",
               "category": "Voltage Reference",
               "description": "Reference for current sensing",
-              "link": "#"
+              "link": "/renesas/products/analog-power/isl21009"
             },
             {
               "partNumber": "ISL28022",
               "category": "Current Sensor",
               "description": "Current monitoring for motor control",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

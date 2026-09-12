@@ -161,7 +161,7 @@
               "comparison": "NCEP60T20=><NCEP80T20: Output current 80A > 60A (+33%), Package TO-220/TO-263 = TO-220/TO-263 (same), suitable for direct replacement",
               "reason": "Higher current rating with lower Rds(on)",
               "useCase": "Use when higher motor power is needed",
-              "link": "/nce/products/mosfets/ncep80t20.html"
+              "link": ""
             },
             {
               "partNumber": "IRFB7430",
@@ -175,24 +175,24 @@
               "comparison": "NCEP60T20=><IRFB7430: Output current 60A = 60A (same), Package TO-220 = TO-220 (same), suitable for direct replacement",
               "reason": "Lower Rds(on) for higher efficiency",
               "useCase": "Use for premium efficiency requirements",
-              "link": "/infineon/products/mosfet/irfb7430.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NCEP60T20P",
               "description": "P-channel complementary MOSFET",
-              "link": "/nce/products/mosfets/ncep60t20p.html"
+              "link": ""
             },
             {
               "partNumber": "NCE3010",
               "description": "Gate driver IC",
-              "link": "/nce/products/mosfets/nce3010.html"
+              "link": ""
             },
             {
               "partNumber": "NCE2010",
               "description": "Current sense resistor",
-              "link": "/nce/products/mosfets/nce2010.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -308,7 +308,7 @@
               "comparison": "NCE65T540=><NCE65T560: Output current 28A > 20A (+40%), Package TO-220/TO-220F = TO-220/TO-220F (same), suitable for direct replacement",
               "reason": "Higher current with lower Rds(on)",
               "useCase": "Use for higher power supplies",
-              "link": "/nce/products/mosfets/nce65t560.html"
+              "link": ""
             },
             {
               "partNumber": "IPW60R190C6",
@@ -322,24 +322,24 @@
               "comparison": "NCE65T540=><IPW60R190C6: Output current 20A = 20A (same), Package TO-220 = TO-220 (same), suitable for direct replacement",
               "reason": "Industry standard reference device",
               "useCase": "Use for comparison and benchmarking",
-              "link": "/infineon/products/mosfet/ipw60r190c6.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NCE3012",
               "description": "High-voltage gate driver",
-              "link": "/nce/products/mosfets/nce3012.html"
+              "link": ""
             },
             {
               "partNumber": "NCE2012",
               "description": "Current sense resistor",
-              "link": "/nce/products/mosfets/nce2012.html"
+              "link": ""
             },
             {
               "partNumber": "NCE1012",
               "description": "TVS protection diode",
-              "link": "/nce/products/mosfets/nce1012.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -740,9 +740,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -826,9 +838,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -993,17 +1017,17 @@
             {
               "partNumber": "NCEMCU10",
               "description": "Motor control MCU",
-              "link": "/nce/products/power-modules/ncemcu10.html"
+              "link": ""
             },
             {
               "partNumber": "NCEISO10",
               "description": "Isolation IC",
-              "link": "/nce/products/power-modules/nceiso10.html"
+              "link": ""
             },
             {
               "partNumber": "NCESNS10",
               "description": "Current sensor",
-              "link": "/nce/products/power-modules/ncesns10.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1091,9 +1115,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1504,7 +1540,7 @@
               "comparison": "NCE650G10=><NCE650G15: Package DFN8x8 = DFN8x8 (same), suitable for direct replacement",
               "reason": "Lower Qg for highest frequency applications",
               "useCase": "Use for >1MHz switching applications",
-              "link": "/nce/products/gan-devices/nce650g15.html"
+              "link": ""
             },
             {
               "partNumber": "GS-065-011-2-L",
@@ -1518,24 +1554,24 @@
               "comparison": "NCE650G10=><GS-065-011-2-L: Package DFN8x8 = DFN8x8 (same), suitable for direct replacement",
               "reason": "Industry standard GaN device for comparison",
               "useCase": "Use for dual-source requirements",
-              "link": "/gan-systems/products/gan-devices/gs-065-011-2-l.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NCEGDRV10",
               "description": "GaN gate driver",
-              "link": "/nce/products/gan-devices/ncegdrv10.html"
+              "link": ""
             },
             {
               "partNumber": "NCEGISO10",
               "description": "Isolated GaN driver",
-              "link": "/nce/products/gan-devices/ncegiso10.html"
+              "link": ""
             },
             {
               "partNumber": "NCEGBOOT10",
               "description": "Bootstrap diode for GaN",
-              "link": "/nce/products/gan-devices/ncegboot10.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1622,9 +1658,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {

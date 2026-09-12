@@ -228,7 +228,7 @@
               },
               "reason": "Pin-compatible alternative with identical specifications at lower cost",
               "useCase": "Cost-sensitive industrial applications requiring STM32 compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "GD32F103C8T6",
@@ -249,31 +249,31 @@
               },
               "reason": "Higher frequency alternative for performance-critical applications",
               "useCase": "Applications requiring higher processing speed with same memory",
-              "link": "#"
+              "link": "/gigadevice/products/mcu/gd32f103c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "XHSC-Buck-5V3A",
-              "link": "/xhsc/products/power-management/xhsc-buck-5v3a.html",
+              "link": "/xhsc/products/power-management/xhsc-buck-5v3a",
               "description": "5V 3A buck converter for MCU power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "XHSC-CAN-Transceiver",
-              "link": "/xhsc/products/interface-ics/xhsc-can-transceiver.html",
+              "link": "",
               "description": "CAN bus transceiver for industrial communication",
               "category": "Interface ICs"
             },
             {
               "partNumber": "XHSC-Motor-Driver-2A",
-              "link": "/xhsc/products/motor-control/xhsc-motor-driver-2a.html",
+              "link": "",
               "description": "2A motor driver for DC and stepper motors",
               "category": "Motor Control"
             },
             {
               "partNumber": "XHSC-LDO-3V3",
-              "link": "/xhsc/products/power-management/xhsc-ldo-3v3.html",
+              "link": "",
               "description": "3.3V LDO regulator for analog circuits",
               "category": "Power Management"
             }
@@ -414,7 +414,7 @@
               },
               "reason": "XHSC offers double the memory at lower cost",
               "useCase": "Applications requiring more memory than STM32F030K6",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Nuvoton M0518LD2AE",
@@ -435,25 +435,25 @@
               },
               "reason": "Similar specifications with slightly higher clock speed",
               "useCase": "Applications requiring marginal performance improvement",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XHSC-LDO-3V3-500mA",
-              "link": "/xhsc/products/power-management/xhsc-ldo-3v3-500ma.html",
+              "link": "",
               "description": "3.3V 500mA LDO regulator for MCU power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "XHSC-LED-Driver-1A",
-              "link": "/xhsc/products/power-management/xhsc-led-driver-1a.html",
+              "link": "",
               "description": "1A LED driver for lighting applications",
               "category": "Power Management"
             },
             {
               "partNumber": "XHSC-Temp-Sensor-I2C",
-              "link": "/xhsc/products/interface-ics/xhsc-temp-sensor-i2c.html",
+              "link": "",
               "description": "I2C temperature sensor for system monitoring",
               "category": "Interface ICs"
             }
@@ -885,7 +885,7 @@
               },
               "reason": "Cost-effective alternative with similar performance",
               "useCase": "Cost-sensitive industrial applications requiring 3A buck converter",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "MP1584",
@@ -905,25 +905,25 @@
               },
               "reason": "Alternative with wider input range and slightly higher efficiency",
               "useCase": "Applications requiring input voltage above 18V",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XHSC-LDO-3V3-500mA",
-              "link": "/xhsc/products/power-management/xhsc-ldo-3v3-500ma.html",
+              "link": "",
               "description": "3.3V LDO for post-regulation of sensitive analog circuits",
               "category": "Power Management"
             },
             {
               "partNumber": "XHSC-M3F103C8T6",
-              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6.html",
+              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6",
               "description": "MCU for digital control and monitoring",
               "category": "MCU"
             },
             {
               "partNumber": "XHSC-Inductor-10uH",
-              "link": "#",
+              "link": "",
               "description": "10μH power inductor for buck converter",
               "category": "Passive Components"
             }
@@ -1173,7 +1173,7 @@
               },
               "reason": "Cost-effective alternative with similar gate drive capability",
               "useCase": "Cost-sensitive BLDC applications not requiring 60V operation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STSPIN32F0",
@@ -1191,25 +1191,25 @@
               },
               "reason": "External MCU option provides more design flexibility",
               "useCase": "Applications requiring specific MCU features or processing power",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XHSC-M3F103C8T6",
-              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6.html",
+              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6",
               "description": "MCU for motor control algorithm implementation",
               "category": "MCU"
             },
             {
               "partNumber": "XHSC-MOSFET-40V",
-              "link": "#",
+              "link": "",
               "description": "40V N-channel MOSFETs for power stage",
               "category": "Discrete"
             },
             {
               "partNumber": "XHSC-Current-Sensor",
-              "link": "#",
+              "link": "",
               "description": "Hall effect current sensor for phase current measurement",
               "category": "Sensors"
             }
@@ -1458,7 +1458,7 @@
               },
               "reason": "Higher node count capability at lower cost",
               "useCase": "Large network applications requiring more than 32 nodes",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SN75176",
@@ -1476,25 +1476,25 @@
               },
               "reason": "Better ESD protection and higher node count",
               "useCase": "Industrial environments requiring enhanced protection",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XHSC-M3F103C8T6",
-              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6.html",
+              "link": "/xhsc/products/mcu/xhsc-m3f103c8t6",
               "description": "MCU with UART for protocol handling",
               "category": "MCU"
             },
             {
               "partNumber": "XHSC-Common-Mode-Choke",
-              "link": "#",
+              "link": "",
               "description": "Common mode choke for EMI suppression",
               "category": "Passive Components"
             },
             {
               "partNumber": "XHSC-TVSDiode",
-              "link": "#",
+              "link": "",
               "description": "TVS diode for additional surge protection",
               "category": "Protection"
             }

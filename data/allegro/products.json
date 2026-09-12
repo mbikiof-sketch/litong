@@ -218,7 +218,7 @@
               },
               "reason": "Higher accuracy and isolation for demanding applications",
               "useCase": "Upgrade path for designs requiring better accuracy or higher isolation",
-              "link": "/allegro/products/current-sensors/acs720.html"
+              "link": "/allegro/products/current-sensors/acs720"
             },
             {
               "partNumber": "ACS37800",
@@ -238,25 +238,25 @@
               },
               "reason": "Digital interface with integrated diagnostics for advanced applications",
               "useCase": "Applications requiring digital interface and advanced fault detection",
-              "link": "/allegro/products/current-sensors/acs37800.html"
+              "link": "/allegro/products/current-sensors/acs37800"
             }
           ],
           "companionParts": [
             {
               "partNumber": "A4950",
-              "link": "/allegro/products/motor-drivers/a4950.html",
+              "link": "/allegro/products/motor-drivers/a4950",
               "description": "Full-bridge motor driver for current-controlled motors",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for load monitoring applications",
               "category": "LED Drivers"
             },
             {
               "partNumber": "A1324",
-              "link": "/allegro/products/magnetic-position-sensors/a1324.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1324",
               "description": "Linear Hall sensor for position feedback",
               "category": "Magnetic Sensors"
             }
@@ -386,7 +386,7 @@
               },
               "reason": "Lower current range with standard SOIC package for easier PCB mounting",
               "useCase": "Applications up to 100A requiring standard PCB mounting",
-              "link": "/allegro/products/acs37010.html"
+              "link": ""
             },
             {
               "partNumber": "ACS720",
@@ -409,25 +409,25 @@
               },
               "reason": "Lower cost and easier mounting for moderate current applications",
               "useCase": "Cost-sensitive applications up to 40A not requiring high bandwidth",
-              "link": "/allegro/products/current-sensors/acs720.html"
+              "link": "/allegro/products/current-sensors/acs720"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "Automotive BLDC motor driver for EV pumps",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A80803",
-              "link": "/allegro/products/a80803.html",
+              "link": "",
               "description": "Matrix LED driver for EV lighting",
               "category": "LED Drivers"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for motor position feedback",
               "category": "Magnetic Sensors"
             }
@@ -556,7 +556,7 @@
               },
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Cost-sensitive applications where ±1.5% accuracy is acceptable",
-              "link": "/allegro/products/current-sensors/acs712.html"
+              "link": "/allegro/products/current-sensors/acs712"
             },
             {
               "partNumber": "ACS37610",
@@ -579,25 +579,25 @@
               },
               "reason": "Higher current range and bandwidth for demanding applications",
               "useCase": "High-current applications requiring 1MHz bandwidth",
-              "link": "/allegro/products/current-sensors/acs37610.html"
+              "link": "/allegro/products/current-sensors/acs37610"
             }
           ],
           "companionParts": [
             {
               "partNumber": "A4950",
-              "link": "/allegro/products/motor-drivers/a4950.html",
+              "link": "/allegro/products/motor-drivers/a4950",
               "description": "Full-bridge motor driver for current-controlled motors",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for motor position feedback",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for industrial lighting applications",
               "category": "LED Drivers"
             }
@@ -727,7 +727,7 @@
               },
               "reason": "Higher current range with analog output for simpler interface",
               "useCase": "Applications requiring > 90A or preferring analog output",
-              "link": "/allegro/products/current-sensors/acs37610.html"
+              "link": "/allegro/products/current-sensors/acs37610"
             },
             {
               "partNumber": "ACS720",
@@ -750,25 +750,25 @@
               },
               "reason": "Lower cost option for current-only sensing applications",
               "useCase": "Cost-sensitive applications not requiring voltage measurement",
-              "link": "/allegro/products/current-sensors/acs720.html"
+              "link": "/allegro/products/current-sensors/acs720"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "BLDC motor driver for power conversion systems",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A6265",
-              "link": "/allegro/products/led-drivers/a6265.html",
+              "link": "/allegro/products/led-drivers/a6265",
               "description": "LED driver for power indicator applications",
               "category": "LED Drivers"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for motor position feedback",
               "category": "Magnetic Sensors"
             }
@@ -986,7 +986,7 @@
               },
               "reason": "Higher power capability with external MOSFETs",
               "useCase": "Applications requiring > 200W or custom MOSFET selection",
-              "link": "/allegro/products/motor-drivers/a4931.html"
+              "link": "/allegro/products/motor-drivers/a4931"
             },
             {
               "partNumber": "DRV8301",
@@ -1007,25 +1007,25 @@
               },
               "reason": "More flexible for custom power requirements",
               "useCase": "Applications requiring custom MOSFET selection",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS720",
-              "link": "/allegro/products/current-sensors/acs720.html",
+              "link": "/allegro/products/current-sensors/acs720",
               "description": "Current sensor for motor current monitoring and protection",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for position feedback in servo applications",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A4950",
-              "link": "/allegro/products/motor-drivers/a4950.html",
+              "link": "/allegro/products/motor-drivers/a4950",
               "description": "Brushed DC motor driver for auxiliary motors",
               "category": "Motor Drivers"
             }
@@ -1154,7 +1154,7 @@
               },
               "reason": "Higher current and voltage capability with finer microstepping",
               "useCase": "Applications requiring > 2A or 1/32 microstepping",
-              "link": "/allegro/products/motor-drivers/drv8825.html"
+              "link": ""
             },
             {
               "partNumber": "TMC2209",
@@ -1175,25 +1175,25 @@
               },
               "reason": "Higher current and silent operation",
               "useCase": "High-precision applications requiring quiet operation",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for closed-loop stepper control",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A1324",
-              "link": "/allegro/products/magnetic-position-sensors/a1324.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1324",
               "description": "Linear position sensor for position feedback",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for status indication",
               "category": "LED Drivers"
             }
@@ -1322,7 +1322,7 @@
               },
               "reason": "Upgrade to BLDC for higher efficiency and performance",
               "useCase": "Applications requiring BLDC motor control with higher efficiency",
-              "link": "/allegro/products/motor-drivers/amt49105.html"
+              "link": "/allegro/products/motor-drivers/amt49105"
             },
             {
               "partNumber": "A4988",
@@ -1342,25 +1342,25 @@
               },
               "reason": "Use for stepper motor applications requiring precise positioning",
               "useCase": "Applications requiring precise position control with stepper motors",
-              "link": "/allegro/products/motor-drivers/a4988.html"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS712",
-              "link": "/allegro/products/current-sensors/acs712.html",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Current sensor for motor current monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A1324",
-              "link": "/allegro/products/magnetic-position-sensors/a1324.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1324",
               "description": "Linear position sensor for feedback",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for status indicators",
               "category": "LED Drivers"
             }
@@ -1488,7 +1488,7 @@
               },
               "reason": "Integrated solution for lower power applications",
               "useCase": "Applications up to 500W where integrated driver is sufficient",
-              "link": "/allegro/products/motor-drivers/amt49105.html"
+              "link": "/allegro/products/motor-drivers/amt49105"
             },
             {
               "partNumber": "A4988",
@@ -1506,25 +1506,25 @@
               },
               "reason": "Use for stepper motor applications",
               "useCase": "Applications requiring precise stepper motor control",
-              "link": "/allegro/products/motor-drivers/a4988.html"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS37610",
-              "link": "/allegro/products/current-sensors/acs37610.html",
+              "link": "/allegro/products/current-sensors/acs37610",
               "description": "High-current sensor for phase current monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for rotor position feedback",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A6265",
-              "link": "/allegro/products/led-drivers/a6265.html",
+              "link": "/allegro/products/led-drivers/a6265",
               "description": "LED driver for status indication",
               "category": "LED Drivers"
             }
@@ -1737,7 +1737,7 @@
               },
               "reason": "Higher resolution and accuracy with functional safety support",
               "useCase": "Safety-critical applications requiring ISO 26262 compliance",
-              "link": "/allegro/products/magnetic-position-sensors/aas33001.html"
+              "link": "/allegro/products/magnetic-position-sensors/aas33001"
             },
             {
               "partNumber": "AS5048A",
@@ -1756,25 +1756,25 @@
               },
               "reason": "Higher resolution and accuracy for precision applications",
               "useCase": "Precision servo control and robotics",
-              "link": "#"
+              "link": "/allegro/products/magnetic-position-sensors/as5048a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "BLDC motor driver for servo control applications",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A4988",
-              "link": "/allegro/products/motor-drivers/a4988.html",
+              "link": "/allegro/products/motor-drivers/a4988",
               "description": "Stepper driver for precise positioning",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "ACS712",
-              "link": "/allegro/products/current-sensors/acs712.html",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Current sensor for torque control",
               "category": "Current Sensors"
             }
@@ -1901,7 +1901,7 @@
               },
               "reason": "For rotary position measurement instead of linear",
               "useCase": "Applications requiring angular position feedback",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html"
+              "link": "/allegro/products/magnetic-position-sensors/a1335"
             },
             {
               "partNumber": "MLX90371",
@@ -1920,25 +1920,25 @@
               },
               "reason": "Longer measurement range and higher resolution",
               "useCase": "Applications requiring > 10mm stroke",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "BLDC motor driver for throttle control",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "ACS720",
-              "link": "/allegro/products/current-sensors/acs720.html",
+              "link": "/allegro/products/current-sensors/acs720",
               "description": "Current sensor for motor current monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for indicator lights",
               "category": "LED Drivers"
             }
@@ -2065,7 +2065,7 @@
               },
               "reason": "Lower cost option for non-safety applications",
               "useCase": "General automotive applications not requiring ISO 26262 compliance",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html"
+              "link": "/allegro/products/magnetic-position-sensors/a1335"
             },
             {
               "partNumber": "AS5048A",
@@ -2084,25 +2084,25 @@
               },
               "reason": "Alternative with SPI interface for digital systems",
               "useCase": "Applications preferring SPI interface over analog/SENT",
-              "link": "#"
+              "link": "/allegro/products/magnetic-position-sensors/as5048a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS720",
-              "link": "/allegro/products/current-sensors/acs720.html",
+              "link": "/allegro/products/current-sensors/acs720",
               "description": "Current sensor for torque monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "Motor driver for actuator control",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for status indication",
               "category": "LED Drivers"
             }
@@ -2228,7 +2228,7 @@
               },
               "reason": "Lower cost for less demanding accuracy requirements",
               "useCase": "Applications where ±1° accuracy is sufficient",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html"
+              "link": "/allegro/products/magnetic-position-sensors/a1335"
             },
             {
               "partNumber": "AAS33001",
@@ -2248,25 +2248,25 @@
               },
               "reason": "For automotive safety applications requiring ISO 26262",
               "useCase": "Safety-critical automotive applications requiring ASIL compliance",
-              "link": "/allegro/products/magnetic-position-sensors/aas33001.html"
+              "link": "/allegro/products/magnetic-position-sensors/aas33001"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS712",
-              "link": "/allegro/products/current-sensors/acs712.html",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Current sensor for motor monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A4988",
-              "link": "/allegro/products/motor-drivers/a4988.html",
+              "link": "/allegro/products/motor-drivers/a4988",
               "description": "Stepper driver for precision motion",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "A6261",
-              "link": "/allegro/products/led-drivers/a6261.html",
+              "link": "/allegro/products/led-drivers/a6261",
               "description": "LED driver for indicators",
               "category": "LED Drivers"
             }
@@ -2486,7 +2486,7 @@
               },
               "reason": "Higher current capability and efficiency for power applications",
               "useCase": "Applications requiring > 350mA or higher efficiency",
-              "link": "/allegro/products/led-drivers/a6265.html"
+              "link": "/allegro/products/led-drivers/a6265"
             },
             {
               "partNumber": "TPS92691",
@@ -2506,25 +2506,25 @@
               },
               "reason": "Higher efficiency and current capability",
               "useCase": "High-power LED applications requiring efficiency",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS712",
-              "link": "/allegro/products/current-sensors/acs712.html",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Current sensor for LED current monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for dimming control",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A4988",
-              "link": "/allegro/products/motor-drivers/a4988.html",
+              "link": "/allegro/products/motor-drivers/a4988",
               "description": "Stepper driver for headlight leveling",
               "category": "Motor Drivers"
             }
@@ -2654,7 +2654,7 @@
               },
               "reason": "Simpler design for low-power applications",
               "useCase": "Low-power lighting where efficiency is not critical",
-              "link": "/allegro/products/led-drivers/a6261.html"
+              "link": "/allegro/products/led-drivers/a6261"
             },
             {
               "partNumber": "TPS92692",
@@ -2674,25 +2674,25 @@
               },
               "reason": "Higher current capability per channel",
               "useCase": "Applications requiring > 1.5A per channel",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS712",
-              "link": "/allegro/products/current-sensors/acs712.html",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Current sensor for LED current monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "A1335",
-              "link": "/allegro/products/magnetic-position-sensors/a1335.html",
+              "link": "/allegro/products/magnetic-position-sensors/a1335",
               "description": "Angle sensor for adaptive headlight control",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A4988",
-              "link": "/allegro/products/motor-drivers/a4988.html",
+              "link": "/allegro/products/motor-drivers/a4988",
               "description": "Stepper driver for headlight leveling",
               "category": "Motor Drivers"
             }
@@ -2818,7 +2818,7 @@
               },
               "reason": "More channels for general lighting applications",
               "useCase": "Applications requiring 4 channels or not requiring ASIL-B",
-              "link": "/allegro/products/led-drivers/a6265.html"
+              "link": "/allegro/products/led-drivers/a6265"
             },
             {
               "partNumber": "TPS92691",
@@ -2835,25 +2835,25 @@
               },
               "reason": "Higher current and flexible topology",
               "useCase": "Applications requiring > 3A or boost topology",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS720",
-              "link": "/allegro/products/current-sensors/acs720.html",
+              "link": "/allegro/products/current-sensors/acs720",
               "description": "Current sensor for LED monitoring",
               "category": "Current Sensors"
             },
             {
               "partNumber": "AAS33001",
-              "link": "/allegro/products/magnetic-position-sensors/aas33001.html",
+              "link": "/allegro/products/magnetic-position-sensors/aas33001",
               "description": "Angle sensor for ADB steering",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "AMT49105",
-              "link": "/allegro/products/motor-drivers/amt49105.html",
+              "link": "/allegro/products/motor-drivers/amt49105",
               "description": "Motor driver for headlight leveling",
               "category": "Motor Drivers"
             }
@@ -2981,7 +2981,7 @@
               },
               "reason": "Simpler solution for basic low/high beam without matrix",
               "useCase": "Applications not requiring matrix beam control",
-              "link": "/allegro/products/led-drivers/a6268.html"
+              "link": "/allegro/products/led-drivers/a6268"
             },
             {
               "partNumber": "TPS92692",
@@ -2999,25 +2999,25 @@
               },
               "reason": "Higher current for non-matrix applications",
               "useCase": "High-current LED applications not requiring matrix control",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ACS37800",
-              "link": "/allegro/products/current-sensors/acs37800.html",
+              "link": "/allegro/products/current-sensors/acs37800",
               "description": "Power monitor for system diagnostics",
               "category": "Current Sensors"
             },
             {
               "partNumber": "AAS33001",
-              "link": "/allegro/products/magnetic-position-sensors/aas33001.html",
+              "link": "/allegro/products/magnetic-position-sensors/aas33001",
               "description": "Steering angle for ADB control",
               "category": "Magnetic Sensors"
             },
             {
               "partNumber": "A4931",
-              "link": "/allegro/products/motor-drivers/a4931.html",
+              "link": "/allegro/products/motor-drivers/a4931",
               "description": "Motor driver for headlight adjustment",
               "category": "Motor Drivers"
             }

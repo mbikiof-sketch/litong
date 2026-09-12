@@ -134,14 +134,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCT3017AL",
-              "link": "/rohm/products/sct3017al.html",
+              "link": "/rohm/products/sic-mosfets/sct3017al",
               "comparison": "17mΩ lower Rds(on) for higher efficiency",
               "reason": "Lower conduction losses for high-current applications",
               "useCase": "Use for 150A+ applications requiring maximum efficiency"
             },
             {
               "partNumber": "SCT3030AL",
-              "link": "/rohm/products/sct3030al.html",
+              "link": "",
               "comparison": "30mΩ higher Rds(on) lower cost",
               "reason": "Cost-effective for medium current applications",
               "useCase": "Use for 60-80A applications where cost is priority"
@@ -150,19 +150,19 @@
           "companionParts": [
             {
               "partNumber": "SCH2080KE",
-              "link": "/rohm/products/sch2080ke.html",
+              "link": "/rohm/products/sic-schottky-diodes/sch2080ke",
               "description": "650V SiC SBD for freewheeling diode",
               "category": "Diodes"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for SiC MOSFETs",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF2R00",
-              "link": "#",
+              "link": "",
               "description": "2Ω gate resistor for switching control",
               "category": "Passives"
             }
@@ -279,14 +279,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCT3040KL",
-              "link": "/rohm/products/sct3040kl.html",
+              "link": "/rohm/products/sic-mosfets/sct3040kl",
               "comparison": "40mΩ lower Rds(on) for higher efficiency",
               "reason": "Lower conduction losses for high-current traction",
               "useCase": "Use for high-power traction inverters >150kW"
             },
             {
               "partNumber": "SCT3060KL",
-              "link": "/rohm/products/sct3060kl.html",
+              "link": "",
               "comparison": "60mΩ mid-range option",
               "reason": "Balance of performance and cost",
               "useCase": "Use for 100-150kW traction inverters"
@@ -295,19 +295,19 @@
           "companionParts": [
             {
               "partNumber": "SCT2120AF",
-              "link": "/rohm/products/sct2120af.html",
+              "link": "/rohm/products/sic-schottky-diodes/sct2120af",
               "description": "1200V SiC SBD for boost PFC",
               "category": "Diodes"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for 1200V SiC",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF3R00",
-              "link": "#",
+              "link": "",
               "description": "3Ω gate resistor",
               "category": "Passives"
             }
@@ -425,14 +425,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCT3060KL",
-              "link": "/rohm/products/sct3060kl.html",
+              "link": "",
               "comparison": "60mΩ higher Rds(on) lower cost",
               "reason": "Cost-effective for medium current applications",
               "useCase": "Use for 30-50A applications where cost is priority"
             },
             {
               "partNumber": "SCT3080KL",
-              "link": "/rohm/products/sct3080kl.html",
+              "link": "/rohm/products/sic-mosfets/sct3080kl",
               "comparison": "80mΩ higher Rds(on) lower cost",
               "reason": "Lower cost for less demanding applications",
               "useCase": "Use for standard 800V OBC and DC-DC applications"
@@ -441,19 +441,19 @@
           "companionParts": [
             {
               "partNumber": "SCT2120AF",
-              "link": "/rohm/products/sct2120af.html",
+              "link": "/rohm/products/sic-schottky-diodes/sct2120af",
               "description": "1200V SiC SBD for boost PFC",
               "category": "Diodes"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for 1200V SiC",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF2R00",
-              "link": "#",
+              "link": "",
               "description": "2Ω gate resistor",
               "category": "Passives"
             }
@@ -571,14 +571,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCT3022AL",
-              "link": "/rohm/products/sct3022al.html",
+              "link": "/rohm/products/sic-mosfets/sct3022al",
               "comparison": "22mΩ higher Rds(on) lower cost",
               "reason": "Cost-effective for standard applications",
               "useCase": "Use for applications where 22mΩ is sufficient"
             },
             {
               "partNumber": "SCT3030AL",
-              "link": "/rohm/products/sct3030al.html",
+              "link": "",
               "comparison": "30mΩ higher Rds(on) much lower cost",
               "reason": "Lower cost for medium current applications",
               "useCase": "Use for 60-80A applications where cost is priority"
@@ -587,19 +587,19 @@
           "companionParts": [
             {
               "partNumber": "SCH2080KE",
-              "link": "/rohm/products/sch2080ke.html",
+              "link": "/rohm/products/sic-schottky-diodes/sch2080ke",
               "description": "650V SiC SBD for freewheeling diode",
               "category": "Diodes"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for SiC MOSFETs",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF1R00",
-              "link": "#",
+              "link": "",
               "description": "1Ω gate resistor for fast switching",
               "category": "Passives"
             }
@@ -744,9 +744,21 @@
             }
           ],
           "companionParts": [
-            "COMP-001",
-            "COMP-002",
-            "COMP-003"
+            {
+              "partNumber": "COMP-001",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-002",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-003",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "rohm-si001",
           "specifications": {
@@ -786,9 +798,21 @@
             }
           ],
           "companionParts": [
-            "COMP-004",
-            "COMP-005",
-            "COMP-006"
+            {
+              "partNumber": "COMP-004",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-005",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-006",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "rohm-si002",
           "specifications": {
@@ -843,14 +867,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCH2080KA",
-              "link": "/rohm/products/sch2080ka.html",
+              "link": "",
               "comparison": "TO-220AC package option",
               "reason": "Alternative package for different mounting",
               "useCase": "Use when TO-220AC package is preferred"
             },
             {
               "partNumber": "SCT2120AF",
-              "link": "/rohm/products/sct2120af.html",
+              "link": "/rohm/products/sic-schottky-diodes/sct2120af",
               "comparison": "1200V for higher voltage applications",
               "reason": "Higher voltage rating for 800V systems",
               "useCase": "Use for 800V EV and high-voltage industrial"
@@ -859,19 +883,19 @@
           "companionParts": [
             {
               "partNumber": "SCT3022AL",
-              "link": "/rohm/products/sct3022al.html",
+              "link": "/rohm/products/sic-mosfets/sct3022al",
               "description": "650V SiC MOSFET for PFC switch",
               "category": "MOSFETs"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF1R00",
-              "link": "#",
+              "link": "",
               "description": "Gate resistor",
               "category": "Passives"
             }
@@ -991,14 +1015,14 @@
           "alternativeParts": [
             {
               "partNumber": "SCH2080KE",
-              "link": "/rohm/products/sch2080ke.html",
+              "link": "/rohm/products/sic-schottky-diodes/sch2080ke",
               "comparison": "650V for 400V systems",
               "reason": "Lower voltage and cost for 400V applications",
               "useCase": "Use for 400V EV and standard industrial"
             },
             {
               "partNumber": "SCT2120AF-H",
-              "link": "/rohm/products/sct2120af-h.html",
+              "link": "",
               "comparison": "Higher current 30A version",
               "reason": "More current for high-power applications",
               "useCase": "Use for high-power OBC and industrial"
@@ -1007,19 +1031,19 @@
           "companionParts": [
             {
               "partNumber": "SCT3080KL",
-              "link": "/rohm/products/sct3080kl.html",
+              "link": "/rohm/products/sic-mosfets/sct3080kl",
               "description": "1200V SiC MOSFET for PFC switch",
               "category": "MOSFETs"
             },
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for 1200V",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF2R00",
-              "link": "#",
+              "link": "",
               "description": "Gate resistor",
               "category": "Passives"
             }
@@ -1178,14 +1202,14 @@
           "alternativeParts": [
             {
               "partNumber": "RGTH80TK65D",
-              "link": "/rohm/products/rgth80tk65d.html",
+              "link": "/rohm/products/igbts/rgth80tk65d",
               "comparison": "80A higher current version",
               "reason": "More current for higher power applications",
               "useCase": "Use for 40-50kW motor drives"
             },
             {
               "partNumber": "SCT3022AL",
-              "link": "/rohm/products/sct3022al.html",
+              "link": "/rohm/products/sic-mosfets/sct3022al",
               "comparison": "SiC MOSFET higher efficiency",
               "reason": "Higher efficiency and switching frequency",
               "useCase": "Use when efficiency >97% required"
@@ -1194,19 +1218,19 @@
           "companionParts": [
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for IGBTs",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF5R00",
-              "link": "#",
+              "link": "",
               "description": "5Ω gate resistor",
               "category": "Passives"
             },
             {
               "partNumber": "SCH2080KE",
-              "link": "/rohm/products/sch2080ke.html",
+              "link": "/rohm/products/sic-schottky-diodes/sch2080ke",
               "description": "SiC SBD for PFC stage",
               "category": "Diodes"
             }
@@ -1325,14 +1349,14 @@
           "alternativeParts": [
             {
               "partNumber": "RGTH60TK65D",
-              "link": "/rohm/products/rgth60tk65d.html",
+              "link": "/rohm/products/igbts/rgth60tk65d",
               "comparison": "60A lower current lower cost",
               "reason": "Lower cost for medium power applications",
               "useCase": "Use for 20-30kW applications"
             },
             {
               "partNumber": "SCT3040KL",
-              "link": "/rohm/products/sct3040kl.html",
+              "link": "/rohm/products/sic-mosfets/sct3040kl",
               "comparison": "SiC MOSFET higher efficiency",
               "reason": "Higher efficiency and switching frequency",
               "useCase": "Use when efficiency >98% required"
@@ -1341,19 +1365,19 @@
           "companionParts": [
             {
               "partNumber": "BM6104FV-CE2",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for IGBTs",
               "category": "Drivers"
             },
             {
               "partNumber": "LTR18EZPF5R00",
-              "link": "#",
+              "link": "",
               "description": "5Ω gate resistor",
               "category": "Passives"
             },
             {
               "partNumber": "SCH2080KE",
-              "link": "/rohm/products/sch2080ke.html",
+              "link": "/rohm/products/sic-schottky-diodes/sch2080ke",
               "description": "SiC SBD for PFC stage",
               "category": "Diodes"
             }
@@ -1496,9 +1520,21 @@
             }
           ],
           "companionParts": [
-            "COMP-001",
-            "COMP-002",
-            "COMP-003"
+            {
+              "partNumber": "COMP-001",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-002",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-003",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "rohm-po001",
           "specifications": {
@@ -1537,9 +1573,21 @@
             }
           ],
           "companionParts": [
-            "COMP-004",
-            "COMP-005",
-            "COMP-006"
+            {
+              "partNumber": "COMP-004",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-005",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-006",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "rohm-po002",
           "specifications": {

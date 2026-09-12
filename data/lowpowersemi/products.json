@@ -100,7 +100,7 @@
             {
               "partNumber": "TPS70933",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/ldo/tps70933/",
+              "link": "",
               "reason": "Ultra-low IQ LDO with similar performance characteristics",
               "useCase": "Alternative for TI-based designs requiring 1μA quiescent current",
               "specifications": {
@@ -121,7 +121,7 @@
             {
               "partNumber": "XC6206P332MR",
               "brand": "Torex",
-              "link": "/brands/torex/products/ldo/xc6206p332mr/",
+              "link": "",
               "reason": "Popular low-cost LDO for consumer electronics",
               "useCase": "Alternative for cost-sensitive consumer applications",
               "specifications": {
@@ -145,19 +145,19 @@
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for noise-sensitive analog circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for higher efficiency at heavy loads",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP4054",
               "category": "Battery Charger",
               "description": "Li-ion battery charger for complete power solution",
-              "link": "/brands/lowpowersemi/products/battery-charger/lp4054/"
+              "link": "/lowpowersemi/products/battery-charger/lp4054"
             }
           ],
           "faqs": [
@@ -292,7 +292,7 @@
             {
               "partNumber": "TPS7A91",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/ldo/tps7a91/",
+              "link": "",
               "reason": "High PSRR LDO with adjustable output voltage",
               "useCase": "Alternative for TI-based designs requiring adjustable output",
               "specifications": {
@@ -313,7 +313,7 @@
             {
               "partNumber": "ADP1741",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/ldo/adp1741/",
+              "link": "/adi/products/power-management/adp1741",
               "reason": "High PSRR LDO with excellent noise performance",
               "useCase": "Alternative for high-end analog applications",
               "specifications": {
@@ -337,19 +337,19 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for always-on standby power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP4054",
               "category": "Battery Charger",
               "description": "Li-ion charger for battery-powered systems",
-              "link": "/brands/lowpowersemi/products/battery-charger/lp4054/"
+              "link": "/lowpowersemi/products/battery-charger/lp4054"
             }
           ],
           "faqs": [
@@ -485,7 +485,7 @@
             {
               "partNumber": "LD39130S18",
               "brand": "STMicroelectronics",
-              "link": "/brands/st/products/ldo/ld39130s18/",
+              "link": "",
               "reason": "Low noise LDO for digital applications",
               "useCase": "Alternative for ST-based designs",
               "specifications": {
@@ -509,13 +509,13 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for I/O power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             }
           ],
           "faqs": [
@@ -523,7 +523,12 @@
               "question": "What is the dropout voltage of LP3988-18?",
               "answer": "The LP3988-18 has a dropout voltage of 180mV at the maximum 150mA output current. This low dropout allows the regulator to maintain regulation even when the input voltage is close to the output voltage, extending usable battery life.",
               "decisionGuide": "180mV dropout suitable for battery applications; verify input voltage margin.",
-              "keywords": ["dropout voltage", "180mV", "low dropout", "LDO"]
+              "keywords": [
+                "dropout voltage",
+                "180mV",
+                "low dropout",
+                "LDO"
+              ]
             }
           ]
         },
@@ -580,7 +585,7 @@
             {
               "partNumber": "AMS1117-ADJ",
               "brand": "Advanced Monolithic Systems",
-              "link": "/brands/ams/products/ldo/ams1117-adj/",
+              "link": "",
               "reason": "Popular adjustable LDO with 1A capability",
               "useCase": "Alternative for higher current requirements",
               "specifications": {
@@ -604,13 +609,13 @@
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main power conversion",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5240",
               "category": "Load Switch",
               "description": "Load switch for power distribution",
-              "link": "/brands/lowpowersemi/products/load-switch/lp5240/"
+              "link": "/lowpowersemi/products/load-switch/lp5240"
             }
           ],
           "faqs": [
@@ -618,7 +623,12 @@
               "question": "How do I set the output voltage of LP3982-25?",
               "answer": "The output voltage is set using two external resistors forming a voltage divider. The formula is VOUT = 1.2V × (1 + R1/R2). For example, for 3.3V output with R2 = 10kΩ, R1 = 17.5kΩ. Use 1% tolerance resistors for good accuracy.",
               "decisionGuide": "Use resistor divider formula VOUT = 1.2V × (1 + R1/R2); 1% resistors recommended.",
-              "keywords": ["output voltage", "adjustable", "resistor divider", "feedback"]
+              "keywords": [
+                "output voltage",
+                "adjustable",
+                "resistor divider",
+                "feedback"
+              ]
             }
           ]
         }
@@ -768,7 +778,7 @@
             {
               "partNumber": "TPS62203",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dc-dc/tps62203/",
+              "link": "",
               "reason": "High-efficiency buck converter from TI",
               "useCase": "Alternative for TI-based designs requiring proven buck converter",
               "specifications": {
@@ -788,7 +798,7 @@
             {
               "partNumber": "MP2143",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/dc-dc/mp2143/",
+              "link": "",
               "reason": "High-current synchronous buck converter",
               "useCase": "Alternative for higher current requirements",
               "specifications": {
@@ -811,19 +821,19 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for standby power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP4054",
               "category": "Battery Charger",
               "description": "Li-ion charger for battery management",
-              "link": "/brands/lowpowersemi/products/battery-charger/lp4054/"
+              "link": "/lowpowersemi/products/battery-charger/lp4054"
             },
             {
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for analog circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             }
           ],
           "faqs": [
@@ -958,7 +968,7 @@
             {
               "partNumber": "TPS61022",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dc-dc/tps61022/",
+              "link": "",
               "reason": "High-efficiency boost converter from TI",
               "useCase": "Alternative for TI-based designs requiring proven boost converter",
               "specifications": {
@@ -978,7 +988,7 @@
             {
               "partNumber": "MT3608",
               "brand": "Aerosemi",
-              "link": "/brands/aerosemi/products/dc-dc/mt3608/",
+              "link": "",
               "reason": "Low-cost boost converter for consumer applications",
               "useCase": "Alternative for cost-sensitive consumer designs",
               "specifications": {
@@ -1001,19 +1011,19 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for regulated output",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP4054",
               "category": "Battery Charger",
               "description": "Li-ion charger for battery management",
-              "link": "/brands/lowpowersemi/products/battery-charger/lp4054/"
+              "link": "/lowpowersemi/products/battery-charger/lp4054"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for step-down applications",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             }
           ],
           "faqs": [
@@ -1150,7 +1160,7 @@
             {
               "partNumber": "TPS63001",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dc-dc/tps63001/",
+              "link": "",
               "reason": "Buck-boost converter from TI",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -1173,13 +1183,13 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for standby power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP4054",
               "category": "Battery Charger",
               "description": "Li-ion charger for battery management",
-              "link": "/brands/lowpowersemi/products/battery-charger/lp4054/"
+              "link": "/lowpowersemi/products/battery-charger/lp4054"
             }
           ],
           "faqs": [
@@ -1187,7 +1197,12 @@
               "question": "When does LP6260 switch between buck and boost modes?",
               "answer": "The LP6260 automatically switches between buck and boost modes based on the input voltage. When VIN > VOUT + margin, it operates in buck mode. When VIN < VOUT - margin, it operates in boost mode. The transition is seamless with no output disturbance.",
               "decisionGuide": "Automatic mode switching; seamless transition with no output disturbance.",
-              "keywords": ["buck-boost", "mode transition", "automatic", "seamless"]
+              "keywords": [
+                "buck-boost",
+                "mode transition",
+                "automatic",
+                "seamless"
+              ]
             }
           ]
         },
@@ -1243,7 +1258,7 @@
             {
               "partNumber": "LM2596",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dc-dc/lm2596/",
+              "link": "",
               "reason": "Popular high voltage buck converter",
               "useCase": "Alternative for proven designs",
               "specifications": {
@@ -1266,13 +1281,13 @@
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for noise-sensitive circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             },
             {
               "partNumber": "LP5240",
               "category": "Load Switch",
               "description": "Load switch for power distribution",
-              "link": "/brands/lowpowersemi/products/load-switch/lp5240/"
+              "link": "/lowpowersemi/products/load-switch/lp5240"
             }
           ],
           "faqs": [
@@ -1280,7 +1295,12 @@
               "question": "What is the maximum input voltage for LP6210?",
               "answer": "The LP6210 can accept input voltages up to 40V. This wide input range makes it suitable for 12V and 24V industrial systems, as well as automotive applications where load dump transients can reach 40V.",
               "decisionGuide": "40V maximum input suitable for 12V/24V industrial and automotive applications.",
-              "keywords": ["input voltage", "40V", "high voltage", "industrial"]
+              "keywords": [
+                "input voltage",
+                "40V",
+                "high voltage",
+                "industrial"
+              ]
             }
           ]
         }
@@ -1437,7 +1457,7 @@
             {
               "partNumber": "MCP73831",
               "brand": "Microchip",
-              "link": "/brands/microchip/products/battery-charger/mcp73831/",
+              "link": "/microchip/products/power-management/mcp73831",
               "reason": "Popular standalone Li-ion charger from Microchip",
               "useCase": "Alternative for Microchip-based designs",
               "specifications": {
@@ -1456,7 +1476,7 @@
             {
               "partNumber": "TP4054",
               "brand": "NanJing TopPower",
-              "link": "/brands/toppower/products/battery-charger/tp4054/",
+              "link": "",
               "reason": "Low-cost Li-ion charger compatible with popular designs",
               "useCase": "Alternative for cost-sensitive consumer applications",
               "specifications": {
@@ -1478,19 +1498,19 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for system power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for system power management",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for analog circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             }
           ],
           "faqs": [
@@ -1629,7 +1649,7 @@
             {
               "partNumber": "BQ24075",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/battery-charger/bq24075/",
+              "link": "",
               "reason": "Power path charger with I2C control from TI",
               "useCase": "Alternative for TI-based designs requiring I2C control",
               "specifications": {
@@ -1649,7 +1669,7 @@
             {
               "partNumber": "ISL9237",
               "brand": "Renesas",
-              "link": "/brands/renesas/products/battery-charger/isl9237/",
+              "link": "",
               "reason": "High-performance power path charger",
               "useCase": "Alternative for high-end tablet and laptop applications",
               "specifications": {
@@ -1672,19 +1692,19 @@
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for system power regulation",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for sensitive analog circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             },
             {
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for always-on circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             }
           ],
           "faqs": [
@@ -1823,7 +1843,7 @@
             {
               "partNumber": "BQ2057WSN",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/battery-charger/bq2057wsn/",
+              "link": "",
               "reason": "2-cell Li-ion charger from TI",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -1845,13 +1865,13 @@
               "partNumber": "LP6210",
               "category": "DC-DC",
               "description": "Buck converter for system power from 12V",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6210/"
+              "link": "/lowpowersemi/products/dc-dc/lp6210"
             },
             {
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for sensitive circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             }
           ],
           "faqs": [
@@ -1859,7 +1879,12 @@
               "question": "Does LP4060 balance the two cells?",
               "answer": "The LP4060 monitors both cells during charging to detect imbalance conditions. While it doesn't actively balance the cells (which would require additional circuitry), it can indicate when cell imbalance is detected. For applications requiring active balancing, external balancing circuits should be added.",
               "decisionGuide": "Monitors cell balance; add external active balancing if required for your application.",
-              "keywords": ["cell balancing", "2-cell", "monitoring", "Li-ion"]
+              "keywords": [
+                "cell balancing",
+                "2-cell",
+                "monitoring",
+                "Li-ion"
+              ]
             }
           ]
         },
@@ -1919,7 +1944,7 @@
             {
               "partNumber": "MCP73832",
               "brand": "Microchip",
-              "link": "/brands/microchip/products/battery-charger/mcp73832/",
+              "link": "",
               "reason": "Miniature Li-ion charger for USB",
               "useCase": "Alternative for compact designs",
               "specifications": {
@@ -1941,13 +1966,13 @@
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5240",
               "category": "Load Switch",
               "description": "Load switch for USB power control",
-              "link": "/brands/lowpowersemi/products/load-switch/lp5240/"
+              "link": "/lowpowersemi/products/load-switch/lp5240"
             }
           ],
           "faqs": [
@@ -1955,7 +1980,12 @@
               "question": "What over-voltage protection does LP4070 provide?",
               "answer": "The LP4070 includes integrated over-voltage protection that can withstand input voltages up to 28V. If the input voltage exceeds approximately 6.8V, the charger shuts down to protect the battery and internal circuitry. This protects against faulty USB chargers and voltage transients.",
               "decisionGuide": "28V OVP rating protects against faulty chargers; automatic shutdown above 6.8V.",
-              "keywords": ["over-voltage protection", "OVP", "28V", "protection"]
+              "keywords": [
+                "over-voltage protection",
+                "OVP",
+                "28V",
+                "protection"
+              ]
             }
           ]
         }
@@ -2106,7 +2136,7 @@
             {
               "partNumber": "TPS22919",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/load-switch/tps22919/",
+              "link": "",
               "reason": "Low on-resistance load switch from TI",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -2125,7 +2155,7 @@
             {
               "partNumber": "FPF2195",
               "brand": "ON Semiconductor",
-              "link": "/brands/onsemi/products/load-switch/fpf2195/",
+              "link": "",
               "reason": "Load switch with current limiting",
               "useCase": "Alternative for applications requiring current limiting",
               "specifications": {
@@ -2147,19 +2177,19 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for regulated power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5241",
               "category": "Load Switch",
               "description": "Load switch with slew rate control",
-              "link": "/brands/lowpowersemi/products/load-switch/lp5241/"
+              "link": "/lowpowersemi/products/load-switch/lp5241"
             }
           ],
           "faqs": [
@@ -2295,7 +2325,7 @@
             {
               "partNumber": "TPS22918",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/load-switch/tps22918/",
+              "link": "",
               "reason": "Load switch with slew rate control from TI",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -2314,7 +2344,7 @@
             {
               "partNumber": "FPF2165",
               "brand": "ON Semiconductor",
-              "link": "/brands/onsemi/products/load-switch/fpf2165/",
+              "link": "",
               "reason": "Load switch with current limiting and slew rate control",
               "useCase": "Alternative for applications requiring both features",
               "specifications": {
@@ -2336,19 +2366,19 @@
               "partNumber": "LP5240",
               "category": "Load Switch",
               "description": "Simple load switch for basic on/off control",
-              "link": "/brands/lowpowersemi/products/load-switch/lp5240/"
+              "link": "/lowpowersemi/products/load-switch/lp5240"
             },
             {
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for regulated power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             }
           ],
           "faqs": [
@@ -2484,7 +2514,7 @@
             {
               "partNumber": "TPS22966",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/load-switch/tps22966/",
+              "link": "",
               "reason": "Dual channel load switch from TI",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -2506,13 +2536,13 @@
               "partNumber": "LP3990-33",
               "category": "LDO",
               "description": "Ultra-low IQ LDO for regulated power",
-              "link": "/brands/lowpowersemi/products/ldo/lp3990-33/"
+              "link": "/lowpowersemi/products/ldo/lp3990-33"
             },
             {
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main system power",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             }
           ],
           "faqs": [
@@ -2520,7 +2550,12 @@
               "question": "Can the two channels of LP5242 be used independently?",
               "answer": "Yes, the two channels have independent enable pins and can be controlled separately. However, both channels share a common input voltage pin, so they must be powered from the same voltage rail. The outputs are independent and can power different loads.",
               "decisionGuide": "Independent control possible; both channels share common input voltage.",
-              "keywords": ["dual channel", "independent", "enable", "control"]
+              "keywords": [
+                "dual channel",
+                "independent",
+                "enable",
+                "control"
+              ]
             }
           ]
         },
@@ -2577,7 +2612,7 @@
             {
               "partNumber": "TPS22965",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/load-switch/tps22965/",
+              "link": "",
               "reason": "High current load switch from TI",
               "useCase": "Alternative for high current applications",
               "specifications": {
@@ -2599,13 +2634,13 @@
               "partNumber": "LP6235",
               "category": "DC-DC",
               "description": "Buck converter for main power conversion",
-              "link": "/brands/lowpowersemi/products/dc-dc/lp6235/"
+              "link": "/lowpowersemi/products/dc-dc/lp6235"
             },
             {
               "partNumber": "LP5907-33",
               "category": "LDO",
               "description": "High PSRR LDO for sensitive circuits",
-              "link": "/brands/lowpowersemi/products/ldo/lp5907-33/"
+              "link": "/lowpowersemi/products/ldo/lp5907-33"
             }
           ],
           "faqs": [
@@ -2613,7 +2648,12 @@
               "question": "What is the maximum current for LP5245?",
               "answer": "The LP5245 can support continuous currents up to 4A. At this current level, proper thermal management is critical. The exposed pad must be soldered to a large copper area with thermal vias to dissipate the heat generated (P = I² × R = 4A² × 35mΩ = 560mW).",
               "decisionGuide": "4A maximum current; requires proper thermal management with exposed pad soldered to copper pour.",
-              "keywords": ["current rating", "4A", "thermal management", "high current"]
+              "keywords": [
+                "current rating",
+                "4A",
+                "thermal management",
+                "high current"
+              ]
             }
           ]
         }

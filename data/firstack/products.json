@@ -216,7 +216,7 @@
               "comparison": "2FSC0435+=><2FSC0435: Output current 35A = 35A (same), suitable for direct replacement",
               "reason": "Standard version without SPI interface for cost-sensitive applications where fixed parameters are acceptable",
               "useCase": "Cost-optimized designs not requiring programmable features",
-              "link": "/firstack/products/gate-drivers/2fsc0435.html"
+              "link": ""
             },
             {
               "partNumber": "2FSC0235+",
@@ -230,7 +230,7 @@
               "comparison": "2FSC0435+=><2FSC0235+: Output current 25A < 35A (-29%), suitable for direct replacement",
               "reason": "Lower cost option for 1200V applications with reduced drive capability and basic isolation",
               "useCase": "Medium-power applications up to 1200V with cost constraints",
-              "link": "/firstack/products/gate-drivers/2fsc0235-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0235-"
             }
           ],
           "companionParts": [
@@ -244,7 +244,7 @@
                 "High isolation"
               ],
               "description": "Isolated DC-DC converter specifically designed for gate driver power supply",
-              "link": "/firstack/products/gate-drivers/gd3160.html"
+              "link": ""
             },
             {
               "partNumber": "FF600R17ME4",
@@ -256,7 +256,7 @@
                 "EconoDUAL package"
               ],
               "description": "Recommended IGBT module pairing for high-power applications with 2FSC0435+",
-              "link": "/infineon/products/igbt-modules/ff600r17me4.html"
+              "link": ""
             },
             {
               "partNumber": "STAC4937",
@@ -268,7 +268,7 @@
                 "Fast response"
               ],
               "description": "High-bandwidth current sensor for DESAT protection implementation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -396,7 +396,7 @@
               "comparison": "2FSC0235+=><2FSC0435+: Output current 35A > 25A (+40%), suitable for direct replacement",
               "reason": "Higher voltage and current capability with reinforced isolation for demanding applications",
               "useCase": "Upgrade path for higher power or 1700V applications",
-              "link": "/firstack/products/gate-drivers/2fsc0435-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             },
             {
               "partNumber": "2FSC0235",
@@ -410,7 +410,7 @@
               "comparison": "2FSC0235+=><2FSC0235: Output current 25A = 25A (same), suitable for direct replacement",
               "reason": "Lower cost fixed-parameter version for applications not requiring programmability",
               "useCase": "Cost-sensitive designs with fixed operating conditions",
-              "link": "/firstack/products/gate-drivers/2fsc0235.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -423,7 +423,7 @@
                 "2W power rating"
               ],
               "description": "Isolated DC-DC converter for gate driver power supply",
-              "link": "/firstack/products/gate-drivers/gd3160.html"
+              "link": ""
             },
             {
               "partNumber": "FF200R12KT4",
@@ -434,7 +434,7 @@
                 "200A current"
               ],
               "description": "Recommended IGBT module pairing for 2FSC0235+ applications",
-              "link": "/infineon/products/igbt-modules/ff200r12kt4.html"
+              "link": ""
             },
             {
               "partNumber": "STAC4937",
@@ -445,7 +445,7 @@
                 "Isolated output"
               ],
               "description": "Current sensor for DESAT protection",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -911,7 +911,7 @@
               "comparison": "FSW100-1700=><FSW150-1700: Efficiency >98% = >98% (same), suitable for direct replacement",
               "reason": "Higher power rating (150kW) for larger wind turbines or higher power applications",
               "useCase": "1.5MW+ wind converters requiring higher per-stack power",
-              "link": "/firstack/products/power-stacks/fsw150-1700.html"
+              "link": ""
             },
             {
               "partNumber": "FSS100-1200",
@@ -925,7 +925,7 @@
               "comparison": "FSW100-1700=><FSS100-1200: Efficiency >97.5% < >98% (slightly lower), suitable for direct replacement",
               "reason": "Air-cooled alternative for 400V systems with simpler thermal management",
               "useCase": "Solar inverters or industrial drives where air cooling is preferred",
-              "link": "/firstack/products/power-stacks/fss100-1200.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -939,7 +939,7 @@
                 "Advanced protection"
               ],
               "description": "Gate driver core used in FSW100-1700 for IGBT control",
-              "link": "/firstack/products/gate-drivers/2fsc0435-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             },
             {
               "partNumber": "FF600R17ME4",
@@ -951,7 +951,7 @@
                 "EconoDUAL package"
               ],
               "description": "IGBT module used in FSW100-1700 power stack",
-              "link": "/infineon/products/igbt-modules/ff600r17me4.html"
+              "link": ""
             },
             {
               "partNumber": "B25655-S3107-K004",
@@ -963,7 +963,7 @@
                 "High ripple current"
               ],
               "description": "DC link film capacitor for power stack DC bus",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1066,7 +1066,7 @@
               "comparison": "FSS50-1200=><FSS100-1200: Efficiency >97.5% = >97.5% (same), suitable for direct replacement",
               "reason": "Double the power rating (100kW) for larger commercial installations",
               "useCase": "Commercial solar inverters 75-125kW requiring higher power",
-              "link": "/firstack/products/power-stacks/fss100-1200.html"
+              "link": ""
             },
             {
               "partNumber": "FSW50-1700",
@@ -1080,7 +1080,7 @@
               "comparison": "FSS50-1200=><FSW50-1700: Efficiency >98% > >97.5% (higher), suitable for direct replacement",
               "reason": "Higher voltage rating with liquid cooling for industrial or wind applications",
               "useCase": "Industrial drives or wind applications requiring 1700V rating",
-              "link": "/firstack/products/power-stacks/fsw50-1700.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1094,7 +1094,7 @@
                 "Cost-effective"
               ],
               "description": "Gate driver core used in FSS50-1200 for optimal cost-performance",
-              "link": "/firstack/products/gate-drivers/2fsc0235-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0235-"
             },
             {
               "partNumber": "FF200R12KT4",
@@ -1105,7 +1105,7 @@
                 "200A current"
               ],
               "description": "IGBT module used in FSS50-1200 power stack",
-              "link": "/infineon/products/igbt-modules/ff200r12kt4.html"
+              "link": ""
             },
             {
               "partNumber": "B25655-S1105-K004",
@@ -1116,7 +1116,7 @@
                 "Compact size"
               ],
               "description": "DC link film capacitor optimized for solar applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1196,14 +1196,16 @@
                 "Current Rating": "600A"
               },
               "priceDifference": "+30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/firstack/products/power-stacks/2fhd0635b"
             }
           ],
           "companionParts": [
             {
               "partNumber": "2FSC0435+",
               "description": "Gate driver core for custom designs",
-              "category": "Gate Driver"
+              "category": "Gate Driver",
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             }
           ],
           "faqs": [
@@ -1280,7 +1282,8 @@
                 "Current Rating": "450A"
               },
               "priceDifference": "-25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/firstack/products/power-stacks/2fhd0435b"
             }
           ],
           "companionParts": [
@@ -1469,7 +1472,7 @@
               "comparison": "FTE-5000=><FTE-3000: Output current 1000A < 2000A (lower), suitable for direct replacement",
               "reason": "Lower cost option for applications not requiring maximum voltage/current range",
               "useCase": "Standard IGBT modules up to 1700V/600A",
-              "link": "/firstack/products/test-equipment/fte-3000.html"
+              "link": ""
             },
             {
               "partNumber": "FTC-2000",
@@ -1483,7 +1486,7 @@
               "comparison": "FTE-5000=><FTC-2000: Output current 200A < 2000A (lower), suitable for direct replacement",
               "reason": "Cost-effective static-only tester for quality verification and incoming inspection",
               "useCase": "Production testing and incoming inspection where only static tests needed",
-              "link": "/firstack/products/test-equipment/ftc-2000.html"
+              "link": "/firstack/products/test-equipment/ftc-2000"
             }
           ],
           "companionParts": [
@@ -1497,7 +1500,7 @@
                 "Compact design"
               ],
               "description": "Complementary curve tracer for high-volume static testing",
-              "link": "/firstack/products/test-equipment/ftc-2000.html"
+              "link": "/firstack/products/test-equipment/ftc-2000"
             },
             {
               "partNumber": "FT-TEMP-500",
@@ -1509,7 +1512,7 @@
                 "Integration ready"
               ],
               "description": "Temperature chamber for temperature-dependent characterization",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FT-FIXTURE-UNIV",
@@ -1521,7 +1524,7 @@
                 "Quick change"
               ],
               "description": "Universal test fixture for various package types",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1627,7 +1630,7 @@
               "comparison": "FTC-2000=><FTE-5000: Output current 2000A > 200A (higher), suitable for direct replacement",
               "reason": "Full characterization system with dynamic testing and higher voltage/current range",
               "useCase": "R&D and characterization requiring dynamic test capability",
-              "link": "/firstack/products/test-equipment/fte-5000.html"
+              "link": "/firstack/products/test-equipment/fte-5000"
             },
             {
               "partNumber": "FTC-1000",
@@ -1641,7 +1644,7 @@
               "comparison": "FTC-2000=><FTC-1000: Output current 100A < 200A (lower), suitable for direct replacement",
               "reason": "Lower cost option for low-voltage discrete devices and smaller modules",
               "useCase": "Testing discrete devices and low-voltage modules up to 1000V",
-              "link": "/firstack/products/test-equipment/ftc-1000.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1655,7 +1658,7 @@
                 "Quick connect"
               ],
               "description": "Standard test fixture for common IGBT packages",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FT-SCANNER-8CH",
@@ -1667,7 +1670,7 @@
                 "High voltage rated"
               ],
               "description": "8-channel scanner for high-volume testing",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FT-CAL-KIT",
@@ -1679,7 +1682,7 @@
                 "Easy procedure"
               ],
               "description": "Calibration kit for maintaining measurement accuracy",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1976,7 +1979,7 @@
               "comparison": "FAS-100=><FAS-200: Output current 20A > 10A (+100%), Package QFN-24 > SOIC-16 (more pins), suitable for direct replacement",
               "reason": "Higher drive capability and voltage rating for larger SiC modules",
               "useCase": "High-power SiC applications requiring >10A drive capability",
-              "link": "/firstack/products/asic-solutions/fas-200.html"
+              "link": "/firstack/products/asic-solutions/fas-200"
             },
             {
               "partNumber": "2FSC0435+",
@@ -1991,7 +1994,7 @@
               "comparison": "FAS-100=><2FSC0435+: Output current 35A > 10A (much higher), Package Module > SOIC (different form factor), suitable for direct replacement",
               "reason": "Discrete driver core with higher drive capability for large modules",
               "useCase": "High-power modules requiring >20A drive capability",
-              "link": "/firstack/products/gate-drivers/2fsc0435-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             }
           ],
           "companionParts": [
@@ -2005,7 +2008,7 @@
                 "Easy configuration"
               ],
               "description": "USB programming tool for FAS-100 configuration",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IMW120R090M1H",
@@ -2017,7 +2020,7 @@
                 "TO-247-4 package"
               ],
               "description": "Recommended SiC MOSFET pairing for FAS-100 applications",
-              "link": "/infineon/products/sic-mosfets/imw120r090m1h.html"
+              "link": ""
             },
             {
               "partNumber": "IGLD60R190D1",
@@ -2029,7 +2032,7 @@
                 "GaN technology"
               ],
               "description": "Recommended GaN HEMT for high-frequency FAS-100 designs",
-              "link": "/infineon/products/gan-transistors/igld60r190d1.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2130,7 +2133,7 @@
               "comparison": "FAS-200=><FAS-100: Output current 10A < 20A (lower), Package SOIC-16 < QFN-24 (smaller), suitable for direct replacement",
               "reason": "Lower cost option for smaller SiC modules not requiring high drive capability",
               "useCase": "Lower power SiC applications with modules <200A",
-              "link": "/firstack/products/asic-solutions/fas-100.html"
+              "link": "/firstack/products/asic-solutions/fas-100"
             },
             {
               "partNumber": "2FSC0435+",
@@ -2145,7 +2148,7 @@
               "comparison": "FAS-200=><2FSC0435+: Output current 35A > 20A (higher), Package Module vs QFN (different), suitable for direct replacement",
               "reason": "Discrete driver with higher drive capability for very large modules",
               "useCase": "Very large SiC modules requiring >20A gate drive",
-              "link": "/firstack/products/gate-drivers/2fsc0435-plus.html"
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             }
           ],
           "companionParts": [
@@ -2158,7 +2161,7 @@
                 "Windows software"
               ],
               "description": "USB programming tool for FAS-200 configuration",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FF400R07A01E3",
@@ -2169,7 +2172,7 @@
                 "400A current"
               ],
               "description": "Recommended SiC module for high-power FAS-200 applications",
-              "link": "/infineon/products/sic-modules/ff400r07a01e3.html"
+              "link": ""
             },
             {
               "partNumber": "GD3100",
@@ -2180,7 +2183,7 @@
                 "High power"
               ],
               "description": "Isolated power supply for FAS-200 gate drive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

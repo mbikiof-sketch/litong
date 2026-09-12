@@ -274,7 +274,7 @@
               },
               "reason": "Lower cost alternative for applications not requiring high speed",
               "useCase": "Suitable for low-speed data logging and monitoring applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX11156",
@@ -293,7 +293,7 @@
               },
               "reason": "Higher resolution alternative for precision applications",
               "useCase": "Best for high-precision measurement where speed is less critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -301,31 +301,31 @@
               "partNumber": "PSP3406",
               "description": "3.3V buck converter for ADC power supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psp3406.html"
+              "link": "/pridesilicon/products/power-management/psp3406"
             },
             {
               "partNumber": "PSA2001",
               "description": "Precision op-amp for input signal conditioning",
               "category": "Sensor Interfaces",
-              "link": "/pridesilicon/products/sensor-interfaces/psa2001.html"
+              "link": "/pridesilicon/products/sensor-interfaces/psa2001"
             },
             {
               "partNumber": "PSLDO33",
               "description": "3.3V LDO for analog reference supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psldo33.html"
+              "link": ""
             },
             {
               "partNumber": "STM32F407",
               "description": "MCU with SPI interface for data processing",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSA1604-EVM",
               "description": "Evaluation module for rapid prototyping",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -465,7 +465,7 @@
               },
               "reason": "Alternative for weigh scale applications with SPI preference",
               "useCase": "Suitable for weigh scales and load cell applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HX711",
@@ -484,7 +484,7 @@
               },
               "reason": "Lower cost alternative for simple weigh scale applications",
               "useCase": "Best for basic weigh scales with cost constraints",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -492,31 +492,31 @@
               "partNumber": "PSA2002",
               "description": "Low-noise op-amp for sensor signal conditioning",
               "category": "Sensor Interfaces",
-              "link": "/pridesilicon/products/sensor-interfaces/psa2002.html"
+              "link": "/pridesilicon/products/sensor-interfaces/psa2002"
             },
             {
               "partNumber": "PSLDO50",
               "description": "5V LDO for analog power supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psldo50.html"
+              "link": "/pridesilicon/products/power-management/psldo50"
             },
             {
               "partNumber": "PSP3406",
               "description": "3.3V buck converter for digital supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psp3406.html"
+              "link": "/pridesilicon/products/power-management/psp3406"
             },
             {
               "partNumber": "ESP32",
               "description": "WiFi MCU with I2C for IoT applications",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSS2416-EVM",
               "description": "Evaluation module with load cell interface",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -889,7 +889,7 @@
               "comparison": "PSP3406=><TPS54331: Input voltage 28V max < 36V (PrideSilicon has wider range), Output current 3A = 3A (same), Frequency Fixed vs adjustable (PrideSilicon more flexible), Efficiency 92% < 95% (PrideSilicon is more efficient), suitable for direct replacement",
               "reason": "Alternative with similar performance but narrower input range",
               "useCase": "Suitable for 12V industrial applications with cost constraints",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             },
             {
               "partNumber": "MP1584",
@@ -903,7 +903,7 @@
               "comparison": "PSP3406=><MP1584: Input voltage 28V max < 36V (PrideSilicon has wider range), Output current 3A = 3A (same), Frequency Higher fixed frequency, Package Smaller package available, suitable for direct replacement",
               "reason": "Compact alternative for space-constrained designs",
               "useCase": "Best for portable applications requiring small solution size",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -911,31 +911,31 @@
               "partNumber": "PSLDO33",
               "description": "3.3V LDO for analog power supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psldo33.html"
+              "link": ""
             },
             {
               "partNumber": "PSP3406-IND",
               "description": "Inductor optimized for PSP3406 applications",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSP3406-EVM",
               "description": "Evaluation module for rapid prototyping",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F103",
               "description": "MCU for power system control",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSP3406-SYNC",
               "description": "External sync option for multi-phase applications",
               "category": "Accessories",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1063,7 +1063,7 @@
               "comparison": "PSLDO50=><LP5907: Output current 250mA < 500mA (PrideSilicon higher current), suitable for direct replacement",
               "reason": "Lower noise alternative for ultra-sensitive applications",
               "useCase": "Best for applications requiring lowest possible noise",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XC6206",
@@ -1077,7 +1077,7 @@
               "comparison": "PSLDO50=><XC6206: Output current 200mA < 500mA (PrideSilicon higher current), suitable for direct replacement",
               "reason": "Lower cost alternative for less demanding applications",
               "useCase": "Suitable for general-purpose applications with cost constraints",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1085,31 +1085,31 @@
               "partNumber": "PSP3406",
               "description": "Buck converter for efficient step-down conversion",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psp3406.html"
+              "link": "/pridesilicon/products/power-management/psp3406"
             },
             {
               "partNumber": "PSA1604",
               "description": "ADC requiring clean analog power",
               "category": "Data Converters",
-              "link": "/pridesilicon/products/data-converters/psa1604.html"
+              "link": "/pridesilicon/products/data-converters/psa1604"
             },
             {
               "partNumber": "PSLDO50-EVM",
               "description": "Evaluation module for noise testing",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "10nF-CAP",
               "description": "Bypass capacitor for noise reduction",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSLDO50-NOISE-FILTER",
               "description": "Optional RC filter for ultra-low noise",
               "category": "Accessories",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1468,7 +1468,7 @@
               "comparison": "PSD8826=><TB6612FNG: Output current 1.2A < 2A (PrideSilicon higher current), suitable for direct replacement",
               "reason": "Lower cost alternative for low-voltage applications",
               "useCase": "Suitable for battery-powered toys and small robotics",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DRV8833",
@@ -1482,7 +1482,7 @@
               "comparison": "PSD8826=><DRV8833: Output current 1.5A < 2A (PrideSilicon higher current), suitable for direct replacement",
               "reason": "Compact alternative for low-voltage battery applications",
               "useCase": "Best for portable battery-powered devices",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1490,31 +1490,31 @@
               "partNumber": "PSP3406",
               "description": "Buck converter for motor supply voltage",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psp3406.html"
+              "link": "/pridesilicon/products/power-management/psp3406"
             },
             {
               "partNumber": "STM32F103",
               "description": "MCU for motor control algorithms",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSD8826-EVM",
               "description": "Evaluation module with motors",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DC-MOTOR-12V",
               "description": "12V DC motor for testing",
               "category": "Motors",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HEATSINK-PSD",
               "description": "Heatsink for high-current applications",
               "category": "Thermal Management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1640,7 +1640,7 @@
               "comparison": "PSB8060=><DRV8313: Output current 3A < 5A (PrideSilicon higher current), suitable for direct replacement",
               "reason": "Simpler alternative with integrated power stage",
               "useCase": "Suitable for basic BLDC applications without FOC requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STSPIN32F0",
@@ -1654,7 +1654,7 @@
               "comparison": "PSB8060=><STSPIN32F0: Output current 1.3A < 5A (PrideSilicon higher current), suitable for direct replacement",
               "reason": "All-in-one solution with integrated MCU",
               "useCase": "Best for compact designs requiring minimal external components",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1662,31 +1662,31 @@
               "partNumber": "IRF540N",
               "description": "Power MOSFETs for output stage",
               "category": "Power MOSFETs",
-              "link": "#"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "STM32F407",
               "description": "MCU for FOC algorithm implementation",
               "category": "Microcontroller",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSB8060-EVM",
               "description": "Evaluation module with BLDC motor",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CURRENT-SENSE",
               "description": "Current sense resistors for FOC",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HEATSINK-BLDC",
               "description": "Heatsink for high-power applications",
               "category": "Thermal Management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2049,7 +2049,7 @@
               },
               "reason": "Lower offset alternative for highest DC precision",
               "useCase": "Best for DC applications requiring lowest offset",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6001",
@@ -2068,7 +2068,7 @@
               },
               "reason": "Lower cost alternative for less demanding applications",
               "useCase": "Suitable for general-purpose applications with cost constraints",
-              "link": "#"
+              "link": "/microchip/products/analog-products/mcp6001"
             }
           ],
           "companionParts": [
@@ -2076,31 +2076,31 @@
               "partNumber": "PSS2416",
               "description": "ADC for digitizing amplified sensor signal",
               "category": "Data Converters",
-              "link": "/pridesilicon/products/data-converters/pss2416.html"
+              "link": "/pridesilicon/products/data-converters/pss2416"
             },
             {
               "partNumber": "PSLDO50",
               "description": "LDO for clean analog power supply",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psldo50.html"
+              "link": "/pridesilicon/products/power-management/psldo50"
             },
             {
               "partNumber": "PSA2001-EVM",
               "description": "Evaluation module for testing",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PRECISION-RESISTOR",
               "description": "0.1% resistors for gain setting",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FILTER-CAP",
               "description": "NP0 capacitors for filter circuits",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2232,7 +2232,7 @@
               },
               "reason": "Industry-standard alternative with similar performance",
               "useCase": "Suitable for general-purpose instrumentation applications",
-              "link": "#"
+              "link": "/adi/products/amplifiers/ad620"
             },
             {
               "partNumber": "INA128",
@@ -2251,7 +2251,7 @@
               },
               "reason": "Alternative with similar CMRR but higher offset",
               "useCase": "Suitable for applications where offset is less critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2259,31 +2259,31 @@
               "partNumber": "PSS2416",
               "description": "ADC for digitizing amplified bridge signal",
               "category": "Data Converters",
-              "link": "/pridesilicon/products/data-converters/pss2416.html"
+              "link": "/pridesilicon/products/data-converters/pss2416"
             },
             {
               "partNumber": "PSLDO50",
               "description": "LDO for clean analog power and reference",
               "category": "Power Management",
-              "link": "/pridesilicon/products/power-management/psldo50.html"
+              "link": "/pridesilicon/products/power-management/psldo50"
             },
             {
               "partNumber": "PSA2002-EVM",
               "description": "Evaluation module with bridge sensor",
               "category": "Evaluation Tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "GAIN-RESISTOR",
               "description": "0.1% precision resistor for gain setting",
               "category": "Passive Components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LOAD-CELL",
               "description": "Load cell for weigh scale applications",
               "category": "Sensors",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

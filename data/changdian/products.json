@@ -236,7 +236,7 @@
               "comparison": "1N4007=><1N5408: Output current 3A > 1A (+200%), suitable for direct replacement",
               "reason": "更大电流容量",
               "useCase": "大电流整流应用",
-              "link": "/changdian/products/diodes/1n5408.html"
+              "link": "/changdian/products/diodes/1n5408"
             },
             {
               "partNumber": "MUR1100",
@@ -248,26 +248,26 @@
               "comparison": "1N4007=><MUR1100: Same current/voltage, ultra-fast recovery 50ns vs 2μs",
               "reason": "快速恢复适合高频应用",
               "useCase": "开关电源高频整流",
-              "link": "/changdian/products/diodes/mur1100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "1N4004",
               "description": "400V耐压版本",
-              "link": "/changdian/products/diodes/1n4004.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "MBR1100",
               "description": "肖特基低VF版本",
-              "link": "/changdian/products/diodes/mbr1100.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "GBJ1510",
               "description": "桥式整流器",
-              "link": "/changdian/products/rectifiers/gbj1510.html",
+              "link": "/changdian/products/rectifiers/gbj1510",
               "category": "整流器"
             }
           ],
@@ -380,7 +380,7 @@
               "comparison": "1N5408=><6A10: Output current 6A > 3A (+100%), suitable for direct replacement",
               "reason": "更大电流容量",
               "useCase": "超大电流整流应用",
-              "link": "/changdian/products/diodes/6a10.html"
+              "link": ""
             },
             {
               "partNumber": "MUR3100",
@@ -392,26 +392,26 @@
               "comparison": "1N5408=><MUR3100: Same current/voltage, ultra-fast recovery 50ns",
               "reason": "快速恢复适合高频应用",
               "useCase": "大电流开关电源",
-              "link": "/changdian/products/diodes/mur3100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "1N5404",
               "description": "400V耐压版本",
-              "link": "/changdian/products/diodes/1n5404.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "MBR3100",
               "description": "肖特基低VF版本",
-              "link": "/changdian/products/diodes/mbr3100.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "GBJ2510",
               "description": "25A桥式整流器",
-              "link": "/changdian/products/rectifiers/gbj2510.html",
+              "link": "/changdian/products/rectifiers/gbj2510",
               "category": "整流器"
             }
           ],
@@ -524,7 +524,7 @@
               "comparison": "FR307=><MUR3100: Same current/voltage, ultra-fast 50ns vs 500ns",
               "reason": "超快恢复适合更高频率",
               "useCase": "100-500kHz高频开关电源",
-              "link": "/changdian/products/diodes/mur3100.html"
+              "link": ""
             },
             {
               "partNumber": "MBR3100",
@@ -536,26 +536,26 @@
               "comparison": "FR307=><MBR3100: Lower VF 0.7V vs 1.3V, lower voltage 100V vs 1000V",
               "reason": "更低VF提高效率",
               "useCase": "低压高效率应用",
-              "link": "/changdian/products/diodes/mbr3100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "FR607",
               "description": "6A快恢复版本",
-              "link": "/changdian/products/diodes/fr607.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "MUR1100",
               "description": "1A超快恢复",
-              "link": "/changdian/products/diodes/mur1100.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "IRF540N",
               "description": "配套MOSFET",
-              "link": "/changdian/products/mosfets/irf540n.html",
+              "link": "/changdian/products/mosfets/irf540n",
               "category": "MOSFET"
             }
           ],
@@ -668,7 +668,7 @@
               "comparison": "MBR20100=><MBR20200: Higher voltage 200V vs 100V, higher VF 0.95V vs 0.8V",
               "reason": "更高耐压",
               "useCase": "24V/48V系统",
-              "link": "/changdian/products/diodes/mbr20200.html"
+              "link": ""
             },
             {
               "partNumber": "MBR30100",
@@ -680,26 +680,26 @@
               "comparison": "MBR20100=><MBR30100: Higher current 30A vs 20A, same voltage",
               "reason": "更大电流容量",
               "useCase": "超大电流应用",
-              "link": "/changdian/products/diodes/mbr30100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MBR10100",
               "description": "10A版本",
-              "link": "/changdian/products/diodes/mbr10100.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "MBR40200",
               "description": "40A版本",
-              "link": "/changdian/products/diodes/mbr40200.html",
+              "link": "",
               "category": "二极管"
             },
             {
               "partNumber": "IRF3205",
               "description": "配套MOSFET",
-              "link": "/changdian/products/mosfets/irf3205.html",
+              "link": "/changdian/products/mosfets/irf3205",
               "category": "MOSFET"
             }
           ],
@@ -918,7 +918,7 @@
               "comparison": "GBJ1510=><GBJ2510: Output current 25A > 15A (+67%), suitable for direct replacement",
               "reason": "更大电流容量",
               "useCase": "大电流电源应用",
-              "link": "/changdian/products/rectifiers/gbj2510.html"
+              "link": "/changdian/products/rectifiers/gbj2510"
             },
             {
               "partNumber": "KBPC1510",
@@ -930,26 +930,26 @@
               "comparison": "GBJ1510=><KBPC1510: Same current/voltage, metal case better heat dissipation",
               "reason": "更好散热性能",
               "useCase": "chassis 安装应用",
-              "link": "/changdian/products/rectifiers/kbpc1510.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GBJ1506",
               "description": "600V耐压版本",
-              "link": "/changdian/products/rectifiers/gbj1506.html",
+              "link": "",
               "category": "整流器"
             },
             {
               "partNumber": "GBJ3510",
               "description": "35A大电流版本",
-              "link": "/changdian/products/rectifiers/gbj3510.html",
+              "link": "",
               "category": "整流器"
             },
             {
               "partNumber": "1N5408",
               "description": "配套二极管",
-              "link": "/changdian/products/diodes/1n5408.html",
+              "link": "/changdian/products/diodes/1n5408",
               "category": "二极管"
             }
           ],
@@ -1061,7 +1061,7 @@
               "comparison": "GBJ2510=><GBJ3510: Output current 35A > 25A (+40%), suitable for direct replacement",
               "reason": "更大电流容量",
               "useCase": "超大电流应用",
-              "link": "/changdian/products/rectifiers/gbj3510.html"
+              "link": ""
             },
             {
               "partNumber": "GBJ1510",
@@ -1072,25 +1072,25 @@
               "comparison": "GBJ2510=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/rectifiers/alternative.html"
+              "link": "/changdian/products/rectifiers/gbj1510"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GBJ1510",
               "description": "15A版本",
-              "link": "/changdian/products/rectifiers/gbj1510.html",
+              "link": "/changdian/products/rectifiers/gbj1510",
               "category": "整流器"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -1301,7 +1301,7 @@
               "comparison": "IRF540N=><IRF640N: Higher voltage 200V vs 100V, lower current 18A vs 33A",
               "reason": "更高耐压",
               "useCase": "高压应用",
-              "link": "/changdian/products/mosfets/irf640n.html"
+              "link": "/changdian/products/mosfets/irf640n"
             },
             {
               "partNumber": "IRF3205",
@@ -1313,25 +1313,25 @@
               "comparison": "IRF540N=><IRF3205: Lower voltage 55V vs 100V, higher current 110A vs 33A, lower RDS(on) 8mΩ vs 44mΩ",
               "reason": "更大电流更低导通电阻",
               "useCase": "大电流低压应用",
-              "link": "/changdian/products/mosfets/irf3205.html"
+              "link": "/changdian/products/mosfets/irf3205"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF9540N",
               "description": "P沟道配对",
-              "link": "/changdian/products/mosfets/irf9540n.html",
+              "link": "/changdian/products/mosfets/irf9540n",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -1445,7 +1445,7 @@
               "comparison": "IRF3205=><IRF540N: Higher voltage 100V vs 55V, lower current 33A vs 110A, higher RDS(on) 44mΩ vs 8mΩ",
               "reason": "更高耐压",
               "useCase": "高压应用",
-              "link": "/changdian/products/mosfets/irf540n.html"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "IRF540N",
@@ -1456,25 +1456,25 @@
               "comparison": "IRF3205=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/alternative.html"
+              "link": "/changdian/products/mosfets/irf540n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF1405",
               "description": "169A更大电流版本",
-              "link": "/changdian/products/mosfets/irf1405.html",
+              "link": "/changdian/products/mosfets/irf1405",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -1592,7 +1592,7 @@
               "comparison": "IRF640N=><IRF540N: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/irf540n.html"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "IRF540N",
@@ -1603,25 +1603,25 @@
               "comparison": "IRF640N=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/alternative.html"
+              "link": "/changdian/products/mosfets/irf540n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF540N",
               "description": "配套产品",
-              "link": "/changdian/products/mosfets/irf540n.html",
+              "link": "/changdian/products/mosfets/irf540n",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -1738,7 +1738,7 @@
               "comparison": "IRF1405=><IRF540N: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/irf540n.html"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "IRF540N",
@@ -1749,25 +1749,25 @@
               "comparison": "IRF1405=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/alternative.html"
+              "link": "/changdian/products/mosfets/irf540n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF540N",
               "description": "配套产品",
-              "link": "/changdian/products/mosfets/irf540n.html",
+              "link": "/changdian/products/mosfets/irf540n",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -1884,7 +1884,7 @@
               "comparison": "IRF9540N=><IRF540N: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/irf540n.html"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "IRF540N",
@@ -1895,25 +1895,25 @@
               "comparison": "IRF9540N=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/alternative.html"
+              "link": "/changdian/products/mosfets/irf540n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF540N",
               "description": "配套产品",
-              "link": "/changdian/products/mosfets/irf540n.html",
+              "link": "/changdian/products/mosfets/irf540n",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }
@@ -2030,7 +2030,7 @@
               "comparison": "IRLZ44N=><IRF540N: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/irf540n.html"
+              "link": "/changdian/products/mosfets/irf540n"
             },
             {
               "partNumber": "IRF540N",
@@ -2041,25 +2041,25 @@
               "comparison": "IRLZ44N=><Alternative: Similar specifications, alternative option",
               "reason": "替代选项",
               "useCase": "相似应用",
-              "link": "/changdian/products/mosfets/alternative.html"
+              "link": "/changdian/products/mosfets/irf540n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRF540N",
               "description": "配套产品",
-              "link": "/changdian/products/mosfets/irf540n.html",
+              "link": "/changdian/products/mosfets/irf540n",
               "category": "MOSFET"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             },
             {
               "partNumber": "Accessory Item",
-              "link": "#",
+              "link": "",
               "description": "Complementary product",
               "category": "Accessories"
             }

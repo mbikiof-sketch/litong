@@ -170,7 +170,7 @@
               },
               "reason": "Lower speed option for cost-sensitive applications where 1Mbps is sufficient",
               "useCase": "Standard industrial signal isolation, digital I/O expansion, simple control signal isolation",
-              "link": "/novosense/products/nsi8120.html"
+              "link": ""
             },
             {
               "partNumber": "ISO721",
@@ -189,31 +189,31 @@
               },
               "reason": "Higher isolation voltage and faster data rate for high-speed applications",
               "useCase": "High-speed UART, USB isolation, FPGA communication requiring >10Mbps",
-              "link": "/ti/products/iso721.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi6230",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "description": "2.5A isolated IGBT gate driver for motor control gate drive circuits",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "4A/6A isolated SiC/IGBT gate driver for high-power applications",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 transceiver for industrial communication interfaces",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSi81T85",
-              "link": "/novosense/products/nsi81t85.html",
+              "link": "/novosense/products/isolated-transceivers/nsi81t85",
               "description": "5kVrms reinforced isolated RS-485 transceiver for high-voltage applications",
               "category": "Isolated Transceivers"
             }
@@ -340,7 +340,7 @@
               },
               "reason": "Four channels for applications requiring isolation of multiple signal lines",
               "useCase": "Multi-channel GPIO isolation, parallel bus isolation, larger SPI systems",
-              "link": "/novosense/products/nsi8260.html"
+              "link": ""
             },
             {
               "partNumber": "ADuM2401",
@@ -359,31 +359,31 @@
               },
               "reason": "Higher isolation and speed for demanding applications",
               "useCase": "High-speed communication requiring reinforced isolation",
-              "link": "/adi/products/adum2401.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi6230",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "description": "2.5A isolated IGBT gate driver paired with SPI-isolated control signals",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "STM32F407",
-              "link": "/st/products/stm32f407.html",
+              "link": "",
               "description": "ARM Cortex-M4 MCU with SPI interfaces for motor control algorithms",
               "category": "Microcontrollers"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for additional industrial communication channels",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSi8210",
-              "link": "/novosense/products/nsi8210.html",
+              "link": "",
               "description": "Single-channel isolator for additional enable and fault signals",
               "category": "Digital Isolators"
             }
@@ -934,7 +934,7 @@
               },
               "reason": "Cost-effective option for lower power IGBT applications where 2.5A is sufficient",
               "useCase": "IGBT modules below 300A, standard industrial inverters, lower switching frequency applications",
-              "link": "/novosense/products/nsi6230.html"
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230"
             },
             {
               "partNumber": "UCC21520",
@@ -953,31 +953,31 @@
               },
               "reason": "Faster switching for higher frequency applications, higher isolation rating",
               "useCase": "Very high frequency SiC applications above 200kHz, applications requiring higher isolation margin",
-              "link": "/ti/products/ucc21520.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for SPI communication between MCU and gate driver enable pins",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "C3M0060065J",
-              "link": "#",
+              "link": "",
               "description": "SiC MOSFET 650V 60A for high-efficiency power converter applications",
               "category": "SiC MOSFETs"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for controller communication in multi-axis motor drive systems",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "TMP235",
-              "link": "#",
+              "link": "",
               "description": "Precision temperature sensor for junction temperature monitoring in power modules",
               "category": "Temperature Sensors"
             }
@@ -1110,7 +1110,7 @@
               },
               "reason": "Higher drive current for larger IGBT modules requiring more gate charge handling",
               "useCase": "IGBT modules 100A-300A, paralleled IGBT configurations, applications requiring higher peak currents",
-              "link": "/novosense/products/nsi6238.html"
+              "link": ""
             },
             {
               "partNumber": "HCPL-316J",
@@ -1129,31 +1129,31 @@
               },
               "reason": "Legacy optocoupler-based driver, much slower but proven technology",
               "useCase": "Legacy designs using optocoupler drivers, applications with lower switching frequency",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for PWM signals and fault feedback from controller to driver",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "FGH75T65SHD",
-              "link": "#",
+              "link": "",
               "description": "IGBT 650V 75A for industrial motor control and power conversion",
               "category": "IGBT Modules"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for encoder interface and controller communication",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSi1318",
-              "link": "/novosense/products/nsi1318.html",
+              "link": "",
               "description": "Single-channel digital isolator for fault and enable signal routing",
               "category": "Digital Isolators"
             }
@@ -1274,7 +1274,7 @@
               "brand": "Novosense",
               "reason": "Dual-channel version for half-bridge applications",
               "useCase": "Applications requiring dual isolated gate drive channels",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "comparison": {
                 "channels": "2 > 1 (dual channel)",
                 "peakCurrent": "4A/6A vs 5A (similar)",
@@ -1292,7 +1292,7 @@
               "brand": "Novosense",
               "reason": "Lower cost option for standard applications",
               "useCase": "Cost-sensitive applications with moderate switching frequency",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "comparison": {
                 "peakCurrent": "2.5A/5A < 5A (lower)",
                 "propagationDelay": "80ns > 60ns (slower)",
@@ -1309,19 +1309,19 @@
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "2-channel digital isolator for PWM signal isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 transceiver for system communication",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision op-amp for current sensing",
               "category": "Signal Chain"
             }
@@ -1434,7 +1434,7 @@
               "brand": "Novosense",
               "reason": "Dual-channel version for half-bridge IGBT applications",
               "useCase": "Applications requiring dual IGBT gate drive with desaturation",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "comparison": {
                 "channels": "2 > 1 (dual channel)",
                 "desaturation": "Yes = Yes (both have)",
@@ -1452,7 +1452,7 @@
               "brand": "Novosense",
               "reason": "Lower cost option without desaturation",
               "useCase": "Applications with external short-circuit protection",
-              "link": "/novosense/products/nsi6801.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6801",
               "comparison": {
                 "desaturation": "No < Yes (no desat)",
                 "peakCurrent": "5A vs 4A/6A (similar)",
@@ -1469,19 +1469,19 @@
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "2-channel digital isolator for control signals",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision current sense amplifier",
               "category": "Signal Chain"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for system communication",
               "category": "Isolated Transceivers"
             }
@@ -1712,7 +1712,7 @@
               },
               "reason": "Standard isolation option for applications where 3.75kVrms is sufficient",
               "useCase": "240V industrial equipment, cost-sensitive applications without reinforced isolation requirements",
-              "link": "/novosense/products/nsi8150.html"
+              "link": ""
             },
             {
               "partNumber": "ADM2587E",
@@ -1732,31 +1732,31 @@
               },
               "reason": "Lower isolation voltage from ADI, may require external protection for high-voltage applications",
               "useCase": "Applications with lower isolation requirements, legacy ADM2587E designs",
-              "link": "/adi/products/adm2587e.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Additional digital isolators for parallel data paths or GPIO isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi6230",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "description": "Gate drivers for motor control systems communicating over RS-485 networks",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSi1306",
-              "link": "/novosense/products/nsi1306.html",
+              "link": "",
               "description": "Six-channel digital isolator for additional system signal isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "STM32F103",
-              "link": "/st/products/stm32f103.html",
+              "link": "",
               "description": "ARM Cortex-M3 MCU for industrial controller with UART/RS-485 interfaces",
               "category": "Microcontrollers"
             }
@@ -1888,7 +1888,7 @@
               },
               "reason": "Standard speed option for cost-sensitive applications where 500kbps is sufficient",
               "useCase": "Standard industrial networks, PLC communication, process control where speed is not critical",
-              "link": "/novosense/products/nsi1050.html"
+              "link": "/novosense/products/isolated-transceivers/nsi1050"
             },
             {
               "partNumber": "ISO3082",
@@ -1907,31 +1907,31 @@
               },
               "reason": "Lower speed and isolation from TI, may be used in legacy designs",
               "useCase": "Legacy designs with existing component footprints, applications with lower speed requirements",
-              "link": "/ti/products/iso3082.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolators for additional control signal isolation in high-speed systems",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "High-speed SiC gate driver for power converter in high-speed communication system",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSi1318",
-              "link": "/novosense/products/nsi1318.html",
+              "link": "",
               "description": "Single-channel isolator for enable and control signal isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi81C85",
-              "link": "/novosense/products/nsi81c85.html",
+              "link": "",
               "description": "Isolated CAN transceiver for multi-protocol industrial networks",
               "category": "Isolated Transceivers"
             }
@@ -2061,7 +2061,7 @@
                 "Isolation Voltage": "5kVrms = 5kVrms (same)"
               },
               "useCase": "Standard CAN applications not requiring CAN FD",
-              "link": "/novosense/products/nsi81c85.html"
+              "link": ""
             },
             {
               "partNumber": "NSi1050",
@@ -2078,25 +2078,25 @@
                 "Isolation Voltage": "5kVrms = 5kVrms (same)"
               },
               "useCase": "RS-485 applications instead of CAN",
-              "link": "/novosense/products/nsi1050.html"
+              "link": "/novosense/products/isolated-transceivers/nsi1050"
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for additional signal isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "Isolated gate driver for power stage control",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision op-amp for analog sensing",
               "category": "Signal Chain"
             }
@@ -2220,7 +2220,7 @@
                 "Distance": "Longer vs shorter cable runs"
               },
               "useCase": "Multi-drop networks requiring longer distance",
-              "link": "/novosense/products/nsi1050.html"
+              "link": "/novosense/products/isolated-transceivers/nsi1050"
             },
             {
               "partNumber": "NSi81T85",
@@ -2237,25 +2237,25 @@
                 "Application": "High-speed vs standard serial"
               },
               "useCase": "High-speed industrial networks",
-              "link": "/novosense/products/nsi81t85.html"
+              "link": "/novosense/products/isolated-transceivers/nsi81t85"
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for control signal isolation",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision op-amp for analog signal conditioning",
               "category": "Signal Chain"
             },
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "Isolated gate driver for power control",
               "category": "Isolated Gate Drivers"
             }
@@ -2490,7 +2490,7 @@
               },
               "reason": "Dual channel version for applications requiring two precision op-amps in one package",
               "useCase": "Dual-channel signal conditioning, differential amplifier configurations, cost-optimized two-channel designs",
-              "link": "/novosense/products/nsc6262.html"
+              "link": "/novosense/products/signal-chain/nsc6262"
             },
             {
               "partNumber": "OPA2188",
@@ -2509,31 +2509,31 @@
               },
               "reason": "Lower offset voltage from TI for ultra-precision applications",
               "useCase": "Ultra-precision applications requiring lower offset, applications where TI sourcing is preferred",
-              "link": "/ti/products/opa2188.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSC2860",
-              "link": "/novosense/products/nsc2860.html",
+              "link": "/novosense/products/signal-chain/nsc2860",
               "description": "Dual op-amp for second-stage amplification or filtering in precision measurement chain",
               "category": "Signal Chain Products"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for sending measurement data to central controller",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Additional channels for multi-sensor measurement systems",
               "category": "Signal Chain Products"
             },
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for isolating ADC from controller in noisy environments",
               "category": "Digital Isolators"
             }
@@ -2669,7 +2669,7 @@
               },
               "reason": "Higher accuracy and adjustable gain for precision applications",
               "useCase": "Precision current measurement, applications requiring different gain settings",
-              "link": "/novosense/products/nsc2862.html"
+              "link": "/novosense/products/signal-chain/nsc2862"
             },
             {
               "partNumber": "INA240",
@@ -2689,31 +2689,31 @@
               },
               "reason": "Higher accuracy from TI for precision applications",
               "useCase": "Ultra-precision applications, applications requiring negative common-mode capability",
-              "link": "/ti/products/ina240.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Op-amp for second-stage filtering and conditioning of current sense signal",
               "category": "Signal Chain Products"
             },
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for isolating current sense data in high-voltage systems",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi6230",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "description": "Gate driver in motor control system where NSC2860 monitors motor current",
               "category": "Isolated Gate Drivers"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "RS-485 for transmitting current monitoring data to central controller",
               "category": "Isolated Transceivers"
             }
@@ -2846,7 +2846,7 @@
                 "Cost": "Lower cost"
               },
               "useCase": "Cost-sensitive applications with 3% accuracy requirement",
-              "link": "/novosense/products/nsc2860.html"
+              "link": "/novosense/products/signal-chain/nsc2860"
             },
             {
               "partNumber": "INA240",
@@ -2863,25 +2863,25 @@
                 "Cost": "Higher cost"
               },
               "useCase": "Ultra-precision applications requiring <0.5% accuracy",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision op-amp for signal conditioning",
               "category": "Signal Chain"
             },
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for isolated current sensing",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "Isolated gate driver for motor control",
               "category": "Isolated Gate Drivers"
             }
@@ -3006,7 +3006,7 @@
                 "GBW": "1.5MHz > 500kHz (higher)"
               },
               "useCase": "High-performance applications where power consumption is not critical",
-              "link": "/novosense/products/nsc6264.html"
+              "link": "/novosense/products/signal-chain/nsc6264"
             },
             {
               "partNumber": "OPA2188",
@@ -3023,25 +3023,25 @@
                 "Package": "SOIC-8 > SOT23-5 (larger)"
               },
               "useCase": "Ultra-precision applications with moderate power budget",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "NSC2860",
-              "link": "/novosense/products/nsc2860.html",
+              "link": "/novosense/products/signal-chain/nsc2860",
               "description": "Current sense amplifier for battery current monitoring",
               "category": "Signal Chain"
             },
             {
               "partNumber": "NSi8220",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "description": "Digital isolator for isolated sensor interfaces",
               "category": "Digital Isolators"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated RS-485 for sensor network communication",
               "category": "Isolated Transceivers"
             }

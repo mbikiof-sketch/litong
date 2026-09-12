@@ -217,7 +217,7 @@
               "comparison": "density => 16Mb < 32Mb (half capacity); cost => lower price; applications => smaller firmware requirements, Voltage/Current specs comparable",
               "reason": "Lower cost option for applications with smaller firmware requirements",
               "useCase": "Simple embedded systems with limited code size",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS25Q64B",
@@ -230,25 +230,25 @@
               "comparison": "density => 64Mb > 32Mb (double capacity); cost => higher price; applications => larger firmware or data logging, Voltage/Current specs comparable",
               "reason": "Higher density for applications requiring more storage",
               "useCase": "Complex systems with large firmware or data storage needs",
-              "link": "#"
+              "link": "/dosilicon/products/spi-nor-flash/ds25q64b"
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS25Q32B-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS25Q32B with socket and test points",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistor for WP and HOLD pins",
               "category": "Passive Component"
             }
@@ -363,7 +363,7 @@
               "comparison": "speed => 66MHz < 133MHz (standard vs high-performance); interface => single SPI only; cost => lower price; applications => less demanding systems, Voltage/Current specs comparable",
               "reason": "Lower cost alternative for applications not requiring high speed",
               "useCase": "Applications with standard performance requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS25X256E",
@@ -376,25 +376,25 @@
               "comparison": "density => 256Mb > 128Mb (double capacity); speed => same 133MHz Quad; cost => higher price; applications => larger code storage, Voltage/Current specs comparable",
               "reason": "Higher density for applications requiring more storage with same performance",
               "useCase": "Large firmware applications and data logging",
-              "link": "#"
+              "link": "/dosilicon/products/spi-nor-flash/ds25x256e"
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS25X128E-EVAL",
-              "link": "#",
+              "link": "",
               "description": "High-speed evaluation board for DS25X128E",
               "category": "Development Tools"
             },
             {
               "partNumber": "22Ω Resistors",
-              "link": "#",
+              "link": "",
               "description": "Series termination resistors for SPI signal integrity",
               "category": "Passive Component"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR decoupling capacitor for high-speed operation",
               "category": "Passive Component"
             }
@@ -507,7 +507,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS50Q64B",
@@ -519,19 +519,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS25Q64B-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS25Q64B",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }
@@ -639,7 +639,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS50X256E",
@@ -651,19 +651,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS25X256E-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS25X256E",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }
@@ -879,7 +879,7 @@
               "comparison": "density => 1Gb < 2Gb (half capacity); cost => lower price; applications => smaller storage requirements, Voltage/Current specs comparable",
               "reason": "Lower cost option for applications with smaller storage needs",
               "useCase": "Cost-sensitive applications with moderate storage requirements",
-              "link": "#"
+              "link": "/dosilicon/products/spi-nand-flash/ds35q01g"
             },
             {
               "partNumber": "DS35Q04G",
@@ -892,25 +892,25 @@
               "comparison": "density => 4Gb > 2Gb (double capacity); cost => higher price; applications => larger storage needs, Voltage/Current specs comparable",
               "reason": "Higher density for applications requiring more storage capacity",
               "useCase": "Large file systems and extensive data logging applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS35Q02G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS35Q02G with test points",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC and VCCQ",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistor for CS# and other control signals",
               "category": "Passive Component"
             }
@@ -1029,7 +1029,7 @@
               "comparison": "ecc => 4-bit < 8-bit (standard vs enhanced); temperature => commercial vs industrial; cost => lower price; applications => less demanding environments, Voltage/Current specs comparable",
               "reason": "Lower cost option for commercial temperature applications",
               "useCase": "Consumer and commercial applications without industrial requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS35X08G",
@@ -1042,25 +1042,25 @@
               "comparison": "density => 8Gb > 4Gb (double capacity); ecc => same 8-bit; temperature => same industrial; cost => higher price; applications => maximum storage, Voltage/Current specs comparable",
               "reason": "Maximum density for applications requiring extensive storage",
               "useCase": "Large-scale data logging and high-capacity storage applications",
-              "link": "#"
+              "link": "/dosilicon/products/spi-nand-flash/ds35x08g"
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS35X04G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Industrial-grade evaluation board for DS35X04G",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR decoupling capacitors for VCC and VCCQ",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistors for control signals",
               "category": "Passive Component"
             }
@@ -1178,7 +1178,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS70Q01G",
@@ -1190,19 +1190,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS35Q01G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS35Q01G",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }
@@ -1314,7 +1314,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DS70X08G",
@@ -1326,19 +1326,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DS35X08G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DS35X08G",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }
@@ -1545,7 +1545,7 @@
               "comparison": "density => 16Mb+1Gb < 32Mb+2Gb (half capacity); cost => lower price; applications => smaller memory requirements, Voltage/Current specs comparable",
               "reason": "Lower cost option for applications with smaller memory needs",
               "useCase": "Simple IoT devices with limited code and data storage",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DSMCP64N4G",
@@ -1557,25 +1557,25 @@
               "comparison": "density => 64Mb+4Gb > 32Mb+2Gb (double capacity); cost => higher price; applications => larger memory requirements, Voltage/Current specs comparable",
               "reason": "Higher density for applications requiring more storage",
               "useCase": "Complex systems with large firmware and extensive data storage",
-              "link": "#"
+              "link": "/dosilicon/products/mcp-multi-chip-package/dsmcp64n4g"
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSMCP32N2G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DSMCP32N2G with test points",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitors for VCC pins",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistors for CS# signals",
               "category": "Passive Component"
             }
@@ -1677,7 +1677,7 @@
               "brand": "DOSILICON",
               "comparison": "density => 32Mb+2Gb < 64Mb+4Gb; cost => lower price, Voltage/Current specs comparable",
               "reason": "Lower cost for smaller storage needs",
-              "link": "#",
+              "link": "/dosilicon/products/mcp-multi-chip-package/dsmcp32n2g",
               "specifications": {
                 "configuration": "32Mb NOR + 2Gb NAND",
                 "package": "WSON-8"
@@ -1689,7 +1689,7 @@
               "brand": "DOSILICON",
               "comparison": "density => 16Mb+1Gb < 64Mb+4Gb (quarter capacity); cost => much lower price; applications => entry-level storage, Voltage/Current specs comparable",
               "reason": "Entry-level option for cost-sensitive applications with minimal storage needs",
-              "link": "#",
+              "link": "",
               "specifications": {
                 "configuration": "32Mb NOR + 2Gb NAND",
                 "package": "WSON-8"
@@ -1700,19 +1700,19 @@
           "companionParts": [
             {
               "partNumber": "DSMCP64N4G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitors",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistors",
               "category": "Passive Component"
             }
@@ -2096,7 +2096,7 @@
               "comparison": "density => 32Mb < 64Mb (half capacity); qualification => same AEC-Q100 Grade 1; cost => lower price; applications => smaller firmware, Voltage/Current specs comparable",
               "reason": "Lower cost option for automotive applications with smaller firmware",
               "useCase": "Automotive modules with moderate code storage requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DSA25Q128A",
@@ -2109,25 +2109,25 @@
               "comparison": "density => 128Mb > 64Mb (double capacity); qualification => same AEC-Q100 Grade 1; cost => higher price; applications => larger firmware, Voltage/Current specs comparable",
               "reason": "Higher density for automotive applications requiring more storage",
               "useCase": "Complex automotive systems with large firmware requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSA25Q64A-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Automotive-grade evaluation board for DSA25Q64A",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Automotive-grade decoupling capacitor",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistors for control signals",
               "category": "Passive Component"
             }
@@ -2231,7 +2231,7 @@
               "brand": "DOSILICON",
               "comparison": "temperature => 0 to +70°C vs -40 to +85°C; cost => lower, Voltage/Current specs comparable",
               "reason": "Lower cost for commercial applications",
-              "link": "#",
+              "link": "",
               "specifications": {
                 "density": "64Mb",
                 "temperature": "0 to +70C",
@@ -2244,7 +2244,7 @@
               "brand": "DOSILICON",
               "comparison": "density => 64Mb < 128Mb (half capacity); grade => same industrial; cost => lower price; applications => smaller firmware, Voltage/Current specs comparable",
               "reason": "Lower cost industrial option for applications with smaller storage requirements",
-              "link": "#",
+              "link": "",
               "specifications": {
                 "density": "64Mb",
                 "temperature": "0 to +70C",
@@ -2256,19 +2256,19 @@
           "companionParts": [
             {
               "partNumber": "DSI25Q128I-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor",
               "category": "Passive Component"
             },
             {
               "partNumber": "10kΩ Resistor",
-              "link": "#",
+              "link": "",
               "description": "Pull-up resistors",
               "category": "Passive Component"
             }
@@ -2373,7 +2373,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DSA50Q64A",
@@ -2385,19 +2385,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSA25Q64A-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DSA25Q64A",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }
@@ -2508,7 +2508,7 @@
               "comparison": "Lower capacity, reduced cost",
               "reason": "Cost-effective for smaller applications",
               "useCase": "Applications with reduced storage needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DSA70X04G",
@@ -2520,19 +2520,19 @@
               "comparison": "Higher capacity, increased cost",
               "reason": "More storage for demanding applications",
               "useCase": "Applications requiring more storage",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DSA35X04G-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for DSA35X04G",
               "category": "Development Tools"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitor for VCC pin",
               "category": "Passive Component"
             }

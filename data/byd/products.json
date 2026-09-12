@@ -283,7 +283,7 @@
               "comparison": "BG300F08A13L5=><BG400F08A13L5: Output current 400A > 300A (+33%), suitable for direct replacement",
               "reason": "Higher current for larger motor drives",
               "useCase": "150-200kW EV motor drives",
-              "link": "/byd/products/igbt-modules/bg400f08a13l5.html"
+              "link": "/byd/products/igbt-modules/bg400f08a13l5"
             },
             {
               "partNumber": "BG150G12F13L4",
@@ -295,20 +295,20 @@
               "comparison": "BG300F08A13L5=><BG150G12F13L4: Output current 150A < 300A (lower), suitable for direct replacement",
               "reason": "Higher voltage for 800V EV platforms",
               "useCase": "800V EV applications",
-              "link": "/byd/products/igbt-modules/bg150g12f13l4.html"
+              "link": "/byd/products/igbt-modules/bg150g12f13l4"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BG400F08A13L5",
               "description": "400A version for higher power",
-              "link": "/byd/products/igbt-modules/bg400f08a13l5.html",
+              "link": "/byd/products/igbt-modules/bg400f08a13l5",
               "category": "IGBT Modules"
             },
             {
               "partNumber": "BM600F12B34U2",
               "description": "SiC alternative for higher efficiency",
-              "link": "/byd/products/sic-modules/bm600f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm600f12b34u2",
               "category": "SiC Modules"
             }
           ],
@@ -401,14 +401,14 @@
               "comparison": "BG150G12F13L4=><BM600F12B34U2: Output current 400A > 150A (+167%), suitable for direct replacement",
               "reason": "Higher current and efficiency with SiC technology",
               "useCase": "High-performance 800V systems",
-              "link": "/byd/products/sic-modules/bm600f12b34u2.html"
+              "link": "/byd/products/sic-modules/bm600f12b34u2"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BM600F12B34U2",
               "description": "SiC alternative for higher efficiency",
-              "link": "/byd/products/sic-modules/bm600f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm600f12b34u2",
               "category": "SiC Modules"
             }
           ],
@@ -490,14 +490,14 @@
               "comparison": "BG200I07N10H6=><BG300F08A13L5: Output current 300A > 200A (higher), suitable for direct replacement",
               "reason": "Standard two-level topology alternative",
               "useCase": "Two-level converter designs",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html"
+              "link": "/byd/products/igbt-modules/bg300f08a13l5"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BG300F08A13L5",
               "description": "Two-level alternative",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html",
+              "link": "/byd/products/igbt-modules/bg300f08a13l5",
               "category": "IGBT Modules"
             }
           ],
@@ -580,14 +580,14 @@
               "comparison": "BG400F08A13L5=><BG300F08A13L5: Output current 300A < 400A (-25%), suitable for direct replacement",
               "reason": "Lower current for standard applications",
               "useCase": "75-150kW motor drives",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html"
+              "link": "/byd/products/igbt-modules/bg300f08a13l5"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BG300F08A13L5",
               "description": "300A version for standard power",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html",
+              "link": "/byd/products/igbt-modules/bg300f08a13l5",
               "category": "IGBT Modules"
             }
           ],
@@ -816,7 +816,7 @@
               "comparison": "BM840F12B34U2=><BM950F12B34U2: Output current 550A > 500A (+10%), suitable for direct replacement",
               "reason": "Higher current for ultra-high-power applications",
               "useCase": "180-350kW EV charging",
-              "link": "/byd/products/sic-modules/bm950f12b34u2.html"
+              "link": "/byd/products/sic-modules/bm950f12b34u2"
             },
             {
               "partNumber": "BG150G12F13L4",
@@ -828,20 +828,20 @@
               "comparison": "BM840F12B34U2=><BG150G12F13L4: Output current 150A < 500A (lower), suitable for direct replacement",
               "reason": "Lower cost IGBT alternative",
               "useCase": "Cost-sensitive applications",
-              "link": "/byd/products/igbt-modules/bg150g12f13l4.html"
+              "link": "/byd/products/igbt-modules/bg150g12f13l4"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BM950F12B34U2",
               "description": "550A version for ultra-high-power",
-              "link": "/byd/products/sic-modules/bm950f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm950f12b34u2",
               "category": "SiC Modules"
             },
             {
               "partNumber": "BG150G12F13L4",
               "description": "IGBT alternative for cost comparison",
-              "link": "/byd/products/igbt-modules/bg150g12f13l4.html",
+              "link": "/byd/products/igbt-modules/bg150g12f13l4",
               "category": "IGBT Modules"
             }
           ],
@@ -962,7 +962,7 @@
               "comparison": "BM950F12B34U2=><BM840F12B34U2: Output current 500A < 550A (-9%), suitable for direct replacement",
               "reason": "Lower current for standard high-power applications",
               "useCase": "Standard high-power EV charging",
-              "link": "/byd/products/sic-modules/bm840f12b34u2.html"
+              "link": "/byd/products/sic-modules/bm840f12b34u2"
             },
             {
               "partNumber": "BG400F08A13L5",
@@ -974,20 +974,20 @@
               "comparison": "BM950F12B34U2=><BG400F08A13L5: Output current 400A < 550A (lower), suitable for direct replacement",
               "reason": "Lower cost IGBT alternative for 400V systems",
               "useCase": "Cost-sensitive 400V applications",
-              "link": "/byd/products/igbt-modules/bg400f08a13l5.html"
+              "link": "/byd/products/igbt-modules/bg400f08a13l5"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BM840F12B34U2",
               "description": "500A version for standard high-power",
-              "link": "/byd/products/sic-modules/bm840f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm840f12b34u2",
               "category": "SiC Modules"
             },
             {
               "partNumber": "BG400F08A13L5",
               "description": "IGBT alternative for cost comparison",
-              "link": "/byd/products/igbt-modules/bg400f08a13l5.html",
+              "link": "/byd/products/igbt-modules/bg400f08a13l5",
               "category": "IGBT Modules"
             }
           ],
@@ -1108,7 +1108,7 @@
               "comparison": "BM600F12B34U2=><BM840F12B34U2: Output current 500A > 400A (+25%), suitable for direct replacement",
               "reason": "Higher current for larger systems",
               "useCase": "250-350kW EV charging",
-              "link": "/byd/products/sic-modules/bm840f12b34u2.html"
+              "link": "/byd/products/sic-modules/bm840f12b34u2"
             },
             {
               "partNumber": "BG300F08A13L5",
@@ -1120,20 +1120,20 @@
               "comparison": "BM600F12B34U2=><BG300F08A13L5: Output current 300A < 400A (lower), suitable for direct replacement",
               "reason": "Lower cost IGBT alternative for 400V systems",
               "useCase": "Cost-sensitive 400V applications",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html"
+              "link": "/byd/products/igbt-modules/bg300f08a13l5"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BM840F12B34U2",
               "description": "500A version for higher power",
-              "link": "/byd/products/sic-modules/bm840f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm840f12b34u2",
               "category": "SiC Modules"
             },
             {
               "partNumber": "BG300F08A13L5",
               "description": "IGBT alternative for cost comparison",
-              "link": "/byd/products/igbt-modules/bg300f08a13l5.html",
+              "link": "/byd/products/igbt-modules/bg300f08a13l5",
               "category": "IGBT Modules"
             }
           ],
@@ -1254,7 +1254,7 @@
               "comparison": "BM300F12B34U2=><BM600F12B34U2: Output current 400A > 300A (+33%), suitable for direct replacement",
               "reason": "Higher current for larger systems",
               "useCase": "150-250kW EV charging",
-              "link": "/byd/products/sic-modules/bm600f12b34u2.html"
+              "link": "/byd/products/sic-modules/bm600f12b34u2"
             },
             {
               "partNumber": "BG150G12F13L4",
@@ -1266,20 +1266,20 @@
               "comparison": "BM300F12B34U2=><BG150G12F13L4: Output current 150A < 300A (lower), suitable for direct replacement",
               "reason": "Lower cost IGBT alternative",
               "useCase": "Cost-sensitive 1200V applications",
-              "link": "/byd/products/igbt-modules/bg150g12f13l4.html"
+              "link": "/byd/products/igbt-modules/bg150g12f13l4"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BM600F12B34U2",
               "description": "400A version for higher power",
-              "link": "/byd/products/sic-modules/bm600f12b34u2.html",
+              "link": "/byd/products/sic-modules/bm600f12b34u2",
               "category": "SiC Modules"
             },
             {
               "partNumber": "BG150G12F13L4",
               "description": "IGBT alternative for cost comparison",
-              "link": "/byd/products/igbt-modules/bg150g12f13l4.html",
+              "link": "/byd/products/igbt-modules/bg150g12f13l4",
               "category": "IGBT Modules"
             }
           ],
@@ -1506,14 +1506,14 @@
               "comparison": "BIPM600C15A=><BIPM600C30A: Output current 30A > 15A (+100%), suitable for direct replacement",
               "reason": "Higher current for larger motors",
               "useCase": "Larger home appliances up to 1kW",
-              "link": "/byd/products/ipm-modules/bipm600c30a.html"
+              "link": "/byd/products/ipm-modules/bipm600c30a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BIPM600C30A",
               "description": "30A version for larger motors",
-              "link": "/byd/products/ipm-modules/bipm600c30a.html",
+              "link": "/byd/products/ipm-modules/bipm600c30a",
               "category": "IPM Modules"
             }
           ],
@@ -1594,14 +1594,14 @@
               "comparison": "BIPM600C30A=><BIPM600C15A: Output current 15A < 30A (-50%), suitable for direct replacement",
               "reason": "Lower current for smaller motors",
               "useCase": "Home appliances up to 500W",
-              "link": "/byd/products/ipm-modules/bipm600c15a.html"
+              "link": "/byd/products/ipm-modules/bipm600c15a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BIPM600C15A",
               "description": "15A version for smaller motors",
-              "link": "/byd/products/ipm-modules/bipm600c15a.html",
+              "link": "/byd/products/ipm-modules/bipm600c15a",
               "category": "IPM Modules"
             }
           ],
@@ -1682,14 +1682,14 @@
               "comparison": "BIPM1200C10A=><BIPM600C30A: Output current 30A > 10A (higher), suitable for direct replacement",
               "reason": "Higher current for lower voltage applications",
               "useCase": "220V/380V motor drives",
-              "link": "/byd/products/ipm-modules/bipm600c30a.html"
+              "link": "/byd/products/ipm-modules/bipm600c30a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BIPM600C30A",
               "description": "Higher current version for 600V applications",
-              "link": "/byd/products/ipm-modules/bipm600c30a.html",
+              "link": "/byd/products/ipm-modules/bipm600c30a",
               "category": "IPM Modules"
             }
           ],
@@ -1770,14 +1770,14 @@
               "comparison": "BIPM600C20AS=><BIPM600C15A: Output current 15A < 20A (-25%), Package DIP vs SMD, suitable for direct replacement",
               "reason": "DIP package alternative for through-hole assembly",
               "useCase": "Applications requiring through-hole mounting",
-              "link": "/byd/products/ipm-modules/bipm600c15a.html"
+              "link": "/byd/products/ipm-modules/bipm600c15a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BIPM600C15A",
               "description": "DIP package alternative",
-              "link": "/byd/products/ipm-modules/bipm600c15a.html",
+              "link": "/byd/products/ipm-modules/bipm600c15a",
               "category": "IPM Modules"
             }
           ],
@@ -2007,14 +2007,14 @@
               "comparison": "BSC040N06NS=><BSC060N06NS: Output current 80A < 100A (-20%), suitable for direct replacement",
               "reason": "Lower cost alternative",
               "useCase": "Cost-sensitive applications",
-              "link": "/byd/products/power-mosfets/bsc060n06ns.html"
+              "link": "/byd/products/power-mosfets/bsc060n06ns"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BSC060N06NS",
               "description": "Lower cost alternative",
-              "link": "/byd/products/power-mosfets/bsc060n06ns.html",
+              "link": "/byd/products/power-mosfets/bsc060n06ns",
               "category": "Power MOSFETs"
             }
           ],
@@ -2096,14 +2096,14 @@
               "comparison": "BSC060N06NS=><BSC040N06NS: Output current 100A > 80A (+25%), suitable for direct replacement",
               "reason": "Lower RDS(on) for higher efficiency",
               "useCase": "High-efficiency applications",
-              "link": "/byd/products/power-mosfets/bsc040n06ns.html"
+              "link": "/byd/products/power-mosfets/bsc040n06ns"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BSC040N06NS",
               "description": "Lower RDS(on) alternative",
-              "link": "/byd/products/power-mosfets/bsc040n06ns.html",
+              "link": "/byd/products/power-mosfets/bsc040n06ns",
               "category": "Power MOSFETs"
             }
           ],
@@ -2226,14 +2226,14 @@
               "comparison": "BSC014N10NS=><BSC040N06NS: Output current 100A < 120A (lower), suitable for direct replacement",
               "reason": "Lower voltage alternative for 12V/24V applications",
               "useCase": "Low-voltage DC-DC converters",
-              "link": "/byd/products/power-mosfets/bsc040n06ns.html"
+              "link": "/byd/products/power-mosfets/bsc040n06ns"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BSC040N06NS",
               "description": "60V alternative for lower voltage",
-              "link": "/byd/products/power-mosfets/bsc040n06ns.html",
+              "link": "/byd/products/power-mosfets/bsc040n06ns",
               "category": "Power MOSFETs"
             }
           ],
@@ -2336,14 +2336,14 @@
               "comparison": "BSC020N15NS=><BSC014N10NS: Output current 120A > 100A (higher), suitable for direct replacement",
               "reason": "Lower RDS(on) for 48V applications",
               "useCase": "48V DC-DC converters",
-              "link": "/byd/products/power-mosfets/bsc014n10ns.html"
+              "link": "/byd/products/power-mosfets/bsc014n10ns"
             }
           ],
           "companionParts": [
             {
               "partNumber": "BSC014N10NS",
               "description": "100V alternative with lower RDS(on)",
-              "link": "/byd/products/power-mosfets/bsc014n10ns.html",
+              "link": "/byd/products/power-mosfets/bsc014n10ns",
               "category": "Power MOSFETs"
             }
           ],

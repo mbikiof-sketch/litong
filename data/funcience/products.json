@@ -206,7 +206,7 @@
               },
               "reason": "Original chip that FCE1100 replaces; FCE1100 offers better pricing and local support",
               "useCase": "Use FCE1100 as drop-in replacement for cost reduction and supply security",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FCE1353",
@@ -226,37 +226,37 @@
               },
               "reason": "Upgraded version with integrated PHYs and 3-port support for more complex network topologies",
               "useCase": "Choose FCE1353 for 3-port applications or when BOM simplification is priority",
-              "link": "/funcience/products/ethercat-controllers/fce1353.html"
+              "link": "/funcience/products/ethercat-controllers/fce1353"
             }
           ],
           "companionParts": [
             {
               "partNumber": "KSZ8081",
-              "link": "#",
+              "link": "",
               "description": "Ethernet PHY chip for FCE1100, 100BASE-TX with Auto-MDIX",
               "category": "Ethernet PHY"
             },
             {
               "partNumber": "FCP32C335",
-              "link": "/funcience/products/dsp-processors/fcp32c335.html",
+              "link": "/funcience/products/dsp-processors/fcp32c335",
               "description": "DSP for host controller with rich peripherals and high performance",
               "category": "DSP Processor"
             },
             {
               "partNumber": "EEPROM 24C256",
-              "link": "#",
+              "link": "",
               "description": "I2C EEPROM for storing ESI configuration data",
               "category": "Memory"
             },
             {
               "partNumber": "FCE1100-EVK",
-              "link": "#",
+              "link": "/funcience/products/development-tools/fce1100-evk",
               "description": "Evaluation kit with reference design and sample code",
               "category": "Development Tools"
             },
             {
               "partNumber": "Isolation Transformers",
-              "link": "#",
+              "link": "",
               "description": "Ethernet isolation transformers for EMI compliance",
               "category": "Passive Components"
             }
@@ -378,7 +378,7 @@
               },
               "reason": "Original chip that FCE1353 replaces; FCE1353 offers better pricing and supply security",
               "useCase": "Use FCE1353 as drop-in replacement for LAN9253 for cost reduction and supply continuity",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FCE1100",
@@ -398,37 +398,37 @@
               },
               "reason": "Lower-cost 2-port alternative when 3 ports are not required",
               "useCase": "Choose FCE1100 for simple 2-port applications to reduce cost",
-              "link": "/funcience/products/ethercat-controllers/fce1100.html"
+              "link": "/funcience/products/ethercat-controllers/fce1100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "FCP32C335",
-              "link": "/funcience/products/dsp-processors/fcp32c335.html",
+              "link": "/funcience/products/dsp-processors/fcp32c335",
               "description": "High-performance DSP for complex motion control algorithms",
               "category": "DSP Processor"
             },
             {
               "partNumber": "DC-DC Converter",
-              "link": "#",
+              "link": "",
               "description": "1.2V/3.3V power supply for FCE1353 core and I/O",
               "category": "Power Management"
             },
             {
               "partNumber": "EEPROM 24C512",
-              "link": "#",
+              "link": "",
               "description": "Larger EEPROM for complex ESI configurations",
               "category": "Memory"
             },
             {
               "partNumber": "FCE1353-EVK",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit with 3-port reference design",
               "category": "Development Tools"
             },
             {
               "partNumber": "Magnetics",
-              "link": "#",
+              "link": "",
               "description": "Integrated magnetics modules for simplified Ethernet design",
               "category": "Passive Components"
             }
@@ -652,7 +652,7 @@
               },
               "reason": "Original TI chip that FCP32C335 replaces; FCP32C335 offers better pricing and local support",
               "useCase": "Use FCP32C335 as drop-in replacement for cost reduction and supply security",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FCP32C334",
@@ -672,37 +672,37 @@
               },
               "reason": "Lower-cost alternative for applications not requiring full FCP32C335 performance",
               "useCase": "Choose FCP32C334 for cost-sensitive applications with moderate performance requirements",
-              "link": "#"
+              "link": "/funcience/products/dsp-processors/fcp32c334"
             }
           ],
           "companionParts": [
             {
               "partNumber": "FCE1100",
-              "link": "/funcience/products/ethercat-controllers/fce1100.html",
+              "link": "/funcience/products/ethercat-controllers/fce1100",
               "description": "EtherCAT slave controller for industrial communication interface",
               "category": "EtherCAT Controller"
             },
             {
               "partNumber": "Gate Driver IC",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for power stage control",
               "category": "Power Driver"
             },
             {
               "partNumber": "Current Sensor",
-              "link": "#",
+              "link": "",
               "description": "Hall effect current sensor for motor current feedback",
               "category": "Sensor"
             },
             {
               "partNumber": "FCP32C335-EVK",
-              "link": "#",
+              "link": "/funcience/products/development-tools/fcp32c335-evk",
               "description": "Evaluation kit with motor control reference design",
               "category": "Development Tools"
             },
             {
               "partNumber": "Crystal 20MHz",
-              "link": "#",
+              "link": "",
               "description": "Precision crystal for DSP clock generation",
               "category": "Passive Components"
             }
@@ -826,7 +826,7 @@
               },
               "reason": "Higher performance version with HRPWM for precision applications",
               "useCase": "Upgrade to FCP32C335 for high-performance servo or precision control requirements",
-              "link": "/funcience/products/dsp-processors/fcp32c335.html"
+              "link": "/funcience/products/dsp-processors/fcp32c335"
             },
             {
               "partNumber": "TMS320F28035",
@@ -845,37 +845,37 @@
               },
               "reason": "Comparable TI alternative with lower performance and higher cost",
               "useCase": "FCP32C334 offers better performance and cost than TMS320F28035",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Gate Driver",
-              "link": "#",
+              "link": "",
               "description": "3-phase gate driver for motor power stage",
               "category": "Power Driver"
             },
             {
               "partNumber": "Shunt Resistor",
-              "link": "#",
+              "link": "",
               "description": "Current sense resistors for motor current measurement",
               "category": "Passive Components"
             },
             {
               "partNumber": "FCP32C334-EVK",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit with basic motor control example",
               "category": "Development Tools"
             },
             {
               "partNumber": "Power MOSFETs",
-              "link": "#",
+              "link": "",
               "description": "Power MOSFETs for motor drive inverter stage",
               "category": "Power Devices"
             },
             {
               "partNumber": "Optocouplers",
-              "link": "#",
+              "link": "",
               "description": "Isolation for PWM signals and feedback",
               "category": "Isolation"
             }
@@ -1243,7 +1243,7 @@
               },
               "reason": "Popular industrial PHY; FCPHY100 offers equivalent performance with local support",
               "useCase": "FCPHY100 is a cost-effective alternative to KSZ8081 for industrial applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DP83848",
@@ -1261,37 +1261,37 @@
               },
               "reason": "Widely used industrial PHY; FCPHY100 provides pin-compatible alternative",
               "useCase": "Use FCPHY100 as replacement for DP83848 in new designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "FCE1100",
-              "link": "/funcience/products/ethercat-controllers/fce1100.html",
+              "link": "/funcience/products/ethercat-controllers/fce1100",
               "description": "EtherCAT slave controller for industrial communication",
               "category": "EtherCAT Controller"
             },
             {
               "partNumber": "Magnetics Module",
-              "link": "#",
+              "link": "",
               "description": "Integrated transformer and RJ45 for Ethernet interface",
               "category": "Passive Components"
             },
             {
               "partNumber": "FCPHY100-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with reference Ethernet design",
               "category": "Development Tools"
             },
             {
               "partNumber": "TVS Diode Array",
-              "link": "#",
+              "link": "",
               "description": "Additional Ethernet line protection",
               "category": "Protection"
             },
             {
               "partNumber": "Crystal 25MHz",
-              "link": "#",
+              "link": "",
               "description": "Precision crystal for PHY clock generation",
               "category": "Passive Components"
             }
@@ -1410,7 +1410,7 @@
               },
               "reason": "Standard temperature alternative when extended range is not required",
               "useCase": "Choose FCPHY100 for standard industrial environments to reduce cost",
-              "link": "/funcience/products/industrial-phy/fcphy100.html"
+              "link": "/funcience/products/industrial-phy/fcphy100"
             },
             {
               "partNumber": "DP83849",
@@ -1427,37 +1427,37 @@
               },
               "reason": "Extended temperature PHY alternative; FCPHY105 offers better value",
               "useCase": "FCPHY105 provides equivalent performance with better pricing and support",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Surge Protector",
-              "link": "#",
+              "link": "",
               "description": "External surge protection module for severe environments",
               "category": "Protection"
             },
             {
               "partNumber": "Industrial Magnetics",
-              "link": "#",
+              "link": "",
               "description": "Extended temperature rated magnetics module",
               "category": "Passive Components"
             },
             {
               "partNumber": "TVS Array",
-              "link": "#",
+              "link": "",
               "description": "High-power TVS for surge protection",
               "category": "Protection"
             },
             {
               "partNumber": "FCPHY105-EVB",
-              "link": "#",
+              "link": "",
               "description": "Extended temperature evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "Thermal Pad",
-              "link": "#",
+              "link": "",
               "description": "Thermal interface material for QFN package",
               "category": "Thermal Management"
             }
@@ -1557,7 +1557,8 @@
           "companionParts": [
             {
               "partNumber": "FCE1100",
-              "relationship": "Companion"
+              "relationship": "Companion",
+              "link": "/funcience/products/ethercat-controllers/fce1100"
             }
           ],
           "specifications": {
@@ -1614,7 +1615,8 @@
           "companionParts": [
             {
               "partNumber": "FCE1353",
-              "relationship": "Companion"
+              "relationship": "Companion",
+              "link": "/funcience/products/ethercat-controllers/fce1353"
             }
           ],
           "specifications": {
@@ -1791,7 +1793,7 @@
               },
               "reason": "Evaluation kit for FCE1353 with integrated PHYs and 3-port support",
               "useCase": "Choose FCE1353-EVK for 3-port or integrated PHY evaluation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ET1100 Evaluation Board",
@@ -1807,37 +1809,37 @@
               },
               "reason": "Beckhoff reference design; FCE1100-EVK provides equivalent functionality",
               "useCase": "FCE1100-EVK is cost-effective alternative for ET1100 evaluation",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "FCE1100",
-              "link": "/funcience/products/ethercat-controllers/fce1100.html",
+              "link": "/funcience/products/ethercat-controllers/fce1100",
               "description": "Production quantities of FCE1100 chip",
               "category": "EtherCAT Controller"
             },
             {
               "partNumber": "TwinCAT Software",
-              "link": "#",
+              "link": "",
               "description": "Beckhoff EtherCAT master for testing",
               "category": "Software"
             },
             {
               "partNumber": "USB Cable",
-              "link": "#",
+              "link": "",
               "description": "USB cable for power and communication",
               "category": "Accessories"
             },
             {
               "partNumber": "Ethernet Cables",
-              "link": "#",
+              "link": "",
               "description": "CAT5e cables for EtherCAT network",
               "category": "Accessories"
             },
             {
               "partNumber": "JTAG Debugger",
-              "link": "#",
+              "link": "",
               "description": "Debugger for host MCU programming",
               "category": "Development Tools"
             }
@@ -1958,7 +1960,7 @@
               },
               "reason": "TI reference kit; FCP32C335-EVK provides equivalent functionality at better value",
               "useCase": "FCP32C335-EVK is cost-effective alternative for C2000 development",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "FCP32C334-EVK",
@@ -1974,37 +1976,37 @@
               },
               "reason": "Lower-cost evaluation kit for FCP32C334 with reduced power stage",
               "useCase": "Choose FCP32C334-EVK for cost-sensitive or lower power applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "FCP32C335",
-              "link": "/funcience/products/dsp-processors/fcp32c335.html",
+              "link": "/funcience/products/dsp-processors/fcp32c335",
               "description": "Production quantities of FCP32C335 DSP",
               "category": "DSP Processor"
             },
             {
               "partNumber": "Test Motor",
-              "link": "#",
+              "link": "",
               "description": "PMSM or BLDC motor for evaluation",
               "category": "Accessories"
             },
             {
               "partNumber": "JTAG Emulator",
-              "link": "#",
+              "link": "",
               "description": "XDS100 or compatible JTAG debugger",
               "category": "Development Tools"
             },
             {
               "partNumber": "Power Supply",
-              "link": "#",
+              "link": "",
               "description": "24-48V DC power supply for inverter",
               "category": "Accessories"
             },
             {
               "partNumber": "Encoder Cable",
-              "link": "#",
+              "link": "",
               "description": "Cable for quadrature encoder connection",
               "category": "Accessories"
             }

@@ -193,7 +193,7 @@
               "brand": "Nichicon",
               "reason": "Higher voltage rating for applications with voltage transients",
               "useCase": "Industrial and automotive applications with voltage spikes or surges",
-              "link": "/nichicon/products/uhe1h471mpd-320uf-50v",
+              "link": "",
               "comparison": {
                 "capacitance": "320uF < 470uF (-32% lower capacity)",
                 "voltage": "50V = 50V (same voltage)",
@@ -211,7 +211,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance and voltage rating for enhanced performance",
               "useCase": "Applications requiring increased energy storage and higher voltage margins",
-              "link": "/nichicon/products/uhe1h471mpd-470uf-75v",
+              "link": "",
               "comparison": {
                 "capacitance": "470uF = 470uF (same capacity)",
                 "voltage": "75V > 50V (+50% higher voltage)",
@@ -230,19 +230,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -385,7 +385,7 @@
               "brand": "Nichicon",
               "reason": "Cost-effective alternative with slightly reduced specifications",
               "useCase": "Budget-sensitive applications with moderate performance requirements",
-              "link": "/nichicon/products/uhe1e471mpd-320uf-25v",
+              "link": "",
               "comparison": {
                 "capacitance": "320uF < 470uF (-32% lower capacity)",
                 "voltage": "25V < 50V (-50% lower voltage)",
@@ -403,7 +403,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/uhe1e471mpd-470uf-38v",
+              "link": "",
               "comparison": {
                 "capacitance": "470uF = 470uF (same capacity)",
                 "voltage": "38V < 50V (-24% lower voltage)",
@@ -422,19 +422,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -845,7 +845,7 @@
               "brand": "Nichicon",
               "reason": "Lower voltage rating for cost-sensitive applications",
               "useCase": "16V applications where 25V rating is not required",
-              "link": "/nichicon/products/lxz16vb471m8x20ll",
+              "link": "",
               "comparison": {
                 "capacitance": "470uF = 470uF (same)",
                 "voltage": "16V < 25V (lower voltage)",
@@ -863,7 +863,7 @@
               "brand": "Nichicon",
               "reason": "Higher voltage rating with slightly lower capacitance",
               "useCase": "Applications requiring 35V rating with similar performance",
-              "link": "/nichicon/products/lxz35vb331m8x20ll",
+              "link": "",
               "comparison": {
                 "capacitance": "330uF < 470uF (-30% lower)",
                 "voltage": "35V > 25V (+40% higher voltage)",
@@ -882,19 +882,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -997,7 +997,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance option for cost-sensitive designs",
               "useCase": "Lower power applications requiring 15uF at 400V",
-              "link": "/nichicon/products/ucy2g150mpd",
+              "link": "",
               "comparison": {
                 "capacitance": "15uF < 22uF (-32% lower)",
                 "voltage": "400V = 400V (same)",
@@ -1015,7 +1015,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for increased energy storage",
               "useCase": "Higher power applications requiring 33uF at 400V",
-              "link": "/nichicon/products/ucy2g330mpd",
+              "link": "",
               "comparison": {
                 "capacitance": "33uF > 22uF (+50% higher)",
                 "voltage": "400V = 400V (same)",
@@ -1034,19 +1034,19 @@
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Secondary Filter",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             },
             {
               "partNumber": "LXZ25VB471M8X20LL",
               "description": "470uF 25V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz25vb471m8x20ll"
+              "link": "/nichicon/products/aluminum-electrolytic/lxz25vb471m8x20ll"
             }
           ],
           "applicationScenarios": [
@@ -1242,7 +1242,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance and voltage rating for enhanced performance",
               "useCase": "Applications requiring increased energy storage and higher voltage margins",
-              "link": "/nichicon/products/ecwf4105ja-1uf-1000v",
+              "link": "",
               "comparison": {
                 "capacitance": "1uF = 1uF (same capacity)",
                 "voltage": "1000V > 50V (+1900% higher voltage)",
@@ -1260,7 +1260,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance and voltage rating for enhanced performance",
               "useCase": "Applications requiring increased energy storage and higher voltage margins",
-              "link": "/nichicon/products/ecwf4105ja-1uf-1500v",
+              "link": "",
               "comparison": {
                 "capacitance": "1uF = 1uF (same capacity)",
                 "voltage": "1500V > 50V (+2900% higher voltage)",
@@ -1279,19 +1279,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -1434,7 +1434,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance and voltage rating for enhanced performance",
               "useCase": "Applications requiring increased energy storage and higher voltage margins",
-              "link": "/nichicon/products/ecwf4155ja-1uf-1000v",
+              "link": "",
               "comparison": {
                 "capacitance": "1uF = 1uF (same capacity)",
                 "voltage": "1000V > 50V (+1900% higher voltage)",
@@ -1452,7 +1452,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance and voltage rating for enhanced performance",
               "useCase": "Applications requiring increased energy storage and higher voltage margins",
-              "link": "/nichicon/products/ecwf4155ja-1.5uf-1500v",
+              "link": "",
               "comparison": {
                 "capacitance": "5uF > 1uF (+400% higher capacity)",
                 "voltage": "1500V > 50V (+2900% higher voltage)",
@@ -1471,19 +1471,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -1894,7 +1894,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for increased energy storage",
               "useCase": "Applications requiring 3uF at 1000V",
-              "link": "/nichicon/products/ecwf4305ja",
+              "link": "",
               "comparison": {
                 "capacitance": "3uF > 2uF (+50% higher)",
                 "voltage": "1000V = 1000V (same)",
@@ -1912,7 +1912,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance for cost-optimized designs",
               "useCase": "Applications requiring 2.5uF at 1000V",
-              "link": "/nichicon/products/ecwf4255ja",
+              "link": "",
               "comparison": {
                 "capacitance": "2.5uF > 2uF (+25% higher)",
                 "voltage": "1000V = 1000V (same)",
@@ -1931,19 +1931,19 @@
               "partNumber": "ECWF4105JA",
               "description": "1uF 1000V film capacitor",
               "category": "DC-Link",
-              "link": "/nichicon/products/ecwf4105ja"
+              "link": "/panasonic/products/film-capacitors/ecwf4105ja"
             },
             {
               "partNumber": "ECWF4155JA",
               "description": "1.5uF 1000V film capacitor",
               "category": "DC-Link",
-              "link": "/nichicon/products/ecwf4155ja"
+              "link": "/panasonic/products/film-capacitors/ecwf4155ja"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V electrolytic capacitor",
               "category": "Bulk Storage",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             }
           ],
           "applicationScenarios": [
@@ -2046,7 +2046,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance for high-frequency applications",
               "useCase": "Applications requiring 0.001uF (1nF) at 310VAC",
-              "link": "/nichicon/products/ecqe6102jf",
+              "link": "",
               "comparison": {
                 "capacitance": "0.001uF < 0.01uF (-90% lower)",
                 "voltage": "310VAC = 310VAC (same)",
@@ -2064,7 +2064,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering",
               "useCase": "Applications requiring 0.1uF (100nF) at 310VAC",
-              "link": "/nichicon/products/ecqe6104jf",
+              "link": "",
               "comparison": {
                 "capacitance": "0.1uF > 0.01uF (+900% higher)",
                 "voltage": "310VAC = 310VAC (same)",
@@ -2083,19 +2083,19 @@
               "partNumber": "ECWF4105JA",
               "description": "1uF 1000V DC-link capacitor",
               "category": "DC-Link",
-              "link": "/nichicon/products/ecwf4105ja"
+              "link": "/panasonic/products/film-capacitors/ecwf4105ja"
             },
             {
               "partNumber": "ECWF4155JA",
               "description": "1.5uF 1000V DC-link capacitor",
               "category": "DC-Link",
-              "link": "/nichicon/products/ecwf4155ja"
+              "link": "/panasonic/products/film-capacitors/ecwf4155ja"
             },
             {
               "partNumber": "ECWF4205JA",
               "description": "2uF 1000V DC-link capacitor",
               "category": "DC-Link",
-              "link": "/nichicon/products/ecwf4205ja"
+              "link": "/nichicon/products/film-capacitors/ecwf4205ja"
             }
           ],
           "applicationScenarios": [
@@ -2291,7 +2291,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/jjd0e105-1uf-2.5v",
+              "link": "",
               "comparison": {
                 "capacitance": "1uF = 1uF (same capacity)",
                 "voltage": "5V < 50V (-90% lower voltage)",
@@ -2309,7 +2309,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/jjd0e105-1uf-3v",
+              "link": "",
               "comparison": {
                 "capacitance": "1uF = 1uF (same capacity)",
                 "voltage": "3V < 50V (-94% lower voltage)",
@@ -2328,19 +2328,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -2483,7 +2483,7 @@
               "brand": "Nichicon",
               "reason": "Cost-effective alternative with slightly reduced specifications",
               "useCase": "Budget-sensitive applications with moderate performance requirements",
-              "link": "/nichicon/products/jje0e226-15uf-2.5v",
+              "link": "",
               "comparison": {
                 "capacitance": "15uF < 22uF (-32% lower capacity)",
                 "voltage": "5V < 50V (-90% lower voltage)",
@@ -2501,7 +2501,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/jje0e226-22uf-3v",
+              "link": "",
               "comparison": {
                 "capacitance": "22uF = 22uF (same capacity)",
                 "voltage": "3V < 50V (-94% lower voltage)",
@@ -2520,19 +2520,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -2943,7 +2943,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for increased energy storage",
               "useCase": "Applications requiring 22F at 2.5V",
-              "link": "/nichicon/products/jjc0e226",
+              "link": "",
               "comparison": {
                 "capacitance": "22F > 15F (+47% higher)",
                 "voltage": "2.5V = 2.5V (same)",
@@ -2961,7 +2961,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance for compact designs",
               "useCase": "Space-constrained applications requiring 10F at 2.5V",
-              "link": "/nichicon/products/jjc0e106",
+              "link": "",
               "comparison": {
                 "capacitance": "10F < 15F (-33% lower)",
                 "voltage": "2.5V = 2.5V (same)",
@@ -2980,19 +2980,19 @@
               "partNumber": "JJD0E105",
               "description": "1F 2.5V EDLC supercapacitor",
               "category": "Energy Storage",
-              "link": "/nichicon/products/jjd0e105"
+              "link": "/nichicon/products/edlc-supercapacitors/jjd0e105"
             },
             {
               "partNumber": "JJE0E226",
               "description": "22F 2.5V high-capacitance EDLC",
               "category": "Energy Storage",
-              "link": "/nichicon/products/jje0e226"
+              "link": "/nichicon/products/edlc-supercapacitors/jje0e226"
             },
             {
               "partNumber": "PCF1C330MCL1GS",
               "description": "33uF 16V conductive polymer capacitor",
               "category": "Filter",
-              "link": "/nichicon/products/pcf1c330mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcf1c330mcl1gs"
             }
           ],
           "applicationScenarios": [
@@ -3095,7 +3095,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for extended backup time",
               "useCase": "Applications requiring 1F at 2.5V",
-              "link": "/nichicon/products/jjd0e105",
+              "link": "/nichicon/products/edlc-supercapacitors/jjd0e105",
               "comparison": {
                 "capacitance": "1F > 0.22F (+355% higher)",
                 "voltage": "2.5V < 5.5V (lower voltage)",
@@ -3113,7 +3113,7 @@
               "brand": "Nichicon",
               "reason": "Mid-range capacitance option",
               "useCase": "Applications requiring 0.47F at 5.5V",
-              "link": "/nichicon/products/jjd0e155",
+              "link": "",
               "comparison": {
                 "capacitance": "0.47F > 0.22F (+114% higher)",
                 "voltage": "5.5V = 5.5V (same)",
@@ -3132,19 +3132,19 @@
               "partNumber": "JJC0E156",
               "description": "15F 2.5V cylindrical EDLC",
               "category": "Energy Storage",
-              "link": "/nichicon/products/jjc0e156"
+              "link": "/nichicon/products/edlc-supercapacitors/jjc0e156"
             },
             {
               "partNumber": "JJE0E226",
               "description": "22F 2.5V high-capacitance EDLC",
               "category": "Energy Storage",
-              "link": "/nichicon/products/jje0e226"
+              "link": "/nichicon/products/edlc-supercapacitors/jje0e226"
             },
             {
               "partNumber": "PCF1C330MCL1GS",
               "description": "33uF 16V conductive polymer capacitor",
               "category": "Filter",
-              "link": "/nichicon/products/pcf1c330mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcf1c330mcl1gs"
             }
           ],
           "applicationScenarios": [
@@ -3340,7 +3340,7 @@
               "brand": "Nichicon",
               "reason": "Cost-effective alternative with slightly reduced specifications",
               "useCase": "Budget-sensitive applications with moderate performance requirements",
-              "link": "/nichicon/products/pcf1c330mcl1gs-22uf-16v",
+              "link": "",
               "comparison": {
                 "capacitance": "22uF < 33uF (-33% lower capacity)",
                 "voltage": "16V < 50V (-68% lower voltage)",
@@ -3358,7 +3358,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/pcf1c330mcl1gs-33uf-24v",
+              "link": "",
               "comparison": {
                 "capacitance": "33uF = 33uF (same capacity)",
                 "voltage": "24V < 50V (-52% lower voltage)",
@@ -3377,19 +3377,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -3532,7 +3532,7 @@
               "brand": "Nichicon",
               "reason": "Cost-effective alternative with slightly reduced specifications",
               "useCase": "Budget-sensitive applications with moderate performance requirements",
-              "link": "/nichicon/products/pcl1c101mcl1gs-68uf-16v",
+              "link": "",
               "comparison": {
                 "capacitance": "68uF < 100uF (-32% lower capacity)",
                 "voltage": "16V < 50V (-68% lower voltage)",
@@ -3550,7 +3550,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering and energy storage",
               "useCase": "Applications with high ripple current or requiring longer hold-up times",
-              "link": "/nichicon/products/pcl1c101mcl1gs-100uf-24v",
+              "link": "",
               "comparison": {
                 "capacitance": "100uF = 100uF (same capacity)",
                 "voltage": "24V < 50V (-52% lower voltage)",
@@ -3569,19 +3569,19 @@
               "partNumber": "UCY2G220MPD",
               "description": "22uF 400V input filter capacitor",
               "category": "Input Filter",
-              "link": "/nichicon/products/ucy2g220mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/ucy2g220mpd"
             },
             {
               "partNumber": "UHE1H471MPD",
               "description": "470uF 50V output filter capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/uhe1h471mpd"
+              "link": "/nichicon/products/aluminum-electrolytic/uhe1h471mpd"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V low-ESR capacitor",
               "category": "Decoupling",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [
@@ -3992,7 +3992,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance for space-constrained designs",
               "useCase": "Applications requiring 150uF at 10V",
-              "link": "/nichicon/products/pcl1a151mcl1gs",
+              "link": "",
               "comparison": {
                 "capacitance": "150uF < 220uF (-32% lower)",
                 "voltage": "10V = 10V (same)",
@@ -4010,7 +4010,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved filtering",
               "useCase": "Applications requiring 330uF at 10V",
-              "link": "/nichicon/products/pcl1a331mcl1gs",
+              "link": "",
               "comparison": {
                 "capacitance": "330uF > 220uF (+50% higher)",
                 "voltage": "10V = 10V (same)",
@@ -4029,19 +4029,19 @@
               "partNumber": "PCF1C330MCL1GS",
               "description": "33uF 16V conductive polymer capacitor",
               "category": "Secondary Filter",
-              "link": "/nichicon/products/pcf1c330mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcf1c330mcl1gs"
             },
             {
               "partNumber": "PCL1C101MCL1GS",
               "description": "100uF 16V conductive polymer capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/pcl1c101mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcl1c101mcl1gs"
             },
             {
               "partNumber": "LXZ25VB471M8X20LL",
               "description": "470uF 25V aluminum electrolytic capacitor",
               "category": "Bulk Storage",
-              "link": "/nichicon/products/lxz25vb471m8x20ll"
+              "link": "/nichicon/products/aluminum-electrolytic/lxz25vb471m8x20ll"
             }
           ],
           "applicationScenarios": [
@@ -4144,7 +4144,7 @@
               "brand": "Nichicon",
               "reason": "Lower capacitance for cost-sensitive designs",
               "useCase": "Applications requiring 330uF at 6.3V",
-              "link": "/nichicon/products/pca0j331mcl1gs",
+              "link": "",
               "comparison": {
                 "capacitance": "330uF < 470uF (-30% lower)",
                 "voltage": "6.3V = 6.3V (same)",
@@ -4162,7 +4162,7 @@
               "brand": "Nichicon",
               "reason": "Higher capacitance for improved hold-up time",
               "useCase": "Applications requiring 680uF at 6.3V",
-              "link": "/nichicon/products/pca0j681mcl1gs",
+              "link": "",
               "comparison": {
                 "capacitance": "680uF > 470uF (+45% higher)",
                 "voltage": "6.3V = 6.3V (same)",
@@ -4181,19 +4181,19 @@
               "partNumber": "PCF1C330MCL1GS",
               "description": "33uF 16V conductive polymer capacitor",
               "category": "Secondary Filter",
-              "link": "/nichicon/products/pcf1c330mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcf1c330mcl1gs"
             },
             {
               "partNumber": "PCL1A221MCL1GS",
               "description": "220uF 10V ultra-low ESR capacitor",
               "category": "Output Filter",
-              "link": "/nichicon/products/pcl1a221mcl1gs"
+              "link": "/nichicon/products/conductive-polymer/pcl1a221mcl1gs"
             },
             {
               "partNumber": "LXZ16VB471M8X20LL",
               "description": "470uF 16V aluminum electrolytic capacitor",
               "category": "Bulk Storage",
-              "link": "/nichicon/products/lxz16vb471m8x20ll"
+              "link": ""
             }
           ],
           "applicationScenarios": [

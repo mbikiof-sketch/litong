@@ -199,7 +199,7 @@
               },
               "reason": "Direct pin-to-pin and software compatible replacement with significant cost reduction",
               "useCase": "Use HS32F103C8T6 as a cost-effective alternative in existing STM32F103 designs",
-              "link": "/stm32/products/general-purpose-mcu/stm32f103c8t6.html"
+              "link": ""
             },
             {
               "partNumber": "HS32F103RBT6",
@@ -221,37 +221,37 @@
               },
               "reason": "Higher memory capacity and more GPIO pins for complex applications",
               "useCase": "Upgrade to HS32F103RBT6 when more Flash memory or additional GPIO is needed",
-              "link": "/hangshun/products/general-purpose-mcu/hs32f103rbt6.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "8MHz Crystal",
-              "link": "#",
+              "link": "",
               "description": "External 8MHz crystal for HSE clock source, required for USB operation",
               "category": "Passive Components"
             },
             {
               "partNumber": "AMS1117-3.3",
-              "link": "#",
+              "link": "",
               "description": "3.3V LDO voltage regulator for MCU power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "HS32F103C8T6 Dev Board",
-              "link": "#",
+              "link": "",
               "description": "Development board with onboard debugger and peripheral connectors",
               "category": "Development Tools"
             },
             {
               "partNumber": "TJA1050",
-              "link": "#",
+              "link": "",
               "description": "CAN transceiver for CAN bus communication",
               "category": "Interface ICs"
             },
             {
               "partNumber": "USB Connector",
-              "link": "#",
+              "link": "",
               "description": "USB Type-B or Micro-USB connector for USB interface",
               "category": "Connectors"
             }
@@ -381,7 +381,7 @@
               },
               "reason": "Functionally compatible with smaller package and lower cost",
               "useCase": "Use HS32F405RGT6 as cost-effective alternative to STM32F407 in space-constrained designs",
-              "link": "/stm32/products/general-purpose-mcu/stm32f407vgt6.html"
+              "link": "/st/products/microcontrollers/stm32f407vgt6"
             },
             {
               "partNumber": "HS32F103RBT6",
@@ -403,37 +403,37 @@
               },
               "reason": "Lower cost option for applications not requiring high performance",
               "useCase": "Downgrade to HS32F103RBT6 for cost-sensitive applications with moderate processing needs",
-              "link": "/hangshun/products/general-purpose-mcu/hs32f103rbt6.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "25MHz Crystal",
-              "link": "#",
+              "link": "",
               "description": "External 25MHz crystal for HSE and Ethernet PHY clock",
               "category": "Passive Components"
             },
             {
               "partNumber": "DP83848",
-              "link": "#",
+              "link": "",
               "description": "Ethernet PHY transceiver for 10/100Mbps Ethernet interface",
               "category": "Interface ICs"
             },
             {
               "partNumber": "HS32F405 Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Comprehensive development kit with Ethernet, USB, and display interface",
               "category": "Development Tools"
             },
             {
               "partNumber": "W25Q128",
-              "link": "#",
+              "link": "",
               "description": "External 128Mbit SPI Flash for additional storage",
               "category": "Memory"
             },
             {
               "partNumber": "IS42S16400J",
-              "link": "#",
+              "link": "",
               "description": "External 64Mbit SDRAM for high-speed data buffering",
               "category": "Memory"
             }
@@ -651,7 +651,7 @@
               },
               "reason": "Integrated touch controller with better water rejection and lower BOM cost",
               "useCase": "Use HS32T016C8T6 for integrated touch solution with water rejection capability",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32T024RGT6",
@@ -670,37 +670,37 @@
               },
               "reason": "More touch channels for complex HMI applications",
               "useCase": "Upgrade to HS32T024RGT6 for applications requiring more than 16 touch channels",
-              "link": "/hangshun/products/touch-control-mcu/hs32t024rgt6.html"
+              "link": "/hangshun/products/touch-control-mcu/hs32t024rgt6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "4mm Tempered Glass",
-              "link": "#",
+              "link": "",
               "description": "Tempered glass overlay for touch panel, 4mm thickness",
               "category": "Mechanical"
             },
             {
               "partNumber": "LED Backlight Driver",
-              "link": "#",
+              "link": "",
               "description": "Constant current LED driver for button backlighting",
               "category": "Power Management"
             },
             {
               "partNumber": "Buzzer",
-              "link": "#",
+              "link": "",
               "description": "Piezo buzzer for touch feedback audio",
               "category": "Audio"
             },
             {
               "partNumber": "HS32T016 Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Touch control development kit with glass overlay",
               "category": "Development Tools"
             },
             {
               "partNumber": "Optical Bonding Adhesive",
-              "link": "#",
+              "link": "",
               "description": "Optical clear adhesive for bonding glass to PCB",
               "category": "Materials"
             }
@@ -827,7 +827,7 @@
               },
               "reason": "More channels, better water rejection, and ARM ecosystem advantages",
               "useCase": "Use HS32T024RGT6 for complex touch interfaces requiring gesture recognition",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32T016C8T6",
@@ -846,37 +846,37 @@
               },
               "reason": "Lower cost for simpler applications not requiring advanced features",
               "useCase": "Downgrade to HS32T016C8T6 for cost-sensitive applications with basic touch needs",
-              "link": "/hangshun/products/touch-control-mcu/hs32t016c8t6.html"
+              "link": "/hangshun/products/touch-control-mcu/hs32t016c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "6mm Tempered Glass",
-              "link": "#",
+              "link": "",
               "description": "Premium tempered glass overlay, 6mm thickness with anti-fingerprint coating",
               "category": "Mechanical"
             },
             {
               "partNumber": "Haptic Driver DRV2605",
-              "link": "#",
+              "link": "",
               "description": "Haptic feedback driver for touch confirmation vibration",
               "category": "Interface ICs"
             },
             {
               "partNumber": "RGB LED Ring",
-              "link": "#",
+              "link": "",
               "description": "Addressable RGB LEDs for dynamic button backlighting",
               "category": "Optoelectronics"
             },
             {
               "partNumber": "HS32T024 Premium Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Premium development kit with gesture demo and haptic feedback",
               "category": "Development Tools"
             },
             {
               "partNumber": "EMI Filter Array",
-              "link": "#",
+              "link": "",
               "description": "Integrated EMI filter for noise reduction in industrial environments",
               "category": "Passive Components"
             }
@@ -1094,7 +1094,7 @@
               },
               "reason": "Integrated solution with lower BOM cost and smaller PCB",
               "useCase": "Use HS32M100C8T6 for integrated motor control solution reducing external components",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32M200RGT6",
@@ -1114,37 +1114,37 @@
               },
               "reason": "Higher performance with FPU for complex FOC algorithms",
               "useCase": "Upgrade to HS32M200RGT6 for high-speed motors or complex FOC applications",
-              "link": "/hangshun/products/motor-control-mcu/hs32m200rgt6.html"
+              "link": "/hangshun/products/motor-control-mcu/hs32m200rgt6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IRFB7530 MOSFET",
-              "link": "#",
+              "link": "",
               "description": "60V N-channel MOSFET for low-voltage motor drives",
               "category": "Power Devices"
             },
             {
               "partNumber": "0.05Ω Shunt Resistor",
-              "link": "#",
+              "link": "",
               "description": "Current sense resistor for motor current measurement",
               "category": "Passive Components"
             },
             {
               "partNumber": "HS32M100 Motor Kit",
-              "link": "#",
+              "link": "",
               "description": "Motor control development kit with BLDC motor and power stage",
               "category": "Development Tools"
             },
             {
               "partNumber": "Hall Effect Sensors",
-              "link": "#",
+              "link": "",
               "description": "3-phase Hall sensors for BLDC commutation",
               "category": "Sensors"
             },
             {
               "partNumber": "DC Bus Capacitor",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR electrolytic capacitor for DC link filtering",
               "category": "Passive Components"
             }
@@ -1271,7 +1271,7 @@
               },
               "reason": "ARM ecosystem with lower cost and easier development",
               "useCase": "Use HS32M200RGT6 for cost-effective servo control with standard ARM development tools",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32M100C8T6",
@@ -1291,37 +1291,37 @@
               },
               "reason": "Lower cost for simpler applications not requiring high performance",
               "useCase": "Downgrade to HS32M100C8T6 for cost-sensitive BLDC applications without complex FOC",
-              "link": "/hangshun/products/motor-control-mcu/hs32m100c8t6.html"
+              "link": "/hangshun/products/motor-control-mcu/hs32m100c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "IGBT Module 600V/50A",
-              "link": "#",
+              "link": "",
               "description": "600V 50A IGBT module for high-voltage motor drives",
               "category": "Power Devices"
             },
             {
               "partNumber": "Isolated Gate Driver",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for high-voltage IGBT applications",
               "category": "Interface ICs"
             },
             {
               "partNumber": "HS32M200 Servo Kit",
-              "link": "#",
+              "link": "",
               "description": "High-performance servo development kit with PMSM motor",
               "category": "Development Tools"
             },
             {
               "partNumber": "2500-line Encoder",
-              "link": "#",
+              "link": "",
               "description": "High-resolution optical encoder for servo position feedback",
               "category": "Sensors"
             },
             {
               "partNumber": "Current Transducer",
-              "link": "#",
+              "link": "",
               "description": "Hall effect current sensor for isolated current measurement",
               "category": "Sensors"
             }
@@ -1539,7 +1539,7 @@
               },
               "reason": "Higher TX power and lower cost, good for cost-sensitive BLE applications",
               "useCase": "Use HS32B101C8T6 for cost-effective BLE 5.0 applications requiring longer range",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32S101C8T6",
@@ -1560,37 +1560,37 @@
               },
               "reason": "Sub-1G for long-range applications not requiring smartphone connectivity",
               "useCase": "Choose HS32S101C8T6 for long-range industrial sensors; HS32B101C8T6 for smartphone-connected devices",
-              "link": "/hangshun/products/wireless-mcu/hs32s101c8t6.html"
+              "link": "/hangshun/products/wireless-mcu/hs32s101c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "2.4GHz PCB Antenna",
-              "link": "#",
+              "link": "",
               "description": "Compact PCB antenna for 2.4GHz BLE applications",
               "category": "RF Components"
             },
             {
               "partNumber": "32.768kHz Crystal",
-              "link": "#",
+              "link": "",
               "description": "Low-frequency crystal for RTC and sleep timing",
               "category": "Passive Components"
             },
             {
               "partNumber": "HS32B101 Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "BLE development kit with onboard debugger and sensors",
               "category": "Development Tools"
             },
             {
               "partNumber": "CR2032 Battery Holder",
-              "link": "#",
+              "link": "",
               "description": "Coin cell battery holder for portable BLE devices",
               "category": "Power Management"
             },
             {
               "partNumber": "BLE Protocol Analyzer",
-              "link": "#",
+              "link": "",
               "description": "USB BLE sniffer for protocol debugging",
               "category": "Test Equipment"
             }
@@ -1717,7 +1717,7 @@
               },
               "reason": "Higher TX power and Cortex-M4 at competitive price",
               "useCase": "Use HS32S101C8T6 for long-range applications requiring higher TX power",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HS32B101C8T6",
@@ -1737,37 +1737,37 @@
               },
               "reason": "BLE for smartphone connectivity and higher data rate",
               "useCase": "Choose HS32B101C8T6 for smartphone-connected devices; HS32S101C8T6 for long-range industrial sensors",
-              "link": "/hangshun/products/wireless-mcu/hs32b101c8t6.html"
+              "link": "/hangshun/products/wireless-mcu/hs32b101c8t6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "868MHz PCB Antenna",
-              "link": "#",
+              "link": "",
               "description": "Compact PCB antenna optimized for 868MHz operation",
               "category": "RF Components"
             },
             {
               "partNumber": "915MHz Dipole Antenna",
-              "link": "#",
+              "link": "",
               "description": "External dipole antenna for maximum range",
               "category": "RF Components"
             },
             {
               "partNumber": "HS32S101 Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Sub-1GHz development kit with range testing tools",
               "category": "Development Tools"
             },
             {
               "partNumber": "RF Power Amplifier",
-              "link": "#",
+              "link": "",
               "description": "External PA for +30dBm TX power applications",
               "category": "RF Components"
             },
             {
               "partNumber": "SAW Filter",
-              "link": "#",
+              "link": "",
               "description": "Bandpass SAW filter for interference rejection",
               "category": "RF Components"
             }

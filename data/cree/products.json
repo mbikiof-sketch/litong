@@ -128,7 +128,7 @@
           "alternativeParts": [
             {
               "partNumber": "C3M0065090K",
-              "link": "/cree/products/c3m0065090k.html",
+              "link": "/cree/products/sic-mosfets/c3m0065090k",
               "reason": "Lower current for 50-75kW EV applications",
               "brand": "Wolfspeed",
               "comparison": "C3M0032120K=><C3M0065090K: Alternative option 1",
@@ -136,7 +136,7 @@
             },
             {
               "partNumber": "C3M0016120K",
-              "link": "/cree/products/c3m0016120k.html",
+              "link": "",
               "reason": "Higher current for 200-300kW EV applications",
               "brand": "Wolfspeed",
               "comparison": "C3M0032120K=><C3M0016120K: Alternative option 2",
@@ -144,9 +144,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -257,7 +269,7 @@
           "alternativeParts": [
             {
               "partNumber": "C3M0120090K",
-              "link": "/cree/products/c3m0120090k.html",
+              "link": "",
               "reason": "Lower current for lower power applications",
               "brand": "Wolfspeed",
               "comparison": "C3M0065090K=><C3M0120090K: Alternative option 1",
@@ -265,7 +277,7 @@
             },
             {
               "partNumber": "C3M0032120K",
-              "link": "/cree/products/c3m0032120k.html",
+              "link": "/cree/products/sic-mosfets/c3m0032120k",
               "reason": "Higher voltage for 800V EV systems",
               "brand": "Wolfspeed",
               "comparison": "C3M0065090K=><C3M0032120K: Alternative option 2",
@@ -273,9 +285,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -741,7 +765,7 @@
           "alternativeParts": [
             {
               "partNumber": "C3D06065A",
-              "link": "/cree/products/c3d06065a.html",
+              "link": "",
               "reason": "Lower current for lower power applications",
               "brand": "Wolfspeed",
               "comparison": "C3D10065A=><C3D06065A: Alternative option 1",
@@ -749,7 +773,7 @@
             },
             {
               "partNumber": "C3D20065A",
-              "link": "/cree/products/c3d20065a.html",
+              "link": "",
               "reason": "Higher current for higher power applications",
               "brand": "Wolfspeed",
               "comparison": "C3D10065A=><C3D20065A: Alternative option 2",
@@ -757,9 +781,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -869,7 +905,7 @@
           "alternativeParts": [
             {
               "partNumber": "C3D10065A",
-              "link": "/cree/products/c3d10065a.html",
+              "link": "/cree/products/sic-schottky-diodes/c3d10065a",
               "reason": "Lower current in TO-220 package",
               "brand": "Wolfspeed",
               "comparison": "C3D20065H=><C3D10065A: Alternative option 1",
@@ -877,7 +913,7 @@
             },
             {
               "partNumber": "C3D40065H",
-              "link": "/cree/products/c3d40065h.html",
+              "link": "",
               "reason": "Higher current for very high power",
               "brand": "Wolfspeed",
               "comparison": "C3D20065H=><C3D40065H: Alternative option 2",
@@ -885,9 +921,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1350,7 +1398,7 @@
           "alternativeParts": [
             {
               "partNumber": "CGD06HB62P1",
-              "link": "/cree/products/cgd06hb62p1.html",
+              "link": "",
               "reason": "Lower current for lower power applications",
               "brand": "Wolfspeed",
               "comparison": "CGD15HB62P1=><CGD06HB62P1: Alternative option 1",
@@ -1358,7 +1406,7 @@
             },
             {
               "partNumber": "CGD24HB62P1",
-              "link": "/cree/products/cgd24hb62p1.html",
+              "link": "/cree/products/gan-hemts/cgd24hb62p1",
               "reason": "Higher current for higher power applications",
               "brand": "Wolfspeed",
               "comparison": "CGD15HB62P1=><CGD24HB62P1: Alternative option 2",
@@ -1366,9 +1414,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1480,7 +1540,7 @@
           "alternativeParts": [
             {
               "partNumber": "CGD15HB62P1",
-              "link": "/cree/products/cgd15hb62p1.html",
+              "link": "/cree/products/gan-hemts/cgd15hb62p1",
               "reason": "Lower current for medium power applications",
               "brand": "Wolfspeed",
               "comparison": "CGD24HB62P1=><CGD15HB62P1: Alternative option 1",
@@ -1488,7 +1548,7 @@
             },
             {
               "partNumber": "CGD40HB62P1",
-              "link": "/cree/products/cgd40hb62p1.html",
+              "link": "",
               "reason": "Higher current for very high power",
               "brand": "Wolfspeed",
               "comparison": "CGD24HB62P1=><CGD40HB62P1: Alternative option 2",
@@ -1496,9 +1556,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1963,7 +2035,7 @@
           "alternativeParts": [
             {
               "partNumber": "CAB450M12HM3",
-              "link": "/cree/products/cab450m12hm3.html",
+              "link": "/cree/products/power-modules/cab450m12hm3",
               "reason": "Lower current for 150-200kW applications",
               "brand": "Wolfspeed",
               "comparison": "CAB760M12HM3=><CAB450M12HM3: Alternative option 1",
@@ -1971,7 +2043,7 @@
             },
             {
               "partNumber": "CAB1000M12HM3",
-              "link": "/cree/products/cab1000m12hm3.html",
+              "link": "",
               "reason": "Higher current for 400kW+ applications",
               "brand": "Wolfspeed",
               "comparison": "CAB760M12HM3=><CAB1000M12HM3: Alternative option 2",
@@ -1979,9 +2051,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -2091,7 +2175,7 @@
           "alternativeParts": [
             {
               "partNumber": "CAB760M12HM3",
-              "link": "/cree/products/cab760m12hm3.html",
+              "link": "/cree/products/power-modules/cab760m12hm3",
               "reason": "Higher current for 200-300kW applications",
               "brand": "Wolfspeed",
               "comparison": "CAB450M12HM3=><CAB760M12HM3: Alternative option 1",
@@ -2099,7 +2183,7 @@
             },
             {
               "partNumber": "CAB200M12HM3",
-              "link": "/cree/products/cab200m12hm3.html",
+              "link": "",
               "reason": "Lower current for 75-100kW applications",
               "brand": "Wolfspeed",
               "comparison": "CAB450M12HM3=><CAB200M12HM3: Alternative option 2",
@@ -2107,9 +2191,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {

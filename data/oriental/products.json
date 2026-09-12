@@ -212,7 +212,7 @@
               },
               "reason": "Direct pin-compatible alternative with similar electrical characteristics",
               "useCase": "Drop-in replacement for existing Infineon-based designs",
-              "link": "/infineon/products/igbt-modules/ff200r12kt4.html"
+              "link": ""
             },
             {
               "partNumber": "2MBI200VH-120-50",
@@ -230,25 +230,25 @@
               },
               "reason": "Compatible alternative from established Japanese manufacturer",
               "useCase": "Alternative for designs requiring multi-source supply strategy",
-              "link": "/fuji/products/igbt-modules/2mbi200vh-120-50.html"
+              "link": "/fuji/products/discrete-igbts/2mbi200vh-120-50"
             }
           ],
           "companionParts": [
             {
               "partNumber": "1EDI20N12AF",
-              "link": "#",
+              "link": "/infineon/products/gate-driver/1edi20n12af",
               "description": "Isolated gate driver IC with desaturation protection",
               "category": "Gate Driver"
             },
             {
               "partNumber": "OIM200-12E4 Eval Board",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for module characterization",
               "category": "Evaluation Tools"
             },
             {
               "partNumber": "Thermal Interface Material",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal pad for module mounting",
               "category": "Thermal Management"
             }
@@ -362,7 +362,7 @@
               },
               "reason": "Pin-compatible alternative with equivalent performance",
               "useCase": "Alternative source for high-power drive applications",
-              "link": "/infineon/products/igbt-modules/ff300r12kt4.html"
+              "link": ""
             },
             {
               "partNumber": "CM300DY-12NF",
@@ -380,25 +380,25 @@
               },
               "reason": "Established high-reliability alternative",
               "useCase": "Applications requiring proven field reliability",
-              "link": "/mitsubishi/products/igbt-modules/cm300dy-12nf.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "2SP0320V2A0",
-              "link": "#",
+              "link": "",
               "description": "Dual-channel gate driver for high-power IGBTs",
               "category": "Gate Driver"
             },
             {
               "partNumber": "OIM300-12E4 Thermal Kit",
-              "link": "#",
+              "link": "",
               "description": "Thermal interface material and mounting hardware kit",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Current Sensor",
-              "link": "#",
+              "link": "",
               "description": "Hall effect current sensor for protection circuit",
               "category": "Sensors"
             }
@@ -863,7 +863,7 @@
               },
               "reason": "Direct pin-compatible alternative with identical specifications",
               "useCase": "Drop-in replacement for Infineon-based welding designs",
-              "link": "/infineon/products/igbt-discrete/ikw40n65h5.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -876,25 +876,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Gate Resistor Kit",
-              "link": "#",
+              "link": "",
               "description": "Assorted gate resistors for switching optimization",
               "category": "Accessories"
             },
             {
               "partNumber": "Heatsink Assembly",
-              "link": "#",
+              "link": "",
               "description": "TO-247 heatsink with thermal pad",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Driver IC",
-              "link": "#",
+              "link": "",
               "description": "Single-channel IGBT gate driver",
               "category": "Gate Driver"
             }
@@ -1005,7 +1005,7 @@
               },
               "reason": "Equivalent performance alternative",
               "useCase": "Alternative for motor drive applications",
-              "link": "/infineon/products/igbt-discrete/ikw75n120t2.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -1018,25 +1018,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Heatsink TO-3P",
-              "link": "#",
+              "link": "",
               "description": "Aluminum heatsink for TO-3P package",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Thermal Grease",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal interface material",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Mounting Kit",
-              "link": "#",
+              "link": "",
               "description": "Screws and washers for TO-3P mounting",
               "category": "Accessories"
             }
@@ -1317,7 +1317,7 @@
               },
               "reason": "Equivalent super-junction alternative",
               "useCase": "Alternative for high-efficiency power supplies",
-              "link": "/infineon/products/mosfets/ipw60r190c6.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -1330,25 +1330,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "PFC Controller IC",
-              "link": "#",
+              "link": "",
               "description": "CrCM PFC controller for high-efficiency designs",
               "category": "Controllers"
             },
             {
               "partNumber": "Gate Driver",
-              "link": "#",
+              "link": "",
               "description": "High-speed MOSFET gate driver",
               "category": "Gate Driver"
             },
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Precision current sense for protection",
               "category": "Passive Components"
             }
@@ -1461,7 +1461,7 @@
               },
               "reason": "Higher voltage and current rating alternative",
               "useCase": "Applications requiring higher voltage margin",
-              "link": "/infineon/products/mosfets/irfb4110.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -1474,25 +1474,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SR Driver IC",
-              "link": "#",
+              "link": "",
               "description": "Synchronous rectifier driver with dead-time control",
               "category": "Controllers"
             },
             {
               "partNumber": "Heatsink",
-              "link": "#",
+              "link": "",
               "description": "TO-220 heatsink for high-current applications",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Current Transformer",
-              "link": "#",
+              "link": "",
               "description": "Current sensing for protection circuit",
               "category": "Sensors"
             }
@@ -1957,7 +1957,7 @@
               },
               "reason": "Equivalent performance from leading SiC manufacturer",
               "useCase": "Alternative for high-reliability SiC designs",
-              "link": "/wolfspeed/products/sic-mosfets/c2m0040120d.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -1970,25 +1970,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SiC Gate Driver",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver optimized for SiC MOSFETs",
               "category": "Gate Driver"
             },
             {
               "partNumber": "SiC Diode",
-              "link": "#",
+              "link": "",
               "description": "1200V SiC Schottky diode for boost PFC",
               "category": "Diodes"
             },
             {
               "partNumber": "Current Sensor",
-              "link": "#",
+              "link": "",
               "description": "High-bandwidth current sensor for protection",
               "category": "Sensors"
             }
@@ -2100,7 +2100,7 @@
               },
               "reason": "Silicon super-junction alternative at lower cost",
               "useCase": "Cost-sensitive applications not requiring SiC benefits",
-              "link": "/infineon/products/mosfets/ipw60r045cs.html"
+              "link": ""
             },
             {
               "partNumber": "Generic Alternative",
@@ -2113,25 +2113,25 @@
               },
               "reason": "Alternative options available upon request",
               "useCase": "Contact us for specific application requirements",
-              "link": "/contact.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SiC Diode 650V",
-              "link": "#",
+              "link": "",
               "description": "650V SiC Schottky for PFC boost diode",
               "category": "Diodes"
             },
             {
               "partNumber": "PFC Controller",
-              "link": "#",
+              "link": "",
               "description": "Digital PFC controller for high-frequency operation",
               "category": "Controllers"
             },
             {
               "partNumber": "Gate Driver",
-              "link": "#",
+              "link": "",
               "description": "High-speed isolated gate driver",
               "category": "Gate Driver"
             }

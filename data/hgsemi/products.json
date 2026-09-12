@@ -258,7 +258,7 @@
               "comparison": "HG6206=><TPS76933: Output current 300mA > 100mA (higher), suitable for direct replacement",
               "reason": "Lower quiescent current with higher output capability",
               "useCase": "Better battery life for portable applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XC6206",
@@ -271,7 +271,7 @@
               "comparison": "HG6206=><XC6206: Output current 300mA > 200mA (+50%), suitable for direct replacement",
               "reason": "Higher current capability with similar low quiescent",
               "useCase": "Drop-in replacement with better drive capability",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -279,19 +279,19 @@
               "partNumber": "HG2576",
               "description": "Step-down switching regulator for higher efficiency",
               "category": "Power Management",
-              "link": "/hgsemi/products/power-management/hg2576.html"
+              "link": "/hgsemi/products/power-management/hg2576"
             },
             {
               "partNumber": "HG431",
               "description": "Precision voltage reference",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG809",
               "description": "Reset supervisor for power monitoring",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -415,7 +415,7 @@
               "comparison": "HG2576=><LM2576: Output current 3A = 3A (same), Efficiency 95% => 90% (higher), suitable for direct replacement",
               "reason": "Higher efficiency at lower cost",
               "useCase": "Cost-effective replacement with better efficiency",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XL2576",
@@ -428,7 +428,7 @@
               "comparison": "HG2576=><XL2576: Output current 3A = 3A (same), Efficiency 95% = 95% (similar), suitable for direct replacement",
               "reason": "Pin-compatible alternative with equivalent specs",
               "useCase": "Drop-in replacement option",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -436,19 +436,19 @@
               "partNumber": "HG6206",
               "description": "Low power LDO for post-regulation",
               "category": "Power Management",
-              "link": "/hgsemi/products/power-management/hg6206.html"
+              "link": "/hgsemi/products/power-management/hg6206"
             },
             {
               "partNumber": "HG431",
               "description": "Precision voltage reference for feedback",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG809",
               "description": "Reset supervisor for power-on reset",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -582,7 +582,8 @@
                 "Output Current": "1A"
               },
               "priceDifference": "+25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/power-management/hg6210"
             }
           ],
           "companionParts": [
@@ -667,14 +668,16 @@
                 "Output Current": "300mA"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/power-management/hg6206"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HG2576",
               "description": "Buck converter for pre-regulation",
-              "category": "DC-DC"
+              "category": "DC-DC",
+              "link": "/hgsemi/products/power-management/hg2576"
             }
           ],
           "faqs": [
@@ -895,7 +898,7 @@
               },
               "reason": "Better slew rate with rail-to-rail output at lower cost",
               "useCase": "Drop-in replacement with improved performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6002",
@@ -913,7 +916,7 @@
               },
               "reason": "Better offset voltage at lower cost",
               "useCase": "Cost-effective alternative with better DC accuracy",
-              "link": "#"
+              "link": "/microchip/products/analog-products/mcp6002"
             }
           ],
           "companionParts": [
@@ -921,19 +924,19 @@
               "partNumber": "HG431",
               "description": "Voltage reference for precision applications",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG6206",
               "description": "LDO for clean analog power supply",
               "category": "Power Management",
-              "link": "/hgsemi/products/power-management/hg6206.html"
+              "link": "/hgsemi/products/power-management/hg6206"
             },
             {
               "partNumber": "HG324",
               "description": "Quad op-amp for additional channels",
               "category": "Operational Amplifiers",
-              "link": "/hgsemi/products/operational-amplifiers/hg324.html"
+              "link": "/hgsemi/products/operational-amplifiers/hg324"
             }
           ],
           "faqs": [
@@ -1064,7 +1067,7 @@
               "comparison": "HG324=><TLV9004: Output current 40μA < 60μA (33% lower), suitable for direct replacement",
               "reason": "Lower power consumption with higher bandwidth",
               "useCase": "Better battery life for portable applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6004",
@@ -1077,7 +1080,7 @@
               "comparison": "HG324=><MCP6004: Output current 40μA < 100μA (60% lower), suitable for direct replacement",
               "reason": "Significantly lower power with better bandwidth",
               "useCase": "Upgrade for battery-powered designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1085,19 +1088,19 @@
               "partNumber": "HG6206",
               "description": "Low power LDO for clean power supply",
               "category": "Power Management",
-              "link": "/hgsemi/products/power-management/hg6206.html"
+              "link": "/hgsemi/products/power-management/hg6206"
             },
             {
               "partNumber": "HG431",
               "description": "Voltage reference for precision applications",
               "category": "Power Management",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG358",
               "description": "Dual op-amp for additional channels",
               "category": "Operational Amplifiers",
-              "link": "/hgsemi/products/operational-amplifiers/hg358.html"
+              "link": "/hgsemi/products/operational-amplifiers/hg358"
             }
           ],
           "faqs": [
@@ -1240,7 +1243,8 @@
                 "Channels": "4"
               },
               "priceDifference": "+40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/operational-amplifiers/hg324"
             }
           ],
           "companionParts": [
@@ -1329,7 +1333,8 @@
                 "Channels": "2"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/operational-amplifiers/hg358"
             }
           ],
           "companionParts": [
@@ -1561,7 +1566,7 @@
               },
               "reason": "Higher speed with ESD protection and more nodes",
               "useCase": "Upgrade for better performance and protection",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SN65HVD485E",
@@ -1579,7 +1584,7 @@
               },
               "reason": "Higher speed at lower cost",
               "useCase": "Cost-effective high-speed alternative",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1587,19 +1592,19 @@
               "partNumber": "HG232",
               "description": "RS-232 transceiver for PC interface",
               "category": "Interface Drivers",
-              "link": "#"
+              "link": "/hgsemi/products/interface-drivers/hg232"
             },
             {
               "partNumber": "HG232",
               "description": "RS-232 transceiver for PC interface",
               "category": "Interface Drivers",
-              "link": "/hgsemi/products/interface-drivers/hg232.html"
+              "link": "/hgsemi/products/interface-drivers/hg232"
             },
             {
               "partNumber": "HG74HC00",
               "description": "Logic gates for control functions",
               "category": "Logic Devices",
-              "link": "/hgsemi/products/logic-devices/hg74hc00.html"
+              "link": "/hgsemi/products/logic-devices/hg74hc00"
             }
           ],
           "faqs": [
@@ -1738,7 +1743,7 @@
               },
               "reason": "Equivalent performance at lower cost",
               "useCase": "Cost-effective replacement for MAX3232",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SP3232",
@@ -1756,7 +1761,7 @@
               },
               "reason": "Better ESD protection with auto-shutdown",
               "useCase": "Upgrade with enhanced protection",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1764,19 +1769,19 @@
               "partNumber": "HG485",
               "description": "RS-485 transceiver for industrial networks",
               "category": "Interface Drivers",
-              "link": "/hgsemi/products/interface-drivers/hg485.html"
+              "link": "/hgsemi/products/interface-drivers/hg485"
             },
             {
               "partNumber": "HG6206",
               "description": "LDO for clean 3.3V supply",
               "category": "Power Management",
-              "link": "/hgsemi/products/power-management/hg6206.html"
+              "link": "/hgsemi/products/power-management/hg6206"
             },
             {
               "partNumber": "HG74HC04",
               "description": "Inverters for signal conditioning",
               "category": "Logic Devices",
-              "link": "#"
+              "link": "/hgsemi/products/logic-devices/hg74hc04"
             }
           ],
           "faqs": [
@@ -1926,7 +1931,8 @@
             {
               "partNumber": "HG6206",
               "description": "LDO for power supply",
-              "category": "Power"
+              "category": "Power",
+              "link": "/hgsemi/products/power-management/hg6206"
             }
           ],
           "faqs": [
@@ -2010,14 +2016,16 @@
                 "Protocol": "RS-232"
               },
               "priceDifference": "-10%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/interface-drivers/hg232"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HG6206",
               "description": "LDO for power supply",
-              "category": "Power"
+              "category": "Power",
+              "link": "/hgsemi/products/power-management/hg6206"
             }
           ],
           "faqs": [
@@ -2240,7 +2248,7 @@
               },
               "reason": "Equivalent performance at lower cost",
               "useCase": "Drop-in replacement for cost reduction",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MC74HC00A",
@@ -2258,7 +2266,7 @@
               },
               "reason": "Slightly faster with competitive pricing",
               "useCase": "Alternative source for supply security",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2266,19 +2274,19 @@
               "partNumber": "HG74HC04",
               "description": "Hex inverter for logic inversion",
               "category": "Logic Devices",
-              "link": "#"
+              "link": "/hgsemi/products/logic-devices/hg74hc04"
             },
             {
               "partNumber": "HG74HC32",
               "description": "Quad 2-input OR gate",
               "category": "Logic Devices",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG74HC04",
               "description": "Hex inverter for logic inversion",
               "category": "Logic Devices",
-              "link": "/hgsemi/products/logic-devices/hg74hc04.html"
+              "link": "/hgsemi/products/logic-devices/hg74hc04"
             }
           ],
           "faqs": [
@@ -2415,7 +2423,7 @@
               },
               "reason": "Equivalent performance at lower cost",
               "useCase": "Drop-in replacement for cost reduction",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MC74HC04",
@@ -2433,7 +2441,7 @@
               },
               "reason": "Slightly faster with competitive pricing",
               "useCase": "Alternative source for supply security",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2441,19 +2449,19 @@
               "partNumber": "HG74HC00",
               "description": "Quad NAND gate for logic combination",
               "category": "Logic Devices",
-              "link": "/hgsemi/products/logic-devices/hg74hc00.html"
+              "link": "/hgsemi/products/logic-devices/hg74hc00"
             },
             {
               "partNumber": "HG74HC32",
               "description": "Quad OR gate for logic functions",
               "category": "Logic Devices",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HG74HC14",
               "description": "Hex Schmitt trigger inverter for noisy signals",
               "category": "Logic Devices",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2687,14 +2695,16 @@
                 "Function": "Quad NAND"
               },
               "priceDifference": "0%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hgsemi/products/logic-devices/hg74hc00"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HG74HC595",
               "description": "Shift register",
-              "category": "Logic"
+              "category": "Logic",
+              "link": "/hgsemi/products/logic-devices/hg74hc595"
             }
           ],
           "faqs": [

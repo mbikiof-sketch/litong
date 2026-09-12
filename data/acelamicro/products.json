@@ -219,7 +219,7 @@
             {
               "partNumber": "ADS1115",
               "brand": "Texas Instruments",
-              "link": "/ti/products/data-converters/ads1115.html",
+              "link": "",
               "reason": "Similar 16-bit resolution with I2C interface, suitable for lower speed applications",
               "specifications": {
                 "resolution": "16-bit",
@@ -236,7 +236,7 @@
             {
               "partNumber": "MCP3304",
               "brand": "Microchip",
-              "link": "/microchip/products/data-converters/mcp3304.html",
+              "link": "",
               "reason": "13-bit differential ADC with SPI interface, cost-effective alternative",
               "specifications": {
                 "resolution": "13-bit",
@@ -254,43 +254,43 @@
           "companionParts": [
             {
               "partNumber": "ACM7805",
-              "link": "/acelamicro/products/power-management/acm7805.html",
+              "link": "/acelamicro/products/power-management/acm7805",
               "description": "5V ultra-low-noise LDO for clean analog power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ACM7803",
-              "link": "/acelamicro/products/power-management/acm7803.html",
+              "link": "",
               "description": "3.3V LDO regulator for digital logic supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ACM485",
-              "link": "/acelamicro/products/interface-ics/acm485.html",
+              "link": "/acelamicro/products/interface-ics/acm485",
               "description": "RS-485 transceiver for industrial communication",
               "category": "Interface ICs"
             },
             {
               "partNumber": "STM32F103",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M3 microcontroller for system control",
               "category": "Microcontroller"
             },
             {
               "partNumber": "ACM8221",
-              "link": "/acelamicro/products/sensor-interface/acm8221.html",
+              "link": "/acelamicro/products/sensor-interface/acm8221",
               "description": "Precision instrumentation amplifier for signal conditioning",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "REF5040",
-              "link": "#",
+              "link": "",
               "description": "4.096V precision voltage reference for external reference applications",
               "category": "Reference"
             },
             {
               "partNumber": "TVS Diode Array",
-              "link": "#",
+              "link": "",
               "description": "ESD protection for analog inputs in harsh environments",
               "category": "Protection"
             }
@@ -425,7 +425,7 @@
             {
               "partNumber": "ADS124S08",
               "brand": "Texas Instruments",
-              "link": "/ti/products/data-converters/ads124s08.html",
+              "link": "",
               "reason": "Similar 24-bit sigma-delta architecture with more input channels",
               "specifications": {
                 "resolution": "24-bit",
@@ -443,7 +443,7 @@
             {
               "partNumber": "MCP3564",
               "brand": "Microchip",
-              "link": "/microchip/products/data-converters/mcp3564.html",
+              "link": "",
               "reason": "24-bit ADC with similar performance characteristics",
               "specifications": {
                 "resolution": "24-bit",
@@ -461,43 +461,43 @@
           "companionParts": [
             {
               "partNumber": "ACM8221",
-              "link": "/acelamicro/products/sensor-interface/acm8221.html",
+              "link": "/acelamicro/products/sensor-interface/acm8221",
               "description": "Precision instrumentation amplifier for bridge sensor conditioning",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "ACM5320",
-              "link": "/acelamicro/products/sensor-interface/acm5320.html",
+              "link": "/acelamicro/products/sensor-interface/acm5320",
               "description": "RTD signal conditioner with excitation and linearization",
               "category": "Sensor Interface"
             },
             {
               "partNumber": "ACM7803",
-              "link": "/acelamicro/products/power-management/acm7803.html",
+              "link": "",
               "description": "3.3V ultra-low-noise LDO for analog power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "STM32F407",
-              "link": "#",
+              "link": "",
               "description": "ARM Cortex-M4 microcontroller with FPU for digital filtering",
               "category": "Microcontroller"
             },
             {
               "partNumber": "REF5025",
-              "link": "#",
+              "link": "",
               "description": "2.5V precision voltage reference for external reference mode",
               "category": "Reference"
             },
             {
               "partNumber": "ACM485",
-              "link": "/acelamicro/products/interface-ics/acm485.html",
+              "link": "/acelamicro/products/interface-ics/acm485",
               "description": "RS-485 transceiver for industrial communication",
               "category": "Interface ICs"
             },
             {
               "partNumber": "TVS Array",
-              "link": "#",
+              "link": "",
               "description": "ESD protection for analog inputs in industrial environments",
               "category": "Protection"
             }
@@ -727,7 +727,7 @@
             {
               "partNumber": "LM2596",
               "brand": "Texas Instruments",
-              "link": "/ti/products/power-management/lm2596.html",
+              "link": "",
               "reason": "Similar non-synchronous buck converter with lower efficiency",
               "specifications": {
                 "inputVoltage": "4.5V to 40V",
@@ -740,7 +740,7 @@
             {
               "partNumber": "MP1584",
               "brand": "Monolithic Power Systems",
-              "link": "/mps/products/power-management/mp1584.html",
+              "link": "",
               "reason": "Compact 3A buck converter with high frequency operation",
               "specifications": {
                 "inputVoltage": "4.5V to 28V",
@@ -754,43 +754,43 @@
           "companionParts": [
             {
               "partNumber": "ACM7805",
-              "link": "/acelamicro/products/power-management/acm7805.html",
+              "link": "/acelamicro/products/power-management/acm7805",
               "description": "5V LDO for post-regulation of sensitive analog circuits",
               "category": "Power Management"
             },
             {
               "partNumber": "ACM7803",
-              "link": "/acelamicro/products/power-management/acm7803.html",
+              "link": "",
               "description": "3.3V LDO for microcontroller supply",
               "category": "Power Management"
             },
             {
               "partNumber": "Inductor 10μH",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for buck converter output filter",
               "category": "Passive Components"
             },
             {
               "partNumber": "SS34",
-              "link": "#",
+              "link": "",
               "description": "Schottky diode for bootstrap circuit",
               "category": "Diodes"
             },
             {
               "partNumber": "ACM1604",
-              "link": "/acelamicro/products/data-converters/acm1604.html",
+              "link": "/acelamicro/products/data-converters/acm1604",
               "description": "ADC for monitoring output voltage and current",
               "category": "Data Converters"
             },
             {
               "partNumber": "Input Capacitor",
-              "link": "#",
+              "link": "",
               "description": "22μF ceramic capacitor for input filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Output Capacitor",
-              "link": "#",
+              "link": "",
               "description": "47μF ceramic capacitor for output filtering",
               "category": "Passive Components"
             }
@@ -920,7 +920,7 @@
             {
               "partNumber": "TPS7A49",
               "brand": "Texas Instruments",
-              "link": "/ti/products/power-management/tps7a49.html",
+              "link": "",
               "reason": "Ultra-low-noise LDO with similar performance",
               "specifications": {
                 "inputVoltage": "3V to 36V",
@@ -933,7 +933,7 @@
             {
               "partNumber": "LD39130",
               "brand": "STMicroelectronics",
-              "link": "/st/products/power-management/ld39130.html",
+              "link": "",
               "reason": "Low-noise LDO with good PSRR",
               "specifications": {
                 "inputVoltage": "1.5V to 5.5V",
@@ -947,43 +947,43 @@
           "companionParts": [
             {
               "partNumber": "ACM34063",
-              "link": "/acelamicro/products/power-management/acm34063.html",
+              "link": "/acelamicro/products/power-management/acm34063",
               "description": "Buck converter for pre-regulation to reduce LDO power dissipation",
               "category": "Power Management"
             },
             {
               "partNumber": "ACM1604",
-              "link": "/acelamicro/products/data-converters/acm1604.html",
+              "link": "/acelamicro/products/data-converters/acm1604",
               "description": "ADC powered by this LDO for clean analog supply",
               "category": "Data Converters"
             },
             {
               "partNumber": "Input Capacitor 10μF",
-              "link": "#",
+              "link": "",
               "description": "Ceramic capacitor for input stability",
               "category": "Passive Components"
             },
             {
               "partNumber": "Output Capacitor 4.7μF",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR ceramic capacitor for output filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Bypass Capacitor 0.1μF",
-              "link": "#",
+              "link": "",
               "description": "Ceramic capacitor for noise reduction",
               "category": "Passive Components"
             },
             {
               "partNumber": "ACM2420",
-              "link": "/acelamicro/products/data-converters/acm2420.html",
+              "link": "/acelamicro/products/data-converters/acm2420",
               "description": "Precision ADC benefiting from low-noise supply",
               "category": "Data Converters"
             },
             {
               "partNumber": "Enable Pull-up Resistor",
-              "link": "#",
+              "link": "",
               "description": "10kΩ resistor for enable pin if not used",
               "category": "Passive Components"
             }
@@ -1197,7 +1197,7 @@
             {
               "partNumber": "MAX485",
               "brand": "Maxim",
-              "link": "/maxim/products/interface-ics/max485.html",
+              "link": "",
               "reason": "Industry standard RS-485 transceiver",
               "specifications": {
                 "dataRate": "2.5Mbps",
@@ -1213,13 +1213,13 @@
           "companionParts": [
             {
               "partNumber": "Termination Resistor",
-              "link": "#",
+              "link": "",
               "description": "120Ω termination for bus ends",
               "category": "Passive Components"
             },
             {
               "partNumber": "TVS Diode",
-              "link": "#",
+              "link": "",
               "description": "Additional surge protection",
               "category": "Protection"
             }
@@ -1290,7 +1290,7 @@
             {
               "partNumber": "ISO1050",
               "brand": "Texas Instruments",
-              "link": "/ti/products/interface-ics/iso1050.html",
+              "link": "",
               "reason": "Similar isolated CAN transceiver",
               "specifications": {
                 "isolation": "5000Vrms",
@@ -1306,13 +1306,13 @@
           "companionParts": [
             {
               "partNumber": "Common Mode Choke",
-              "link": "#",
+              "link": "",
               "description": "EMI filtering for CAN bus",
               "category": "Passive Components"
             },
             {
               "partNumber": "Split Termination",
-              "link": "#",
+              "link": "",
               "description": "60Ω + 60Ω with center tap capacitor",
               "category": "Passive Components"
             }
@@ -1483,7 +1483,7 @@
             {
               "partNumber": "AD8221",
               "brand": "Analog Devices",
-              "link": "/adi/products/sensor-interface/ad8221.html",
+              "link": "",
               "reason": "Industry standard precision INA",
               "specifications": {
                 "cmrr": "100dB",
@@ -1499,13 +1499,13 @@
           "companionParts": [
             {
               "partNumber": "ACM2420",
-              "link": "/acelamicro/products/data-converters/acm2420.html",
+              "link": "/acelamicro/products/data-converters/acm2420",
               "description": "ADC for digitizing amplified sensor signal",
               "category": "Data Converters"
             },
             {
               "partNumber": "RC Filter",
-              "link": "#",
+              "link": "",
               "description": "Anti-aliasing filter before ADC",
               "category": "Passive Components"
             }
@@ -1579,7 +1579,7 @@
             {
               "partNumber": "MAX31865",
               "brand": "Maxim",
-              "link": "/maxim/products/sensor-interface/max31865.html",
+              "link": "",
               "reason": "RTD-to-digital converter with SPI",
               "specifications": {
                 "accuracy": "±0.5°C",
@@ -1595,13 +1595,13 @@
           "companionParts": [
             {
               "partNumber": "ACM2420",
-              "link": "/acelamicro/products/data-converters/acm2420.html",
+              "link": "/acelamicro/products/data-converters/acm2420",
               "description": "ADC for digitizing conditioned RTD signal",
               "category": "Data Converters"
             },
             {
               "partNumber": "RTD Sensor",
-              "link": "#",
+              "link": "",
               "description": "Pt100 or Pt1000 temperature sensor",
               "category": "Sensors"
             }

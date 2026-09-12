@@ -256,7 +256,7 @@
               },
               "reason": "Higher power rating (2W vs 1W) for applications requiring more output current",
               "useCase": "Upgrade path when 1W is insufficient for load requirements",
-              "link": "/zlg-power/products/isolated-dc-dc/e_uhb-2w.html"
+              "link": ""
             },
             {
               "partNumber": "B_S-1W",
@@ -271,7 +271,7 @@
               "comparison": "E_UHB-1W=><B_S-1W: Package SIP-7 = SIP-7 (same), suitable for direct replacement",
               "reason": "Cost-effective alternative for applications with regulated input voltage and lower isolation requirements",
               "useCase": "Cost-sensitive industrial applications with stable 5V, 12V, or 24V input",
-              "link": "/zlg-power/products/isolated-dc-dc/b_s-1w.html"
+              "link": "/zlg-power/products/isolated-dc-dc/b-s-1w"
             }
           ],
           "companionParts": [
@@ -285,7 +285,7 @@
                 "X7R ceramic"
               ],
               "description": "Recommended input ceramic capacitor for EMI filtering and input stabilization",
-              "link": "/products/capacitors/c1005x7r1h104k.html"
+              "link": ""
             },
             {
               "partNumber": "C3225X7R1H106K",
@@ -297,7 +297,7 @@
                 "X7R ceramic"
               ],
               "description": "Recommended output ceramic capacitor for ripple reduction and load transient response",
-              "link": "/products/capacitors/c3225x7r1h106k.html"
+              "link": ""
             },
             {
               "partNumber": "B0505S-1W",
@@ -309,7 +309,7 @@
                 "Demo board"
               ],
               "description": "Evaluation board for testing E_UHB series performance and isolation",
-              "link": "/zlg-power/products/isolated-dc-dc/b0505s-1w.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -452,7 +452,7 @@
               "comparison": "B_S-1W=><E_UHB-1W: Package SIP-7 = SIP-7 (same), suitable for direct replacement",
               "reason": "Ultra-wide input and higher isolation for applications with varying input or safety requirements",
               "useCase": "Upgrade for battery-powered or unregulated input applications requiring higher isolation",
-              "link": "/zlg-power/products/isolated-dc-dc/e_uhb-1w.html"
+              "link": "/zlg-power/products/isolated-dc-dc/e-uhb-1w"
             },
             {
               "partNumber": "B_S-2W",
@@ -469,7 +469,7 @@
               },
               "reason": "Higher power rating (2W vs 1W) for applications requiring more output current",
               "useCase": "Upgrade when 1W is insufficient for load requirements",
-              "link": "/zlg-power/products/isolated-dc-dc/b_s-2w.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -483,7 +483,7 @@
                 "X7R ceramic"
               ],
               "description": "Recommended input ceramic capacitor for input stabilization",
-              "link": "/products/capacitors/c1005x7r1h104k.html"
+              "link": ""
             },
             {
               "partNumber": "C3225X7R1H106K",
@@ -495,7 +495,7 @@
                 "X7R ceramic"
               ],
               "description": "Recommended output ceramic capacitor for ripple reduction",
-              "link": "/products/capacitors/c3225x7r1h106k.html"
+              "link": ""
             },
             {
               "partNumber": "AMS1117-3.3",
@@ -507,7 +507,7 @@
                 "Low dropout"
               ],
               "description": "LDO regulator for tight output voltage regulation if needed",
-              "link": "/products/regulators/ams1117-3.3.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -751,7 +751,7 @@
               "comparison": "LH-25W=><LHE-25W: Efficiency 88% > 85% (+3%), Package PCB Mount = PCB Mount, suitable for direct replacement",
               "reason": "Higher efficiency alternative with same power rating",
               "useCase": "Applications requiring higher efficiency",
-              "link": "/zlg-power/products/ac-dc-power/lhe-25w.html"
+              "link": ""
             },
             {
               "partNumber": "LH-40W",
@@ -765,7 +765,7 @@
               "comparison": "LH-25W=><LH-40W: Efficiency 86% > 85%, Package PCB Mount = PCB Mount, suitable for direct replacement",
               "reason": "Higher power rating for larger load requirements",
               "useCase": "Upgrade when 25W is insufficient",
-              "link": "/zlg-power/products/ac-dc-power/lh-40w.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -779,7 +779,7 @@
                 "X7R"
               ],
               "description": "Input EMI filtering capacitor",
-              "link": "/products/capacitors/c4532x7r2a105k.html"
+              "link": ""
             },
             {
               "partNumber": "C4532X7R1E106K",
@@ -791,11 +791,11 @@
                 "X7R"
               ],
               "description": "Output filter capacitor for ripple reduction",
-              "link": "/products/capacitors/c4532x7r1e106k.html"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }
@@ -919,7 +919,7 @@
               "comparison": "LHE-60W=><LH-60W: Efficiency 86% < 90%, Package Open Frame = Open Frame, suitable for direct replacement",
               "reason": "Lower cost alternative without PFC for non-critical applications",
               "useCase": "Cost-sensitive applications without harmonic requirements",
-              "link": "/zlg-power/products/ac-dc-power/lh-60w.html"
+              "link": ""
             },
             {
               "partNumber": "LHE-100W",
@@ -933,7 +933,7 @@
               "comparison": "LHE-60W=><LHE-100W: Efficiency 91% > 90%, Package Open Frame = Open Frame, suitable for direct replacement",
               "reason": "Higher power with even better efficiency for larger applications",
               "useCase": "Upgrade for 80-100W applications",
-              "link": "/zlg-power/products/ac-dc-power/lhe-100w.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -946,7 +946,7 @@
                 "100V"
               ],
               "description": "Input EMI filtering capacitor",
-              "link": "/products/capacitors/c4532x7r2a105k.html"
+              "link": ""
             },
             {
               "partNumber": "C4532X7R1E106K",
@@ -957,11 +957,11 @@
                 "25V"
               ],
               "description": "Output filter capacitor",
-              "link": "/products/capacitors/c4532x7r1e106k.html"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }
@@ -1195,7 +1195,7 @@
               "comparison": "KWS-10A=><KWT-10A: Output current 10A = 10A, Efficiency 96% > 95%, Package DIP = SMD (different), suitable for direct replacement",
               "reason": "Higher efficiency alternative in DIP package",
               "useCase": "Applications preferring through-hole package",
-              "link": "/zlg-power/products/non-isolated-pol/kwt-10a.html"
+              "link": ""
             },
             {
               "partNumber": "KWS-20A",
@@ -1210,7 +1210,7 @@
               "comparison": "KWS-10A=><KWS-20A: Output current 20A > 10A (+100%), Efficiency 96% > 95%, Package SMD = SMD, suitable for direct replacement",
               "reason": "Double current capability for higher power processors",
               "useCase": "Upgrade for processors requiring >10A",
-              "link": "/zlg-power/products/non-isolated-pol/kws-20a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1223,7 +1223,7 @@
                 "16V"
               ],
               "description": "Input ceramic capacitor",
-              "link": "/products/capacitors/c1608x7r1c105k.html"
+              "link": ""
             },
             {
               "partNumber": "C3216X7R1C226K",
@@ -1234,11 +1234,11 @@
                 "16V"
               ],
               "description": "Output ceramic capacitor for stability",
-              "link": "/products/capacitors/c3216x7r1c226k.html"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }
@@ -1363,7 +1363,7 @@
               "comparison": "KWT-20A=><KWS-20A: Output current 20A = 20A, Efficiency 96% = 96%, Package SMD = DIP (different), suitable for direct replacement",
               "reason": "SMD alternative for space-constrained applications",
               "useCase": "Applications preferring surface mount",
-              "link": "/zlg-power/products/non-isolated-pol/kws-20a.html"
+              "link": ""
             },
             {
               "partNumber": "KWT-30A",
@@ -1378,7 +1378,7 @@
               "comparison": "KWT-20A=><KWT-30A: Output current 30A > 20A (+50%), Efficiency 96% = 96%, Package DIP = DIP, suitable for direct replacement",
               "reason": "Higher current for AI accelerators and GPUs",
               "useCase": "Upgrade for 25-30A processor applications",
-              "link": "/zlg-power/products/non-isolated-pol/kwt-30a.html"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1391,7 +1391,7 @@
                 "16V"
               ],
               "description": "High-current input capacitor",
-              "link": "/products/capacitors/c3216x7r1c226k.html"
+              "link": ""
             },
             {
               "partNumber": "C4532X7R1C107K",
@@ -1402,11 +1402,11 @@
                 "16V"
               ],
               "description": "High-capacitance output capacitor",
-              "link": "/products/capacitors/c4532x7r1c107k.html"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }
@@ -1638,7 +1638,7 @@
               "comparison": "CUSTOM-DC-100W=><ALT-DC-100W: Output current Standard = Standard (similar), Package Standard = Standard (same), suitable for direct replacement",
               "reason": "Alternative configuration with similar electrical characteristics",
               "useCase": "Suitable for applications requiring equivalent performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CUSTOM-DC-100W-H",
@@ -1651,7 +1651,7 @@
               "comparison": "CUSTOM-DC-100W=><CUSTOM-DC-100W-H: Output current Enhanced > Standard (+20%), Package Standard = Standard (same), suitable for direct replacement",
               "reason": "Higher current rating for demanding applications",
               "useCase": "Recommended for systems with higher power requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1664,17 +1664,17 @@
                 "Technical consultation"
               ],
               "description": "Contact us for custom power module design consultation",
-              "link": "/contact"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }
@@ -1797,7 +1797,7 @@
               "comparison": "CUSTOM-AC-300W=><ALT-AC-300W: Output current Standard = Standard (similar), Package Standard = Standard (same), suitable for direct replacement",
               "reason": "Alternative configuration with similar electrical characteristics",
               "useCase": "Suitable for applications requiring equivalent performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "CUSTOM-AC-300W-H",
@@ -1810,7 +1810,7 @@
               "comparison": "CUSTOM-AC-300W=><CUSTOM-AC-300W-H: Output current Enhanced > Standard (+20%), Package Standard = Standard (same), suitable for direct replacement",
               "reason": "Higher current rating for demanding applications",
               "useCase": "Recommended for systems with higher power requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1823,17 +1823,17 @@
                 "Safety consultation"
               ],
               "description": "Contact us for custom AC-DC power supply design consultation",
-              "link": "/contact"
+              "link": ""
             },
             {
               "partNumber": "Filter-Cap-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             },
             {
               "partNumber": "Filter-Cap-3",
-              "link": "#",
+              "link": "",
               "description": "Recommended input filter capacitor for noise reduction",
               "category": "Filter Components"
             }

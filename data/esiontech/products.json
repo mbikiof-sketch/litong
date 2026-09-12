@@ -215,7 +215,7 @@
               "comparison": "LUTs => 1K < 4K (smaller); I/O => 40 < 80; cost => lower price; applications => simpler designs",
               "reason": "Lower cost for very simple logic applications",
               "useCase": "Simple LED control, basic interfaces",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ES10K-LP",
@@ -228,25 +228,25 @@
               "comparison": "LUTs => 10K > 4K (larger); I/O => 120 > 80; cost => higher price; applications => complex designs",
               "reason": "Higher capacity for more complex designs",
               "useCase": "Complex control, interface bridging",
-              "link": "#"
+              "link": "/esiontech/products/low-cost-fpga/es10k-lp"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ES4K-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for ES4K-LP",
               "category": "Development Tools"
             },
             {
               "partNumber": "25MHz Oscillator",
-              "link": "#",
+              "link": "",
               "description": "External clock source",
               "category": "Clock"
             },
             {
               "partNumber": "100nF Ceramic",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitors",
               "category": "Passive Component"
             }
@@ -360,7 +360,7 @@
               "comparison": "LUTs => 4K < 10K (smaller); I/O => 80 < 120; cost => lower price; applications => simpler designs",
               "reason": "Lower cost for designs with less logic requirements",
               "useCase": "Simpler control and interface applications",
-              "link": "#"
+              "link": "/esiontech/products/low-cost-fpga/es4k-lp"
             },
             {
               "partNumber": "ES20K-HP",
@@ -373,25 +373,25 @@
               "comparison": "LUTs => 20K > 10K (larger); features => high-speed transceivers; cost => higher price; applications => high-performance",
               "reason": "Higher performance for demanding applications",
               "useCase": "High-speed communications, complex processing",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ES10K-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for ES10K-LP",
               "category": "Development Tools"
             },
             {
               "partNumber": "SPI Flash 16MB",
-              "link": "#",
+              "link": "",
               "description": "Configuration storage",
               "category": "Memory"
             },
             {
               "partNumber": "100nF/10uF Caps",
-              "link": "#",
+              "link": "",
               "description": "Decoupling capacitors",
               "category": "Passive Component"
             }
@@ -506,7 +506,8 @@
                 "Block RAM": "512KB"
               },
               "priceDifference": "+40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/esiontech/products/low-cost-fpga/es1k-20k64"
             }
           ],
           "companionParts": [
@@ -590,7 +591,8 @@
                 "Block RAM": "256KB"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/esiontech/products/low-cost-fpga/es1k-10k32"
             }
           ],
           "companionParts": [

@@ -201,7 +201,7 @@
               "comparison": "STR-A6069H=><LNK3202: Output current 4A > 2A, suitable for direct replacement",
               "reason": "STR-A6069H offers higher current capability and power rating at competitive cost",
               "useCase": "STR-A6069H for higher power requirements; LNK3202 for lower power applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "iW1702",
@@ -214,7 +214,7 @@
               "comparison": "STR-A6069H=><iW1702: Output current 4A > 2A (+100%), suitable for direct replacement",
               "reason": "STR-A6069H provides higher power capability with similar features",
               "useCase": "STR-A6069H for higher power designs; iW1702 for standard applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -222,25 +222,25 @@
               "partNumber": "STR-SR3010",
               "description": "Synchronous rectifier controller for improved efficiency",
               "category": "Synchronous Rectifier",
-              "link": "/starrystonetech/products/ac-dc-controllers/str-sr3010.html"
+              "link": "/starrystonetech/products/ac-dc-controllers/str-sr3010"
             },
             {
               "partNumber": "STR-D1010",
               "description": "Secondary side feedback IC for precise regulation",
               "category": "Feedback IC",
-              "link": "/starrystonetech/products/ac-dc-controllers/str-d1010.html"
+              "link": ""
             },
             {
               "partNumber": "Transformer",
               "description": "EE16 or EE19 transformer for flyback converter",
               "category": "Magnetic",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Output Capacitors",
               "description": "Low ESR electrolytic capacitors for output filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -366,7 +366,7 @@
               "comparison": "STR-SR3010=><MP6901: Frequency 150kHz < 300kHz, suitable for direct replacement",
               "reason": "STR-SR3010 offers similar performance at competitive cost",
               "useCase": "STR-SR3010 for cost-sensitive designs; MP6901 for higher frequency applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "NCP4303",
@@ -379,7 +379,7 @@
               "comparison": "STR-SR3010=><NCP4303: Frequency 150kHz < 250kHz, suitable for direct replacement",
               "reason": "STR-SR3010 provides cost-effective solution with local support",
               "useCase": "STR-SR3010 for standard applications; NCP4303 for high-frequency designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -387,25 +387,25 @@
               "partNumber": "STR-A6069H",
               "description": "Primary side PWM controller for complete power supply",
               "category": "PWM Controller",
-              "link": "/starrystonetech/products/ac-dc-controllers/str-a6069h.html"
+              "link": "/starrystonetech/products/ac-dc-controllers/str-a6069h"
             },
             {
               "partNumber": "SR MOSFET",
               "description": "Low-RDS(on) MOSFET for synchronous rectification (40V-100V)",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Gate Resistor",
               "description": "Gate drive resistor for optimal switching",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "VCC Capacitor",
               "description": "Decoupling capacitor for controller supply",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -630,7 +630,7 @@
               },
               "reason": "STR-B3401 offers competitive performance at lower cost",
               "useCase": "STR-B3401 for cost-sensitive designs; MP1584 for higher input voltage",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS54331",
@@ -643,7 +643,7 @@
               "comparison": "STR-B3401=><TPS54331: Package SOT23-5 < SOIC-8 (smaller), suitable for direct replacement",
               "reason": "STR-B3401 offers smaller package at competitive cost",
               "useCase": "STR-B3401 for compact designs; TPS54331 for wider input range",
-              "link": "#"
+              "link": "/ti/products/power-management/tps54331"
             }
           ],
           "companionParts": [
@@ -651,25 +651,25 @@
               "partNumber": "STR-B2401",
               "description": "2A buck converter for lower current rails",
               "category": "DC-DC Converter",
-              "link": "/starrystonetech/products/dc-dc-converters/str-b2401.html"
+              "link": ""
             },
             {
               "partNumber": "Power Inductor",
               "description": "4.7μH inductor for buck converter",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Input Capacitors",
               "description": "Ceramic capacitors for input filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Output Capacitors",
               "description": "Low ESR capacitors for output filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -793,7 +793,7 @@
               "comparison": "STR-C3501=><TPS63020: Package Similar = Similar, suitable for direct replacement",
               "reason": "STR-C3501 supports wider voltage range and higher output voltage",
               "useCase": "STR-C3501 for wide-range applications; TPS63020 for low-voltage designs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LTC3780",
@@ -806,7 +806,7 @@
               "comparison": "STR-C3501=><LTC3780: Package QFN-16 < TSSOP-24 (smaller), suitable for direct replacement",
               "reason": "STR-C3501 offers compact solution for lower power applications",
               "useCase": "STR-C3501 for compact sub-15W designs; LTC3780 for high-power applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -814,25 +814,25 @@
               "partNumber": "STR-B3401",
               "description": "Buck converter for additional voltage rails",
               "category": "DC-DC Converter",
-              "link": "/starrystonetech/products/dc-dc-converters/str-b3401.html"
+              "link": "/starrystonetech/products/dc-dc-converters/str-b3401"
             },
             {
               "partNumber": "Power Inductor",
               "description": "2.2μH inductor for buck-boost converter",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Input Capacitors",
               "description": "Ceramic capacitors for input filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Output Capacitors",
               "description": "Low ESR capacitors for output filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1056,7 +1056,7 @@
               },
               "reason": "STR-L3201 offers analog dimming and wider voltage range at competitive cost",
               "useCase": "STR-L3201 for analog dimming needs; MP24833 for higher current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS92512",
@@ -1074,7 +1074,7 @@
               },
               "reason": "STR-L3201 provides cost-effective solution for standard applications",
               "useCase": "STR-L3201 for cost-sensitive designs; TPS92512 for advanced features",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1082,25 +1082,25 @@
               "partNumber": "STR-L3202",
               "description": "2A version for higher current applications",
               "category": "LED Driver",
-              "link": "/starrystonetech/products/led-drivers/str-l3202.html"
+              "link": ""
             },
             {
               "partNumber": "Power Inductor",
               "description": "47μH inductor for LED driver",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Current Sense Resistor",
               "description": "Resistor for LED current setting",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Input Capacitor",
               "description": "Ceramic capacitor for input filtering",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1230,7 +1230,7 @@
               },
               "reason": "STR-H5601 provides cost-effective solution for standard high-power applications",
               "useCase": "STR-H5601 for cost-sensitive designs; TPS92692 for advanced features",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AL8843",
@@ -1243,7 +1243,7 @@
               "comparison": "STR-H5601=><AL8843: Package ESOP-10 vs SO-8, suitable for direct replacement",
               "reason": "STR-H5601 supports higher output voltage for longer LED strings",
               "useCase": "STR-H5601 for high-voltage applications; AL8843 for lower voltage, higher current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1251,25 +1251,25 @@
               "partNumber": "STR-L3201",
               "description": "Lower power driver for auxiliary lighting",
               "category": "LED Driver",
-              "link": "/starrystonetech/products/led-drivers/str-l3201.html"
+              "link": "/starrystonetech/products/led-drivers/str-l3201"
             },
             {
               "partNumber": "Power Inductor",
               "description": "33μH high-current inductor for boost converter",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Output Capacitor",
               "description": "High-voltage capacitor for 60V output",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Current Sense Resistor",
               "description": "Low-value resistor for current sensing",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1490,7 +1490,7 @@
               "comparison": "STR-G4401=><UCC27524: Output current 4A < 5A, suitable for direct replacement",
               "reason": "STR-G4401 offers similar performance at competitive cost",
               "useCase": "STR-G4401 for cost-sensitive designs; UCC27524 for higher drive current",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IRS4427",
@@ -1503,7 +1503,7 @@
               "comparison": "STR-G4401=><IRS4427: Output current 4A > 1.5A (+167%), suitable for direct replacement",
               "reason": "STR-G4401 provides higher drive current and more features",
               "useCase": "STR-G4401 for higher performance; IRS4427 for basic applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1511,25 +1511,25 @@
               "partNumber": "STR-HB5601",
               "description": "Half-bridge driver for high-side applications",
               "category": "Gate Driver",
-              "link": "/starrystonetech/products/gate-drivers/str-hb5601.html"
+              "link": "/starrystonetech/products/gate-drivers/str-hb5601"
             },
             {
               "partNumber": "Power MOSFET",
               "description": "N-channel MOSFET for switching applications",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Gate Resistor",
               "description": "Resistor for controlling switching speed",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Bootstrap Diode",
               "description": "Fast recovery diode for bootstrap circuit",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1655,7 +1655,7 @@
               "comparison": "STR-HB5601=><IR2104: Output current 2.5A > 0.27A (+826%), suitable for direct replacement",
               "reason": "STR-HB5601 provides significantly higher drive current than basic drivers",
               "useCase": "STR-HB5601 for high-speed switching; IR2104 for low-speed applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "UCC27714",
@@ -1668,7 +1668,7 @@
               "comparison": "STR-HB5601=><UCC27714: Output current 2.5A < 4A, suitable for direct replacement",
               "reason": "STR-HB5601 provides cost-effective solution for standard applications",
               "useCase": "STR-HB5601 for cost-sensitive designs; UCC27714 for higher performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1676,25 +1676,25 @@
               "partNumber": "STR-G4401",
               "description": "Dual low-side driver for additional channels",
               "category": "Gate Driver",
-              "link": "/starrystonetech/products/gate-drivers/str-g4401.html"
+              "link": "/starrystonetech/products/gate-drivers/str-g4401"
             },
             {
               "partNumber": "Power MOSFETs",
               "description": "High and low-side MOSFETs for half-bridge",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Bootstrap Capacitor",
               "description": "Capacitor for high-side bootstrap supply",
               "category": "Passive",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Bootstrap Diode",
               "description": "Fast recovery diode for bootstrap circuit",
               "category": "Discrete",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

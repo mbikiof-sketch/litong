@@ -191,7 +191,7 @@
               "comparison": "PSM1-65R035=><PSM1-65R020: Output current 90A > 60A (higher), Package TO-247 = TO-247 (same), suitable for direct replacement",
               "reason": "Lower Rds(on) for higher current applications",
               "useCase": "Use for higher power onboard chargers or when lower conduction losses are needed",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSM1-65R060",
@@ -205,25 +205,25 @@
               "comparison": "PSM1-65R035=><PSM1-65R060: Output current 40A < 60A (lower), Package TO-247 = TO-247 (same), suitable for direct replacement",
               "reason": "Lower cost option for lower current applications",
               "useCase": "Use for lower power applications where cost is critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "PSD1-65H060",
-              "link": "#",
+              "link": "/pinesemi/products/sic-diodes/psd1-65h060",
               "description": "650V 60A SiC Schottky diode for PFC applications",
               "category": "Companion Diodes"
             },
             {
               "partNumber": "PGD-15A",
-              "link": "#",
+              "link": "",
               "description": "Isolated gate driver for SiC MOSFETs",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "TIM-PAD-247",
-              "link": "#",
+              "link": "",
               "description": "Thermal interface pad for TO-247 package",
               "category": "Thermal Management"
             }
@@ -335,7 +335,7 @@
               "comparison": "PSM2-120R040=><PSM2-120R025: Output current 80A > 55A (higher), Package TO-247-4 = TO-247-4 (same), suitable for direct replacement",
               "reason": "Lower Rds(on) for higher power traction inverters",
               "useCase": "Use for high-power EV traction inverters (>150kW)",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSM2-120R080",
@@ -349,25 +349,25 @@
               "comparison": "PSM2-120R040=><PSM2-120R080: Output current 30A < 55A (lower), Package TO-247 vs TO-247-4, suitable for direct replacement",
               "reason": "Lower cost option for lower current applications",
               "useCase": "Use for auxiliary inverters or lower power applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "PSD2-120H040",
-              "link": "#",
+              "link": "/pinesemi/products/sic-diodes/psd2-120h040",
               "description": "1200V 40A SiC Schottky diode",
               "category": "Companion Diodes"
             },
             {
               "partNumber": "PGD-25A",
-              "link": "#",
+              "link": "",
               "description": "High-isolation gate driver for automotive applications",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "NTC-10K",
-              "link": "#",
+              "link": "",
               "description": "NTC thermistor for temperature monitoring",
               "category": "Sensors"
             }
@@ -839,7 +839,7 @@
               "comparison": "PIM-75A-6=><PIM-50A-6: Output current 50A < 75A (lower), Package 34mm = 34mm (same), suitable for direct replacement",
               "reason": "Lower current option for smaller drives",
               "useCase": "Use for drives up to 15kW or lower current applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PIM-100A-6",
@@ -853,25 +853,25 @@
               "comparison": "PIM-75A-6=><PIM-100A-6: Output current 100A > 75A (higher), Package 34mm = 34mm (same), suitable for direct replacement",
               "reason": "Higher current option for larger drives",
               "useCase": "Use for drives up to 45kW requiring higher current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "PGD-IGBT-2A",
-              "link": "#",
+              "link": "",
               "description": "IGBT gate driver with desaturation protection",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "DCB-CAP-450",
-              "link": "#",
+              "link": "",
               "description": "DC-link capacitor for inverter applications",
               "category": "Passive Components"
             },
             {
               "partNumber": "HEATSINK-75A",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for 34mm IGBT modules",
               "category": "Thermal Management"
             }
@@ -984,7 +984,7 @@
               "comparison": "PFC-50A-12=><PFC-35A-12: Output current 35A < 50A (lower), Package 34mm = 34mm (same), suitable for direct replacement",
               "reason": "Lower current option for smaller PFC stages",
               "useCase": "Use for PFC stages up to 10kW",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSM1-65R035",
@@ -998,25 +998,25 @@
               "comparison": "PFC-50A-12=><PSM1-65R035: Efficiency Higher efficiency at high frequency, suitable for direct replacement",
               "reason": "SiC alternative for higher frequency operation",
               "useCase": "Use for high-frequency PFC (>50kHz) where efficiency is critical",
-              "link": "#"
+              "link": "/pinesemi/products/sic-mosfets/psm1-65r035"
             }
           ],
           "companionParts": [
             {
               "partNumber": "PGD-PFC-2A",
-              "link": "#",
+              "link": "",
               "description": "Gate driver optimized for PFC applications",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "PFC-IND-100",
-              "link": "#",
+              "link": "",
               "description": "PFC inductor for 50A applications",
               "category": "Magnetics"
             },
             {
               "partNumber": "HEATSINK-50A",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for PFC modules",
               "category": "Thermal Management"
             }
@@ -1493,7 +1493,7 @@
               "comparison": "IPM-S15A-6=><IPM-S10A-6: Output current 10A < 15A (lower), suitable for direct replacement",
               "reason": "Lower current option for smaller motors",
               "useCase": "Use for small fans, pumps, or compressors under 1kW",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "IPM-S20A-6",
@@ -1506,25 +1506,25 @@
               "comparison": "IPM-S15A-6=><IPM-S20A-6: Output current 20A > 15A (higher), suitable for direct replacement",
               "reason": "Higher current option for larger motors",
               "useCase": "Use for larger HVAC systems or industrial pumps",
-              "link": "#"
+              "link": "/pinesemi/products/intelligent-power-modules/ipm-s20a-6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MCU-ARM-M0",
-              "link": "#",
+              "link": "",
               "description": "Motor control microcontroller with FOC library",
               "category": "Controllers"
             },
             {
               "partNumber": "HEATSINK-IPM-S",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for standard IPM packages",
               "category": "Thermal Management"
             },
             {
               "partNumber": "CAP-FILM-DC",
-              "link": "#",
+              "link": "",
               "description": "DC-link film capacitor for IPM applications",
               "category": "Passive Components"
             }
@@ -1870,7 +1870,7 @@
               "comparison": "PSD1-65H060=><PSD1-65H030: Output current 30A < 60A (lower), suitable for direct replacement",
               "reason": "Lower current option for smaller PFC stages",
               "useCase": "Use for PFC stages up to 5kW",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PSD2-120H040",
@@ -1883,25 +1883,25 @@
               "comparison": "PSD1-65H060=><PSD2-120H040: Output current 40A < 60A (lower), suitable for direct replacement",
               "reason": "Higher voltage option for 800V systems",
               "useCase": "Use for high-voltage PFC or EV onboard chargers",
-              "link": "#"
+              "link": "/pinesemi/products/sic-diodes/psd2-120h040"
             }
           ],
           "companionParts": [
             {
               "partNumber": "PSM1-65R035",
-              "link": "#",
+              "link": "/pinesemi/products/sic-mosfets/psm1-65r035",
               "description": "650V SiC MOSFET for PFC switch",
               "category": "Companion Switches"
             },
             {
               "partNumber": "PFC-IND-100",
-              "link": "#",
+              "link": "",
               "description": "PFC inductor for high-frequency operation",
               "category": "Magnetics"
             },
             {
               "partNumber": "HEATSINK-247",
-              "link": "#",
+              "link": "",
               "description": "Heatsink for TO-247 diodes",
               "category": "Thermal Management"
             }

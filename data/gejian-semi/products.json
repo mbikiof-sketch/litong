@@ -199,7 +199,7 @@
               },
               "reason": "Lower current rating suitable for 3-10kW applications with slightly better conduction losses.",
               "useCase": "Use for lower power motor drives and inverter applications where 30A is sufficient.",
-              "link": "/gejian-semi/products/igbts/gjigbt30n65f.html"
+              "link": ""
             },
             {
               "partNumber": "GJIGBT50N65F",
@@ -218,31 +218,31 @@
               },
               "reason": "Higher current rating for 15-22kW applications with same voltage rating.",
               "useCase": "Use for higher power motor drives and solar inverters requiring 50A continuous current.",
-              "link": "/gejian-semi/products/igbts/gjigbt50n65f.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJFW40N65F",
-              "link": "/gejian-semi/products/igbts/gjfw40n65f.html",
+              "link": "",
               "description": "Matching freewheeling diode for GJIGBT40N65F, 650V 40A",
               "category": "Freewheeling Diode"
             },
             {
               "partNumber": "GJGD6501",
-              "link": "/gejian-semi/products/gate-drivers/gjgd6501.html",
+              "link": "",
               "description": "Single-channel IGBT gate driver with desaturation protection",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJGD6502",
-              "link": "/gejian-semi/products/gate-drivers/gjgd6502.html",
+              "link": "",
               "description": "Dual-channel IGBT gate driver for half-bridge applications",
               "category": "Gate Driver"
             },
             {
               "partNumber": "Thermal Pad TP-TO247",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal interface pad for TO-247 packages",
               "category": "Thermal Management"
             }
@@ -367,7 +367,7 @@
               },
               "reason": "Lower current rating suitable for 10-20kW applications with standard TO-247 package.",
               "useCase": "Use for smaller industrial drives and solar inverters where 50A is sufficient.",
-              "link": "/gejian-semi/products/igbts/gjigbt50n120f.html"
+              "link": ""
             },
             {
               "partNumber": "GJIGBT100N120F",
@@ -386,31 +386,31 @@
               },
               "reason": "Higher current rating for 30-45kW applications with same voltage rating.",
               "useCase": "Use for higher power industrial drives and renewable energy systems requiring 100A.",
-              "link": "/gejian-semi/products/igbts/gjigbt100n120f.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJFW75N120F",
-              "link": "/gejian-semi/products/igbts/gjfw75n120f.html",
+              "link": "",
               "description": "Matching freewheeling diode for GJIGBT75N120F, 1200V 75A",
               "category": "Freewheeling Diode"
             },
             {
               "partNumber": "GJGD1201",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1201.html",
+              "link": "/gejian-semi/products/gate-drivers/gjgd1201",
               "description": "1200V isolated gate driver with Miller clamp protection",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJGD1202",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1202.html",
+              "link": "",
               "description": "Dual 1200V gate driver with advanced protection features",
               "category": "Gate Driver"
             },
             {
               "partNumber": "Thermal Pad TP-TO247PLUS",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal interface pad for TO-247PLUS packages",
               "category": "Thermal Management"
             }
@@ -615,7 +615,7 @@
               },
               "reason": "Higher on-resistance suitable for lower current applications with reduced cost.",
               "useCase": "Use for lower power EV chargers and DC-DC converters where 45A is sufficient.",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic60m120a.html"
+              "link": ""
             },
             {
               "partNumber": "GJSiC30M120A",
@@ -634,31 +634,31 @@
               },
               "reason": "Lower on-resistance for higher current applications with reduced conduction losses.",
               "useCase": "Use for high-power EV traction inverters and high-current DC-DC converters.",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic30m120a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJGD1201S",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1201s.html",
+              "link": "/gejian-semi/products/gate-drivers/gjgd1201s",
               "description": "SiC-optimized isolated gate driver with Miller clamp",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJGD1202S",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1202s.html",
+              "link": "",
               "description": "Dual-channel SiC gate driver with desaturation protection",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJSCD40M120A",
-              "link": "/gejian-semi/products/sic-mosfets/gjscd40m120a.html",
+              "link": "",
               "description": "Matching SiC Schottky diode for GJSiC40M120A, 1200V 40A",
               "category": "SiC Diode"
             },
             {
               "partNumber": "Thermal Pad TP-TO247",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal interface pad for TO-247 packages",
               "category": "Thermal Management"
             }
@@ -783,7 +783,7 @@
               },
               "reason": "Higher on-resistance suitable for lower current applications with reduced cost.",
               "useCase": "Use for lower power DC-DC converters and auxiliary power supplies where 65A is sufficient.",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic30m650a.html"
+              "link": ""
             },
             {
               "partNumber": "GJSiC15M650A",
@@ -802,31 +802,31 @@
               },
               "reason": "Lower on-resistance for highest current applications with minimized conduction losses.",
               "useCase": "Use for high-power onboard chargers and DC-DC converters requiring maximum current capability.",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic15m650a.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJGD6501S",
-              "link": "/gejian-semi/products/gate-drivers/gjgd6501s.html",
+              "link": "",
               "description": "650V SiC-optimized isolated gate driver",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJGD6502S",
-              "link": "/gejian-semi/products/gate-drivers/gjgd6502s.html",
+              "link": "",
               "description": "Dual-channel 650V SiC gate driver",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJSCD20M650A",
-              "link": "/gejian-semi/products/sic-mosfets/gjscd20m650a.html",
+              "link": "",
               "description": "Matching SiC Schottky diode for GJSiC20M650A, 650V 20A",
               "category": "SiC Diode"
             },
             {
               "partNumber": "Thermal Pad TP-TO247",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal interface pad for TO-247 packages",
               "category": "Thermal Management"
             }
@@ -1031,7 +1031,7 @@
               },
               "reason": "Lower current rating suitable for 5-12kW applications with reduced cost.",
               "useCase": "Use for smaller motor drives and inverters where 30A per switch is sufficient.",
-              "link": "/gejian-semi/products/power-modules/gjpm30n120h.html"
+              "link": ""
             },
             {
               "partNumber": "GJPM75N120H",
@@ -1050,31 +1050,31 @@
               },
               "reason": "Higher current rating for 20-30kW applications with same voltage rating.",
               "useCase": "Use for higher power industrial drives and renewable energy systems requiring 75A per switch.",
-              "link": "/gejian-semi/products/power-modules/gjpm75n120h.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJGD1201M",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1201m.html",
+              "link": "",
               "description": "Module-optimized dual gate driver for half-bridge modules",
               "category": "Gate Driver"
             },
             {
               "partNumber": "GJPM50N120H-SET",
-              "link": "#",
+              "link": "",
               "description": "Complete evaluation kit with three modules for three-phase inverter",
               "category": "Evaluation Kit"
             },
             {
               "partNumber": "Thermal Grease TG-100",
-              "link": "#",
+              "link": "",
               "description": "High-performance thermal grease for module mounting",
               "category": "Thermal Management"
             },
             {
               "partNumber": "Mounting Kit MK-STD",
-              "link": "#",
+              "link": "",
               "description": "Standard mounting hardware kit for power modules",
               "category": "Accessories"
             }
@@ -1200,7 +1200,7 @@
               },
               "reason": "Lower current rating suitable for 1-3kW motor drives with reduced cost.",
               "useCase": "Use for small appliance motors, fans, and pumps where 15A is sufficient.",
-              "link": "/gejian-semi/products/power-modules/gjipm15n65i.html"
+              "link": ""
             },
             {
               "partNumber": "GJIPM50N65I",
@@ -1219,31 +1219,31 @@
               },
               "reason": "Higher current rating for 7.5-15kW motor drive applications.",
               "useCase": "Use for larger HVAC compressors and industrial servo drives requiring 50A per phase.",
-              "link": "/gejian-semi/products/power-modules/gjipm50n65i.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJMC30X",
-              "link": "/gejian-semi/products/microcontrollers/gjmc30x.html",
+              "link": "",
               "description": "Motor control MCU with integrated FOC algorithm",
               "category": "Motor Controller"
             },
             {
               "partNumber": "GJIPM30N65I-KIT",
-              "link": "#",
+              "link": "",
               "description": "Complete motor drive evaluation kit with control board",
               "category": "Evaluation Kit"
             },
             {
               "partNumber": "DC Link Capacitor 470uF/450V",
-              "link": "#",
+              "link": "",
               "description": "Film capacitor for DC link filtering",
               "category": "Passive Components"
             },
             {
               "partNumber": "Current Sensor ACS712",
-              "link": "#",
+              "link": "",
               "description": "Hall effect current sensor for motor phase current measurement",
               "category": "Sensors"
             }
@@ -1454,7 +1454,7 @@
               },
               "reason": "Higher peak current for faster switching of large IGBT modules.",
               "useCase": "Use for driving large IGBT modules (>100A) requiring fast switching.",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1202.html"
+              "link": ""
             },
             {
               "partNumber": "GJGD6501",
@@ -1473,31 +1473,31 @@
               },
               "reason": "Lower voltage class for 650V IGBT applications with reduced cost.",
               "useCase": "Use for 650V IGBT applications where 1200V isolation is not required.",
-              "link": "/gejian-semi/products/gate-drivers/gjgd6501.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJIGBT50N120F",
-              "link": "/gejian-semi/products/igbts/gjigbt50n120f.html",
+              "link": "",
               "description": "1200V 50A IGBT optimized for use with GJGD1201",
               "category": "IGBT"
             },
             {
               "partNumber": "GJPM50N120H",
-              "link": "/gejian-semi/products/power-modules/gjpm50n120h.html",
+              "link": "/gejian-semi/products/power-modules/gjpm50n120h",
               "description": "1200V 50A half-bridge module for use with GJGD1201",
               "category": "Power Module"
             },
             {
               "partNumber": "Isolated DC-DC 15V",
-              "link": "#",
+              "link": "",
               "description": "Isolated 15V power supply for gate drive",
               "category": "Power Supply"
             },
             {
               "partNumber": "Desat Diode BAV99",
-              "link": "#",
+              "link": "",
               "description": "High-voltage diode for desaturation detection circuit",
               "category": "Discrete Components"
             }
@@ -1625,7 +1625,7 @@
               },
               "reason": "Standard IGBT driver with +15V output suitable for less demanding SiC applications.",
               "useCase": "Use for cost-sensitive SiC applications where +18V drive is not critical.",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1201.html"
+              "link": "/gejian-semi/products/gate-drivers/gjgd1201"
             },
             {
               "partNumber": "GJGD1202S",
@@ -1644,31 +1644,31 @@
               },
               "reason": "Higher peak current for driving very large SiC modules with fastest switching.",
               "useCase": "Use for driving large SiC power modules (>200A) requiring maximum switching speed.",
-              "link": "/gejian-semi/products/gate-drivers/gjgd1202s.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "GJSiC40M120A",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic40m120a.html",
+              "link": "/gejian-semi/products/sic-mosfets/gjsic40m120a",
               "description": "1200V 40mΩ SiC MOSFET optimized for use with GJGD1201S",
               "category": "SiC MOSFET"
             },
             {
               "partNumber": "GJSiC20M650A",
-              "link": "/gejian-semi/products/sic-mosfets/gjsic20m650a.html",
+              "link": "/gejian-semi/products/sic-mosfets/gjsic20m650a",
               "description": "650V 20mΩ SiC MOSFET for use with GJGD1201S",
               "category": "SiC MOSFET"
             },
             {
               "partNumber": "Isolated DC-DC 18V",
-              "link": "#",
+              "link": "",
               "description": "Isolated +18V/-3V power supply for SiC gate drive",
               "category": "Power Supply"
             },
             {
               "partNumber": "Gate Resistor Kit",
-              "link": "#",
+              "link": "",
               "description": "Assorted gate resistors for SiC switching optimization",
               "category": "Passive Components"
             }

@@ -209,7 +209,7 @@
               },
               "reason": "Smaller package for space-constrained designs",
               "useCase": "Compact designs where board space is critical",
-              "link": "/dapu/products/crystal-oscillators/xo2520-25m.html"
+              "link": ""
             },
             {
               "partNumber": "XO3225-25M-LJ",
@@ -226,25 +226,25 @@
               },
               "reason": "Lower jitter for high-speed SERDES applications",
               "useCase": "Gigabit Ethernet and high-speed serial links",
-              "link": "/dapu/products/crystal-oscillators/xo3225-25m-lj.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO3225-125M",
-              "link": "/dapu/products/crystal-oscillators/xo3225-125m.html",
+              "link": "/dapu/products/crystal-oscillators/xo3225-125m",
               "description": "125MHz oscillator for Gigabit Ethernet applications",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "TCXO3225-26M",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m.html",
+              "link": "",
               "description": "High-stability TCXO for cellular applications",
               "category": "TCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -364,7 +364,7 @@
               },
               "reason": "Larger package for easier handling and better thermal performance",
               "useCase": "Applications where larger package is acceptable for easier assembly",
-              "link": "/dapu/products/crystal-oscillators/xo5032-125m.html"
+              "link": ""
             },
             {
               "partNumber": "XO3225-25M",
@@ -379,25 +379,25 @@
               },
               "reason": "Lower frequency for 10/100Mbps Ethernet applications",
               "useCase": "Fast Ethernet (10/100Mbps) applications",
-              "link": "/dapu/products/crystal-oscillators/xo3225-25m.html"
+              "link": "/dapu/products/crystal-oscillators/xo3225-25m"
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO3225-25M",
-              "link": "/dapu/products/crystal-oscillators/xo3225-25m.html",
+              "link": "/dapu/products/crystal-oscillators/xo3225-25m",
               "description": "25MHz oscillator for Fast Ethernet applications",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "TCXO3225-38M4",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4.html",
+              "link": "",
               "description": "38.4MHz TCXO for LTE cellular applications",
               "category": "TCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -534,7 +534,8 @@
               "specifications": {
                 "frequency": "Same",
                 "stability": "±2.5ppm"
-              }
+              },
+              "link": "/dapu/products/crystal-oscillators/xo3225-48m"
             }
           ],
           "companionParts": [
@@ -682,7 +683,8 @@
               "specifications": {
                 "frequency": "Same",
                 "stability": "±2.5ppm"
-              }
+              },
+              "link": "/dapu/products/crystal-oscillators/xo5032-27m"
             }
           ],
           "companionParts": [
@@ -913,7 +915,7 @@
               },
               "reason": "Lower cost option for less stringent applications",
               "useCase": "Cellular applications where ±1.0ppm is adequate",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-10.html"
+              "link": ""
             },
             {
               "partNumber": "TCXO3225-38M4-05",
@@ -928,25 +930,25 @@
               },
               "reason": "Higher frequency for LTE cellular applications",
               "useCase": "4G LTE smartphones and cellular modules",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-05.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO3225-26M",
-              "link": "/dapu/products/crystal-oscillators/xo3225-26m.html",
+              "link": "",
               "description": "Standard 26MHz XO for cost-sensitive applications",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "VCXO3225-26M",
-              "link": "/dapu/products/voltage-controlled-oscillators/vcxo3225-26m.html",
+              "link": "",
               "description": "VCXO for synchronization applications",
               "category": "VCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -1063,7 +1065,7 @@
               },
               "reason": "Higher stability for carrier-grade applications",
               "useCase": "Carrier-grade LTE equipment requiring better stability",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-05.html"
+              "link": ""
             },
             {
               "partNumber": "TCXO3225-26M-10",
@@ -1078,25 +1080,25 @@
               },
               "reason": "Lower frequency for 2G/3G cellular applications",
               "useCase": "2G/3G cellular and legacy wireless applications",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-10.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO3225-38M4",
-              "link": "/dapu/products/crystal-oscillators/xo3225-38m4.html",
+              "link": "",
               "description": "Standard 38.4MHz XO for cost-sensitive designs",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "RF2012-B40",
-              "link": "/dapu/products/rf-filters/rf2012-b40.html",
+              "link": "",
               "description": "Band 40 RF filter for LTE TDD applications",
               "category": "RF Filters"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -1353,7 +1355,8 @@
                 "Voltage Rating": "25V DC"
               },
               "priceDifference": "0%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05"
             },
             {
               "partNumber": "ALT-4-B",
@@ -1593,7 +1596,7 @@
               },
               "reason": "Narrower pull range for better phase noise",
               "useCase": "Applications with smaller frequency variation range",
-              "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-25m-50.html"
+              "link": ""
             },
             {
               "partNumber": "VCXO5032-125M-100",
@@ -1608,25 +1611,25 @@
               },
               "reason": "Higher frequency for Gigabit Ethernet PLLs",
               "useCase": "Gigabit Ethernet clock recovery applications",
-              "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-125m-100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO5032-25M",
-              "link": "/dapu/products/crystal-oscillators/xo5032-25m.html",
+              "link": "",
               "description": "Fixed 25MHz oscillator for reference applications",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "TCXO5032-25M",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo5032-25m.html",
+              "link": "",
               "description": "TCXO for high-stability reference applications",
               "category": "TCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -1741,7 +1744,7 @@
               },
               "reason": "Wider pull range for applications with larger frequency variation",
               "useCase": "Applications requiring wider frequency tracking range",
-              "link": "/dapu/products/voltage-controlled-oscillators/vcxo3225-19m2-100.html"
+              "link": ""
             },
             {
               "partNumber": "VCXO3225-25M-50",
@@ -1756,25 +1759,25 @@
               },
               "reason": "Higher frequency for Ethernet applications",
               "useCase": "Ethernet PLL applications",
-              "link": "/dapu/products/voltage-controlled-oscillators/vcxo3225-25m-50.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "XO3225-19M2",
-              "link": "/dapu/products/crystal-oscillators/xo3225-19m2.html",
+              "link": "",
               "description": "Fixed 19.2MHz oscillator for reference",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "TCXO3225-19M2",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-19m2.html",
+              "link": "",
               "description": "TCXO for high-stability telecom applications",
               "category": "TCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -2049,7 +2052,8 @@
               "specifications": {
                 "frequency": "Same",
                 "stability": "±2.5ppm"
-              }
+              },
+              "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-74m25-50"
             }
           ],
           "companionParts": [
@@ -2273,7 +2277,7 @@
               },
               "reason": "Larger package for easier handling",
               "useCase": "Applications where slightly larger package is acceptable",
-              "link": "/dapu/products/rf-filters/rf2012-gps.html"
+              "link": ""
             },
             {
               "partNumber": "RF1608-GLONASS",
@@ -2287,25 +2291,25 @@
               },
               "reason": "GLONASS L1 band frequency",
               "useCase": "Russian GLONASS navigation systems",
-              "link": "/dapu/products/rf-filters/rf1608-glonass.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "LNA1608-GPS",
-              "link": "/dapu/products/rf-amplifiers/lna1608-gps.html",
+              "link": "",
               "description": "GPS low-noise amplifier for receiver front-end",
               "category": "RF Amplifiers"
             },
             {
               "partNumber": "TCXO3225-26M-05",
-              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05.html",
+              "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05",
               "description": "High-stability TCXO for GPS timing",
               "category": "TCXOs"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -2417,7 +2421,7 @@
               },
               "reason": "5GHz WiFi band filter",
               "useCase": "Dual-band WiFi 5GHz applications",
-              "link": "/dapu/products/rf-filters/rf2012-wifi5.html"
+              "link": ""
             },
             {
               "partNumber": "RF1608-WIFI24",
@@ -2432,25 +2436,25 @@
               },
               "reason": "Smaller package for space-constrained designs",
               "useCase": "Wearables and ultra-compact devices",
-              "link": "/dapu/products/rf-filters/rf1608-wifi24.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "LNA2012-24G",
-              "link": "/dapu/products/rf-amplifiers/lna2012-24g.html",
+              "link": "",
               "description": "2.4GHz LNA for WiFi/BT receiver",
               "category": "RF Amplifiers"
             },
             {
               "partNumber": "XO2012-24M",
-              "link": "/dapu/products/crystal-oscillators/xo2012-24m.html",
+              "link": "",
               "description": "24MHz crystal for WiFi chipsets",
               "category": "Crystal Oscillators"
             },
             {
               "partNumber": "Dapu Dev Kit",
-              "link": "#",
+              "link": "",
               "description": "Evaluation kit for testing and validation",
               "category": "Development Tools"
             }
@@ -2580,7 +2584,8 @@
               "specifications": {
                 "frequency": "Same",
                 "stability": "±2.5ppm"
-              }
+              },
+              "link": "/dapu/products/rf-filters/sf2012-915m"
             }
           ],
           "companionParts": [
@@ -2721,7 +2726,8 @@
               "specifications": {
                 "frequency": "Same",
                 "stability": "±2.5ppm"
-              }
+              },
+              "link": "/dapu/products/rf-filters/sf3225-1575m"
             }
           ],
           "companionParts": [

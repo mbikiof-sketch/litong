@@ -128,7 +128,7 @@
           "alternativeParts": [
             {
               "partNumber": "2MBI150VH-120-50",
-              "link": "/fuji/products/2mbi150vh-120-50.html",
+              "link": "",
               "reason": "Lower current rating for 15-30kW applications",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -136,7 +136,7 @@
             },
             {
               "partNumber": "2MBI300VH-120-50",
-              "link": "/fuji/products/2mbi300vh-120-50.html",
+              "link": "/fuji/products/discrete-igbts/2mbi300vh-120-50",
               "reason": "Higher current rating for 75-150kW applications",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -144,9 +144,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -257,7 +269,7 @@
           "alternativeParts": [
             {
               "partNumber": "6MBI75VB-120-50",
-              "link": "/fuji/products/6mbi75vb-120-50.html",
+              "link": "",
               "reason": "Lower current rating for 3.7-7.5kW applications",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -265,7 +277,7 @@
             },
             {
               "partNumber": "6MBI150VB-120-50",
-              "link": "/fuji/products/6mbi150vb-120-50.html",
+              "link": "",
               "reason": "Higher current rating for 15-22kW applications",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -273,9 +285,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -686,7 +710,7 @@
           "alternativeParts": [
             {
               "partNumber": "FGA30N65SMD",
-              "link": "/fuji/products/fga30n65smd.html",
+              "link": "",
               "reason": "Lower current rating for 15-25A applications",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -694,7 +718,7 @@
             },
             {
               "partNumber": "FGA50N65SMD",
-              "link": "/fuji/products/fga50n65smd.html",
+              "link": "",
               "reason": "Higher current rating for 40-60A applications",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -702,9 +726,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -820,7 +856,7 @@
           "alternativeParts": [
             {
               "partNumber": "FGW40N65HD",
-              "link": "/fuji/products/fgw40n65hd.html",
+              "link": "",
               "reason": "Lower current rating for high-frequency SMPS",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -828,7 +864,7 @@
             },
             {
               "partNumber": "FGW75N65HD",
-              "link": "/fuji/products/fgw75n65hd.html",
+              "link": "",
               "reason": "Higher current rating for high-frequency SMPS",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -836,9 +872,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -972,14 +1020,16 @@
                 "IC": "300A"
               },
               "priceDifference": "+35%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fuji/products/discrete-igbts/2mbi300vh-120-50"
             }
           ],
           "companionParts": [
             {
               "partNumber": "2FSC0435+",
               "description": "Gate driver for IGBT module",
-              "category": "Gate Driver"
+              "category": "Gate Driver",
+              "link": "/firstack/products/gate-drivers/2fsc0435-"
             }
           ],
           "faqs": [
@@ -1049,7 +1099,8 @@
                 "IC": "200A"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fuji/products/discrete-igbts/2mbi200vh-120-50"
             }
           ],
           "companionParts": [
@@ -1162,7 +1213,7 @@
           "alternativeParts": [
             {
               "partNumber": "7MBP30RA120",
-              "link": "/fuji/products/7mbp30ra120.html",
+              "link": "",
               "reason": "Lower current rating for 3.7-5.5kW drives",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -1170,7 +1221,7 @@
             },
             {
               "partNumber": "7MBP75RA120",
-              "link": "/fuji/products/7mbp75ra120.html",
+              "link": "",
               "reason": "Higher current rating for 11-15kW drives",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -1178,9 +1229,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1295,7 +1358,7 @@
           "alternativeParts": [
             {
               "partNumber": "7MBP15RSB120",
-              "link": "/fuji/products/7mbp15rsb120.html",
+              "link": "",
               "reason": "Lower current rating for small appliances",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -1303,7 +1366,7 @@
             },
             {
               "partNumber": "7MBP35RSB120",
-              "link": "/fuji/products/7mbp35rsb120.html",
+              "link": "",
               "reason": "Higher current rating for larger appliances",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -1311,9 +1374,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1444,7 +1519,8 @@
                 "IC": "75A"
               },
               "priceDifference": "+20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fuji/products/ipm-modules/7mbr75sb120"
             }
           ],
           "companionParts": [
@@ -1519,7 +1595,8 @@
                 "IC": "50A"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/fuji/products/ipm-modules/7mbr50sb120"
             }
           ],
           "companionParts": [
@@ -1628,7 +1705,7 @@
           "alternativeParts": [
             {
               "partNumber": "FMF600DX-24A",
-              "link": "/fuji/products/fmf600dx-24a.html",
+              "link": "/mitsubishi/products/sic-mosfets/fmf600dx-24a",
               "reason": "Lower Rds(on) for high current applications",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -1636,7 +1713,7 @@
             },
             {
               "partNumber": "FMF1200DX-24A",
-              "link": "/fuji/products/fmf1200dx-24a.html",
+              "link": "",
               "reason": "Higher Rds(on) for cost-sensitive applications",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -1644,9 +1721,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1757,7 +1846,7 @@
           "alternativeParts": [
             {
               "partNumber": "FMF300HX-12A",
-              "link": "/fuji/products/fmf300hx-12a.html",
+              "link": "",
               "reason": "Lower current rating for server power",
               "brand": "Fuji",
               "comparison": "Alternative option 1",
@@ -1765,7 +1854,7 @@
             },
             {
               "partNumber": "FMF600HX-12A",
-              "link": "/fuji/products/fmf600hx-12a.html",
+              "link": "",
               "reason": "Higher current rating for telecom rectifiers",
               "brand": "Fuji",
               "comparison": "Alternative option 2",
@@ -1773,9 +1862,21 @@
             }
           ],
           "companionParts": [
-            "COMP-A",
-            "COMP-B",
-            "COMP-C"
+            {
+              "partNumber": "COMP-A",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-B",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-C",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {

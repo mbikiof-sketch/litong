@@ -338,7 +338,8 @@
               },
               "comparison": "PF09=><PCA9451A: Non-safety vs safety PMIC for i. MX 93",
               "reason": "Non-safety alternative for i. MX 93",
-              "useCase": "Use when ASIL certification not required"
+              "useCase": "Use when ASIL certification not required",
+              "link": "/nxp/products/power-management/pca9451a"
             }
           ],
           "companionParts": [
@@ -352,7 +353,8 @@
             },
             {
               "partNumber": "FS27",
-              "relationship": "System Basis Chip for ASIL D"
+              "relationship": "System Basis Chip for ASIL D",
+              "link": "/nxp/products/power-management/fs27"
             }
           ],
           "faqs": [
@@ -470,7 +472,8 @@
               },
               "comparison": "PCA9451A=><PF9453: Alternative PMIC for i. MX 93 with different features",
               "reason": "Alternative i. MX 93 PMIC",
-              "useCase": "Use when different feature set required"
+              "useCase": "Use when different feature set required",
+              "link": "/nxp/products/power-management/pf9453"
             },
             {
               "partNumber": "PF09",
@@ -481,7 +484,8 @@
               },
               "comparison": "PCA9451A=><PF09: Non-safety vs ASIL D for i. MX 93",
               "reason": "Safety upgrade path",
-              "useCase": "Use for automotive i. MX 93 applications"
+              "useCase": "Use for automotive i. MX 93 applications",
+              "link": "/nxp/products/power-management/pf09"
             }
           ],
           "companionParts": [
@@ -610,7 +614,8 @@
               },
               "comparison": "PF9453=><PCA9451A: Alternative PMIC for i. MX 93",
               "reason": "Alternative i. MX 93 PMIC",
-              "useCase": "Use based on specific feature requirements"
+              "useCase": "Use based on specific feature requirements",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "PF09",
@@ -621,7 +626,8 @@
               },
               "comparison": "PF9453=><PF09: Industrial vs ASIL D for i. MX 93",
               "reason": "Safety upgrade",
-              "useCase": "Use for safety-critical applications"
+              "useCase": "Use for safety-critical applications",
+              "link": "/nxp/products/power-management/pf09"
             }
           ],
           "companionParts": [
@@ -635,7 +641,8 @@
             },
             {
               "partNumber": "PF09",
-              "relationship": "Safety PMIC for automotive"
+              "relationship": "Safety PMIC for automotive",
+              "link": "/nxp/products/power-management/pf09"
             }
           ],
           "faqs": [
@@ -913,7 +920,8 @@
             },
             {
               "partNumber": "PF09",
-              "relationship": "PMIC for processor power"
+              "relationship": "PMIC for processor power",
+              "link": "/nxp/products/power-management/pf09"
             },
             {
               "partNumber": "FS04",
@@ -1147,7 +1155,8 @@
               },
               "comparison": "NAFE13388=><NAFE73388: Low power (288kSPS) vs High speed (576kSPS)",
               "reason": "Higher data rate for dynamic signals",
-              "useCase": "Use for high-speed data acquisition applications"
+              "useCase": "Use for high-speed data acquisition applications",
+              "link": "/nxp/products/analog-ics/nafe73388"
             },
             {
               "partNumber": "NAFE13188",
@@ -1158,7 +1167,8 @@
               },
               "comparison": "NAFE13388=><NAFE13188: Factory calibrated vs non-calibrated",
               "reason": "Cost reduction for systems with user calibration",
-              "useCase": "Use when system-level calibration is implemented"
+              "useCase": "Use when system-level calibration is implemented",
+              "link": "/nxp/products/analog-ics/nafe13188"
             }
           ],
           "companionParts": [
@@ -1168,7 +1178,8 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "PMIC for system power"
+              "relationship": "PMIC for system power",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101",
@@ -1291,7 +1302,8 @@
               },
               "comparison": "NAFE73388=><NAFE13388: High speed vs low power",
               "reason": "Lower power consumption",
-              "useCase": "Use for standard speed applications requiring lower power"
+              "useCase": "Use for standard speed applications requiring lower power",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "NAFE13144",
@@ -1302,7 +1314,8 @@
               },
               "comparison": "NAFE73388=><NAFE13144: 8ch/24b vs 4ch/16b",
               "reason": "Cost reduction for simpler applications",
-              "useCase": "Use for cost-sensitive 4-channel applications"
+              "useCase": "Use for cost-sensitive 4-channel applications",
+              "link": "/nxp/products/analog-ics/nafe13144"
             }
           ],
           "companionParts": [
@@ -1312,11 +1325,13 @@
             },
             {
               "partNumber": "NAFE13388",
-              "relationship": "Low-speed companion on same PCB"
+              "relationship": "Low-speed companion on same PCB",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "System power management"
+              "relationship": "System power management",
+              "link": "/nxp/products/power-management/pca9451a"
             }
           ],
           "faqs": [
@@ -1429,7 +1444,8 @@
               "specifications": {},
               "comparison": "NAFE33352=><NAFE13388: I/O vs Input only",
               "reason": "More input channels",
-              "useCase": "Use for input-only applications"
+              "useCase": "Use for input-only applications",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "NAFE13144",
@@ -1437,7 +1453,8 @@
               "specifications": {},
               "comparison": "NAFE33352=><NAFE13144: I/O vs 4ch input",
               "reason": "Lower cost",
-              "useCase": "Use for cost-sensitive applications"
+              "useCase": "Use for cost-sensitive applications",
+              "link": "/nxp/products/analog-ics/nafe13144"
             }
           ],
           "companionParts": [
@@ -1447,7 +1464,8 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "Power management"
+              "relationship": "Power management",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101",
@@ -1561,7 +1579,8 @@
               "specifications": {},
               "comparison": "NAFE13144=><NAFE13388: 4ch/16b vs 8ch/24b",
               "reason": "Higher performance",
-              "useCase": "Use when more channels/resolution needed"
+              "useCase": "Use when more channels/resolution needed",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "NAFE13188",
@@ -1569,7 +1588,8 @@
               "specifications": {},
               "comparison": "NAFE13144=><NAFE13188: 4ch vs 8ch",
               "reason": "More channels",
-              "useCase": "Use when 8 channels needed without calibration"
+              "useCase": "Use when 8 channels needed without calibration",
+              "link": "/nxp/products/analog-ics/nafe13188"
             }
           ],
           "companionParts": [
@@ -1583,7 +1603,8 @@
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -1691,7 +1712,8 @@
               "specifications": {},
               "comparison": "NAFE11388=><NAFE13388: No VIEX vs with VIEX",
               "reason": "Integrated excitation",
-              "useCase": "Use for RTD/thermocouple applications"
+              "useCase": "Use for RTD/thermocouple applications",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "Alt2-NAFE11388",
@@ -1711,11 +1733,13 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "PMIC"
+              "relationship": "PMIC",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -1821,7 +1845,8 @@
               "specifications": {},
               "comparison": "NAFE13188=><NAFE13388: No cal vs factory cal",
               "reason": "Factory calibrated",
-              "useCase": "Use when calibration not available"
+              "useCase": "Use when calibration not available",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "Alt2-NAFE13188",
@@ -1841,11 +1866,13 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "PMIC"
+              "relationship": "PMIC",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -2090,7 +2117,8 @@
               },
               "comparison": "TJA1101B=><TJA1103: 100Mbps vs 1Gbps",
               "reason": "Higher bandwidth",
-              "useCase": "Use for high-bandwidth applications"
+              "useCase": "Use for high-bandwidth applications",
+              "link": "/nxp/products/interface/tja1103"
             }
           ],
           "companionParts": [
@@ -2100,7 +2128,8 @@
             },
             {
               "partNumber": "SJA1105",
-              "relationship": "Automotive Ethernet switch"
+              "relationship": "Automotive Ethernet switch",
+              "link": "/nxp/products/interface/sja1105"
             },
             {
               "partNumber": "i. MX8",
@@ -2242,7 +2271,8 @@
               },
               "comparison": "TJA1043=><TJA1153: Standard vs secure CAN",
               "reason": "Security features",
-              "useCase": "Use for applications requiring secure CAN"
+              "useCase": "Use for applications requiring secure CAN",
+              "link": "/nxp/products/interface/tja1153"
             }
           ],
           "companionParts": [
@@ -2252,11 +2282,13 @@
             },
             {
               "partNumber": "UJA1169",
-              "relationship": "System Basis Chip with CAN"
+              "relationship": "System Basis Chip with CAN",
+              "link": "/nxp/products/interface/uja1169"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Ethernet PHY for gateway"
+              "relationship": "Ethernet PHY for gateway",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -2393,7 +2425,8 @@
           "companionParts": [
             {
               "partNumber": "TJA1101B",
-              "relationship": "Ethernet PHY"
+              "relationship": "Ethernet PHY",
+              "link": "/nxp/products/interface/tja1101b"
             },
             {
               "partNumber": "S32K3",
@@ -2401,7 +2434,8 @@
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -2519,7 +2553,8 @@
               "specifications": {},
               "comparison": "UJA1169=><FS27: Basic SBC vs high-voltage SBC",
               "reason": "Higher voltage",
-              "useCase": "Use for 24V/48V systems"
+              "useCase": "Use for 24V/48V systems",
+              "link": "/nxp/products/power-management/fs27"
             },
             {
               "partNumber": "Alt2-UJA1169",
@@ -2539,11 +2574,13 @@
             },
             {
               "partNumber": "TJA1043",
-              "relationship": "Standalone CAN transceiver"
+              "relationship": "Standalone CAN transceiver",
+              "link": "/nxp/products/interface/tja1043"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -2659,7 +2696,8 @@
               "specifications": {},
               "comparison": "TJA1153=><TJA1043: Secure vs standard CAN",
               "reason": "Standard CAN",
-              "useCase": "Use when security not required"
+              "useCase": "Use when security not required",
+              "link": "/nxp/products/interface/tja1043"
             },
             {
               "partNumber": "Alt2-TJA1153",
@@ -2679,11 +2717,13 @@
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Ethernet PHY"
+              "relationship": "Ethernet PHY",
+              "link": "/nxp/products/interface/tja1101b"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -2801,7 +2841,8 @@
               "specifications": {},
               "comparison": "TJA1103=><TJA1101B: 1Gbps vs 100Mbps",
               "reason": "Lower bandwidth",
-              "useCase": "Use for standard bandwidth applications"
+              "useCase": "Use for standard bandwidth applications",
+              "link": "/nxp/products/interface/tja1101b"
             },
             {
               "partNumber": "Alt2-TJA1103",
@@ -2821,11 +2862,13 @@
             },
             {
               "partNumber": "SJA1105",
-              "relationship": "Ethernet switch"
+              "relationship": "Ethernet switch",
+              "link": "/nxp/products/interface/sja1105"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3048,7 +3091,8 @@
               "specifications": {},
               "comparison": "NAFE13388-UIM=><NAFE13388: Board vs chip only",
               "reason": "Custom design",
-              "useCase": "Use for production designs"
+              "useCase": "Use for production designs",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "Alt2-NAFE13388-UIM",
@@ -3068,11 +3112,13 @@
             },
             {
               "partNumber": "NAFE13388",
-              "relationship": "Main AFE chip"
+              "relationship": "Main AFE chip",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3199,11 +3245,13 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "PMIC"
+              "relationship": "PMIC",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3328,11 +3376,13 @@
             },
             {
               "partNumber": "NAFE13388",
-              "relationship": "Signal conditioning"
+              "relationship": "Signal conditioning",
+              "link": "/nxp/products/analog-ics/nafe13388"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3457,11 +3507,13 @@
             },
             {
               "partNumber": "PCA9451A",
-              "relationship": "PMIC"
+              "relationship": "PMIC",
+              "link": "/nxp/products/power-management/pca9451a"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3582,7 +3634,8 @@
           "companionParts": [
             {
               "partNumber": "FXLS8974",
-              "relationship": "Accelerometer for 9-DOF"
+              "relationship": "Accelerometer for 9-DOF",
+              "link": "/nxp/products/sensors/fxls8974"
             },
             {
               "partNumber": "S32K1",
@@ -3590,7 +3643,8 @@
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [
@@ -3697,7 +3751,8 @@
               "specifications": {},
               "comparison": "MPL3115A2=><FXPS7250: Combined vs dedicated pressure",
               "reason": "Higher accuracy",
-              "useCase": "Use for higher accuracy pressure"
+              "useCase": "Use for higher accuracy pressure",
+              "link": "/nxp/products/sensors/fxps7250"
             },
             {
               "partNumber": "Alt2-MPL3115A2",
@@ -3717,11 +3772,13 @@
             },
             {
               "partNumber": "P3T1755",
-              "relationship": "Dedicated temperature sensor"
+              "relationship": "Dedicated temperature sensor",
+              "link": "/nxp/products/sensors/p3t1755"
             },
             {
               "partNumber": "TJA1101B",
-              "relationship": "Communication interface"
+              "relationship": "Communication interface",
+              "link": "/nxp/products/interface/tja1101b"
             }
           ],
           "faqs": [

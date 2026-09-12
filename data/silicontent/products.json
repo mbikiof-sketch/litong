@@ -90,7 +90,7 @@
             {
               "partNumber": "TPS62130",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/tps62130/",
+              "link": "",
               "reason": "Industry-standard 3A buck converter with similar performance characteristics",
               "useCase": "Alternative for designs requiring TI compatibility",
               "specifications": {
@@ -109,7 +109,7 @@
             {
               "partNumber": "MP2143",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/dcdc/mp2143/",
+              "link": "",
               "reason": "Comparable 3A buck converter from MPS with similar features",
               "useCase": "Alternative for cost-sensitive designs",
               "specifications": {
@@ -131,19 +131,19 @@
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Ultra-low noise LDO for sensitive analog circuits",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ3001",
               "category": "Power Module",
               "description": "Integrated power module with XZ2105 and inductor",
-              "link": "/brands/silicontent/products/modules/xz3001/"
+              "link": "/xinzhou/products/ldo-regulators/xz3001"
             },
             {
               "partNumber": "XZ5001",
               "category": "Battery Charger",
               "description": "Li-ion battery charger for single-cell applications",
-              "link": "/brands/silicontent/products/charger/xz5001/"
+              "link": "/xinzhou/products/battery-chargers/xz5001"
             }
           ],
           "faqs": [
@@ -248,7 +248,7 @@
             {
               "partNumber": "TPS62203",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/tps62203/",
+              "link": "",
               "reason": "Similar ultra-high frequency buck converter with comparable specs",
               "useCase": "Alternative for TI-based designs requiring similar performance",
               "specifications": {
@@ -267,7 +267,7 @@
             {
               "partNumber": "MP2147",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/dcdc/mp2147/",
+              "link": "",
               "reason": "Comparable compact buck converter from MPS",
               "useCase": "Cost-effective alternative for compact designs",
               "specifications": {
@@ -289,19 +289,19 @@
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Ultra-small LDO for noise-sensitive sub-systems",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Higher current 3A option from same family",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ5002",
               "category": "Battery Charger",
               "description": "Compact battery charger for wearable applications",
-              "link": "/brands/silicontent/products/charger/xz5002/"
+              "link": "/xinzhou/products/battery-chargers/xz5002"
             }
           ],
           "faqs": [
@@ -412,7 +412,7 @@
             {
               "partNumber": "TPS62200",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/tps62200/",
+              "link": "",
               "reason": "Industry-standard 1A buck converter",
               "useCase": "Alternative for TI-based designs",
               "specifications": {
@@ -434,13 +434,13 @@
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Low-Iq LDO for always-on circuits",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ5002",
               "category": "Battery Charger",
               "description": "Compact battery charger",
-              "link": "/brands/silicontent/products/charger/xz5002/"
+              "link": "/xinzhou/products/battery-chargers/xz5002"
             }
           ],
           "faqs": [
@@ -505,7 +505,7 @@
             {
               "partNumber": "TPS54320",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/dcdc/tps54320/",
+              "link": "",
               "reason": "Industry-standard 4A buck converter",
               "useCase": "Alternative for TI-based industrial designs",
               "specifications": {
@@ -527,13 +527,13 @@
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Ultra-low noise LDO for post-regulation",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ3001",
               "category": "Power Module",
               "description": "Power module for simplified design",
-              "link": "/brands/silicontent/products/modules/xz3001/"
+              "link": "/xinzhou/products/ldo-regulators/xz3001"
             }
           ],
           "faqs": [
@@ -689,7 +689,7 @@
             {
               "partNumber": "TPS7A91",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/ldo/tps7a91/",
+              "link": "",
               "reason": "High-performance LDO with similar noise specifications",
               "useCase": "Alternative for designs requiring TI compatibility",
               "specifications": {
@@ -708,7 +708,7 @@
             {
               "partNumber": "ADP1741",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/ldo/adp1741/",
+              "link": "/adi/products/power-management/adp1741",
               "reason": "Low noise LDO from Analog Devices with comparable performance",
               "useCase": "Alternative for precision analog applications",
               "specifications": {
@@ -730,19 +730,19 @@
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Buck converter for efficient step-down conversion before LDO",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Lower current LDO for secondary rails",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ5001",
               "category": "Battery Charger",
               "description": "Battery charger for portable applications",
-              "link": "/brands/silicontent/products/charger/xz5001/"
+              "link": "/xinzhou/products/battery-chargers/xz5001"
             }
           ],
           "faqs": [
@@ -848,7 +848,7 @@
             {
               "partNumber": "TPS709",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/ldo/tps709/",
+              "link": "",
               "reason": "Low-Iq LDO from TI with similar specifications",
               "useCase": "Alternative for TI-based battery-powered designs",
               "specifications": {
@@ -867,7 +867,7 @@
             {
               "partNumber": "AP2112",
               "brand": "Diodes Inc",
-              "link": "/brands/diodes/products/ldo/ap2112/",
+              "link": "",
               "reason": "Cost-effective low-Iq LDO option",
               "useCase": "Budget-conscious alternative for basic applications",
               "specifications": {
@@ -889,19 +889,19 @@
               "partNumber": "XZ3102",
               "category": "DC-DC",
               "description": "Ultra-low power buck converter for main system power",
-              "link": "/brands/silicontent/products/dcdc/xz3102/"
+              "link": "/xinzhou/products/ldo-regulators/xz3102"
             },
             {
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Ultra-low noise LDO for sensitive circuits",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ5002",
               "category": "Battery Charger",
               "description": "Low-power battery charger for rechargeable designs",
-              "link": "/brands/silicontent/products/charger/xz5002/"
+              "link": "/xinzhou/products/battery-chargers/xz5002"
             }
           ],
           "faqs": [
@@ -1010,7 +1010,7 @@
             {
               "partNumber": "ADP1740",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/ldo/adp1740/",
+              "link": "",
               "reason": "High-current low-noise LDO from ADI",
               "useCase": "Alternative for precision analog applications",
               "specifications": {
@@ -1032,13 +1032,13 @@
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Buck converter for efficient step-down",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ2201",
               "category": "DC-DC",
               "description": "Compact buck converter for auxiliary rails",
-              "link": "/brands/silicontent/products/dcdc/xz2201/"
+              "link": "/silicontent/products/dcdc/xz2201"
             }
           ],
           "faqs": [
@@ -1105,7 +1105,7 @@
             {
               "partNumber": "TPS7A16",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/ldo/tps7a16/",
+              "link": "",
               "reason": "Automotive LDO from TI with similar specifications",
               "useCase": "Alternative for TI-based automotive designs",
               "specifications": {
@@ -1127,13 +1127,13 @@
               "partNumber": "XZ2301",
               "category": "DC-DC",
               "description": "High-current buck for automotive systems",
-              "link": "/brands/silicontent/products/dcdc/xz2301/"
+              "link": "/silicontent/products/dcdc/xz2301"
             },
             {
               "partNumber": "XZ3001",
               "category": "Power Module",
               "description": "Power module for simplified automotive power",
-              "link": "/brands/silicontent/products/modules/xz3001/"
+              "link": "/xinzhou/products/ldo-regulators/xz3001"
             }
           ],
           "faqs": [
@@ -1284,7 +1284,7 @@
             {
               "partNumber": "LMZ30602",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/modules/lmz30602/",
+              "link": "",
               "reason": "TI power module with similar integrated approach",
               "useCase": "Alternative for TI-based designs requiring module solution",
               "specifications": {
@@ -1303,7 +1303,7 @@
             {
               "partNumber": "MPM3632",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/modules/mpm3632/",
+              "link": "",
               "reason": "Compact power module from MPS",
               "useCase": "Alternative compact module solution",
               "specifications": {
@@ -1325,19 +1325,19 @@
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Ultra-low noise LDO for post-regulation",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Discrete buck converter for cost-sensitive designs",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ5001",
               "category": "Battery Charger",
               "description": "Battery charger for portable applications",
-              "link": "/brands/silicontent/products/charger/xz5001/"
+              "link": "/xinzhou/products/battery-chargers/xz5001"
             }
           ],
           "faqs": [
@@ -1443,7 +1443,7 @@
             {
               "partNumber": "LMZ21700",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/modules/lmz21700/",
+              "link": "",
               "reason": "Ultra-small power module from TI",
               "useCase": "Alternative for TI-based compact designs",
               "specifications": {
@@ -1462,7 +1462,7 @@
             {
               "partNumber": "MPM3822",
               "brand": "Monolithic Power Systems",
-              "link": "/brands/mps/products/modules/mpm3822/",
+              "link": "",
               "reason": "Compact synchronous module from MPS",
               "useCase": "Alternative compact module with similar specs",
               "specifications": {
@@ -1484,19 +1484,19 @@
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Low-Iq LDO for always-on circuits",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ3102",
               "category": "DC-DC",
               "description": "Discrete converter for cost optimization",
-              "link": "/brands/silicontent/products/dcdc/xz3102/"
+              "link": "/xinzhou/products/ldo-regulators/xz3102"
             },
             {
               "partNumber": "XZ5002",
               "category": "Battery Charger",
               "description": "Compact charger for battery-powered designs",
-              "link": "/brands/silicontent/products/charger/xz5002/"
+              "link": "/xinzhou/products/battery-chargers/xz5002"
             }
           ],
           "faqs": [
@@ -1604,7 +1604,7 @@
             {
               "partNumber": "LMZ10500",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/modules/lmz10500/",
+              "link": "",
               "reason": "Ultra-small power module from TI",
               "useCase": "Alternative for TI-based wearable designs",
               "specifications": {
@@ -1626,13 +1626,13 @@
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Low-Iq LDO for always-on circuits",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ5002",
               "category": "Battery Charger",
               "description": "Compact charger for small batteries",
-              "link": "/brands/silicontent/products/charger/xz5002/"
+              "link": "/xinzhou/products/battery-chargers/xz5002"
             }
           ],
           "faqs": [
@@ -1698,7 +1698,7 @@
             {
               "partNumber": "LMZ30604",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/modules/lmz30604/",
+              "link": "",
               "reason": "High-current power module from TI",
               "useCase": "Alternative for TI-based industrial designs",
               "specifications": {
@@ -1720,13 +1720,13 @@
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Ultra-low noise LDO for post-regulation",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ2301",
               "category": "DC-DC",
               "description": "Discrete converter for cost optimization",
-              "link": "/brands/silicontent/products/dcdc/xz2301/"
+              "link": "/silicontent/products/dcdc/xz2301"
             }
           ],
           "faqs": [
@@ -1883,7 +1883,7 @@
             {
               "partNumber": "MCP73831",
               "brand": "Microchip",
-              "link": "/brands/microchip/products/charger/mcp73831/",
+              "link": "/microchip/products/power-management/mcp73831",
               "reason": "Popular linear charger with similar specifications",
               "useCase": "Alternative for designs requiring Microchip compatibility",
               "specifications": {
@@ -1902,7 +1902,7 @@
             {
               "partNumber": "TP4056",
               "brand": "NanJing TopPower",
-              "link": "/brands/toppower/products/charger/tp4056/",
+              "link": "",
               "reason": "Widely used linear charger with higher current capability",
               "useCase": "Alternative for higher current charging requirements",
               "specifications": {
@@ -1924,19 +1924,19 @@
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Buck converter for system power from battery",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ1001",
               "category": "LDO",
               "description": "Low noise LDO for sensitive circuits",
-              "link": "/brands/silicontent/products/ldo/xz1001/"
+              "link": "/xinzhou/products/dcdc-converters/xz1001"
             },
             {
               "partNumber": "XZ3001",
               "category": "Power Module",
               "description": "Power module for complete system solution",
-              "link": "/brands/silicontent/products/modules/xz3001/"
+              "link": "/xinzhou/products/ldo-regulators/xz3001"
             }
           ],
           "faqs": [
@@ -2043,7 +2043,7 @@
             {
               "partNumber": "MCP73832",
               "brand": "Microchip",
-              "link": "/brands/microchip/products/charger/mcp73832/",
+              "link": "",
               "reason": "Compact linear charger from Microchip",
               "useCase": "Alternative for Microchip-compatible designs",
               "specifications": {
@@ -2062,7 +2062,7 @@
             {
               "partNumber": "LTC4054",
               "brand": "Analog Devices",
-              "link": "/brands/adi/products/charger/ltc4054/",
+              "link": "",
               "reason": "Industry-standard compact charger from Linear Technology",
               "useCase": "Alternative for high-reliability applications",
               "specifications": {
@@ -2084,19 +2084,19 @@
               "partNumber": "XZ3102",
               "category": "DC-DC",
               "description": "Ultra-compact buck converter for system power",
-              "link": "/brands/silicontent/products/dcdc/xz3102/"
+              "link": "/xinzhou/products/ldo-regulators/xz3102"
             },
             {
               "partNumber": "XZ1002",
               "category": "LDO",
               "description": "Low-Iq LDO for always-on circuits",
-              "link": "/brands/silicontent/products/ldo/xz1002/"
+              "link": "/xinzhou/products/dcdc-converters/xz1002"
             },
             {
               "partNumber": "XZ3002",
               "category": "Power Module",
               "description": "Compact power module for complete solution",
-              "link": "/brands/silicontent/products/modules/xz3002/"
+              "link": "/xinzhou/products/ldo-regulators/xz3002"
             }
           ],
           "faqs": [
@@ -2207,7 +2207,7 @@
             {
               "partNumber": "MCP73842",
               "brand": "Microchip",
-              "link": "/brands/microchip/products/charger/mcp73842/",
+              "link": "",
               "reason": "High-current linear charger from Microchip",
               "useCase": "Alternative for Microchip-compatible designs",
               "specifications": {
@@ -2229,13 +2229,13 @@
               "partNumber": "XZ2105",
               "category": "DC-DC",
               "description": "Buck converter for system power",
-              "link": "/brands/silicontent/products/dcdc/xz2105/"
+              "link": "/silicontent/products/dcdc/xz2105"
             },
             {
               "partNumber": "XZ2301",
               "category": "DC-DC",
               "description": "High-current buck for fast charging input",
-              "link": "/brands/silicontent/products/dcdc/xz2301/"
+              "link": "/silicontent/products/dcdc/xz2301"
             }
           ],
           "faqs": [
@@ -2302,7 +2302,7 @@
             {
               "partNumber": "BQ25890",
               "brand": "Texas Instruments",
-              "link": "/brands/ti/products/charger/bq25890/",
+              "link": "",
               "reason": "USB-C PD charger from TI with similar features",
               "useCase": "Alternative for TI-based USB-C designs",
               "specifications": {
@@ -2324,13 +2324,13 @@
               "partNumber": "XZ2301",
               "category": "DC-DC",
               "description": "High-current buck for system power",
-              "link": "/brands/silicontent/products/dcdc/xz2301/"
+              "link": "/silicontent/products/dcdc/xz2301"
             },
             {
               "partNumber": "XZ3004",
               "category": "Power Module",
               "description": "Power module for system regulation",
-              "link": "/brands/silicontent/products/modules/xz3004/"
+              "link": "/silicontent/products/modules/xz3004"
             }
           ],
           "faqs": [

@@ -196,19 +196,19 @@
               "comparison": "GXO-3225-25M=><GXO-3225-50M: Frequency 50MHz > 25MHz (2x), Package 3.2x2.5mm = 3.2x2.5mm (same), suitable for direct replacement",
               "reason": "Higher frequency for faster clocking requirements",
               "useCase": "Applications requiring 50MHz clock",
-              "link": "/genuway/products/crystal-oscillators/gxo-3225-50m.html"
+              "link": "/genuway/products/crystal-oscillators/gxo-3225-50m"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GXR-3225-25M",
-              "link": "#",
+              "link": "/genuway/products/crystal-resonators/gxr-3225-25m",
               "description": "25MHz crystal resonator for cost-sensitive designs",
               "category": "Crystal Resonator"
             },
             {
               "partNumber": "GXO-5032-25M",
-              "link": "#",
+              "link": "",
               "description": "25MHz oscillator in larger 5.0x3.2mm package",
               "category": "Crystal Oscillator"
             }
@@ -287,19 +287,19 @@
               "comparison": "GXO-3225-50M=><GXO-3225-25M: Frequency 25MHz < 50MHz (half), Package 3.2x2.5mm = 3.2x2.5mm (same), suitable for direct replacement",
               "reason": "Lower frequency for standard applications",
               "useCase": "Applications requiring 25MHz clock",
-              "link": "/genuway/products/crystal-oscillators/gxo-3225-25m.html"
+              "link": "/genuway/products/crystal-oscillators/gxo-3225-25m"
             }
           ],
           "companionParts": [
             {
               "partNumber": "GXR-3225-50M",
-              "link": "#",
+              "link": "",
               "description": "50MHz crystal resonator for cost-sensitive designs",
               "category": "Crystal Resonator"
             },
             {
               "partNumber": "GXO-5032-50M",
-              "link": "#",
+              "link": "",
               "description": "50MHz oscillator in larger 5.0x3.2mm package",
               "category": "Crystal Oscillator"
             }

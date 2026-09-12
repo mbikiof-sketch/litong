@@ -74,9 +74,21 @@
             }
           ],
           "companionParts": [
-            "CAP-100uF",
-            "IND-10uH",
-            "RES-10K"
+            {
+              "partNumber": "CAP-100uF",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "IND-10uH",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "RES-10K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-pm001",
           "specifications": {
@@ -125,9 +137,21 @@
             }
           ],
           "companionParts": [
-            "CAP-1uF",
-            "CAP-10uF",
-            "RES-100K"
+            {
+              "partNumber": "CAP-1uF",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "CAP-10uF",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "RES-100K",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-pm002",
           "specifications": {
@@ -209,14 +233,16 @@
                 "Buck Converters": "2"
               },
               "priceDifference": "-30%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/power-management/hci-pm002"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-SE001",
               "description": "Temperature sensor",
-              "category": "Sensor"
+              "category": "Sensor",
+              "link": "/hci/products/sensors/hci-se001"
             }
           ],
           "faqs": [
@@ -293,14 +319,16 @@
                 "Type": "Full PMIC"
               },
               "priceDifference": "+50%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/power-management/hci-pm003"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-SE002",
               "description": "Battery monitor IC",
-              "category": "Sensor"
+              "category": "Sensor",
+              "link": "/hci/products/sensors/hci-se002"
             }
           ],
           "faqs": [
@@ -386,9 +414,21 @@
             }
           ],
           "companionParts": [
-            "COMP-001",
-            "COMP-002",
-            "COMP-003"
+            {
+              "partNumber": "COMP-001",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-002",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-003",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-an001",
           "specifications": {
@@ -438,9 +478,21 @@
             }
           ],
           "companionParts": [
-            "COMP-004",
-            "COMP-005",
-            "COMP-006"
+            {
+              "partNumber": "COMP-004",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-005",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-006",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-an002",
           "specifications": {
@@ -524,14 +576,16 @@
                 "Resolution": "16-bit"
               },
               "priceDifference": "-40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/analog-ics/hci-an002"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-IN001",
               "description": "Signal conditioner",
-              "category": "Interface"
+              "category": "Interface",
+              "link": "/hci/products/interface/hci-in001"
             }
           ],
           "faqs": [
@@ -609,7 +663,8 @@
                 "Function": "ADC"
               },
               "priceDifference": "+10%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/analog-ics/hci-an003"
             }
           ],
           "companionParts": [
@@ -704,9 +759,21 @@
             }
           ],
           "companionParts": [
-            "COMP-001",
-            "COMP-002",
-            "COMP-003"
+            {
+              "partNumber": "COMP-001",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-002",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-003",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-in001",
           "specifications": {
@@ -753,9 +820,21 @@
             }
           ],
           "companionParts": [
-            "COMP-004",
-            "COMP-005",
-            "COMP-006"
+            {
+              "partNumber": "COMP-004",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-005",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-006",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-in002",
           "specifications": {
@@ -833,14 +912,16 @@
                 "Data Rate": "1Mbps"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/interface/hci-in002"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-PM001",
               "description": "Power management IC",
-              "category": "Power"
+              "category": "Power",
+              "link": "/hci/products/power-management/hci-pm001"
             }
           ],
           "faqs": [
@@ -915,14 +996,16 @@
                 "Data Rate": "500kbps"
               },
               "priceDifference": "-25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/interface/hci-in001"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-SE001",
               "description": "Temperature sensor",
-              "category": "Sensor"
+              "category": "Sensor",
+              "link": "/hci/products/sensors/hci-se001"
             }
           ],
           "faqs": [
@@ -1007,9 +1090,21 @@
             }
           ],
           "companionParts": [
-            "COMP-001",
-            "COMP-002",
-            "COMP-003"
+            {
+              "partNumber": "COMP-001",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-002",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-003",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-se001",
           "specifications": {
@@ -1060,9 +1155,21 @@
             }
           ],
           "companionParts": [
-            "COMP-004",
-            "COMP-005",
-            "COMP-006"
+            {
+              "partNumber": "COMP-004",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-005",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "COMP-006",
+              "description": "",
+              "link": ""
+            }
           ],
           "slug": "hci-se002",
           "specifications": {
@@ -1148,14 +1255,16 @@
                 "Type": "3-axis accel"
               },
               "priceDifference": "-35%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/sensors/hci-se002"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-PM003",
               "description": "PMIC for power supply",
-              "category": "Power"
+              "category": "Power",
+              "link": "/hci/products/power-management/hci-pm003"
             }
           ],
           "faqs": [
@@ -1234,14 +1343,16 @@
                 "Function": "Temperature"
               },
               "priceDifference": "-40%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/hci/products/sensors/hci-se001"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HCI-SE003",
               "description": "IMU for motion sensing",
-              "category": "Sensor"
+              "category": "Sensor",
+              "link": "/hci/products/sensors/hci-se003"
             }
           ],
           "faqs": [

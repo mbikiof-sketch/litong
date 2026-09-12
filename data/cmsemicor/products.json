@@ -120,7 +120,7 @@
               "comparison": "CMS32L032=>CMS32F759: Flash 256KB > 64KB, Touch support added",
               "reason": "More memory and touch sensing capability",
               "useCase": "Applications requiring touch interface and larger memory",
-              "link": "/cmsemicor/products/32bit-mcu/cms32f759.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32f759"
             },
             {
               "partNumber": "STM32F030",
@@ -132,25 +132,25 @@
               "comparison": "CMS32L032=>STM32F030: Similar specs, Price higher",
               "reason": "Alternative supplier for risk mitigation",
               "useCase": "Multi-source strategy",
-              "link": "/st/products/stm32f030.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS32L032-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for CMS32L032",
               "category": "Development Tools"
             },
             {
               "partNumber": "USB-Programmer",
-              "link": "#",
+              "link": "",
               "description": "USB programmer for Cmsemicon MCUs",
               "category": "Development Tools"
             },
             {
               "partNumber": "LDO-3.3V",
-              "link": "#",
+              "link": "",
               "description": "3.3V LDO regulator for power supply",
               "category": "Power Management"
             }
@@ -326,7 +326,7 @@
               "comparison": "CMS32F759=>CMS32L032: Flash 64KB < 256KB, No touch support",
               "reason": "Lower cost for applications not requiring touch",
               "useCase": "Cost-sensitive applications without touch interface",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             },
             {
               "partNumber": "STM32F072",
@@ -338,25 +338,25 @@
               "comparison": "CMS32F759=>STM32F072: Similar touch capability, Price higher",
               "reason": "Alternative supplier comparison",
               "useCase": "Multi-source evaluation",
-              "link": "/st/products/stm32f072.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS32F759-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with touch panel",
               "category": "Development Tools"
             },
             {
               "partNumber": "Touch-Panel-49CH",
-              "link": "#",
+              "link": "",
               "description": "49-channel touch panel for evaluation",
               "category": "Accessories"
             },
             {
               "partNumber": "LCD-Module",
-              "link": "#",
+              "link": "",
               "description": "LCD module for display applications",
               "category": "Display"
             }
@@ -530,7 +530,7 @@
               "comparison": "CMS32F737=>CMS32F759: Flash 256KB > 128KB, Touch 49ch > 43ch",
               "reason": "More memory and touch channels for complex applications",
               "useCase": "Complex control panels requiring more touch keys",
-              "link": "/cmsemicor/products/32bit-mcu/cms32f759.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32f759"
             },
             {
               "partNumber": "CMS32L032",
@@ -542,25 +542,25 @@
               "comparison": "CMS32F737=>CMS32L032: Flash 64KB < 128KB, No touch support",
               "reason": "Lower cost for applications not requiring touch",
               "useCase": "Cost-sensitive applications without touch interface",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS32F737-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with touch panel",
               "category": "Development Tools"
             },
             {
               "partNumber": "Touch-Panel-43CH",
-              "link": "#",
+              "link": "",
               "description": "43-channel touch panel for evaluation",
               "category": "Accessories"
             },
             {
               "partNumber": "LCD-Module-16x2",
-              "link": "#",
+              "link": "",
               "description": "16x2 LCD module for display",
               "category": "Display"
             }
@@ -734,7 +734,7 @@
               "comparison": "BAT32G127=>CMS32L032: Similar specs, Higher power consumption",
               "reason": "Standard power MCU alternative",
               "useCase": "Applications not requiring ultra-low power",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             },
             {
               "partNumber": "STM32L072",
@@ -746,25 +746,25 @@
               "comparison": "BAT32G127=>STM32L072: Similar low power, Price higher",
               "reason": "Alternative low power MCU",
               "useCase": "Multi-source low power strategy",
-              "link": "/st/products/stm32l072.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "BAT32G127-EVB",
-              "link": "#",
+              "link": "",
               "description": "Low power evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "CR2032-Battery-Holder",
-              "link": "#",
+              "link": "",
               "description": "Coin cell battery holder",
               "category": "Power"
             },
             {
               "partNumber": "Sensor-Module-Temp",
-              "link": "#",
+              "link": "",
               "description": "Temperature sensor module",
               "category": "Sensors"
             }
@@ -938,7 +938,7 @@
               "comparison": "BAT32A237=>BAT32A239: Flash 128KB > 64KB, More memory",
               "reason": "More Flash for complex automotive applications",
               "useCase": "Complex body control modules",
-              "link": "/cmsemicor/products/32bit-mcu/bat32a239.html"
+              "link": "/cmsemicor/products/32bit-mcu/bat32a239"
             },
             {
               "partNumber": "S9S08DZ60",
@@ -950,25 +950,25 @@
               "comparison": "BAT32A237=>S9S08DZ60: Similar automotive specs, Price higher",
               "reason": "Alternative automotive MCU supplier",
               "useCase": "Multi-source automotive strategy",
-              "link": "/nxp/products/s9s08dz60.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "BAT32A237-EVB",
-              "link": "#",
+              "link": "",
               "description": "Automotive evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "LIN-Transceiver-TJA1021",
-              "link": "#",
+              "link": "",
               "description": "LIN bus transceiver",
               "category": "Interface"
             },
             {
               "partNumber": "LDO-5V-Auto",
-              "link": "#",
+              "link": "",
               "description": "Automotive grade 5V regulator",
               "category": "Power"
             }
@@ -1142,7 +1142,7 @@
               "comparison": "BAT32A239=>BAT32A237: Flash 64KB < 128KB, No CAN",
               "reason": "Lower cost for simpler LIN-only applications",
               "useCase": "Simpler automotive applications not requiring CAN",
-              "link": "/cmsemicor/products/32bit-mcu/bat32a237.html"
+              "link": "/cmsemicor/products/32bit-mcu/bat32a237"
             },
             {
               "partNumber": "S9S12G48",
@@ -1154,25 +1154,25 @@
               "comparison": "BAT32A239=>S9S12G48: Similar automotive specs, Price higher",
               "reason": "Alternative automotive MCU with CAN",
               "useCase": "Multi-source automotive CAN strategy",
-              "link": "/nxp/products/s9s12g48.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "BAT32A239-EVB",
-              "link": "#",
+              "link": "",
               "description": "Automotive evaluation board with CAN",
               "category": "Development Tools"
             },
             {
               "partNumber": "CAN-Transceiver-TJA1042",
-              "link": "#",
+              "link": "",
               "description": "High-speed CAN transceiver",
               "category": "Interface"
             },
             {
               "partNumber": "LIN-Transceiver-TJA1021",
-              "link": "#",
+              "link": "",
               "description": "LIN bus transceiver",
               "category": "Interface"
             }
@@ -1440,7 +1440,7 @@
               "comparison": "SC8F6796A=>SC8F096: Flash larger, Touch support added",
               "reason": "More features for complex applications",
               "useCase": "Applications requiring touch sensing",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f096.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f096"
             },
             {
               "partNumber": "PIC16F877A",
@@ -1452,25 +1452,25 @@
               "comparison": "SC8F6796A=>PIC16F877A: Similar capability, Price higher",
               "reason": "Alternative for specific requirements",
               "useCase": "Existing PIC-based designs",
-              "link": "/microchip/products/pic16f877a.html"
+              "link": "/microchip/products/microcontrollers/pic16f877a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8F6796A-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for SC8F6796A",
               "category": "Development Tools"
             },
             {
               "partNumber": "LED-Matrix",
-              "link": "#",
+              "link": "",
               "description": "LED matrix for display applications",
               "category": "Display"
             },
             {
               "partNumber": "Power-Adapter",
-              "link": "#",
+              "link": "",
               "description": "5V power adapter",
               "category": "Power"
             }
@@ -1645,7 +1645,7 @@
               "comparison": "SC8F096=>SC8F6796A: Fewer features, Lower cost",
               "reason": "Cost reduction for simpler applications",
               "useCase": "Applications not requiring touch or analog",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f6796a.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f6796a"
             },
             {
               "partNumber": "CMS32L032",
@@ -1657,25 +1657,25 @@
               "comparison": "SC8F096=>CMS32L032: 32-bit core, More processing power",
               "reason": "More processing power for complex algorithms",
               "useCase": "Applications requiring 32-bit performance",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8F096-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with touch panel",
               "category": "Development Tools"
             },
             {
               "partNumber": "Touch-Pad-Module",
-              "link": "#",
+              "link": "",
               "description": "Capacitive touch pad module",
               "category": "Accessories"
             },
             {
               "partNumber": "LCD-Segment",
-              "link": "#",
+              "link": "",
               "description": "Segment LCD for display",
               "category": "Display"
             }
@@ -1848,7 +1848,7 @@
               "comparison": "SC8F092=>SC8F093: Flash 8KB > 4KB, More GPIO",
               "reason": "More memory and I/O for complex applications",
               "useCase": "Applications requiring more resources",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f093.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f093"
             },
             {
               "partNumber": "SC8F096",
@@ -1860,25 +1860,25 @@
               "comparison": "SC8F092=>SC8F096: Similar features, More RAM",
               "reason": "More RAM for data-intensive applications",
               "useCase": "Applications requiring more RAM",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f096.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f096"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8F092-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with touch pad",
               "category": "Development Tools"
             },
             {
               "partNumber": "Touch-Pad-6CH",
-              "link": "#",
+              "link": "",
               "description": "6-channel touch pad module",
               "category": "Accessories"
             },
             {
               "partNumber": "LDO-3.3V-SOT23",
-              "link": "#",
+              "link": "",
               "description": "3.3V LDO regulator",
               "category": "Power"
             }
@@ -2051,7 +2051,7 @@
               "comparison": "SC8F093=>SC8F092: Flash 4KB < 8KB, No LCD driver",
               "reason": "Lower cost for simpler applications",
               "useCase": "Applications not requiring LCD display",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f092.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f092"
             },
             {
               "partNumber": "SC8F6796A",
@@ -2063,25 +2063,25 @@
               "comparison": "SC8F093=>SC8F6796A: Higher frequency, More GPIO",
               "reason": "Higher performance for demanding applications",
               "useCase": "Applications requiring higher processing speed",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f6796a.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f6796a"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8F093-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with LCD",
               "category": "Development Tools"
             },
             {
               "partNumber": "LCD-Segment-8CH",
-              "link": "#",
+              "link": "",
               "description": "8-channel segment LCD",
               "category": "Display"
             },
             {
               "partNumber": "LED-Matrix-5x7",
-              "link": "#",
+              "link": "",
               "description": "5x7 LED matrix display",
               "category": "Display"
             }
@@ -2254,7 +2254,7 @@
               "comparison": "SC8P8022=>SC8P8122: Flash 2KB > 1KB, 12-bit ADC",
               "reason": "More memory and better ADC for slightly higher cost",
               "useCase": "Applications requiring more features",
-              "link": "/cmsemicor/products/8bit-mcu/sc8p8122.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8p8122"
             },
             {
               "partNumber": "SC8F092",
@@ -2266,25 +2266,25 @@
               "comparison": "SC8P8022=>SC8F092: MTP memory, Touch support, More features",
               "reason": "Reprogrammable memory and more features",
               "useCase": "Applications requiring program updates",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f092.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f092"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8P8022-Programmer",
-              "link": "#",
+              "link": "",
               "description": "OTP programmer for production",
               "category": "Development Tools"
             },
             {
               "partNumber": "LED-5mm-Red",
-              "link": "#",
+              "link": "",
               "description": "5mm red LED for indicators",
               "category": "Display"
             },
             {
               "partNumber": "Button-Tactile",
-              "link": "#",
+              "link": "",
               "description": "Tactile button for input",
               "category": "Input"
             }
@@ -2457,7 +2457,7 @@
               "comparison": "SC8P8122=>SC8P8022: Flash 1KB < 2KB, 8-bit ADC",
               "reason": "Lower cost for simpler applications",
               "useCase": "Basic applications not requiring high precision",
-              "link": "/cmsemicor/products/8bit-mcu/sc8p8022.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8p8022"
             },
             {
               "partNumber": "SC8F092",
@@ -2469,25 +2469,25 @@
               "comparison": "SC8P8122=>SC8F092: MTP memory, Touch, More features",
               "reason": "Reprogrammable memory and touch support",
               "useCase": "Applications requiring reprogramming or touch",
-              "link": "/cmsemicor/products/8bit-mcu/sc8f092.html"
+              "link": "/cmsemicor/products/8bit-mcu/sc8f092"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SC8P8122-Programmer",
-              "link": "#",
+              "link": "",
               "description": "OTP programmer for production",
               "category": "Development Tools"
             },
             {
               "partNumber": "LED-RGB-Module",
-              "link": "#",
+              "link": "",
               "description": "RGB LED module for lighting",
               "category": "Display"
             },
             {
               "partNumber": "LDO-3.3V-SOT23",
-              "link": "#",
+              "link": "",
               "description": "3.3V LDO regulator",
               "category": "Power"
             }
@@ -2754,7 +2754,7 @@
               "comparison": "CMS8H1215=>ADS1232: External ADC only, No MCU",
               "reason": "Discrete ADC solution comparison",
               "useCase": "Existing discrete designs",
-              "link": "/ti/products/ads1232.html"
+              "link": ""
             },
             {
               "partNumber": "CMS32L032",
@@ -2766,25 +2766,25 @@
               "comparison": "CMS8H1215=>CMS32L032: Lower ADC resolution, General purpose",
               "reason": "General purpose MCU without precision ADC",
               "useCase": "Applications not requiring 24-bit precision",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1215-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for pressure sensing",
               "category": "Development Tools"
             },
             {
               "partNumber": "Pressure-Sensor",
-              "link": "#",
+              "link": "",
               "description": "Pressure sensor for evaluation",
               "category": "Sensors"
             },
             {
               "partNumber": "Load-Cell",
-              "link": "#",
+              "link": "",
               "description": "Load cell for weighing applications",
               "category": "Sensors"
             }
@@ -2946,7 +2946,7 @@
               "comparison": "CMS8H1215-24=>CMS8H1215: 20-bit resolution, 2 channels",
               "reason": "Standard version for less demanding applications",
               "useCase": "Applications not requiring highest precision",
-              "link": "/cmsemicor/products/analog-soc/cms8h1215.html"
+              "link": "/cmsemicor/products/analog-soc/cms8h1215"
             },
             {
               "partNumber": "ADS1248",
@@ -2958,25 +2958,25 @@
               "comparison": "CMS8H1215-24=>ADS1248: External ADC only, No MCU",
               "reason": "Discrete ADC solution comparison",
               "useCase": "Existing discrete designs",
-              "link": "/ti/products/ads1248.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1215-24-EVB",
-              "link": "#",
+              "link": "",
               "description": "Multi-channel evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "Pressure-Sensor-Array",
-              "link": "#",
+              "link": "",
               "description": "4-channel pressure sensor array",
               "category": "Sensors"
             },
             {
               "partNumber": "Precision-Reference-ADR4525",
-              "link": "#",
+              "link": "",
               "description": "2.5V precision voltage reference",
               "category": "Power"
             }
@@ -3138,7 +3138,7 @@
               "comparison": "CMS8H1213=>CMS8H1215: 24-bit ADC, 20-bit effective resolution",
               "reason": "Higher precision for demanding applications",
               "useCase": "Applications requiring higher precision",
-              "link": "/cmsemicor/products/analog-soc/cms8h1215.html"
+              "link": "/cmsemicor/products/analog-soc/cms8h1215"
             },
             {
               "partNumber": "ADS1115",
@@ -3150,25 +3150,25 @@
               "comparison": "CMS8H1213=>ADS1115: External ADC only, I2C interface",
               "reason": "Discrete ADC solution comparison",
               "useCase": "Existing discrete designs",
-              "link": "/ti/products/ads1115.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1213-EVB",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board for basic measurement",
               "category": "Development Tools"
             },
             {
               "partNumber": "Temp-Sensor-PT100",
-              "link": "#",
+              "link": "",
               "description": "PT100 temperature sensor",
               "category": "Sensors"
             },
             {
               "partNumber": "Pressure-Sensor-Basic",
-              "link": "#",
+              "link": "",
               "description": "Basic pressure sensor",
               "category": "Sensors"
             }
@@ -3330,7 +3330,7 @@
               "comparison": "CMS8H1211=>CMS8H1213: 16-bit resolution, Higher precision",
               "reason": "Higher precision for demanding applications",
               "useCase": "Applications requiring higher precision",
-              "link": "/cmsemicor/products/analog-soc/cms8h1213.html"
+              "link": "/cmsemicor/products/analog-soc/cms8h1213"
             },
             {
               "partNumber": "CMS32L032",
@@ -3342,25 +3342,25 @@
               "comparison": "CMS8H1211=>CMS32L032: 32-bit core, More processing power",
               "reason": "More processing power for complex algorithms",
               "useCase": "Applications requiring 32-bit processing",
-              "link": "/cmsemicor/products/32bit-mcu/cms32l032.html"
+              "link": "/cmsemicor/products/32bit-mcu/cms32l032"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1211-EVB",
-              "link": "#",
+              "link": "",
               "description": "Basic evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "Sensor-Kit-Basic",
-              "link": "#",
+              "link": "",
               "description": "Basic sensor kit",
               "category": "Sensors"
             },
             {
               "partNumber": "Potentiometer-10K",
-              "link": "#",
+              "link": "",
               "description": "10K potentiometer for testing",
               "category": "Input"
             }
@@ -3522,7 +3522,7 @@
               "comparison": "CMS8H1217=>CMS8H1215: 24-bit resolution, No temp compensation",
               "reason": "Higher resolution without temperature compensation",
               "useCase": "Applications requiring highest resolution",
-              "link": "/cmsemicor/products/analog-soc/cms8h1215.html"
+              "link": "/cmsemicor/products/analog-soc/cms8h1215"
             },
             {
               "partNumber": "ADS1220",
@@ -3534,25 +3534,25 @@
               "comparison": "CMS8H1217=>ADS1220: External ADC, Similar temp sensor",
               "reason": "Discrete ADC with temperature sensor",
               "useCase": "Existing discrete designs",
-              "link": "/ti/products/ads1220.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1217-EVB",
-              "link": "#",
+              "link": "",
               "description": "Industrial evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "Pressure-Sensor-Industrial",
-              "link": "#",
+              "link": "",
               "description": "Industrial pressure sensor",
               "category": "Sensors"
             },
             {
               "partNumber": "Temp-Sensor-PT1000",
-              "link": "#",
+              "link": "",
               "description": "PT1000 temperature sensor",
               "category": "Sensors"
             }
@@ -3714,7 +3714,7 @@
               "comparison": "CMS8H1219=>CMS8H1215-24: 4-channel, Lower channel count",
               "reason": "Fewer channels for less demanding applications",
               "useCase": "Applications requiring fewer channels",
-              "link": "/cmsemicor/products/analog-soc/cms8h1215-24.html"
+              "link": "/cmsemicor/products/analog-soc/cms8h1215-24"
             },
             {
               "partNumber": "ADS1258",
@@ -3726,25 +3726,25 @@
               "comparison": "CMS8H1219=>ADS1258: External ADC, 16 channels",
               "reason": "Discrete multi-channel ADC solution",
               "useCase": "Existing discrete designs",
-              "link": "/ti/products/ads1258.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CMS8H1219-EVB",
-              "link": "#",
+              "link": "",
               "description": "Multi-channel evaluation board",
               "category": "Development Tools"
             },
             {
               "partNumber": "Sensor-Array-8CH",
-              "link": "#",
+              "link": "",
               "description": "8-channel sensor array module",
               "category": "Sensors"
             },
             {
               "partNumber": "Load-Cell-Kit",
-              "link": "#",
+              "link": "",
               "description": "Multi-point load cell kit",
               "category": "Sensors"
             }

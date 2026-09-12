@@ -211,7 +211,7 @@
               "comparison": "TIM1200ESM33=><Infineon FZ1200R12: High power IGBT",
               "reason": "High power IGBT",
               "useCase": "Traction",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Infineon FZ1200R12",
@@ -222,24 +222,24 @@
               "comparison": "TIM1200ESM33=><Infineon FZ1200R12: High power IGBT",
               "reason": "High power IGBT",
               "useCase": "Traction",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DRV-001",
               "description": "Gate driver IC",
-              "link": "/crrc/products/drv-001.html"
+              "link": ""
             },
             {
               "partNumber": "PROT-001",
               "description": "Protection circuit",
-              "link": "/crrc/products/prot-001.html"
+              "link": ""
             },
             {
               "partNumber": "SNS-001",
               "description": "Current sensor",
-              "link": "/crrc/products/sns-001.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -338,7 +338,7 @@
               "comparison": "TIM800ESM33=><ABB 5SNA1200E: Railway grade",
               "reason": "Railway grade",
               "useCase": "Transportation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ABB 5SNA1200E",
@@ -349,24 +349,24 @@
               "comparison": "TIM800ESM33=><ABB 5SNA1200E: Railway grade",
               "reason": "Railway grade",
               "useCase": "Transportation",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DRV-001",
               "description": "Gate driver IC",
-              "link": "/crrc/products/drv-001.html"
+              "link": ""
             },
             {
               "partNumber": "PROT-001",
               "description": "Protection circuit",
-              "link": "/crrc/products/prot-001.html"
+              "link": ""
             },
             {
               "partNumber": "SNS-001",
               "description": "Current sensor",
-              "link": "/crrc/products/sns-001.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -465,7 +465,7 @@
               "comparison": "TIM1500ESM33=><Mitsubishi CM1200HC: Alternative module",
               "reason": "Alternative module",
               "useCase": "Industrial",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Mitsubishi CM1200HC",
@@ -476,24 +476,24 @@
               "comparison": "TIM1500ESM33=><Mitsubishi CM1200HC: Alternative module",
               "reason": "Alternative module",
               "useCase": "Industrial",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DRV-001",
               "description": "Gate driver IC",
-              "link": "/crrc/products/drv-001.html"
+              "link": ""
             },
             {
               "partNumber": "PROT-001",
               "description": "Protection circuit",
-              "link": "/crrc/products/prot-001.html"
+              "link": ""
             },
             {
               "partNumber": "SNS-001",
               "description": "Current sensor",
-              "link": "/crrc/products/sns-001.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -592,7 +592,7 @@
               "comparison": "TIM600ESM33=><Infineon FZ1200R12: High power IGBT",
               "reason": "High power IGBT",
               "useCase": "Traction",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Infineon FZ1200R12",
@@ -603,24 +603,24 @@
               "comparison": "TIM600ESM33=><Infineon FZ1200R12: High power IGBT",
               "reason": "High power IGBT",
               "useCase": "Traction",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DRV-001",
               "description": "Gate driver IC",
-              "link": "/crrc/products/drv-001.html"
+              "link": ""
             },
             {
               "partNumber": "PROT-001",
               "description": "Protection circuit",
-              "link": "/crrc/products/prot-001.html"
+              "link": ""
             },
             {
               "partNumber": "SNS-001",
               "description": "Current sensor",
-              "link": "/crrc/products/sns-001.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -721,7 +721,7 @@
               "comparison": "TIM600ESM33=><TIM800ESM33: TIM600ESM33=>TIM800ESM33: Higher current => upgrade path",
               "reason": "Higher current option",
               "useCase": "When more current needed",
-              "link": "/crrc/products/tim800esm33.html"
+              "link": "/crrc/products/igbt-modules/tim800esm33"
             },
             {
               "partNumber": "TIM400ESM33",
@@ -733,24 +733,24 @@
               "comparison": "TIM600ESM33=><TIM400ESM33: TIM600ESM33=>TIM400ESM33: Lower current => cost option",
               "reason": "Cost-optimized option",
               "useCase": "Lower current requirements",
-              "link": "/crrc/products/tim400esm33.html"
+              "link": "/crrc/products/igbt-modules/tim400esm33"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CRRC-GD3300",
               "description": "Gate driver board",
-              "link": "/crrc/products/crrc-gd3300.html"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-CS600",
               "description": "Current sensor",
-              "link": "/crrc/products/crrc-cs600.html"
+              "link": ""
             },
             {
               "partNumber": "CRRC-SC3300",
               "description": "Snubber capacitor",
-              "link": "/crrc/products/crrc-sc3300.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -847,7 +847,7 @@
               "comparison": "TIM400ESM33=><TIM600ESM33: TIM400ESM33=>TIM600ESM33: Higher current => upgrade",
               "reason": "More current capability",
               "useCase": "Higher power requirements",
-              "link": "/crrc/products/tim600esm33.html"
+              "link": "/crrc/products/igbt-modules/tim600esm33"
             },
             {
               "partNumber": "TIM800ESM33",
@@ -859,24 +859,24 @@
               "comparison": "TIM400ESM33=><TIM800ESM33: TIM400ESM33=>TIM800ESM33: Much higher current",
               "reason": "High current option",
               "useCase": "High power applications",
-              "link": "/crrc/products/tim800esm33.html"
+              "link": "/crrc/products/igbt-modules/tim800esm33"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CRRC-GD3300",
               "description": "Gate driver board",
-              "link": "/crrc/products/crrc-gd3300.html"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-CS400",
               "description": "Current sensor",
-              "link": "/crrc/products/crrc-cs400.html"
+              "link": ""
             },
             {
               "partNumber": "CRRC-SC3300",
               "description": "Snubber capacitor",
-              "link": "/crrc/products/crrc-sc3300.html"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1073,7 +1073,7 @@
               "comparison": "CRRC-GD3300=><ALT-GD3300-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD3300-B",
@@ -1084,7 +1084,7 @@
               "comparison": "CRRC-GD3300=><ALT-GD3300-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1092,19 +1092,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -1217,7 +1217,7 @@
               "comparison": "CRRC-GD1700=><ALT-GD1700-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD1700-B",
@@ -1228,7 +1228,7 @@
               "comparison": "CRRC-GD1700=><ALT-GD1700-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1236,19 +1236,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -1361,7 +1361,7 @@
               "comparison": "CRRC-GD1200=><ALT-GD1200-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD1200-B",
@@ -1372,7 +1372,7 @@
               "comparison": "CRRC-GD1200=><ALT-GD1200-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1380,19 +1380,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -1505,7 +1505,7 @@
               "comparison": "CRRC-GD650=><ALT-GD650-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD650-B",
@@ -1516,7 +1516,7 @@
               "comparison": "CRRC-GD650=><ALT-GD650-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1524,19 +1524,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -1649,7 +1649,7 @@
               "comparison": "CRRC-GD4500=><ALT-GD4500-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD4500-B",
@@ -1660,7 +1660,7 @@
               "comparison": "CRRC-GD4500=><ALT-GD4500-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1668,19 +1668,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -1793,7 +1793,7 @@
               "comparison": "CRRC-GD6500=><ALT-GD6500-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-GD6500-B",
@@ -1804,7 +1804,7 @@
               "comparison": "CRRC-GD6500=><ALT-GD6500-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1812,19 +1812,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2043,7 +2043,7 @@
               "comparison": "CRRC-DC3300-1000=><ALT-DC3300-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-DC3300-B",
@@ -2054,7 +2054,7 @@
               "comparison": "CRRC-DC3300-1000=><ALT-DC3300-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2062,19 +2062,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2189,7 +2189,7 @@
               "comparison": "CRRC-DC1700-2200=><ALT-DC1700-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-DC1700-B",
@@ -2200,7 +2200,7 @@
               "comparison": "CRRC-DC1700-2200=><ALT-DC1700-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2208,19 +2208,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2335,7 +2335,7 @@
               "comparison": "CRRC-DC1200-4700=><ALT-DC1200-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-DC1200-B",
@@ -2346,7 +2346,7 @@
               "comparison": "CRRC-DC1200-4700=><ALT-DC1200-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2354,19 +2354,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2481,7 +2481,7 @@
               "comparison": "CRRC-SC3300-2=><ALT-SC3300-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-SC3300-B",
@@ -2492,7 +2492,7 @@
               "comparison": "CRRC-SC3300-2=><ALT-SC3300-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2500,19 +2500,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2627,7 +2627,7 @@
               "comparison": "CRRC-SC1700-4=><ALT-SC1700-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-SC1700-B",
@@ -2638,7 +2638,7 @@
               "comparison": "CRRC-SC1700-4=><ALT-SC1700-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2646,19 +2646,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -2773,7 +2773,7 @@
               "comparison": "CRRC-DC650-10000=><ALT-DC650-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-DC650-B",
@@ -2784,7 +2784,7 @@
               "comparison": "CRRC-DC650-10000=><ALT-DC650-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2792,19 +2792,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-HC1200",
               "category": "Current Sensor",
               "description": "1200A Hall Effect Sensor",
-              "link": "#"
+              "link": "/crrc/products/current-sensors/crrc-hc1200"
             }
           ],
           "faqs": [
@@ -3023,7 +3023,7 @@
               "comparison": "CRRC-HC1200=><ALT-HC1200-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-HC1200-B",
@@ -3034,7 +3034,7 @@
               "comparison": "CRRC-HC1200=><ALT-HC1200-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3042,19 +3042,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [
@@ -3169,7 +3169,7 @@
               "comparison": "CRRC-HC800=><ALT-HC800-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-HC800-B",
@@ -3180,7 +3180,7 @@
               "comparison": "CRRC-HC800=><ALT-HC800-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3188,19 +3188,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [
@@ -3315,7 +3315,7 @@
               "comparison": "CRRC-HC400=><ALT-HC400-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-HC400-B",
@@ -3326,7 +3326,7 @@
               "comparison": "CRRC-HC400=><ALT-HC400-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3334,19 +3334,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [
@@ -3461,7 +3461,7 @@
               "comparison": "CRRC-SR2000=><ALT-SR2000-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-SR2000-B",
@@ -3472,7 +3472,7 @@
               "comparison": "CRRC-SR2000=><ALT-SR2000-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3480,19 +3480,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [
@@ -3607,7 +3607,7 @@
               "comparison": "CRRC-SR1000=><ALT-SR1000-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-SR1000-B",
@@ -3618,7 +3618,7 @@
               "comparison": "CRRC-SR1000=><ALT-SR1000-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3626,19 +3626,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [
@@ -3753,7 +3753,7 @@
               "comparison": "CRRC-HC2000=><ALT-HC2000-A: Similar performance, Competitive pricing, Comparable specifications",
               "reason": "Supply chain flexibility and cost optimization",
               "useCase": "Alternative sourcing for cost-sensitive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ALT-HC2000-B",
@@ -3764,7 +3764,7 @@
               "comparison": "CRRC-HC2000=><ALT-HC2000-B: Higher performance, Premium pricing, Extended temperature range",
               "reason": "Higher performance requirements",
               "useCase": "High-reliability applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -3772,19 +3772,19 @@
               "partNumber": "TIM1200ESM33",
               "category": "IGBT Module",
               "description": "1200A 3300V IGBT Module",
-              "link": "#"
+              "link": "/crrc/products/igbt-modules/tim1200esm33"
             },
             {
               "partNumber": "CRRC-GD3300",
               "category": "Gate Driver",
               "description": "3300V Gate Driver Board",
-              "link": "#"
+              "link": "/crrc/products/gate-drivers/crrc-gd3300"
             },
             {
               "partNumber": "CRRC-DC3300-1000",
               "category": "DC-Link Capacitor",
               "description": "3300V 1000μF Capacitor",
-              "link": "#"
+              "link": "/crrc/products/power-capacitors/crrc-dc3300-1000"
             }
           ],
           "faqs": [

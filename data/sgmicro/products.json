@@ -213,7 +213,7 @@
               },
               "reason": "TI OPA333 offers lower offset but narrower bandwidth at higher cost",
               "useCase": "Use for ultra-high precision DC applications where bandwidth is not critical",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MCP6001",
@@ -231,25 +231,25 @@
               },
               "reason": "General-purpose alternative with lower cost but significantly worse precision",
               "useCase": "Use for non-critical applications where offset voltage is not a concern",
-              "link": "#"
+              "link": "/microchip/products/analog-products/mcp6001"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8522",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8522.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Dual-channel precision op-amp for differential amplifier configurations",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2019",
-              "link": "/sgmicro/products/power-management-ics/sgm2019.html",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "Low-noise LDO for clean power supply to analog circuits",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Precision voltage reference for ADC reference input",
               "category": "Power Management ICs"
             }
@@ -364,7 +364,7 @@
               },
               "reason": "Higher voltage range and bandwidth at premium price point",
               "useCase": "Use for high-voltage industrial applications requiring wide supply range",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LMV358",
@@ -382,25 +382,25 @@
               },
               "reason": "General-purpose alternative with lower precision at reduced cost",
               "useCase": "Use for non-critical buffering and general amplification tasks",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Single-channel precision op-amp for single-ended applications",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM8044",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8044.html",
+              "link": "/sgmicro/products/operational-amplifiers/sgm8044",
               "description": "Quad-channel op-amp for multi-channel designs",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM6603",
-              "link": "/sgmicro/products/power-management-ics/sgm6603.html",
+              "link": "/sindachip/products/led-drivers/sgm6603",
               "description": "Voltage reference for precision analog circuits",
               "category": "Power Management ICs"
             }
@@ -698,7 +698,7 @@
               "comparison": "SGM6601=><TPS62203: Output current 300mA < 1A (lower), Frequency 1MHz < 1.5MHz (lower), suitable for direct replacement",
               "reason": "TI alternative with lower current rating at higher price point",
               "useCase": "Use for very low power applications requiring extended input voltage range",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MP2143",
@@ -711,25 +711,25 @@
               "comparison": "SGM6601=><MP2143: Output current 3A > 1A (higher capacity), Frequency 1.2MHz < 1.5MHz (lower), suitable for direct replacement",
               "reason": "Higher current alternative from MPS with similar specifications",
               "useCase": "Use for applications requiring higher output current up to 3A",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM2019",
-              "link": "/sgmicro/products/power-management-ics/sgm2019.html",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "Low-noise LDO for post-regulation of sensitive analog circuits",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM4056",
-              "link": "/sgmicro/products/battery-management/sgm4056.html",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Linear battery charger for Li-ion battery systems",
               "category": "Battery Management"
             },
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for voltage monitoring and control",
               "category": "Operational Amplifiers"
             }
@@ -841,7 +841,7 @@
               "comparison": "SGM2019=><LP5907: Output current 250mA < 300mA (lower), suitable for direct replacement",
               "reason": "TI LP5907 offers lower noise but lower current at premium price",
               "useCase": "Use for ultra-low noise applications where current requirements are below 250mA",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "XC6206",
@@ -854,25 +854,25 @@
               "comparison": "SGM2019=><XC6206: Output current 200mA < 300mA (lower), suitable for direct replacement",
               "reason": "Cost-effective general-purpose LDO with lower current rating",
               "useCase": "Use for non-critical applications where noise performance is not a primary concern",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Step-down converter for efficient pre-regulation before LDO",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp powered by the clean LDO output",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM4056",
-              "link": "/sgmicro/products/battery-management/sgm4056.html",
+              "link": "/sindachip/products/power-management-ics/sgm4056",
               "description": "Battery charger for complete power management solution",
               "category": "Battery Management"
             }
@@ -1168,7 +1168,7 @@
               "comparison": "SGM4056=><MCP73831: Output current 500mA < 1A (lower), suitable for direct replacement",
               "reason": "Microchip alternative with lower current capability",
               "useCase": "Use for low-current charging applications up to 500mA",
-              "link": "#"
+              "link": "/microchip/products/power-management/mcp73831"
             },
             {
               "partNumber": "BQ24075",
@@ -1181,25 +1181,25 @@
               "comparison": "SGM4056=><BQ24075: Output current 1.5A > 1A (higher), suitable for direct replacement",
               "reason": "TI alternative with power path and higher current at premium price",
               "useCase": "Use for applications requiring power path management and higher charge current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Step-down converter for efficient adapter power conversion",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2019",
-              "link": "/sgmicro/products/power-management-ics/sgm2019.html",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "LDO for clean system power supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8522",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8522.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Op-amp for battery voltage monitoring",
               "category": "Operational Amplifiers"
             }
@@ -1309,7 +1309,7 @@
               "comparison": "SGM41511=><BQ25890: Output current 5A > 3A (higher), suitable for direct replacement",
               "reason": "TI alternative with higher current capability at premium price",
               "useCase": "Use for applications requiring charge current above 3A",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "ACT2801",
@@ -1322,25 +1322,25 @@
               "comparison": "SGM41511=><ACT2801: Output current 2A < 3A (lower), suitable for direct replacement",
               "reason": "Cost-effective alternative with narrower input range and lower current",
               "useCase": "Use for standard 5V USB charging applications up to 2A",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "System buck converter for efficient core voltage generation",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM2019",
-              "link": "/sgmicro/products/power-management-ics/sgm2019.html",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "LDO for clean analog and RF power rails",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for battery current sensing",
               "category": "Operational Amplifiers"
             }
@@ -1632,7 +1632,7 @@
               "comparison": "SGM42630=><DRV8833: Output current 1.5A < 2.5A (lower), suitable for direct replacement",
               "reason": "TI alternative with lower current rating at higher price",
               "useCase": "Use for lower current applications up to 1.5A RMS",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TB6612FNG",
@@ -1645,25 +1645,25 @@
               "comparison": "SGM42630=><TB6612FNG: Output current 1.2A < 2.5A (lower), suitable for direct replacement",
               "reason": "Toshiba alternative with wider voltage but lower current",
               "useCase": "Use for applications requiring voltage above 12V with moderate current",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Buck converter for motor supply voltage generation",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Op-amp for motor current sensing",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM2019",
-              "link": "/sgmicro/products/power-management-ics/sgm2019.html",
+              "link": "/sindachip/products/voltage-regulators/sgm2019",
               "description": "LDO for logic supply and reference voltage",
               "category": "Power Management ICs"
             }
@@ -1773,7 +1773,7 @@
               "comparison": "SGM42503=><DRV8825: Output current 2.5A = 2.5A (same), suitable for direct replacement",
               "reason": "TI alternative with similar specs at premium price",
               "useCase": "Use for applications requiring voltage above 40V",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "A4988",
@@ -1786,25 +1786,25 @@
               "comparison": "SGM42503=><A4988: Output current 2A < 2.5A (lower), suitable for direct replacement",
               "reason": "Popular alternative with lower current and microstepping resolution",
               "useCase": "Use for standard applications not requiring 1/32 microstepping",
-              "link": "#"
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SGM6601",
-              "link": "/sgmicro/products/power-management-ics/sgm6601.html",
+              "link": "/sindachip/products/power-management-ics/sgm6601",
               "description": "Buck converter for logic supply generation from motor supply",
               "category": "Power Management ICs"
             },
             {
               "partNumber": "SGM8551",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8551.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8551",
               "description": "Precision op-amp for current sensing and feedback",
               "category": "Operational Amplifiers"
             },
             {
               "partNumber": "SGM8522",
-              "link": "/sgmicro/products/operational-amplifiers/sgm8522.html",
+              "link": "/sindachip/products/operational-amplifiers/sgm8522",
               "description": "Dual op-amp for differential current measurement",
               "category": "Operational Amplifiers"
             }

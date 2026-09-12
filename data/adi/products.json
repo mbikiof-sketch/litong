@@ -223,7 +223,7 @@
               },
               "reason": "Higher sampling rate and improved SNR for demanding applications",
               "useCase": "Upgrade path for designs requiring faster sampling or better dynamic range",
-              "link": "/adi/products/ad7606b.html"
+              "link": ""
             },
             {
               "partNumber": "AD7607",
@@ -243,31 +243,31 @@
               },
               "reason": "Lower resolution and cost for applications not requiring 16-bit precision",
               "useCase": "Cost-sensitive applications where 14-bit resolution is sufficient",
-              "link": "/adi/products/ad7607.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ADR4533",
-              "link": "/adi/products/adr4533.html",
+              "link": "",
               "description": "Ultra-low noise 3.3V reference for enhanced accuracy",
               "category": "Voltage Reference"
             },
             {
               "partNumber": "AD8031",
-              "link": "/adi/products/ad8031.html",
+              "link": "",
               "description": "High-speed op-amp for driving ADC inputs",
               "category": "Amplifiers"
             },
             {
               "partNumber": "ADuM5401",
-              "link": "/adi/products/adum5401.html",
+              "link": "",
               "description": "Isolated DC-DC converter for galvanic isolation",
               "category": "Isolation"
             },
             {
               "partNumber": "AD7606C-18",
-              "link": "/adi/products/ad7606c-18.html",
+              "link": "",
               "description": "18-bit version for higher resolution requirements",
               "category": "Data Converters"
             }
@@ -396,7 +396,7 @@
               },
               "reason": "Higher resolution for applications requiring better dynamic range",
               "useCase": "Upgrade path for designs requiring 16-bit resolution",
-              "link": "/adi/products/ad9689.html"
+              "link": ""
             },
             {
               "partNumber": "ADC12DJ3200",
@@ -415,25 +415,25 @@
               },
               "reason": "Lower resolution but slightly higher speed for cost-sensitive applications",
               "useCase": "Cost-sensitive designs where 12-bit resolution is sufficient",
-              "link": "/ti/products/adc12dj3200.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "HMC7044",
-              "link": "/adi/products/hmc7044.html",
+              "link": "",
               "description": "High-performance clock generator for ADC sampling clock",
               "category": "Clock Generation"
             },
             {
               "partNumber": "ADRV9009",
-              "link": "/adi/products/adrv9009.html",
+              "link": "",
               "description": "Dual RF transceiver for complete SDR solution",
               "category": "RF Transceiver"
             },
             {
               "partNumber": "AD9208-3000EBZ",
-              "link": "/adi/products/ad9208-3000ebz.html",
+              "link": "",
               "description": "Evaluation board for rapid prototyping",
               "category": "Evaluation Boards"
             }
@@ -650,7 +650,7 @@
               },
               "reason": "Higher bandwidth and lower power for demanding applications",
               "useCase": "Applications requiring > 100kHz bandwidth or lower power consumption",
-              "link": "/adi/products/ad8421.html"
+              "link": ""
             },
             {
               "partNumber": "INA128",
@@ -670,25 +670,25 @@
               },
               "reason": "Better CMRR and wider gain range for precision applications",
               "useCase": "High-precision applications requiring > 100dB CMRR",
-              "link": "/ti/products/ina128.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "AD7124-4",
-              "link": "/adi/products/ad7124-4.html",
+              "link": "",
               "description": "24-bit ADC for bridge sensor measurement",
               "category": "Data Converters"
             },
             {
               "partNumber": "REF43",
-              "link": "/adi/products/ref43.html",
+              "link": "",
               "description": "2.5V precision reference for bridge excitation",
               "category": "Voltage Reference"
             },
             {
               "partNumber": "ADG419",
-              "link": "/adi/products/adg419.html",
+              "link": "",
               "description": "Precision switch for sensor selection",
               "category": "Switches"
             }
@@ -905,7 +905,7 @@
               },
               "reason": "Lower current and cost for applications not requiring 6A",
               "useCase": "Applications requiring 2-4A output current",
-              "link": "/adi/products/adp2384.html"
+              "link": ""
             },
             {
               "partNumber": "TPS54320",
@@ -925,25 +925,25 @@
               },
               "reason": "Fully integrated solution with lower cost for moderate current applications",
               "useCase": "Cost-sensitive applications up to 3A requiring fully integrated solution",
-              "link": "/ti/products/tps54320.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ADP1741",
-              "link": "/adi/products/adp1741.html",
+              "link": "/adi/products/power-management/adp1741",
               "description": "Low noise LDO for post-regulation",
               "category": "Power Management"
             },
             {
               "partNumber": "ADP2386-EVALZ",
-              "link": "/adi/products/adp2386-evalz.html",
+              "link": "",
               "description": "Evaluation board for rapid prototyping",
               "category": "Evaluation Boards"
             },
             {
               "partNumber": "BSC028N04LS",
-              "link": "/infineon/products/bsc028n04ls.html",
+              "link": "",
               "description": "Low-side MOSFET for synchronous operation",
               "category": "MOSFETs"
             }
@@ -1071,7 +1071,7 @@
               },
               "reason": "Higher current capability for applications requiring > 1.6A",
               "useCase": "FPGA core supplies and applications requiring 1.6-2A output",
-              "link": "/adi/products/adp1755.html"
+              "link": ""
             },
             {
               "partNumber": "TPS7A47",
@@ -1091,25 +1091,25 @@
               },
               "reason": "Ultra-low noise and higher PSRR for most demanding applications",
               "useCase": "Ultra-sensitive RF and precision measurement requiring lowest noise",
-              "link": "/ti/products/tps7a47.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ADP2386",
-              "link": "/adi/products/adp2386.html",
+              "link": "/adi/products/power-management/adp2386",
               "description": "Buck regulator for pre-regulation",
               "category": "Power Management"
             },
             {
               "partNumber": "ADP1740",
-              "link": "/adi/products/adp1740.html",
+              "link": "",
               "description": "Fixed voltage version of ADP1741",
               "category": "Power Management"
             },
             {
               "partNumber": "ADP1741-EVALZ",
-              "link": "/adi/products/adp1741-evalz.html",
+              "link": "",
               "description": "Evaluation board for testing",
               "category": "Evaluation Boards"
             }
@@ -1332,7 +1332,7 @@
               },
               "reason": "Wider bandwidth and better performance for demanding applications",
               "useCase": "Applications requiring > 56MHz bandwidth or highest performance",
-              "link": "/adi/products/adrv9009.html"
+              "link": ""
             },
             {
               "partNumber": "LMS7002M",
@@ -1352,25 +1352,25 @@
               },
               "reason": "Lower cost alternative for budget-conscious applications",
               "useCase": "Cost-sensitive SDR projects not requiring 6GHz coverage",
-              "link": "/lime/products/lms7002m.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Zynq-7000",
-              "link": "/xilinx/products/zynq-7000.html",
+              "link": "",
               "description": "FPGA SoC for baseband processing",
               "category": "FPGA"
             },
             {
               "partNumber": "AD9361-EBZ",
-              "link": "/adi/products/ad9361-ebz.html",
+              "link": "",
               "description": "Evaluation board with FPGA reference design",
               "category": "Evaluation Boards"
             },
             {
               "partNumber": "ADP5052",
-              "link": "/adi/products/adp5052.html",
+              "link": "",
               "description": "Power management IC for AD9361",
               "category": "Power Management"
             }
@@ -1501,7 +1501,7 @@
               },
               "reason": "Higher frequency coverage and much better phase noise for demanding applications",
               "useCase": "Microwave applications > 4.4GHz or requiring lowest phase noise",
-              "link": "/adi/products/adf5355.html"
+              "link": ""
             },
             {
               "partNumber": "LMX2581",
@@ -1521,25 +1521,25 @@
               },
               "reason": "Lower cost alternative for applications not requiring > 3.8GHz",
               "useCase": "Cost-sensitive applications up to 3.8GHz",
-              "link": "/ti/products/lmx2581.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ADP150",
-              "link": "/adi/products/adp150.html",
+              "link": "",
               "description": "Ultra-low noise LDO for PLL supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ADIsimPLL",
-              "link": "/adi/products/adsimpll.html",
+              "link": "",
               "description": "PLL design and simulation tool",
               "category": "Design Tools"
             },
             {
               "partNumber": "ADF4351-EB1Z",
-              "link": "/adi/products/adf4351-eb1z.html",
+              "link": "",
               "description": "Evaluation board for rapid prototyping",
               "category": "Evaluation Boards"
             }

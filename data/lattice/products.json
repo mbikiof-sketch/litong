@@ -287,14 +287,16 @@
               "partNumber": "LFD4NX-100",
               "comparison": "LFD4NX-100 has 100K logic cells vs 39K, higher capacity for complex designs",
               "reason": "Higher capacity needed",
-              "useCase": "Complex designs requiring more logic resources"
+              "useCase": "Complex designs requiring more logic resources",
+              "link": "/lattice/products/nexus-platform/lfd4nx-100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CertusPro-NX-EVB",
               "relationship": "Evaluation Board",
-              "description": "CertusPro-NX Evaluation Board for development"
+              "description": "CertusPro-NX Evaluation Board for development",
+              "link": "/lattice/products/development-kits/certuspro-nx-evb"
             },
             {
               "partNumber": "DDR3L-1Gb",
@@ -304,7 +306,8 @@
             {
               "partNumber": "LCMXO3LF-2100C",
               "relationship": "Companion CPLD",
-              "description": "MachXO3 for system management and configuration"
+              "description": "MachXO3 for system management and configuration",
+              "link": "/lattice/products/machxo-control/lcmxo3lf-2100c"
             }
           ]
         },
@@ -410,13 +413,15 @@
               "partNumber": "LFD2NX-40",
               "comparison": "LFD2NX-40 has 39K logic cells vs 96K, lower cost for medium designs",
               "reason": "Lower capacity and cost",
-              "useCase": "Medium complexity designs"
+              "useCase": "Medium complexity designs",
+              "link": "/lattice/products/nexus-platform/lfd2nx-40"
             },
             {
               "partNumber": "LCE4X-100",
               "comparison": "LCE4X-100 is CrossLink-NX with MIPI focus vs general purpose",
               "reason": "MIPI connectivity needed",
-              "useCase": "Video and camera applications"
+              "useCase": "Video and camera applications",
+              "link": "/lattice/products/crosslink-mipi/lce4x-100"
             }
           ],
           "companionParts": [
@@ -433,7 +438,8 @@
             {
               "partNumber": "LCMXO5-1200",
               "relationship": "Companion CPLD",
-              "description": "MachXO5 for system management"
+              "description": "MachXO5 for system management",
+              "link": "/lattice/products/machxo-control/lcmxo5-1200"
             }
           ]
         }
@@ -637,7 +643,8 @@
               "partNumber": "LCMXO5-1200",
               "comparison": "LCMXO5-1200 adds hardware security features",
               "reason": "Security features needed",
-              "useCase": "Security-critical applications"
+              "useCase": "Security-critical applications",
+              "link": "/lattice/products/machxo-control/lcmxo5-1200"
             }
           ],
           "companionParts": [
@@ -649,7 +656,8 @@
             {
               "partNumber": "LFD2NX-40",
               "relationship": "Main FPGA",
-              "description": "CertusPro-NX for main processing"
+              "description": "CertusPro-NX for main processing",
+              "link": "/lattice/products/nexus-platform/lfd2nx-40"
             },
             {
               "partNumber": "TPS65218",
@@ -759,7 +767,8 @@
               "partNumber": "LCMXO3LF-2100C",
               "comparison": "LCMXO3LF-2100C has no hardware security, lower cost",
               "reason": "No security requirements",
-              "useCase": "General control without security"
+              "useCase": "General control without security",
+              "link": "/lattice/products/machxo-control/lcmxo3lf-2100c"
             },
             {
               "partNumber": "LCMXO5-2800",
@@ -777,7 +786,8 @@
             {
               "partNumber": "LFD4NX-100",
               "relationship": "Main FPGA",
-              "description": "CertusPro-NX for main processing with security"
+              "description": "CertusPro-NX for main processing with security",
+              "link": "/lattice/products/nexus-platform/lfd4nx-100"
             },
             {
               "partNumber": "ATSHA204A",
@@ -975,20 +985,23 @@
               "partNumber": "LCE4X-40",
               "comparison": "LCE4X-40 has 39K logic cells vs 96K, lower cost",
               "reason": "Lower capacity and cost",
-              "useCase": "Simpler MIPI applications"
+              "useCase": "Simpler MIPI applications",
+              "link": "/lattice/products/crosslink-mipi/lce4x-40"
             },
             {
               "partNumber": "LFD4NX-100",
               "comparison": "LFD4NX-100 is general purpose vs MIPI-optimized",
               "reason": "General purpose needed",
-              "useCase": "Non-MIPI applications"
+              "useCase": "Non-MIPI applications",
+              "link": "/lattice/products/nexus-platform/lfd4nx-100"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CrossLink-NX-EVB",
               "relationship": "Evaluation Board",
-              "description": "CrossLink-NX evaluation board"
+              "description": "CrossLink-NX evaluation board",
+              "link": "/lattice/products/development-kits/crosslink-nx-evb"
             },
             {
               "partNumber": "IMX477",
@@ -1070,20 +1083,23 @@
               "partNumber": "LCE4X-100",
               "comparison": "LCE4X-100 has 96K logic cells and 8 MIPI lanes vs 39K/4 lanes",
               "reason": "Higher capacity or more MIPI lanes needed",
-              "useCase": "Multi-camera or 4K applications"
+              "useCase": "Multi-camera or 4K applications",
+              "link": "/lattice/products/crosslink-mipi/lce4x-100"
             },
             {
               "partNumber": "LFD2NX-40",
               "comparison": "LFD2NX-40 is general purpose without optimized MIPI",
               "reason": "Non-MIPI application",
-              "useCase": "General purpose FPGA needs"
+              "useCase": "General purpose FPGA needs",
+              "link": "/lattice/products/nexus-platform/lfd2nx-40"
             }
           ],
           "companionParts": [
             {
               "partNumber": "CrossLink-NX-EVB",
               "relationship": "Evaluation Board",
-              "description": "CrossLink-NX evaluation board"
+              "description": "CrossLink-NX evaluation board",
+              "link": "/lattice/products/development-kits/crosslink-nx-evb"
             },
             {
               "partNumber": "OV5640",
@@ -1247,7 +1263,8 @@
             {
               "partNumber": "LFD2NX-40",
               "relationship": "Target FPGA",
-              "description": "CertusPro-NX 40K FPGA for production"
+              "description": "CertusPro-NX 40K FPGA for production",
+              "link": "/lattice/products/nexus-platform/lfd2nx-40"
             },
             {
               "partNumber": "Platform-Cable-USB",
@@ -1330,7 +1347,8 @@
             {
               "partNumber": "LCE4X-100",
               "relationship": "Target FPGA",
-              "description": "CrossLink-NX 100K FPGA for production"
+              "description": "CrossLink-NX 100K FPGA for production",
+              "link": "/lattice/products/crosslink-mipi/lce4x-100"
             },
             {
               "partNumber": "IMX477",

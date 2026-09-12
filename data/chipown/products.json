@@ -182,7 +182,8 @@
               "partNumber": "PN8148",
               "comparison": "Higher power version (24-36W) => Use when more power is needed; Same features with larger MOSFET => Pin-compatible upgrade path",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/acdc-converters/pn8148"
             },
             {
               "partNumber": "iW1760B",
@@ -192,9 +193,21 @@
             }
           ],
           "companionParts": [
-            "PN8307 (Synchronous Rectifier for improved efficiency)",
-            "PC817 (Optocoupler for feedback isolation)",
-            "TL431 (Voltage Reference for precise regulation)"
+            {
+              "partNumber": "PN8307",
+              "description": "Synchronous Rectifier for improved efficiency",
+              "link": ""
+            },
+            {
+              "partNumber": "PC817",
+              "description": "Optocoupler for feedback isolation",
+              "link": ""
+            },
+            {
+              "partNumber": "TL431",
+              "description": "Voltage Reference for precise regulation",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -295,7 +308,8 @@
               "partNumber": "PN8147",
               "comparison": "Lower power version (12-24W) => Use for lower power applications; Same features with smaller MOSFET => Cost-effective for <24W designs",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/acdc-converters/pn8147"
             },
             {
               "partNumber": "NCP1342",
@@ -305,9 +319,21 @@
             }
           ],
           "companionParts": [
-            "PN8307H (High-current Synchronous Rectifier)",
-            "PC817 (Optocoupler for feedback)",
-            "TL431 (Voltage Reference)"
+            {
+              "partNumber": "PN8307H",
+              "description": "High-current Synchronous Rectifier",
+              "link": ""
+            },
+            {
+              "partNumber": "PC817",
+              "description": "Optocoupler for feedback",
+              "link": ""
+            },
+            {
+              "partNumber": "TL431",
+              "description": "Voltage Reference",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -408,7 +434,8 @@
               "partNumber": "PN8147",
               "comparison": "Standard 700V version => Use for less demanding applications; Lower cost => Cost-effective for standard adapters",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/acdc-converters/pn8147"
             },
             {
               "partNumber": "ICE3BR4765J",
@@ -418,9 +445,21 @@
             }
           ],
           "companionParts": [
-            "PN8307 (Synchronous Rectifier for efficiency)",
-            "PC817 (Optocoupler for isolation)",
-            "TL431 (Voltage Reference for regulation)"
+            {
+              "partNumber": "PN8307",
+              "description": "Synchronous Rectifier for efficiency",
+              "link": ""
+            },
+            {
+              "partNumber": "PC817",
+              "description": "Optocoupler for isolation",
+              "link": ""
+            },
+            {
+              "partNumber": "TL431",
+              "description": "Voltage Reference for regulation",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -530,9 +569,21 @@
             }
           ],
           "companionParts": [
-            "PN8147 (Primary Side Flyback Controller)",
-            "40V/10A SR MOSFET (Low Rds(on) for efficiency)",
-            "Output capacitors (Low ESR for ripple)"
+            {
+              "partNumber": "PN8147",
+              "description": "Primary Side Flyback Controller",
+              "link": ""
+            },
+            {
+              "partNumber": "40V/10A SR MOSFET",
+              "description": "Low Rds(on) for efficiency",
+              "link": ""
+            },
+            {
+              "partNumber": "Output capacitors",
+              "description": "Low ESR for ripple",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -724,7 +775,8 @@
               "partNumber": "AP2953",
               "comparison": "3A version => Higher current capability; Same features => Pin-compatible upgrade",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/dcdc-converters/ap2953"
             },
             {
               "partNumber": "MP1584",
@@ -734,9 +786,21 @@
             }
           ],
           "companionParts": [
-            "Input capacitor (10μF ceramic)",
-            "Output capacitor (22μF ceramic)",
-            "Inductor (4.7μH-10μH)"
+            {
+              "partNumber": "Input capacitor",
+              "description": "10μF ceramic",
+              "link": ""
+            },
+            {
+              "partNumber": "Output capacitor",
+              "description": "22μF ceramic",
+              "link": ""
+            },
+            {
+              "partNumber": "Inductor",
+              "description": "4.7μH-10μH",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -835,19 +899,33 @@
               "partNumber": "AP2952",
               "comparison": "2A version => Lower current for cost savings; Same features => Pin-compatible for flexibility",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/dcdc-converters/ap2952"
             },
             {
               "partNumber": "TPS54331",
               "comparison": "TI alternative => Similar 3A capability; Different features => Evaluate specifications",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/ti/products/power-management/tps54331"
             }
           ],
           "companionParts": [
-            "Input capacitor (22μF ceramic)",
-            "Output capacitor (22μF-47μF ceramic)",
-            "Inductor (3.3μH-6.8μH)"
+            {
+              "partNumber": "Input capacitor",
+              "description": "22μF ceramic",
+              "link": ""
+            },
+            {
+              "partNumber": "Output capacitor",
+              "description": "22μF-47μF ceramic",
+              "link": ""
+            },
+            {
+              "partNumber": "Inductor",
+              "description": "3.3μH-6.8μH",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -955,9 +1033,21 @@
             }
           ],
           "companionParts": [
-            "Small inductor (1μH-2.2μH)",
-            "Small ceramic capacitors (4.7μF)",
-            "Battery protection IC"
+            {
+              "partNumber": "Small inductor",
+              "description": "1μH-2.2μH",
+              "link": ""
+            },
+            {
+              "partNumber": "Small ceramic capacitors",
+              "description": "4.7μF",
+              "link": ""
+            },
+            {
+              "partNumber": "Battery protection IC",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1067,9 +1157,21 @@
             }
           ],
           "companionParts": [
-            "White LEDs (3-6 series)",
-            "Inductor (4.7μH-10μH)",
-            "Output capacitor (0.1μF-1μF)"
+            {
+              "partNumber": "White LEDs",
+              "description": "3-6 series",
+              "link": ""
+            },
+            {
+              "partNumber": "Inductor",
+              "description": "4.7μH-10μH",
+              "link": ""
+            },
+            {
+              "partNumber": "Output capacitor",
+              "description": "0.1μF-1μF",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1259,7 +1361,8 @@
               "partNumber": "AP360Y",
               "comparison": "Higher current version => Up to 300mA capability; Same features => Pin-compatible options",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/led-drivers/ap360y"
             },
             {
               "partNumber": "AL5809",
@@ -1269,9 +1372,21 @@
             }
           ],
           "companionParts": [
-            "LEDs (target current rating)",
-            "Input capacitor (optional)",
-            "PWM source (for dimming)"
+            {
+              "partNumber": "LEDs",
+              "description": "target current rating",
+              "link": ""
+            },
+            {
+              "partNumber": "Input capacitor",
+              "description": "optional",
+              "link": ""
+            },
+            {
+              "partNumber": "PWM source",
+              "description": "for dimming",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1370,7 +1485,8 @@
               "partNumber": "AP360X",
               "comparison": "Lower current version (20-150mA) => For lower power applications; Smaller package => Better for space-constrained designs",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/led-drivers/ap360x"
             },
             {
               "partNumber": "NSI50318",
@@ -1380,9 +1496,21 @@
             }
           ],
           "companionParts": [
-            "High-power LEDs",
-            "Heatsink (for 300mA operation)",
-            "PWM dimming source"
+            {
+              "partNumber": "High-power LEDs",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Heatsink",
+              "description": "for 300mA operation",
+              "link": ""
+            },
+            {
+              "partNumber": "PWM dimming source",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1481,7 +1609,8 @@
               "partNumber": "AP880Y",
               "comparison": "Higher current version (2A) => For higher power lighting; Same features => Pin-compatible upgrade",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/led-drivers/ap880y"
             },
             {
               "partNumber": "MP24833",
@@ -1491,9 +1620,21 @@
             }
           ],
           "companionParts": [
-            "LEDs (series string)",
-            "Inductor (10μH-22μH)",
-            "Input/output capacitors"
+            {
+              "partNumber": "LEDs",
+              "description": "series string",
+              "link": ""
+            },
+            {
+              "partNumber": "Inductor",
+              "description": "10μH-22μH",
+              "link": ""
+            },
+            {
+              "partNumber": "Input/output capacitors",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1593,7 +1734,8 @@
               "partNumber": "AP880X",
               "comparison": "Lower current version (1A) => For lower power applications; Smaller package => Better for compact designs",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/led-drivers/ap880x"
             },
             {
               "partNumber": "MP3398",
@@ -1603,10 +1745,26 @@
             }
           ],
           "companionParts": [
-            "High-power LED arrays",
-            "Power inductor (6.8μH-15μH)",
-            "Input/output capacitors",
-            "Dimming control circuit"
+            {
+              "partNumber": "High-power LED arrays",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Power inductor",
+              "description": "6.8μH-15μH",
+              "link": ""
+            },
+            {
+              "partNumber": "Input/output capacitors",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Dimming control circuit",
+              "description": "",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1798,7 +1956,8 @@
               "partNumber": "AP200Y",
               "comparison": "Higher current version (3A) => For larger motors; Same features => Pin-compatible upgrade",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/motor-drivers/ap200y"
             },
             {
               "partNumber": "L293D",
@@ -1808,9 +1967,21 @@
             }
           ],
           "companionParts": [
-            "DC motors (<12V)",
-            "Motor supply capacitors (100μF)",
-            "Microcontroller (for control)"
+            {
+              "partNumber": "DC motors",
+              "description": "<12V",
+              "link": ""
+            },
+            {
+              "partNumber": "Motor supply capacitors",
+              "description": "100μF",
+              "link": ""
+            },
+            {
+              "partNumber": "Microcontroller",
+              "description": "for control",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -1911,7 +2082,8 @@
               "partNumber": "AP200X",
               "comparison": "Lower current version (2A peak) => For smaller motors; Smaller package => Better for compact designs",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/motor-drivers/ap200x"
             },
             {
               "partNumber": "TB6612FNG",
@@ -1921,9 +2093,21 @@
             }
           ],
           "companionParts": [
-            "Larger DC motors",
-            "Bulk capacitors (220μF+)",
-            "Current sense resistors (optional)"
+            {
+              "partNumber": "Larger DC motors",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Bulk capacitors",
+              "description": "220μF+",
+              "link": ""
+            },
+            {
+              "partNumber": "Current sense resistors",
+              "description": "optional",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -2024,20 +2208,38 @@
               "partNumber": "AP300Y",
               "comparison": "Higher current version (3A) => For larger stepper motors; Same features => Pin-compatible upgrade",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/motor-drivers/ap300y"
             },
             {
               "partNumber": "A4988",
               "comparison": "Popular alternative => Similar microstepping; Different current rating => Check motor requirements",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/allegro/products/motor-drivers/a4988"
             }
           ],
           "companionParts": [
-            "Bipolar stepper motor",
-            "Current sense resistors",
-            "Bulk capacitors (100μF+)",
-            "Microcontroller (step/direction)"
+            {
+              "partNumber": "Bipolar stepper motor",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Current sense resistors",
+              "description": "",
+              "link": ""
+            },
+            {
+              "partNumber": "Bulk capacitors",
+              "description": "100μF+",
+              "link": ""
+            },
+            {
+              "partNumber": "Microcontroller",
+              "description": "step/direction",
+              "link": ""
+            }
           ],
           "faqs": [
             {
@@ -2138,7 +2340,8 @@
               "partNumber": "AP300X",
               "comparison": "Lower current version (2A) => For smaller stepper motors; Smaller package => More compact design",
               "reason": "Pin-compatible alternative with similar performance characteristics for supply chain flexibility.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
+              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality.",
+              "link": "/chipown/products/motor-drivers/ap300x"
             },
             {
               "partNumber": "DRV8825",
@@ -2148,10 +2351,26 @@
             }
           ],
           "companionParts": [
-            "Large stepper motor (NEMA 23+)",
-            "Heatsink (required for 3A)",
-            "Bulk capacitors (470μF+)",
-            "Cooling fan (recommended)"
+            {
+              "partNumber": "Large stepper motor",
+              "description": "NEMA 23+",
+              "link": ""
+            },
+            {
+              "partNumber": "Heatsink",
+              "description": "required for 3A",
+              "link": ""
+            },
+            {
+              "partNumber": "Bulk capacitors",
+              "description": "470μF+",
+              "link": ""
+            },
+            {
+              "partNumber": "Cooling fan",
+              "description": "recommended",
+              "link": ""
+            }
           ],
           "faqs": [
             {

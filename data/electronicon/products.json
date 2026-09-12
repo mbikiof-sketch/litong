@@ -235,7 +235,7 @@
               },
               "reason": "Higher capacitance and ripple current for applications requiring lower voltage ripple or higher current handling",
               "useCase": "Suitable for higher power inverters (75-132kW) or applications with stringent ripple requirements",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n13-684-nt0.html"
+              "link": ""
             },
             {
               "partNumber": "E50. N11-474. NT0",
@@ -254,37 +254,37 @@
               },
               "reason": "Lower voltage rating for 380-400V AC input applications with reduced cost",
               "useCase": "Cost-sensitive applications with lower DC bus voltage requirements (up to 600V DC)",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n11-474-nt0.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "E50. N13-474. NT0",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n13-474-nt0.html",
+              "link": "/electronicon/products/dc-link-capacitors/e50-n13-474-nt0",
               "description": "Parallel configuration for higher capacitance (940uF total)",
               "category": "DC-Link Capacitors"
             },
             {
               "partNumber": "Discharge Resistor 100kOhm",
-              "link": "#",
+              "link": "",
               "description": "Safety discharge resistor for DC-link capacitor bank",
               "category": "Safety Components"
             },
             {
               "partNumber": "IGBT Module FF300R12ME4",
-              "link": "/infineon/products/igbt-modules/ff300r12me4.html",
+              "link": "",
               "description": "Matching IGBT module for 1100V DC-link applications",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "DC-Link Capacitor Mounting Kit",
-              "link": "#",
+              "link": "",
               "description": "Insulation washers and mounting hardware for M10 stud",
               "category": "Accessories"
             },
             {
               "partNumber": "Thermal Interface Pad",
-              "link": "#",
+              "link": "",
               "description": "Silicone thermal pad for improved heat transfer to heatsink",
               "category": "Thermal Management"
             }
@@ -436,7 +436,7 @@
               },
               "reason": "Higher capacitance for applications requiring very low voltage ripple or high energy storage",
               "useCase": "Large wind converters (500kW+) or applications with stringent DC bus stability requirements",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n23-155-nt0.html"
+              "link": ""
             },
             {
               "partNumber": "E50. N13-474. NT0",
@@ -455,37 +455,37 @@
               },
               "reason": "Lower capacitance for cost-sensitive medium-power applications",
               "useCase": "30-75kW applications where 470uF provides sufficient filtering",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n13-474-nt0.html"
+              "link": "/electronicon/products/dc-link-capacitors/e50-n13-474-nt0"
             }
           ],
           "companionParts": [
             {
               "partNumber": "E50. N23-105. NT0",
-              "link": "/electronicon/products/dc-link-capacitors/e50-n23-105-nt0.html",
+              "link": "/electronicon/products/dc-link-capacitors/e50-n23-105-nt0",
               "description": "Parallel configuration for 2000uF total capacitance",
               "category": "DC-Link Capacitors"
             },
             {
               "partNumber": "Pre-charge Circuit Module",
-              "link": "#",
+              "link": "",
               "description": "Soft-start module for DC-link capacitor charging",
               "category": "Power Management"
             },
             {
               "partNumber": "IGBT Module FF600R12ME4",
-              "link": "/infineon/products/igbt-modules/ff600r12me4.html",
+              "link": "",
               "description": "High-power IGBT module for 1100V DC-link systems",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "DC-Link Fuse 700A",
-              "link": "#",
+              "link": "",
               "description": "Semiconductor fuse for DC-link protection",
               "category": "Circuit Protection"
             },
             {
               "partNumber": "M12 Mounting Hardware Kit",
-              "link": "#",
+              "link": "",
               "description": "Complete mounting kit with insulation and hardware",
               "category": "Accessories"
             }
@@ -647,7 +647,8 @@
                 "Voltage Rating": "1100V DC"
               },
               "priceDifference": "+25%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/dc-link-capacitors/e50-n30-225-mk0"
             }
           ],
           "companionParts": [
@@ -749,7 +750,8 @@
                 "Voltage Rating": "1100V DC"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/dc-link-capacitors/e50-n30-155-mk0"
             }
           ],
           "companionParts": [
@@ -940,7 +942,7 @@
               "comparison": "E62. F10-102. B20=><E62. F10-152. B20: Output current 32A > 25A (+28%), suitable for direct replacement",
               "reason": "Higher capacitance for lower frequency filters or higher reactive power",
               "useCase": "Applications requiring 1.5uF for 3rd harmonic filtering or higher kVAR correction",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-152-b20.html"
+              "link": ""
             },
             {
               "partNumber": "E62. F10-102. B10",
@@ -953,37 +955,37 @@
               "comparison": "E62. F10-102. B20=><E62. F10-102. B10: Output current 20A < 25A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with reduced cost",
               "useCase": "400V AC applications where 690V rating provides adequate margin",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-102-b10.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Filter Reactor 2mH",
-              "link": "#",
+              "link": "",
               "description": "Tuning reactor for 5th harmonic filter (250Hz)",
               "category": "Filter Components"
             },
             {
               "partNumber": "E62. F10-102. B20",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-102-b20.html",
+              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-102-b20",
               "description": "Three capacitors for three-phase delta filter",
               "category": "AC Filter Capacitors"
             },
             {
               "partNumber": "AC Fuse 32A gG",
-              "link": "#",
+              "link": "",
               "description": "Protection fuse for capacitor circuit",
               "category": "Circuit Protection"
             },
             {
               "partNumber": "Discharge Resistor 47kOhm",
-              "link": "#",
+              "link": "",
               "description": "Safety discharge resistor for AC capacitor",
               "category": "Safety Components"
             },
             {
               "partNumber": "M8 Mounting Kit",
-              "link": "#",
+              "link": "",
               "description": "Mounting hardware with insulation washer",
               "category": "Accessories"
             }
@@ -1129,7 +1131,7 @@
               "comparison": "E62. F10-502. B20=><E62. F10-752. B20: Output current 70A > 55A (+27%), suitable for direct replacement",
               "reason": "Higher capacitance for larger PFC banks or higher reactive power requirements",
               "useCase": "Large industrial PFC systems requiring 7.5uF per step",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-752-b20.html"
+              "link": ""
             },
             {
               "partNumber": "E62. F10-502. B10",
@@ -1142,37 +1144,37 @@
               "comparison": "E62. F10-502. B20=><E62. F10-502. B10: Output current 45A < 55A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 400V systems with reduced cost",
               "useCase": "400V AC PFC applications where 690V provides adequate margin",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-502-b10.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "E62. F10-502. B20",
-              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-502-b20.html",
+              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-502-b20",
               "description": "Multiple capacitors for large PFC bank",
               "category": "AC Filter Capacitors"
             },
             {
               "partNumber": "PFC Controller",
-              "link": "#",
+              "link": "",
               "description": "Automatic power factor correction controller",
               "category": "PFC Equipment"
             },
             {
               "partNumber": "Detuning Reactor 7%",
-              "link": "#",
+              "link": "",
               "description": "7% detuning reactor for harmonic-rich networks",
               "category": "Filter Components"
             },
             {
               "partNumber": "AC Contactor 63A",
-              "link": "#",
+              "link": "",
               "description": "Capacitor switching contactor with pre-charge",
               "category": "Switching Equipment"
             },
             {
               "partNumber": "M10 Mounting Hardware",
-              "link": "#",
+              "link": "",
               "description": "Complete mounting kit for secure installation",
               "category": "Accessories"
             }
@@ -1318,7 +1320,8 @@
                 "Voltage Rating": "400V AC"
               },
               "priceDifference": "+15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-153-b20"
             }
           ],
           "companionParts": [
@@ -1404,7 +1407,8 @@
                 "Voltage Rating": "400V AC"
               },
               "priceDifference": "-15%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/ac-filter-capacitors/e62-f10-103-b20"
             }
           ],
           "companionParts": [
@@ -1597,7 +1601,7 @@
               },
               "reason": "Higher capacitance for applications with higher stray inductance or requiring more energy absorption",
               "useCase": "Large IGBT modules (600A+) or applications with high stray inductance",
-              "link": "/electronicon/products/snubber-capacitors/e12-e93-104-m20.html"
+              "link": ""
             },
             {
               "partNumber": "E12. E59-403. M10",
@@ -1616,37 +1620,37 @@
               },
               "reason": "Lower voltage rating for 600V IGBT applications with higher dv/dt capability",
               "useCase": "600V class motor drives and inverters",
-              "link": "/electronicon/products/snubber-capacitors/e12-e59-403-m10.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Snubber Resistor 10Ohm",
-              "link": "#",
+              "link": "",
               "description": "10 ohm 5W non-inductive resistor for RC snubber",
               "category": "Snubber Components"
             },
             {
               "partNumber": "Fast Diode MUR860",
-              "link": "#",
+              "link": "",
               "description": "8A 600V fast recovery diode for RCD snubber",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "E12. E93-403. M20",
-              "link": "/electronicon/products/snubber-capacitors/e12-e93-403-m20.html",
+              "link": "/electronicon/products/snubber-capacitors/e12-e93-403-m20",
               "description": "Multiple capacitors for parallel connection",
               "category": "Snubber Capacitors"
             },
             {
               "partNumber": "IGBT Driver 2SP0115T",
-              "link": "#",
+              "link": "",
               "description": "IGBT driver with built-in protection",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "Mounting Clip",
-              "link": "#",
+              "link": "",
               "description": "Clip for axial capacitor mounting",
               "category": "Accessories"
             }
@@ -1799,7 +1803,7 @@
               },
               "reason": "Higher capacitance for very high-power applications or high stray inductance",
               "useCase": "Large traction inverters (2MW+) or applications with very high stray inductance",
-              "link": "/electronicon/products/snubber-capacitors/e12-e93-224-m50.html"
+              "link": ""
             },
             {
               "partNumber": "E12. E93-403. M20",
@@ -1818,37 +1822,37 @@
               },
               "reason": "Lower capacitance and voltage for medium-power applications",
               "useCase": "600-1200V IGBT applications where 0.4uF provides sufficient snubbing",
-              "link": "/electronicon/products/snubber-capacitors/e12-e93-403-m20.html"
+              "link": "/electronicon/products/snubber-capacitors/e12-e93-403-m20"
             }
           ],
           "companionParts": [
             {
               "partNumber": "E12. E93-104. M50",
-              "link": "/electronicon/products/snubber-capacitors/e12-e93-104-m50.html",
+              "link": "/electronicon/products/snubber-capacitors/e12-e93-104-m50",
               "description": "Parallel connection for higher capacitance",
               "category": "Snubber Capacitors"
             },
             {
               "partNumber": "Snubber Resistor 5Ohm",
-              "link": "#",
+              "link": "",
               "description": "5 ohm 10W non-inductive resistor",
               "category": "Snubber Components"
             },
             {
               "partNumber": "Fast Diode RHRP30120",
-              "link": "#",
+              "link": "",
               "description": "30A 1200V hyperfast diode for RCD snubber",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "IGBT Module FF1400R17IP4",
-              "link": "#",
+              "link": "",
               "description": "1700V 1400A IGBT module",
               "category": "Power Semiconductors"
             },
             {
               "partNumber": "Mounting Bracket",
-              "link": "#",
+              "link": "",
               "description": "Mounting bracket for large axial capacitors",
               "category": "Accessories"
             }
@@ -1995,7 +1999,8 @@
                 "Voltage Rating": "2000V DC"
               },
               "priceDifference": "+20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/snubber-capacitors/e12-e93-304-m20"
             }
           ],
           "companionParts": [
@@ -2081,7 +2086,8 @@
                 "Voltage Rating": "2000V DC"
               },
               "priceDifference": "-20%",
-              "stockStatus": "In Stock"
+              "stockStatus": "In Stock",
+              "link": "/electronicon/products/snubber-capacitors/e12-e93-204-m20"
             }
           ],
           "companionParts": [
@@ -2264,7 +2270,7 @@
               "comparison": "E62. M16-473. M20=><E62. M16-683. M20: Output current 10A > 8A (+25%), suitable for direct replacement",
               "reason": "Higher capacitance for larger motors or applications requiring more running torque",
               "useCase": "3-7.5HP motor applications or motors with high starting/running torque requirements",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m16-683-m20.html"
+              "link": ""
             },
             {
               "partNumber": "E62. M14-473. M10",
@@ -2277,37 +2283,37 @@
               "comparison": "E62. M16-473. M20=><E62. M14-473. M10: Output current 7A < 8A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for cost-sensitive 230V applications",
               "useCase": "Standard 230V motor applications with moderate voltage stability",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m14-473-m10.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "E62. M16-473. M20",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m16-473-m20.html",
+              "link": "/electronicon/products/motor-run-capacitors/e62-m16-473-m20",
               "description": "Spare capacitor for maintenance",
               "category": "Motor Run Capacitors"
             },
             {
               "partNumber": "Motor Contactor 25A",
-              "link": "#",
+              "link": "",
               "description": "AC contactor for motor control circuit",
               "category": "Motor Control"
             },
             {
               "partNumber": "Overload Relay",
-              "link": "#",
+              "link": "",
               "description": "Thermal overload protection for motor",
               "category": "Motor Protection"
             },
             {
               "partNumber": "M8 Mounting Kit",
-              "link": "#",
+              "link": "",
               "description": "Mounting hardware with insulation washer",
               "category": "Accessories"
             },
             {
               "partNumber": "Terminal Cover",
-              "link": "#",
+              "link": "",
               "description": "Safety cover for capacitor terminals",
               "category": "Safety Components"
             }
@@ -2452,7 +2458,7 @@
               "comparison": "E62. M16-104. M30=><E62. M16-154. M30: Output current 20A > 15A (+33%), suitable for direct replacement",
               "reason": "Higher capacitance for larger motors or applications requiring more running torque",
               "useCase": "15-20HP motor applications or large commercial HVAC systems",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m16-154-m30.html"
+              "link": ""
             },
             {
               "partNumber": "E62. M16-104. M20",
@@ -2465,37 +2471,37 @@
               "comparison": "E62. M16-104. M30=><E62. M16-104. M20: Output current 12A < 15A (lower), suitable for direct replacement",
               "reason": "Lower voltage rating for 230V applications with reduced cost",
               "useCase": "230V motor applications where 450V provides adequate margin",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m16-104-m20.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "E62. M16-104. M30",
-              "link": "/electronicon/products/motor-run-capacitors/e62-m16-104-m30.html",
+              "link": "/electronicon/products/motor-run-capacitors/e62-m16-104-m30",
               "description": "Spare capacitor for maintenance",
               "category": "Motor Run Capacitors"
             },
             {
               "partNumber": "Motor Contactor 50A",
-              "link": "#",
+              "link": "",
               "description": "AC contactor for large motor control",
               "category": "Motor Control"
             },
             {
               "partNumber": "Thermal Overload Relay 15A",
-              "link": "#",
+              "link": "",
               "description": "Overload protection for 7.5-15HP motors",
               "category": "Motor Protection"
             },
             {
               "partNumber": "M10 Mounting Hardware",
-              "link": "#",
+              "link": "",
               "description": "Complete mounting kit for secure installation",
               "category": "Accessories"
             },
             {
               "partNumber": "Capacitor Terminal Cover",
-              "link": "#",
+              "link": "",
               "description": "Insulated cover for safety",
               "category": "Safety Components"
             }

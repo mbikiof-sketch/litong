@@ -223,7 +223,7 @@
               "comparison": "MM32F3273G7P=><MM32F5273G7P: Frequency 168MHz > 120MHz (+40% faster), Package LQFP-64 = LQFP-64 (pin-compatible), suitable for direct replacement",
               "reason": "Higher performance with DSP and floating-point for computationally intensive applications",
               "useCase": "Applications requiring complex algorithms, digital signal processing, or floating-point calculations",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F103RCT6",
@@ -237,25 +237,25 @@
               "comparison": "MM32F3273G7P=><STM32F103RCT6: Frequency 72MHz < 120MHz (MM32F faster), suitable for direct replacement",
               "reason": "Alternative from international brand for applications requiring STM32 compatibility",
               "useCase": "Existing STM32-based designs or applications requiring STM32 ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32F3273-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with onboard debugger and comprehensive peripherals",
               "category": "Development Tools"
             },
             {
               "partNumber": "TJA1051",
-              "link": "#",
+              "link": "",
               "description": "High-speed CAN transceiver for CAN bus interface",
               "category": "Interface IC"
             },
             {
               "partNumber": "MP2359",
-              "link": "#",
+              "link": "",
               "description": "3A 24V step-down converter for MCU power supply",
               "category": "Power Management"
             }
@@ -374,7 +374,7 @@
               "comparison": "MM32F5277G9P=><MM32F3277G9P: Frequency 120MHz < 168MHz, suitable for direct replacement",
               "reason": "Cost-effective alternative for applications not requiring DSP or floating-point",
               "useCase": "General control applications without complex algorithm requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F407VGT6",
@@ -388,25 +388,25 @@
               "comparison": "MM32F5277G9P=><STM32F407VGT6: Frequency 168MHz = 168MHz (same), suitable for direct replacement",
               "reason": "International brand alternative with larger memory for demanding applications",
               "useCase": "Applications requiring STM32 ecosystem or more than 512KB Flash",
-              "link": "#"
+              "link": "/st/products/microcontrollers/stm32f407vgt6"
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32F5277-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Comprehensive evaluation board with Ethernet, USB, and expansion connectors",
               "category": "Development Tools"
             },
             {
               "partNumber": "DP83848",
-              "link": "#",
+              "link": "",
               "description": "10/100 Ethernet PHY for Ethernet MAC interface",
               "category": "Interface IC"
             },
             {
               "partNumber": "W25Q128",
-              "link": "#",
+              "link": "",
               "description": "128Mbit external SPI Flash for data storage",
               "category": "Memory"
             }
@@ -743,7 +743,7 @@
               "comparison": "MM32L073PF=><MM32L376PF: Frequency 48MHz = 48MHz (same), suitable for direct replacement",
               "reason": "More memory and enhanced LCD driver for complex display applications",
               "useCase": "Applications requiring larger memory or advanced LCD features",
-              "link": "#"
+              "link": "/mindmotion/products/mm32l-series/mm32l376pf"
             },
             {
               "partNumber": "STM32L072RB",
@@ -757,25 +757,25 @@
               "comparison": "MM32L073PF=><STM32L072RB: Frequency 32MHz < 48MHz (MM32L faster), suitable for direct replacement",
               "reason": "Alternative from international brand with more memory options",
               "useCase": "Applications requiring STM32 ecosystem compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32L073-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Ultra-low-power evaluation board with current measurement features",
               "category": "Development Tools"
             },
             {
               "partNumber": "SX1262",
-              "link": "#",
+              "link": "",
               "description": "LoRa transceiver for long-range wireless connectivity",
               "category": "Wireless"
             },
             {
               "partNumber": "SHT30",
-              "link": "#",
+              "link": "",
               "description": "Temperature and humidity sensor for environmental monitoring",
               "category": "Sensor"
             }
@@ -903,7 +903,7 @@
               },
               "reason": "Cost-effective alternative for simpler applications without advanced LCD requirements",
               "useCase": "Basic battery-powered applications without complex display needs",
-              "link": "#"
+              "link": "/mindmotion/products/mm32l-series/mm32l073pf"
             },
             {
               "partNumber": "STM32L476RG",
@@ -917,25 +917,25 @@
               "comparison": "MM32L376PF=><STM32L476RG: Frequency 80MHz > 48MHz (faster), suitable for direct replacement",
               "reason": "Higher performance alternative with more memory for demanding applications",
               "useCase": "Applications requiring DSP capabilities or large memory",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32L376-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Evaluation board with LCD and capacitive touch demonstration",
               "category": "Development Tools"
             },
             {
               "partNumber": "DA14531",
-              "link": "#",
+              "link": "",
               "description": "Ultra-low-power BLE 5.1 SoC for wireless connectivity",
               "category": "Wireless"
             },
             {
               "partNumber": "MAX30102",
-              "link": "#",
+              "link": "",
               "description": "Heart rate and SpO2 sensor for wearable health monitoring",
               "category": "Sensor"
             }
@@ -1278,7 +1278,7 @@
               "comparison": "MM32SPIN023PF=><MM32SPIN360PF: Frequency 96MHz > 72MHz (faster), suitable for direct replacement",
               "reason": "Higher performance for complex FOC algorithms and advanced motor control",
               "useCase": "Applications requiring sensorless FOC or complex control algorithms",
-              "link": "#"
+              "link": "/mindmotion/products/mm32spin-series/mm32spin360pf"
             },
             {
               "partNumber": "STM32F030K6",
@@ -1292,25 +1292,25 @@
               "comparison": "MM32SPIN023PF=><STM32F030K6: Frequency 48MHz < 72MHz (slower), suitable for direct replacement",
               "reason": "Alternative MCU requiring external gate driver ICs",
               "useCase": "Cost-sensitive applications where external gate drivers are acceptable",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32SPIN023-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Motor control evaluation board with BLDC motor and power stage",
               "category": "Development Tools"
             },
             {
               "partNumber": "IRFH5300",
-              "link": "#",
+              "link": "",
               "description": "30V N-channel MOSFET for low-voltage motor drives",
               "category": "Power Device"
             },
             {
               "partNumber": "ACS712",
-              "link": "#",
+              "link": "/allegro/products/current-sensors/acs712",
               "description": "Hall effect current sensor for motor current monitoring",
               "category": "Current Sensor"
             }
@@ -1433,7 +1433,7 @@
               "comparison": "MM32SPIN360PF=><MM32SPIN023PF: Frequency 72MHz < 96MHz (slower), suitable for direct replacement",
               "reason": "Cost-effective alternative for simpler motor control applications",
               "useCase": "Basic BLDC control without complex FOC requirements",
-              "link": "#"
+              "link": "/mindmotion/products/mm32spin-series/mm32spin023pf"
             },
             {
               "partNumber": "STM32F303RE",
@@ -1453,25 +1453,25 @@
               },
               "reason": "Higher performance alternative with floating-point for advanced algorithms",
               "useCase": "Applications requiring complex floating-point calculations",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32SPIN360-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Advanced motor control evaluation kit with PMSM motor and inverter",
               "category": "Development Tools"
             },
             {
               "partNumber": "IRFS7530",
-              "link": "#",
+              "link": "",
               "description": "60V N-channel MOSFET for medium-voltage motor drives",
               "category": "Power Device"
             },
             {
               "partNumber": "MT6701",
-              "link": "#",
+              "link": "",
               "description": "Magnetic encoder for precise position feedback",
               "category": "Position Sensor"
             }
@@ -1823,7 +1823,7 @@
               },
               "reason": "More memory for complex applications or larger BLE stack requirements",
               "useCase": "Applications requiring more Flash or RAM for complex functionality",
-              "link": "#"
+              "link": "/mindmotion/products/mm32w-series/mm32w373pf"
             },
             {
               "partNumber": "nRF52832",
@@ -1837,25 +1837,25 @@
               "comparison": "MM32W073PF=><nRF52832: Frequency 64MHz > 48MHz (faster), suitable for direct replacement",
               "reason": "Higher performance alternative with larger memory and mature ecosystem",
               "useCase": "Applications requiring more processing power or Nordic ecosystem",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32W073-EVAL",
-              "link": "#",
+              "link": "",
               "description": "BLE evaluation board with onboard debugger and antenna",
               "category": "Development Tools"
             },
             {
               "partNumber": "2450AT18A100",
-              "link": "#",
+              "link": "",
               "description": "2.4GHz chip antenna for BLE applications",
               "category": "RF Component"
             },
             {
               "partNumber": "BAL-NRF01D3",
-              "link": "#",
+              "link": "",
               "description": "2.4GHz balun for impedance matching",
               "category": "RF Component"
             }
@@ -1982,7 +1982,7 @@
               },
               "reason": "Cost-effective alternative for simpler applications with lower memory requirements",
               "useCase": "Basic BLE applications without complex protocol requirements",
-              "link": "#"
+              "link": "/mindmotion/products/mm32w-series/mm32w073pf"
             },
             {
               "partNumber": "nRF52840",
@@ -1996,25 +1996,25 @@
               "comparison": "MM32W373PF=><nRF52840: Frequency 64MHz > 48MHz (faster), suitable for direct replacement",
               "reason": "Higher performance alternative with USB and advanced features",
               "useCase": "Applications requiring USB or large memory",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "MM32W373-EVAL",
-              "link": "#",
+              "link": "",
               "description": "Advanced BLE evaluation board with sensors and expansion headers",
               "category": "Development Tools"
             },
             {
               "partNumber": "AP2112",
-              "link": "#",
+              "link": "",
               "description": "Low-noise LDO for clean RF power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "TSV991",
-              "link": "#",
+              "link": "",
               "description": "Low-power operational amplifier for sensor conditioning",
               "category": "Analog"
             }

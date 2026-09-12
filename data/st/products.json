@@ -208,7 +208,7 @@
               "comparison": "STM32F407VGT6=><STM32F417VGT6: Frequency 168 MHz = 168 MHz (same), suitable for direct replacement",
               "reason": "Adds hardware cryptographic acceleration for secure applications",
               "useCase": "Applications requiring AES/TLS hardware acceleration",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F303VCT6",
@@ -222,7 +222,7 @@
               "comparison": "STM32F407VGT6=><STM32F303VCT6: Frequency 72 MHz < 168 MHz (-57%), suitable for direct replacement",
               "reason": "Lower cost alternative for less demanding applications",
               "useCase": "Cost-sensitive applications with moderate processing needs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -230,25 +230,25 @@
               "partNumber": "STM32F4DISCOVERY",
               "category": "Development Board",
               "description": "Discovery kit for STM32F407 evaluation and prototyping",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STLINK-V3SET",
               "category": "Debugger",
               "description": "In-circuit debugger and programmer for STM32",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LD1117S33TR",
               "category": "LDO Regulator",
               "description": "3.3V LDO for MCU power supply",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "8MHz Crystal",
               "category": "Passive Component",
               "description": "HSE crystal for accurate clock generation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -369,7 +369,7 @@
               "comparison": "STM32H743VIT6=><STM32F767VIT6: Frequency 216 MHz < 480 MHz (-55%), suitable for direct replacement",
               "reason": "Lower cost alternative with same Flash but reduced performance",
               "useCase": "Applications requiring Cortex-M7 but with less demanding performance requirements",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32H750VBT6",
@@ -383,7 +383,7 @@
               "comparison": "STM32H743VIT6=><STM32H750VBT6: Frequency 480 MHz = 480 MHz (same), suitable for direct replacement",
               "reason": "Cost-optimized version with smaller Flash for external memory designs",
               "useCase": "Cost-sensitive applications using external QSPI Flash",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -391,25 +391,25 @@
               "partNumber": "STM32H747I-DISCO",
               "category": "Development Board",
               "description": "Discovery kit for STM32H7 dual-core evaluation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STLINK-V3SET",
               "category": "Debugger",
               "description": "High-speed debugger for STM32H7 series",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LD39130S33R",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for high-performance MCU power",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "25MHz Crystal",
               "category": "Passive Component",
               "description": "HSE crystal for 480MHz operation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -530,7 +530,7 @@
               "comparison": "STM32L476RGT6=><STM32L072: Frequency 32 MHz < 80 MHz (-60%), suitable for direct replacement",
               "reason": "Lower cost alternative for less demanding applications",
               "useCase": "Cost-sensitive battery-powered applications with lower processing needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32L4R5",
@@ -544,7 +544,7 @@
               "comparison": "STM32L476RGT6=><STM32L4R5: Frequency 120 MHz > 80 MHz (+50%), suitable for direct replacement",
               "reason": "Higher performance with more memory and advanced graphics features",
               "useCase": "Applications requiring more memory or higher performance with low power",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -552,25 +552,25 @@
               "partNumber": "NUCLEO-L476RG",
               "category": "Development Board",
               "description": "Nucleo development board for STM32L476",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STLINK-V3SET",
               "category": "Debugger",
               "description": "Debugger/programmer for STM32L4 series",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LD39100S33R",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for MCU power supply",
-              "link": "#"
+              "link": "/st/products/analog-ics/ld39100s33r"
             },
             {
               "partNumber": "32.768kHz Crystal",
               "category": "Passive Component",
               "description": "LSE crystal for RTC",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -693,7 +693,7 @@
               "comparison": "STM32G474RET6=><STM32F334: Frequency 72 MHz < 170 MHz (-58%), suitable for direct replacement",
               "reason": "Lower cost alternative with HRTIM for simpler applications",
               "useCase": "Cost-sensitive digital power applications with lower processing needs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F407",
@@ -707,7 +707,7 @@
               "comparison": "STM32G474RET6=><STM32F407: Frequency 168 MHz ≈ 170 MHz (similar), suitable for direct replacement",
               "reason": "Higher memory but lacks HRTIM for precision control",
               "useCase": "Applications needing more memory without HRTIM requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -715,25 +715,25 @@
               "partNumber": "NUCLEO-G474RE",
               "category": "Development Board",
               "description": "Nucleo development board for STM32G474",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STGAP2SICS",
               "category": "Gate Driver",
               "description": "Isolated gate driver for power applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STW48N60M2",
               "category": "Power MOSFET",
               "description": "Power MOSFET for motor/inverter applications",
-              "link": "#"
+              "link": "/st/products/power-discretes/stw48n60m2"
             },
             {
               "partNumber": "8MHz Crystal",
               "category": "Passive Component",
               "description": "HSE crystal for clock generation",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -944,7 +944,7 @@
               "comparison": "STW48N60M2=><STW69N65M5: Output current 69A > 48A (+44%), suitable for direct replacement",
               "reason": "Higher current capability with newer MDmesh M5 technology",
               "useCase": "Higher power applications requiring improved efficiency",
-              "link": "#"
+              "link": "/st/products/power-discretes/stw69n65m5"
             },
             {
               "partNumber": "IPW60R045CP",
@@ -958,7 +958,7 @@
               "comparison": "STW48N60M2=><IPW60R045CP: Output current 76A > 48A (+58%), Package TO-247 = TO-247, suitable for direct replacement",
               "reason": "Higher current rating with similar Rds(on) and gate charge",
               "useCase": "Applications requiring higher current margin",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -966,25 +966,25 @@
               "partNumber": "STGAP2SICS",
               "category": "Gate Driver",
               "description": "Isolated gate driver for high-voltage MOSFETs and IGBTs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STW56N60DM2",
               "category": "Power MOSFET",
               "description": "Complementary MOSFET for half-bridge configurations",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STTH30R06W",
               "category": "Diode",
               "description": "Fast recovery diode for freewheeling applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "L6491",
               "category": "Gate Driver IC",
               "description": "High-voltage high/low side driver",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1102,7 +1102,7 @@
               "comparison": "SCTW90N65G2V=><SCTW100N65G2AG: Output current 100A > 90A (+11%), Package HiP247-4L (kelvin source), suitable for direct replacement",
               "reason": "Higher current with kelvin source connection for improved switching",
               "useCase": "High-current applications requiring fastest switching performance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "C3M0065090D",
@@ -1116,7 +1116,7 @@
               "comparison": "SCTW90N65G2V=><C3M0065090D: Output current 90A = 90A (same), suitable for direct replacement",
               "reason": "Comparable performance with slightly lower gate charge",
               "useCase": "Alternative source for supply chain flexibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1124,25 +1124,25 @@
               "partNumber": "STGAP2SICS",
               "category": "Gate Driver",
               "description": "Isolated gate driver optimized for SiC MOSFETs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STPSC10H065GY",
               "category": "SiC Diode",
               "description": "650V SiC Schottky diode for boost PFC applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "SCTW90N65G2V",
               "category": "SiC MOSFET",
               "description": "Matching device for half-bridge configurations",
-              "link": "#"
+              "link": "/st/products/power-discretes/sctw90n65g2v"
             },
             {
               "partNumber": "STW78N65M5",
               "category": "Silicon MOSFET",
               "description": "Silicon alternative for cost-sensitive designs",
-              "link": "#"
+              "link": "/st/products/power-discretes/stw78n65m5"
             }
           ],
           "faqs": [
@@ -1259,7 +1259,7 @@
               "comparison": "Lower voltage (600V) and current (48A) with slightly better Rds(on); suitable for lower power applications",
               "reason": "Lower cost option for applications not requiring 650V/69A",
               "useCase": "Lower power SMPS and inverter applications",
-              "link": "#"
+              "link": "/st/products/power-discretes/stw48n60m2"
             },
             {
               "partNumber": "IPW65R045C7",
@@ -1272,7 +1272,7 @@
               "comparison": "Similar voltage with lower Rds(on) (45mΩ); premium pricing",
               "reason": "Alternative with better conduction losses for high-efficiency designs",
               "useCase": "High-efficiency applications where Rds(on) is critical",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1280,13 +1280,13 @@
               "partNumber": "STGAP2SICS",
               "category": "Gate Driver",
               "description": "Isolated gate driver for high-voltage MOSFETs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STTH30R06W",
               "category": "Diode",
               "description": "Fast recovery diode for freewheeling",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1363,7 +1363,7 @@
               "comparison": "Lower current (69A) with slightly higher Rds(on); lower cost",
               "reason": "Lower cost alternative for applications not requiring 78A",
               "useCase": "Medium power applications with 3-5kW range",
-              "link": "#"
+              "link": "/st/products/power-discretes/stw69n65m5"
             },
             {
               "partNumber": "IKW40N65H5",
@@ -1376,7 +1376,7 @@
               "comparison": "IGBT with lower switching speed but lower conduction losses at very high currents",
               "reason": "Alternative technology for comparison in high-power designs",
               "useCase": "Applications where IGBT characteristics may be beneficial",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1384,13 +1384,13 @@
               "partNumber": "STGAP2SICS",
               "category": "Gate Driver",
               "description": "Isolated gate driver for high-current MOSFETs",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STTH40R04W",
               "category": "Diode",
               "description": "Fast recovery diode for high-current freewheeling",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1593,7 +1593,7 @@
               },
               "reason": "Lower power alternative for bandwidth-insensitive applications",
               "useCase": "Ultra-low-power applications with slow signals",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TSV914A",
@@ -1613,7 +1613,7 @@
               },
               "reason": "Lower cost alternative with reduced bandwidth for less demanding applications",
               "useCase": "Cost-sensitive applications with moderate bandwidth requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1621,25 +1621,25 @@
               "partNumber": "LD39100S33R",
               "category": "LDO Regulator",
               "description": "3.3V LDO for clean analog supply",
-              "link": "#"
+              "link": "/st/products/analog-ics/ld39100s33r"
             },
             {
               "partNumber": "TSV994A",
               "category": "Op-Amp",
               "description": "Additional quad op-amp for multi-channel designs",
-              "link": "#"
+              "link": "/st/products/analog-ics/tsv994a"
             },
             {
               "partNumber": "LPS22HB",
               "category": "Pressure Sensor",
               "description": "MEMS pressure sensor for signal conditioning applications",
-              "link": "#"
+              "link": "/st/products/sensors/lps22hb"
             },
             {
               "partNumber": "0.1uF Ceramic",
               "category": "Passive Component",
               "description": "Decoupling capacitors for supply pins",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1772,7 +1772,7 @@
               "comparison": "LD39100S33R=><LD39130S33R: Output current 300mA < 1A (-70%), suitable for direct replacement",
               "reason": "Lower current alternative with same noise performance for lighter loads",
               "useCase": "Lower current applications where smaller size is preferred",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS7A9101DSKR",
@@ -1787,7 +1787,7 @@
               "comparison": "LD39100S33R=><TPS7A9101DSKR: Output current 1A = 1A (same), suitable for direct replacement",
               "reason": "Slightly lower noise with adjustable output voltage",
               "useCase": "Applications requiring adjustable output or lowest possible noise",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1795,25 +1795,25 @@
               "partNumber": "TSV994A",
               "category": "Op-Amp",
               "description": "Low-noise op-amp for analog signal processing",
-              "link": "#"
+              "link": "/st/products/analog-ics/tsv994a"
             },
             {
               "partNumber": "STM32F407VGT6",
               "category": "Microcontroller",
               "description": "MCU powered by clean 3.3V LDO supply",
-              "link": "#"
+              "link": "/st/products/microcontrollers/stm32f407vgt6"
             },
             {
               "partNumber": "10uF Ceramic",
               "category": "Passive Component",
               "description": "Output capacitor for stability",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "100nF Ceramic",
               "category": "Passive Component",
               "description": "Input decoupling capacitor",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -1944,7 +1944,7 @@
               "comparison": "Higher speed (20MHz GBW) and slew rate; higher power consumption",
               "reason": "Higher performance for applications requiring speed",
               "useCase": "High-speed signal conditioning and active filters",
-              "link": "#"
+              "link": "/st/products/analog-ics/tsv994a"
             },
             {
               "partNumber": "LM324DT",
@@ -1956,7 +1956,7 @@
               "comparison": "Quad version with same specifications; more channels per package",
               "reason": "More channels for designs requiring multiple amplifiers",
               "useCase": "Multi-channel analog designs",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1964,13 +1964,13 @@
               "partNumber": "LD39100S33R",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for clean analog power supply",
-              "link": "#"
+              "link": "/st/products/analog-ics/ld39100s33r"
             },
             {
               "partNumber": "1% Resistors",
               "category": "Passive Component",
               "description": "Precision resistors for accurate gain setting",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2060,7 +2060,7 @@
               "comparison": "Standard 1% accuracy in SO-8 package; lower cost",
               "reason": "Lower cost for applications not requiring 0.5% accuracy",
               "useCase": "General-purpose voltage regulation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LM4041",
@@ -2072,7 +2072,7 @@
               "comparison": "Higher precision (0.1%) but lower current capability",
               "reason": "Alternative for precision applications requiring <0.5% accuracy",
               "useCase": "High-precision voltage reference applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2080,13 +2080,13 @@
               "partNumber": "1% Resistors",
               "category": "Passive Component",
               "description": "Precision resistors for voltage setting divider",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "PC817",
               "category": "Optocoupler",
               "description": "Optocoupler for isolated feedback circuits",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2295,7 +2295,7 @@
               },
               "reason": "Newer generation with 50% lower power consumption",
               "useCase": "Ultra-low-power applications requiring maximum battery life",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "BMI270",
@@ -2315,7 +2315,7 @@
               },
               "reason": "Comparable performance with slightly lower power",
               "useCase": "Alternative source for supply chain flexibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2323,25 +2323,25 @@
               "partNumber": "LPS22HB",
               "category": "Pressure Sensor",
               "description": "Barometric pressure sensor for altitude measurement",
-              "link": "#"
+              "link": "/st/products/sensors/lps22hb"
             },
             {
               "partNumber": "HTS221",
               "category": "Humidity Sensor",
               "description": "Capacitive humidity and temperature sensor",
-              "link": "#"
+              "link": "/st/products/sensors/hts221"
             },
             {
               "partNumber": "STM32L4",
               "category": "Microcontroller",
               "description": "Ultra-low-power MCU for sensor hub applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LD39100",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for sensor power supply",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2475,7 +2475,7 @@
               "comparison": "LPS22HB=><LPS27HHW: Output current 7uA < 12uA (-42%), suitable for direct replacement",
               "reason": "Higher accuracy with lower power consumption",
               "useCase": "Applications requiring highest precision or lowest power",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "BMP280",
@@ -2489,7 +2489,7 @@
               "comparison": "LPS22HB=><BMP280: Output current 2.7uA < 12uA (-77%), Package Similar size, suitable for direct replacement",
               "reason": "Lower power but significantly lower accuracy",
               "useCase": "Cost-sensitive applications with relaxed accuracy requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2497,25 +2497,25 @@
               "partNumber": "LSM6DS3",
               "category": "IMU",
               "description": "6-axis IMU for motion and altitude tracking",
-              "link": "#"
+              "link": "/st/products/sensors/lsm6ds3"
             },
             {
               "partNumber": "HTS221",
               "category": "Humidity Sensor",
               "description": "Humidity sensor for complete weather monitoring",
-              "link": "#"
+              "link": "/st/products/sensors/hts221"
             },
             {
               "partNumber": "STM32L4",
               "category": "Microcontroller",
               "description": "Ultra-low-power MCU for sensor applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "LD39100",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for sensor power",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2648,7 +2648,7 @@
               "comparison": "Higher accuracy (±2% RH) but larger package and higher cost",
               "reason": "Alternative with better accuracy for precision applications",
               "useCase": "Applications requiring <3% RH accuracy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "HDC1080",
@@ -2660,7 +2660,7 @@
               "comparison": "Similar accuracy in slightly different package",
               "reason": "Alternative source for supply flexibility",
               "useCase": "General environmental monitoring",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2668,13 +2668,13 @@
               "partNumber": "LPS22HB",
               "category": "Pressure Sensor",
               "description": "Pressure sensor for complete weather monitoring",
-              "link": "#"
+              "link": "/st/products/sensors/lps22hb"
             },
             {
               "partNumber": "STM32L476",
               "category": "MCU",
               "description": "Low-power MCU for sensor hub applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -2768,7 +2768,7 @@
               "comparison": "Combined accel and gyro with higher performance; higher cost and power",
               "reason": "Combined solution for applications needing both sensors",
               "useCase": "Applications requiring gyroscope in addition to accelerometer",
-              "link": "#"
+              "link": "/st/products/sensors/lsm6ds3"
             },
             {
               "partNumber": "BMA253",
@@ -2780,7 +2780,7 @@
               "comparison": "Similar performance in smaller package",
               "reason": "Alternative source for supply flexibility",
               "useCase": "General motion sensing applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -2788,13 +2788,13 @@
               "partNumber": "LSM6DS3",
               "category": "IMU",
               "description": "6-axis IMU for advanced motion tracking",
-              "link": "#"
+              "link": "/st/products/sensors/lsm6ds3"
             },
             {
               "partNumber": "STM32L072",
               "category": "MCU",
               "description": "Low-power MCU for wearable applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [

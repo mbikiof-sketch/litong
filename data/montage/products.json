@@ -209,7 +209,7 @@
               },
               "reason": "Rambus RCD01 offers good performance but lower maximum data rate",
               "useCase": "Applications not requiring 7200 Mbps operation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DDR5RCD02",
@@ -225,25 +225,25 @@
               },
               "reason": "IDT offers basic DDR5 support but limited to lower data rates",
               "useCase": "Cost-sensitive applications with modest performance requirements",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88DR5DB01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5db01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5db01",
               "description": "DDR5 Data Buffer for LRDIMM applications",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5SPD01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01",
               "description": "DDR5 SPD Hub for module configuration",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5PMIC01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5pmic01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5pmic01",
               "description": "DDR5 PMIC for power management",
               "category": "DDR5 Memory Interface"
             }
@@ -357,7 +357,7 @@
               },
               "reason": "Rambus DB01 offers good performance but lower maximum data rate",
               "useCase": "Applications not requiring 7200 Mbps operation",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DDR5DB02",
@@ -373,25 +373,25 @@
               },
               "reason": "IDT offers basic DDR5 DB support but limited to lower data rates",
               "useCase": "Cost-sensitive LRDIMM applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for command/address buffering",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5SPD01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01",
               "description": "DDR5 SPD Hub for module configuration",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5PMIC01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5pmic01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5pmic01",
               "description": "DDR5 PMIC for power management",
               "category": "DDR5 Memory Interface"
             }
@@ -492,13 +492,13 @@
           "companionParts": [
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for command/address buffering",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5DB01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5db01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5db01",
               "description": "DDR5 Data Buffer for LRDIMM",
               "category": "DDR5 Memory Interface"
             }
@@ -559,13 +559,13 @@
           "companionParts": [
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for command/address buffering",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5SPD01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5spd01",
               "description": "DDR5 SPD Hub for module configuration",
               "category": "DDR5 Memory Interface"
             }
@@ -728,7 +728,7 @@
               },
               "reason": "IDT offers comparable performance but Montage provides better power efficiency",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DDR4RCD01",
@@ -744,25 +744,25 @@
               },
               "reason": "Rambus offers competitive products but Montage has better ecosystem support",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88DDR4DB01",
-              "link": "/montage/products/ddr4-memory-interface/m88ddr4db01.html",
+              "link": "/montage/products/ddr4-memory-interface/m88ddr4db01",
               "description": "DDR4 Data Buffer for LRDIMM",
               "category": "DDR4 Memory Interface"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for next-generation designs",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5DB01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5db01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5db01",
               "description": "DDR5 DB for next-generation LRDIMM",
               "category": "DDR5 Memory Interface"
             }
@@ -875,7 +875,7 @@
               },
               "reason": "IDT offers comparable performance but Montage provides better power efficiency",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DDR4DB02",
@@ -891,25 +891,25 @@
               },
               "reason": "Rambus offers competitive products but Montage has better ecosystem support",
               "useCase": "Alternative source for supply diversification",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88DDR4RCD02",
-              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02.html",
+              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02",
               "description": "DDR4 RCD for command/address buffering",
               "category": "DDR4 Memory Interface"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for next-generation designs",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88DR5DB01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5db01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5db01",
               "description": "DDR5 DB for next-generation LRDIMM",
               "category": "DDR5 Memory Interface"
             }
@@ -1011,7 +1011,7 @@
           "companionParts": [
             {
               "partNumber": "M88DDR4RCD02",
-              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02.html",
+              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02",
               "description": "High-speed DDR4 RCD supporting up to 3200 Mbps",
               "category": "DDR4 Memory Interface"
             }
@@ -1072,7 +1072,7 @@
           "companionParts": [
             {
               "partNumber": "M88DDR4RCD02",
-              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02.html",
+              "link": "/montage/products/ddr4-memory-interface/m88ddr4rcd02",
               "description": "DDR4 RCD for command/address buffering",
               "category": "DDR4 Memory Interface"
             }
@@ -1235,7 +1235,7 @@
               },
               "reason": "TI offers good performance but only x8 configuration",
               "useCase": "Applications requiring x8 or lower lane counts",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX14913",
@@ -1251,25 +1251,25 @@
               },
               "reason": "Maxim offers Gen4 retimers but no Gen5 support",
               "useCase": "Gen4 applications not requiring Gen5 speeds",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88RT40816",
-              "link": "/montage/products/pcie-retimer/m88rt40816.html",
+              "link": "/montage/products/pcie-retimer/m88rt40816",
               "description": "PCIe Gen4 x8 retimer for cost-sensitive applications",
               "category": "PCIe Retimer"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for server memory integration",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "Jintide-C6P",
-              "link": "/montage/products/jintide-server/jintide-c6p.html",
+              "link": "/montage/products/jintide-server/jintide-c6p",
               "description": "Jintide CPU for secure server platforms",
               "category": "Jintide Server Platform"
             }
@@ -1383,7 +1383,7 @@
               },
               "reason": "TI offers x4 configuration for lower lane count applications",
               "useCase": "Applications requiring x4 or lower lane counts",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "MAX14912",
@@ -1399,25 +1399,25 @@
               },
               "reason": "Maxim offers competitive x4 Gen4 retimers",
               "useCase": "Lower lane count Gen4 applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88RT41632",
-              "link": "/montage/products/pcie-retimer/m88rt41632.html",
+              "link": "/montage/products/pcie-retimer/m88rt41632",
               "description": "PCIe Gen5 x16 retimer for high-performance applications",
               "category": "PCIe Retimer"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for server memory integration",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "Jintide-C6P",
-              "link": "/montage/products/jintide-server/jintide-c6p.html",
+              "link": "/montage/products/jintide-server/jintide-c6p",
               "description": "Jintide CPU for secure server platforms",
               "category": "Jintide Server Platform"
             }
@@ -1519,7 +1519,7 @@
           "companionParts": [
             {
               "partNumber": "M88RT40816",
-              "link": "/montage/products/pcie-retimer/m88rt40816.html",
+              "link": "/montage/products/pcie-retimer/m88rt40816",
               "description": "PCIe Gen4 x8 retimer for higher lane count applications",
               "category": "PCIe Retimer"
             }
@@ -1581,7 +1581,7 @@
           "companionParts": [
             {
               "partNumber": "M88RT41632",
-              "link": "/montage/products/pcie-retimer/m88rt41632.html",
+              "link": "/montage/products/pcie-retimer/m88rt41632",
               "description": "PCIe Gen5 x16 retimer for maximum lane count",
               "category": "PCIe Retimer"
             }
@@ -1745,7 +1745,7 @@
               },
               "reason": "Intel Xeon offers mature ecosystem but lacks chip-level security monitoring",
               "useCase": "Applications not requiring hardware-based security assurance",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "EPYC 9654",
@@ -1761,25 +1761,25 @@
               },
               "reason": "AMD offers more cores but lacks hardware security monitoring",
               "useCase": "High-core-count applications not requiring hardware security",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for server memory",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88RT41632",
-              "link": "/montage/products/pcie-retimer/m88rt41632.html",
+              "link": "/montage/products/pcie-retimer/m88rt41632",
               "description": "PCIe Gen5 retimer for I/O expansion",
               "category": "PCIe Retimer"
             },
             {
               "partNumber": "M88DR5DB01",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5db01.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5db01",
               "description": "DDR5 DB for high-capacity memory",
               "category": "DDR5 Memory Interface"
             }
@@ -1893,7 +1893,7 @@
               },
               "reason": "Intel Xeon D offers edge-optimized design but lacks hardware security and DDR5 support",
               "useCase": "Edge applications not requiring hardware security",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "EPYC 9124",
@@ -1909,25 +1909,25 @@
               },
               "reason": "AMD EPYC offers good performance but fewer cores and no hardware security",
               "useCase": "Edge applications requiring fewer cores",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Jintide-C6P",
-              "link": "/montage/products/jintide-server/jintide-c6p.html",
+              "link": "/montage/products/jintide-server/jintide-c6p",
               "description": "High-core-count Jintide CPU for data center",
               "category": "Jintide Server Platform"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for server memory",
               "category": "DDR5 Memory Interface"
             },
             {
               "partNumber": "M88RT40816",
-              "link": "/montage/products/pcie-retimer/m88rt40816.html",
+              "link": "/montage/products/pcie-retimer/m88rt40816",
               "description": "PCIe Gen4 retimer for I/O expansion",
               "category": "PCIe Retimer"
             }
@@ -2029,13 +2029,13 @@
           "companionParts": [
             {
               "partNumber": "Jintide-C6P",
-              "link": "/montage/products/jintide-server/jintide-c6p.html",
+              "link": "/montage/products/jintide-server/jintide-c6p",
               "description": "High-core-count 64-core Jintide CPU",
               "category": "Jintide Server Platform"
             },
             {
               "partNumber": "M88DR5RCD04",
-              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04.html",
+              "link": "/montage/products/ddr5-memory-interface/m88dr5rcd04",
               "description": "DDR5 RCD for server memory",
               "category": "DDR5 Memory Interface"
             }
@@ -2097,13 +2097,13 @@
           "companionParts": [
             {
               "partNumber": "Jintide-E24",
-              "link": "/montage/products/jintide-server/jintide-e24.html",
+              "link": "/montage/products/jintide-server/jintide-e24",
               "description": "24-core edge server CPU for higher performance edge applications",
               "category": "Jintide Server Platform"
             },
             {
               "partNumber": "M88RT40816",
-              "link": "/montage/products/pcie-retimer/m88rt40816.html",
+              "link": "/montage/products/pcie-retimer/m88rt40816",
               "description": "PCIe Gen4 retimer for I/O expansion",
               "category": "PCIe Retimer"
             }

@@ -217,19 +217,19 @@
               },
               "reason": "Higher memory and I/O capacity for more complex applications",
               "useCase": "Use for applications requiring more memory or I/O pins =>< Use ASM87F0812 for simpler applications",
-              "link": "/sinemicro/products/asm87f1612.html"
+              "link": "/sinemicro/products/automotive-mcus/asm87f1612"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SL7205",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7205",
               "description": "5V automotive LDO for MCU power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "SM3010N",
-              "link": "#",
+              "link": "",
               "description": "30V/10A N-channel MOSFET for load switching",
               "category": "Power Devices"
             }
@@ -302,19 +302,19 @@
               },
               "reason": "Cost-optimized version for applications with lower resource requirements",
               "useCase": "Use for simpler applications with lower memory and I/O requirements =>< Use ASM87F1612 for complex applications",
-              "link": "/sinemicro/products/asm87f0812.html"
+              "link": "/sinemicro/products/automotive-mcus/asm87f0812"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SL7205",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7205",
               "description": "5V automotive LDO for MCU power supply",
               "category": "Power Management"
             },
             {
               "partNumber": "SM4015N",
-              "link": "#",
+              "link": "/sinemicro/products/power-devices/sm4015n",
               "description": "40V/15A N-channel MOSFET for high-current switching",
               "category": "Power Devices"
             }
@@ -388,19 +388,19 @@
               },
               "reason": "Lower cost for simple motor applications",
               "useCase": "Use for simple DC motor control =>< Use ASM30F030 for advanced motor control",
-              "link": "#"
+              "link": "/sinemicro/products/automotive-mcus/asm87f1612"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SM4015N",
-              "link": "#",
+              "link": "/sinemicro/products/power-devices/sm4015n",
               "description": "MOSFET for motor drive",
               "category": "Power Devices"
             },
             {
               "partNumber": "SL7205",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7205",
               "description": "LDO for MCU power",
               "category": "Power Management"
             }
@@ -474,13 +474,13 @@
               },
               "reason": "Legacy 8051 for existing designs",
               "useCase": "Use for legacy design maintenance =>< Use ASM32F030 for new designs",
-              "link": "#"
+              "link": "/sinemicro/products/automotive-mcus/asm87f0812"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SL7333",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7333",
               "description": "3.3V LDO for MCU",
               "category": "Power Management"
             }
@@ -625,7 +625,7 @@
               },
               "reason": "Higher current capability for power-hungry applications",
               "useCase": "Use for applications requiring >300mA current =>< Use SL7205 for standard MCU applications",
-              "link": "/sinemicro/products/sl7210.html"
+              "link": "/sinemicro/products/power-management/sl7210"
             },
             {
               "partNumber": "SL7333",
@@ -641,19 +641,19 @@
               },
               "reason": "3.3V output version for low-voltage systems",
               "useCase": "Use for 3.3V MCU and sensor applications =>< Use SL7205 for 5V systems",
-              "link": "/sinemicro/products/sl7333.html"
+              "link": "/sinemicro/products/power-management/sl7333"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM87F0812",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm87f0812",
               "description": "5V automotive MCU powered by this LDO",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "SM3010N",
-              "link": "#",
+              "link": "",
               "description": "MOSFET for input protection circuit",
               "category": "Power Devices"
             }
@@ -733,19 +733,19 @@
               },
               "reason": "5V output version for legacy 5V systems",
               "useCase": "Use for 5V MCU and sensor applications =>< Use SL7333 for 3.3V systems",
-              "link": "/sinemicro/products/sl7205.html"
+              "link": "/sinemicro/products/power-management/sl7205"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM32F030",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm32f030",
               "description": "3.3V ARM MCU powered by this LDO",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "CAN Transceiver",
-              "link": "#",
+              "link": "",
               "description": "3.3V CAN transceiver for vehicle communication",
               "category": "Interface"
             }
@@ -814,19 +814,19 @@
               },
               "reason": "Lower current for smaller, cost-sensitive designs",
               "useCase": "Use for <300mA applications =>< Use SL7210 for high-current needs",
-              "link": "#"
+              "link": "/sinemicro/products/power-management/sl7205"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM87F1612",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm87f1612",
               "description": "High-memory MCU for complex applications",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "SM4015N",
-              "link": "#",
+              "link": "/sinemicro/products/power-devices/sm4015n",
               "description": "High-current MOSFET for load switching",
               "category": "Power Devices"
             }
@@ -895,19 +895,19 @@
               },
               "reason": "Lower voltage for 12V automotive systems",
               "useCase": "Use for 12V automotive =>< Use SL7333H for 24V/heavy vehicle",
-              "link": "#"
+              "link": "/sinemicro/products/power-management/sl7333"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM32F030",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm32f030",
               "description": "3.3V MCU for control applications",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "SM6020P",
-              "link": "#",
+              "link": "/sinemicro/products/power-devices/sm6020p",
               "description": "60V P-channel MOSFET for high-side switching",
               "category": "Power Devices"
             }
@@ -1035,19 +1035,19 @@
               },
               "reason": "Higher current capability for demanding applications",
               "useCase": "Use for applications requiring >10A current =>< Use SM4010N for standard loads",
-              "link": "#"
+              "link": "/sinemicro/products/power-devices/sm4015n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM87F0812",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm87f0812",
               "description": "MCU for controlling the MOSFET",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "SL7205",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7205",
               "description": "LDO for gate driver power",
               "category": "Power Management"
             }
@@ -1113,19 +1113,19 @@
               },
               "reason": "Lower current and smaller package for cost-sensitive designs",
               "useCase": "Use for <10A applications =>< Use SM4015N for high-current needs",
-              "link": "#"
+              "link": "/sinemicro/products/power-devices/sm4010n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "ASM30F030",
-              "link": "#",
+              "link": "/sinemicro/products/automotive-mcus/asm30f030",
               "description": "Motor control MCU",
               "category": "Automotive MCUs"
             },
             {
               "partNumber": "SL7210",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7210",
               "description": "High-current LDO",
               "category": "Power Management"
             }
@@ -1190,13 +1190,13 @@
               },
               "reason": "N-channel with driver for best performance",
               "useCase": "Use when lowest RDS(on) critical =>< Use SM6020P for simple high-side switch",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "SL7205",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7205",
               "description": "LDO for control circuit",
               "category": "Power Management"
             }
@@ -1262,13 +1262,13 @@
               },
               "reason": "Lower voltage but higher current and better resistance",
               "useCase": "Use for standard 12V when 100V not needed =>< Use SM1005N for high voltage",
-              "link": "#"
+              "link": "/sinemicro/products/power-devices/sm4010n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "SL7333",
-              "link": "#",
+              "link": "/sinemicro/products/power-management/sl7333",
               "description": "3.3V LDO for control circuit",
               "category": "Power Management"
             }
@@ -1393,13 +1393,13 @@
               },
               "reason": "Custom design for unique requirements",
               "useCase": "Use when unique requirements not met by reference =>< Use SIM-BCM-01 for standard applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "CAN Transceiver",
-              "link": "#",
+              "link": "",
               "description": "For vehicle communication",
               "category": "Interface"
             }
@@ -1463,13 +1463,13 @@
               },
               "reason": "Custom design for unique LED configurations",
               "useCase": "Use for non-standard LED arrangements =>< Use SIM-LED-01 for standard lighting",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "LEDs",
-              "link": "#",
+              "link": "",
               "description": "High-brightness automotive LEDs",
               "category": "Optoelectronics"
             }
@@ -1533,13 +1533,13 @@
               },
               "reason": "Higher integration for simple applications",
               "useCase": "Use for simple on/off control =>< Use SIM-MOT-01 for full-featured control",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "DC Motor",
-              "link": "#",
+              "link": "",
               "description": "Automotive-grade DC motor",
               "category": "Motors"
             }
@@ -1603,13 +1603,13 @@
               },
               "reason": "Optimized for specific sensor type",
               "useCase": "Use for high-volume single-sensor applications =>< Use SIM-SNS-01 for multi-sensor flexibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Sensors",
-              "link": "#",
+              "link": "",
               "description": "Various automotive sensors",
               "category": "Sensors"
             }

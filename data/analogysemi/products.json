@@ -225,7 +225,7 @@
               "comparison": "ANB8010=><ANB8015: Output current 5A = 5A (same), Package QFN-32 = QFN-32 (same), suitable for direct replacement",
               "reason": "Higher voltage rating and lower RDS(on) for improved efficiency",
               "useCase": "Applications requiring 48V operation or better thermal performance",
-              "link": "/analogysemi/products/motor-drivers/anb8015.html"
+              "link": ""
             },
             {
               "partNumber": "ANB8020",
@@ -238,31 +238,31 @@
               "comparison": "ANB8010=><ANB8020: Output current 10A > 5A (+100%), Package QFN-40 = QFN-32 (larger), suitable for direct replacement",
               "reason": "Higher current capability with significantly lower conduction losses",
               "useCase": "High-power applications up to 400W requiring better thermal performance",
-              "link": "/analogysemi/products/motor-drivers/anb8020.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck converter for generating 12V or 5V from higher input voltages",
               "category": "Power Management"
             },
             {
               "partNumber": "ANL7805",
-              "link": "/analogysemi/products/power-management/anl7805.html",
+              "link": "/analogysemi/products/power-management/anl7805",
               "description": "Low-dropout regulator for 5V logic supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA358",
-              "link": "/analogysemi/products/signal-conditioning/ana358.html",
+              "link": "/analogysemi/products/signal-conditioning/ana358",
               "description": "Operational amplifier for current sensing and signal conditioning",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MCU-STM32F103",
-              "link": "#",
+              "link": "",
               "description": "STM32 microcontroller for motor control algorithm implementation",
               "category": "Microcontroller"
             }
@@ -387,7 +387,7 @@
               "comparison": "ANS4208=><ANS4216: Output current 3.5A > 2.5A (+40%), Package TQFP-48 = TQFP-48 (same), suitable for direct replacement",
               "reason": "Higher current and finer microstepping for demanding applications",
               "useCase": "High-torque applications requiring ultra-smooth motion control",
-              "link": "/analogysemi/products/motor-drivers/ans4216.html"
+              "link": ""
             },
             {
               "partNumber": "ANS4104",
@@ -400,25 +400,25 @@
               "comparison": "ANS4208=><ANS4104: Output current 1.5A < 2.5A (-40%), Package QFN-32 < TQFP-48 (smaller), suitable for direct replacement",
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Cost-sensitive applications with moderate torque requirements",
-              "link": "/analogysemi/products/motor-drivers/ans4104.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck converter for motor supply voltage generation",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA339",
-              "link": "/analogysemi/products/signal-conditioning/ana339.html",
+              "link": "",
               "description": "Comparator for limit switch and home position detection",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MCU-STM32F103",
-              "link": "#",
+              "link": "",
               "description": "STM32 for motion control and trajectory planning",
               "category": "Microcontroller"
             }
@@ -543,7 +543,7 @@
               "comparison": "ANB4100=><ANB4200: Output current 2A > 1.2A (+67%), Package SOT23-6 = SOT23-6 (same), suitable for direct replacement",
               "reason": "Higher current capability with better efficiency for demanding applications",
               "useCase": "Applications requiring up to 2A motor current",
-              "link": "/analogysemi/products/motor-drivers/anb4200.html"
+              "link": ""
             },
             {
               "partNumber": "DRV8837",
@@ -556,25 +556,25 @@
               "comparison": "ANB4100=><DRV8837: Output current 1A < 1.2A (-17%), suitable for direct replacement",
               "reason": "Wider voltage range but lower current capability",
               "useCase": "Applications requiring very low voltage operation",
-              "link": "/ti/products/drv8837.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck-boost converter for voltage regulation",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA358",
-              "link": "/analogysemi/products/signal-conditioning/ana358.html",
+              "link": "/analogysemi/products/signal-conditioning/ana358",
               "description": "Op-amp for current sensing and feedback",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "MCU-STM32L0",
-              "link": "#",
+              "link": "",
               "description": "Ultra-low-power MCU for battery applications",
               "category": "Microcontroller"
             }
@@ -803,7 +803,7 @@
               "comparison": "ANG6202=><ANG6204: Output current 6A/8A > 4A/6A (+50%/+33%), Package SOIC-16 = SOIC-16 (same), suitable for direct replacement",
               "reason": "Higher CMTI and drive current for GaN and fastest SiC devices",
               "useCase": "High-frequency GaN converters and ultra-fast SiC applications",
-              "link": "/analogysemi/products/gate-drivers/ang6204.html"
+              "link": ""
             },
             {
               "partNumber": "ANG6101",
@@ -816,25 +816,25 @@
               "comparison": "ANG6202=><ANG6101: Output current 2A/3A < 4A/6A (-50%/-50%), Package SOIC-8 < SOIC-16 (smaller), suitable for direct replacement",
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Cost-sensitive IGBT drives and low-frequency converters",
-              "link": "/analogysemi/products/gate-drivers/ang6101.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck converter for generating isolated 15V gate drive supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ANL7912",
-              "link": "/analogysemi/products/power-management/anl7912.html",
+              "link": "",
               "description": "Negative LDO for SiC MOSFET negative gate drive",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA311",
-              "link": "/analogysemi/products/signal-conditioning/ana311.html",
+              "link": "/analogysemi/products/signal-conditioning/ana311",
               "description": "Current sense amplifier for desaturation detection",
               "category": "Signal Conditioning"
             }
@@ -961,7 +961,7 @@
               "comparison": "ANG5100=><ANG5200: Output current 4A > 2A (+100%), Package SOIC-14 > SOIC-8 (larger), suitable for direct replacement",
               "reason": "Higher drive current and CMTI for larger MOSFETs and faster switching",
               "useCase": "High-power motor drives and fast-switching applications",
-              "link": "/analogysemi/products/gate-drivers/ang5200.html"
+              "link": ""
             },
             {
               "partNumber": "ANG4100",
@@ -974,25 +974,25 @@
               "comparison": "ANG5100=><ANG4100: Output current 1.5A < 2A (-25%), Package SOT23-6 < SOIC-8 (smaller), suitable for direct replacement",
               "reason": "Lower cost and smaller package for low-voltage applications",
               "useCase": "Low-voltage motor drives and DC-DC converters under 100V",
-              "link": "/analogysemi/products/gate-drivers/ang4100.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANB8010",
-              "link": "/analogysemi/products/motor-drivers/anb8010.html",
+              "link": "/analogysemi/products/motor-drivers/anb8010",
               "description": "BLDC motor controller for complete motor drive solution",
               "category": "Motor Drivers"
             },
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck converter for 12V gate drive supply generation",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA358",
-              "link": "/analogysemi/products/signal-conditioning/ana358.html",
+              "link": "/analogysemi/products/signal-conditioning/ana358",
               "description": "Current sense amplifier for motor current monitoring",
               "category": "Signal Conditioning"
             }
@@ -1501,7 +1501,7 @@
               "comparison": "ANP34063=><ANP33063: Output current 3A > 1.5A (+100%), Frequency 100kHz = 100kHz (same), Package SOIC-8 = SOIC-8 (same), suitable for direct replacement",
               "reason": "Higher current capability for power-hungry applications",
               "useCase": "Applications requiring up to 3A output current",
-              "link": "/analogysemi/products/power-management/anp33063.html"
+              "link": ""
             },
             {
               "partNumber": "ANP34163",
@@ -1514,25 +1514,25 @@
               "comparison": "ANP34063=><ANP34163: Output current 1.5A = 1.5A (same), Frequency 1MHz > 100kHz (+900%), Package QFN-16 < SOIC-8 (smaller), suitable for direct replacement",
               "reason": "Higher switching frequency allows smaller inductors and capacitors",
               "useCase": "Space-constrained applications requiring small solution size",
-              "link": "/analogysemi/products/power-management/anp34163.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANL7805",
-              "link": "/analogysemi/products/power-management/anl7805.html",
+              "link": "/analogysemi/products/power-management/anl7805",
               "description": "5V LDO for post-regulation of noisy outputs",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA431",
-              "link": "/analogysemi/products/signal-conditioning/ana431.html",
+              "link": "",
               "description": "Precision voltage reference for feedback divider",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "ANSUP001",
-              "link": "#",
+              "link": "",
               "description": "Power supervisor for system reset and monitoring",
               "category": "Power Management"
             }
@@ -1660,7 +1660,7 @@
               "comparison": "ANL7805=><ANL7833: Output current 1A = 1A (same), suitable for direct replacement",
               "reason": "3.3V output version for modern digital circuits",
               "useCase": "3.3V microcontroller and digital logic power supplies",
-              "link": "/analogysemi/products/power-management/anl7833.html"
+              "link": ""
             },
             {
               "partNumber": "ANL7812",
@@ -1673,25 +1673,25 @@
               "comparison": "ANL7805=><ANL7812: Output current 1A = 1A (same), suitable for direct replacement",
               "reason": "12V output version for analog op-amp supplies",
               "useCase": "Operational amplifier and analog circuit power supplies",
-              "link": "/analogysemi/products/power-management/anl7812.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANP34063",
-              "link": "/analogysemi/products/power-management/anp34063.html",
+              "link": "/analogysemi/products/power-management/anp34063",
               "description": "Buck converter for efficient 12V to 6V step-down before LDO",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA358",
-              "link": "/analogysemi/products/signal-conditioning/ana358.html",
+              "link": "/analogysemi/products/signal-conditioning/ana358",
               "description": "Op-amp powered by clean 5V LDO output",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "ANB8010",
-              "link": "/analogysemi/products/motor-drivers/anb8010.html",
+              "link": "/analogysemi/products/motor-drivers/anb8010",
               "description": "Motor driver logic supply from clean 5V",
               "category": "Motor Drivers"
             }
@@ -1919,7 +1919,7 @@
               "comparison": "ANA358=><ANA211: Output current 650μA > 500μA (+30%), suitable for direct replacement",
               "reason": "Much better offset voltage for precision applications",
               "useCase": "Precision sensor interfaces and measurement circuits",
-              "link": "/analogysemi/products/signal-conditioning/ana211.html"
+              "link": ""
             },
             {
               "partNumber": "ANA820",
@@ -1932,25 +1932,25 @@
               "comparison": "ANA358=><ANA820: Output current 2.5mA > 500μA (+400%), suitable for direct replacement",
               "reason": "Much higher bandwidth for fast signal processing",
               "useCase": "High-speed data acquisition and video applications",
-              "link": "/analogysemi/products/signal-conditioning/ana820.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANL7805",
-              "link": "/analogysemi/products/power-management/anl7805.html",
+              "link": "/analogysemi/products/power-management/anl7805",
               "description": "5V regulator for op-amp analog supply",
               "category": "Power Management"
             },
             {
               "partNumber": "ANC339",
-              "link": "/analogysemi/products/signal-conditioning/anc339.html",
+              "link": "",
               "description": "Comparator for threshold detection",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "ANA311",
-              "link": "/analogysemi/products/signal-conditioning/ana311.html",
+              "link": "/analogysemi/products/signal-conditioning/ana311",
               "description": "Current sense amplifier for high-side current monitoring",
               "category": "Signal Conditioning"
             }
@@ -2081,7 +2081,7 @@
               },
               "reason": "Supports both low-side and high-side sensing with ground-referenced input",
               "useCase": "Applications requiring both low-side and high-side current measurement",
-              "link": "/analogysemi/products/signal-conditioning/ana312.html"
+              "link": ""
             },
             {
               "partNumber": "ANA313",
@@ -2094,25 +2094,25 @@
               "comparison": "ANA311=><ANA313: Output current 200μA > 150μA (+33%), suitable for direct replacement",
               "reason": "Higher voltage range and better precision for industrial applications",
               "useCase": "48V industrial systems and high-voltage battery monitoring",
-              "link": "/analogysemi/products/signal-conditioning/ana313.html"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "ANL7805",
-              "link": "/analogysemi/products/power-management/anl7805.html",
+              "link": "/analogysemi/products/power-management/anl7805",
               "description": "5V regulator for powering ANA311 and ADC reference",
               "category": "Power Management"
             },
             {
               "partNumber": "ANA358",
-              "link": "/analogysemi/products/signal-conditioning/ana358.html",
+              "link": "/analogysemi/products/signal-conditioning/ana358",
               "description": "Op-amp for additional signal conditioning after current sense",
               "category": "Signal Conditioning"
             },
             {
               "partNumber": "ANC339",
-              "link": "/analogysemi/products/signal-conditioning/anc339.html",
+              "link": "",
               "description": "Comparator for overcurrent threshold detection",
               "category": "Signal Conditioning"
             }

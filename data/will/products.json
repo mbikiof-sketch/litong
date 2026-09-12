@@ -210,7 +210,7 @@
               },
               "reason": "Similar specifications from alternative supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "OV48C",
@@ -227,7 +227,7 @@
               },
               "reason": "Larger pixels and sensor size for better low-light performance",
               "useCase": "Applications prioritizing low-light over maximum resolution",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -235,25 +235,25 @@
               "partNumber": "WL2831D",
               "category": "LDO Regulator",
               "description": "Low-noise LDO for sensor analog power supply",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2831d"
             },
             {
               "partNumber": "OV50A40-EVK",
               "category": "Evaluation Kit",
               "description": "Evaluation kit with reference lens and software",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DW9714",
               "category": "VCM Driver",
               "description": "Voice coil motor driver for autofocus",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "OV50A40-LENS",
               "category": "Lens Module",
               "description": "Reference lens module for OV50A40",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -366,7 +366,7 @@
               },
               "reason": "Lower resolution for cost-sensitive applications",
               "useCase": "Rear view and basic surround view cameras",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "OX05B1S",
@@ -383,7 +383,7 @@
               },
               "reason": "Higher resolution for advanced ADAS applications",
               "useCase": "High-resolution ADAS and surround view systems",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -391,25 +391,25 @@
               "partNumber": "MAX96712",
               "category": "Deserializer",
               "description": "GMSL2 deserializer for long cable automotive applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "OX03F10-EVK",
               "category": "Evaluation Kit",
               "description": "Automotive evaluation kit with reference design",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TJA1101",
               "category": "Ethernet PHY",
               "description": "Automotive Ethernet PHY for camera connectivity",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TPS650330",
               "category": "PMIC",
               "description": "Automotive PMIC for camera module power",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -620,7 +620,7 @@
               "comparison": "WL2831D=><TPS7A05: Output current 200mA < 300mA (lower), suitable for direct replacement",
               "reason": "Similar performance from alternative supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "WL2830D",
@@ -633,7 +633,7 @@
               "comparison": "WL2831D=><WL2830D: Output current 150mA < 300mA (lower), suitable for direct replacement",
               "reason": "Lower current for cost-sensitive applications",
               "useCase": "Lower power applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -641,25 +641,25 @@
               "partNumber": "WL2801",
               "category": "DC-DC Buck",
               "description": "Step-down converter for efficient pre-regulation",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2801"
             },
             {
               "partNumber": "OV50A40",
               "category": "Image Sensor",
               "description": "CMOS sensor for camera applications",
-              "link": "#"
+              "link": "/will/products/cmos-image-sensors/ov50a40"
             },
             {
               "partNumber": "WL2841",
               "category": "Load Switch",
               "description": "Power distribution switch with soft-start",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "WL2831D-EVK",
               "category": "Evaluation Kit",
               "description": "Evaluation board with test points",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -773,7 +773,7 @@
               "comparison": "WL2801=><TPS62203: Output current 2A = 2A (same), Frequency 3MHz = 3MHz (same), Efficiency 95% = 95% (same), suitable for direct replacement",
               "reason": "Similar performance from alternative supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "WL2802",
@@ -786,7 +786,7 @@
               "comparison": "WL2801=><WL2802: Output current 3A > 2A (higher), Frequency 3MHz = 3MHz (same), Efficiency 95% = 95% (same), suitable for direct replacement",
               "reason": "Higher current capability for demanding applications",
               "useCase": "Higher power applications requiring 3A output",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -794,25 +794,25 @@
               "partNumber": "WL2831D",
               "category": "LDO Regulator",
               "description": "Post-regulation for noise-sensitive rails",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2831d"
             },
             {
               "partNumber": "LQM2MPN1R0NG0",
               "category": "Inductor",
               "description": "1.0uH inductor for WL2801",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "GRM188R60J106ME47",
               "category": "Capacitor",
               "description": "10uF ceramic capacitor for output",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "WL2801-EVK",
               "category": "Evaluation Kit",
               "description": "Evaluation board with efficiency measurements",
-              "link": "#"
+              "link": ""
             }
           ],
           "faqs": [
@@ -991,7 +991,7 @@
               },
               "reason": "Similar performance from alternative supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -999,13 +999,13 @@
               "partNumber": "WS3210",
               "category": "Op-Amp",
               "description": "Precision op-amp for signal conditioning",
-              "link": "#"
+              "link": "/will/products/signal-chain-products/ws3210"
             },
             {
               "partNumber": "WL2831D",
               "category": "LDO Regulator",
               "description": "Low-noise power supply for analog circuits",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2831d"
             }
           ],
           "faqs": [
@@ -1079,7 +1079,7 @@
               },
               "reason": "Lower cost general-purpose alternative",
               "useCase": "Applications not requiring high precision",
-              "link": "#"
+              "link": "/microchip/products/analog-products/mcp6001"
             }
           ],
           "companionParts": [
@@ -1087,13 +1087,13 @@
               "partNumber": "WS4664",
               "category": "Analog Switch",
               "description": "Signal routing for multi-channel systems",
-              "link": "#"
+              "link": "/will/products/signal-chain-products/ws4664"
             },
             {
               "partNumber": "WL2831D",
               "category": "LDO Regulator",
               "description": "Clean power supply for analog circuits",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2831d"
             }
           ],
           "faqs": [
@@ -1237,7 +1237,7 @@
               },
               "reason": "Similar performance from alternative supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1245,13 +1245,13 @@
               "partNumber": "nRF52840",
               "category": "BLE SoC",
               "description": "Nordic BLE SoC for wireless applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "WL2801",
               "category": "DC-DC Converter",
               "description": "Efficient power supply for RF circuits",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2801"
             }
           ],
           "faqs": [
@@ -1328,7 +1328,7 @@
               },
               "reason": "Similar capability from established BLE supplier",
               "useCase": "Alternative for multi-source strategy",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
@@ -1336,13 +1336,13 @@
               "partNumber": "WS2400",
               "category": "RF Front-End",
               "description": "External PA for extended range applications",
-              "link": "#"
+              "link": "/will/products/rf-connectivity/ws2400"
             },
             {
               "partNumber": "WL2801",
               "category": "DC-DC Converter",
               "description": "Efficient power supply for SoC",
-              "link": "#"
+              "link": "/will/products/power-management-ics/wl2801"
             }
           ],
           "faqs": [

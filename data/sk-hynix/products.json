@@ -274,12 +274,14 @@
             {
               "partNumber": "HMAA4GS7AJR8N-XN",
               "relationship": "Matching Pair",
-              "description": "Second module for dual-channel configuration"
+              "description": "Second module for dual-channel configuration",
+              "link": "/sk-hynix/products/dram/hmaa4gs7ajr8n-xn"
             },
             {
               "partNumber": "HMAA8G8MAJR8N-XN",
               "relationship": "Higher Capacity",
-              "description": "64GB version for maximum memory density"
+              "description": "64GB version for maximum memory density",
+              "link": "/sk-hynix/products/dram/hmaa8g8majr8n-xn"
             },
             {
               "partNumber": "HMAAG6G6J1M8N-XN",
@@ -426,17 +428,20 @@
             {
               "partNumber": "HMCG88MEBRA115N",
               "relationship": "Matching Pair",
-              "description": "Second module for dual-channel configuration"
+              "description": "Second module for dual-channel configuration",
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n"
             },
             {
               "partNumber": "HMCG88MEBRA115N",
               "relationship": "Lower Capacity",
-              "description": "32GB version for balanced configurations"
+              "description": "32GB version for balanced configurations",
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n"
             },
             {
               "partNumber": "HMCG88MEBRA115N",
               "relationship": "Higher Speed",
-              "description": "5600MT/s version for maximum performance"
+              "description": "5600MT/s version for maximum performance",
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n"
             }
           ],
           "faqs": [
@@ -552,13 +557,13 @@
                 "Cost": "Lower cost per DIMM"
               },
               "useCase": "Applications requiring lower capacity at reduced cost",
-              "link": "/sk-hynix/products/hmaa4gs7ajr8n-xn.html"
+              "link": "/sk-hynix/products/dram/hmaa4gs7ajr8n-xn"
             }
           ],
           "companionParts": [
             {
               "partNumber": "HMCG88MEBRA115N",
-              "link": "/sk-hynix/products/hmcg88mebra115n.html",
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n",
               "description": "DDR5 RDIMM for next-generation servers",
               "category": "DRAM"
             }
@@ -648,13 +653,13 @@
                 "Cost": "Higher cost per DIMM"
               },
               "useCase": "Applications requiring maximum memory capacity",
-              "link": "/sk-hynix/products/hmcg88mebra115n.html"
+              "link": "/sk-hynix/products/dram/hmcg88mebra115n"
             }
           ],
           "companionParts": [
             {
               "partNumber": "PE8010",
-              "link": "/sk-hynix/products/pe8010.html",
+              "link": "/sk-hynix/products/ssd/pe8010",
               "description": "Enterprise NVMe SSD for high-performance storage",
               "category": "SSD"
             }
@@ -896,12 +901,14 @@
             {
               "partNumber": "H27QCG8D2M5R",
               "relationship": "Higher Density",
-              "description": "1Tb version for higher capacity SSDs"
+              "description": "1Tb version for higher capacity SSDs",
+              "link": "/sk-hynix/products/nand-flash/h27qcg8d2m5r"
             },
             {
               "partNumber": "H27QCG8D2M5R",
               "relationship": "QLC Version",
-              "description": "QLC version for cost-optimized storage"
+              "description": "QLC version for cost-optimized storage",
+              "link": "/sk-hynix/products/nand-flash/h27qcg8d2m5r"
             }
           ],
           "faqs": [
@@ -1049,12 +1056,14 @@
             {
               "partNumber": "H27TDG8T2D5R",
               "relationship": "Lower Density",
-              "description": "512Gb version for balanced cost/performance"
+              "description": "512Gb version for balanced cost/performance",
+              "link": "/sk-hynix/products/nand-flash/h27tdg8t2d5r"
             },
             {
               "partNumber": "H27TDG8T2D5R",
               "relationship": "QLC Version",
-              "description": "QLC version for maximum capacity storage"
+              "description": "QLC version for maximum capacity storage",
+              "link": "/sk-hynix/products/nand-flash/h27tdg8t2d5r"
             }
           ],
           "faqs": [
@@ -1172,7 +1181,7 @@
                 "Cost": "Higher cost per die"
               },
               "useCase": "Applications requiring higher density",
-              "link": "/sk-hynix/products/h27qcg8d2m5r.html"
+              "link": "/sk-hynix/products/nand-flash/h27qcg8d2m5r"
             }
           ],
           "companionParts": [
@@ -1256,7 +1265,7 @@
                 "Cost": "Higher cost per die"
               },
               "useCase": "Applications requiring higher density and performance",
-              "link": "/sk-hynix/products/h27qdg8m2m5r.html"
+              "link": "/sk-hynix/products/nand-flash/h27qdg8m2m5r"
             }
           ],
           "companionParts": [
@@ -1487,12 +1496,14 @@
             {
               "partNumber": "PE8030",
               "relationship": "Higher Capacity",
-              "description": "7.68TB version for maximum storage"
+              "description": "7.68TB version for maximum storage",
+              "link": "/sk-hynix/products/ssd/pe8030"
             },
             {
               "partNumber": "PE8010",
               "relationship": "Lower Capacity",
-              "description": "960GB version for boot/application storage"
+              "description": "960GB version for boot/application storage",
+              "link": "/sk-hynix/products/ssd/pe8010"
             }
           ],
           "faqs": [
@@ -1636,12 +1647,14 @@
             {
               "partNumber": "PE8010",
               "relationship": "Lower Capacity",
-              "description": "3.84TB version for balanced storage"
+              "description": "3.84TB version for balanced storage",
+              "link": "/sk-hynix/products/ssd/pe8010"
             },
             {
               "partNumber": "PE8030",
               "relationship": "Higher Endurance",
-              "description": "3 DWPD version for write-intensive workloads"
+              "description": "3 DWPD version for write-intensive workloads",
+              "link": "/sk-hynix/products/ssd/pe8030"
             },
             {
               "partNumber": "Ruler Adapter",
@@ -1766,14 +1779,15 @@
                 "Cost": "Higher cost per TB"
               },
               "useCase": "Applications requiring higher capacity and performance",
-              "link": "/sk-hynix/products/pe8010.html"
+              "link": "/sk-hynix/products/ssd/pe8010"
             }
           ],
           "companionParts": [
             {
               "partNumber": "H27QCG8D2M5R",
               "relationship": "NAND Flash",
-              "description": "512Gb 3D TLC NAND for SSD manufacturing"
+              "description": "512Gb 3D TLC NAND for SSD manufacturing",
+              "link": "/sk-hynix/products/nand-flash/h27qcg8d2m5r"
             }
           ],
           "faqs": [
@@ -1847,14 +1861,15 @@
                 "Cost": "Higher cost per GB"
               },
               "useCase": "Applications requiring high performance",
-              "link": "/sk-hynix/products/pe6010.html"
+              "link": "/sk-hynix/products/ssd/pe6010"
             }
           ],
           "companionParts": [
             {
               "partNumber": "H27QDG8M2M5R",
               "relationship": "NAND Flash",
-              "description": "256Gb 3D TLC NAND for cost-effective SSDs"
+              "description": "256Gb 3D TLC NAND for cost-effective SSDs",
+              "link": "/sk-hynix/products/nand-flash/h27qdg8m2m5r"
             }
           ],
           "faqs": [
@@ -2046,7 +2061,8 @@
                 "Supply": "Limited < Better (SK Hynix advantage)"
               },
               "reason": "Better supply availability for production",
-              "useCase": "AI accelerator mass production"
+              "useCase": "AI accelerator mass production",
+              "link": "/sk-hynix/products/hbm/hbm2e-16gb"
             },
             {
               "partNumber": "HBM2E-8GB",
@@ -2063,7 +2079,8 @@
                 "Cost": "Lower < Higher (8GB advantage)"
               },
               "reason": "Lower cost for capacity-limited designs",
-              "useCase": "Edge AI accelerators with lower memory needs"
+              "useCase": "Edge AI accelerators with lower memory needs",
+              "link": "/sk-hynix/products/hbm/hbm2e-8gb"
             }
           ],
           "companionParts": [
@@ -2075,7 +2092,8 @@
             {
               "partNumber": "HBM3-24GB",
               "relationship": "Next-Gen Upgrade",
-              "description": "HBM3 version for higher performance designs"
+              "description": "HBM3 version for higher performance designs",
+              "link": "/sk-hynix/products/hbm/hbm3-24gb"
             },
             {
               "partNumber": "Interposer",
@@ -2199,7 +2217,8 @@
                 "Technology": "Similar ~ Similar"
               },
               "reason": "Alternative HBM3 source",
-              "useCase": "Dual-source qualification"
+              "useCase": "Dual-source qualification",
+              "link": "/sk-hynix/products/hbm/hbm3-24gb"
             },
             {
               "partNumber": "HBM2E-16GB",
@@ -2216,7 +2235,8 @@
                 "Maturity": "Proven > New (HBM2E advantage)"
               },
               "reason": "Proven technology for current-generation designs",
-              "useCase": "Current AI accelerator designs"
+              "useCase": "Current AI accelerator designs",
+              "link": "/sk-hynix/products/hbm/hbm2e-16gb"
             }
           ],
           "companionParts": [
@@ -2233,7 +2253,8 @@
             {
               "partNumber": "HBM3-16GB",
               "relationship": "Lower Capacity",
-              "description": "16GB HBM3 version for cost-sensitive designs"
+              "description": "16GB HBM3 version for cost-sensitive designs",
+              "link": "/sk-hynix/products/hbm/hbm3-16gb"
             }
           ],
           "faqs": [
@@ -2350,7 +2371,7 @@
                 "Cost": "Higher cost"
               },
               "useCase": "Applications requiring maximum HBM2E capacity and bandwidth",
-              "link": "/sk-hynix/products/hbm2e-16gb.html"
+              "link": "/sk-hynix/products/hbm/hbm2e-16gb"
             }
           ],
           "companionParts": [
@@ -2428,7 +2449,7 @@
                 "Cost": "Higher cost"
               },
               "useCase": "Applications requiring maximum HBM3 capacity",
-              "link": "/sk-hynix/products/hbm3-24gb.html"
+              "link": "/sk-hynix/products/hbm/hbm3-24gb"
             }
           ],
           "companionParts": [

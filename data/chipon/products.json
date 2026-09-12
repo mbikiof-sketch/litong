@@ -211,7 +211,7 @@
               "comparison": "KF8A100=><KF8A200: Package LQFP-48 = LQFP-48 (same), suitable for direct replacement",
               "reason": "Higher memory capacity for complex applications",
               "useCase": "Complex body control modules requiring more memory",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "NXP S9KEA",
@@ -231,25 +231,25 @@
               },
               "reason": "Alternative with 32-bit architecture for future migration",
               "useCase": "Applications requiring 32-bit processing capability",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "KF501A",
-              "link": "#",
+              "link": "",
               "description": "CAN transceiver for vehicle network interface",
               "category": "Interface"
             },
             {
               "partNumber": "KF502A",
-              "link": "#",
+              "link": "",
               "description": "LIN transceiver for low-cost networking",
               "category": "Interface"
             },
             {
               "partNumber": "Evaluation Board",
-              "link": "#",
+              "link": "",
               "description": "KF8A100 evaluation board with debugging interface",
               "category": "Development Tools"
             }
@@ -361,7 +361,7 @@
               "comparison": "KF32A150=><KF32A250: Package LQFP-100 = LQFP-100 (same), suitable for direct replacement",
               "reason": "Higher memory capacity for complex powertrain algorithms",
               "useCase": "Complex engine control and battery management systems",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Infineon TC233",
@@ -381,25 +381,25 @@
               },
               "reason": "Alternative with proven automotive track record",
               "useCase": "Applications requiring TriCore architecture compatibility",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "KF503A",
-              "link": "#",
+              "link": "",
               "description": "CAN FD transceiver for high-speed vehicle networking",
               "category": "Interface"
             },
             {
               "partNumber": "KF504A",
-              "link": "#",
+              "link": "",
               "description": "High-side driver for actuator control",
               "category": "Power Driver"
             },
             {
               "partNumber": "Development Kit",
-              "link": "#",
+              "link": "",
               "description": "KF32A150 development kit with debugger and software",
               "category": "Development Tools"
             }
@@ -514,7 +514,7 @@
               "comparison": "KF8A150 has more RAM (8KB vs 4KB) and enhanced peripherals compared to KF8A100",
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Applications with lower RAM requirements",
-              "link": "#"
+              "link": "/chipon/products/automotive-mcus/kf8a100"
             },
             {
               "partNumber": "KF32A100",
@@ -528,25 +528,25 @@
               "comparison": "KF32A100 is 32-bit with more processing power and memory",
               "reason": "32-bit architecture for complex algorithms",
               "useCase": "Applications requiring 32-bit processing or more memory",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "KF501A",
-              "link": "#",
+              "link": "",
               "description": "CAN transceiver for vehicle network interface",
               "category": "Interface"
             },
             {
               "partNumber": "KF502A",
-              "link": "#",
+              "link": "",
               "description": "LIN transceiver for low-cost networking",
               "category": "Interface"
             },
             {
               "partNumber": "KF8A150-EVK",
-              "link": "#",
+              "link": "",
               "description": "KF8A150 evaluation kit with debugging interface",
               "category": "Development Tools"
             }
@@ -661,7 +661,7 @@
               "comparison": "KF32A200 has 2x Flash (512KB vs 256KB) and 2x RAM (64KB vs 32KB)",
               "reason": "Lower cost option for less demanding applications",
               "useCase": "Applications with lower memory requirements",
-              "link": "#"
+              "link": "/chipon/products/automotive-mcus/kf32a150"
             },
             {
               "partNumber": "NXP S32K3",
@@ -675,25 +675,25 @@
               "comparison": "S32K3 has Cortex-M7 vs Cortex-M4, similar memory",
               "reason": "Higher performance core for compute-intensive applications",
               "useCase": "Applications requiring maximum processing performance",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "KF503A",
-              "link": "#",
+              "link": "",
               "description": "CAN FD transceiver for high-speed networking",
               "category": "Interface"
             },
             {
               "partNumber": "KF505A",
-              "link": "#",
+              "link": "",
               "description": "Ethernet PHY for diagnostic interface",
               "category": "Interface"
             },
             {
               "partNumber": "KF32A200-DK",
-              "link": "#",
+              "link": "",
               "description": "Development kit with debugger and software",
               "category": "Development Tools"
             }
@@ -910,7 +910,7 @@
               "comparison": "KF5012=><KF5015: Input voltage 4.5V-40V = 4.5V-40V (same), Output current 1A > 500mA (+100% higher current), Package SOT-223 = SOT-223 (same), suitable for direct replacement",
               "reason": "Higher current capability for applications requiring up to 1A",
               "useCase": "Higher current ECU power supplies",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "TI LM2936",
@@ -924,25 +924,25 @@
               "comparison": "KF5012=><TI LM2936: Input voltage 5.5V-40V < 4.5V-40V (narrower range), Output current 50mA < 500mA (-90% lower current), suitable for direct replacement",
               "reason": "Alternative with ultra-low quiescent current for battery applications",
               "useCase": "Ultra-low power battery applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Input Capacitor 10uF",
-              "link": "#",
+              "link": "",
               "description": "Ceramic capacitor for input stabilization",
               "category": "Passive Components"
             },
             {
               "partNumber": "Output Capacitor 4.7uF",
-              "link": "#",
+              "link": "",
               "description": "Low-ESR capacitor for output stability",
               "category": "Passive Components"
             },
             {
               "partNumber": "KF5020",
-              "link": "#",
+              "link": "",
               "description": "Switching regulator for high-efficiency applications",
               "category": "Power Management"
             }
@@ -1058,7 +1058,7 @@
               "comparison": "KF6020=><KF6030: Input voltage 6V-60V = 6V-60V (same), Output current 2A > 1A (+100% higher current), Frequency 1MHz = 1MHz (same), Package ESOP-8 = ESOP-8 (same), suitable for direct replacement",
               "reason": "Higher current capability for high-power LED applications",
               "useCase": "High-power exterior lighting applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "AL8860",
@@ -1072,25 +1072,25 @@
               "comparison": "KF6020=><AL8860: Input voltage 4.5V-40V < 6V-60V (narrower range), Output current 1A = 1A (same), Frequency 1MHz = 1MHz (same), suitable for direct replacement",
               "reason": "Alternative with similar performance for cost-sensitive applications",
               "useCase": "Standard automotive LED lighting applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Inductor 22uH",
-              "link": "#",
+              "link": "",
               "description": "Power inductor for buck converter",
               "category": "Magnetics"
             },
             {
               "partNumber": "Schottky Diode",
-              "link": "#",
+              "link": "",
               "description": "Freewheeling diode for switching circuit",
               "category": "Power Devices"
             },
             {
               "partNumber": "LED String",
-              "link": "#",
+              "link": "",
               "description": "High-brightness LEDs for automotive lighting",
               "category": "Optoelectronics"
             }
@@ -1302,7 +1302,7 @@
               "comparison": "KF7020=><KF7030: Package HTSSOP-24 = HTSSOP-24 (same), suitable for direct replacement",
               "reason": "Higher current capability for larger motors",
               "useCase": "Seat control and window lift applications",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "DRV8842",
@@ -1322,25 +1322,25 @@
               },
               "reason": "Alternative with higher voltage range for industrial applications",
               "useCase": "Industrial motor control applications",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Current Sense Resistor",
-              "link": "#",
+              "link": "",
               "description": "Low-value sense resistor for current monitoring",
               "category": "Passive Components"
             },
             {
               "partNumber": "Decoupling Capacitors",
-              "link": "#",
+              "link": "",
               "description": "Ceramic capacitors for power supply decoupling",
               "category": "Passive Components"
             },
             {
               "partNumber": "Motor Protection Diodes",
-              "link": "#",
+              "link": "",
               "description": "Schottky diodes for back-EMF protection",
               "category": "Protection"
             }
@@ -1457,7 +1457,7 @@
               },
               "reason": "Alternative with higher resolution microstepping",
               "useCase": "Applications requiring finer step resolution",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Alt-KF8020-1",
@@ -1471,25 +1471,25 @@
               },
               "reason": "Alternative option for different requirements",
               "useCase": "Alternative application scenarios",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Stepper Motor",
-              "link": "#",
+              "link": "",
               "description": "NEMA 17 stepper motor for precision applications",
               "category": "Motors"
             },
             {
               "partNumber": "Companion-1",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for KF8020",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for KF8020",
               "category": "Support Components"
             }
@@ -1695,7 +1695,7 @@
               "comparison": "KF3020=><KF3040: Package LQFP-64 = LQFP-64 (same), suitable for direct replacement",
               "reason": "Higher performance with Cortex-M4 and more memory",
               "useCase": "Complex industrial control requiring DSP capabilities",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "STM32F107",
@@ -1715,25 +1715,25 @@
               },
               "reason": "Alternative with larger memory and proven ecosystem",
               "useCase": "Applications requiring extensive memory resources",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Ethernet PHY",
-              "link": "#",
+              "link": "",
               "description": "Physical layer transceiver for Ethernet interface",
               "category": "Interface"
             },
             {
               "partNumber": "CAN Transceiver",
-              "link": "#",
+              "link": "",
               "description": "Differential transceiver for CAN bus",
               "category": "Interface"
             },
             {
               "partNumber": "Industrial I/O Module",
-              "link": "#",
+              "link": "",
               "description": "Isolated digital input/output module",
               "category": "Industrial I/O"
             }
@@ -1846,7 +1846,7 @@
               },
               "reason": "Alternative with proven ecosystem",
               "useCase": "Applications requiring STM8 compatibility",
-              "link": "#"
+              "link": ""
             },
             {
               "partNumber": "Alt-KF1020-1",
@@ -1860,25 +1860,25 @@
               },
               "reason": "Alternative option for different requirements",
               "useCase": "Alternative application scenarios",
-              "link": "#"
+              "link": ""
             }
           ],
           "companionParts": [
             {
               "partNumber": "Crystal 8MHz",
-              "link": "#",
+              "link": "",
               "description": "External crystal for clock generation",
               "category": "Timing"
             },
             {
               "partNumber": "Companion-1",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for KF1020",
               "category": "Support Components"
             },
             {
               "partNumber": "Companion-2",
-              "link": "#",
+              "link": "",
               "description": "Recommended companion component for KF1020",
               "category": "Support Components"
             }
