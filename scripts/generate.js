@@ -616,6 +616,7 @@ function main() {
       fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
       fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));
       fs.copyFileSync(path.join(__dirname, '..', '_routes.json'), path.join(config.outputDir, '_routes.json'));
+      fs.copyFileSync(path.join(__dirname, '..', 'google4a58e2254b21da75.html'), path.join(config.outputDir, 'google4a58e2254b21da75.html'));
       break;
       
     case '--all':
@@ -646,6 +647,7 @@ function main() {
       fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
       fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));
       fs.copyFileSync(path.join(__dirname, '..', '_routes.json'), path.join(config.outputDir, '_routes.json'));
+      fs.copyFileSync(path.join(__dirname, '..', 'google4a58e2254b21da75.html'), path.join(config.outputDir, 'google4a58e2254b21da75.html'));
       break;
 
     default:
