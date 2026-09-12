@@ -213,7 +213,7 @@
                       <p class="desc-paragraph"><%= para %></p>
                     <% }); %>
                   <% } else { %>
-                    <p><%= product.description %></p>
+                    <p><%= product.description || product.shortDescription %></p>
                   <% } %>
                 </div>
                 <div class="overview-card">
@@ -225,7 +225,7 @@
                     </div>
                     <h3>Product Series</h3>
                   </div>
-                  <p class="series-name"><%= product.series %></p>
+                  <p class="series-name"><%= product.series || (product.partNumber || '').replace(/[^A-Za-z].*$/, '') || category.name %></p>
                 </div>
                 <div class="overview-card">
                   <div class="card-header">
@@ -236,7 +236,7 @@
                     </div>
                     <h3>Primary Application</h3>
                   </div>
-                  <p><%= product.application %></p>
+                  <p><%= product.application || (product.applications && product.applications[0]) || category.name %></p>
                 </div>
                 <div class="overview-card features-card">
                   <div class="card-header">
@@ -435,7 +435,24 @@
                         <% } %>
                       </div>
                       <h3><%= app %></h3>
-                      <p>Industrial application for <%= product.name %></p>
+                      <%
+                        var __appDesc = (function(a){
+                          var s = String(a).toLowerCase();
+                          if (/motor|drive/.test(s)) return 'Motor drive and control systems';
+                          if (/battery|charg|bms/.test(s)) return 'Battery and charging management';
+                          if (/power supply|\bsmps|conver|regulat|ldo|dc-dc|dc\/dc/.test(s)) return 'Power conversion and supply';
+                          if (/sensor|signal/.test(s)) return 'Sensor signal conditioning';
+                          if (/industrial|automation|control/.test(s)) return 'Industrial automation and control';
+                          if (/automotive|vehicle|\bev\b|adas/.test(s)) return 'Automotive and EV electronics';
+                          if (/renewable|solar|wind|energy/.test(s)) return 'Renewable energy systems';
+                          if (/communication|interface|network|ethernet|\bcan\b/.test(s)) return 'Communication and interface';
+                          if (/data acquisition|\badc\b|\bdac\b|convert|measure/.test(s)) return 'Data acquisition and conversion';
+                          if (/medical/.test(s)) return 'Medical electronics';
+                          if (/consumer/.test(s)) return 'Consumer electronics';
+                          return 'Electronic system design';
+                        })(app);
+                      %>
+                      <p><%= __appDesc %></p>
                     </div>
                   <% }); %>
                 <% } else { %>
