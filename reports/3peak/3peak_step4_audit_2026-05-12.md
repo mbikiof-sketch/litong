@@ -305,7 +305,7 @@
   "brands": ["3peak"],
   "contactPoint": {
     "telephone": "+86-15013702378",
-    "email": "info@ic-distributor.com"
+    "email": "info@elec-distributor.com"
   }
 }
 ```

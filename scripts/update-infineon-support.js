@@ -114,7 +114,7 @@ if (data.articles && Array.isArray(data.articles)) {
         avatar: article.author?.avatar || "/assets/team/default-avatar.jpg",
         bio: article.author?.bio || "Experienced field application engineer with expertise in power electronics and semiconductor applications.",
         expertise: article.author?.expertise || ["Power Electronics", "Semiconductor Applications", "System Design"],
-        email: article.author?.email || "fae@ic-distributor.com"
+        email: article.author?.email || "fae@elec-distributor.com"
       };
       articleUpdated = true;
     }

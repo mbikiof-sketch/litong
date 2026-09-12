@@ -835,7 +835,7 @@ git commit -m "feat: create responsive navigation bar component"
       <div class="footer-section">
         <h4>Contact Info</h4>
         <ul class="contact-list">
-          <li>Email: info@ic-distributor.com</li>
+          <li>Email: info@elec-distributor.com</li>
           <li>WhatsApp: +86 15013702378</li>
           <li>WeChat: +86 18612518271</li>
         </ul>

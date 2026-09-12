@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
   <title><%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= brand.description %>">
-  <meta name="keywords" content="<%= brand.name %>, distributor, <%= brand.coreProducts.map(function(p) { return typeof p === 'string' ? p : p.name; }).join(', ') %>">
+  <%
+    var kwParts = [brand.displayName + ' distributor'];
+    if (brand.name && String(brand.name).toLowerCase() !== String(brand.displayName).toLowerCase()) kwParts.push(brand.name + ' distributor');
+    if (brand.name) kwParts.push(brand.name);
+    (brand.coreProducts || []).forEach(function(p) { var n = (typeof p === 'string') ? p : (p && p.name); if (n) kwParts.push(n); });
+  %>
+  <meta name="keywords" content="<%= kwParts.join(', ') %>">
   <meta name="robots" content="index, follow">
   <meta name="author" content="BeiLuo">
 
@@ -219,7 +226,7 @@
       <div class="container">
         <div class="brand-header">
           <div class="brand-info">
-            <h1><%= brand.displayName %></h1>
+            <h1><%= brand.displayName %> Distributor</h1>
             <div class="brand-meta">
               <div class="meta-item">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">

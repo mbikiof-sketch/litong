@@ -29,7 +29,7 @@ function fixFile(filePath) {
   content = content.replace(/\s*<li>No\. 290, Litianlou Township, Shanxian County, Shandong Province<\/li>\n/g, '');
   
   // 修改邮箱
-  content = content.replace(/info@(core|elec)-distributor\.com/g, 'hk@ic-distributor.com');
+  content = content.replace(/info@(core|elec)-distributor\.com/g, 'hk@elec-distributor.com');
 
   if (content !== originalContent) {
     fs.writeFileSync(filePath, content, 'utf-8');
