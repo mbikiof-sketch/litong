@@ -37,7 +37,7 @@ check(fs.existsSync(TEST_PROMPTS_PATH), 'references/test-prompts.json exists');
 check(skillContent.includes('data/[brand]'), 'SKILL.md references data/[brand] correctly');
 check(skillContent.includes('output/[brand]'), 'SKILL.md references output/[brand] correctly');
 check(skillContent.includes('node scripts/generate.js'), 'SKILL.md references build command');
-check(skillContent.includes('core-distributor.com'), 'SKILL.md references correct domain');
+check(skillContent.includes('ic-distributor.com'), 'SKILL.md references correct domain');
 
 // 4. Checklist covers all required areas
 const checklistContent = fs.readFileSync(CHECKLIST_PATH, 'utf-8');

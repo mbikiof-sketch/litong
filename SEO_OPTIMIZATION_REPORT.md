@@ -191,9 +191,9 @@
 **FAE 作者简介**:
 | 姓名 | 职位 | 专业领域 | 经验 | 邮箱 |
 |------|------|----------|------|------|
-| John Chen | Senior FAE - MCU & Automotive | MCU, Automotive Electronics, IoT, Functional Safety | 10+ years | john.chen@elec-distributor.com |
-| Michael Wang | Power Electronics FAE | IGBT, MOSFET, Power Conversion, Motor Drives, Thermal Management | 8+ years | michael.wang@elec-distributor.com |
-| David Liu | Application Engineer - Power Electronics | Gate Drivers, Motor Control, IGBT Applications, PCB Layout | 6+ years | david.liu@elec-distributor.com |
+| John Chen | Senior FAE - MCU & Automotive | MCU, Automotive Electronics, IoT, Functional Safety | 10+ years | john.chen@ic-distributor.com |
+| Michael Wang | Power Electronics FAE | IGBT, MOSFET, Power Conversion, Motor Drives, Thermal Management | 8+ years | michael.wang@ic-distributor.com |
+| David Liu | Application Engineer - Power Electronics | Gate Drivers, Motor Control, IGBT Applications, PCB Layout | 6+ years | david.liu@ic-distributor.com |
 
 ---
 

@@ -4,7 +4,7 @@
 - [ ] Title: 50-60 chars, includes `[brand] distributor`
 - [ ] Meta description: 150-160 chars, includes CTA
 - [ ] H1: exactly one, matches brand name
-- [ ] Canonical URL: `https://www.core-distributor.com/[brand]/`
+- [ ] Canonical URL: `https://ic-distributor.com/[brand]/`
 - [ ] OG tags: og:title, og:description, og:image, og:url present
 - [ ] JSON-LD schema: Organization, Product, BreadcrumbList, TechArticle, NewsArticle
 - [ ] Keyword density: 1-2% in body text

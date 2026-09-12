@@ -1,7 +1,7 @@
 ---
 name: seo-geo-optimizer
 description: >
-  7-step SEO/GEO workflow for BeiLuo (core-distributor.com).
+  7-step SEO/GEO workflow for BeiLuo (ic-distributor.com).
   DEFAULT for ANY brand task: content, data, optimization, audit.
   Triggers: 优化品牌, SEO/GEO, 审计, 新增品牌, 产品数据, ranking/traffic
   drop, SEO audit, content quality, 关键词, 竞品, SERP, schema, sitemap,
@@ -12,7 +12,7 @@ description: >
 
 # BeiLuo SEO/GEO Optimizer
 
-Optimizes `core-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
+Optimizes `ic-distributor.com/[brand]/` subdirectory pages alphabetically one brand at a time. **Working dir**: `C:\Users\ymlt\Desktop\3`. **Data**: `data/[brand]/*.json` (5 files per brand). **Output**: regenerated `output/[brand]/` via build scripts.
 
 **Bundled**: `references/test-prompts.json` (validation), `references/checklist.md` (audit checklist), `scripts/validate-skill.js`, `scripts/brand-data-check.js`, `scripts/seo-readiness-report.js`, `scripts/test-integration.js`, `scripts/audit.js`, `scripts/add-jsonld-schema.js`. Run `npm run audit` for health check. Run `npm run schema -- --all` to generate JSON-LD schemas for all brands.
 
@@ -89,7 +89,7 @@ Before starting: run `npm run check:brands` for data completeness, `node scripts
 ---
 
 ### Step 2: Research — Load SEO/GEO Analysis Skills
-> **INPUT**: Brand data from Step 1 + live `core-distributor.com/[brand]/`
+> **INPUT**: Brand data from Step 1 + live `ic-distributor.com/[brand]/`
 > **OUTPUT**: `[brand]_step2_research_[date].md`
 > **SKILLS**: `keyword-research`, `serp-analysis`, `competitor-analysis`, `content-gap-analysis`
 
@@ -126,13 +126,13 @@ Map: L1→homepage, L2→product pages, L3→support, L4→blog.
 
 Missing/empty → HIGH priority.
 
-**On-Page rules**: Title 50-60 chars + `[brand] distributor`. Meta desc 150-160 chars + CTA. H1 unique. Canonical `https://www.core-distributor.com/[brand]/`. Keyword density 1-2%.
+**On-Page rules**: Title 50-60 chars + `[brand] distributor`. Meta desc 150-160 chars + CTA. H1 unique. Canonical `https://ic-distributor.com/[brand]/`. Keyword density 1-2%.
 
 **Technical + Security**:
 ```bash
-curl -sI "https://www.core-distributor.com/.project-memory/seo-optimization-project.md"  # HTTP 200 = CRITICAL
-curl -s "https://www.core-distributor.com/robots.txt" | grep -E "(Disallow|ClaudeBot|GPTBot)"
-curl -s "https://www.core-distributor.com/sitemap.xml" | grep -oP '<loc>[^<]+</loc>' | head -20
+curl -sI "https://ic-distributor.com/.project-memory/seo-optimization-project.md"  # HTTP 200 = CRITICAL
+curl -s "https://ic-distributor.com/robots.txt" | grep -E "(Disallow|ClaudeBot|GPTBot)"
+curl -s "https://ic-distributor.com/sitemap.xml" | grep -oP '<loc>[^<]+</loc>' | head -20
 ```
 
 **Internal linking**: `Home → /[brand]/ → /products/ → product detail` with breadcrumbs, recommendations.

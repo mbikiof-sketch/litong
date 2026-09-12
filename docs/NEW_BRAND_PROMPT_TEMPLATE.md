@@ -36,7 +36,7 @@
 ## 📝 详细提示词（完整版）
 
 ```
-## 任务：为 elec-distributor.com 网站新增品牌
+## 任务：为 ic-distributor.com 网站新增品牌
 
 ### 品牌基本信息
 - **品牌名称（URL用）**: [如 onsemi]

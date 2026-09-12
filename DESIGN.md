@@ -1,8 +1,8 @@
 # 详细规划设计文档
 ## 电子元件代理商品牌子目录网站 - UI/UX 设计系统
 
-**项目名称**: elec-distributor.com 品牌子目录网站  
-**域名**: www.elec-distributor.com  
+**项目名称**: ic-distributor.com 品牌子目录网站  
+**域名**: ic-distributor.com  
 **部署平台**: Cloudflare Pages  
 **文档类型**: UI/UX 详细设计规划  
 **版本**: 1.1  

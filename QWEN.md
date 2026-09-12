@@ -1,6 +1,6 @@
 # QWEN.md - 项目上下文文档
 
-**项目名称**: Electronic Components Distributor Website (elec-distributor.com)
+**项目名称**: Electronic Components Distributor Website (ic-distributor.com)
 **项目类型**: 静态网站生成器 (Node.js + EJS)
 **创建日期**: 2026 年 3 月 20 日
 **最后更新**: 2026 年 3 月 24 日
@@ -11,7 +11,7 @@
 ## 1. 项目概述
 
 ### 1.1 项目描述
-为电子元件代理商 LiTong 创建品牌子目录网站生成系统。使用 `www.elec-distributor.com/infineon` 的 URL 结构，每个授权代理品牌有独立的子目录网站，包含完整的品牌展示、产品中心、解决方案、技术支持等模块。
+为电子元件代理商 LiTong 创建品牌子目录网站生成系统。使用 `ic-distributor.com/infineon` 的 URL 结构，每个授权代理品牌有独立的子目录网站，包含完整的品牌展示、产品中心、解决方案、技术支持等模块。
 
 ### 1.2 核心目标
 - 建立专业的品牌子目录网站，提升 Google 搜索排名
@@ -431,7 +431,7 @@ npm run build         # 同 generate:all
 
 ### 15.1 相关域名
 - 主站：firstack-distributor.com (已上线)
-- 新站：www.elec-distributor.com (开发中)
+- 新站：ic-distributor.com (开发中)
 
 ### 15.2 部署平台
 - Cloudflare Pages: https://pages.cloudflare.com/

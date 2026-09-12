@@ -11,6 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
 const TemplateSelector = require('./template-selector');
+const sitemapLib = require('./sitemap-lib');
 
 // 配置
 const config = {
@@ -291,17 +292,86 @@ function generateBrandPages(brand, data) {
       var productsWithParamValues = category.products.map(function(product) {
         var paramValues = {};
         parameters.forEach(function(param) {
+          // 优先使用产品中已有的 paramValues
+          if (product.paramValues && product.paramValues[param]) {
+            paramValues[param] = product.paramValues[param];
+            return;
+          }
+          
           var fieldKey = paramMapping[param];
-          paramValues[param] = product[fieldKey] || '-';
+          // 优先从 product 根级别查找，然后从 specifications 中查找
+          var value = product[fieldKey];
+          if (!value && product.specifications) {
+            value = product.specifications[fieldKey];
+          }
+          
+          // 如果找不到，尝试大小写不敏感匹配 specifications 字段
+          if (!value && product.specifications) {
+            var specKeys = Object.keys(product.specifications);
+            var paramLower = fieldKey.toLowerCase().replace(/[()\s-]/g, '');
+            for (var j = 0; j < specKeys.length; j++) {
+              if (specKeys[j].toLowerCase().replace(/[()\s-]/g, '') === paramLower) {
+                value = product.specifications[specKeys[j]];
+                break;
+              }
+            }
+          }
+          
+          // Power Semiconductors 特殊处理 - 不同设备类型使用不同的电压/电流键名
+          if (!value && product.specifications) {
+            var specs = product.specifications;
+            var paramLower = param.toLowerCase();
+            
+            // Voltage Rating 映射
+            if (paramLower.includes('voltage') && paramLower.includes('rating')) {
+              value = specs.vds || specs.vces || specs.vrrm || specs.vdrm || specs.voltage || specs.workingVoltage || specs.vce;
+            }
+            // Current Rating 映射
+            else if (paramLower.includes('current') && paramLower.includes('rating')) {
+              value = specs.id || specs.ic || specs.if || specs.it || specs.current || specs.currentRating || specs.collectorCurrent;
+            }
+            // On-Resistance 映射
+            else if (paramLower.includes('on') && paramLower.includes('resistance')) {
+              value = specs.rdsOn || specs.rdson || specs.onResistance || specs.resistance;
+            }
+            // Switching Speed 映射
+            else if (paramLower.includes('switching') && paramLower.includes('speed')) {
+              value = specs.trr || specs.switchingSpeed || specs.qg || specs.gateCharge;
+            }
+            // Package 映射
+            else if (paramLower.includes('package')) {
+              value = specs.package || specs.packageType;
+            }
+            // Sensors 特殊映射
+            else if (paramLower.includes('operating') && paramLower.includes('voltage')) {
+              value = specs.operatingVoltage || specs.supplyVoltage || specs.voltage;
+            }
+            else if (paramLower.includes('output') && paramLower.includes('type')) {
+              value = specs.outputType || specs.output || specs.configuration;
+            }
+            else if (paramLower.includes('sensing') && paramLower.includes('range')) {
+              value = specs.sensingRange || specs.range || specs.humidityRange || specs.temperatureRange;
+            }
+            else if (paramLower.includes('response') && paramLower.includes('time')) {
+              value = specs.responseTime || specs.trr;
+            }
+          }
+          
+          paramValues[param] = value || '-';
         });
-        return Object.assign({}, product, { paramValues: paramValues });
+        // 合并新生成的 paramValues 和产品中已有的 paramValues
+        // 优先使用产品中已有的 paramValues
+        var mergedParamValues = Object.assign({}, paramValues, product.paramValues || {});
+        return Object.assign({}, product, { paramValues: mergedParamValues });
       });
       
-      // 生成分类列表页 - 嵌套结构: /hgsemi/products/{category-id}.html
+      // 生成分类目录下的 index.html - 嵌套结构: /hgsemi/products/{category-id}/index.html
+      const categoryDir = path.join(brandOutputDir, 'products', category.id);
+      ensureDir(categoryDir);
       generatePage(
         path.join(config.inputDir, 'brands', 'product-category.html'),
         { ...data, page: 'category', category: Object.assign({}, category, { products: productsWithParamValues, slug: category.id }), categories: data.products.categories },
-        path.join(brandOutputDir, 'products', `${category.id}.html`)
+        path.join(categoryDir, 'index.html')
       );
 
       // 生成产品详情页 (每个产品)
@@ -309,21 +379,31 @@ function generateBrandPages(brand, data) {
         // 获取品牌模板配置
         const brandTemplate = templateSelector.getBrandTemplate(brand);
         const templateFile = brandTemplate.templateFile || 'product-detail.html';
-        
+
         category.products.forEach(product => {
           // 根据模板类型选择对应的模板文件
           const templatePath = path.join(config.inputDir, 'brands', templateFile);
           // 如果模板文件不存在，回退到默认模板
           const fallbackTemplatePath = path.join(config.inputDir, 'brands', 'product-detail.html');
           const finalTemplatePath = fs.existsSync(templatePath) ? templatePath : fallbackTemplatePath;
-          
+
+          // 处理产品数据 - 将 longDescription 转换为 descriptionParagraphs
+          const processedProduct = { ...product };
+          if (product.longDescription) {
+            // 优先使用 longDescription，按段落分割（按换行符分割，并清理空段落）
+            processedProduct.descriptionParagraphs = product.longDescription
+              .split(/\n\n+/)
+              .map(p => p.trim())
+              .filter(p => p.length > 0);
+          }
+
           // 产品详情页 - 简化结构: /hgsemi/products/{category}/{part-number}.html
           const productSlug = product.slug || product.partNumber.toLowerCase().replace(/[^a-z0-9]+/g, '-');
           const productDir = path.join(brandOutputDir, 'products', category.id);
           ensureDir(productDir);
           generatePage(
             finalTemplatePath,
-            { ...data, page: 'product-detail', category, product, templateConfig: brandTemplate },
+            { ...data, page: 'product-detail', category, product: processedProduct, templateConfig: brandTemplate },
             path.join(productDir, `${productSlug}.html`)
           );
         });
@@ -457,46 +537,35 @@ function generateMainSite() {
     { page: 'about' },
     path.join(config.outputDir, 'about', 'index.html')
   );
+  
+  // 生成新闻中心页面
+  const newsSrcDir = path.join(__dirname, '..', 'news');
+  const newsDestDir = path.join(config.outputDir, 'news');
+  if (fs.existsSync(newsSrcDir)) {
+    copyDir(newsSrcDir, newsDestDir);
+    console.log('  ✓ Copied: news/');
+  }
+  
+  // 生成联系我们页面
+  const contactSrcDir = path.join(__dirname, '..', 'about', 'contact');
+  const contactDestDir = path.join(config.outputDir, 'about', 'contact');
+  if (fs.existsSync(contactSrcDir)) {
+    copyDir(contactSrcDir, contactDestDir);
+    console.log('  ✓ Copied: about/contact/');
+  }
 }
 
 /**
  * 生成 sitemap.xml
+ * URL 形式与页面 canonical 严格一致：目录页带斜杠，叶子 .html 页不带 .html/斜杠。
  */
 function generateSitemap() {
   console.log('\nGenerating sitemap.xml...');
-  
-  const baseUrl = 'https://www.elec-distributor.com';
-  const urls = [
-    { loc: '/', changefreq: 'daily', priority: '1.0' },
-    { loc: '/brands/', changefreq: 'weekly', priority: '0.9' },
-    { loc: '/news/', changefreq: 'daily', priority: '0.8' },
-    { loc: '/about/', changefreq: 'monthly', priority: '0.7' },
-    { loc: '/about/contact/', changefreq: 'monthly', priority: '0.6' }
-  ];
-  
-  // 添加品牌页面
-  if (fs.existsSync(config.dataDir)) {
-    const brands = fs.readdirSync(config.dataDir);
-    brands.forEach(brand => {
-      urls.push({ loc: `/${brand}/`, changefreq: 'weekly', priority: '0.8' });
-      urls.push({ loc: `/${brand}/products/`, changefreq: 'weekly', priority: '0.7' });
-      urls.push({ loc: `/${brand}/solutions/`, changefreq: 'weekly', priority: '0.7' });
-      urls.push({ loc: `/${brand}/support/`, changefreq: 'weekly', priority: '0.7' });
-      urls.push({ loc: `/${brand}/news/`, changefreq: 'weekly', priority: '0.7' });
-    });
-  }
-  
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(url => `  <url>
-    <loc>${baseUrl}${url.loc}</loc>
-    <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
-  </url>`).join('\n')}
-</urlset>`;
-  
+
+  const { xml, urls } = sitemapLib.generateSitemapXml(config.outputDir);
+
   fs.writeFileSync(path.join(config.outputDir, 'sitemap.xml'), xml, 'utf8');
-  console.log('  ✓ Generated: sitemap.xml');
+  console.log(`  ✓ Generated: sitemap.xml (${urls.length} URLs)`);
 }
 
 /**
@@ -543,6 +612,10 @@ function main() {
       copyAssets();
       generateSitemap();
       inlineComponents(); // 内联组件
+      // 复制根文件到输出目录
+      fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
+      fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));
+      fs.copyFileSync(path.join(__dirname, '..', '_routes.json'), path.join(config.outputDir, '_routes.json'));
       break;
       
     case '--all':
@@ -558,6 +631,7 @@ function main() {
 
       const brands = fs.readdirSync(config.dataDir);
       brands.forEach(brand => {
+        if (brand.startsWith('.') || brand.startsWith('_')) return;
         const brandDir = path.join(config.dataDir, brand);
         if (fs.statSync(brandDir).isDirectory()) {
           const data = loadBrandData(brand);
@@ -568,6 +642,10 @@ function main() {
       copyAssets();
       generateSitemap();
       inlineComponents(); // 内联组件
+      // 复制根文件到输出目录
+      fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
+      fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));
+      fs.copyFileSync(path.join(__dirname, '..', '_routes.json'), path.join(config.outputDir, '_routes.json'));
       break;
 
     default:

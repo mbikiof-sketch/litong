@@ -1,0 +1,13 @@
+{
+  "description": "Fix CSS Content-Type for ic-distributor.com",
+  "expression": "ends_with(http.request.uri.path, \".css\")",
+  "action": "set",
+  "action_parameters": {
+    "headers": {
+      "Content-Type": {
+        "operation": "set",
+        "value": "text/css; charset=utf-8"
+      }
+    }
+  }
+}

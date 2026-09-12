@@ -1,8 +1,8 @@
 # 产品需求文档 (PRD)
 ## 电子元件代理商品牌子目录网站项目
 
-**项目名称**: elec-distributor.com 品牌子目录网站
-**域名**: www.elec-distributor.com
+**项目名称**: ic-distributor.com 品牌子目录网站
+**域名**: ic-distributor.com
 **部署平台**: Cloudflare Pages
 **文档版本**: 1.2
 **创建日期**: 2026 年 3 月 20 日
@@ -14,7 +14,7 @@
 ## 1. 项目概述
 
 ### 1.1 项目背景
-为电子元件代理商 LiTong 创建多品牌子目录网站，以 www.elec-distributor.com/infineon 的 URL 结构部署，每个品牌有独立的子目录网站，包含完整的品牌展示、产品中心、解决方案、技术支持等模块。
+为电子元件代理商 LiTong 创建多品牌子目录网站，以 ic-distributor.com/infineon 的 URL 结构部署，每个品牌有独立的子目录网站，包含完整的品牌展示、产品中心、解决方案、技术支持等模块。
 
 ### 1.2 项目目标
 - 建立专业的品牌子目录网站，提升 Google 搜索排名
@@ -36,7 +36,7 @@
 | 决策点 | 用户选择 |
 |--------|----------|
 | 品牌优先级 | Infineon (英飞凌) 作为首个模板品牌 |
-| URL 结构 | 子目录形式：www.elec-distributor.com/infineon/products |
+| URL 结构 | 子目录形式：ic-distributor.com/infineon/products |
 | 内容生成 | 完全 AI 生成 |
 | 视觉设计 | 基础简洁版 SVG 图标 |
 | 生成脚本 | Node.js 脚本 |
@@ -73,7 +73,7 @@
 **重要 URL 层级说明**:
 - `/brands/` 是品牌列表页
 - `/infineon/`、`/semikron/` 等品牌子目录与 `/brands/` 是**同一层级**，不是包含关系
-- 即：`www.elec-distributor.com/infineon/` 而不是 `www.elec-distributor.com/brands/infineon/`
+- 即：`ic-distributor.com/infineon/` 而不是 `ic-distributor.com/brands/infineon/`
 
 ### 3.2 品牌子目录导航结构 (以 Infineon 为例)
 ```
@@ -784,7 +784,7 @@ node scripts/generate.js --brand infineon --type products
 
 ### 16.2 参考网站
 - 主站域名：firstack-distributor.com
-- 新站域名：www.elec-distributor.com
+- 新站域名：ic-distributor.com
 
 ### 16.3 LOGO 右侧文字
 - **英文**: "LiTong Electronics - Top 8 Electronic Component Distributor in China"

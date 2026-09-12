@@ -106,7 +106,7 @@ function generateCategoryHtml(category, brand, allCategories) {
   <meta name="keywords" content="${brand.displayName} ${category.name}, ${brand.name} ${category.name} distributor, ${category.name} selection, ${category.name} price, ${brand.name} supplier">
   <meta name="robots" content="index, follow">
   <meta name="author" content="BeiLuo">
-  <link rel="canonical" href="https://www.elec-distributor.com/${brand.name}/products/${category.slug}.html">
+  <link rel="canonical" href="https://ic-distributor.com/${brand.name}/products/${category.slug}.html">
   
   <link rel="stylesheet" href="${cssPath}/style.css">
   <link rel="stylesheet" href="${cssPath}/navbar.css">

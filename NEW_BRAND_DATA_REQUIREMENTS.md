@@ -2,7 +2,7 @@
 
 ## 概述
 
-本文档规定了为 elec-distributor.com 网站新增品牌子目录时的数据要求和规范。每个品牌必须有独立的完整数据文件，确保内容差异化，避免 SEO 降权。
+本文档规定了为 ic-distributor.com 网站新增品牌子目录时的数据要求和规范。每个品牌必须有独立的完整数据文件，确保内容差异化，避免 SEO 降权。
 
 ---
 
@@ -986,9 +986,9 @@ npm run generate:all
 
 ### 问题 3：brand-about.html 硬编码 canonical URL
 
-**问题**：`<link rel="canonical" href="https://www.elec-distributor.com/infineon/">`
+**问题**：`<link rel="canonical" href="https://ic-distributor.com/infineon/">`
 
-**修复**：改为 `<link rel="canonical" href="https://www.elec-distributor.com/<%= brand.name.toLowerCase() %>/">`
+**修复**：改为 `<link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/">`
 
 ### 问题 4：产品参数使用对象类型
 

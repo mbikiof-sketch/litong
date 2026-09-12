@@ -36,7 +36,7 @@ const support = readJSON('support.json');
 
 if (!b) { console.error(`${brand}/brand.json not found`); process.exit(1); }
 
-const site = 'https://www.core-distributor.com';
+const site = 'https://ic-distributor.com';
 const url = `${site}/${brand}/`;
 
 const orgSchema = {

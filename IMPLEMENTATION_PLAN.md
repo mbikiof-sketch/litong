@@ -2,7 +2,7 @@
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans 来逐任务实施此计划。
 
-**目标:** 为 elec-distributor.com 创建完整的品牌子目录网站，包含首页、品牌列表页、品牌子目录网站 (Infineon 作为首个模板)、新闻中心、关于我们等完整功能
+**目标:** 为 ic-distributor.com 创建完整的品牌子目录网站，包含首页、品牌列表页、品牌子目录网站 (Infineon 作为首个模板)、新闻中心、关于我们等完整功能
 
 **架构:** 静态 HTML+CSS 网站，使用 Node.js 脚本批量生成页面，部署在 Cloudflare Pages。采用模板 + JSON 数据驱动的方式，支持快速新增品牌子目录网站。
 
@@ -835,7 +835,7 @@ git commit -m "feat: create responsive navigation bar component"
       <div class="footer-section">
         <h4>Contact Info</h4>
         <ul class="contact-list">
-          <li>Email: info@elec-distributor.com</li>
+          <li>Email: info@ic-distributor.com</li>
           <li>WhatsApp: +86 15013702378</li>
           <li>WeChat: +86 18612518271</li>
         </ul>
@@ -2055,7 +2055,7 @@ git commit -m "test: add Playwright visual regression tests"
 const fs = require('fs');
 const path = require('path');
 
-const baseUrl = 'https://www.elec-distributor.com';
+const baseUrl = 'https://ic-distributor.com';
 
 function generateSitemap() {
   const urls = [
