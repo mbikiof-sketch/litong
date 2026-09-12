@@ -11,7 +11,16 @@
   <link rel="stylesheet" href="/assets/css/breadcrumb.css">
   <link rel="stylesheet" href="/assets/css/floating-contact.css">
   <style>
-    .news-page { padding: var(--space-16) 0; min-height: 60vh; }
+    .news-page { padding: var(--space-12) 0; }
+    .page-hero {
+      background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+      color: #ffffff;
+      padding: var(--space-16) 0;
+      text-align: center;
+      margin-bottom: var(--space-12);
+    }
+    .page-hero h1 { font-size: 2.5rem; color: #ffffff; margin-bottom: var(--space-4); }
+    .page-hero p { font-size: 1.125rem; color: rgba(255,255,255,0.9); max-width: 800px; margin: 0 auto; }
     .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }
     .news-card { background: #ffffff; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); text-decoration: none; color: inherit; }
     .news-card:hover { box-shadow: var(--shadow-xl); }
@@ -57,16 +66,19 @@
   </nav>
 
   <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Latest News</h1>
+        <p>Insights, product updates, and market trends from BeiLuo Electronics</p>
+      </div>
+    </section>
+
     <section class="news-page">
       <div class="container">
-        <h1 class="section-title" style="text-align: center; font-size: 2.5rem; margin-bottom: var(--space-12);">Latest News</h1>
         <div class="news-grid">
           <a href="/news/semiconductor-trends-2026.html" class="news-card">
             <div class="news-card-image">
-              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true">
-                <rect fill="#f0f0f0" width="400" height="200"/>
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#999999">Industry News</text>
-              </svg>
+              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="mc1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2545"/><stop offset="1" stop-color="#12395f"/></linearGradient></defs><rect width="400" height="200" fill="url(#mc1)"/><g stroke="#2a6db5" stroke-width="2" fill="none" opacity="0.6"><path d="M20 50H140V95M20 75H110V110M380 50H260V95M380 75H290V110"/></g><rect x="150" y="65" width="100" height="75" rx="6" fill="#0d2d4d" stroke="#3395db" stroke-width="2"/><rect x="175" y="88" width="50" height="28" rx="3" fill="#0072ce"/><g fill="#3395db"><rect x="162" y="59" width="8" height="8"/><rect x="185" y="59" width="8" height="8"/><rect x="208" y="59" width="8" height="8"/><rect x="231" y="59" width="8" height="8"/><rect x="162" y="138" width="8" height="8"/><rect x="185" y="138" width="8" height="8"/><rect x="208" y="138" width="8" height="8"/><rect x="231" y="138" width="8" height="8"/></g></svg>
             </div>
             <div class="news-card-content">
               <div class="news-category">Industry Trends</div>
@@ -76,10 +88,7 @@
           </a>
           <a href="/news/new-partnership-infineon.html" class="news-card">
             <div class="news-card-image">
-              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true">
-                <rect fill="#f0f0f0" width="400" height="200"/>
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#999999">Company News</text>
-              </svg>
+              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="mp1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2545"/><stop offset="1" stop-color="#12395f"/></linearGradient></defs><rect width="400" height="200" fill="url(#mp1)"/><circle cx="200" cy="100" r="62" fill="none" stroke="#1d4e89" stroke-width="2" opacity="0.5"/><path d="M125 105l42-22 33 22 33-22 42 22v45H125z" fill="#3395db" opacity="0.85"/><path d="M155 128l28 14 17-8 17 8 28-14" stroke="#0b2545" stroke-width="6" stroke-linecap="round" fill="none"/><circle cx="200" cy="72" r="16" fill="#0072ce"/></svg>
             </div>
             <div class="news-card-content">
               <div class="news-category">Company News</div>
@@ -89,10 +98,7 @@
           </a>
           <a href="/news/ev-market-growth.html" class="news-card">
             <div class="news-card-image">
-              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true">
-                <rect fill="#f0f0f0" width="400" height="200"/>
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#999999">Industry News</text>
-              </svg>
+              <svg viewBox="0 0 400 200" width="100%" height="100%" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="me1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2545"/><stop offset="1" stop-color="#12395f"/></linearGradient></defs><rect width="400" height="200" fill="url(#me1)"/><line x1="0" y1="160" x2="400" y2="160" stroke="#2a6db5" stroke-width="2" opacity="0.5"/><path d="M80 135c0-11 9-20 20-20h15l14-23h75l20 23h31c11 0 20 9 20 20v17H80z" fill="#0072ce"/><path d="M131 115h75l-12-19H143z" fill="#3395db"/><circle cx="118" cy="152" r="13" fill="#0d2d4d" stroke="#3395db" stroke-width="3"/><circle cx="272" cy="152" r="13" fill="#0d2d4d" stroke="#3395db" stroke-width="3"/><path d="M320 55l-22 38h18l-8 32 30-45h-18z" fill="#ffd23f"/></svg>
             </div>
             <div class="news-card-content">
               <div class="news-category">Industry Trends</div>

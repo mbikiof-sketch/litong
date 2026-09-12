@@ -78,6 +78,44 @@
       justify-content: center;
     }
 
+    .hero-cta .btn-primary,
+    .hero-cta .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 34px;
+      border-radius: var(--radius-full, 9999px);
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease-out;
+    }
+
+    .hero-cta .btn-primary {
+      background: #ffffff;
+      color: var(--primary-blue-dark);
+      border: 2px solid #ffffff;
+    }
+
+    .hero-cta .btn-primary:hover {
+      background: var(--cta-orange);
+      border-color: var(--cta-orange);
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .hero-cta .btn-secondary {
+      background: transparent;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+    }
+
+    .hero-cta .btn-secondary:hover {
+      background: rgba(255,255,255,0.18);
+      transform: translateY(-2px);
+    }
+
     /* Section 通用样式 */
     .section {
       padding: var(--space-16) 0;

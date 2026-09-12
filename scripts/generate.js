@@ -24,6 +24,76 @@ const config = {
 // 初始化模板选择器
 const templateSelector = new TemplateSelector();
 
+// 品牌分类（用于 /brands/ 页面筛选）
+const BRAND_CATEGORIES = [
+  { id: 'power',      name: 'Power Semiconductors',     kw: ['igbt','mosfet','sic','gan','rectifier','thyristor','power semiconductor','power module','power discrete','diode','transistor','discrete'] },
+  { id: 'mcu',        name: 'MCU & Processors',         kw: ['mcu','microcontroller','processor','fpga','soc','dsp','risc-v','arm cortex','mpu','microprocessor','logic ic'] },
+  { id: 'analog',     name: 'Analog & Signal',          kw: ['analog','op-amp','op amp','amplifier','adc','dac','signal chain','data converter','comparator','voltage reference','mixed-signal'] },
+  { id: 'pmic',       name: 'Power Management',         kw: ['pmic','ldo','dc-dc','dc/dc','voltage regulator','power management','charger','battery management','led driver','switching regulator','buck','boost'] },
+  { id: 'memory',     name: 'Memory & Storage',         kw: ['memory','flash','dram','sram','nand','nor flash','eeprom','ddr','ssd','storage','emmc','ufs'] },
+  { id: 'sensor',     name: 'Sensors',                  kw: ['sensor','mems','gyroscope','accelerometer','temperature','pressure sensor','image sensor','radar','tof','hall'] },
+  { id: 'passive',    name: 'Passive Components',       kw: ['capacitor','resistor','inductor','crystal','oscillator','varistor','thermistor','ferrite','choke','passive'] },
+  { id: 'rf',         name: 'RF & Wireless',            kw: ['rf','wireless','bluetooth','wifi','antenna','transceiver','microwave','rfid','lna','radio frequency'] },
+  { id: 'interface',  name: 'Interface & Connectivity', kw: ['interface','transceiver','can bus','rs-485','rs485','uart','ethernet','usb','level shift','isolator','driver ic'] },
+  { id: 'protection', name: 'Circuit Protection',       kw: ['fuse','tvs','esd','circuit protection','circuit breaker','surge','protection device','thermal protection'] },
+  { id: 'module',     name: 'Modules & Power Supplies', kw: ['module','power supply','ac-dc','ac/dc','dc/dc module','adapter','converter module'] },
+  { id: 'connector',  name: 'Connectors & Relays',      kw: ['connector','relay','terminal','socket','header','switch'] },
+  { id: 'opto',       name: 'Optoelectronics',          kw: ['led','opto','photodiode','laser','display','lcd','oled','photocoupler'] },
+];
+
+/**
+ * 扫描 data/ 下所有品牌，生成品牌卡片数据（含分类）
+ */
+function buildBrandsList() {
+  let items = [];
+  try {
+    items = fs.readdirSync(config.dataDir, { withFileTypes: true })
+      .filter(d => d.isDirectory() && !d.name.startsWith('.') && !d.name.startsWith('_'));
+  } catch (e) {
+    return [];
+  }
+  const list = [];
+  for (const d of items) {
+    const bp = path.join(config.dataDir, d.name, 'brand.json');
+    if (!fs.existsSync(bp)) continue;
+    let b;
+    try { b = JSON.parse(fs.readFileSync(bp, 'utf8')); } catch (e) { continue; }
+    const productNames = [];
+    let productHay = '';
+    if (Array.isArray(b.coreProducts)) {
+      for (const cp of b.coreProducts) {
+        if (typeof cp === 'string') {
+          productNames.push(cp);
+          productHay += ' ' + cp;
+        } else if (cp && typeof cp === 'object') {
+          if (cp.name) productNames.push(cp.name);
+          productHay += ' ' + (cp.name || '') + ' ' + (cp.description || '') + ' ' +
+            (Array.isArray(cp.keywords) ? cp.keywords.join(' ') : '');
+        }
+      }
+    }
+    const hay = [b.displayName, b.name, b.tagline, b.description, productHay].filter(Boolean).join(' ').toLowerCase();
+    const cats = [];
+    for (const c of BRAND_CATEGORIES) {
+      if (c.kw.some(k => {
+        const re = new RegExp('\\b' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(s|es)?\\b', 'i');
+        return re.test(hay);
+      })) cats.push(c.id);
+    }
+    list.push({
+      slug: d.name,
+      name: b.name || b.displayName || d.name,
+      displayName: b.displayName || b.name || d.name,
+      tagline: b.tagline || '',
+      products: productNames.slice(0, 4).join(', '),
+      categories: cats.length ? cats.join(' ') : 'other'
+    });
+  }
+  list.sort((a, b) => a.displayName.toLowerCase().localeCompare(b.displayName.toLowerCase()));
+  return list;
+}
+
+
 /**
  * 简单的 Markdown 转 HTML 函数
  */
@@ -527,7 +597,7 @@ function generateMainSite() {
   // 生成品牌列表页到 /brands/ 目录
   generatePage(
     path.join(config.inputDir, 'pages', 'brands-index.html'),
-    { page: 'brands' },
+    { page: 'brands', brands: buildBrandsList(), categories: BRAND_CATEGORIES },
     path.join(config.outputDir, 'brands', 'index.html')
   );
   
