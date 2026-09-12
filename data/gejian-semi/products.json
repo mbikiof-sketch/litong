@@ -1410,9 +1410,7 @@
             "Isolation": "5000Vrms reinforced",
             "CMTI": "100kV/μs",
             "Output Voltage": "+15V/-8V",
-            "Protection": "Desat, UVLO, Miller Clamp",
-            "Peak Current": "N/A",
-            "Protection Features": "N/A"
+            "Protection": "Desat, UVLO, Miller Clamp"
           },
           "features": [
             "4A peak output current for fast switching",
@@ -1581,9 +1579,7 @@
             "Isolation": "5000Vrms reinforced",
             "CMTI": "150kV/μs",
             "Output Voltage": "+18V/-3V",
-            "Protection": "Desat, UVLO, Active Miller Clamp",
-            "Peak Current": "N/A",
-            "Protection Features": "N/A"
+            "Protection": "Desat, UVLO, Active Miller Clamp"
           },
           "features": [
             "+18V output for optimal SiC MOSFET enhancement",

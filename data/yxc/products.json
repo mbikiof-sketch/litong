@@ -54,10 +54,7 @@
         "Operating Temperature",
         "Storage Temperature",
         "Drive Level",
-        "Aging",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Aging"
       ],
       "series": [
         {
@@ -117,10 +114,7 @@
             "Operating Temperature": "-40°C to +85°C",
             "Storage Temperature": "-55°C to +125°C",
             "Drive Level": "10μW typical, 100μW max",
-            "Aging": "±3ppm/year max",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Aging": "±3ppm/year max"
           },
           "applications": [
             "Microcontroller clock",
@@ -297,10 +291,7 @@
             "Operating Temperature": "-40°C to +85°C",
             "Storage Temperature": "-55°C to +125°C",
             "Drive Level": "10μW typical",
-            "Aging": "±3ppm/year max",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Aging": "±3ppm/year max"
           },
           "applications": [
             "Wearable devices",
@@ -471,10 +462,7 @@
         "Start-up Time",
         "Jitter",
         "Output Voltage",
-        "Phase Noise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Phase Noise"
       ],
       "series": [
         {
@@ -536,12 +524,7 @@
             "Duty Cycle": "45% - 55%",
             "Operating Temperature": "-40°C to +85°C",
             "Start-up Time": "5ms max",
-            "Jitter": "1ps RMS typ",
-            "Output Voltage": "N/A",
-            "Phase Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Jitter": "1ps RMS typ"
           },
           "applications": [
             "Ethernet switches",
@@ -714,12 +697,7 @@
             "Phase Noise": "-145dBc/Hz @ 1MHz offset",
             "Jitter": "0.3ps RMS max",
             "Operating Temperature": "-40°C to +85°C",
-            "Start-up Time": "10ms max",
-            "Rise/Fall Time": "N/A",
-            "Duty Cycle": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Start-up Time": "10ms max"
           },
           "applications": [
             "10G Ethernet",

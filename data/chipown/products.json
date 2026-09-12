@@ -160,11 +160,7 @@
             "MOSFET Voltage": "700V",
             "Standby Power": "<75mW",
             "Operating Frequency": "65kHz",
-            "Package": "SOP-7",
-            "Output Current": "N/A",
-            "Turn-off Delay": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Standby Current": "N/A"
+            "Package": "SOP-7"
           },
           "applications": [
             "Mobile phone chargers",
@@ -286,11 +282,7 @@
             "MOSFET Voltage": "700V",
             "Standby Power": "<75mW",
             "Operating Frequency": "65kHz",
-            "Package": "SOP-7",
-            "Output Current": "N/A",
-            "Turn-off Delay": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Standby Current": "N/A"
+            "Package": "SOP-7"
           },
           "applications": [
             "Notebook adapters",
@@ -412,11 +404,7 @@
             "MOSFET Voltage": "800V",
             "Standby Power": "<75mW",
             "Operating Frequency": "65kHz",
-            "Package": "SOP-7",
-            "Output Current": "N/A",
-            "Turn-off Delay": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Standby Current": "N/A"
+            "Package": "SOP-7"
           },
           "applications": [
             "Industrial power supplies",
@@ -537,11 +525,7 @@
             "Turn-off Delay": "<30ns",
             "Gate Drive Voltage": "10V",
             "Standby Current": "<200μA",
-            "Package": "SOP-8",
-            "Input Voltage": "N/A",
-            "Output Power": "N/A",
-            "MOSFET Voltage": "N/A",
-            "Standby Power": "N/A"
+            "Package": "SOP-8"
           },
           "applications": [
             "High-efficiency adapters",
@@ -663,15 +647,6 @@
         {
           "name": "AP Series Buck",
           "description": "High-efficiency synchronous buck converters"
-        },
-        {
-          "name": "DC/DC Converters Series 2",
-          "description": "Extended DC/DC Converters product series for diverse applications",
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Industrial grade reliability"
-          ]
         }
       ],
       "selectionGuide": "DC/DC Converter Selection Guide",
@@ -755,9 +730,7 @@
             "Switching Frequency": "500kHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "<1mA",
-            "Package": "SOP-8",
-            "LED Configuration": "N/A",
-            "Dimming": "N/A"
+            "Package": "SOP-8"
           },
           "applications": [
             "Industrial control systems",
@@ -879,9 +852,7 @@
             "Switching Frequency": "500kHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "<1mA",
-            "Package": "SOP-8",
-            "LED Configuration": "N/A",
-            "Dimming": "N/A"
+            "Package": "SOP-8"
           },
           "applications": [
             "High-power industrial systems",
@@ -1003,9 +974,7 @@
             "Quiescent Current": "<20μA",
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 95%",
-            "Package": "SOT-23-5",
-            "LED Configuration": "N/A",
-            "Dimming": "N/A"
+            "Package": "SOT-23-5"
           },
           "applications": [
             "Battery-powered devices",
@@ -1127,9 +1096,7 @@
             "Output Current": "Up to 20mA",
             "Switching Frequency": "1MHz",
             "Dimming": "PWM (100Hz-10kHz)",
-            "Package": "SOT-23-5",
-            "Efficiency": "N/A",
-            "Quiescent Current": "N/A"
+            "Package": "SOT-23-5"
           },
           "applications": [
             "LCD backlighting",
@@ -1248,15 +1215,6 @@
         {
           "name": "AP Series LED",
           "description": "Linear and switching LED drivers"
-        },
-        {
-          "name": "LED Drivers Series 2",
-          "description": "Extended LED Drivers product series for diverse applications",
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Industrial grade reliability"
-          ]
         }
       ],
       "selectionGuide": "LED Driver Selection Guide",
@@ -1340,10 +1298,7 @@
             "Dropout Voltage": "<1V",
             "Dimming": "PWM",
             "Thermal Regulation": "Yes",
-            "Package": "SOT-89",
-            "Thermal Protection": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A"
+            "Package": "SOT-89"
           },
           "applications": [
             "Indicator LEDs",
@@ -1464,10 +1419,7 @@
             "Dropout Voltage": "<1V",
             "Dimming": "PWM",
             "Thermal Protection": "Enhanced",
-            "Package": "TO-252",
-            "Thermal Regulation": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A"
+            "Package": "TO-252"
           },
           "applications": [
             "High-power indicator LEDs",
@@ -1588,10 +1540,7 @@
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 95%",
             "Dimming": "PWM",
-            "Package": "SOP-8",
-            "Dropout Voltage": "N/A",
-            "Thermal Regulation": "N/A",
-            "Thermal Protection": "N/A"
+            "Package": "SOP-8"
           },
           "applications": [
             "LED lighting fixtures",
@@ -1713,10 +1662,7 @@
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 95%",
             "Dimming": "Analog + PWM",
-            "Package": "ESOP-8",
-            "Dropout Voltage": "N/A",
-            "Thermal Regulation": "N/A",
-            "Thermal Protection": "N/A"
+            "Package": "ESOP-8"
           },
           "applications": [
             "Commercial LED lighting",
@@ -1842,15 +1788,6 @@
         {
           "name": "AP Series Motor",
           "description": "DC and stepper motor drivers"
-        },
-        {
-          "name": "Motor Drivers Series 2",
-          "description": "Extended Motor Drivers product series for diverse applications",
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Industrial grade reliability"
-          ]
         }
       ],
       "selectionGuide": "Motor Driver Selection Guide",
@@ -1933,12 +1870,7 @@
             "Continuous Current": "1.2A per channel",
             "Logic Voltage": "2.5V-5V",
             "RDS(on)": "<1Ω",
-            "Package": "SSOP-16",
-            "Current Regulation": "N/A",
-            "Motor Current": "N/A",
-            "Microstepping": "N/A",
-            "Decay Modes": "N/A",
-            "Auto Decay": "N/A"
+            "Package": "SSOP-16"
           },
           "applications": [
             "Toy motors",
@@ -2059,12 +1991,7 @@
             "Continuous Current": "2A per channel",
             "Logic Voltage": "2.5V-5V",
             "Current Regulation": "Yes",
-            "Package": "HTSSOP-16",
-            "RDS(on)": "N/A",
-            "Motor Current": "N/A",
-            "Microstepping": "N/A",
-            "Decay Modes": "N/A",
-            "Auto Decay": "N/A"
+            "Package": "HTSSOP-16"
           },
           "applications": [
             "Larger robotics",
@@ -2185,12 +2112,7 @@
             "Microstepping": "Full, 1/2, 1/4, 1/8, 1/16",
             "Logic Voltage": "3.3V-5V",
             "Decay Modes": "Slow, fast, mixed",
-            "Package": "HTSSOP-24",
-            "Peak Current": "N/A",
-            "Continuous Current": "N/A",
-            "RDS(on)": "N/A",
-            "Current Regulation": "N/A",
-            "Auto Decay": "N/A"
+            "Package": "HTSSOP-24"
           },
           "applications": [
             "3D printers",
@@ -2317,12 +2239,7 @@
             "Microstepping": "Up to 1/32 step",
             "Logic Voltage": "3.3V-5V",
             "Auto Decay": "Yes",
-            "Package": "HTSSOP-28",
-            "Peak Current": "N/A",
-            "Continuous Current": "N/A",
-            "RDS(on)": "N/A",
-            "Current Regulation": "N/A",
-            "Decay Modes": "N/A"
+            "Package": "HTSSOP-28"
           },
           "applications": [
             "Industrial CNC machines",

@@ -78,10 +78,7 @@
         "Output Voltage",
         "Output Current",
         "Switching Frequency",
-        "Efficiency",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Efficiency"
       ],
       "applications": [
         "Industrial Power Supplies",
@@ -169,10 +166,7 @@
             "Output Current": "3A",
             "Switching Frequency": "570kHz fixed",
             "Efficiency": "Up to 95%",
-            "Package": "SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "Integrated 80mΩ high-side and 50mΩ low-side MOSFETs",
@@ -334,10 +328,7 @@
         "Clock Speed",
         "Flash/FRAM",
         "SRAM",
-        "GPIO",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "GPIO"
       ],
       "applications": [
         "Industrial Control",
@@ -425,10 +416,7 @@
             "Flash/FRAM": "64KB FRAM",
             "SRAM": "2KB",
             "GPIO": "32 pins",
-            "Package": "VQFN-40",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "VQFN-40"
           },
           "features": [
             "Ultra-low power consumption",
@@ -583,10 +571,7 @@
         "Offset Drift",
         "Bandwidth",
         "Supply Voltage",
-        "Noise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Noise"
       ],
       "applications": [
         "Industrial Automation",
@@ -675,10 +660,7 @@
             "Bandwidth": "14MHz",
             "Supply Voltage": "4.5V to 36V",
             "Noise": "12nV/√Hz",
-            "Package": "SOIC-8, VSSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, VSSOP-8"
           },
           "features": [
             "Zero-drift architecture",
@@ -829,9 +811,7 @@
         "Resolution",
         "Interface",
         "Supply Voltage",
-        "Active Current",
-        "Voltage Rating",
-        "Current Rating"
+        "Active Current"
       ],
       "applications": [
         "IoT Environmental Monitoring",
@@ -923,9 +903,7 @@
             "Resolution": "16-bit (0.0078°C)",
             "Interface": "I2C/SMBus",
             "Supply Voltage": "1.8V to 5.5V",
-            "Active Current": "3.5µA typical",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Active Current": "3.5µA typical"
           },
           "features": [
             "±0.1°C accuracy without calibration",

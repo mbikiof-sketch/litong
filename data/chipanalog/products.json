@@ -204,10 +204,7 @@
             "Propagation Delay": "13ns typical",
             "Supply Voltage": "2.5V to 5.5V (both sides)",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16, QSOP-16",
-            "Isolated Output Power": "N/A",
-            "Efficiency": "N/A",
-            "Delay Matching": "N/A"
+            "Package": "SOIC-16, QSOP-16"
           },
           "features": [
             "Reinforced isolation rated at 5kVrms",
@@ -379,10 +376,7 @@
             "Efficiency": "Up to 50%",
             "Propagation Delay": "15ns typical",
             "Supply Voltage": "3.3V or 5V input",
-            "Package": "SOIC-20, SSOP-20",
-            "CMTI": "N/A",
-            "Operating Temperature": "N/A",
-            "Delay Matching": "N/A"
+            "Package": "SOIC-20, SSOP-20"
           },
           "features": [
             "Integrated isolated DC-DC converter",
@@ -550,10 +544,7 @@
             "Propagation Delay": "12ns typical",
             "Supply Voltage": "2.5V to 5.5V (both sides)",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8, QSOP-8",
-            "Isolated Output Power": "N/A",
-            "Efficiency": "N/A",
-            "Delay Matching": "N/A"
+            "Package": "SOIC-8, QSOP-8"
           },
           "features": [
             "Reinforced isolation rated at 5kVrms",
@@ -645,9 +636,7 @@
             "Delay Matching": "<2ns between channels",
             "Supply Voltage": "2.5V to 5.5V (both sides)",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-20, QSOP-20",
-            "Isolated Output Power": "N/A",
-            "Efficiency": "N/A"
+            "Package": "SOIC-20, QSOP-20"
           },
           "features": [
             "Reinforced isolation rated at 5kVrms",
@@ -859,9 +848,7 @@
             "Propagation Delay": "70ns typical",
             "CMTI": ">100kV/μs",
             "UVLO Threshold": "12V (VCC2)",
-            "Package": "SOIC-16, DIP-16",
-            "Programmable Dead Time": "N/A",
-            "Delay Matching": "N/A"
+            "Package": "SOIC-16, DIP-16"
           },
           "features": [
             "Reinforced isolation 5kVrms",
@@ -1020,9 +1007,7 @@
             "Propagation Delay": "80ns typical",
             "Delay Matching": "<10ns between channels",
             "UVLO Threshold": "8V (VCC2)",
-            "Package": "SOIC-16, QSOP-16",
-            "Miller Clamp Current": "N/A",
-            "CMTI": "N/A"
+            "Package": "SOIC-16, QSOP-16"
           },
           "features": [
             "Dual channel half-bridge driver",
@@ -1184,9 +1169,7 @@
             "Propagation Delay": "60ns typical",
             "CMTI": ">150kV/μs",
             "UVLO Threshold": "12V (VCC2)",
-            "Package": "SOIC-16, DIP-16",
-            "Programmable Dead Time": "N/A",
-            "Delay Matching": "N/A"
+            "Package": "SOIC-16, DIP-16"
           },
           "features": [
             "Reinforced isolation 5kVrms",
@@ -1272,9 +1255,7 @@
             "Propagation Delay": "70ns typical",
             "Delay Matching": "<5ns between channels",
             "UVLO Threshold": "8V (VCC2)",
-            "Package": "SOIC-16, QSOP-16",
-            "Miller Clamp Current": "N/A",
-            "CMTI": "N/A"
+            "Package": "SOIC-16, QSOP-16"
           },
           "features": [
             "Dual channel half-bridge driver",
@@ -1485,14 +1466,7 @@
             "Input Range": "±250mV to ±2.5V",
             "Integral Nonlinearity": "±0.01% FS",
             "Offset Error": "±0.5mV",
-            "Package": "SOIC-16",
-            "Sensor Types": "N/A",
-            "Excitation Current": "N/A",
-            "Accuracy": "N/A",
-            "CJC Accuracy": "N/A",
-            "Gain": "N/A",
-            "Bandwidth": "N/A",
-            "Crosstalk": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "16-bit resolution with high accuracy",
@@ -1661,14 +1635,7 @@
             "Excitation Current": "100μA to 1mA",
             "Accuracy": "±0.1°C for RTD",
             "CJC Accuracy": "±0.5°C",
-            "Package": "SOIC-20",
-            "Input Channels": "N/A",
-            "Input Range": "N/A",
-            "Integral Nonlinearity": "N/A",
-            "Offset Error": "N/A",
-            "Gain": "N/A",
-            "Bandwidth": "N/A",
-            "Crosstalk": "N/A"
+            "Package": "SOIC-20"
           },
           "features": [
             "Optimized for temperature sensors",
@@ -1833,14 +1800,7 @@
             "Input Range": "±50mV to ±500mV",
             "Gain": "10x to 100x programmable",
             "Bandwidth": "50kHz",
-            "Package": "SOIC-16",
-            "Integral Nonlinearity": "N/A",
-            "Offset Error": "N/A",
-            "Sensor Types": "N/A",
-            "Excitation Current": "N/A",
-            "Accuracy": "N/A",
-            "CJC Accuracy": "N/A",
-            "Crosstalk": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "16-bit resolution with high speed",
@@ -1930,14 +1890,7 @@
             "Input Range": "±2.5V per channel",
             "Integral Nonlinearity": "±0.005% FS",
             "Crosstalk": "-80dB",
-            "Package": "SOIC-24",
-            "Offset Error": "N/A",
-            "Sensor Types": "N/A",
-            "Excitation Current": "N/A",
-            "Accuracy": "N/A",
-            "CJC Accuracy": "N/A",
-            "Gain": "N/A",
-            "Bandwidth": "N/A"
+            "Package": "SOIC-24"
           },
           "features": [
             "4-channel simultaneous sampling",
@@ -2149,12 +2102,7 @@
             "Nodes on Bus": "Up to 256",
             "Supply Voltage": "3.3V or 5V (logic side)",
             "Isolated Supply": "3.3V or 5V",
-            "Package": "SOIC-16, QSOP-16",
-            "CAN FD Data Rate": "N/A",
-            "Classic CAN Rate": "N/A",
-            "CMTI": "N/A",
-            "Isolated Output Power": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "SOIC-16, QSOP-16"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -2325,12 +2273,7 @@
             "Bus Protection": "±16kV ESD, ±58V fault",
             "CMTI": ">100kV/μs",
             "Supply Voltage": "3.3V or 5V (logic side)",
-            "Package": "SOIC-16, QSOP-16",
-            "Data Rate": "N/A",
-            "Nodes on Bus": "N/A",
-            "Isolated Supply": "N/A",
-            "Isolated Output Power": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "SOIC-16, QSOP-16"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -2498,13 +2441,7 @@
             "Isolated Output Power": "Up to 80mW",
             "Supply Voltage": "3.3V or 5V",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16",
-            "Bus Protection": "N/A",
-            "Nodes on Bus": "N/A",
-            "Isolated Supply": "N/A",
-            "CAN FD Data Rate": "N/A",
-            "Classic CAN Rate": "N/A",
-            "CMTI": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -2592,13 +2529,7 @@
             "Bus Protection": "±8kV ESD",
             "Supply Voltage": "3.3V or 5V (logic side)",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8",
-            "Nodes on Bus": "N/A",
-            "Isolated Supply": "N/A",
-            "CAN FD Data Rate": "N/A",
-            "Classic CAN Rate": "N/A",
-            "CMTI": "N/A",
-            "Isolated Output Power": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "5kVrms reinforced isolation",

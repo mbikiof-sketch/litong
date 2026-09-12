@@ -221,11 +221,7 @@
             "Operating Temperature": "-40C to +150C",
             "Isolation Voltage": "2500V AC",
             "Package": "EconoDUAL",
-            "RthJC": "0.35C/W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "RthJC": "0.35C/W"
           },
           "faeReview": {
             "author": "Michael Zhang",
@@ -413,11 +409,7 @@
             "Operating Temperature": "-40C to +150C",
             "Isolation Voltage": "2500V AC",
             "Package": "EconoDUAL",
-            "RthJC": "0.28C/W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "RthJC": "0.28C/W"
           },
           "faeReview": {
             "author": "Michael Zhang",
@@ -574,13 +566,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Collector-Emitter Voltage (Vces)": "N/A",
-            "Continuous Collector Current (Ic)": "N/A",
-            "Vce(sat) typical": "N/A",
-            "Switching Frequency": "N/A",
-            "Operating Temperature": "N/A",
-            "Isolation Voltage": "N/A",
-            "RthJC": "N/A",
             "Specifications": "1200V 600A"
           },
           "features": [
@@ -600,53 +585,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
@@ -709,13 +649,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Collector-Emitter Voltage (Vces)": "N/A",
-            "Continuous Collector Current (Ic)": "N/A",
-            "Vce(sat) typical": "N/A",
-            "Switching Frequency": "N/A",
-            "Operating Temperature": "N/A",
-            "Isolation Voltage": "N/A",
-            "RthJC": "N/A",
             "Specifications": "1200V 450A"
           },
           "features": [
@@ -735,53 +668,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
@@ -863,10 +751,7 @@
         "Switching Frequency",
         "Operating Temperature",
         "Isolation Voltage",
-        "RthJC",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "RthJC"
       ],
       "selectionGuide": {
         "title": "How to Select Xinleineng SiC Modules",
@@ -990,10 +875,7 @@
             "Operating Temperature": "-40C to +175C",
             "Isolation Voltage": "2500V AC",
             "Package": "EasyPACK",
-            "RthJC": "0.45C/W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "RthJC": "0.45C/W"
           },
           "faeReview": {
             "author": "Dr. Sarah Liu",
@@ -1182,10 +1064,7 @@
             "Operating Temperature": "-40C to +175C",
             "Isolation Voltage": "2500V AC",
             "Package": "EasyPACK",
-            "RthJC": "0.35C/W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "RthJC": "0.35C/W"
           },
           "faeReview": {
             "author": "Dr. Sarah Liu",
@@ -1358,8 +1237,7 @@
         "Current Rating",
         "Switching Frequency",
         "Isolation Voltage",
-        "Operating Temperature",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "selectionGuide": {
         "title": "How to Select Xinleineng IPM Modules",
@@ -1480,8 +1358,7 @@
             "Switching Frequency": "5-20kHz",
             "Isolation Voltage": "1500V AC",
             "Operating Temperature": "-20C to +100C",
-            "Package": "DIP-24",
-            "Temperature Range": "N/A"
+            "Package": "DIP-24"
           },
           "faeReview": {
             "author": "David Wang",
@@ -1652,8 +1529,7 @@
             "Switching Frequency": "5-20kHz",
             "Isolation Voltage": "1500V AC",
             "Operating Temperature": "-20C to +100C",
-            "Package": "DIP-24",
-            "Temperature Range": "N/A"
+            "Package": "DIP-24"
           },
           "faeReview": {
             "author": "David Wang",
@@ -1811,8 +1687,7 @@
         "Current Rating",
         "Forward Voltage VF",
         "Recovery Time",
-        "Operating Temperature",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "selectionGuide": {
         "title": "How to Select Xinleineng Rectifier Modules",
@@ -1931,8 +1806,7 @@
             "Forward Voltage VF": "1.2V @ 25A",
             "Recovery Time": "<200ns",
             "Operating Temperature": "-40C to +150C",
-            "Package": "34mm",
-            "Temperature Range": "N/A"
+            "Package": "34mm"
           },
           "faeReview": {
             "author": "Michael Zhang",
@@ -2101,8 +1975,7 @@
             "Forward Voltage VF": "1.0V @ 50A",
             "Recovery Time": "<200ns",
             "Operating Temperature": "-40C to +150C",
-            "Package": "62mm",
-            "Temperature Range": "N/A"
+            "Package": "62mm"
           },
           "faeReview": {
             "author": "Michael Zhang",

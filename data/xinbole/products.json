@@ -162,13 +162,7 @@
             "Control Interface": "Step/Dir or Serial",
             "Integrated Controller": "Yes",
             "Protection": "OCP, OTP, UVLO",
-            "Package": "TQFP-48",
-            "RDS(on)": "N/A",
-            "PWM Frequency": "N/A",
-            "Current Sensing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TQFP-48"
           },
           "features": [
             "Advanced microstepping up to 1/32 for smooth motion",
@@ -309,13 +303,7 @@
             "PWM Frequency": "Up to 100kHz",
             "Current Sensing": "Integrated",
             "Protection": "OCP, OTP, UVLO",
-            "Package": "HTSSOP-28",
-            "Microstepping": "N/A",
-            "Control Interface": "N/A",
-            "Integrated Controller": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "HTSSOP-28"
           },
           "features": [
             "Dual H-bridge for two DC motors",
@@ -450,10 +438,7 @@
         "Protection",
         "RDS(on)",
         "PWM Frequency",
-        "Current Sensing",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Current Sensing"
       ]
     },
     {
@@ -556,14 +541,7 @@
             "Switching Frequency": "300kHz to 1MHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "50μA typical",
-            "Package": "ESOP-8",
-            "Type": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "ESOP-8"
           },
           "features": [
             "High efficiency up to 95%",
@@ -704,14 +682,7 @@
             "Dropout Voltage": "120mV at 300mA",
             "Output Noise": "10μVRMS (10Hz-100kHz)",
             "PSRR": "70dB at 1kHz",
-            "Package": "SOT-23-5",
-            "Topology": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Ultra-low output noise 10μVRMS",
@@ -847,10 +818,7 @@
         "Type",
         "Dropout Voltage",
         "Output Noise",
-        "PSRR",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "PSRR"
       ]
     },
     {
@@ -954,15 +922,7 @@
             "Input Bias Current": "2nA typical",
             "CMRR": "120dB min",
             "Supply Voltage": "±5V to ±18V",
-            "Package": "SOIC-8",
-            "Propagation Delay": "N/A",
-            "Input Offset": "N/A",
-            "Input Range": "N/A",
-            "Output Type": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "Ultra-low offset voltage 50μV max",
@@ -1113,16 +1073,7 @@
             "Supply Voltage": "2.7V to 5.5V",
             "Output Type": "Push-pull",
             "Quiescent Current": "1mA typical",
-            "Package": "SOT-23-5",
-            "Input Offset Voltage": "N/A",
-            "Offset Drift": "N/A",
-            "GBW": "N/A",
-            "Slew Rate": "N/A",
-            "Input Bias Current": "N/A",
-            "CMRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Fast 50ns propagation delay",
@@ -1265,10 +1216,7 @@
         "Input Offset",
         "Input Range",
         "Output Type",
-        "Quiescent Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Quiescent Current"
       ]
     },
     {
@@ -1371,12 +1319,7 @@
             "Supply Voltage": "3.3V or 5V",
             "Nodes on Bus": "Up to 256",
             "Quiescent Current": "1mA typical",
-            "Package": "SOIC-8",
-            "Bus Protection": "N/A",
-            "Standby Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "High ESD protection ±15kV",
@@ -1527,12 +1470,7 @@
             "Supply Voltage": "5V ±10%",
             "Standby Current": "10μA typical",
             "Common Mode Range": "±12V",
-            "Package": "SOIC-8",
-            "Nodes on Bus": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "High-speed CAN up to 1Mbps",
@@ -1676,10 +1614,7 @@
         "Nodes on Bus",
         "Quiescent Current",
         "Bus Protection",
-        "Standby Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Standby Current"
       ]
     }
   ]

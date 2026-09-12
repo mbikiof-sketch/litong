@@ -86,7 +86,6 @@
         "ECC",
         "Operating Temperature",
         "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "longDescription": "SK Hynix DRAM products deliver industry-leading performance and reliability for diverse computing applications. The portfolio includes DDR4 and DDR5 for servers and PCs, LPDDR4X and LPDDR5 for mobile devices, and automotive-grade DRAM for vehicle applications. Key features include high-speed operation with DDR5 reaching 4800MT/s and beyond, low power consumption with LPDDR5 offering significant power savings, wide capacity range from 4GB to 128GB per module, advanced reliability features including on-die ECC, and automotive qualification for harsh environments. As an authorized distributor, we provide comprehensive DRAM selection guidance and technical support.",
@@ -207,10 +206,7 @@
             "Organization": "2Rx4",
             "ECC": "Yes",
             "Package": "288-pin RDIMM",
-            "Operating Temperature": "0C to +85C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +85C"
           },
           "features": [
             "32GB high-capacity DDR4 memory",
@@ -361,10 +357,7 @@
             "Organization": "2Rx4",
             "ECC": "On-die ECC",
             "Package": "288-pin RDIMM",
-            "Operating Temperature": "0C to +85C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +85C"
           },
           "features": [
             "64GB ultra-high capacity DDR5 memory",
@@ -517,7 +510,6 @@
             "ECC": "Yes",
             "Operating Temperature": "0C to +85C",
             "Voltage Rating": "1.2V",
-            "Current Rating": "N/A",
             "Temperature Range": "0C to +85C"
           },
           "features": [
@@ -613,7 +605,6 @@
             "ECC": "Yes (on-die + standard)",
             "Operating Temperature": "0C to +85C",
             "Voltage Rating": "1.1V",
-            "Current Rating": "N/A",
             "Temperature Range": "0C to +85C"
           },
           "features": [
@@ -704,10 +695,7 @@
         "Voltage",
         "Page Size",
         "Block Size",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "longDescription": "SK Hynix NAND Flash products deliver high-density, reliable storage solutions for diverse applications. The 3D NAND technology enables vertical stacking of memory cells, achieving higher densities and better performance than planar NAND. The portfolio includes TLC (Triple-Level Cell) for balanced performance and cost, and QLC (Quad-Level Cell) for high-capacity read-intensive applications. Key features include high densities from 128Gb to 1Tb per die, fast interface speeds supporting Toggle and ONFI protocols, robust error correction and data retention, wide operating temperature ranges, and multiple package options for flexible integration. As an authorized distributor, we provide NAND Flash selection guidance and technical support.",
       "image": "/assets/brands/sk-hynix/nand-flash.jpg",
@@ -829,10 +817,7 @@
             "Package": "BGA-152",
             "Page Size": "16KB",
             "Block Size": "4MB",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "512Gb high-density 3D TLC NAND",
@@ -984,10 +969,7 @@
             "Package": "BGA-272",
             "Page Size": "16KB",
             "Block Size": "4MB",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "1Tb ultra-high density 3D TLC NAND",
@@ -1139,10 +1121,7 @@
             "Package": "BGA-152",
             "Page Size": "16KB",
             "Block Size": "2MB",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "256Gb density for mainstream SSDs",
@@ -1223,10 +1202,7 @@
             "Package": "BGA-132",
             "Page Size": "16KB",
             "Block Size": "2MB",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "128Gb density for cost-optimized designs",
@@ -1299,9 +1275,6 @@
         "Random Write IOPS",
         "Endurance",
         "Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Operating Temperature"
       ],
       "longDescription": "SK Hynix SSD products deliver high-performance, reliable storage solutions for enterprise and client applications. The portfolio includes NVMe SSDs for high-performance computing, SATA SSDs for cost-effective storage, and client SSDs for consumer devices. Key features include high sequential and random performance, advanced error correction and data protection, end-to-end data path protection, power loss protection options, and enterprise-grade reliability with high TBW ratings. As an authorized distributor, we provide SSD selection guidance and technical support.",
@@ -1423,11 +1396,7 @@
             "Random Read IOPS": "Up to 1,000K IOPS",
             "Random Write IOPS": "Up to 200K IOPS",
             "Endurance": "1 DWPD (7TBW for 5 years)",
-            "Power": "8.25W typical, 12W peak",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Operating Temperature": "N/A"
+            "Power": "8.25W typical, 12W peak"
           },
           "features": [
             "PCIe Gen4 x4 high-speed interface",
@@ -1579,11 +1548,7 @@
             "Random Read IOPS": "Up to 800K IOPS",
             "Random Write IOPS": "Up to 100K IOPS",
             "Endurance": "1 DWPD (14TBW for 5 years)",
-            "Power": "10W typical, 15W peak",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Operating Temperature": "N/A"
+            "Power": "10W typical, 15W peak"
           },
           "features": [
             "7.68TB maximum enterprise capacity",
@@ -1736,10 +1701,7 @@
             "Random Write IOPS": "120K",
             "Endurance": "3.5 DWPD / 12.4PBW",
             "Power": "7W typical, 10W max",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "1.92TB capacity for mainstream enterprise",
@@ -1818,10 +1780,7 @@
             "Random Write IOPS": "32K",
             "Endurance": "1 DWPD / 876TBW",
             "Power": "2.5W typical, 4W max",
-            "Operating Temperature": "0C to +70C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +70C"
           },
           "features": [
             "480GB capacity for boot and light storage",
@@ -1894,9 +1853,6 @@
         "Data Rate",
         "Bandwidth",
         "Voltage",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Operating Temperature"
       ],
       "longDescription": "SK Hynix HBM (High Bandwidth Memory) delivers extreme memory bandwidth for demanding AI, HPC, and graphics applications. The 3D-stacked memory architecture provides massive bandwidth in a compact form factor. SK Hynix offers HBM2E and HBM3 generations with capacities from 8GB to 24GB and bandwidth up to 1.5TB/s. As an authorized distributor, we provide HBM selection guidance and technical support for AI accelerator and GPU designs.",
@@ -2017,11 +1973,7 @@
             "Data Rate": "3.2GT/s per pin",
             "Bandwidth": "Up to 1TB/s",
             "Voltage": "1.2V",
-            "Package": "2.5D SiP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "2.5D SiP"
           },
           "features": [
             "16GB HBM2E memory stack",
@@ -2173,11 +2125,7 @@
             "Data Rate": "6.4GT/s per pin",
             "Bandwidth": "Up to 1.5TB/s",
             "Voltage": "1.1V",
-            "Package": "2.5D SiP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "2.5D SiP"
           },
           "features": [
             "24GB HBM3 memory stack",
@@ -2329,10 +2277,7 @@
             "Data Rate": "2.0GT/s per pin",
             "Bandwidth": "460GB/s",
             "Voltage": "1.2V",
-            "Operating Temperature": "0C to +95C (Tcase)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +95C (Tcase)"
           },
           "features": [
             "8GB capacity with 4-layer stacking",
@@ -2407,10 +2352,7 @@
             "Data Rate": "6.4GT/s per pin",
             "Bandwidth": "1.2TB/s",
             "Voltage": "1.1V",
-            "Operating Temperature": "0C to +105C (Tcase)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0C to +105C (Tcase)"
           },
           "features": [
             "16GB capacity with 12-layer stacking",

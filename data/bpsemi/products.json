@@ -164,13 +164,7 @@
             "Switching Frequency": "Critical conduction mode",
             "Integrated MOSFET": "500V",
             "Efficiency": ">90%",
-            "Package": "SOP-8",
-            "Power Factor": "N/A",
-            "THD": "N/A",
-            "Topology": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Integrated 500V power MOSFET",
@@ -313,12 +307,7 @@
             "Current Accuracy": "±3%",
             "Switching Frequency": "65kHz",
             "Topology": "Flyback / Buck-boost",
-            "Package": "SOP-16",
-            "Integrated MOSFET": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-16"
           },
           "features": [
             "Active power factor correction",
@@ -454,10 +443,7 @@
         "Efficiency",
         "Power Factor",
         "THD",
-        "Topology",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Topology"
       ]
     },
     {
@@ -561,12 +547,7 @@
             "Standby Power": "<75mW",
             "CV Accuracy": "±1%",
             "CC Accuracy": "±5%",
-            "Package": "SOP-8",
-            "Efficiency": "N/A",
-            "MOSFET Drive": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Integrated 700V power MOSFET",
@@ -709,13 +690,7 @@
             "Standby Power": "<50mW",
             "Efficiency": ">90% at full load",
             "MOSFET Drive": "External",
-            "Package": "SOT23-6",
-            "Integrated MOSFET": "N/A",
-            "CV Accuracy": "N/A",
-            "CC Accuracy": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-6"
           },
           "features": [
             "Quasi-resonant valley switching",
@@ -851,10 +826,7 @@
         "CV Accuracy",
         "CC Accuracy",
         "Efficiency",
-        "MOSFET Drive",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "MOSFET Drive"
       ]
     },
     {
@@ -957,10 +929,7 @@
             "Switching Frequency": "500kHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "<1mA",
-            "Package": "SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -1102,10 +1071,7 @@
             "Switching Frequency": "100kHz-1MHz",
             "Efficiency": "Up to 94%",
             "Quiescent Current": "<2mA",
-            "Package": "ESOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "ESOP-8"
           },
           "features": [
             "Wide input voltage range 6V-100V",
@@ -1238,10 +1204,7 @@
         "Output Voltage",
         "Switching Frequency",
         "Efficiency",
-        "Quiescent Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Quiescent Current"
       ]
     },
     {
@@ -1346,11 +1309,7 @@
             "Continuous Current": "1.5A per bridge",
             "Rds(on)": "280mΩ (typ)",
             "Control Interface": "Logic/PWM",
-            "Package": "SSOP-24",
-            "Microstepping": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SSOP-24"
           },
           "features": [
             "Dual H-bridge configuration",
@@ -1498,11 +1457,7 @@
             "Continuous Current": "1.8A per phase",
             "Microstepping": "Full, 1/2, 1/4, 1/8, 1/16",
             "Rds(on)": "320mΩ (typ)",
-            "Package": "TQFP-48",
-            "Control Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TQFP-48"
           },
           "features": [
             "Up to 1/16 microstepping resolution",
@@ -1648,10 +1603,7 @@
         "Continuous Current",
         "Rds(on)",
         "Control Interface",
-        "Microstepping",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Microstepping"
       ]
     }
   ]

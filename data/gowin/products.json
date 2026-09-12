@@ -162,10 +162,7 @@
             "Package": "QN48 (6x6mm)",
             "Core Voltage": "1.2V",
             "I/O Voltage": "1.2V - 3.3V",
-            "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Embedded SDRAM": "N/A"
+            "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C"
           },
           "features": [
             "Ultra-low static power consumption",
@@ -345,10 +342,7 @@
             "Package": "QN48/QN64/QN88",
             "Core Voltage": "1.2V",
             "I/O Voltage": "1.2V - 3.3V",
-            "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Embedded SDRAM": "N/A"
+            "Temperature Range": "C6: 0°C to +85°C, I5: -40°C to +100°C"
           },
           "features": [
             "Maximum logic capacity in LittleBee family",
@@ -530,8 +524,7 @@
             "Static Power": "<50μA",
             "I/O Count": "42",
             "Core Voltage": "1.2V",
-            "I/O Voltage": "1.2V-3.3V",
-            "Embedded SDRAM": "N/A"
+            "I/O Voltage": "1.2V-3.3V"
           },
           "features": [
             "8,640 LUT4 logic elements",
@@ -556,53 +549,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the logic capacity of GW1N-LV9?",
@@ -672,53 +620,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the advantage of embedded SDRAM in GW1NR-LV9?",
@@ -847,10 +750,7 @@
             "Package": "QN88 (10x10mm)",
             "Core Voltage": "1.0V",
             "I/O Voltage": "1.2V - 3.3V",
-            "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "SerDes": "N/A"
+            "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C"
           },
           "features": [
             "High logic density for complex designs",
@@ -1033,10 +933,7 @@
             "Package": "QN132 (14x14mm)",
             "Core Voltage": "1.0V",
             "I/O Voltage": "1.2V - 3.3V",
-            "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "SerDes": "N/A"
+            "Temperature Range": "C8: 0°C to +85°C, I7: -40°C to +100°C"
           },
           "features": [
             "Maximum logic capacity in Arora family",
@@ -1221,8 +1118,7 @@
             "Block RAM": "828Kbit",
             "I/O Count": "207",
             "Core Voltage": "1.0V",
-            "I/O Voltage": "1.2V-3.3V",
-            "SerDes": "N/A"
+            "I/O Voltage": "1.2V-3.3V"
           },
           "features": [
             "18,720 LUT4 logic elements",
@@ -1247,53 +1143,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What DSP capabilities does GW2A-LV18 offer?",
@@ -1353,53 +1204,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What high-speed interfaces does GW2A-LV55 support?",
@@ -1540,23 +1346,7 @@
             "I/O Expansion": "2x 20-pin GPIO headers",
             "Clock": "24MHz onboard oscillator",
             "Dimensions": "45mm x 22mm",
-            "Price": "Very affordable (< $10)",
-            "Embedded SDRAM": "N/A",
-            "Video Interface": "N/A",
-            "Camera Interface": "N/A",
-            "Storage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "FPGA": "N/A",
-            "Embedded Memory": "N/A",
-            "Video Output": "N/A",
-            "Programming": "N/A",
-            "GPIO": "N/A",
-            "Power": "N/A",
-            "External Memory": "N/A",
-            "PCIe Interface": "N/A",
-            "High-Speed I/O": "N/A"
+            "Price": "Very affordable (< $10)"
           },
           "features": [
             "Ultra-compact form factor",
@@ -1738,22 +1528,7 @@
             "USB Interface": "USB Type-C (programming and power)",
             "Storage": "Micro SD card slot",
             "I/O Expansion": "Multiple GPIO headers",
-            "Dimensions": "65mm x 40mm",
-            "Onboard Peripherals": "N/A",
-            "Clock": "N/A",
-            "Price": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "FPGA": "N/A",
-            "Embedded Memory": "N/A",
-            "Video Output": "N/A",
-            "Programming": "N/A",
-            "GPIO": "N/A",
-            "Power": "N/A",
-            "External Memory": "N/A",
-            "PCIe Interface": "N/A",
-            "High-Speed I/O": "N/A"
+            "Dimensions": "65mm x 40mm"
           },
           "features": [
             "High-capacity FPGA for complex projects",
@@ -1933,27 +1708,13 @@
             "Current Rating": "1A",
             "Temperature Range": "0°C to +70°C (Commercial)",
             "Package": "SOP-8",
-            "FPGA Device": "N/A",
-            "Logic Elements": "N/A",
-            "USB Interface": "N/A",
-            "Onboard Peripherals": "N/A",
-            "I/O Expansion": "N/A",
-            "Clock": "N/A",
             "Dimensions": "58x22mm",
-            "Price": "N/A",
-            "Embedded SDRAM": "N/A",
-            "Video Interface": "N/A",
-            "Camera Interface": "N/A",
-            "Storage": "N/A",
             "FPGA": "GW2AR-LV18 (18,720 LUTs)",
             "Embedded Memory": "64Mbit SDRAM",
             "Video Output": "HDMI (1080p60)",
             "Programming": "USB-C ( onboard programmer)",
             "GPIO": "40-pin header (2x20)",
-            "Power": "USB-C 5V",
-            "External Memory": "N/A",
-            "PCIe Interface": "N/A",
-            "High-Speed I/O": "N/A"
+            "Power": "USB-C 5V"
           },
           "features": [
             "GW2AR-LV18 FPGA (18K LUTs)",
@@ -1978,53 +1739,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What video resolutions does Tang Nano 20K support?",
@@ -2052,27 +1768,14 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "FPGA Device": "N/A",
-            "Logic Elements": "N/A",
-            "USB Interface": "N/A",
-            "Onboard Peripherals": "N/A",
-            "I/O Expansion": "N/A",
-            "Clock": "N/A",
             "Dimensions": "120x80mm",
-            "Price": "N/A",
-            "Embedded SDRAM": "N/A",
-            "Video Interface": "N/A",
-            "Camera Interface": "N/A",
             "Storage": "Micro SD card slot",
             "FPGA": "GW5AT-LV138 (138,240 LUTs)",
             "External Memory": "2GB DDR3",
             "PCIe Interface": "Gen2 x4",
             "Programming": "JTAG + USB-C",
             "High-Speed I/O": "SMA connectors, FMC connector",
-            "Power": "12V DC adapter",
-            "Embedded Memory": "N/A",
-            "Video Output": "N/A",
-            "GPIO": "N/A"
+            "Power": "12V DC adapter"
           },
           "features": [
             "GW5AT-LV138 FPGA (138K LUTs)",
@@ -2097,53 +1800,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What makes Tang Nano 138K Pro suitable for AI development?",
@@ -2287,28 +1945,7 @@
             "Data Types": "RAW8/10/12, RGB888, YUV422",
             "Output Interface": "AXI4-Stream or parallel",
             "Resource Usage": "~500-800 LUTs (varies by configuration)",
-            "License": "Free with Gowin FPGA purchase",
-            "Data Width": "N/A",
-            "Memory Density": "N/A",
-            "User Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Architecture": "N/A",
-            "Pipeline": "N/A",
-            "Max Frequency": "N/A",
-            "Core Size": "N/A",
-            "DMIPS": "N/A",
-            "FPU": "N/A",
-            "Cache": "N/A",
-            "Debug": "N/A",
-            "MAC Units": "N/A",
-            "Precision": "N/A",
-            "On-chip Memory": "N/A",
-            "Throughput": "N/A",
-            "Latency": "N/A",
-            "Power": "N/A",
-            "Supported Networks": "N/A"
+            "License": "Free with Gowin FPGA purchase"
           },
           "features": [
             "Compliant with MIPI CSI-2 specification",
@@ -2484,28 +2121,7 @@
             "Memory Density": "256Mb to 8Gb support",
             "User Interface": "AXI4 or simple FIFO",
             "Resource Usage": "~2000-3000 LUTs",
-            "License": "Free with Arora FPGA purchase",
-            "Data Lanes": "N/A",
-            "Data Types": "N/A",
-            "Output Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Architecture": "N/A",
-            "Pipeline": "N/A",
-            "Max Frequency": "N/A",
-            "Core Size": "N/A",
-            "DMIPS": "N/A",
-            "FPU": "N/A",
-            "Cache": "N/A",
-            "Debug": "N/A",
-            "MAC Units": "N/A",
-            "Precision": "N/A",
-            "On-chip Memory": "N/A",
-            "Throughput": "N/A",
-            "Latency": "N/A",
-            "Power": "N/A",
-            "Supported Networks": "N/A"
+            "License": "Free with Arora FPGA purchase"
           },
           "features": [
             "JEDEC DDR3 compliant interface",
@@ -2681,16 +2297,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Standard": "N/A",
-            "Data Lanes": "N/A",
-            "Data Rate": "N/A",
-            "Data Types": "N/A",
-            "Output Interface": "N/A",
-            "Resource Usage": "N/A",
-            "License": "N/A",
-            "Data Width": "N/A",
-            "Memory Density": "N/A",
-            "User Interface": "N/A",
             "Architecture": "32-bit RISC-V RV32IMACF",
             "Pipeline": "5-stage",
             "Max Frequency": "100-150 MHz (device dependent)",
@@ -2698,14 +2304,7 @@
             "DMIPS": "1.5 DMIPS/MHz",
             "FPU": "Optional single-precision",
             "Cache": "Configurable I/D cache (0-32KB)",
-            "Debug": "JTAG + GDB support",
-            "MAC Units": "N/A",
-            "Precision": "N/A",
-            "On-chip Memory": "N/A",
-            "Throughput": "N/A",
-            "Latency": "N/A",
-            "Power": "N/A",
-            "Supported Networks": "N/A"
+            "Debug": "JTAG + GDB support"
           },
           "features": [
             "RISC-V RV32IMACF ISA compatible",
@@ -2730,53 +2329,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What RISC-V extensions are supported?",
@@ -2815,16 +2369,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Standard": "N/A",
-            "Data Lanes": "N/A",
-            "Data Rate": "N/A",
-            "Data Types": "N/A",
-            "Output Interface": "N/A",
-            "Resource Usage": "N/A",
-            "License": "N/A",
-            "Data Width": "N/A",
-            "Memory Density": "N/A",
-            "User Interface": "N/A",
             "Architecture": "Systolic array CNN accelerator",
             "MAC Units": "64-1024 configurable",
             "Precision": "INT8 (weights/activations)",
@@ -2832,14 +2376,7 @@
             "Throughput": "Up to 100 GOPS",
             "Latency": "<10ms typical",
             "Power": "<1W typical",
-            "Supported Networks": "MobileNet, ResNet, Custom",
-            "Pipeline": "N/A",
-            "Max Frequency": "N/A",
-            "Core Size": "N/A",
-            "DMIPS": "N/A",
-            "FPU": "N/A",
-            "Cache": "N/A",
-            "Debug": "N/A"
+            "Supported Networks": "MobileNet, ResNet, Custom"
           },
           "features": [
             "Configurable systolic array architecture",
@@ -2864,53 +2401,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What neural networks are supported?",

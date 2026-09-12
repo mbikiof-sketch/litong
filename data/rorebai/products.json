@@ -86,8 +86,6 @@
         "Interface",
         "INL",
         "DNL",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Update Rate",
         "Output",
@@ -182,20 +180,7 @@
             "Power Consumption": "380 mW",
             "Input Range": "1.5Vpp differential",
             "Interface": "LVDS / SPI",
-            "Package": "7x7mm QFN-48",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Update Rate": "N/A",
-            "Output": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset": "N/A",
-            "Input Noise": "N/A",
-            "Supply Voltage": "N/A",
-            "Supply Current": "N/A"
+            "Package": "7x7mm QFN-48"
           },
           "features": [
             "High 250MSPS sampling rate",
@@ -354,20 +339,7 @@
             "Power Consumption": "15 mW",
             "Input Range": "0-VREF or ±VREF/2",
             "Interface": "SPI",
-            "Package": "4x4mm QFN-24",
-            "SFDR": "N/A",
-            "ENOB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Update Rate": "N/A",
-            "Output": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset": "N/A",
-            "Input Noise": "N/A",
-            "Supply Voltage": "N/A",
-            "Supply Current": "N/A"
+            "Package": "4x4mm QFN-24"
           },
           "features": [
             "High 16-bit resolution",
@@ -471,20 +443,7 @@
             "Output": "Differential current",
             "Interface": "LVDS",
             "Package": "7x7mm QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Sampling Rate": "N/A",
-            "ENOB": "N/A",
-            "Input Range": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset": "N/A",
-            "Input Noise": "N/A",
-            "Supply Voltage": "N/A",
-            "Supply Current": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "High 250MSPS update rate",
@@ -569,20 +528,7 @@
             "Supply Current": "2.5 mA",
             "Output": "Rail-to-rail",
             "Package": "SOT23-5, SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +125°C",
-            "Resolution": "N/A",
-            "Sampling Rate": "N/A",
-            "SNR": "N/A",
-            "SFDR": "N/A",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Input Range": "N/A",
-            "Interface": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Update Rate": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Low 50μV offset voltage",
@@ -672,8 +618,6 @@
         "Power Consumption",
         "Output",
         "Interface",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "applications": [
@@ -715,8 +659,6 @@
             "Output": "Differential current",
             "Interface": "LVDS",
             "Package": "7x7mm QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +85°C"
           },
           "features": [
@@ -761,8 +703,6 @@
             "Output": "Current",
             "Interface": "CMOS/LVDS",
             "Package": "5x5mm QFN-32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +85°C"
           },
           "features": [
@@ -807,8 +747,6 @@
             "Output": "Differential current",
             "Interface": "JESD204B",
             "Package": "10x10mm BGA-144",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +85°C"
           },
           "features": [
@@ -854,8 +792,6 @@
             "Output": "Differential current",
             "Interface": "CMOS",
             "Package": "6x6mm QFN-40",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +85°C"
           },
           "features": [
@@ -905,8 +841,6 @@
         "EVM",
         "Power Consumption",
         "Supply Voltage",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Rx Sensitivity",
         "Data Rate"
@@ -950,11 +884,7 @@
             "Power Consumption": "2.5 W",
             "Supply Voltage": "3.3V",
             "Package": "10x10mm QFN-72",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Rx Sensitivity": "N/A",
-            "Data Rate": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Wide 600MHz-6GHz frequency range",
@@ -998,12 +928,7 @@
             "Power Consumption": "15 mA Tx, 12 mA Rx",
             "Supply Voltage": "1.8V - 3.6V",
             "Package": "4x4mm QFN-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Rx Noise Figure": "N/A",
-            "Phase Noise": "N/A",
-            "EVM": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Low power consumption",
@@ -1048,12 +973,7 @@
             "Power Consumption": "350 mA",
             "Supply Voltage": "3.3V",
             "Package": "6x6mm QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-20°C to +70°C",
-            "Rx Noise Figure": "N/A",
-            "Phase Noise": "N/A",
-            "EVM": "N/A"
+            "Temperature Range": "-20°C to +70°C"
           },
           "features": [
             "802.11a/n/ac support",
@@ -1096,12 +1016,7 @@
             "Power Consumption": "12 mA Tx, 9 mA Rx",
             "Supply Voltage": "1.8V - 3.6V",
             "Package": "5x5mm QFN-32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Rx Noise Figure": "N/A",
-            "Phase Noise": "N/A",
-            "EVM": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Sub-1GHz for long range",
@@ -1152,8 +1067,6 @@
         "Supply Current",
         "CMRR",
         "PSRR",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Offset Drift"
       ],
@@ -1198,10 +1111,7 @@
             "CMRR": "100 dB",
             "PSRR": "95 dB",
             "Package": "SOT23-5, SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +125°C",
-            "Offset Drift": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Low 50μV offset voltage",
@@ -1247,8 +1157,6 @@
             "CMRR": "130 dB",
             "PSRR": "120 dB",
             "Package": "SOT23-5, SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +125°C"
           },
           "features": [
@@ -1295,10 +1203,7 @@
             "CMRR": "95 dB",
             "PSRR": "90 dB",
             "Package": "SOIC-8, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Offset Drift": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "High 100MHz bandwidth",
@@ -1344,10 +1249,7 @@
             "CMRR": "110 dB",
             "PSRR": "105 dB",
             "Package": "SOT23-5, SC70-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Offset Drift": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Ultra-low 20μA supply current",

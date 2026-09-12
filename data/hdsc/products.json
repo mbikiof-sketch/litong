@@ -104,9 +104,6 @@
         "ADC",
         "LCD",
         "USB",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Frequency",
         "SRAM",
         "LCD Driver",
@@ -266,15 +263,7 @@
             "Active Current": "35μA/MHz",
             "ADC": "12-bit, 1Msps, 24ch",
             "LCD": "8COM x 36SEG",
-            "Package": "LQFP64",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "SRAM": "N/A",
-            "LCD Driver": "N/A",
-            "GPIO": "N/A"
+            "Package": "LQFP64"
           },
           "features": [
             "128KB Flash, 16KB RAM",
@@ -374,14 +363,7 @@
             "ADC": "12-bit, 1Msps, 24ch",
             "LCD": "8COM x 36SEG",
             "USB": "Full-speed Device",
-            "Package": "LQFP64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "SRAM": "N/A",
-            "LCD Driver": "N/A",
-            "GPIO": "N/A"
+            "Package": "LQFP64"
           },
           "features": [
             "256KB Flash, 32KB RAM",
@@ -488,13 +470,7 @@
             "ADC": "12-bit, 16 channels",
             "LCD Driver": "4x40 segments",
             "GPIO": "Up to 56",
-            "Package": "LQFP64/QFN48",
-            "RAM": "N/A",
-            "LCD": "N/A",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP64/QFN48"
           },
           "features": [
             "0.9uA ultra-low standby current",
@@ -573,13 +549,7 @@
             "ADC": "12-bit, 16 channels",
             "LCD Driver": "4x36 segments",
             "GPIO": "Up to 52",
-            "Package": "LQFP64",
-            "RAM": "N/A",
-            "LCD": "N/A",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP64"
           },
           "features": [
             "0.7uA ultra-low standby",
@@ -662,9 +632,6 @@
         "ADC",
         "Motor Control",
         "CAN-FD",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Frequency",
         "SRAM",
         "Ethernet",
@@ -827,19 +794,7 @@
             "Clock": "240MHz",
             "FPU": "Yes",
             "ADC": "12-bit, 2.5Msps",
-            "Package": "LQFP64",
-            "Motor Control": "N/A",
-            "CAN-FD": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "SRAM": "N/A",
-            "Ethernet": "N/A",
-            "USB": "N/A",
-            "CAN": "N/A",
-            "Timers": "N/A",
-            "GPIO": "N/A"
+            "Package": "LQFP64"
           },
           "features": [
             "240MHz Cortex-M4 with FPU",
@@ -949,17 +904,7 @@
             "ADC": "12-bit, 2.5Msps, 16ch",
             "Motor Control": "Advanced timers",
             "CAN-FD": "Yes, 2 channels",
-            "Package": "LQFP64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "SRAM": "N/A",
-            "Ethernet": "N/A",
-            "USB": "N/A",
-            "CAN": "N/A",
-            "Timers": "N/A",
-            "GPIO": "N/A"
+            "Package": "LQFP64"
           },
           "features": [
             "200MHz Cortex-M4 with FPU",
@@ -1067,16 +1012,7 @@
             "USB": "USB OTG FS",
             "CAN": "2x CAN 2.0B",
             "Timers": "Advanced motor control",
-            "Package": "LQFP100/LQFP64",
-            "RAM": "N/A",
-            "Clock": "N/A",
-            "FPU": "N/A",
-            "Motor Control": "N/A",
-            "CAN-FD": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "GPIO": "N/A"
+            "Package": "LQFP100/LQFP64"
           },
           "features": [
             "240MHz Cortex-M4 with FPU",
@@ -1156,16 +1092,7 @@
             "Ethernet": "10/100 MAC",
             "ADC": "3x 12-bit, 24 channels",
             "Timers": "Advanced motor control",
-            "Package": "LQFP48/QFN48",
-            "RAM": "N/A",
-            "Clock": "N/A",
-            "FPU": "N/A",
-            "Motor Control": "N/A",
-            "CAN-FD": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "CAN": "N/A"
+            "Package": "LQFP48/QFN48"
           },
           "features": [
             "168MHz Cortex-M4 with FPU",

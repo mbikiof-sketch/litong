@@ -77,9 +77,7 @@
         "Sector Size",
         "P/E Cycles",
         "Data Retention",
-        "Temperature Range",
-        "Voltage Rating",
-        "Current Rating"
+        "Temperature Range"
       ],
       "longDescription": "GigaDevice NOR Flash products provide industry-leading performance and reliability for code storage applications. The SPI NOR Flash portfolio spans densities from 512Kb to 2Gb, supporting clock rates up to 200MHz for fast firmware execution. Key features include: 1) Wide voltage range support (1.8V, 3.3V, and wide voltage options), 2) Multiple package options (SOP8, WSON8, USON8, BGA24) for flexible PCB designs, 3) Advanced security features including unique ID and hardware write protection, 4) Extended temperature ranges (-40°C to +85°C standard, -40°C to +125°C automotive grade), 5) High endurance with 100K program/erase cycles minimum. These products are ideal for firmware storage, boot code, configuration data, and execute-in-place (XIP) applications in consumer electronics, industrial control, automotive systems, and IoT devices. As an authorized GigaDevice distributor, we provide comprehensive technical support for NOR Flash selection, including guidance on density sizing, interface configuration, and PCB layout optimization.",
       "image": "/assets/brands/gigadevice/nor-flash.jpg",
@@ -201,9 +199,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP8 208mil",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP8 208mil"
           },
           "features": [
             "High-speed Quad SPI interface up to 120MHz",
@@ -362,9 +358,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP8 208mil",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP8 208mil"
           },
           "features": [
             "64Mb density for medium-size firmware",
@@ -521,9 +515,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 6x8mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "WSON8 6x8mm"
           },
           "features": [
             "256Mb ultra-high density",
@@ -605,9 +597,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "20 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP8 / WSON8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP8 / WSON8"
           },
           "features": [
             "1.8V low-voltage operation",
@@ -690,8 +680,6 @@
         "Data Retention",
         "Temperature Range",
         "Max Clock",
-        "Voltage Rating",
-        "Current Rating",
         "ECC"
       ],
       "longDescription": "GigaDevice NAND Flash products offer reliable high-density storage solutions for data-intensive embedded applications. The SLC NAND portfolio provides densities from 1Gb to 8Gb with industry-standard interfaces and robust error correction support. Key features include: 1) SLC architecture for superior endurance (100K P/E cycles) and data retention, 2) Standard parallel and SPI interfaces for flexible system integration, 3) Built-in ECC engines or external ECC support options, 4) Wide operating temperature ranges for industrial applications, 5) Cost-effective pricing for high-volume deployments. These products are ideal for data logging, media storage, file systems, and boot code storage in industrial control, networking equipment, consumer electronics, and automotive systems. As an authorized GigaDevice distributor, we provide comprehensive technical support and selection guidance for NAND Flash integration including ECC implementation, file system optimization, and density selection for your specific application requirements.",
@@ -816,11 +804,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "10 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "TSOP48",
-            "Max Clock": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "ECC": "N/A"
+            "Package": "TSOP48"
           },
           "features": [
             "1Gb SLC NAND Flash technology",
@@ -982,10 +966,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "10 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 6x8mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "ECC": "N/A"
+            "Package": "WSON8 6x8mm"
           },
           "features": [
             "1Gb SLC NAND Flash technology",
@@ -1123,92 +1104,6 @@
           ]
         },
         {
-          "partNumber": "GD5F1GQ4UAYIG",
-          "name": "GD5F1GQ4UAYIG 1Gb SPI NAND Flash",
-          "shortDescription": "1Gb SPI NAND Flash with 4-bit ECC, WSON8 package for high-density data storage.",
-          "descriptionParagraphs": [
-            "The GD5F1GQ4UAYIG is a 1Gb (128MB) SPI NAND Flash memory designed for high-density data storage applications.",
-            "Features SPI interface with up to 104MHz clock, 4-bit ECC requirement for data integrity, and built-in bad block management. The WSON8 package enables compact PCB designs.",
-            "Ideal for data logging, configuration storage, and media applications requiring higher density than NOR Flash."
-          ],
-          "specifications": {
-            "Density": "1Gb (128MB)",
-            "Interface": "SPI",
-            "Max Clock": "104MHz",
-            "Page Size": "2KB + 64B spare",
-            "Block Size": "128KB",
-            "ECC": "4-bit required",
-            "P/E Cycles": "100,000 minimum",
-            "Data Retention": "10 years",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 8x6mm",
-            "Organization": "N/A",
-            "Supply Voltage": "N/A",
-            "Read Speed": "N/A",
-            "Program Time": "N/A",
-            "Erase Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
-          },
-          "features": [
-            "1Gb high-density storage",
-            "SPI interface up to 104MHz",
-            "Built-in 4-bit ECC",
-            "Bad block management",
-            "100K P/E cycles",
-            "Compact WSON8 package"
-          ],
-          "applications": [
-            "Data logging systems",
-            "Configuration storage",
-            "Media players",
-            "IoT gateways",
-            "Industrial recorders"
-          ],
-          "faeReview": {
-            "author": "Michael Wang",
-            "title": "Senior FAE - Storage Solutions",
-            "content": "The GD5F1GQ4UAYIG is perfect for applications needing high-density storage. The SPI interface simplifies design compared to parallel NAND.",
-            "highlight": "Excellent density with SPI simplicity"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GD5F2GQ4UAYIG",
-              "brand": "GigaDevice",
-              "reason": "Higher density",
-              "comparison": {
-                "density": "2Gb > 1Gb",
-                "price": "Higher"
-              },
-              "useCase": "Larger data storage needs",
-              "specifications": {
-                "Density": "2Gb"
-              },
-              "priceDifference": "+45%",
-              "stockStatus": "In Stock",
-              "link": "/gigadevice/products/nand-flash/gd5f2gq4uayig"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "GD32F407VET6",
-              "description": "Cortex-M4 with NAND controller",
-              "category": "MCU"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What file system is recommended?",
-              "answer": "LittleFS is recommended for SPI NAND due to its built-in wear leveling and power-fail safety.",
-              "decisionGuide": "Use LittleFS for reliable file system operation.",
-              "keywords": [
-                "file system",
-                "LittleFS"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "GD5F2GQ4UAYIG",
           "name": "GD5F2GQ4UAYIG 2Gb SPI NAND Flash",
           "shortDescription": "2Gb SPI NAND Flash with 4-bit ECC, WSON8 package for large data storage applications.",
@@ -1227,14 +1122,7 @@
             "P/E Cycles": "100,000 minimum",
             "Data Retention": "10 years",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "WSON8 8x6mm",
-            "Organization": "N/A",
-            "Supply Voltage": "N/A",
-            "Read Speed": "N/A",
-            "Program Time": "N/A",
-            "Erase Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "WSON8 8x6mm"
           },
           "features": [
             "2Gb large-capacity storage",
@@ -1314,8 +1202,6 @@
         "Operating Voltage",
         "Temperature Range",
         "DAC",
-        "Voltage Rating",
-        "Current Rating",
         "Status",
         "Frequency",
         "Flash",
@@ -1456,18 +1342,7 @@
             "Communication": "2x SPI, 2x I2C, 3x USART, USB",
             "Operating Voltage": "2.6V - 3.6V",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "LQFP48",
-            "DAC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A",
-            "Frequency": "N/A",
-            "Flash": "N/A",
-            "USB": "N/A",
-            "Ethernet": "N/A",
-            "Temperature": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
+            "Package": "LQFP48"
           },
           "features": [
             "ARM Cortex-M3 core at 72MHz",
@@ -1625,17 +1500,7 @@
             "Communication": "3x SPI, 2x I2C, 4x USART, USB OTG, Ethernet",
             "Operating Voltage": "2.6V - 3.6V",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "LQFP100",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A",
-            "Frequency": "N/A",
-            "Flash": "N/A",
-            "USB": "N/A",
-            "Ethernet": "N/A",
-            "Temperature": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
+            "Package": "LQFP100"
           },
           "features": [
             "ARM Cortex-M4 core at 240MHz with FPU",
@@ -1771,97 +1636,6 @@
           ]
         },
         {
-          "partNumber": "GD32F407VGT6",
-          "name": "GD32F407VGT6 ARM Cortex-M4 MCU (1MB Flash)",
-          "shortDescription": "High-performance 240MHz Cortex-M4 MCU with 1MB Flash, 192KB SRAM for demanding applications.",
-          "descriptionParagraphs": [
-            "The GD32F407VGT6 is a high-performance ARM Cortex-M4 microcontroller with 1MB Flash memory, running at up to 240MHz with DSP and FPU.",
-            "Features expanded 1MB Flash for large firmware applications, 192KB SRAM, and comprehensive peripherals including USB OTG, Ethernet MAC, and camera interface.",
-            "Ideal for complex industrial control, HMI systems, and IoT gateways requiring extensive code storage and high processing power."
-          ],
-          "specifications": {
-            "Core": "ARM Cortex-M4 with FPU",
-            "Frequency": "Up to 240MHz",
-            "Flash": "1MB",
-            "SRAM": "192KB",
-            "GPIO": "82",
-            "USB": "USB OTG FS/HS",
-            "Ethernet": "10/100 MAC",
-            "ADC": "3x 12-bit, 16 channels",
-            "Timers": "Advanced motor control timers",
-            "Temperature": "-40°C to +85°C",
-            "Package": "LQFP100",
-            "Max Frequency": "N/A",
-            "Flash Memory": "N/A",
-            "Communication": "N/A",
-            "Operating Voltage": "N/A",
-            "Temperature Range": "N/A",
-            "DAC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
-          },
-          "features": [
-            "240MHz Cortex-M4 with FPU",
-            "1MB large Flash memory",
-            "192KB SRAM",
-            "USB OTG and Ethernet",
-            "Camera interface",
-            "Advanced motor control timers"
-          ],
-          "applications": [
-            "Complex industrial control",
-            "Advanced HMI systems",
-            "High-end IoT gateways",
-            "Digital power systems",
-            "Multi-axis motor control"
-          ],
-          "faeReview": {
-            "author": "Robert Zhang",
-            "title": "Senior FAE - MCU Applications",
-            "content": "The GD32F407VGT6 with 1MB Flash is perfect for applications with large firmware requirements. The extra Flash space allows for graphics libraries, communication stacks, and future expansion.",
-            "highlight": "Excellent for large firmware applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GD32F407VET6",
-              "brand": "GigaDevice",
-              "reason": "Lower Flash option",
-              "comparison": {
-                "flash": "512KB < 1MB",
-                "price": "Lower"
-              },
-              "useCase": "Standard firmware size",
-              "specifications": {
-                "Flash": "512KB"
-              },
-              "priceDifference": "-15%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "GD25Q256EYIG",
-              "description": "256Mb NOR Flash for external storage",
-              "category": "Memory",
-              "link": "/gigadevice/products/nor-flash/gd25q256eyig"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the difference from GD32F407VET6?",
-              "answer": "The VGT6 has 1MB Flash vs 512KB in VET6. Both have same 192KB SRAM and identical peripherals. Choose VGT6 for larger firmware requirements.",
-              "decisionGuide": "Select VGT6 for firmware >400KB.",
-              "keywords": [
-                "flash size",
-                "VGT6 vs VET6"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "GD32E230C8T6",
           "name": "GD32E230C8T6 ARM Cortex-M23 MCU",
           "shortDescription": "Ultra-low-power 72MHz Cortex-M23 MCU with 64KB Flash, 8KB SRAM for battery-powered applications.",
@@ -1881,18 +1655,7 @@
             "Standby Current": "2uA with RTC",
             "ADC": "1x 12-bit, 10 channels",
             "Temperature": "-40°C to +85°C",
-            "Package": "LQFP48",
-            "Max Frequency": "N/A",
-            "Flash Memory": "N/A",
-            "Timers": "N/A",
-            "Communication": "N/A",
-            "Operating Voltage": "N/A",
-            "Temperature Range": "N/A",
-            "DAC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A",
-            "Ethernet": "N/A"
+            "Package": "LQFP48"
           },
           "features": [
             "72MHz Cortex-M23 core",
@@ -1981,9 +1744,6 @@
         "Sensors",
         "Expansion",
         "Debug",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Core",
         "Debugger",
         "Touch",
@@ -2112,32 +1872,7 @@
             "Programming": "Flash programming, verification",
             "Power": "USB powered, 5V/3.3V target supply",
             "IDE Support": "Keil MDK, IAR, Eclipse",
-            "Dimensions": "Compact USB stick form factor",
-            "MCU": "N/A",
-            "Frequency": "N/A",
-            "Flash": "N/A",
-            "SRAM": "N/A",
-            "Ethernet": "N/A",
-            "USB": "N/A",
-            "Display": "N/A",
-            "Storage": "N/A",
-            "Sensors": "N/A",
-            "Expansion": "N/A",
-            "Debug": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Core": "N/A",
-            "Debugger": "N/A",
-            "Touch": "N/A",
-            "Connectivity": "N/A",
-            "Debug Protocols": "N/A",
-            "Max Clock": "N/A",
-            "Target Voltage": "N/A",
-            "Protection": "N/A",
-            "LED Indicators": "N/A",
-            "Connectors": "N/A",
-            "Compatibility": "N/A"
+            "Dimensions": "Compact USB stick form factor"
           },
           "features": [
             "JTAG and SWD interface support",
@@ -2288,29 +2023,7 @@
             "Storage": "SD card slot, EEPROM, SPI Flash",
             "Sensors": "Temperature, accelerometer",
             "Expansion": "Arduino compatible headers",
-            "Debug": "JTAG/SWD header for GD-Link",
-            "Interface": "N/A",
-            "Target Interface": "N/A",
-            "Supported MCUs": "N/A",
-            "Debug Features": "N/A",
-            "Programming": "N/A",
-            "Power": "N/A",
-            "IDE Support": "N/A",
-            "Dimensions": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Core": "N/A",
-            "Debugger": "N/A",
-            "Touch": "N/A",
-            "Connectivity": "N/A",
-            "Debug Protocols": "N/A",
-            "Max Clock": "N/A",
-            "Target Voltage": "N/A",
-            "Protection": "N/A",
-            "LED Indicators": "N/A",
-            "Connectors": "N/A",
-            "Compatibility": "N/A"
+            "Debug": "JTAG/SWD header for GD-Link"
           },
           "features": [
             "GD32F407ZGT6 high-performance MCU",
@@ -2465,30 +2178,7 @@
             "Touch": "Resistive touch panel",
             "Connectivity": "USB, UART, SPI, I2C, CAN",
             "Power": "USB or external 5V",
-            "Package": "Evaluation Board",
-            "Interface": "N/A",
-            "Target Interface": "N/A",
-            "Supported MCUs": "N/A",
-            "Debug Features": "N/A",
-            "Programming": "N/A",
-            "IDE Support": "N/A",
-            "Dimensions": "N/A",
-            "Ethernet": "N/A",
-            "USB": "N/A",
-            "Storage": "N/A",
-            "Sensors": "N/A",
-            "Expansion": "N/A",
-            "Debug": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Debug Protocols": "N/A",
-            "Max Clock": "N/A",
-            "Target Voltage": "N/A",
-            "Protection": "N/A",
-            "LED Indicators": "N/A",
-            "Connectors": "N/A",
-            "Compatibility": "N/A"
+            "Package": "Evaluation Board"
           },
           "features": [
             "GD32F303VCT6 MCU",
@@ -2568,31 +2258,7 @@
             "Connectors": "20-pin JTAG, 10-pin SWD",
             "Compatibility": "All GD32 series",
             "IDE Support": "Keil, IAR, Eclipse",
-            "Package": "Standalone Tool",
-            "Target Interface": "N/A",
-            "Supported MCUs": "N/A",
-            "Debug Features": "N/A",
-            "Programming": "N/A",
-            "Power": "N/A",
-            "Dimensions": "N/A",
-            "MCU": "N/A",
-            "Frequency": "N/A",
-            "Flash": "N/A",
-            "SRAM": "N/A",
-            "Ethernet": "N/A",
-            "USB": "N/A",
-            "Display": "N/A",
-            "Storage": "N/A",
-            "Sensors": "N/A",
-            "Expansion": "N/A",
-            "Debug": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Core": "N/A",
-            "Debugger": "N/A",
-            "Touch": "N/A",
-            "Connectivity": "N/A"
+            "Package": "Standalone Tool"
           },
           "features": [
             "JTAG and SWD support",

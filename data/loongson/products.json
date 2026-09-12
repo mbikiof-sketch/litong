@@ -72,10 +72,7 @@
         "L3 Cache",
         "Memory Support",
         "TDP",
-        "Process",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Process"
       ],
       "applications": [
         "Desktop Computers",
@@ -157,10 +154,7 @@
             "L3 Cache": "16MB",
             "Memory Support": "DDR4-3200 Dual Channel",
             "TDP": "35W",
-            "Process": "12nm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Process": "12nm"
           },
           "features": [
             "LoongArch instruction set architecture with complete IP independence",
@@ -311,10 +305,7 @@
             "L3 Cache": "32MB",
             "Memory Support": "DDR4-3200 Quad Channel",
             "TDP": "120W",
-            "Process": "12nm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Process": "12nm"
           },
           "features": [
             "16 LA464 cores with simultaneous multithreading support",
@@ -462,10 +453,7 @@
         "Cache",
         "Memory",
         "TDP",
-        "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Temperature"
       ],
       "applications": [
         "Industrial Control",
@@ -547,10 +535,7 @@
             "Cache": "256KB L2",
             "Memory": "DDR3-800",
             "TDP": "<3W",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "Dual GS264 superscalar cores with dual-issue pipeline",
@@ -701,10 +686,7 @@
             "Cache": "512KB L2",
             "Memory": "DDR3-1066",
             "TDP": "<5W",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "Dual GS264 cores with enhanced memory subsystem",
@@ -852,10 +834,7 @@
         "Storage",
         "Interfaces",
         "Form Factor",
-        "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Temperature"
       ],
       "applications": [
         "Product Development",
@@ -937,10 +916,7 @@
             "Storage": "4x SATA 3.0, M.2 NVMe slot",
             "Interfaces": "PCIe x16, PCIe x4, PCIe x1, USB 3.0, GbE",
             "Form Factor": "ATX (305x244mm)",
-            "Temperature": "Commercial 0°C to 70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "Commercial 0°C to 70°C"
           },
           "features": [
             "Standard ATX form factor for compatibility with PC cases",
@@ -1091,10 +1067,7 @@
             "Storage": "8GB eMMC, SATA connector, SPI flash",
             "Interfaces": "2x GbE, SATA, USB, UART, SPI, I2C, GPIO",
             "Form Factor": "Compact embedded (120x100mm)",
-            "Temperature": "Industrial -40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "Industrial -40°C to +85°C"
           },
           "features": [
             "Integrated 2K1000 SoC with comprehensive peripheral set",
@@ -1242,10 +1215,7 @@
         "Graphics",
         "Memory",
         "Power",
-        "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Temperature"
       ],
       "applications": [
         "Motherboard Design",
@@ -1327,11 +1297,7 @@
             "Graphics": "Integrated 2D/3D Graphics",
             "Memory": "DDR4 Controller",
             "Package": "FCBGA",
-            "Power": "5-10W typical",
-            "Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Power": "5-10W typical"
           },
           "features": [
             "Integrated graphics engine with HDMI and VGA output",
@@ -1482,11 +1448,7 @@
             "Graphics": "Basic 2D Graphics",
             "Temperature": "-40°C to +85°C",
             "Package": "FBGA",
-            "Power": "2-5W typical",
-            "Memory": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Power": "2-5W typical"
           },
           "features": [
             "Low power consumption for embedded applications",

@@ -95,7 +95,6 @@
         "Dimensions",
         "Weight",
         "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Ripple Current"
       ],
@@ -188,11 +187,7 @@
             "Lifetime": "100,000 hours @ 70C, Un",
             "Mounting": "M10 Stud Mount",
             "Dimensions": "75mm x 145mm",
-            "Weight": "550g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Ripple Current": "N/A"
+            "Weight": "550g"
           },
           "features": [
             "Dry filling technology - no oil leakage risk",
@@ -389,11 +384,7 @@
             "Lifetime": "100,000 hours @ 70C, Un",
             "Mounting": "M12 Stud Mount",
             "Dimensions": "100mm x 180mm",
-            "Weight": "850g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Ripple Current": "N/A"
+            "Weight": "850g"
           },
           "features": [
             "High capacitance 1000uF for low ripple voltage",
@@ -590,11 +581,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M12 stud mount",
             "Dimensions": "85mm diameter x 150mm length",
-            "Weight": "1.2kg",
-            "VoltageRating": "N/A",
-            "RippleCurrent": "N/A",
-            "TemperatureRange": "N/A",
-            "Current Rating": "N/A"
+            "Weight": "1.2kg"
           },
           "features": [
             "1500uF high capacitance",
@@ -709,11 +696,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M12 stud mount",
             "Dimensions": "100mm diameter x 180mm length",
-            "Weight": "1.8kg",
-            "VoltageRating": "N/A",
-            "RippleCurrent": "N/A",
-            "TemperatureRange": "N/A",
-            "Current Rating": "N/A"
+            "Weight": "1.8kg"
           },
           "features": [
             "2200uF very high capacitance",
@@ -901,11 +884,7 @@
             "Lifetime": "100,000 hours @ 70C, Un",
             "Mounting": "M8 Stud Mount",
             "Dimensions": "50mm x 95mm",
-            "Weight": "180g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A"
+            "Weight": "180g"
           },
           "features": [
             "High AC voltage rating 1000V RMS",
@@ -1090,11 +1069,7 @@
             "Lifetime": "100,000 hours @ 70C, Un",
             "Mounting": "M10 Stud Mount",
             "Dimensions": "75mm x 140mm",
-            "Weight": "420g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A"
+            "Weight": "420g"
           },
           "features": [
             "High capacitance 5uF for high reactive power",
@@ -1279,11 +1254,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M8 screw terminals",
             "Dimensions": "50mm diameter x 85mm length",
-            "Weight": "0.4kg",
-            "VoltageRating": "N/A",
-            "CurrentRating": "N/A",
-            "LossFactor": "N/A",
-            "TemperatureRange": "N/A"
+            "Weight": "0.4kg"
           },
           "features": [
             "10uF capacitance",
@@ -1367,11 +1338,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "M8 screw terminals",
             "Dimensions": "60mm diameter x 95mm length",
-            "Weight": "0.5kg",
-            "VoltageRating": "N/A",
-            "CurrentRating": "N/A",
-            "LossFactor": "N/A",
-            "TemperatureRange": "N/A"
+            "Weight": "0.5kg"
           },
           "features": [
             "15uF high capacitance",
@@ -1459,7 +1426,6 @@
         "Mounting",
         "Dimensions",
         "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "dV/dt",
         "Weight"
@@ -1553,12 +1519,7 @@
             "TemperatureRange": "-40C to +85C",
             "Lifetime": "100,000 hours @ 70C",
             "Mounting": "Axial Leads",
-            "Dimensions": "32mm x 50mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "dV/dt": "N/A",
-            "Weight": "N/A"
+            "Dimensions": "32mm x 50mm"
           },
           "features": [
             "High voltage rating 2000V DC",
@@ -1755,12 +1716,7 @@
             "TemperatureRange": "-40C to +85C",
             "Lifetime": "100,000 hours @ 70C",
             "Mounting": "Axial Leads",
-            "Dimensions": "42mm x 65mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "dV/dt": "N/A",
-            "Weight": "N/A"
+            "Dimensions": "42mm x 65mm"
           },
           "features": [
             "High voltage rating 3000V DC",
@@ -1957,12 +1913,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "Axial leads",
             "Dimensions": "25mm diameter x 50mm length",
-            "Weight": "0.1kg",
-            "VoltageRating": "N/A",
-            "dv/dt": "N/A",
-            "PeakCurrent": "N/A",
-            "TemperatureRange": "N/A",
-            "Current Rating": "N/A"
+            "Weight": "0.1kg"
           },
           "features": [
             "200nF capacitance",
@@ -2045,12 +1996,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Mounting": "Axial leads",
             "Dimensions": "30mm diameter x 60mm length",
-            "Weight": "0.15kg",
-            "VoltageRating": "N/A",
-            "dv/dt": "N/A",
-            "PeakCurrent": "N/A",
-            "TemperatureRange": "N/A",
-            "Current Rating": "N/A"
+            "Weight": "0.15kg"
           },
           "features": [
             "300nF high capacitance",
@@ -2136,10 +2082,7 @@
         "Lifetime",
         "Mounting",
         "Dimensions",
-        "Weight",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Weight"
       ],
       "applications": [
         "HVAC Systems",
@@ -2230,10 +2173,7 @@
             "Lifetime": "60,000 hours @ 70C",
             "Mounting": "M8 Stud Mount",
             "Dimensions": "50mm x 100mm",
-            "Weight": "220g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Weight": "220g"
           },
           "features": [
             "47uF capacitance for 2-5HP motors",
@@ -2418,10 +2358,7 @@
             "Lifetime": "60,000 hours @ 70C",
             "Mounting": "M10 Stud Mount",
             "Dimensions": "65mm x 130mm",
-            "Weight": "380g",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Weight": "380g"
           },
           "features": [
             "High capacitance 100uF for 7.5-15HP motors",

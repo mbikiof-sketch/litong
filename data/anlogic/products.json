@@ -125,10 +125,7 @@
             "Embedded Flash": "Yes",
             "Static Power": "5-10mA",
             "Package": "BGA256",
-            "I/O Pins": "176",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "I/O Pins": "176"
           },
           "applications": [
             "Industrial Control",
@@ -163,11 +160,7 @@
             "LUTs": "1,536",
             "Embedded Flash": "Yes",
             "Package": "TQFP144",
-            "I/O Pins": "96",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Static Power": "N/A"
+            "I/O Pins": "96"
           },
           "applications": [
             "Simple Control Logic",
@@ -185,11 +178,7 @@
             "LUTs": "9,216",
             "Embedded Flash": "Yes",
             "Package": "BGA324",
-            "I/O Pins": "224",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Static Power": "N/A"
+            "I/O Pins": "224"
           },
           "applications": [
             "Multi-axis Control",
@@ -202,10 +191,7 @@
         "LUTs",
         "Embedded Flash",
         "Static Power",
-        "I/O Pins",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "I/O Pins"
       ]
     }
   ]

@@ -81,8 +81,6 @@
         "Handshake",
         "Clock Source",
         "Temperature Range",
-        "Voltage Rating",
-        "Current Rating",
         "SPI Speed",
         "I2C Speed",
         "UART Baud Rate",
@@ -207,13 +205,7 @@
             "Handshake": "RTS, CTS, DTR, DSR, DCD, RI",
             "Clock Source": "Built-in oscillator (no external crystal)",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-16, ESSOP-10, MSOP-10",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "SPI Speed": "N/A",
-            "I2C Speed": "N/A",
-            "UART Baud Rate": "N/A",
-            "GPIO": "N/A"
+            "Package": "SOP-16, ESSOP-10, MSOP-10"
           },
           "features": [
             "USB 2.0 Full Speed compliant",
@@ -381,13 +373,7 @@
             "Handshake": "RTS, CTS, DTR, DSR, DCD, RI",
             "Clock Source": "External 12MHz crystal required",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-16, DIP-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "SPI Speed": "N/A",
-            "I2C Speed": "N/A",
-            "UART Baud Rate": "N/A",
-            "GPIO": "N/A"
+            "Package": "SOP-16, DIP-16"
           },
           "features": [
             "USB 2.0 Full Speed compliant",
@@ -431,12 +417,7 @@
             "I2C Speed": "Standard and Fast mode",
             "Clock Source": "Built-in oscillator",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-28, SSOP-20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Handshake": "N/A",
-            "UART Baud Rate": "N/A",
-            "GPIO": "N/A"
+            "Package": "SOP-28, SSOP-20"
           },
           "features": [
             "Multi-protocol support: UART/SPI/I2C/Parallel",
@@ -481,12 +462,7 @@
             "I2C Speed": "Up to 1MHz",
             "GPIO": "Up to 8 pins",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "QSOP-28, SSOP-20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Baud Rate": "N/A",
-            "Handshake": "N/A",
-            "Clock Source": "N/A"
+            "Package": "QSOP-28, SSOP-20"
           },
           "features": [
             "High-speed SPI up to 30MHz",
@@ -531,8 +507,6 @@
         "ADC",
         "DAC",
         "GPIO",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Timers",
         "Bluetooth"
@@ -613,12 +587,7 @@
             "ADC": "2x 12-bit ADC (16 channels)",
             "DAC": "2x 12-bit DAC",
             "GPIO": "Up to 80",
-            "Package": "LQFP64, LQFP48, QFN48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Timers": "N/A",
-            "Bluetooth": "N/A"
+            "Package": "LQFP64, LQFP48, QFN48"
           },
           "features": [
             "144MHz RISC-V4F core with hardware FPU",
@@ -704,11 +673,7 @@
             "GPIO": "Up to 37",
             "Timers": "4 general purpose",
             "Package": "LQFP48, LQFP32, QFN32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "DAC": "N/A",
-            "Bluetooth": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "72MHz RISC-V3A core",
@@ -755,11 +720,7 @@
             "GPIO": "Up to 24",
             "Timers": "3 general purpose",
             "Package": "QFN28, TSSOP20, SOP16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "DAC": "N/A",
-            "Bluetooth": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "48MHz RISC-V3A core",
@@ -806,11 +767,7 @@
             "ADC": "2x 12-bit ADC (12 channels)",
             "GPIO": "Up to 40",
             "Package": "QFN48, LQFP48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "DAC": "N/A",
-            "Timers": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "144MHz RISC-V4F core with FPU",
@@ -855,8 +812,6 @@
         "TX Power",
         "Sensitivity",
         "Current",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "USB",
         "Security",
@@ -927,15 +882,7 @@
             "TX Power": "+6dBm max",
             "Sensitivity": "-95dBm",
             "Current": "6mA TX, 5mA RX",
-            "Package": "QFN48, QFN32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "USB": "N/A",
-            "Security": "N/A",
-            "TX Current": "N/A",
-            "RX Current": "N/A",
-            "Sleep Current": "N/A"
+            "Package": "QFN48, QFN32"
           },
           "features": [
             "Bluetooth 5.3 compliant",
@@ -1022,13 +969,7 @@
             "Current": "7mA TX, 6mA RX",
             "USB": "USB 2.0 FS Device",
             "Package": "QFN48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Security": "N/A",
-            "TX Current": "N/A",
-            "RX Current": "N/A",
-            "Sleep Current": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Bluetooth 4.2 compliant",
@@ -1074,13 +1015,7 @@
             "Current": "5mA TX, 4.5mA RX",
             "Security": "AES-128/256, ECC",
             "Package": "QFN48, QFN32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +105°C",
-            "USB": "N/A",
-            "TX Current": "N/A",
-            "RX Current": "N/A",
-            "Sleep Current": "N/A"
+            "Temperature Range": "-40°C to +105°C"
           },
           "features": [
             "Bluetooth 5.3 with all features",
@@ -1127,12 +1062,7 @@
             "RX Current": "4mA",
             "Sleep Current": "0.5uA",
             "Package": "QFN32, WLCSP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Current": "N/A",
-            "USB": "N/A",
-            "Security": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Ultra-low power consumption",
@@ -1174,8 +1104,6 @@
         "I2C",
         "UART",
         "GPIO",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Parallel",
         "IO Voltage",
@@ -1242,15 +1170,7 @@
             "I2C": "Up to 1MHz",
             "UART": "Up to 3Mbps",
             "GPIO": "Up to 8",
-            "Package": "QSOP28, SSOP20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Parallel": "N/A",
-            "IO Voltage": "N/A",
-            "Baud Rate": "N/A",
-            "Flow Control": "N/A",
-            "FIFO": "N/A"
+            "Package": "QSOP28, SSOP20"
           },
           "features": [
             "Multi-protocol support (SPI/I2C/UART)",
@@ -1331,13 +1251,7 @@
             "GPIO": "8-bit parallel",
             "IO Voltage": "5V/3.3V",
             "Package": "SOP-28, SSOP-20, DIP-28",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "UART": "N/A",
-            "Baud Rate": "N/A",
-            "Flow Control": "N/A",
-            "FIFO": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "USB to parallel port conversion",
@@ -1381,13 +1295,7 @@
             "IO Voltage": "5V/3.3V",
             "FIFO": "256 bytes per port",
             "Package": "SSOP-20, QFN-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "SPI": "N/A",
-            "I2C": "N/A",
-            "GPIO": "N/A",
-            "Parallel": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Dual independent UART ports",
@@ -1431,13 +1339,7 @@
             "IO Voltage": "3.3V (5V tolerant)",
             "FIFO": "512 bytes per port",
             "Package": "LQFP-48, QFN-40",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "SPI": "N/A",
-            "I2C": "N/A",
-            "GPIO": "N/A",
-            "Parallel": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Four independent UART ports",

@@ -80,10 +80,7 @@
         "Drive Level",
         "Aging",
         "Operating Temperature",
-        "Storage Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Storage Temperature"
       ],
       "applications": [
         "Microcontroller clock",
@@ -181,10 +178,7 @@
             "Aging": "±3ppm per year max",
             "Operating Temperature": "-40C to +85C",
             "Storage Temperature": "-55C to +125C",
-            "Package": "HC-49/S (11.0 x 4.7 x 3.5mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "HC-49/S (11.0 x 4.7 x 3.5mm)"
           },
           "applications": [
             "Microcontroller clock",
@@ -396,11 +390,7 @@
             "Drive Level": "100uW max",
             "Aging": "±3ppm per year max",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD 3.2 x 2.5 x 0.7mm",
-            "Storage Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD 3.2 x 2.5 x 0.7mm"
           },
           "applications": [
             "Wearable devices",
@@ -590,10 +580,7 @@
         "Duty Cycle",
         "Startup Time",
         "Operating Temperature",
-        "Phase Noise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Phase Noise"
       ],
       "applications": [
         "Communication systems",
@@ -690,11 +677,7 @@
             "Duty Cycle": "45% to 55%",
             "Startup Time": "10ms max",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD 7.0 x 5.0 x 1.4mm",
-            "Phase Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD 7.0 x 5.0 x 1.4mm"
           },
           "applications": [
             "Ethernet PHY",
@@ -886,11 +869,7 @@
             "Phase Noise": "-135dBc/Hz at 1kHz offset",
             "Startup Time": "2ms max",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD 3.2 x 2.5 x 1.0mm",
-            "Duty Cycle": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD 3.2 x 2.5 x 1.0mm"
           },
           "applications": [
             "GPS receivers",
@@ -1079,10 +1058,7 @@
         "Startup Time",
         "Shock Resistance",
         "Operating Temperature",
-        "Operating Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Current"
       ],
       "applications": [
         "Automotive electronics",
@@ -1177,11 +1153,7 @@
             "Startup Time": "3ms max",
             "Shock Resistance": "50,000g",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD 2.5 x 2.0 x 0.8mm",
-            "Operating Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD 2.5 x 2.0 x 0.8mm"
           },
           "applications": [
             "Automotive electronics",
@@ -1374,11 +1346,7 @@
             "Startup Time": "5ms max",
             "Shock Resistance": "50,000g",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD 2.0 x 1.6 x 0.8mm",
-            "Rise/Fall Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD 2.0 x 1.6 x 0.8mm"
           },
           "applications": [
             "Real-time clock",
@@ -1569,10 +1537,7 @@
         "Input Type",
         "Output Impedance",
         "Additive Jitter",
-        "Operating Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Current"
       ],
       "applications": [
         "Server systems",
@@ -1665,14 +1630,7 @@
             "Spread Spectrum": "±0.5% down-spread, 30kHz modulation",
             "Supply Voltage": "3.3V ±5%",
             "Operating Temperature": "0C to +70C (commercial), -40C to +85C (industrial)",
-            "Package": "QFN 5.0 x 5.0 x 0.9mm",
-            "Input Type": "N/A",
-            "Output Impedance": "N/A",
-            "Additive Jitter": "N/A",
-            "Operating Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN 5.0 x 5.0 x 0.9mm"
           },
           "applications": [
             "PCIe systems",
@@ -1864,13 +1822,7 @@
             "Supply Voltage": "2.5V or 3.3V",
             "Operating Current": "120mA typical",
             "Operating Temperature": "-40C to +85C",
-            "Package": "QFN 5.0 x 5.0 x 0.9mm",
-            "Output Frequencies": "N/A",
-            "Jitter (RMS)": "N/A",
-            "Spread Spectrum": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN 5.0 x 5.0 x 0.9mm"
           },
           "applications": [
             "ADC/DAC clocking",

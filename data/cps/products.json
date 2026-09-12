@@ -167,11 +167,7 @@
             "Rds(on)": "0.19Ω",
             "Qg": "35nC",
             "VGS(th)": "3-5V",
-            "Package": "TO-220",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Technology": "N/A"
+            "Package": "TO-220"
           },
           "applications": [
             "Power factor correction (PFC)",
@@ -288,9 +284,7 @@
             "Qg": "35nC",
             "VGS(th)": "2-4V",
             "Technology": "Planar",
-            "Temperature Range": "-55°C to +150°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-55°C to +150°C"
           },
           "features": [
             "650V high voltage rating",
@@ -429,9 +423,7 @@
             "Qg": "45nC",
             "VGS(th)": "2-4V",
             "Technology": "Planar",
-            "Temperature Range": "-55°C to +150°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-55°C to +150°C"
           },
           "features": [
             "650V high voltage rating",
@@ -498,11 +490,6 @@
               "partNumber": "10μF Ceramic",
               "description": "Decoupling capacitor for gate drive",
               "category": "Passive Component"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
             }
           ],
           "faqs": [
@@ -570,9 +557,7 @@
             "Qg": "55nC",
             "VGS(th)": "2-4V",
             "Technology": "Planar",
-            "Temperature Range": "-55°C to +150°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-55°C to +150°C"
           },
           "features": [
             "650V high voltage rating",
@@ -700,8 +685,6 @@
         "Rds(on)",
         "Qg",
         "VGS(th)",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Technology"
       ]
@@ -879,22 +862,7 @@
             "content": "Based on my extensive field experience, I highly recommend the IGBTMODULES-1 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the IGBTMODULES-1 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-1-A",
-              "manufacturer": "Competitor A",
-              "comparison": "IGBTMODULES-1=><ALT-1-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-1-B",
-              "manufacturer": "Competitor B",
-              "comparison": "IGBTMODULES-1=><ALT-1-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -911,10 +879,7 @@
           ],
           "specifications": {
             "Package": "Standard",
-            "Specifications": "1200V 600A",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Specifications": "1200V 600A"
           },
           "name": "IGBT Modules CPS600H12E4"
         },
@@ -1009,22 +974,7 @@
             "content": "Based on my extensive field experience, I highly recommend the IGBTMODULES-2 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the IGBTMODULES-2 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "manufacturer": "Competitor A",
-              "comparison": "IGBTMODULES-2=><ALT-2-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "manufacturer": "Competitor B",
-              "comparison": "IGBTMODULES-2=><ALT-2-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -1041,10 +991,7 @@
           ],
           "specifications": {
             "Package": "Standard",
-            "Specifications": "1200V 450A",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Specifications": "1200V 450A"
           },
           "name": "IGBT Modules CPS450H12E4"
         },
@@ -1139,22 +1086,7 @@
             "content": "Based on my extensive field experience, I highly recommend the IGBTMODULES-3 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the IGBTMODULES-3 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "manufacturer": "Competitor A",
-              "comparison": "IGBTMODULES-3=><ALT-3-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "manufacturer": "Competitor B",
-              "comparison": "IGBTMODULES-3=><ALT-3-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -1171,10 +1103,7 @@
           ],
           "specifications": {
             "Package": "Standard",
-            "Specifications": "1200V 300A",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Specifications": "1200V 300A"
           },
           "name": "IGBT Modules CPS300H12E4"
         },
@@ -1269,22 +1198,7 @@
             "content": "Based on my extensive field experience, I highly recommend the IGBTMODULES-4 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the IGBTMODULES-4 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "manufacturer": "Competitor A",
-              "comparison": "IGBTMODULES-4=><ALT-4-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "manufacturer": "Competitor B",
-              "comparison": "IGBTMODULES-4=><ALT-4-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -1301,10 +1215,7 @@
           ],
           "specifications": {
             "Package": "Standard",
-            "Specifications": "1200V 200A",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Specifications": "1200V 200A"
           },
           "name": "IGBT Modules CPS200H12E4"
         }
@@ -1489,22 +1400,7 @@
             "content": "Based on my extensive field experience, I highly recommend the POWERRECTIFIERS-1 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the POWERRECTIFIERS-1 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-1-A",
-              "manufacturer": "Competitor A",
-              "comparison": "POWERRECTIFIERS-1=><ALT-1-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-1-B",
-              "manufacturer": "Competitor B",
-              "comparison": "POWERRECTIFIERS-1=><ALT-1-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -1520,10 +1416,7 @@
             }
           ],
           "specifications": {
-            "Package": "Standard",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Package": "Standard"
           },
           "name": "Power Rectifiers POWERRECTIFIERS-1"
         }
@@ -1707,22 +1600,7 @@
             "content": "Based on my extensive field experience, I highly recommend the THYRISTORS-1 for demanding applications. Through numerous successful implementations, I have discovered that this product delivers exceptional reliability and performance.",
             "highlight": "I highly recommend the THYRISTORS-1 for its proven reliability and excellent performance."
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-1-A",
-              "manufacturer": "Competitor A",
-              "comparison": "THYRISTORS-1=><ALT-1-A: Similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Pin-compatible alternative",
-              "useCase": "For supply chain flexibility"
-            },
-            {
-              "partNumber": "ALT-1-B",
-              "manufacturer": "Competitor B",
-              "comparison": "THYRISTORS-1=><ALT-1-B: Equivalent performance characteristics, similar voltage and current ratings, suitable for direct replacement",
-              "reason": "Performance equivalent",
-              "useCase": "For cost optimization"
-            }
-          ],
+          "alternativeParts": [],
           "companionParts": [
             {
               "partNumber": "CPS-DRIVER-1",
@@ -1738,10 +1616,7 @@
             }
           ],
           "specifications": {
-            "Package": "Standard",
-            "Part Number": "N/A",
-            "Description": "N/A",
-            "Status": "N/A"
+            "Package": "Standard"
           },
           "name": "Thyristors THYRISTORS-1"
         }

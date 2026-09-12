@@ -678,132 +678,6 @@
           "specifications": {}
         },
         {
-          "partNumber": "TIM600ESM33",
-          "name": "3300V 600A IGBT Module",
-          "shortDescription": "Compact 3300V 600A IGBT module for medium-power industrial and rail applications.",
-          "descriptionParagraphs": [
-            "The TIM600ESM33 is a compact 3300V 600A IGBT module designed for medium-power industrial drives and rail transit auxiliary systems.",
-            "Features optimized chip design for low conduction and switching losses, with excellent thermal performance.",
-            "Standard 62mm package compatible with industry-standard mounting and cooling solutions."
-          ],
-          "voltage": "3300V",
-          "current": "600A",
-          "features": [
-            "3300V voltage rating",
-            "600A current rating",
-            "Low Vce(sat) for reduced losses",
-            "10μs short-circuit withstand",
-            "NTC temperature sensor integrated"
-          ],
-          "applications": [
-            "Industrial motor drives",
-            "Rail transit auxiliary inverters",
-            "Medium-power converters",
-            "Wind power systems"
-          ],
-          "stock": true,
-          "moq": 10,
-          "leadTime": "4-6 weeks",
-          "faeReview": {
-            "author": "李明华",
-            "title": "Senior FAE",
-            "content": "TIM600ESM33 is an excellent choice for medium-power applications. Its compact design and high reliability make it ideal for industrial drives and rail auxiliary systems. I recommend proper thermal management for optimal performance.",
-            "highlight": "Compact design for medium-power apps"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "TIM800ESM33",
-              "brand": "CRRC",
-              "specifications": {
-                "voltage": "3300V",
-                "current": "800A"
-              },
-              "comparison": "TIM600ESM33=><TIM800ESM33: TIM600ESM33=>TIM800ESM33: Higher current => upgrade path",
-              "reason": "Higher current option",
-              "useCase": "When more current needed",
-              "link": "/crrc/products/igbt-modules/tim800esm33"
-            },
-            {
-              "partNumber": "TIM400ESM33",
-              "brand": "CRRC",
-              "specifications": {
-                "voltage": "3300V",
-                "current": "400A"
-              },
-              "comparison": "TIM600ESM33=><TIM400ESM33: TIM600ESM33=>TIM400ESM33: Lower current => cost option",
-              "reason": "Cost-optimized option",
-              "useCase": "Lower current requirements",
-              "link": "/crrc/products/igbt-modules/tim400esm33"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "CRRC-GD3300",
-              "description": "Gate driver board",
-              "link": "/crrc/products/gate-drivers/crrc-gd3300"
-            },
-            {
-              "partNumber": "CRRC-CS600",
-              "description": "Current sensor",
-              "link": ""
-            },
-            {
-              "partNumber": "CRRC-SC3300",
-              "description": "Snubber capacitor",
-              "link": ""
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the thermal resistance of TIM600ESM33?",
-              "answer": "The junction-to-case thermal resistance Rth(j-c) is typically 0.08 K/W. Proper heatsink design is critical for maintaining junction temperature below 125°C under full load conditions. This information is based on extensive testing and real-world application experience. Contact our FAE team for specific design recommendations and optimization suggestions.",
-              "decisionGuide": "Design adequate cooling for your application.",
-              "keywords": [
-                "thermal",
-                "resistance",
-                "cooling"
-              ]
-            },
-            {
-              "question": "Can TIM600ESM33 be used in parallel?",
-              "answer": "Yes, TIM600ESM33 can be paralleled for higher current capability. Use modules from the same production batch and implement symmetrical layout for current sharing. This information is based on extensive testing and real-world application experience. Contact our FAE team for specific design recommendations and optimization suggestions.",
-              "decisionGuide": "Parallel for higher current if needed.",
-              "keywords": [
-                "parallel",
-                "current sharing"
-              ]
-            },
-            {
-              "question": "What is the switching frequency range?",
-              "answer": "Recommended switching frequency is up to 1kHz for hard switching and up to 2kHz for soft switching applications. Higher frequencies require careful thermal design. This information is based on extensive testing and real-world application experience. Contact our FAE team for specific design recommendations and optimization suggestions.",
-              "decisionGuide": "Select frequency based on thermal constraints.",
-              "keywords": [
-                "switching frequency",
-                "PWM"
-              ]
-            },
-            {
-              "question": "Is TIM600ESM33 suitable for wind power?",
-              "answer": "Yes, TIM600ESM33 is well-suited for wind power converters. Its high voltage rating and reliable performance make it ideal for MW-class wind turbine applications. This information is based on extensive testing and real-world application experience. Contact our FAE team for specific design recommendations and optimization suggestions.",
-              "decisionGuide": "Excellent for wind power applications.",
-              "keywords": [
-                "wind power",
-                "renewable energy"
-              ]
-            },
-            {
-              "question": "What gate drive voltage is recommended?",
-              "answer": "Recommended gate drive is +15V/-8V for optimal performance. The negative voltage improves noise immunity and prevents false triggering. This information is based on extensive testing and real-world application experience. Contact our FAE team for specific design recommendations and optimization suggestions.",
-              "decisionGuide": "Use recommended gate drive voltages.",
-              "keywords": [
-                "gate drive",
-                "voltage"
-              ]
-            }
-          ],
-          "specifications": {}
-        },
-        {
           "partNumber": "TIM400ESM33",
           "name": "3300V 400A IGBT Module",
           "shortDescription": "Cost-effective 3300V 400A IGBT module for standard industrial applications. Ideal for demanding industrial applicatio..",
@@ -2020,9 +1894,7 @@
             "Capacitance": "1000μF",
             "Ripple Current": "150A RMS",
             "ESR": "< 2mΩ",
-            "Operating Temperature": "-40°C to +85°C",
-            "Pulse Current": "N/A",
-            "Inductance": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -2166,9 +2038,7 @@
             "Capacitance": "2200μF",
             "Ripple Current": "120A RMS",
             "ESR": "< 3mΩ",
-            "Operating Temperature": "-40°C to +85°C",
-            "Pulse Current": "N/A",
-            "Inductance": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -2312,9 +2182,7 @@
             "Capacitance": "4700μF",
             "Ripple Current": "100A RMS",
             "ESR": "< 4mΩ",
-            "Operating Temperature": "-40°C to +105°C",
-            "Pulse Current": "N/A",
-            "Inductance": "N/A"
+            "Operating Temperature": "-40°C to +105°C"
           },
           "stock": true,
           "moq": 5,
@@ -2458,9 +2326,7 @@
             "Capacitance": "2.2μF",
             "Pulse Current": "2000A",
             "Inductance": "< 20nH",
-            "Operating Temperature": "-40°C to +85°C",
-            "Ripple Current": "N/A",
-            "ESR": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -2604,9 +2470,7 @@
             "Capacitance": "4.7μF",
             "Pulse Current": "1500A",
             "Inductance": "< 25nH",
-            "Operating Temperature": "-40°C to +85°C",
-            "Ripple Current": "N/A",
-            "ESR": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -2750,9 +2614,7 @@
             "Capacitance": "10000μF",
             "Ripple Current": "80A RMS",
             "ESR": "< 5mΩ",
-            "Operating Temperature": "-40°C to +85°C",
-            "Pulse Current": "N/A",
-            "Inductance": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -3000,9 +2862,7 @@
             "Bandwidth": "100kHz",
             "Accuracy": "±0.5%",
             "Isolation Voltage": "5000V RMS",
-            "Operating Temperature": "-40°C to +85°C",
-            "Voltage Drop": "N/A",
-            "Temperature Coefficient": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -3146,9 +3006,7 @@
             "Bandwidth": "100kHz",
             "Accuracy": "±0.5%",
             "Isolation Voltage": "5000V RMS",
-            "Operating Temperature": "-40°C to +125°C",
-            "Voltage Drop": "N/A",
-            "Temperature Coefficient": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "stock": true,
           "moq": 5,
@@ -3292,9 +3150,7 @@
             "Bandwidth": "50kHz",
             "Accuracy": "±1.0%",
             "Isolation Voltage": "3000V RMS",
-            "Operating Temperature": "-40°C to +85°C",
-            "Voltage Drop": "N/A",
-            "Temperature Coefficient": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,
@@ -3438,9 +3294,7 @@
             "Voltage Drop": "75mV",
             "Accuracy": "±0.5%",
             "Temperature Coefficient": "< 50ppm/°C",
-            "Operating Temperature": "-40°C to +125°C",
-            "Bandwidth": "N/A",
-            "Isolation Voltage": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "stock": true,
           "moq": 5,
@@ -3584,9 +3438,7 @@
             "Voltage Drop": "75mV",
             "Accuracy": "±0.5%",
             "Temperature Coefficient": "< 50ppm/°C",
-            "Operating Temperature": "-40°C to +125°C",
-            "Bandwidth": "N/A",
-            "Isolation Voltage": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "stock": true,
           "moq": 5,
@@ -3730,9 +3582,7 @@
             "Bandwidth": "100kHz",
             "Accuracy": "±0.5%",
             "Isolation Voltage": "6000V RMS",
-            "Operating Temperature": "-40°C to +85°C",
-            "Voltage Drop": "N/A",
-            "Temperature Coefficient": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "stock": true,
           "moq": 5,

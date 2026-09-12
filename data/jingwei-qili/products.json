@@ -25,10 +25,7 @@
         "Transceivers",
         "Hard IP",
         "Max I/O",
-        "Packages",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Packages"
       ],
       "applications": [
         "5G Communications",
@@ -133,10 +130,7 @@
             "Transceivers": "16 channels, 12.5Gbps max",
             "Hard IP": "PCIe Gen3, DDR3/4, GbE MAC, MIPI D-PHY",
             "Max I/O": "360 user I/O",
-            "Packages": "FBGA676, FBGA900",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "FBGA676, FBGA900"
           },
           "features": [
             "LUT6 architecture with 700MHz maximum frequency",
@@ -293,10 +287,7 @@
         "Max Frequency",
         "User I/O",
         "I/O Standards",
-        "Packages",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Packages"
       ],
       "applications": [
         "Industrial Control",
@@ -401,10 +392,7 @@
             "Max Frequency": "250 MHz",
             "User I/O": "36 pins",
             "I/O Standards": "LVCMOS 3.3/2.5/1.8V, LVDS, SSTL",
-            "Packages": "QFN48, LQFP64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "QFN48, LQFP64"
           },
           "features": [
             "Advanced 22nm low-power process",
@@ -562,10 +550,7 @@
         "Config Time",
         "Max Frequency",
         "User I/O",
-        "Packages",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Packages"
       ],
       "applications": [
         "IoT Devices",
@@ -634,10 +619,7 @@
             "Config Time": "<10ms (instant-on)",
             "Max Frequency": "200 MHz",
             "User I/O": "48 pins",
-            "Packages": "QFN48, WLCSP36",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "QFN48, WLCSP36"
           },
           "features": [
             "Ultra-low static power <100μA",
@@ -764,10 +746,7 @@
             "Config Time": "<10ms",
             "Max Frequency": "150 MHz",
             "User I/O": "32 pins",
-            "Packages": "QFN32, WLCSP25",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "QFN32, WLCSP25"
           },
           "features": [
             "Ultra-low static power <75μA",
@@ -860,10 +839,7 @@
         "Hard IP",
         "AI Engines",
         "Packages",
-        "HBM Memory",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "HBM Memory"
       ],
       "applications": [
         "Data Center Acceleration",
@@ -932,11 +908,7 @@
             "Transceivers": "32 channels, 28Gbps",
             "Hard IP": "PCIe Gen3 x16, DDR4, HBM2 controller",
             "AI Engines": "8 AI accelerator blocks",
-            "Packages": "FCBGA1924, 3D IC",
-            "HBM Memory": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "FCBGA1924, 3D IC"
           },
           "features": [
             "300K LUT6 maximum capacity",
@@ -1064,10 +1036,7 @@
             "Hard IP": "Multiple PCIe Gen3 x16, DDR4, HBM2e",
             "HBM Memory": "8GB HBM2e (1TB/s bandwidth)",
             "AI Engines": "16 AI accelerator blocks",
-            "Packages": "3D IC, FCBGA2576",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "3D IC, FCBGA2576"
           },
           "features": [
             "Maximum 500K LUT6 capacity",

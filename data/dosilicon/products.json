@@ -177,10 +177,7 @@
             "Write Speed": "Up to 66MHz",
             "Endurance": "100,000 cycles",
             "Data Retention": "20 years",
-            "Package": "SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "32Mb density for firmware storage",
@@ -322,10 +319,7 @@
             "Write Speed": "Up to 133MHz",
             "Endurance": "100,000 cycles",
             "Data Retention": "20 years",
-            "Package": "WSON-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "WSON-8"
           },
           "features": [
             "128Mb high-density storage",
@@ -836,13 +830,7 @@
             "ECC": "On-chip 4-bit ECC",
             "Endurance": "100,000 cycles",
             "Data Retention": "10 years",
-            "Package": "WSON-8",
-            "Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Read Speed": "N/A",
-            "Write Speed": "N/A"
+            "Package": "WSON-8"
           },
           "features": [
             "2Gb high-density storage",
@@ -987,12 +975,7 @@
             "Endurance": "100,000 cycles",
             "Data Retention": "10 years",
             "Temperature": "-40°C to +85°C",
-            "Package": "WSON-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Read Speed": "N/A",
-            "Write Speed": "N/A"
+            "Package": "WSON-8"
           },
           "features": [
             "4Gb high-density storage",
@@ -1139,11 +1122,7 @@
             "Package": "WSON-8",
             "Voltage Rating": "2.7-3.6V",
             "Current Rating": "25mA active",
-            "Temperature Range": "-40°C to +85°C",
-            "Page Size": "N/A",
-            "Block Size": "N/A",
-            "ECC": "N/A",
-            "Temperature": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "1Gb high-density storage",
@@ -1275,11 +1254,7 @@
             "Package": "WSON-8",
             "Voltage Rating": "2.7-3.6V",
             "Current Rating": "30mA active",
-            "Temperature Range": "-40°C to +85°C",
-            "Page Size": "N/A",
-            "Block Size": "N/A",
-            "ECC": "N/A",
-            "Temperature": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "8Gb ultra-high density",
@@ -1407,9 +1382,6 @@
         "NOR Endurance",
         "NAND Endurance",
         "Data Retention",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Status"
       ],
       "series": [
@@ -1505,11 +1477,7 @@
             "NOR Endurance": "100,000 cycles",
             "NAND Endurance": "100,000 cycles",
             "Data Retention": "20 years (NOR), 10 years (NAND)",
-            "Package": "WSON-8 (8x6mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Package": "WSON-8 (8x6mm)"
           },
           "features": [
             "32Mb NOR + 2Gb NAND in single package",
@@ -1646,14 +1614,7 @@
             "Configuration": "64Mb NOR + 4Gb NAND",
             "NOR Interface": "SPI, 80MHz",
             "NAND Interface": "SPI, 100MHz",
-            "Package": "WSON-8 (8x6mm)",
-            "NOR Endurance": "N/A",
-            "NAND Endurance": "N/A",
-            "Data Retention": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Package": "WSON-8 (8x6mm)"
           },
           "features": [
             "64Mb NOR + 4Gb NAND",
@@ -1770,16 +1731,7 @@
             "[Data Pending] Application information to be confirmed with manufacturer."
           ],
           "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Configuration": "N/A",
-            "NOR Interface": "N/A",
-            "NAND Interface": "N/A",
-            "NOR Endurance": "N/A",
-            "NAND Endurance": "N/A",
-            "Data Retention": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Status": "Data pending - to be updated from official source"
           },
           "features": [
             "High performance",
@@ -1839,94 +1791,6 @@
             },
             {
               "question": "What is the lead time for MCPMULTICHIPPACKAGE-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "DATA_PENDING",
-          "name": "MCP Multi-Chip Package (Data Pending)",
-          "shortDescription": "[Data Pending] Official product information to be added from manufacturer datasheet.",
-          "descriptionParagraphs": [
-            "[Data Pending] Product description to be added from official manufacturer documentation.",
-            "[Data Pending] Technical specifications to be verified against official datasheet.",
-            "[Data Pending] Application information to be confirmed with manufacturer."
-          ],
-          "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Configuration": "N/A",
-            "NOR Interface": "N/A",
-            "NAND Interface": "N/A",
-            "NOR Endurance": "N/A",
-            "NAND Endurance": "N/A",
-            "Data Retention": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration. In my professional experience, I highly recommend this Dosilicon memory device for embedded storage applications where reliability is critical. I suggest implementing proper wear leveling and considering the complete system requirements for optimal performance. Based on field feedback, this device consistently delivers excellent results in industrial environments.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [],
-          "companionParts": [],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for MCPMULTICHIPPACKAGE-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is MCPMULTICHIPPACKAGE-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of MCPMULTICHIPPACKAGE-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for MCPMULTICHIPPACKAGE-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for MCPMULTICHIPPACKAGE-4?",
               "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on dosilicon DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [
@@ -2053,13 +1917,7 @@
             "Qualification": "AEC-Q100 Grade 1",
             "Endurance": "100,000 cycles",
             "Data Retention": "20 years",
-            "Package": "WSON-8",
-            "Temperature": "N/A",
-            "Grade": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Read Speed": "N/A",
-            "Write Speed": "N/A"
+            "Package": "WSON-8"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",
@@ -2199,15 +2057,7 @@
             "Density": "128Mb (16MB)",
             "Interface": "SPI, 80MHz",
             "Temperature": "-40°C to +85°C",
-            "Grade": "Industrial",
-            "Temperature Range": "N/A",
-            "Qualification": "N/A",
-            "Endurance": "N/A",
-            "Data Retention": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Read Speed": "N/A",
-            "Write Speed": "N/A"
+            "Grade": "Industrial"
           },
           "features": [
             "128Mb density",
@@ -2317,141 +2167,6 @@
           ]
         },
         {
-          "partNumber": "DSA25Q64A",
-          "name": "DSA25Q64A 64Mb Automotive Grade SPI NOR Flash",
-          "shortDescription": "AEC-Q100 Grade 1 qualified 64Mb SPI NOR Flash for automotive applications",
-          "descriptionParagraphs": [
-            "[Data Pending] Product description to be added from official manufacturer documentation.",
-            "[Data Pending] Technical specifications to be verified against official datasheet.",
-            "[Data Pending] Application information to be confirmed with manufacturer."
-          ],
-          "specifications": {
-            "Density": "64Mb (8MB)",
-            "Interface": "SPI, 80MHz",
-            "Read Speed": "Up to 80MHz",
-            "Write Speed": "Up to 80MHz",
-            "Endurance": "100,000 cycles",
-            "Data Retention": "20 years",
-            "Package": "SOP-8",
-            "Voltage Rating": "2.7-3.6V",
-            "Current Rating": "15mA active",
-            "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Temperature": "N/A",
-            "Grade": "N/A"
-          },
-          "features": [
-            "AEC-Q100 Grade 1 qualified",
-            "Automotive temperature range",
-            "PPAP documentation support",
-            "Full lot traceability",
-            "Enhanced quality controls",
-            "Long-term supply guarantee",
-            "SOP-8 package"
-          ],
-          "applications": [
-            "Automotive infotainment",
-            "Instrument clusters",
-            "ADAS systems",
-            "Telematics modules",
-            "Body control modules"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE - Memory Products",
-            "content": "The DSA25Q64A is a reliable choice for Specialty Memory applications. AEC-Q100 Grade 1 qualified 64Mb SPI NOR Flash for automotive applications Based on extensive field experience, this product delivers excellent performance and reliability.",
-            "highlight": "AEC-Q100 Grade 1 qualified"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "DSA12.5Q64A",
-              "brand": "DOSILICON",
-              "specifications": {
-                "density": "Lower density",
-                "interface": "Same"
-              },
-              "comparison": "Lower capacity, reduced cost",
-              "reason": "Cost-effective for smaller applications",
-              "useCase": "Applications with reduced storage needs",
-              "link": ""
-            },
-            {
-              "partNumber": "DSA50Q64A",
-              "brand": "DOSILICON",
-              "specifications": {
-                "density": "Higher density",
-                "interface": "Same"
-              },
-              "comparison": "Higher capacity, increased cost",
-              "reason": "More storage for demanding applications",
-              "useCase": "Applications requiring more storage",
-              "link": ""
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "DSA25Q64A-EVAL",
-              "link": "",
-              "description": "Evaluation board for DSA25Q64A",
-              "category": "Development Tools"
-            },
-            {
-              "partNumber": "100nF Ceramic",
-              "link": "",
-              "description": "Decoupling capacitor for VCC pin",
-              "category": "Passive Component"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for SPECIALTYMEMORY-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on dosilicon DSA25Q64A, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is SPECIALTYMEMORY-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on dosilicon DSA25Q64A, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of SPECIALTYMEMORY-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on dosilicon DSA25Q64A, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for SPECIALTYMEMORY-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on dosilicon DSA25Q64A, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for SPECIALTYMEMORY-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on dosilicon DSA25Q64A, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ],
-          "description": "The DSA25Q64A is an AEC-Q100 Grade 1 qualified 64Mb SPI NOR Flash designed for automotive applications. It operates reliably across the full automotive temperature range with enhanced quality and traceability."
-        },
-        {
           "partNumber": "DSA35X04G",
           "name": "DSA35X04G 4Gb Automotive Grade SPI NAND Flash",
           "shortDescription": "AEC-Q100 Grade 1 qualified 4Gb SPI NAND Flash for automotive data storage",
@@ -2471,9 +2186,7 @@
             "Voltage Rating": "2.7-3.6V",
             "Current Rating": "25mA active",
             "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Temperature": "N/A",
-            "Grade": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",

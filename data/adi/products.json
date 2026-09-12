@@ -89,9 +89,7 @@
         "Noise",
         "Supply Voltage",
         "Input Bandwidth",
-        "SFDR",
-        "Voltage Rating",
-        "Current Rating"
+        "SFDR"
       ],
       "selectionGuide": "Select SAR ADCs for high-speed precision, Sigma-Delta for high resolution with integrated filtering, Pipeline for communications applications.",
       "selectionGuideLink": {
@@ -170,16 +168,7 @@
             "Power": "140mW at 200kSPS",
             "Interface": "Parallel/Serial",
             "Package": "LQFP-64",
-            "Temperature Range": "-40°C to +85°C",
-            "Output Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "ENOB": "N/A",
-            "Noise": "N/A",
-            "Supply Voltage": "N/A",
-            "Input Bandwidth": "N/A",
-            "SFDR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "8-channel simultaneous sampling",
@@ -343,17 +332,7 @@
             "Power": "1.5W at 3GSPS",
             "Interface": "JESD204B (8 lanes)",
             "Package": "BGA-196",
-            "Temperature Range": "-40°C to +85°C",
-            "Channels": "N/A",
-            "Input Range": "N/A",
-            "THD": "N/A",
-            "Output Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "ENOB": "N/A",
-            "Noise": "N/A",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "14-bit resolution at 3GSPS",
@@ -518,9 +497,7 @@
         "Gain Range",
         "Noise",
         "Bandwidth",
-        "Input Bias Current",
-        "Voltage Rating",
-        "Current Rating"
+        "Input Bias Current"
       ],
       "selectionGuide": "Select precision op-amps for DC accuracy, high-speed amplifiers for wide bandwidth, instrumentation amps for sensor interfaces.",
       "selectionGuideLink": {
@@ -601,11 +578,7 @@
             "Supply Current": "1.3mA max",
             "Input Bias Current": "1nA max",
             "Package": "PDIP-8, SOIC-8",
-            "Temperature Range": "-40°C to +85°C",
-            "Gain Bandwidth": "N/A",
-            "Noise Density": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Gain set with single external resistor",
@@ -773,9 +746,7 @@
         "Dropout Voltage",
         "PSRR",
         "Output Noise",
-        "Load Regulation",
-        "Voltage Rating",
-        "Current Rating"
+        "Load Regulation"
       ],
       "selectionGuide": "Select buck converters for step-down, boost for step-up, LDOs for low-noise applications, battery management for portable devices.",
       "selectionGuideLink": {
@@ -854,13 +825,7 @@
             "Shutdown Current": "12μA",
             "Feedback Voltage": "0.6V ±1%",
             "Package": "LFCSP-24 (4mm × 4mm)",
-            "Temperature Range": "-40°C to +125°C",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Output Noise": "N/A",
-            "Load Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Integrated high-side MOSFET (35mΩ)",
@@ -1021,12 +986,7 @@
             "Shutdown Current": "1μA",
             "Load Regulation": "0.3% from 10mA to 1.6A",
             "Package": "LFCSP-8, SOIC-8",
-            "Temperature Range": "-40°C to +125°C",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Feedback Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "High PSRR for noise-sensitive applications",
@@ -1197,9 +1157,7 @@
         "Frequency Resolution",
         "Lock Time",
         "Reference Input",
-        "Output Power",
-        "Voltage Rating",
-        "Current Rating"
+        "Output Power"
       ],
       "selectionGuide": "Select transceivers for SDR applications, PLLs for frequency synthesis, amplifiers for signal chain gain, mixers for frequency conversion.",
       "selectionGuideLink": {
@@ -1279,15 +1237,7 @@
             "Interface": "JESD204B or CMOS",
             "Supply Voltage": "1.3V, 1.8V, 3.3V",
             "Package": "12mm × 12mm BGA",
-            "Temperature Range": "-40°C to +85°C",
-            "VCO Range": "N/A",
-            "Output Dividers": "N/A",
-            "Frequency Resolution": "N/A",
-            "Lock Time": "N/A",
-            "Reference Input": "N/A",
-            "Output Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Dual independent transmitters and receivers",
@@ -1448,15 +1398,7 @@
             "Output Power": "5dBm typical",
             "Supply Voltage": "3.3V analog, 3.3V digital",
             "Package": "LFCSP-32 (5mm × 5mm)",
-            "Temperature Range": "-40°C to +85°C",
-            "Bandwidth": "N/A",
-            "Tx Output Power": "N/A",
-            "Rx Noise Figure": "N/A",
-            "Rx Gain Range": "N/A",
-            "Tx Attenuation Range": "N/A",
-            "Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Wide frequency coverage (137.5MHz - 4.4GHz)",

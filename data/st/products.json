@@ -80,10 +80,7 @@
         "Flash Memory",
         "SRAM",
         "GPIO",
-        "ADC",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "ADC"
       ],
       "applications": [
         "Industrial Control",
@@ -168,10 +165,7 @@
             "SRAM": "192 KB",
             "GPIO": "82",
             "ADC": "3x 12-bit",
-            "Package": "LQFP-100",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-100"
           },
           "features": [
             "ARM Cortex-M4 with DSP and FPU",
@@ -330,10 +324,7 @@
             "SRAM": "1 MB (864KB TCM)",
             "GPIO": "82",
             "ADC": "3x 16-bit",
-            "Package": "LQFP-100",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-100"
           },
           "features": [
             "ARM Cortex-M7 with double-precision FPU",
@@ -491,10 +482,7 @@
             "SRAM": "128 KB",
             "GPIO": "82",
             "ADC": "3x 12-bit",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M4 with single-precision FPU",
@@ -653,10 +641,7 @@
             "SRAM": "128 KB",
             "GPIO": "81",
             "ADC": "5x 12-bit",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M4 with FPU at 170MHz",
@@ -821,8 +806,7 @@
         "Current Rating",
         "Rds(on) max",
         "Rds(on) typ",
-        "Qg",
-        "Temperature Range"
+        "Qg"
       ],
       "applications": [
         "EV/HEV Traction",
@@ -907,8 +891,7 @@
             "Rds(on) max": "75 mΩ",
             "Rds(on) typ": "45 mΩ",
             "Qg": "105 nC",
-            "Package": "TO-247",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "features": [
             "MDmesh M2 super-junction technology",
@@ -1065,8 +1048,7 @@
             "Rds(on) max": "28 mΩ",
             "Rds(on) typ": "22 mΩ",
             "Qg": "105 nC",
-            "Package": "HiP247-3L",
-            "Temperature Range": "N/A"
+            "Package": "HiP247-3L"
           },
           "features": [
             "Advanced SiC MOSFET technology",
@@ -1223,8 +1205,7 @@
             "Rds(on) max": "75 mΩ",
             "Rds(on) typ": "55 mΩ",
             "Qg": "135 nC",
-            "Package": "TO-247",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "features": [
             "MDmesh M5 super-junction technology",
@@ -1327,8 +1308,7 @@
             "Rds(on) max": "60 mΩ",
             "Rds(on) typ": "45 mΩ",
             "Qg": "155 nC",
-            "Package": "TO-247",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "features": [
             "MDmesh M5 super-junction technology",
@@ -1443,8 +1423,6 @@
         "Dropout Voltage",
         "Output Noise",
         "PSRR",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Input Offset Voltage",
         "Supply Current",
@@ -1536,22 +1514,7 @@
             "Slew Rate": "10 V/us",
             "Input Offset": "5 mV max",
             "Quiescent Current": "660 uA/amp",
-            "Package": "TSSOP-14",
-            "Output Voltage": "N/A",
-            "Output Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Supply Current": "N/A",
-            "Reference Voltage": "N/A",
-            "Output Voltage Range": "N/A",
-            "Initial Accuracy": "N/A",
-            "Temperature Coefficient": "N/A",
-            "Cathode Current Range": "N/A"
+            "Package": "TSSOP-14"
           },
           "features": [
             "Rail-to-rail input and output",
@@ -1720,22 +1683,7 @@
             "Dropout Voltage": "200 mV typ @ 1A",
             "Output Noise": "6 uVrms",
             "PSRR": "90 dB @ 1kHz",
-            "Package": "SOT-223",
-            "Supply Voltage": "N/A",
-            "GBW": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Supply Current": "N/A",
-            "Reference Voltage": "N/A",
-            "Output Voltage Range": "N/A",
-            "Initial Accuracy": "N/A",
-            "Temperature Coefficient": "N/A",
-            "Cathode Current Range": "N/A"
+            "Package": "SOT-223"
           },
           "features": [
             "Ultra-low output noise: 6uVrms",
@@ -1895,21 +1843,7 @@
             "Input Offset Voltage": "2 mV (max)",
             "Supply Current": "700 μA per amplifier",
             "Package": "SO-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C",
-            "Input Offset": "N/A",
-            "Quiescent Current": "N/A",
-            "Output Voltage": "N/A",
-            "Output Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Reference Voltage": "N/A",
-            "Output Voltage Range": "N/A",
-            "Initial Accuracy": "N/A",
-            "Temperature Coefficient": "N/A",
-            "Cathode Current Range": "N/A"
+            "Temperature Range": "0°C to +70°C"
           },
           "features": [
             "Wide supply voltage range: 3V to 32V",
@@ -2012,21 +1946,7 @@
             "Temperature Coefficient": "20 ppm/°C (typ)",
             "Cathode Current Range": "1mA to 100mA",
             "Package": "SOT-23-3",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Supply Voltage": "N/A",
-            "GBW": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset": "N/A",
-            "Quiescent Current": "N/A",
-            "Output Voltage": "N/A",
-            "Output Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Supply Current": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Adjustable output: 2.5V to 36V",
@@ -2143,8 +2063,6 @@
         "ODR Range",
         "Current (Low)",
         "Current (High)",
-        "Voltage Rating",
-        "Current Rating",
         "Humidity Range",
         "Humidity Accuracy",
         "Temperature Accuracy",
@@ -2236,23 +2154,7 @@
             "Gyroscope ODR": "12.5Hz - 6.7kHz",
             "Current (Combo)": "1.25 mA",
             "Current (Accel Only)": "130 uA",
-            "Package": "LGA-14 (2.5x3x0.83mm)",
-            "Pressure Range": "N/A",
-            "Pressure Resolution": "N/A",
-            "Temperature Range": "N/A",
-            "Absolute Accuracy": "N/A",
-            "ODR Range": "N/A",
-            "Current (Low)": "N/A",
-            "Current (High)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Humidity Range": "N/A",
-            "Humidity Accuracy": "N/A",
-            "Temperature Accuracy": "N/A",
-            "Interface": "N/A",
-            "Measurement Range": "N/A",
-            "Sensitivity": "N/A",
-            "Operating Current": "N/A"
+            "Package": "LGA-14 (2.5x3x0.83mm)"
           },
           "features": [
             "Ultra-low power consumption",
@@ -2424,22 +2326,7 @@
             "ODR Range": "1Hz - 75Hz",
             "Current (Low)": "12 uA",
             "Current (High)": "32 uA",
-            "Package": "HLGA-10 (2x2x0.76mm)",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer ODR": "N/A",
-            "Gyroscope ODR": "N/A",
-            "Current (Combo)": "N/A",
-            "Current (Accel Only)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Humidity Range": "N/A",
-            "Humidity Accuracy": "N/A",
-            "Temperature Accuracy": "N/A",
-            "Interface": "N/A",
-            "Measurement Range": "N/A",
-            "Sensitivity": "N/A",
-            "Operating Current": "N/A"
+            "Package": "HLGA-10 (2x2x0.76mm)"
           },
           "features": [
             "260-1260 hPa absolute pressure range",
@@ -2596,24 +2483,7 @@
             "Temperature Range": "-40°C to +120°C",
             "Temperature Accuracy": "±0.5°C (15-40°C)",
             "Interface": "I2C/SPI",
-            "Package": "HLGA-6L (2x2mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer ODR": "N/A",
-            "Gyroscope ODR": "N/A",
-            "Current (Combo)": "N/A",
-            "Current (Accel Only)": "N/A",
-            "Pressure Range": "N/A",
-            "Pressure Resolution": "N/A",
-            "Absolute Accuracy": "N/A",
-            "ODR Range": "N/A",
-            "Current (Low)": "N/A",
-            "Current (High)": "N/A",
-            "Measurement Range": "N/A",
-            "Sensitivity": "N/A",
-            "Operating Current": "N/A"
+            "Package": "HLGA-6L (2x2mm)"
           },
           "features": [
             "0-100% RH measurement range",
@@ -2716,23 +2586,7 @@
             "ODR Range": "1Hz to 5.3kHz",
             "Operating Current": "2μA (low-power mode)",
             "Package": "LGA-16 (3x3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer ODR": "N/A",
-            "Gyroscope ODR": "N/A",
-            "Current (Combo)": "N/A",
-            "Current (Accel Only)": "N/A",
-            "Pressure Range": "N/A",
-            "Pressure Resolution": "N/A",
-            "Absolute Accuracy": "N/A",
-            "Current (Low)": "N/A",
-            "Current (High)": "N/A",
-            "Humidity Range": "N/A",
-            "Humidity Accuracy": "N/A",
-            "Temperature Accuracy": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Ultra low-power consumption: 2μA",

@@ -82,10 +82,7 @@
         "PCIe",
         "Memory Interface",
         "Packages",
-        "Security",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Security"
       ],
       "selectionGuideLink": {
         "url": "/lattice/support/nexus-selection-guide.html",
@@ -205,11 +202,7 @@
             "User I/O": "Up to 207",
             "PCIe": "Gen2 x2",
             "Memory Interface": "DDR3/LPDDR4",
-            "Packages": "caBGA-256, caBGA-121, WLCSP-36",
-            "Security": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "caBGA-256, caBGA-121, WLCSP-36"
           },
           "applications": [
             "Edge AI",
@@ -337,11 +330,7 @@
             "User I/O": "Up to 270",
             "PCIe": "Gen3 x4",
             "Security": "Hardware root of trust",
-            "Packages": "caBGA-400, caBGA-256",
-            "Memory Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "caBGA-400, caBGA-256"
           },
           "applications": [
             "5G infrastructure",
@@ -462,10 +451,7 @@
         "Packages",
         "Security",
         "Encryption",
-        "Authentication",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Authentication"
       ],
       "selectionGuideLink": {
         "url": "/lattice/support/machxo-selection-guide.html",
@@ -562,13 +548,7 @@
             "Flash Memory": "256 Kbit",
             "Configuration": "Instant-on",
             "Static Power": "<100 uA",
-            "Packages": "QFN-48, TQFP-100, caBGA-132",
-            "Security": "N/A",
-            "Encryption": "N/A",
-            "Authentication": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "QFN-48, TQFP-100, caBGA-132"
           },
           "applications": [
             "Power sequencing",
@@ -690,13 +670,7 @@
             "Security": "Hardware root of trust",
             "Encryption": "AES-256",
             "Authentication": "ECDSA",
-            "Packages": "QFN-48, caBGA-121",
-            "Flash Memory": "N/A",
-            "Configuration": "N/A",
-            "Static Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "QFN-48, caBGA-121"
           },
           "applications": [
             "Secure boot",
@@ -812,10 +786,7 @@
         "Data Rate",
         "Camera Interface",
         "Display Interface",
-        "Packages",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Packages"
       ],
       "selectionGuideLink": {
         "url": "/lattice/support/crosslink-selection-guide.html",
@@ -912,10 +883,7 @@
             "Data Rate": "2.5 Gbps/lane",
             "Camera Interface": "MIPI CSI-2",
             "Display Interface": "MIPI DSI/HDMI/DP",
-            "Packages": "caBGA-256, WLCSP-49",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "caBGA-256, WLCSP-49"
           },
           "applications": [
             "Multi-camera aggregation",
@@ -1039,10 +1007,7 @@
             "Data Rate": "2.5 Gbps/lane",
             "Camera Interface": "MIPI CSI-2",
             "Display Interface": "MIPI DSI/HDMI",
-            "Packages": "caBGA-121, WLCSP-36",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Packages": "caBGA-121, WLCSP-36"
           },
           "applications": [
             "Single camera systems",
@@ -1131,10 +1096,7 @@
         "Power",
         "Expansion",
         "Camera Inputs",
-        "Display Output",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Display Output"
       ],
       "selectionGuideLink": {
         "url": "/lattice/support/devkit-selection-guide.html",
@@ -1211,12 +1173,7 @@
             "Memory": "1GB DDR3",
             "Programming": "USB-B",
             "Power": "5V DC",
-            "Expansion": "Multiple PMOD/Arduino",
-            "Camera Inputs": "N/A",
-            "Display Output": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Expansion": "Multiple PMOD/Arduino"
           },
           "applications": [
             "Edge AI prototyping",
@@ -1295,12 +1252,7 @@
             "Camera Inputs": "2x MIPI CSI-2",
             "Display Output": "HDMI",
             "Programming": "USB-B",
-            "Power": "5V DC",
-            "Memory": "N/A",
-            "Expansion": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Power": "5V DC"
           },
           "applications": [
             "Smart vision prototyping",

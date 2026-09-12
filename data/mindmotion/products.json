@@ -80,10 +80,7 @@
         "Flash",
         "RAM",
         "GPIO",
-        "ADC",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "ADC"
       ],
       "series": [
         {
@@ -182,10 +179,7 @@
             "RAM": "48 KB",
             "GPIO": "Up to 80",
             "ADC": "12-bit, 16 channels, 1Msps",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M3 up to 120MHz",
@@ -333,10 +327,7 @@
             "RAM": "128 KB",
             "GPIO": "Up to 114",
             "ADC": "12-bit, 24 channels, 3Msps",
-            "Package": "LQFP-100",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-100"
           },
           "features": [
             "ARM Cortex-M4F up to 168MHz with DSP+FPU",
@@ -486,10 +477,7 @@
             "RAM": "8 KB",
             "GPIO": "Up to 36",
             "ADC": "12-bit, 12 channels, 1Msps",
-            "Package": "LQFP-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "ARM Cortex-M0 up to 72MHz",
@@ -542,10 +530,7 @@
             "RAM": "16 KB",
             "GPIO": "Up to 48",
             "ADC": "12-bit, 16 channels, 1Msps",
-            "Package": "LQFP-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "ARM Cortex-M0 up to 72MHz",
@@ -597,10 +582,7 @@
         "RAM",
         "Active Current",
         "Standby Current",
-        "LCD Segments",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "LCD Segments"
       ],
       "series": [
         {
@@ -701,11 +683,7 @@
             "RAM": "8 KB",
             "Active Current": "100μA/MHz",
             "Standby Current": "0.5μA with RTC",
-            "Package": "LQFP-48",
-            "LCD Segments": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -856,10 +834,7 @@
             "LCD Segments": "Up to 320",
             "Active Current": "110μA/MHz",
             "Standby Current": "0.6μA with RTC",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1014,11 +989,7 @@
             "RAM": "4 KB",
             "Active Current": "110μA/MHz",
             "Standby Current": "0.7μA with RTC",
-            "Package": "QFN-32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "LCD Segments": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1071,11 +1042,7 @@
             "RAM": "32 KB",
             "Active Current": "110μA/MHz",
             "Standby Current": "1.2μA with RTC",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "LCD Segments": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1129,9 +1096,6 @@
         "PWM Resolution",
         "ADC",
         "Hardware Cordic",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "PWM"
       ],
       "series": [
@@ -1235,12 +1199,7 @@
             "Gate Drivers": "6-channel integrated",
             "PWM Resolution": "16-bit",
             "ADC": "12-bit, 2Msps",
-            "Package": "LQFP-48",
-            "Hardware Cordic": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "PWM": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "ARM Cortex-M0+ up to 72MHz",
@@ -1390,12 +1349,7 @@
             "Hardware Cordic": "Yes",
             "PWM Resolution": "16-bit",
             "ADC": "12-bit, 2Msps",
-            "Package": "LQFP-64",
-            "Gate Drivers": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "PWM": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M3 up to 96MHz",
@@ -1550,13 +1504,7 @@
             "RAM": "8 KB",
             "PWM": "Basic complementary with dead-time",
             "ADC": "12-bit, 10 channels, 1Msps",
-            "Package": "TSSOP-28",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drivers": "N/A",
-            "PWM Resolution": "N/A",
-            "Hardware Cordic": "N/A"
+            "Package": "TSSOP-28"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1609,13 +1557,7 @@
             "RAM": "32 KB",
             "PWM": "High-resolution 1.25ns",
             "ADC": "Dual 12-bit, 2Msps",
-            "Package": "LQFP-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drivers": "N/A",
-            "PWM Resolution": "N/A",
-            "Hardware Cordic": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "ARM Cortex-M3 up to 96MHz",
@@ -1668,10 +1610,7 @@
         "RAM",
         "BLE Version",
         "TX Power",
-        "RX Sensitivity",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "RX Sensitivity"
       ],
       "series": [
         {
@@ -1776,10 +1715,7 @@
             "BLE Version": "5.0",
             "TX Power": "+8 dBm max",
             "RX Sensitivity": "-97 dBm",
-            "Package": "QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -1935,10 +1871,7 @@
             "BLE Version": "5.0",
             "TX Power": "+8 dBm max",
             "RX Sensitivity": "-97 dBm",
-            "Package": "QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -2094,10 +2027,7 @@
             "BLE Version": "5.0",
             "TX Power": "+4 dBm max",
             "RX Sensitivity": "-95 dBm",
-            "Package": "QFN-32",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "ARM Cortex-M0+ up to 48MHz",
@@ -2151,10 +2081,7 @@
             "BLE Version": "5.2",
             "TX Power": "+8 dBm max",
             "RX Sensitivity": "-97 dBm",
-            "Package": "QFN-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "ARM Cortex-M4F with FPU",

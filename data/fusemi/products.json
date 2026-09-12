@@ -134,10 +134,7 @@
             "Package": "62mm Standard",
             "Operating Temperature": "-40°C to +150°C",
             "Collector-Emitter Voltage": "1200V",
-            "Gate-Emitter Voltage": "±20V",
-            "Short Circuit Withstand": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Gate-Emitter Voltage": "±20V"
           },
           "features": [
             "1200V rating for 400V industrial systems",
@@ -219,10 +216,7 @@
             "Package": "62mm Enhanced",
             "Operating Temperature": "-40°C to +150°C",
             "Collector-Emitter Voltage": "1200V",
-            "Short Circuit Withstand": "10μs typical",
-            "Gate-Emitter Voltage": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Short Circuit Withstand": "10μs typical"
           },
           "features": [
             "150A high current rating for demanding applications",
@@ -300,12 +294,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "VCE(sat)": "N/A",
-            "Eoff": "N/A",
-            "Operating Temperature": "N/A",
-            "Collector-Emitter Voltage": "N/A",
-            "Gate-Emitter Voltage": "N/A",
-            "Short Circuit Withstand": "N/A",
             "Specifications": "1200V 600A"
           },
           "features": [
@@ -325,53 +313,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
@@ -434,12 +377,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "VCE(sat)": "N/A",
-            "Eoff": "N/A",
-            "Operating Temperature": "N/A",
-            "Collector-Emitter Voltage": "N/A",
-            "Gate-Emitter Voltage": "N/A",
-            "Short Circuit Withstand": "N/A",
             "Specifications": "1200V 450A"
           },
           "features": [
@@ -459,53 +396,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
@@ -630,9 +522,7 @@
             "Qgd": "25nC",
             "Package": "TO-247",
             "Avalanche Energy": "350mJ",
-            "Operating Temperature": "-55°C to +150°C",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Operating Temperature": "-55°C to +150°C"
           },
           "features": [
             "300V rating for power supply applications",
@@ -710,10 +600,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "RDS(on)": "N/A",
-            "Qgd": "N/A",
-            "Avalanche Energy": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "60V N-Channel"
           },
           "features": [
@@ -733,53 +619,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOSFETS-2?",
@@ -842,10 +683,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "RDS(on)": "N/A",
-            "Qgd": "N/A",
-            "Avalanche Energy": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "80V N-Channel"
           },
           "features": [
@@ -865,53 +702,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOSFETS-3?",
@@ -974,10 +766,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "RDS(on)": "N/A",
-            "Qgd": "N/A",
-            "Avalanche Energy": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "60V N-Channel"
           },
           "features": [
@@ -997,53 +785,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOSFETS-4?",
@@ -1117,7 +860,6 @@
         "Eon+Eoff",
         "Junction Temperature",
         "Body Diode Recovery",
-        "Temperature Range",
         "VDSS",
         "ID",
         "Qg",
@@ -1167,13 +909,7 @@
             "Eon+Eoff": "2.5mJ @ 800V/15A",
             "Package": "TO-247-3",
             "Junction Temperature": "-55°C to +175°C",
-            "Body Diode Recovery": "Very fast, low Qrr",
-            "Temperature Range": "N/A",
-            "VDSS": "N/A",
-            "ID": "N/A",
-            "Qg": "N/A",
-            "Qgd": "N/A",
-            "Tj(max)": "N/A"
+            "Body Diode Recovery": "Very fast, low Qrr"
           },
           "features": [
             "1200V rating for 800V EV and solar systems",
@@ -1253,13 +989,7 @@
             "Qg": "85nC typical",
             "Qgd": "18nC typical",
             "Tj(max)": "175°C",
-            "Package": "TO-247-3",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Eon+Eoff": "N/A",
-            "Junction Temperature": "N/A",
-            "Body Diode Recovery": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247-3"
           },
           "features": [
             "1200V blocking voltage",
@@ -1335,13 +1065,7 @@
             "Qg": "55nC typical",
             "Qgd": "12nC typical",
             "Tj(max)": "175°C",
-            "Package": "TO-247-3",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Eon+Eoff": "N/A",
-            "Junction Temperature": "N/A",
-            "Body Diode Recovery": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247-3"
           },
           "features": [
             "1200V blocking voltage",
@@ -1471,9 +1195,7 @@
             "Integrated": "IGBTs, drivers, protection",
             "Package": "Mini DIP",
             "Protection": "UVLO, OCP, TSD",
-            "Operating Temperature": "-20°C to +125°C",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Operating Temperature": "-20°C to +125°C"
           },
           "features": [
             "Complete three-phase inverter in one package",
@@ -1552,10 +1274,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Configuration": "N/A",
-            "Integrated": "N/A",
-            "Protection": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "1200V 600A"
           },
           "features": [
@@ -1575,53 +1293,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-2?",
@@ -1684,10 +1357,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Configuration": "N/A",
-            "Integrated": "N/A",
-            "Protection": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "1200V 450A"
           },
           "features": [
@@ -1707,53 +1376,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-3?",
@@ -1816,10 +1440,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Configuration": "N/A",
-            "Integrated": "N/A",
-            "Protection": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "1200V 300A"
           },
           "features": [
@@ -1839,53 +1459,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-4?",

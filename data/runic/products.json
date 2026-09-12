@@ -74,10 +74,7 @@
         "Noise",
         "Supply Voltage",
         "Settling Time",
-        "Output Drive",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Output Drive"
       ],
       "applications": [
         "Sensor Conditioning",
@@ -176,12 +173,7 @@
             "Supply Current": "20 μA",
             "Noise": "25 nV/√Hz",
             "Supply Voltage": "2.7 - 5.5 V",
-            "Package": "SOT23-5, MSOP-8",
-            "Settling Time": "N/A",
-            "Output Drive": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5, MSOP-8"
           },
           "features": [
             "5μV max offset voltage with auto-zero",
@@ -338,12 +330,7 @@
             "Settling Time": "100 ns to 0.1%",
             "Output Drive": "±60 mA",
             "Supply Voltage": "2.7 - 5.5 V",
-            "Package": "SOT23-5, SOIC-8",
-            "Offset Drift": "N/A",
-            "Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5, SOIC-8"
           },
           "features": [
             "50MHz GBW for high-speed applications",
@@ -491,12 +478,7 @@
             "Power": "10 mW",
             "Interface": "SPI",
             "Input": "0-VREF",
-            "Package": "TSSOP-16",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Data Rate": "N/A",
-            "Channels": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "16-bit resolution",
@@ -542,12 +524,7 @@
             "Power": "5 mW",
             "Interface": "SPI",
             "Input": "0-VREF",
-            "Package": "SOT23-8",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Data Rate": "N/A",
-            "Channels": "N/A"
+            "Package": "SOT23-8"
           },
           "features": [
             "12-bit resolution",
@@ -590,12 +567,7 @@
             "Data Rate": "10-1280 SPS",
             "Power": "2 mW",
             "Interface": "SPI",
-            "Package": "TSSOP-20",
-            "Sampling Rate": "N/A",
-            "INL/DNL": "N/A",
-            "SNR": "N/A",
-            "Input": "N/A",
-            "Channels": "N/A"
+            "Package": "TSSOP-20"
           },
           "features": [
             "24-bit resolution",
@@ -639,12 +611,7 @@
             "SNR": "85 dB",
             "Power": "25 mW",
             "Interface": "SPI",
-            "Package": "TSSOP-24",
-            "Input": "N/A",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Data Rate": "N/A"
+            "Package": "TSSOP-24"
           },
           "features": [
             "4 simultaneous channels",
@@ -961,11 +928,7 @@
             "PSRR": "80 dB",
             "Iq": "50 μA",
             "Input": "2.5-5.5V",
-            "Package": "SOT23-5",
-            "Ishutdown": "N/A",
-            "Topology": "N/A",
-            "Frequency": "N/A",
-            "Efficiency": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-low 10μV noise",
@@ -1009,11 +972,7 @@
             "Iq": "25 μA",
             "Ishutdown": "1 μA",
             "Input": "3.8-6V",
-            "Package": "SOT23-5",
-            "Noise": "N/A",
-            "Topology": "N/A",
-            "Frequency": "N/A",
-            "Efficiency": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Low 25μA Iq",
@@ -1057,11 +1016,7 @@
             "Efficiency": "95%",
             "Ishutdown": "1 μA",
             "Input": "2.7-5.5V",
-            "Package": "SOT23-6",
-            "Dropout": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Iq": "N/A"
+            "Package": "SOT23-6"
           },
           "features": [
             "95% peak efficiency",
@@ -1105,12 +1060,7 @@
             "Current": "3 A",
             "Efficiency": "96%",
             "Input": "4.5-18V",
-            "Package": "SOIC-8 EP",
-            "Dropout": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Iq": "N/A",
-            "Ishutdown": "N/A"
+            "Package": "SOIC-8 EP"
           },
           "features": [
             "96% peak efficiency",

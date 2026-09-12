@@ -175,9 +175,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Terminals": "M8 threaded studs",
             "Dimensions": "50mm dia × 85mm L",
-            "Mounting": "Bottom stud M12",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Mounting": "Bottom stud M12"
           },
           "features": [
             "Self-healing metallized polypropylene film",
@@ -339,9 +337,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Terminals": "Snap-in 2-pin",
             "Dimensions": "35mm dia × 50mm L",
-            "Mounting": "Snap-in PCB mount",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Mounting": "Snap-in PCB mount"
           },
           "features": [
             "Compact cylindrical design",
@@ -498,14 +494,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Mounting": "N/A",
             "Specifications": "1uF 400V"
           },
           "features": [
@@ -525,49 +513,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration. In my professional experience, I highly recommend this Faratronic capacitor for power applications where reliability is critical. I suggest paying close attention to voltage derating and temperature characteristics during the design phase. Based on field feedback, this capacitor consistently delivers excellent performance in various operating conditions.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "FILMCAPACITORS-3=><ALT-3-A: voltage: 25V = 25V (same), specifications comparable for most applications",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "FILMCAPACITORS-3=><ALT-3-B: voltage: 25V = 25V (same), specifications comparable for most applications",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
@@ -630,14 +577,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Mounting": "N/A",
             "Specifications": "1.5uF 400V"
           },
           "features": [
@@ -657,49 +596,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration. In my professional experience, I highly recommend this Faratronic capacitor for power applications where reliability is critical. I suggest paying close attention to voltage derating and temperature characteristics during the design phase. Based on field feedback, this capacitor consistently delivers excellent performance in various operating conditions.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "FILMCAPACITORS-4=><ALT-4-A: voltage: 25V = 25V (same), specifications comparable for most applications",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "FILMCAPACITORS-4=><ALT-4-B: voltage: 25V = 25V (same), specifications comparable for most applications",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
@@ -767,7 +665,6 @@
         "Insulation Resistance",
         "Safety Approvals",
         "Impulse Voltage",
-        "Current Rating",
         "Safety Class",
         "Pulse Current"
       ],
@@ -858,11 +755,7 @@
             "Dimensions": "18mm × 11mm × 5mm",
             "Dissipation Factor": "<0.001 @ 1kHz",
             "Insulation Resistance": ">15000 MΩ",
-            "Safety Approvals": "UL, VDE, ENEC, CQC",
-            "Impulse Voltage": "N/A",
-            "Current Rating": "N/A",
-            "Safety Class": "N/A",
-            "Pulse Current": "N/A"
+            "Safety Approvals": "UL, VDE, ENEC, CQC"
           },
           "features": [
             "X2 safety rated for across-line use",
@@ -1025,10 +918,7 @@
             "Dimensions": "12mm × 5mm disc",
             "Dissipation Factor": "<0.001 @ 1kHz",
             "Insulation Resistance": ">10000 MΩ",
-            "Safety Approvals": "UL, VDE, ENEC, CQC",
-            "Current Rating": "N/A",
-            "Safety Class": "N/A",
-            "Pulse Current": "N/A"
+            "Safety Approvals": "UL, VDE, ENEC, CQC"
           },
           "features": [
             "Y2 safety rated for line-to-ground",
@@ -1189,12 +1079,7 @@
             "Safety Class": "X2",
             "Dissipation Factor": "≤0.0010 (1kHz)",
             "Insulation Resistance": "≥15000MΩ",
-            "Pulse Current": "High pulse current capable",
-            "DC Voltage": "N/A",
-            "Dimensions": "N/A",
-            "Safety Approvals": "N/A",
-            "Impulse Voltage": "N/A",
-            "Current Rating": "N/A"
+            "Pulse Current": "High pulse current capable"
           },
           "features": [
             "X2 safety classification",
@@ -1293,12 +1178,7 @@
             "Safety Class": "X2",
             "Dissipation Factor": "≤0.0010 (1kHz)",
             "Insulation Resistance": "≥10000MΩ",
-            "Pulse Current": "Very high pulse current capable",
-            "DC Voltage": "N/A",
-            "Dimensions": "N/A",
-            "Safety Approvals": "N/A",
-            "Impulse Voltage": "N/A",
-            "Current Rating": "N/A"
+            "Pulse Current": "Very high pulse current capable"
           },
           "features": [
             "1.0uF high capacitance",
@@ -1380,8 +1260,7 @@
         "DC Voltage",
         "Lead Spacing",
         "Dissipation Factor",
-        "Insulation Resistance",
-        "Current Rating"
+        "Insulation Resistance"
       ],
       "series": [
         "C3A",
@@ -1473,12 +1352,7 @@
             "Terminals": "M8 threaded studs",
             "Dimensions": "65mm dia × 100mm L",
             "Qualification": "AEC-Q200 Grade 1",
-            "Vibration": "Random 5-2000Hz, 8h/axis",
-            "DC Voltage": "N/A",
-            "Lead Spacing": "N/A",
-            "Dissipation Factor": "N/A",
-            "Insulation Resistance": "N/A",
-            "Current Rating": "N/A"
+            "Vibration": "Random 5-2000Hz, 8h/axis"
           },
           "features": [
             "AEC-Q200 Grade 1 qualified",
@@ -1639,12 +1513,7 @@
             "Dissipation Factor": "<0.001 @ 1kHz",
             "Insulation Resistance": ">15000 MΩ",
             "Qualification": "AEC-Q200 Grade 1",
-            "Vibration": "Random 5-2000Hz, 8h/axis",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Current Rating": "N/A"
+            "Vibration": "Random 5-2000Hz, 8h/axis"
           },
           "features": [
             "AEC-Q200 Grade 1 qualified",
@@ -1804,15 +1673,7 @@
             "Package": "Radial",
             "Qualification": "AEC-Q200",
             "Dissipation Factor": "≤0.008 (1kHz)",
-            "Insulation Resistance": "≥30000MΩ",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Vibration": "N/A",
-            "DC Voltage": "N/A",
-            "Current Rating": "N/A"
+            "Insulation Resistance": "≥30000MΩ"
           },
           "features": [
             "AEC-Q200 qualified",
@@ -1889,15 +1750,7 @@
             "Package": "Radial",
             "Qualification": "AEC-Q200",
             "Dissipation Factor": "≤0.008 (1kHz)",
-            "Insulation Resistance": "≥15000MΩ",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Vibration": "N/A",
-            "DC Voltage": "N/A",
-            "Current Rating": "N/A"
+            "Insulation Resistance": "≥15000MΩ"
           },
           "features": [
             "220nF capacitance",
@@ -1974,7 +1827,6 @@
         "Terminals",
         "Dimensions",
         "Mounting",
-        "Current Rating",
         "Lead Style",
         "dV/dt",
         "Dissipation Factor",
@@ -2069,12 +1921,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Terminals": "M12 threaded studs",
             "Dimensions": "86mm dia × 150mm L",
-            "Mounting": "Bottom stud M16",
-            "Current Rating": "N/A",
-            "Lead Style": "N/A",
-            "dV/dt": "N/A",
-            "Dissipation Factor": "N/A",
-            "Insulation Resistance": "N/A"
+            "Mounting": "Bottom stud M16"
           },
           "features": [
             "High capacitance 50uF",
@@ -2235,12 +2082,7 @@
             "Lifetime": "100,000 hours @ 70°C",
             "Terminals": "M12 threaded studs",
             "Dimensions": "75mm dia × 140mm L",
-            "Mounting": "Bottom stud M16",
-            "Current Rating": "N/A",
-            "Lead Style": "N/A",
-            "dV/dt": "N/A",
-            "Dissipation Factor": "N/A",
-            "Insulation Resistance": "N/A"
+            "Mounting": "Bottom stud M16"
           },
           "features": [
             "Ultra-high voltage 2000V DC",
@@ -2401,15 +2243,7 @@
             "Package": "Cylindrical",
             "dV/dt": "High dV/dt capable",
             "Dissipation Factor": "≤0.0010 (1kHz)",
-            "Insulation Resistance": "≥30000MΩ",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Mounting": "N/A",
-            "Current Rating": "N/A"
+            "Insulation Resistance": "≥30000MΩ"
           },
           "features": [
             "2000V high voltage rating",
@@ -2491,15 +2325,7 @@
             "Package": "Cylindrical",
             "dV/dt": "Very high dV/dt capable",
             "Dissipation Factor": "≤0.0010 (1kHz)",
-            "Insulation Resistance": "≥15000MΩ",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Lifetime": "N/A",
-            "Terminals": "N/A",
-            "Dimensions": "N/A",
-            "Mounting": "N/A",
-            "Current Rating": "N/A"
+            "Insulation Resistance": "≥15000MΩ"
           },
           "features": [
             "0.22uF higher capacitance",

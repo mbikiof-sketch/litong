@@ -72,10 +72,7 @@
         "Input Channels",
         "Interface",
         "INL",
-        "SNR",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "SNR"
       ],
       "applications": [
         "Industrial sensors",
@@ -159,10 +156,7 @@
             "Input Channels": "2 differential or 4 single-ended",
             "Interface": "SPI",
             "INL": "±0.0015% FSR (±10ppm)",
-            "SNR": "110dB at PGA=1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "SNR": "110dB at PGA=1"
           },
           "features": [
             "24-bit resolution with no missing codes",
@@ -325,10 +319,7 @@
             "Input Channels": "8 single-ended or 4 differential",
             "Interface": "SPI",
             "INL": "±2 LSB",
-            "SNR": "86dB",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "SNR": "86dB"
           },
           "features": [
             "16-bit resolution with no missing codes",

@@ -86,9 +86,6 @@
         "Load Regulation",
         "Switching Frequency",
         "Efficiency",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Input Voltage",
         "Temperature"
       ],
@@ -212,14 +209,7 @@
             "PSRR": "70dB @ 1kHz",
             "Line Regulation": "0.05%/V typical",
             "Load Regulation": "10mV typical",
-            "Package": "SOT-23-5, SOT-89, SOT-223",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Voltage": "N/A",
-            "Temperature": "N/A"
+            "Package": "SOT-23-5, SOT-89, SOT-223"
           },
           "features": [
             "Ultra-low quiescent current of 2μA extends battery life",
@@ -369,14 +359,7 @@
             "Line Regulation": "0.5% typical",
             "Load Regulation": "1.0% typical",
             "Quiescent Current": "5mA typical",
-            "Package": "TO-220-5, TO-263-5",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Voltage": "N/A",
-            "Temperature": "N/A"
+            "Package": "TO-220-5, TO-263-5"
           },
           "features": [
             "High efficiency up to 95% reduces heat dissipation",
@@ -521,92 +504,6 @@
           ]
         },
         {
-          "partNumber": "HG6206",
-          "name": "HG6206 Low Dropout Regulator",
-          "shortDescription": "High-performance LDO with 300mA output, ultra-low dropout voltage, and low quiescent current.",
-          "descriptionParagraphs": [
-            "The HG6206 is a high-performance low-dropout (LDO) linear regulator delivering up to 300mA output current. Features ultra-low dropout voltage of only 250mV at 300mA load.",
-            "Low quiescent current of 45μA makes it ideal for battery-powered applications. Includes thermal shutdown and current limit protection.",
-            "Available in fixed output voltages from 1.2V to 5.0V, as well as adjustable version. Compact SOT-23-5 package."
-          ],
-          "specifications": {
-            "Input Voltage": "2.5V - 6.5V",
-            "Output Current": "300mA",
-            "Dropout Voltage": "250mV @ 300mA",
-            "Quiescent Current": "45μA",
-            "Output Voltage": "1.2V - 5.0V (fixed)",
-            "Line Regulation": "0.05%/V",
-            "Load Regulation": "0.2%/A",
-            "PSRR": "70dB @ 1kHz",
-            "Package": "SOT-23-5",
-            "Temperature": "-40°C to +85°C",
-            "Input Voltage Range": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "Ultra-low dropout voltage",
-            "Low quiescent current",
-            "High PSRR",
-            "Thermal shutdown",
-            "Current limit protection",
-            "Compact SOT-23-5"
-          ],
-          "applications": [
-            "Battery-powered devices",
-            "Portable electronics",
-            "Post-regulation for SMPS",
-            "Noise-sensitive circuits",
-            "Microcontroller power"
-          ],
-          "faeReview": {
-            "author": "Zhang Wei",
-            "title": "FAE - Power Management",
-            "content": "The HG6206 offers excellent dropout performance for its size. The 45μA quiescent current is among the best in class for 300mA LDOs.",
-            "highlight": "Excellent low-power LDO solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG6210",
-              "brand": "HGSEMI",
-              "reason": "Higher current option",
-              "comparison": {
-                "current": "1A > 300mA",
-                "dropout": "Higher"
-              },
-              "useCase": "Higher current applications",
-              "specifications": {
-                "Output Current": "1A"
-              },
-              "priceDifference": "+25%",
-              "stockStatus": "In Stock",
-              "link": "/hgsemi/products/power-management/hg6210"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG4054",
-              "description": "Li-ion charger",
-              "category": "Charger"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the minimum input voltage?",
-              "answer": "The HG6206 requires minimum 2.5V input or Vout + 0.25V, whichever is higher. For 3.3V output, minimum input is 3.55V.",
-              "decisionGuide": "Ensure adequate headroom for dropout voltage.",
-              "keywords": [
-                "dropout",
-                "input voltage",
-                "headroom"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "HG6210",
           "name": "HG6210 1A Low Dropout Regulator",
           "shortDescription": "1A LDO with low dropout voltage, wide input range, and thermal protection for power management applications.",
@@ -624,14 +521,7 @@
             "Load Regulation": "0.5%/A",
             "PSRR": "60dB @ 1kHz",
             "Package": "SOT-223 / TO-252",
-            "Temperature": "-40°C to +125°C",
-            "Input Voltage Range": "N/A",
-            "Output Voltage": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "1A output current capability",
@@ -712,9 +602,6 @@
         "CMRR",
         "PSRR",
         "Supply Current per Amp",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Supply Voltage",
         "Gain Bandwidth",
         "Input Offset",
@@ -843,18 +730,7 @@
             "Output Voltage Swing": "Rail-to-rail (within 20mV)",
             "CMRR": "85dB typical",
             "PSRR": "100dB typical",
-            "Package": "SOP-8, DIP-8",
-            "Supply Current per Amp": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Input Offset": "N/A",
-            "Input Bias": "N/A",
-            "Supply Current": "N/A",
-            "Output Swing": "N/A",
-            "Temperature": "N/A"
+            "Package": "SOP-8, DIP-8"
           },
           "features": [
             "Low cost general purpose dual op-amp",
@@ -1017,18 +893,7 @@
             "Supply Current per Amp": "40μA typical",
             "Output Voltage Swing": "Rail-to-rail (within 10mV)",
             "CMRR": "80dB typical",
-            "Package": "SOP-14, TSSOP-14",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Input Offset": "N/A",
-            "Input Bias": "N/A",
-            "Supply Current": "N/A",
-            "Output Swing": "N/A",
-            "Temperature": "N/A"
+            "Package": "SOP-14, TSSOP-14"
           },
           "features": [
             "Ultra-low power consumption: 40μA per amplifier",
@@ -1176,186 +1041,6 @@
               ]
             }
           ]
-        },
-        {
-          "partNumber": "HG358",
-          "name": "HG358 Dual General Purpose Op-Amp",
-          "shortDescription": "Dual operational amplifier with rail-to-rail output, 1MHz bandwidth, and low offset voltage.",
-          "descriptionParagraphs": [
-            "The HG358 is a dual general-purpose operational amplifier featuring rail-to-rail output swing and 1MHz gain-bandwidth product. Low input offset voltage of 2mV typical.",
-            "Wide supply voltage range from 2.5V to 5.5V enables operation from single-cell lithium batteries. Low supply current of 200μA per amplifier.",
-            "Ideal for battery-powered instrumentation, active filters, and sensor signal conditioning applications."
-          ],
-          "specifications": {
-            "Supply Voltage": "2.5V - 5.5V",
-            "Gain Bandwidth": "1MHz",
-            "Slew Rate": "0.6V/μs",
-            "Input Offset": "2mV (typ)",
-            "Input Bias": "45nA (typ)",
-            "Supply Current": "200μA per amp",
-            "Output Swing": "Rail-to-rail",
-            "CMRR": "65dB",
-            "Package": "SOP-8 / MSOP-8",
-            "Temperature": "-40°C to +85°C",
-            "Gain Bandwidth Product": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Input Bias Current": "N/A",
-            "Supply Voltage Range": "N/A",
-            "Output Voltage Swing": "N/A",
-            "PSRR": "N/A",
-            "Supply Current per Amp": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "Rail-to-rail output",
-            "1MHz bandwidth",
-            "Low offset voltage",
-            "Low supply current",
-            "Wide supply range",
-            "Dual configuration"
-          ],
-          "applications": [
-            "Sensor conditioning",
-            "Active filters",
-            "Battery-powered instruments",
-            "Audio preamps",
-            "Voltage followers"
-          ],
-          "faeReview": {
-            "author": "Li Ming",
-            "title": "FAE - Analog",
-            "content": "The HG358 provides excellent value for general-purpose applications. The rail-to-rail output maximizes dynamic range in low-voltage systems.",
-            "highlight": "Cost-effective dual op-amp"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG324",
-              "brand": "HGSEMI",
-              "reason": "Quad option",
-              "comparison": {
-                "channels": "4 > 2",
-                "price": "Higher per channel"
-              },
-              "useCase": "Multi-channel applications",
-              "specifications": {
-                "Channels": "4"
-              },
-              "priceDifference": "+40%",
-              "stockStatus": "In Stock",
-              "link": "/hgsemi/products/operational-amplifiers/hg324"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG4051",
-              "description": "Analog multiplexer",
-              "category": "Switch"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Is it unity gain stable?",
-              "answer": "Yes, the HG358 is unity gain stable and can be used as voltage follower without external compensation.",
-              "decisionGuide": "Use for buffer and follower applications.",
-              "keywords": [
-                "unity gain",
-                "stable",
-                "follower"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "HG324",
-          "name": "HG324 Quad General Purpose Op-Amp",
-          "shortDescription": "Quad operational amplifier with rail-to-rail output, 1MHz bandwidth, ideal for multi-channel signal conditioning.",
-          "descriptionParagraphs": [
-            "The HG324 is a quad general-purpose operational amplifier featuring four independent amplifiers in a single package.",
-            "Rail-to-rail output swing and 1MHz gain-bandwidth product make it suitable for a wide range of signal conditioning applications.",
-            "Low power consumption and wide supply voltage range enable use in battery-powered and industrial applications."
-          ],
-          "specifications": {
-            "Supply Voltage": "2.5V - 5.5V",
-            "Gain Bandwidth": "1MHz",
-            "Slew Rate": "0.6V/μs",
-            "Input Offset": "2mV (typ)",
-            "Input Bias": "45nA (typ)",
-            "Supply Current": "200μA per amp",
-            "Output Swing": "Rail-to-rail",
-            "CMRR": "65dB",
-            "Package": "SOP-14 / TSSOP-14",
-            "Temperature": "-40°C to +85°C",
-            "Gain Bandwidth Product": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Input Bias Current": "N/A",
-            "Supply Voltage Range": "N/A",
-            "Output Voltage Swing": "N/A",
-            "PSRR": "N/A",
-            "Supply Current per Amp": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "Quad amplifier configuration",
-            "Rail-to-rail output",
-            "1MHz bandwidth",
-            "Low offset voltage",
-            "Low supply current",
-            "Wide supply range"
-          ],
-          "applications": [
-            "Multi-channel sensors",
-            "Active filters",
-            "Audio mixers",
-            "Instrumentation",
-            "Battery-powered instruments"
-          ],
-          "faeReview": {
-            "author": "Li Ming",
-            "title": "FAE - Analog",
-            "content": "The HG324 provides four amplifiers in one package, saving board space and cost for multi-channel designs. Performance matches industry standards.",
-            "highlight": "Cost-effective quad solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG358",
-              "brand": "HGSEMI",
-              "reason": "Dual option",
-              "comparison": {
-                "channels": "2 < 4",
-                "price": "Lower per channel"
-              },
-              "useCase": "Dual channel needs",
-              "specifications": {
-                "Channels": "2"
-              },
-              "priceDifference": "-30%",
-              "stockStatus": "In Stock",
-              "link": "/hgsemi/products/operational-amplifiers/hg358"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG4051",
-              "description": "Analog multiplexer",
-              "category": "Switch"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Can all four amplifiers be used independently?",
-              "answer": "Yes, each of the four amplifiers in HG324 has independent inputs and outputs. They can be used for completely different functions or cascaded as needed.",
-              "decisionGuide": "Use for designs requiring multiple op-amp channels.",
-              "keywords": [
-                "independent",
-                "channels",
-                "quad"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1380,9 +1065,6 @@
         "Receivers",
         "Output Swing",
         "Shutdown Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Protocol",
         "Node Capacity",
         "Common Mode",
@@ -1509,20 +1191,7 @@
             "Supply Current": "500μA typical (enabled), 10μA (shutdown)",
             "Receiver Sensitivity": "±200mV",
             "Receiver Input Impedance": "1/8 unit load (96kΩ)",
-            "Package": "SOP-8, DIP-8",
-            "Supply Voltage Range": "N/A",
-            "Drivers": "N/A",
-            "Receivers": "N/A",
-            "Output Swing": "N/A",
-            "Shutdown Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Protocol": "N/A",
-            "Node Capacity": "N/A",
-            "Common Mode": "N/A",
-            "Driver Output": "N/A",
-            "Temperature": "N/A"
+            "Package": "SOP-8, DIP-8"
           },
           "features": [
             "High data rate up to 20Mbps",
@@ -1686,20 +1355,7 @@
             "Output Swing": "±5V typical",
             "Supply Current": "5mA typical (operating)",
             "Shutdown Current": "1μA max",
-            "Package": "SSOP-28, TSSOP-28",
-            "Common Mode Range": "N/A",
-            "Differential Output": "N/A",
-            "Supply Voltage": "N/A",
-            "Receiver Sensitivity": "N/A",
-            "Receiver Input Impedance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Protocol": "N/A",
-            "Node Capacity": "N/A",
-            "Common Mode": "N/A",
-            "Driver Output": "N/A",
-            "Temperature": "N/A"
+            "Package": "SSOP-28, TSSOP-28"
           },
           "features": [
             "Single 3.0V to 5.5V supply operation",
@@ -1855,191 +1511,6 @@
               ]
             }
           ]
-        },
-        {
-          "partNumber": "HG485",
-          "name": "HG485 RS-485 Transceiver",
-          "shortDescription": "Half-duplex RS-485 transceiver with 5Mbps data rate, 256 node capability, and fail-safe features.",
-          "descriptionParagraphs": [
-            "The HG485 is a half-duplex RS-485 transceiver supporting data rates up to 5Mbps. Capable of driving up to 256 nodes on a single bus.",
-            "Features true fail-safe operation with internal biasing for open, shorted, or terminated bus conditions. ±15kV ESD protection on bus pins.",
-            "Low shutdown current of 1μA enables power-saving in battery applications. Wide common-mode range of -7V to +12V."
-          ],
-          "specifications": {
-            "Protocol": "RS-485 / RS-422",
-            "Data Rate": "Up to 5Mbps",
-            "Node Capacity": "256 nodes",
-            "ESD Protection": "±15kV HBM",
-            "Common Mode": "-7V to +12V",
-            "Supply Voltage": "4.5V - 5.5V",
-            "Shutdown Current": "1μA",
-            "Driver Output": "±1.5V (min)",
-            "Package": "SOP-8",
-            "Temperature": "-40°C to +85°C",
-            "Common Mode Range": "N/A",
-            "Differential Output": "N/A",
-            "Supply Current": "N/A",
-            "Receiver Sensitivity": "N/A",
-            "Receiver Input Impedance": "N/A",
-            "Supply Voltage Range": "N/A",
-            "Drivers": "N/A",
-            "Receivers": "N/A",
-            "Output Swing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "5Mbps data rate",
-            "256 node capability",
-            "True fail-safe",
-            "±15kV ESD protection",
-            "Low shutdown current",
-            "Wide common-mode range"
-          ],
-          "applications": [
-            "Industrial networks",
-            "Building automation",
-            "Motor drives",
-            "Security systems",
-            "Remote sensors"
-          ],
-          "faeReview": {
-            "author": "Wang Jun",
-            "title": "FAE - Interface",
-            "content": "The HG485 delivers reliable RS-485 communication with excellent fail-safe features. The 256-node capability suits large industrial networks.",
-            "highlight": "Robust industrial transceiver"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG422",
-              "brand": "HGSEMI",
-              "reason": "RS-422 option",
-              "comparison": {
-                "protocol": "RS-422 vs RS-485",
-                "duplex": "Full vs Half"
-              },
-              "useCase": "Point-to-point applications",
-              "specifications": {
-                "Protocol": "RS-422"
-              },
-              "priceDifference": "-10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG6206",
-              "description": "LDO for power supply",
-              "category": "Power",
-              "link": "/hgsemi/products/power-management/hg6206"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum bus length?",
-              "answer": "At 5Mbps, maximum cable length is about 15 meters. At 500kbps, up to 1200 meters is possible with proper termination.",
-              "decisionGuide": "Reduce data rate for longer distances.",
-              "keywords": [
-                "cable length",
-                "distance",
-                "transmission"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "HG485",
-          "name": "HG485 RS-485/RS-422 Transceiver",
-          "shortDescription": "Half-duplex RS-485 transceiver with 20Mbps data rate, 256 node capability, and enhanced ESD protection.",
-          "descriptionParagraphs": [
-            "The HG485 is a robust RS-485/RS-422 transceiver supporting data rates up to 20Mbps with enhanced ESD protection of ±15kV.",
-            "Features true fail-safe operation, wide common-mode voltage range, and low power consumption in shutdown mode.",
-            "Ideal for industrial networks, building automation, and long-distance communication applications."
-          ],
-          "specifications": {
-            "Protocol": "RS-485 / RS-422",
-            "Data Rate": "Up to 20Mbps",
-            "Node Capacity": "256 nodes",
-            "ESD Protection": "±15kV HBM",
-            "Common Mode": "-7V to +12V",
-            "Supply Voltage": "4.5V - 5.5V",
-            "Shutdown Current": "1μA",
-            "Driver Output": "±1.5V (min)",
-            "Package": "SOP-8",
-            "Temperature": "-40°C to +85°C",
-            "Common Mode Range": "N/A",
-            "Differential Output": "N/A",
-            "Supply Current": "N/A",
-            "Receiver Sensitivity": "N/A",
-            "Receiver Input Impedance": "N/A",
-            "Supply Voltage Range": "N/A",
-            "Drivers": "N/A",
-            "Receivers": "N/A",
-            "Output Swing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "20Mbps high-speed",
-            "256 node capability",
-            "±15kV ESD protection",
-            "True fail-safe",
-            "Low shutdown current",
-            "Wide common-mode range"
-          ],
-          "applications": [
-            "Industrial networks",
-            "Building automation",
-            "Motor drives",
-            "Security systems",
-            "Remote sensors"
-          ],
-          "faeReview": {
-            "author": "Wang Jun",
-            "title": "FAE - Interface",
-            "content": "The HG485 delivers reliable RS-485 communication with excellent protection. The 20Mbps rate enables fast data transmission for modern industrial systems.",
-            "highlight": "High-speed industrial transceiver"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG232",
-              "brand": "HGSEMI",
-              "reason": "RS-232 option",
-              "comparison": {
-                "protocol": "RS-232 vs RS-485",
-                "distance": "Shorter"
-              },
-              "useCase": "Point-to-point applications",
-              "specifications": {
-                "Protocol": "RS-232"
-              },
-              "priceDifference": "-10%",
-              "stockStatus": "In Stock",
-              "link": "/hgsemi/products/interface-drivers/hg232"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG6206",
-              "description": "LDO for power supply",
-              "category": "Power",
-              "link": "/hgsemi/products/power-management/hg6206"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum cable length at 20Mbps?",
-              "answer": "At 20Mbps, maximum cable length is approximately 15 meters. For longer distances, reduce data rate to 500kbps for up to 1200 meters.",
-              "decisionGuide": "Match data rate to required cable length.",
-              "keywords": [
-                "cable length",
-                "distance",
-                "data rate"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2059,9 +1530,6 @@
         "Propagation Delay",
         "Power Dissipation",
         "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Technology",
         "Supply Voltage",
         "Clock Frequency",
@@ -2192,19 +1660,7 @@
             "Propagation Delay": "10ns typical at 5V",
             "Power Dissipation": "Quiescent: 2μA max",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOP-14, DIP-14, TSSOP-14",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Technology": "N/A",
-            "Supply Voltage": "N/A",
-            "Clock Frequency": "N/A",
-            "Output Drive": "N/A",
-            "Input Current": "N/A",
-            "Output Type": "N/A",
-            "ESD Protection": "N/A",
-            "Temperature": "N/A",
-            "Input Voltage": "N/A"
+            "Package": "SOP-14, DIP-14, TSSOP-14"
           },
           "features": [
             "Pin-compatible with 74HC00",
@@ -2367,19 +1823,7 @@
             "Propagation Delay": "8ns typical at 5V",
             "Power Dissipation": "Quiescent: 2μA max",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOP-14, DIP-14, TSSOP-14",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Technology": "N/A",
-            "Supply Voltage": "N/A",
-            "Clock Frequency": "N/A",
-            "Output Drive": "N/A",
-            "Input Current": "N/A",
-            "Output Type": "N/A",
-            "ESD Protection": "N/A",
-            "Temperature": "N/A",
-            "Input Voltage": "N/A"
+            "Package": "SOP-14, DIP-14, TSSOP-14"
           },
           "features": [
             "Pin-compatible with 74HC04",
@@ -2557,18 +2001,7 @@
             "Output Type": "3-state",
             "ESD Protection": "2kV HBM",
             "Package": "SOP-16 / TSSOP-16",
-            "Temperature": "-40°C to +85°C",
-            "Logic Function": "N/A",
-            "Supply Voltage Range": "N/A",
-            "Input High Voltage": "N/A",
-            "Input Low Voltage": "N/A",
-            "Output Drive Current": "N/A",
-            "Power Dissipation": "N/A",
-            "Operating Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Voltage": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "8-bit shift register",
@@ -2624,98 +2057,6 @@
                 "cascade",
                 "chain",
                 "expansion"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "HG74HC04",
-          "name": "HG74HC04 Hex Inverter",
-          "shortDescription": "High-speed CMOS hex inverter with six independent inverters, ideal for signal inversion and buffering.",
-          "descriptionParagraphs": [
-            "The HG74HC04 is a high-speed CMOS logic IC containing six independent inverter gates in a single package.",
-            "Features high noise immunity, low power consumption, and balanced propagation delays. Compatible with standard HC and HCT logic families.",
-            "Ideal for signal inversion, clock buffering, and general-purpose logic applications in digital systems."
-          ],
-          "specifications": {
-            "Logic Function": "Hex Inverter",
-            "Technology": "High-speed CMOS",
-            "Supply Voltage": "2V - 6V",
-            "Input Voltage": "0V to VCC",
-            "Output Drive": "±5.2mA",
-            "Propagation Delay": "9ns @ 5V",
-            "Power Dissipation": "0.5mW per gate",
-            "ESD Protection": "2kV HBM",
-            "Package": "SOP-14 / TSSOP-14",
-            "Temperature": "-40°C to +85°C",
-            "Supply Voltage Range": "N/A",
-            "Input High Voltage": "N/A",
-            "Input Low Voltage": "N/A",
-            "Output Drive Current": "N/A",
-            "Operating Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Clock Frequency": "N/A",
-            "Input Current": "N/A",
-            "Output Type": "N/A"
-          },
-          "features": [
-            "Six independent inverters",
-            "High-speed operation",
-            "Low power consumption",
-            "High noise immunity",
-            "Wide voltage range",
-            "Balanced propagation delays"
-          ],
-          "applications": [
-            "Signal inversion",
-            "Clock buffering",
-            "Logic level conversion",
-            "Oscillator circuits",
-            "Digital control systems"
-          ],
-          "faeReview": {
-            "author": "Chen Hua",
-            "title": "FAE - Logic",
-            "content": "The HG74HC04 is a fundamental building block for digital designs. The six inverters provide flexibility for various logic functions at low cost.",
-            "highlight": "Essential logic component"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "HG74HC00",
-              "brand": "HGSEMI",
-              "reason": "NAND gate option",
-              "comparison": {
-                "function": "NAND vs Inverter",
-                "gates": "4 vs 6"
-              },
-              "useCase": "NAND logic functions",
-              "specifications": {
-                "Function": "Quad NAND"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock",
-              "link": "/hgsemi/products/logic-devices/hg74hc00"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "HG74HC595",
-              "description": "Shift register",
-              "category": "Logic",
-              "link": "/hgsemi/products/logic-devices/hg74hc595"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Can this be used as a crystal oscillator driver?",
-              "answer": "Yes, two inverters can be configured as a crystal oscillator with external crystal and resistors. The HG74HC04 provides sufficient drive for most crystals.",
-              "decisionGuide": "Use for simple clock generation circuits.",
-              "keywords": [
-                "oscillator",
-                "crystal",
-                "clock"
               ]
             }
           ]

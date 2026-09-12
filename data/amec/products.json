@@ -89,10 +89,7 @@
         "Footprint",
         "Source RF",
         "Bias RF",
-        "Aspect Ratio",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Aspect Ratio"
       ],
       "applications": [
         "Logic Devices",
@@ -206,13 +203,7 @@
             "Uniformity": "< ±3% (3σ)",
             "Selectivity": "> 20:1 (oxide to silicon)",
             "Throughput": "> 120 wafers/hour",
-            "Footprint": "3.2m x 4.5m (cluster configuration)",
-            "Source RF": "N/A",
-            "Bias RF": "N/A",
-            "Aspect Ratio": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Footprint": "3.2m x 4.5m (cluster configuration)"
           },
           "applications": [
             "Contact Etching",
@@ -368,13 +359,7 @@
             "Bias RF": "13.56MHz",
             "Aspect Ratio": "Up to 100:1",
             "Selectivity": "> 50:1 (Si to oxide)",
-            "Uniformity": "< ±5% (3σ)",
-            "RF Configuration": "N/A",
-            "Throughput": "N/A",
-            "Footprint": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Uniformity": "< ±5% (3σ)"
           },
           "applications": [
             "3D NAND Etching",
@@ -530,9 +515,7 @@
         "Throughput",
         "Particle Performance",
         "Target Utilization",
-        "Base Pressure",
-        "Voltage Rating",
-        "Current Rating"
+        "Base Pressure"
       ],
       "applications": [
         "Gate Dielectrics",
@@ -645,11 +628,7 @@
             "Uniformity": "< ±3% (1σ)",
             "Step Coverage": "> 90% (for PECVD)",
             "Throughput": "> 80 wafers/hour",
-            "Particle Performance": "< 0.1 adders/wafer (>0.16μm)",
-            "Target Utilization": "N/A",
-            "Base Pressure": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Particle Performance": "< 0.1 adders/wafer (>0.16μm)"
           },
           "applications": [
             "Interlayer Dielectrics",
@@ -803,11 +782,7 @@
             "Uniformity": "< ±5% (1σ)",
             "Target Utilization": "> 40%",
             "Base Pressure": "< 5 x 10^-7 Torr",
-            "Throughput": "> 60 wafers/hour",
-            "Step Coverage": "N/A",
-            "Particle Performance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Throughput": "> 60 wafers/hour"
           },
           "applications": [
             "Interconnect Metallization",
@@ -967,9 +942,7 @@
         "Reactor Type",
         "Uniformity",
         "Control System",
-        "Footprint",
-        "Voltage Rating",
-        "Current Rating"
+        "Footprint"
       ],
       "applications": [
         "LED Manufacturing",
@@ -1082,16 +1055,7 @@
             "Thickness Uniformity": "< ±1% (1σ)",
             "Wavelength Uniformity": "< ±2nm (1σ)",
             "Throughput": "High volume production",
-            "Precursor Efficiency": "Industry leading",
-            "Wafer Size": "N/A",
-            "Capacity": "N/A",
-            "Material Systems": "N/A",
-            "Reactor Type": "N/A",
-            "Uniformity": "N/A",
-            "Control System": "N/A",
-            "Footprint": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Precursor Efficiency": "Industry leading"
           },
           "applications": [
             "LED Epitaxy",
@@ -1250,10 +1214,7 @@
         "Location",
         "Deliverables",
         "Duration",
-        "Expertise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Expertise"
       ],
       "applications": [
         "Advanced Logic",
@@ -1365,16 +1326,7 @@
             "Training": "Comprehensive operator and maintenance training",
             "Support": "Full ongoing support",
             "Warranty": "Extended warranty on integrated solution",
-            "Performance Guarantee": "Solution-level performance metrics",
-            "Service Type": "N/A",
-            "Scope": "N/A",
-            "Location": "N/A",
-            "Deliverables": "N/A",
-            "Duration": "N/A",
-            "Expertise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Performance Guarantee": "Solution-level performance metrics"
           },
           "applications": [
             "New Fab Setup",
@@ -1526,16 +1478,7 @@
             "Deliverables": "Optimized recipes, process documentation, training",
             "Duration": "Project-based or ongoing",
             "Expertise": "AMEC process experts with deep application knowledge",
-            "Support": "Ongoing support during and after development",
-            "Solution Type": "N/A",
-            "Equipment Included": "N/A",
-            "Process Development": "N/A",
-            "Training": "N/A",
-            "Warranty": "N/A",
-            "Performance Guarantee": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Support": "Ongoing support during and after development"
           },
           "applications": [
             "New Process Development",

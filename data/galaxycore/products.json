@@ -83,9 +83,6 @@
         "Power Consumption",
         "Supply Voltage",
         "Frame Rate",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Power Supply"
       ],
       "selectionGuide": "Comprehensive guide to choosing the optimal Galaxycore CMOS image sensor based on your application requirements",
@@ -179,11 +176,7 @@
             "Interface": "MIPI CSI-2",
             "Power Consumption": "45mA",
             "Supply Voltage": "1.8V",
-            "Frame Rate": "30fps",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Power Supply": "N/A"
+            "Frame Rate": "30fps"
           },
           "faeReview": {
             "author": "Wang Wei",
@@ -308,11 +301,7 @@
             "Interface": "MIPI CSI-2",
             "Power Consumption": "50mA",
             "Supply Voltage": "1.8V",
-            "Frame Rate": "30fps",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Power Supply": "N/A"
+            "Frame Rate": "30fps"
           },
           "faeReview": {
             "author": "Chen Ming",
@@ -436,12 +425,7 @@
             "Frame Rate": "30fps @ full resolution",
             "Interface": "MIPI CSI-2",
             "Power Supply": "1.8V/2.8V",
-            "Package": "CSP",
-            "Power Consumption": "N/A",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "2MP resolution",
@@ -516,12 +500,7 @@
             "Frame Rate": "30fps @ full resolution",
             "Interface": "MIPI CSI-2",
             "Power Supply": "1.8V/2.8V",
-            "Package": "CSP",
-            "Power Consumption": "N/A",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "5MP high resolution",
@@ -602,9 +581,6 @@
         "Power Consumption",
         "Supply Voltage",
         "HDR Support",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Resolution",
         "Colors",
         "GRAM",
@@ -701,15 +677,7 @@
             "Color Depth": "8-bit (16.7M colors)",
             "Power Consumption": "15mW",
             "Package": "CSP 6.5x4.5mm",
-            "Supply Voltage": "1.8V/3.3V",
-            "HDR Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Resolution": "N/A",
-            "Colors": "N/A",
-            "GRAM": "N/A",
-            "Power Supply": "N/A"
+            "Supply Voltage": "1.8V/3.3V"
           },
           "faeReview": {
             "author": "Li Hua",
@@ -821,15 +789,7 @@
             "Color Depth": "10-bit (1.07B colors)",
             "HDR Support": "HDR10",
             "Power Consumption": "25mW",
-            "Package": "COF 7.2x5.0mm",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Resolution": "N/A",
-            "Colors": "N/A",
-            "GRAM": "N/A",
-            "Power Supply": "N/A"
+            "Package": "COF 7.2x5.0mm"
           },
           "faeReview": {
             "author": "Zhang Wei",
@@ -925,89 +885,6 @@
           ]
         },
         {
-          "partNumber": "GC9503",
-          "name": "GC9503 QVGA TFT LCD Driver",
-          "shortDescription": "QVGA (320x240) TFT LCD driver with 262K colors for small display applications.",
-          "descriptionParagraphs": [
-            "The GC9503 is a QVGA resolution TFT LCD driver supporting 320x240 pixels with 262K colors.",
-            "This driver IC is designed for small TFT displays in consumer electronics, industrial devices, and automotive applications. Supports 8/9/16/18-bit parallel and SPI interfaces.",
-            "Features include internal GRAM, gamma correction, and programmable display orientation."
-          ],
-          "specifications": {
-            "Resolution": "320 x 240 (QVGA)",
-            "Colors": "262K (18-bit)",
-            "Interface": "8/9/16/18-bit parallel, SPI",
-            "GRAM": "Integrated 320x240x18",
-            "Power Supply": "1.65V-3.3V I/O, 2.5V-3.3V analog",
-            "Package": "COG",
-            "Resolution Support": "N/A",
-            "Refresh Rate": "N/A",
-            "Color Depth": "N/A",
-            "Power Consumption": "N/A",
-            "Supply Voltage": "N/A",
-            "HDR Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "QVGA resolution",
-            "262K colors",
-            "Multiple interfaces",
-            "Internal GRAM",
-            "Gamma correction",
-            "COG package"
-          ],
-          "applications": [
-            "Small TFT displays",
-            "Industrial HMI",
-            "Consumer electronics",
-            "Automotive displays"
-          ],
-          "faeReview": {
-            "author": "David Wang",
-            "title": "Principal FAE - Display",
-            "content": "The GC9503 is a reliable QVGA driver for small displays. The multiple interface options provide flexibility. Good for industrial and consumer applications.",
-            "highlight": "Flexible interface options"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GC9A01",
-              "brand": "GalaxyCore",
-              "reason": "Higher resolution option",
-              "comparison": {
-                "resolution": "240x240 round > 320x240",
-                "type": "Round display"
-              },
-              "useCase": "Round display applications",
-              "specifications": {
-                "Resolution": "240 x 240 (round)"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock",
-              "link": "/galaxycore/products/display-driver-ics/gc9a01"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "TFT Panel",
-              "description": "2.4-inch QVGA TFT",
-              "category": "Display"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum SPI clock rate?",
-              "answer": "The GC9503 supports SPI clock up to 20MHz. For full 30fps refresh at QVGA, use parallel interface or optimized SPI with partial refresh.",
-              "decisionGuide": "Use parallel for high refresh, SPI for simple interface.",
-              "keywords": [
-                "SPI speed",
-                "refresh rate"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "GC9A01",
           "name": "GC9A01 Round TFT LCD Driver",
           "shortDescription": "240x240 round TFT LCD driver for smartwatch and circular display applications.",
@@ -1022,16 +899,7 @@
             "Interface": "4-wire SPI",
             "GRAM": "Integrated",
             "Power Supply": "1.65V-3.3V",
-            "Package": "COG",
-            "Resolution Support": "N/A",
-            "Refresh Rate": "N/A",
-            "Color Depth": "N/A",
-            "Power Consumption": "N/A",
-            "Supply Voltage": "N/A",
-            "HDR Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "COG"
           },
           "features": [
             "Round 240x240",
@@ -1113,9 +981,6 @@
         "LED Flicker Mitigation",
         "Interface",
         "Functional Safety",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "HDR",
         "Temperature",
         "Qualification",
@@ -1212,15 +1077,7 @@
             "AEC-Q100 Grade": "Grade 2 (-40°C to +105°C)",
             "HDR Support": "120dB",
             "LED Flicker Mitigation": "Yes",
-            "Interface": "MIPI CSI-2",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "HDR": "N/A",
-            "Temperature": "N/A",
-            "Qualification": "N/A",
-            "LFM": "N/A"
+            "Interface": "MIPI CSI-2"
           },
           "faeReview": {
             "author": "Liu Jun",
@@ -1334,15 +1191,7 @@
             "AEC-Q100 Grade": "Grade 2 (-40°C to +105°C)",
             "HDR Support": "120dB",
             "LED Flicker Mitigation": "Yes",
-            "Functional Safety": "ASIL-B Support",
-            "Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "HDR": "N/A",
-            "Temperature": "N/A",
-            "Qualification": "N/A",
-            "LFM": "N/A"
+            "Functional Safety": "ASIL-B Support"
           },
           "faeReview": {
             "author": "Chen Wei",
@@ -1454,15 +1303,7 @@
             "HDR": "Supported",
             "Temperature": "-40°C to +105°C",
             "Qualification": "AEC-Q100 Grade 2",
-            "Interface": "MIPI CSI-2",
-            "AEC-Q100 Grade": "N/A",
-            "HDR Support": "N/A",
-            "LED Flicker Mitigation": "N/A",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "LFM": "N/A"
+            "Interface": "MIPI CSI-2"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1537,15 +1378,7 @@
             "HDR": "Advanced HDR",
             "LFM": "LED Flicker Mitigation",
             "Temperature": "-40°C to +105°C",
-            "Qualification": "AEC-Q100 Grade 2",
-            "AEC-Q100 Grade": "N/A",
-            "HDR Support": "N/A",
-            "LED Flicker Mitigation": "N/A",
-            "Interface": "N/A",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Qualification": "AEC-Q100 Grade 2"
           },
           "features": [
             "LED flicker mitigation",
@@ -1629,9 +1462,6 @@
         "Interface",
         "AI Acceleration",
         "Max Frame Rate",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Frame Rate",
         "Power",
         "Features"
@@ -1727,15 +1557,7 @@
             "Min Illumination": "0.001 lux",
             "WDR Support": "100dB",
             "Power Consumption": "80mW (active)",
-            "Interface": "DVP/MIPI CSI-2",
-            "AI Acceleration": "N/A",
-            "Max Frame Rate": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frame Rate": "N/A",
-            "Power": "N/A",
-            "Features": "N/A"
+            "Interface": "DVP/MIPI CSI-2"
           },
           "faeReview": {
             "author": "Wu Jian",
@@ -1849,15 +1671,7 @@
             "AI Acceleration": "Yes",
             "WDR Support": "100dB",
             "Max Frame Rate": "60fps @ 1080p",
-            "Interface": "MIPI CSI-2",
-            "Min Illumination": "N/A",
-            "Power Consumption": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frame Rate": "N/A",
-            "Power": "N/A",
-            "Features": "N/A"
+            "Interface": "MIPI CSI-2"
           },
           "faeReview": {
             "author": "Zhao Lei",
@@ -1969,16 +1783,7 @@
             "Frame Rate": "30fps @ VGA",
             "Interface": "Parallel DVP",
             "Power": "Ultra-low power",
-            "Package": "CSP",
-            "Min Illumination": "N/A",
-            "WDR Support": "N/A",
-            "Power Consumption": "N/A",
-            "AI Acceleration": "N/A",
-            "Max Frame Rate": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Features": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "VGA resolution",
@@ -2053,16 +1858,7 @@
             "Frame Rate": "30fps @ 2MP",
             "Interface": "MIPI CSI-2 or DVP",
             "Features": "WDR, face detection",
-            "Package": "CSP",
-            "Min Illumination": "N/A",
-            "WDR Support": "N/A",
-            "Power Consumption": "N/A",
-            "AI Acceleration": "N/A",
-            "Max Frame Rate": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Power": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "2MP resolution",

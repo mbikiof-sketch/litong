@@ -80,10 +80,7 @@
         "Pixel Size",
         "Optical Format",
         "Frame Rate",
-        "Interface",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Interface"
       ],
       "applications": [
         "Mobile Phones",
@@ -168,10 +165,7 @@
             "Optical Format": "1/1.55-inch",
             "Frame Rate": "8K@30fps, 4K@120fps",
             "Interface": "MIPI CSI-2 (4-lane)",
-            "Package": "CSP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "PureCel Plus technology for superior image quality",
@@ -324,10 +318,7 @@
             "Optical Format": "1/2.44-inch",
             "Frame Rate": "60fps @ full resolution",
             "Interface": "MIPI CSI-2 (4-lane)",
-            "Package": "CSP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "CSP"
           },
           "features": [
             "AEC-Q100 Grade 2 qualified for automotive",
@@ -489,10 +480,7 @@
         "PSRR",
         "Switching Frequency",
         "Efficiency",
-        "Quiescent Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Quiescent Current"
       ],
       "applications": [
         "Smartphones",
@@ -579,13 +567,7 @@
             "Dropout Voltage": "120mV @ 300mA",
             "Output Noise": "6uVrms (10Hz-100kHz)",
             "PSRR": "80dB @ 1kHz",
-            "Package": "SOT-23-5, DFN-6",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-6"
           },
           "features": [
             "Ultra-low output noise: 6uVrms typical",
@@ -732,13 +714,7 @@
             "Switching Frequency": "3MHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "40uA",
-            "Package": "SOT-23-5, DFN-6",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-6"
           },
           "features": [
             "High efficiency: up to 95% at 3.3V to 1.8V conversion",
@@ -890,10 +866,7 @@
         "Leakage Current",
         "Offset Voltage",
         "Slew Rate",
-        "Supply Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Supply Current"
       ],
       "applications": [
         "Signal Routing",
@@ -948,13 +921,7 @@
             "Bandwidth": "300MHz",
             "Charge Injection": "10pC typical",
             "Leakage Current": "1nA max",
-            "Package": "TSSOP-14, QFN-16",
-            "Offset Voltage": "N/A",
-            "Slew Rate": "N/A",
-            "Supply Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-14, QFN-16"
           },
           "features": [
             "Ultra-low on-resistance: 0.5Ω typical",
@@ -1036,13 +1003,7 @@
             "Bandwidth": "2MHz",
             "Slew Rate": "1.5V/us",
             "Supply Current": "150uA per amp",
-            "Package": "SOT-23-5, SOIC-8",
-            "On-Resistance": "N/A",
-            "Charge Injection": "N/A",
-            "Leakage Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SOIC-8"
           },
           "features": [
             "Low offset voltage: 50uV typical",
@@ -1133,10 +1094,7 @@
         "Flash Memory",
         "RAM",
         "TX Current",
-        "Sleep Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Sleep Current"
       ],
       "applications": [
         "IoT Devices",
@@ -1191,16 +1149,7 @@
             "Rx Gain": "15dB",
             "Noise Figure": "2dB",
             "Supply Voltage": "2.0V to 3.6V",
-            "Package": "QFN-16",
-            "Bluetooth Version": "N/A",
-            "Processor": "N/A",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "TX Current": "N/A",
-            "Sleep Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-16"
           },
           "features": [
             "High output power: 22dBm",
@@ -1283,15 +1232,7 @@
             "RAM": "64KB",
             "TX Current": "3mA @ 0dBm",
             "Sleep Current": "1uA with RAM",
-            "Package": "QFN-48",
-            "Frequency Range": "N/A",
-            "Output Power": "N/A",
-            "Rx Gain": "N/A",
-            "Noise Figure": "N/A",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "Bluetooth 5.0 with 2Mbps data rate",

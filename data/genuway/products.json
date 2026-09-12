@@ -91,9 +91,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Frequency",
         "Stability",
         "Voltage",
@@ -226,15 +223,7 @@
             }
           ],
           "slug": "gxo-3225-25m",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "Stability": "N/A",
-            "Voltage": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "Crystal Oscillators GXO-3225-25M"
         },
         {
@@ -317,15 +306,7 @@
             }
           ],
           "slug": "gxo-3225-50m",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Frequency": "N/A",
-            "Stability": "N/A",
-            "Voltage": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "Crystal Oscillators GXO-3225-50M"
         },
         {
@@ -342,10 +323,7 @@
             "Stability": "±2.5ppm",
             "Voltage": "3.3V",
             "Package": "3.2x2.5mm SMD",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "26MHz output frequency",
@@ -367,53 +345,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-3?",
@@ -490,10 +423,7 @@
             "Stability": "±30ppm",
             "Voltage": "5.0V",
             "Package": "5.0x3.2mm SMD",
-            "Temperature": "-20°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-20°C to +70°C"
           },
           "features": [
             "12MHz output frequency",
@@ -515,53 +445,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-4?",

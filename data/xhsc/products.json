@@ -178,10 +178,7 @@
             "Timers": "8x 16-bit timers, 2x watchdog",
             "Operating Voltage": "2.0V to 3.6V",
             "Temperature Range": "-40°C to +85°C (Industrial)",
-            "Package": "LQFP48, LQFP64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A"
+            "Package": "LQFP48, LQFP64"
           },
           "features": [
             "ARM Cortex-M3 core at 72MHz with single-cycle multiply",
@@ -365,10 +362,7 @@
             "Timers": "5x 16-bit timers, 1x watchdog",
             "Operating Voltage": "2.0V to 3.6V",
             "Temperature Range": "-40°C to +85°C (Industrial)",
-            "Package": "LQFP32, LQFP48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Status": "N/A"
+            "Package": "LQFP32, LQFP48"
           },
           "features": [
             "ARM Cortex-M0 core at 48MHz with excellent code density",
@@ -533,19 +527,7 @@
             "[Data Pending] Application information to be confirmed with manufacturer."
           ],
           "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Core": "N/A",
-            "Frequency": "N/A",
-            "Flash Memory": "N/A",
-            "SRAM": "N/A",
-            "GPIO": "N/A",
-            "ADC": "N/A",
-            "Communication": "N/A",
-            "Timers": "N/A",
-            "Operating Voltage": "N/A",
-            "Temperature Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Status": "Data pending - to be updated from official source"
           },
           "features": [
             "High performance",
@@ -612,96 +594,6 @@
               ]
             }
           ]
-        },
-        {
-          "partNumber": "DATA_PENDING",
-          "name": "MCU (Data Pending)",
-          "shortDescription": "[Data Pending] Official product information to be added from manufacturer datasheet.",
-          "descriptionParagraphs": [
-            "[Data Pending] Product description to be added from official manufacturer documentation.",
-            "[Data Pending] Technical specifications to be verified against official datasheet.",
-            "[Data Pending] Application information to be confirmed with manufacturer."
-          ],
-          "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Core": "N/A",
-            "Frequency": "N/A",
-            "Flash Memory": "N/A",
-            "SRAM": "N/A",
-            "GPIO": "N/A",
-            "ADC": "N/A",
-            "Communication": "N/A",
-            "Timers": "N/A",
-            "Operating Voltage": "N/A",
-            "Temperature Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "reviewer": "BeiLuo FAE Team",
-            "date": "2026-05-01",
-            "content": "[Data Pending] FAE review to be added based on actual product evaluation and application experience."
-          },
-          "alternativeParts": [],
-          "companionParts": [],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for MCU-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is MCU-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of MCU-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for MCU-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for MCU-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on xhsc DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
         }
       ],
       "seoKeywords": [
@@ -721,8 +613,6 @@
         "Timers",
         "Operating Voltage",
         "Temperature Range",
-        "Voltage Rating",
-        "Current Rating",
         "Status"
       ]
     },
@@ -836,10 +726,7 @@
             "Shutdown Current": "1μA",
             "Protection": "OCP, OVP, UVLO, Thermal",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOP-8, TSSOP-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8, TSSOP-16"
           },
           "features": [
             "High-efficiency synchronous rectification up to 95%",
@@ -1011,10 +898,7 @@
         "Quiescent Current",
         "Shutdown Current",
         "Protection",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ]
     },
     {
@@ -1127,10 +1011,7 @@
             "Control Interface": "SPI, PWM, Analog",
             "Protection": "OCP, OVP, UVLO, Thermal, Shoot-through",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "QFN48, TQFP64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN48, TQFP64"
           },
           "features": [
             "Integrated three-phase gate drivers with 1A drive capability",
@@ -1295,10 +1176,7 @@
         "PWM Frequency",
         "Control Interface",
         "Protection",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ]
     },
     {
@@ -1412,10 +1290,7 @@
             "Supply Voltage": "3.3V or 5V",
             "Protection": "Short-circuit, thermal shutdown",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, MSOP-8"
           },
           "features": [
             "High-speed operation up to 500kbps",
@@ -1584,10 +1459,7 @@
         "Unit Load",
         "Supply Voltage",
         "Protection",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ]
     }
   ]

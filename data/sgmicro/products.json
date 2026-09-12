@@ -74,8 +74,6 @@
         "Bandwidth",
         "Slew Rate",
         "Noise Density",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "applications": [
@@ -171,10 +169,7 @@
             "Bandwidth": "1.5MHz",
             "Slew Rate": "0.9V/us",
             "Noise Density": "25nV/sqrt(Hz)",
-            "Package": "SOT-23-5, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, MSOP-8"
           },
           "features": [
             "Ultra-low offset voltage: 5uV max",
@@ -322,10 +317,7 @@
             "Bandwidth": "2.5MHz",
             "Slew Rate": "1.5V/us",
             "Noise Density": "20nV/sqrt(Hz)",
-            "Package": "MSOP-8, SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "MSOP-8, SOP-8"
           },
           "features": [
             "Dual-channel precision amplifier",
@@ -474,8 +466,6 @@
             "Slew Rate": "0.5V/us",
             "Noise Density": "40nV/sqrt(Hz)",
             "Package": "TSSOP-14, SOIC-14",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +125C"
           },
           "features": [
@@ -518,8 +508,6 @@
             "Slew Rate": "0.01V/us",
             "Noise Density": "200nV/sqrt(Hz)",
             "Package": "SOT-23-5, SC70-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +85C"
           },
           "features": [
@@ -562,8 +550,6 @@
         "Efficiency",
         "Dropout Voltage",
         "PSRR",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "applications": [
@@ -659,12 +645,7 @@
             "Output Current": "1A",
             "Switching Frequency": "1.5MHz",
             "Efficiency": "Up to 95%",
-            "Package": "SOT-23-5, DFN-2x2-6",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-2x2-6"
           },
           "features": [
             "High efficiency up to 95%",
@@ -802,12 +783,7 @@
             "Output Current": "300mA",
             "Dropout Voltage": "270mV @ 300mA",
             "PSRR": "70dB @ 1kHz",
-            "Package": "SOT-23-5, SC-70-5",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Ultra-low output noise: 30uVrms",
@@ -945,10 +921,6 @@
             "Output Current": "2A",
             "Switching Frequency": "2MHz",
             "Efficiency": "Up to 96%",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +125C"
           },
           "features": [
@@ -988,12 +960,8 @@
             "Input Voltage": "2.5V - 5.5V",
             "Output Voltage": "1.2V - 3.3V (fixed)",
             "Output Current": "300mA",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
             "Dropout Voltage": "250mV @ 300mA",
             "PSRR": "70dB @ 1kHz",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +125C"
           },
           "features": [
@@ -1034,8 +1002,6 @@
         "Battery Voltage",
         "Charge Efficiency",
         "Protection Features",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "applications": [
@@ -1131,10 +1097,7 @@
             "Battery Voltage": "4.2V (4.35V option)",
             "Charge Efficiency": "90%+",
             "Protection Features": "OVP, thermal, reverse current",
-            "Package": "SOT-23-5, DFN-2x2-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-2x2-8"
           },
           "features": [
             "Complete single-cell Li-ion charger",
@@ -1272,10 +1235,7 @@
             "Battery Voltage": "3.8V - 4.44V (programmable)",
             "Charge Efficiency": "Up to 93%",
             "Protection Features": "OVP, OCP, thermal, input current limit",
-            "Package": "QFN-4x4-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-4x4-24"
           },
           "features": [
             "High-efficiency synchronous switching",
@@ -1408,13 +1368,8 @@
             "The ultra-low quiescent current minimizes battery drain during storage."
           ],
           "specifications": {
-            "Input Voltage": "N/A",
-            "Charge Current": "N/A",
             "Battery Voltage": "4.2V - 4.35V",
-            "Charge Efficiency": "N/A",
             "Protection Features": "OVP, UVP, OCP, SCP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +85C"
           },
           "features": [
@@ -1452,12 +1407,6 @@
           ],
           "specifications": {
             "Input Voltage": "2.5V - 4.5V",
-            "Charge Current": "N/A",
-            "Battery Voltage": "N/A",
-            "Charge Efficiency": "N/A",
-            "Protection Features": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40C to +85C"
           },
           "features": [
@@ -1594,11 +1543,7 @@
             "Output Current": "2.5A peak per channel",
             "Control Interface": "PWM and direction pins",
             "Protection Features": "OCP, thermal, UVLO",
-            "Package": "TSSOP-16, QFN-4x4-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Switching Frequency": "N/A"
+            "Package": "TSSOP-16, QFN-4x4-24"
           },
           "features": [
             "Dual H-bridge configuration",
@@ -1735,11 +1680,7 @@
             "Output Current": "2.5A peak, 1.75A RMS",
             "Control Interface": "Step/Direction or serial",
             "Protection Features": "OCP, thermal, UVLO, stall detect",
-            "Package": "QFN-5x5-28, TSSOP-28",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Switching Frequency": "N/A"
+            "Package": "QFN-5x5-28, TSSOP-28"
           },
           "features": [
             "Up to 1/32 microstepping resolution",
@@ -1874,12 +1815,9 @@
           "specifications": {
             "Voltage Rating": "600V",
             "Current Rating": "2A/2A source/sink",
-            "Output Current": "N/A",
             "Switching Frequency": "Up to 100kHz",
             "Protection Features": "UVLO, OCP, Fault reporting",
-            "Temperature Range": "-40C to +125C",
-            "Supply Voltage": "N/A",
-            "Control Interface": "N/A"
+            "Temperature Range": "-40C to +125C"
           },
           "features": [
             "600V high-voltage operation",
@@ -1915,14 +1853,7 @@
             "Low offset voltage ensures accurate current measurement even with small sense resistors."
           ],
           "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Output Current": "N/A",
-            "Switching Frequency": "N/A",
-            "Protection Features": "N/A",
-            "Temperature Range": "-40C to +125C",
-            "Supply Voltage": "N/A",
-            "Control Interface": "N/A"
+            "Temperature Range": "-40C to +125C"
           },
           "features": [
             "Wide common-mode range: 2.9V to 60V",

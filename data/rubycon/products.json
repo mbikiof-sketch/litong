@@ -80,9 +80,7 @@
         "Ripple Current",
         "ESR",
         "Case Size",
-        "Lead Spacing",
-        "Voltage Rating",
-        "Current Rating"
+        "Lead Spacing"
       ],
       "selectionGuide": "Select YXF for general purpose, YXJ for extended life, BXA for automotive, ZLH for high ripple current.",
       "selectionGuideLink": {
@@ -159,9 +157,7 @@
             "Ripple Current": "0.58A rms at 105C, 100kHz",
             "ESR": "0.12 ohm max at 20C, 100kHz",
             "Case Size": "10mm D x 16mm L",
-            "Lead Spacing": "5.0mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Lead Spacing": "5.0mm"
           },
           "features": [
             "Long life: 10000 hours at 105C",
@@ -322,9 +318,7 @@
             "Ripple Current": "0.52A rms at 105C, 100kHz",
             "ESR": "0.18 ohm max at 20C, 100kHz",
             "Case Size": "10mm D x 20mm L",
-            "Lead Spacing": "5.0mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Lead Spacing": "5.0mm"
           },
           "features": [
             "High voltage rating: 50V DC",
@@ -483,9 +477,7 @@
         "Ripple Current",
         "ESR",
         "Case Size",
-        "Terminal",
-        "Voltage Rating",
-        "Current Rating"
+        "Terminal"
       ],
       "selectionGuide": "Select USF for general purpose, USG for extended life, USC for high capacitance at moderate temperatures.",
       "selectionGuideLink": {
@@ -562,9 +554,7 @@
             "Ripple Current": "4.5A rms at 105C, 100kHz",
             "ESR": "0.15 ohm max at 20C, 100kHz",
             "Case Size": "35mm D x 50mm L",
-            "Terminal": "Snap-in 2-pin",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Terminal": "Snap-in 2-pin"
           },
           "features": [
             "High voltage: 400V DC rating",
@@ -720,9 +710,7 @@
             "Ripple Current": "6.2A rms at 105C, 100kHz",
             "ESR": "0.08 ohm max at 20C, 100kHz",
             "Case Size": "35mm D x 60mm L",
-            "Terminal": "Snap-in 2-pin",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Terminal": "Snap-in 2-pin"
           },
           "features": [
             "High capacitance: 4700uF",
@@ -881,9 +869,7 @@
         "Ripple Current",
         "ESR",
         "Case Size",
-        "Terminal",
-        "Voltage Rating",
-        "Current Rating"
+        "Terminal"
       ],
       "selectionGuide": "Select LXS for high capacitance at moderate temperatures, LXM for extended life at high temperatures.",
       "selectionGuideLink": {
@@ -960,9 +946,7 @@
             "Ripple Current": "50A rms at 85C, 100kHz",
             "ESR": "0.015 ohm max at 20C, 100kHz",
             "Case Size": "76mm D x 143mm L",
-            "Terminal": "M8 Screw Terminal",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Terminal": "M8 Screw Terminal"
           },
           "features": [
             "Very high capacitance: 82000uF",
@@ -1118,9 +1102,7 @@
             "Ripple Current": "65A rms at 105C, 100kHz",
             "ESR": "0.008 ohm max at 20C, 100kHz",
             "Case Size": "90mm D x 160mm L",
-            "Terminal": "M12 Screw Terminal",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Terminal": "M12 Screw Terminal"
           },
           "features": [
             "Ultra-high capacitance: 220000uF",
@@ -1279,9 +1261,7 @@
         "Ripple Current",
         "ESR",
         "Case Size",
-        "Mounting",
-        "Voltage Rating",
-        "Current Rating"
+        "Mounting"
       ],
       "selectionGuide": "Select standard SMD for general applications, low profile for height-constrained designs.",
       "selectionGuideLink": {
@@ -1358,9 +1338,7 @@
             "Ripple Current": "0.18A rms at 105C, 100kHz",
             "ESR": "1.2 ohm max at 20C, 100kHz",
             "Case Size": "6.3mm D x 5.5mm H",
-            "Mounting": "Surface Mount",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Mounting": "Surface Mount"
           },
           "features": [
             "Compact SMD package: 6.3x5.5mm",
@@ -1514,9 +1492,7 @@
             "Ripple Current": "0.35A rms at 105C, 100kHz",
             "ESR": "0.6 ohm max at 20C, 100kHz",
             "Case Size": "8mm D x 10mm H",
-            "Mounting": "Surface Mount",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Mounting": "Surface Mount"
           },
           "features": [
             "High capacitance: 470uF in SMD package",

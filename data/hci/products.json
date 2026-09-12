@@ -91,22 +91,7 @@
             }
           ],
           "slug": "hci-pm001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Voltage": "N/A",
-            "Buck Converters": "N/A",
-            "LDOs": "N/A",
-            "Efficiency": "N/A",
-            "Charging Current": "N/A",
-            "Interface": "N/A",
-            "Temperature": "N/A",
-            "Battery Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Power Path": "N/A",
-            "JEITA Support": "N/A"
-          },
+          "specifications": {},
           "name": "Power Management HCI-PM001"
         },
         {
@@ -154,22 +139,7 @@
             }
           ],
           "slug": "hci-pm002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Voltage": "N/A",
-            "Buck Converters": "N/A",
-            "LDOs": "N/A",
-            "Efficiency": "N/A",
-            "Charging Current": "N/A",
-            "Interface": "N/A",
-            "Temperature": "N/A",
-            "Battery Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Power Path": "N/A",
-            "JEITA Support": "N/A"
-          },
+          "specifications": {},
           "name": "Power Management HCI-PM002"
         },
         {
@@ -189,14 +159,7 @@
             "Charging Current": "Up to 3A",
             "Interface": "I2C",
             "Package": "QFN-40 5x5mm",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Battery Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Power Path": "N/A",
-            "JEITA Support": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "4-channel buck converters",
@@ -275,14 +238,7 @@
             "Power Path": "Yes",
             "JEITA Support": "Yes",
             "Package": "DFN-10 3x3mm",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Buck Converters": "N/A",
-            "LDOs": "N/A",
-            "Efficiency": "N/A",
-            "Interface": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "2A fast charging",
@@ -345,9 +301,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Input Voltage",
         "Buck Converters",
         "LDOs",
@@ -413,41 +366,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-an001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Resolution": "N/A",
-            "Channels": "N/A",
-            "Sample Rate": "N/A",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Reference": "N/A",
-            "Interface": "N/A",
-            "Temperature": "N/A",
-            "Output Range": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Settling Time": "N/A"
-          },
+          "specifications": {},
           "name": "Analog ICs HCI-AN001"
         },
         {
@@ -477,41 +398,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-an002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Resolution": "N/A",
-            "Channels": "N/A",
-            "Sample Rate": "N/A",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Reference": "N/A",
-            "Interface": "N/A",
-            "Temperature": "N/A",
-            "Output Range": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Settling Time": "N/A"
-          },
+          "specifications": {},
           "name": "Analog ICs HCI-AN002"
         },
         {
@@ -532,14 +421,7 @@
             "Reference": "Internal/External",
             "Interface": "SPI/I2C",
             "Package": "TSSOP-20",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Output Range": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "Settling Time": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "24-bit high resolution",
@@ -620,13 +502,7 @@
             "Interface": "I2C/SPI",
             "Reference": "Internal 2.5V",
             "Package": "TSSOP-16",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Sample Rate": "N/A",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "16-bit resolution",
@@ -689,9 +565,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Resolution",
         "Channels",
         "Sample Rate",
@@ -758,38 +631,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-in001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Protocol": "N/A",
-            "Data Rate": "N/A",
-            "Bus Protection": "N/A",
-            "ESD Protection": "N/A",
-            "Supply Voltage": "N/A",
-            "Low Power Mode": "N/A",
-            "Temperature": "N/A",
-            "Common Mode": "N/A",
-            "Quiescent Current": "N/A"
-          },
+          "specifications": {},
           "name": "Interface ICs HCI-IN001"
         },
         {
@@ -819,38 +663,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-in002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Protocol": "N/A",
-            "Data Rate": "N/A",
-            "Bus Protection": "N/A",
-            "ESD Protection": "N/A",
-            "Supply Voltage": "N/A",
-            "Low Power Mode": "N/A",
-            "Temperature": "N/A",
-            "Common Mode": "N/A",
-            "Quiescent Current": "N/A"
-          },
+          "specifications": {},
           "name": "Interface ICs HCI-IN002"
         },
         {
@@ -870,12 +685,7 @@
             "Supply Voltage": "4.5V - 5.5V",
             "Low Power Mode": "< 10uA",
             "Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Common Mode": "N/A",
-            "Quiescent Current": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "CAN-FD up to 5Mbps",
@@ -954,12 +764,7 @@
             "Supply Voltage": "3.0V - 3.6V",
             "Quiescent Current": "< 1mA",
             "Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8 / MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Bus Protection": "N/A",
-            "Low Power Mode": "N/A"
+            "Package": "SOIC-8 / MSOP-8"
           },
           "features": [
             "20Mbps high-speed",
@@ -1023,9 +828,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Protocol",
         "Data Rate",
         "Bus Protection",
@@ -1089,42 +891,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-se001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer Noise": "N/A",
-            "Gyroscope Noise": "N/A",
-            "Interface": "N/A",
-            "Output Data Rate": "N/A",
-            "Power": "N/A",
-            "Temperature": "N/A",
-            "Pressure Range": "N/A",
-            "Resolution": "N/A",
-            "Accuracy": "N/A",
-            "Sample Rate": "N/A",
-            "Height Resolution": "N/A"
-          },
+          "specifications": {},
           "name": "Sensors HCI-SE001"
         },
         {
@@ -1154,42 +923,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "hci-se002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer Noise": "N/A",
-            "Gyroscope Noise": "N/A",
-            "Interface": "N/A",
-            "Output Data Rate": "N/A",
-            "Power": "N/A",
-            "Temperature": "N/A",
-            "Pressure Range": "N/A",
-            "Resolution": "N/A",
-            "Accuracy": "N/A",
-            "Sample Rate": "N/A",
-            "Height Resolution": "N/A"
-          },
+          "specifications": {},
           "name": "Sensors HCI-SE002"
         },
         {
@@ -1210,15 +946,7 @@
             "Output Data Rate": "Up to 4kHz",
             "Power": "1.8mA active",
             "Package": "LGA-14 3x3mm",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Pressure Range": "N/A",
-            "Resolution": "N/A",
-            "Accuracy": "N/A",
-            "Sample Rate": "N/A",
-            "Height Resolution": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "6-axis motion sensing",
@@ -1298,15 +1026,7 @@
             "Sample Rate": "Up to 100Hz",
             "Power": "2.7μA standby",
             "Package": "LGA-8 2.5x2.5mm",
-            "Height Resolution": "±8cm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Accelerometer Range": "N/A",
-            "Gyroscope Range": "N/A",
-            "Accelerometer Noise": "N/A",
-            "Gyroscope Noise": "N/A",
-            "Output Data Rate": "N/A",
-            "Temperature": "N/A"
+            "Height Resolution": "±8cm"
           },
           "features": [
             "24-bit high resolution",
@@ -1370,8 +1090,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Accelerometer Range",
         "Gyroscope Range",

@@ -170,8 +170,7 @@
             "RAM": "16KB with ECC",
             "Operating Voltage": "2.7V to 5.5V",
             "Temperature Range": "-40°C to +125°C (AEC-Q100 Grade 1)",
-            "Package": "LQFP-64, QFN-48",
-            "Functional Safety": "N/A"
+            "Package": "LQFP-64, QFN-48"
           },
           "features": [
             "ARM Cortex-M0+ processor up to 48MHz",
@@ -477,8 +476,7 @@
             "RAM": "32KB with ECC",
             "Operating Voltage": "2.7V to 5.5V",
             "Temperature Range": "-40°C to +125°C (AEC-Q100 Grade 1)",
-            "Package": "LQFP-80, QFN-64",
-            "Functional Safety": "N/A"
+            "Package": "LQFP-80, QFN-64"
           },
           "features": [
             "ARM Cortex-M0+ processor up to 48MHz",
@@ -631,8 +629,7 @@
             "RAM": "64KB with ECC",
             "Operating Voltage": "3.3V to 5V",
             "Temperature Range": "-40°C to +125°C (AEC-Q100 Grade 1)",
-            "Package": "LQFP-100, LQFP-64",
-            "Functional Safety": "N/A"
+            "Package": "LQFP-100, LQFP-64"
           },
           "features": [
             "ARM Cortex-M3 processor up to 72MHz",
@@ -883,13 +880,7 @@
             "Dropout Voltage": "350mV at 300mA",
             "Quiescent Current": "50 microamps",
             "PSRR": "60dB at 1kHz",
-            "Package": "SOP-8, TSSOP-8",
-            "Output Channels": "N/A",
-            "Voltage Monitoring": "N/A",
-            "Safety Features": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Power Sequencing": "N/A"
+            "Package": "SOP-8, TSSOP-8"
           },
           "features": [
             "Wide 3.5V to 40V input voltage range",
@@ -1030,14 +1021,7 @@
             "Output Current": "1A total (configurable)",
             "Voltage Monitoring": "Window watchdog with 1% accuracy",
             "Safety Features": "ASIL-D support, independent monitoring",
-            "Package": "TSSOP-20, QFN-32",
-            "Output Voltage": "N/A",
-            "Dropout Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "PSRR": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Power Sequencing": "N/A"
+            "Package": "TSSOP-20, QFN-32"
           },
           "features": [
             "Triple output voltage regulators",
@@ -1188,14 +1172,7 @@
             "Output Current": "3A continuous",
             "Switching Frequency": "300kHz to 2.2MHz",
             "Efficiency": "Up to 95%",
-            "Package": "TSSOP-16, QFN-20",
-            "Dropout Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "PSRR": "N/A",
-            "Output Channels": "N/A",
-            "Voltage Monitoring": "N/A",
-            "Safety Features": "N/A",
-            "Power Sequencing": "N/A"
+            "Package": "TSSOP-16, QFN-20"
           },
           "features": [
             "Wide 4.5V to 36V input voltage range",
@@ -1336,14 +1313,7 @@
             "Output Current": "1.5A total (configurable)",
             "Power Sequencing": "Programmable delay",
             "Voltage Monitoring": "Independent per channel",
-            "Package": "TSSOP-24, QFN-32",
-            "Output Voltage": "N/A",
-            "Dropout Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "PSRR": "N/A",
-            "Safety Features": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A"
+            "Package": "TSSOP-24, QFN-32"
           },
           "features": [
             "Triple output voltage regulators",
@@ -1589,13 +1559,7 @@
             "Gate Drive Voltage": "12V typical",
             "PWM Frequency": "Up to 50kHz",
             "Commutation": "Sensorless BEMF detection",
-            "Package": "TSSOP-20, QFN-32",
-            "Control Interface": "N/A",
-            "Safety Level": "N/A",
-            "Microstepping": "N/A",
-            "On-Resistance": "N/A",
-            "Current Control": "N/A",
-            "Current Sensing": "N/A"
+            "Package": "TSSOP-20, QFN-32"
           },
           "features": [
             "Wide 6V to 60V supply voltage range",
@@ -1736,13 +1700,7 @@
             "Gate Drive Voltage": "12V to 15V programmable",
             "Control Interface": "SPI and PWM",
             "Safety Level": "ASIL-B support",
-            "Package": "QFN-48, LQFP-64",
-            "PWM Frequency": "N/A",
-            "Commutation": "N/A",
-            "Microstepping": "N/A",
-            "On-Resistance": "N/A",
-            "Current Control": "N/A",
-            "Current Sensing": "N/A"
+            "Package": "QFN-48, LQFP-64"
           },
           "features": [
             "Wide 12V to 60V supply voltage range",
@@ -1883,13 +1841,7 @@
             "Microstepping": "Up to 1/16 step",
             "On-Resistance": "0.3 ohm per phase",
             "Current Control": "Integrated chopper",
-            "Package": "TSSOP-24, QFN-32",
-            "Gate Drive Voltage": "N/A",
-            "PWM Frequency": "N/A",
-            "Commutation": "N/A",
-            "Control Interface": "N/A",
-            "Safety Level": "N/A",
-            "Current Sensing": "N/A"
+            "Package": "TSSOP-24, QFN-32"
           },
           "features": [
             "Wide 8V to 40V supply voltage range",
@@ -2030,13 +1982,7 @@
             "Gate Drive Voltage": "12V to 15V programmable",
             "Current Sensing": "Dual high-side/low-side",
             "Safety Level": "ASIL-B support",
-            "Package": "QFN-56, LQFP-80",
-            "PWM Frequency": "N/A",
-            "Commutation": "N/A",
-            "Control Interface": "N/A",
-            "Microstepping": "N/A",
-            "On-Resistance": "N/A",
-            "Current Control": "N/A"
+            "Package": "QFN-56, LQFP-80"
           },
           "features": [
             "Wide 12V to 60V supply voltage range",
@@ -2270,10 +2216,7 @@
             "Input Type": "Resistive bridge",
             "Accuracy": "0.5% over temperature",
             "Temperature Range": "-40°C to +125°C",
-            "Interface": "LIN 2.1 / Analog output",
-            "Input Channels": "N/A",
-            "Safety Level": "N/A",
-            "Sensor Types": "N/A"
+            "Interface": "LIN 2.1 / Analog output"
           },
           "features": [
             "16-bit high-resolution ADC",
@@ -2424,10 +2367,7 @@
             "Input Channels": "8 multiplexed",
             "Accuracy": "0.1% over temperature",
             "Temperature Range": "-40°C to +125°C",
-            "Safety Level": "ASIL-B support",
-            "Input Type": "N/A",
-            "Interface": "N/A",
-            "Sensor Types": "N/A"
+            "Safety Level": "ASIL-B support"
           },
           "features": [
             "24-bit high-resolution ADC",
@@ -2578,10 +2518,7 @@
             "Sensor Types": "RTD, Thermistor, Thermocouple",
             "Temperature Range": "-40°C to +150°C",
             "Accuracy": "±0.5°C",
-            "Interface": "LIN 2.1 / Analog output",
-            "Input Type": "N/A",
-            "Input Channels": "N/A",
-            "Safety Level": "N/A"
+            "Interface": "LIN 2.1 / Analog output"
           },
           "features": [
             "Multi-sensor type support (RTD, thermistor, thermocouple)",
@@ -2732,10 +2669,7 @@
             "Input Type": "Sine/Cosine, Hall, Potentiometer",
             "Accuracy": "0.1% over temperature",
             "Temperature Range": "-40°C to +125°C",
-            "Safety Level": "ASIL-B support",
-            "Interface": "N/A",
-            "Input Channels": "N/A",
-            "Sensor Types": "N/A"
+            "Safety Level": "ASIL-B support"
           },
           "features": [
             "24-bit ultra-high-resolution ADC",

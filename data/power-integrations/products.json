@@ -59,7 +59,6 @@
         "Standby Power",
         "Current Rating",
         "Switching Frequency",
-        "Voltage Rating",
         "Temperature Range",
         "MOSFET RDS(on)"
       ],
@@ -115,12 +114,7 @@
             "MOSFET Voltage": "750V",
             "Efficiency": "Up to 94%",
             "Standby Power": "<30mW",
-            "Package": "InSOP-24D",
-            "Current Rating": "N/A",
-            "Switching Frequency": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A",
-            "MOSFET RDS(on)": "N/A"
+            "Package": "InSOP-24D"
           },
           "features": [
             "Integrated 750V power MOSFET",
@@ -278,12 +272,7 @@
             "MOSFET Voltage": "725V",
             "Switching Frequency": "66kHz",
             "Standby Power": "<50mW",
-            "Package": "SO-8",
-            "Power Rating": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A",
-            "MOSFET RDS(on)": "N/A"
+            "Package": "SO-8"
           },
           "features": [
             "Integrated 725V power MOSFET",
@@ -438,9 +427,7 @@
             "Efficiency": "Up to 90%",
             "Standby Power": "<100mW",
             "Package": "eSIP-7C",
-            "Current Rating": "N/A",
             "Switching Frequency": "66-132kHz",
-            "Voltage Rating": "N/A",
             "Temperature Range": "-40°C to +150°C"
           },
           "features": [
@@ -482,11 +469,8 @@
             "Efficiency": "Up to 85%",
             "Standby Power": "<50mW",
             "Package": "DIP-8C",
-            "Current Rating": "N/A",
             "Switching Frequency": "132kHz",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "-40°C to +150°C",
-            "MOSFET RDS(on)": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "Integrated 700V power MOSFET",
@@ -543,10 +527,7 @@
         "Dimming Range",
         "Power Factor",
         "THD",
-        "Dimming",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Dimming"
       ],
       "applications": [
         "Retrofit Lamps",
@@ -601,12 +582,7 @@
             "Output Current": "Up to 350mA",
             "Dimming Range": "1-100%",
             "Power Factor": ">0.9",
-            "Package": "SO-8",
-            "THD": "N/A",
-            "Dimming": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SO-8"
           },
           "features": [
             "Integrated 650V power MOSFET",
@@ -760,12 +736,7 @@
             "Power Factor": ">0.95",
             "THD": "<15%",
             "Dimming": "0-10V, PWM",
-            "Package": "eSOP-16B",
-            "MOSFET Voltage": "N/A",
-            "Dimming Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "eSOP-16B"
           },
           "features": [
             "Single-stage PFC and CC control",
@@ -928,8 +899,7 @@
         "Current Rating",
         "Power Rating",
         "FREDFET RDS(on)",
-        "Switching Frequency",
-        "Temperature Range"
+        "Switching Frequency"
       ],
       "applications": [
         "Refrigerator Compressors",
@@ -983,8 +953,7 @@
             "Power Rating": "Up to 1HP",
             "FREDFET RDS(on)": "0.85Ω",
             "Switching Frequency": "Up to 50kHz",
-            "Package": "SO-14C",
-            "Temperature Range": "N/A"
+            "Package": "SO-14C"
           },
           "features": [
             "Integrated 600V FREDFETs",
@@ -1137,8 +1106,7 @@
             "Power Rating": "Up to 1.5HP",
             "FREDFET RDS(on)": "0.55Ω",
             "Switching Frequency": "Up to 50kHz",
-            "Package": "eSOP-16B",
-            "Temperature Range": "N/A"
+            "Package": "eSOP-16B"
           },
           "features": [
             "High-current 10A RMS capability",
@@ -1291,8 +1259,7 @@
             "Power Rating": "Up to 0.25HP",
             "FREDFET RDS(on)": "2.0Ω",
             "Switching Frequency": "Up to 50kHz",
-            "Package": "SO-14C",
-            "Temperature Range": "N/A"
+            "Package": "SO-14C"
           },
           "features": [
             "Low-current 1.5A RMS capability",
@@ -1332,8 +1299,7 @@
             "Power Rating": "Up to 1HP per motor",
             "FREDFET RDS(on)": "0.85Ω",
             "Switching Frequency": "Up to 50kHz",
-            "Package": "eSOP-16B",
-            "Temperature Range": "N/A"
+            "Package": "eSOP-16B"
           },
           "features": [
             "Dual half-bridge in single package",
@@ -1434,12 +1400,7 @@
             "CMTI": ">100kV/μs",
             "Switching Frequency": "Up to 150kHz",
             "Supply Voltage": "15-30V",
-            "Package": "SO-16",
-            "Channel Delay Matching": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "SO-16"
           },
           "features": [
             "FluxLink reinforced isolation",
@@ -1592,12 +1553,7 @@
             "CMTI": ">100kV/μs",
             "Channel Delay Matching": "<20ns",
             "Switching Frequency": "Up to 150kHz",
-            "Package": "SO-16",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "SO-16"
           },
           "features": [
             "Dual independent channels",
@@ -1748,12 +1704,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Output Current": "N/A",
-            "Isolation Voltage": "N/A",
-            "CMTI": "N/A",
-            "Switching Frequency": "N/A",
-            "Supply Voltage": "N/A",
-            "Channel Delay Matching": "N/A",
             "Specifications": "SiC MOSFET Driver"
           },
           "features": [
@@ -1773,53 +1723,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
@@ -1882,12 +1787,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Output Current": "N/A",
-            "Isolation Voltage": "N/A",
-            "CMTI": "N/A",
-            "Switching Frequency": "N/A",
-            "Supply Voltage": "N/A",
-            "Channel Delay Matching": "N/A",
             "Specifications": "SiC MOSFET Driver"
           },
           "features": [
@@ -1907,53 +1806,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",

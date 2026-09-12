@@ -41,10 +41,7 @@
         "Load Regulation",
         "Line Regulation",
         "Operating Temperature",
-        "Output Noise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Output Noise"
       ],
       "products": [
         {
@@ -67,11 +64,7 @@
             "Load Regulation": "±1%",
             "Line Regulation": "±0.1%/V",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "Output Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Ultra-low 1μA quiescent current",
@@ -259,11 +252,7 @@
             "Input Voltage Range": "2.5V - 5.5V",
             "Load Regulation": "±0.5%",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "Line Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "High 80dB PSRR at 1kHz",
@@ -453,10 +442,7 @@
             "Line Regulation": "±0.2%/V",
             "Operating Temperature": "-40°C to +85°C",
             "Package": "SOT-23-5",
-            "Output Noise": "30μVRMS",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Output Noise": "30μVRMS"
           },
           "features": [
             "Low 50μA quiescent current",
@@ -553,10 +539,7 @@
             "Line Regulation": "±0.3%/V",
             "Operating Temperature": "-40°C to +85°C",
             "Package": "SOT-89",
-            "Output Noise": "50μVRMS",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Output Noise": "50μVRMS"
           },
           "features": [
             "Adjustable 1.2V - 4.5V output",
@@ -720,10 +703,7 @@
         "Switching Frequency",
         "Load Regulation",
         "Line Regulation",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -746,10 +726,7 @@
             "Load Regulation": "±0.5%",
             "Line Regulation": "±0.2%/V",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "High efficiency up to 95%",
@@ -936,10 +913,7 @@
             "Load Regulation": "±1%",
             "Line Regulation": "±0.5%/V",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Operates from 0.9V input voltage",
@@ -1128,10 +1102,7 @@
             "Load Regulation": "±1%",
             "Line Regulation": "±0.5%/V",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "QFN-12 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-12 (3mm x 3mm)"
           },
           "features": [
             "Automatic buck-boost mode transition",
@@ -1226,10 +1197,7 @@
             "Load Regulation": "±0.5%",
             "Line Regulation": "±0.2%/V",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8 EP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8 EP"
           },
           "features": [
             "Wide 6V to 40V input range",
@@ -1395,10 +1363,7 @@
         "System Current",
         "Input Current Limit",
         "Charge Status Outputs",
-        "Safety Timer",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Safety Timer"
       ],
       "products": [
         {
@@ -1421,14 +1386,7 @@
             "Thermal Regulation": "120°C junction temperature",
             "Charge Status Output": "Open-drain indicator",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "System Current": "N/A",
-            "Input Current Limit": "N/A",
-            "Charge Status Outputs": "N/A",
-            "Safety Timer": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Complete standalone charger",
@@ -1613,14 +1571,7 @@
             "Charge Status Outputs": "Dual open-drain indicators",
             "Safety Timer": "7-hour charge termination",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "QFN-16 (3mm x 3mm)",
-            "Trickle Charge Current": "N/A",
-            "Charge Termination": "N/A",
-            "Thermal Regulation": "N/A",
-            "Charge Status Output": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-16 (3mm x 3mm)"
           },
           "features": [
             "Complete power path management",
@@ -1807,14 +1758,7 @@
             "Thermal Regulation": "120°C junction temperature",
             "Charge Status Output": "Open-drain indicator",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8 EP",
-            "System Current": "N/A",
-            "Input Current Limit": "N/A",
-            "Charge Status Outputs": "N/A",
-            "Safety Timer": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8 EP"
           },
           "features": [
             "Complete 2-cell Li-ion charger",
@@ -1909,13 +1853,7 @@
             "Charge Status Output": "Open-drain indicator",
             "Operating Temperature": "-40°C to +85°C",
             "Package": "SOT-23-6",
-            "System Current": "N/A",
-            "Input Current Limit": "100mA/500mA USB compliant",
-            "Charge Status Outputs": "N/A",
-            "Safety Timer": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Input Current Limit": "100mA/500mA USB compliant"
           },
           "features": [
             "Integrated over-voltage protection (28V)",
@@ -2078,9 +2016,7 @@
         "Thermal Shutdown",
         "Operating Temperature",
         "Slew Rate Control",
-        "Over-Current Protection",
-        "Voltage Rating",
-        "Temperature Range"
+        "Over-Current Protection"
       ],
       "products": [
         {
@@ -2103,11 +2039,7 @@
             "Enable Threshold": "1.2V typical",
             "Thermal Shutdown": "150°C",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-5",
-            "Slew Rate Control": "N/A",
-            "Over-Current Protection": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Low 60mΩ on-resistance",
@@ -2292,11 +2224,7 @@
             "Slew Rate Control": "External capacitor",
             "Over-Current Protection": "1.8A typical",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-6",
-            "Enable Threshold": "N/A",
-            "Thermal Shutdown": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "Programmable slew rate control",
@@ -2481,11 +2409,7 @@
             "Enable Threshold": "1.0V typical",
             "Thermal Shutdown": "150°C per channel",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT-23-6",
-            "Slew Rate Control": "N/A",
-            "Over-Current Protection": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "Dual independent channels",
@@ -2579,11 +2503,7 @@
             "Enable Threshold": "1.2V typical",
             "Thermal Shutdown": "150°C",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "DFN-8 (3mm x 3mm) EP",
-            "Slew Rate Control": "N/A",
-            "Over-Current Protection": "N/A",
-            "Voltage Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "DFN-8 (3mm x 3mm) EP"
           },
           "features": [
             "High 4A current capability",

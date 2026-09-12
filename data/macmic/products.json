@@ -191,11 +191,7 @@
             "Switching Frequency": "Up to 50KHz",
             "Operating Temperature": "-40°C to +150°C",
             "Isolation Voltage": "2500V AC",
-            "Package": "H1A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "H1A"
           },
           "faeReview": {
             "author": "David Chen",
@@ -384,11 +380,7 @@
             "Switching Frequency": "Up to 20KHz",
             "Operating Temperature": "-40°C to +150°C",
             "Isolation Voltage": "2500V AC",
-            "Package": "T1A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "T1A"
           },
           "faeReview": {
             "author": "Michael Wang",
@@ -944,10 +936,7 @@
         "Forward Current (If)",
         "Recovery Time (trr)",
         "Forward Voltage (Vf)",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "applications": [
         "PFC Boost",
@@ -1055,10 +1044,7 @@
             "Recovery Time (trr)": "35ns typical",
             "Forward Voltage (Vf)": "1.5V typical",
             "Operating Temperature": "-40°C to +150°C",
-            "Package": "D1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "D1"
           },
           "faeReview": {
             "author": "Lisa Zhang",
@@ -1245,10 +1231,7 @@
             "Recovery Time (trr)": "50ns typical",
             "Forward Voltage (Vf)": "1.6V typical",
             "Operating Temperature": "-40°C to +150°C",
-            "Package": "D1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "D1"
           },
           "faeReview": {
             "author": "Robert Liu",
@@ -1407,10 +1390,7 @@
         "Reverse Voltage (Vrrm)",
         "Forward Current (If)",
         "Recovery Time (trr)",
-        "Forward Voltage (Vf)",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Forward Voltage (Vf)"
       ],
       "applications": [
         "Auxiliary Power Supplies",
@@ -1518,14 +1498,7 @@
             "Continuous Collector Current (Ic)": "30A @ 25°C",
             "Vce(sat) typical": "1.8V @ 30A",
             "Operating Temperature": "-40°C to +150°C",
-            "Package": "TO-247",
-            "Reverse Voltage (Vrrm)": "N/A",
-            "Forward Current (If)": "N/A",
-            "Recovery Time (trr)": "N/A",
-            "Forward Voltage (Vf)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "faeReview": {
             "author": "David Chen",
@@ -1710,13 +1683,7 @@
             "Recovery Time (trr)": "50ns typical",
             "Forward Voltage (Vf)": "1.6V typical",
             "Operating Temperature": "-40°C to +150°C",
-            "Package": "TO-247",
-            "Collector-Emitter Voltage (Vces)": "N/A",
-            "Continuous Collector Current (Ic)": "N/A",
-            "Vce(sat) typical": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "faeReview": {
             "author": "Lisa Zhang",
@@ -1853,10 +1820,7 @@
         "Continuous Drain Current (Id)",
         "RDS(on) typical",
         "Gate Charge (Qg)",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "applications": [
         "Synchronous Rectification",
@@ -1964,10 +1928,7 @@
             "RDS(on) typical": "2.5mΩ @ Vgs=10V",
             "Gate Charge (Qg)": "85nC typical",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "Y1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Y1"
           },
           "faeReview": {
             "author": "Michael Wang",
@@ -2130,10 +2091,7 @@
             "RDS(on) typical": "1.2mΩ @ Vgs=10V",
             "Gate Charge (Qg)": "120nC typical",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "Y1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Y1"
           },
           "faeReview": {
             "author": "Robert Liu",

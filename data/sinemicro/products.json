@@ -88,8 +88,6 @@
         "Operating Voltage",
         "Temperature Range",
         "Qualification",
-        "Voltage Rating",
-        "Current Rating",
         "Frequency",
         "Motor Control",
         "Communication",
@@ -179,13 +177,7 @@
             "Operating Voltage": "2.7V - 5.5V",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TSSOP-20, QFN-20",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Frequency": "N/A",
-            "Motor Control": "N/A",
-            "Communication": "N/A",
-            "Timers": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "Window Lift Control",
@@ -266,13 +258,7 @@
             "Operating Voltage": "2.7V - 5.5V",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TSSOP-28, QFN-28",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Frequency": "N/A",
-            "Motor Control": "N/A",
-            "Communication": "N/A",
-            "Timers": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "Complex Body Control",
@@ -352,12 +338,7 @@
             "Communication": "2x UART, 1x SPI, 1x I2C, CAN",
             "Package": "LQFP-48, QFN-48",
             "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1",
-            "PWM": "N/A",
-            "Operating Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Timers": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "DC Motor Control",
@@ -438,12 +419,7 @@
             "Communication": "1x UART, 1x SPI, 1x I2C",
             "Package": "TSSOP-20, QFN-32",
             "Temperature Range": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1",
-            "PWM": "N/A",
-            "Operating Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Motor Control": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "Switch Monitoring",
@@ -515,9 +491,7 @@
         "Line Regulation",
         "Load Regulation",
         "Temperature Range",
-        "Qualification",
-        "Voltage Rating",
-        "Current Rating"
+        "Qualification"
       ],
       "applications": [
         "MCU Power Supply",
@@ -592,9 +566,7 @@
             "Load Regulation": "20mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "SOT-223, TO-252",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "MCU Power Supply",
@@ -700,9 +672,7 @@
             "Load Regulation": "15mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "SOT-223, TO-252",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "3.3V MCU Power",
@@ -782,9 +752,7 @@
             "Load Regulation": "25mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TO-252, TO-263",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "Multi-MCU Power Supply",
@@ -863,9 +831,7 @@
             "Load Regulation": "20mV typical",
             "Temperature Range": "-40°C to +125°C",
             "Package": "TO-252, TO-263",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "applications": [
             "24V Truck Electronics",

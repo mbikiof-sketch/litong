@@ -74,10 +74,7 @@
         "Max Frame Rate",
         "Interface",
         "Power Consumption",
-        "AI Acceleration",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "AI Acceleration"
       ],
       "selectionGuide": "Comprehensive guide to choosing the optimal SmartSens security sensor based on your surveillance requirements",
       "selectionGuideLink": {
@@ -172,11 +169,7 @@
             "WDR": "120dB (PixGain HDR)",
             "Max Frame Rate": "60fps @ 1080p",
             "Interface": "MIPI CSI-2 2-lane",
-            "Power Consumption": "120mW (typical)",
-            "AI Acceleration": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Power Consumption": "120mW (typical)"
           },
           "faeReview": {
             "author": "Michael Chen",
@@ -302,11 +295,7 @@
             "WDR": "120dB (PixGain HDR)",
             "AI Acceleration": "Yes",
             "Max Frame Rate": "30fps @ 8MP",
-            "Interface": "MIPI CSI-2 4-lane",
-            "Power Consumption": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Interface": "MIPI CSI-2 4-lane"
           },
           "faeReview": {
             "author": "David Wang",
@@ -431,11 +420,7 @@
             "WDR": "100dB (PixGain HDR)",
             "AI Acceleration": "Yes",
             "Max Frame Rate": "60fps @ 5MP",
-            "Interface": "MIPI CSI-2 4-lane",
-            "Power Consumption": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Interface": "MIPI CSI-2 4-lane"
           },
           "faeReview": {
             "author": "David Wang",
@@ -544,11 +529,7 @@
             "WDR": "90dB",
             "AI Acceleration": "Yes",
             "Max Frame Rate": "60fps @ 2MP",
-            "Interface": "MIPI CSI-2 2-lane",
-            "Power Consumption": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Interface": "MIPI CSI-2 2-lane"
           },
           "faeReview": {
             "author": "Jennifer Liu",
@@ -662,10 +643,7 @@
         "LED Flicker Mitigation",
         "Interface",
         "Functional Safety",
-        "Min Illumination",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Min Illumination"
       ],
       "selectionGuide": "Automotive image sensor selection guide for ADAS and surround view applications",
       "selectionGuideLink": {
@@ -760,11 +738,7 @@
             "HDR Support": "120dB",
             "LED Flicker Mitigation": "Yes",
             "Interface": "MIPI CSI-2",
-            "Functional Safety": "ASIL-B Support",
-            "Min Illumination": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Functional Safety": "ASIL-B Support"
           },
           "faeReview": {
             "author": "James Liu",
@@ -889,12 +863,7 @@
             "AEC-Q100 Grade": "Grade 2 (-40°C to +105°C)",
             "HDR Support": "120dB",
             "Min Illumination": "0.01 lux",
-            "LED Flicker Mitigation": "Yes",
-            "Interface": "N/A",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "LED Flicker Mitigation": "Yes"
           },
           "faeReview": {
             "author": "Robert Zhang",
@@ -1018,12 +987,7 @@
             "AEC-Q100 Grade": "Grade 2 (-40°C to +105°C)",
             "HDR Support": "120dB",
             "Min Illumination": "0.05 lux",
-            "LED Flicker Mitigation": "Yes",
-            "Interface": "N/A",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "LED Flicker Mitigation": "Yes"
           },
           "faeReview": {
             "author": "James Liu",
@@ -1131,12 +1095,7 @@
             "AEC-Q100 Grade": "Grade 2 (-40°C to +105°C)",
             "HDR Support": "140dB",
             "Min Illumination": "0.02 lux",
-            "LED Flicker Mitigation": "Yes",
-            "Interface": "N/A",
-            "Functional Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "LED Flicker Mitigation": "Yes"
           },
           "faeReview": {
             "author": "Robert Zhang",
@@ -1248,9 +1207,7 @@
         "Shutter Type",
         "Max Frame Rate",
         "Interface",
-        "Temperature Range",
-        "Voltage Rating",
-        "Current Rating"
+        "Temperature Range"
       ],
       "selectionGuide": "Industrial machine vision sensor selection guide for automation and inspection applications",
       "selectionGuideLink": {
@@ -1344,9 +1301,7 @@
             "Shutter Type": "Global Shutter",
             "Max Frame Rate": "120fps @ 1.3MP",
             "Interface": "MIPI CSI-2 / DVP",
-            "Temperature Range": "-20°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-20°C to +70°C"
           },
           "faeReview": {
             "author": "Thomas Anderson",
@@ -1471,9 +1426,7 @@
             "Shutter Type": "Rolling Shutter",
             "Max Frame Rate": "60fps @ 2MP",
             "Interface": "MIPI CSI-2",
-            "Temperature Range": "-20°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-20°C to +70°C"
           },
           "faeReview": {
             "author": "Kevin Martinez",
@@ -1597,9 +1550,7 @@
             "Shutter Type": "Global Shutter",
             "Max Frame Rate": "210fps @ 1.3MP",
             "Interface": "MIPI CSI-2",
-            "Temperature Range": "-20°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-20°C to +70°C"
           },
           "faeReview": {
             "author": "Kevin Martinez",
@@ -1683,9 +1634,7 @@
             "Shutter Type": "Rolling Shutter",
             "Max Frame Rate": "45fps @ 3MP",
             "Interface": "MIPI CSI-2",
-            "Temperature Range": "-20°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-20°C to +70°C"
           },
           "faeReview": {
             "author": "Kevin Martinez",
@@ -1774,10 +1723,7 @@
         "Interface",
         "Power Consumption",
         "Autofocus Support",
-        "Video Support",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Video Support"
       ],
       "selectionGuide": "Consumer electronics sensor selection guide for mobile and portable devices",
       "selectionGuideLink": {
@@ -1871,11 +1817,7 @@
             "Max Frame Rate": "30fps @ 8MP",
             "Interface": "MIPI CSI-2 2-lane",
             "Power Consumption": "80mW (typical)",
-            "Autofocus Support": "Contrast AF / PDAF",
-            "Video Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Autofocus Support": "Contrast AF / PDAF"
           },
           "faeReview": {
             "author": "Lisa Chen",
@@ -2000,11 +1942,7 @@
             "Max Frame Rate": "30fps @ 13MP, 60fps @ 1080p",
             "Video Support": "4K @ 30fps, 1080p @ 60fps",
             "Interface": "MIPI CSI-2 4-lane",
-            "Power Consumption": "120mW (typical)",
-            "Autofocus Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Power Consumption": "120mW (typical)"
           },
           "faeReview": {
             "author": "Michael Park",
@@ -2129,10 +2067,7 @@
             "Video Support": "1080p @ 30fps",
             "Interface": "MIPI CSI-2 2-lane",
             "Power Consumption": "90mW (typical)",
-            "Autofocus Support": "Contrast AF",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Autofocus Support": "Contrast AF"
           },
           "faeReview": {
             "author": "Michael Park",
@@ -2217,10 +2152,7 @@
             "Video Support": "720p @ 30fps",
             "Interface": "MIPI CSI-2 1-lane",
             "Power Consumption": "60mW (typical)",
-            "Autofocus Support": "Fixed focus",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Autofocus Support": "Fixed focus"
           },
           "faeReview": {
             "author": "Jennifer Liu",

@@ -147,9 +147,7 @@
             "Temperature Range": "-55°C to +125°C",
             "Temperature Coefficient": "±15%",
             "ESR": "40mΩ max @ 100kHz",
-            "Ripple Current": "1.5A max",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Ripple Current": "1.5A max"
           },
           "features": [
             "High capacitance density in compact 0805 package",
@@ -308,9 +306,7 @@
             "Temperature Range": "-55°C to +125°C",
             "Temperature Coefficient": "±15%",
             "ESR": "30mΩ max @ 100kHz",
-            "Ripple Current": "2.0A max",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Ripple Current": "2.0A max"
           },
           "features": [
             "High 10µF capacitance in 1206 package",
@@ -461,9 +457,7 @@
         "Temperature Range",
         "Temperature Coefficient",
         "ESR",
-        "Ripple Current",
-        "Voltage Rating",
-        "Current Rating"
+        "Ripple Current"
       ]
     },
     {
@@ -552,9 +546,7 @@
             "Ripple Current": "1.2A rms @ 100Hz, 105°C",
             "ESR": "1.5Ω max @ 100Hz",
             "Case Size": "25mm D x 40mm L",
-            "Termination": "Snap-in",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Termination": "Snap-in"
           },
           "features": [
             "Long life: 10,000 hours at 105°C",
@@ -711,9 +703,7 @@
             "Ripple Current": "3.5A rms @ 100Hz, 105°C",
             "ESR": "0.35Ω max @ 100Hz",
             "Case Size": "35mm D x 50mm L",
-            "Termination": "Snap-in",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Termination": "Snap-in"
           },
           "features": [
             "High capacitance: 680µF in compact package",
@@ -862,9 +852,7 @@
         "Ripple Current",
         "ESR",
         "Case Size",
-        "Termination",
-        "Voltage Rating",
-        "Current Rating"
+        "Termination"
       ]
     },
     {
@@ -953,13 +941,7 @@
             "ESR": "8mΩ max @ 10kHz",
             "ESL": "25nH typical",
             "Ripple Current": "12A rms @ 10kHz, 70°C",
-            "Case Size": "42mm x 30mm x 45mm",
-            "dV/dt": "N/A",
-            "Dissipation Factor": "N/A",
-            "Lead Spacing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Case Size": "42mm x 30mm x 45mm"
           },
           "features": [
             "High voltage rating: 1100V DC",
@@ -1115,13 +1097,7 @@
             "ESL": "15nH typical",
             "dV/dt": "50,000 V/µs max",
             "Dissipation Factor": "0.05% max @ 1kHz",
-            "Lead Spacing": "27.5mm",
-            "AC Voltage": "N/A",
-            "Ripple Current": "N/A",
-            "Case Size": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Lead Spacing": "27.5mm"
           },
           "features": [
             "Low ESL design for snubber applications",
@@ -1273,16 +1249,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Rated Voltage": "N/A",
-            "AC Voltage": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Ripple Current": "N/A",
-            "Case Size": "N/A",
-            "dV/dt": "N/A",
-            "Dissipation Factor": "N/A",
-            "Lead Spacing": "N/A",
             "Specifications": "1.5uF 450V"
           },
           "features": [
@@ -1302,53 +1268,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
@@ -1411,16 +1332,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Rated Voltage": "N/A",
-            "AC Voltage": "N/A",
-            "ESR": "N/A",
-            "ESL": "N/A",
-            "Ripple Current": "N/A",
-            "Case Size": "N/A",
-            "dV/dt": "N/A",
-            "Dissipation Factor": "N/A",
-            "Lead Spacing": "N/A",
             "Specifications": "1uF 450V"
           },
           "features": [
@@ -1440,53 +1351,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
@@ -1639,13 +1505,7 @@
             "Temperature Range": "-40°C to +125°C",
             "Package Size": "7.0mm x 7.0mm x 5.5mm",
             "Core Material": "Ferrite",
-            "Shielding": "Magnetic shield",
-            "Common Mode Impedance": "N/A",
-            "DC Resistance": "N/A",
-            "Lines": "N/A",
-            "Rated Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Shielding": "Magnetic shield"
           },
           "features": [
             "Shielded construction for low EMI",
@@ -1799,14 +1659,7 @@
             "Temperature Range": "-40°C to +125°C",
             "Package Size": "0805 (2.0mm x 1.25mm)",
             "Lines": "2 lines",
-            "Rated Voltage": "50V DC",
-            "Inductance": "N/A",
-            "Saturation Current": "N/A",
-            "DCR": "N/A",
-            "Core Material": "N/A",
-            "Shielding": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Rated Voltage": "50V DC"
           },
           "features": [
             "High common mode impedance: 900Ω",
@@ -1957,9 +1810,7 @@
         "Common Mode Impedance",
         "DC Resistance",
         "Lines",
-        "Rated Voltage",
-        "Voltage Rating",
-        "Current Rating"
+        "Rated Voltage"
       ]
     }
   ]

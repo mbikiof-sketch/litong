@@ -72,9 +72,6 @@
         "Jitter",
         "Voltage",
         "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Supply Voltage",
         "Current",
         "Output",
@@ -162,15 +159,7 @@
             "Jitter": "<2ps RMS",
             "Voltage": "3.3V ±10%",
             "Package": "3.2x2.5mm SMD",
-            "Temperature": "0°C to +70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Output": "N/A",
-            "Rise/Fall Time": "N/A",
-            "Duty Cycle": "N/A"
+            "Temperature": "0°C to +70°C"
           },
           "features": [
             "Standard 25MHz frequency for Ethernet and processor applications",
@@ -317,15 +306,7 @@
             "Jitter": "<1ps RMS",
             "Voltage": "3.3V ±10%",
             "Package": "3.2x2.5mm SMD",
-            "Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Output": "N/A",
-            "Rise/Fall Time": "N/A",
-            "Duty Cycle": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "125MHz frequency for Gigabit Ethernet applications",
@@ -472,13 +453,7 @@
             "Current": "15mA max",
             "Output": "CMOS",
             "Rise/Fall Time": "4ns max",
-            "Duty Cycle": "45-55%",
-            "Jitter": "N/A",
-            "Voltage": "N/A",
-            "Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Duty Cycle": "45-55%"
           },
           "features": [
             "48MHz USB frequency",
@@ -538,23 +513,7 @@
               "link": "/dapu/products/crystal-oscillators/xo3225-48m"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-3?",
@@ -620,14 +579,7 @@
             "Supply Voltage": "3.3V ±10%",
             "Current": "18mA max",
             "Output": "CMOS",
-            "Rise/Fall Time": "4ns max",
-            "Jitter": "N/A",
-            "Voltage": "N/A",
-            "Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Duty Cycle": "N/A"
+            "Rise/Fall Time": "4ns max"
           },
           "features": [
             "27MHz video frequency",
@@ -687,23 +639,7 @@
               "link": "/dapu/products/crystal-oscillators/xo5032-27m"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for CRYSTALOSCILLATORS-4?",
@@ -782,9 +718,6 @@
         "Temperature",
         "Voltage",
         "Phase Noise",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Supply Voltage",
         "Current",
         "Output",
@@ -871,14 +804,7 @@
             "Temperature": "-30°C to +85°C",
             "Voltage": "3.3V ±5%",
             "Package": "3.2x2.5mm SMD",
-            "Phase Noise": "-135dBc/Hz @ 1kHz",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Output": "N/A",
-            "Aging": "N/A"
+            "Phase Noise": "-135dBc/Hz @ 1kHz"
           },
           "features": [
             "Exceptional ±0.5ppm stability for GPS applications",
@@ -1021,14 +947,7 @@
             "Temperature": "-30°C to +85°C",
             "Voltage": "1.8V / 2.8V / 3.3V",
             "Package": "3.2x2.5mm SMD",
-            "Phase Noise": "-130dBc/Hz @ 1kHz",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Output": "N/A",
-            "Aging": "N/A"
+            "Phase Noise": "-130dBc/Hz @ 1kHz"
           },
           "features": [
             "±1.0ppm stability for LTE cellular applications",
@@ -1173,12 +1092,7 @@
             "Current": "2.5mA max",
             "Output": "CMOS",
             "Phase Noise": "-135dBc/Hz @ 1kHz offset",
-            "Aging": "±1.0ppm/year",
-            "Temperature": "N/A",
-            "Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Aging": "±1.0ppm/year"
           },
           "features": [
             "40MHz frequency for wireless applications",
@@ -1313,12 +1227,7 @@
             "Current": "4.0mA max",
             "Output": "CMOS/Clipped Sine",
             "Phase Noise": "-145dBc/Hz @ 1kHz offset",
-            "Aging": "±0.5ppm/year",
-            "Temperature": "N/A",
-            "Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Aging": "±0.5ppm/year"
           },
           "features": [
             "Ultra-high ±0.5ppm stability",
@@ -1357,39 +1266,9 @@
               "priceDifference": "0%",
               "stockStatus": "In Stock",
               "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for TEMPERATURECOMPENSATEDOSCILLATORS-4?",
@@ -1467,9 +1346,6 @@
         "Linearity",
         "Control Voltage",
         "Voltage",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Supply Voltage",
         "Current"
       ],
@@ -1554,12 +1430,7 @@
             "Linearity": "<10%",
             "Control Voltage": "0.3V to 3.0V",
             "Voltage": "3.3V ±10%",
-            "Package": "5.0x3.2mm SMD",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A"
+            "Package": "5.0x3.2mm SMD"
           },
           "features": [
             "Wide ±100ppm pull range for PLL applications",
@@ -1702,12 +1573,7 @@
             "Linearity": "<8%",
             "Control Voltage": "0.3V to 3.0V",
             "Voltage": "3.3V ±10%",
-            "Package": "3.2x2.2mm SMD",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A"
+            "Package": "3.2x2.2mm SMD"
           },
           "features": [
             "19.2MHz standard telecom frequency",
@@ -1849,13 +1715,7 @@
             "Pull Range": "±100ppm min",
             "Package": "3.2x2.5mm SMD",
             "Supply Voltage": "3.3V ±10%",
-            "Current": "3.0mA max",
-            "Linearity": "N/A",
-            "Control Voltage": "N/A",
-            "Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Current": "3.0mA max"
           },
           "features": [
             "±100ppm pull range",
@@ -1912,23 +1772,7 @@
               }
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for VOLTAGECONTROLLEDOSCILLATORS-3?",
@@ -1992,13 +1836,7 @@
             "Pull Range": "±50ppm min",
             "Package": "5.0x3.2mm SMD",
             "Supply Voltage": "3.3V ±10%",
-            "Current": "3.5mA max",
-            "Linearity": "N/A",
-            "Control Voltage": "N/A",
-            "Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Current": "3.5mA max"
           },
           "features": [
             "74.25MHz video frequency",
@@ -2056,23 +1894,7 @@
               "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-74m25-50"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for VOLTAGECONTROLLEDOSCILLATORS-4?",
@@ -2150,10 +1972,7 @@
         "Bandwidth",
         "Insertion Loss",
         "Rejection",
-        "Impedance",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Impedance"
       ],
       "applications": [
         "5G Base Stations",
@@ -2237,10 +2056,7 @@
             "Insertion Loss": "<1.5dB",
             "Rejection": ">40dB @ ±50MHz",
             "Package": "1.6x0.8mm SMD",
-            "Impedance": "50Ω",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Impedance": "50Ω"
           },
           "features": [
             "GPS L1 band 1575.42MHz center frequency",
@@ -2382,10 +2198,7 @@
             "Insertion Loss": "<2.0dB",
             "Rejection": ">30dB @ 2200MHz and 2700MHz",
             "Package": "2.0x1.2mm SMD",
-            "Impedance": "50Ω",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Impedance": "50Ω"
           },
           "features": [
             "Full 2.4GHz ISM band coverage (2401-2483MHz)",
@@ -2525,12 +2338,7 @@
             "Center Frequency": "915.000MHz",
             "Bandwidth": "26MHz (-3dB)",
             "Package": "2.0x1.2mm SMD",
-            "Insertion Loss": "1.8dB typ",
-            "Rejection": "N/A",
-            "Impedance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Insertion Loss": "1.8dB typ"
           },
           "features": [
             "915MHz ISM band",
@@ -2588,23 +2396,7 @@
               "link": "/dapu/products/rf-filters/sf2012-915m"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for RFFILTERS-3?",
@@ -2667,12 +2459,7 @@
             "Center Frequency": "1575.420MHz",
             "Bandwidth": "24MHz (-3dB)",
             "Package": "3.2x2.5mm SMD",
-            "Insertion Loss": "2.0dB typ",
-            "Rejection": "N/A",
-            "Impedance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Insertion Loss": "2.0dB typ"
           },
           "features": [
             "GPS L1 band",
@@ -2730,23 +2517,7 @@
               "link": "/dapu/products/rf-filters/sf3225-1575m"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for RFFILTERS-4?",

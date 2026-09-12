@@ -83,10 +83,7 @@
         "Slew Rate",
         "Quiescent Current",
         "Input Noise",
-        "Output Drive",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Output Drive"
       ],
       "applications": [
         "Sensor Interfaces",
@@ -175,11 +172,7 @@
             "Slew Rate": "0.8V/μs",
             "Quiescent Current": "80μA",
             "Input Noise": "25nV/√Hz",
-            "Package": "SOT-23-5, SOIC-8",
-            "Output Drive": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SOIC-8"
           },
           "features": [
             "Zero-drift chopper-stabilized architecture",
@@ -319,12 +312,7 @@
             "Slew Rate": "2V/μs",
             "Quiescent Current": "400μA per channel",
             "Output Drive": "30mA",
-            "Package": "SOIC-8, MSOP-8, TSSOP-8",
-            "Offset Drift": "N/A",
-            "Input Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, MSOP-8, TSSOP-8"
           },
           "features": [
             "Dual op-amp in single package",
@@ -464,12 +452,7 @@
             "Slew Rate": "1.5V/μs",
             "Quiescent Current": "350μA per channel",
             "Output Drive": "20mA",
-            "Package": "SOIC-14, TSSOP-14",
-            "Offset Drift": "N/A",
-            "Input Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-14, TSSOP-14"
           },
           "features": [
             "Quad op-amp in single package",
@@ -550,12 +533,7 @@
             "Slew Rate": "35V/μs",
             "Quiescent Current": "2.5mA",
             "Output Drive": "60mA",
-            "Package": "SOT-23-5, SOIC-8",
-            "Offset Drift": "N/A",
-            "Input Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SOIC-8"
           },
           "features": [
             "High 50MHz bandwidth",
@@ -641,10 +619,7 @@
         "Quiescent Current",
         "Output Noise",
         "PSRR",
-        "Shutdown Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Shutdown Current"
       ],
       "applications": [
         "Microcontroller Power",
@@ -733,11 +708,7 @@
             "Quiescent Current": "90μA",
             "Output Noise": "30μVRMS",
             "PSRR": "70dB at 1kHz",
-            "Package": "SOT-23-5, SC-70-5",
-            "Shutdown Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Ultra-low output noise: 30μVRMS",
@@ -878,11 +849,7 @@
             "Quiescent Current": "35μA",
             "Shutdown Current": "<1μA",
             "PSRR": "60dB at 1kHz",
-            "Package": "SOT-23-5, DFN-8",
-            "Output Noise": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-8"
           },
           "features": [
             "High 500mA output current capability",
@@ -1024,10 +991,7 @@
             "Output Noise": "15μVRMS (10Hz-100kHz)",
             "PSRR": "75dB at 1kHz",
             "Shutdown Current": "<1μA",
-            "Package": "SOT-23-5, DFN-6",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, DFN-6"
           },
           "features": [
             "Ultra-low 15μVRMS output noise",
@@ -1110,10 +1074,7 @@
             "Output Noise": "100μVRMS",
             "PSRR": "50dB at 1kHz",
             "Shutdown Current": "<0.1μA",
-            "Package": "SOT-23-5, SC-70-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Ultra-low 1μA quiescent current",
@@ -1199,9 +1160,6 @@
         "Dimming",
         "Output Voltage",
         "Switching Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Switch Current",
         "LED Current",
         "Channel Current",
@@ -1295,17 +1253,7 @@
             "Switching Frequency": "1.2MHz",
             "Efficiency": "Up to 95%",
             "Dimming": "PWM (100Hz-10kHz)",
-            "Package": "SOT-23-5, TSOT-23-5",
-            "Output Voltage": "N/A",
-            "Switching Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Switch Current": "N/A",
-            "LED Current": "N/A",
-            "Channel Current": "N/A",
-            "Dimming Resolution": "N/A",
-            "Interface": "N/A"
+            "Package": "SOT-23-5, TSOT-23-5"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -1447,17 +1395,7 @@
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 93%",
             "Dimming": "Analog and PWM",
-            "Package": "MSOP-8, TSSOP-14",
-            "Output Current": "N/A",
-            "LED Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Switch Current": "N/A",
-            "LED Current": "N/A",
-            "Channel Current": "N/A",
-            "Dimming Resolution": "N/A",
-            "Interface": "N/A"
+            "Package": "MSOP-8, TSSOP-14"
           },
           "features": [
             "Boost topology for high-voltage LED strings",
@@ -1594,22 +1532,12 @@
           ],
           "specifications": {
             "Input Voltage": "2.7V to 24V",
-            "Output Voltage": "N/A",
             "Switch Current": "1.5A",
             "LED Current": "Up to 1A",
             "Switching Frequency": "1.2MHz",
             "Efficiency": "Up to 92%",
             "Dimming": "PWM up to 20kHz",
-            "Package": "QFN-16 (4mm x 4mm)",
-            "Switching Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Output Current": "N/A",
-            "LED Voltage": "N/A",
-            "Channel Current": "N/A",
-            "Dimming Resolution": "N/A",
-            "Interface": "N/A"
+            "Package": "QFN-16 (4mm x 4mm)"
           },
           "features": [
             "Buck-boost topology for flexible input/output",
@@ -1686,22 +1614,12 @@
           ],
           "specifications": {
             "Input Voltage": "4.5V to 24V",
-            "Output Voltage": "N/A",
             "Channel Current": "500mA per channel",
             "Dimming Resolution": "12-bit (4096 levels)",
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 95%",
             "Interface": "I2C with 4 addresses",
-            "Package": "QFN-20 (4mm x 4mm)",
-            "Switching Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Output Current": "N/A",
-            "LED Voltage": "N/A",
-            "Dimming": "N/A",
-            "Switch Current": "N/A",
-            "LED Current": "N/A"
+            "Package": "QFN-20 (4mm x 4mm)"
           },
           "features": [
             "3 independent RGB channels",
@@ -1793,9 +1711,6 @@
         "Slew Rate",
         "Current Limit",
         "Thermal Shutdown",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Efficiency",
         "Switching Frequency"
       ],
@@ -1886,17 +1801,7 @@
             "Quiescent Current": "<2mA (charging)",
             "Standby Current": "<55μA",
             "Charge Accuracy": "±1.5%",
-            "Package": "SOT-23-5, ESOP-8",
-            "Output Current": "N/A",
-            "On-Resistance": "N/A",
-            "Slew Rate": "N/A",
-            "Current Limit": "N/A",
-            "Thermal Shutdown": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A"
+            "Package": "SOT-23-5, ESOP-8"
           },
           "features": [
             "Complete linear charger for single-cell Li-ion",
@@ -2039,17 +1944,7 @@
             "Slew Rate": "1ms rise time",
             "Current Limit": "2.5A (typ)",
             "Thermal Shutdown": "150°C",
-            "Package": "SOT-23-5, SC-70-5",
-            "Battery Voltage": "N/A",
-            "Charge Current": "N/A",
-            "Trickle Charge": "N/A",
-            "Standby Current": "N/A",
-            "Charge Accuracy": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Low 60mΩ on-resistance at 5V",
@@ -2194,15 +2089,7 @@
             "Charge Accuracy": "±0.5%",
             "Efficiency": "Up to 95%",
             "Switching Frequency": "1.5MHz",
-            "Package": "QFN-16 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Output Current": "N/A",
-            "On-Resistance": "N/A",
-            "Slew Rate": "N/A",
-            "Current Limit": "N/A",
-            "Thermal Shutdown": "N/A"
+            "Package": "QFN-16 (3mm x 3mm)"
           },
           "features": [
             "High-efficiency switching charger up to 95%",
@@ -2286,17 +2173,7 @@
             "Current Limit": "2.5A per channel",
             "Quiescent Current": "0.5μA (off), 15μA (on)",
             "Thermal Shutdown": "150°C",
-            "Package": "WLCSP-8 (1.5mm x 1.5mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Battery Voltage": "N/A",
-            "Charge Current": "N/A",
-            "Trickle Charge": "N/A",
-            "Standby Current": "N/A",
-            "Charge Accuracy": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A"
+            "Package": "WLCSP-8 (1.5mm x 1.5mm)"
           },
           "features": [
             "Dual independent channels",

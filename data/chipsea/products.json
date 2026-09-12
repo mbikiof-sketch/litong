@@ -85,10 +85,7 @@
         "Current",
         "Interface",
         "Reference",
-        "Supply",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Supply"
       ],
       "selectionGuide": "Select CS123x for sensor applications, CS124x for industrial precision, CS549x for energy metering.",
       "selectionGuideLink": {
@@ -167,12 +164,7 @@
             "Supply Voltage": "2.7V to 5.5V",
             "Current": "0.6mA typical",
             "Interface": "I2C",
-            "Package": "TSSOP-16",
-            "Reference": "N/A",
-            "Supply": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "24-bit resolution with no missing codes",
@@ -318,13 +310,7 @@
             "Reference": "Internal 2.5V or external",
             "Supply": "2.7V to 5.5V",
             "Interface": "SPI up to 5MHz",
-            "Package": "TSSOP-16",
-            "Reference Voltage": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "24-bit resolution",
@@ -464,13 +450,7 @@
             "Reference": "Internal 2.5V or external",
             "Supply": "2.7V to 5.5V",
             "Interface": "I2C up to 400kHz",
-            "Package": "TSSOP-16",
-            "Reference Voltage": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "24-bit resolution with no missing codes",
@@ -613,13 +593,7 @@
             "Reference": "Internal 2.5V or external",
             "Supply": "2.7V to 5.5V",
             "Interface": "I2C up to 400kHz",
-            "Package": "TSSOP-14",
-            "Reference Voltage": "N/A",
-            "Supply Voltage": "N/A",
-            "Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-14"
           },
           "features": [
             "20-bit resolution with no missing codes",
@@ -766,10 +740,7 @@
         "Quiescent Current",
         "Shutdown Current",
         "Load Regulation",
-        "Line Regulation",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Line Regulation"
       ],
       "selectionGuide": "Select CS508x for step-down, CS509x for step-up, CS510x for buck-boost applications.",
       "selectionGuideLink": {
@@ -848,10 +819,7 @@
             "Shutdown Current": "<1uA",
             "Load Regulation": "+/-1%",
             "Line Regulation": "+/-0.5%",
-            "Package": "SOT23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -991,13 +959,7 @@
             "Efficiency": "Up to 94%",
             "Quiescent Current": "50uA PFM mode",
             "Shutdown Current": "<1uA",
-            "Package": "SOT23-5",
-            "Output Voltage": "N/A",
-            "Load Regulation": "N/A",
-            "Line Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "2A output current capability",
@@ -1139,10 +1101,7 @@
         "Standby Current",
         "Efficiency",
         "Switching Frequency",
-        "Interface",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Interface"
       ],
       "selectionGuide": "Select CS518x for low-cost linear charging, CS528x for high-efficiency switching, CS538x for protection and fuel gauging.",
       "selectionGuideLink": {
@@ -1218,13 +1177,7 @@
             "Trickle Charge": "10% of fast charge",
             "Charge Timer": "6 hours safety timer",
             "Standby Current": "<2uA",
-            "Package": "SOT23-5",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Complete linear charger solution",
@@ -1362,13 +1315,7 @@
             "Charge Voltage": "4.2V +/-0.5%",
             "Switching Frequency": "1.5MHz",
             "Interface": "I2C",
-            "Package": "QFN-16",
-            "Trickle Charge": "N/A",
-            "Charge Timer": "N/A",
-            "Standby Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-16"
           },
           "features": [
             "High-efficiency switch-mode charging",
@@ -1510,10 +1457,7 @@
         "Slew Rate",
         "Input Noise",
         "Supply Voltage",
-        "Supply Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Supply Current"
       ],
       "selectionGuide": "Select CS600x for precision, CS601x for low noise, CS602x for low power applications.",
       "selectionGuideLink": {
@@ -1590,10 +1534,7 @@
             "Input Noise": "1.5uVpp (0.1-10Hz)",
             "Supply Voltage": "2.2V to 5.5V",
             "Supply Current": "180uA per channel",
-            "Package": "SOT23-5, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5, MSOP-8"
           },
           "features": [
             "Ultra-low 5uV offset voltage",
@@ -1732,10 +1673,7 @@
             "Input Noise": "15nV/rtHz",
             "Supply Voltage": "2.2V to 5.5V",
             "Supply Current": "150uA per channel",
-            "Package": "SOT23-5, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5, MSOP-8"
           },
           "features": [
             "Low noise 15nV/rtHz",

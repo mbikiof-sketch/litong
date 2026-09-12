@@ -96,10 +96,7 @@
         "Resolution",
         "Interface",
         "Operating Current",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -121,10 +118,7 @@
             "Interface": "I2C/SPI",
             "Operating Current": "130μA (measurement mode)",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "LGA-16 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LGA-16 (3mm x 3mm)"
           },
           "features": [
             "Selectable measurement ranges: ±2g/±4g/±8g",
@@ -287,10 +281,7 @@
             "Interface": "SPI",
             "Operating Current": "3mA",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "AEC-Q100 qualified (Grade 0)",
@@ -517,10 +508,7 @@
         "Resolution",
         "Interface",
         "Operating Current",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -542,10 +530,7 @@
             "Interface": "I2C/SPI",
             "Operating Current": "5mA (measurement mode)",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "LGA-16 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LGA-16 (3mm x 3mm)"
           },
           "features": [
             "Selectable measurement ranges: ±125°/s to ±2000°/s",
@@ -707,10 +692,7 @@
             "Interface": "SPI",
             "Operating Current": "6mA",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "AEC-Q100 qualified (Grade 0)",
@@ -939,10 +921,7 @@
         "Output Data Rate",
         "Interface",
         "Power Consumption",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -966,10 +945,7 @@
             "Interface": "I2C/SPI",
             "Power Consumption": "3mA",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "LGA-24 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LGA-24 (3mm x 3mm)"
           },
           "features": [
             "6-axis motion sensing in single package",
@@ -1135,10 +1111,7 @@
             "Interface": "SPI",
             "Power Consumption": "8mA",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-24"
           },
           "features": [
             "AEC-Q100 qualified (Grade 0)",
@@ -1369,10 +1342,7 @@
         "Response Time",
         "Interface",
         "Operating Current",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -1395,10 +1365,7 @@
             "Interface": "I2C",
             "Operating Current": "10μA (active), 1μA (sleep)",
             "Operating Temperature": "-20°C to +70°C",
-            "Package": "QFN-16 (3mm x 3mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-16 (3mm x 3mm)"
           },
           "features": [
             "Wide force range: 0-10N",
@@ -1561,10 +1528,7 @@
             "Interface": "I2C/SPI",
             "Operating Current": "50μA (active), 5μA (sleep)",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOIC-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-16"
           },
           "features": [
             "Extended force range: 0-100N",

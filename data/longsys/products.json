@@ -83,10 +83,7 @@
         "Sequential Write",
         "Operating Temperature",
         "Random Read (IOPS)",
-        "Random Write (IOPS)",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Random Write (IOPS)"
       ],
       "applications": [
         "Smartphones",
@@ -173,12 +170,7 @@
             "Sequential Read": "Up to 320MB/s",
             "Sequential Write": "Up to 90MB/s",
             "Operating Temperature": "-40°C to +105°C (AEC-Q100 Grade 2)",
-            "Package": "BGA-153",
-            "Random Read (IOPS)": "N/A",
-            "Random Write (IOPS)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "BGA-153"
           },
           "features": [
             "AEC-Q100 Grade 2 qualified",
@@ -333,10 +325,7 @@
             "Random Read (IOPS)": "Up to 150K",
             "Random Write (IOPS)": "Up to 80K",
             "Operating Temperature": "-25°C to +85°C",
-            "Package": "BGA-153",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "BGA-153"
           },
           "features": [
             "UFS 3.1 high-speed interface",
@@ -489,12 +478,7 @@
             "Sequential Read": "Up to 320MB/s",
             "Sequential Write": "Up to 150MB/s",
             "Operating Temperature": "-40°C to +105°C (AEC-Q100 Grade 2)",
-            "Package": "BGA-153",
-            "Random Read (IOPS)": "N/A",
-            "Random Write (IOPS)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "BGA-153"
           },
           "features": [
             "AEC-Q100 Grade 2 qualified",
@@ -586,10 +570,7 @@
             "Random Read (IOPS)": "Up to 45K",
             "Random Write (IOPS)": "Up to 35K",
             "Operating Temperature": "-25°C to +85°C",
-            "Package": "BGA-153",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "BGA-153"
           },
           "features": [
             "UFS 2.1 high-speed interface",
@@ -685,10 +666,7 @@
         "Endurance (TBW)",
         "Operating Temperature",
         "Random Read (IOPS)",
-        "Random Write (IOPS)",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Random Write (IOPS)"
       ],
       "applications": [
         "Consumer PCs",
@@ -776,12 +754,7 @@
             "Sequential Read": "Up to 560MB/s",
             "Sequential Write": "Up to 520MB/s",
             "Endurance (TBW)": "600 TBW",
-            "Operating Temperature": "0°C to +70°C (Consumer) / -40°C to +85°C (Industrial)",
-            "Random Read (IOPS)": "N/A",
-            "Random Write (IOPS)": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to +70°C (Consumer) / -40°C to +85°C (Industrial)"
           },
           "features": [
             "SATA III 6Gbps interface",
@@ -936,11 +909,7 @@
             "Sequential Write": "Up to 3000MB/s",
             "Random Read (IOPS)": "Up to 500K",
             "Random Write (IOPS)": "Up to 450K",
-            "Endurance (TBW)": "600 TBW",
-            "Operating Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Endurance (TBW)": "600 TBW"
           },
           "features": [
             "PCIe 3.0 x4 NVMe 1.3 interface",
@@ -1096,10 +1065,7 @@
             "Random Read (IOPS)": "Up to 90K",
             "Random Write (IOPS)": "Up to 85K",
             "Endurance (TBW)": "1,200 TBW",
-            "Operating Temperature": "0°C to 70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to 70°C"
           },
           "features": [
             "SATA III 6Gbps interface",
@@ -1193,10 +1159,7 @@
             "Random Read (IOPS)": "Up to 500K",
             "Random Write (IOPS)": "Up to 450K",
             "Endurance (TBW)": "1,200 TBW",
-            "Operating Temperature": "0°C to 70°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to 70°C"
           },
           "features": [
             "PCIe 3.0 x4 NVMe 1.3 interface",
@@ -1293,10 +1256,7 @@
         "CAS Latency",
         "Form Factor",
         "Height",
-        "Features",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Features"
       ],
       "applications": [
         "Desktop PCs",
@@ -1384,11 +1344,7 @@
             "Voltage": "1.35V (XMP) / 1.2V (JEDEC)",
             "CAS Latency": "CL22-22-22",
             "Form Factor": "UDIMM 288-pin",
-            "Height": "31.25mm (Standard Profile)",
-            "Features": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Height": "31.25mm (Standard Profile)"
           },
           "features": [
             "DDR4-3200 high-speed performance",
@@ -1542,11 +1498,7 @@
             "Voltage": "1.1V",
             "CAS Latency": "CL40-40-40",
             "Form Factor": "UDIMM 288-pin",
-            "Features": "On-die ECC, PMIC onboard",
-            "Height": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Features": "On-die ECC, PMIC onboard"
           },
           "features": [
             "DDR5-4800 next-generation performance",
@@ -1710,10 +1662,7 @@
         "Write Speed",
         "Video Speed Class",
         "Application Performance",
-        "Includes",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Includes"
       ],
       "applications": [
         "File Backup",
@@ -1801,15 +1750,7 @@
             "Sequential Write": "Up to 1000MB/s",
             "Dimensions": "100mm x 30mm x 9mm",
             "Weight": "45g",
-            "Enclosure": "Aluminum alloy",
-            "Read Speed": "N/A",
-            "Write Speed": "N/A",
-            "Video Speed Class": "N/A",
-            "Application Performance": "N/A",
-            "Includes": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Enclosure": "Aluminum alloy"
           },
           "features": [
             "USB 3.2 Gen 2 high-speed interface",
@@ -1963,15 +1904,7 @@
             "Write Speed": "Up to 90MB/s",
             "Video Speed Class": "V30 (30MB/s minimum)",
             "Application Performance": "A2 rated",
-            "Includes": "SD card adapter",
-            "Sequential Read": "N/A",
-            "Sequential Write": "N/A",
-            "Dimensions": "N/A",
-            "Weight": "N/A",
-            "Enclosure": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Includes": "SD card adapter"
           },
           "features": [
             "256GB high capacity",

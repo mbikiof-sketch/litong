@@ -89,10 +89,7 @@
         "ISP",
         "Video Codec",
         "Display",
-        "Process",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Process"
       ],
       "applications": [
         "Smartphones",
@@ -176,10 +173,7 @@
             "Video Codec": "4K@60fps encode/decode",
             "Display": "Up to 2x 4K displays",
             "Process": "12nm",
-            "Package": "FCBGA 15x15mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "FCBGA 15x15mm"
           },
           "features": [
             "High-performance octa-core CPU architecture",
@@ -335,10 +329,7 @@
             "Video Codec": "1080p@60fps encode/decode",
             "Display": "Up to 1080p display",
             "Process": "22nm",
-            "Package": "FCBGA 12x12mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "FCBGA 12x12mm"
           },
           "features": [
             "Cost-optimized quad-core architecture",
@@ -444,10 +435,7 @@
             "Video Codec": "8K@30fps or 4K@120fps",
             "Display": "Up to 2x 8K displays",
             "Process": "8nm",
-            "Package": "FCBGA 17x17mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "FCBGA 17x17mm"
           },
           "features": [
             "High-performance octa-core CPU",
@@ -490,10 +478,7 @@
             "Video Codec": "1080p@30fps",
             "Display": "Up to 720p",
             "Process": "22nm",
-            "Package": "QFN 10x10mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN 10x10mm"
           },
           "features": [
             "Ultra-low power consumption",
@@ -549,10 +534,7 @@
         "AI Framework",
         "Security",
         "Connectivity",
-        "Development Tools",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Development Tools"
       ],
       "applications": [
         "Smart Devices",
@@ -594,10 +576,7 @@
             "Security": "Secure boot, encryption",
             "Connectivity": "WiFi, BT, Ethernet",
             "Development Tools": "SDK, IDE, debugger",
-            "Package": "Software license",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Software license"
           },
           "features": [
             "Full AI framework integration",
@@ -635,10 +614,7 @@
             "Security": "ASIL-B, secure boot",
             "Connectivity": "Automotive Ethernet, CAN",
             "Development Tools": "Safety-certified toolchain",
-            "Package": "Software license",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Software license"
           },
           "features": [
             "ASIL-B functional safety",
@@ -676,10 +652,7 @@
             "Security": "Basic secure boot",
             "Connectivity": "BLE, LoRa, NB-IoT",
             "Development Tools": "Lightweight SDK",
-            "Package": "Software license",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Software license"
           },
           "features": [
             "Minimal footprint design",
@@ -717,10 +690,7 @@
             "Security": "Enterprise-grade security",
             "Connectivity": "Full connectivity suite",
             "Development Tools": "Enterprise toolchain",
-            "Package": "Enterprise license",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Enterprise license"
           },
           "features": [
             "Cloud-native architecture",
@@ -772,10 +742,7 @@
         "AI Performance",
         "Camera",
         "Connectivity",
-        "Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Power"
       ],
       "applications": [
         "Smart Surveillance",
@@ -817,10 +784,7 @@
             "Camera": "16-channel input",
             "Connectivity": "GbE x4, 5G optional",
             "Power": "35W typical",
-            "Package": "Rack-mount enclosure",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Rack-mount enclosure"
           },
           "features": [
             "8 TOPS AI performance",
@@ -858,10 +822,7 @@
             "Camera": "4K Sony sensor",
             "Connectivity": "WiFi, BT, Ethernet",
             "Power": "PoE or 12V DC",
-            "Package": "IP67 dome camera",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "IP67 dome camera"
           },
           "features": [
             "4K AI camera",
@@ -899,10 +860,7 @@
             "Camera": "2MP integrated",
             "Connectivity": "UART, SPI, I2C, USB",
             "Power": "2W typical",
-            "Package": "35x35mm module",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "35x35mm module"
           },
           "features": [
             "Compact 35x35mm size",
@@ -940,10 +898,7 @@
             "Camera": "Multiple MIPI CSI",
             "Connectivity": "Full interface set",
             "Power": "5V DC input",
-            "Package": "Development board",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Development board"
           },
           "features": [
             "RV1000 processor board",
@@ -995,10 +950,7 @@
         "AI Performance",
         "Safety Level",
         "Display Support",
-        "Camera Input",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Camera Input"
       ],
       "applications": [
         "Smart Cockpit",
@@ -1041,10 +993,7 @@
             "Safety Level": "QM",
             "Display Support": "3x 4K displays",
             "Camera Input": "DMS + OMS",
-            "Package": "Automotive module",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Automotive module"
           },
           "features": [
             "Multi-display support",
@@ -1082,10 +1031,7 @@
             "Safety Level": "ASIL-B",
             "Display Support": "Optional",
             "Camera Input": "8-channel ISP",
-            "Package": "Automotive module",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Automotive module"
           },
           "features": [
             "ASIL-B safety certified",
@@ -1123,10 +1069,7 @@
             "Safety Level": "ASIL-D capable",
             "Display Support": "Multiple 4K",
             "Camera Input": "12-channel",
-            "Package": "Domain controller",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Domain controller"
           },
           "features": [
             "16 TOPS AI performance",
@@ -1160,14 +1103,10 @@
           ],
           "specifications": {
             "Processor": "RV500 Auto",
-            "AI Performance": "N/A",
             "Safety Level": "ASIL-B",
             "Display Support": "None",
             "Camera Input": "None",
-            "Package": "Gateway module",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Gateway module"
           },
           "features": [
             "Multi-protocol gateway",

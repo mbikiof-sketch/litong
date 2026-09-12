@@ -84,8 +84,7 @@
         "ESR",
         "Insulation Resistance",
         "Operating Temperature",
-        "Ripple Current",
-        "Current Rating"
+        "Ripple Current"
       ],
       "applications": [
         "Decoupling/Bypass",
@@ -177,9 +176,7 @@
             "Temperature Coefficient": "±15%",
             "ESR": "<20mΩ @ 1MHz",
             "Insulation Resistance": ">10GΩ @ 25V",
-            "Operating Temperature": "-55°C to +125°C",
-            "Ripple Current": "N/A",
-            "Current Rating": "N/A"
+            "Operating Temperature": "-55°C to +125°C"
           },
           "features": [
             "X7R dielectric for stable temperature characteristics",
@@ -376,9 +373,7 @@
             "Temperature Coefficient": "±15%",
             "ESR": "<10mΩ @ 1MHz",
             "Ripple Current": "3A RMS @ 100kHz",
-            "Operating Temperature": "-55°C to +125°C",
-            "Insulation Resistance": "N/A",
-            "Current Rating": "N/A"
+            "Operating Temperature": "-55°C to +125°C"
           },
           "features": [
             "High capacitance (4.7µF) in 1206 package",
@@ -575,10 +570,7 @@
             "ESR": "<5mΩ @ 1MHz",
             "Ripple Current": "5A RMS",
             "Insulation Resistance": ">10GΩ",
-            "Package": "1210 SMD",
-            "Temperature Coefficient": "N/A",
-            "Operating Temperature": "N/A",
-            "Current Rating": "N/A"
+            "Package": "1210 SMD"
           },
           "features": [
             "High capacitance 10µF",
@@ -657,10 +649,7 @@
             "ESR": "<20mΩ @ 1MHz",
             "Ripple Current": "1A RMS",
             "Insulation Resistance": ">10GΩ",
-            "Package": "0603 SMD",
-            "Temperature Coefficient": "N/A",
-            "Operating Temperature": "N/A",
-            "Current Rating": "N/A"
+            "Package": "0603 SMD"
           },
           "features": [
             "Compact 0603 package",
@@ -839,9 +828,7 @@
             "Ripple Current": "1.2A RMS @ 100kHz, 105°C",
             "Leakage Current": "0.01CV or 3µA, whichever is greater",
             "Size": "10mm diameter × 16mm height",
-            "Termination": "Radial leads, 5mm pitch",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Termination": "Radial leads, 5mm pitch"
           },
           "features": [
             "High capacitance (1000µF) in compact package",
@@ -1038,9 +1025,7 @@
             "Ripple Current": "3.5A RMS @ 100Hz, 105°C",
             "Leakage Current": "0.02CV or 3mA, whichever is smaller",
             "Size": "35mm diameter × 50mm height",
-            "Termination": "Snap-in terminals, PCB mount",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Termination": "Snap-in terminals, PCB mount"
           },
           "features": [
             "High voltage rating (450V) for industrial applications",
@@ -1232,14 +1217,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Tolerance": "N/A",
-            "Lifetime": "N/A",
-            "ESR": "N/A",
-            "Ripple Current": "N/A",
-            "Leakage Current": "N/A",
-            "Size": "N/A",
-            "Termination": "N/A",
             "Specifications": "470uF 50V"
           },
           "features": [
@@ -1259,53 +1236,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-3?",
@@ -1368,14 +1300,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Tolerance": "N/A",
-            "Lifetime": "N/A",
-            "ESR": "N/A",
-            "Ripple Current": "N/A",
-            "Leakage Current": "N/A",
-            "Size": "N/A",
-            "Termination": "N/A",
             "Specifications": "1000uF 50V"
           },
           "features": [
@@ -1395,53 +1319,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-4?",
@@ -1611,12 +1490,7 @@
             "Insulation Resistance": "≥30,000MΩ",
             "Lead Spacing": "15mm",
             "Dimensions": "18mm x 9mm x 13mm (L x W x H)",
-            "Self-Healing": "Yes",
-            "Case": "N/A",
-            "Mounting": "N/A",
-            "Safety": "N/A",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Self-Healing": "Yes"
           },
           "features": [
             "Low loss polypropylene dielectric",
@@ -1813,12 +1687,7 @@
             "Case": "Metal can with mounting stud",
             "Dimensions": "40mm diameter x 70mm height",
             "Mounting": "M8 stud with terminal block",
-            "Safety": "Internal pressure interrupter",
-            "Insulation Resistance": "N/A",
-            "Lead Spacing": "N/A",
-            "Self-Healing": "N/A",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Safety": "Internal pressure interrupter"
           },
           "features": [
             "AC voltage rated for continuous motor operation",
@@ -2008,17 +1877,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Tolerance": "N/A",
-            "Dielectric": "N/A",
-            "Dissipation Factor": "N/A",
-            "Insulation Resistance": "N/A",
-            "Lead Spacing": "N/A",
-            "Dimensions": "N/A",
-            "Self-Healing": "N/A",
-            "Case": "N/A",
-            "Mounting": "N/A",
-            "Safety": "N/A",
             "Specifications": "1uF 400V"
           },
           "features": [
@@ -2038,53 +1896,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-3?",
@@ -2147,17 +1960,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Tolerance": "N/A",
-            "Dielectric": "N/A",
-            "Dissipation Factor": "N/A",
-            "Insulation Resistance": "N/A",
-            "Lead Spacing": "N/A",
-            "Dimensions": "N/A",
-            "Self-Healing": "N/A",
-            "Case": "N/A",
-            "Mounting": "N/A",
-            "Safety": "N/A",
             "Specifications": "1.5uF 400V"
           },
           "features": [
@@ -2177,53 +1979,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for FILMCAPACITORS-4?",
@@ -2295,8 +2052,7 @@
         "Temperature Range",
         "Cycle Life",
         "Dimensions",
-        "Termination",
-        "Current Rating"
+        "Termination"
       ],
       "applications": [
         "Backup Power",
@@ -2387,8 +2143,7 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "8mm diameter × 13mm height",
-            "Termination": "Radial leads",
-            "Current Rating": "N/A"
+            "Termination": "Radial leads"
           },
           "features": [
             "10 Farads high capacitance",
@@ -2582,8 +2337,7 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "22mm diameter × 45mm height",
-            "Termination": "Radial leads",
-            "Current Rating": "N/A"
+            "Termination": "Radial leads"
           },
           "features": [
             "100 Farads high capacitance",
@@ -2777,8 +2531,7 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "18mm diameter × 35mm height",
-            "Termination": "Radial leads",
-            "Current Rating": "N/A"
+            "Termination": "Radial leads"
           },
           "features": [
             "50 Farads high capacitance",
@@ -2857,8 +2610,7 @@
             "Temperature Range": "-40°C to +65°C",
             "Cycle Life": "500,000 cycles",
             "Dimensions": "25mm diameter × 50mm height",
-            "Termination": "Radial leads",
-            "Current Rating": "N/A"
+            "Termination": "Radial leads"
           },
           "features": [
             "200 Farads ultra-high capacitance",

@@ -34,10 +34,7 @@
         "Output Power",
         "Switching Frequency",
         "Standby Power",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "products": [
         {
@@ -56,10 +53,7 @@
             "Switching Frequency": "65 kHz",
             "Standby Power": "< 0.1W",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT23-6, DIP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-6, DIP-8"
           },
           "features": [
             "High-voltage startup circuit",
@@ -189,10 +183,7 @@
             "Switching Frequency": "Variable (QR mode)",
             "Standby Power": "< 0.1W",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOP-8, DIP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8, DIP-8"
           },
           "features": [
             "Quasi-resonant valley switching",

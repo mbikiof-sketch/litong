@@ -75,9 +75,6 @@
         "Quiescent Current",
         "Input Bias Current",
         "Noise Density",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Bandwidth",
         "Supply Current",
         "Input Offset",
@@ -167,14 +164,7 @@
             "Quiescent Current": "40μA",
             "Input Bias Current": "1pA",
             "Noise Density": "27nV/√Hz",
-            "Package": "SOT23-5, SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Bandwidth": "N/A",
-            "Supply Current": "N/A",
-            "Input Offset": "N/A",
-            "Output": "N/A"
+            "Package": "SOT23-5, SOP-8"
           },
           "features": [
             "Ultra-low 50μV maximum input offset voltage",
@@ -347,14 +337,7 @@
             "Quiescent Current": "45μA",
             "Input Bias Current": "1pA",
             "Noise Density": "25nV/√Hz",
-            "Package": "SOT23-5, MSOP-8, SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Bandwidth": "N/A",
-            "Supply Current": "N/A",
-            "Input Offset": "N/A",
-            "Output": "N/A"
+            "Package": "SOT23-5, MSOP-8, SOP-8"
           },
           "features": [
             "Low 200μV maximum input offset voltage",
@@ -518,16 +501,7 @@
             "Supply Current": "200μA per amp",
             "Input Offset": "2mV max",
             "Output": "Rail-to-rail",
-            "Package": "SOIC-8, MSOP-8",
-            "GBW": "N/A",
-            "Offset Voltage": "N/A",
-            "Offset Drift": "N/A",
-            "Quiescent Current": "N/A",
-            "Input Bias Current": "N/A",
-            "Noise Density": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, MSOP-8"
           },
           "features": [
             "Low power 200μA",
@@ -603,16 +577,7 @@
             "Supply Current": "800μA total",
             "Input Offset": "2mV max",
             "Output": "Rail-to-rail",
-            "Package": "SOIC-14, TSSOP-14",
-            "GBW": "N/A",
-            "Offset Voltage": "N/A",
-            "Offset Drift": "N/A",
-            "Quiescent Current": "N/A",
-            "Input Bias Current": "N/A",
-            "Noise Density": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-14, TSSOP-14"
           },
           "features": [
             "Quad amplifiers",
@@ -694,9 +659,6 @@
         "Quiescent Current",
         "Input Bias Current",
         "Output Type",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Supply Current",
         "Input Offset",
         "Hysteresis",
@@ -784,14 +746,7 @@
             "Quiescent Current": "130μA",
             "Input Bias Current": "1pA",
             "Output Type": "Push-Pull",
-            "Package": "SOT23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Current": "N/A",
-            "Input Offset": "N/A",
-            "Hysteresis": "N/A",
-            "Output": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-fast 40ns propagation delay",
@@ -955,14 +910,7 @@
             "Quiescent Current": "260μA (both channels)",
             "Input Bias Current": "1pA",
             "Output Type": "Push-Pull",
-            "Package": "MSOP-8, SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Current": "N/A",
-            "Input Offset": "N/A",
-            "Hysteresis": "N/A",
-            "Output": "N/A"
+            "Package": "MSOP-8, SOP-8"
           },
           "features": [
             "Dual independent comparators",
@@ -1126,14 +1074,7 @@
             "Input Offset": "5mV max",
             "Hysteresis": "Internal 4mV",
             "Output": "Open-collector",
-            "Package": "SOIC-8, MSOP-8",
-            "Input Offset Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "Input Bias Current": "N/A",
-            "Output Type": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, MSOP-8"
           },
           "features": [
             "Low power 100μA",
@@ -1208,14 +1149,7 @@
             "Input Offset": "5mV max",
             "Hysteresis": "Internal 4mV",
             "Output": "Open-collector",
-            "Package": "SOIC-14, TSSOP-14",
-            "Input Offset Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "Input Bias Current": "N/A",
-            "Output Type": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-14, TSSOP-14"
           },
           "features": [
             "Quad comparators",
@@ -1298,9 +1232,6 @@
         "Charge Injection",
         "Leakage Current",
         "Quiescent Current",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Off-Isolation",
         "Crosstalk",
         "THD"
@@ -1388,13 +1319,7 @@
             "Charge Injection": "5pC",
             "Leakage Current": "1nA",
             "Quiescent Current": "1μA",
-            "Package": "SOT23-6, SC70-6",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Off-Isolation": "N/A",
-            "Crosstalk": "N/A",
-            "THD": "N/A"
+            "Package": "SOT23-6, SC70-6"
           },
           "features": [
             "Ultra-low 0.5Ω on-resistance",
@@ -1559,13 +1484,7 @@
             "Charge Injection": "15pC",
             "Leakage Current": "10nA",
             "Quiescent Current": "0.01μA",
-            "Package": "SC70-5, SOT23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Off-Isolation": "N/A",
-            "Crosstalk": "N/A",
-            "THD": "N/A"
+            "Package": "SC70-5, SOT23-5"
           },
           "features": [
             "Ultra-low voltage operation down to 1.8V",
@@ -1714,87 +1633,6 @@
           ]
         },
         {
-          "partNumber": "GS4157",
-          "name": "GS4157 Low Voltage SPDT Analog Switch",
-          "shortDescription": "Low voltage SPDT analog switch with 2.5Ω on-resistance for 1.8V to 5.5V systems.",
-          "descriptionParagraphs": [
-            "The GS4157 is a low voltage single-pole double-throw (SPDT) analog switch designed for portable and battery-powered applications.",
-            "With 2.5Ω typical on-resistance and wide supply range (1.8V to 5.5V), this switch handles audio and data signals with minimal distortion. The break-before-make switching prevents signal contention.",
-            "Features include low charge injection, high off-isolation (65dB at 1MHz), and low crosstalk (-60dB). The SC70-6 package is very compact."
-          ],
-          "specifications": {
-            "Supply Voltage": "1.8V to 5.5V",
-            "On-Resistance": "2.5Ω typical",
-            "Bandwidth": "300MHz",
-            "Off-Isolation": "65dB @ 1MHz",
-            "Crosstalk": "-60dB",
-            "Charge Injection": "10pC",
-            "Package": "SC70-6",
-            "On-Resistance Flatness": "N/A",
-            "Leakage Current": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "THD": "N/A"
-          },
-          "features": [
-            "Low on-resistance 2.5Ω",
-            "Wide supply range",
-            "High bandwidth 300MHz",
-            "Low charge injection",
-            "Compact package"
-          ],
-          "applications": [
-            "Audio routing",
-            "Data switching",
-            "Signal multiplexing",
-            "Battery-powered devices"
-          ],
-          "faeReview": {
-            "author": "Sarah Johnson",
-            "title": "FAE - Analog Products",
-            "content": "The GS4157 is excellent for audio switching in portable devices. The low on-resistance minimizes signal loss, and the 1.8V operation supports low-voltage systems.",
-            "highlight": "Great for portable audio applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GS3157",
-              "brand": "Gainsil",
-              "reason": "Lower resistance for critical apps",
-              "comparison": {
-                "resistance": "1.5Ω < 2.5Ω",
-                "price": "Higher"
-              },
-              "useCase": "Critical signal paths",
-              "specifications": {
-                "On-Resistance": "1.5Ω"
-              },
-              "priceDifference": "+20%",
-              "stockStatus": "In Stock",
-              "link": "/gainsil/products/analog-switches/gs3157"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Audio Codec",
-              "description": "For audio processing",
-              "category": "Audio"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Is this switch bidirectional?",
-              "answer": "Yes, the GS4157 is bidirectional. Signals can pass in either direction when the switch is on. The switch behaves the same regardless of signal direction.",
-              "decisionGuide": "Use for bidirectional signal routing.",
-              "keywords": [
-                "bidirectional",
-                "signal routing"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "GS3157",
           "name": "GS3157 Low Resistance SPDT Analog Switch",
           "shortDescription": "Ultra-low resistance SPDT analog switch with 1.5Ω on-resistance for high-fidelity signal routing.",
@@ -1810,14 +1648,7 @@
             "THD": "-90dB",
             "Off-Isolation": "70dB @ 1MHz",
             "Charge Injection": "8pC",
-            "Package": "SC70-6, SOT23-6",
-            "On-Resistance Flatness": "N/A",
-            "Leakage Current": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Crosstalk": "N/A"
+            "Package": "SC70-6, SOT23-6"
           },
           "features": [
             "Ultra-low 1.5Ω resistance",
@@ -1898,8 +1729,6 @@
         "Operating Current",
         "Dynamic Impedance",
         "Temperature Range",
-        "Voltage Rating",
-        "Current Rating",
         "Reference Voltage",
         "Temp Coefficient"
       ],
@@ -1985,11 +1814,7 @@
             "Operating Current": "100μA - 100mA",
             "Dynamic Impedance": "0.2Ω",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT23-3, TO-92",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Reference Voltage": "N/A",
-            "Temp Coefficient": "N/A"
+            "Package": "SOT23-3, TO-92"
           },
           "features": [
             "Precision 2.5V reference voltage",
@@ -2153,11 +1978,7 @@
             "Operating Current": "60μA - 50mA",
             "Dynamic Impedance": "0.3Ω",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT23-3, SC70-3",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Reference Voltage": "N/A",
-            "Temp Coefficient": "N/A"
+            "Package": "SOT23-3, SC70-3"
           },
           "features": [
             "Low 1.25V reference voltage",
@@ -2301,161 +2122,6 @@
                 "reference noise",
                 "noise reduction",
                 "bypass capacitor"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "GS431",
-          "name": "GS431 2.5V Precision Shunt Reference",
-          "shortDescription": "2.5V precision shunt reference with 0.5% initial accuracy and 20ppm/°C temperature drift.",
-          "descriptionParagraphs": [
-            "The GS431 is a 2.5V precision shunt voltage reference with adjustable output voltage.",
-            "With 0.5% initial accuracy and 20ppm/°C temperature coefficient, this reference provides stable voltage for ADCs, DACs, and power supplies. The shunt configuration allows flexible current setting.",
-            "Features include wide operating current (1mA to 100mA), low dynamic impedance (0.2Ω), and SOT23-3 package."
-          ],
-          "specifications": {
-            "Reference Voltage": "2.5V nominal",
-            "Initial Accuracy": "0.5%",
-            "Temp Coefficient": "20ppm/°C",
-            "Operating Current": "1mA to 100mA",
-            "Dynamic Impedance": "0.2Ω typical",
-            "Package": "SOT23-3, SC70-3",
-            "Output Voltage": "N/A",
-            "Temperature Drift": "N/A",
-            "Temperature Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
-          },
-          "features": [
-            "0.5% accuracy",
-            "20ppm/°C drift",
-            "Adjustable output",
-            "Wide current range",
-            "Low impedance"
-          ],
-          "applications": [
-            "ADC/DAC reference",
-            "Power supply feedback",
-            "Voltage monitoring",
-            "Current sensing"
-          ],
-          "faeReview": {
-            "author": "David Wang",
-            "title": "Principal FAE - Analog",
-            "content": "The GS431 is a cost-effective reference for many applications. The 0.5% accuracy is good for most designs, and the 20ppm drift is acceptable for consumer products.",
-            "highlight": "Cost-effective for general applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GS432",
-              "brand": "Gainsil",
-              "reason": "1.24V for lower voltage",
-              "comparison": {
-                "voltage": "1.24V < 2.5V",
-                "accuracy": "Same"
-              },
-              "useCase": "1.24V reference applications",
-              "specifications": {
-                "Reference Voltage": "1.24V"
-              },
-              "priceDifference": "Same",
-              "stockStatus": "In Stock",
-              "link": "/gainsil/products/voltage-references/gs432"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Resistor Divider",
-              "description": "For output adjustment",
-              "category": "Passive"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "How do I set the operating current?",
-              "answer": "Use a series resistor from supply to cathode. Calculate R = (Vsupply - Vref) / Iref. Choose current between 1mA and 100mA based on accuracy requirements and power budget.",
-              "decisionGuide": "Use 5-10mA for good accuracy with low power.",
-              "keywords": [
-                "operating current",
-                "biasing"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "GS432",
-          "name": "GS432 1.24V Precision Shunt Reference",
-          "shortDescription": "1.24V precision shunt reference with 0.5% accuracy for low voltage systems.",
-          "descriptionParagraphs": [
-            "The GS432 is a 1.24V precision shunt reference for low voltage applications.",
-            "Provides the same 0.5% accuracy and 20ppm/°C drift as the GS431 but at 1.24V. Useful for 1.8V and 3.3V systems where 2.5V is too high.",
-            "Same features and package options as GS431."
-          ],
-          "specifications": {
-            "Reference Voltage": "1.24V nominal",
-            "Initial Accuracy": "0.5%",
-            "Temp Coefficient": "20ppm/°C",
-            "Operating Current": "1mA to 100mA",
-            "Dynamic Impedance": "0.2Ω typical",
-            "Package": "SOT23-3, SC70-3",
-            "Output Voltage": "N/A",
-            "Temperature Drift": "N/A",
-            "Temperature Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
-          },
-          "features": [
-            "1.24V output",
-            "0.5% accuracy",
-            "20ppm/°C drift",
-            "Low voltage operation"
-          ],
-          "applications": [
-            "Low voltage ADC reference",
-            "1.8V system reference",
-            "Current sensing",
-            "Comparator threshold"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE - Analog",
-            "content": "The GS432 is useful for low voltage systems. The 1.24V output works well in 1.8V and 3.3V designs where 2.5V would be too close to supply.",
-            "highlight": "Good for low voltage systems"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "GS431",
-              "brand": "Gainsil",
-              "reason": "2.5V for higher voltage",
-              "comparison": {
-                "voltage": "2.5V > 1.24V",
-                "accuracy": "Same"
-              },
-              "useCase": "Standard 2.5V reference apps",
-              "specifications": {
-                "Reference Voltage": "2.5V"
-              },
-              "priceDifference": "Same",
-              "stockStatus": "In Stock",
-              "link": "/gainsil/products/voltage-references/gs431"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Comparator",
-              "description": "For threshold detection",
-              "category": "Comparator"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "When should I use 1.24V vs 2.5V reference?",
-              "answer": "Use 1.24V for supply voltages below 3.3V to ensure adequate headroom. Use 2.5V for 5V systems or where higher reference voltage improves ADC resolution.",
-              "decisionGuide": "1.24V for <3.3V supplies, 2.5V for 5V systems.",
-              "keywords": [
-                "voltage selection",
-                "reference"
               ]
             }
           ]

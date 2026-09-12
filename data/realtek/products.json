@@ -79,9 +79,7 @@
             "Power Management": "ACPI 3.0, D3 cold",
             "Operating Temperature": "0°C to +70°C (Commercial), -40°C to +85°C (Industrial)",
             "Package": "QFN-32",
-            "ESD Protection": "4kV contact, 8kV air",
-            "USB Compatibility": "N/A",
-            "Power Consumption": "N/A"
+            "ESD Protection": "4kV contact, 8kV air"
           },
           "features": [
             "PCIe 2.1 interface",
@@ -233,9 +231,7 @@
             "Power Management": "Enhanced ACPI, D3 cold",
             "Operating Temperature": "-40°C to +85°C (Industrial)",
             "Package": "QFN-32",
-            "ESD Protection": "8kV contact, 15kV air",
-            "USB Compatibility": "N/A",
-            "Power Consumption": "N/A"
+            "ESD Protection": "8kV contact, 15kV air"
           },
           "features": [
             "PCIe 2.1 interface",
@@ -383,9 +379,7 @@
             "Power Consumption": "<1W active",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-40",
-            "ESD Protection": "4kV contact, 8kV air",
-            "Jumbo Frame": "N/A",
-            "Power Management": "N/A"
+            "ESD Protection": "4kV contact, 8kV air"
           },
           "features": [
             "USB 3.0 SuperSpeed support",
@@ -532,9 +526,7 @@
             "Power Consumption": "<1.5W active",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-40",
-            "ESD Protection": "4kV contact, 8kV air",
-            "Jumbo Frame": "N/A",
-            "Power Management": "N/A"
+            "ESD Protection": "4kV contact, 8kV air"
           },
           "features": [
             "2.5 Gigabit Ethernet support",
@@ -685,9 +677,7 @@
             "Power Consumption": "<1.5W active",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "ESD Protection": "4kV contact, 8kV air",
-            "Jumbo Frame": "N/A",
-            "Power Management": "N/A"
+            "ESD Protection": "4kV contact, 8kV air"
           },
           "features": [
             "2.5 Gigabit Ethernet support",
@@ -861,9 +851,7 @@
             "Power Consumption": "<1.5W active",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "ESD Protection": "4kV contact, 8kV air",
-            "Power Management": "N/A",
-            "USB Compatibility": "N/A"
+            "ESD Protection": "4kV contact, 8kV air"
           },
           "features": [
             "2.5 Gigabit Ethernet over PCIe",
@@ -1111,9 +1099,7 @@
             "Channel Width": "20/40/80 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-40",
-            "Power Consumption": "Low power design",
-            "Features": "N/A",
-            "Power": "N/A"
+            "Power Consumption": "Low power design"
           },
           "features": [
             "802.11ac 1x1 with MU-MIMO",
@@ -1283,9 +1269,7 @@
             "Channel Width": "20/40/80 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "Features": "Beamforming, LDPC",
-            "Power Consumption": "N/A",
-            "Power": "N/A"
+            "Features": "Beamforming, LDPC"
           },
           "features": [
             "802.11ac 2x2 with MU-MIMO",
@@ -1455,9 +1439,7 @@
             "Channel Width": "20/40/80 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "Features": "Wi-Fi 6, TWT, OFDMA",
-            "Power Consumption": "N/A",
-            "Power": "N/A"
+            "Features": "Wi-Fi 6, TWT, OFDMA"
           },
           "features": [
             "Wi-Fi 6 (802.11ax) support",
@@ -1624,10 +1606,7 @@
             "Channel Width": "20/40/80 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Power": "USB bus powered",
-            "Bluetooth Version": "N/A",
-            "Power Consumption": "N/A",
-            "Features": "N/A"
+            "Power": "USB bus powered"
           },
           "features": [
             "802.11ac 1x1 support",
@@ -1795,10 +1774,7 @@
             "Channel Width": "20/40/80 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "Features": "Beamforming, USB 3.0",
-            "Bluetooth Version": "N/A",
-            "Power Consumption": "N/A",
-            "Power": "N/A"
+            "Features": "Beamforming, USB 3.0"
           },
           "features": [
             "802.11ac 2x2 with beamforming",
@@ -1967,9 +1943,7 @@
             "Channel Width": "20/40 MHz",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Features": "Low cost, SDIO interface",
-            "Power Consumption": "N/A",
-            "Power": "N/A"
+            "Features": "Low cost, SDIO interface"
           },
           "features": [
             "802.11n 1x1 support",
@@ -2214,10 +2188,7 @@
             "Features": "Jack Detection, S/PDIF",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFP-48",
-            "Power": "3.3V/5V",
-            "Power Consumption": "N/A",
-            "Speaker Output": "N/A",
-            "DMIC Support": "N/A"
+            "Power": "3.3V/5V"
           },
           "features": [
             "7.1 channel surround sound",
@@ -2386,10 +2357,7 @@
             "Features": "DTS:X Ultra, Custom EQ",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "Power": "3.3V/5V",
-            "Power Consumption": "N/A",
-            "Speaker Output": "N/A",
-            "DMIC Support": "N/A"
+            "Power": "3.3V/5V"
           },
           "features": [
             "120dB SNR DAC",
@@ -2558,10 +2526,7 @@
             "Power Consumption": "Low power design",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Power": "1.8V/3.3V",
-            "Features": "N/A",
-            "Speaker Output": "N/A",
-            "DMIC Support": "N/A"
+            "Power": "1.8V/3.3V"
           },
           "features": [
             "Low power consumption",
@@ -2730,10 +2695,7 @@
             "Power Consumption": "5mW playback",
             "Operating Temperature": "-10°C to +70°C",
             "Package": "QFN-32",
-            "Interface": "I2S/PCM",
-            "Headphone Amp": "N/A",
-            "Features": "N/A",
-            "Power": "N/A"
+            "Interface": "I2S/PCM"
           },
           "features": [
             "Ultra-low 5mW power",
@@ -2902,10 +2864,7 @@
             "Features": "5.1 surround, Jack Detection",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFP-48",
-            "Power": "3.3V/5V",
-            "Power Consumption": "N/A",
-            "Speaker Output": "N/A",
-            "DMIC Support": "N/A"
+            "Power": "3.3V/5V"
           },
           "features": [
             "5.1 channel surround sound",
@@ -3073,10 +3032,7 @@
             "Features": "Independent HP/SPK outputs",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Power": "3.3V",
-            "Headphone Amp": "N/A",
-            "Power Consumption": "N/A",
-            "DMIC Support": "N/A"
+            "Power": "3.3V"
           },
           "features": [
             "Optimized for notebooks",
@@ -3320,10 +3276,7 @@
             "Features": "Hot plug, Write protect",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-24",
-            "Drivers": "Built-in Windows/Linux",
-            "CF Support": "N/A",
-            "SD Express Speed": "N/A",
-            "Backward Compatible": "N/A"
+            "Drivers": "Built-in Windows/Linux"
           },
           "features": [
             "USB 2.0 interface",
@@ -3494,10 +3447,7 @@
             "Features": "USB 3.0, UHS-I support",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Drivers": "Built-in Windows/Linux",
-            "CF Support": "N/A",
-            "SD Express Speed": "N/A",
-            "Backward Compatible": "N/A"
+            "Drivers": "Built-in Windows/Linux"
           },
           "features": [
             "USB 3.0 SuperSpeed",
@@ -3668,10 +3618,7 @@
             "Power": "5V input",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-48",
-            "Features": "UHS-II, CF support",
-            "Drivers": "N/A",
-            "SD Express Speed": "N/A",
-            "Backward Compatible": "N/A"
+            "Features": "UHS-II, CF support"
           },
           "features": [
             "USB 3.0 SuperSpeed",
@@ -3843,10 +3790,7 @@
             "Features": "PCIe native, Low latency",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-32",
-            "Drivers": "Windows/Linux inbox",
-            "CF Support": "N/A",
-            "SD Express Speed": "N/A",
-            "Backward Compatible": "N/A"
+            "Drivers": "Windows/Linux inbox"
           },
           "features": [
             "PCIe 2.0 x1 interface",
@@ -4015,10 +3959,7 @@
             "Features": "Dual-slot, Simultaneous access",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-40",
-            "Drivers": "Built-in Windows/Linux",
-            "CF Support": "N/A",
-            "SD Express Speed": "N/A",
-            "Backward Compatible": "N/A"
+            "Drivers": "Built-in Windows/Linux"
           },
           "features": [
             "Dual SD card slots",
@@ -4188,10 +4129,7 @@
             "Power": "5V input",
             "Operating Temperature": "0°C to +70°C",
             "Package": "QFN-40",
-            "Features": "SD Express, PCIe over SD",
-            "SD Bus": "N/A",
-            "Drivers": "N/A",
-            "CF Support": "N/A"
+            "Features": "SD Express, PCIe over SD"
           },
           "features": [
             "USB 3.1 Gen 2 (10 Gbps)",

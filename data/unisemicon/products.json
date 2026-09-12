@@ -170,10 +170,7 @@
             "Read Speed": "Up to 66MB/s (Quad mode)",
             "Supply Voltage": "2.7V to 3.6V",
             "Operating Temperature": "-40C to +85C (Industrial), -40C to +125C (Automotive)",
-            "Package": "SOP-8, WSON-8, USON-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8, WSON-8, USON-8"
           },
           "applications": [
             "Boot code storage",
@@ -411,10 +408,7 @@
             "Read Speed": "Up to 13MB/s",
             "Supply Voltage": "2.7V to 3.6V",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SOP-8, WSON-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8, WSON-8"
           },
           "applications": [
             "Boot code",
@@ -567,13 +561,7 @@
             "Voltage Rating": "25V DC",
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Density": "N/A",
-            "Interface": "N/A",
-            "Clock Rate": "N/A",
-            "Read Speed": "N/A",
-            "Supply Voltage": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "High performance",
@@ -592,53 +580,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for NORFLASH-3?",
@@ -700,13 +643,7 @@
             "Voltage Rating": "25V DC",
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Density": "N/A",
-            "Interface": "N/A",
-            "Clock Rate": "N/A",
-            "Read Speed": "N/A",
-            "Supply Voltage": "N/A",
-            "Operating Temperature": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "High performance",
@@ -725,53 +662,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for NORFLASH-4?",
@@ -845,10 +737,7 @@
         "Block Size",
         "Endurance",
         "Data Retention",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "applications": [
         "SSD",
@@ -939,10 +828,7 @@
             "Endurance": "100,000 P/E cycles",
             "Data Retention": "10 years",
             "Operating Temperature": "-40C to +85C",
-            "Package": "TSOP-48, BGA-63",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSOP-48, BGA-63"
           },
           "applications": [
             "Industrial SSD",
@@ -1105,10 +991,7 @@
         "I/O Count",
         "PLLs",
         "Core Voltage",
-        "I/O Voltage",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "I/O Voltage"
       ],
       "applications": [
         "Prototyping",
@@ -1198,10 +1081,7 @@
             "PLLs": "4",
             "Core Voltage": "1.2V",
             "I/O Voltage": "3.3V/2.5V/1.8V",
-            "Package": "TQFP-144, BGA-256",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TQFP-144, BGA-256"
           },
           "applications": [
             "Embedded systems",
@@ -1369,9 +1249,6 @@
         "USB",
         "CAN",
         "ADC",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Status"
       ],
       "applications": [
@@ -1466,11 +1343,7 @@
             "USB": "USB 2.0 Full Speed",
             "CAN": "1",
             "ADC": "12-bit, 16 channels",
-            "Package": "LQFP-64, LQFP-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A"
+            "Package": "LQFP-64, LQFP-48"
           },
           "applications": [
             "Industrial control",
@@ -1644,21 +1517,7 @@
             "[Data Pending] Application information to be confirmed with manufacturer."
           ],
           "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Core": "N/A",
-            "Flash": "N/A",
-            "RAM": "N/A",
-            "Speed": "N/A",
-            "GPIO": "N/A",
-            "UART": "N/A",
-            "SPI": "N/A",
-            "I2C": "N/A",
-            "USB": "N/A",
-            "CAN": "N/A",
-            "ADC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Status": "Data pending - to be updated from official source"
           },
           "features": [
             "High performance",
@@ -1717,190 +1576,6 @@
             },
             {
               "question": "What is the lead time for MCU-2?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "DATA_PENDING",
-          "name": "Microcontrollers (Data Pending)",
-          "shortDescription": "[Data Pending] Official product information to be added from manufacturer datasheet.",
-          "descriptionParagraphs": [
-            "[Data Pending] Product description to be added from official manufacturer documentation.",
-            "[Data Pending] Technical specifications to be verified against official datasheet.",
-            "[Data Pending] Application information to be confirmed with manufacturer."
-          ],
-          "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Core": "N/A",
-            "Flash": "N/A",
-            "RAM": "N/A",
-            "Speed": "N/A",
-            "GPIO": "N/A",
-            "UART": "N/A",
-            "SPI": "N/A",
-            "I2C": "N/A",
-            "USB": "N/A",
-            "CAN": "N/A",
-            "ADC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "reviewer": "BeiLuo FAE Team",
-            "date": "2026-05-01",
-            "content": "[Data Pending] FAE review to be added based on actual product evaluation and application experience."
-          },
-          "alternativeParts": [],
-          "companionParts": [],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for MCU-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is MCU-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of MCU-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for MCU-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for MCU-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "DATA_PENDING",
-          "name": "Microcontrollers (Data Pending)",
-          "shortDescription": "[Data Pending] Official product information to be added from manufacturer datasheet.",
-          "descriptionParagraphs": [
-            "[Data Pending] Product description to be added from official manufacturer documentation.",
-            "[Data Pending] Technical specifications to be verified against official datasheet.",
-            "[Data Pending] Application information to be confirmed with manufacturer."
-          ],
-          "specifications": {
-            "Status": "Data pending - to be updated from official source",
-            "Core": "N/A",
-            "Flash": "N/A",
-            "RAM": "N/A",
-            "Speed": "N/A",
-            "GPIO": "N/A",
-            "UART": "N/A",
-            "SPI": "N/A",
-            "I2C": "N/A",
-            "USB": "N/A",
-            "CAN": "N/A",
-            "ADC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "reviewer": "BeiLuo FAE Team",
-            "date": "2026-05-01",
-            "content": "[Data Pending] FAE review to be added based on actual product evaluation and application experience."
-          },
-          "alternativeParts": [],
-          "companionParts": [],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for MCU-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is MCU-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of MCU-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for MCU-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for MCU-4?",
               "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on unisemicon DATA_PENDING, refer to the datasheet or contact our team.",
               "decisionGuide": "Contact sales team for urgent requirements.",
               "keywords": [

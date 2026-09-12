@@ -84,9 +84,7 @@
         "Cable Reach",
         "MAC Interface",
         "Supply Voltage",
-        "ASIL Support",
-        "Voltage Rating",
-        "Current Rating"
+        "ASIL Support"
       ],
       "applications": [
         "ADAS",
@@ -194,9 +192,7 @@
             "MAC Interface": "MII/RMII/RGMII",
             "Supply Voltage": "3.3V/1.8V",
             "Package": "QFN-32 (5x5mm)",
-            "ASIL Support": "ASIL-B capable",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "ASIL Support": "ASIL-B capable"
           },
           "features": [
             "IEEE 802.3bw 100BASE-T1 compliant",
@@ -357,9 +353,7 @@
             "MAC Interface": "RGMII/SGMII",
             "Supply Voltage": "3.3V/1.8V/1.0V",
             "Package": "QFN-48 (7x7mm)",
-            "ASIL Support": "ASIL-B",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "ASIL Support": "ASIL-B"
           },
           "features": [
             "IEEE 802.3bp 1000BASE-T1 compliant",
@@ -525,9 +519,7 @@
         "Power-over-Coax",
         "Temperature Range",
         "ASIL Support",
-        "Equalization",
-        "Voltage Rating",
-        "Current Rating"
+        "Equalization"
       ],
       "applications": [
         "Camera Modules",
@@ -629,10 +621,7 @@
             "Power-over-Coax": "Supported",
             "Temperature Range": "-40°C to +125°C",
             "Package": "QFN-32 (Serializer), QFN-48 (Deserializer)",
-            "ASIL Support": "ASIL-B",
-            "Equalization": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "ASIL Support": "ASIL-B"
           },
           "features": [
             "Up to 2 Gbps data rate",
@@ -781,10 +770,7 @@
             "Equalization": "Adaptive",
             "Temperature Range": "-40°C to +125°C",
             "Package": "QFN-40 (Serializer), QFN-56 (Deserializer)",
-            "ASIL Support": "ASIL-B",
-            "Power-over-Coax": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "ASIL Support": "ASIL-B"
           },
           "features": [
             "Up to 4 Gbps data rate",
@@ -933,9 +919,7 @@
         "Port Count",
         "Protocols",
         "Latency",
-        "Management",
-        "Voltage Rating",
-        "Current Rating"
+        "Management"
       ],
       "applications": [
         "Factory Automation",
@@ -1037,13 +1021,7 @@
             "Surge Protection": "Integrated",
             "Isolation": "2.5kV",
             "MAC Interface": "RGMII/MII/RMII",
-            "Package": "QFN-48",
-            "Port Count": "N/A",
-            "Protocols": "N/A",
-            "Latency": "N/A",
-            "Management": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "10/100/1000 Mbps operation",
@@ -1191,14 +1169,7 @@
             "Temperature Range": "-40°C to +85°C",
             "Latency": "<10 microseconds",
             "Management": "Web, SNMP, CLI",
-            "Package": "BGA-256",
-            "Standard": "N/A",
-            "EMC Performance": "N/A",
-            "Surge Protection": "N/A",
-            "Isolation": "N/A",
-            "MAC Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "BGA-256"
           },
           "features": [
             "5-port Gigabit Ethernet",
@@ -1344,9 +1315,7 @@
         "Temperature Range",
         "Signal Conditioning",
         "Operating Modes",
-        "Equalization",
-        "Voltage Rating",
-        "Current Rating"
+        "Equalization"
       ],
       "applications": [
         "Protocol Conversion",
@@ -1442,11 +1411,7 @@
             "Lanes": "1, 2, or 4",
             "Temperature Range": "-40°C to +125°C (Automotive), -40°C to +85°C (Industrial)",
             "Signal Conditioning": "Integrated",
-            "Package": "QFN-64 (9x9mm)",
-            "Operating Modes": "N/A",
-            "Equalization": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "QFN-64 (9x9mm)"
           },
           "features": [
             "Multi-protocol support",
@@ -1590,11 +1555,7 @@
             "Operating Modes": "Redriver, Retimer",
             "Equalization": "Adaptive CTLE and DFE",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "QFN-40 (5x5mm)",
-            "Lanes": "N/A",
-            "Signal Conditioning": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "QFN-40 (5x5mm)"
           },
           "features": [
             "PCIe Gen4 and USB 3.1 support",

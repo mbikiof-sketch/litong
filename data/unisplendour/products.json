@@ -80,10 +80,7 @@
         "Processor",
         "I/O Pins",
         "I/O Performance",
-        "PLLs",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "PLLs"
       ],
       "applications": [
         "Telecommunications",
@@ -167,12 +164,7 @@
             "Memory": "13.5 Mbit embedded RAM",
             "Transceivers": "16 channels @ 12.5 Gbps",
             "Processor": "Dual-core ARM Cortex-A9 @ 800MHz",
-            "I/O Pins": "896 (up to 36 banks)",
-            "I/O Performance": "N/A",
-            "PLLs": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "I/O Pins": "896 (up to 36 banks)"
           },
           "features": [
             "Dual-core ARM Cortex-A9 processor",
@@ -345,12 +337,7 @@
             "Memory": "2.7 Mbit embedded RAM",
             "I/O Performance": "Up to 1.6 Gbps",
             "PLLs": "8 fractional PLLs",
-            "I/O Pins": "360 (up to 16 banks)",
-            "Transceivers": "N/A",
-            "Processor": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "I/O Pins": "360 (up to 16 banks)"
           },
           "features": [
             "50K programmable logic elements",
@@ -530,10 +517,7 @@
         "EEPROM",
         "Security Level",
         "Interfaces",
-        "Cryptography",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Cryptography"
       ],
       "applications": [
         "Banking Cards",
@@ -622,10 +606,7 @@
             "EEPROM": "8 KB",
             "Security Level": "Common Criteria EAL5+",
             "Interfaces": "Contact + Contactless (Dual)",
-            "Cryptography": "AES, DES, RSA, ECC, SM2/3/4",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Cryptography": "AES, DES, RSA, ECC, SM2/3/4"
           },
           "features": [
             "EAL5+ security certification",
@@ -791,10 +772,7 @@
             "EEPROM": "2 KB",
             "Security Level": "EAL4+",
             "Interfaces": "Contact (ISO 7816)",
-            "Cryptography": "AES, DES, RSA-1024",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Cryptography": "AES, DES, RSA-1024"
           },
           "features": [
             "Cost-optimized design",
@@ -959,10 +937,7 @@
         "Switching Frequency",
         "Dropout Voltage",
         "Output Noise",
-        "PSRR",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "PSRR"
       ],
       "applications": [
         "Smartphones",
@@ -1048,13 +1023,7 @@
             "Output Current": "3A Continuous",
             "Peak Efficiency": "95%",
             "Switching Frequency": "300kHz - 2.2MHz",
-            "Package": "SOP-8 EP",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8 EP"
           },
           "features": [
             "Wide 4.5V to 28V input range",
@@ -1220,12 +1189,7 @@
             "Output Current": "300mA",
             "Dropout Voltage": "150mV @ 300mA",
             "Output Noise": "20µVRMS (10Hz-100kHz)",
-            "PSRR": "70dB @ 1kHz",
-            "Peak Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "PSRR": "70dB @ 1kHz"
           },
           "features": [
             "Ultra-low output noise 20µVRMS",
@@ -1407,10 +1371,7 @@
         "Channels",
         "Dynamic Range",
         "Harmonic Analysis",
-        "Interfaces",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Interfaces"
       ],
       "applications": [
         "Motor Control",
@@ -1500,15 +1461,7 @@
             "Microstepping": "Up to 1/256",
             "Voltage Range": "9V - 40V",
             "Interface": "Step/Dir + SPI",
-            "Package": "TQFP-48",
-            "Accuracy Class": "N/A",
-            "Channels": "N/A",
-            "Dynamic Range": "N/A",
-            "Harmonic Analysis": "N/A",
-            "Interfaces": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TQFP-48"
           },
           "features": [
             "Dual channel independent control",
@@ -1672,15 +1625,7 @@
             "Dynamic Range": "5000:1",
             "Harmonic Analysis": "Up to 31st harmonic",
             "Interfaces": "SPI, UART, I2C",
-            "Package": "LQFP-64",
-            "Motor Type": "N/A",
-            "Peak Current": "N/A",
-            "Microstepping": "N/A",
-            "Voltage Range": "N/A",
-            "Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "Class 0.2S metering accuracy",

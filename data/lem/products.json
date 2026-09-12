@@ -85,10 +85,7 @@
         "Response Time",
         "Bandwidth",
         "Isolation Voltage",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "selectionGuide": "When selecting LEM current transducers, consider the following factors: 1) Current range - Choose a sensor with rated current 20-30% higher than your maximum expected current; 2) Accuracy requirements - Closed-loop sensors offer 0.1-0.5% accuracy, while open-loop sensors provide 1-2% accuracy; 3) Bandwidth needs - Closed-loop sensors typically offer 100-200kHz bandwidth vs 10-50kHz for open-loop; 4) Environmental conditions - Industrial applications use standard sensors (-40°C to +85°C), automotive requires AEC-Q100 certified parts (-40°C to +125°C); 5) Mounting constraints - Panel mount, PCB mount, or busbar mount options available; 6) Output type - Select voltage (0-5V, 0-10V) or current (4-20mA) output based on your system requirements.",
       "selectionGuideLink": {
@@ -187,10 +184,7 @@
             "Response Time": "3.5 μs",
             "Bandwidth": "100 kHz",
             "Isolation Voltage": "2.5 kV",
-            "Operating Temperature": "-40°C to +105°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +105°C"
           },
           "image": "/assets/images/brands/lem/products/hlsr-10-p.jpg",
           "datasheet": "/assets/datasheets/lem/hlsr-series.pdf",
@@ -304,10 +298,7 @@
             "Response Time": "< 1 μs",
             "Bandwidth": "200 kHz",
             "Isolation Voltage": "3 kV",
-            "Operating Temperature": "-40°C to +85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "image": "/assets/images/brands/lem/products/cas-6-np.jpg",
           "datasheet": "/assets/datasheets/lem/cas-series.pdf",
@@ -414,10 +405,7 @@
         "Bandwidth",
         "Isolation Voltage",
         "Operating Temperature",
-        "Frequency Range",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Frequency Range"
       ],
       "selectionGuide": "Selecting the right LEM voltage transducer involves several considerations: 1) Voltage range - Choose rated voltage 20-30% above maximum expected voltage; 2) Measurement type - Instantaneous for waveform analysis, RMS for power monitoring; 3) Accuracy requirements - Standard models offer 0.5-1% accuracy, high-precision models available; 4) Response time - Critical for protection applications requiring fast detection; 5) Isolation requirements - Standard 2.5kV to high-voltage 12kV options; 6) Primary resistance - Higher resistance reduces power dissipation but affects frequency response; 7) Output type - Voltage output (0-5V, 0-10V) or current output (4-20mA) based on system compatibility. Contact our FAE team for application-specific recommendations.",
       "selectionGuideLink": {
@@ -517,11 +505,7 @@
             "Response Time": "40 μs",
             "Bandwidth": "10 kHz",
             "Isolation Voltage": "2.5 kV",
-            "Operating Temperature": "-40°C to +85°C",
-            "Frequency Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "image": "/assets/images/brands/lem/products/lv-25-p.jpg",
           "datasheet": "/assets/datasheets/lem/lv-series.pdf",
@@ -622,12 +606,7 @@
             "Response Time": "300 ms",
             "Frequency Range": "DC to 100 Hz",
             "Isolation Voltage": "2.5 kV",
-            "Operating Temperature": "-10°C to +55°C",
-            "Primary Resistance": "N/A",
-            "Bandwidth": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-10°C to +55°C"
           },
           "image": "/assets/images/brands/lem/products/dvl-500.jpg",
           "datasheet": "/assets/datasheets/lem/dvl-series.pdf",
@@ -735,10 +714,7 @@
         "Isolation Voltage",
         "Operating Temperature",
         "Protection Class",
-        "Bandwidth",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Bandwidth"
       ],
       "selectionGuide": "Selecting LEM industrial sensors requires attention to environmental and mechanical factors: 1) Temperature range - Industrial sensors typically support -40°C to +85°C or -40°C to +105°C for harsh environments; 2) Protection rating - IP20 for panel mounting, IP65+ for field mounting; 3) EMC immunity - Ensure compliance with IEC 61000-4-x for your environment's noise level; 4) Vibration resistance - Critical for applications near motors or on mobile equipment; 5) Mounting - Panel mount, DIN rail, or PCB mount based on installation location; 6) Isolation - Higher isolation (5kV+) for high-voltage industrial systems; 7) Connector type - Screw terminals, connectors, or flying leads based on maintenance requirements. For severe environments (chemical plants, steel mills, offshore), specify sensors with conformal coating and enhanced sealing.",
       "selectionGuideLink": {
@@ -841,11 +817,7 @@
             "Response Time": "< 500 ms",
             "Isolation Voltage": "5 kV",
             "Operating Temperature": "-40°C to +85°C",
-            "Protection Class": "IP20",
-            "Bandwidth": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Protection Class": "IP20"
           },
           "image": "/assets/images/brands/lem/products/htfs-800-p.jpg",
           "datasheet": "/assets/datasheets/lem/htfs-series.pdf",
@@ -949,11 +921,7 @@
             "Response Time": "< 1 μs",
             "Bandwidth": "100 kHz",
             "Isolation Voltage": "3 kV",
-            "Operating Temperature": "-40°C to +85°C",
-            "Protection Class": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "image": "/assets/images/brands/lem/products/hais-400-p.jpg",
           "datasheet": "/assets/datasheets/lem/hais-series.pdf",
@@ -1062,10 +1030,7 @@
         "Bandwidth",
         "Isolation Voltage",
         "Operating Temperature",
-        "AEC-Q100 Grade",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "AEC-Q100 Grade"
       ],
       "selectionGuide": "Selecting automotive sensors requires attention to automotive-specific requirements: 1) AEC-Q100 qualification - Ensure the sensor grade matches your application temperature range (Grade 0: -40 to +150°C, Grade 1: -40 to +125°C, Grade 2: -40 to +105°C); 2) Functional safety - For ASIL-rated systems, verify sensor FIT rates and failure modes; 3) Temperature range - Battery and motor applications often see extreme temperatures; 4) Accuracy over temperature - Check specifications across the full temperature range, not just at 25°C; 5) EMI immunity - Automotive environments have severe conducted and radiated emissions; 6) Mechanical robustness - Vibration, shock, and thermal cycling requirements; 7) Integration - PCB mount vs panel mount based on system packaging. Work closely with our automotive FAE team early in the design process to ensure sensor selection meets all OEM and regulatory requirements.",
       "selectionGuideLink": {
@@ -1167,10 +1132,7 @@
             "Bandwidth": "200 kHz",
             "Isolation Voltage": "3 kV",
             "Operating Temperature": "-40°C to +125°C",
-            "AEC-Q100 Grade": "Grade 1",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "AEC-Q100 Grade": "Grade 1"
           },
           "image": "/assets/images/brands/lem/products/ho-120-p.jpg",
           "datasheet": "/assets/datasheets/lem/ho-series.pdf",
@@ -1273,10 +1235,7 @@
             "Isolation Voltage": "2.5 kV",
             "Operating Temperature": "-40°C to +125°C",
             "AEC-Q100 Grade": "Grade 1",
-            "Package": "SOIC-16 Surface Mount",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-16 Surface Mount"
           },
           "image": "/assets/images/brands/lem/products/hmsr-10-sm.jpg",
           "datasheet": "/assets/datasheets/lem/hmsr-series.pdf",

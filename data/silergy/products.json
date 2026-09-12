@@ -66,8 +66,7 @@
             "Output Current": "1A",
             "Efficiency": "Up to 95%",
             "Switching Frequency": "1MHz",
-            "Package": "SOT-23-5",
-            "Output Voltage": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "High efficiency",
@@ -102,8 +101,7 @@
             "Output Current": "2A",
             "Efficiency": "Up to 94%",
             "Switching Frequency": "1MHz",
-            "Package": "SOT-23-5",
-            "Output Voltage": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "2A output current",
@@ -138,8 +136,7 @@
             "Output Current": "3A",
             "Efficiency": "Up to 93%",
             "Switching Frequency": "1.5MHz",
-            "Package": "DFN-10",
-            "Output Voltage": "N/A"
+            "Package": "DFN-10"
           },
           "features": [
             "3A output capability",
@@ -174,8 +171,7 @@
             "Output Voltage": "5V",
             "Output Current": "1A",
             "Efficiency": "Up to 92%",
-            "Package": "SOT-23-6",
-            "Switching Frequency": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "Low input voltage operation",
@@ -246,12 +242,7 @@
             "Max Power": "65W",
             "Switching Frequency": "65kHz",
             "Standby Power": "<75mW",
-            "Package": "SOP-8",
-            "CC/CV Control": "N/A",
-            "Efficiency": "N/A",
-            "Topology": "N/A",
-            "Output Voltage": "N/A",
-            "Turn-on Delay": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Green mode operation",
@@ -286,12 +277,7 @@
             "Max Power": "12W",
             "CC/CV Control": "Yes",
             "Efficiency": ">85%",
-            "Package": "SOP-7",
-            "Switching Frequency": "N/A",
-            "Standby Power": "N/A",
-            "Topology": "N/A",
-            "Output Voltage": "N/A",
-            "Turn-on Delay": "N/A"
+            "Package": "SOP-7"
           },
           "features": [
             "Primary-side regulation",
@@ -326,12 +312,7 @@
             "Max Power": "45W",
             "Topology": "QR Flyback",
             "Efficiency": ">90%",
-            "Package": "SOP-8",
-            "Switching Frequency": "N/A",
-            "Standby Power": "N/A",
-            "CC/CV Control": "N/A",
-            "Output Voltage": "N/A",
-            "Turn-on Delay": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Quasi-resonant operation",
@@ -365,13 +346,7 @@
             "Output Voltage": "5V-20V",
             "Switching Frequency": "Up to 200kHz",
             "Turn-on Delay": "<50ns",
-            "Package": "SOT-23-6",
-            "Input Voltage": "N/A",
-            "Max Power": "N/A",
-            "Standby Power": "N/A",
-            "CC/CV Control": "N/A",
-            "Efficiency": "N/A",
-            "Topology": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "High efficiency",
@@ -442,12 +417,7 @@
             "LED Current": "30mA",
             "Output Voltage": "Up to 40V",
             "Efficiency": "Up to 90%",
-            "Package": "SOT-23-6",
-            "Channels": "N/A",
-            "Current per Channel": "N/A",
-            "Matching": "N/A",
-            "Dimming": "N/A",
-            "Dropout": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "High voltage output",
@@ -482,12 +452,7 @@
             "Channels": "4",
             "Current per Channel": "120mA",
             "Matching": "±2%",
-            "Package": "QFN-24",
-            "LED Current": "N/A",
-            "Output Voltage": "N/A",
-            "Efficiency": "N/A",
-            "Dimming": "N/A",
-            "Dropout": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "4-channel output",
@@ -522,12 +487,7 @@
             "LED Current": "1A",
             "Efficiency": "Up to 95%",
             "Dimming": "Analog/PWM",
-            "Package": "SOP-8",
-            "Output Voltage": "N/A",
-            "Channels": "N/A",
-            "Current per Channel": "N/A",
-            "Matching": "N/A",
-            "Dropout": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Wide input range",
@@ -561,13 +521,7 @@
             "Input Voltage": "3V-40V",
             "LED Current": "100mA",
             "Dropout": "500mV",
-            "Package": "SOT-89",
-            "Output Voltage": "N/A",
-            "Efficiency": "N/A",
-            "Channels": "N/A",
-            "Current per Channel": "N/A",
-            "Matching": "N/A",
-            "Dimming": "N/A"
+            "Package": "SOT-89"
           },
           "features": [
             "Simple design",
@@ -640,15 +594,7 @@
             "Max Power": "65W",
             "PPS": "Yes",
             "Protocols": "PD/QC/AFC",
-            "Package": "QFN-16",
-            "Ports": "N/A",
-            "Total Power": "N/A",
-            "Power Share": "N/A",
-            "Input Voltage": "N/A",
-            "Current": "N/A",
-            "On-Resistance": "N/A",
-            "Soft Start": "N/A",
-            "Switch Time": "N/A"
+            "Package": "QFN-16"
           },
           "features": [
             "PD 3.0 compliant",
@@ -683,15 +629,7 @@
             "Ports": "2",
             "Total Power": "65W",
             "Power Share": "Intelligent",
-            "Package": "QFN-24",
-            "Max Power": "N/A",
-            "PPS": "N/A",
-            "Protocols": "N/A",
-            "Input Voltage": "N/A",
-            "Current": "N/A",
-            "On-Resistance": "N/A",
-            "Soft Start": "N/A",
-            "Switch Time": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "Dual-port control",
@@ -726,15 +664,7 @@
             "Current": "3A",
             "On-Resistance": "30mΩ",
             "Soft Start": "Yes",
-            "Package": "SOT-23-5",
-            "PD Version": "N/A",
-            "Max Power": "N/A",
-            "PPS": "N/A",
-            "Protocols": "N/A",
-            "Ports": "N/A",
-            "Total Power": "N/A",
-            "Power Share": "N/A",
-            "Switch Time": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Low resistance",
@@ -768,16 +698,7 @@
             "Input Voltage": "2.5V-5.5V",
             "Current": "3A",
             "Switch Time": "<100μs",
-            "Package": "QFN-12",
-            "PD Version": "N/A",
-            "Max Power": "N/A",
-            "PPS": "N/A",
-            "Protocols": "N/A",
-            "Ports": "N/A",
-            "Total Power": "N/A",
-            "Power Share": "N/A",
-            "On-Resistance": "N/A",
-            "Soft Start": "N/A"
+            "Package": "QFN-12"
           },
           "features": [
             "Seamless switching",

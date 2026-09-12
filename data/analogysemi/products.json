@@ -76,10 +76,7 @@
         "Operating Temperature",
         "Microstepping",
         "Current Regulation",
-        "Logic Interface",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Logic Interface"
       ],
       "applications": [
         "Industrial Automation",
@@ -175,13 +172,7 @@
             "Control Interface": "PWM, SPI, Analog",
             "Protection": "OCP, TSD, UVLO, OVP",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "QFN-32 (5x5mm)",
-            "Microstepping": "N/A",
-            "Current Regulation": "N/A",
-            "Logic Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-32 (5x5mm)"
           },
           "features": [
             "Integrated three-phase MOSFET bridge (40V, 5A)",
@@ -337,13 +328,7 @@
             "Logic Interface": "Step/Dir or SPI",
             "Protection": "OCP, TSD, UVLO, open-load detection",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "TQFP-48 (7x7mm)",
-            "RDS(on)": "N/A",
-            "PWM Frequency": "N/A",
-            "Control Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TQFP-48 (7x7mm)"
           },
           "features": [
             "Dual bipolar stepper motor driver (2.5A per channel)",
@@ -493,13 +478,7 @@
             "Control Interface": "PWM, IN1/IN2 logic",
             "Protection": "OCP, TSD, UVLO",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOT23-6",
-            "Microstepping": "N/A",
-            "Current Regulation": "N/A",
-            "Logic Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-6"
           },
           "features": [
             "Wide input voltage range (2.5V-5.5V)",
@@ -752,14 +731,7 @@
             "Miller Clamp": "Integrated (2A capability)",
             "Protection": "Desaturation detection, UVLO, thermal",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16 (wide body)",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
-            "Bootstrap Diode": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "SOIC-16 (wide body)"
           },
           "features": [
             "Reinforced isolation (5kVrms)",
@@ -911,13 +883,7 @@
             "CMTI": "50kV/μs",
             "Protection": "UVLO, interlock, shoot-through prevention",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-8 (narrow body)",
-            "Isolation Voltage": "N/A",
-            "Miller Clamp": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "SOIC-8 (narrow body)"
           },
           "features": [
             "600V high-side capability",
@@ -1064,17 +1030,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Isolation Voltage": "N/A",
-            "CMTI": "N/A",
-            "Output Current": "N/A",
-            "Supply Voltage": "N/A",
-            "Propagation Delay": "N/A",
-            "Miller Clamp": "N/A",
-            "Protection": "N/A",
-            "Operating Temperature": "N/A",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
-            "Bootstrap Diode": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1094,53 +1049,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
@@ -1203,17 +1113,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Isolation Voltage": "N/A",
-            "CMTI": "N/A",
-            "Output Current": "N/A",
-            "Supply Voltage": "N/A",
-            "Propagation Delay": "N/A",
-            "Miller Clamp": "N/A",
-            "Protection": "N/A",
-            "Operating Temperature": "N/A",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
-            "Bootstrap Diode": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1233,53 +1132,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",
@@ -1349,10 +1203,7 @@
         "Dropout Voltage",
         "Line Regulation",
         "Load Regulation",
-        "PSRR",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "PSRR"
       ],
       "applications": [
         "Industrial Control",
@@ -1449,15 +1300,7 @@
             "Quiescent Current": "2.5mA (operating), 50μA (shutdown)",
             "Protection": "Current limiting, thermal shutdown",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8, DIP-8",
-            "Output Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, DIP-8"
           },
           "features": [
             "Wide input voltage range (3V to 40V)",
@@ -1610,13 +1453,7 @@
             "Quiescent Current": "5mA typical",
             "Protection": "Current limiting, thermal shutdown",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "TO-220, SOT-223, SOIC-8",
-            "Switch Current": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-220, SOT-223, SOIC-8"
           },
           "features": [
             "Low dropout voltage (350mV at 1A)",
@@ -1768,10 +1605,7 @@
         "Operating Temperature",
         "Common-Mode Range",
         "Gain Options",
-        "Gain Error",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Gain Error"
       ],
       "applications": [
         "Sensor Interfaces",
@@ -1869,13 +1703,7 @@
             "Output Swing": "Rail-to-rail (within 20mV of rails)",
             "Supply Current": "500μA per amplifier",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "SOIC-8, DIP-8, MSOP-8",
-            "Common-Mode Range": "N/A",
-            "Gain Options": "N/A",
-            "Gain Error": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOIC-8, DIP-8, MSOP-8"
           },
           "features": [
             "Dual op-amp in single package",
@@ -2027,12 +1855,7 @@
             "Supply Current": "150μA typical",
             "Input Bias Current": "10μA typical",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOT23-5, SOIC-8",
-            "Slew Rate": "N/A",
-            "Output Swing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5, SOIC-8"
           },
           "features": [
             "Wide common-mode range (2.5V to 60V)",

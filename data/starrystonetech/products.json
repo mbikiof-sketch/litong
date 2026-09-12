@@ -158,13 +158,7 @@
             "Standby Power": "< 75mW at 230VAC",
             "Efficiency": "Meets DoE Level VI",
             "Package": "DIP-8, SOP-8",
-            "Operating Temperature": "-40°C to +125°C",
-            "Drive Capability": "N/A",
-            "MOSFET Voltage": "N/A",
-            "Efficiency Improvement": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "Integrated 650V/4A power MOSFET",
@@ -323,13 +317,7 @@
             "Efficiency Improvement": "3-5% over diode rectifier",
             "Standby Power": "< 10mW",
             "Package": "SOT23-6, SOP-8",
-            "Operating Temperature": "-40°C to +125°C",
-            "Integrated MOSFET": "N/A",
-            "Maximum Power": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "Intelligent synchronous rectification control",
@@ -482,10 +470,7 @@
         "Operating Temperature",
         "Drive Capability",
         "MOSFET Voltage",
-        "Efficiency Improvement",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Efficiency Improvement"
       ]
     },
     {
@@ -584,11 +569,7 @@
             "Efficiency": "Up to 95%",
             "Quiescent Current": "< 1mA",
             "Package": "SOT23-5",
-            "Operating Temperature": "-40°C to +85°C",
-            "Max Output Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "features": [
             "Integrated high and low-side MOSFETs",
@@ -752,11 +733,7 @@
             "Efficiency": "Up to 95%",
             "Switching Frequency": "1MHz",
             "Package": "QFN-16 (3x3mm)",
-            "Operating Temperature": "-40°C to +85°C",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "features": [
             "Seamless buck-boost operation",
@@ -907,10 +884,7 @@
         "Efficiency",
         "Quiescent Current",
         "Operating Temperature",
-        "Max Output Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Max Output Power"
       ]
     },
     {
@@ -1010,11 +984,7 @@
             "Dimming": "Analog (0-2.5V) and PWM",
             "Efficiency": "Up to 96%",
             "Package": "SOP-8, ESOP-8",
-            "Operating Temperature": "-40°C to +85°C",
-            "Max Output Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "features": [
             "Wide input voltage range (6V-40V)",
@@ -1184,11 +1154,7 @@
             "Dimming": "Analog, PWM, and Digital",
             "Efficiency": "Up to 95%",
             "Package": "ESOP-10",
-            "Operating Temperature": "-40°C to +85°C",
-            "Current Accuracy": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C"
           },
           "features": [
             "High output voltage up to 60V",
@@ -1345,10 +1311,7 @@
         "Dimming",
         "Efficiency",
         "Operating Temperature",
-        "Max Output Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Max Output Power"
       ]
     },
     {
@@ -1447,13 +1410,7 @@
             "Propagation Delay": "25ns typical",
             "Delay Matching": "5ns between channels",
             "Package": "SOIC-8, MSOP-8",
-            "Operating Temperature": "-40°C to +125°C",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "4A peak drive current per channel",
@@ -1613,12 +1570,7 @@
             "Propagation Delay": "50ns typical",
             "Dead Time": "Adjustable 100ns-1μs",
             "Package": "SOIC-8, DIP-8",
-            "Operating Temperature": "-40°C to +125°C",
-            "Delay Matching": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "600V high-side capability",
@@ -1774,15 +1726,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Configuration": "N/A",
-            "Peak Output Current": "N/A",
-            "Operating Voltage": "N/A",
-            "Switching Time": "N/A",
-            "Propagation Delay": "N/A",
-            "Delay Matching": "N/A",
-            "Operating Temperature": "N/A",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1802,53 +1745,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
@@ -1911,15 +1809,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Configuration": "N/A",
-            "Peak Output Current": "N/A",
-            "Operating Voltage": "N/A",
-            "Switching Time": "N/A",
-            "Propagation Delay": "N/A",
-            "Delay Matching": "N/A",
-            "Operating Temperature": "N/A",
-            "High-Side Voltage": "N/A",
-            "Dead Time": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1939,53 +1828,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",

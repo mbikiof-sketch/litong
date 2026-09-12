@@ -83,8 +83,6 @@
         "Output Format",
         "Audio",
         "Power",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "applications": [
@@ -176,10 +174,7 @@
             "Output Format": "MJPEG, YUY2, NV12",
             "Audio": "HDMI embedded audio, 48kHz stereo",
             "Power": "USB bus powered, <500mW",
-            "Package": "QFN-48 (6x6mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48 (6x6mm)"
           },
           "features": [
             "HDMI 1.4 input up to 1080p60",
@@ -327,10 +322,7 @@
             "Output Format": "MJPEG, YUY2, H.264 (optional)",
             "Audio": "HDMI embedded audio, 7.1 channel support",
             "Power": "USB bus powered, <800mW",
-            "Package": "QFN-56 (7x7mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-56 (7x7mm)"
           },
           "features": [
             "HDMI 2.0 input up to 4K30",
@@ -433,8 +425,6 @@
             "Output Format": "MJPEG, YUY2",
             "Audio": "HDMI embedded, Analog stereo",
             "Power": "USB bus powered, <500mW",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "0°C to +70°C"
           },
           "features": [
@@ -519,8 +509,6 @@
             "Audio": "HDMI embedded audio",
             "Power": "USB bus powered, <400mW",
             "Package": "QFN-48 (6x6mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "0°C to +70°C"
           },
           "features": [
@@ -606,8 +594,6 @@
         "Features",
         "Power",
         "CSI Data Rate",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Audio",
         "USB"
@@ -668,13 +654,7 @@
             "MIPI Data Rate": "1.0 Gbps per lane",
             "Features": "Scaler, Color Space Conversion",
             "Power": "3.3V/1.2V, <300mW",
-            "Package": "QFN-48 (6x6mm)",
-            "CSI Data Rate": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Audio": "N/A",
-            "USB": "N/A"
+            "Package": "QFN-48 (6x6mm)"
           },
           "features": [
             "HDMI 1.4 to MIPI DSI conversion",
@@ -764,13 +744,7 @@
             "CSI Data Rate": "1.5 Gbps per lane",
             "Features": "ISP, AWB, AE, HDR merge",
             "Power": "3.3V/1.2V, <400mW",
-            "Package": "QFN-56 (7x7mm)",
-            "MIPI Data Rate": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Audio": "N/A",
-            "USB": "N/A"
+            "Package": "QFN-56 (7x7mm)"
           },
           "features": [
             "MIPI CSI-2 to HDMI conversion",
@@ -851,12 +825,7 @@
             "Features": "Video scaling, de-interlacing, rotation, HDR",
             "Power": "3.3V/1.2V, <2W",
             "Package": "BGA-361 (13mm x 13mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "-40°C to +85°C",
-            "CSI Data Rate": "N/A",
-            "Audio": "N/A",
-            "USB": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "HDMI, LVDS, TTL input support",
@@ -940,12 +909,7 @@
             "USB": "USB 3.0 Device with USB 2.0 fallback",
             "Power": "USB bus powered, <800mW",
             "Package": "QFN-48 (7mm x 7mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C",
-            "MIPI Data Rate": "N/A",
-            "Features": "N/A",
-            "CSI Data Rate": "N/A"
+            "Temperature Range": "0°C to +70°C"
           },
           "features": [
             "USB 3.0 to HDMI conversion",
@@ -1028,9 +992,6 @@
         "Output Format",
         "Features",
         "Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Input Channels"
       ],
       "applications": [
@@ -1078,11 +1039,7 @@
             "Output Format": "RGB, YUV444, YUV422",
             "Features": "Deinterlacing, Color correction, Gamma",
             "Power": "3.3V/1.2V, <500mW",
-            "Package": "LQFP-80 (10x10mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Channels": "N/A"
+            "Package": "LQFP-80 (10x10mm)"
           },
           "features": [
             "High-quality polyphase scaling",
@@ -1167,11 +1124,7 @@
             "Output Format": "RGB, YUV444, YUV422",
             "Features": "Enhanced scaling, Noise reduction, Detail enhancement",
             "Power": "3.3V/1.2V, <600mW",
-            "Package": "LQFP-100 (14x14mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Channels": "N/A"
+            "Package": "LQFP-100 (14x14mm)"
           },
           "features": [
             "Enhanced polyphase scaling with 6-tap filter",
@@ -1263,11 +1216,7 @@
             "Output Format": "RGB, YUV444, YUV422",
             "Features": "Scaling, Deinterlacing, Color conversion",
             "Power": "3.3V/1.2V, <400mW",
-            "Package": "QFN-56 (8x8mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Channels": "N/A"
+            "Package": "QFN-56 (8x8mm)"
           },
           "features": [
             "Compact 8x8mm QFN package",
@@ -1358,11 +1307,7 @@
             "Output Format": "RGB, YUV444, YUV422",
             "Features": "Dual channel, PIP, Seamless switching",
             "Power": "3.3V/1.2V, <800mW",
-            "Package": "LQFP-128 (14x14mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Input Resolution": "N/A"
+            "Package": "LQFP-128 (14x14mm)"
           },
           "features": [
             "Dual independent 1080p channels",
@@ -1456,8 +1401,6 @@
         "Max Resolution",
         "Memory",
         "Interfaces",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "NPU"
       ],
@@ -1506,11 +1449,7 @@
             "Max Resolution": "4K @ 60fps",
             "Memory": "DDR4/LPDDR4 up to 4GB",
             "Interfaces": "HDMI 2.0, USB 3.0, GbE, WiFi/BT",
-            "Package": "BGA-441 (15x15mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "NPU": "N/A"
+            "Package": "BGA-441 (15x15mm)"
           },
           "features": [
             "Quad-core ARM Cortex-A53 processor",
@@ -1584,10 +1523,7 @@
             "Memory": "DDR3 up to 2GB",
             "Interfaces": "HDMI 1.4, USB 2.0, WiFi/BT",
             "Package": "BGA-256 (13x13mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C",
-            "NPU": "N/A"
+            "Temperature Range": "0°C to +70°C"
           },
           "features": [
             "Dual-core ARM Cortex-A7 processor",
@@ -1667,10 +1603,7 @@
             "Memory": "DDR4/LPDDR4 up to 8GB",
             "Interfaces": "HDMI 2.1, USB 3.0, PCIe, GbE, WiFi 6",
             "Package": "BGA-441 (17x17mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "0°C to +70°C",
-            "NPU": "N/A"
+            "Temperature Range": "0°C to +70°C"
           },
           "features": [
             "Octa-core ARM Cortex-A53 processor",
@@ -1755,8 +1688,6 @@
             "Memory": "DDR4/LPDDR4 up to 4GB",
             "Interfaces": "MIPI CSI/DSI, USB 3.0, PCIe, GbE",
             "Package": "BGA-361 (15x15mm)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-20°C to +70°C"
           },
           "features": [

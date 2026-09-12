@@ -82,9 +82,7 @@
         "Offset Drift",
         "Gain Drift",
         "CMRR",
-        "Reference",
-        "Voltage Rating",
-        "Current Rating"
+        "Reference"
       ],
       "applications": [
         "Industrial Sensors",
@@ -182,16 +180,7 @@
             "Power Supply": "5V",
             "Interface": "SPI",
             "Temperature Range": "-40C to +125C",
-            "Package": "TSSOP-20",
-            "PGA Gain": "N/A",
-            "ENOB": "N/A",
-            "Input Noise": "N/A",
-            "Offset Drift": "N/A",
-            "Gain Drift": "N/A",
-            "CMRR": "N/A",
-            "Reference": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-20"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -387,12 +376,7 @@
             "Interface": "SPI",
             "Power Supply": "2.7V to 5.25V",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "TSSOP-24",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "SNR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-24"
           },
           "features": [
             "24-bit resolution with 20 effective bits",
@@ -592,9 +576,7 @@
         "Temperature Range",
         "Dropout Voltage",
         "Output Noise",
-        "PSRR",
-        "Voltage Rating",
-        "Current Rating"
+        "PSRR"
       ],
       "applications": [
         "Industrial Power Supplies",
@@ -691,12 +673,7 @@
             "Load Regulation": "±0.5%",
             "Line Regulation": "±0.3%",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "TSSOP-16",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "Wide input voltage range: 4.5V to 36V",
@@ -884,12 +861,7 @@
             "Load Regulation": "±0.2%",
             "Line Regulation": "±0.1%",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT-23-5",
-            "Peak Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Shutdown Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Ultra-low output noise: 8μVrms",
@@ -1072,9 +1044,7 @@
         "Supply Voltage",
         "Temperature Range",
         "Isolation Voltage",
-        "CMTI",
-        "Voltage Rating",
-        "Current Rating"
+        "CMTI"
       ],
       "applications": [
         "Industrial Networks",
@@ -1166,11 +1136,7 @@
             "ESD Protection": "±15kV HBM",
             "Supply Voltage": "3.3V or 5V",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOIC-8",
-            "Isolation Voltage": "N/A",
-            "CMTI": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOIC-8"
           },
           "features": [
             "20Mbps data rate",
@@ -1258,11 +1224,7 @@
             "Data Rate": "1Mbps",
             "ESD Protection": "±8kV contact, ±15kV air",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOIC-16-WB",
-            "Bus Nodes": "N/A",
-            "Supply Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOIC-16-WB"
           },
           "features": [
             "5000Vrms isolation",
@@ -1355,9 +1317,7 @@
         "RTD Types",
         "Excitation Current",
         "Wire Configuration",
-        "Accuracy",
-        "Voltage Rating",
-        "Current Rating"
+        "Accuracy"
       ],
       "applications": [
         "Weigh Scales",
@@ -1450,13 +1410,7 @@
             "Bandwidth": "1MHz",
             "Supply Voltage": "2.7V to 5.5V",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "MSOP-8",
-            "RTD Types": "N/A",
-            "Excitation Current": "N/A",
-            "Wire Configuration": "N/A",
-            "Accuracy": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "MSOP-8"
           },
           "features": [
             "120dB CMRR",
@@ -1545,14 +1499,7 @@
             "Accuracy": "±0.1°C",
             "Temperature Range": "-200°C to +850°C",
             "Supply Voltage": "3.3V to 5V",
-            "Package": "TSSOP-16",
-            "CMRR": "N/A",
-            "Offset Voltage": "N/A",
-            "Gain Range": "N/A",
-            "Noise": "N/A",
-            "Bandwidth": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "Complete RTD conditioning",

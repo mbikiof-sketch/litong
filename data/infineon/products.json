@@ -319,9 +319,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Status",
         "Core",
         "Flash",
@@ -484,18 +481,7 @@
             }
           ],
           "slug": "tc399xx2048f300sbdkxq1",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A",
-            "Core": "N/A",
-            "Flash": "N/A",
-            "SRAM": "N/A",
-            "Safety": "N/A",
-            "Security": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "MCU Microcontrollers TC399XX2048F300SBDKXQ1",
           "Temperature Range": "-40°C to +125°C"
         },
@@ -643,180 +629,9 @@
             }
           ],
           "slug": "xmc4700f144k2048abxq1",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A",
-            "Core": "N/A",
-            "Flash": "N/A",
-            "SRAM": "N/A",
-            "Safety": "N/A",
-            "Security": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "MCU Microcontrollers XMC4700F144K2048ABXQ1",
           "Temperature Range": "-40°C to +85°C"
-        },
-        {
-          "partNumber": "TC399XX2048F300SBDKXQ1",
-          "name": "AURIX™ TC399XX 32-bit Microcontroller",
-          "shortDescription": "High-performance automotive MCU with 6 cores, 20MB Flash, 300MHz for ADAS and powertrain applications.",
-          "descriptionParagraphs": [
-            "The TC399XX is a high-performance 32-bit automotive microcontroller from Infineon's AURIX™ family. Features six TriCore CPUs running at up to 300MHz with lockstep capability for safety-critical applications.",
-            "Includes 20MB Flash memory, 2.9MB SRAM, and comprehensive safety features meeting ASIL-D requirements. The device integrates hardware security module (HSM) for cybersecurity.",
-            "Ideal for advanced driver assistance systems (ADAS), electric vehicle powertrain, chassis control, and domain controllers."
-          ],
-          "specifications": {
-            "Core": "6x TriCore @ 300MHz",
-            "Flash": "20MB",
-            "SRAM": "2.9MB",
-            "Safety": "ASIL-D",
-            "Security": "Hardware Security Module",
-            "Package": "BGA-516",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A"
-          },
-          "features": [
-            "Six TriCore CPUs at 300MHz",
-            "20MB Flash memory",
-            "ASIL-D safety level",
-            "Hardware security module",
-            "Lockstep capability",
-            "Automotive grade"
-          ],
-          "applications": [
-            "ADAS systems",
-            "EV powertrain",
-            "Chassis control",
-            "Domain controllers",
-            "Battery management"
-          ],
-          "faeReview": {
-            "author": "Dr. Klaus Mueller",
-            "title": "Principal FAE - Automotive",
-            "content": "The TC399XX is the flagship of AURIX™ family. The six-core architecture and massive memory make it ideal for complex automotive applications requiring real-time performance and functional safety.",
-            "highlight": "Top-tier automotive MCU for ADAS"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "TC397XX",
-              "brand": "Infineon",
-              "reason": "Lower core count option",
-              "comparison": {
-                "cores": "3 < 6",
-                "flash": "16MB < 20MB"
-              },
-              "useCase": "Less complex applications",
-              "specifications": {
-                "Core": "3x TriCore"
-              },
-              "priceDifference": "-25%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "TLE9250V",
-              "description": "CAN transceiver",
-              "category": "Interface"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum CPU frequency?",
-              "answer": "The TC399XX runs at up to 300MHz per core, with six TriCore CPUs providing exceptional processing power for demanding automotive applications.",
-              "decisionGuide": "Use for compute-intensive automotive applications.",
-              "keywords": [
-                "frequency",
-                "TriCore",
-                "performance"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "TC399XX2048F300SBDKXQ1",
-          "name": "AURIX™ TC399XX 32-bit Microcontroller",
-          "shortDescription": "High-performance automotive MCU with 6 cores, 20MB Flash, 300MHz for ADAS and powertrain applications.",
-          "descriptionParagraphs": [
-            "The TC399XX is a high-performance 32-bit automotive microcontroller from Infineon's AURIX™ family. Features six TriCore CPUs running at up to 300MHz with lockstep capability for safety-critical applications.",
-            "Includes 20MB Flash memory, 2.9MB SRAM, and comprehensive safety features meeting ASIL-D requirements. The device integrates hardware security module (HSM) for cybersecurity.",
-            "Ideal for advanced driver assistance systems (ADAS), electric vehicle powertrain, chassis control, and domain controllers."
-          ],
-          "specifications": {
-            "Core": "6x TriCore @ 300MHz",
-            "Flash": "20MB",
-            "SRAM": "2.9MB",
-            "Safety": "ASIL-D",
-            "Security": "Hardware Security Module",
-            "Package": "BGA-516",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A"
-          },
-          "features": [
-            "Six TriCore CPUs at 300MHz",
-            "20MB Flash memory",
-            "ASIL-D safety level",
-            "Hardware security module",
-            "Lockstep capability",
-            "Automotive grade"
-          ],
-          "applications": [
-            "ADAS systems",
-            "EV powertrain",
-            "Chassis control",
-            "Domain controllers",
-            "Battery management"
-          ],
-          "faeReview": {
-            "author": "Dr. Klaus Mueller",
-            "title": "Principal FAE - Automotive",
-            "content": "The TC399XX is the flagship of AURIX™ family. The six-core architecture and massive memory make it ideal for complex automotive applications requiring real-time performance and functional safety.",
-            "highlight": "Top-tier automotive MCU for ADAS"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "TC397XX",
-              "brand": "Infineon",
-              "reason": "Lower core count option",
-              "comparison": {
-                "cores": "3 < 6",
-                "flash": "16MB < 20MB"
-              },
-              "useCase": "Less complex applications",
-              "specifications": {
-                "Core": "3x TriCore"
-              },
-              "priceDifference": "-25%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "TLE9250V",
-              "description": "CAN transceiver",
-              "category": "Interface"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum CPU frequency?",
-              "answer": "The TC399XX runs at up to 300MHz per core, with six TriCore CPUs providing exceptional processing power for demanding automotive applications.",
-              "decisionGuide": "Use for compute-intensive automotive applications.",
-              "keywords": [
-                "frequency",
-                "TriCore",
-                "performance"
-              ]
-            }
-          ]
         }
       ],
       "selectionGuide": {
@@ -878,9 +693,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "VCE",
         "IC",
         "VCE(sat)",
@@ -1148,17 +960,7 @@
             }
           ],
           "slug": "ff300r12me4-b11",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "VCE": "N/A",
-            "IC": "N/A",
-            "VCE(sat)": "N/A",
-            "Switching Frequency": "N/A",
-            "Isolation": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "IGBT Modules FF300R12ME4_B11",
           "Voltage Rating": "1200V",
           "Current Rating": "300A",
@@ -1306,17 +1108,7 @@
             }
           ],
           "slug": "ff600r12me4-b11",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "VCE": "N/A",
-            "IC": "N/A",
-            "VCE(sat)": "N/A",
-            "Switching Frequency": "N/A",
-            "Isolation": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "IGBT Modules FF600R12ME4_B11",
           "Voltage Rating": "1200V",
           "Current Rating": "600A",
@@ -1464,100 +1256,11 @@
             }
           ],
           "slug": "ikw40n120h3",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "VCE": "N/A",
-            "IC": "N/A",
-            "VCE(sat)": "N/A",
-            "Switching Frequency": "N/A",
-            "Isolation": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "IGBT Modules IKW40N120H3",
           "Voltage Rating": "1200V",
           "Current Rating": "40A",
           "Temperature Range": "-55°C to +175°C"
-        },
-        {
-          "partNumber": "FF600R12ME4_B11",
-          "name": "FF600R12ME4 EconoDUAL™ 3 IGBT Module",
-          "shortDescription": "1200V 600A IGBT module with integrated NTC, EconoDUAL™ 3 package for industrial drives and inverters.",
-          "descriptionParagraphs": [
-            "The FF600R12ME4 is a 1200V 600A IGBT module from Infineon's EconoDUAL™ 3 family. Features latest generation IGBT4 technology with low VCE(sat) and soft switching characteristics.",
-            "Includes integrated NTC temperature sensor, low-inductance design, and PressFIT contacts for reliable assembly. The module supports switching frequencies up to 20kHz.",
-            "Ideal for industrial motor drives, solar inverters, UPS systems, and commercial air conditioning."
-          ],
-          "specifications": {
-            "VCE": "1200V",
-            "IC": "600A",
-            "VCE(sat)": "1.75V typical",
-            "Switching Frequency": "Up to 20kHz",
-            "Isolation": "6000Vrms",
-            "Package": "EconoDUAL™ 3",
-            "Temperature": "-40°C to +150°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "1200V 600A rating",
-            "Latest IGBT4 technology",
-            "Low VCE(sat)",
-            "Integrated NTC sensor",
-            "PressFIT contacts",
-            "High power density"
-          ],
-          "applications": [
-            "Industrial drives",
-            "Solar inverters",
-            "UPS systems",
-            "Commercial HVAC",
-            "Welding equipment"
-          ],
-          "faeReview": {
-            "author": "Dr. Hans Schmidt",
-            "title": "Principal FAE - Power Modules",
-            "content": "The FF600R12ME4 delivers exceptional performance for high-power industrial applications. The 600A rating and low losses enable compact inverter designs.",
-            "highlight": "High-power industrial solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "FF300R12ME4",
-              "brand": "Infineon",
-              "reason": "Lower current option",
-              "comparison": {
-                "current": "300A < 600A",
-                "price": "Lower"
-              },
-              "useCase": "Lower power applications",
-              "specifications": {
-                "IC": "300A"
-              },
-              "priceDifference": "-35%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "1EDI60N12AF",
-              "description": "Gate driver IC",
-              "category": "Driver",
-              "link": "/infineon/products/gate-driver/1edi60n12af"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum switching frequency?",
-              "answer": "The FF600R12ME4 supports switching frequencies up to 20kHz, enabling compact filter designs in inverter applications.",
-              "decisionGuide": "Use for high-frequency inverter applications.",
-              "keywords": [
-                "switching frequency",
-                "inverter"
-              ]
-            }
-          ]
         }
       ],
       "selectionGuideLink": "#selection-guide",
@@ -1613,9 +1316,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "VDS",
         "RDS(on)",
         "ID",
@@ -1777,19 +1477,7 @@
             }
           ],
           "slug": "bsc028n04ls-g",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "VDS": "N/A",
-            "RDS(on)": "N/A",
-            "ID": "N/A",
-            "Qg": "N/A",
-            "Qgd": "N/A",
-            "VGS(th)": "N/A",
-            "Technology": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "MOSFETs BSC028N04LS G",
           "Voltage Rating": "40V",
           "Current Rating": "100A",
@@ -1937,19 +1625,7 @@
             }
           ],
           "slug": "imw120r040m1h",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "VDS": "N/A",
-            "RDS(on)": "N/A",
-            "ID": "N/A",
-            "Qg": "N/A",
-            "Qgd": "N/A",
-            "VGS(th)": "N/A",
-            "Technology": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "MOSFETs IMW120R040M1H",
           "Voltage Rating": "1200V",
           "Current Rating": "60A",
@@ -1973,10 +1649,7 @@
             "VGS(th)": "2.5V - 3.5V",
             "Package": "TO-263 (D²PAK)",
             "Technology": "OptiMOS™ 5",
-            "Temperature": "-55°C to +175°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-55°C to +175°C"
           },
           "features": [
             "Ultra-low 1.7mΩ on-resistance",
@@ -2056,10 +1729,7 @@
             "VGS(th)": "2.0V - 3.0V",
             "Package": "TO-263 (D²PAK)",
             "Technology": "OptiMOS™",
-            "Temperature": "-55°C to +175°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-55°C to +175°C"
           },
           "features": [
             "Ultra-low 1.4mΩ on-resistance",
@@ -2224,30 +1894,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "infineon-se001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
-          },
+          "specifications": {},
           "name": "Sensors INFINEON-SE001"
         },
         {
@@ -2277,30 +1926,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "infineon-se002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
-          },
+          "specifications": {},
           "name": "Sensors INFINEON-SE002"
         },
         {
@@ -2336,53 +1964,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for SENSOR-3?",
@@ -2464,53 +2047,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for SENSOR-4?",
@@ -2616,9 +2154,6 @@
         }
       ],
       "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Isolation",
         "Output Current",
         "Propagation Delay",
@@ -2665,37 +2200,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "infineon-ga001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Isolation": "N/A",
-            "Output Current": "N/A",
-            "Propagation Delay": "N/A",
-            "CMTI": "N/A",
-            "VCC2": "N/A",
-            "Protection": "N/A",
-            "Certification": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "Gate Drivers INFINEON-GA001"
         },
         {
@@ -2725,37 +2232,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "infineon-ga002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Isolation": "N/A",
-            "Output Current": "N/A",
-            "Propagation Delay": "N/A",
-            "CMTI": "N/A",
-            "VCC2": "N/A",
-            "Protection": "N/A",
-            "Certification": "N/A",
-            "Temperature": "N/A"
-          },
+          "specifications": {},
           "name": "Gate Drivers INFINEON-GA002"
         },
         {
@@ -2776,10 +2255,7 @@
             "Protection": "DESAT, UVLO",
             "Package": "DSO-8",
             "Certification": "UL 1577, IEC 60747-17",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "1200V reinforced isolation",
@@ -2858,10 +2334,7 @@
             "Protection": "UVLO",
             "Package": "DSO-8",
             "Certification": "UL 1577, IEC 60747-17",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "1200V reinforced isolation",

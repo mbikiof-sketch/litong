@@ -79,11 +79,7 @@
       ],
       "selectionGuide": "For large aluminum electrolytic capacitor selection: Rated voltage should be greater than or equal to 1.25x working voltage, capacitance calculated based on ripple current and voltage fluctuation, ripple current must meet actual application requirements, lifespan selected based on working temperature.",
       "selectionGuideLink": "#selection-guide",
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Industrial Inverters",
         "Photovoltaic Inverters",
@@ -173,11 +169,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Large Aluminum Electrolytic Capacitors CD139 10000uF/450V"
         },
         {
@@ -250,11 +242,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Large Aluminum Electrolytic Capacitors CD135 4700uF/400V"
         }
       ]
@@ -277,11 +265,7 @@
       ],
       "selectionGuide": "For small aluminum electrolytic capacitor selection: Rated voltage should be greater than or equal to 1.25x working voltage, capacitance selected based on circuit requirements, dimensions must fit PCB layout, lifespan selected based on equipment service life.",
       "selectionGuideLink": "#selection-guide",
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Consumer Electronics",
         "Communication Equipment",
@@ -361,11 +345,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Small Aluminum Electrolytic Capacitors CD11 1000uF/25V"
         },
         {
@@ -438,11 +418,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Small Aluminum Electrolytic Capacitors CD26 100uF/16V"
         }
       ]
@@ -465,11 +441,7 @@
       ],
       "selectionGuide": "For film capacitor selection: Rated voltage should be greater than or equal to 1.1x working voltage, capacitance calculated based on ripple current and voltage fluctuation, dv/dt must meet IGBT switching speed, ESR and ESL must meet high-frequency application requirements.",
       "selectionGuideLink": "#selection-guide",
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Photovoltaic Inverters",
         "Industrial Inverters",
@@ -559,11 +531,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Film Capacitors DC-Link 100uF/800V"
         },
         {
@@ -636,11 +604,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Film Capacitors Snubber 0.47uF/1200V"
         }
       ]
@@ -663,11 +627,7 @@
       ],
       "selectionGuide": "For supercapacitor selection: Working voltage determines series quantity, capacitance calculated based on energy or power requirements, ESR affects power output and efficiency, cycle life must meet application requirements, temperature range must match working environment.",
       "selectionGuideLink": "#selection-guide",
-      "parameters": [
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
-      ],
+      "parameters": [],
       "applications": [
         "Smart Meters",
         "Rail Transit",
@@ -758,11 +718,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Supercapacitors EDLC 300F/2.7V"
         },
         {
@@ -835,11 +791,7 @@
               "link": ""
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "Supercapacitors LIC 220F/3.8V"
         }
       ]

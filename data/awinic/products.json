@@ -154,8 +154,7 @@
             "Efficiency": ">90% @ 1W",
             "THD+N": "<0.1% @ 1W",
             "Supply Voltage": "2.5V - 5.5V",
-            "Package": "WCSP-25",
-            "Quiescent Current": "N/A"
+            "Package": "WCSP-25"
           },
           "features": [
             "Integrated adaptive boost converter up to 8.5V",
@@ -308,8 +307,7 @@
             "Efficiency": ">90% @ 0.5W",
             "THD+N": "<0.1% @ 1W",
             "Supply Voltage": "2.5V - 5.5V",
-            "Package": "WCSP-16",
-            "Quiescent Current": "N/A"
+            "Package": "WCSP-16"
           },
           "features": [
             "High-efficiency Class-D architecture",
@@ -462,8 +460,7 @@
             "Efficiency": ">90% @ 1W",
             "THD+N": "<0.1% @ 1W",
             "Supply Voltage": "2.5V - 5.5V",
-            "Package": "WLCSP-16",
-            "Quiescent Current": "N/A"
+            "Package": "WLCSP-16"
           },
           "features": [
             "Spread spectrum modulation for low EMI",
@@ -819,16 +816,7 @@
             "Charge Current": "Up to 3A",
             "Efficiency": ">90% @ 2A",
             "Switching Frequency": "1.5MHz",
-            "Package": "QFN-20",
-            "Output Current": "N/A",
-            "Charging Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Output Voltage": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Buck Converters": "N/A",
-            "LDO Regulators": "N/A",
-            "Quiescent Current": "N/A"
+            "Package": "QFN-20"
           },
           "features": [
             "Synchronous buck topology for high efficiency",
@@ -981,16 +969,7 @@
             "Output Current": "Up to 2A",
             "Efficiency": ">95% @ 1A",
             "Switching Frequency": "1.5MHz",
-            "Package": "SOT-23-5",
-            "Charge Current": "N/A",
-            "Charging Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Output Voltage": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Buck Converters": "N/A",
-            "LDO Regulators": "N/A",
-            "Quiescent Current": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -1130,123 +1109,6 @@
           ]
         },
         {
-          "partNumber": "AW3215",
-          "name": "High-Efficiency Battery Charger",
-          "shortDescription": "Awinic AW3215 single-cell Li-Ion battery charger with automatic power path management and high charging efficiency.",
-          "descriptionParagraphs": [
-            "The AW3215 is a complete single-cell Li-Ion battery charger with automatic power path management for smartphones and portable devices.",
-            "This device supports up to 2A charging current with automatic trickle, constant current, and constant voltage phases.",
-            "The integrated power path management allows simultaneous charging and system operation while maintaining optimal battery health."
-          ],
-          "specifications": {
-            "Input Voltage": "4.5V - 6.5V",
-            "Charging Current": "Up to 2A",
-            "Charge Voltage": "4.2V ±0.5%",
-            "Efficiency": ">90%",
-            "Package": "QFN-16",
-            "Charge Current": "N/A",
-            "Switching Frequency": "N/A",
-            "Output Current": "N/A",
-            "Output Voltage": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Buck Converters": "N/A",
-            "LDO Regulators": "N/A",
-            "Quiescent Current": "N/A"
-          },
-          "features": [
-            "Automatic power path management",
-            "High-efficiency switching charger",
-            "USB-compliant input current limiting",
-            "Battery temperature monitoring",
-            "Charge status indicators",
-            "Thermal regulation protection"
-          ],
-          "applications": [
-            "Smartphones",
-            "Tablets",
-            "Portable media players",
-            "Power banks",
-            "Handheld instruments"
-          ],
-          "faeReview": {
-            "author": "Lisa Zhang",
-            "title": "FAE - Power Management",
-            "content": "The AW3215 is a solid battery charger solution that I've successfully deployed in multiple smartphone projects. The power path management is particularly well-implemented - it seamlessly transitions between battery and adapter power without system interruption. The charging efficiency is excellent, consistently measuring above 90%, which reduces heat generation during fast charging. The USB-compliant input current limiting is essential for USB-powered applications, automatically adjusting to 500mA, 1A, or 2A based on adapter capability. The integrated battery temperature monitoring provides an extra layer of safety, suspending charging if the battery gets too hot or cold. I appreciate the simple I2C interface for configuration and monitoring. The QFN-16 package offers good thermal performance while maintaining a compact footprint. Overall, a reliable and cost-effective charging solution.",
-            "highlight": "Efficient battery charger with excellent power path management"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "AW3210",
-              "brand": "Awinic",
-              "specifications": {
-                "chargingCurrent": "1A",
-                "efficiency": ">85%",
-                "package": "SOT-23-5"
-              },
-              "comparison": "AW3210 is a linear charger with lower cost but lower efficiency (85% vs 90%+); AW3215 offers switching topology with better efficiency and less heat; AW3210 has smaller package (SOT-23-5 vs QFN-16); AW3215 supports higher current (2A vs 1A); AW3210 suitable for low-cost applications; AW3215 better for fast charging and thermally constrained designs",
-              "reason": "Lower efficiency, lower charging current",
-              "useCase": "Cost-sensitive applications with lower charging requirements",
-              "link": ""
-            },
-            {
-              "partNumber": "BQ24295",
-              "brand": "Texas Instruments",
-              "specifications": {
-                "chargingCurrent": "3A",
-                "efficiency": "92%",
-                "package": "QFN-24"
-              },
-              "comparison": "BQ24295 supports higher charging current (3A vs 2A) with similar efficiency; AW3215 has simpler design and lower BOM cost; TI offers extensive documentation and support; AW3215 provides better local support and faster response; BQ24295 has more advanced features; AW3215 easier to implement for standard applications; Choose BQ24295 for maximum current and features, AW3215 for cost-effective standard charging",
-              "reason": "Higher cost, more complex implementation",
-              "useCase": "Applications requiring >2A charging current",
-              "link": ""
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "AW3605",
-              "link": "/awinic/products/power-management/aw3605",
-              "description": "Buck converter for system power regulation",
-              "category": "DC-DC Converter"
-            },
-            {
-              "partNumber": "AW3710",
-              "link": "/awinic/products/power-management/aw3710",
-              "description": "LDO for noise-sensitive analog circuits",
-              "category": "LDO"
-            },
-            {
-              "partNumber": "AW8737",
-              "link": "/awinic/products/audio-amplifiers/aw8737",
-              "description": "Audio amplifier for system audio",
-              "category": "Audio Amplifier"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is power path management?",
-              "answer": "Power path management is a feature that allows the system to operate directly from the input power source while simultaneously charging the battery. Without power path management, the system must draw power from the battery even when external power is available, causing unnecessary charge cycles. The AW3215's power path management: Prioritizes system power from the adapter when available. Charges the battery with remaining available current. Allows instant system startup even with deeply discharged battery. Prevents battery drain when adapter is connected. This extends battery life by reducing charge/discharge cycles and ensures continuous system operation."
-            },
-            {
-              "question": "How fast can AW3215 charge a battery?",
-              "answer": "The AW3215 supports charging currents up to 2A, enabling fast charging of single-cell Li-Ion batteries. Charging time depends on battery capacity: A 2000mAh battery can be charged from 0% to 80% in approximately 1 hour at 2A. Full charge takes approximately 1.5-2 hours including the slower CV phase. The actual charging current is automatically adjusted based on: Input power availability (USB vs adapter). Battery temperature and condition. System power consumption. The charger automatically transitions through trickle charge (for deeply discharged batteries), constant current (main charging phase), and constant voltage (topping off) phases for safe and efficient charging."
-            },
-            {
-              "question": "What safety features does AW3215 include?",
-              "answer": "The AW3215 includes comprehensive safety features for reliable battery charging: Battery temperature monitoring with automatic charge suspension outside safe range (typically 0°C to 50°C). Over-voltage protection prevents damage from faulty adapters. Over-current protection limits charging current to safe levels. Thermal regulation reduces charging current if die temperature exceeds safe limits. Timer protection prevents indefinite charging of faulty batteries. Reverse leakage protection prevents battery discharge when input is removed. These protections ensure safe charging under various fault conditions and comply with battery safety standards."
-            },
-            {
-              "question": "How do I configure charging parameters?",
-              "answer": "The AW3215 charging parameters can be configured through the I2C interface: Charging current can be set from 100mA to 2A in 100mA steps. Input current limit can be set to match adapter capability (500mA, 1A, 1.5A, 2A, etc.). Charge voltage is factory-set to 4.2V but can be adjusted for different battery chemistries. Safety timers can be configured for different battery capacities. Temperature thresholds can be adjusted for specific applications. Awinic provides a software driver and configuration tools. Default settings are suitable for most standard Li-Ion batteries. Contact our FAE team for custom configuration guidance."
-            },
-            {
-              "question": "What is the charging efficiency?",
-              "answer": "The AW3215 achieves >90% charging efficiency at typical operating conditions (1A charging from 5V input). This high efficiency is achieved through synchronous switching topology with optimized power MOSFETs. Efficiency benefits: Less heat generation compared to linear chargers. Reduced power consumption from adapter. Faster charging with less thermal throttling. Ability to charge at higher currents within thermal constraints. Efficiency varies with input voltage and charging current - highest efficiency is achieved at moderate currents (0.5-1.5A) with input voltage close to battery voltage."
-            }
-          ]
-        },
-        {
           "partNumber": "AW3710",
           "name": "Ultra-Low Noise LDO Regulator",
           "shortDescription": "Awinic AW3710 ultra-low noise LDO for RF and analog circuits with high PSRR and fast transient response.",
@@ -1261,15 +1123,7 @@
             "Output Current": "300mA",
             "Noise": "20μVRMS (10Hz-100kHz)",
             "PSRR": "75dB @ 1kHz",
-            "Package": "SOT-23-3, WLCSP-4",
-            "Charge Current": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Charging Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Buck Converters": "N/A",
-            "LDO Regulators": "N/A",
-            "Quiescent Current": "N/A"
+            "Package": "SOT-23-3, WLCSP-4"
           },
           "features": [
             "Ultra-low output noise 20μVRMS",
@@ -1378,15 +1232,7 @@
             "LDO Regulators": "3x (up to 200mA each)",
             "Quiescent Current": "<50μA (all channels)",
             "Efficiency": ">92% (buck converters)",
-            "Package": "QFN-24",
-            "Charge Current": "N/A",
-            "Switching Frequency": "N/A",
-            "Output Current": "N/A",
-            "Charging Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Output Voltage": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "Integrated 2 buck + 3 LDO channels",
@@ -1587,12 +1433,7 @@
             "Insertion Loss": "<0.4dB @ 3.5GHz",
             "Isolation": ">35dB @ 3.5GHz",
             "IIP3": ">65dBm",
-            "Package": "WLCSP-6",
-            "Noise Figure": "N/A",
-            "Gain": "N/A",
-            "Frequency Bands": "N/A",
-            "Tuning States": "N/A",
-            "Q Factor": "N/A"
+            "Package": "WLCSP-6"
           },
           "features": [
             "High linearity for carrier aggregation",
@@ -1753,12 +1594,7 @@
             "Noise Figure": "<1.0dB",
             "Gain": "18dB",
             "IIP3": "-5dBm",
-            "Package": "WLCSP-12",
-            "Insertion Loss": "N/A",
-            "Isolation": "N/A",
-            "Frequency Bands": "N/A",
-            "Tuning States": "N/A",
-            "Q Factor": "N/A"
+            "Package": "WLCSP-12"
           },
           "features": [
             "Ultra-low noise figure for best sensitivity",
@@ -1919,12 +1755,7 @@
             "Gain": "18dB",
             "Noise Figure": "<1.5dB",
             "IIP3": "-5dBm",
-            "Package": "WLCSP-12",
-            "Frequency Range": "N/A",
-            "Insertion Loss": "N/A",
-            "Isolation": "N/A",
-            "Tuning States": "N/A",
-            "Q Factor": "N/A"
+            "Package": "WLCSP-12"
           },
           "features": [
             "Quad-band LNA integration",
@@ -2071,12 +1902,7 @@
             "Tuning States": "32",
             "Q Factor": ">100",
             "Insertion Loss": "<0.3dB",
-            "Package": "WLCSP-10",
-            "Isolation": "N/A",
-            "IIP3": "N/A",
-            "Noise Figure": "N/A",
-            "Gain": "N/A",
-            "Frequency Bands": "N/A"
+            "Package": "WLCSP-10"
           },
           "features": [
             "32 programmable tuning states",
@@ -2309,15 +2135,7 @@
             "Number of Channels": "6",
             "Efficiency": ">90%",
             "Dimming Control": "I2C, 1024 levels",
-            "Package": "QFN-20",
-            "Flash Duration": "N/A",
-            "Control Interface": "N/A",
-            "PWM Resolution": "N/A",
-            "Pattern Memory": "N/A",
-            "Standby Current": "N/A",
-            "Channels": "N/A",
-            "Input Voltage": "N/A",
-            "Current Accuracy": "N/A"
+            "Package": "QFN-20"
           },
           "features": [
             "6 independent LED channels",
@@ -2470,15 +2288,7 @@
             "Flash Duration": "Programmable up to 1s",
             "Efficiency": ">90%",
             "Control Interface": "GPIO or I2C",
-            "Package": "WCSP-9",
-            "Number of Channels": "N/A",
-            "Dimming Control": "N/A",
-            "PWM Resolution": "N/A",
-            "Pattern Memory": "N/A",
-            "Standby Current": "N/A",
-            "Channels": "N/A",
-            "Input Voltage": "N/A",
-            "Current Accuracy": "N/A"
+            "Package": "WCSP-9"
           },
           "features": [
             "High 1.5A flash current capability",
@@ -2630,14 +2440,7 @@
             "PWM Resolution": "12-bit",
             "Pattern Memory": "4KB",
             "Standby Current": "<10uA",
-            "Package": "QFN-32",
-            "Efficiency": "N/A",
-            "Dimming Control": "N/A",
-            "Flash Duration": "N/A",
-            "Control Interface": "N/A",
-            "Channels": "N/A",
-            "Input Voltage": "N/A",
-            "Current Accuracy": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "24 independent RGB channels",
@@ -2781,14 +2584,7 @@
             "Input Voltage": "2.7V - 5.5V",
             "Efficiency": ">90% at 1A",
             "Current Accuracy": "±5%",
-            "Package": "WCSP-9",
-            "Number of Channels": "N/A",
-            "Dimming Control": "N/A",
-            "Flash Duration": "N/A",
-            "Control Interface": "N/A",
-            "PWM Resolution": "N/A",
-            "Pattern Memory": "N/A",
-            "Standby Current": "N/A"
+            "Package": "WCSP-9"
           },
           "features": [
             "Dual-channel independent control",

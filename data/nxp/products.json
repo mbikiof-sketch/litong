@@ -138,15 +138,7 @@
             "Package": "56-pin HVQFN 8x8mm",
             "Operating Temperature": "-40°C to +105°C (Industrial)",
             "Watchdog": "Integrated watchdog timer/monitor",
-            "RTC Supply": "Coin cell charger included",
-            "Safety Level": "N/A",
-            "Target Processor": "N/A",
-            "Load Switches": "N/A",
-            "Features": "N/A",
-            "Application": "N/A",
-            "Target Processors": "N/A",
-            "Applications": "N/A",
-            "Target Market": "N/A"
+            "RTC Supply": "Coin cell charger included"
           },
           "features": [
             "Seven high-efficiency buck converters for core and peripheral power",
@@ -281,16 +273,7 @@
             "Watchdog": "Window watchdog with Q&A",
             "Package": "56-pin HVQFN",
             "Operating Temperature": "-40°C to +125°C (Automotive)",
-            "I2C Interface": "3.4 MHz with CRC",
-            "OTP Memory": "N/A",
-            "RTC Supply": "N/A",
-            "Target Processor": "N/A",
-            "Load Switches": "N/A",
-            "Features": "N/A",
-            "Application": "N/A",
-            "Target Processors": "N/A",
-            "Applications": "N/A",
-            "Target Market": "N/A"
+            "I2C Interface": "3.4 MHz with CRC"
           },
           "features": [
             "Nine power channels for complex processor systems",
@@ -427,16 +410,7 @@
             "Load Switches": "Integrated",
             "Package": "56-pin HVQFN",
             "Operating Temperature": "-40°C to +85°C (Consumer) / +105°C (Industrial)",
-            "I2C Interface": "Standard and Fast mode",
-            "OTP Memory": "N/A",
-            "Watchdog": "N/A",
-            "RTC Supply": "N/A",
-            "Safety Level": "N/A",
-            "Features": "N/A",
-            "Application": "N/A",
-            "Target Processors": "N/A",
-            "Applications": "N/A",
-            "Target Market": "N/A"
+            "I2C Interface": "Standard and Fast mode"
           },
           "features": [
             "Optimized for i. MX 93 processor power requirements",
@@ -571,16 +545,7 @@
             "Features": "Advanced power management",
             "Package": "Standard PMIC package",
             "Operating Temperature": "-40°C to +105°C (Industrial)",
-            "Application": "Smart home, robotics, industrial",
-            "OTP Memory": "N/A",
-            "I2C Interface": "N/A",
-            "Watchdog": "N/A",
-            "RTC Supply": "N/A",
-            "Safety Level": "N/A",
-            "Load Switches": "N/A",
-            "Target Processors": "N/A",
-            "Applications": "N/A",
-            "Target Market": "N/A"
+            "Application": "Smart home, robotics, industrial"
           },
           "features": [
             "Designed for smart home appliance applications",
@@ -714,17 +679,7 @@
             "Linear Regulators": "Multiple LDOs",
             "Package": "Standard PMIC package",
             "Operating Temperature": "Consumer grade",
-            "Applications": "Consumer electronics",
-            "OTP Memory": "N/A",
-            "I2C Interface": "N/A",
-            "Watchdog": "N/A",
-            "RTC Supply": "N/A",
-            "Safety Level": "N/A",
-            "Target Processor": "N/A",
-            "Load Switches": "N/A",
-            "Features": "N/A",
-            "Application": "N/A",
-            "Target Market": "N/A"
+            "Applications": "Consumer electronics"
           },
           "features": [
             "Designed for i. MX 35 and i. MX 51 processors",
@@ -854,17 +809,7 @@
             "Package": "Automotive grade package",
             "Operating Temperature": "-40°C to +125°C (Automotive)",
             "Applications": "Domain controllers, zonal controllers",
-            "Target Market": "Automotive",
-            "Buck Converters": "N/A",
-            "Linear Regulators": "N/A",
-            "OTP Memory": "N/A",
-            "I2C Interface": "N/A",
-            "Watchdog": "N/A",
-            "RTC Supply": "N/A",
-            "Target Processor": "N/A",
-            "Load Switches": "N/A",
-            "Application": "N/A",
-            "Target Processors": "N/A"
+            "Target Market": "Automotive"
           },
           "features": [
             "Supports 12V, 24V, and 48V automotive systems",
@@ -1110,13 +1055,7 @@
             "GPIO": "10 GPIOs available",
             "ESD Protection": "8kV HBM, 2kV surge (IEC61000-4-5)",
             "Package": "64-pin HVQFN 9x9mm",
-            "Operating Temperature": "-40°C to +125°C",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Output": "N/A",
-            "DAC Resolution": "N/A",
-            "Excitation": "N/A",
-            "Calibration": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "8-channel configurable universal input (voltage/current/resistance/temperature)",
@@ -1258,16 +1197,7 @@
             "ENOB": "17 bits at 144 kSPS",
             "Power Consumption": "160mW",
             "Package": "64-pin HVQFN 9x9mm",
-            "Operating Temperature": "-40°C to +125°C",
-            "Accuracy": "N/A",
-            "Excitation Sources": "N/A",
-            "Interface": "N/A",
-            "GPIO": "N/A",
-            "ESD Protection": "N/A",
-            "Output": "N/A",
-            "DAC Resolution": "N/A",
-            "Excitation": "N/A",
-            "Calibration": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "High-speed data acquisition up to 576 kSPS",
@@ -1402,18 +1332,7 @@
             "ADC Resolution": "24-bit",
             "DAC Resolution": "16-bit",
             "Package": "64-pin HVQFN",
-            "Operating Temperature": "-40°C to +125°C",
-            "Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Accuracy": "N/A",
-            "Excitation Sources": "N/A",
-            "Interface": "N/A",
-            "GPIO": "N/A",
-            "ESD Protection": "N/A",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Excitation": "N/A",
-            "Calibration": "N/A"
+            "Operating Temperature": "-40°C to +125°C"
           },
           "features": [
             "Combined analog input and output",
@@ -1536,21 +1455,7 @@
             "Input Channels": "4",
             "ADC Resolution": "16-bit",
             "Input Range": "±25V",
-            "Package": "Smaller package option",
-            "Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Accuracy": "N/A",
-            "Excitation Sources": "N/A",
-            "Interface": "N/A",
-            "GPIO": "N/A",
-            "ESD Protection": "N/A",
-            "Operating Temperature": "N/A",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Output": "N/A",
-            "DAC Resolution": "N/A",
-            "Excitation": "N/A",
-            "Calibration": "N/A"
+            "Package": "Smaller package option"
           },
           "features": [
             "4-channel universal input",
@@ -1670,20 +1575,7 @@
             "Input Channels": "8",
             "ADC Resolution": "24-bit",
             "Excitation": "External only",
-            "Data Rate": "7.5 SPS to 288 kSPS",
-            "Input Range": "N/A",
-            "PGA Gain": "N/A",
-            "Accuracy": "N/A",
-            "Excitation Sources": "N/A",
-            "Interface": "N/A",
-            "GPIO": "N/A",
-            "ESD Protection": "N/A",
-            "Operating Temperature": "N/A",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Output": "N/A",
-            "DAC Resolution": "N/A",
-            "Calibration": "N/A"
+            "Data Rate": "7.5 SPS to 288 kSPS"
           },
           "features": [
             "8-channel universal input",
@@ -1714,16 +1606,6 @@
               "reason": "Integrated excitation",
               "useCase": "Use for RTD/thermocouple applications",
               "link": "/nxp/products/analog-ics/nafe13388"
-            },
-            {
-              "partNumber": "Alt2-NAFE11388",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "NAFE11388=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -1803,21 +1685,7 @@
           "specifications": {
             "Input Channels": "8",
             "Calibration": "User calibration required",
-            "ADC Resolution": "24-bit",
-            "Input Range": "N/A",
-            "Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Accuracy": "N/A",
-            "Excitation Sources": "N/A",
-            "Interface": "N/A",
-            "GPIO": "N/A",
-            "ESD Protection": "N/A",
-            "Operating Temperature": "N/A",
-            "ENOB": "N/A",
-            "Power Consumption": "N/A",
-            "Output": "N/A",
-            "DAC Resolution": "N/A",
-            "Excitation": "N/A"
+            "ADC Resolution": "24-bit"
           },
           "features": [
             "8-channel universal input",
@@ -1847,16 +1715,6 @@
               "reason": "Factory calibrated",
               "useCase": "Use when calibration not available",
               "link": "/nxp/products/analog-ics/nafe13388"
-            },
-            {
-              "partNumber": "Alt2-NAFE13188",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "NAFE13188=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -2053,23 +1911,7 @@
             "ESD Protection": "±8kV IEC61000-4-2, IEC62228-5 Class IV",
             "Package": "HVQFN36 (6mm x 6mm)",
             "Wake/Sleep": "OPEN Alliance TC-10 compliant",
-            "Supply": "Single 3.3V",
-            "Protocol": "N/A",
-            "Standards": "N/A",
-            "ESD": "N/A",
-            "EMC": "N/A",
-            "Modes": "N/A",
-            "Wake-up": "N/A",
-            "Protection": "N/A",
-            "Ports": "N/A",
-            "Speed": "N/A",
-            "Features": "N/A",
-            "Qualification": "N/A",
-            "CAN": "N/A",
-            "Regulator": "N/A",
-            "Watchdog": "N/A",
-            "Security": "N/A",
-            "Detection": "N/A"
+            "Supply": "Single 3.3V"
           },
           "features": [
             "IEEE 100BASE-T1 compliant for automotive Ethernet",
@@ -2207,23 +2049,7 @@
             "EMC": "Improved electromagnetic compatibility",
             "Modes": "Normal, Standby, Sleep, Power-on",
             "Wake-up": "Local and remote wake-up with source recognition",
-            "Protection": "Bus line short-circuit detection, battery connection detection",
-            "Standard": "N/A",
-            "Cable": "N/A",
-            "Cable Length": "N/A",
-            "Safety": "N/A",
-            "Temperature": "N/A",
-            "ESD Protection": "N/A",
-            "Wake/Sleep": "N/A",
-            "Ports": "N/A",
-            "Speed": "N/A",
-            "Features": "N/A",
-            "Qualification": "N/A",
-            "CAN": "N/A",
-            "Regulator": "N/A",
-            "Watchdog": "N/A",
-            "Security": "N/A",
-            "Detection": "N/A"
+            "Protection": "Bus line short-circuit detection, battery connection detection"
           },
           "features": [
             "Third-generation CAN transceiver",
@@ -2357,27 +2183,7 @@
             "Speed": "100BASE-T1 per port",
             "Features": "VLAN, QoS, rate limiting",
             "Temperature": "-40°C to +125°C",
-            "Qualification": "AEC-Q100 Grade 1",
-            "Standard": "N/A",
-            "Data Rate": "N/A",
-            "Cable": "N/A",
-            "Cable Length": "N/A",
-            "Safety": "N/A",
-            "ESD Protection": "N/A",
-            "Wake/Sleep": "N/A",
-            "Supply": "N/A",
-            "Protocol": "N/A",
-            "Standards": "N/A",
-            "ESD": "N/A",
-            "EMC": "N/A",
-            "Modes": "N/A",
-            "Wake-up": "N/A",
-            "Protection": "N/A",
-            "CAN": "N/A",
-            "Regulator": "N/A",
-            "Watchdog": "N/A",
-            "Security": "N/A",
-            "Detection": "N/A"
+            "Qualification": "AEC-Q100 Grade 1"
           },
           "features": [
             "5-port managed Ethernet switch",
@@ -2410,16 +2216,6 @@
               "comparison": "SJA1105=><SJA1110: Different port configurations",
               "reason": "Different features",
               "useCase": "Use based on port requirements"
-            },
-            {
-              "partNumber": "Alt2-SJA1105",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "SJA1105=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -2501,27 +2297,7 @@
             "Regulator": "Integrated voltage regulator",
             "Watchdog": "Window watchdog included",
             "Temperature": "-40°C to +125°C",
-            "Qualification": "AEC-Q100",
-            "Standard": "N/A",
-            "Data Rate": "N/A",
-            "Cable": "N/A",
-            "Cable Length": "N/A",
-            "Safety": "N/A",
-            "ESD Protection": "N/A",
-            "Wake/Sleep": "N/A",
-            "Supply": "N/A",
-            "Protocol": "N/A",
-            "Standards": "N/A",
-            "ESD": "N/A",
-            "EMC": "N/A",
-            "Modes": "N/A",
-            "Wake-up": "N/A",
-            "Protection": "N/A",
-            "Ports": "N/A",
-            "Speed": "N/A",
-            "Features": "N/A",
-            "Security": "N/A",
-            "Detection": "N/A"
+            "Qualification": "AEC-Q100"
           },
           "features": [
             "Integrated CAN transceiver",
@@ -2555,16 +2331,6 @@
               "reason": "Higher voltage",
               "useCase": "Use for 24V/48V systems",
               "link": "/nxp/products/power-management/fs27"
-            },
-            {
-              "partNumber": "Alt2-UJA1169",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "UJA1169=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -2645,28 +2411,7 @@
             "Protocol": "Secure CAN",
             "Security": "Hardware message authentication",
             "Detection": "Intrusion detection",
-            "Temperature": "-40°C to +125°C",
-            "Standard": "N/A",
-            "Data Rate": "N/A",
-            "Cable": "N/A",
-            "Cable Length": "N/A",
-            "Safety": "N/A",
-            "ESD Protection": "N/A",
-            "Wake/Sleep": "N/A",
-            "Supply": "N/A",
-            "Standards": "N/A",
-            "ESD": "N/A",
-            "EMC": "N/A",
-            "Modes": "N/A",
-            "Wake-up": "N/A",
-            "Protection": "N/A",
-            "Ports": "N/A",
-            "Speed": "N/A",
-            "Features": "N/A",
-            "Qualification": "N/A",
-            "CAN": "N/A",
-            "Regulator": "N/A",
-            "Watchdog": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "Hardware security for CAN",
@@ -2698,16 +2443,6 @@
               "reason": "Standard CAN",
               "useCase": "Use when security not required",
               "link": "/nxp/products/interface/tja1043"
-            },
-            {
-              "partNumber": "Alt2-TJA1153",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "TJA1153=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -2790,27 +2525,7 @@
             "Data Rate": "1 Gbps",
             "Cable": "Single UTP",
             "Safety": "ASIL support",
-            "Temperature": "-40°C to +125°C",
-            "Cable Length": "N/A",
-            "ESD Protection": "N/A",
-            "Wake/Sleep": "N/A",
-            "Supply": "N/A",
-            "Protocol": "N/A",
-            "Standards": "N/A",
-            "ESD": "N/A",
-            "EMC": "N/A",
-            "Modes": "N/A",
-            "Wake-up": "N/A",
-            "Protection": "N/A",
-            "Ports": "N/A",
-            "Speed": "N/A",
-            "Features": "N/A",
-            "Qualification": "N/A",
-            "CAN": "N/A",
-            "Regulator": "N/A",
-            "Watchdog": "N/A",
-            "Security": "N/A",
-            "Detection": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "1Gbps Ethernet over single pair",
@@ -2843,16 +2558,6 @@
               "reason": "Lower bandwidth",
               "useCase": "Use for standard bandwidth applications",
               "link": "/nxp/products/interface/tja1101b"
-            },
-            {
-              "partNumber": "Alt2-TJA1103",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "TJA1103=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3052,15 +2757,7 @@
             "Channels": "8 universal inputs",
             "Interface": "SPI to Arduino",
             "Power": "5V from Arduino",
-            "Connectors": "Screw terminals for inputs",
-            "Axes": "N/A",
-            "Ranges": "N/A",
-            "Resolution": "N/A",
-            "Temperature": "N/A",
-            "Type": "N/A",
-            "Accuracy": "N/A",
-            "Range": "N/A",
-            "Altitude": "N/A"
+            "Connectors": "Screw terminals for inputs"
           },
           "features": [
             "Arduino-compatible shield",
@@ -3093,16 +2790,6 @@
               "reason": "Custom design",
               "useCase": "Use for production designs",
               "link": "/nxp/products/analog-ics/nafe13388"
-            },
-            {
-              "partNumber": "Alt2-NAFE13388-UIM",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "NAFE13388-UIM=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3186,14 +2873,7 @@
             "Resolution": "High resolution",
             "Power": "Low power consumption",
             "Interface": "I2C/SPI",
-            "Temperature": "-40°C to +125°C",
-            "Form Factor": "N/A",
-            "Channels": "N/A",
-            "Connectors": "N/A",
-            "Type": "N/A",
-            "Accuracy": "N/A",
-            "Range": "N/A",
-            "Altitude": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "3-axis acceleration sensing",
@@ -3226,16 +2906,6 @@
               "comparison": "FXLS8974=><FXLS8964: Different ranges",
               "reason": "Different specs",
               "useCase": "Use based on range requirements"
-            },
-            {
-              "partNumber": "Alt2-FXLS8974",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "FXLS8974=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3318,15 +2988,7 @@
             "Accuracy": "High accuracy",
             "Range": "Various pressure ranges",
             "Interface": "Analog or digital",
-            "Temperature": "-40°C to +125°C",
-            "Form Factor": "N/A",
-            "Channels": "N/A",
-            "Power": "N/A",
-            "Connectors": "N/A",
-            "Axes": "N/A",
-            "Ranges": "N/A",
-            "Resolution": "N/A",
-            "Altitude": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "High accuracy pressure measurement",
@@ -3357,16 +3019,6 @@
               "comparison": "FXPS7250=><FXPS7250A: Different variants",
               "reason": "Different specs",
               "useCase": "Select based on range"
-            },
-            {
-              "partNumber": "Alt2-FXPS7250",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "FXPS7250=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3448,15 +3100,7 @@
             "Interface": "I2C",
             "Accuracy": "High accuracy",
             "Range": "-40°C to +125°C",
-            "Resolution": "High resolution",
-            "Form Factor": "N/A",
-            "Channels": "N/A",
-            "Power": "N/A",
-            "Connectors": "N/A",
-            "Axes": "N/A",
-            "Ranges": "N/A",
-            "Temperature": "N/A",
-            "Altitude": "N/A"
+            "Resolution": "High resolution"
           },
           "features": [
             "High accuracy temperature measurement",
@@ -3488,16 +3132,6 @@
               "comparison": "P3T1755=><P3T1035: Different accuracy grades",
               "reason": "Cost optimization",
               "useCase": "Use for less critical applications"
-            },
-            {
-              "partNumber": "Alt2-P3T1755",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "P3T1755=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3579,15 +3213,7 @@
             "Type": "Digital magnetometer",
             "Interface": "I2C",
             "Power": "Low power",
-            "Range": "Wide magnetic field range",
-            "Form Factor": "N/A",
-            "Channels": "N/A",
-            "Connectors": "N/A",
-            "Ranges": "N/A",
-            "Resolution": "N/A",
-            "Temperature": "N/A",
-            "Accuracy": "N/A",
-            "Altitude": "N/A"
+            "Range": "Wide magnetic field range"
           },
           "features": [
             "3-axis magnetic field sensing",
@@ -3619,16 +3245,6 @@
               "comparison": "MAG3110=><MAG3110A: Different variants",
               "reason": "Different specs",
               "useCase": "Select based on requirements"
-            },
-            {
-              "partNumber": "Alt2-MAG3110",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "MAG3110=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [
@@ -3711,15 +3327,7 @@
             "Range": "20-110 kPa",
             "Altitude": "-698 to 11775 ft",
             "Interface": "I2C",
-            "Power": "Low power",
-            "Form Factor": "N/A",
-            "Channels": "N/A",
-            "Connectors": "N/A",
-            "Axes": "N/A",
-            "Ranges": "N/A",
-            "Resolution": "N/A",
-            "Temperature": "N/A",
-            "Accuracy": "N/A"
+            "Power": "Low power"
           },
           "features": [
             "Barometric pressure sensing",
@@ -3753,16 +3361,6 @@
               "reason": "Higher accuracy",
               "useCase": "Use for higher accuracy pressure",
               "link": "/nxp/products/sensors/fxps7250"
-            },
-            {
-              "partNumber": "Alt2-MPL3115A2",
-              "manufacturer": "NXP",
-              "specifications": {
-                "type": "similar"
-              },
-              "comparison": "MPL3115A2=><Alt2: similar specifications, alternative option",
-              "reason": "Alternative sourcing",
-              "useCase": "Use based on availability"
             }
           ],
           "companionParts": [

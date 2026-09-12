@@ -191,11 +191,7 @@
             "PWM Input": "3.3V/5V logic compatible",
             "Configuration": "SPI interface",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "Core module with pin headers",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "Core module with pin headers"
           },
           "faeReview": {
             "author": "Michael Zhang",
@@ -371,11 +367,7 @@
             "PWM Input": "3.3V/5V logic compatible",
             "Configuration": "SPI interface",
             "Operating Temperature": "-40°C to +85°C",
-            "Package": "Core module with pin headers",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Package": "Core module with pin headers"
           },
           "faeReview": {
             "author": "Lisa Wang",
@@ -486,13 +478,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Peak Output Current": "N/A",
-            "Supported Voltage": "N/A",
-            "Isolation Voltage": "N/A",
-            "Switching Frequency": "N/A",
-            "PWM Input": "N/A",
-            "Configuration": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -512,53 +497,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
@@ -621,13 +561,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Peak Output Current": "N/A",
-            "Supported Voltage": "N/A",
-            "Isolation Voltage": "N/A",
-            "Switching Frequency": "N/A",
-            "PWM Input": "N/A",
-            "Configuration": "N/A",
-            "Operating Temperature": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -647,53 +580,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",
@@ -881,16 +769,7 @@
             "Switching Frequency": "2-4kHz",
             "Peak Efficiency": ">98%",
             "Cooling": "Liquid (water/glycol)",
-            "Operating Temperature": "-30°C to +60°C",
-            "DC Input Voltage": "N/A",
-            "Protection Rating": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drive": "N/A",
-            "Isolation": "N/A",
-            "Protection": "N/A",
-            "Interface": "N/A"
+            "Operating Temperature": "-30°C to +60°C"
           },
           "faeReview": {
             "author": "James Liu",
@@ -1036,16 +915,7 @@
             "Peak Efficiency": ">97.5%",
             "Cooling": "Natural convection",
             "Operating Temperature": "-25°C to +60°C",
-            "Protection Rating": "IP65",
-            "Peak Power": "N/A",
-            "DC Link Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drive": "N/A",
-            "Isolation": "N/A",
-            "Protection": "N/A",
-            "Interface": "N/A"
+            "Protection Rating": "IP65"
           },
           "faeReview": {
             "author": "Sarah Chen",
@@ -1149,17 +1019,7 @@
             "Isolation": "Reinforced isolation",
             "Protection": "DESAT, UVLO, Miller clamp",
             "Interface": "SPI digital interface",
-            "Temperature Range": "-40°C to +85°C",
-            "Continuous Power": "N/A",
-            "Peak Power": "N/A",
-            "DC Link Voltage": "N/A",
-            "AC Output Voltage": "N/A",
-            "Switching Frequency": "N/A",
-            "Peak Efficiency": "N/A",
-            "Cooling": "N/A",
-            "Operating Temperature": "N/A",
-            "DC Input Voltage": "N/A",
-            "Protection Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "1200V/450A IGBT modules",
@@ -1236,17 +1096,7 @@
             "Isolation": "Reinforced isolation",
             "Protection": "DESAT, UVLO, Miller clamp",
             "Interface": "SPI digital interface",
-            "Temperature Range": "-40°C to +85°C",
-            "Continuous Power": "N/A",
-            "Peak Power": "N/A",
-            "DC Link Voltage": "N/A",
-            "AC Output Voltage": "N/A",
-            "Switching Frequency": "N/A",
-            "Peak Efficiency": "N/A",
-            "Cooling": "N/A",
-            "Operating Temperature": "N/A",
-            "DC Input Voltage": "N/A",
-            "Protection Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "1200V/600A high current",
@@ -1327,8 +1177,6 @@
         "Test Types",
         "Test Time",
         "Dimensions",
-        "Voltage Rating",
-        "Current Rating",
         "Bandwidth",
         "Sampling Rate",
         "Channels",
@@ -1438,20 +1286,7 @@
             "Dynamic Tests": "ton, toff, Eon, Eoff, Qg, trr",
             "Temperature Range": "-40°C to +200°C",
             "Interface": "Ethernet, USB, GPIB",
-            "Software": "Windows-based with automation",
-            "Test Types": "N/A",
-            "Test Time": "N/A",
-            "Dimensions": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Bandwidth": "N/A",
-            "Sampling Rate": "N/A",
-            "Channels": "N/A",
-            "Test Modes": "N/A",
-            "Automation": "N/A",
-            "Reporting": "N/A",
-            "Thermal Chamber": "N/A",
-            "Data Logging": "N/A"
+            "Software": "Windows-based with automation"
           },
           "faeReview": {
             "author": "Dr. Robert Zhang",
@@ -1596,20 +1431,7 @@
             "Test Time": "<5 seconds per device",
             "Interface": "Ethernet, USB",
             "Software": "Windows-based with automation API",
-            "Dimensions": "Compact benchtop design",
-            "Static Tests": "N/A",
-            "Dynamic Tests": "N/A",
-            "Temperature Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Bandwidth": "N/A",
-            "Sampling Rate": "N/A",
-            "Channels": "N/A",
-            "Test Modes": "N/A",
-            "Automation": "N/A",
-            "Reporting": "N/A",
-            "Thermal Chamber": "N/A",
-            "Data Logging": "N/A"
+            "Dimensions": "Compact benchtop design"
           },
           "faeReview": {
             "author": "Kevin Wang",
@@ -1714,22 +1536,7 @@
             "Channels": "4 analog + 16 digital",
             "Test Modes": "Static and dynamic",
             "Automation": "Full test automation",
-            "Reporting": "Detailed test reports",
-            "Voltage Range": "N/A",
-            "Current Range": "N/A",
-            "Measurement Accuracy": "N/A",
-            "Static Tests": "N/A",
-            "Dynamic Tests": "N/A",
-            "Temperature Range": "N/A",
-            "Interface": "N/A",
-            "Software": "N/A",
-            "Test Types": "N/A",
-            "Test Time": "N/A",
-            "Dimensions": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Thermal Chamber": "N/A",
-            "Data Logging": "N/A"
+            "Reporting": "Detailed test reports"
           },
           "features": [
             "500MHz bandwidth",
@@ -1777,22 +1584,7 @@
             "Temperature Range": "-40°C to +150°C",
             "Thermal Chamber": "Included",
             "Automation": "Full automation",
-            "Data Logging": "Comprehensive logging",
-            "Measurement Accuracy": "N/A",
-            "Static Tests": "N/A",
-            "Dynamic Tests": "N/A",
-            "Interface": "N/A",
-            "Software": "N/A",
-            "Test Types": "N/A",
-            "Test Time": "N/A",
-            "Dimensions": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Bandwidth": "N/A",
-            "Sampling Rate": "N/A",
-            "Channels": "N/A",
-            "Test Modes": "N/A",
-            "Reporting": "N/A"
+            "Data Logging": "Comprehensive logging"
           },
           "features": [
             "High voltage/current capability",
@@ -1843,9 +1635,6 @@
         "Protection",
         "Configuration",
         "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Gate Drive",
         "Isolation",
         "Interface"
@@ -1951,13 +1740,7 @@
             "Protection": "DESAT, UVLO, OTP",
             "Configuration": "Digital interface",
             "Operating Temperature": "-40°C to +125°C",
-            "Package": "SOIC-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drive": "N/A",
-            "Isolation": "N/A",
-            "Interface": "N/A"
+            "Package": "SOIC-16"
           },
           "faeReview": {
             "author": "Alex Liu",
@@ -2105,13 +1888,7 @@
             "Protection": "DESAT, Miller clamp, UVLO, OTP",
             "Configuration": "Digital interface",
             "Operating Temperature": "-40°C to +125°C (AEC-Q100)",
-            "Package": "QFN-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Gate Drive": "N/A",
-            "Isolation": "N/A",
-            "Interface": "N/A"
+            "Package": "QFN-24"
           },
           "faeReview": {
             "author": "David Chen",
@@ -2214,16 +1991,7 @@
             "Protection": "Full protection suite",
             "Isolation": "Integrated isolation",
             "Interface": "Digital interface",
-            "Package": "QFN-48",
-            "Peak Output Current": "N/A",
-            "Propagation Delay": "N/A",
-            "Gate Voltage Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Configuration": "N/A",
-            "Operating Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "Integrated gate drive",
@@ -2269,16 +2037,7 @@
             "Protection": "Full protection suite",
             "Isolation": "Integrated isolation",
             "Interface": "Digital interface",
-            "Package": "QFN-56",
-            "Peak Output Current": "N/A",
-            "Propagation Delay": "N/A",
-            "Gate Voltage Range": "N/A",
-            "Supply Voltage": "N/A",
-            "Configuration": "N/A",
-            "Operating Temperature": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-56"
           },
           "features": [
             "±20A high current",

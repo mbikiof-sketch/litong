@@ -75,9 +75,7 @@
         "RAM",
         "EEPROM",
         "Operating Voltage",
-        "Temperature Range",
-        "Voltage Rating",
-        "Current Rating"
+        "Temperature Range"
       ],
       "series": [
         {
@@ -173,9 +171,7 @@
             "EEPROM": "1KB",
             "Operating Voltage": "2.7V-5.5V",
             "Temperature Range": "-40°C to +125°C (Grade 1)",
-            "Package": "LQFP-48",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "LQFP-48"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",
@@ -322,10 +318,7 @@
             "RAM": "32KB with ECC",
             "Operating Voltage": "3.3V",
             "Temperature Range": "-40°C to +150°C (Grade 0)",
-            "Package": "LQFP-100",
-            "EEPROM": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "LQFP-100"
           },
           "features": [
             "AEC-Q100 Grade 0 qualified",
@@ -473,9 +466,7 @@
             "EEPROM": "1KB",
             "Operating Voltage": "2.7V to 5.5V",
             "Temperature Range": "-40°C to +125°C (Grade 1)",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",
@@ -617,12 +608,9 @@
             "Core": "ARM Cortex-M4 with FPU",
             "Flash": "512KB",
             "RAM": "64KB with ECC",
-            "EEPROM": "N/A",
             "Operating Voltage": "3.3V",
             "Temperature Range": "-40°C to +150°C (Grade 0)",
-            "Package": "LQFP-144",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "LQFP-144"
           },
           "features": [
             "AEC-Q100 Grade 0 qualified",
@@ -769,9 +757,7 @@
         "Current Accuracy",
         "Switching Frequency",
         "Efficiency",
-        "Dimming Range",
-        "Voltage Rating",
-        "Current Rating"
+        "Dimming Range"
       ],
       "series": [
         {
@@ -868,13 +854,7 @@
             "Dropout Voltage": "250mV @ 500mA",
             "Quiescent Current": "100μA typical",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT-223",
-            "Current Accuracy": "N/A",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Dimming Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-223"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1017,12 +997,7 @@
             "Efficiency": "Up to 95%",
             "Dimming Range": "1%-100%",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "ESOP-8",
-            "Output Voltage": "N/A",
-            "Dropout Voltage": "N/A",
-            "Quiescent Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "ESOP-8"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1164,9 +1139,7 @@
         "Rds(on)",
         "Control Interface",
         "Temperature Range",
-        "Microstepping",
-        "Voltage Rating",
-        "Current Rating"
+        "Microstepping"
       ],
       "series": [
         {
@@ -1263,10 +1236,7 @@
             "Rds(on)": "200mΩ (typ)",
             "Control Interface": "Logic/PWM",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "HTSSOP-24",
-            "Microstepping": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "HTSSOP-24"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1413,12 +1383,7 @@
             "Peak Current": "2A per phase",
             "Microstepping": "Up to 1/16",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "HTSSOP-28",
-            "Continuous Current": "N/A",
-            "Rds(on)": "N/A",
-            "Control Interface": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "HTSSOP-28"
           },
           "features": [
             "AEC-Q100 qualified",
@@ -1560,9 +1525,7 @@
         "Flash",
         "RAM",
         "Operating Voltage",
-        "Temperature Range",
-        "Voltage Rating",
-        "Current Rating"
+        "Temperature Range"
       ],
       "series": [
         {
@@ -1657,9 +1620,7 @@
             "RAM": "16KB",
             "Operating Voltage": "3.3V",
             "Temperature Range": "-40°C to +85°C (Industrial)",
-            "Package": "LQFP-64",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "LQFP-64"
           },
           "features": [
             "ARM Cortex-M3 core at 72MHz",
@@ -1806,9 +1767,7 @@
             "RAM": "2KB",
             "Operating Voltage": "2.7V-5.5V",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP-20"
           },
           "features": [
             "Industrial temperature range",

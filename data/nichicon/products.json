@@ -161,9 +161,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -353,9 +351,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -528,274 +524,6 @@
           ]
         },
         {
-          "partNumber": "UHE1H471MPD",
-          "name": "Aluminum Electrolytic Capacitors UHE1H471MPD",
-          "shortDescription": "High reliability aluminum electrolytic capacitor for industrial applications",
-          "descriptionParagraphs": [
-            "The UHE1H471MPD is High reliability aluminum electrolytic capacitor for industrial applications. This device features advanced technology for superior performance and reliability.",
-            "With 470uF 50V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The UHE1H471MPD delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "470uF 50V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon UHE1H471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is ALUMINUMELECTROLYTIC-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon UHE1H471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of ALUMINUMELECTROLYTIC-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon UHE1H471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon UHE1H471MPD, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for ALUMINUMELECTROLYTIC-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon UHE1H471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "UHE1E471MPD",
-          "name": "Aluminum Electrolytic Capacitors UHE1E471MPD",
-          "shortDescription": "Long life aluminum electrolytic capacitor with 105°C rating",
-          "descriptionParagraphs": [
-            "The UHE1E471MPD is Long life aluminum electrolytic capacitor with 105°C rating. This device features advanced technology for superior performance and reliability.",
-            "With 470uF 25V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The UHE1E471MPD delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "470uF 25V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for ALUMINUMELECTROLYTIC-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon UHE1E471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is ALUMINUMELECTROLYTIC-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon UHE1E471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of ALUMINUMELECTROLYTIC-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon UHE1E471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon UHE1E471MPD, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for ALUMINUMELECTROLYTIC-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon UHE1E471MPD, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "LXZ25VB471M8X20LL",
           "name": "Aluminum Electrolytic Capacitor",
           "shortDescription": "LXZ series high-ripple current capacitor with 470uF 25V for demanding industrial applications.",
@@ -814,7 +542,6 @@
             "Termination": "Radial Lead",
             "Package": "8mm × 20mm",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "Low ESR, High Ripple"
           },
           "features": [
@@ -966,7 +693,6 @@
             "Termination": "Radial Lead",
             "Package": "10mm × 20mm",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "High Voltage, Low Leakage"
           },
           "features": [
@@ -1109,7 +835,6 @@
         "Lifetime",
         "Termination",
         "Qualification",
-        "Current Rating",
         "Specifications"
       ]
     },
@@ -1210,9 +935,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -1402,9 +1125,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -1577,274 +1298,6 @@
           ]
         },
         {
-          "partNumber": "ECWF4105JA",
-          "name": "Film Capacitors ECWF4105JA",
-          "shortDescription": "Metallized polypropylene film capacitor for power electronics",
-          "descriptionParagraphs": [
-            "The ECWF4105JA is Metallized polypropylene film capacitor for power electronics. This device features advanced technology for superior performance and reliability.",
-            "With 1uF 400V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The ECWF4105JA delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "1uF 400V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for FILMCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon ECWF4105JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is FILMCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon ECWF4105JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of FILMCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon ECWF4105JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for FILMCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon ECWF4105JA, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for FILMCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon ECWF4105JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "ECWF4155JA",
-          "name": "Film Capacitors ECWF4155JA",
-          "shortDescription": "High performance film capacitor with self-healing properties",
-          "descriptionParagraphs": [
-            "The ECWF4155JA is High performance film capacitor with self-healing properties. This device features advanced technology for superior performance and reliability.",
-            "With 1.5uF 400V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The ECWF4155JA delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "1.5uF 400V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for FILMCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon ECWF4155JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is FILMCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon ECWF4155JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of FILMCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon ECWF4155JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for FILMCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon ECWF4155JA, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for FILMCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon ECWF4155JA, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "ECWF4205JA",
           "name": "Film Capacitor",
           "shortDescription": "ECWF series high-voltage film capacitor with 2uF 1000V for DC-link and snubber applications.",
@@ -1863,7 +1316,6 @@
             "Termination": "Axial Lead",
             "Package": "Box Type",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "Self-healing, Low ESR"
           },
           "features": [
@@ -2015,7 +1467,6 @@
             "Termination": "Radial Lead",
             "Package": "15mm Pitch",
             "Qualification": "X2 Safety Rated",
-            "Current Rating": "N/A",
             "Specifications": "Safety Capacitor, Self-healing"
           },
           "features": [
@@ -2158,7 +1609,6 @@
         "Lifetime",
         "Termination",
         "Qualification",
-        "Current Rating",
         "Specifications"
       ]
     },
@@ -2254,14 +1704,11 @@
             "Capacitance": "1F ±20%",
             "Voltage Rating": "2.5V DC",
             "Temperature Range": "-40°C to +70°C",
-            "Ripple Current": "N/A",
             "ESR": "1.789Ω @ 100kHz",
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -2446,14 +1893,11 @@
             "Capacitance": "22F ±20%",
             "Voltage Rating": "2.5V DC",
             "Temperature Range": "-40°C to +70°C",
-            "Ripple Current": "N/A",
             "ESR": "0.381Ω @ 100kHz",
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -2626,274 +2070,6 @@
           ]
         },
         {
-          "partNumber": "JJD0E105",
-          "name": "EDLC Supercapacitors JJD0E105",
-          "shortDescription": "Electric double-layer capacitor for energy storage applications",
-          "descriptionParagraphs": [
-            "The JJD0E105 is Electric double-layer capacitor for energy storage applications. This device features advanced technology for superior performance and reliability.",
-            "With 1F 2.5V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The JJD0E105 delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "1F 2.5V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for EDLCSUPERCAPACITORS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon JJD0E105, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is EDLCSUPERCAPACITORS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon JJD0E105, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of EDLCSUPERCAPACITORS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon JJD0E105, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for EDLCSUPERCAPACITORS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon JJD0E105, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for EDLCSUPERCAPACITORS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon JJD0E105, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "JJE0E226",
-          "name": "EDLC Supercapacitors JJE0E226",
-          "shortDescription": "High capacitance supercapacitor for backup power systems",
-          "descriptionParagraphs": [
-            "The JJE0E226 is High capacitance supercapacitor for backup power systems. This device features advanced technology for superior performance and reliability.",
-            "With 22F 2.5V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The JJE0E226 delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "22F 2.5V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for EDLCSUPERCAPACITORS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon JJE0E226, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is EDLCSUPERCAPACITORS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon JJE0E226, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of EDLCSUPERCAPACITORS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon JJE0E226, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for EDLCSUPERCAPACITORS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon JJE0E226, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for EDLCSUPERCAPACITORS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon JJE0E226, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "JJC0E156",
           "name": "EDLC Supercapacitor",
           "shortDescription": "JJC series high-capacitance supercapacitor with 15F 2.5V for energy harvesting and backup power.",
@@ -2912,7 +2088,6 @@
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "High Cycle Life, Low ESR"
           },
           "features": [
@@ -3064,7 +2239,6 @@
             "Termination": "Coin Type",
             "Package": "11.5mm × 5.5mm",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "Coin Type, Low Leakage"
           },
           "features": [
@@ -3207,7 +2381,6 @@
         "Lifetime",
         "Termination",
         "Qualification",
-        "Current Rating",
         "Specifications"
       ]
     },
@@ -3308,9 +2481,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -3500,9 +2671,7 @@
             "Lifetime": "10000 hours @ 105°C",
             "Termination": "Radial Lead",
             "Package": "Cylindrical",
-            "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
-            "Specifications": "N/A"
+            "Qualification": "Industrial Grade"
           },
           "features": [
             "High ripple current capability for demanding applications",
@@ -3675,274 +2844,6 @@
           ]
         },
         {
-          "partNumber": "PCF1C330MCL1GS",
-          "name": "Conductive Polymer Aluminum Capacitors PCF1C330MCL1GS",
-          "shortDescription": "Ultra low ESR conductive polymer capacitor",
-          "descriptionParagraphs": [
-            "The PCF1C330MCL1GS is Ultra low ESR conductive polymer capacitor. This device features advanced technology for superior performance and reliability.",
-            "With 33uF 16V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The PCF1C330MCL1GS delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "33uF 16V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for CONDUCTIVEPOLYMER-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon PCF1C330MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is CONDUCTIVEPOLYMER-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon PCF1C330MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of CONDUCTIVEPOLYMER-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon PCF1C330MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for CONDUCTIVEPOLYMER-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon PCF1C330MCL1GS, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for CONDUCTIVEPOLYMER-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon PCF1C330MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "PCL1C101MCL1GS",
-          "name": "Conductive Polymer Aluminum Capacitors PCL1C101MCL1GS",
-          "shortDescription": "High ripple current conductive polymer capacitor",
-          "descriptionParagraphs": [
-            "The PCL1C101MCL1GS is High ripple current conductive polymer capacitor. This device features advanced technology for superior performance and reliability.",
-            "With 100uF 16V, this device is ideal for demanding applications including industrial systems, consumer electronics, and automotive applications.",
-            "The PCL1C101MCL1GS delivers industry-leading performance with excellent thermal characteristics and proven reliability in field applications."
-          ],
-          "specifications": {
-            "Voltage Rating": "25V DC",
-            "Current Rating": "1A",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Capacitance": "N/A",
-            "Ripple Current": "N/A",
-            "ESR": "N/A",
-            "Lifetime": "N/A",
-            "Termination": "N/A",
-            "Qualification": "N/A",
-            "Specifications": "100uF 16V"
-          },
-          "features": [
-            "High performance",
-            "Low power consumption",
-            "Wide operating temperature range",
-            "Reliable operation"
-          ],
-          "applications": [
-            "Industrial controls",
-            "Consumer electronics",
-            "Power supplies"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
-            "highlight": "Excellent choice for industrial applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for CONDUCTIVEPOLYMER-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on nichicon PCL1C101MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is CONDUCTIVEPOLYMER-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on nichicon PCL1C101MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of CONDUCTIVEPOLYMER-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on nichicon PCL1C101MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for CONDUCTIVEPOLYMER-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on nichicon PCL1C101MCL1GS, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for CONDUCTIVEPOLYMER-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on nichicon PCL1C101MCL1GS, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "PCL1A221MCL1GS",
           "name": "Conductive Polymer Capacitor",
           "shortDescription": "PCL series ultra-low ESR capacitor with 220uF 10V for high-frequency DC-DC converters.",
@@ -3961,7 +2862,6 @@
             "Termination": "SMD",
             "Package": "6.3mm × 7.7mm",
             "Qualification": "AEC-Q200",
-            "Current Rating": "N/A",
             "Specifications": "Ultra-Low ESR"
           },
           "features": [
@@ -4113,7 +3013,6 @@
             "Termination": "SMD",
             "Package": "5mm × 5.8mm",
             "Qualification": "Industrial Grade",
-            "Current Rating": "N/A",
             "Specifications": "Compact, Low ESR"
           },
           "features": [
@@ -4256,7 +3155,6 @@
         "Lifetime",
         "Termination",
         "Qualification",
-        "Current Rating",
         "Specifications"
       ]
     }

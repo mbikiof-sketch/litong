@@ -80,9 +80,7 @@
         "Temperature Range",
         "Organization",
         "Refresh",
-        "Features",
-        "Voltage Rating",
-        "Current Rating"
+        "Features"
       ],
       "applications": [
         "Data Center",
@@ -167,10 +165,7 @@
             "Temperature Range": "-40°C to +95°C (Industrial)",
             "Package": "78-ball FBGA",
             "Organization": "x8",
-            "Refresh": "8192 cycles / 64ms",
-            "Features": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Refresh": "8192 cycles / 64ms"
           },
           "features": [
             "High-speed operation up to 3200 MT/s",
@@ -320,10 +315,7 @@
             "Temperature Range": "0°C to +95°C (Commercial/Industrial)",
             "Package": "288-ball FBGA",
             "Organization": "x32",
-            "Features": "On-die ECC, Dual channel",
-            "Refresh": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Features": "On-die ECC, Dual channel"
           },
           "features": [
             "Ultra-high speed up to 6400 MT/s",
@@ -473,10 +465,7 @@
             "Temperature Range": "-30°C to +85°C (Mobile)",
             "Package": "315-ball FBGA",
             "Organization": "x32",
-            "Features": "DVFS, Deep sleep",
-            "Refresh": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Features": "DVFS, Deep sleep"
           },
           "features": [
             "Ultra-high speed 6400 MT/s",
@@ -570,9 +559,7 @@
             "Package": "96-ball FBGA",
             "Organization": "x16",
             "Features": "Low voltage",
-            "Refresh": "8192 cycles / 64ms",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Refresh": "8192 cycles / 64ms"
           },
           "features": [
             "Low-voltage 1.35V operation",

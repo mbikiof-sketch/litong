@@ -89,8 +89,6 @@
         "Input Noise",
         "Offset Drift",
         "Gain Drift",
-        "Voltage Rating",
-        "Current Rating",
         "Channels",
         "Settling Time",
         "Output Range",
@@ -217,18 +215,7 @@
             "Power Consumption": "15 mW",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-16, QFN-16",
-            "Output Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Offset Drift": "N/A",
-            "Gain Drift": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Channels": "N/A",
-            "Settling Time": "N/A",
-            "Output Range": "N/A",
-            "Load Regulation": "N/A"
+            "Package": "TSSOP-16, QFN-16"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -409,17 +396,7 @@
             "Power Consumption": "0.9 mW",
             "Interface": "I2C",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-20, QFN-20",
-            "Sampling Rate": "N/A",
-            "DNL": "N/A",
-            "SNR": "N/A",
-            "THD": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Channels": "N/A",
-            "Settling Time": "N/A",
-            "Output Range": "N/A",
-            "Load Regulation": "N/A"
+            "Package": "TSSOP-20, QFN-20"
           },
           "features": [
             "24-bit resolution with no missing codes",
@@ -597,18 +574,7 @@
             "Power Consumption": "5 mW",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-20, QFN-24",
-            "THD": "N/A",
-            "Output Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Offset Drift": "N/A",
-            "Gain Drift": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Settling Time": "N/A",
-            "Output Range": "N/A",
-            "Load Regulation": "N/A"
+            "Package": "TSSOP-20, QFN-24"
           },
           "features": [
             "8-channel input multiplexer",
@@ -655,18 +621,7 @@
             "Power Supply": "2.7V - 5.5V",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-16, QFN-20",
-            "Sampling Rate": "N/A",
-            "SNR": "N/A",
-            "THD": "N/A",
-            "Power Consumption": "N/A",
-            "Output Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "Input Noise": "N/A",
-            "Offset Drift": "N/A",
-            "Gain Drift": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-16, QFN-20"
           },
           "features": [
             "Quad 16-bit DAC with voltage output",
@@ -716,9 +671,7 @@
         "PSRR",
         "Output Noise",
         "Line Regulation",
-        "Load Regulation",
-        "Voltage Rating",
-        "Current Rating"
+        "Load Regulation"
       ],
       "series": [
         {
@@ -841,14 +794,7 @@
             "Current Limit": "4.5A typical",
             "Thermal Shutdown": "165°C with 15°C hysteresis",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOP-8, QFN-12",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Output Noise": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP-8, QFN-12"
           },
           "features": [
             "Wide input voltage range: 4.5V to 36V",
@@ -1016,13 +962,7 @@
             "Line Regulation": "0.02%/V",
             "Load Regulation": "0.3%/A",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, SOT-89, DFN-6",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Current Limit": "N/A",
-            "Thermal Shutdown": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-23-5, SOT-89, DFN-6"
           },
           "features": [
             "High PSRR: 80dB at 1kHz",
@@ -1189,14 +1129,7 @@
             "Current Limit": "4A typical",
             "Thermal Shutdown": "160°C with 20°C hysteresis",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-6, DFN-8",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Output Noise": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-23-6, DFN-8"
           },
           "features": [
             "Optimized for 12V input applications",
@@ -1243,13 +1176,7 @@
             "Line Regulation": "0.01%/V",
             "Load Regulation": "0.2%/A",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, DFN-6",
-            "Switching Frequency": "N/A",
-            "Efficiency": "N/A",
-            "Current Limit": "N/A",
-            "Thermal Shutdown": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-23-5, DFN-6"
           },
           "features": [
             "Ultra-low output noise: 10uVrms",
@@ -1297,9 +1224,7 @@
         "Gate Drive Current",
         "Control Interface",
         "Speed Range",
-        "Efficiency",
-        "Voltage Rating",
-        "Current Rating"
+        "Efficiency"
       ],
       "series": [
         {
@@ -1421,13 +1346,7 @@
             "Logic Supply": "2.7V - 5.5V",
             "Protection": "Overcurrent, overtemperature, short-circuit",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "TSSOP-24, QFN-32",
-            "Gate Drive Current": "N/A",
-            "Control Interface": "N/A",
-            "Speed Range": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-24, QFN-32"
           },
           "features": [
             "Dual H-bridge for two DC motors or one stepper",
@@ -1594,12 +1513,7 @@
             "Efficiency": "Up to 95%",
             "Protection": "Overcurrent, overvoltage, overtemperature, stall detection",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "QFN-48, TQFP-64",
-            "RDS(on)": "N/A",
-            "Current Sensing": "N/A",
-            "Logic Supply": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "QFN-48, TQFP-64"
           },
           "features": [
             "Three-phase BLDC motor control",
@@ -1766,13 +1680,7 @@
             "Logic Supply": "3.3V - 5V",
             "Protection": "Overcurrent, overtemperature, undervoltage",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "HTSSOP-28, QFN-32",
-            "Gate Drive Current": "N/A",
-            "Control Interface": "N/A",
-            "Speed Range": "N/A",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "HTSSOP-28, QFN-32"
           },
           "features": [
             "Quad half-bridge configuration",
@@ -1817,13 +1725,7 @@
             "Efficiency": "Up to 93%",
             "Protection": "Overcurrent, locked rotor, overtemperature",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "QFN-24, TSSOP-24",
-            "Output Current": "N/A",
-            "RDS(on)": "N/A",
-            "Current Sensing": "N/A",
-            "Logic Supply": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "QFN-24, TSSOP-24"
           },
           "features": [
             "10A gate drive for high-power motors",
@@ -1872,8 +1774,6 @@
         "Temperature Range",
         "Gain Range",
         "Gain Error",
-        "Voltage Rating",
-        "Current Rating",
         "Input Common-Mode Range"
       ],
       "series": [
@@ -1998,12 +1898,7 @@
             "PSRR": "110dB",
             "Supply Voltage": "2.7V - 5.5V single, ±1.35V - ±2.75V dual",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, SOIC-8, MSOP-8",
-            "Gain Range": "N/A",
-            "Gain Error": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Input Common-Mode Range": "N/A"
+            "Package": "SOT-23-5, SOIC-8, MSOP-8"
           },
           "features": [
             "Ultra-low offset voltage: 10uV max",
@@ -2182,11 +2077,7 @@
             "Input Bias Current": "2nA max",
             "Supply Voltage": "2.7V - 5.5V single, ±1.35V - ±2.75V dual",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOIC-8, MSOP-8, DFN-8",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Input Common-Mode Range": "N/A"
+            "Package": "SOIC-8, MSOP-8, DFN-8"
           },
           "features": [
             "High CMRR: 120dB minimum",
@@ -2364,12 +2255,7 @@
             "PSRR": "120dB",
             "Supply Voltage": "2.2V - 5.5V single, ±1.1V - ±2.75V dual",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOT-23-5, SOIC-8, MSOP-8",
-            "Gain Range": "N/A",
-            "Gain Error": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Input Common-Mode Range": "N/A"
+            "Package": "SOT-23-5, SOIC-8, MSOP-8"
           },
           "features": [
             "Ultra-low offset: 1μV max",
@@ -2416,12 +2302,7 @@
             "Bandwidth": "600kHz at Gain=1",
             "Supply Voltage": "±5V to ±15V dual supply",
             "Temperature Range": "-40°C to +85°C (Industrial), -40°C to +125°C (Automotive)",
-            "Package": "SOIC-8, DIP-8",
-            "Input Bias Current": "N/A",
-            "Slew Rate": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOIC-8, DIP-8"
           },
           "features": [
             "±60V input common-mode range",

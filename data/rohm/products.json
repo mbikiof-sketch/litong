@@ -229,13 +229,7 @@
               ]
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A",
-            "Rds(on)": "N/A"
-          },
+          "specifications": {},
           "name": "SiC MOSFETs SCT3022AL"
         },
         {
@@ -375,13 +369,7 @@
               ]
             }
           ],
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A",
-            "Rds(on)": "N/A"
-          },
+          "specifications": {},
           "name": "SiC MOSFETs SCT3080KL"
         },
         {
@@ -525,8 +513,7 @@
             "Current Rating": "40A",
             "Rds(on)": "40mΩ",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-247-4L",
-            "Specifications": "N/A"
+            "Package": "TO-247-4L"
           },
           "name": "SiC MOSFETs SCT3040KL"
         },
@@ -671,8 +658,7 @@
             "Current Rating": "118A",
             "Rds(on)": "17mΩ",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-247-4L",
-            "Specifications": "N/A"
+            "Package": "TO-247-4L"
           },
           "name": "SiC MOSFETs SCT3017AL"
         }
@@ -743,31 +729,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "rohm-si001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A",
-            "Forward Voltage": "N/A"
-          },
+          "specifications": {},
           "name": "SiC Schottky Barrier Diodes ROHM-SI001"
         },
         {
@@ -797,31 +761,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "rohm-si002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Status": "N/A",
-            "Forward Voltage": "N/A"
-          },
+          "specifications": {},
           "name": "SiC Schottky Barrier Diodes ROHM-SI002"
         },
         {
@@ -967,8 +909,7 @@
             "Current Rating": "20A",
             "Forward Voltage": "1.35V typical",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-220AC",
-            "Status": "N/A"
+            "Package": "TO-220AC"
           },
           "name": "SiC Schottky Barrier Diodes SCH2080KE"
         },
@@ -1115,8 +1056,7 @@
             "Current Rating": "20A",
             "Forward Voltage": "1.45V typical",
             "Temperature Range": "-40°C to +175°C",
-            "Package": "TO-220AC",
-            "Status": "N/A"
+            "Package": "TO-220AC"
           },
           "name": "SiC Schottky Barrier Diodes SCT2120AF"
         }
@@ -1519,30 +1459,9 @@
               "useCase": "Factory automation"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-001",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-002",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-003",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "rohm-po001",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
-          },
+          "specifications": {},
           "name": "Power Modules ROHM-PO001"
         },
         {
@@ -1572,30 +1491,9 @@
               "useCase": "Industrial automation and automotive systems"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-004",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-005",
-              "description": "",
-              "link": ""
-            },
-            {
-              "partNumber": "COMP-006",
-              "description": "",
-              "link": ""
-            }
-          ],
+          "companionParts": [],
           "slug": "rohm-po002",
-          "specifications": {
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
-          },
+          "specifications": {},
           "name": "Power Modules ROHM-PO002"
         },
         {
@@ -1631,53 +1529,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-3?",
@@ -1759,53 +1612,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMODULES-4?",

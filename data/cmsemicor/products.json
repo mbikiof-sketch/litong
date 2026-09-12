@@ -67,14 +67,7 @@
             "I2C": "1-channel",
             "Operating Voltage": "1.8V to 5.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "SSOP24, QFN24, TSSOP20, QFN20",
-            "Touch Channels": "N/A",
-            "LCD Driver": "N/A",
-            "LED Driver": "N/A",
-            "Low Power Modes": "N/A",
-            "LIN": "N/A",
-            "Certification": "N/A",
-            "CAN": "N/A"
+            "Package": "SSOP24, QFN24, TSSOP20, QFN20"
           },
           "features": [
             "ARM Cortex-M0+ core up to 64MHz",
@@ -275,12 +268,7 @@
             "LED Driver": "High current",
             "Operating Voltage": "1.8V to 5.5V",
             "Temperature": "-40°C to 105°C",
-            "Package": "LQFP44, LQFP48, LQFP64",
-            "PWM": "N/A",
-            "Low Power Modes": "N/A",
-            "LIN": "N/A",
-            "Certification": "N/A",
-            "CAN": "N/A"
+            "Package": "LQFP44, LQFP48, LQFP64"
           },
           "features": [
             "ARM Cortex-M0+ core up to 64MHz",
@@ -481,12 +469,7 @@
             "LED Driver": "High current",
             "Operating Voltage": "1.8V to 5.5V",
             "Temperature": "-40°C to 105°C",
-            "Package": "LQFP44, LQFP48",
-            "PWM": "N/A",
-            "Low Power Modes": "N/A",
-            "LIN": "N/A",
-            "Certification": "N/A",
-            "CAN": "N/A"
+            "Package": "LQFP44, LQFP48"
           },
           "features": [
             "ARM Cortex-M0+ core up to 64MHz",
@@ -683,14 +666,7 @@
             "Low Power Modes": "Sleep, Deep Sleep, Stop",
             "Operating Voltage": "1.8V to 5.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "QFN32, LQFP32",
-            "PWM": "N/A",
-            "Touch Channels": "N/A",
-            "LCD Driver": "N/A",
-            "LED Driver": "N/A",
-            "LIN": "N/A",
-            "Certification": "N/A",
-            "CAN": "N/A"
+            "Package": "QFN32, LQFP32"
           },
           "features": [
             "ARM Cortex-M0+ core up to 32MHz",
@@ -888,13 +864,7 @@
             "Operating Voltage": "2.7V to 5.5V",
             "Temperature": "-40°C to 125°C",
             "Package": "QFN32, LQFP32",
-            "Certification": "AEC-Q100 Grade 1",
-            "PWM": "N/A",
-            "Touch Channels": "N/A",
-            "LCD Driver": "N/A",
-            "LED Driver": "N/A",
-            "Low Power Modes": "N/A",
-            "CAN": "N/A"
+            "Certification": "AEC-Q100 Grade 1"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",
@@ -1093,12 +1063,7 @@
             "Operating Voltage": "2.7V to 5.5V",
             "Temperature": "-40°C to 125°C",
             "Package": "LQFP48, LQFP64",
-            "Certification": "AEC-Q100 Grade 1",
-            "PWM": "N/A",
-            "Touch Channels": "N/A",
-            "LCD Driver": "N/A",
-            "LED Driver": "N/A",
-            "Low Power Modes": "N/A"
+            "Certification": "AEC-Q100 Grade 1"
           },
           "features": [
             "AEC-Q100 Grade 1 qualified",
@@ -1386,17 +1351,7 @@
             "PWM": "Built-in",
             "LED Driver": "Yes",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP28, SSOP24",
-            "Flash": "N/A",
-            "RAM": "N/A",
-            "Touch": "N/A",
-            "ADC": "N/A",
-            "Op-Amp": "N/A",
-            "Comparators": "N/A",
-            "LCD Driver": "N/A",
-            "I2C": "N/A",
-            "SPI": "N/A",
-            "Timer": "N/A"
+            "Package": "SOP28, SSOP24"
           },
           "features": [
             "8-bit RISC core with 16MHz/32MHz RC oscillator",
@@ -1595,10 +1550,7 @@
             "PWM": "5-channel",
             "USART": "Yes",
             "I2C": "Yes",
-            "Temperature": "-40°C to 85°C",
-            "MSSP": "N/A",
-            "SPI": "N/A",
-            "Timer": "N/A"
+            "Temperature": "-40°C to 85°C"
           },
           "features": [
             "8Kx16Bit Flash, 336B RAM",
@@ -1800,11 +1752,7 @@
             "I2C": "Yes",
             "PWM": "4-channel",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP16, SOP20",
-            "MSSP": "N/A",
-            "LED Driver": "N/A",
-            "LCD Driver": "N/A",
-            "Timer": "N/A"
+            "Package": "SOP16, SOP20"
           },
           "features": [
             "4Kx16Bit MTP Flash, 256B RAM",
@@ -2002,12 +1950,7 @@
             "I2C": "Yes",
             "PWM": "5-channel",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP20, SOP28",
-            "MSSP": "N/A",
-            "Op-Amp": "N/A",
-            "Comparators": "N/A",
-            "SPI": "N/A",
-            "Timer": "N/A"
+            "Package": "SOP20, SOP28"
           },
           "features": [
             "8Kx16Bit MTP Flash, 336B RAM",
@@ -2201,16 +2144,7 @@
             "PWM": "2-channel",
             "Timer": "8-bit",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP8, SOP14",
-            "USART": "N/A",
-            "MSSP": "N/A",
-            "LED Driver": "N/A",
-            "Touch": "N/A",
-            "Op-Amp": "N/A",
-            "Comparators": "N/A",
-            "LCD Driver": "N/A",
-            "I2C": "N/A",
-            "SPI": "N/A"
+            "Package": "SOP8, SOP14"
           },
           "features": [
             "1Kx16Bit OTP Flash, 64B RAM",
@@ -2404,16 +2338,7 @@
             "PWM": "4-channel",
             "Timer": "8/16-bit",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP14, SOP16",
-            "USART": "N/A",
-            "MSSP": "N/A",
-            "LED Driver": "N/A",
-            "Touch": "N/A",
-            "Op-Amp": "N/A",
-            "Comparators": "N/A",
-            "LCD Driver": "N/A",
-            "I2C": "N/A",
-            "SPI": "N/A"
+            "Package": "SOP14, SOP16"
           },
           "features": [
             "2Kx16Bit OTP Flash, 128B RAM",
@@ -2704,11 +2629,7 @@
             "Source Current": "Up to 45mA",
             "Operating Voltage": "2.4V to 4.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "QFN32",
-            "ADC 16-bit": "N/A",
-            "Sampling Rate": "N/A",
-            "ADC 20-bit": "N/A",
-            "Temp Sensor": "N/A"
+            "Package": "QFN32"
           },
           "features": [
             "First multi-channel dual-AD high-precision SoC in China",
@@ -2897,12 +2818,7 @@
             "Sink Current": "Up to 200mA",
             "Operating Voltage": "2.4V to 4.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "QFN40",
-            "Source Current": "N/A",
-            "ADC 16-bit": "N/A",
-            "Sampling Rate": "N/A",
-            "ADC 20-bit": "N/A",
-            "Temp Sensor": "N/A"
+            "Package": "QFN40"
           },
           "features": [
             "Enhanced 24-bit Sigma-Delta ADC",
@@ -3087,14 +3003,7 @@
             "PWM": "2-channel",
             "Operating Voltage": "2.4V to 4.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "QFN24",
-            "ADC 24-bit": "N/A",
-            "High Current IO": "N/A",
-            "Sink Current": "N/A",
-            "Source Current": "N/A",
-            "Sampling Rate": "N/A",
-            "ADC 20-bit": "N/A",
-            "Temp Sensor": "N/A"
+            "Package": "QFN24"
           },
           "features": [
             "16-bit Sigma-Delta ADC",
@@ -3277,16 +3186,7 @@
             "PWM": "2-channel",
             "Operating Voltage": "2.0V to 5.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "SOP16, QFN20",
-            "ADC 24-bit": "N/A",
-            "Effective Resolution": "N/A",
-            "PGA": "N/A",
-            "High Current IO": "N/A",
-            "Sink Current": "N/A",
-            "Source Current": "N/A",
-            "ADC 16-bit": "N/A",
-            "ADC 20-bit": "N/A",
-            "Temp Sensor": "N/A"
+            "Package": "SOP16, QFN20"
           },
           "features": [
             "12-bit SAR ADC",
@@ -3472,13 +3372,7 @@
             "PWM": "3-channel",
             "Operating Voltage": "2.4V to 4.5V",
             "Temperature": "-40°C to 105°C",
-            "Package": "QFN32",
-            "ADC 24-bit": "N/A",
-            "High Current IO": "N/A",
-            "Sink Current": "N/A",
-            "Source Current": "N/A",
-            "ADC 16-bit": "N/A",
-            "Sampling Rate": "N/A"
+            "Package": "QFN32"
           },
           "features": [
             "20-bit Sigma-Delta ADC",
@@ -3664,13 +3558,7 @@
             "High Current IO": "Up to 24",
             "Operating Voltage": "2.4V to 4.5V",
             "Temperature": "-40°C to 85°C",
-            "Package": "QFN48",
-            "Sink Current": "N/A",
-            "Source Current": "N/A",
-            "ADC 16-bit": "N/A",
-            "Sampling Rate": "N/A",
-            "ADC 20-bit": "N/A",
-            "Temp Sensor": "N/A"
+            "Package": "QFN48"
           },
           "features": [
             "8-channel 24-bit Sigma-Delta ADC",

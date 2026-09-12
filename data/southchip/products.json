@@ -78,10 +78,7 @@
         "Charge Voltage",
         "Input Voltage",
         "Standby Current",
-        "Efficiency",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Efficiency"
       ],
       "series": [
         {
@@ -183,11 +180,7 @@
             "Charge Voltage": "4.2V ±1%",
             "Input Voltage": "4.5V to 6.5V",
             "Standby Current": "<2μA",
-            "Package": "SOP-8",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "Programmable charge current up to 1A",
@@ -331,11 +324,7 @@
             "Charge Voltage": "4.2V ±0.5%",
             "Input Voltage": "4.5V to 12V",
             "Efficiency": "Up to 95%",
-            "Package": "QFN-24",
-            "Standby Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "3A synchronous switching charger",
@@ -471,11 +460,7 @@
             "Charge Voltage": "4.2V/4.35V/4.4V programmable",
             "Input Voltage": "4.5V to 22V",
             "Efficiency": "Up to 97%",
-            "Package": "QFN-32",
-            "Standby Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "5A synchronous buck-boost charger",
@@ -616,11 +601,7 @@
             "Charge Voltage": "4.2V ±1%",
             "Input Voltage": "4.5V to 6.5V",
             "Standby Current": "<1μA",
-            "Package": "SOT-23-5",
-            "Efficiency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "280mA linear charger",
@@ -759,8 +740,6 @@
         "Current Accuracy",
         "SOC Accuracy",
         "Interface",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range"
       ],
       "series": [
@@ -871,10 +850,7 @@
             "Current Accuracy": "±1%",
             "SOC Accuracy": "3-5%",
             "Interface": "I2C",
-            "Package": "WLCSP-9",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "WLCSP-9"
           },
           "features": [
             "Impedance tracking technology",
@@ -1020,10 +996,7 @@
             "Current Accuracy": "±1%",
             "SOC Accuracy": "3-5%",
             "Interface": "I2C",
-            "Package": "TSSOP-14",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP-14"
           },
           "features": [
             "2-4 series cell support",
@@ -1159,10 +1132,7 @@
             "Current Accuracy": "±1%",
             "SOC Accuracy": "3-5%",
             "Interface": "I2C",
-            "Package": "WLCSP-6",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "WLCSP-6"
           },
           "features": [
             "Ultra-low power (<50μA operating)",
@@ -1300,8 +1270,6 @@
             "SOC Accuracy": "3-5%",
             "Interface": "I2C",
             "Package": "QFN-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
             "Temperature Range": "-40°C to +85°C"
           },
           "features": [
@@ -1435,10 +1403,7 @@
         "Input Voltage",
         "Output Current",
         "Efficiency",
-        "Switching Frequency",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Switching Frequency"
       ],
       "series": [
         {
@@ -1547,10 +1512,7 @@
             "Output Current": "Up to 3A",
             "Efficiency": "Up to 96%",
             "Switching Frequency": "500kHz",
-            "Package": "SOT-23-6",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-6"
           },
           "features": [
             "Synchronous rectification for high efficiency",
@@ -1695,10 +1657,7 @@
             "Output Current": "Up to 2A",
             "Efficiency": "Up to 94%",
             "Switching Frequency": "500kHz",
-            "Package": "SOT-23-5",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT-23-5"
           },
           "features": [
             "2A synchronous buck converter",
@@ -1831,10 +1790,7 @@
             "Output Current": "Up to 1A",
             "Efficiency": "Up to 92%",
             "Switching Frequency": "300kHz",
-            "Package": "ESOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "ESOP-8"
           },
           "features": [
             "Wide input voltage range (4.5V-60V)",
@@ -1968,10 +1924,7 @@
             "Output Current": "Up to 5A",
             "Efficiency": "Up to 96%",
             "Switching Frequency": "200kHz to 1MHz",
-            "Package": "QFN-20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN-20"
           },
           "features": [
             "5A continuous output current",
@@ -2104,9 +2057,6 @@
         "System Current",
         "Charge Current",
         "Dropout Voltage",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "On-Resistance",
         "Current Limit"
       ],
@@ -2206,12 +2156,7 @@
             "System Current": "Up to 2.5A",
             "Charge Current": "Up to 1.5A",
             "Dropout Voltage": "<50mV",
-            "Package": "QFN-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "On-Resistance": "N/A",
-            "Current Limit": "N/A"
+            "Package": "QFN-16"
           },
           "features": [
             "Automatic power source selection",
@@ -2354,12 +2299,7 @@
             "System Current": "Up to 1.5A",
             "Charge Current": "Up to 1A",
             "Dropout Voltage": "<50mV",
-            "Package": "QFN-12",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "On-Resistance": "N/A",
-            "Current Limit": "N/A"
+            "Package": "QFN-12"
           },
           "features": [
             "Compact QFN-12 package",
@@ -2494,12 +2434,7 @@
             "System Current": "Up to 5A",
             "Charge Current": "Up to 3A",
             "Dropout Voltage": "<50mV",
-            "Package": "QFN-24",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "On-Resistance": "N/A",
-            "Current Limit": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "5A system current capability",
@@ -2634,12 +2569,7 @@
             "System Current": "Up to 3A",
             "On-Resistance": "<20mΩ",
             "Current Limit": "Programmable 0.5A-3A",
-            "Package": "WLCSP-6",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Charge Current": "N/A",
-            "Dropout Voltage": "N/A"
+            "Package": "WLCSP-6"
           },
           "features": [
             "Ultra-low on-resistance (<20mΩ)",

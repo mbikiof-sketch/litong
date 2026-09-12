@@ -152,10 +152,7 @@
             "Continuous Current": "60A @ Tc=25°C",
             "Package": "TO-247-3",
             "Gate Charge": "45nC",
-            "Switching Energy": "Eon=85μJ, Eoff=95μJ @ 400V/20A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Switching Energy": "Eon=85μJ, Eoff=95μJ @ 400V/20A"
           },
           "features": [
             "Low on-resistance for reduced conduction losses",
@@ -296,10 +293,7 @@
             "Continuous Current": "55A @ Tc=25°C",
             "Package": "TO-247-4 (Kelvin source)",
             "Gate Charge": "65nC",
-            "Switching Energy": "Eon=120μJ, Eoff=110μJ @ 800V/30A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Switching Energy": "Eon=120μJ, Eoff=110μJ @ 800V/30A"
           },
           "features": [
             "1200V rating for 800V EV battery systems",
@@ -440,10 +434,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Rds(on)": "N/A",
-            "Continuous Current": "N/A",
-            "Gate Charge": "N/A",
-            "Switching Energy": "N/A",
             "Specifications": "1200V 42A"
           },
           "features": [
@@ -463,53 +453,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-3?",
@@ -572,10 +517,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Rds(on)": "N/A",
-            "Continuous Current": "N/A",
-            "Gate Charge": "N/A",
-            "Switching Energy": "N/A",
             "Specifications": "1200V 60A"
           },
           "features": [
@@ -595,53 +536,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for SICMOSFETS-4?",
@@ -801,9 +697,7 @@
             "Vce(sat)": "1.65V typical @ 75A",
             "Switching Loss": "Eon=2.5mJ, Eoff=3.2mJ @ 300V/75A",
             "Package": "Standard 34mm",
-            "Isolation": "2500Vrms",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Isolation": "2500Vrms"
           },
           "features": [
             "Trench-gate field-stop technology",
@@ -946,9 +840,7 @@
             "Vce(sat)": "1.85V typical @ 50A",
             "Switching Loss": "Eon=3.2mJ, Eoff=4.1mJ @ 600V/50A",
             "Package": "Standard 34mm half-bridge",
-            "Isolation": "2500Vrms",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Isolation": "2500Vrms"
           },
           "features": [
             "Optimized for PFC applications",
@@ -1089,9 +981,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Vce(sat)": "N/A",
-            "Switching Loss": "N/A",
-            "Isolation": "N/A",
             "Specifications": "1200V 600A"
           },
           "features": [
@@ -1111,53 +1000,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
@@ -1220,9 +1064,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Vce(sat)": "N/A",
-            "Switching Loss": "N/A",
-            "Isolation": "N/A",
             "Specifications": "1200V 450A"
           },
           "features": [
@@ -1242,53 +1083,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
@@ -1354,7 +1150,6 @@
         "Interface",
         "Voltage Rating",
         "Current Rating",
-        "Temperature Range",
         "Power Range",
         "Isolation",
         "Operating Temperature"
@@ -1452,13 +1247,7 @@
             "Current": "15A continuous, 25A peak",
             "Switching Frequency": "Up to 20kHz",
             "Protection Features": "OCP, SCP, UVLO, OTP",
-            "Interface": "3.3V/5V logic compatible",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Power Range": "N/A",
-            "Isolation": "N/A",
-            "Operating Temperature": "N/A"
+            "Interface": "3.3V/5V logic compatible"
           },
           "features": [
             "Six IGBTs with integrated gate drivers",
@@ -1597,13 +1386,7 @@
             "Power Range": "Up to 2.2kW",
             "Switching Frequency": "Up to 20kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)",
-            "Power Rating": "N/A",
-            "Voltage": "N/A",
-            "Current": "N/A",
-            "Protection Features": "N/A",
-            "Interface": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-20°C to +100°C (Tj)"
           },
           "features": [
             "20A continuous output current",
@@ -1644,13 +1427,7 @@
             "Power Range": "Up to 1.5kW",
             "Switching Frequency": "Up to 30kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)",
-            "Power Rating": "N/A",
-            "Voltage": "N/A",
-            "Current": "N/A",
-            "Protection Features": "N/A",
-            "Interface": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-20°C to +100°C (Tj)"
           },
           "features": [
             "15A continuous output current",
@@ -1691,13 +1468,7 @@
             "Power Range": "Up to 3.7kW",
             "Switching Frequency": "Up to 30kHz",
             "Isolation": "2500Vrms",
-            "Operating Temperature": "-20°C to +100°C (Tj)",
-            "Power Rating": "N/A",
-            "Voltage": "N/A",
-            "Current": "N/A",
-            "Protection Features": "N/A",
-            "Interface": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-20°C to +100°C (Tj)"
           },
           "features": [
             "30A continuous output current",
@@ -1737,7 +1508,6 @@
         "Forward Voltage",
         "Reverse Recovery",
         "Temperature",
-        "Temperature Range",
         "Operating Temperature"
       ],
       "applications": [
@@ -1833,9 +1603,7 @@
             "Forward Voltage": "1.45V typical @ 60A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Package": "TO-247-2",
-            "Temperature": "-55°C to +175°C",
-            "Temperature Range": "N/A",
-            "Operating Temperature": "N/A"
+            "Temperature": "-55°C to +175°C"
           },
           "features": [
             "Zero reverse recovery charge",
@@ -1974,9 +1742,7 @@
             "Forward Voltage": "1.40V @ 40A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-247",
-            "Temperature": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "features": [
             "650V voltage rating for 380-460V AC systems",
@@ -2016,9 +1782,7 @@
             "Forward Voltage": "1.50V @ 40A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-247",
-            "Temperature": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-247"
           },
           "features": [
             "1200V voltage rating for high-voltage systems",
@@ -2058,9 +1822,7 @@
             "Forward Voltage": "1.35V @ 20A, 25°C",
             "Reverse Recovery": "Zero (Schottky barrier)",
             "Operating Temperature": "-55°C to +175°C",
-            "Package": "TO-220",
-            "Temperature": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TO-220"
           },
           "features": [
             "650V voltage rating for universal input applications",

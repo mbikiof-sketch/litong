@@ -73,9 +73,6 @@
         "Capacity",
         "ECC",
         "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Form Factor",
         "Organization",
         "Pin Count"
@@ -182,13 +179,7 @@
             "Module Type": "RDIMM",
             "Capacity": "48GB/96GB",
             "ECC": "Yes",
-            "Temperature": "0°C to 85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Form Factor": "N/A",
-            "Organization": "N/A",
-            "Pin Count": "N/A"
+            "Temperature": "0°C to 85°C"
           },
           "features": [
             "24Gb high-density dies",
@@ -346,13 +337,7 @@
             "Module Type": "UDIMM",
             "Capacity": "16GB/32GB",
             "ECC": "No",
-            "Temperature": "0°C to 85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Form Factor": "N/A",
-            "Organization": "N/A",
-            "Pin Count": "N/A"
+            "Temperature": "0°C to 85°C"
           },
           "features": [
             "16Gb density",
@@ -510,13 +495,7 @@
             "Organization": "x4/x8",
             "Temperature": "0°C to +95°C",
             "Package": "FBGA",
-            "Pin Count": "288",
-            "Module Type": "N/A",
-            "Capacity": "N/A",
-            "ECC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Pin Count": "288"
           },
           "features": [
             "24Gb high density",
@@ -577,23 +556,7 @@
               "link": "/cxmt/products/ddr5-memory/cxmt-ddr5-24gb-7200-rdimm"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for DDR5MEMORY-3?",
@@ -682,13 +645,7 @@
             "Organization": "x8",
             "Temperature": "0°C to +95°C",
             "Package": "FBGA",
-            "Pin Count": "288",
-            "Module Type": "N/A",
-            "Capacity": "N/A",
-            "ECC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Pin Count": "288"
           },
           "features": [
             "16Gb density",
@@ -749,23 +706,7 @@
               "link": "/cxmt/products/ddr5-memory/cxmt-ddr5-16gb-8000-udimm"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for DDR5MEMORY-4?",
@@ -859,9 +800,6 @@
         "Capacity",
         "Power",
         "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Organization",
         "Pin Count"
       ],
@@ -963,12 +901,7 @@
             "Package": "PoP/MCP",
             "Capacity": "16GB/32GB",
             "Power": "Ultra-low",
-            "Temperature": "-25°C to 85°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Organization": "N/A",
-            "Pin Count": "N/A"
+            "Temperature": "-25°C to 85°C"
           },
           "features": [
             "16Gb high density",
@@ -1124,12 +1057,7 @@
             "Organization": "x16",
             "Temperature": "-25°C to +105°C",
             "Package": "VFBGA",
-            "Pin Count": "315",
-            "Capacity": "N/A",
-            "Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Pin Count": "315"
           },
           "features": [
             "12Gb density",
@@ -1190,23 +1118,7 @@
               "link": "/cxmt/products/lpddr5x-memory/cxmt-lpddr5x-12gb-9600"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for LPDDR5XMEMORY-2?",
@@ -1279,176 +1191,6 @@
           "description": "The CXMT LPDDR5X 12Gb 9600Mbps delivers exceptional mobile memory performance for flagship smartphones and tablets. With ultra-low power consumption and high bandwidth, it enables advanced mobile experiences."
         },
         {
-          "partNumber": "CXMT-LPDDR5X-12Gb-9600",
-          "name": "CXMT LPDDR5X 12Gb 9600Mbps",
-          "shortDescription": "12Gb LPDDR5X with 9600Mbps speed for premium mobile devices",
-          "descriptionParagraphs": [
-            "The LPDDR5XMEMORY-3 is a high-performance component designed for demanding industrial applications.",
-            "This product features excellent electrical characteristics and reliable performance.",
-            "Suitable for various industrial and consumer electronics applications."
-          ],
-          "specifications": {
-            "Density": "12Gb",
-            "Speed": "9600Mbps",
-            "Voltage": "0.5V / 0.45V",
-            "Organization": "x16",
-            "Temperature": "-25°C to +105°C",
-            "Package": "VFBGA",
-            "Pin Count": "315",
-            "Capacity": "N/A",
-            "Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "12Gb density",
-            "9600Mbps high speed",
-            "Ultra-low power",
-            "DVFS support",
-            "Byte mode",
-            "Multi-die package"
-          ],
-          "applications": [
-            "Flagship smartphones",
-            "Premium tablets",
-            "AR/VR devices",
-            "Mobile gaming"
-          ],
-          "faeReview": {
-            "author": "Michael Chen",
-            "title": "Senior FAE",
-            "content": "The CXMT-LPDDR5X-12Gb-9600 is an excellent choice for LPDDR5X Memory applications. 12Gb LPDDR5X with 9600Mbps speed for premium mobile devices Based on extensive field experience, this product delivers reliable performance and meets JEDEC specifications.",
-            "highlight": "12Gb density"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "CXMT-LPDDR5X-8Gb-9600",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock",
-              "specifications": {
-                "density": "8Gb",
-                "speed": "Same"
-              }
-            },
-            {
-              "partNumber": "CXMT-LPDDR5X-12Gb-9600",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock",
-              "specifications": {
-                "density": "Same",
-                "speed": "5600Mbps"
-              },
-              "link": "/cxmt/products/lpddr5x-memory/cxmt-lpddr5x-12gb-9600"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for LPDDR5XMEMORY-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is LPDDR5XMEMORY-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of LPDDR5XMEMORY-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for LPDDR5XMEMORY-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for LPDDR5XMEMORY-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on cxmt CXMT-LPDDR5X-12Gb-9600, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ],
-          "alternatives": {
-            "parts": [
-              {
-                "manufacturer": "Competitor",
-                "partNumber": "ALT-LPDDR5XMEMORY-3-A",
-                "comparison": "LPDDR5XMEMORY-3=><ALT-LPDDR5XMEMORY-3-A: Memory Type DDR5=><DDR5, Capacity Similar=><Similar, Speed Comparable=><Comparable, Direct Replacement Compatible",
-                "specs": {
-                  "voltage": "1.1V",
-                  "current": "N/A"
-                }
-              },
-              {
-                "manufacturer": "Competitor",
-                "partNumber": "ALT-LPDDR5XMEMORY-3-B",
-                "comparison": "LPDDR5XMEMORY-3=><ALT-LPDDR5XMEMORY-3-B: Memory Type DDR5=><DDR5, Capacity Similar=><Similar, Speed Comparable=><Comparable, Direct Replacement Compatible",
-                "specs": {
-                  "voltage": "1.1V",
-                  "current": "N/A"
-                }
-              }
-            ]
-          },
-          "description": "The CXMT LPDDR5X 12Gb 9600Mbps delivers exceptional mobile memory performance for flagship smartphones and tablets. With ultra-low power consumption and high bandwidth, it enables advanced mobile experiences."
-        },
-        {
           "partNumber": "CXMT-LPDDR5X-8Gb-8533",
           "name": "CXMT LPDDR5X 8Gb 8533Mbps",
           "shortDescription": "8Gb LPDDR5X with 8533Mbps speed for mainstream mobile devices",
@@ -1464,12 +1206,7 @@
             "Organization": "x16",
             "Temperature": "-25°C to +105°C",
             "Package": "VFBGA",
-            "Pin Count": "315",
-            "Capacity": "N/A",
-            "Power": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Pin Count": "315"
           },
           "features": [
             "8Gb density",
@@ -1531,23 +1268,7 @@
               "link": "/cxmt/products/lpddr5x-memory/cxmt-lpddr5x-8gb-8533"
             }
           ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for LPDDR5XMEMORY-4?",

@@ -84,9 +84,7 @@
         "Operating Voltage",
         "Temperature Range",
         "SRAM",
-        "USB",
-        "Voltage Rating",
-        "Current Rating"
+        "USB"
       ],
       "selectionGuide": "Select PIC for cost-sensitive applications with analog integration, AVR for code efficiency, SAM for 32-bit performance and connectivity.",
       "selectionGuideLink": {
@@ -165,11 +163,7 @@
             "ADC": "12-bit, 30 channels",
             "Operating Voltage": "1.8V - 5.5V",
             "Package": "TQFP-44, QFN-44",
-            "Temperature Range": "-40°C to +85°C (Industrial)",
-            "SRAM": "N/A",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C (Industrial)"
           },
           "features": [
             "XLP technology for ultra-low power consumption",
@@ -334,11 +328,7 @@
             "USB": "Full-speed Device + Host",
             "Operating Voltage": "1.62V - 3.63V",
             "Package": "TQFP-48, QFN-48",
-            "Temperature Range": "-40°C to +85°C (Industrial)",
-            "RAM": "N/A",
-            "EEPROM": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C (Industrial)"
           },
           "features": [
             "ARM Cortex-M0+ processor up to 48MHz",
@@ -503,11 +493,7 @@
             "ADC": "10-bit, 6 channels",
             "Operating Voltage": "1.8V - 5.5V",
             "Package": "DIP-28, TQFP-32, QFN-32",
-            "Temperature Range": "-40°C to +85°C (Industrial)",
-            "SRAM": "N/A",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C (Industrial)"
           },
           "features": [
             "32KB in-system programmable Flash",
@@ -610,11 +596,7 @@
             "ADC": "10-bit, 8 channels",
             "Operating Voltage": "2.0V - 5.5V",
             "Package": "DIP-40, TQFP-44, PLCC-44",
-            "Temperature Range": "-40°C to +85°C (Industrial)",
-            "SRAM": "N/A",
-            "USB": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Temperature Range": "-40°C to +85°C (Industrial)"
           },
           "features": [
             "14KB Flash program memory",
@@ -754,15 +736,7 @@
             "Slew Rate": "0.6V/μs",
             "Package": "PDIP-8, SOIC-8, MSOP-8",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "CMOS",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Resolution": "N/A",
-            "Sampling Rate": "N/A",
-            "Input Channels": "N/A",
-            "Interface": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
+            "Architecture": "CMOS"
           },
           "features": [
             "Rail-to-rail input and output",
@@ -815,15 +789,7 @@
             "Slew Rate": "0.6V/μs",
             "Package": "SC70-5, SOT-23-5, PDIP-8",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "CMOS",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Resolution": "N/A",
-            "Sampling Rate": "N/A",
-            "Input Channels": "N/A",
-            "Interface": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
+            "Architecture": "CMOS"
           },
           "features": [
             "Tiny SC70 package option",
@@ -874,15 +840,7 @@
             "Slew Rate": "2.5V/μs",
             "Package": "PDIP-8, SOIC-8, MSOP-8",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "Zero-Drift CMOS",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Resolution": "N/A",
-            "Sampling Rate": "N/A",
-            "Input Channels": "N/A",
-            "Interface": "N/A",
-            "Active Current": "N/A",
-            "Standby Current": "N/A"
+            "Architecture": "Zero-Drift CMOS"
           },
           "features": [
             "Ultra-low input offset voltage",
@@ -937,13 +895,7 @@
             "Standby Current": "500nA typical",
             "Package": "PDIP-8, SOIC-8, MSOP-8",
             "Temperature Range": "-40°C to +85°C",
-            "Architecture": "SAR ADC",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Gain Bandwidth": "N/A",
-            "Input Offset": "N/A",
-            "Quiescent Current": "N/A",
-            "Slew Rate": "N/A"
+            "Architecture": "SAR ADC"
           },
           "features": [
             "12-bit resolution",
@@ -1039,17 +991,7 @@
             "PSRR": "70dB @ 1kHz",
             "Package": "SOT-23-3, SOT-89-3, TO-92",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "CMOS LDO",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Charge Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Termination": "N/A",
-            "Standby Current": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "External Components": "N/A"
+            "Architecture": "CMOS LDO"
           },
           "features": [
             "Ultra-low 2.0μA quiescent current",
@@ -1103,17 +1045,7 @@
             "PSRR": "44dB @ 1kHz",
             "Package": "SOT-23-3, TO-92",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "CMOS LDO",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Charge Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Termination": "N/A",
-            "Standby Current": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "External Components": "N/A"
+            "Architecture": "CMOS LDO"
           },
           "features": [
             "Ultra-low 1.6μA quiescent current",
@@ -1167,17 +1099,7 @@
             "Standby Current": "2μA typical",
             "Package": "SOT-23-5",
             "Temperature Range": "-40°C to +85°C",
-            "Architecture": "Linear Charger",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Output Current": "N/A",
-            "Quiescent Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Voltage": "N/A",
-            "PSRR": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "External Components": "N/A"
+            "Architecture": "Linear Charger"
           },
           "features": [
             "Programmable charge current",
@@ -1231,17 +1153,7 @@
             "External Components": "2 capacitors",
             "Package": "PDIP-8, SOIC-8",
             "Temperature Range": "-40°C to +85°C",
-            "Architecture": "Charge Pump",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "Quiescent Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "PSRR": "N/A",
-            "Charge Current": "N/A",
-            "Charge Voltage": "N/A",
-            "Trickle Charge": "N/A",
-            "Termination": "N/A",
-            "Standby Current": "N/A"
+            "Architecture": "Charge Pump"
           },
           "features": [
             "Voltage inversion or doubling",
@@ -1343,21 +1255,7 @@
             "Antenna": "Integrated PCB antenna",
             "Package": "Surface-mount module",
             "Temperature Range": "-40°C to +85°C",
-            "Architecture": "WiFi/BT Module",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "CAN Standard": "N/A",
-            "Max Data Rate": "N/A",
-            "Message Buffers": "N/A",
-            "Acceptance Filters": "N/A",
-            "Supply Voltage": "N/A",
-            "Bus Nodes": "N/A",
-            "Slope Control": "N/A",
-            "Protection": "N/A",
-            "Ethernet Standard": "N/A",
-            "Buffer Memory": "N/A",
-            "MAC Address": "N/A",
-            "PHY": "N/A"
+            "Architecture": "WiFi/BT Module"
           },
           "features": [
             "Dual WiFi + Bluetooth",
@@ -1411,22 +1309,7 @@
             "Supply Voltage": "2.7V - 5.5V",
             "Package": "PDIP-18, SOIC-18",
             "Temperature Range": "-40°C to +125°C (Extended)",
-            "Architecture": "CAN Controller",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "WiFi Standard": "N/A",
-            "Bluetooth": "N/A",
-            "Frequency": "N/A",
-            "Data Rate": "N/A",
-            "Security": "N/A",
-            "Antenna": "N/A",
-            "Bus Nodes": "N/A",
-            "Slope Control": "N/A",
-            "Protection": "N/A",
-            "Ethernet Standard": "N/A",
-            "Buffer Memory": "N/A",
-            "MAC Address": "N/A",
-            "PHY": "N/A"
+            "Architecture": "CAN Controller"
           },
           "features": [
             "CAN 2.0B compliant",
@@ -1482,22 +1365,7 @@
             "Protection": "Thermal shutdown, short-circuit",
             "Package": "PDIP-8, SOIC-8",
             "Temperature Range": "-40°C to +125°C",
-            "Architecture": "CAN Transceiver",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "WiFi Standard": "N/A",
-            "Bluetooth": "N/A",
-            "Frequency": "N/A",
-            "Data Rate": "N/A",
-            "Host Interface": "N/A",
-            "Security": "N/A",
-            "Antenna": "N/A",
-            "Message Buffers": "N/A",
-            "Acceptance Filters": "N/A",
-            "Ethernet Standard": "N/A",
-            "Buffer Memory": "N/A",
-            "MAC Address": "N/A",
-            "PHY": "N/A"
+            "Architecture": "CAN Transceiver"
           },
           "features": [
             "1 Mbps operation",
@@ -1552,22 +1420,7 @@
             "PHY": "Integrated 10BASE-T",
             "Package": "SOIC-28, SSOP-28, QFN-28",
             "Temperature Range": "-40°C to +85°C",
-            "Architecture": "Ethernet Controller",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "WiFi Standard": "N/A",
-            "Bluetooth": "N/A",
-            "Frequency": "N/A",
-            "Security": "N/A",
-            "Antenna": "N/A",
-            "CAN Standard": "N/A",
-            "Max Data Rate": "N/A",
-            "Message Buffers": "N/A",
-            "Acceptance Filters": "N/A",
-            "Supply Voltage": "N/A",
-            "Bus Nodes": "N/A",
-            "Slope Control": "N/A",
-            "Protection": "N/A"
+            "Architecture": "Ethernet Controller"
           },
           "features": [
             "Integrated MAC and PHY",

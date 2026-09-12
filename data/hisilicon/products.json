@@ -79,9 +79,6 @@
         "ISP",
         "Display Support",
         "Camera Support",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Big Cores",
         "Mid Cores",
         "Small Cores",
@@ -180,18 +177,7 @@
             "Storage": "UFS 3.1",
             "ISP": "Quad-core, 4K@60fps video",
             "Display Support": "Up to 4K@90Hz or QHD+@144Hz",
-            "Camera Support": "Up to 200MP single or 50MP dual",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Big Cores": "N/A",
-            "Mid Cores": "N/A",
-            "Small Cores": "N/A",
-            "5G": "N/A",
-            "Download Speed": "N/A",
-            "Memory": "N/A",
-            "Video": "N/A",
-            "Big Core": "N/A"
+            "Camera Support": "Up to 200MP single or 50MP dual"
           },
           "features": [
             "5nm process technology for best-in-class power efficiency",
@@ -379,18 +365,7 @@
             "Storage": "UFS 2.1",
             "ISP": "Dual-core, 4K@30fps video",
             "Display Support": "Up to FHD+@120Hz",
-            "Camera Support": "Up to 64MP single or 32MP dual",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Big Cores": "N/A",
-            "Mid Cores": "N/A",
-            "Small Cores": "N/A",
-            "5G": "N/A",
-            "Download Speed": "N/A",
-            "Memory": "N/A",
-            "Video": "N/A",
-            "Big Core": "N/A"
+            "Camera Support": "Up to 64MP single or 32MP dual"
           },
           "features": [
             "7nm process for excellent power efficiency",
@@ -559,17 +534,7 @@
             "5G": "Integrated SA/NSA",
             "Download Speed": "Up to 2.3Gbps",
             "Memory": "LPDDR4X",
-            "Video": "4K@60fps recording",
-            "5G Modem": "N/A",
-            "Memory Support": "N/A",
-            "Storage": "N/A",
-            "ISP": "N/A",
-            "Display Support": "N/A",
-            "Camera Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Big Core": "N/A"
+            "Video": "4K@60fps recording"
           },
           "features": [
             "Integrated 5G modem",
@@ -648,18 +613,7 @@
             "NPU": "1+1 Da Vinci",
             "5G": "Integrated SA/NSA",
             "Download Speed": "Up to 2.3Gbps",
-            "Memory": "LPDDR4X",
-            "5G Modem": "N/A",
-            "Memory Support": "N/A",
-            "Storage": "N/A",
-            "ISP": "N/A",
-            "Display Support": "N/A",
-            "Camera Support": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Big Cores": "N/A",
-            "Video": "N/A"
+            "Memory": "LPDDR4X"
           },
           "features": [
             "Integrated 5G modem",
@@ -746,9 +700,6 @@
         "Interconnect",
         "Scaling",
         "Form Factor",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "INT8 Performance",
         "FP16 Performance"
       ],
@@ -842,15 +793,7 @@
             "Video Encode": "8-channel 1080p H.264/H.265",
             "Interfaces": "PCIe 3.0, USB 3.0, GbE",
             "Temperature": "0°C to +70°C commercial",
-            "Security": "Hardware encryption, TrustZone",
-            "Interconnect": "N/A",
-            "Scaling": "N/A",
-            "Form Factor": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "INT8 Performance": "N/A",
-            "FP16 Performance": "N/A"
+            "Security": "Hardware encryption, TrustZone"
           },
           "features": [
             "16 TOPS INT8 performance at 8W power",
@@ -1021,15 +964,7 @@
             "Interfaces": "PCIe 4.0 x16",
             "Scaling": "Cluster up to 4096 cards",
             "Temperature": "5°C to +45°C",
-            "Form Factor": "Dual-slot FHFL card",
-            "Video Decode": "N/A",
-            "Video Encode": "N/A",
-            "Security": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "INT8 Performance": "N/A",
-            "FP16 Performance": "N/A"
+            "Form Factor": "Dual-slot FHFL card"
           },
           "features": [
             "256 TFLOPS FP16 training performance",
@@ -1177,94 +1112,6 @@
           ]
         },
         {
-          "partNumber": "Ascend 310",
-          "name": "Ascend 310 AI Processor",
-          "shortDescription": "High-efficiency AI inference processor with 16 TOPS INT8 performance for edge AI applications.",
-          "descriptionParagraphs": [
-            "The Ascend 310 is a high-efficiency AI inference processor delivering 16 TOPS INT8 and 8 TOPS FP16 performance. Built on 12nm process, it provides exceptional AI computing power with low power consumption.",
-            "Features Da Vinci architecture with dedicated AI cores, supporting mainstream deep learning frameworks including TensorFlow, PyTorch, and Caffe. Supports multiple precision modes: INT8, INT4, FP16.",
-            "Ideal for edge AI applications including smart cameras, autonomous vehicles, and industrial inspection systems."
-          ],
-          "specifications": {
-            "Process": "12nm",
-            "INT8 Performance": "16 TOPS",
-            "FP16 Performance": "8 TOPS",
-            "Architecture": "Da Vinci",
-            "Power": "8W typical",
-            "Memory": "LPDDR4X",
-            "Video Decode": "16-channel 1080p",
-            "Interfaces": "PCIe 3.0, USB 3.0",
-            "Temperature": "-40°C to +85°C",
-            "AI Performance": "N/A",
-            "Video Encode": "N/A",
-            "Security": "N/A",
-            "Interconnect": "N/A",
-            "Scaling": "N/A",
-            "Form Factor": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
-          },
-          "features": [
-            "16 TOPS INT8 performance",
-            "Da Vinci AI architecture",
-            "Multi-precision support",
-            "Low power consumption",
-            "16-channel video decode",
-            "Wide temperature range"
-          ],
-          "applications": [
-            "Edge AI servers",
-            "Smart cameras",
-            "Autonomous vehicles",
-            "Industrial inspection",
-            "Smart retail"
-          ],
-          "faeReview": {
-            "author": "Dr. Zhang Ming",
-            "title": "Senior FAE - AI Solutions",
-            "content": "The Ascend 310 delivers exceptional AI performance per watt. The Da Vinci architecture provides flexible precision modes for different AI workloads.",
-            "highlight": "Excellent edge AI performance"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "Ascend 910",
-              "brand": "Hisilicon",
-              "reason": "Higher performance",
-              "comparison": {
-                "performance": "256 TOPS > 16 TOPS",
-                "power": "310W > 8W"
-              },
-              "useCase": "Data center AI training",
-              "specifications": {
-                "INT8": "256 TOPS"
-              },
-              "priceDifference": "+400%",
-              "stockStatus": "In Stock",
-              "link": "/hisilicon/products/ai-accelerators/ascend-910"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Atlas 200",
-              "description": "AI accelerator module",
-              "category": "Module"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What frameworks are supported?",
-              "answer": "Ascend 310 supports TensorFlow, PyTorch, Caffe, and MindSpore through the CANN software stack.",
-              "decisionGuide": "Use CANN SDK for optimal performance.",
-              "keywords": [
-                "frameworks",
-                "CANN",
-                "MindSpore"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "Ascend 310P",
           "name": "Ascend 310P AI Processor",
           "shortDescription": "Enhanced AI inference processor with 22 TOPS INT8 performance for edge AI applications.",
@@ -1281,17 +1128,7 @@
             "Power": "8W typical",
             "Video Decode": "16-channel 1080p H.265",
             "Interfaces": "PCIe 3.0",
-            "Temperature": "-40°C to +85°C",
-            "AI Performance": "N/A",
-            "Memory": "N/A",
-            "Video Encode": "N/A",
-            "Security": "N/A",
-            "Interconnect": "N/A",
-            "Scaling": "N/A",
-            "Form Factor": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +85°C"
           },
           "features": [
             "22 TOPS INT8 performance",
@@ -1375,9 +1212,6 @@
         "Sockets",
         "Security",
         "Virtualization",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Architecture",
         "Network"
       ],
@@ -1469,12 +1303,7 @@
             "PCIe": "PCIe 4.0 x 40 lanes",
             "Sockets": "Dual-socket support",
             "Security": "Hardware encryption, Secure boot",
-            "Virtualization": "Hardware virtualization support",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Architecture": "N/A",
-            "Network": "N/A"
+            "Virtualization": "Hardware virtualization support"
           },
           "features": [
             "64 high-performance ARM cores",
@@ -1643,12 +1472,7 @@
             "PCIe": "PCIe 4.0 x 40 lanes",
             "Sockets": "Dual-socket support",
             "Security": "Hardware encryption, Secure boot",
-            "Virtualization": "Hardware virtualization support",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Architecture": "N/A",
-            "Network": "N/A"
+            "Virtualization": "Hardware virtualization support"
           },
           "features": [
             "48 high-performance ARM cores",
@@ -1804,13 +1628,7 @@
             "PCIe": "40 lanes PCIe 4.0",
             "Network": "100G RoCE",
             "Cache": "64MB L3",
-            "TDP": "180W",
-            "Sockets": "N/A",
-            "Security": "N/A",
-            "Virtualization": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "TDP": "180W"
           },
           "features": [
             "Up to 64 ARM cores",
@@ -1888,14 +1706,7 @@
             "Memory": "8-channel DDR4",
             "PCIe": "40 lanes PCIe 3.0",
             "Cache": "32MB L3",
-            "TDP": "135W",
-            "Sockets": "N/A",
-            "Security": "N/A",
-            "Virtualization": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Network": "N/A"
+            "TDP": "135W"
           },
           "features": [
             "32 ARM cores",
@@ -1981,9 +1792,6 @@
         "Form Factor",
         "Temperature",
         "Certification",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Process",
         "5G Download",
         "4G Download",
@@ -2084,21 +1892,7 @@
             "Interface": "Integrated or PCIe/USB",
             "Carrier Agg": "Up to 7CA in LTE",
             "MIMO": "4x4 MIMO support",
-            "Form Factor": "Integrated or discrete chip",
-            "Temperature": "N/A",
-            "Certification": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Process": "N/A",
-            "5G Download": "N/A",
-            "4G Download": "N/A",
-            "Modes": "N/A",
-            "Bands": "N/A",
-            "Upload": "N/A",
-            "Latency": "N/A",
-            "Download Speed": "N/A",
-            "Upload Speed": "N/A"
+            "Form Factor": "Integrated or discrete chip"
           },
           "features": [
             "6.5 Gbps peak download speed",
@@ -2263,21 +2057,7 @@
             "Interface": "PCIe 3.0 or USB 3.0",
             "Form Factor": "Compact M.2 or LGA",
             "Temperature": "-40°C to +85°C industrial",
-            "Certification": "GCF, FCC, CE",
-            "Carrier Agg": "N/A",
-            "MIMO": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Process": "N/A",
-            "5G Download": "N/A",
-            "4G Download": "N/A",
-            "Modes": "N/A",
-            "Bands": "N/A",
-            "Upload": "N/A",
-            "Latency": "N/A",
-            "Download Speed": "N/A",
-            "Upload Speed": "N/A"
+            "Certification": "GCF, FCC, CE"
           },
           "features": [
             "2.5 Gbps 5G speed for IoT",
@@ -2415,196 +2195,6 @@
                 "industrial certification",
                 "temperature rating",
                 "environmental testing"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "Balong 5000",
-          "name": "Balong 5000 5G Modem",
-          "shortDescription": "Multi-mode 5G modem supporting SA/NSA with 7nm process, up to 4.6Gbps download speed.",
-          "descriptionParagraphs": [
-            "The Balong 5000 is a multi-mode 5G modem supporting both SA (Standalone) and NSA (Non-Standalone) network architectures. Built on 7nm process for optimal power efficiency.",
-            "Delivers peak download speeds up to 4.6Gbps on 5G networks and 2.5Gbps on 4G LTE. Supports all major 5G frequency bands including sub-6GHz and mmWave.",
-            "The compact design enables integration into smartphones, CPEs, and IoT devices. Supports both NSA and SA network migration paths."
-          ],
-          "specifications": {
-            "Process": "7nm",
-            "5G Download": "Up to 4.6Gbps",
-            "4G Download": "Up to 2.5Gbps",
-            "Modes": "SA/NSA dual-mode",
-            "Bands": "Sub-6GHz, mmWave",
-            "Upload": "Up to 2.5Gbps",
-            "Latency": "As low as 1ms",
-            "Power": "Ultra-low power design",
-            "Technology": "N/A",
-            "5G Modes": "N/A",
-            "5G Bands": "N/A",
-            "Data Rate": "N/A",
-            "LTE": "N/A",
-            "Interface": "N/A",
-            "Carrier Agg": "N/A",
-            "MIMO": "N/A",
-            "Form Factor": "N/A",
-            "Temperature": "N/A",
-            "Certification": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Download Speed": "N/A",
-            "Upload Speed": "N/A"
-          },
-          "features": [
-            "SA/NSA dual-mode 5G",
-            "4.6Gbps peak download",
-            "Multi-band support",
-            "7nm power efficiency",
-            "Backward 4G compatible",
-            "Low latency mode"
-          ],
-          "applications": [
-            "5G smartphones",
-            "5G CPE devices",
-            "IoT modules",
-            "Mobile hotspots",
-            "Automotive connectivity"
-          ],
-          "faeReview": {
-            "author": "Dr. Chen Hua",
-            "title": "Senior FAE - Connectivity",
-            "content": "The Balong 5000 was one of the first multi-mode 5G modems. The SA/NSA support provides flexibility for global 5G deployments.",
-            "highlight": "Versatile 5G modem solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "Balong 711",
-              "brand": "Hisilicon",
-              "reason": "4G LTE option",
-              "comparison": {
-                "network": "4G vs 5G",
-                "price": "Lower"
-              },
-              "useCase": "4G-only devices",
-              "specifications": {
-                "Network": "4G LTE"
-              },
-              "priceDifference": "-50%",
-              "stockStatus": "In Stock",
-              "link": "/hisilicon/products/connectivity-solutions/balong-711"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Kirin 990 5G",
-              "description": "SoC with integrated 5G",
-              "category": "Processor",
-              "link": "/hisilicon/products/mobile-processors/kirin-990-5g"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Does it support mmWave?",
-              "answer": "Yes, Balong 5000 supports both sub-6GHz and mmWave frequency bands for global 5G compatibility.",
-              "decisionGuide": "Use for global 5G device deployment.",
-              "keywords": [
-                "mmWave",
-                "5G bands",
-                "sub-6GHz"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "Balong 711",
-          "name": "Balong 711 4G LTE Modem",
-          "shortDescription": "Cost-effective 4G LTE modem with 150Mbps download, for IoT and M2M applications.",
-          "descriptionParagraphs": [
-            "The Balong 711 is a cost-effective 4G LTE modem supporting Category 4 with 150Mbps download and 50Mbps upload speeds.",
-            "Features low power consumption and compact design for IoT and M2M applications. Supports global LTE bands for worldwide deployment.",
-            "Ideal for IoT gateways, industrial routers, and mobile hotspot devices requiring reliable 4G connectivity."
-          ],
-          "specifications": {
-            "Technology": "4G LTE Cat 4",
-            "Download Speed": "Up to 150Mbps",
-            "Upload Speed": "Up to 50Mbps",
-            "Bands": "Multi-band global",
-            "Latency": "<50ms typical",
-            "Power": "Low power design",
-            "Interface": "USB/PCIe",
-            "Temperature": "-40°C to +85°C",
-            "5G Modes": "N/A",
-            "5G Bands": "N/A",
-            "Data Rate": "N/A",
-            "LTE": "N/A",
-            "Carrier Agg": "N/A",
-            "MIMO": "N/A",
-            "Form Factor": "N/A",
-            "Certification": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Process": "N/A",
-            "5G Download": "N/A",
-            "4G Download": "N/A",
-            "Modes": "N/A",
-            "Upload": "N/A"
-          },
-          "features": [
-            "150Mbps LTE Cat 4",
-            "Global band support",
-            "Low power consumption",
-            "Compact design",
-            "Industrial temperature",
-            "Cost-effective"
-          ],
-          "applications": [
-            "IoT gateways",
-            "Industrial routers",
-            "Mobile hotspots",
-            "M2M devices",
-            "Remote monitoring"
-          ],
-          "faeReview": {
-            "author": "Dr. Chen Hua",
-            "title": "FAE - Connectivity",
-            "content": "The Balong 711 provides reliable 4G connectivity at competitive cost. Perfect for IoT applications not requiring 5G speeds.",
-            "highlight": "Cost-effective 4G solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "Balong 5000",
-              "brand": "Hisilicon",
-              "reason": "5G upgrade option",
-              "comparison": {
-                "network": "5G vs 4G",
-                "speed": "2.3Gbps > 150Mbps",
-                "price": "Higher"
-              },
-              "useCase": "5G applications",
-              "specifications": {
-                "Network": "5G"
-              },
-              "priceDifference": "+60%",
-              "stockStatus": "In Stock",
-              "link": "/hisilicon/products/connectivity-solutions/balong-5000"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "Kirin 990",
-              "description": "SoC with integrated modem",
-              "category": "Processor"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "Is this suitable for global deployment?",
-              "answer": "Yes, Balong 711 supports multiple LTE bands used worldwide, making it suitable for global IoT products.",
-              "decisionGuide": "Use for worldwide 4G IoT deployments.",
-              "keywords": [
-                "global",
-                "bands",
-                "IoT"
               ]
             }
           ]

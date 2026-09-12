@@ -169,16 +169,7 @@
             "Input": "Crystal or reference clock",
             "Supply Voltage": "1.8V/2.5V/3.3V",
             "Interface": "I2C/SPI",
-            "Package": "5x5mm QFN-32",
-            "Input Frequency": "N/A",
-            "Additive Jitter": "N/A",
-            "Input Types": "N/A",
-            "Propagation Delay": "N/A",
-            "Reference Input": "N/A",
-            "Compliance": "N/A",
-            "Frequency": "N/A",
-            "Spread Spectrum": "N/A",
-            "Phase Jitter": "N/A"
+            "Package": "5x5mm QFN-32"
           },
           "features": [
             "Ultra-low <100fs RMS jitter performance",
@@ -333,15 +324,7 @@
             "Output Types": "LVDS",
             "Supply Voltage": "2.5V/3.3V",
             "Propagation Delay": "1.2ns typical",
-            "Package": "3x3mm QFN-16",
-            "RMS Jitter": "N/A",
-            "Input": "N/A",
-            "Interface": "N/A",
-            "Reference Input": "N/A",
-            "Compliance": "N/A",
-            "Frequency": "N/A",
-            "Spread Spectrum": "N/A",
-            "Phase Jitter": "N/A"
+            "Package": "3x3mm QFN-16"
           },
           "features": [
             "Ultra-low <50fs additive jitter",
@@ -493,18 +476,7 @@
             "Outputs": "10 differential",
             "Output Types": "LVDS/LVPECL/HCSL",
             "Reference Input": "Crystal or CLK",
-            "Package": "QFN-48",
-            "Input": "N/A",
-            "Supply Voltage": "N/A",
-            "Interface": "N/A",
-            "Input Frequency": "N/A",
-            "Additive Jitter": "N/A",
-            "Input Types": "N/A",
-            "Propagation Delay": "N/A",
-            "Compliance": "N/A",
-            "Frequency": "N/A",
-            "Spread Spectrum": "N/A",
-            "Phase Jitter": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "Ultra-low <100fs RMS jitter",
@@ -645,18 +617,7 @@
             "Frequency": "100MHz",
             "Spread Spectrum": "±0.5% down",
             "Phase Jitter": "<1ps RMS",
-            "Package": "QFN-32",
-            "Output Frequency": "N/A",
-            "RMS Jitter": "N/A",
-            "Output Types": "N/A",
-            "Input": "N/A",
-            "Supply Voltage": "N/A",
-            "Interface": "N/A",
-            "Input Frequency": "N/A",
-            "Additive Jitter": "N/A",
-            "Input Types": "N/A",
-            "Propagation Delay": "N/A",
-            "Reference Input": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "PCIe Gen4/5 compliant",
@@ -956,10 +917,7 @@
             "Max Current": "100A+ (8-phase)",
             "Efficiency": "Up to 96%",
             "Interface": "PMBus 1.3",
-            "Package": "QFN-40",
-            "Output Current": "N/A",
-            "Switching Frequency": "N/A",
-            "Current Sense": "N/A"
+            "Package": "QFN-40"
           },
           "features": [
             "8-phase operation for high current",
@@ -1099,10 +1057,7 @@
             "Output Current": "3A continuous",
             "Efficiency": "Up to 96%",
             "Switching Frequency": "100kHz to 2.5MHz",
-            "Package": "QFN-20",
-            "Max Current": "N/A",
-            "Interface": "N/A",
-            "Current Sense": "N/A"
+            "Package": "QFN-20"
           },
           "features": [
             "Wide 4.5V to 60V input range",
@@ -1241,10 +1196,7 @@
             "Output Current": "5A continuous",
             "Efficiency": "Up to 96%",
             "Switching Frequency": "300kHz to 2MHz",
-            "Package": "QFN-24",
-            "Max Current": "N/A",
-            "Interface": "N/A",
-            "Current Sense": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "Wide 4.5V to 36V input range",
@@ -1384,10 +1336,7 @@
             "Switching Frequency": "Up to 2MHz",
             "Efficiency": "Up to 95%",
             "Current Sense": "Integrated",
-            "Package": "PQFN-56",
-            "Output Voltage": "N/A",
-            "Max Current": "N/A",
-            "Interface": "N/A"
+            "Package": "PQFN-56"
           },
           "features": [
             "Dual-phase power stage",
@@ -1646,18 +1595,7 @@
             "Accuracy": "±0.1°C (Pt100)",
             "Conversion Rate": "Up to 100 SPS",
             "Interface": "SPI",
-            "Package": "TSSOP-16",
-            "Channels": "N/A",
-            "TC Types": "N/A",
-            "CJC Accuracy": "N/A",
-            "ADC Resolution": "N/A",
-            "Excitation Voltage": "N/A",
-            "Gain Range": "N/A",
-            "Input Range": "N/A",
-            "Reference Voltage": "N/A",
-            "Reference Accuracy": "N/A",
-            "Temperature Drift": "N/A",
-            "Noise-Free Bits": "N/A"
+            "Package": "TSSOP-16"
           },
           "features": [
             "24-bit resolution ADC",
@@ -1800,17 +1738,7 @@
             "Accuracy": "±0.5°C (with CJC)",
             "CJC Accuracy": "±0.5°C",
             "Interface": "SPI",
-            "Package": "QFN-32",
-            "Input Type": "N/A",
-            "Conversion Rate": "N/A",
-            "ADC Resolution": "N/A",
-            "Excitation Voltage": "N/A",
-            "Gain Range": "N/A",
-            "Input Range": "N/A",
-            "Reference Voltage": "N/A",
-            "Reference Accuracy": "N/A",
-            "Temperature Drift": "N/A",
-            "Noise-Free Bits": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "4-channel thermocouple input",
@@ -1950,17 +1878,7 @@
             "Input Range": "±80mV full scale",
             "Accuracy": "±0.01% FS",
             "Interface": "SPI/I2C",
-            "Package": "QFN-24",
-            "Resolution": "N/A",
-            "Input Type": "N/A",
-            "Conversion Rate": "N/A",
-            "Channels": "N/A",
-            "TC Types": "N/A",
-            "CJC Accuracy": "N/A",
-            "Reference Voltage": "N/A",
-            "Reference Accuracy": "N/A",
-            "Temperature Drift": "N/A",
-            "Noise-Free Bits": "N/A"
+            "Package": "QFN-24"
           },
           "features": [
             "Complete bridge sensor interface",
@@ -2103,17 +2021,7 @@
             "ADC Resolution": "24-bit",
             "Noise-Free Bits": "22",
             "Gain Range": "1x to 128x",
-            "Package": "MSOP-10",
-            "Resolution": "N/A",
-            "Input Type": "N/A",
-            "Accuracy": "N/A",
-            "Conversion Rate": "N/A",
-            "Interface": "N/A",
-            "Channels": "N/A",
-            "TC Types": "N/A",
-            "CJC Accuracy": "N/A",
-            "Excitation Voltage": "N/A",
-            "Input Range": "N/A"
+            "Package": "MSOP-10"
           },
           "features": [
             "Ultra-stable voltage reference",
@@ -2372,17 +2280,7 @@
             "Output Power": "+20dBm max",
             "Sensitivity": "-120dBm",
             "Data Rate": "0.5-300kbps",
-            "Supply Voltage": "1.8-3.6V",
-            "Frequency Band": "N/A",
-            "Protocols": "N/A",
-            "Supply": "N/A",
-            "Protocol": "N/A",
-            "Frequency": "N/A",
-            "RX Current": "N/A",
-            "TX Current": "N/A",
-            "Sleep Current": "N/A",
-            "Processor": "N/A",
-            "Memory": "N/A"
+            "Supply Voltage": "1.8-3.6V"
           },
           "features": [
             "Multi-band sub-GHz operation",
@@ -2523,17 +2421,7 @@
             "Sensitivity": "-95dBm (BLE)",
             "Data Rate": "125kbps - 2Mbps",
             "Supply Voltage": "1.8V - 3.6V",
-            "Package": "QFN-32",
-            "Frequency Bands": "N/A",
-            "Modulation": "N/A",
-            "Supply": "N/A",
-            "Protocol": "N/A",
-            "Frequency": "N/A",
-            "RX Current": "N/A",
-            "TX Current": "N/A",
-            "Sleep Current": "N/A",
-            "Processor": "N/A",
-            "Memory": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "Multi-protocol support",
@@ -2675,17 +2563,7 @@
             "Modulation": "FSK/GFSK/MSK/OOK",
             "Data Rate": "0.5-300kbps",
             "Supply": "1.8-3.6V",
-            "Package": "QFN-32",
-            "Supply Voltage": "N/A",
-            "Frequency Band": "N/A",
-            "Protocols": "N/A",
-            "Protocol": "N/A",
-            "Frequency": "N/A",
-            "RX Current": "N/A",
-            "TX Current": "N/A",
-            "Sleep Current": "N/A",
-            "Processor": "N/A",
-            "Memory": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "Integrated +27dBm PA",
@@ -2832,14 +2710,7 @@
             "Sleep Current": "<1μA",
             "Processor": "ARM Cortex-M4 @ 64MHz",
             "Memory": "256KB Flash, 64KB RAM",
-            "Package": "QFN-48",
-            "Frequency Bands": "N/A",
-            "Modulation": "N/A",
-            "Data Rate": "N/A",
-            "Supply Voltage": "N/A",
-            "Frequency Band": "N/A",
-            "Protocols": "N/A",
-            "Supply": "N/A"
+            "Package": "QFN-48"
           },
           "features": [
             "Bluetooth 5.2 certified",

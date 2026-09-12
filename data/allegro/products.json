@@ -166,12 +166,7 @@
             "Supply Voltage": "5V",
             "Output": "Analog, ratiometric",
             "Package": "SOIC-8",
-            "Temperature Range": "-40°C to +85°C (E), -40°C to +150°C (K)",
-            "Accuracy": "N/A",
-            "Voltage Range": "N/A",
-            "Current Accuracy": "N/A",
-            "Voltage Accuracy": "N/A",
-            "Interface": "N/A"
+            "Temperature Range": "-40°C to +85°C (E), -40°C to +150°C (K)"
           },
           "features": [
             "Fully integrated Hall-effect current sensing",
@@ -332,13 +327,7 @@
             "Output": "Differential analog or PWM",
             "Supply Voltage": "3.3V or 5V",
             "Package": "Custom busbar mount",
-            "Temperature Range": "-40°C to +150°C",
-            "Sensitivity": "N/A",
-            "Total Error": "N/A",
-            "Voltage Range": "N/A",
-            "Current Accuracy": "N/A",
-            "Voltage Accuracy": "N/A",
-            "Interface": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "High current range up to ±200A",
@@ -504,12 +493,7 @@
             "Supply Voltage": "3.3V or 5V",
             "Output": "Analog, ratiometric",
             "Package": "SOIC-16",
-            "Temperature Range": "-40°C to +150°C",
-            "Accuracy": "N/A",
-            "Voltage Range": "N/A",
-            "Current Accuracy": "N/A",
-            "Voltage Accuracy": "N/A",
-            "Interface": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "High accuracy ±1% total error",
@@ -674,12 +658,7 @@
             "Interface": "I2C/SPI digital",
             "Supply Voltage": "3.3V or 5V",
             "Package": "SOIC-16",
-            "Temperature Range": "-40°C to +125°C",
-            "Sensitivity": "N/A",
-            "Total Error": "N/A",
-            "Response Time": "N/A",
-            "Output": "N/A",
-            "Accuracy": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Integrated current and voltage sensing",
@@ -933,13 +912,7 @@
             "PWM Frequency": "Up to 20kHz",
             "Protection": "OCP, OTP, UVLO, SCP",
             "Package": "QFN-32",
-            "Temperature Range": "-40°C to +150°C",
-            "Microstepping": "N/A",
-            "Current Control": "N/A",
-            "Decay Modes": "N/A",
-            "RDS(on)": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Commutation": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "Integrated sensorless BLDC control",
@@ -1101,13 +1074,7 @@
             "Decay Modes": "Slow and mixed",
             "Protection": "OCP, OTP, UVLO",
             "Package": "QFN-28, TSSOP-28",
-            "Temperature Range": "-20°C to +85°C",
-            "Output Power": "N/A",
-            "Control Method": "N/A",
-            "PWM Frequency": "N/A",
-            "RDS(on)": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Commutation": "N/A"
+            "Temperature Range": "-20°C to +85°C"
           },
           "features": [
             "Simple step and direction control interface",
@@ -1269,13 +1236,7 @@
             "Current Control": "Internal PWM regulation",
             "Protection": "OCP, OTP, UVLO, cross-conduction",
             "Package": "SOIC-8, QFN-16",
-            "Temperature Range": "-40°C to +125°C",
-            "Output Power": "N/A",
-            "Control Method": "N/A",
-            "Microstepping": "N/A",
-            "Decay Modes": "N/A",
-            "Gate Drive Voltage": "N/A",
-            "Commutation": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Internal PWM current control",
@@ -1436,13 +1397,7 @@
             "Commutation": "Sensored or sensorless",
             "Protection": "Dead-time, OCP, OTP, UVLO",
             "Package": "QFN-48, TQFP-48",
-            "Temperature Range": "-40°C to +125°C",
-            "Output Power": "N/A",
-            "Control Method": "N/A",
-            "Microstepping": "N/A",
-            "Current Control": "N/A",
-            "Decay Modes": "N/A",
-            "RDS(on)": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "Three-phase gate drive for external MOSFETs",
@@ -1686,13 +1641,7 @@
             "Supply Voltage": "4.5V to 5.5V",
             "Bandwidth": "15kHz",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "TSSOP-8, SOIC-8",
-            "Sensitivity": "N/A",
-            "Outputs": "N/A",
-            "Safety": "N/A",
-            "Redundancy": "N/A",
-            "Interface Speed": "N/A",
-            "Programming": "N/A"
+            "Package": "TSSOP-8, SOIC-8"
           },
           "features": [
             "Contactless 360° angle measurement",
@@ -1849,13 +1798,7 @@
             "Sensitivity": "0.4V/mm typical",
             "Bandwidth": "15kHz",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "SOT-23",
-            "Accuracy": "N/A",
-            "Outputs": "N/A",
-            "Safety": "N/A",
-            "Redundancy": "N/A",
-            "Interface Speed": "N/A",
-            "Programming": "N/A"
+            "Package": "SOT-23"
           },
           "features": [
             "10mm linear measurement stroke",
@@ -2015,11 +1958,7 @@
             "Safety": "ISO 26262 ASIL-B/C support",
             "Redundancy": "Dual-die architecture",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "TSSOP-16, SOIC-16",
-            "Output": "N/A",
-            "Sensitivity": "N/A",
-            "Interface Speed": "N/A",
-            "Programming": "N/A"
+            "Package": "TSSOP-16, SOIC-16"
           },
           "features": [
             "14-bit high-resolution angle measurement",
@@ -2179,11 +2118,7 @@
             "Bandwidth": "10kHz",
             "Programming": "Zero position via SPI",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "TSSOP-14, QFN-16",
-            "Output": "N/A",
-            "Sensitivity": "N/A",
-            "Safety": "N/A",
-            "Redundancy": "N/A"
+            "Package": "TSSOP-14, QFN-16"
           },
           "features": [
             "14-bit ultra-high resolution",
@@ -2431,14 +2366,7 @@
             "Fault Detection": "LED open/short, overcurrent, overtemperature",
             "Protection": "UVLO, overvoltage, thermal shutdown",
             "Package": "SOIC-8, MSOP-8",
-            "Temperature Range": "-40°C to +150°C",
-            "Efficiency": "N/A",
-            "Interface": "N/A",
-            "Safety": "N/A",
-            "Thermal Management": "N/A",
-            "PWM Resolution": "N/A",
-            "PWM Frequency": "N/A",
-            "Communication": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "Wide 6V to 60V input voltage range",
@@ -2601,13 +2529,7 @@
             "Fault Detection": "LED open/short, overcurrent, overtemperature",
             "Interface": "SPI",
             "Package": "QFN-32",
-            "Temperature Range": "-40°C to +150°C",
-            "Protection": "N/A",
-            "Safety": "N/A",
-            "Thermal Management": "N/A",
-            "PWM Resolution": "N/A",
-            "PWM Frequency": "N/A",
-            "Communication": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "4 independent LED channels",
@@ -2769,13 +2691,7 @@
             "Safety": "ISO 26262 ASIL-B support",
             "Thermal Management": "Adaptive current foldback",
             "Package": "QFN-32",
-            "Temperature Range": "-40°C to +150°C",
-            "Fault Detection": "N/A",
-            "Protection": "N/A",
-            "Interface": "N/A",
-            "PWM Resolution": "N/A",
-            "PWM Frequency": "N/A",
-            "Communication": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "High-power 3A LED drive capability",
@@ -2931,13 +2847,7 @@
             "Input Voltage": "6V to 60V",
             "Topology": "Matrix switch with boost",
             "Package": "QFN-48",
-            "Temperature Range": "-40°C to +150°C",
-            "Dimming": "N/A",
-            "Fault Detection": "N/A",
-            "Protection": "N/A",
-            "Efficiency": "N/A",
-            "Interface": "N/A",
-            "Thermal Management": "N/A"
+            "Temperature Range": "-40°C to +150°C"
           },
           "features": [
             "12-channel individual LED control",

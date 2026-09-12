@@ -95,10 +95,7 @@
         "Switching Frequency",
         "Operating Temperature",
         "Dimensions",
-        "Input Voltage",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Input Voltage"
       ],
       "selectionGuide": {
         "title": "How to Select ZLG Power Isolated DC-DC Converters",
@@ -228,11 +225,7 @@
             "Switching Frequency": "100kHz typical",
             "Operating Temperature": "-40C to +85C",
             "Package": "SIP-7",
-            "Dimensions": "19.5 x 7.0 x 10.0 mm",
-            "Input Voltage": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "19.5 x 7.0 x 10.0 mm"
           },
           "faeReview": {
             "author": "Michael Chen",
@@ -426,11 +419,7 @@
             "Switching Frequency": "100kHz typical",
             "Operating Temperature": "-40C to +85C",
             "Package": "SIP-7",
-            "Dimensions": "19.5 x 7.0 x 10.0 mm",
-            "Input Voltage Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "19.5 x 7.0 x 10.0 mm"
           },
           "faeReview": {
             "author": "David Wang",
@@ -605,10 +594,7 @@
         "Output Power",
         "Efficiency",
         "Operating Temperature",
-        "Power Factor",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Power Factor"
       ],
       "selectionGuide": {
         "title": "How to Select ZLG Power AC-DC Modules",
@@ -726,11 +712,7 @@
             "Output Power": "25W",
             "Efficiency": "Up to 85%",
             "Operating Temperature": "-25C to +70C",
-            "Package": "PCB Mount",
-            "Power Factor": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "PCB Mount"
           },
           "faeReview": {
             "author": "Michael Chen",
@@ -895,10 +877,7 @@
             "Power Factor": ">0.95",
             "Efficiency": "Up to 90%",
             "Operating Temperature": "-30C to +70C",
-            "Package": "Open Frame",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Open Frame"
           },
           "faeReview": {
             "author": "David Wang",
@@ -1049,10 +1028,7 @@
         "Output Current",
         "Efficiency",
         "Switching Frequency",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "selectionGuide": {
         "title": "How to Select ZLG Power POL Converters",
@@ -1170,10 +1146,7 @@
             "Efficiency": "Up to 95%",
             "Switching Frequency": "500kHz",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SMD",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SMD"
           },
           "faeReview": {
             "author": "Michael Chen",
@@ -1338,10 +1311,7 @@
             "Efficiency": "Up to 96%",
             "Switching Frequency": "500kHz",
             "Operating Temperature": "-40C to +85C",
-            "Package": "DIP",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "DIP"
           },
           "faeReview": {
             "author": "David Wang",
@@ -1493,10 +1463,7 @@
         "Isolation",
         "Efficiency",
         "Operating Temperature",
-        "Safety",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Safety"
       ],
       "selectionGuide": {
         "title": "Custom Power Module Design Process",
@@ -1614,11 +1581,7 @@
             "Output Power": "Customer Specified",
             "Isolation": "Customer Specified",
             "Efficiency": "Customer Specified",
-            "Operating Temperature": "Customer Specified",
-            "Safety": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "Customer Specified"
           },
           "faeReview": {
             "author": "Senior Engineering Team",
@@ -1773,11 +1736,7 @@
             "Output Power": "Customer Specified",
             "Efficiency": "Customer Specified",
             "Safety": "Customer Specified",
-            "Operating Temperature": "Customer Specified",
-            "Isolation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "Customer Specified"
           },
           "faeReview": {
             "author": "Senior Engineering Team",

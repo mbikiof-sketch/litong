@@ -73,10 +73,7 @@
         "PGA",
         "Temperature",
         "ESD",
-        "DSP",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "DSP"
       ],
       "applications": [
         "Home Appliances",
@@ -180,11 +177,7 @@
             "PGA": "1-channel differential",
             "Package": "QFN20 3x3mm",
             "Temperature": "-40°C to +105°C",
-            "ESD": "6kV HBM, 15kV Air",
-            "DSP": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "ESD": "6kV HBM, 15kV Air"
           },
           "features": [
             "48MHz CPU with hardware divide/sqrt",
@@ -337,11 +330,7 @@
             "PGA": "3-channel differential",
             "Package": "QFN32 5x5mm",
             "Temperature": "-40°C to +105°C",
-            "DSP": "100ns trigonometric ops",
-            "ESD": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "DSP": "100ns trigonometric ops"
           },
           "features": [
             "96MHz CPU with dedicated DSP",
@@ -499,10 +488,7 @@
         "LDO",
         "Temperature",
         "Grade",
-        "ADC",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "ADC"
       ],
       "applications": [
         "HVAC Systems",
@@ -606,11 +592,7 @@
             "LIN": "Integrated PHY",
             "LDO": "5V integrated",
             "Temperature": "-40°C to +150°C",
-            "Grade": "AEC-Q100 Grade 1",
-            "ADC": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Grade": "AEC-Q100 Grade 1"
           },
           "features": [
             "AEC-Q100 Grade 1 certified",
@@ -762,12 +744,7 @@
             "Gate Driver": "6N, 1.2A/1.5A",
             "ADC": "12-bit, 3Msps",
             "Temperature": "-40°C to +150°C",
-            "Grade": "AEC-Q100 Grade 1",
-            "LIN": "N/A",
-            "LDO": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Grade": "AEC-Q100 Grade 1"
           },
           "features": [
             "AEC-Q100 Grade 1 certified",
@@ -1019,11 +996,7 @@
             "Channels": "6 (3-phase)",
             "Protection": "UVLO, Shoot-through, OCP",
             "Package": "SOIC-28",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "1.5A high drive current",
@@ -1173,12 +1146,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Drive Current": "N/A",
-            "Voltage Range": "N/A",
-            "Bootstrap": "N/A",
-            "Channels": "N/A",
-            "Protection": "N/A",
-            "Temperature": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1198,53 +1165,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-2?",
@@ -1307,12 +1229,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Drive Current": "N/A",
-            "Voltage Range": "N/A",
-            "Bootstrap": "N/A",
-            "Channels": "N/A",
-            "Protection": "N/A",
-            "Temperature": "N/A",
             "Specifications": "IGBT Driver"
           },
           "features": [
@@ -1332,53 +1248,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-3?",
@@ -1441,12 +1312,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Drive Current": "N/A",
-            "Voltage Range": "N/A",
-            "Bootstrap": "N/A",
-            "Channels": "N/A",
-            "Protection": "N/A",
-            "Temperature": "N/A",
             "Specifications": "SiC Driver"
           },
           "features": [
@@ -1466,53 +1331,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for GATEDRIVERS-4?",
@@ -1581,10 +1401,7 @@
         "Input Voltage",
         "Quiescent Current",
         "PSRR",
-        "Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Temperature"
       ],
       "applications": [
         "Motor Control Systems",
@@ -1679,10 +1496,7 @@
             "Quiescent Current": "2mA",
             "PSRR": "70dB @ 1kHz",
             "Package": "SOT-223",
-            "Temperature": "-40°C to +125°C",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "-40°C to +125°C"
           },
           "features": [
             "500mA output current",

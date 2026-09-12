@@ -81,9 +81,7 @@
         "ENOB",
         "Noise",
         "Offset Drift",
-        "Gain Drift",
-        "Voltage Rating",
-        "Current Rating"
+        "Gain Drift"
       ],
       "applications": [
         "Satellite Systems",
@@ -187,15 +185,7 @@
             "Interface": "SPI",
             "Temperature Range": "-55°C to +125°C",
             "Radiation Tolerance": "50 krad(Si) optional",
-            "Package": "CERDIP-28, QFP-32",
-            "Data Rate": "N/A",
-            "PGA Gain": "N/A",
-            "ENOB": "N/A",
-            "Noise": "N/A",
-            "Offset Drift": "N/A",
-            "Gain Drift": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-28, QFP-32"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -363,14 +353,7 @@
             "Supply Voltage": "3.3V or 5V",
             "Interface": "SPI",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "CERDIP-24, QFP-32",
-            "Sampling Rate": "N/A",
-            "Channels": "N/A",
-            "INL": "N/A",
-            "SNR": "N/A",
-            "Radiation Tolerance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-24, QFP-32"
           },
           "features": [
             "24-bit resolution with 20 effective bits",
@@ -536,9 +519,7 @@
         "Output Noise",
         "PSRR",
         "Line Regulation",
-        "Load Regulation",
-        "Voltage Rating",
-        "Current Rating"
+        "Load Regulation"
       ],
       "applications": [
         "Satellite Power Systems",
@@ -637,15 +618,7 @@
             "Switching Frequency": "100kHz fixed",
             "Protection": "Current limiting, thermal shutdown",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "CERDIP-8, CFP-8",
-            "Output Current": "N/A",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-8, CFP-8"
           },
           "features": [
             "Radiation tolerant to 100krad(Si) TID",
@@ -802,13 +775,7 @@
             "Load Regulation": "0.2%",
             "Radiation Tolerance": "100 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "TO-39, CERDIP-8, SMD-0.5",
-            "Switch Current": "N/A",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Protection": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TO-39, CERDIP-8, SMD-0.5"
           },
           "features": [
             "Ultra-low output noise 5μVrms",
@@ -970,9 +937,7 @@
         "Gain Error",
         "Offset",
         "IMRR",
-        "Rise Time",
-        "Voltage Rating",
-        "Current Rating"
+        "Rise Time"
       ],
       "applications": [
         "Sensor Interfaces",
@@ -1077,15 +1042,7 @@
             "Input Bias Current": "10nA maximum",
             "Radiation Tolerance": "100 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "TO-99, CERDIP-8, SMD-0.5",
-            "Isolation Voltage": "N/A",
-            "Linearity": "N/A",
-            "Gain Error": "N/A",
-            "Offset": "N/A",
-            "IMRR": "N/A",
-            "Rise Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TO-99, CERDIP-8, SMD-0.5"
           },
           "features": [
             "Ultra-low offset voltage 50μV",
@@ -1252,16 +1209,7 @@
             "Rise Time": "5μs",
             "Radiation Tolerance": "50 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "CERDIP-16, QFP-24",
-            "Offset Voltage": "N/A",
-            "Offset Drift": "N/A",
-            "Slew Rate": "N/A",
-            "Open-Loop Gain": "N/A",
-            "CMRR": "N/A",
-            "PSRR": "N/A",
-            "Input Bias Current": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-16, QFP-24"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -1419,9 +1367,7 @@
         "Fault Protection",
         "Radiation Tolerance",
         "Temperature Range",
-        "Isolation",
-        "Voltage Rating",
-        "Current Rating"
+        "Isolation"
       ],
       "applications": [
         "Satellite Networks",
@@ -1523,10 +1469,7 @@
             "Fault Protection": "±60V",
             "Radiation Tolerance": "100 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "CERDIP-8, SOIC-8, QFP-16",
-            "Isolation": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-8, SOIC-8, QFP-16"
           },
           "features": [
             "High data rate up to 50Mbps",
@@ -1692,10 +1635,7 @@
             "ESD Protection": "±8kV",
             "Radiation Tolerance": "50 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
-            "Package": "CERDIP-8, SOIC-8, QFP-16",
-            "Fault Protection": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-8, SOIC-8, QFP-16"
           },
           "features": [
             "CAN data rate up to 1Mbps",
@@ -1857,9 +1797,7 @@
             "Radiation Tolerance": "50 krad(Si) optional",
             "Temperature Range": "-55°C to +125°C",
             "Isolation": "5kVrms with integrated DC-DC",
-            "Package": "CERDIP-16, QFP-20",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "CERDIP-16, QFP-20"
           },
           "features": [
             "5kVrms galvanic isolation",

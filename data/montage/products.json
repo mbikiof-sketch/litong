@@ -81,10 +81,7 @@
         "Supply Voltage",
         "Power Consumption",
         "Operating Temperature",
-        "JEDEC Compliance",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "JEDEC Compliance"
       ],
       "applications": [
         "Server RDIMM",
@@ -168,10 +165,7 @@
             "Package": "BGA-196",
             "Power Consumption": "< 1.5W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR5 RCD01 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR5 RCD01 Specification"
           },
           "features": [
             "Supports DDR5 data rates from 4800 to 7200 Mbps",
@@ -316,10 +310,7 @@
             "Package": "BGA-144",
             "Power Consumption": "< 1.2W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR5 DB01 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR5 DB01 Specification"
           },
           "features": [
             "Supports DDR5 data rates from 4800 to 7200 Mbps",
@@ -464,10 +455,7 @@
             "Package": "BGA-36",
             "Power Consumption": "< 0.1W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR5 SPD Hub Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR5 SPD Hub Specification"
           },
           "features": [
             "I2C/I3C hub functionality for multi-device connectivity",
@@ -531,10 +519,7 @@
             "Package": "BGA-49",
             "Power Consumption": "< 0.5W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR5 PMIC Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR5 PMIC Specification"
           },
           "features": [
             "Multi-rail power delivery for DDR5 components",
@@ -600,10 +585,7 @@
         "Supply Voltage",
         "Power Consumption",
         "Operating Temperature",
-        "JEDEC Compliance",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "JEDEC Compliance"
       ],
       "applications": [
         "Server RDIMM",
@@ -687,10 +669,7 @@
             "Package": "BGA-145",
             "Power Consumption": "< 1.0W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR4 RCD02 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR4 RCD02 Specification"
           },
           "features": [
             "Supports DDR4 data rates from 2133 to 3200 Mbps",
@@ -835,10 +814,7 @@
             "Package": "BGA-135",
             "Power Consumption": "< 0.9W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR4 DB01 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR4 DB01 Specification"
           },
           "features": [
             "Supports DDR4 data rates from 2133 to 3200 Mbps",
@@ -982,10 +958,7 @@
             "Package": "BGA-145",
             "Power Consumption": "< 0.8W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR4 RCD01 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR4 RCD01 Specification"
           },
           "features": [
             "Supports DDR4 data rates from 1866 to 2400 Mbps",
@@ -1044,10 +1017,7 @@
             "Package": "BGA-135",
             "Power Consumption": "< 0.85W",
             "Operating Temperature": "0°C to +95°C (Tc)",
-            "JEDEC Compliance": "DDR4 DB02 Specification",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "JEDEC Compliance": "DDR4 DB02 Specification"
           },
           "features": [
             "Supports DDR4 data rates from 2133 to 3200 Mbps",
@@ -1107,10 +1077,7 @@
         "Lanes",
         "Supply Voltage",
         "Power Consumption",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "applications": [
         "Server Backplanes",
@@ -1194,10 +1161,7 @@
             "Supply Voltage": "0.85V, 1.8V, 3.3V",
             "Package": "FCBGA-324",
             "Power Consumption": "< 4W (Gen5 x16 active)",
-            "Operating Temperature": "0°C to +85°C (ambient)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to +85°C (ambient)"
           },
           "features": [
             "Supports PCIe Gen1 through Gen5 data rates",
@@ -1342,10 +1306,7 @@
             "Supply Voltage": "0.9V, 1.8V, 3.3V",
             "Package": "FCBGA-196",
             "Power Consumption": "< 2W (Gen4 x8 active)",
-            "Operating Temperature": "0°C to +85°C (ambient)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to +85°C (ambient)"
           },
           "features": [
             "Supports PCIe Gen1 through Gen4 data rates",
@@ -1490,10 +1451,7 @@
             "Supply Voltage": "0.9V, 1.8V, 3.3V",
             "Package": "FCBGA-121",
             "Power Consumption": "< 1W (Gen4 x4 active)",
-            "Operating Temperature": "-40°C to +85°C (ambient)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "-40°C to +85°C (ambient)"
           },
           "features": [
             "Supports PCIe Gen1 through Gen4 data rates",
@@ -1552,10 +1510,7 @@
             "Supply Voltage": "0.85V, 1.8V, 3.3V",
             "Package": "FCBGA-256",
             "Power Consumption": "< 2.5W (Gen5 x8 active)",
-            "Operating Temperature": "0°C to +85°C (ambient)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Operating Temperature": "0°C to +85°C (ambient)"
           },
           "features": [
             "Supports PCIe Gen1 through Gen5 data rates",
@@ -1617,10 +1572,7 @@
         "Max Turbo",
         "Memory Support",
         "PCIe Lanes",
-        "TDP",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "TDP"
       ],
       "applications": [
         "Secure Data Centers",
@@ -1704,10 +1656,7 @@
             "Max Turbo": "3.5 GHz",
             "Memory Support": "DDR5-4800, 12 channels",
             "PCIe Lanes": "128 lanes (Gen5)",
-            "TDP": "250W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "TDP": "250W"
           },
           "features": [
             "64 high-performance x86 cores with SMT",
@@ -1852,10 +1801,7 @@
             "Max Turbo": "3.2 GHz",
             "Memory Support": "DDR5-4400, 8 channels",
             "PCIe Lanes": "64 lanes (Gen4)",
-            "TDP": "120W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "TDP": "120W"
           },
           "features": [
             "24 high-performance x86 cores with SMT",
@@ -2000,10 +1946,7 @@
             "Max Turbo": "3.6 GHz",
             "Memory Support": "DDR5-4800, 12 channels",
             "PCIe Lanes": "128 lanes (Gen5)",
-            "TDP": "200W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "TDP": "200W"
           },
           "features": [
             "48 high-performance x86 cores with SMT",
@@ -2068,10 +2011,7 @@
             "Max Turbo": "3.1 GHz",
             "Memory Support": "DDR5-4400, 8 channels",
             "PCIe Lanes": "64 lanes (Gen4)",
-            "TDP": "80W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "TDP": "80W"
           },
           "features": [
             "16 high-performance x86 cores with SMT",

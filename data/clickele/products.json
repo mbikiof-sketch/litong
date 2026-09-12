@@ -78,10 +78,7 @@
         "Operating Temperature",
         "Dimensions",
         "Resonant Frequency",
-        "Magnetizing Inductance",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Magnetizing Inductance"
       ],
       "applications": [
         "Switching Power Supplies",
@@ -187,12 +184,7 @@
             "Isolation Voltage": "3,000 VAC",
             "Efficiency": ">95%",
             "Operating Temperature": "-40°C to +125°C",
-            "Dimensions": "25×19×20 mm",
-            "Resonant Frequency": "N/A",
-            "Magnetizing Inductance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "25×19×20 mm"
           },
           "features": [
             "100W power handling capability",
@@ -234,13 +226,6 @@
               "reason": "ClickEle offers higher power rating at competitive price",
               "useCase": "Cost-sensitive industrial power supplies",
               "link": ""
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "CL-EF25-120-24-100=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
             }
           ],
           "companionParts": [
@@ -309,11 +294,7 @@
             "Isolation Voltage": "4,000 VAC",
             "Efficiency": ">98%",
             "Operating Temperature": "-40°C to +130°C",
-            "Dimensions": "32×28×32 mm",
-            "Switching Frequency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "32×28×32 mm"
           },
           "features": [
             "500W continuous power handling",
@@ -355,13 +336,6 @@
               "reason": "ClickEle offers higher power and efficiency at competitive price",
               "useCase": "High-efficiency server and telecom power supplies",
               "link": ""
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "CL-PQ32-400-48-500=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
             }
           ],
           "companionParts": [
@@ -429,10 +403,7 @@
         "DCR",
         "Self-Resonant Frequency",
         "Operating Temperature",
-        "Dimensions",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Dimensions"
       ],
       "applications": [
         "Buck Converters",
@@ -507,10 +478,7 @@
             "Self-Resonant Frequency": "15MHz min",
             "Operating Temperature": "-55°C to +150°C",
             "Dimensions": "10.0×10.0×4.5mm",
-            "Package": "Shielded SMD",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "Shielded SMD"
           },
           "features": [
             "4.7μH inductance for 100kHz-1MHz converters",
@@ -551,13 +519,6 @@
               "reason": "ClickEle offers comparable performance at lower cost",
               "useCase": "Cost-sensitive DC-DC converter designs",
               "link": ""
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "CL-PI-100-4R7=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
             }
           ],
           "companionParts": [
@@ -626,10 +587,7 @@
         "Dielectric Strength",
         "Aperture",
         "Operating Temperature",
-        "Dimensions",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Dimensions"
       ],
       "applications": [
         "Energy Meters",
@@ -706,10 +664,7 @@
             "Dielectric Strength": "2,500 VAC",
             "Aperture": "5.0mm diameter",
             "Operating Temperature": "-40°C to +85°C",
-            "Dimensions": "16×14×12 mm",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "16×14×12 mm"
           },
           "features": [
             "1000:1 turns ratio for easy signal processing",
@@ -750,13 +705,6 @@
               "reason": "ClickEle offers same accuracy at lower cost",
               "useCase": "Cost-sensitive energy meter designs",
               "link": ""
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "CL-CT-PCB-20-1000=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
             }
           ],
           "companionParts": [
@@ -824,9 +772,7 @@
         "Voltage Rating",
         "Hi-Pot",
         "Operating Temperature",
-        "Dimensions",
-        "Current Rating",
-        "Temperature Range"
+        "Dimensions"
       ],
       "applications": [
         "SMPS Input Filters",
@@ -902,9 +848,7 @@
             "Voltage Rating": "300VAC",
             "Hi-Pot": "2,000 VAC (line to case)",
             "Operating Temperature": "-40°C to +130°C",
-            "Dimensions": "35×25×30 mm",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Dimensions": "35×25×30 mm"
           },
           "features": [
             "10mH common mode inductance",
@@ -945,13 +889,6 @@
               "reason": "ClickEle uses superior nanocrystalline core material",
               "useCase": "High-performance EMI filtering applications",
               "link": ""
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "CL-CMC-20-10=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring equivalent functionality."
             }
           ],
           "companionParts": [

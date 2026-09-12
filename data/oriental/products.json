@@ -171,9 +171,7 @@
             "Vce(sat)": "1.7V (typ)",
             "Switching Loss": "Low",
             "Package": "Standard Module",
-            "Topology": "Half-Bridge",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Topology": "Half-Bridge"
           },
           "features": [
             "Trench-gate field-stop IGBT technology",
@@ -321,9 +319,7 @@
             "Vce(sat)": "1.75V (typ)",
             "Switching Loss": "Low",
             "Package": "Standard Module",
-            "Topology": "Half-Bridge",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Topology": "Half-Bridge"
           },
           "features": [
             "300A high current capability",
@@ -470,9 +466,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Vce(sat)": "N/A",
-            "Switching Loss": "N/A",
-            "Topology": "N/A",
             "Specifications": "1200V 600A"
           },
           "features": [
@@ -492,53 +485,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-3?",
@@ -601,9 +549,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "Vce(sat)": "N/A",
-            "Switching Loss": "N/A",
-            "Topology": "N/A",
             "Specifications": "1200V 450A"
           },
           "features": [
@@ -623,53 +568,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for IGBTMODULES-4?",
@@ -824,8 +724,7 @@
             "Current Rating": "40A",
             "Vce(sat)": "1.6V (typ)",
             "Package": "TO-247",
-            "Switching Speed": "High",
-            "Temperature Range": "N/A"
+            "Switching Speed": "High"
           },
           "features": [
             "High-speed switching for HF applications",
@@ -966,8 +865,7 @@
             "Current Rating": "75A",
             "Vce(sat)": "1.8V (typ)",
             "Package": "TO-3P",
-            "Switching Speed": "Standard",
-            "Temperature Range": "N/A"
+            "Switching Speed": "Standard"
           },
           "features": [
             "75A high current capability",
@@ -1276,9 +1174,7 @@
             "Current Rating": "20A",
             "RDS(on)": "0.19 ohm (max)",
             "Package": "TO-220F",
-            "Qg": "28nC (typ)",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Qg": "28nC (typ)"
           },
           "features": [
             "Super-junction technology",
@@ -1420,9 +1316,7 @@
             "Current Rating": "100A",
             "RDS(on)": "2.8m ohm (max)",
             "Package": "TO-220",
-            "Qg": "45nC (typ)",
-            "Temperature Range": "N/A",
-            "Specifications": "N/A"
+            "Qg": "45nC (typ)"
           },
           "features": [
             "Ultra-low RDS(on) of 2.8m ohm",
@@ -1564,8 +1458,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "RDS(on)": "N/A",
-            "Qg": "N/A",
             "Specifications": "60V N-Channel"
           },
           "features": [
@@ -1585,53 +1477,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOSFETS-3?",
@@ -1694,8 +1541,6 @@
             "Current Rating": "1A",
             "Temperature Range": "-40°C to +85°C",
             "Package": "SOP-8",
-            "RDS(on)": "N/A",
-            "Qg": "N/A",
             "Specifications": "80V N-Channel"
           },
           "features": [
@@ -1715,53 +1560,8 @@
             "content": "Based on extensive field experience, this product delivers excellent performance across various operating conditions. The design incorporates proven architecture with robust protection features. Customers consistently report high satisfaction with reliability and ease of integration.",
             "highlight": "Excellent choice for industrial applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": {
-                "voltage": "25V = 25V (same)"
-              },
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOSFETS-4?",
@@ -1917,8 +1717,7 @@
             "Current Rating": "40A",
             "RDS(on)": "80m ohm (typ)",
             "Package": "TO-247-4",
-            "Temperature": "175°C (max)",
-            "Temperature Range": "N/A"
+            "Temperature": "175°C (max)"
           },
           "features": [
             "Ultra-low switching losses",
@@ -2060,8 +1859,7 @@
             "Current Rating": "20A",
             "RDS(on)": "45m ohm (typ)",
             "Package": "TO-247-3",
-            "Temperature": "175°C (max)",
-            "Temperature Range": "N/A"
+            "Temperature": "175°C (max)"
           },
           "features": [
             "Ultra-low RDS(on) of 45m ohm",

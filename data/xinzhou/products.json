@@ -99,8 +99,7 @@
             "Switching Frequency": "500kHz",
             "Efficiency": "Up to 95%",
             "Quiescent Current": "200μA",
-            "Package": "SOT23-6",
-            "Gate Drive": "N/A"
+            "Package": "SOT23-6"
           },
           "features": [
             "Synchronous rectification",
@@ -303,8 +302,7 @@
             "Switching Frequency": "600kHz",
             "Efficiency": "Up to 96%",
             "Quiescent Current": "250μA",
-            "Package": "DFN3x3-10",
-            "Gate Drive": "N/A"
+            "Package": "DFN3x3-10"
           },
           "features": [
             "3A output current",
@@ -507,8 +505,7 @@
             "Switching Frequency": "1.5MHz",
             "Efficiency": "Up to 94%",
             "Quiescent Current": "50μA",
-            "Package": "SOT23-5",
-            "Gate Drive": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-small SOT23-5",
@@ -713,8 +710,7 @@
             "Switching Frequency": "200kHz - 1MHz",
             "Efficiency": "Up to 97%",
             "Gate Drive": "External N-channel",
-            "Package": "TSSOP-14",
-            "Quiescent Current": "N/A"
+            "Package": "TSSOP-14"
           },
           "features": [
             "4A capability",
@@ -918,8 +914,7 @@
             "Switching Frequency": "1MHz",
             "Efficiency": "Up to 93%",
             "Quiescent Current": "2μA",
-            "Package": "SOT23-5",
-            "Gate Drive": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-low 2μA quiescent",
@@ -1122,8 +1117,7 @@
             "Switching Frequency": "400kHz",
             "Efficiency": "Up to 96%",
             "Quiescent Current": "500μA",
-            "Package": "QFN4x4-20",
-            "Gate Drive": "N/A"
+            "Package": "QFN4x4-20"
           },
           "features": [
             "6A high current",
@@ -1383,8 +1377,7 @@
             "PSRR": "80dB @ 1kHz",
             "Output Noise": "30μVRMS",
             "Quiescent Current": "50μA",
-            "Package": "SOT23-5",
-            "Shutdown Current": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "High PSRR",
@@ -1593,8 +1586,7 @@
             "PSRR": "60dB @ 1kHz",
             "Quiescent Current": "1μA",
             "Shutdown Current": "0.1μA",
-            "Package": "SOT23-5",
-            "Output Noise": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-low quiescent current",
@@ -1803,8 +1795,7 @@
             "PSRR": "75dB @ 1kHz",
             "Output Noise": "25μVRMS",
             "Quiescent Current": "80μA",
-            "Package": "SOT23-5",
-            "Shutdown Current": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "High 75dB PSRR",
@@ -2011,8 +2002,7 @@
             "PSRR": "85dB @ 1kHz",
             "Output Noise": "20μVRMS",
             "Quiescent Current": "40μA",
-            "Package": "SOT23-5",
-            "Shutdown Current": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-high 85dB PSRR",
@@ -2218,8 +2208,7 @@
             "PSRR": "50dB @ 1kHz",
             "Quiescent Current": "500nA",
             "Shutdown Current": "50nA",
-            "Package": "SC-70-5",
-            "Output Noise": "N/A"
+            "Package": "SC-70-5"
           },
           "features": [
             "Nano-power 500nA",
@@ -2424,9 +2413,7 @@
             "Dropout Voltage": "350mV @ 500mA",
             "PSRR": "65dB @ 1kHz",
             "Quiescent Current": "100μA",
-            "Package": "SOT89-3",
-            "Output Noise": "N/A",
-            "Shutdown Current": "N/A"
+            "Package": "SOT89-3"
           },
           "features": [
             "Wide 6.5V input",
@@ -2692,16 +2679,7 @@
             "Trickle Charge": "Yes",
             "Auto Recharge": "Yes",
             "Protection": "OVP, OCP, OTP",
-            "Package": "SOT23-5",
-            "Efficiency": "N/A",
-            "Power Path": "N/A",
-            "Input Current Limit": "N/A",
-            "Interface": "N/A",
-            "OTG Output": "N/A",
-            "USB Detection": "N/A",
-            "Chemistries": "N/A",
-            "NTC": "N/A",
-            "Preconditioning": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "CC/CV charging",
@@ -2914,16 +2892,7 @@
             "Power Path": "Yes",
             "Input Current Limit": "Yes",
             "Protection": "OVP, OCP, OTP, short circuit",
-            "Package": "QFN4x4-16",
-            "Charge Accuracy": "N/A",
-            "Trickle Charge": "N/A",
-            "Auto Recharge": "N/A",
-            "Interface": "N/A",
-            "OTG Output": "N/A",
-            "USB Detection": "N/A",
-            "Chemistries": "N/A",
-            "NTC": "N/A",
-            "Preconditioning": "N/A"
+            "Package": "QFN4x4-16"
           },
           "features": [
             "High efficiency",
@@ -3135,17 +3104,7 @@
             "Trickle Charge": "Yes",
             "Auto Recharge": "Yes",
             "Protection": "Thermal regulation",
-            "Package": "SOT23-5",
-            "Charge Accuracy": "N/A",
-            "Efficiency": "N/A",
-            "Power Path": "N/A",
-            "Input Current Limit": "N/A",
-            "Interface": "N/A",
-            "OTG Output": "N/A",
-            "USB Detection": "N/A",
-            "Chemistries": "N/A",
-            "NTC": "N/A",
-            "Preconditioning": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "500mA linear charging",
@@ -3349,17 +3308,7 @@
             "Efficiency": "Up to 95%",
             "Power Path": "Yes",
             "Interface": "I2C",
-            "Package": "QFN4x4-24",
-            "Charge Accuracy": "N/A",
-            "Trickle Charge": "N/A",
-            "Auto Recharge": "N/A",
-            "Protection": "N/A",
-            "Input Current Limit": "N/A",
-            "OTG Output": "N/A",
-            "USB Detection": "N/A",
-            "Chemistries": "N/A",
-            "NTC": "N/A",
-            "Preconditioning": "N/A"
+            "Package": "QFN4x4-24"
           },
           "features": [
             "3A switch-mode",
@@ -3562,17 +3511,7 @@
             "Battery Voltage": "4.2V ±0.5%",
             "USB Detection": "D+/D-",
             "Protection": "Safety timer, OVP",
-            "Package": "QFN3x3-16",
-            "Charge Accuracy": "N/A",
-            "Trickle Charge": "N/A",
-            "Auto Recharge": "N/A",
-            "Efficiency": "N/A",
-            "Power Path": "N/A",
-            "Input Current Limit": "N/A",
-            "Interface": "N/A",
-            "Chemistries": "N/A",
-            "NTC": "N/A",
-            "Preconditioning": "N/A"
+            "Package": "QFN3x3-16"
           },
           "features": [
             "1.5A charging",
@@ -3776,17 +3715,7 @@
             "Chemistries": "Li-ion/Li-poly/LiFePO4",
             "NTC": "Yes",
             "Preconditioning": "Yes",
-            "Package": "TSSOP-14",
-            "Charge Accuracy": "N/A",
-            "Trickle Charge": "N/A",
-            "Auto Recharge": "N/A",
-            "Protection": "N/A",
-            "Efficiency": "N/A",
-            "Power Path": "N/A",
-            "Input Current Limit": "N/A",
-            "Interface": "N/A",
-            "OTG Output": "N/A",
-            "USB Detection": "N/A"
+            "Package": "TSSOP-14"
           },
           "features": [
             "Multi-chemistry",
@@ -4053,17 +3982,7 @@
             "LDO Current": "300mA",
             "Efficiency": "Up to 95%",
             "Interface": "I2C",
-            "Package": "QFN5x5-32",
-            "Charge Current": "N/A",
-            "Battery Type": "N/A",
-            "Fuel Gauge": "N/A",
-            "Protection": "N/A",
-            "Buck1 Current": "N/A",
-            "Buck2 Current": "N/A",
-            "Cell Configuration": "N/A",
-            "Balance Current": "N/A",
-            "Protection FETs": "N/A",
-            "Temperature": "N/A"
+            "Package": "QFN5x5-32"
           },
           "features": [
             "4 output rails",
@@ -4275,17 +4194,7 @@
             "Fuel Gauge": "Coulomb counter",
             "Protection": "OVP, UVP, OCP, SCP",
             "Interface": "I2C",
-            "Package": "QFN4x4-24",
-            "Output Rails": "N/A",
-            "Buck Current": "N/A",
-            "LDO Current": "N/A",
-            "Efficiency": "N/A",
-            "Buck1 Current": "N/A",
-            "Buck2 Current": "N/A",
-            "Cell Configuration": "N/A",
-            "Balance Current": "N/A",
-            "Protection FETs": "N/A",
-            "Temperature": "N/A"
+            "Package": "QFN4x4-24"
           },
           "features": [
             "Integrated charger",
@@ -4497,17 +4406,7 @@
             "LDO Current": "300mA / 200mA",
             "Efficiency": "Up to 95%",
             "Interface": "I2C",
-            "Package": "QFN6x6-40",
-            "Charge Current": "N/A",
-            "Battery Type": "N/A",
-            "Fuel Gauge": "N/A",
-            "Protection": "N/A",
-            "Buck1 Current": "N/A",
-            "Buck2 Current": "N/A",
-            "Cell Configuration": "N/A",
-            "Balance Current": "N/A",
-            "Protection FETs": "N/A",
-            "Temperature": "N/A"
+            "Package": "QFN6x6-40"
           },
           "features": [
             "6 output rails",
@@ -4710,17 +4609,7 @@
             "Buck2 Current": "1A",
             "LDO Current": "300mA",
             "Efficiency": "Up to 94%",
-            "Package": "QFN3x3-20",
-            "Buck Current": "N/A",
-            "Interface": "N/A",
-            "Charge Current": "N/A",
-            "Battery Type": "N/A",
-            "Fuel Gauge": "N/A",
-            "Protection": "N/A",
-            "Cell Configuration": "N/A",
-            "Balance Current": "N/A",
-            "Protection FETs": "N/A",
-            "Temperature": "N/A"
+            "Package": "QFN3x3-20"
           },
           "features": [
             "3 output rails",
@@ -4923,17 +4812,7 @@
             "Fuel Gauge": "Coulomb counter",
             "Protection": "OVP, UVP, OCP, SCP",
             "Interface": "I2C",
-            "Package": "QFN4x4-28",
-            "Output Rails": "N/A",
-            "Buck Current": "N/A",
-            "LDO Current": "N/A",
-            "Efficiency": "N/A",
-            "Buck1 Current": "N/A",
-            "Buck2 Current": "N/A",
-            "Cell Configuration": "N/A",
-            "Balance Current": "N/A",
-            "Protection FETs": "N/A",
-            "Temperature": "N/A"
+            "Package": "QFN4x4-28"
           },
           "features": [
             "Integrated charger",
@@ -5137,17 +5016,7 @@
             "Fuel Gauge": "Impedance Track",
             "Temperature": "NTC monitoring",
             "Interface": "I2C/SMBus",
-            "Package": "TSSOP-20",
-            "Input Voltage": "N/A",
-            "Output Rails": "N/A",
-            "Buck Current": "N/A",
-            "LDO Current": "N/A",
-            "Efficiency": "N/A",
-            "Charge Current": "N/A",
-            "Battery Type": "N/A",
-            "Protection": "N/A",
-            "Buck1 Current": "N/A",
-            "Buck2 Current": "N/A"
+            "Package": "TSSOP-20"
           },
           "features": [
             "2-4 cell support",

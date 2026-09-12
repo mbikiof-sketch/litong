@@ -87,10 +87,7 @@
         "Supply Voltage",
         "ICC",
         "CMTI",
-        "Operating Temperature",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Temperature"
       ],
       "applications": [
         "Industrial automation",
@@ -125,10 +122,7 @@
             "ICC": "1.5mA typ per channel",
             "CMTI": "200kV/us min",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-8"
           },
           "features": [
             "3.75kVrms isolation rating per UL1577",
@@ -295,10 +289,7 @@
             "ICC": "2.5mA typ total",
             "CMTI": "200kV/us min",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP-16"
           },
           "features": [
             "3.75kVrms isolation rating per UL1577",
@@ -883,15 +874,7 @@
             "Output Voltage Swing": "VDD to GND2",
             "UVLO Voltage": "9V (typ)",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Rise/Fall Time": "N/A",
-            "UVLO Threshold": "N/A",
-            "Certification": "N/A",
-            "Desaturation Threshold": "N/A",
-            "Soft Turn-off Time": "N/A"
+            "Package": "SOP-16W"
           },
           "features": [
             "5kVrms reinforced isolation certified per UL1577",
@@ -1059,15 +1042,7 @@
             "Output Voltage Swing": "VDD to GND2",
             "UVLO Voltage": "9V (typ)",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16W",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Rise/Fall Time": "N/A",
-            "UVLO Threshold": "N/A",
-            "Certification": "N/A",
-            "Desaturation Threshold": "N/A",
-            "Soft Turn-off Time": "N/A"
+            "Package": "SOP-16W"
           },
           "features": [
             "5kVrms reinforced isolation for industrial safety",
@@ -1238,12 +1213,7 @@
             "Certification": "UL1577, IEC 60747-5-5",
             "Voltage Rating": "5kVrms",
             "Current Rating": "5A",
-            "Temperature Range": "-40°C to +125°C",
-            "Supply Voltage (VDD)": "N/A",
-            "Output Voltage Swing": "N/A",
-            "UVLO Voltage": "N/A",
-            "Desaturation Threshold": "N/A",
-            "Soft Turn-off Time": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "5A peak output current for fast switching",
@@ -1398,12 +1368,7 @@
             "Certification": "UL1577, IEC 60747-5-5",
             "Voltage Rating": "5kVrms",
             "Current Rating": "6A",
-            "Temperature Range": "-40°C to +125°C",
-            "Supply Voltage (VDD)": "N/A",
-            "Output Voltage Swing": "N/A",
-            "UVLO Voltage": "N/A",
-            "Rise/Fall Time": "N/A",
-            "UVLO Threshold": "N/A"
+            "Temperature Range": "-40°C to +125°C"
           },
           "features": [
             "4A/6A peak output current",
@@ -1621,9 +1586,6 @@
         "Common-Mode Range",
         "Operating Temperature",
         "Propagation Delay",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Standard Compliance",
         "Channels",
         "Output Voltage"
@@ -1661,14 +1623,7 @@
             "Supply Voltage": "3.3V / 5V",
             "Common-Mode Range": "-7V to +12V",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16",
-            "Propagation Delay": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Standard Compliance": "N/A",
-            "Channels": "N/A",
-            "Output Voltage": "N/A"
+            "Package": "SOP-16"
           },
           "features": [
             "5kVrms reinforced isolation integration",
@@ -1838,14 +1793,7 @@
             "Supply Voltage": "3.3V / 5V",
             "Propagation Delay": "25ns max",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16",
-            "Common-Mode Range": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Standard Compliance": "N/A",
-            "Channels": "N/A",
-            "Output Voltage": "N/A"
+            "Package": "SOP-16"
           },
           "features": [
             "16Mbps high-speed data rate",
@@ -2013,14 +1961,7 @@
             "Supply Voltage": "3.3V / 5V",
             "Common-Mode Range": "-12V to +12V",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOP-16",
-            "Propagation Delay": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Nodes": "N/A",
-            "Channels": "N/A",
-            "Output Voltage": "N/A"
+            "Package": "SOP-16"
           },
           "features": [
             "5kVrms reinforced isolation",
@@ -2172,14 +2113,7 @@
             "Supply Voltage": "3.3V / 5V",
             "Output Voltage": "+/-5V typical (RS-232 levels)",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SSOP-20",
-            "Propagation Delay": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Nodes": "N/A",
-            "Common-Mode Range": "N/A",
-            "Standard Compliance": "N/A"
+            "Package": "SSOP-20"
           },
           "features": [
             "Dual-channel RS-232 isolation",
@@ -2399,10 +2333,7 @@
         "Accuracy",
         "Gain",
         "Sense Voltage Range",
-        "Output Swing",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Output Swing"
       ],
       "applications": [
         "Current sensing",
@@ -2438,16 +2369,7 @@
             "CMRR": "110dB",
             "Rail-to-Rail": "Input and Output",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOT23-5",
-            "Common-Mode Range": "N/A",
-            "Bandwidth": "N/A",
-            "Accuracy": "N/A",
-            "Gain": "N/A",
-            "Sense Voltage Range": "N/A",
-            "Output Swing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "50uV max input offset voltage for precision applications",
@@ -2614,18 +2536,7 @@
             "Sense Voltage Range": "0V to 250mV",
             "Output Swing": "Rail-to-rail",
             "Operating Temperature": "-40C to +125C",
-            "Package": "SOT23-6",
-            "Channels": "N/A",
-            "GBW": "N/A",
-            "Slew Rate": "N/A",
-            "Input Offset Voltage": "N/A",
-            "Offset Drift": "N/A",
-            "Input Bias Current": "N/A",
-            "CMRR": "N/A",
-            "Rail-to-Rail": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-6"
           },
           "features": [
             "100V common-mode voltage range",
@@ -2795,17 +2706,7 @@
             "Accuracy": "1% max over temperature",
             "Operating Temperature": "-40C to +125C",
             "Package": "SOT23-6",
-            "GBW": "N/A",
-            "Slew Rate": "N/A",
-            "CMRR": "100dB min",
-            "Rail-to-Rail": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Offset Drift": "N/A",
-            "Input Bias Current": "N/A",
-            "Sense Voltage Range": "N/A",
-            "Output Swing": "N/A"
+            "CMRR": "100dB min"
           },
           "features": [
             "1% accuracy over full temperature range",
@@ -2956,16 +2857,7 @@
             "CMRR": "100dB",
             "Rail-to-Rail": "Input and Output",
             "Operating Temperature": "-40C to +85C",
-            "Package": "SOT23-5",
-            "Common-Mode Range": "N/A",
-            "Bandwidth": "N/A",
-            "Accuracy": "N/A",
-            "Gain": "N/A",
-            "Sense Voltage Range": "N/A",
-            "Output Swing": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOT23-5"
           },
           "features": [
             "Ultra-low power: 20uA supply current",

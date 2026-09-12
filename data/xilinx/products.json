@@ -84,10 +84,7 @@
         "GTX Transceivers",
         "I/O Pins",
         "Temperature",
-        "GTH Transceivers",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "GTH Transceivers"
       ],
       "applications": [
         "Communications",
@@ -209,11 +206,7 @@
             "GTX Transceivers": "16 (12.5 Gbps max)",
             "I/O Pins": "500",
             "Package": "FFG900 (31x31mm)",
-            "Temperature": "Industrial (-40C to 100C)",
-            "GTH Transceivers": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "Industrial (-40C to 100C)"
           },
           "applications": [
             "Communications",
@@ -368,11 +361,7 @@
             "GTH Transceivers": "20 (16.3 Gbps max)",
             "I/O Pins": "676",
             "Package": "FFVA1156 (35x35mm)",
-            "Temperature": "Extended (0C to 100C)",
-            "GTX Transceivers": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Temperature": "Extended (0C to 100C)"
           },
           "applications": [
             "100G Networking",
@@ -527,10 +516,7 @@
         "DSP Slices",
         "GTH Transceivers",
         "Video Codec",
-        "I/O Pins",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "I/O Pins"
       ],
       "applications": [
         "Embedded Systems",
@@ -643,11 +629,7 @@
             "DSP Slices": "1,728",
             "GTH Transceivers": "36 (16.3 Gbps)",
             "Video Codec": "H.264/H.265 4K60",
-            "Package": "FFVC1156 (35x35mm)",
-            "I/O Pins": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "FFVC1156 (35x35mm)"
           },
           "applications": [
             "Automotive ADAS",
@@ -802,12 +784,7 @@
             "DSP Slices": "7,560",
             "GTH Transceivers": "76 (16.3 Gbps)",
             "I/O Pins": "848",
-            "Package": "FFVC1760 (42.5x42.5mm)",
-            "GPU": "N/A",
-            "Video Codec": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "FFVC1760 (42.5x42.5mm)"
           },
           "applications": [
             "5G Baseband",
@@ -964,10 +941,7 @@
         "Memory",
         "400G Ethernet",
         "600G Interlaken",
-        "PCIe",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "PCIe"
       ],
       "applications": [
         "AI Inference",
@@ -1080,13 +1054,7 @@
             "Real-time Processor": "Dual-core Cortex-R5",
             "GTY Transceivers": "152 (58 Gbps PAM4)",
             "Memory": "DDR4 up to 3,200 Mbps",
-            "Package": "SVD1760 (45x45mm)",
-            "400G Ethernet": "N/A",
-            "600G Interlaken": "N/A",
-            "PCIe": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SVD1760 (45x45mm)"
           },
           "applications": [
             "AI Inference",
@@ -1242,13 +1210,7 @@
             "600G Interlaken": "Hardened MAC",
             "PCIe": "Gen5 x16",
             "GTY Transceivers": "152 (58 Gbps PAM4)",
-            "Package": "SVD1760 (45x45mm)",
-            "Application Processor": "N/A",
-            "Real-time Processor": "N/A",
-            "Memory": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SVD1760 (45x45mm)"
           },
           "applications": [
             "400G Networking",
@@ -1402,10 +1364,7 @@
         "PCIe Interface",
         "Form Factor",
         "Power",
-        "Cooling",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "Cooling"
       ],
       "applications": [
         "Database Analytics",
@@ -1527,10 +1486,7 @@
             "PCIe Interface": "Gen4 x8",
             "Form Factor": "Half-height, half-length",
             "Power": "150W (max)",
-            "Cooling": "Passive (requires server airflow)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Cooling": "Passive (requires server airflow)"
           },
           "applications": [
             "Computational Storage",
@@ -1687,10 +1643,7 @@
             "PCIe Interface": "Gen4 x8",
             "Form Factor": "Low-profile (half-height, half-length)",
             "Power": "75W (max)",
-            "Cooling": "Passive (requires server airflow)",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Cooling": "Passive (requires server airflow)"
           },
           "applications": [
             "AI Inference",

@@ -779,8 +779,7 @@
             "GPIO": "58 pins",
             "Communication": "CAN, SPI, I2C, UART",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "LQFP-100",
-            "HRPWM Resolution": "N/A"
+            "Package": "LQFP-100"
           },
           "features": [
             "100MHz C28x 32-bit DSP core",
@@ -997,18 +996,7 @@
               "relationship": "Recommended companion"
             }
           ],
-          "specifications": {
-            "Core": "N/A",
-            "Clock Speed": "N/A",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "PWM Channels": "N/A",
-            "HRPWM Resolution": "N/A",
-            "ADC": "N/A",
-            "GPIO": "N/A",
-            "Communication": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "DSP Processors FCP32C335-L"
         },
         {
@@ -1075,18 +1063,7 @@
               "relationship": "Recommended companion"
             }
           ],
-          "specifications": {
-            "Core": "N/A",
-            "Clock Speed": "N/A",
-            "Flash Memory": "N/A",
-            "RAM": "N/A",
-            "PWM Channels": "N/A",
-            "HRPWM Resolution": "N/A",
-            "ADC": "N/A",
-            "GPIO": "N/A",
-            "Communication": "N/A",
-            "Temperature Range": "N/A"
-          },
+          "specifications": {},
           "name": "DSP Processors FCP32C335-H"
         }
       ],
@@ -1198,8 +1175,7 @@
             "Supply Voltage": "3.3V / 2.5V",
             "Auto-MDIX": "Yes",
             "LED Support": "Link, Activity, Speed",
-            "Package": "QFN-32, TQFP-48",
-            "Surge Protection": "N/A"
+            "Package": "QFN-32, TQFP-48"
           },
           "features": [
             "10/100BASE-TX Ethernet support",
@@ -1366,8 +1342,7 @@
             "Surge Protection": "IEC 61000-4-5 Level 3",
             "Supply Voltage": "3.3V / 2.5V",
             "Auto-MDIX": "Yes",
-            "Package": "QFN-32",
-            "LED Support": "N/A"
+            "Package": "QFN-32"
           },
           "features": [
             "Extended -40°C to +105°C range",
@@ -1561,16 +1536,7 @@
               "link": "/funcience/products/ethercat-controllers/fce1100"
             }
           ],
-          "specifications": {
-            "Ethernet Speed": "N/A",
-            "Interface": "N/A",
-            "Temperature Range": "N/A",
-            "ESD Protection": "N/A",
-            "Supply Voltage": "N/A",
-            "Auto-MDIX": "N/A",
-            "LED Support": "N/A",
-            "Surge Protection": "N/A"
-          },
+          "specifications": {},
           "name": "Industrial Ethernet PHYs FEP1000"
         },
         {
@@ -1619,16 +1585,7 @@
               "link": "/funcience/products/ethercat-controllers/fce1353"
             }
           ],
-          "specifications": {
-            "Ethernet Speed": "N/A",
-            "Interface": "N/A",
-            "Temperature Range": "N/A",
-            "ESD Protection": "N/A",
-            "Supply Voltage": "N/A",
-            "Auto-MDIX": "N/A",
-            "LED Support": "N/A",
-            "Surge Protection": "N/A"
-          },
+          "specifications": {},
           "name": "Industrial Ethernet PHYs FEP1000-G"
         }
       ],
@@ -1745,12 +1702,7 @@
             "Connectors": "2x RJ45 (EtherCAT), USB, Debug",
             "Indicators": "Power, Link, Activity LEDs",
             "Software": "Sample code, Config tool",
-            "Documentation": "User manual, Schematics",
-            "Power Stage": "N/A",
-            "Motor Connector": "N/A",
-            "Feedback": "N/A",
-            "Debug Interface": "N/A",
-            "Power Input": "N/A"
+            "Documentation": "User manual, Schematics"
           },
           "features": [
             "Fully assembled evaluation board",
@@ -1914,12 +1866,7 @@
             "Debug Interface": "JTAG connector",
             "Power Input": "24-48V DC",
             "Software": "FOC library, Examples",
-            "Documentation": "User guide, Schematics, Tuning guide",
-            "PHY Included": "N/A",
-            "Host Interface": "N/A",
-            "Power Supply": "N/A",
-            "Connectors": "N/A",
-            "Indicators": "N/A"
+            "Documentation": "User guide, Schematics, Tuning guide"
           },
           "features": [
             "FCP32C335 DSP evaluation board",
@@ -2128,21 +2075,7 @@
               "relationship": "Recommended companion"
             }
           ],
-          "specifications": {
-            "Target Chip": "N/A",
-            "PHY Included": "N/A",
-            "Host Interface": "N/A",
-            "Power Supply": "N/A",
-            "Connectors": "N/A",
-            "Indicators": "N/A",
-            "Software": "N/A",
-            "Documentation": "N/A",
-            "Power Stage": "N/A",
-            "Motor Connector": "N/A",
-            "Feedback": "N/A",
-            "Debug Interface": "N/A",
-            "Power Input": "N/A"
-          },
+          "specifications": {},
           "name": "Development Tools FCE-EVK-1100"
         },
         {
@@ -2209,21 +2142,7 @@
               "relationship": "Recommended companion"
             }
           ],
-          "specifications": {
-            "Target Chip": "N/A",
-            "PHY Included": "N/A",
-            "Host Interface": "N/A",
-            "Power Supply": "N/A",
-            "Connectors": "N/A",
-            "Indicators": "N/A",
-            "Software": "N/A",
-            "Documentation": "N/A",
-            "Power Stage": "N/A",
-            "Motor Connector": "N/A",
-            "Feedback": "N/A",
-            "Debug Interface": "N/A",
-            "Power Input": "N/A"
-          },
+          "specifications": {},
           "name": "Development Tools FCE-EVK-1353"
         }
       ],

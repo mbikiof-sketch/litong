@@ -87,8 +87,6 @@
         "Supply Voltage",
         "Quiescent Current",
         "Settling Time",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Channels",
         "CMRR"
@@ -187,13 +185,7 @@
             "Slew Rate": "1.5V/μs",
             "Supply Voltage": "2.5V to 5.5V",
             "Quiescent Current": "450μA per channel",
-            "Package": "SOT23-5, SOIC-8",
-            "Settling Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Channels": "N/A",
-            "CMRR": "N/A"
+            "Package": "SOT23-5, SOIC-8"
           },
           "features": [
             "Ultra-low offset voltage: 50μV max",
@@ -243,13 +235,6 @@
               "reason": "Pin-compatible alternative with similar performance characteristics.",
               "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
               "link": "/3peak/products/operational-amplifiers/tp1562"
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "TP1561=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
             }
           ],
           "companionParts": [
@@ -353,13 +338,7 @@
             "Slew Rate": "1.5V/μs",
             "Supply Voltage": "2.5V to 5.5V",
             "Quiescent Current": "450μA per channel",
-            "Package": "SOIC-8, MSOP-8",
-            "Settling Time": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Channels": "N/A",
-            "CMRR": "N/A"
+            "Package": "SOIC-8, MSOP-8"
           },
           "features": [
             "Dual precision op-amps in one package",
@@ -409,13 +388,6 @@
               "reason": "Pin-compatible alternative with similar performance characteristics.",
               "useCase": "Suitable for cost-sensitive designs requiring similar functionality.",
               "link": "/3peak/products/operational-amplifiers/tp1561"
-            },
-            {
-              "partNumber": "ALT-2",
-              "manufacturer": "Competitor",
-              "comparison": "TP1562=><ALT-2: Similar specifications, pin-compatible option for flexible design choices.",
-              "reason": "Pin-compatible alternative with similar performance characteristics.",
-              "useCase": "Suitable for cost-sensitive designs requiring similar functionality."
             }
           ],
           "companionParts": [
@@ -511,13 +483,7 @@
             "Offset Voltage": "5mV max",
             "Supply Voltage": "4.5V to 12V",
             "Quiescent Current": "5mA per channel",
-            "Package": "SOT23-5, SOIC-8",
-            "Offset Drift": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Channels": "N/A",
-            "CMRR": "N/A"
+            "Package": "SOT23-5, SOIC-8"
           },
           "features": [
             "High bandwidth: 100MHz at unity gain",
@@ -676,11 +642,7 @@
             "CMRR": "90 dB",
             "Slew Rate": "0.5 V/µs",
             "Package": "TSSOP-14",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Offset Drift": "N/A",
-            "Settling Time": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Rail-to-rail input/output",
@@ -705,49 +667,8 @@
             "content": "The TP1564 provides excellent low-power performance with rail-to-rail capability. The 40µA current consumption per channel is ideal for battery-powered applications. Good bandwidth and precision for general-purpose use.",
             "highlight": "Low-power quad amplifier with rail-to-rail"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "OPERATIONALAMPLIFIERS-4=><ALT-4-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "OPERATIONALAMPLIFIERS-4=><ALT-4-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for OPERATIONALAMPLIFIERS-4?",
@@ -817,9 +738,6 @@
         "SNR",
         "Power Supply",
         "Power",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range",
         "Sampling Rate",
         "Interface",
         "Supply Voltage"
@@ -919,13 +837,7 @@
             "SNR": "90 dB typical",
             "Power Supply": "2.7V to 5.25V",
             "Power": "15mW at 5V, 1MSPS",
-            "Package": "TSSOP-16, QFN-16",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Sampling Rate": "N/A",
-            "Interface": "N/A",
-            "Supply Voltage": "N/A"
+            "Package": "TSSOP-16, QFN-16"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -1079,13 +991,7 @@
             "SNR": "70 dB typical",
             "Power Supply": "2.7V to 5.25V",
             "Power": "8mW at 5V, 1MSPS",
-            "Package": "SOT23-6, MSOP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Sampling Rate": "N/A",
-            "Interface": "N/A",
-            "Supply Voltage": "N/A"
+            "Package": "SOT23-6, MSOP-8"
           },
           "features": [
             "12-bit resolution with no missing codes",
@@ -1224,284 +1130,6 @@
               ]
             }
           ]
-        },
-        {
-          "partNumber": "TPC1610",
-          "name": "TPC1610",
-          "shortDescription": "16-bit, 1 MSPS SAR ADC with SPI interface and low power consumption.",
-          "descriptionParagraphs": [
-            "The TPC1610 is a high-performance 16-bit successive approximation register (SAR) ADC with 1 MSPS sampling rate. It features a SPI-compatible serial interface and operates from a single 2.7V to 5.25V supply.",
-            "The ADC includes an internal reference and buffer, reducing external component count. With excellent AC performance (92dB SNR) and DC accuracy (±1 LSB INL), it is suitable for precision measurement applications.",
-            "Low power consumption of 15mW at 1 MSPS makes the TPC1610 ideal for battery-powered and portable instruments. Power-down mode reduces current to 2µA for energy-efficient operation."
-          ],
-          "specifications": {
-            "Resolution": "16-bit",
-            "Sampling Rate": "1 MSPS",
-            "Interface": "SPI",
-            "Supply Voltage": "2.7V to 5.25V",
-            "SNR": "92 dB",
-            "INL": "±1 LSB",
-            "Power": "15 mW",
-            "Package": "TSSOP-16",
-            "Power Supply": "100W",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Sample Rate": "N/A",
-            "DNL": "N/A"
-          },
-          "features": [
-            "16-bit resolution",
-            "1 MSPS sampling rate",
-            "SPI interface",
-            "Internal reference",
-            "92dB SNR",
-            "Single supply operation",
-            "Low power (15mW)",
-            "Power-down mode (2µA)"
-          ],
-          "applications": [
-            "Precision measurement",
-            "Battery-powered instruments",
-            "Data acquisition",
-            "Medical devices",
-            "Industrial control"
-          ],
-          "faeReview": {
-            "author": "Sarah Liu",
-            "title": "Senior FAE - Data Converters",
-            "content": "The TPC1610 offers excellent 16-bit performance with low power consumption. The internal reference and SPI interface simplify design. Ideal for precision measurement applications requiring high resolution and speed.",
-            "highlight": "High-resolution ADC with low power"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "DATACONVERTERS-3=><ALT-3-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "DATACONVERTERS-3=><ALT-3-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for DATACONVERTERS-3?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on 3peak TPC1610, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is DATACONVERTERS-3 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on 3peak TPC1610, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of DATACONVERTERS-3?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on 3peak TPC1610, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for DATACONVERTERS-3?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on 3peak TPC1610, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for DATACONVERTERS-3?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on 3peak TPC1610, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
-          "partNumber": "TPC1210",
-          "name": "TPC1210",
-          "shortDescription": "12-bit, 1 MSPS SAR ADC with pseudo-differential inputs and wide supply range.",
-          "descriptionParagraphs": [
-            "The TPC1210 is a 12-bit SAR ADC with 1 MSPS sampling rate and pseudo-differential input capability. It operates from a wide 2.7V to 5.25V supply range, providing flexibility in system design.",
-            "The ADC features a high-speed SPI-compatible interface and includes track-and-hold circuitry. With 71dB SNR and ±1 LSB INL, it delivers reliable performance for general-purpose data acquisition.",
-            "Low power operation (10mW at 1 MSPS) and small TSSOP-14 package make the TPC1210 suitable for portable and space-constrained applications."
-          ],
-          "specifications": {
-            "Resolution": "12-bit",
-            "Sampling Rate": "1 MSPS",
-            "Interface": "SPI",
-            "Supply Voltage": "2.7V to 5.25V",
-            "SNR": "71 dB",
-            "INL": "±1 LSB",
-            "Power": "10 mW",
-            "Package": "TSSOP-14",
-            "Power Supply": "100W",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Sample Rate": "N/A",
-            "DNL": "N/A"
-          },
-          "features": [
-            "12-bit resolution",
-            "1 MSPS sampling rate",
-            "Pseudo-differential inputs",
-            "SPI interface",
-            "Wide supply range",
-            "Low power consumption",
-            "Small package",
-            "Track-and-hold included"
-          ],
-          "applications": [
-            "Data acquisition",
-            "Battery monitoring",
-            "Sensor interface",
-            "Portable instruments",
-            "General-purpose ADC"
-          ],
-          "faeReview": {
-            "author": "Sarah Liu",
-            "title": "Senior FAE - Data Converters",
-            "content": "The TPC1210 provides excellent value for 12-bit data acquisition. The pseudo-differential inputs and wide supply range offer design flexibility. Low power and small package are ideal for portable applications.",
-            "highlight": "Cost-effective 12-bit ADC solution"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "DATACONVERTERS-4=><ALT-4-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "DATACONVERTERS-4=><ALT-4-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for DATACONVERTERS-4?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on 3peak TPC1210, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is DATACONVERTERS-4 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on 3peak TPC1210, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of DATACONVERTERS-4?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on 3peak TPC1210, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for DATACONVERTERS-4?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on 3peak TPC1210, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for DATACONVERTERS-4?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on 3peak TPC1210, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1523,8 +1151,6 @@
         "Common Mode Range",
         "Unit Load",
         "Supply Voltage",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Interface Type",
         "Nodes on Bus",
@@ -1626,15 +1252,7 @@
             "Common Mode Range": "-7V to +12V",
             "Unit Load": "1/8 (256 nodes max)",
             "Supply Voltage": "3.0V to 3.6V or 4.5V to 5.5V",
-            "Package": "SOIC-8, DIP-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Interface Type": "N/A",
-            "Nodes on Bus": "N/A",
-            "Shutdown Current": "N/A",
-            "Drivers/Receivers": "N/A",
-            "Isolation Voltage": "N/A"
+            "Package": "SOIC-8, DIP-8"
           },
           "features": [
             "20Mbps maximum data rate",
@@ -1771,146 +1389,6 @@
           ]
         },
         {
-          "partNumber": "TPT485",
-          "name": "TPT485",
-          "shortDescription": "3.3V/5V RS-485/RS-422 Transceiver with enhanced ESD protection up to 15kV.",
-          "descriptionParagraphs": [
-            "The TPT485 is a robust RS-485/RS-422 transceiver designed for harsh industrial environments. It features enhanced ESD protection up to 15kV (HBM) and ±8kV contact discharge.",
-            "The device operates from a single 3.3V or 5V supply and supports data rates up to 10Mbps. It includes fail-safe circuitry that guarantees a logic-high receiver output when inputs are open or shorted.",
-            "With 1/8 unit load receiver input impedance, up to 256 transceivers can be connected on the same bus. The TPT485 is ideal for industrial automation, building automation, and point-of-sale systems."
-          ],
-          "specifications": {
-            "Interface Type": "RS-485/RS-422",
-            "Data Rate": "10 Mbps",
-            "Supply Voltage": "3.3V / 5V",
-            "ESD Protection": "15kV HBM",
-            "Nodes on Bus": "256",
-            "Temperature Range": "-40°C to +85°C",
-            "Package": "SOP-8",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Interface": "N/A",
-            "Common Mode Range": "N/A",
-            "Unit Load": "N/A",
-            "Shutdown Current": "N/A",
-            "Drivers/Receivers": "N/A",
-            "Isolation Voltage": "N/A"
-          },
-          "features": [
-            "RS-485/RS-422 compliant",
-            "Enhanced ESD protection (15kV HBM)",
-            "3.3V/5V operation",
-            "10 Mbps data rate",
-            "Fail-safe receiver",
-            "1/8 unit load (256 nodes)",
-            "Thermal shutdown protection",
-            "Low power consumption"
-          ],
-          "applications": [
-            "Industrial automation",
-            "Building automation",
-            "Point-of-sale systems",
-            "Security systems",
-            "HVAC control"
-          ],
-          "faeReview": {
-            "author": "David Wang",
-            "title": "Senior FAE - Interface Products",
-            "content": "The TPT485 offers excellent ESD protection and reliability for industrial applications. The 15kV HBM rating exceeds many competitors, making it ideal for harsh environments. The dual voltage support provides design flexibility.",
-            "highlight": "Superior ESD protection for industrial use"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "INTERFACECHIPS-2=><ALT-2-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "INTERFACECHIPS-2=><ALT-2-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for INTERFACECHIPS-2?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on 3peak TPT485, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is INTERFACECHIPS-2 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on 3peak TPT485, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of INTERFACECHIPS-2?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on 3peak TPT485, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for INTERFACECHIPS-2?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on 3peak TPT485, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for INTERFACECHIPS-2?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on 3peak TPT485, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "TPT3232",
           "name": "TPT3232",
           "shortDescription": "3.0V to 5.5V RS-232 Transceiver with 1µA shutdown current and 15kV ESD protection.",
@@ -1927,14 +1405,7 @@
             "Shutdown Current": "1 µA",
             "Drivers/Receivers": "3/5",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SSOP-28",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Interface": "N/A",
-            "Common Mode Range": "N/A",
-            "Unit Load": "N/A",
-            "Nodes on Bus": "N/A",
-            "Isolation Voltage": "N/A"
+            "Package": "SSOP-28"
           },
           "features": [
             "3-driver/5-receiver RS-232",
@@ -1959,49 +1430,8 @@
             "content": "The TPT3232 is perfect for battery-powered applications with its 1µA shutdown current. The integrated charge pump and small capacitor requirements simplify design. Excellent ESD protection ensures reliability in portable devices.",
             "highlight": "Ultra-low power for battery applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "INTERFACECHIPS-3=><ALT-3-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "INTERFACECHIPS-3=><ALT-3-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for INTERFACECHIPS-3?",
@@ -2067,14 +1497,7 @@
             "ESD Protection": "8kV contact",
             "Nodes on Bus": "256",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOIC-16-W",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Interface": "N/A",
-            "Common Mode Range": "N/A",
-            "Unit Load": "N/A",
-            "Shutdown Current": "N/A",
-            "Drivers/Receivers": "N/A"
+            "Package": "SOIC-16-W"
           },
           "features": [
             "2500Vrms isolation",
@@ -2099,49 +1522,8 @@
             "content": "The TPT75176 eliminates the need for external isolated power supply, significantly simplifying isolated RS-485 designs. The 2500Vrms isolation and integrated DC-DC make it a complete isolated transceiver solution.",
             "highlight": "Complete isolated solution with integrated power"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "INTERFACECHIPS-4=><ALT-4-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "INTERFACECHIPS-4=><ALT-4-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for INTERFACECHIPS-4?",
@@ -2199,16 +1581,7 @@
       "description": "Integrated motor driver ICs for DC, stepper, and brushless motor applications with built-in protection and control features.",
       "longDescription": "As an authorized 3peak distributor, BeiLuo provides comprehensive selection and support for 3peak's motor driver portfolio. 3peak offers integrated motor driver solutions for DC motors, stepper motors, and brushless DC motors. These drivers feature built-in protection circuits, PWM control interfaces, and current sensing capabilities, making them ideal for robotics, automation, and consumer electronics applications.",
       "series": [
-        "TPMxxx",
-        {
-          "name": "Motor Drivers Series 2",
-          "description": "Extended Motor Drivers product series",
-          "features": [
-            "High performance",
-            "Low power",
-            "Industrial grade"
-          ]
-        }
+        "TPMxxx"
       ],
       "parameters": [
         "Motor Type",
@@ -2483,49 +1856,8 @@
             "content": "The TPM8838 offers excellent current capability with advanced regulation features. The programmable current limiting is particularly useful for protecting motors and mechanical systems. Highly recommended for industrial applications.",
             "highlight": "Advanced current regulation for precise control"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "MOTORDRIVERS-2=><ALT-2-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "MOTORDRIVERS-2=><ALT-2-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOTORDRIVERS-2?",
@@ -2619,49 +1951,8 @@
             "content": "The TPM8840 delivers exceptional current capability with minimal power loss. The extended temperature range and robust protection features make it ideal for harsh industrial environments. Excellent thermal performance in the ESOP-8 package.",
             "highlight": "High-current capability with excellent thermal performance"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "MOTORDRIVERS-3=><ALT-3-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "MOTORDRIVERS-3=><ALT-3-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOTORDRIVERS-3?",
@@ -2755,49 +2046,8 @@
             "content": "The TPM8842 is the perfect choice for battery-powered applications. The ultra-low standby current and wide voltage range maximize battery life. The compact SOT-23-6 package is ideal for space-constrained designs.",
             "highlight": "Ultra-low power for battery applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "MOTORDRIVERS-4=><ALT-4-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "MOTORDRIVERS-4=><ALT-4-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for MOTORDRIVERS-4?",
@@ -2866,8 +2116,6 @@
         "Line Regulation",
         "Load Regulation",
         "Supply Current",
-        "Voltage Rating",
-        "Current Rating",
         "Temperature Range",
         "Output Current",
         "Input Voltage",
@@ -2972,18 +2220,7 @@
             "Line Regulation": "20ppm/V",
             "Load Regulation": "50ppm/mA",
             "Supply Current": "100μA max",
-            "Package": "SOT23-3, SOIC-8",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A",
-            "Output Current": "N/A",
-            "Input Voltage": "N/A",
-            "Dropout Voltage": "N/A",
-            "Noise": "N/A",
-            "PSRR": "N/A",
-            "Quiescent Current": "N/A",
-            "Enable": "N/A",
-            "Protection": "N/A"
+            "Package": "SOT23-3, SOIC-8"
           },
           "features": [
             "High initial accuracy: ±0.1%",
@@ -3119,150 +2356,6 @@
           ]
         },
         {
-          "partNumber": "TPR1025",
-          "name": "TPR1025",
-          "shortDescription": "Ultra-low noise, high PSRR LDO regulator with 2.5V fixed output and 200mA current capability.",
-          "descriptionParagraphs": [
-            "The TPR1025 is an ultra-low noise LDO regulator providing a fixed 2.5V output with 200mA current capability. It features exceptional noise performance of 8µVRMS and high PSRR of 75dB at 1kHz.",
-            "The LDO operates from a 2.7V to 6.5V input voltage and requires only 1µF ceramic capacitors for stability. It includes current limit and thermal shutdown protection.",
-            "With ultra-low dropout voltage of 180mV at 200mA, the TPR1025 maximizes battery life in portable applications. The device is ideal for powering noise-sensitive analog circuits, RF systems, and precision sensors."
-          ],
-          "specifications": {
-            "Output Voltage": "2.5V fixed",
-            "Output Current": "200 mA",
-            "Input Voltage": "2.7V to 6.5V",
-            "Dropout Voltage": "180 mV",
-            "Noise": "8 µVRMS",
-            "PSRR": "75 dB @ 1kHz",
-            "Quiescent Current": "50 µA",
-            "Package": "SOT-23-5",
-            "Temperature Drift": "-40°C to +85°C",
-            "Supply Current": "100A",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Initial Accuracy": "N/A",
-            "Output Noise": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Enable": "N/A",
-            "Protection": "N/A"
-          },
-          "features": [
-            "Ultra-low noise (8µVRMS)",
-            "High PSRR (75dB)",
-            "200mA output current",
-            "Low dropout voltage",
-            "Stable with ceramic caps",
-            "Current limit protection",
-            "Thermal shutdown",
-            "Small SOT-23-5 package"
-          ],
-          "applications": [
-            "RF power supply",
-            "Precision sensors",
-            "Audio circuits",
-            "ADC/DAC reference",
-            "Battery-powered devices"
-          ],
-          "faeReview": {
-            "author": "Michael Zhang",
-            "title": "Senior FAE - Power Management",
-            "content": "The TPR1025 delivers exceptional noise performance for sensitive analog circuits. The high PSRR and ultra-low noise make it ideal for RF and precision applications. Small package and low dropout maximize battery life.",
-            "highlight": "Ultra-low noise for sensitive applications"
-          },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-2-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "POWERMANAGEMENT-2=><ALT-2-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-2-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "POWERMANAGEMENT-2=><ALT-2-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
-          "faqs": [
-            {
-              "question": "What is the maximum voltage for POWERMANAGEMENT-2?",
-              "answer": "The maximum voltage rating is 25V DC. This rating ensures reliable operation in industrial applications. For detailed specifications and application support on 3peak TPR1025, refer to the datasheet or contact our team.",
-              "decisionGuide": "For higher voltage requirements, contact our FAE team.",
-              "keywords": [
-                "voltage rating",
-                "maximum voltage"
-              ]
-            },
-            {
-              "question": "What applications is POWERMANAGEMENT-2 suitable for?",
-              "answer": "This product is suitable for industrial controls, consumer electronics, and power supply applications. For detailed specifications and application support on 3peak TPR1025, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact our FAE team for application-specific recommendations.",
-              "keywords": [
-                "applications",
-                "use cases"
-              ]
-            },
-            {
-              "question": "What is the temperature range of POWERMANAGEMENT-2?",
-              "answer": "The operating temperature range is -40°C to +85°C, suitable for industrial environments. For detailed specifications and application support on 3peak TPR1025, refer to the datasheet or contact our team.",
-              "decisionGuide": "For extended temperature requirements, contact our FAE team.",
-              "keywords": [
-                "temperature",
-                "operating range"
-              ]
-            },
-            {
-              "question": "What package options are available for POWERMANAGEMENT-2?",
-              "answer": "Standard package is SOP-8. Contact us for other package options. For detailed specifications and application support on 3peak TPR1025, refer to the datasheet or contact our team. This information is based on extensive testing and real-world application experience. Contact BeiLuo FAE for specific design recommendations.",
-              "decisionGuide": "Check datasheet for detailed package information.",
-              "keywords": [
-                "package",
-                "SOP-8"
-              ]
-            },
-            {
-              "question": "What is the lead time for POWERMANAGEMENT-2?",
-              "answer": "Standard lead time is 4-6 weeks. Contact sales for current availability. For detailed specifications and application support on 3peak TPR1025, refer to the datasheet or contact our team.",
-              "decisionGuide": "Contact sales team for urgent requirements.",
-              "keywords": [
-                "lead time",
-                "availability"
-              ]
-            }
-          ]
-        },
-        {
           "partNumber": "TPR1033",
           "name": "TPR1033",
           "shortDescription": "Low quiescent current LDO with 3.3V output, 300mA capability, and enable function.",
@@ -3282,15 +2375,7 @@
             "Package": "SOT-23-5",
             "Temperature Drift": "-40°C to +85°C",
             "Supply Current": "100A",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Initial Accuracy": "N/A",
-            "Output Noise": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Noise": "N/A",
-            "Protection": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "Ultra-low quiescent current (2µA)",
@@ -3315,49 +2400,8 @@
             "content": "The TPR1033 is excellent for battery-powered applications with its 2µA quiescent current. The wide input range and enable function provide design flexibility. Ideal for IoT and portable devices requiring long battery life.",
             "highlight": "Ultra-low power for battery applications"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-3-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "POWERMANAGEMENT-3=><ALT-3-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-3-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "POWERMANAGEMENT-3=><ALT-3-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMANAGEMENT-3?",
@@ -3426,15 +2470,7 @@
             "Package": "SOT-89-3",
             "Temperature Drift": "-40°C to +85°C",
             "Supply Current": "100A",
-            "Voltage Rating": "600V",
-            "Current Rating": "100A",
-            "Temperature Range": "-40°C to +85°C",
-            "Initial Accuracy": "N/A",
-            "Output Noise": "N/A",
-            "Line Regulation": "N/A",
-            "Load Regulation": "N/A",
-            "Noise": "N/A",
-            "Enable": "N/A"
+            "Temperature Range": "-40°C to +85°C"
           },
           "features": [
             "High input voltage (up to 36V)",
@@ -3459,49 +2495,8 @@
             "content": "The TPR1050 handles high input voltages up to 36V, making it ideal for industrial and automotive applications. The robust protection features and wide input range provide reliable operation in harsh environments.",
             "highlight": "High voltage capability for industrial use"
           },
-          "alternativeParts": [
-            {
-              "partNumber": "ALT-4-A",
-              "brand": "Generic",
-              "reason": "Alternative option",
-              "comparison": "POWERMANAGEMENT-4=><ALT-4-A:, suitable for direct replacement.",
-              "useCase": "General purpose",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "0%",
-              "stockStatus": "In Stock"
-            },
-            {
-              "partNumber": "ALT-4-B",
-              "brand": "Generic",
-              "reason": "Higher performance option",
-              "comparison": "POWERMANAGEMENT-4=><ALT-4-B:, suitable for direct replacement.",
-              "useCase": "High performance",
-              "parameters": {
-                "Voltage Rating": "25V DC"
-              },
-              "priceDifference": "+10%",
-              "stockStatus": "In Stock"
-            }
-          ],
-          "companionParts": [
-            {
-              "partNumber": "COMP-1",
-              "description": "Companion component 1",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-2",
-              "description": "Companion component 2",
-              "category": "Accessories"
-            },
-            {
-              "partNumber": "COMP-3",
-              "description": "Companion component 3",
-              "category": "Accessories"
-            }
-          ],
+          "alternativeParts": [],
+          "companionParts": [],
           "faqs": [
             {
               "question": "What is the maximum voltage for POWERMANAGEMENT-4?",

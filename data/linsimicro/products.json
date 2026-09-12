@@ -90,9 +90,7 @@
         "PGA Gain",
         "Input Channels",
         "Output Data Rate",
-        "Power Supply",
-        "Voltage Rating",
-        "Current Rating"
+        "Power Supply"
       ],
       "applications": [
         "Industrial Control",
@@ -191,14 +189,7 @@
             "SNR": "93 dB",
             "Interface": "SPI",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "TSSOP-20, QFN-24",
-            "ENOB": "N/A",
-            "PGA Gain": "N/A",
-            "Input Channels": "N/A",
-            "Output Data Rate": "N/A",
-            "Power Supply": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "TSSOP-20, QFN-24"
           },
           "features": [
             "16-bit resolution with no missing codes",
@@ -346,14 +337,7 @@
             "Interface": "I2C",
             "Power Supply": "2.7V to 5.25V",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "MSOP-10, QFN-16",
-            "Sampling Rate": "N/A",
-            "Channels": "N/A",
-            "INL": "N/A",
-            "DNL": "N/A",
-            "SNR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "MSOP-10, QFN-16"
           },
           "features": [
             "24-bit resolution with 22-bit ENOB",
@@ -504,9 +488,7 @@
         "Temperature Range",
         "Dropout Voltage",
         "Output Noise",
-        "PSRR",
-        "Voltage Rating",
-        "Current Rating"
+        "PSRR"
       ],
       "applications": [
         "Industrial Systems",
@@ -605,12 +587,7 @@
             "Switching Frequency": "300kHz to 2.2MHz (adjustable)",
             "Quiescent Current": "25µA (sleep mode)",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOP-8, QFN-16",
-            "Dropout Voltage": "N/A",
-            "Output Noise": "N/A",
-            "PSRR": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOP-8, QFN-16"
           },
           "features": [
             "3A continuous output current",
@@ -759,11 +736,7 @@
             "PSRR": "80dB at 1kHz",
             "Quiescent Current": "50µA",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT-23-5, SC-70-5",
-            "Efficiency": "N/A",
-            "Switching Frequency": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Ultra-low output noise: 6µVRMS",
@@ -955,12 +928,7 @@
             "Noise": "8nV/√Hz",
             "Supply Range": "2.7V to 5.5V",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOT-23-5, MSOP-8",
-            "Gain Range": "N/A",
-            "Supply Current": "N/A",
-            "Propagation Delay": "N/A",
-            "Input Offset": "N/A",
-            "Output Type": "N/A"
+            "Package": "SOT-23-5, MSOP-8"
           },
           "features": [
             "Ultra-low offset voltage",
@@ -998,13 +966,7 @@
             "Offset Voltage": "25μV",
             "Bandwidth": "1MHz (G=1)",
             "Supply Range": "2.7V to 36V",
-            "Package": "MSOP-8, SOIC-8",
-            "Noise": "N/A",
-            "Temperature Range": "N/A",
-            "Supply Current": "N/A",
-            "Propagation Delay": "N/A",
-            "Input Offset": "N/A",
-            "Output Type": "N/A"
+            "Package": "MSOP-8, SOIC-8"
           },
           "features": [
             "Programmable gain",
@@ -1042,13 +1004,7 @@
             "Offset Voltage": "2mV",
             "CMRR": "80dB",
             "Supply Range": "1.8V to 5.5V",
-            "Package": "SOT-23-5, SC-70-5",
-            "Noise": "N/A",
-            "Temperature Range": "N/A",
-            "Gain Range": "N/A",
-            "Propagation Delay": "N/A",
-            "Input Offset": "N/A",
-            "Output Type": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Ultra-low power",
@@ -1085,13 +1041,7 @@
             "Input Offset": "5mV",
             "Output Type": "Push-pull",
             "Supply Range": "2.7V to 5.5V",
-            "Package": "SOT-23-5, SC-70-5",
-            "Offset Voltage": "N/A",
-            "Bandwidth": "N/A",
-            "CMRR": "N/A",
-            "Noise": "N/A",
-            "Temperature Range": "N/A",
-            "Gain Range": "N/A"
+            "Package": "SOT-23-5, SC-70-5"
           },
           "features": [
             "Fast response",
@@ -1173,12 +1123,7 @@
             "Supply Voltage": "3.3V or 5V",
             "Bus Pins": "±7V fault protection",
             "Temperature Range": "-40°C to +125°C",
-            "Package": "SOIC-8, MSOP-8",
-            "CAN Standard": "N/A",
-            "Bus Fault": "N/A",
-            "LIN Standard": "N/A",
-            "Sleep Current": "N/A",
-            "Driver Output": "N/A"
+            "Package": "SOIC-8, MSOP-8"
           },
           "features": [
             "High data rate",
@@ -1216,12 +1161,7 @@
             "Supply Voltage": "5V",
             "Bus Fault": "±58V protection",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "SOIC-8, DFN-8",
-            "ESD Protection": "N/A",
-            "Bus Pins": "N/A",
-            "LIN Standard": "N/A",
-            "Sleep Current": "N/A",
-            "Driver Output": "N/A"
+            "Package": "SOIC-8, DFN-8"
           },
           "features": [
             "CAN FD support",
@@ -1259,12 +1199,7 @@
             "Supply Voltage": "5V to 27V",
             "Sleep Current": "10μA",
             "Temperature Range": "-40°C to +150°C",
-            "Package": "SOIC-8, DFN-8",
-            "ESD Protection": "N/A",
-            "Bus Pins": "N/A",
-            "CAN Standard": "N/A",
-            "Bus Fault": "N/A",
-            "Driver Output": "N/A"
+            "Package": "SOIC-8, DFN-8"
           },
           "features": [
             "LIN 2.2A compliant",
@@ -1302,12 +1237,7 @@
             "Supply Voltage": "5V",
             "Driver Output": "±2V min",
             "Temperature Range": "-40°C to +85°C",
-            "Package": "SOIC-8, DIP-8",
-            "Bus Pins": "N/A",
-            "CAN Standard": "N/A",
-            "Bus Fault": "N/A",
-            "LIN Standard": "N/A",
-            "Sleep Current": "N/A"
+            "Package": "SOIC-8, DIP-8"
           },
           "features": [
             "Full-duplex operation",

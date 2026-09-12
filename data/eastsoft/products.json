@@ -315,9 +315,7 @@
         "Voltage Rating",
         "Operating Frequency",
         "Operating Voltage",
-        "GPIO Count",
-        "Current Rating",
-        "Temperature Range"
+        "GPIO Count"
       ],
       "applications": [
         "Home appliances",
@@ -411,11 +409,7 @@
             "Communication Interfaces": "UART, SPI, I2C",
             "Voltage Rating": "1.8V - 5.5V",
             "Operating Frequency": "Up to 48MHz",
-            "Package": "LQFP48, QFN32",
-            "Operating Voltage": "N/A",
-            "GPIO Count": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP48, QFN32"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -446,11 +440,7 @@
             "Communication Interfaces": "UART, SPI",
             "Voltage Rating": "1.8V - 5.5V",
             "Operating Frequency": "Up to 24MHz",
-            "Package": "TSSOP20, QFN24",
-            "Operating Voltage": "N/A",
-            "GPIO Count": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "TSSOP20, QFN24"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -481,11 +471,7 @@
             "Communication Interfaces": "UART, SPI, I2C",
             "Voltage Rating": "1.8V - 3.6V",
             "Operating Frequency": "Up to 48MHz",
-            "Package": "LQFP32, QFN32",
-            "Operating Voltage": "N/A",
-            "GPIO Count": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP32, QFN32"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -516,11 +502,7 @@
             "Communication Interfaces": "UART, SPI, I2C, USB",
             "Voltage Rating": "1.8V - 5.5V",
             "Operating Frequency": "Up to 72MHz",
-            "Package": "LQFP64, LQFP48",
-            "Operating Voltage": "N/A",
-            "GPIO Count": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "LQFP64, LQFP48"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -554,9 +536,7 @@
         "Sensitivity",
         "Voltage Rating",
         "Current Consumption",
-        "Operating Voltage",
-        "Current Rating",
-        "Temperature Range"
+        "Operating Voltage"
       ],
       "applications": [
         "Remote controls",
@@ -647,10 +627,7 @@
             "Sensitivity": "-120dBm",
             "Voltage Rating": "1.8V - 3.6V",
             "Current Consumption": "RX: 15mA, TX: 35mA",
-            "Package": "QFN20",
-            "Operating Voltage": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN20"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -679,10 +656,7 @@
             "Sensitivity": "-95dBm",
             "Voltage Rating": "1.8V - 3.6V",
             "Current Consumption": "RX: 10mA, TX: 20mA",
-            "Package": "QFN32",
-            "Operating Voltage": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN32"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -711,10 +685,7 @@
             "Sensitivity": "-110dBm",
             "Voltage Rating": "1.8V - 3.6V",
             "Current Consumption": "RX: 12mA, TX: 25mA",
-            "Package": "SOP8",
-            "Operating Voltage": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "SOP8"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -743,10 +714,7 @@
             "Sensitivity": "-118dBm",
             "Voltage Rating": "1.8V - 3.6V",
             "Current Consumption": "RX: 14mA, TX: 30mA",
-            "Package": "QFN24",
-            "Operating Voltage": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Package": "QFN24"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -781,10 +749,7 @@
         "Metrology",
         "Development Time",
         "Support Level",
-        "MCU Performance",
-        "Voltage Rating",
-        "Current Rating",
-        "Temperature Range"
+        "MCU Performance"
       ],
       "applications": [
         "Smart electricity meters",
@@ -872,14 +837,7 @@
             "Communication": "PLC + RF Dual-mode",
             "Features": "Metering + Communication + Display",
             "Application": "Smart electricity meters",
-            "Certification": "State Grid certified",
-            "Metrology": "N/A",
-            "Development Time": "N/A",
-            "Support Level": "N/A",
-            "MCU Performance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Certification": "State Grid certified"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -905,14 +863,7 @@
             "Communication": "PLC + WiFi + Bluetooth",
             "Features": "Multi-protocol gateway",
             "Application": "Smart home systems",
-            "Certification": "CE, FCC",
-            "Metrology": "N/A",
-            "Development Time": "N/A",
-            "Support Level": "N/A",
-            "MCU Performance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Certification": "CE, FCC"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -938,14 +889,7 @@
             "Communication": "PLC + CAN + RS485",
             "Features": "Industrial grade reliability",
             "Application": "Factory automation",
-            "Certification": "Industrial grade",
-            "Metrology": "N/A",
-            "Development Time": "N/A",
-            "Support Level": "N/A",
-            "MCU Performance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Certification": "Industrial grade"
           },
           "alternativeParts": [],
           "companionParts": [],
@@ -971,14 +915,7 @@
             "Communication": "Multi-protocol (PLC/RF/Ethernet)",
             "Features": "Edge computing, cloud connectivity",
             "Application": "Smart city, industrial IoT",
-            "Certification": "CE, FCC, RoHS",
-            "Metrology": "N/A",
-            "Development Time": "N/A",
-            "Support Level": "N/A",
-            "MCU Performance": "N/A",
-            "Voltage Rating": "N/A",
-            "Current Rating": "N/A",
-            "Temperature Range": "N/A"
+            "Certification": "CE, FCC, RoHS"
           },
           "alternativeParts": [],
           "companionParts": [],
