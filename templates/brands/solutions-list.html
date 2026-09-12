@@ -144,12 +144,12 @@
   <main>
     <section class="solutions-list">
       <div class="container">
-        <h2 class="section-title">Application Solutions</h2>
+        <h1 class="section-title">Application Solutions</h1>
         <div class="solutions-grid">
           <% solutions.solutions.forEach(function(solution) { %>
             <a href="/<%= brand.name.toLowerCase() %>/solutions/<%= solution.id %>" class="solution-card">
               <div class="solution-header">
-                <h3><%= solution.title %></h3>
+                <h3><%= (solution.title || solution.name) %></h3>
               </div>
               <div class="solution-content">
                 <p><%= solution.description %></p>

@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-  <title><%= solution.title %> | <%= brand.displayName %> Distributor | BeiLuo</title>
+  <title><%= (solution.title || solution.name) %> | <%= brand.displayName %> Distributor | BeiLuo</title>
   <meta name="description" content="<%= solution.description %>">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "<%= solution.title %>",
+    "headline": "<%= (solution.title || solution.name) %>",
     "description": "<%= solution.description %>"
   }
   </script>
@@ -79,7 +79,7 @@
         <div class="solution-layout">
           <div class="solution-content">
             <div class="solution-header">
-              <h1><%= solution.title %></h1>
+              <h1><%= (solution.title || solution.name) %></h1>
               <p style="color: var(--text-medium); font-size: 1.125rem;"><%= solution.industry %> Application</p>
             </div>
 

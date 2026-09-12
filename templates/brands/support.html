@@ -234,15 +234,15 @@
   <main>
     <section class="support-page">
       <div class="container">
-        <h2 class="section-title">Technical Support</h2>
+        <h1 class="section-title">Technical Support</h1>
 
         <!-- Filter Tabs -->
         <div class="support-tabs" style="display: flex; justify-content: center; gap: var(--space-2); margin-bottom: var(--space-8); flex-wrap: wrap;">
           <button class="tab-btn active" data-category="all" style="padding: 12px 24px; background: var(--primary-blue); color: #ffffff; border: none; border-radius: var(--radius-md); cursor: pointer; font-weight: 500;">All Articles</button>
-          <% 
-          const categories = [...new Set(support.articles.map(a => a.category))];
-          categories.forEach(function(cat) { 
-          %>
+<%
+const categories = ['guides', 'notes', 'reviews', 'troubleshooting'];
+categories.forEach(function(cat) {
+%>
           <button class="tab-btn" data-category="<%= cat %>" style="padding: 12px 24px; background: var(--bg-light); color: var(--text-medium); border: none; border-radius: var(--radius-md); cursor: pointer; font-weight: 500;"><%= cat %></button>
           <% }); %>
         </div>
