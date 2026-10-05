@@ -95,17 +95,17 @@
         {
           "partNumber": "TCXO3225-26M-05",
           "description": "High-stability 26MHz TCXO with ±0.5ppm for GPS timing",
-          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05.html"
+          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05"
         },
         {
           "partNumber": "RF1608-GPS",
           "description": "GPS L1 SAW filter for signal selectivity",
-          "link": "/dapu/products/rf-filters/rf1608-gps.html"
+          "link": "/dapu/products/rf-filters/rf1608-gps"
         },
         {
           "partNumber": "XO3225-32K",
           "description": "32.768kHz crystal for RTC backup",
-          "link": "/dapu/products/crystal-oscillators/xo3225-32k.html"
+          "link": "/dapu/products/crystal-oscillators/xo3225-32k"
         }
       ],
       "technicalSpecs": {
@@ -144,21 +144,21 @@
           "partNumber": "TCXO3225-26M-05",
           "description": "26MHz ±0.5ppm TCXO for GPS reference",
           "quantity": 1,
-          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05.html"
+          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-26m-05"
         },
         {
           "designator": "FL1",
           "partNumber": "RF1608-GPS",
           "description": "GPS L1 SAW filter 1575.42MHz",
           "quantity": 1,
-          "link": "/dapu/products/rf-filters/rf1608-gps.html"
+          "link": "/dapu/products/rf-filters/rf1608-gps"
         },
         {
           "designator": "Y1",
           "partNumber": "XO3225-32K",
           "description": "32.768kHz crystal for RTC",
           "quantity": 1,
-          "link": "/dapu/products/crystal-oscillators/xo3225-32k.html"
+          "link": "/dapu/products/crystal-oscillators/xo3225-32k"
         },
         {
           "designator": "L1-L3",
@@ -308,17 +308,17 @@
         {
           "partNumber": "VCXO5032-19M2-50",
           "description": "19.2MHz VCXO with ±50ppm pull range for telecom PLLs",
-          "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-19m2-50.html"
+          "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-19m2-50"
         },
         {
           "partNumber": "TCXO3225-38M4-10",
           "description": "38.4MHz TCXO ±1.0ppm for cellular baseband",
-          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-10.html"
+          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-10"
         },
         {
           "partNumber": "XO3225-25M",
           "description": "25MHz crystal oscillator for Ethernet PHYs",
-          "link": "/dapu/products/crystal-oscillators/xo3225-25m.html"
+          "link": "/dapu/products/crystal-oscillators/xo3225-25m"
         }
       ],
       "technicalSpecs": {
@@ -357,21 +357,21 @@
           "partNumber": "VCXO5032-19M2-50",
           "description": "19.2MHz VCXO ±50ppm for PLL",
           "quantity": 1,
-          "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-19m2-50.html"
+          "link": "/dapu/products/voltage-controlled-oscillators/vcxo5032-19m2-50"
         },
         {
           "designator": "U2",
           "partNumber": "TCXO3225-38M4-10",
           "description": "38.4MHz TCXO ±1.0ppm reference",
           "quantity": 1,
-          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-10.html"
+          "link": "/dapu/products/temperature-compensated-oscillators/tcxo3225-38m4-10"
         },
         {
           "designator": "Y1",
           "partNumber": "XO3225-25M",
           "description": "25MHz XO for Ethernet",
           "quantity": 2,
-          "link": "/dapu/products/crystal-oscillators/xo3225-25m.html"
+          "link": "/dapu/products/crystal-oscillators/xo3225-25m"
         },
         {
           "designator": "R1-R4",
@@ -508,19 +508,19 @@
           "partNumber": "TCXO3225-26M-05",
           "name": "TCXO3225-26M-05 26MHz ±0.5ppm TCXO",
           "role": "Precision clock source for wireless transceiver",
-          "link": "/dapu/products/tcxo/tcxo3225-26m-05.html"
+          "link": "/dapu/products/tcxo/tcxo3225-26m-05"
         },
         {
           "partNumber": "SF2012-915M",
           "name": "SF2012-915M 915MHz SAW Filter",
           "role": "RF bandpass filter for ISM band",
-          "link": "/dapu/products/saw-filters/sf2012-915m.html"
+          "link": "/dapu/products/saw-filters/sf2012-915m"
         },
         {
           "partNumber": "LNA2012-24G",
           "name": "LNA2012-24G 2.4GHz Low Noise Amplifier",
           "role": "RF front-end amplification",
-          "link": "/dapu/products/low-noise-amplifiers/lna2012-24g.html"
+          "link": "/dapu/products/low-noise-amplifiers/lna2012-24g"
         }
       ],
       "applications": [
@@ -560,21 +560,21 @@
           "description": "26MHz ±0.5ppm TCXO for precision clocking",
           "quantity": 1,
           "manufacturer": "Dapu",
-          "link": "/dapu/products/tcxo/tcxo3225-26m-05.html"
+          "link": "/dapu/products/tcxo/tcxo3225-26m-05"
         },
         {
           "partNumber": "SF2012-915M",
           "description": "915MHz SAW filter for RF selectivity",
           "quantity": 1,
           "manufacturer": "Dapu",
-          "link": "/dapu/products/saw-filters/sf2012-915m.html"
+          "link": "/dapu/products/saw-filters/sf2012-915m"
         },
         {
           "partNumber": "LNA2012-24G",
           "description": "2.4GHz LNA for RF amplification",
           "quantity": 1,
           "manufacturer": "Dapu",
-          "link": "/dapu/products/low-noise-amplifiers/lna2012-24g.html"
+          "link": "/dapu/products/low-noise-amplifiers/lna2012-24g"
         },
         {
           "partNumber": "10μF Ceramic Capacitor",

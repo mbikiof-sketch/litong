@@ -12,6 +12,7 @@ const path = require('path');
 const ejs = require('ejs');
 const TemplateSelector = require('./template-selector');
 const sitemapLib = require('./sitemap-lib');
+const { isEmptySupportArticle } = require('./content-quality');
 
 // 配置
 const config = {
@@ -216,9 +217,24 @@ function loadBrandData(brand) {
     brand: loadJSON(path.join(brandDir, 'brand.json')),
     products: loadJSON(path.join(brandDir, 'products.json')),
     solutions: loadJSON(path.join(brandDir, 'solutions.json')),
-    support: normalizeSupportData(loadJSON(path.join(brandDir, 'support.json'))),
+    support: filterEmptySupportArticles(normalizeSupportData(loadJSON(path.join(brandDir, 'support.json')))),
     news: loadJSON(path.join(brandDir, 'news.json'))
   };
+}
+
+// Drop support articles whose body is empty/near-empty: they would emit
+// near-duplicate boilerplate pages (soft-404 / "crawled, not indexed").
+function filterEmptySupportArticles(support) {
+  if (!support) return support;
+  const arts = Array.isArray(support.articles) ? support.articles
+    : (support.support && Array.isArray(support.support.articles) ? support.support.articles : null);
+  if (!arts) return support;
+  const kept = arts.filter(a => !isEmptySupportArticle(a));
+  if (kept.length !== arts.length) {
+    if (Array.isArray(support.articles)) support.articles = kept;
+    if (support.support && Array.isArray(support.support.articles)) support.support.articles = kept;
+  }
+  return support;
 }
 
 /**
@@ -687,6 +703,10 @@ function main() {
   console.log('Electronic Components Distributor Website Generator');
   console.log('='.repeat(50));
   
+  if (command === '--brand' || command === '--all') {
+    require('./generate-redirect-map').main(); // regenerate legacy 301 map
+  }
+
   switch (command) {
     case '--brand':
       const brand = args[1];
@@ -702,6 +722,7 @@ function main() {
       copyAssets();
       generateSitemap();
       inlineComponents(); // 内联组件
+      require('./fix-output-links').run(config.outputDir); // 修复内部链接
       // 复制根文件到输出目录
       fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
       fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));
@@ -733,6 +754,7 @@ function main() {
       copyAssets();
       generateSitemap();
       inlineComponents(); // 内联组件
+      require('./fix-output-links').run(config.outputDir); // 修复内部链接
       // 复制根文件到输出目录
       fs.copyFileSync(path.join(__dirname, '..', '404.html'), path.join(config.outputDir, '404.html'));
       fs.copyFileSync(path.join(__dirname, '..', 'robots.txt'), path.join(config.outputDir, 'robots.txt'));

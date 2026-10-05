@@ -12,13 +12,21 @@
       "question": "Where can I find the latest CXMT product announcements?",
       "answer": "Latest CXMT product announcements are available through: (1) This news page - regularly updated with new releases; (2) LiTong newsletter - subscribe for email updates; (3) Product pages - show latest releases; (4) Technical support - contact FAE for roadmap information. As an authorized distributor, LiTong receives advance notice of new products.",
       "decisionGuide": "Subscribe to LiTong's newsletter and check this page regularly for updates.",
-      "keywords": ["CXMT announcements", "new products", "product updates"]
+      "keywords": [
+        "CXMT announcements",
+        "new products",
+        "product updates"
+      ]
     },
     {
       "question": "How do I get notified about CXMT events and webinars?",
       "answer": "Stay informed about CXMT events through: (1) LiTong events page - upcoming webinars and seminars; (2) Email notifications - subscribe to event alerts; (3) Technical seminars - regional training on memory technology; (4) Online webinars - virtual training sessions. LiTong hosts technical seminars featuring CXMT memory solutions.",
       "decisionGuide": "Subscribe to LiTong's event notifications for invitations to technical seminars.",
-      "keywords": ["CXMT events", "technical seminars", "webinars"]
+      "keywords": [
+        "CXMT events",
+        "technical seminars",
+        "webinars"
+      ]
     }
   ],
   "articles": [
@@ -54,8 +62,11 @@
         "50% more capacity than 16Gb",
         "Data center optimized"
       ],
-      "relatedProducts": ["CXMT-DDR5-24Gb-8000-RDIMM", "CXMT-DDR5-24Gb-6400-RDIMM"],
-      "link": "/cxmt/news/cxmt-24gb-ddr5-release.html"
+      "relatedProducts": [
+        "CXMT-DDR5-24Gb-8000-RDIMM",
+        "CXMT-DDR5-24Gb-6400-RDIMM"
+      ],
+      "link": "/cxmt/news/cxmt-24gb-ddr5-release"
     },
     {
       "id": "cxmt-lpddr5x-10667",
@@ -89,8 +100,11 @@
         "20% power savings",
         "Flagship smartphone ready"
       ],
-      "relatedProducts": ["CXMT-LPDDR5X-16Gb-10667", "CXMT-LPDDR5X-12Gb-8533"],
-      "link": "/cxmt/news/cxmt-lpddr5x-10667.html"
+      "relatedProducts": [
+        "CXMT-LPDDR5X-16Gb-10667",
+        "CXMT-LPDDR5X-12Gb-8533"
+      ],
+      "link": "/cxmt/news/cxmt-lpddr5x-10667"
     },
     {
       "id": "cxmt-mrdimm-launch",
@@ -124,8 +138,11 @@
         "AI/HPC optimized",
         "TFF high density option"
       ],
-      "relatedProducts": ["CXMT-MRDIMM-96GB-8800", "CXMT-TFF-MRDIMM"],
-      "link": "/cxmt/news/cxmt-mrdimm-launch.html"
+      "relatedProducts": [
+        "CXMT-MRDIMM-96GB-8800",
+        "CXMT-TFF-MRDIMM"
+      ],
+      "link": "/cxmt/news/cxmt-mrdimm-launch"
     },
     {
       "id": "cxmt-litong-partnership",
@@ -153,7 +170,7 @@
         "Platform compatibility verification"
       ],
       "relatedProducts": [],
-      "link": "/cxmt/news/cxmt-litong-partnership.html"
+      "link": "/cxmt/news/cxmt-litong-partnership"
     },
     {
       "id": "cxmt-lpcamm2",
@@ -187,8 +204,10 @@
         "Better power efficiency",
         "Next-gen laptop ready"
       ],
-      "relatedProducts": ["CXMT-LPDDR5X-16Gb-10667"],
-      "link": "/cxmt/news/cxmt-lpcamm2.html"
+      "relatedProducts": [
+        "CXMT-LPDDR5X-16Gb-10667"
+      ],
+      "link": "/cxmt/news/cxmt-lpcamm2"
     }
   ]
 }

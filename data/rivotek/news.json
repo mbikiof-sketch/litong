@@ -4,13 +4,21 @@
       "question": "Where can I find the latest news about Rivotek products?",
       "answer": "You can find the latest Rivotek news through multiple channels: (1) LiTong website - check our news section for product announcements and updates; (2) Rivotek official website - visit www.rivotek.com for company news; (3) Email newsletter - subscribe to LiTong's newsletter for regular updates; (4) Social media - follow Rivotek and LiTong on LinkedIn and WeChat; (5) Direct contact - contact your LiTong sales representative for personalized updates. We regularly post news about new product releases, technology updates, and application success stories.",
       "decisionGuide": "Subscribe to LiTong newsletter and follow our website for regular Rivotek updates.",
-      "keywords": ["Rivotek news", "product updates", "company announcements"]
+      "keywords": [
+        "Rivotek news",
+        "product updates",
+        "company announcements"
+      ]
     },
     {
       "question": "How do I stay informed about new Rivotek product releases?",
       "answer": "To stay informed about new Rivotek product releases: (1) Register on LiTong website - create an account to receive product notifications; (2) Email alerts - sign up for email alerts for specific product categories; (3) FAE contact - establish relationship with LiTong FAE for early access information; (4) Quarterly reviews - schedule regular product roadmap reviews with LiTong; (5) Trade shows - visit LiTong and Rivotek booths at industry events. New product announcements typically include detailed specifications, application notes, and evaluation kit availability information.",
       "decisionGuide": "Register on LiTong website and subscribe to product alerts for new release notifications.",
-      "keywords": ["new products", "product releases", "roadmap updates"]
+      "keywords": [
+        "new products",
+        "product releases",
+        "roadmap updates"
+      ]
     }
   ],
   "news": [
@@ -21,14 +29,21 @@
       "content": "Rivotek has announced the RV1000, a high-performance intelligent computing platform designed for demanding AIoT and automotive applications. The platform features an octa-core CPU architecture combined with a dedicated 4 TOPS NPU for efficient AI inference.\n\nThe RV1000 supports up to 48MP camera input and 4K video codec, enabling advanced computer vision applications. The platform supports multiple display outputs and rich connectivity options including USB3.0, PCIe, and Gigabit Ethernet.\n\nKey features include:\n- Octa-core ARM Cortex-A76/A55 CPU\n- 4 TOPS INT8 NPU for AI acceleration\n- 48MP ISP supporting multi-camera input\n- 4K video encoding and decoding\n- AEC-Q100 automotive grade option\n- Comprehensive security features\n\nThe RV1000 is ideal for smart cockpit systems, AI cameras, industrial inspection, and autonomous robotics. Samples and evaluation kits are available now through LiTong.",
       "date": "2024-01-15",
       "category": "Product Launch",
-      "tags": ["RV1000", "New Product", "AI Computing", "Automotive"],
+      "tags": [
+        "RV1000",
+        "New Product",
+        "AI Computing",
+        "Automotive"
+      ],
       "image": "/images/news/rivotek-rv1000-launch.jpg",
       "featured": true,
-      "products": ["RV1000"],
+      "products": [
+        "RV1000"
+      ],
       "links": [
         {
           "text": "RV1000 Product Page",
-          "url": "/brand/rivotek/products/intelligent-computing-platform/rv1000.html"
+          "url": "/brand/rivotek/products/intelligent-computing-platform/rv1000"
         },
         {
           "text": "Request Samples",
@@ -43,14 +58,21 @@
       "content": "Rivotek has successfully completed automotive qualification for the RV1000 computing platform, receiving AEC-Q100 Grade 2 certification and ISO 26262 ASIL-B functional safety compliance. These certifications enable Rivotek to serve the growing automotive electronics market with qualified components.\n\nThe certified RV1000-Auto platform features:\n- AEC-Q100 Grade 2 qualification (-40°C to +105°C)\n- ISO 26262 ASIL-B functional safety support\n- Lock-step CPUs for safety-critical applications\n- ECC memory for data integrity\n- Comprehensive safety documentation\n\nThe platform is suitable for smart cockpit systems, domain controllers, and intelligent driving applications. Rivotek has established partnerships with major automotive OEMs including SAIC and Voyah. LiTong provides comprehensive support for automotive customers including technical documentation and design support.",
       "date": "2024-02-20",
       "category": "Certification",
-      "tags": ["Automotive", "Certification", "AEC-Q100", "ISO 26262"],
+      "tags": [
+        "Automotive",
+        "Certification",
+        "AEC-Q100",
+        "ISO 26262"
+      ],
       "image": "/images/news/rivotek-automotive-certification.jpg",
       "featured": true,
-      "products": ["RV1000-Auto"],
+      "products": [
+        "RV1000-Auto"
+      ],
       "links": [
         {
           "text": "Automotive Solutions",
-          "url": "/brand/rivotek/solutions/automotive-intelligent-solution.html"
+          "url": "/brand/rivotek/solutions/automotive-intelligent-solution"
         }
       ]
     },
@@ -61,7 +83,11 @@
       "content": "LiTong is pleased to announce an authorized distribution partnership with Rivotek (Rivotek Technology Jiangsu Co., Ltd.), a leading Chinese semiconductor company specializing in intelligent base solutions through \"Chip + OS + AI\" technology.\n\nThrough this partnership, LiTong will distribute Rivotek's complete product portfolio including:\n- Intelligent Computing Platforms - high-performance processors for AIoT\n- Zhiwei AIOS - full-stack operating system for intelligent devices\n- AI Hardware Solutions - edge computing devices and smart cameras\n- Automotive Intelligent Systems - smart cockpit and intelligent driving solutions\n\nLiTong provides comprehensive support for Rivotek products including:\n- Technical consultation and application engineering\n- Reference designs and evaluation kits\n- Competitive pricing and flexible supply arrangements\n- Local inventory and fast delivery\n- Quality support and failure analysis\n\nThis partnership strengthens LiTong's portfolio in the AIoT and automotive markets, providing customers with access to Rivotek's innovative, cost-effective intelligent solutions.",
       "date": "2024-03-01",
       "category": "Partnership",
-      "tags": ["Partnership", "Distribution", "Company News"],
+      "tags": [
+        "Partnership",
+        "Distribution",
+        "Company News"
+      ],
       "image": "/images/news/rivotek-litong-partnership.jpg",
       "featured": true,
       "links": [
@@ -71,7 +97,7 @@
         },
         {
           "text": "Product Portfolio",
-          "url": "/brand/rivotek/products.html"
+          "url": "/brand/rivotek/products"
         }
       ]
     }

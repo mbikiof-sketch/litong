@@ -4,13 +4,21 @@
       "question": "Where can I find the latest news about Aurasemi products?",
       "answer": "You can find the latest Aurasemi news through multiple channels: (1) LiTong website - check our news section for product announcements and updates; (2) Aurasemi official website - visit www.aurasemi.com.cn for company news; (3) Email newsletter - subscribe to LiTong's newsletter for regular updates; (4) Social media - follow Aurasemi and LiTong on LinkedIn and WeChat; (5) Direct contact - contact your LiTong sales representative for personalized updates. We regularly post news about new product releases, technology updates, and application success stories.",
       "decisionGuide": "Subscribe to LiTong newsletter and follow our website for regular Aurasemi updates.",
-      "keywords": ["Aurasemi news", "product updates", "company announcements"]
+      "keywords": [
+        "Aurasemi news",
+        "product updates",
+        "company announcements"
+      ]
     },
     {
       "question": "How do I stay informed about new Aurasemi product releases?",
       "answer": "To stay informed about new Aurasemi product releases: (1) Register on LiTong website - create an account to receive product notifications; (2) Email alerts - sign up for email alerts for specific product categories; (3) FAE contact - establish relationship with LiTong FAE for early access information; (4) Quarterly reviews - schedule regular product roadmap reviews with LiTong; (5) Trade shows - visit LiTong and Aurasemi booths at industry events. New product announcements typically include detailed datasheets, application notes, and evaluation board availability information.",
       "decisionGuide": "Register on LiTong website and subscribe to product alerts for new release notifications.",
-      "keywords": ["new products", "product releases", "roadmap updates"]
+      "keywords": [
+        "new products",
+        "product releases",
+        "roadmap updates"
+      ]
     }
   ],
   "news": [
@@ -21,14 +29,21 @@
       "content": "Aurasemi has announced the AU5425, a high-performance clock generator designed for demanding networking and communication applications. The device features an integrated high-performance PLL that generates ultra-low jitter clock outputs with RMS jitter below 100 femtoseconds.\n\nThe AU5425 supports output frequencies from 1MHz to 2.1GHz and provides four differential outputs configurable as LVDS, LVPECL, or HCSL. It operates from 1.8V, 2.5V, or 3.3V supplies and is available in a compact 5x5mm QFN package.\n\nKey features include:\n- Ultra-low <100fs RMS jitter performance\n- Wide 1MHz to 2.1GHz output frequency range\n- Four configurable differential outputs\n- I2C/SPI programmable interface\n- Integer and fractional PLL modes\n- Hitless switching between references\n\nThe AU5425 is ideal for 100G/400G Ethernet switches, 5G base stations, high-speed ADC/DAC systems, and FPGA clocking applications. Samples and evaluation boards are available now through LiTong.",
       "date": "2024-01-15",
       "category": "Product Launch",
-      "tags": ["Clock Generator", "New Product", "5G", "Data Center"],
+      "tags": [
+        "Clock Generator",
+        "New Product",
+        "5G",
+        "Data Center"
+      ],
       "image": "/images/news/aurasemi-au5425-launch.jpg",
       "featured": true,
-      "products": ["AU5425"],
+      "products": [
+        "AU5425"
+      ],
       "links": [
         {
           "text": "AU5425 Product Page",
-          "url": "/brand/aurasemi/products/clock-chips/au5425.html"
+          "url": "/brand/aurasemi/products/clock-chips/au5425"
         },
         {
           "text": "Request Samples",
@@ -43,10 +58,19 @@
       "content": "Aurasemi has successfully completed AEC-Q100 qualification for key products in its clock and power management portfolios. This certification enables Aurasemi to serve the growing automotive electronics market with qualified components.\n\nQualified products include:\n- AU5525: Automotive clock generator (Grade 1, -40°C to +125°C)\n- AU5511: Automotive clock buffer (Grade 1)\n- AU8015A: Automotive LDO regulator (Grade 1)\n- AU9020: Automotive accelerometer (Grade 1)\n\nThe AEC-Q100 qualification process includes rigorous testing for temperature cycling, mechanical shock, ESD, and EMC. All qualified products feature full traceability and PPAP documentation support.\n\nThese products are suitable for ADAS, infotainment, body electronics, and powertrain applications. LiTong provides comprehensive support for automotive customers including PPAP documentation, failure analysis, and long-term supply agreements.",
       "date": "2024-02-20",
       "category": "Certification",
-      "tags": ["Automotive", "AEC-Q100", "Certification"],
+      "tags": [
+        "Automotive",
+        "AEC-Q100",
+        "Certification"
+      ],
       "image": "/images/news/aurasemi-automotive-certification.jpg",
       "featured": true,
-      "products": ["AU5525", "AU5511", "AU8015A", "AU9020"],
+      "products": [
+        "AU5525",
+        "AU5511",
+        "AU8015A",
+        "AU9020"
+      ],
       "links": [
         {
           "text": "Automotive Products",
@@ -61,7 +85,11 @@
       "content": "LiTong is pleased to announce an authorized distribution partnership with Aurasemi (Ningbo Aurasemi Semiconductor Co., Ltd.), a leading Chinese semiconductor company specializing in high-performance analog and mixed-signal integrated circuits.\n\nThrough this partnership, LiTong will distribute Aurasemi's complete product portfolio including:\n- Clock chips: Clock generators, jitter attenuators, clock buffers\n- Power management: VRM controllers, DC-DC converters, LDOs\n- RF chips: Power amplifiers, analog front-end modules\n- MEMS sensors: Accelerometers, gyroscopes, position sensors\n\nLiTong provides comprehensive support for Aurasemi products including:\n- Technical consultation and application engineering\n- Reference designs and evaluation boards\n- Competitive pricing and flexible supply arrangements\n- Local inventory and fast delivery\n- Quality support and failure analysis\n\nThis partnership strengthens LiTong's portfolio in the analog IC market and provides customers with access to Aurasemi's innovative, cost-effective solutions for 5G, data center, automotive, and IoT applications.",
       "date": "2024-03-01",
       "category": "Partnership",
-      "tags": ["Partnership", "Distribution", "Company News"],
+      "tags": [
+        "Partnership",
+        "Distribution",
+        "Company News"
+      ],
       "image": "/images/news/aurasemi-litong-partnership.jpg",
       "featured": true,
       "links": [
@@ -71,7 +99,7 @@
         },
         {
           "text": "Product Portfolio",
-          "url": "/brand/aurasemi/products.html"
+          "url": "/brand/aurasemi/products"
         }
       ]
     }

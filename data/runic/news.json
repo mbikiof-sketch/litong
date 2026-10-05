@@ -12,13 +12,21 @@
       "question": "Where can I find the latest Runic product announcements?",
       "answer": "Latest Runic product announcements are available through: (1) This news page - regularly updated with new releases; (2) LiTong newsletter - subscribe for email updates; (3) Product pages - show latest releases; (4) Technical support - contact FAE for roadmap info. As an authorized distributor, LiTong receives advance notice of new products.",
       "decisionGuide": "Subscribe to LiTong's newsletter and check this page regularly for updates.",
-      "keywords": ["Runic announcements", "new products", "product updates"]
+      "keywords": [
+        "Runic announcements",
+        "new products",
+        "product updates"
+      ]
     },
     {
       "question": "How do I get notified about Runic events and webinars?",
       "answer": "Stay informed about Runic events through: (1) LiTong events page - upcoming webinars and seminars; (2) Email notifications - subscribe to event alerts; (3) Technical seminars - regional training on Runic products; (4) Online webinars - virtual training sessions. LiTong hosts technical seminars featuring Runic analog design topics.",
       "decisionGuide": "Subscribe to LiTong's event notifications for invitations to Runic technical seminars.",
-      "keywords": ["Runic events", "technical seminars", "webinars"]
+      "keywords": [
+        "Runic events",
+        "technical seminars",
+        "webinars"
+      ]
     }
   ],
   "articles": [
@@ -48,8 +56,12 @@
         "30-40% cost savings vs competitors",
         "Available in single, dual, and quad configurations"
       ],
-      "relatedProducts": ["RS8551", "RS8552", "RS8554"],
-      "link": "/runic/news/runic-zero-drift-release.html"
+      "relatedProducts": [
+        "RS8551",
+        "RS8552",
+        "RS8554"
+      ],
+      "link": "/runic/news/runic-zero-drift-release"
     },
     {
       "id": "runic-automotive-expansion",
@@ -76,8 +88,12 @@
         "IATF 16949 certified manufacturing",
         "Cost-effective alternatives to automotive-grade international parts"
       ],
-      "relatedProducts": ["RS8551A", "RS6220A", "RS3001A"],
-      "link": "/runic/news/runic-automotive-expansion.html"
+      "relatedProducts": [
+        "RS8551A",
+        "RS6220A",
+        "RS3001A"
+      ],
+      "link": "/runic/news/runic-automotive-expansion"
     },
     {
       "id": "runic-high-speed-launch",
@@ -105,8 +121,11 @@
         "High 60mA output drive",
         "Cost-effective alternative to high-speed international parts"
       ],
-      "relatedProducts": ["RS6331", "RS6332"],
-      "link": "/runic/news/runic-high-speed-launch.html"
+      "relatedProducts": [
+        "RS6331",
+        "RS6332"
+      ],
+      "link": "/runic/news/runic-high-speed-launch"
     },
     {
       "id": "runic-adc-portfolio",
@@ -135,8 +154,11 @@
         "Integrated PGA and reference",
         "Low power for battery applications"
       ],
-      "relatedProducts": ["RS1240", "RS1241"],
-      "link": "/runic/news/runic-adc-portfolio.html"
+      "relatedProducts": [
+        "RS1240",
+        "RS1241"
+      ],
+      "link": "/runic/news/runic-adc-portfolio"
     },
     {
       "id": "runic-litong-partnership",
@@ -164,7 +186,7 @@
         "Cross-reference guides for easy migration"
       ],
       "relatedProducts": [],
-      "link": "/runic/news/runic-litong-partnership.html"
+      "link": "/runic/news/runic-litong-partnership"
     }
   ]
 }

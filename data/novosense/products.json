@@ -100,7 +100,7 @@
         "title": "Digital Isolator Selection Guide",
         "description": "Learn how to select the right digital isolator based on isolation voltage, channel count, data rate, and package requirements for your specific application.",
         "articleId": "novosense-isolator-guide",
-        "articleLink": "/novosense/support/novosense-isolator-guide.html"
+        "articleLink": "/novosense/support/novosense-isolator-guide"
       },
       "products": [
         {
@@ -451,7 +451,7 @@
           "description": "Enhanced performance digital isolators"
         }
       ],
-      "selectionGuideLink": "/novosense/support/novosense-isolator-guide.html",
+      "selectionGuideLink": "/novosense/support/novosense-isolator-guide",
       "faqs": [
         {
           "question": "What are the key selection criteria for Novosense Digital Isolators?",
@@ -558,7 +558,7 @@
               "brand": "Novosense",
               "reason": "4-channel version for moderate channel count requirements",
               "useCase": "Applications requiring 4 channels instead of 6",
-              "link": "/novosense/products/nsi8240.html",
+              "link": "/novosense/products/digital-isolators/nsi8240",
               "comparison": {
                 "channels": "4 < 6 (fewer channels)",
                 "isolation": "5kVrms = 5kVrms (same)",
@@ -576,7 +576,7 @@
               "brand": "Novosense",
               "reason": "2-channel version for simple isolation needs",
               "useCase": "Cost-sensitive applications with 2-channel requirement",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "comparison": {
                 "channels": "2 < 6 (fewer channels)",
                 "isolation": "3.75kVrms < 5kVrms (standard isolation)",
@@ -593,19 +593,19 @@
           "companionParts": [
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "Isolated gate driver for power stage control",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated CAN transceiver for communication",
               "category": "Isolated Transceivers"
             },
             {
               "partNumber": "NSi6230",
-              "link": "/novosense/products/nsi6230.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6230",
               "description": "Isolated IGBT driver for motor control",
               "category": "Gate Drivers"
             }
@@ -714,7 +714,7 @@
               "brand": "Novosense",
               "reason": "Reinforced isolation version for higher safety requirements",
               "useCase": "Applications requiring 5kVrms reinforced isolation",
-              "link": "/novosense/products/nsi8220.html",
+              "link": "/novosense/products/digital-isolators/nsi8220",
               "comparison": {
                 "isolation": "5kVrms > 3.75kVrms (reinforced)",
                 "workingVoltage": "1.5kVrms > 600Vrms (higher)",
@@ -732,7 +732,7 @@
               "brand": "Novosense",
               "reason": "4-channel version for more isolation channels",
               "useCase": "Applications requiring 4 channels with standard isolation",
-              "link": "/novosense/products/nsi8140.html",
+              "link": "/novosense/products/",
               "comparison": {
                 "channels": "4 > 2 (more channels)",
                 "isolation": "3.75kVrms = 3.75kVrms (same)",
@@ -749,19 +749,19 @@
           "companionParts": [
             {
               "partNumber": "NSi6602",
-              "link": "/novosense/products/nsi6602.html",
+              "link": "/novosense/products/isolated-gate-drivers/nsi6602",
               "description": "Isolated gate driver for power switching",
               "category": "Gate Drivers"
             },
             {
               "partNumber": "NSC6264",
-              "link": "/novosense/products/nsc6264.html",
+              "link": "/novosense/products/signal-chain/nsc6264",
               "description": "Precision op-amp for signal conditioning",
               "category": "Signal Chain"
             },
             {
               "partNumber": "NSi1050",
-              "link": "/novosense/products/nsi1050.html",
+              "link": "/novosense/products/isolated-transceivers/nsi1050",
               "description": "Isolated CAN transceiver for communication",
               "category": "Isolated Transceivers"
             }
@@ -852,7 +852,7 @@
         "title": "Isolated Gate Driver Selection Guide",
         "description": "Learn how to select the right isolated gate driver based on peak current, switching speed, and protection features for your specific power converter topology.",
         "articleId": "novosense-gate-driver-guide",
-        "articleLink": "/novosense/support/novosense-gate-driver-guide.html"
+        "articleLink": "/novosense/support/novosense-gate-driver-guide"
       },
       "products": [
         {
@@ -1516,7 +1516,7 @@
           "description": "Enhanced performance isolated gate drivers"
         }
       ],
-      "selectionGuideLink": "/novosense/support/novosense-gate-driver-guide.html",
+      "selectionGuideLink": "/novosense/support/novosense-gate-driver-guide",
       "faqs": [
         {
           "question": "What are the key selection criteria for Novosense Isolated Gate Drivers?",
@@ -1601,7 +1601,7 @@
         "title": "Isolated Transceiver Selection Guide",
         "description": "Learn how to select the right isolated transceiver based on interface standard, data rate, and isolation requirements for your industrial or automotive communication system.",
         "articleId": "novosense-transceiver-guide",
-        "articleLink": "/novosense/support/novosense-transceiver-guide.html"
+        "articleLink": "/novosense/support/novosense-transceiver-guide"
       },
       "products": [
         {
@@ -2258,7 +2258,7 @@
           "description": "Enhanced performance isolated transceivers"
         }
       ],
-      "selectionGuideLink": "/novosense/support/novosense-transceiver-guide.html",
+      "selectionGuideLink": "/novosense/support/novosense-transceiver-guide",
       "faqs": [
         {
           "question": "What are the key selection criteria for Novosense Isolated Transceivers?",
@@ -2346,7 +2346,7 @@
         "title": "Signal Chain Product Selection Guide",
         "description": "Learn how to select the right signal chain products including op-amps and current sense amplifiers for your specific measurement and signal conditioning requirements.",
         "articleId": "novosense-signal-chain-guide",
-        "articleLink": "/novosense/support/novosense-signal-chain-guide.html"
+        "articleLink": "/novosense/support/novosense-signal-chain-guide"
       },
       "products": [
         {
@@ -3003,7 +3003,7 @@
           "description": "Enhanced performance signal chain products"
         }
       ],
-      "selectionGuideLink": "/novosense/support/novosense-signal-chain-guide.html",
+      "selectionGuideLink": "/novosense/support/novosense-signal-chain-guide",
       "faqs": [
         {
           "question": "What are the key selection criteria for Novosense Signal Chain Products?",

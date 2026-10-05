@@ -4,13 +4,21 @@
       "question": "Where can I find the latest news about Rorebai products?",
       "answer": "You can find the latest Rorebai news through multiple channels: (1) LiTong website - check our news section for product announcements and updates; (2) Rorebai official website - visit www.corebai.com for company news; (3) Email newsletter - subscribe to LiTong's newsletter for regular updates; (4) Social media - follow Rorebai and LiTong on LinkedIn and WeChat; (5) Direct contact - contact your LiTong sales representative for personalized updates. We regularly post news about new product releases, technology updates, and application success stories.",
       "decisionGuide": "Subscribe to LiTong newsletter and follow our website for regular Rorebai updates.",
-      "keywords": ["Rorebai news", "product updates", "company announcements"]
+      "keywords": [
+        "Rorebai news",
+        "product updates",
+        "company announcements"
+      ]
     },
     {
       "question": "How do I stay informed about new Rorebai product releases?",
       "answer": "To stay informed about new Rorebai product releases: (1) Register on LiTong website - create an account to receive product notifications; (2) Email alerts - sign up for email alerts for specific product categories; (3) FAE contact - establish relationship with LiTong FAE for early access information; (4) Quarterly reviews - schedule regular product roadmap reviews with LiTong; (5) Trade shows - visit LiTong and Rorebai booths at industry events. New product announcements typically include detailed specifications, application notes, and evaluation kit availability information.",
       "decisionGuide": "Register on LiTong website and subscribe to product alerts for new release notifications.",
-      "keywords": ["new products", "product releases", "roadmap updates"]
+      "keywords": [
+        "new products",
+        "product releases",
+        "roadmap updates"
+      ]
     }
   ],
   "news": [
@@ -21,14 +29,21 @@
       "content": "Rorebai has announced the CBM94AD67, a high-performance 14-bit analog-to-digital converter designed for demanding communications and instrumentation applications. The device features a pipelined architecture achieving 250MSPS sampling rate with excellent dynamic performance.\n\nWith 72dB SNR and 85dBc SFDR, the CBM94AD67 delivers high-fidelity signal conversion for wideband receivers and transmitters. The device operates from 1.8V and 3.3V supplies, consuming only 380mW typical power.\n\nKey features include:\n- 14-bit resolution with 250MSPS sampling rate\n- Excellent 72dB SNR and 85dBc SFDR\n- LVDS digital outputs\n- SPI configuration interface\n- Compact 7x7mm QFN package\n- Industrial temperature range\n\nThe CBM94AD67 is ideal for 4G/5G base stations, software-defined radio, radar systems, and test equipment. Samples and evaluation boards are available now through LiTong.",
       "date": "2024-01-15",
       "category": "Product Launch",
-      "tags": ["ADC", "New Product", "High-Speed", "Communications"],
+      "tags": [
+        "ADC",
+        "New Product",
+        "High-Speed",
+        "Communications"
+      ],
       "image": "/images/news/rorebai-cbm94ad67-launch.jpg",
       "featured": true,
-      "products": ["CBM94AD67"],
+      "products": [
+        "CBM94AD67"
+      ],
       "links": [
         {
           "text": "CBM94AD67 Product Page",
-          "url": "/brand/rorebai/products/high-speed-adc/cbm94ad67.html"
+          "url": "/brand/rorebai/products/high-speed-adc/cbm94ad67"
         },
         {
           "text": "Request Samples",
@@ -43,14 +58,21 @@
       "content": "Rorebai has announced the CBM92AD16, a high-resolution 16-bit SAR ADC designed for precision measurement applications. The device achieves 1MSPS sampling rate with excellent DC and AC performance.\n\nWith 91dB SNR and ±1 LSB INL, the CBM92AD16 delivers accurate conversion for sensor interfaces and data acquisition systems. The device operates from a single 5V supply, consuming only 15mW typical power.\n\nKey features include:\n- 16-bit resolution with 1MSPS sampling rate\n- Excellent 91dB SNR performance\n- Low ±1 LSB INL for high accuracy\n- Flexible unipolar/bipolar input\n- SPI digital interface\n- Compact 4x4mm QFN package\n\nThe CBM92AD16 is ideal for industrial process control, medical instrumentation, sensor interfaces, and test equipment. Samples and evaluation boards are available now through LiTong.",
       "date": "2024-02-01",
       "category": "Product Launch",
-      "tags": ["ADC", "New Product", "Precision", "Industrial"],
+      "tags": [
+        "ADC",
+        "New Product",
+        "Precision",
+        "Industrial"
+      ],
       "image": "/images/news/rorebai-cbm92ad16-launch.jpg",
       "featured": true,
-      "products": ["CBM92AD16"],
+      "products": [
+        "CBM92AD16"
+      ],
       "links": [
         {
           "text": "CBM92AD16 Product Page",
-          "url": "/brand/rorebai/products/high-speed-adc/cbm92ad16.html"
+          "url": "/brand/rorebai/products/high-speed-adc/cbm92ad16"
         }
       ]
     },
@@ -61,7 +83,11 @@
       "content": "LiTong is pleased to announce an authorized distribution partnership with Rorebai (Corebai Microelectronics), a leading Chinese analog semiconductor company specializing in high-performance data converters, RF transceivers, precision op-amps, and power management ICs.\n\nThrough this partnership, LiTong will distribute Rorebai's complete product portfolio including:\n- High-Speed Data Converters - ADCs and DACs up to GSPS\n- RF Transceivers - wideband RF PLLs and transceivers\n- Precision Operational Amplifiers - low-noise, low-offset op-amps\n- Power Management ICs - voltage regulators and power monitors\n\nLiTong provides comprehensive support for Rorebai products including:\n- Technical consultation and application engineering\n- Reference designs and evaluation kits\n- Competitive pricing and flexible supply arrangements\n- Local inventory and fast delivery\n- Quality support and failure analysis\n\nThis partnership strengthens LiTong's portfolio in the analog IC market, providing customers with access to Rorebai's innovative, cost-effective domestic chip solutions.",
       "date": "2024-03-01",
       "category": "Partnership",
-      "tags": ["Partnership", "Distribution", "Company News"],
+      "tags": [
+        "Partnership",
+        "Distribution",
+        "Company News"
+      ],
       "image": "/images/news/rorebai-litong-partnership.jpg",
       "featured": true,
       "links": [
@@ -71,7 +97,7 @@
         },
         {
           "text": "Product Portfolio",
-          "url": "/brand/rorebai/products.html"
+          "url": "/brand/rorebai/products"
         }
       ]
     }

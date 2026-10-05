@@ -203,14 +203,14 @@
             "name": "EEPROM Evaluation Kit",
             "description": "Evaluation board for GT24C series EEPROM with USB interface",
             "type": "evaluation-board",
-            "link": "/giantec/tools/eeprom-eval-kit.html",
+            "link": "/giantec/tools/eeprom-eval-kit",
             "partNumber": "GT-EVAL-EEPROM"
           },
           {
             "name": "SPI Flash Evaluation Kit",
             "description": "Evaluation board for GT25Q series NOR Flash",
             "type": "evaluation-board",
-            "link": "/giantec/tools/spi-flash-eval-kit.html",
+            "link": "/giantec/tools/spi-flash-eval-kit",
             "partNumber": "GT-EVAL-SPIFLASH"
           },
           {
@@ -234,7 +234,7 @@
         "description": "Introduction to EEPROM technology and applications",
         "type": "video",
         "duration": "45 minutes",
-        "link": "/giantec/training/eeprom-fundamentals.html",
+        "link": "/giantec/training/eeprom-fundamentals",
         "date": "2024-02-15"
       },
       {
@@ -242,14 +242,14 @@
         "description": "Best practices for designing with NOR Flash memory",
         "type": "webinar",
         "duration": "60 minutes",
-        "link": "/giantec/training/nor-flash-design-webinar.html",
+        "link": "/giantec/training/nor-flash-design-webinar",
         "date": "2024-03-20"
       },
       {
         "title": "Memory Interface Design",
         "description": "PCB layout and signal integrity for memory interfaces",
         "type": "technical-article",
-        "link": "/giantec/training/memory-interface-design.html",
+        "link": "/giantec/training/memory-interface-design",
         "date": "2024-01-25"
       },
       {
@@ -257,7 +257,7 @@
         "description": "Implementing safe and reliable firmware update systems",
         "type": "webinar",
         "duration": "75 minutes",
-        "link": "/giantec/training/firmware-update-strategies.html",
+        "link": "/giantec/training/firmware-update-strategies",
         "date": "2024-04-10"
       }
     ]
@@ -551,12 +551,12 @@
         {
           "id": "nor-flash-selection",
           "title": "NOR Flash Selection Guide",
-          "link": "/giantec/support/nor-flash-selection.html"
+          "link": "/giantec/support/nor-flash-selection"
         },
         {
           "id": "iot-logging",
           "title": "IoT Data Logging Best Practices",
-          "link": "/giantec/support/iot-logging.html"
+          "link": "/giantec/support/iot-logging"
         }
       ],
       "faeInsights": {

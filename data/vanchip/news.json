@@ -12,13 +12,21 @@
       "question": "Where can I find the latest Vanchip product announcements?",
       "answer": "Latest Vanchip product announcements are available through: (1) This news page - regularly updated with new product releases; (2) LiTong newsletter - subscribe for email updates on new Vanchip products; (3) Product pages - individual product pages show latest releases; (4) Technical support - contact FAE for roadmap information. As an authorized distributor, LiTong receives advance notice of new products and can provide early access for evaluation.",
       "decisionGuide": "Subscribe to LiTong's newsletter and check this page regularly for updates on new Vanchip products.",
-      "keywords": ["Vanchip announcements", "new products", "product updates"]
+      "keywords": [
+        "Vanchip announcements",
+        "new products",
+        "product updates"
+      ]
     },
     {
       "question": "How do I get notified about Vanchip events and webinars?",
       "answer": "Stay informed about Vanchip events through: (1) LiTong events page - upcoming webinars and trade shows; (2) Email notifications - subscribe to event alerts; (3) Technical seminars - regional training sessions on Vanchip products; (4) Online webinars - virtual training on design and application topics. LiTong regularly hosts technical seminars featuring Vanchip products in major cities across China.",
       "decisionGuide": "Subscribe to LiTong's event notifications to receive invitations to Vanchip technical seminars and webinars.",
-      "keywords": ["Vanchip events", "technical seminars", "webinars"]
+      "keywords": [
+        "Vanchip events",
+        "technical seminars",
+        "webinars"
+      ]
     }
   ],
   "articles": [
@@ -46,8 +54,12 @@
         "Integrated power detector simplifies system design",
         "Compact package enables slim smartphone designs"
       ],
-      "relatedProducts": ["VC5778", "VC7788", "VCFEM77"],
-      "link": "/vanchip/news/vanchip-5g-pa-release.html"
+      "relatedProducts": [
+        "VC5778",
+        "VC7788",
+        "VCFEM77"
+      ],
+      "link": "/vanchip/news/vanchip-5g-pa-release"
     },
     {
       "id": "vanchip-iot-expansion",
@@ -73,8 +85,12 @@
         "Compact package fits smallest wearable form factors",
         "Cost-optimized for high-volume IoT applications"
       ],
-      "relatedProducts": ["VCNB700", "VCFEMNB", "VS1212"],
-      "link": "/vanchip/news/vanchip-iot-expansion.html"
+      "relatedProducts": [
+        "VCNB700",
+        "VCFEMNB",
+        "VS1212"
+      ],
+      "link": "/vanchip/news/vanchip-iot-expansion"
     },
     {
       "id": "vanchip-fem-integration",
@@ -100,8 +116,12 @@
         "Reduced BOM cost through integration",
         "Faster product development cycles"
       ],
-      "relatedProducts": ["VCFEM77", "VCFEM4G", "VCFEMNB"],
-      "link": "/vanchip/news/vanchip-fem-integration.html"
+      "relatedProducts": [
+        "VCFEM77",
+        "VCFEM4G",
+        "VCFEMNB"
+      ],
+      "link": "/vanchip/news/vanchip-fem-integration"
     },
     {
       "id": "vanchip-automotive-qualification",
@@ -130,8 +150,12 @@
         "Full automotive PPAP documentation available",
         "Enables V2X and telematics designs"
       ],
-      "relatedProducts": ["VC5778", "VS1717", "VF2450"],
-      "link": "/vanchip/news/vanchip-automotive-qualification.html"
+      "relatedProducts": [
+        "VC5778",
+        "VS1717",
+        "VF2450"
+      ],
+      "link": "/vanchip/news/vanchip-automotive-qualification"
     },
     {
       "id": "vanchip-litong-partnership",
@@ -159,7 +183,7 @@
         "Complete technical documentation and tools"
       ],
       "relatedProducts": [],
-      "link": "/vanchip/news/vanchip-litong-partnership.html"
+      "link": "/vanchip/news/vanchip-litong-partnership"
     }
   ]
 }

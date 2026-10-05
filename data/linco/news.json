@@ -12,13 +12,21 @@
       "question": "Where can I find the latest Linco product announcements?",
       "answer": "Latest Linco product announcements are available through: (1) This news page - regularly updated with new releases; (2) LiTong newsletter - subscribe for email updates; (3) Product pages - show latest releases; (4) Technical support - contact FAE for roadmap information. As an authorized distributor, LiTong receives advance notice of new products.",
       "decisionGuide": "Subscribe to LiTong's newsletter and check this page regularly for updates.",
-      "keywords": ["Linco announcements", "new products", "product updates"]
+      "keywords": [
+        "Linco announcements",
+        "new products",
+        "product updates"
+      ]
     },
     {
       "question": "How do I get notified about Linco events and webinars?",
       "answer": "Stay informed about Linco events through: (1) LiTong events page - upcoming webinars and seminars; (2) Email notifications - subscribe to event alerts; (3) Technical seminars - regional training on motor control and Linco MCUs; (4) Online webinars - virtual training sessions. LiTong hosts technical seminars featuring Linco motor control solutions and hands-on workshops.",
       "decisionGuide": "Subscribe to LiTong's event notifications for invitations to technical seminars.",
-      "keywords": ["Linco events", "technical seminars", "webinars"]
+      "keywords": [
+        "Linco events",
+        "technical seminars",
+        "webinars"
+      ]
     }
   ],
   "articles": [
@@ -55,8 +63,12 @@
         "Reduced BOM cost",
         "Compact QFN packages"
       ],
-      "relatedProducts": ["LKS32MC038Y6P8", "LKS32MC086N8Q9", "LKS_GD_6N_1A5"],
-      "link": "/linco/news/linco-lks08-series-release.html"
+      "relatedProducts": [
+        "LKS32MC038Y6P8",
+        "LKS32MC086N8Q9",
+        "LKS_GD_6N_1A5"
+      ],
+      "link": "/linco/news/linco-lks08-series-release"
     },
     {
       "id": "linco-automotive-expansion",
@@ -91,8 +103,12 @@
         "200V high-side capability",
         "48V mild-hybrid ready"
       ],
-      "relatedProducts": ["LKS32AT037PXL5M6Q9", "LKS32AT085C8Q9", "LKS32AT086N8Q9"],
-      "link": "/linco/news/linco-automotive-expansion.html"
+      "relatedProducts": [
+        "LKS32AT037PXL5M6Q9",
+        "LKS32AT085C8Q9",
+        "LKS32AT086N8Q9"
+      ],
+      "link": "/linco/news/linco-automotive-expansion"
     },
     {
       "id": "linco-foc-library-update",
@@ -128,8 +144,12 @@
         "Vibration suppression",
         "Improved sensorless observer"
       ],
-      "relatedProducts": ["LKS32MC037M6S8", "LKS32MC035DL6S8", "LKS32MC038Y6P8"],
-      "link": "/linco/news/linco-foc-library-update.html"
+      "relatedProducts": [
+        "LKS32MC037M6S8",
+        "LKS32MC035DL6S8",
+        "LKS32MC038Y6P8"
+      ],
+      "link": "/linco/news/linco-foc-library-update"
     },
     {
       "id": "linco-litong-partnership",
@@ -157,7 +177,7 @@
         "Reference designs and evaluation kits"
       ],
       "relatedProducts": [],
-      "link": "/linco/news/linco-litong-partnership.html"
+      "link": "/linco/news/linco-litong-partnership"
     },
     {
       "id": "linco-lks45-dual-motor",
@@ -190,8 +210,11 @@
         "Integrated PFC",
         "High-speed 6Msps ADC"
       ],
-      "relatedProducts": ["LKS32MC037M6S8", "LKS32MC038Y6P8"],
-      "link": "/linco/news/linco-lks45-dual-motor.html"
+      "relatedProducts": [
+        "LKS32MC037M6S8",
+        "LKS32MC038Y6P8"
+      ],
+      "link": "/linco/news/linco-lks45-dual-motor"
     }
   ]
 }

@@ -34,12 +34,12 @@
         {
           "partNumber": "MM32F5277G9P",
           "name": "MM32F5277 High-Performance MCU",
-          "link": "/mindmotion/products/mm32f5277g9p.html"
+          "link": "/mindmotion/products/mm32f-series/mm32f5277g9p"
         },
         {
           "partNumber": "MM32F5273G7P",
           "name": "MM32F5273 Mainstream MCU",
-          "link": "/mindmotion/products/mm32f5273g7p.html"
+          "link": "/mindmotion/products/"
         }
       ],
       "faqs": [
@@ -47,13 +47,23 @@
           "question": "What is the main advantage of MM32F5270 over MM32F3270?",
           "answer": "The MM32F5270 series offers several advantages over the MM32F3270 series: (1) Higher performance - 168MHz Cortex-M4F vs 120MHz Cortex-M3, with DSP instructions and floating-point unit for complex calculations. (2) More memory - Up to 512KB Flash and 128KB SRAM vs 256KB Flash and 48KB SRAM. (3) Ethernet MAC - Integrated Ethernet with IEEE 1588 support for industrial networking. (4) Enhanced security - Hardware encryption engine for AES/DES/SHA acceleration. (5) Dual-bank Flash - Enables live firmware updates without service interruption. The MM32F5270 is recommended for applications requiring high-performance computing, digital signal processing, Ethernet connectivity, or advanced security features.",
           "decisionGuide": "Contact LiTong for MM32F5270 evaluation and migration guidance from MM32F3270.",
-          "keywords": ["MM32F5270", "MM32F3270", "Cortex-M4F", "product comparison"]
+          "keywords": [
+            "MM32F5270",
+            "MM32F3270",
+            "Cortex-M4F",
+            "product comparison"
+          ]
         },
         {
           "question": "When will MM32F5270 be available for production?",
           "answer": "The MM32F5270 series is currently in mass production and available for ordering. Initial production ramp-up began in Q1 2024, with full production capacity available now. Lead times are currently 4-6 weeks for standard packages (LQFP-64, LQFP-100). Sample quantities are available immediately from LiTong for evaluation and prototyping. Volume pricing is available for orders of 1,000 pieces or more. Contact LiTong for current pricing, lead times, and sample requests. Evaluation boards (MM32F5277-EVAL) are also available for development.",
           "decisionGuide": "Contact LiTong for MM32F5270 samples, pricing, and production planning.",
-          "keywords": ["MM32F5270 availability", "production status", "lead time", "samples"]
+          "keywords": [
+            "MM32F5270 availability",
+            "production status",
+            "lead time",
+            "samples"
+          ]
         }
       ]
     },
@@ -82,7 +92,7 @@
         {
           "partNumber": "MM32W073PF",
           "name": "MM32W073 BLE MCU",
-          "link": "/mindmotion/products/mm32w073pf.html"
+          "link": "/mindmotion/products/mm32w-series/mm32w073pf"
         }
       ],
       "faqs": [
@@ -90,13 +100,24 @@
           "question": "Is the BLE stack royalty-free?",
           "answer": "Yes, the MindMotion BLE 5.0 stack is provided royalty-free to customers using MM32W series MCUs. The stack is included as part of the MM32 SDK at no additional cost. There are no per-unit royalties or licensing fees for products using the stack. This provides significant cost savings compared to third-party BLE stacks which often charge per-unit royalties. The stack is provided as a pre-compiled library with header files and full documentation. Source code is not provided, but comprehensive APIs and example applications enable full customization of BLE behavior.",
           "decisionGuide": "Contact LiTong for BLE stack licensing details and SDK access.",
-          "keywords": ["BLE stack", "royalty-free", "licensing", "MM32W"]
+          "keywords": [
+            "BLE stack",
+            "royalty-free",
+            "licensing",
+            "MM32W"
+          ]
         },
         {
           "question": "What BLE profiles are included in the stack?",
           "answer": "The MindMotion BLE 5.0 stack includes the following standard profiles: (1) GAP (Generic Access Profile) - Device discovery, connection establishment, and security. (2) GATT (Generic Attribute Profile) - Attribute protocol for data exchange. (3) DIS (Device Information Service) - Device manufacturer and model information. (4) BAS (Battery Service) - Battery level reporting. (5) HRS (Heart Rate Service) - Heart rate measurement for fitness devices. (6) HTS (Health Thermometer Service) - Temperature measurement. (7) HID over GATT - Keyboard, mouse, and custom HID devices. (8) DFU (Device Firmware Update) - Over-the-air firmware updates. Custom profiles can be implemented using the GATT API. The stack supports both peripheral and central roles, enabling flexible application architectures.",
           "decisionGuide": "Contact LiTong for BLE profile implementation guidance and custom profile development.",
-          "keywords": ["BLE profiles", "GATT", "BAS", "HRS", "DFU"]
+          "keywords": [
+            "BLE profiles",
+            "GATT",
+            "BAS",
+            "HRS",
+            "DFU"
+          ]
         }
       ]
     },
@@ -125,12 +146,12 @@
         {
           "partNumber": "MM32SPIN360PF",
           "name": "MM32SPIN360 Motor Control MCU",
-          "link": "/mindmotion/products/mm32spin360pf.html"
+          "link": "/mindmotion/products/mm32spin-series/mm32spin360pf"
         },
         {
           "partNumber": "MM32SPIN023PF",
           "name": "MM32SPIN023 Motor Control MCU",
-          "link": "/mindmotion/products/mm32spin023pf.html"
+          "link": "/mindmotion/products/mm32spin-series/mm32spin023pf"
         }
       ],
       "faqs": [
@@ -138,13 +159,24 @@
           "question": "What motor types are supported by the library?",
           "answer": "The MindMotion motor control library supports: (1) BLDC motors - Six-step trapezoidal control with sensored (Hall) and sensorless (BEMF) commutation. Sinusoidal commutation also supported. (2) PMSM motors - Field-oriented control (FOC) with both sensored (encoder) and sensorless (observer-based) position detection. (3) AC induction motors - V/Hz control and sensorless vector control. (4) Brushed DC motors - Simple PWM control (though MM32SPIN is overkill for this). The library includes specific algorithms for each motor type including startup routines, commutation logic, and protection features. For PMSM, both interior (IPMSM) and surface-mounted (SPMSM) rotor types are supported with appropriate inductance compensation.",
           "decisionGuide": "Contact LiTong for motor control library evaluation and motor-specific algorithm selection.",
-          "keywords": ["motor control library", "FOC", "BLDC", "PMSM", "motor types"]
+          "keywords": [
+            "motor control library",
+            "FOC",
+            "BLDC",
+            "PMSM",
+            "motor types"
+          ]
         },
         {
           "question": "Is the FOC library suitable for production use?",
           "answer": "Yes, the MindMotion FOC library is production-ready and has been validated on various motor types and applications. The library has been tested in: (1) Appliance applications - Washing machines, refrigerators, air conditioners with PMSM compressors. (2) Power tools - Cordless drills, angle grinders with high-speed BLDC motors. (3) Industrial drives - Pumps, fans, conveyors with various power ratings. (4) Drones - High-speed propulsion motors with fast dynamic response. The library includes comprehensive fault protection and has been validated for reliability. However, as with any motor control application, proper tuning for your specific motor is required. The library provides auto-tuning functions, but manual optimization may be needed for best performance. LiTong provides technical support for library integration and tuning.",
           "decisionGuide": "Contact LiTong for FOC library production licensing and technical support.",
-          "keywords": ["FOC library", "production ready", "motor control validation", "quality"]
+          "keywords": [
+            "FOC library",
+            "production ready",
+            "motor control validation",
+            "quality"
+          ]
         }
       ]
     },
@@ -173,7 +205,7 @@
         {
           "partNumber": "MM32F3273G7P-A",
           "name": "MM32F3273 Automotive Grade",
-          "link": "/mindmotion/products/mm32f3273g7p-a.html"
+          "link": "/mindmotion/products/"
         }
       ],
       "faqs": [
@@ -181,13 +213,22 @@
           "question": "What is the difference between automotive and industrial grade parts?",
           "answer": "Automotive-grade (AEC-Q100) and industrial-grade MM32F devices differ in: (1) Temperature range - Automotive Grade 1: -40°C to +125°C. Industrial: -40°C to +85°C (standard) or -40°C to +105°C (extended). (2) Testing - Automotive parts undergo additional screening including 100% burn-in, tighter electrical parameter limits, and enhanced reliability testing. (3) Traceability - Full lot traceability and process control for automotive parts. (4) Documentation - PPAP documentation available for automotive parts. (5) Price - Automotive parts typically cost 10-20% more than industrial grade. (6) Availability - Not all packages and configurations are available in automotive grade. For non-automotive applications, industrial grade is usually sufficient and more cost-effective. For automotive applications requiring AEC-Q100 compliance, the automotive grade is mandatory.",
           "decisionGuide": "Contact LiTong for automotive grade part selection and PPAP documentation.",
-          "keywords": ["AEC-Q100", "automotive grade", "industrial grade", "grade comparison"]
+          "keywords": [
+            "AEC-Q100",
+            "automotive grade",
+            "industrial grade",
+            "grade comparison"
+          ]
         },
         {
           "question": "Can I use industrial grade parts in automotive applications?",
           "answer": "Using industrial grade parts in automotive applications depends on the specific requirements: (1) Non-safety applications - Industrial grade may be acceptable for non-critical applications where AEC-Q100 is not strictly required. However, this is at the OEM's risk. (2) Temperature range - Ensure the industrial grade temperature range (-40°C to +85°C or +105°C) meets your application's worst-case conditions. (3) Reliability - Industrial grade has passed standard reliability testing but not the enhanced automotive screening. (4) Warranty - Using non-automotive qualified parts may affect vehicle warranty. (5) Liability - Consider product liability implications. For production automotive applications, AEC-Q100 qualified parts are strongly recommended. For development, prototyping, or non-critical aftermarket applications, industrial grade may be acceptable. Always consult with your automotive customer's quality requirements before selecting industrial grade for automotive use.",
           "decisionGuide": "Contact LiTong for automotive qualification guidance and grade selection recommendations.",
-          "keywords": ["automotive qualification", "industrial grade", "AEC-Q100 compliance"]
+          "keywords": [
+            "automotive qualification",
+            "industrial grade",
+            "AEC-Q100 compliance"
+          ]
         }
       ]
     }

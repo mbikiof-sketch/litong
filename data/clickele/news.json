@@ -12,13 +12,21 @@
       "question": "Where can I find the latest ClickEle product announcements?",
       "answer": "Latest ClickEle product announcements are available through: (1) This news page - regularly updated with new releases; (2) LiTong newsletter - subscribe for email updates; (3) Product pages - show latest releases; (4) Technical support - contact FAE for roadmap information. As an authorized distributor, LiTong receives advance notice of new products.",
       "decisionGuide": "Subscribe to LiTong's newsletter and check this page regularly for updates.",
-      "keywords": ["ClickEle announcements", "new products", "product updates"]
+      "keywords": [
+        "ClickEle announcements",
+        "new products",
+        "product updates"
+      ]
     },
     {
       "question": "How do I get notified about ClickEle events and webinars?",
       "answer": "Stay informed about ClickEle events through: (1) LiTong events page - upcoming webinars and seminars; (2) Email notifications - subscribe to event alerts; (3) Technical seminars - regional training on magnetics and power supply design; (4) Online webinars - virtual training sessions. LiTong hosts technical seminars featuring transformer design and EMI filtering topics.",
       "decisionGuide": "Subscribe to LiTong's event notifications for invitations to technical seminars.",
-      "keywords": ["ClickEle events", "technical seminars", "webinars"]
+      "keywords": [
+        "ClickEle events",
+        "technical seminars",
+        "webinars"
+      ]
     }
   ],
   "articles": [
@@ -49,8 +57,12 @@
         "Amorphous core for premium efficiency",
         "Reinforced isolation 5kV"
       ],
-      "relatedProducts": ["CL-PQ32-400-48-500", "CL-PQ40-LLC-1K", "CL-PQ50-3K"],
-      "link": "/clickele/news/clickele-high-power-transformer-release.html"
+      "relatedProducts": [
+        "CL-PQ32-400-48-500",
+        "CL-PQ40-LLC-1K",
+        "CL-PQ50-3K"
+      ],
+      "link": "/clickele/news/clickele-high-power-transformer-release"
     },
     {
       "id": "clickele-nanocrystalline-cmc-release",
@@ -83,8 +95,12 @@
         "Compact size for high attenuation",
         "Wide current range 1A-50A"
       ],
-      "relatedProducts": ["CL-CMC-10-10", "CL-CMC-20-10", "CL-CMC-30-10"],
-      "link": "/clickele/news/clickele-nanocrystalline-cmc-release.html"
+      "relatedProducts": [
+        "CL-CMC-10-10",
+        "CL-CMC-20-10",
+        "CL-CMC-30-10"
+      ],
+      "link": "/clickele/news/clickele-nanocrystalline-cmc-release"
     },
     {
       "id": "clickele-automotive-magnetics-qualification",
@@ -119,8 +135,12 @@
         "IATF 16949 certified manufacturing",
         "Complete automotive portfolio"
       ],
-      "relatedProducts": ["CL-PI-AUTO-100", "CL-CMC-AUTO-20", "CL-CT-AUTO-50"],
-      "link": "/clickele/news/clickele-automotive-magnetics-qualification.html"
+      "relatedProducts": [
+        "CL-PI-AUTO-100",
+        "CL-CMC-AUTO-20",
+        "CL-CT-AUTO-50"
+      ],
+      "link": "/clickele/news/clickele-automotive-magnetics-qualification"
     },
     {
       "id": "clickele-high-current-inductors",
@@ -156,8 +176,12 @@
         "Compact SMD packages",
         "Automotive grade available"
       ],
-      "relatedProducts": ["CL-PI-130-2R2", "CL-PI-170-1R0", "CL-PI-HC-50A"],
-      "link": "/clickele/news/clickele-high-current-inductors.html"
+      "relatedProducts": [
+        "CL-PI-130-2R2",
+        "CL-PI-170-1R0",
+        "CL-PI-HC-50A"
+      ],
+      "link": "/clickele/news/clickele-high-current-inductors"
     },
     {
       "id": "clickele-litong-partnership",
@@ -185,7 +209,7 @@
         "Cross-reference guides for easy migration"
       ],
       "relatedProducts": [],
-      "link": "/clickele/news/clickele-litong-partnership.html"
+      "link": "/clickele/news/clickele-litong-partnership"
     }
   ]
 }

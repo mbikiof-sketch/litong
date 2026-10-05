@@ -651,7 +651,7 @@
       ],
       "selectionGuide": "Choose A series for stable input voltage applications. Select power level based on load requirements (1W-3W). Consider isolation voltage (1500VDC/3000VDC) based on application environment.",
       "selectionGuideLink": {
-        "url": "/aipu/support/dc-dc-selection-guide.html",
+        "url": "/aipu/support/dc-dc-selection-guide",
         "text": "View DC-DC Selection Guide"
       },
       "faqs": [
@@ -758,7 +758,7 @@
       ],
       "selectionGuide": "Choose B series for battery power or applications with voltage fluctuations. Select input range based on battery type or system voltage variation. Higher power modules available for demanding applications.",
       "selectionGuideLink": {
-        "url": "/aipu/support/dc-dc-selection-guide.html",
+        "url": "/aipu/support/dc-dc-selection-guide",
         "text": "View DC-DC Selection Guide"
       },
       "faqs": [
@@ -1200,7 +1200,7 @@
       ],
       "selectionGuide": "Select AC-DC module based on output power requirements and certification needs. Choose medical grade for healthcare applications. Consider multiple outputs for complex systems.",
       "selectionGuideLink": {
-        "url": "/aipu/support/ac-dc-selection-guide.html",
+        "url": "/aipu/support/ac-dc-selection-guide",
         "text": "View AC-DC Selection Guide"
       },
       "faqs": [
@@ -1649,7 +1649,7 @@
       ],
       "selectionGuide": "Select transceiver based on communication protocol: CTM for CAN bus, RSM for RS-485, RSM232 for RS-232. All provide 2500VDC isolation without external power supply.",
       "selectionGuideLink": {
-        "url": "/aipu/support/isolation-design-guide.html",
+        "url": "/aipu/support/isolation-design-guide",
         "text": "View Isolation Design Guide"
       },
       "faqs": [

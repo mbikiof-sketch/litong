@@ -10,26 +10,48 @@
     {
       "name": "IGBTs",
       "description": "High-performance IGBT discretes and modules for motor drives and power conversion",
-      "link": "/gejian-semi/products/igbts.html",
-      "keywords": ["IGBT", "power transistor", "motor drive", "inverter", "power conversion"]
+      "link": "/gejian-semi/products/igbts/",
+      "keywords": [
+        "IGBT",
+        "power transistor",
+        "motor drive",
+        "inverter",
+        "power conversion"
+      ]
     },
     {
       "name": "SiC MOSFETs",
       "description": "Silicon carbide MOSFETs for high-frequency, high-efficiency power applications",
-      "link": "/gejian-semi/products/sic-mosfets.html",
-      "keywords": ["SiC", "silicon carbide", "MOSFET", "wide bandgap", "high frequency"]
+      "link": "/gejian-semi/products/sic-mosfets/",
+      "keywords": [
+        "SiC",
+        "silicon carbide",
+        "MOSFET",
+        "wide bandgap",
+        "high frequency"
+      ]
     },
     {
       "name": "Power Modules",
       "description": "Intelligent power modules with integrated drivers and protection",
-      "link": "/gejian-semi/products/power-modules.html",
-      "keywords": ["power module", "IPM", "intelligent power", "integrated driver"]
+      "link": "/gejian-semi/products/power-modules/",
+      "keywords": [
+        "power module",
+        "IPM",
+        "intelligent power",
+        "integrated driver"
+      ]
     },
     {
       "name": "Gate Drivers",
       "description": "High-voltage gate drivers for IGBT and SiC MOSFET applications",
-      "link": "/gejian-semi/products/gate-drivers.html",
-      "keywords": ["gate driver", "IGBT driver", "SiC driver", "isolated driver"]
+      "link": "/gejian-semi/products/gate-drivers/",
+      "keywords": [
+        "gate driver",
+        "IGBT driver",
+        "SiC driver",
+        "isolated driver"
+      ]
     }
   ],
   "industries": [
@@ -37,25 +59,45 @@
       "name": "Industrial Drives",
       "description": "Motor drives, servo systems, and industrial automation equipment",
       "icon": "factory",
-      "applications": ["Variable frequency drives", "Servo motors", "CNC machines", "Industrial robots"]
+      "applications": [
+        "Variable frequency drives",
+        "Servo motors",
+        "CNC machines",
+        "Industrial robots"
+      ]
     },
     {
       "name": "New Energy Vehicles",
       "description": "EV/HEV traction inverters, onboard chargers, and DC-DC converters",
       "icon": "car",
-      "applications": ["Traction inverters", "Onboard chargers", "DC-DC converters", "Battery management"]
+      "applications": [
+        "Traction inverters",
+        "Onboard chargers",
+        "DC-DC converters",
+        "Battery management"
+      ]
     },
     {
       "name": "Renewable Energy",
       "description": "Solar inverters, wind converters, and energy storage systems",
       "icon": "sun",
-      "applications": ["Solar inverters", "Wind converters", "Energy storage", "Grid-tie systems"]
+      "applications": [
+        "Solar inverters",
+        "Wind converters",
+        "Energy storage",
+        "Grid-tie systems"
+      ]
     },
     {
       "name": "Consumer Appliances",
       "description": "Home appliances, HVAC systems, and power tools",
       "icon": "home",
-      "applications": ["Air conditioners", "Refrigerators", "Washing machines", "Power tools"]
+      "applications": [
+        "Air conditioners",
+        "Refrigerators",
+        "Washing machines",
+        "Power tools"
+      ]
     }
   ],
   "certifications": [
@@ -96,43 +138,72 @@
       "question": "Is LiTong an authorized distributor of Gejian Semi products?",
       "answer": "Yes, LiTong is an authorized distributor of Gejian Semiconductor. We have established a strong partnership with Gejian to provide customers with genuine products, technical support, and reliable supply chain services. As an authorized distributor, we can offer competitive pricing, fast delivery, and comprehensive application engineering support for all Gejian product lines including IGBTs, SiC MOSFETs, power modules, and gate drivers.",
       "decisionGuide": "Contact LiTong sales team for Gejian Semi product inquiries, samples, and technical documentation.",
-      "keywords": ["Gejian Semi distributor", "authorized distributor", "genuine products"]
+      "keywords": [
+        "Gejian Semi distributor",
+        "authorized distributor",
+        "genuine products"
+      ]
     },
     {
       "question": "What are the key advantages of Gejian Semi IGBTs?",
       "answer": "Gejian Semi IGBTs offer several competitive advantages: 1) Advanced trench gate technology - Provides low VCE(sat) and fast switching for improved efficiency. 2) Wide voltage range - Products available from 600V to 1700V for diverse applications. 3) High reliability - Rigorous testing and qualification ensure long-term performance. 4) Cost-effectiveness - Competitive pricing without compromising quality. 5) Local support - Strong technical support with fast response times. 6) Automotive qualification - AEC-Q101 qualified products available for EV/HEV applications.",
       "decisionGuide": "Evaluate Gejian IGBTs for your power conversion applications. Contact our FAE team for product recommendations.",
-      "keywords": ["Gejian IGBT advantages", "trench gate technology", "power semiconductor"]
+      "keywords": [
+        "Gejian IGBT advantages",
+        "trench gate technology",
+        "power semiconductor"
+      ]
     },
     {
       "question": "What industries does Gejian Semi primarily serve?",
       "answer": "Gejian Semi primarily serves four key industries: Industrial Drives - providing IGBTs and power modules for variable frequency drives, servo systems, and industrial automation. New Energy Vehicles - offering AEC-Q101 qualified power semiconductors for traction inverters, onboard chargers, and DC-DC converters. Renewable Energy - supplying high-efficiency devices for solar inverters, wind converters, and energy storage systems. Consumer Appliances - providing cost-effective solutions for air conditioners, refrigerators, washing machines, and power tools.",
       "decisionGuide": "Identify your application requirements and consult with LiTong FAE team for optimal Gejian product selection.",
-      "keywords": ["Gejian Semi industries", "industrial drives", "new energy vehicles", "renewable energy"]
+      "keywords": [
+        "Gejian Semi industries",
+        "industrial drives",
+        "new energy vehicles",
+        "renewable energy"
+      ]
     },
     {
       "question": "What technical support does LiTong provide for Gejian Semi products?",
       "answer": "LiTong provides comprehensive technical support for Gejian Semi products including: Application engineering assistance - our FAE team can help with product selection, thermal design, and application optimization. Reference designs - we provide complete reference designs including schematics, PCB layouts, and thermal management guidelines. Simulation models - SPICE and thermal models for circuit simulation and analysis. Evaluation boards - hardware platforms for testing and validation. Documentation - datasheets, application notes, and reliability reports. On-site support - for large projects, we can provide on-site technical support and training.",
       "decisionGuide": "Contact LiTong technical support team for any Gejian Semi product-related questions or design assistance.",
-      "keywords": ["Gejian Semi technical support", "application engineering", "reference designs"]
+      "keywords": [
+        "Gejian Semi technical support",
+        "application engineering",
+        "reference designs"
+      ]
     },
     {
       "question": "How can I request samples and pricing for Gejian Semi products?",
       "answer": "Requesting samples and pricing for Gejian Semi products is easy through LiTong. For samples, you can submit a sample request through our website or contact your local sales representative. Sample availability depends on the specific part number, and we typically ship samples within 3-5 business days. For pricing, please contact our sales team with your requirements including part numbers, estimated annual usage, and target delivery schedule. We offer competitive pricing based on volume and can provide flexible payment terms for qualified customers. For large volume requirements, we can also discuss long-term supply agreements.",
       "decisionGuide": "Submit your sample request or pricing inquiry through LiTong website or contact our sales team directly.",
-      "keywords": ["Gejian Semi samples", "Gejian Semi pricing", "sample request"]
+      "keywords": [
+        "Gejian Semi samples",
+        "Gejian Semi pricing",
+        "sample request"
+      ]
     },
     {
       "question": "What is the difference between Gejian IGBTs and SiC MOSFETs?",
       "answer": "Gejian offers both IGBTs and SiC MOSFETs for different application requirements: IGBTs are bipolar devices with low conduction losses at high currents, making them ideal for motor drives and inverters operating below 50kHz. They offer excellent cost-effectiveness for traditional power applications. SiC MOSFETs are unipolar devices with superior switching performance, enabling operation at higher frequencies (100kHz+) with lower switching losses. They are ideal for high-efficiency applications like EV traction inverters and solar inverters where size and efficiency are critical. Gejian's SiC MOSFETs offer higher breakdown voltages (up to 1700V) and better thermal performance compared to silicon alternatives.",
       "decisionGuide": "Use IGBTs for cost-sensitive, lower frequency applications. Use SiC MOSFETs for high-frequency, high-efficiency applications. Contact our FAE team for selection guidance.",
-      "keywords": ["IGBT vs SiC", "SiC MOSFET advantages", "power semiconductor selection"]
+      "keywords": [
+        "IGBT vs SiC",
+        "SiC MOSFET advantages",
+        "power semiconductor selection"
+      ]
     },
     {
       "question": "Are Gejian Semi products suitable for automotive applications?",
       "answer": "Yes, many Gejian Semi products are specifically designed for automotive applications and are AEC-Q101 qualified. Gejian offers automotive-grade IGBTs and SiC MOSFETs with extended temperature ranges (-40°C to +175°C), enhanced reliability screening, and comprehensive qualification testing. These products are used in critical automotive applications including EV/HEV traction inverters, onboard chargers, DC-DC converters, and battery management systems. Gejian's automotive power modules feature integrated temperature sensing and advanced protection features required for functional safety applications. All automotive products undergo rigorous testing including temperature cycling, humidity bias, and high-temperature reverse bias testing.",
       "decisionGuide": "For automotive applications, specify AEC-Q101 qualified Gejian parts. Contact our automotive FAE team for functional safety support.",
-      "keywords": ["Gejian Semi automotive", "AEC-Q101", "automotive power semiconductor"]
+      "keywords": [
+        "Gejian Semi automotive",
+        "AEC-Q101",
+        "automotive power semiconductor"
+      ]
     }
   ]
 }

@@ -553,10 +553,10 @@
             <div class="cta-section">
               <h2>Need <%= category.name %> Products?</h2>
               <div class="cta-buttons">
-                <a href="/about/contact/?subject=<%= category.name %> Datasheet" class="cta-btn">Download Datasheet</a>
-                <a href="/about/contact/?subject=<%= category.name %> Samples" class="cta-btn secondary">Request Samples</a>
-                <a href="/about/contact/?subject=<%= category.name %> Quote" class="cta-btn secondary">Get Quote</a>
-                <a href="/about/contact/?subject=<%= category.name %> Technical Support" class="cta-btn secondary">Contact FAE</a>
+                <a href="/about/contact/?subject=<%= encodeURIComponent(category.name + ' Datasheet') %>" class="cta-btn">Download Datasheet</a>
+                <a href="/about/contact/?subject=<%= encodeURIComponent(category.name + ' Samples') %>" class="cta-btn secondary">Request Samples</a>
+                <a href="/about/contact/?subject=<%= encodeURIComponent(category.name + ' Quote') %>" class="cta-btn secondary">Get Quote</a>
+                <a href="/about/contact/?subject=<%= encodeURIComponent(category.name + ' Technical Support') %>" class="cta-btn secondary">Contact FAE</a>
               </div>
             </div>
 

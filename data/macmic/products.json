@@ -64,7 +64,7 @@
       "longDescription": "MacMic's IGBT module portfolio includes the innovative HN high-speed series enabling designs up to 50KHz in hard switching applications, and the cost-effective 6TC series optimized for motor drive applications. All modules adopt the latest Trench Field-Stop chip technology, providing low conduction losses and excellent switching characteristics. The product range covers voltage ratings from 600V to 1700V and current ratings from 6A to 820A, supporting applications from small servo drives to large industrial inverters and electric vehicle powertrains. MacMic also offers specialized EV series and 3-level series for advanced power conversion topologies. As your trusted MacMic IGBT distributor, we provide comprehensive technical support and competitive pricing. Looking for MacMic IGBT Selection guidance? Check out our selection guide below. As an authorized distributor, we provide comprehensive IGBT Modules selection guidance (选型指导) and technical support.",
       "selectionGuideLink": {
         "text": "PurposeMacMic IGBT ?",
-        "url": "/macmic/support/how-to-select-macmic-igbt.html",
+        "url": "/macmic/support/how-to-select-macmic-igbt",
         "description": "View SelectionGuide, HNSeries 6TCSeries, Application Voltage Current."
       },
       "icon": "/assets/brands/macmic/icons/igbt-modules.svg",
@@ -104,7 +104,7 @@
         "title": "How to Select the Right MacMic IGBT Module",
         "description": "Comprehensive guide to choosing between HN high-speed series and 6TC cost-effective series based on switching frequency and application requirements",
         "articleId": "how-to-select-macmic-igbt",
-        "articleLink": "/macmic/support/how-to-select-macmic-igbt.html",
+        "articleLink": "/macmic/support/how-to-select-macmic-igbt",
         "keyConsiderations": [
           "Switching frequency: HN series for >20KHz, 6TC series for 5-15KHz",
           "Voltage rating: 600V/650V for 400V systems, 1200V for 690V systems",
@@ -926,7 +926,7 @@
       "longDescription": "MacMic FRED (Fast Recovery Epitaxial Diode) modules are designed for high-frequency rectification and freewheeling applications. These modules feature low reverse recovery charge (Qrr) and soft recovery characteristics, minimizing switching losses and EMI in power conversion systems. The product range covers voltage ratings from 200V to 1200V and current ratings from 15A to 400A, supporting applications such as PFC boost stages, output rectifiers, brake choppers, and anti-parallel diodes for IGBT modules. MacMic FRED modules use advanced epitaxial technology to achieve fast recovery times while maintaining low forward voltage drop. As your trusted MacMic FRED distributor, we offer expert guidance on selecting the right FRED for your application. Need MacMic FRED Selection assistance? Check our selection guide below. As an authorized distributor, we provide comprehensive FRED Modules selection guidance (选型指导) and technical support.",
       "selectionGuideLink": {
         "text": "PurposeMacMic FRED ?",
-        "url": "/macmic/support/how-to-select-macmic-fred.html",
+        "url": "/macmic/support/how-to-select-macmic-fred",
         "description": "View SelectionGuide, Voltage, Current RestoreFeature FRED."
       },
       "icon": "/assets/brands/macmic/icons/fred-modules.svg",
@@ -960,7 +960,7 @@
         "title": "How to Select the Right MacMic FRED Module",
         "description": "Guide to choosing FRED modules based on voltage, current, and recovery characteristics for rectification applications",
         "articleId": "how-to-select-macmic-fred",
-        "articleLink": "/macmic/support/how-to-select-macmic-fred.html",
+        "articleLink": "/macmic/support/how-to-select-macmic-fred",
         "keyConsiderations": [
           "Voltage rating: 1.5-2x maximum reverse voltage",
           "Current rating: Include margin for peak currents",
@@ -1415,7 +1415,7 @@
         "title": "How to Select MacMic Power Discrete Devices",
         "description": "Guide to choosing the right discrete package and ratings for your power application",
         "articleId": "how-to-select-macmic-discrete",
-        "articleLink": "/macmic/support/how-to-select-macmic-discrete.html",
+        "articleLink": "/macmic/support/how-to-select-macmic-discrete",
         "keyConsiderations": [
           "Package selection: TO-220 for low power, TO-247 for higher power",
           "Voltage rating: Match to DC bus voltage with margin",
@@ -1844,7 +1844,7 @@
         "title": "How to Select MacMic MOSFET Modules",
         "description": "Guide to choosing MOSFET modules based on voltage, current, and switching requirements",
         "articleId": "how-to-select-macmic-mosfet",
-        "articleLink": "/macmic/support/how-to-select-macmic-mosfet.html",
+        "articleLink": "/macmic/support/how-to-select-macmic-mosfet",
         "keyConsiderations": [
           "Voltage rating: Consider derating for reliable operation",
           "RDS(on): Lower for reduced conduction losses",
