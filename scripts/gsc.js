@@ -144,21 +144,22 @@ async function main() {
     console.log(JSON.stringify(r.json, null, 2));
     return;
   }
-  if (cmd === 'queries' || cmd === 'opportunities') {
+  if (['queries', 'opportunities', 'pages', 'dates'].includes(cmd)) {
     const site = a1 || DEFAULT_SITE;
     const days = parseInt(a2 || '28', 10);
+    const dim = cmd === 'pages' ? 'page' : cmd === 'dates' ? 'date' : 'query';
     const fmt = d => d.toISOString().slice(0, 10);
-    const body = { startDate: fmt(new Date(Date.now() - days * 864e5)), endDate: fmt(new Date()), dimensions: ['query'], rowLimit: 500 };
+    const body = { startDate: fmt(new Date(Date.now() - days * 864e5)), endDate: fmt(new Date()), dimensions: [dim], rowLimit: 1000 };
     const r = await api(token, 'POST', `https://searchconsole.googleapis.com/webmasters/v3/sites/${S(site)}/searchAnalytics/query`, body);
     if (!r.ok) { console.log(JSON.stringify(r.json, null, 2)); return; }
-    let rows = (r.json.rows || []).map(x => ({ query: x.keys[0], clicks: x.clicks, impressions: x.impressions, ctr: x.ctr, position: x.position }));
+    let rows = (r.json.rows || []).map(x => ({ k: x.keys[0], clicks: x.clicks, impressions: x.impressions, ctr: x.ctr, position: x.position }));
     if (cmd === 'opportunities') {
       rows = rows.filter(x => x.impressions >= 1 && x.position > 5 && x.position <= 50).sort((a, b) => b.impressions - a.impressions);
       console.log('Winnable queries (impressions>=1, ranking 6-50) — optimize these next:\n');
     }
-    console.log(['query', 'clicks', 'impr', 'ctr', 'pos'].join('\t'));
-    rows.slice(0, 150).forEach(x => console.log([x.query, x.clicks, x.impressions, (x.ctr * 100).toFixed(1) + '%', x.position.toFixed(1)].join('\t')));
-    console.log(`\n(${rows.length} rows)`);
+    console.log([dim, 'clicks', 'impr', 'ctr', 'pos'].join('\t'));
+    rows.slice(0, 300).forEach(x => console.log([x.k, x.clicks, x.impressions, (x.ctr * 100).toFixed(1) + '%', x.position.toFixed(1)].join('\t')));
+    console.log(`\n(${rows.length} rows, dimension=${dim})`);
     return;
   }
   if (cmd === 'inspect') {
