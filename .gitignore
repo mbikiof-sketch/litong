@@ -20,6 +20,10 @@ data/.project-memory/*.md
 /表格.csv
 /非严重问题.csv
 
+# Google Search Console service account (secret)
+.gsc-service-account.json
+*.gsc-sa.json
+
 # Secrets (contain Cloudflare API tokens)
 deploy-batch.ps1
 deploy-batch-corrected.ps1
