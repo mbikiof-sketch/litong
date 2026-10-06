@@ -14,6 +14,12 @@ data/.project-memory/*.md
 # Wrangler local cache
 .wrangler/
 
+# GSC export / analysis data (local only)
+/problem/
+/元数据.csv
+/表格.csv
+/非严重问题.csv
+
 # Secrets (contain Cloudflare API tokens)
 deploy-batch.ps1
 deploy-batch-corrected.ps1
