@@ -17,6 +17,18 @@
 
   <!-- Canonical -->
   <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ic-distributor.com/"},
+    {"@type": "ListItem", "position": 2, "name": "<%= brand.displayName %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/"},
+    {"@type": "ListItem", "position": 3, "name": "Products", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/"},
+    {"@type": "ListItem", "position": 4, "name": "<%= category.name %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/products/<%= category.id %>/"}
+  ]
+}
+</script>
 
   <!-- Product Schema -->
   <script type="application/ld+json">

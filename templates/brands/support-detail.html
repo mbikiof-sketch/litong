@@ -69,6 +69,18 @@
     @media (max-width: 767px) { .related-grid { grid-template-columns: 1fr; } .article-title { font-size: 2rem; } }
   </style>
   <link rel="canonical" href="https://ic-distributor.com/<%= brand.name.toLowerCase() %>/support/<%= article.id %>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ic-distributor.com/"},
+    {"@type": "ListItem", "position": 2, "name": "<%= brand.displayName %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/"},
+    {"@type": "ListItem", "position": 3, "name": "Support", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/support/"},
+    {"@type": "ListItem", "position": 4, "name": "<%= article.title %>", "item": "https://ic-distributor.com/<%= brand.name.toLowerCase() %>/support/<%= article.id %>"}
+  ]
+}
+</script>
   <meta name="robots" content="index, follow">
 </head>
 <body>
