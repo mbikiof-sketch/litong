@@ -11,6 +11,7 @@
     "fix:output-links": "node scripts/fix-output-links.js",
     "redirects": "node scripts/generate-redirect-map.js",
     "gsc": "node scripts/gsc.js",
+    "gsc:report": "node scripts/gsc.js report",
     "validate": "node scripts/validate-brand-data.js",
     "validate:brand": "node scripts/validate-brand-data.js --brand",
     "validate:all": "node scripts/validate-brand-data.js --all",

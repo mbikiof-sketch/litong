@@ -177,7 +177,83 @@ async function main() {
     console.log('submit status:', r.status, r.ok ? 'OK' : JSON.stringify(r.json));
     return;
   }
-  console.log('Commands: sites | sitemaps | queries | opportunities | inspect | submit');
+  if (cmd === 'report') {
+    const site = a1 || DEFAULT_SITE;
+    const days = parseInt(a2 || '90', 10);
+    const fmt = d => d.toISOString().slice(0, 10);
+    const startDate = fmt(new Date(Date.now() - days * 864e5));
+    const endDate = fmt(new Date());
+    const q = async (dims) => {
+      const body = { startDate, endDate, dimensions: dims, rowLimit: 1000 };
+      const r = await api(token, 'POST', `https://searchconsole.googleapis.com/webmasters/v3/sites/${S(site)}/searchAnalytics/query`, body);
+      return (r.ok && r.json.rows) ? r.json.rows.map(x => ({ k: x.keys ? x.keys.join(' / ') : '', clicks: x.clicks, impressions: x.impressions, ctr: x.ctr, position: x.position })) : [];
+    };
+    const byQuery = await q(['query']);
+    const byPage = await q(['page']);
+    const byDate = await q(['date']);
+    const totalClicks = byDate.reduce((n, x) => n + x.clicks, 0);
+    const totalImpr = byDate.reduce((n, x) => n + x.impressions, 0);
+    const winnable = byQuery.filter(x => x.impressions >= 1 && x.position > 5 && x.position <= 50).sort((a, b) => b.impressions - a.impressions);
+
+    // sample URLs from sitemap for coverage check
+    let sample = [];
+    const smPath = path.join(ROOT, 'output', 'sitemap.xml');
+    if (fs.existsSync(smPath)) {
+      const locs = [...fs.readFileSync(smPath, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+      const step = Math.max(1, Math.floor(locs.length / 15));
+      for (let i = 0; i < locs.length && sample.length < 15; i += step) sample.push(locs[i]);
+    }
+    const inspections = [];
+    for (const u of sample) {
+      const r = await api(token, 'POST', 'https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', { inspectionUrl: u, siteUrl: site });
+      const idx = r.json && r.json.inspectionResult && r.json.inspectionResult.indexStatusResult;
+      inspections.push({ url: u, verdict: idx ? idx.verdict : '?', state: idx ? idx.coverageState : JSON.stringify(r.json).slice(0, 60), crawl: idx ? (idx.lastCrawlTime || '-') : '-' });
+    }
+    const tally = {};
+    inspections.forEach(x => { tally[x.state] = (tally[x.state] || 0) + 1; });
+
+    const L = [];
+    L.push(`# GSC 周报 — ${site}`);
+    L.push('');
+    L.push(`- 生成时间: ${new Date().toISOString().replace('T', ' ').slice(0, 19)}`);
+    L.push(`- 周期: 近 ${days} 天 (${startDate} ~ ${endDate})`);
+    L.push('');
+    L.push(`## 1. 汇总`);
+    L.push(`- 点击 **${totalClicks}** | 曝光 **${totalImpr}** | 平均CTR ${totalImpr ? (totalClicks / totalImpr * 100).toFixed(1) : 0}%`);
+    L.push(`- 有曝光的查询词: **${byQuery.length}** | 有曝光的页面: **${byPage.length}**`);
+    L.push('');
+    L.push(`## 2. 可赢词（排名 6–50，优先优化）`);
+    L.push(winnable.length ? '| 查询 | 曝光 | 排名 |\n|---|---|---|' : '_(无)_');
+    winnable.slice(0, 40).forEach(x => L.push(`| ${x.k} | ${x.impressions} | ${x.position.toFixed(1)} |`));
+    L.push('');
+    L.push(`## 3. Top 查询（按曝光）`);
+    L.push(byQuery.length ? '| 查询 | 点击 | 曝光 | CTR | 排名 |\n|---|---|---|---|---|' : '_(无)_');
+    byQuery.sort((a, b) => b.impressions - a.impressions).slice(0, 40).forEach(x => L.push(`| ${x.k} | ${x.clicks} | ${x.impressions} | ${(x.ctr * 100).toFixed(1)}% | ${x.position.toFixed(1)} |`));
+    L.push('');
+    L.push(`## 4. Top 页面（按曝光）`);
+    L.push(byPage.length ? '| 页面 | 点击 | 曝光 | 排名 |\n|---|---|---|---|' : '_(无)_');
+    byPage.sort((a, b) => b.impressions - a.impressions).slice(0, 40).forEach(x => L.push(`| ${x.k} | ${x.clicks} | ${x.impressions} | ${x.position.toFixed(1)} |`));
+    L.push('');
+    L.push(`## 5. 收录抽查（sitemap 均匀抽样）`);
+    L.push('| URL | 状态 | 上次抓取 |\n|---|---|---|');
+    inspections.forEach(x => L.push(`| ${x.url} | ${x.state} | ${x.crawl} |`));
+    L.push('');
+    L.push('**状态统计:** ' + Object.entries(tally).map(([k, v]) => `${k}=${v}`).join(' | '));
+    L.push('');
+    L.push(`## 6. 每日趋势`);
+    L.push('| 日期 | 曝光 | 点击 |\n|---|---|---|');
+    byDate.slice(-30).forEach(x => L.push(`| ${x.k} | ${x.impressions} | ${x.clicks} |`));
+    L.push('');
+
+    const outDir = path.join(ROOT, 'reports');
+    fs.mkdirSync(outDir, { recursive: true });
+    const outFile = path.join(outDir, `gsc-report-${endDate}.md`);
+    fs.writeFileSync(outFile, L.join('\n'), 'utf8');
+    console.log(`✓ report: ${path.relative(ROOT, outFile)}`);
+    console.log(`  点击 ${totalClicks} | 曝光 ${totalImpr} | 词 ${byQuery.length} | 页面 ${byPage.length} | 可赢 ${winnable.length}`);
+    return;
+  }
+  console.log('Commands: sites | sitemaps | queries | pages | dates | opportunities | inspect | submit | report');
 }
 
 main().catch(e => { console.error('ERROR:', e.message); process.exit(1); });
