@@ -14,7 +14,7 @@
   "faqs": [
     {
       "question": "What product categories does SouthChip offer?",
-      "answer": "SouthChip offers four main product categories for power management: (1) Battery Charger ICs - Linear and switching chargers for Li-ion, Li-polymer, and LiFePO4 batteries with charge currents from 100mA to 5A. (2) Fuel Gauge ICs - Battery monitoring solutions with impedance tracking for accurate SOC and SOH reporting. (3) DC-DC Converters - Buck, boost, and buck-boost converters for various voltage conversion requirements. (4) Power Path Management - Intelligent power switching and load management ICs. Each category includes multiple product families optimized for different applications, battery configurations, and performance requirements. As an authorized SouthChip distributor, LiTong provides comprehensive product selection guidance.",
+      "answer": "SouthChip offers four main product categories for power management: (1) Battery Charger ICs - Linear and switching chargers for Li-ion, Li-polymer, and LiFePO4 batteries with charge currents from 100mA to 5A. (2) Fuel Gauge ICs - Battery monitoring solutions with impedance tracking for accurate SOC and SOH reporting. (3) DC-DC Converters - Buck, boost, and buck-boost converters for various voltage conversion requirements. (4) Power Path Management - Intelligent power switching and load management ICs. Each category includes multiple product families optimized for different applications, battery configurations, and performance requirements. As a core SouthChip distributor, LiTong provides comprehensive product selection guidance.",
       "decisionGuide": "Browse the product categories below or contact LiTong FAEs for personalized product recommendations.",
       "keywords": [
         "SouthChip products",
@@ -45,13 +45,13 @@
     },
     {
       "question": "Where can I buy SouthChip products?",
-      "answer": "SouthChip products are available through authorized distributors including LiTong. As an authorized SouthChip distributor, LiTong offers: (1) Full product portfolio - All SouthChip battery chargers, fuel gauges, DC-DC converters, and power management ICs. (2) Technical support - Experienced FAEs provide product selection, application design, and troubleshooting assistance. (3) Local inventory - Stocked products for fast delivery. (4) Competitive pricing - Volume discounts and flexible payment terms. (5) Quality assurance - 100% genuine products with full manufacturer warranty. (6) Value-added services - Programming, testing, and kitting services available. Contact LiTong sales for quotations, samples, and delivery schedules.",
+      "answer": "SouthChip products are available through core distributors including LiTong. As a core SouthChip distributor, LiTong offers: (1) Full product portfolio - All SouthChip battery chargers, fuel gauges, DC-DC converters, and power management ICs. (2) Technical support - Experienced FAEs provide product selection, application design, and troubleshooting assistance. (3) Local inventory - Stocked products for fast delivery. (4) Competitive pricing - Volume discounts and flexible payment terms. (5) Quality assurance - 100% genuine products with full manufacturer warranty. (6) Value-added services - Programming, testing, and kitting services available. Contact LiTong sales for quotations, samples, and delivery schedules.",
       "decisionGuide": "Contact LiTong for SouthChip product availability, pricing, and technical support.",
       "keywords": [
         "SouthChip distributor",
         "buy SouthChip",
         "LiTong",
-        "authorized distributor"
+        "core distributor"
       ]
     },
     {
@@ -72,7 +72,7 @@
       "name": "Battery Charger ICs",
       "slug": "battery-charger-ics",
       "description": "High-efficiency linear and switching battery chargers supporting Li-ion, Li-polymer, and LiFePO4 batteries with comprehensive protection features.",
-      "longDescription": "SouthChip Battery Charger ICs provide complete charging solutions for single-cell and multi-cell battery applications. The portfolio includes both linear chargers (SC series) for cost-sensitive low-current applications and switching chargers (SC8 series) for high-efficiency fast charging. These chargers support various battery chemistries including Li-ion, Li-polymer, and LiFePO4 with automatic chemistry detection on select models. Key features include high integration minimizing external components, comprehensive safety protection (OVP, OCP, OTP, short-circuit), thermal regulation for safe operation, and flexible charge current programming. Advanced features such as power path management, USB OTG support, and JEITA-compliant temperature-dependent charging are available on select models. SouthChip chargers are widely used in smartphones, tablets, power banks, TWS earbuds, portable medical devices, and IoT applications. As an authorized SouthChip distributor, LiTong provides comprehensive product selection guidance and technical support for battery charger applications.",
+      "longDescription": "SouthChip Battery Charger ICs provide complete charging solutions for single-cell and multi-cell battery applications. The portfolio includes both linear chargers (SC series) for cost-sensitive low-current applications and switching chargers (SC8 series) for high-efficiency fast charging. These chargers support various battery chemistries including Li-ion, Li-polymer, and LiFePO4 with automatic chemistry detection on select models. Key features include high integration minimizing external components, comprehensive safety protection (OVP, OCP, OTP, short-circuit), thermal regulation for safe operation, and flexible charge current programming. Advanced features such as power path management, USB OTG support, and JEITA-compliant temperature-dependent charging are available on select models. SouthChip chargers are widely used in smartphones, tablets, power banks, TWS earbuds, portable medical devices, and IoT applications. As a core SouthChip distributor, LiTong provides comprehensive product selection guidance and technical support for battery charger applications.",
       "parameters": [
         "Charge Current",
         "Charge Voltage",
@@ -733,7 +733,7 @@
       "name": "Fuel Gauge ICs",
       "slug": "fuel-gauge-ics",
       "description": "Accurate battery fuel gauge solutions with impedance tracking technology for precise state-of-charge and state-of-health monitoring.",
-      "longDescription": "SouthChip Fuel Gauge ICs provide accurate battery monitoring using advanced impedance tracking technology. These ICs continuously measure battery voltage, current, and temperature to calculate precise state-of-charge (SOC) and state-of-health (SOH) information. The impedance tracking algorithm compensates for battery aging and temperature effects, maintaining accuracy throughout the battery's lifetime. Key features include high-precision ADC for voltage and current measurement, integrated temperature sensor, cycle counting, and comprehensive battery health reporting. The fuel gauges communicate with host processors via I2C or HDQ interface, providing real-time battery status information. Applications include smartphones, tablets, laptops, power tools, and any battery-powered device requiring accurate battery monitoring. As an authorized SouthChip distributor, LiTong provides fuel gauge selection guidance and integration support.",
+      "longDescription": "SouthChip Fuel Gauge ICs provide accurate battery monitoring using advanced impedance tracking technology. These ICs continuously measure battery voltage, current, and temperature to calculate precise state-of-charge (SOC) and state-of-health (SOH) information. The impedance tracking algorithm compensates for battery aging and temperature effects, maintaining accuracy throughout the battery's lifetime. Key features include high-precision ADC for voltage and current measurement, integrated temperature sensor, cycle counting, and comprehensive battery health reporting. The fuel gauges communicate with host processors via I2C or HDQ interface, providing real-time battery status information. Applications include smartphones, tablets, laptops, power tools, and any battery-powered device requiring accurate battery monitoring. As a core SouthChip distributor, LiTong provides fuel gauge selection guidance and integration support.",
       "parameters": [
         "Battery Type",
         "Voltage Accuracy",
@@ -948,7 +948,7 @@
             },
             {
               "question": "What is the price of SC2731?",
-              "answer": "Pricing for SC2731 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As an authorized SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
+              "answer": "Pricing for SC2731 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As a core SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
               "decisionGuide": "Contact LiTong sales for formal pricing quotations.",
               "keywords": [
                 "pricing",
@@ -1398,7 +1398,7 @@
       "name": "DC-DC Converters",
       "slug": "dc-dc-converters",
       "description": "High-efficiency buck, boost, and buck-boost converters with wide input voltage range and excellent load transient response.",
-      "longDescription": "SouthChip DC-DC Converters provide efficient voltage conversion for various power management applications. The portfolio includes synchronous buck converters for step-down applications, boost converters for step-up applications, and buck-boost converters for applications requiring both step-up and step-down capability. These converters feature high efficiency (up to 96%), fast transient response, and wide input voltage ranges. Advanced features include programmable switching frequency, power-good indicators, soft-start, and comprehensive protection. The compact packages and high integration minimize external component count and PCB area. Applications include smartphone power management, tablet systems, industrial equipment, and IoT devices. As an authorized SouthChip distributor, LiTong provides DC-DC converter selection guidance and design support.",
+      "longDescription": "SouthChip DC-DC Converters provide efficient voltage conversion for various power management applications. The portfolio includes synchronous buck converters for step-down applications, boost converters for step-up applications, and buck-boost converters for applications requiring both step-up and step-down capability. These converters feature high efficiency (up to 96%), fast transient response, and wide input voltage ranges. Advanced features include programmable switching frequency, power-good indicators, soft-start, and comprehensive protection. The compact packages and high integration minimize external component count and PCB area. Applications include smartphone power management, tablet systems, industrial equipment, and IoT devices. As a core SouthChip distributor, LiTong provides DC-DC converter selection guidance and design support.",
       "parameters": [
         "Input Voltage",
         "Output Current",
@@ -1610,7 +1610,7 @@
             },
             {
               "question": "What is the price of SC8105?",
-              "answer": "Pricing for SC8105 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As an authorized SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
+              "answer": "Pricing for SC8105 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As a core SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
               "decisionGuide": "Contact LiTong sales for formal pricing quotations.",
               "keywords": [
                 "pricing",
@@ -2051,7 +2051,7 @@
       "name": "Power Path Management",
       "slug": "power-path-management",
       "description": "Intelligent power path management ICs for seamless power switching between battery and adapter with priority control.",
-      "longDescription": "SouthChip Power Path Management ICs provide intelligent control of power flow between multiple sources and loads. These devices enable seamless switching between battery and external power, prioritization of power sources, and protection against fault conditions. Key features include automatic source selection, ideal diode operation with low voltage drop, current limiting, and comprehensive protection. The power path management solutions simplify system design by integrating multiple functions that would otherwise require discrete components. Applications include smartphones, tablets, power banks, and any portable device requiring intelligent power management. As an authorized SouthChip distributor, LiTong provides power path management solution selection and design support.",
+      "longDescription": "SouthChip Power Path Management ICs provide intelligent control of power flow between multiple sources and loads. These devices enable seamless switching between battery and external power, prioritization of power sources, and protection against fault conditions. Key features include automatic source selection, ideal diode operation with low voltage drop, current limiting, and comprehensive protection. The power path management solutions simplify system design by integrating multiple functions that would otherwise require discrete components. Applications include smartphones, tablets, power banks, and any portable device requiring intelligent power management. As a core SouthChip distributor, LiTong provides power path management solution selection and design support.",
       "parameters": [
         "Input Voltage",
         "System Current",
@@ -2243,7 +2243,7 @@
             },
             {
               "question": "What is the price of SC5328?",
-              "answer": "Pricing for SC5328 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As an authorized SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
+              "answer": "Pricing for SC5328 depends on order volume: (1) Sample pricing - Contact LiTong for sample pricing. (2) Volume pricing - Tiered pricing structure with discounts at 1K, 10K, 100K, and higher volumes. (3) Distribution pricing - As a core SouthChip distributor, LiTong offers competitive pricing with flexible terms. (4) Price stability - SouthChip maintains stable pricing with minimal fluctuations. (5) Alternative options - LiTong can suggest pin-compatible alternatives if cost optimization is needed. Contact LiTong sales for formal quotations with your forecast volumes and delivery requirements.",
               "decisionGuide": "Contact LiTong sales for formal pricing quotations.",
               "keywords": [
                 "pricing",

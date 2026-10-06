@@ -64,7 +64,7 @@
         },
         {
           "title": "Comprehensive Technical Support",
-          "description": "As an authorized Loongson distributor, we provide end-to-end technical support including design review, debugging assistance, and supply chain management. Our FAE team has deep expertise in Loongson platforms and can guide you from concept to production."
+          "description": "As a core Loongson distributor, we provide end-to-end technical support including design review, debugging assistance, and supply chain management. Our FAE team has deep expertise in Loongson platforms and can guide you from concept to production."
         }
       ],
       "bomList": [
@@ -151,7 +151,7 @@
           "Prototype with evaluation boards before committing to custom hardware",
           "Conduct thorough real-time performance testing with actual workload",
           "Plan for software ecosystem compatibility and migration",
-          "Establish relationships with authorized distributors for supply planning"
+          "Establish relationships with core distributors for supply planning"
         ],
         "content": "The Loongson industrial control solution is paradigm shift for customers seeking technology independence without sacrificing performance or reliability. In my 18 years supporting industrial customers, I've seen the evolution from proprietary controllers to x86-based systems, and now to domestic alternatives. The 2K1000/2K2000 processors offer a compelling combination of real-time capability, industrial interfaces, and supply security. What impresses me most is the maturity of the ecosystem - the BSP support, toolchain, and documentation rival established platforms. For customers migrating from other architectures, the learning curve is manageable, and the benefits of supply chain security are significant. I particularly recommend this solution for government-mandated domestic technology projects and for companies prioritizing long-term supply stability.",
         "decisionLogic": "The decision framework for selecting Loongson industrial solutions involves evaluating several key factors. First, assess the real-time requirements - Loongson processors can achieve sub-millisecond latencies with proper configuration, suitable for most industrial control applications. Second, evaluate interface requirements - the integrated CAN, multiple UARTs, and Ethernet typically eliminate the need for external interface chips. Third, consider environmental requirements - industrial temperature grade and fanless operation capability address harsh environment needs. Fourth, analyze supply chain priorities - domestic technology and long-term availability provide strategic advantages. Finally, assess software ecosystem fit - Linux RTOS and industrial protocol stacks are well-supported. When these factors match customer priorities, Loongson offers a superior value proposition.",
@@ -292,7 +292,7 @@
         },
         {
           "title": "Comprehensive Technical Support",
-          "description": "As an authorized Loongson distributor, we provide end-to-end technical support including design review, debugging assistance, and supply chain management. Our FAE team has deep expertise in Loongson platforms and can guide you from concept to production."
+          "description": "As a core Loongson distributor, we provide end-to-end technical support including design review, debugging assistance, and supply chain management. Our FAE team has deep expertise in Loongson platforms and can guide you from concept to production."
         }
       ],
       "bomList": [
@@ -435,7 +435,7 @@
         },
         {
           "question": "What support is available for enterprise deployments?",
-          "answer": "Comprehensive enterprise support is available for Loongson desktop deployments. Hardware support includes warranty service, spare parts, and on-site support options. Software support covers OS configuration, application compatibility, and troubleshooting. Deployment services include pilot testing, image preparation, and rollout planning. Training is available for IT staff and end users. Long-term support agreements ensure continued software updates and security patches. As an authorized distributor, we provide single-point-of-contact support coordinating with Loongson engineering when needed. Custom support packages can be tailored to enterprise requirements.",
+          "answer": "Comprehensive enterprise support is available for Loongson desktop deployments. Hardware support includes warranty service, spare parts, and on-site support options. Software support covers OS configuration, application compatibility, and troubleshooting. Deployment services include pilot testing, image preparation, and rollout planning. Training is available for IT staff and end users. Long-term support agreements ensure continued software updates and security patches. As a core distributor, we provide single-point-of-contact support coordinating with Loongson engineering when needed. Custom support packages can be tailored to enterprise requirements.",
           "decisionGuide": "Engage with our enterprise support team for deployment planning. We offer comprehensive support packages for organizations of all sizes.",
           "keywords": [
             "Loongson enterprise support",
@@ -489,7 +489,7 @@
     },
     {
       "question": "What support is available for Loongson solution development?",
-      "answer": "Comprehensive support is available for Loongson solution development including: hardware reference designs and schematics, BSP (Board Support Package) with drivers and kernel, development tools and toolchain, technical documentation and application notes, FAE support for design review and debugging, and training programs for development teams. As an authorized distributor, we provide single-point-of-contact support coordinating with Loongson engineering for complex requirements. Custom design services are available for specialized applications.",
+      "answer": "Comprehensive support is available for Loongson solution development including: hardware reference designs and schematics, BSP (Board Support Package) with drivers and kernel, development tools and toolchain, technical documentation and application notes, FAE support for design review and debugging, and training programs for development teams. As a core distributor, we provide single-point-of-contact support coordinating with Loongson engineering for complex requirements. Custom design services are available for specialized applications.",
       "decisionGuide": "Engage with our FAE team early in your design cycle for optimal support and guidance.",
       "keywords": [
         "Loongson development support",

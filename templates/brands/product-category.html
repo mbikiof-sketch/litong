@@ -390,7 +390,7 @@
   <section class="category-hero">
     <div class="container">
       <h1><%= brand.displayName %> <%= category.name %></h1>
-      <p>Authorized Distributor | In Stock | Technical Support | Fast Delivery</p>
+      <p>Core Distributor | In Stock | Technical Support | Fast Delivery</p>
     </div>
   </section>
 
@@ -430,7 +430,16 @@
             <div class="category-description">
               <h2>About <%= category.name %></h2>
               <p><%= category.description %></p>
-              <p>As an authorized distributor of <%= brand.displayName %>, BeiLuo provides a comprehensive range of <%= category.name %> products. These products are widely used in industrial control, automotive electronics, consumer electronics, and communication equipment. We offer a complete product line with multiple series to meet various application requirements. All products are genuine and original, backed by professional technical support and comprehensive after-sales service.</p>
+              <%
+                var _ld = category.longDescription;
+                var _ldParas = _ld ? (Array.isArray(_ld) ? _ld : String(_ld).split(/\n\n+/)) : [];
+                _ldParas = _ldParas.filter(function(p){ return p && String(p).trim().length > 0; });
+              %>
+              <% if (_ldParas.length > 0) { %>
+                <% _ldParas.forEach(function(p) { %><p><%= String(p).trim() %></p><% }); %>
+              <% } else { %>
+                <p>As a core distributor of <%= brand.displayName %>, BeiLuo provides a comprehensive range of <%= category.name %> products. These products are widely used in industrial control, automotive electronics, consumer electronics, and communication equipment. We offer a complete product line with multiple series to meet various application requirements. All products are genuine and original, backed by professional technical support and comprehensive after-sales service.</p>
+              <% } %>
               <a href="/<%= brand.name.toLowerCase() %>/support/how-to-select-<%= category.id %>" class="selection-guide-link">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
                 Selection Guide: How to Choose the Right <%= category.name %>

@@ -1,6 +1,6 @@
 {
-  "seoTitle": "GigaDevice Solutions | Embedded Memory and MCU Applications | Authorized Distributor",
-  "seoDescription": "Explore GigaDevice application solutions for industrial control, IoT, automotive, and consumer electronics. Professional technical support from authorized distributor.",
+  "seoTitle": "GigaDevice Solutions | Embedded Memory and MCU Applications | Core Distributor",
+  "seoDescription": "Explore GigaDevice application solutions for industrial control, IoT, automotive, and consumer electronics. Professional technical support from core distributor.",
   "seoKeywords": [
     "GigaDevice solutions",
     "GigaDevice distributor",
@@ -13,7 +13,7 @@
   "faqs": [
     {
       "question": "What application solutions does GigaDevice offer for industrial control systems?",
-      "answer": "GigaDevice provides comprehensive solutions for industrial control applications including: 1) High-reliability NOR Flash for firmware storage in PLCs and industrial controllers, 2) GD32F4 series MCUs with advanced timers and communication interfaces for motor control and automation, 3) SPI NAND Flash for data logging and HMI storage, 4) Wide temperature range products (-40°C to +85°C or +125°C) for harsh industrial environments. These solutions offer deterministic performance, long-term supply assurance, and excellent EMC characteristics required in industrial applications. As an authorized distributor, we provide complete reference designs, software examples, and technical support for industrial system implementation.",
+      "answer": "GigaDevice provides comprehensive solutions for industrial control applications including: 1) High-reliability NOR Flash for firmware storage in PLCs and industrial controllers, 2) GD32F4 series MCUs with advanced timers and communication interfaces for motor control and automation, 3) SPI NAND Flash for data logging and HMI storage, 4) Wide temperature range products (-40°C to +85°C or +125°C) for harsh industrial environments. These solutions offer deterministic performance, long-term supply assurance, and excellent EMC characteristics required in industrial applications. As a core distributor, we provide complete reference designs, software examples, and technical support for industrial system implementation.",
       "decisionGuide": "For industrial control applications, evaluate GigaDevice's industrial-grade products with extended temperature ranges. Contact our FAE team for reference designs and EMC optimization guidance.",
       "keywords": [
         "GigaDevice industrial solutions",
@@ -43,7 +43,7 @@
     },
     {
       "question": "How does GigaDevice support automotive electronics applications?",
-      "answer": "GigaDevice supports automotive electronics with AEC-Q100 qualified products: 1) Automotive-grade NOR Flash - GD25Q series with Grade 1 (-40°C to +125°C) qualification for infotainment, instrument clusters, and ADAS systems, 2) GD32A series MCUs - specifically designed for automotive applications with enhanced reliability features, 3) Long-term supply commitment - 10-15 year supply assurance for automotive programs, 4) PPAP documentation - complete Production Part Approval Process support available through authorized distributors. These products meet the stringent reliability requirements of automotive applications including extended temperature operation, high EMC immunity, and zero-defect quality targets. As an authorized distributor, we provide automotive-grade product qualification reports, PPAP documentation, and application engineering support for automotive system design.",
+      "answer": "GigaDevice supports automotive electronics with AEC-Q100 qualified products: 1) Automotive-grade NOR Flash - GD25Q series with Grade 1 (-40°C to +125°C) qualification for infotainment, instrument clusters, and ADAS systems, 2) GD32A series MCUs - specifically designed for automotive applications with enhanced reliability features, 3) Long-term supply commitment - 10-15 year supply assurance for automotive programs, 4) PPAP documentation - complete Production Part Approval Process support available through core distributors. These products meet the stringent reliability requirements of automotive applications including extended temperature operation, high EMC immunity, and zero-defect quality targets. As a core distributor, we provide automotive-grade product qualification reports, PPAP documentation, and application engineering support for automotive system design.",
       "decisionGuide": "For automotive applications, specify AEC-Q100 qualified GigaDevice products. Contact our automotive team for PPAP documentation and long-term supply agreements.",
       "keywords": [
         "GigaDevice automotive grade",
@@ -53,7 +53,7 @@
     },
     {
       "question": "What development resources are available for GigaDevice solutions?",
-      "answer": "GigaDevice provides comprehensive development resources for solution implementation: 1) Evaluation boards - dedicated boards for NOR Flash, NAND Flash, and each MCU series with comprehensive examples, 2) Software SDK - GD32 Firmware Library with HAL and LL drivers, middleware stacks, and RTOS integration, 3) Application notes - detailed guides for specific applications like motor control, power conversion, and communication protocols, 4) Reference designs - complete schematics and PCB layouts for typical applications, 5) Debug tools - GD-Link programmer/debugger and support for J-Link, 6) IDE support - Keil MDK, IAR EWARM, and GCC toolchains. As an authorized distributor, we provide additional value-added services including schematic review, debugging assistance, custom driver development, and on-site technical support. Our FAE team has deep expertise in GigaDevice applications and can provide tailored guidance for your specific design challenges.",
+      "answer": "GigaDevice provides comprehensive development resources for solution implementation: 1) Evaluation boards - dedicated boards for NOR Flash, NAND Flash, and each MCU series with comprehensive examples, 2) Software SDK - GD32 Firmware Library with HAL and LL drivers, middleware stacks, and RTOS integration, 3) Application notes - detailed guides for specific applications like motor control, power conversion, and communication protocols, 4) Reference designs - complete schematics and PCB layouts for typical applications, 5) Debug tools - GD-Link programmer/debugger and support for J-Link, 6) IDE support - Keil MDK, IAR EWARM, and GCC toolchains. As a core distributor, we provide additional value-added services including schematic review, debugging assistance, custom driver development, and on-site technical support. Our FAE team has deep expertise in GigaDevice applications and can provide tailored guidance for your specific design challenges.",
       "decisionGuide": "Start with GigaDevice evaluation boards and SDK for rapid prototyping. Leverage our FAE team for schematic review and debugging support during development.",
       "keywords": [
         "GigaDevice development tools",
@@ -78,7 +78,7 @@
       "keywords": [
         "GigaDevice technical support",
         "FAE engineering support",
-        "authorized distributor services"
+        "core distributor services"
       ]
     }
   ],
@@ -188,7 +188,7 @@
           "customer": "Motor Drive Manufacturer (Anonymous)",
           "industry": "Industrial Motor Control",
           "challenge": "A motor drive manufacturer required a cost-effective MCU solution for their new 3-phase inverter series targeting 0.75kW - 7.5kW applications. Challenges included: implementing Field Oriented Control (FOC) algorithm requiring DSP capabilities, dual ADC for simultaneous current sensing, tight cost targets for competitive pricing, and reliable supply for high-volume production.",
-          "solution": "We proposed the GigaDevice GD32F303 MCU with GD25Q64 NOR Flash. The GD32F303 features: 1) Cortex-M4 with DSP and FPU for FOC algorithm implementation, 2) Dual 12-bit ADCs with simultaneous sampling for current measurement, 3) Advanced timers with dead-time for PWM generation, 4) 30% cost advantage over competing solutions, 5) Excellent supply availability through authorized distribution.",
+          "solution": "We proposed the GigaDevice GD32F303 MCU with GD25Q64 NOR Flash. The GD32F303 features: 1) Cortex-M4 with DSP and FPU for FOC algorithm implementation, 2) Dual 12-bit ADCs with simultaneous sampling for current measurement, 3) Advanced timers with dead-time for PWM generation, 4) 30% cost advantage over competing solutions, 5) Excellent supply availability through core distribution.",
           "result": "The motor drive achieved 97% efficiency at rated load with smooth torque control. The FOC algorithm executed in 50us on the GD32F303, meeting real-time requirements. The customer achieved 30% MCU cost reduction and secured supply for 100,000 units annually. The design won a major industrial customer contract worth $2M annually."
         }
       ],

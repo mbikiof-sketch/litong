@@ -1,6 +1,6 @@
 {
   "seoTitle": "Xilinx FPGA Products | Zynq SoC & Versal ACAP Distributor Selection",
-  "seoDescription": "Complete Xilinx product portfolio including FPGAs, Zynq SoCs, Versal ACAPs, and Alveo accelerator cards. Technical specifications and selection guide from authorized distributor.",
+  "seoDescription": "Complete Xilinx product portfolio including FPGAs, Zynq SoCs, Versal ACAPs, and Alveo accelerator cards. Technical specifications and selection guide from core distributor.",
   "seoKeywords": [
     "Xilinx FPGA distributor",
     "Zynq SoC selection",
@@ -76,7 +76,7 @@
       "name": "FPGAs",
       "slug": "xilinx-fpgas",
       "description": "Xilinx FPGAs provide flexible programmable logic for hardware acceleration, prototyping, and production designs. From cost-effective Artix to high-performance Virtex families.",
-      "longDescription": "Xilinx FPGAs offer the industry's most comprehensive portfolio of programmable logic devices. As an authorized distributor, we provide the complete range from cost-effective Artix-7 for consumer applications to high-performance Virtex UltraScale+ for data center acceleration. Our FPGA families include: 1) Artix-7 - lowest cost, ideal for industrial and consumer applications, 2) Kintex-7 - best price-performance for communications and video, 3) Virtex-7 - maximum performance for networking and HPC, 4) UltraScale/UltraScale+ - 20nm/16nm technology for next-generation bandwidth. All devices feature industry-leading transceivers, abundant DSP resources, and flexible I/O. We provide technical support for architecture selection, design optimization, and supply chain management.",
+      "longDescription": "Xilinx FPGAs offer the industry's most comprehensive portfolio of programmable logic devices. As a core distributor, we provide the complete range from cost-effective Artix-7 for consumer applications to high-performance Virtex UltraScale+ for data center acceleration. Our FPGA families include: 1) Artix-7 - lowest cost, ideal for industrial and consumer applications, 2) Kintex-7 - best price-performance for communications and video, 3) Virtex-7 - maximum performance for networking and HPC, 4) UltraScale/UltraScale+ - 20nm/16nm technology for next-generation bandwidth. All devices feature industry-leading transceivers, abundant DSP resources, and flexible I/O. We provide technical support for architecture selection, design optimization, and supply chain management.",
       "parameters": [
         "Logic Cells",
         "Block RAM",
@@ -507,7 +507,7 @@
       "name": "SoCs",
       "slug": "xilinx-socs",
       "description": "Zynq SoCs combine ARM processors with programmable logic for embedded systems. From cost-effective Zynq-7000 to high-performance UltraScale+ MPSoC.",
-      "longDescription": "Xilinx Zynq SoCs revolutionize embedded system design by tightly integrating ARM processors with programmable logic on a single device. As an authorized distributor, we provide comprehensive selection guidance for both Zynq-7000 series with dual-core Cortex-A9 for cost-sensitive applications and UltraScale+ MPSoC with quad-core Cortex-A53, dual-core Cortex-R5, and Mali GPU for high-performance embedded processing. Key features include: 1) Heterogeneous processing - application processors plus real-time processors, 2) High-bandwidth connectivity - AXI interfaces between PS and PL, 3) Video acceleration - dedicated codec in EV variants, 4) Advanced security - TrustZone, secure boot, and crypto engines, 5) Functional safety - lock-step processors and ECC support. Ideal for automotive ADAS, industrial vision, medical imaging, and aerospace applications. Contact our FAE team for distributor selection support and supply chain continuity planning.",
+      "longDescription": "Xilinx Zynq SoCs revolutionize embedded system design by tightly integrating ARM processors with programmable logic on a single device. As a core distributor, we provide comprehensive selection guidance for both Zynq-7000 series with dual-core Cortex-A9 for cost-sensitive applications and UltraScale+ MPSoC with quad-core Cortex-A53, dual-core Cortex-R5, and Mali GPU for high-performance embedded processing. Key features include: 1) Heterogeneous processing - application processors plus real-time processors, 2) High-bandwidth connectivity - AXI interfaces between PS and PL, 3) Video acceleration - dedicated codec in EV variants, 4) Advanced security - TrustZone, secure boot, and crypto engines, 5) Functional safety - lock-step processors and ECC support. Ideal for automotive ADAS, industrial vision, medical imaging, and aerospace applications. Contact our FAE team for distributor selection support and supply chain continuity planning.",
       "parameters": [
         "Application Processor",
         "Real-time Processor",
@@ -930,7 +930,7 @@
       "name": "Versal ACAP",
       "slug": "xilinx-versal-acap",
       "description": "Versal ACAP is the industry's first adaptive compute acceleration platform, combining scalar engines, adaptable engines, and AI engines for next-generation computing.",
-      "longDescription": "Xilinx Versal ACAP is revolutionary leap in adaptive computing, combining multiple engine types on a single chip for unprecedented performance. As an authorized distributor, we provide comprehensive selection guidance for the complete Versal portfolio including AI Core series with up to 400 AI Engines for machine learning, and Premium series with hardened 400G Ethernet for networking. Key innovations include: 1) AI Engines - vector processors delivering 8 TOPS per engine for AI inference, 2) Scalar Engines - dual-core Cortex-A72 for application processing, 3) Adaptable Engines - next-gen FPGA fabric with 2x performance, 4) Network on Chip - 1 TB/s bandwidth between engines, 5) Advanced transceivers - up to 58 Gbps PAM4 for 400G connectivity. Versal delivers 10-100x performance gains for AI, 5G, radar, and data center applications. Contact our FAE team for distributor selection support and architecture evaluation.",
+      "longDescription": "Xilinx Versal ACAP is revolutionary leap in adaptive computing, combining multiple engine types on a single chip for unprecedented performance. As a core distributor, we provide comprehensive selection guidance for the complete Versal portfolio including AI Core series with up to 400 AI Engines for machine learning, and Premium series with hardened 400G Ethernet for networking. Key innovations include: 1) AI Engines - vector processors delivering 8 TOPS per engine for AI inference, 2) Scalar Engines - dual-core Cortex-A72 for application processing, 3) Adaptable Engines - next-gen FPGA fabric with 2x performance, 4) Network on Chip - 1 TB/s bandwidth between engines, 5) Advanced transceivers - up to 58 Gbps PAM4 for 400G connectivity. Versal delivers 10-100x performance gains for AI, 5G, radar, and data center applications. Contact our FAE team for distributor selection support and architecture evaluation.",
       "parameters": [
         "AI Engines",
         "DSP Engines",
@@ -1356,7 +1356,7 @@
       "name": "Alveo Accelerator Cards",
       "slug": "xilinx-alveo",
       "description": "Alveo data center accelerator cards deliver significant performance improvements for database, AI, and video processing workloads in cloud and on-premises deployments.",
-      "longDescription": "Xilinx Alveo accelerator cards bring the power of adaptive computing to modern data centers, delivering breakthrough performance for demanding workloads. As an authorized distributor, we provide comprehensive selection guidance for the complete Alveo portfolio including U50 for compact deployments, U55C with HBM2 for data-intensive applications, and U280 for maximum memory bandwidth. Key advantages include: 1) Database acceleration - 10-50x faster queries with FPGA preprocessing, 2) AI inference - sub-millisecond latency for real-time applications, 3) Video processing - up to 20x faster transcoding than CPUs, 4) Financial computing - microsecond-scale trading algorithms, 5) Flexible deployment - on-premises, cloud, or edge. All cards support Xilinx Runtime (XRT) and Vitis libraries for easy application development. Cloud providers including AWS, Azure, and Alibaba Cloud offer Alveo-based instances. Contact our FAE team for distributor selection support and deployment assistance.",
+      "longDescription": "Xilinx Alveo accelerator cards bring the power of adaptive computing to modern data centers, delivering breakthrough performance for demanding workloads. As a core distributor, we provide comprehensive selection guidance for the complete Alveo portfolio including U50 for compact deployments, U55C with HBM2 for data-intensive applications, and U280 for maximum memory bandwidth. Key advantages include: 1) Database acceleration - 10-50x faster queries with FPGA preprocessing, 2) AI inference - sub-millisecond latency for real-time applications, 3) Video processing - up to 20x faster transcoding than CPUs, 4) Financial computing - microsecond-scale trading algorithms, 5) Flexible deployment - on-premises, cloud, or edge. All cards support Xilinx Runtime (XRT) and Vitis libraries for easy application development. Cloud providers including AWS, Azure, and Alibaba Cloud offer Alveo-based instances. Contact our FAE team for distributor selection support and deployment assistance.",
       "parameters": [
         "FPGA",
         "HBM2 Memory",
@@ -1460,7 +1460,7 @@
         },
         {
           "question": "What support is available for Alveo deployment?",
-          "answer": "Alveo support resources: 1) Vitis Libraries - optimized for common workloads, 2) Application examples - reference designs for popular use cases, 3) Developer forums - community support from Xilinx, 4) Professional services - consulting for custom solutions, 5) Training - online courses and workshops. As an authorized distributor, we provide additional technical support for deployment and optimization.",
+          "answer": "Alveo support resources: 1) Vitis Libraries - optimized for common workloads, 2) Application examples - reference designs for popular use cases, 3) Developer forums - community support from Xilinx, 4) Professional services - consulting for custom solutions, 5) Training - online courses and workshops. As a core distributor, we provide additional technical support for deployment and optimization.",
           "decisionGuide": "Start with Vitis Libraries and examples. Contact FAE for custom workload optimization.",
           "keywords": [
             "Alveo support",
@@ -1774,7 +1774,7 @@
             },
             {
               "question": "What is the warranty and support for Alveo cards?",
-              "answer": "Alveo warranty and support: 1) Warranty - 1 year standard warranty, 2) Extended - additional coverage available, 3) Technical support - Xilinx support portal access, 4) Software updates - XRT and Vitis updates included, 5) Replacement - advance replacement for failed cards. As an authorized distributor, we provide additional support including deployment assistance and optimization consulting.",
+              "answer": "Alveo warranty and support: 1) Warranty - 1 year standard warranty, 2) Extended - additional coverage available, 3) Technical support - Xilinx support portal access, 4) Software updates - XRT and Vitis updates included, 5) Replacement - advance replacement for failed cards. As a core distributor, we provide additional support including deployment assistance and optimization consulting.",
               "decisionGuide": "Register card for warranty. Contact distributor for additional support services.",
               "keywords": [
                 "Alveo warranty",

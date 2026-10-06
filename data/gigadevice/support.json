@@ -1,6 +1,6 @@
 {
-  "seoTitle": "GigaDevice Technical Support | Application Notes | Authorized Distributor",
-  "seoDescription": "Access GigaDevice technical documentation, application notes, and selection guides. Professional FAE support from authorized distributor for NOR Flash, NAND Flash, and GD32 MCU.",
+  "seoTitle": "GigaDevice Technical Support | Application Notes | Core Distributor",
+  "seoDescription": "Access GigaDevice technical documentation, application notes, and selection guides. Professional FAE support from core distributor for NOR Flash, NAND Flash, and GD32 MCU.",
   "seoKeywords": [
     "GigaDevice technical support",
     "GigaDevice distributor",
@@ -12,7 +12,7 @@
   "faqs": [
     {
       "question": "How do I get technical support for GigaDevice products?",
-      "answer": "BeiLuo Electronics provides comprehensive technical support for GigaDevice products as an authorized distributor. Our support services include: 1) Pre-sales consultation - product selection guidance based on your application requirements, performance needs, and cost targets, 2) Schematic review - evaluation of your circuit design including MCU and memory interfaces, power supply, and signal integrity, 3) PCB layout guidance - recommendations for high-speed SPI routing, decoupling capacitor placement, and EMC optimization, 4) Software support - driver integration assistance, debugging support, and code optimization, 5) Sample provision - evaluation samples for prototyping and testing, 6) On-site support - FAE visits for complex design reviews and troubleshooting. Contact our technical support team via phone, email, or through our website contact form. For urgent issues, we offer priority support for high-volume production customers.",
+      "answer": "BeiLuo Electronics provides comprehensive technical support for GigaDevice products as a core distributor. Our support services include: 1) Pre-sales consultation - product selection guidance based on your application requirements, performance needs, and cost targets, 2) Schematic review - evaluation of your circuit design including MCU and memory interfaces, power supply, and signal integrity, 3) PCB layout guidance - recommendations for high-speed SPI routing, decoupling capacitor placement, and EMC optimization, 4) Software support - driver integration assistance, debugging support, and code optimization, 5) Sample provision - evaluation samples for prototyping and testing, 6) On-site support - FAE visits for complex design reviews and troubleshooting. Contact our technical support team via phone, email, or through our website contact form. For urgent issues, we offer priority support for high-volume production customers.",
       "decisionGuide": "Contact our FAE team early in your design cycle for optimal product selection. Submit schematic files for review before PCB layout to avoid common design issues.",
       "keywords": [
         "GigaDevice technical support",
@@ -22,7 +22,7 @@
     },
     {
       "question": "What documentation is available for GigaDevice products?",
-      "answer": "GigaDevice provides comprehensive documentation for all products: 1) Datasheets - detailed electrical specifications, timing parameters, and operating conditions for each device, 2) Reference manuals - comprehensive peripheral descriptions and register details for GD32 MCUs, 3) Application notes - detailed guides for specific topics like PCB layout, power management, and interface configuration, 4) User guides - step-by-step instructions for development tools and evaluation boards, 5) Programming manuals - Flash programming algorithms and memory interface timing, 6) Errata sheets - known issues and workarounds. As an authorized distributor, we provide access to all documentation and can offer additional application-specific guidance. All documentation is available in English. Software resources include: GD32 Firmware Library (HAL and LL drivers), example code for all peripherals, RTOS integration examples, and motor control libraries.",
+      "answer": "GigaDevice provides comprehensive documentation for all products: 1) Datasheets - detailed electrical specifications, timing parameters, and operating conditions for each device, 2) Reference manuals - comprehensive peripheral descriptions and register details for GD32 MCUs, 3) Application notes - detailed guides for specific topics like PCB layout, power management, and interface configuration, 4) User guides - step-by-step instructions for development tools and evaluation boards, 5) Programming manuals - Flash programming algorithms and memory interface timing, 6) Errata sheets - known issues and workarounds. As a core distributor, we provide access to all documentation and can offer additional application-specific guidance. All documentation is available in English. Software resources include: GD32 Firmware Library (HAL and LL drivers), example code for all peripherals, RTOS integration examples, and motor control libraries.",
       "decisionGuide": "Start with datasheets and reference manuals for hardware design. Use application notes for specific implementation guidance. Contact FAE for additional documentation or clarification.",
       "keywords": [
         "GigaDevice documentation",
@@ -42,7 +42,7 @@
     },
     {
       "question": "What development tools are available for GD32 MCUs?",
-      "answer": "GigaDevice supports a wide range of development tools for GD32 MCUs: 1) IDEs - Keil MDK (μVision), IAR Embedded Workbench, and GCC-based environments including Eclipse and VS Code, 2) Debug tools - GD-Link (GigaDevice's programmer/debugger), J-Link, ST-Link (compatible with GD32F1/F3), 3) Evaluation boards - comprehensive boards for each MCU series with examples and documentation, 4) Software SDK - GD32 Firmware Library with HAL (Hardware Abstraction Layer) and LL (Low Layer) drivers, middleware stacks including USB and TCP/IP, 5) RTOS support - FreeRTOS, RT-Thread, AliOS Things with ready-to-use ports, 6) Code examples - peripheral demos, communication protocols, and application templates. As an authorized distributor, we provide evaluation board support, debugging assistance, and can help resolve tool-related issues. The GD32 ecosystem is compatible with standard ARM development tools, making migration straightforward.",
+      "answer": "GigaDevice supports a wide range of development tools for GD32 MCUs: 1) IDEs - Keil MDK (μVision), IAR Embedded Workbench, and GCC-based environments including Eclipse and VS Code, 2) Debug tools - GD-Link (GigaDevice's programmer/debugger), J-Link, ST-Link (compatible with GD32F1/F3), 3) Evaluation boards - comprehensive boards for each MCU series with examples and documentation, 4) Software SDK - GD32 Firmware Library with HAL (Hardware Abstraction Layer) and LL (Low Layer) drivers, middleware stacks including USB and TCP/IP, 5) RTOS support - FreeRTOS, RT-Thread, AliOS Things with ready-to-use ports, 6) Code examples - peripheral demos, communication protocols, and application templates. As a core distributor, we provide evaluation board support, debugging assistance, and can help resolve tool-related issues. The GD32 ecosystem is compatible with standard ARM development tools, making migration straightforward.",
       "decisionGuide": "Use Keil MDK or IAR for professional development. GCC tools work well for cost-sensitive projects. Start with evaluation boards for rapid prototyping.",
       "keywords": [
         "GD32 development tools",
@@ -82,7 +82,7 @@
     },
     {
       "question": "What are the quality and reliability specifications for GigaDevice products?",
-      "answer": "GigaDevice products meet stringent quality and reliability standards: 1) Quality certifications - ISO 9001 (Quality Management), ISO 14001 (Environmental Management), AEC-Q100 (Automotive Electronics Council) for automotive-grade products, 2) Reliability specifications - NOR Flash: 100,000 program/erase cycles, 20-year data retention, NAND Flash: 100,000 P/E cycles (SLC), 10-year data retention, GD32 MCUs: 100,000 Flash write cycles, 10-year data retention at 85°C, 3) Temperature ranges - commercial (0°C to +70°C), industrial (-40°C to +85°C), automotive Grade 1 (-40°C to +125°C), 4) ESD protection - HBM 2kV, CDM 500V minimum for all products, 5) Package reliability - JEDEC compliant moisture sensitivity levels, RoHS compliant lead-free packages. GigaDevice performs comprehensive qualification testing including HTOL (High Temperature Operating Life), ESD, and latch-up testing. As an authorized distributor, we provide qualification reports and reliability documentation upon request.",
+      "answer": "GigaDevice products meet stringent quality and reliability standards: 1) Quality certifications - ISO 9001 (Quality Management), ISO 14001 (Environmental Management), AEC-Q100 (Automotive Electronics Council) for automotive-grade products, 2) Reliability specifications - NOR Flash: 100,000 program/erase cycles, 20-year data retention, NAND Flash: 100,000 P/E cycles (SLC), 10-year data retention, GD32 MCUs: 100,000 Flash write cycles, 10-year data retention at 85°C, 3) Temperature ranges - commercial (0°C to +70°C), industrial (-40°C to +85°C), automotive Grade 1 (-40°C to +125°C), 4) ESD protection - HBM 2kV, CDM 500V minimum for all products, 5) Package reliability - JEDEC compliant moisture sensitivity levels, RoHS compliant lead-free packages. GigaDevice performs comprehensive qualification testing including HTOL (High Temperature Operating Life), ESD, and latch-up testing. As a core distributor, we provide qualification reports and reliability documentation upon request.",
       "decisionGuide": "Select industrial grade for most applications. Choose automotive grade for harsh environments. Contact FAE for qualification reports and reliability documentation.",
       "keywords": [
         "GigaDevice quality",
@@ -171,7 +171,7 @@
         "",
         "## Conclusion",
         "",
-        "Proper NOR Flash selection ensures reliable system operation and allows for future expansion. GigaDevice GD25Q series offers excellent performance-to-price ratio with comprehensive density and package options. As an authorized distributor, we provide sample support and technical guidance for your selection process."
+        "Proper NOR Flash selection ensures reliable system operation and allows for future expansion. GigaDevice GD25Q series offers excellent performance-to-price ratio with comprehensive density and package options. As a core distributor, we provide sample support and technical guidance for your selection process."
       ],
       "tags": [
         "NOR Flash",
@@ -376,7 +376,7 @@
         "",
         "## Conclusion",
         "",
-        "GigaDevice SLC NAND Flash provides reliable high-density storage for embedded applications. Proper ECC implementation and file system selection are critical for data integrity. As an authorized distributor, we provide technical support for NAND integration including ECC implementation guidance."
+        "GigaDevice SLC NAND Flash provides reliable high-density storage for embedded applications. Proper ECC implementation and file system selection are critical for data integrity. As a core distributor, we provide technical support for NAND integration including ECC implementation guidance."
       ],
       "tags": [
         "NAND Flash",
@@ -592,7 +592,7 @@
         "",
         "## Conclusion",
         "",
-        "GD32 MCUs offer excellent performance-to-price ratio with comprehensive peripheral options. The series provides a migration path from STM32 with significant cost savings. As an authorized distributor, we provide evaluation boards, technical support, and migration assistance."
+        "GD32 MCUs offer excellent performance-to-price ratio with comprehensive peripheral options. The series provides a migration path from STM32 with significant cost savings. As a core distributor, we provide evaluation boards, technical support, and migration assistance."
       ],
       "tags": [
         "GD32",
@@ -852,7 +852,7 @@
         "",
         "## Conclusion",
         "",
-        "Following these PCB layout best practices ensures reliable operation of GigaDevice products. As an authorized distributor, we offer schematic and layout review services to help optimize your design."
+        "Following these PCB layout best practices ensures reliable operation of GigaDevice products. As a core distributor, we offer schematic and layout review services to help optimize your design."
       ],
       "tags": [
         "PCB Layout",
