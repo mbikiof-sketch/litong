@@ -149,7 +149,7 @@ async function main() {
     const days = parseInt(a2 || '28', 10);
     const fmt = d => d.toISOString().slice(0, 10);
     const body = { startDate: fmt(new Date(Date.now() - days * 864e5)), endDate: fmt(new Date()), dimensions: ['query'], rowLimit: 500 };
-    const r = await api(token, 'POST', `https://searchconsole.googleapis.com/webmasters/v3/sites/${S(site)}/searchanalytics/query`, body);
+    const r = await api(token, 'POST', `https://searchconsole.googleapis.com/webmasters/v3/sites/${S(site)}/searchAnalytics/query`, body);
     if (!r.ok) { console.log(JSON.stringify(r.json, null, 2)); return; }
     let rows = (r.json.rows || []).map(x => ({ query: x.keys[0], clicks: x.clicks, impressions: x.impressions, ctr: x.ctr, position: x.position }));
     if (cmd === 'opportunities') {
