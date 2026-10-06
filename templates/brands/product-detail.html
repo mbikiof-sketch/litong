@@ -13,11 +13,15 @@
   
   <!-- Product Schema -->
   <script type="application/ld+json">
+  <%
+    var _pdesc = (product.shortDescription || product.description || (product.descriptionParagraphs && product.descriptionParagraphs[0]) || '').replace(/\s+/g, ' ').trim();
+    if (!_pdesc) _pdesc = product.partNumber + ' from ' + (brand.displayName || brand.name);
+  %>
   {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "<%= product.partNumber %>",
-    "description": "<%= product.description %>",
+    "description": "<%= _pdesc %>",
     "brand": { "@type": "Brand", "name": "<%= brand.name %>" },
     "offers": {
       "@type": "Offer",

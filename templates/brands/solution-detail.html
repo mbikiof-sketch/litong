@@ -12,7 +12,11 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "<%= (solution.title || solution.name) %>",
-    "description": "<%= solution.description %>"
+    "description": "<%= solution.description %>",
+    "author": { "@type": "Organization", "name": "BeiLuo FAE Team" },
+    "publisher": { "@type": "Organization", "name": "BeiLuo Electronics", "url": "https://ic-distributor.com/" },
+    "datePublished": "<%= solution.publishDate || solution.date || '2026-01-01' %>",
+    "dateModified": "<%= solution.lastUpdated || solution.publishDate || solution.date || '2026-01-01' %>"
   }
   </script>
   

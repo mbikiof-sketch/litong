@@ -13,7 +13,9 @@
     "@type": "TechArticle",
     "headline": "<%= article.title %>",
     "author": { "@type": "Person", "name": "<%= ((article.author && article.author.name) || 'BeiLuo FAE') %>" },
-    "datePublished": "<%= article.publishDate %>"
+    "publisher": { "@type": "Organization", "name": "BeiLuo Electronics", "url": "https://ic-distributor.com/" },
+    "datePublished": "<%= article.publishDate || article.date || '2026-01-01' %>",
+    "dateModified": "<%= article.lastUpdated || article.publishDate || article.date || '2026-01-01' %>"
   }
   </script>
   
